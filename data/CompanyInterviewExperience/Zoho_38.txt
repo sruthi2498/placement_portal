@@ -1,0 +1,34 @@
+The selection process consists of 5 rounds and there were almost 350 people came for the process.
+Round 1:
+This round consists of 15 c questions and 10 aptitude questions and won’t be in MCQ format.
+Questions from c will be bit more difficult and it takes extreme understanding of c concepts to solve it. They will cover arrays, strings, pointers and functions mostly (90 % of questions). Focus on “output of c programs” in GeeksForGeeks and GeeksQuiz.
+There will be 28 sets and if you go through all sets then it is more than enough to clear the test. When it comes to aptitude questions, they will ask basic questions and basic hands on at quants and logical will get you through. They will give more priority to c questions rather than aptitude questions. So, focus on c part more. I cleared 11 c questions and 3 aptitude questions. They called me after 1 week and believe me there were only 27 people cleared this round.
+Round 2:
+This round consists of 6 competitive coding questions and you need to solve at least 4 to get you through.
+1) Given a number, convert it into corresponding alphabet.
+2) Given a Roman numeral, find its corresponding decimal value.
+https://www.geeksforgeeks.org/converting-roman-numerals-decimal-lying-1-3999/
+3) Write a program to print all permutations of a given string. Note here you need to take all combinations as well, say for the input ABC the output should be as follows:
+4) Write a program to rotate an n*n matrix 90,180,270,360 degree.
+https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/ is the solution for rotating a matrix 90 degree. For rotating the matrix 180,270,360 degree, u need to call the same method 2,3,4 times based on the input.
+5) https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+6) Write a program to convert a number into a mono-digit number.
+Conditions:
+a) You are allowed to add and subtract the consecutive digits (starting from left).
+b) You are allowed to do only one operation on a digit.
+c) You cannot perform any operation on a resultant digit of the previous operation.
+d) Your code should also find if a given number cannot be converted to a mono digit number.
+8 people cleared this round. They didn’t see any optimization in this round. Simply, completing 4 or more questions will get you through to the next round. The interviewers helped us to find some rare corner cases too if we miss anything.
+Round 3:
+We were asked to design an application program for n*n tic-tac-toe game. Here, you are expected to code with proper standards and in a most optimized way. And, in this round you need to find all the edge cases and corner cases yourself. The interviewers won’t help you if you miss anything. So, make sure you covered all the cases before showing output to the interviewers.
+https://www.geeksforgeeks.org/implementation-of-tic-tac-toe-game/
+Only 2 people cleared this round.
+Round 4:
+First of all, they asked me to explain the logic I have implemented for the previous application
+programming. Then, they asked me some oops questions, static keyword, difference between array list and linked list. Then they asked me to write a query for inner join, left join and right join. Finally, they asked me 2 puzzles to solve which are as follows:
+1)https://www.mathsisfun.com/puzzles/hourglasses-2-solution.htmlz
+2) http://www.geekinterview.com/question_details/46800
+It was only me who cleared this round and the other one didn’t make it.
+Round 5:
+HR round is just for formality and they asked me some typical HR questions like tell me about yourself, why zoho, will you go for higher studies, your salary expectation and finally they selected me.
+

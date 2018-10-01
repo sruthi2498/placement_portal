@@ -1,0 +1,26 @@
+Given Q queries. Each query contain a positive integer n. The task is to output the sum of sum of odd number digit contained in all the divisors of n.
+Examples :
+Input : Q = 2, n1 = 10, n2 = 36
+Output : 7 18
+For Query1,
+Divisors of 10 are 1, 2, 5, 10.
+Sum of odd digits in 1 is 1, in 2 is 0, in 5 is 5, in 10 is 1.
+So, sum became 7.
+For Query 2,
+Divisors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36.
+Sum of odd digits in 1 is 1, in 2 is 0, in 3 is 3, in 4 is 0,
+in 6 is 0, in 9 is 9, in 12 is 1, in 18 is 1, in 36 is 3.
+So, sum became 18.
+The idea is to precompute the sum of odd number digit of all the numbers. Also, we can you use the sum of odd number digit of the previous number to compute the sum of odd number digit of the current number.
+For example, to compute the sum of odd number digit of “123”, we can use the sum of odd number digit of “12” and “3”. Therefore, the sum of odd digit of “123” = sum of odd digit of “12” + add the last digit if it is odd (i.e 3).
+Now, to find the sum of the sum of odd number digit of the factors, we can you use the jump phenomenon of Sieve of Eratosthenes. So, for all possible factors, add their contribution to its multiples.
+For example, for 1 as the factor, add 1 (because 1 have only 1 odd digit) to all of its multiple.
+for 2 as the factor, add 0 to all the multiples of 2 i.e 2, 4, 8, …
+for 3 as the factor, add 1 to all the multiples of 3 i.e 3, 6, 9, …..
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

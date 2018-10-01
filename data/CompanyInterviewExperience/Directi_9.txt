@@ -1,0 +1,29 @@
+Recently Directi visited our campus for full time hiring for the position of Platform Engineer.
+Online Round:(90 min)
+It was conducted on codechef. There were 3 questions in online round :
+1. Standard 0/1 knapsack problem.
+2. You are given n cakes out of which all are same except one which is either heavier or lighter than all other cakes. There is a weight balance. You can keep equal number of cakes on both side of balance and find out which side is heavier, lighter or both sides have equal weight. Note that both sides have equal number of cakes and it is not possible for 2 cakes to be present on both the sides. You are given number of cakes(say n) and q queries each describing number of cakes on either side, cakes on left side, cakes on right side, and character representing balance which can be “=” or “”.
+3.There is a big Kingdom with n connected cities and m roads between these cities and some roads are got damaged and some are good.King of the kingdom wants to repair roads in such a way that repairing cost is minimum and each cities remain still connected.Repairing cost of each road is given and if road is good don’t need to repair that road.You need to output minimum cost required.
+whoever done at least 2 questions got shortlisted for next rounds.
+Next Rounds: There were 3 algorithm rounds after online test and you need to clear at least 2 algorithm rounds.
+If you will clear first two algorithm rounds then there will be direct final round for you. You have to give optimal algorithm with proper code to clear any algorithm round.
+
+Round -1:(45-60 min)
+You are given a binary matrix(contains only 0/1) and you are allowed to swap any number of columns of matrix.You need to find the maximum area of that rectangle which contains all ones.
+Time Complexity = O(m*n*log(n)) or O(m*n*log(m)) where m is number of rows  and n is number of columns.
+Round-2: (45-60 min)
+Given N balloons, if you burst ith balloon you get A[i?1]?A[i]?A[i+1] money and then (i-1)th and (i+1)th balloons become adjacent.Find maximum number of coins you can gather.Assume that we have 2 extra balloons 1 at leftmost and 1 at rightmost positions.
+Time Complexity = O(n^3) where n is number of elements in array.
+I have cleared first 2 algorithm rounds so they called me for final round.
+Final Round: (70-80 min)
+Interviewer first asked me to tell some interesting project which you have done during your academics.I told him my internship project  which went long(around 30 min).
+Then he asked me one another project from my resume which was Huffman encoding-decoding.
+Firstly he asked to tell about Huffman encoding with some example and then he asked to write the some advantages of Huffman encoding.
+Then he asked to write a code which will tell for given file Huffman encoding is better or normal unicode based encoding is better.
+I wrote the code which decides based on length of encoded file which encoding is best for that file.
+Tips:
+1. You should know every single thing which you have written in your resume.
+2. Interviewer are very helpful, always start with brute-force approach and keep telling them in which direction you are thinking.
+
+
+

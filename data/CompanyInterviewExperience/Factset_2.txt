@@ -1,0 +1,54 @@
+Round 1: Written (pen paper ) Test
+3 coding questions in 75 minutes.
+Q1. given a string of characters you have to delete the multiple occurrences of characters so as to make string come first in dictionary.
+eg. input: cdadabcc
+output:  adbc
+Q2. convert array(unsorted) to the pendulum array.
+input: 3 4 2 1 5
+output: 5 3 1 2 4
+input :  7 3 4 9 2 6
+output:  7 4 2 3 6 9
+Q3. given a binary search tree whose two nodes are violating its property. you have to detect those nodes.
+Round 2:technical interview(around 1 hr 45 mins)
+Q1. https://www.geeksforgeeks.org/find-whether-subarray-form-mountain-not/
+few variations are given by interviewer one by one.
+Q2. given an encrypted string. you have to find the kth character in the decrypted string.
+input: ab2c3 (encrypted string), k=8
+output: decrypted string will be   ababcababcababc
+so output is ‘a’
+Q3. given an array having some values.
+you have to add given integer in a given range and at last find the maximum element in array.
+operation is fixed i.e. addition
+input: arr[]={1, 2, 4, 3, 5}
+n=4, range{1, 3}
+n=2, range{0, 2}
+n=5, range{1, 3}
+output:
+initial array:         1 2 4 3 5
+after adding 4:     1 6 8 7 5
+after adding 2:     3 8 10 7 5
+after adding 5:     3 13 15 12 5
+final ans is 15
+Most important: **discussion continues until you give most optimized solution.**
+Round 3:Technical interview(1 hr 30 mins)
+Q1.    https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
+Q2. External Sorting
+Q3.  https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+Q4.   https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
+ 
+Round 4: HR round
+tell me about yourself.
+family background.
+why factset.
+is any problem with location.
+where do you see yourself after 5 years.
+any plan for further studies.
+what makes you different from other candidates.
+do you know any of your college senior working with factset.
+any questions you have?
+ 
+Suggestions:
+this company only focus on data structures and algorithms.
+Expects the most optimized solution from you.
+ 
+Finally 9 students got offer from our college and i was one of them 🙂

@@ -1,0 +1,43 @@
+Here is my interview experience.
+
+Round 1:(online MCQs)
+MCQs on Data structures, C/C++, DBMS, OS and networking.
+CS gate type question.
+
+Round 2:(online subjective)
+This round is to just check OOPS concepts. So in test they given only C++/Java. So i choose java for my subjective round.
+20 questions.
+We had to write codes, algos, point out mistakes in given code etc.
+Ex. Finding a magic index in sorted array.
+1 question from big Integer in java.
+
+Round 3:(Interview)
+1. Discussion on projects.
+2. Level Order traversal and code.
+3. Level order with new line.
+4. Replace all BST node with sum of their descendents and ask to code it.
+5. Modified BST question with some  trick.
+6. How to design tree in java.
+7. Java collections question and implementation.
+8. Again Discussion on Projects and ask to design class diagram of Web project.
+After this round he was very impressed with me.
+
+Round 4:
+1. HashMap implementation in java.
+2. OOPS concepts.
+3. Tree questions.
+4. 1 question on Array. Find the indexes where left sum is equal to the right sum.
+    First i gave him O(n2) solution he asked me to improve this.
+    Then i gave him O(n) space with O(n) time solution. Again he asked me to improve this
+    At last i gave him O(n) solution after that he was impressed.
+5. Some question on multithreading in java.(notify ,wait applications).
+6. Find if two tree inorder traversal are same or not.(without array).
+    I gave him iterative inorder solution. 
+
+Round 5(MR):
+1. Puzzles.
+2. 1 puzzle on find the numbers from 1 to n such that a^2=b^2+c^2
+     First i gave her O(n3) solution then O(n2) at last o(n) solution she was very happy after that.
+3. Some question on Previous Background etc.
+Round 7:(HR)
+Basic HR questions, relocation questions etc.

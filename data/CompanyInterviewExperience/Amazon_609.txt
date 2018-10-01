@@ -1,0 +1,39 @@
+Online Round Coding Question:
+Q1. Given a float number 7.64, convert it into the string WITHOUT using any inbuilt function/library.
+for eg:
+input
+float no.: 7.64
+output
+string: 7.64
+Q2. Given the inorder and preorder traversals of a Binary Tree, output the postorder traversal of it.
+for eg:
+input:
+Inorder: 7, 8, 4, 1, 6, 2, 5
+Preorder: 1, 4, 7, 8, 2, 6, 4
+output:
+Postorder: 8, 7, 4, 6, 5, 2, 1
+Round 1 written:
+Q1. Given a string find the length of longest substring which has none of its character repeated?
+for eg:
+i/p string:
+abcabcbb
+length of longest substring with no repeating charcters: 3 (abc)
+Q2. Given a link list with right pointers and each element of the list has a down link contains another link list with down pointers as:
+each right and down list are sorted.
+Write a function flatten() which flattens this link list to a single link list with all the elements in sorted order as:
+5->6->7->8->9->10->11->12->13->14->15->18->19->20->22->24
+
+PI Round 1:
+The interview started with discussions and questioning about the internship project and other projects mentioned in my Resume.
+After the discussions about projects interviewer asked a question on string the question was:
+Q1. A string of length n and an integer m was given, give an algo. to rotate the string counter clockwise by m. I was asked to give all the check conditions for input m.
+Then the interviewer asked me to write a code for the same with a strict guideline that there should not be any mistake in the code ;).
+Q2. After this he asked me about heap, min and max heap, insertion and deletion in a heap. He asked me to prove that the time complexity of inserting n elements in a heap.
+At-least he asked about the uses of heap data structure and other data structure which are implemented using heap.
+PI Round 2:
+Q1) What is the difference b/w abstract and interface class?
+Q2) Write a program to create single thread and print “Hello World”, stating all the arguments of createThread function?
+Q3) What is a deadlock and what are the condition necessary for the deadlock to occur?
+Q4) What is a cache memory and how it is implemented?
+Q5) Explain LRU, FIFO and other page replacement algorithms?
+Q6) Write a code to implement LRU cache and then implement full cache memory?

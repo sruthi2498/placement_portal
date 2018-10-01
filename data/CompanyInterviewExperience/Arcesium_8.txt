@@ -1,0 +1,57 @@
+Round 1: Aptitude cum Technical Round
+Online coding and aptitude test on hacker rank.
+The first round had 20 Aptitude MCQs (20 min) and 15 Technical MCQs (15 min) with +1 and -0.25 marking schemes. The MCQs covered topics the included – DSA, Operating Systems, C, C++, Java basics.
+After this, there were 2 coding questions (45 min). Minimum cut off was set for each section. One question was of the Game Theory and other was of Dynamic Programming.
+Questions in the Coding Round:
+Rolling Forward
+Input- axzf
+Let index chosen be 0 to 3 and moving it forward
+Output- byag
+Rolling Backward
+Input – axze
+Let index chosen be 0 to 2 and moving it backwards
+Output- zwyd
+124 people were shortlisted to give this test. Only 12 were shortlisted for round 2.
+Round 2: (Personal Interview)
+This round was purely based on questions from Data structures and OOPs concepts:
+
+https://www.geeksforgeeks.org/print-left-view-binary-tree/
+
+https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+
+B b;
+A *a= &b;
+a.calculate();
+Tell calculate() function of which class will be called.
+If A has calculated() declared virtual. Then what will be the output?
+
+7 candidates got shortlisted for round 3.
+Round 3: 
+(Personal Interview 1):
+In this interview, I was given puzzles for which I had to find the optimized solution and then code it up.
+1. You’ve n identical chemicals. One of them is explosive. If 3 or more than 3 chemicals are mixed together in a box, and the explosive chemical is one of them, then box explodes after 10 minutes of mixing. One box can be used to mix only one combination of chemicals.Write a code to find the explosive element (in minimum time and use minimum number of boxes).
+Actually, the Interviewer did not want me to directly reach to the optimized solution but asked me to start from a basic brute force solution to find the explosive chemical. He wanted to check what different concepts I could apply on it.
+2. Arrival and departure times of n trains are given. Find the minimum number of platforms required so that the timings of trains don’t overlap.
+Again, I had to start from brute force code and optimize it gradually.
+https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+3. Write a code to create a stack.Make it’s push and pop functions. Now you have ten such stacks. Do the following push operations:
+Value Stack number
+2638 1
+382 5
+2728 10
+There should be single push function for all the ten stacks. You can’t use any conditional statement (like – if else statements) in push function for knowing in which stack you have to push the number, nor you can use any array of objects.
+
+Personal Interview 2:
+Two persons interviewed me one by one. I was asked questions based on DBMS, Computer Networking and some general-aptitude questions.
+Interviewer 1:
+Write SQL query for displaying the name of student who scored highest marks.
+Two tables were there:
+Table1 (Roll_no, Student name)
+Table2 (Roll_no, Marks)
+
+Interviewer 2:
+Earlier, he did not tell me that we can use balance scale. He asked me to apply any law of physics. Later he asked me to use balance scales.
+Only 1 student was selected for the internship at Hyderabad office.
+The interview experience was quite good and they focused on all the core computer science subjects. Geeks for geeks was a lot of help to me as it helped me in my interview preparation and provided almost all content that was necessary for preparation.
+
+

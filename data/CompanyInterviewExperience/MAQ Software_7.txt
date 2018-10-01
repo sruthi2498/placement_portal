@@ -1,0 +1,11 @@
+Given a binary search tree and a target node K. The task is to find the node with minimum absolute difference with given target value K.
+
+Examples:
+
+A simple solution for this problem is to store Inorder traversal of given binary search tree in an auxiliary array and then by taking absolute difference of each element find the node having minimum absolute difference with given target value K in linear time.
+An efficient solution for this problem is to take advantage of characteristics of BST. Here is the algorithm to solve this problem :
+Run on IDE
+Output:
+Time complexity : O(h) where h is height of given Binary Search Tree.
+Reference :
+http://stackoverflow.com/questions/6209325/how-to-find-the-closest-element-to-a-given-key-value-in-a-binary-search-tree

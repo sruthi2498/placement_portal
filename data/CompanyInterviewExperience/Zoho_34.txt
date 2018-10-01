@@ -1,0 +1,104 @@
+Number of days – 2 
+Total number of students applied – 250
+
+Round 1:
+15 C Output and 10 Normal Aptitude.
+10 C Output– 1 Marks
+5 C Output– 2 Marks
+10 Normal Aptitude — 1 Mark 
+28 sets in geeks for geeks is more than enough for getting through this in addition to basic general aptitude competence. MAKE SURE YOU READ ALL THE 28 SET. Thats all i did and I found the test very easy. Question were mostly pointers, arrays, loops and strings. No questions had any sort of compile errors and most likely answers will be a single number or a string or
+a character.
+                  General aptitude consisted of age problems, speed, ratios etc. Normal level of competence would be enough to get through this. POINT TO NOTE :– The 2 mark C questions attend them first and double check them they will save your life and dont even skip one set from geeks for geeks they are very very good, cant stress this enough.
+________________________________________________________________________________
+About 56 students cleared round 1 and round 2 started soon the 
+same day. 
+ROUND 2:
+6 Programming question
+1. Adding 2 numbers 
+GIven 2 huge numbers as seperate digits, store them in array
+and process them and calculate the sum of 2 numbers and store
+the result in an array and print the sum. 
+Input:
+Number of digits:12
+9  2  8  1  3  5  6  7  3  1  1  6
+Number of digits:9
+7  8  4  6  2  1  9  9  7
+Output :
+9  2  8  9  2  0  2  9  5  1  1  3
+2.Given sorted array check if two numbers sum in it is a given 
+value
+Input
+Array = {1 3 4 8 10 } N = 7
+output
+true
+3. Compiuting value of sin (x)
+Input x = 30 n = 10
+output = 0.5
+Hint : The equation sin(x) = x – x^3 / 3! + x^5 / 5! – …. 
+4. Write function to find multipication of 2 numbers using +
+operator You must use minimu possible iterations. 
+Input: 3 , 4
+Output 12 
+5. Given array find maximum sum of contiguous sub array 
+{-2 -3 4 -1 -2 1 5 -3}
+output 7     elements [ 4 -1 -2 1 5] 
+6. Given unsorted array find all combination of the element
+for a given sum. Order should be maintained. 
+Input :
+8 3 4 7 9       N=7
+Output
+{3 4 } {7} 
+PREPARATION :
+Solve all the previous questions asked
+Solve extras on arrays
+Solve extras on matrix
+solve extras on strings
+Learn all Datastructures available in What ever language you
+are using.
+For me it is java so COLLECTIONS… Know every inch of it too.
+CPP guys … basic DS and functions in algorithm header. 
+I solved all the questions, you would clear the round if you
+solve minimum of 5 questions if you are from computer science
+branch. For other branches they are a bit more lenient. 3 or 4
+is enough.
+________________________________________________________________________________
+22 Students cleared round 2 and they were called for the next
+round the next day
+
+Day2:
+Round 3: 3Hr
+Advanced programming.
+You are given coordinates as input
+(0 0 ) (0 1 ) ( 0 2) (0 3) (1 5) (1 4 ) (3 5 )
+1. Check if the given points lie in the same line   
+2. GIven a point find the points on the largest line [in terms of the points it contain ] passing through that point 
+Input : 0 1
+Output : (0 0 ) (0 1) (0 2 ) (0 3 )
+3. Given 2 points find the points in between them.
+Input  (0 0) (0 3 )
+Output : (0 1) (0 2 )
+4. Find the number of points in the line with the largest number of points in it. 
+5. Given a point print all the lines passing through it [ie for each line print the points in it ]
+PREPARATION :This round usually consist on making modules and oop stuffs. This was out of the blue. Previous problems, I just did Railway Reservation partially for this round.
+If you have done some projects and is good with oop you will get through no need to practice specifically for this else brush up your OOP Designing skills and do some previous questinos.
+ I solved all the problems. The invigilator will be around
+checking your code all the time, SO NO SLOPPY CODING GUYS!! They need good code. Take a paper and figure out your aproch before solving each of them. And also check if you could use one problem to solve the other. Here The function written for Q2 can be used for Q5 with some modification if you’re out of time.
+________________________________________________________________________________
+12 Students cleared round 3. 
+I was one of the top 3 students and was directly taken to HR 
+Round. 
+Round 4 Tech 1 : I was told they were asked basic questions on arrays, strings and matrix. If they find you are good enough they will send you to HR else there will be another tech round
+for you with another person.This is the end of the line if you dont impress them here too.
+
+Round 5 HR : Basic questions. 
+Note : Higher studies – say no
+          Why ZOHO
+          projects
+          If you get another company will you come to ZOHO
+          We are gonna have oracle next week so some questions like will you be attending oracle
+          .
+——————————————————————————————————————————————–
+Finally 8 students got through 6 of them got higher package and 2 of them got lower package.
+Thank you geeksforgeeks, you guys are the only source that i used to prepare for this test and no way would’ve cleared without the help from people who posted their experience. My results were announced 3 hours ago and here I am posting the questions. So whoever is prepping for ZOHO, know that previous questions are of absolute importance. Zoho is easy to crack with proper preparation for a 15 days or so. Persistence and consistence is the key here and a bit of luck. 
+Good Luck Guys!
+

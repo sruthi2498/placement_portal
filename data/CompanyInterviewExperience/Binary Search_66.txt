@@ -1,0 +1,14 @@
+We are given a row wise sorted matrix of size r*c, we need to find the median of the matrix given. It is assumed that r*c is always odd.
+Examples:
+Simple Method: The simplest method to solve this problem is to store all the elements of the given matrix in an array of size r*c. Then find the median element in this array.This seems to be the simplest method but it would take extra memory.
+Time Complexity = O(r*c)
+Auxiliary Space = O(r*c)
+An efficient approach for this problem is to use binary search algorithm. The idea is that for a number to be median there should be exactly (n/2) numbers which are less than this number. So, we  try to find the count of numbers less than all the numbers. Below is the step by step algorithm for this approach:
+Algorithm: 
+Below is implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(32 * r * log(c)). The upper bound function will take log(c) time and is performed for each row. And since the numbers will be max of 32 bit, so binary search of numbers from min to max will be performed in at most 32 ( log2(2^32) = 32 ) operations.
+Auxiliary Space : O(1)

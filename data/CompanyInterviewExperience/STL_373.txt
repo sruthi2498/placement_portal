@@ -1,0 +1,9 @@
+Given an array of positive and negative numbers, arrange them such that all negative integers appear before all the positive integers in the array without using any additional data structure like hash table, arrays, etc. The order of appearance should be maintained.
+Examples:
+
+Previous Approaches : Some of the approaches have already been discussed here. They were implemented at best.
+Another Approach : There is another method to do so. In c++ STL, There is an inbuilt function std::sort(). We can modify the comp() function to obtain the desired result. As we have to place negative numbers first and then positive numbers. We also have to keep zero’s(if present) between positive and negative numbers.
+The comp() function in this code rearranges the given array in required order. Here in bool comp(int a, int b), if integer ‘a’ is of j-th index and integer ‘b’ is of i-th index elements in the arr[], then j>i. comp() function will be called in this way. If the comp() return true then swap will be done.
+Run on IDE
+Output:
+Time complexity is same as sorting i.e. O(n log n). As we are using standard sort function. But it is really faster, because inbuilt sort function uses introsort.

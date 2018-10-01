@@ -1,0 +1,7 @@
+Given a string “str” and another string “sub_str”.   We are allowed to delete “sub_str” from “str” any number of times.  It is also given that the “sub_str” appears only once at a time. The task is to find if “str” can become empty by removing “sub_str” again and again.
+Examples:
+
+A simple solution to solve this problem is by using inbuilt string functions find() and erase(). First input the sub-string substr  for searching purpose in the original string str, then iterate the original string to find the index of sub-string using find() which return starting index of the sub-string in the original string else -1 if not found and erase that sub-string using erase() until length of original string is greater than 0.
+The above simple solutions works because the given substring appears only once at a time.
+Run on IDE
+Output:

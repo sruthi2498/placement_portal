@@ -1,0 +1,21 @@
+Written Round
+1. You have to design url shortening site bit.ly. have to enable history and expiry tracking of url.
+a. Design database for your system.
+b. Api endpoints you need to expose if I i need to make an application out of it.
+c. How to scale for more than 10 million urls
+2. No of ways you can climb the stairs. Only 1 or 2 steps are allowed.
+3. Which can’t be done without recursion
+Tower of Hanoi
+Fibbonic series
+Traversal of tree
+4. Which takes more than O (1) time for hash map data structure
+Insert
+Delete
+Sort
+Search
+5. Various what is time complexity for the following code questions.
+6. Can I use get instead of put/post to make a new resource.
+7. How indexing helps in improving performance of query.
+Round 2
+Design database for hotel booking.
+Design snake and ladder game. With various classes and objects.

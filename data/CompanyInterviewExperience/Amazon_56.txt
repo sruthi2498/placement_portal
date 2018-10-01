@@ -1,0 +1,23 @@
+Online Round:
+It consists of 20 MCQs and two coding questions and MCQs got the negative marking . One for the correct answer and -0.25 for each wrong answer.
+1.Given a string. Find all the palindromic partitions of the string. (Number of way the string can be partitioned so that all the partitions are palindrome) ( Case–Insensitive )
+Examples:
+2. You are given with a large paragraph and N words.You have to find a min length subparagraph of the paragraph which contain all those N words in any order.(Case Insensitive)
+Only 32 students got selected for Personal Interviews Rounds.
+Round 2(Technical Interview I):
+First the Interviewer introduced himself and then asked me to introduce yourself.
+He asked me 3 questions related to Data Structures and Alorithms.
+Question 1: Given a n-ary tree print all the possible paths of the tree.
+Firstly I gave him the approach using queues.  Then he asked me to optimize the code for space complexity of O(1). Then I gave him the approach using recursion and a long in depth discussion followed on it. Then he asked me to write the code.
+Question 2: Given the no. of stairs as the input and a person can step forward either 1 or 2 or 3 steps at a time. Find the total no of possible ways person can climb the stairs.
+Input : 3
+Output: 4
+Question 3: Given a 1-D array having equal no even and odd numbers. Arrange the numbers in such a way that all the even no get the even index and odd no get the odd index. Required space complexity and time complexity was O(1).
+Only six students were selected for the next round.
+Round 3(Technical Interview II):
+This round was similar to the previous rounds. Firstly the Interviewer introduced himself and then asked me to introduce yourself.
+He asked me 2 questions related to Data Structures.
+Question 1: Print all the continuous sub-arrays where the sum of the sub-array becomes zero. Required space complexity was O(n).
+Question 2: Given a string containing parenthesis. Find the total no of reversal of parenthesis to make the given output as balanced one. This question followed a detailed discussion and interviewer gave me different no of inputs to test the code.
+After the coding questions. he asked me some basic questions related to Operating Systems like Deadlocks and Semaphores.
+At last 3 students got the internship offer from Amazon.

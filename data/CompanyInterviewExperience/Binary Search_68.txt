@@ -1,0 +1,18 @@
+Given an unsorted array of size n, find no of elements between two elements i and j (both inclusive).
+Examples:
+Source:  Amazon Interview Experience
+
+A simple approach will be to run a for loop to check if each element is in the given range and maintain their count. Time complexity for running each query will be O(n).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+ 
+An Efficient Approach will be to first sort the array and then using a modified binary search function find two indices, one of first element greater than or equal to lower bound of range and the other of the last element less than or equal to upperbound. Time for running each query will be O(logn) and for sorting the array once will be O(nlogn).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

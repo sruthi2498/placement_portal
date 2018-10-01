@@ -1,0 +1,5 @@
+forward_list::unique() is an inbuilt function in C++ STL which removes all consecutive duplicate elements from the forward_list. It uses binary predicate for comparison.  
+Syntax:
+Parameters: The function accepts a single parameter which is a binary predicate that returns true if the elements should be treated as equal. It has following syntax: 
+Return value: The function does not return anything.
+Run on IDE

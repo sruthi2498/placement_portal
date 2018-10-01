@@ -1,0 +1,30 @@
+ 
+First of all, I was very fortunate for being selected in CODEVITA SEASON V, an annual coding contest conducted at the TCS CAMPUS COMMUNE and hence, was exempted from the Written Test as well as Verbal Online Test (Email Writing).
+Although, we were passed on directly to Interviews that were to be held in our college itself, then too I have some experiences from my friends that I will be sharing here:
+Round 1:
+Email Writing:
+10 minutes of Email writing is not so difficult if you are good at expression and writing. They provide you with the phrases which you are supposed to use in your mail. Generally word limit minimum of 70 words is given but from my experiences it should be between 80 to 90 characters to score maximum marks, not more than 95. As soon as you submit the email, written test starts.
+Written Test:
+It consists of 30 question which are supposed to be completed in 80min. The level of the question is moderate means not very tough but one should not take them as granted. My advise would be to go for the previous years TCS placement papers in advance.
+Results were announced next day in the evening.
+Round 2:
+This was the day for the Interviews. It consisted of three Interviews namely Technical Round(TR), Managerial Round(MR), and HR Round. For most of the cases TR and MR were taken simultaneously, HR was separate. But some were called separately for the MR also.
+TR AND MR:
+The interviewers were already very lenient and cooperative. Being from CodeVita, they didn’t asked too much.
+First of all they wanted to know about my experience about codevita and then asked for the Resume.
+Since I had given 3 out of 5 stars to the data structures, so obviously the first question was:
+Q.1)“if we have the data of a banking system, then which data structure would you prefer to use?”.
+At first, I replied using hash map, since each customer has its unique account no. Then they asked why hash map?
+I said because it would processes the query related to each customer in O(1) complexity.
+Then they asked for reducing the space complexity, again at first I said using linked list but at the last we arrived at common consensus of using BST.
+Q.2) “Since you have shown your interest in DBMS, what all databases except RDBMS you know?”
+Since I didn’t had much knowledge about any, I politely said: “Sorry, I don’t know”.
+PROJECT:Then we had some discussion on my project and discussed the Algorithms used in that, Mine was the Maze solver Bot and used Mapping Algorithm for creating the Adjacency List and then used Dijkstra’s algorithm for finding the shortest path. I think this gave me some edge since he took some time understanding the mapping algo. which was based on recursion & backtracking and again I was from CodeVita So he was quite happy with me.
+Then, He asked me for any questions, and we discussed about the provisions for the internal sliding and future prospects inside TCS.
+HR:
+This round was just the formality, they just cross checked my mark sheets and informed about the job liabilities. Although she asked me few questions like “Describe your day today” and “What if you are not selected today”, Anyways I replied to all these and sincerely said “thank you” and left.
+I was expecting some typical questions from data structures and algorithms, but didn’t faced any of them.
+My suggestion:
+If possible go for the CodeVita contest if you really want to grab some edge in TCS selection process. Be prepared on your subjects in Resume, Have good communication skills, be polite and always wear a smile on your face ( helps a lot)…….
+Thank you..
+}

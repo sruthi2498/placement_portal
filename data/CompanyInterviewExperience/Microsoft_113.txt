@@ -1,0 +1,37 @@
+Round 1 – Co Cubes Online Test(75 min) –
+1-) Given a Array for Strings in Sorted Order with null strings in between and a Target String, find wheather the target string is present or not.
+e.g. – arr[] = {“”,””,”abc”,””,””,””,”bcd”,”ef”,””,”xyz”,””};
+Target = “xyz”;
+2-) Given a Binary Tree and a target integer. If a leaf node is present with that integer, then delete it and also recursively delete the newly formed leaves too.
+3-) In a given linked list which contains zero values in some nodes calculate sum of values between two zeros and replace the zero value in the linked list by that sum.
+Eg: 7 0 4 5 6 0 1 1 will become 7 15 1 1.
+The zeros are always present in pairs.
+Round 2 – Onsite (Written pen and paper)(45 min)
+1.) Largest product subarray in a array of integer.
+2.) flatten a link list in sorted order.
+Link to the problem : https://www.geeksforgeeks.org/flattening-a-linked-list/
+Round 3 – Interview
+Find the cycle in a directed graph. Further he asked me to find the no. Of cycles in the graph.
+After that he asked me to implement it using classes and objects.
+Then he asked me to test it for various corner conditions like self loop , multiedge e.t.c.
+Code approach should be clear to you and also how the time complexity came to be O(V+E).
+Round 4 –Interview
+1.) If in your computer a virus Duplicated all the files in your system, and changed the name of the file, its extension and its location. Give a Heuristic Approach if you have to identify the original file and the duplicate file, how will you do it.
+A lot of discussion happened over this Question, he kept changing the scenarios like if the files were too big then how will you identify.
+If the files were media file, txt file , exe file then what will your approach will be.
+2.) Maximum profit by buying and selling a stock.
+3.) Given a Array of strings, you have to identify the longest length String in the array which is formed by concatenating 2 or more string of the same array.
+E.g. arr[] = {“pq”,”abc”,”xyz”,”kbc”,”kbcxyzpq”,”abcxyzkbc”}
+Ans will be “abcxyzkbc” as it is formed from 2 or more string and has the largest length. 
+Note that if a string is formed even with 2 strings and has the largest length then it will be the answer.
+Number of String it is formed Doesn’t matter, it has to be atleast 2 strings only rest answer will be dependent on the length of the string only.
+Solved it using Tries and also was asked to write the working code.
+4.) Test the function which takes a email id and checks wheather it is correct or not.
+Round 5 – Interview
+A hash table was given which contain string to symbol conversion mappings.
+E.g.
+“;gt;” will be mapped to “>”
+“;lt;” will be mapped to “lt;xyz”
+–> str = “;lt;;gt;” –>””
+He only focused on the corner cases.
+After then he asked me to write the code for the problem. He asked various versions of the problem like if the length of the mapping strings is same or if they are variable, if all of them started and ended with ‘;’ and if they are random strings.

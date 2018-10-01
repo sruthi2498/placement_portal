@@ -1,0 +1,17 @@
+Given an array and a range [lowVal, highVal], partition the array around the range such that array is divided in three parts.
+1) All elements smaller than lowVal come first.
+2) All elements in range lowVal to highVVal come next.
+3) All elements greater than highVVal appear in the end.
+The individual elements of three sets can appear in any order.
+Examples:
+
+A simple solution is to sort the array.  This solution does a lot of extra rearrangements and requires O(n Log n) time.
+An efficient solution is based on Dutch National Flag based QuickSort.  We traverse given array elements from left.  We keep track of two pointers, first (called start in below code) to store next position of smaller element (smaller than range) from beginning; and second (called end in below code) to store next position of greater element from end.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+Asked in Yahoo

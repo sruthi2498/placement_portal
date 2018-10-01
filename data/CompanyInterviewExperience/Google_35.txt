@@ -1,0 +1,15 @@
+Given an integer array of n integers, find sum of bit differences in all pairs that can be formed from array elements.  Bit difference of a pair (x, y) is count of different bits at same positions in binary representations of x and y. 
+For example, bit difference for 2 and 7 is 2. Binary representation of 2 is 010 and 7 is 111 ( first and last bits differ in two numbers).  
+Examples :
+Source: Google Interview Question
+A Simple Solution is to run two loops to consider all pairs one by one.  For every pair, count bit differences. Finally return sum of counts.  Time complexity of this solution is O(n2).
+An Efficient Solution can solve this problem in O(n) time using the fact that all numbers are represented using 32 bits (or some fixed number of bits).   The idea is to count differences at individual bit positions. We traverse from 0 to 31 and count numbers with i’th bit set.  Let this count be ‘count’. There would be “n-count” numbers with i’th bit not set.  So count of differences at i’th bit would be “count * (n-count) * 2”.  
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Gaurav Ahirwar for suggesting this solution.

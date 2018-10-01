@@ -1,0 +1,64 @@
+Let me discuss each round in detail.
+APTITUDE ROUND
+There were 20 aptitude questions and 2 coding question
+Aptitude question – each of 1 mark (-0.25 mark for each wrong answer)
+Coding question – each of 10 mark 
+Since, Coding questions had more weight-age, so I started with coding questions. I attempted only one coding question and there I could pass only 2 test cases (received 4 marks). And then I moved to aptitude part. There, I attempted 13 questions.
+With God grace, I got my name in the extended list.
+
+INTERVIEW ROUND
+There were 4 interview round. Each round took by different people and 2 questions were asked in each. I am going to tell you about each round in detail.
+
+ROUND 1
+First question was ‘Tell me about yourself?’. I told her about projects like what I learnt from it, what difficulties I faced, my hobbies and what I am looking for in future.
+
+After that, two more Questions that were asked:
+1. Given an array consisted of both positive and negative integers. The task was to put positive and negative elements alternatively and efficiently.
+I told her 2 approach. The best approach was asked to code (in any language). I coded it.
+2. Given arrival and departure times of Train. The task was to find out minimum number of platform needed.
+I did this question even earlier. I told her my approach and coded the same. 
+
+ROUND 2
+Two Questions that were asked:
+1. Given a complex weighted directed graph. Each weight represents the cost of transaction and each edge represents the transaction. The task was to minimize the graph and find out the minimum cash flow.
+I gave him one approach using hash map and coded the same.
+2. Given an integer and decoding mechanism (like 1- A, 2-B……26-Z). The task was to find out all the possible decoding of integer.
+I applied dynamic programming approach and coded the same.
+
+ROUND 3
+He asked me to tell about my projects. I wrote three projects in my Resume. I discussed them. Then he gave me some situation and asked how your project would solve this scenario.
+
+After that, two more Questions that were asked:
+
+1. Given an Amazon Store House where every products were stored like pens, balls etc. Also the condition was that items can be sold in bundles like 2, 3, 5, 7 etc. The task was that how I can sell those products if some order like 10 pens has come. It was asked to solve it in an efficient manner.
+I tried it using dynamic programming and solved it correctly. But interviewer replied “No, you cannot apply dynamic programming here as you need to find the solution for all the products and serve all the customer. Think of some other approach like using data structure”.
+Then I thought of another approach and that worked for me. 
+2. Given a BST and number K (which is one of those BST). The task was to find out the closest value to K.
+The solution was very easy. I did this with inorder traversal and picked the adjacent values to K which has minimum difference with K. I coded the same.
+
+ROUND 4
+Here again, I was asked to tell about my projects. Some questions related to them were also asked.
+
+After that, only one question was asked:
+
+1. Given a room, where N number of person are present and some comparison among them (like A>B, B>C, B<D etch). The task was to find out the greatest among them.
+I solved it first using dynamic programming approach but its’ time complexity was O(n2). So I was asked to find out another approach. I tried it with two other approaches. The last one was asked to code. I used hash map for the input.
+Interviewer seems to me that he was satisfied with the approaches and code I gave. May be, he didn’t ask the second question because of this.
+
+MY SUGGESTION
+I would suggest the following things to follow:
+
+• Be confident and keep on trying to solve the question however it is tough. Because they’re looking for your analytical and problem solving ability rather than solved problem.
+
+• Keep on telling about the approaches that are coming in your mind at the instant. Interviewer may help you to let you know where you’re wrong (as happened in my case).
+
+• Keep on explaining while you’re finding the time complexity of the problem.
+
+• Be sure that your communication medium is English in interview.
+
+• Practice the coding (coding not pseudo code) on paper and dry run. Otherwise, you may not be able to write it there.
+
+I’ve been selected in Amazon with God grace.
+Rohit Kesarwani
+
+

@@ -1,0 +1,16 @@
+Find the smallest number such that the sum of its digits is N and it is divisible by .
+Examples :
+
+Explanation
+To make a number divisible by  we need at least N zeros at the end of the number. To make the number smallest, we append exactly N zeros to the end of the number. Now, we need to ensure the sum of the digits is N. For this, we will try to make the length of the number as small as possible to get the answer. Thus we keep on inserting 9 into the number till the sum doesn’t exceed N. If we have any remainder left, then we keep it as the first digit (most significant one) so that the resulting number is minimized.
+The approach works well for all subtasks but there are 2 corner cases:
+1. The first is that the final number may not fit into the data types present in C++/Java. Since we only need to output the number, we can use strings to store the answer.
+2. The only corner case where the answer is 0 is N = 0.
+3. There are no cases where the answer doesn’t exist.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity : O(N)

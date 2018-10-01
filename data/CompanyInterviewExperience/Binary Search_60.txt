@@ -1,0 +1,8 @@
+Given heights of n (n <=10000) towers as an array h[]; we need to bring every tower to same height by either adding or removing blocks in a tower. Every addition or removal operation costs a different value in a different tower. The objective is to minimize this cost.
+Examples:
+Naive Approach : A naive approach would be to find the cost of each and every possible operation set, and then find the minimum cost of operation. This would give O(n2) in the worst case.
+Best Approach : The best approach here seems to be Binary search. We store the minimum height & alter our resultant height by a factor of 2 in each step. 
+Run on IDE
+Run on IDE
+
+

@@ -1,0 +1,5 @@
+In C++, we can quickly find array product using accumulate()  and multiplies().
+Run on IDE
+product of vector
+Run on IDE
+We can also use a custom function in accumulate.  Refer numeric header in C++ STL | Set 1 (accumulate() and partial_product()) for details.

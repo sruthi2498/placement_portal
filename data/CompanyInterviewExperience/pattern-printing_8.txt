@@ -1,0 +1,36 @@
+Given a number as ‘num’, and Number of lines as ‘num_of_lines’ where ‘num’ implies the starting number from which the pattern has to be started and ‘num_of_lines’ implies the number of lines that have to be printed. Now, according to the above information, print a pattern as given below.
+Examples:
+Observations:
+Approach:
+So, start a loop from 0 to num_of_lines-1, to take care of the number of rows to be printed and another loop inside the first loop, from 0 till limit-1, the limit will be initialized to 1, and its value is increased exponentially. Now inside the loop, just increase the number by 1 to print the next number of that row.
+
+Run on IDE
+Run on IDE
+# Python 3 program to print
+# the given numeric pattern
+# Function to print th epattern
+def printPattern (num, numOfLines ):
+	n = num
+	limit = 1
+	# No. of rows to be printed
+	for i in range(0, numOfLines):
+		# No. of elements to be
+		# printed in each row
+		for j in range(limit):
+			if j == 0:
+				num2 = num
+			# Print the element
+			print(num2, end = ” “)
+			num2 += 1
+		num *= 2
+		limit = num // n
+		print()
+# Driver code
+if __name__ == “__main__”:
+	num = 3
+	numOfLines = 3
+	printPattern(num, numOfLines)
+# This coode is contributed
+# by ChitraNayal
+Run on IDE
+

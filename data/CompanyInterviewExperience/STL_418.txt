@@ -1,0 +1,9 @@
+std::is_partitioned is used for finding whether the range[first, last) is partitioned or not. A range is said to be partitioned with respect to a condition if all the elements for which the condition evaluates to true precede those for which it is false.
+It is defined in the header file . If the range in which we want to check whether it is partitioned or not is empty, then this function returns true.
+Syntax:
+Run on IDE
+Output:
+Explanation: Here, in this program firstly, we have stored elements in a vector, and then we are checking whether all the elements divisible by 3 are present before those which are not divisible by 3. Since, this condition evaluates to true for the taken vector therefore, this function returns 1 here, as it is partitioned. 
+Another Example
+Run on IDE
+Output:

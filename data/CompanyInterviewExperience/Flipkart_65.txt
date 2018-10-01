@@ -1,0 +1,20 @@
+Round 1
+1) There are M chocolate packets each packet can have variable number of chocolates in each packet. There are N students (N < M).  Distribute chocolate packets to student such that
+    a) each student gets 1 packet
+    b) suppose m1,m2,…mn are the packets which are chosen to be distributed in sorted order of number of chocolates in them (nm-n1 must be minimum)
+M = 1, 3, 4, 6 (4 packets with specified number of chocolates in them)
+N = 2
+Ans = 3,4
+2) Given unsorted array and a number K. Find 2 numbers such that sum is K.
+3) Given n-ary tree. zigzag level order traversal.
+4) Given daily stock rates of last year give the average stock rate price for a given day range
+ 
+In-person interviews
+1) Code library management system
+      a) add a book
+      b) issue a book
+      c) return a book
+      d) if a user has kept a book more than 10 days then there should be a fine of Rs. 1 per day post 10 days.
+2) Design snakes and ladders game (multiplayer). extend it so that it can be hosted overs a server and played over a server
+If  you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+

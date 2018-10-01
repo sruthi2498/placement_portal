@@ -1,0 +1,91 @@
+Given two arrays of n integers with values of array being small (values never exceed a small number say 100). Find the pair(x, y) which has maximum gcd. x and y cannot be of the same array. If multiple pairs have same gcd, then consider the pair which has the maximum sum. 
+Examples:
+
+A naive approach will be to iterate for every pair in both the arrays and find out the maximum gcd possible.
+An efficient (only when elements are small) is to apply the sieve property and for that we need to pre calculate the following things.
+Below is the implementation of the above approach
+
+Run on IDE
+// Java program to find maximum
+// GCD pair from two arrays
+class GFG
+{
+// Find the maximum GCD
+// pair with maximum sum
+static void gcdMax(int[] a, int[] b,
+                   int n, int N)
+{
+	// array to keep a count
+	// of existing elements
+	int[] cnt = new int[N];
+	// first[i] and second[i]
+	// are going to store
+	// maximum multiples of
+	// i in a[] and b[]
+	// respectively.
+	int[] first = new int[N];
+	int[] second = new int[N];
+	// traverse through the
+	// first array to mark
+	// the elements in cnt
+	for (int i = 0; i < n; ++i)
+		cnt[a[i]] = 1;
+
+	// Find maximum multiple 
+	// of every number in
+	// first array
+	for (int i = 1; i < N; ++i)
+		for (int j = i; j < N; j += i)
+			if (cnt[j] > 0)
+				first[i] = Math.max(first[i], j);
+	// Find maximum multiple
+	// of every number in second
+	// array. We re-initialise
+	// cnt[] and traverse through
+	// the second array to mark
+	// the elements in cnt
+	cnt = new int[N];
+	for (int i = 0; i < n; ++i)
+		cnt[b[i]] = 1;
+	for (int i = 1; i < N; ++i)
+		for (int j = i; j < N; j += i)
+
+			// if the multiple is present 
+			// in the second array then 
+			// store the max of number or 
+			// the pre-existing element
+			if (cnt[j] > 0)
+				second[i] = Math.max(second[i], j);
+	// traverse for every
+	// elements and checks
+	// the maximum N that
+	// is present in both
+	// the arrays
+	int x;
+	for (x = N – 1; x >= 0; x–)
+		if (first[x] > 0 &&
+			second[x] > 0)
+			break;
+	System.out.println(first[x] + ” ” +
+	                        second[x]);
+}
+// Driver Code
+public static void main(String[] args)
+{
+	int[] a = { 3, 1, 4, 2, 8 };
+	int[] b = { 5, 2, 12, 8, 3 };
+	int n = a.length;
+	// Maximum possible
+	// value of elements
+	// in both arrays.
+	int N = 20;
+	gcdMax(a, b, n, N);
+}
+}
+// This code is contributed
+// by mits
+Run on IDE
+Run on IDE
+
+Time complexity : O(N Log N + n).  Note that N + (N/2) + (N/3) + ….. + 1 = N log N.
+Auxiliary Space : O(N)

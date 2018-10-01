@@ -1,0 +1,39 @@
+Round 1:-
+MCQ – Memory management , angle between hands of clock at a certain time , Inheritance etc
+Coding :- There were 2 coding questions
+1) Given 2 Strings , check if any anagram of one string is a substring of the other string
+2) Given some friends on Facebook say A, B, C, D. and their friendship as AB and B C
+We need to find out the minimum Hops from a query say:- for A to C the hops should be 2 A to B and B to C , (Floyd Warshall Algorithm)
+I solved approximately 17 correct MCQ’s out of 20 and Both the Coding questions.
+Round 2:-
+This round was the longest . (1 hour 40 min) approx
+first slight discussion on a project . I was discouraged to explain in detail and asked to give high level discussion .
+3 questions :-
+1) if we throw light from the left of a tree , what nodes receive light .
+2) extended first question and asked boundary traversal of a tree
+3) asked to search an element in a sorted and rotated array
+Round 3 :-
+(45 min)
+2 questions :-
+1) Given an array of positive and negative integers we need to find the longest subarray where sum =0
+first gave o(n^3) then o(n^2) then finally o(n)time+o(n)space
+2) given an array of size n-1 and given that there are numbers from 1-n with one missing ,
+the missing number was to be found
+Round 4:-
+(1 hour 15 min)
+4 questions :-
+1) given a number line from -infinity to +infinity what are the mnimum number of hops required to reach a number given the condition at step j I can take j steps forward and j steps backward
+2)what datastructure to use to implement best fit algorithm , I gave a skip lists solution which i thought was a strong solution
+3)Traverse a binary tree in zig zag order – very common question
+4) gven some values [M] [T] [R/W]
+M- memory address
+T- time slice
+R/W- Read/ write
+the number of conflicts were needed to be found out !
+I couldn’t make it after this round –
+Why I got into such a predicament was because I was to excited and was asking too many questions and trying to discuss CS concepts which were unrelated to the problem in hand .
+Only 2 tips :-
+1) Geeks for Geeks is a MUST, so is GeeksQuiz
+2) Speak as little as possible the interviewers would not be interested in answering your questions with the time constraint that they have , Short discussions are acceptable but I was trying to ask too many questions and telling them about stuff I knew without them asking .
+Thank you Geeks for Geeks for making answering amazon questions easy !!
+

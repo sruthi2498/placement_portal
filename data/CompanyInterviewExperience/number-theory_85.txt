@@ -1,0 +1,13 @@
+Given a positive integer n. Find whether a number is a semiprime or not. Print True if number is semiprime else False. A semiprime is a natural number that is a product of two prime numbers.
+Examples :
+The approach is simple, factorize the given number by dividing it with the divisor of a number to remove the composite number. Meanwhile keep updating the count variable of prime number.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O()
+Auxiliary space: O(1)
+Reference: https://en.wikipedia.org/wiki/Semiprime

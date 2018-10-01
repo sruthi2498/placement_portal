@@ -1,0 +1,36 @@
+Given an array of positive integers, sort the array in decreasing order of count of set bits in binary representations of array elements.
+For integers having same number of set bits in their binary representation, sort according to their position in the original array i.e., a stable sort. For example, if input array is {3, 5}, then output array should also be {3, 5}. Note that both 3 and 5 have same number set bits.
+Examples:
+ Method 1: Simple 
+Before sort:
+int arr[] = {1, 2, 3, 4, 5, 6};
+int aux[] = {1, 1, 2, 1, 2, 2}
+After sort:
+arr = {3, 5, 6, 1, 2, 4}
+aux = {2, 2, 2, 1, 1, 1}
+Implementation:
+
+Run on IDE
+Run on IDE
+Output:
+Auxiliary Space: O(n)
+Time complexity: O(n2)
+Not e: Time complexity can be improved to O(nLogn) by using a stable O(nlogn) sorting algorithm.
+
+
+ 
+Method 2 : Using std::sort()
+Using custom comparator of std::sort to sort the array according to set-bit count
+Run on IDE
+
+Auxiliary Space : O(1)
+Time complexity : O(n log n)
+
+ Method 3 : Counting Sort based
+
+This problem can be solved in O(n) time. The idea is similar to counting sort.
+Note: There can be minimum 1 set-bit and only a maximum of 31set-bits in any integer.
+Steps (assuming that an integer takes 32 bits):
+
+Run on IDE
+

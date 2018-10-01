@@ -1,0 +1,76 @@
+Recently Payu came for recruitment in our college. 
+Hiring Process : Online Test +  3 Technical Rounds +  HR Round.
+Position : Software Engineer
+Online Coding Round (1 hr):
+There were 5 coding Questions. All of us got different sets. Most of the Questions were based on standard Dynamic Programming like 0-1 knapsack etc. For each Question a testcase with complete explanation was given.
+I attempted only 3 Questions.
+1. All possible ways to construct buildings in the plots such that there is a space between any 2 buildings.
+https://www.geeksforgeeks.org/count-possible-ways-to-construct-buildings/
+2. Print Preorder traversal when Inorder and Postorder traversal are given.
+https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/
+3. One Question based on Kadane’s Algorithm.
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+Only 5 people were shortlisted after this round.
+Luckily i was able to get the highest score.
+
+Round 1 (~1:15 hr):
+Introduce yourself.
+Then, Discussion on projects, resume, internship.
+1.	Sort Array of 0s and 1s in one traversal.
+https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
+2.	Check whether two given strings are anagram or not.
+https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/
+3.	Best dataStructure for implementing Dictionary
+	I said Trie and explained basic Functionality like insertion,deletion and searching can be done in O(n) time where n is length of the word to be processed.
+4.	https://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/
+5.	Basic Questions on Stack like time complexity of Push(),Pop().
+	Then, Best case and worst case time complexity of finding Maximum from stack.
+	O(N).
+        How to find Max in O(1) from stack.
+https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+
+Then, 2nd interviewer came.
+6.	Level Order Tree Traversal
+	and BFS,Queues
+https://www.geeksforgeeks.org/level-order-tree-traversal/
+7.	Zig zag traversal
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+8.	https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+For each Question both of them were looking for the most optimal solution in terms of space as well as time.
+They asked me to write the pseudocode for 1 or 2 questions. They were checking the algorithms by dry running it.
+9.	Questions from Oops like data Abstraction, Encapsulation, virtual functions, Abstract class, Polymorphism, inheritance.
+10.	Gave me a database table and asked me to write 3 simple queries.
+	Then asked about
+	Inner Join and Outer Join.
+First round was nice. 
+Round 2: (~50 min)
+Introduce yourself.
+1.	Puzzle
+http://geekexplains.blogspot.in/2008/06/puzzle-avg-salary-without-disclosing.html
+2.	Not able to give the DP solution.
+	https://www.geeksforgeeks.org/remove-minimum-elements-either-side-2min-max/
+3.	Asked me to write the full code on paper.
+https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+4.	https://www.geeksforgeeks.org/a-program-to-check-if-strings-are-rotations-of-each-other-or-not/
+5.	https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
+
+Round 3 (~40 min):
+Tell me about yourself.
+Then, Few questions on project,resume.
+1.	Told me the functionality of atoi() library function and then
+	asked me to implement it on his laptop.
+ https://www.geeksforgeeks.org/write-your-own-atoi/
+Interviewer was very concerned about the corner cases like what happens when integer overflow occurs, how to handle inputs like “12abc”, max/min integer value (range of long long) etc….
+2.	Difference between process and threads.
+3.	Inner Join, Outer join, left ,right join.
+http://stackoverflow.com/questions/38549/difference-between-inner-and-outer-joins
+Two people were called for HR round.
+
+HR round (~20 min):
+Tell me about yourself.
+Strengths
+Why Payu ?
+Most challenging moment in your college life.
+Asked me If I had any Questions.
+
+

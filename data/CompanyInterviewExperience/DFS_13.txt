@@ -1,0 +1,6 @@
+Given a set of ‘n’ vertices and ‘m’ edges of an undirected simple graph (no parallel edges and no self-loop), find the number of single-cycle-components present in the graph. A single-cyclic-component is a graph of n nodes containing a single cycle through all nodes of the component.
+Example:
+Now we can easily see that a single-cycle-component is a connected component where every vertex has the degree as two.
+Therefore, in order to solve this problem we first identify all the connected components of the disconnected graph. For this, we use depth-first search algorithm. For the DFS algorithm to work, it is required to maintain an array ‘found’ to keep an account of all the vertices that have been discovered by the recursive function DFS. Once all the elements of a particular connected component are discovered (like vertices(9, 2, 15, 12) form a connected graph component ), we check if all the vertices in the component are having the degree equal to two. If yes, we increase the counter variable ‘count’ which denotes the number of single-cycle-components found in the given graph. To keep an account of the component we are presently dealing with, we may use a vector array ‘curr_graph’ as well.
+Run on IDE
+Hence, total number of cycle graph component is found.

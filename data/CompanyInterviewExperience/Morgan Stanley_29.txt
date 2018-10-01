@@ -1,0 +1,45 @@
+First Round: Apti + technical + coding (1hr 30mins)
+Multiple Choice Questions: 19 MCQs, consisting of some output questions, conceptual questions of DS, OS, also few aptitude and reasoning questions.
+Coding:
+1. Given a positive integer N, print all integers between 1 and 2^N such that there is no consecutive 1’s in its Binary representation.
+Example –
+2. Given some time intervals (starting time and its time duration). Find the maximum number of meetings that can be attended. (Standard Activity Problem).
+Second Round: Technical interview (1hr 15mins)
+The interviewer asked me about my favorite subjects and I said Data Structures, Algorithms, OOPs and O.S. He then started with the interview part.
+a) Given an array of integers, find the Maximum Sum of contiguous increasing subarray in O(n). (Dp problem).
+b) Given an N-ary tree, search a node in the tree and return the level of the node.
+Output should be -1 if node isn’t found in the tree.
+c) Check if loop exist in the singly linked list and remove it.
+d) Discussion on various Traditional Sorting techniques. Merge Sort vs Quick Sort.
+Importance of pivot element in quick sort and discussion on various approaches of finding pivot element.
+e) Implement Random Number Generator algorithm. (Couldn’t give any effective solution for this problem ?)
+f) Detailed discussion on Process and Thread. Difference between them.
+Which one is faster, Process with one Thread or Process with Multiple Threads?
+Real time example of Multithreaded and Single Threaded apps, and example in programming point of view too.
+How to check number of running threads in Windows OS.
+g) C++: Given an Employee class, how to design the scenario that if User forgets to enter User Name, then Error should be occured.
+Then, restrict user to enter his date of birth only once, later if he tries to modify it, Error should be occurred.
+Discussion on creating objects through new operator, Constructor.
+h) Discussion on Normalization and Denormalization. Disadvantages of Normalization.
+i) Approach to print all the elements at k distance from a given node in binary Tree.
+Third Round: HR interview (20-30mins)
+This round started with, Tell me about your past and family background.
+Strength, Weakness and values. What makes you stand out from the Crowd? 
+Any things which makes you feel proud on yourself. 
+Work which you did in team, what was your role in it? 
+Being Team Leader, what innovative and unique things you did? 
+What are the things that you have learned from all your Managerial activities?
+Any challenging situation in NIT which you faced and faced successfully and few more questions.
+What do you want from Morgan Stanley, being the employer of it?
+Fourth Round: Group Activity 
+As MORGAN STANLEY’s legacy, gave Lego Block, Chart Papers and asked us to come up with an idea and to impress your investors with your idea so they will invest in your business idea.
+Fifth Round: Technical Round (1hr)
+Design the database for an online shopping website like Flipkart. He kept giving new constraints and his requirement in the whole designing phase. Gave some critical scenarios because of which the Concepts like Mapping, Concurrency Control, Transaction, ACID property and Mutex/Semaphore came into the picture.
+Sixth Round: HR interview (30mins)
+Discussion on how was my whole interview experience and what are all the new things which I learnt today.
+Detailed discussion on my Extra- Curricular Activities throughout the MCA.
+What are the challenging things you did with the team and how you managed? 
+Detailed discussion on both projects and some questions based on the projects.
+Why shall we hire you?
+P.S.: At the end of each round, they asked me to ask anything. Always be ready to ask some impressive questions at the end, it does matter a lot.
+

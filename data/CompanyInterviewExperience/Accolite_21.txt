@@ -1,0 +1,32 @@
+Accolite visited our campus. They had a PPT before the online test.
+ROUND1:
+It had a total of 20mcq questions from C, C++ basics, operating systems, data structures and DBMS. Totally around 600 appeared for the test, and they selected 70 to the second round.
+ROUND 2:
+This round had 3 programming questions.
+First one was to serialize and deserialize a binary tree.
+Second question is the input will be a binary array and a number M,we have to find the positions of M zeroes to be flipped such that it produces maximum number of consecutive zeroes.
+Final one :
+A B C D E
+F G H  I  J
+K L M N O
+P Q R S  T
+U V W X Y
+Z
+Given the word like “ACCOLITE”,print the shortest route along the matrix.Ex:from starting index is A
+So print “OK” if destination is reached else print MOVE LEFT,MOVE RIGHT,MOVE UP and MOVE DOWN according to the destination.
+21 ppl got shortlisted and I was one among them.
+ROUND 3 : Technical
+LCA of a binary and a BST was the first question.
+Given two arrays find the missing number in the second array.Then he extended the question like to find the missing two numbers.
+Find the first missing positive number in the range of N which also has negative numbers.
+ROUND 4 : Technical
+He asked my areas of interest in algo,and asked me a real time example of bitwise algo.
+Some questions on Java and then given a linled list and a number K,rotate the every k nodes in  a list until the end of the list.
+Another one was trapping rain water problem.
+ROUND 5: Technical 
+A problem on union-find where given an array construct tree from it.
+And given a node in the array find the node to root path using the same array.
+Final question was to minimise the redundancy of data, so what sort of DS to use.
+I said him a TRIE based one.
+
+

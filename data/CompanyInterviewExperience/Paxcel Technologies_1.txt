@@ -1,0 +1,16 @@
+Hello everyone, this is my experience of the selection procedure of Paxcel Technologies.
+The first round was a MCQ test with 40 questions covering topics ranging from Data Structures, Operating Systems, Computer System Architecture, Networks, aptitude. Level of questions ranged from easy to moderate. Not very difficult to clear this round although 50% negative marking was tricky.
+Coding Round:
+There were 2 questions:
+1. Given a 5 digit number and 2 operators ( + and – ), find the minimum and maximum possible positive integers using digits from the number and the 2 operators. Example: 12345,+,-.
+Possible combinations may be: 1+2-345, 1-2+345 (344 : Maximum). Absolute values of results of all operations was to be considered.
+2. Given an input string ( 200 character limit, character set: a – z ), find all possible square sub strings.
+Square sub string: Strings formed by concatenation of any string. Example: abab( formed by concatenating ab with ab).
+Technical Interview 1:
+Questions related to arrays, link lists, trees were asked. Operating systems questions was the major focus point. Topics related to memory leak, segmentation, paging were also discussed. Discussions about technologies worked on, projects worked on and general interests were also a major part of the interview.
+Technical Interview 2:
+More operating systems related questions were asked. Topics included paging, thrashing, framing, schedulers, scheduling algorithms. General concepts like sockets and ports were also discussed. Again interviewer focussed on technologies used and discussions related to devops engineering, automation engineering and tools like ansible, docker, selenium were also discussed.
+Later HR related questions were discussed. 
+Some students also had a HR + technical round with a panel of 5 members!
+Overall level of interview was moderate and main focus point being operating systems and projects undertaken and technologies knowledge.
+Geeksquiz and other geeksforgeeks questions were of great help. Galvin is the go-to book for operating systems.

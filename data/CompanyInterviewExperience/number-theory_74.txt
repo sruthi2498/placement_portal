@@ -1,0 +1,14 @@
+Given two fractions a/b and c/d, compare them and print the larger of the two.
+Examples :
+We can simply convert the fractions in floating point values by dividing the numerator by the denominator. Once we have the two floating point numbers corresponding to each fraction, we can compare these numbers and determine which fraction is larger.
+However the computed answer may be incorrect due to floating point approximations and truncations during the division process. To get the most accurate answer we should avoid resorting to floating point division.
+To compare two fractions we need to make their denominators same. We can do this by cross-multiplying numerators with denominators. Lets see how this works
+Complexity :
+Since we perform two multiplication and one subtraction operation, the answer is computed in constant time i.e O(1)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

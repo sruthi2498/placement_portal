@@ -1,0 +1,43 @@
+Online Coding Round:
+Time: 1.5 hr
+Questions Format: 20 MCQs + 2 Coding Questions
+MCQs were based on Data Structures, Operating systems etc.
+
+Coding Questions:
+1)Minimum time required to rot all oranges
+2)Unbounded Knapsack (Repetition of items allowed)
+Around 25 students were selected from the coding round and were called for further interview rounds.
+
+Round 1(Face-to-face):
+Time: 45 minutes
+The interviewer was very cool.He asked me to introduce myself and a brief introduction of the projects that I have done.Then she moved on to the data structures part.
+1) Find height of a special binary tree whose leaf nodes are connected
+2) Maximum sum such that no two elements are adjacent
+I was supposed to write the functions in the language of my choosing which take all the input as parameters and return the answer. After the round was done, he insisted on me taking a cookie 😛
+
+Round 2(Face-to-face):
+Time: 1.5 hours
+The interviewer was very cool and asked me about how my previous round went.After that, we immediately moved onto data structures part.
+1) Minimum number of bracket reversals needed to make an expression balanced
+2) He asked me a question in which I have a 2D array and at every index, either there is a soldier or a mine, I was supposed to find the minimum distance of every soldier from any of the mines, I told him that this type of qs was already asked in the online round, after that he asked me another qs, it was – Dynamic Programming | (Matrix Chain Multiplication)
+3) Given a binary tree, how do you remove all the half nodes?
+4) He asked me to implement all the standard properties of the heap that are “insert”, “removal”, “deletion” and “update” in an array.
+
+Round 3(Face-to-Face):
+Time: 60 minutes
+The interviewer asked me to introduce myself, after that he asked me questions regarding OS, DBMS, and CN. we moved onto questions after that. After that, I was asked to explain one of my projects to explain in complete details and also about the problems I faced during the project. Then we moved onto qs.
+1) Convert a given tree to its Sum Tree.
+2) Convert an arbitrary Binary Tree to a tree that holds Children Sum Property
+3) Reverse a Linked List in groups of given size
+4) What is the time complexity of binary search, prove it mathematically.
+All the students who qualified the round were taken for a semester long internship. Some of us were given a chance to convert our semester long intern to a full-time job through another round.
+
+Round 4(Online round/telephonic):
+Time: 60 minutes
+This round mainly focused on my projects and my team work skills, we discussed my projects for around 45 minutes, after that, we moved to some simple algorithmic question which looked like a formality. I was supposed to code it on collab-edit (online interview platform).
+question was – Length of the longest substring without repeating characters.
+verdict – selected 🙂
+A Tip – Don’t take CS fundamentals for granted, although coding is important, you should also be thorough about OS, DBMS, OOP, and CN.
+PS: I have attached the link of all the question in the article. If you don’t get anything, you can always ping me. Happy coding and Godspeed. 
+
+

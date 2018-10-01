@@ -1,0 +1,39 @@
+Phonic Interview
+**********************
+1.  Let’s start with you introduction
+     In between introduction he asked me about my some project work experience and How have you done?
+2. Take a integer as a input and replace all the ‘0’ with ‘5’. 
+3. You are given two binary tree and write algorithm to check
+    Are two Binary Trees mirror image of each other?
+Amazon Interview for SDET @ Hydrabad Development Center
+******************************************************************************
+1st Round
+************
+    1. Project Detail & past experience
+    2. Current Technology i am working in
+    3. https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/
+    4. Maximum Subsequent distinct & contiguous sub array in a character array
+2nd Round
+**************
+This round was purely for checking Test Framework and Test Case Knowledge.
+He has given me some scenario and ask to write test cases for them
+    1. you are given a web page into that simply one browse button and Image Holder is their.Write the Test Cases for this.
+    2. You are given application like Google Analytics. How will you test this application ?
+    3. what are the basic features you will add into your own test framework.
+3rd Round
+*************
+This round was purely a discussion based on past project experience.Like which project do you think that was most difficult and you had a nice experience.
+He asked me each progress point of the project.
+  1. how will you check that each page of amazon.com is having its logo or not.he also asked me to write code for this also.
+  2. Some Test Framework Based question like
+  3. Have you worked on any automation framework or not?
+  4. what happen between, when you enter a URL into a browser address bar and hit enter to actually page gets loaded ?
+  In between he asked me few things about DNS Server,Router etc and some discussion was there.
+4th Round
+*************
+    1. https://www.geeksforgeeks.org/level-order-tree-traversal/
+    2. https://www.geeksforgeeks.org/reverse-level-order-traversal/
+    3. Make a stack using 2 given queue.
+    4. Some Project Experience & Automation Framework Discussion,which i have worked on.
+    5. There was some situational questions also for Team work.
+

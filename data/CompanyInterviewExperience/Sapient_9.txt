@@ -1,0 +1,10 @@
+Recently sapient visited our college and here is my interview experience
+First Online round was there of apti, English, C/C++ output, oops.
+ROUND 1. (TECHNICAL)
+He asked me about my favorite subject I answered him  DSA, OS and DBMS then he asked practical implementation of stack … instantly  LRU( least recently used) clicked in my mind, so by LRU I linked LRU with many OS concept  like why LRU ,paging ,cache , tlb  and many more concepts of memory utilization part of OS. He was quite impressed.
+Second question   how  would  you detect linked list is circular and he extended this question to remove linked list and write code for it.  Easy gfg question I explained both the approaches by hashing and without hashing . Then I extended this question  by giving practical implementation why linked list ,having circle is used and discussion goes on to trie and  doubly linked list data structure.( again impressed 😉   )
+Third question was of dbms  and he asked about referential integrity I was blank about this word  then he asked  to design a database (used join  and foreign key concept) and optimize this database  , I answered this by normalization, explained definition  and why 1st 2nd and 3rd normalization are used  in practical purpose.  on the basis of final database he asked 2-3 sql queries
+above questions went on for around 40-50 minute, I think he was completely satisfied with my technical knowledge  that’s why he didn’t ask any puzzle(common in sapient) and just asked  2 non verbal reasoning  question and it was quite easy and seemed just a formality.
+ROUND 2 ( HR)  (50 minute)
+He asked question about  my project  and some basic question, weakness ,strength ,why low cgpa, how do you face your problems  and how  you try to handle it ,and some general discussion. Seemed like a formality.
+After 15 minute, result come out and I was selected.

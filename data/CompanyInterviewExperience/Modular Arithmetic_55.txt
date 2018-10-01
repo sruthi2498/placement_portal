@@ -1,0 +1,17 @@
+Given N modular equations:
+A ≅ x1mod(m1)
+.
+.
+A ≅ xnmod(mn)
+Find x in the equation A ≅ xmod(m1*m2*m3..*mn) 
+where mi is prime, or a power of a prime, and i takes values from 1 to n.
+The input is given as two arrays, the first being an array containing values of each xi, and the second array containing the set of values of each prime. mi
+Output an integer for the value of x in the final equation.
+ Examples : 
+ Explanation :
+We aim to solve these equations two at a time. We take the first two equations, combine it, and use that result to combine with the third equation, and so on. The process of combining two equations is explained as follows, by taking example 2 for reference:
+We observe that 2772 is rightly equal to 4 * 7 * 9 * 11.
+We have thus found the value of x for the final equation.
+You can refer to Extended Euclidean Algorithm and Modular multiplicative inverse  for extra information on these topics. 
+Run on IDE
+This theorem and algorithm has excellent applications. One very useful application is in calculating nCr % m where m is not a prime number, and Lucas Theorem  cannot be directly applied. In such a case, we can calculate the prime factors of m, and use the prime factors one by one as a modulus in our nCr % m equation which we can calculate using Lucas Theorem, and then combine the resulting equations together using the above shown Chinese Remainder Theorem.

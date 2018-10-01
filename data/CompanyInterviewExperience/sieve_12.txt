@@ -1,0 +1,21 @@
+
+Given two numbers M and N. The task is to print the number which has the maximum number of distinct prime factors of numbers in range M and N. If there exist multiple numbers, print the smallest one.
+Examples:
+Input: a=4, b=10
+Output: 6
+Number of distinct Prime Factors of 4 is 1
+Number of distinct Prime Factors of 5 is 1
+Number of distinct Prime Factors of 6 is 2
+Number of distinct Prime Factors of 7 is 1
+Number of distinct Prime Factors of 8 is 1
+Number of distinct Prime Factors of 9 is 1
+Number of distinct Prime Factors of 10 is 2
+Input: a=100, b=150
+Output: 102
+The approach is to use  Sieve of Erathosthenes. Create a factorCount[] array to store the the number of distinct prime factors of a number. While marking the number as prime, increment the count of prime factors in its multiples. In the end, get the maximum number stored in the factorCount[] array which will be the answer. 
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

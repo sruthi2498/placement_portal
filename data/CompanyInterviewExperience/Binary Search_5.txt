@@ -1,0 +1,8 @@
+Given n eggs and k floors, find the minimum number of trials needed in worst case to find the floor below which all floors are safe. A floor is safe if dropping an egg from it does not break the egg. Please see n eggs and k floors. for complete statements
+We have discussed the problem for 2 eggs and k floors.  We have also discussed a dynamic programming solution to find the solution.  The dynamic programming solution is based on below recursive nature of the problem. Let us look at the discussed recursive formula from a different perspective.
+How many floors we can cover with x trials?
+When we drop an egg, two cases arise.
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(n Log k)

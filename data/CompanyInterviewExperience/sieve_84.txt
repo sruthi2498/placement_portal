@@ -1,0 +1,16 @@
+Emirp is the word “prime” spelled backwards, and it refers to a prime number that becomes a new prime number when you reverse its digits. Emirps do not include palindromic primes (like 151 or 787) nor 1-digit primes like 7.  107, 113, 149, and 157 – reverse them and you’ve got a new prime number on your hands. Source: Wiki
+
+Given a number n, the task is to print all Emrips smaller than or equal to n.
+Examples : 
+Below are the steps :
+1) Use Sieve of Eratosthenes to generate all primes smaller than or equal to n. We can also use sieve of sundaram.
+2) Traverse all generated prime numbers. For every traversed prime number print this number and its reverse if following conditions are satisfied.
+………….a) If reverse is also prime.
+………….b) Reverse is not same as prime (palindromes are not allowed)
+………….c) Reverse is smaller than or equal to n.
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

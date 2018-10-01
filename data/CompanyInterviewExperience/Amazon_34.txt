@@ -1,0 +1,72 @@
+Round 0: Online Coding Test (90 Min – 4 Coding Questions)
+1) Run length encoding
+aaaaaabb -> a5b2
+aaaaabccc -> a5bc3
+2) Linked List pair sum count
+0 -> 2 -> 5 -> 7 -> 4 -> 6 -> 10 -> 20 -> -10 -> Null
+Given Sum: 10
+Output : 3
+Explanation: (4, 6) (0, 10) (20, -10)
+3) Rotate Doubly Linked List by N time
+NULL <= a =><= b =><= c =><= d =><= e =><= f =><= g =><= h => NULL
+Given Num: 4
+O/P:
+NULL <= e =><= f =><= g =><= h =><= a =><= b =><= c =><= d => NULL
+4) Given Binary Tree, find level of x node if x is present otherwise return 0.
+After 1 month recruiter called for f2f rounds. There were 4 rounds on the same day.
+Round 1: Hiring Manager Round (Behaviour + Design)(1.5 Hrs)
+Intro, Project & Lot of Behaviour Questions
+-> Project Biggest Challenge and how did you solve it ? (Choose recent & best)
+-> Tell me a time when you mentor someone ?
+-> Tell me a time when your manager was not there and you had to take up some important decision ?
+-> Tell me a time when you have to deep dive into something on your own ?
+Lot of other behaviour questions. Finally gave a design problem to solve.
+Design:
+Do integration for Splitwise app with Amaonz Pay (or Paytm)
+1) where a person can pay to another person and money directly gets deposited into other person’s bank account.
+2) A person can also send reminder to another person for owning money.
+Round 2: Design Round (1.5 Hrs)
+1) Detailed discussion on project and design of it, how will you scale your project to support n number of users. Focus was on scalability & distributed design.
+2) Design a job scheduler, scalability, fault tolerance, high availability, how scheduler picks up job,
+how will you take care where one job can run for 30 min and one for 30 hour, how will you distribute jobs on servers.
+Based on frequency & time how will you execute them ?
+How will you notify back the user about start/stop or completion of a job ?
+How will your system know if a job is killed / terminated due to unknown reasons ?
+Round 3: Coding Round (1.5 Hrs)
+Given array -> {5, 1, 3, 2, 8}
+and a Linked List where elements will be from the array but can also be duplicated.
+3 -> 2 -> 5 -> 8 -> 5 -> 2 -> 1 -> X
+Sort the linked list in the order, elements are appearing in the array. O(n) complexity was expected. Complete running code on paper was expected. All boundary condition checks were expected.
+Round 4: Coding Round (1.5 Hrs)
+Given a n-ary tree, basically a graph but connected and doesn’t contain cycle.
+every edge is given a weight, identify all paths from all vertex to all vertex & then sum of all paths.
+Give final result as sum of all paths.
+Ex:
+10          20
+A——-B——–E
+30/ \40       \ 50
+/     \            \
+C       D            F
+Here all paths and their sum are as follows: Ans should be sum of all of them.
+A-B = 10
+A-E = (10+20)
+A-F = (10+50)
+A-C = 30
+A-D = 40
+B-E = 20
+B-F = 50
+B-C = (10+30)
+B-D = (10+40)
+C-D = (30+40)
+C-E = (30+10+20)
+C-F = (30+10+50)
+D-E = (40+10+20)
+D-F = (40+10+50)
+E-F = (20+50)
+First write the data structure to solve this problem, then efficient algorithm, then complete working code on paper.
+ 
+Overall it was a positive experience, recruiter kept me informed about the progress and about next rounds. First four rounds went well but I wasn’t able to solve 5th round problem, and was eliminated after then.
+Thanks a lot to geeks for geeks for having such a great amount of collection to practice on.
+ 
+Advise:
+ 

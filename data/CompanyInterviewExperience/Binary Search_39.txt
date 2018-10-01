@@ -1,0 +1,32 @@
+ Given two sorted matrices mat1 and mat2 of size n x n of distinct elements. Given a value x. The problem is to count all pairs from both matrices whose sum is equal to x.
+Note: The pair has an element from each matrix. Matrices are strictly sorted which means that matrices are sorted in a way such that all elements in a row are sorted in increasing order and for row ‘i’, where 1 <= i <= n-1, first element of row 'i' is greater than the last element of row 'i-1'.
+Examples:
+
+Method 1 (Naive Approach): For each element ele of mat1[][] linearly search (x – ele) in mat2[][].
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n4).
+Auxiliary Space: O(1).
+Method 2 (Binary Search): As matrix is strictly sorted, use the concept of binary search technique. For each element ele of mat1[][] apply the binary search technique on the elements of the first column of mat2[][] to find the row index number of the largest element smaller than equal to (x – ele). Let it be row_no. If no such row exists then no pair can be formed with element ele. Else apply the concept of binary search technique to find the value (x – ele) in the row represented by row_no in mat2[][]. If value found then increment count.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: (n2log2n).
+Auxiliary Space: O(1).
+Method 3 (Hashing): Create a hash table and insert all the elements of mat2[][] in it. Now for each element ele of mat1[][] find (x – ele) in the hash table.
+Run on IDE
+Output:
+Time complexity: O(n2).
+Auxiliary Space: O(n2).
+Method 4 (Efficient Approach): From the top leftmost element traverse mat1[][] in forward direction (i.e., from the topmost row up to last, each row is being traversed from left to right) and from the bottom rightmost element traverse mat2[][] in backward direction (i.e, from the bottom row up to first, each row is being traversed from right to left). For each element e1 of mat1[][] and e2 of mat2[][] encountered, calculate val = (e1 + e2). If val == x, increment count. Else if val is less than x, move to next element of mat1[][] in forward direction. Else move to next element of mat2[][] in backward direction. Continue this process until either of the two matrices gets completely traversed.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n2).
+Auxiliary Space: O(1).

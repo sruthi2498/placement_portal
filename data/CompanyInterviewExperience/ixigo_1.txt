@@ -1,0 +1,37 @@
+I have around 3 years and 4 months of experience as a software developer. I recently interviewed with ixigo for the position of SDE2 backend Java profile. The interview experience is as follows.
+Round 1: (Data Structures and Algorithms)
+Interview started with a small introduction about me and the work I have done. There were 2 interviewers in this round. One was graduate from NIT Allahabad (4.5+ years of experience) and the other was graduate from IIT Delhi. They checked my github profile and competitive programming profile. They asked 3 questions from me which are given below, the parameters involved were time complexity, space complexity and code clarity.
+Question 1: Given a binary search tree in which data of 2 nodes is swapped, print the swapped nodes.
+Solution : I proposed a solution using in-order traversal because inorder traversal of BST always gives a sorted list. So it was easy to identify the nodes which do not fit in the order. Solution was simple to implement. O(n)
+Question 2: Given a binary tree with a modified structure, each node contains information about the parent node also. Now in this binary tree if we burn a node then the fire travels from the burnt node to the parent node and it’s children node in 1 second.  Tell the time in which the entire tree will be burnt.
+Solution : I used BFS to solve the problem, the code was straight forward. O(n+e)
+Question 3: Print the bottom view of binary tree.
+This was simple. O(n)
+
+Round 2: Java
+The interviewer asked me Java related concepts
+Question 1: How ConcurrentHashMap works. What is the underlying algorithm and code java uses. How synchronization is achieved in it. Explain the bucket protocol.
+Question 2: Use of enum and give an example of design pattern which uses it.
+Question 3: Different questions related to collections and generics.
+Question 4: Threads, Latches, barriers, Semaphores, Mutex, Dead locks, Callables and other concepts related to multi threading.
+Round 3: VP Technical Round
+The interviewer was a very experienced person (10+ years) with graduation from IIT Varanasi and PG from IIM Bangalore. He was ML (Machine Learning) Head also. He asked me following questions.
+Question 1: Bean scopes in Spring, how scope resolution works. What problems will arise If we pass request scope bean in singleton scope bean.
+Question 2: What is microservice architecture and how is it different from monolith architecture. Benefits of using them. Explain microservices you have used in your code and what mechanism you have used for their interactions.
+Question 3: He asked me about circuit breaker and example of any such breaker if I have used. I have used Netflix hystrix in one of my project and had a bit of idea about it. Then he asked me about service discovery and why is it used.
+Question 4: He asked me to explain the architecture that I have implemented in one of my project to achieve real time synchronization. I explained him about the WebSocket and Stomp protocol and I have used them on the server side in my Spring project. Then he asked me about the Message Queues which I have used.
+Question 5: He gave me puzzle to solve. Given a square board, there is a 1 rupee coin placed on each corner of the board. The orientation of coin is not known, it can be either head or tail. There are 2 players A and B. Player B is blind folded and he does not know the initial configuration. Player B wins if all coins are either head or tail. Player B can ask Player A to flip any coin any number of times. Once he is sure that winning state is achieved he will ask player A if he is correct, Player A will answer him in yes/no. If the answer is no then player A can rotate the square board by n*90 degrees ( n being integer ). Now the game goes on until player B wins.
+He wanted to check the approach to solve this problem, given I am player B and he is player A.
+Round 4: CTO Round
+The interviewer was a graduate from IIT Kanpur, and had more than 15 years of experience. He was also an expert in machine learning, distributed systems and AI.
+Question 1: Tell me about your projects and the HLD of your projects. Explain the most complicated problem which you have solved till now in your projects.
+Question 2: What is your favorite app, then tell me one feature which you could change about it and how will you implement it.
+Question 3: Design a search engine similar to Google. It should scale well for high load. Explain how indexing will work and where you will store the millions of results returned while crawling the web and what technologies will you use(e.g HDFS, Lucene based indexor like Apache Solr, Elastic search etc), how will you begin crawling in your search engine, Implement typeahead feature, explain datastructures (Tries) and the related technologies which you would use to implement it, how will you prioritize your search feeds. The main parameters in this system design questions were scalability and performance.
+Question 4: Implement an algorithm that would show the near by restaurants, petrol pumps, CNG stations etc on a travel route. Optimize the algorithm as much as possible.
+Question 5: Then he asked me a geometrical puzzle. He wanted to check the speed with which I can calculate and the edge cases I can think of.
+Round 5: CEO Round
+The interviewer was a graduate from IIT Kanpur, he did his PG from Inseed and double MBA from Wharton. He was a very experienced person.
+Question 1: He asked me to introduce myself and some other basic questions about my experience and qualifications.
+Question 2: He asked me to design a system similar to Uber.
+ 
+All the interviewers were pretty amazing and very intelligent. It was wonderful experience for me. The interviews stretched over a span of a week. They offered me the SDE2 (Senior Software Developer) profile :).

@@ -1,0 +1,43 @@
+Telephonic Round: 
+1. Given a 2D matrix with elements 1 and 0, where 1 is land and 0 is water. Find the number of islands. ( https://www.geeksforgeeks.org/find-number-of-islands/ )
+2. Design a data structure which supports operations: insert, delete, find and findAny in constant time.
+FACE TO FACE
+Round 1:
+1. Given an array which can be either of the following:
+Non-decreasing
+Non-increasing
+Increasing then decreasing
+Decreasing then increasing
+2. Find the pivot element. ( https://www.geeksforgeeks.org/type-array-maximum-element/ )
+3. Find the first non-repeating character in a stream of integers
+4. Explain the situation where you had tight deadlines. What did you do to meet the deadline?
+Explain the situation where excess of work and you knew you could not meet the deadline. How did you manage then?
+Round 2:
+1. Print tree in a vertical order ( https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/ )
+2. Minimum no of jumps to reach the end of array ( https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/ )
+3. Given rods with different costs, combine the rods in a way such that you get the minimum cost.
+3. When do we use which sort? Example of cases when merge sort is not used.
+4. Explain heapify function of heap sort. Then explain with code what happens when you remove one element(max/min) from the heap.
+5. Have you ever faced the situation when you did not meet the deadlines, but you thought you were good enough and were on the right track? 
+7. Have you ever faced the situation when you had to struggle to meet the deadlines? How did you divide/make progress with the work?
+Round 3 (Hiring Manager):
+1. Zigzag print of a binary tree (https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/ )
+2. Rearrange a string such that no two same characters are adjacent to each other ( https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/ )
+3. Client calls server but gets delayed response. What could be multiple reasons? How could you improve upon them?
+Round 4 (Hiring Manager):
+1. Can you explain the situation where you have pushed/written your code and your manager didn’t approve of it, but you thought you had written the right code? What did you do then?
+2. Have you been in a situation where you convinced your manager for something?
+3. There is a call/request which takes some extra time in replying. Why could it possibly be? How do you remove that?
+4. Explain caching. What happens when cache is full? Implement LRU cache. Write the code. ( https://www.geeksforgeeks.org/implement-lru-cache/ )
+5. How do you manage work with strict deadlines? If ever you faced such situations.
+6. What aspects do you have in your mind when you want to join amazon? What are your expectations out of it?
+7. If you are given some work, how do define and manage it.
+8.  What will be your course of action if you are assigned some task which you don’t know at all? 
+Bar Raiser Round:
+1. Given an array of integers, replace every number with the next higher number to its right. If a number can’t be replaced, we leave it as-it is.
+For example, the list: 5, 2, 1, 4, 6, 7 needs to be changed to 6, 4, 4, 6, 7, 7.
+4 different approaches were discussed and codes were to be written.
+2. Why do you want to switch?
+3. Why amazon?
+4. Questions about current company, current project, team size, your roles and responsibilities, etc. were asked in almost all the rounds.
+

@@ -1,0 +1,13 @@
+Dynamic connectivity is a data structure that dynamically maintains the information about thee connected components of graph. In simple words suppose there is a graph G(V, E) in which no. of vertices V is constant but no. of edges E is variable. There are three ways in which we can change the number of edges
+In this article only Incremental connectivity is discussed. There are mainly two operations that need to be handled.
+Example:
+
+To solve the problems of incremental connectivity disjoint data structure  is used. Here each connected component represents a set and if the two  nodes belong to the same set it means that they are connected. 
+C++ implementation is given below here we are using union by rank and path compression 
+Run on IDE
+Output:
+Time Complexity:
+The amortized time complexity is O(alpha(n)) per operation where alpha is inverse ackermann function  which is nearly constant.
+
+Reference:
+https://en.wikipedia.org/wiki/Dynamic_connectivity

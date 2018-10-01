@@ -1,0 +1,16 @@
+Snapdeal visited our college to hire for the profile of SDET (Fresher). The interview consisted of 5 rounds. (Almost same process as for Software Engineer profile).
+#Round 1: a) Aptitude MCQ (50 questions in 12 minutes), b) Quant + 2 Coding questions (Hackerrank) (45 minutes), c) C/Java MCQ
+* Aptitude MCQ consists of very easy questions, speed is all what matters here. Attempt all questions (No negative marking).
+* Quant questions were a bit difficult and took time to solve. For some questions, we had to deduce the answer by checking all the options. Hackerrank coding questions were average.
+Line intersection problem and overlapping paintings problem.
+” It is important to solve atleast 1 coding problem (3 test cases atleast), to get into the next round. ”
+Get familiar with Hackerrank before your interview.
+*C/Java MCQ questions were average. You had to choose either C or Java. Basic output questions.
+#Round 2 (Technical Interview I):  Majority of the students were eliminated after the first round. This round consisted of questions from DS, Algo, OS and Networks. linked list, stack, queue and tree questions were their favorites. Refer geeksforgeeks for questions on these topics (LL reversal, identical trees etc). Also, the interviewer would ask you to write the code for questions on LL, trees etc., so be prepared for it. I was also asked about deadlock, process synchronization, TCP/IP.
+If you are unable to solve a problem, that is perfectly all right. Don’t give up. Tell the interviewer what you are thinking. The interviewer would help you to reach the final solution.
+#Round 3 (Technical Interview II) : Same DS, Algo questions and resume based interview. Your previous projects, interests. Please don’t write non-sense in your resume. If you have something in your resume, be prepared to back it up. Asked some advanced Java questions since I had done a project in J2EE. Make sure you know everything about your previous projects.
+#Round 4 (Managerial Interview) : Questions about resume, why Snapdeal, puzzles and SQL query questions. SQL questions were difficult. Study nested queries, joins etc. Again, don’t quit. Try to reach out a solution, interact with the interviewer. They want to know your thought process. I wasn’t able to give the correct/optimal solution of queries and the puzzle, but i was able to dig deep and give a non-optimal solution. Practice popular puzzles.
+Round 2,3,4 may take upto 1.5 hrs each depending upon the interviewers and candidates. They would know almost everything about you after these 3 rounds.
+#Round 5 (HR Interview): Again resume based, introduction, hobbies etc. Might give puzzles to solve (gave to my friend). Asked questions about Snapdeal. Lasted 15 minutes.
+All the best!
+

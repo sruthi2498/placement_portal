@@ -1,0 +1,15 @@
+I was  given  the following problem statement and asked to  implement it with any choice of programming language.  They expected the code to be production-level, modular and bug free. After this, there was an evaluation round for the code. They tested the code with all corner cases and asked me to modify the code for new requirements which I was able to do easily.
+A job scheduler to schedule M jobs on N threads on a single machine. The input contains the following data:
+There are various scheduling algorithms-
+Shortes job first (SJF), is a scheduling policy that selects the waiting process with the smallest execution time to execute next. In case of tie choose the job according to the following order-
+Jobs are executed on first come, first serve basis. Take the input as the order of jobs need to be scheduled.
+Each process is assigned a priority. Process with highest priority is to be executed first and so on. In case of tie choose the job according to the following order-
+Next job will be searched on the basis of job which is closest to its deadline. In case of tie, choose the job according to the following order-
+You would be given a list of jobs (refer example below for format) and number of threads as input. You are expected to print the order of jobs scheduled for each algorithm on each thread as output.
+Threads= 2
+ 
+This was a problem solving and data structures related round.
+Interviewer asked me following questions with working code.
+I solved all of the above problems and my interviewer was satisfied.
+The HM had  an in-depth discussion on my latest project and technologies that I had used in the project.He asked me a lot of behavioral questions as well.
+After a few weeks I got the offer.

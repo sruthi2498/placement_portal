@@ -1,0 +1,13 @@
+We have been given a string in lowercase alphabets. We need to print substrings that contain all the vowels at-least one time and there are no consonants (non-vowel characters) present in the substrings.
+Examples:
+Reference :- Samsung Interview Questions.
+
+We use a hashing based technique and start traversing the string from the start. For every character, we consider all substrings starting from it. If we encounter a consonant, we move to next starting character. Else, we insert current character in a hash. If all vowels are included, we print current substring.
+Run on IDE
+Output:
+Time Complexity : O(n2)
+Optimized Solution :
+For every character, If current character is vowel then insert into hash. else set flag Start to next substring start from i+1th index. If all vowels are included, we print current substring.
+Run on IDE
+Output:
+Thanks to Kriti Shukla for suggesting this optimized solution.

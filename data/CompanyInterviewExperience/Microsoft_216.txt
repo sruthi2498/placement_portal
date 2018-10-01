@@ -1,0 +1,27 @@
+Online Round on Hackerrank – 1 Hr:
+1. Maximum product sub-array.
+https://www.geeksforgeeks.org/maximum-product-subarray/
+2. Building bridges across cities. Find the maximum number of bridges that can be built.
+Round 1:
+1. Find the median of two sorted arrays.
+https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
+2. Store a mirrored matrix ( Mat[i][j] == Mat[j][i] ) efficiently.
+Round 2:
+1. Stream of urls coming, find out top trending topics
+    General discussion around designing such a system in a distributed setup.
+2. Discussion on designing a spam email detection system.
+Round 3:
+1. Rotate a given array.
+https://www.geeksforgeeks.org/array-rotation/
+2. Count frequencies of elements in an array.
+https://www.geeksforgeeks.org/count-frequencies-elements-array-o1-extra-space-time/
+Round 4:
+1. Connect nodes at the same level in a binary tree.
+https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+2. Design a LRU cache
+https://www.geeksforgeeks.org/implement-lru-cache/
+3. Find a given word in a board of characters
+https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
+Would like to thank geeksforgeeks for the big collection of relevant interview questions.
+
+

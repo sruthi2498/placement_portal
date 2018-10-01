@@ -1,0 +1,14 @@
+Given a binary string, count minimum number of subsequences to be removed to make it an empty string.
+Examples :
+Expected time complexity : O(n)
+The problem is simple and can be solved easily using below two facts.
+1) If given string is palindrome, we need only one removal.
+2) Else we need two removals. Note that every binary string has all 1’s as a subsequence and all 0’s as another subsequence.  We can remove any of the two subsequences to get a unary string.  A unary string is always palindrome.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output : 
+Exercises:

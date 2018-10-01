@@ -1,0 +1,33 @@
+Written round: One programming question of 3 hours duration.
+There were two rounds : tech PI and HR round.
+A. Tech. PI :  Firstly,interviewer went through my whole resume.He started asking questions from project done during summer internship.Questions were:
+1. What is he project about?
+2. Difference between 3G and  4G.
+3. What is the aim of this research internship?
+4. How much was i able to complete in two months?(I told that i am continuing as major project,since in two months time i could not get desired result).
+Then, he went onto programming language i was comfortable. I answered C.
+1.sizeof(“shubham”)
+   strlen(“shubham”)
+I was asked to write output.Output would be 8 and 7. He asked why. Basic concepts should be clear.
+2.Storage Classes in C-asked me concept and gave some questions to write output.
+3.Constant pointers and pointers to constant. Asked to write output of snippets he gave.
+4.malloc,caloc,realloc,free-syntax
+5.Questions on pointers.
+Basic concepts of let us C were asked mostly,that book is enough . Also see, GEEKSFORGEEKS, C section.
+Operating System: Mutex and Semaphore,critical Section, Scheduling algorithms, Producer-Consumer Problem.
+(Data Structures was not asked to me but others.)
+Puzzles:
+1. Maximum run a batsman can make in 50 overs.
+2. There are 10 coins. 5 face head side and 5 as tail. You are blind folded.Make two piles of equal number of coins such that number of head in equal in both the piles.
+Assumption:You can flip coin any number of times.
+Question: Why do you want to join Samsung,though placed in OFSS?
+Questions: Any plans of future studies. I answered ‘NO’ only job.
+Last question: Any question I would like to ask them. I asked what work would be doing in R&D. He explained me a lot of things.
+B. HR Round:
+1. Introduce yourself.
+2. How would your friends describe you?
+3. Tell the recent experiences of which makes you initiative.(i told that i am initiative,then he asked that question. So be ready with the examples,when u say any of your qualities.)
+4. What is your weakness?
+5. Puzzles.He asked me to fill the numbers from 1 to 8 in these 8 boxes, one number exactly once, such that no two consecutive elements are adjacent(diagonally, horizontally or vertically) to each other.
+https://www.geeksforgeeks.org/samsung-rd-sri-noida-interview-experience-set-8-on-campus/
+6.Which places in India have you been and what is there to see in Raipur ?

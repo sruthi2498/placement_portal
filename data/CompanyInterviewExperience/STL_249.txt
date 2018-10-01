@@ -1,0 +1,36 @@
+The lrint() function rounds the fractional value given in the argument to an integral value using the current rounding mode.
+Here, the current mode is determined by the function fesetround().
+Note:This function returnd the final value in long int .
+Syntax:
+
+Parameter:
+Return:
+Error:
+# CODE 1
+Run on IDE
+OUTPUT :
+# CODE 2
+Run on IDE
+OUTPUT :
+# CODE 3
+Run on IDE
+OUTPUT :
+
+llrint() in c++
+The llrint() function rounds the fractional value given in the argument to an integral value using the current rounding mode.
+Here, the current mode is determined by the function fesetround().
+Note: Thus function returns value in a long long int
+Syntax:
+
+Parameter:
+Return:
+Error:
+# CODE 1
+Run on IDE
+OUTPUT :
+# CODE 2
+Run on IDE
+OUTPUT :
+# CODE 3
+Run on IDE
+OUTPUT :

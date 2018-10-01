@@ -1,0 +1,17 @@
+Given two binary trees, we have to check if each of their levels are anagrams of each other or not. 
+Example:
+
+As we can clearly see all the levels of above two binary trees are anagrams of each other, hence return true.
+
+Naive Approach: Below is the step by step explanation of the naive approach to do this:
+Time Complexity: O(n^2), where n is the number of nodes.
+Efficient Approach:
+The idea is based on below article.
+Print level order traversal line by line | Set 1
+We traverse both trees simultaneously level by level. We store each level both trees in vectors (or array). To check if two vectors are anagram or not, we sort both and then compare.
+Time Complexity: O(n), where n is the number of nodes.
+
+Run on IDE
+Run on IDE
+
+Note: In the above program we are comparing the vectors storing each level of a tree directly using not equal to function ‘ != ‘ which compares the vectors first on the basis of their size and then on the basis of their content, hence saving our work of iteratively comparing the vectors.

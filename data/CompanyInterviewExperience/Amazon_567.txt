@@ -1,0 +1,32 @@
+I had my amazon interview few days back in my campus.
+First Round: 
+First round was a simple round. It had 20 MCQ questions on C/C++ and 2 coding questions. The coding questions were:
+1.) You have given an array in which numbers are first increasing and then decreasing. Find the maximum element in O(log n).
+2.) Swap the data of alternate nodes of a list.
+We were given 90 minutes for 22 questions. For objective questions, you should be clear with virtual functions, inheritance, data types etc.
+Second Round:
+In this round, we were divided in groups. And a tree problem was given. We have to solve them individually.
+My problem was:
+Given a bst and two boundary values. Prune the tree if the node data lies outside the boundary values
+Round three:
+In this round,
+1) Reverse a doubly linked list and a singly linked list. Both iterative and recursive. Which one is better approach and why?
+2) Can you reverse a list in less than O(n)?
+3) Differences between list and array. Which data structure you like and why?
+4) How will you find the kth node from last in a list? Discussion on optimization
+5) Given a string. Print all permutations of it. Discussion on time complexity and optimization.
+Round four:
+1) Interleaving of a string. A big discussion on various test cases. Your code should handle the case if the string contains repeated characters.
+2) Check if a binary tree is a bst or not
+3) find diameter of a tree.Follow up how will find the height of a binary tree? 
+Round five: Problem Solving round
+1) Given an array of heights of poles. Find the no of poles which are visible if you are standing at the ith pole.
+2) You have a you tube video. A person watches the video in random order. You have given the start and end time of various intervals he watched. How will you confirm whether he has watched the full video or not.
+3) Given a number. How will you find the next greater number with same digits.
+Round Six: (HR round)
+1) tell me about yourself.
+2) why amazon?
+3) Project discussions.
+4) A little discussion  on OOPS.
+All the best Guys.. 🙂
+

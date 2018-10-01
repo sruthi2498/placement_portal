@@ -1,0 +1,36 @@
+Online Coding Round : Platform used was cocubes.com
+Time : 75 min   Question : 3 Coding Question
+1st Question : Simple linked list implementation. Given two strings in the form of linked lists you were to find the lexicographical greatest string.
+2nd Question : You were given an array and you were supposed to find the number of elements which is/are largest among all elements present in the right side of that particular element in the array.
+3rd Question : It was a question related to BP+Bitmask. I don’t remember the exact question.
+Around 27 students were selected from the coding round and were called for further interview rounds.
+
+Round 1(Face-To-Face)
+The interviewer was very friendly.He asked me to introduce my self
+Then he asked me some question :
+1) Find the maximum cost in traversing a 2-D matrix from one given cell to another. It is same as Min Cost Path DP problem.
+He asked me to write a code for this.
+2) Rod Cutting DP
+I gave him an approach and he was satisfied with this. Then he asked me to write the code.
+3) Left view of Binary Tree
+I gave him an approach and he was happy with approach. After this I was asked to write the code.
+After these questions he went on for some theoretical questions related to OOPS, DBMS, OS etc.
+He asked basic questions like polymorphism and its types. Then, about Normalization and its types with example. He also asked questions related to semaphores.
+
+Round 2(Face To Face 2) 
+The interviewer was very friendly.He asked me to introduce my self and about my hobby.
+He then moved on to the theoretical concepts of subjects. He asked me questions related to DBMS(transactions and its properties-ACID, about normalization with examples, indexing), OS(paging, segmentation, difference between process and thread etc).
+After this he moved to my project, he asked me to give brief idea about my project. He asked questions related to my project(SQL vs No SQL, Node-Js concepts etc.).
+Then he asked me a simple coding question with certain constraints and I solved it. He was very happy with my solution.
+At the last he gave  me a puzzle to which I couldn’t solve.
+
+Round 3(Technical+Managerial)
+The interviewer was very friendly. He went through my resume and asked about my interest and extra co-curricular activities.
+After this he asked about my aims, and other HR’s like questions.
+He asked few project related questions and this was all for this round.
+
+Round 4(HR)
+The interviewer was very friendly. She asked me to introduce myself.
+She asked about my hobby. After this few questions like Why Paytm? etc. This was non-tech round. She wanted to check your nature, attitude and team work skills. Then I was asked to wait for the results.
+Verdict – Selected 🙂
+A big thank you to GeeksforGeeks for providing such invaluable material for preparation.

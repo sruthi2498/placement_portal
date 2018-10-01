@@ -1,0 +1,18 @@
+ Swap all the pair of bits in a byte. Before swapping: 11-10-11-01 After swapping:  11-01-11-10
+Examples:
+
+Approach:
+x = ((x & 0b10101010) >> 1) | ((x & 0b01010101) <> 1 extracts the high bit position and shifts it to the low bit position.
+Similarly the expression (x & 0b01010101) << 1 extracts the low bit from each pair and shifts it to the high bit position.
+The two parts are then combined using bitwise-OR.
+Below is the implementation of the above:
+Note: This solution works for only 8 bit.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference:
+https://stackoverflow.com/questions/4788799/swap-every-pair-of-bits-in-byte

@@ -1,0 +1,23 @@
+Hi, A brief documentation of my SAP Labs, India interview is as follows:
+Interview Round 1:
+Q1. What is I of ACID properties?
+Q2. What is write ahead logging in DBMS?
+Q3. What are the deadlock avoidance schemes?
+Q4. What is clustering index ?
+Q5. There is a program which inserts and deletes node in a sorted singly linked list. There is a bug in one of the modules, how would you debug it?
+Q6. What are the ways in which fault tolerance can be ensured in systems? (Different redundancy techniques)
+Q7. A pair of redundant systems are operating, how would you ensure that when one of them goes down, the other one will take over its operation ?
+Q8. Virtual function in C++.
+Interview Round 2:
+Q1. Implement the malloc() and free() operations. Give the strategy for implementation, no coding.
+Q2. What is structure padding ?
+Q3. A window of size k is sliding from left to right in an array of size n, find the maximum number in the window at each window position.
+Q4. Explain your project in detail especially your contribution.
+HR Round:
+Q1. How was the interviews ?
+Q2. What is your negative point that you want to improve?
+Q3. Would you like to change your domain, if yes why ?
+Q4. Tell me an experience of yours in that you didn’t like to do and how you handled it ?
+Q5. What are you expecting from the company ?
+Q6. Are you comfortable shifting base ?
+

@@ -1,0 +1,26 @@
+Accolite came to our campus for recruitment.
+First Round Written Test:
+20 MCQs in which general CS basics question were asked. And one subjective paper where we have to write 3 codes.
+1. Maximum path sum between two nodes of a tree
+2. Majority element in an array.
+3. Some 2d array related question.
+They selected 7 students out of around 180 students for next rounds.
+Tech Interview Round 1:
+1. Let’s say you are given with some lines of codes, in any language say C++. You have to design a complete syntax checker.
+    – I need to give him a algo or design steps which I will follow to make this checker.(Around 1 hr 15min discussion/suggestions/more test cases/new boundary case were discussed, Then finally he was satisfied with the output)
+2. This question was pretty easy just to complete the round 1,I think. He asked me to code the problem “to find kth smallest element from the last in a Link List”.
+Tech Interview Round 2:
+There were two interviewers:
+They picked my subjective paper (code I wrote in written test).
+1. He picked my majority element question, in that question, I have used the MedianOfMedian technique. He was not very much clear with the technique so he asked me to prove the complexity that this technique works in O(n). I was also not sure about the proof that time but after some discussions in 45mins he was satisfied about the technique. 
+2. He asked me give him a technique for the following question:
+You are given with an array. You have to put even numbers at even places or odd at odd places. Firstly i had to tell how will I decide what to do, even at even or odd at odd? Then he asked to design algo for that. He asked for inplace O(n) solution.
+I have never heard about the question so it took 30mins to give the best solution. At first  I gave –outplace O(n) solution then –in place O(n^2) solution –Then an incorrect O(n) in place one, for that he asked me to prove that this is wrong and finally I gave a correct solution.
+And finally he asked to Code that algorithm. 
+Tech Interview Round 3:
+1. He asked me the difference between P and NP problems.
+2. Draw a venn diagram showing the relationship between P and NP (I got it completely wrong)
+3. Probability question, Six coins are tossed What are the probability of getting at least 5 heads. (because of some stupidity again I gave the wrong ans)
+4. Then he finally asked me to design an algorithm to find LCA of two nodes in an n-ary generic tree. I did that correctly and he was satisfied.
+In next HR round, general HR questions were asked.
+I think the whole process was little bit cumulative kind of process. All the rounds, even written round had some weightage in final selection. Although students got eliminated in between rounds.

@@ -1,0 +1,18 @@
+Given a range, count Fibonacci numbers in given range. First few Fibonacci numbers are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 141, ..
+
+Example : 
+We strongly recommend you to minimize your browser and try this yourself first.
+A Brute Force Solution is to one by one find all Fibonacci Numbers and count all Fibonacci numbers in given range
+An Efficient Solution is to use previous Fibonacci Number to generate next using simple Fibonacci formula that fn = fn-1 + fn-2.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output : 
+Time Complexity Analysis:
+Consider the that Fibonacci Numbers can be written as below
+
+
+So the value of Fibonacci numbers grow exponentially. It means that the  while loop grows exponentially till it reaches ‘high’. So the loop runs O(Log (high)) times. 
+One solution could be directly use above formula to find count of Fibonacci Numbers, but that is not practically feasible (See this for details).
+Auxiliary Space: O(1)

@@ -1,0 +1,8 @@
+Given a number, the task is to write a recursive function which checks if the given number is palindrome or not. 
+Examples:
+The approach for writing the function is to call the function recursively till the number is completely traversed from the back. Use a temp variable to store the reverse of the number according to the formula which has been obtained in this post. Pass the temp variable in the parameter and once the base case of n==0 is achieved, return temp which stores the reverse of a number. 
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE

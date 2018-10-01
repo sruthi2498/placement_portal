@@ -1,0 +1,67 @@
+The interview process consisted of 4 rounds.
+Round 1: APTITUDE + C + ELECTRONICS MCQs (No negative marking)
+The aptitude questions had a good mix of probability, speed and time, clocks, numbers, mixtures, time and work etc.
+Tip: For clearing aptitude rounds, make sure you have great speed in solving quantitative aptitude. This is what differentiates you from the rest of the lot.
+Maintain time in all your aptitude practice sessions.
+The C questions were very conceptual. Unlike other companies, it did not have output tracing questions. It had questions on asymptotic complexity, recurrence relations and the like.
+Tip: For clearing C questions, practice dry-running of complex codes, you’ll be able to trace better during the test.
+Solve as many questions as you can.
+ Make note of the new concepts that you come across every day- this will help during last minute revision.
+The questions from Electronics were not so easy to crack for Computer Science students. However, if you brush through basic concepts before exam, it will be relatively easier to even guess the right answer: P
+The questions revolved around logic gates, FET, thermal runaway, voltage-current characteristics of diode and the like.
+Tip: Since there is no negative marking, make an intelligent guess and mark all questions even if you aren’t very sure of the answers.
+I was shortlisted among close to 40 others for the next round!
+After you clear the written test, there will be a select few you need to compete with. Make the most of this chance.
+Round 2: Technical Interview (50 minutes)
+I was interviewed at around 8 pm. Most of you will begin to feel tired even before your interview starts, but just hang in there and gather all your energy that you have. Keep your mind fresh.
+This round went on for around 50 minutes for me. A few of the questions were:
+·         Write code to reverse a linked list recursively
+After I wrote the code, the interviewer wrote a piece of code and tried telling me that his code was simpler, hence better – but I immediately found a flaw with his code (the headptr wasn’t handled after reversal). He wasn’t really expecting that out of me, so he stopped for a minute and added a couple of lines to make his code alright 😉
+There I scored a brownie by using my presence of mind: D
+·         Write a code to Multiply a number by 7 without using * operator
+·         Write a code to Multiply a number by 8 without using * operator
+·         Write a code & pseudo code to find the minimum spanning tree
+·         RSA Algorithm (very intricate questions from here – what is the significance of phi(n) etc)
+·         Diffie Hellman Algorithm
+·         Trace route program implementation (Detailed questions about TTL), ping etc
+·         IP Headers
+·         Network Protocols
+·         Euclidean theorem
+·         Euler’s totient function
+A lot more questions were asked that covered OS, Networking, Data Structures, C, and C++
+Round 3: Technical Interview (50 minutes)
+This was again a technical pen and paper coding round. A few of the questions were:
+·         The interviewer asked me to write a code for the famous game Brainvita (Those who you who haven’t played this game can look up http://www.youtube.com/watch?v=GSWI4ZSq6q8 to understand about it)
+This was a very lengthy program (handling all boundary cases) which required a very in-depth understanding of 2-D matrices.
+·         Big Endian to Little Endian Conversion
+This required concepts of masking and bit-wise operators. After I came up with a code to do the same, I was asked to reduce the space complexity to O(1). 2 minutes of thinking and I managed to do crack it !
+The interviewer applauded me for coming up with the most optimal solution possible for this that is used in the industry.
+A few more questions on OS were asked and the interviewer was pretty satisfied with the answers.
+Tips for writing code:
+–> Remember to comment and indent your code even when you are writing the code on paper
+–> Handle all boundary cases well
+–> Keep your code legible- don’t scribble. A neat code shows you are confident and clear about your code
+–> Dry-run your code alongside before you ask your interviewer to review it
+–> If you don’t get the logic in the first shot, just THINK ALOUD and let your interviewer know how you approach to solve the problem
+–> Even if you know the code from before-hand, don’t show that to him, work it out in front of him such that you are doing it for the first time.
+–> Ideally, you should start from the brute-force solution and then progress to optimizing the time and space complexity. This shows an in-depth understanding of complexity analysis.
+Round 4: HR Interview (40 minutes approx.)
+Here your communication skills will be put to test. I love public speaking and having been a Toastmaster for 3 years now, this was a cake walk for me. I thoroughly enjoyed this round though this was at 1 AM in the night (morning :P)
+I was asked about my future plans, the leadership responsibilities I have held and my learning experience out of them.
+This round was mostly based on resume – my accomplishments as a Toastmaster and how managed to stay on Rank 1 throughout my academic life etc. (Basically it was all about me)
+Tips:
+·         Make sure you have actually done whatever is there on your resume
+·         Do NOT even give the slightest hint to the interviewer that you might be even remotely interested in further studies right now (I am assuming that since you are sitting for placements- you don’t want to go for higher studies right now)
+·         Be prepared with 1 strength and 1 weakness of yours
+·         Know your hobbies and passion
+·         Showcase sense of humor and be at ease
+·         Speak confidently
+·         DO NOT be rude/ sarcastic with the interviewer. It might be a stress test , so just maintain your calm
+·         Read up about the company in detail to answer why XYZ company?
+·         Be prepared with questions to ask them when they ask you – Do you have any questions? (Sound intelligent and sensible – ask about your job responsibility/ work culture etc.)
+·         Follow the Pre-placement talk keenly (It helped me in my HR round)
+·         SMILE 🙂
+Recommended Preparation material:
+And finally, results were announced at around 2 AM—— but trust me it was totally worth the wait!
+I hopped on board with CISCO and here my journey begins …
+Thanks a lot to geeksforgeeks ! 😀 It helped me a lot in my interview process !

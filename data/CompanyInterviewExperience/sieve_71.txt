@@ -1,0 +1,15 @@
+Given an integer N. The task is to find a number that is smaller than or equal to N and has maximum prime factors. In case there are two or more numbers with same maximum number of prime factors, find the smallest of all.
+Examples:
+
+Method 1 (brute force):
+For each integer from 1 to N, find the number of prime factor of each integer and find the smallest number having maximum number of prime factors.
+Method 2 (Better Approach):
+Use sieve method to count number of prime factor of each number less than N. And find the minimum number having maximum count.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:
+Method 3 (efficient approach):
+Generate all prime number before N using Sieve. Now, multiply consecutive prime numbers (starting from first prime number) one after another until the product is less than N.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:

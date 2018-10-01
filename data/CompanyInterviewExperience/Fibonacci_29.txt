@@ -1,0 +1,10 @@
+Like Fibonacci numbers, a Fibonacci word. is a specific sequence of binary digits (or symbols from any two-letter alphabet). The Fibonacci word is formed by repeated concatenation in the same way that the Fibonacci numbers are formed by repeated addition. But unlike the fibonacci number, Fibonacci word has its first two terms different from each other. 
+The task is to find nth Fibonacci word for a given number n.
+Examples:
+
+Just like in program of Fibonacci number, we use the iterative concept of finding nth Fibonacci number here for finding nth Fibonacci word we can use the iterative concept. So for finding n-th Fibonacci word we will take two string Sn and Sn_1 which represent S(n) and S(n-1) respectively and on each iteration we will update tmp = Sn, Sn = Sn + Sn_1 and Sn_1 = tmp in this way we can find nth fibonacci word.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

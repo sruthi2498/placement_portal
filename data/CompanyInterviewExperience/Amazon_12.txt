@@ -1,0 +1,41 @@
+Round 1:
+First we took an online test(20 mcq’s and 2 programming questions) in our college.
+After 3 days Amazon recruiters came to our college.
+On that day they asked us to write 2 programs.
+1. String contains alphanumeric characters.find the sum of the numbers in that string.
+A)Input:- aa123bb4
+Output:- 127
+B)Input:- bbb5cc5dd12
+Output:-22
+2. Array contains 1’s and 0’s. Sort the array without using sort function.
+A) Input:- 1 0 0 1 0
+Output:- 0 0 0 1 1
+B) Input:- 0 0 1 0 1 1
+Output:- 0 0 0 1 1 1
+We have to write the solutions on paper for the above two programs.
+The shortlisted candidates are called to round 2.
+Round 2:
+This is a face to face round.
+In this round you are intervied for almost 1 hour.
+In this round they will give you some programs and you have to write codes for them.
+Some of the programs they asked me in the interview are:-
+1) given two binary strings. Perform addition for that
+Input:- 1010
+1111
+Output:11001
+2) Given a binary tree. Check whether it is a binary search tree or not?
+3) perform binary search
+4)find the peak elements(the value should be greater than the previous element and the next element in the array) in the array.
+Input:- 5 4 8 6 9 1 10
+Output:-5 8 9 10
+After qualifying in this round u will be shortlisted for round 3.
+Round 3:
+In round 3, depending upon the panel they will ask you about your project.
+Basic and advanced linux commands that are used for testing.
+If you had done a project they will ask you like ” how do you test your project”.
+Basic concepts in OS and DBMS.
+What is cache memory.
+What is IPV4 and IPV6.
+How will gmail authenticate your passwords?
+In which memory your laptop password is being saved?
+Deadlocks.

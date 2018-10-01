@@ -1,0 +1,20 @@
+5-quant,  15 technical,  (no verbal reasoning and English).
+1) Given 2 binary trees check if it  is symmetric (structure only not data).
+2) Remove duplicates in a string in O(n) time (order of input must be preserved)
+Round-1
+1. Heaps-insertion.
+2. Advantages of heaps over arrays.
+3. Find 2nd min element from given array
+4. Given an array and a sum s find all pairs of numbers which whoose sum=s
+(assume array is already sorted)space complexity-O(1),time complexity-O(n)
+Round-2
+1. Given a tree construct a mirror tree and return root of mirror tree.
+2. Level order traversal of a tree.
+3. Given a stack output a sorted stack.(hint use recursion).
+Round-3
+1. Given a tree populate the sibiling of the tree node with the next node in same level.space complexity-O(1).
+2. What happens when you type amazon.com in browser.
+Round-4
+1. Linked list problem https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+2. A simple problem in linked list. 
+

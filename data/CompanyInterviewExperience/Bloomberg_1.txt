@@ -1,0 +1,29 @@
+I applied through the careers page.
+There were 2 interviewers. The interview was scheduled for 90 minutes, to be held on Nexi(Bloomberg ‘s video conference tool)  along with live coding on HackerRank codepair.
+There were connectivity issues for good 15 to 20 minutes, nothing to panic about, the interviewers were pretty calm and patient about it. Nexi couldn’t connect till the end, so we had to do it via VidyoMobile application over the cellphone. 
+The interview started with both of them introducing themselves. What teams they worked in, what technologies they particularly used.
+Then they went on to ask me to tell about myself. Start off with your educational background, college, year, why you are a computer engineer etc. End it up with any interest or hobby. This was the first 20 minutes. 
+Then they asked about any recent project or internship you wanted to share. So I explained my most recent internship in detail. Where I did it, what I did. What I learned, why. 
+They then also asked that since your resume has a lot of Machine Learning and big data and stuff, and our particular team doesn’t really do much of that kind of work. I expressed that I am very open in that regard, if anything, I have an inquisitive mind, and I like trying and exploring a lot of things, as is reflective of my resume. 
+This lasted for 15 – 20 odd minutes. 
+Then they asked me, why do you want to join Bloomberg. Is this data analysis stuff the major reason. I started off with a yes, emphasizing how Bloomberg being essentially a data analysis, media company helps people make smart decisions, wise decisions, based on data points. I also mentioned of the company culture at Bloomberg, that I read about, how there is a flat structure to the organization. That is something I could relate to from my first internship experience and not the second (I did my first internship at a company with a workforce of 30 people, and the second with a workforce of 1, 00, 000 or more, worldwide)
+This was around 5-10 minutes. 
+Then they moved on to coding. Two problems were asked(one by each interviewer) .
+The first was to reverse the sequence of words in a string. Words are separated by spaces (any number) and we have to preserve the number of spaces, in order. They specifically said that there won’t be a need to run the code. Just write it down on the compiler, but yes, keep it syntactically correct.
+I used two vectors to store the words and the count of spaces. They went through the code, I did a dry run, explaining to them all the while, what part does what.
+I had used the reverse function to reverse the words vector. They asked if there was an alternative. Easy enough, iterate from right to left, straight forward.
+The second interviewer asked the second question. Given two linked list having integer values at them, <9, I had to obtain the result of adding them.
+I used a recursive function for this. There's two or three catches here. 1) make the size of both the lists as equal by prepending nodes with value zero.
+2) after making equal, there might still be a leftmost carry bit. Take care of that, I prepended one extra node to handle this.
+3) since the changes you make to your nodes, after addition, should be reflected back. Hence need to use pointer to pointer.
+After this, the recursion logic is simple enough.
+They pointed out small errors at places where I had forgotten to connect the next pointer. We did a quick dry run. They were satisfied with the code. And complexity as well. 
+PS: Make sure to do a dry run. For the first code, I found several silly mistakes on My own, like forgetting to increment in while loop, typos, etc. Realising your mistakes on your own reflects positively in front of the interviewers.
+Each question took around 15-20 minutes each. 
+The last 10 odd minutes is the part where they asked me if I had any questions for them. I had taken pointers from what they had told me in the beginning(which teams they worked in, technology ). So I asked them about their particular teams, what sort of things they do, how much of code they write. Since I had done an internship in an agile software development based company, I asked if they also followed agile software development.
+Followed up with the same questions from the second interviewer as well.
+Lastly, Informally, I asked them how much time they spend partying, more formally, what sort of team bonding activities, outings etc do they indulge in. They were happy to share about a bit of the office culture. 
+They again asked if there were any more questions from my side. I obliged with a No. 
+PS: the part where you get to ask questions, don't keep it too technical, or too informal. Show that you care about the technology, the work, as well as you are a cheerful and open person(more formally, interactive, collaborative, and a team player).
+This gives a personal touch to the whole experience for both parties. "
+This article is contributed by Himanshu Mangla.

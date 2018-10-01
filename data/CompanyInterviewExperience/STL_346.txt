@@ -1,0 +1,23 @@
+
+Queue are a type of container adaptors which operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front.
+This function is used to reference the first or the oldest element of the queue container. This function can be used to fetch the first element of a queue.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+This function is used to reference the last or the newest element of the queue container. This function can be used to fetch the first element from the back of a queue.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application :
+Given an empty queue of integers, add numbers to the queue, then print the difference between the first and the last element.
+Algorithm
+1. Add numbers to the queue using push() function
+2. Compare the first and the last element.
+3. If first element is larger, subtract last element from it and print it.
+4. Else subtract first element from the last element and print it.
+Run on IDE
+Output:

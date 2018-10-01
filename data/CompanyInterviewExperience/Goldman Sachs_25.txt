@@ -1,0 +1,37 @@
+Goldman Sachs Recently visited our campus ( Cummins College Pune ). The Eligibility Crieteria was cgpa > 6 and no live backlog . All the branches were allowed . Around 400+ people were there for aptitude .
+ 
+Round 1:
+First round was Aptitude Test . Aptitude test was held  on Hackerrank . It was 60 min test  consisting of 8 MCQ and 1 Code.
+There was negative Marking . MCQ were based on Data Structures, Time Complexity.
+I dont remember all MCQ, but few were as follows.
+1.  Preorder and Inorder traversal of tree were given we have to find postorder traversal.
+2. 
+Find the time complexity of above code.
+ 
+Coding Question
+Old Library Catalog and New Library Catalog was Given .
+for eg .   I/P
+Old Catalog  = { 10, 11, 14, 15, 16}
+New Catalog =   { 10, 12 , 13, 14, 15, 17, 18, 16 }
+O/P    =  { 0, -1, 1, 1, 3 }
+ 
+we have to find the position of books are changed or not.
+if the postion is same as old catalog the  add 0 for that book return arr.
+if the book is not there in new catalog then  add -1 for that book in return arr
+if the position is changed the add the shift in the return arr.
+It is easy to do with HASHMAP .
+After Aptitude 24  were Shortlisted.
+Round 2 : 
+They were having copy of our programs . They asked Same question to everyone  How you solved the Aptitude code . And a puzzle . The Intervievers are very friendly and constantly motivating . they were giving hints to solve the question .
+After this round 10 people were selected for the next round .
+Round 3 :
+In this Round they asked all the technical questions .
+After this round 5 people were selected for next Round .
+Round 4 :
+This was Also technical Round .
+After this 5 people were selected for next Round.
+Round 5 :
+It was HR round .
+Finally 5 people got placed in GS.
+ 
+ 

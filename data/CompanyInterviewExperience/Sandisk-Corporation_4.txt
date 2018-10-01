@@ -1,0 +1,45 @@
+Total 205 were shortlisted for the first round with CGPA cut-off as 8.76.
+
+Round 1: Aptitude cum Technical Round
+Duration: 45 mins
+Online test on Hackerrank including 15 general aptitude MCQs and 1 coding question.
+45 minutes were allotted for this round.
+The coding question was very simple and a number and a position was given to us and we just had to change the bit at that location in the integer.
+The test cases were not given to us and only output was to be returned after conversion of the integer.
+16 students were shortlisted for the next round.
+Round 2: Technical Interview
+Duration: 20-25 mins
+The interview was very exciting as the interviewer was framing new questions form my answers to the previous questions and all you have to do is connect the dots. Began with a friendly introduction.
+PART 1
+The interviewer looked at my personalised resume where I have mentioned about proficiency in C and C++, and experience in Java. Then he asked me about why do I prefer C or C++ over Java.
+Ans. All due to pointers and the memory manipulation we can control with them.
+The next questions are obvious.
+What are pointers? What are the kind of pointers (like void pointer and function pointer)?
+How will you pass 1-D array to a function and what is the significance of array name? Explain with pointer arithmetic?
+How will you pass 2-D array to a function and what are the minimum dimensions you need to know before the function definition?
+Is there any way of passing 2-D array to a function without knowing any of its dimensions?
+PART 2
+After all the questions on pointers, he switched to Bit Manipulation questions.
+How to multiply and divide a number by 2 without using * and / respectively?
+Given a decimal number, count the number of set bits (bits equal to 1) in its binary representation.
+Ans. This was my approach from a simple solution to an efficient one.
+Naïve way: Method 1 of the link given below.
+Efficient way: Method 2 of the link given below.https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+After all this, he asked me about the difference between C and C++.
+Ans. OOPS!
+
+PART 3
+This was that part of the interview which went incredibly well, it was more of a discussion session between me and the interviewer.
+Explain all the concepts of OOPs.
+Ans. Discussed
+Encapsulation
+Data Abstraction
+Data Hiding
+Polymorphism (Compile & Runtime)
+Inheritance with an example.
+
+PART 4
+The interview ended with some personal questions.
+Note: Round 2 wasn’t actually divided into parts as such. This is just to categorize the questions according to topics.
+After this round 9 students were selected for 2 months internship at Sandisk Corporation.
+The interview experience was very exciting and focussed mainly on Basic CS Concepts. OOP with C++ by Balagurusamy and GeeksForGeeks helped me a lot preparing for these concepts.

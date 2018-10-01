@@ -1,0 +1,11 @@
+forward_list::merge() is an inbuilt function in C++ STL which merges two sorted forward_lists into one.
+The merge() function can be used in two ways:
+Syntax:
+Parameters: The function accepts two parameters which are specified as below:
+Return value: The function does not return anything.
+Below programs illustrate the above function:
+Program 1: 
+Run on IDE
+
+Program 2:
+Run on IDE

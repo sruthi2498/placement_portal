@@ -1,0 +1,23 @@
+Round 1: Online coding test (90 mins)
+3 questions, 90 mins on Hackerrank platform.
+Questions 1 :  Find the number of connected components in a graph represented by matrix of 0s ans 1s.
+Question 2 : In a given string, find the substring which occurs maximum number of times with atmost K unique characters and length of substring should be in between minLength and maxLength. Values of K, minLength and maxLength were given.
+Question 3 : On a straight road of n units long, start and end points for m cars are given. Start and end points of the cars can overlap. Find the largest empty gap i.e., the longest length with no car.
+Round 2: Technical Interview 1 (30-40 mins)
+The interviewer directly started with a problem statement.
+Question : You are given n linked lists which are merging with each other at some points. You have find the sets of all the linked lists which are merging together.
+I discussed the problem statement with the interviewer in detail and after thinking for 2 mins started telling him the approach that we can follow.  The interviewer was giving the counter example for the approach and then he asked me to write the full code for my approach which I wrote and he was happy with the solution.
+Then he gave me another question,
+Question : https://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/
+Again, I discussed the question in detail and told him my approach after thinking for sometime. He was happy with my solution and asked me to write the pseudocode for the same.
+The interviewer was very nice and helpful and kept giving little hints wherever I got stuck.
+Round 3: Technical Interview 2 (40-45 mins)
+After the customary handshake and greetings exchange, interviewer gave me a problem,
+Question : Given a binary tree, if all of its leaf nodes are set to fire at the same time and each node takes 1 second to burn completely, what will be the minimum amount of time to burn the given binary tree?
+After a long discussion about the problem and my different approaches to solve the problem, I told him the correct recursive solution and was asked to write the pseudo code for the same.
+Then he asked me a puzzle,
+Question : https://www.geeksforgeeks.org/puzzle-14-strategy-for-a-2-player-coin-game/
+At first I told him the greedy solution, to which he said that greedy might not work always and then quickly I gave the counterexample against the greedy approach. After that I spent around 10-15 mins to develop the optimal strategy. During this time I was discussing my approach with the interviewer continuously and he helped me a lot to build the final optimal solution. Then he asked to write the recurrence relation for the strategy I told him, which I wrote with little help from the interviewer.
+Round 4: HR Round (5-10 mins)
+A very small discussion on my resume and few questions on my previous work experience and internship.
+He asked me my favourite subjects and . then asked me Do I have any questions for him? I asked him about the different technical teams working in Flipkart. And thats it.

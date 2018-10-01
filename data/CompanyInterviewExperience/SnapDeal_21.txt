@@ -1,0 +1,81 @@
+Round 1 : Online Test 
+Duration : 1 hr
+Content : 22 MCQs , 2 codes
+Platform : HackerRank
+22 MCQs : (Non trivial)
+Quantitative Analysis : Time Speed Distance , Races , Percentage , Ratio Proportion , Probability , Number System
+Code Snippets :
+Some very good questions which require an in depth understanding of pointer concepts, increment decrement operators, printf function, union etc
+Examples :
+->for(printf(“1” ; !printf(“0”);printf(“2”))
+          printf(“Snapdeal”);
+->int a=-6
+       cout<>2);
+->printf(“%s”,”snap” “deal”);
+->union u1{
+       int a:2;
+       int b:3;
+       int c:4;
+}var;
+int main() {
+       var.a=2;
+       var.b=-6;
+       var.c=4;
+       cout << var.a << " " << var.b << " " << var.c;
+} 
+
+Codes :
+1)Overlapping paintings, find no. of paintings that can be seen distinctly, extreme co-ordinates of paintings are given. Ordering of paintings matter. ( Assume heights of all paintings are same, start and end coordinates are given ) 
+
+
+2)Given points of two lines segments A(x1,y1 x2,y2) & B(x3,y3 x4,y4) find whether the 2 segments intersect or not.
+     https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
+I solved 2nd code ( all test cases ), all mcqs, 1st code ( 2/6 test cases)  [ranked 3rd in online test]
+Its very important to solve atleast one code.
+My advice :
+->Before the test : check geeksforgeeks snapdeal interview archives and solve all the online coding questions ->During the test : (If you think you cannot do both the codes) Find the easier one and ‘complete’ it within 20 mins,solve as many mcqs in 30 mins , in last 5-10 mins try to pass the sample test case of the 2nd code (something is better than nothing) 
+Day of interview:
+Round 2 : Group Fly : Major Elimination Round (Paper-pen)
+ 3 coding questions ( any language )
+ duration : 1 hour
+ Only function to be written (no main())
+1) Check for balanced parentheses in an expression (STL allowed )
+ https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+2)Given an array of positive and negative numbers , find the maximum sum of any subsequence.
+  Return both the sum and the subsequence.    
+ Ambiguous Question:
+ Maximum sum of any subsequence (note: it’s not increasing subsequence)will be sum of all the positive numbers in the array [Trivial]
+ Therefore, I interpreted subsequence as subarray https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+3)Check if Btree is a BST
+https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+Round 3 :1st F2F Technical
+1)Detailed Discussion on projects -> Note : He didn’t ask anything related to the content of my project but the actual use of the project in the real time world , the pros and cons of it , the scope in future , where is the technology applied presently etc
+2) code : There are two sorted arrays. First one is of size m+n containing only ‘first’ m elements. Another one is of size n and contains n elements. Merge these two arrays into the first array of size m+n such that the output is sorted.
+  This question was a modified form of https://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
+  But this solution is of O(m +n ) for merging + O(m) for shifting : he asked me to optimize without shifting
+ Don’t give the optimized solution first : My plan of action : O(n2) , O(nlogn) , O(m) + O(m+n) , O(m+n)
+ He was very happy with the way i approached the problem. 
+3) DBMS concepts : Indexing : why is it required , how is it achieved , why B+ tree , difference between B tree and B+ trees , types of indexing , difference between them , advantages and situations where they can be used , can we make an index for a group of tuples (ans : yes ) , why do we need such an index , multilevel indexing.
+4)DNS – Domain name servers : what are they , how do they operate , what is iterative dns search , recursive dns search , TLD servers , Authoritative servers , why do we need them , how are they maintained , what are proxy servers , why do we need them , what are mail servers , under which server are they maintained (ans : under authoritative servers)
+Round 4 : 2nd F2F Technical
+1)Design a placement software
+      Requirements
+             a)Choose a group of panelists for a particular college.
+             b) panelists  have different expertise
+             c) colleges may have engineering , arts , science sections as well
+             d) A panelist can be out for recruitment max 3 days in a fortnight (I asked him to give access to the personal calenders of all panelists )
+         He asked me to draw the ER diagrams first
+         Than asked me to show the normalized tables
+         Then he asked me to code the whole thing especially the 4th requirement : time constraint (i did it using boolen vectors and kmp algorithm)
+         He was happy with my design.
+Advice for design question : Ask for requirements first and keep writing them on a paper , and keep cross questioning on the available data.
+2) code : Find square root of a number
+         I gave an interative O(n) solution ,
+        He told me to optimize : I did it in O(logn) with binary search
+        Further optimize to O(1)  : I got stuck ,after a lot of discussion on different techiniques he gave me a hint that he would be using my function a lot of times then I immediately told him to use hash maps and save the previous results.
+He started smiling and asked me if i had any questions for him 😀 
+3)OOPs concepts :Aggregation , composition, encapsulation , abstraction , inheritance , polymorphism.Went further deep into the concepts of encapsulation and abstraction, difference between them , a real world example (i used mobile phone : mobile phone blue print is abstract class , bluprints for different versions of the same mobile i5,i6 etc are derived classed , actual mobile phones are objects encapsulated.),what is data hiding , relation between data hiding , encapsulation , abstraction.
+Round 5 : HR round
+If you have made till here that means you are selected.The HR guy in snapdeal  is the coolest HR I have met .He asked me name of the campanies that have hired me till now,i gave him both their names and he was like ‘tab toh tum rejected ho bhai ‘.(non)Typical HR questions followed :D.
+I would like to thank geeksforgeeks for its exhaustive set of questions with optimal solutions and explanation, for the  company archives, and the various interview experiences and success stories. Keep updating.
+

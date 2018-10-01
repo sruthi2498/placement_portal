@@ -1,0 +1,6 @@
+The list::reverse() is a built-in function in C++ STL which is used to reverse a list container. It reverses the order of elements in the list container.
+Syntax:
+Parameters: This function does not accept any parameters.
+Return Value: This function does not return any value. It just reverses the order of elements in the list container with which it is used.
+Below program illustrate the list::reverse() function in C++ STL:
+Run on IDE

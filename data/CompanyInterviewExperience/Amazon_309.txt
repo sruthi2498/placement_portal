@@ -1,0 +1,5 @@
+Given a string and a pattern, replace multiple occurrences of a pattern by character ‘X’. The conversion should be in-place and solution should replace multiple consecutive (and non-overlapping) occurrences of a pattern by a single ‘X’.
+The idea is to maintain two index i and j for in-place replacement. Index i always points to next character in the output string. Index j traverses the string and searches for one or more pattern match. If a match is found, we put character ‘X’ at index i and increment index i by 1 and index j by length of the pattern. Index i is increment only once if we find multiple consecutive occurrences of the pattern. If the pattern is not found, we copy current character at index j to index i and increment both i and j by 1. Since pattern length is always more than equal to 1 and replacement is only 1 character long, we would never overwrite unprocessed characters i.e j >= i is invariant.
+Run on IDE
+Output : 
+The time complexity of above algorithm is O(n*m), where n is length of string and m is length of the pattern.

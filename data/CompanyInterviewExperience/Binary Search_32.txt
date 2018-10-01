@@ -1,0 +1,27 @@
+Given three arrays A, B and C, the task is to find sum of values of all special triplets. A special triplet is defined as a triplet (X, Y, Z) where the condition :
+X ≤ Y and  Z ≤ Y  always holds true. The value of each triplet (X, Y, Z) is given by:
+
+Note: If a triplet is not ‘special’,
+f(x, y, z) = 0 for that particular triplet.
+
+Examples:
+Method 1 (Brute Force) We generate all triplets and check if a triplet is a special triplet, we calculate the value of the triplet using f(x, y, z) where (x, y, z) is a special triplet, and add it to the final sum of all such special triplets
+
+
+Run on IDE
+Time Complexity of this approach is O(P * Q * R) where P, Q and R are the sizes of the three arrays A, B and C respectively.
+Method 2 (Efficient) 
+
+Suppose,
+Array A contains elements {a, b, c, d, e},
+Array B contains elements {f, g, h, i} and
+Array C contains elements {j, k, l, m}.
+First of all we sort the arrays A and C so that we are able to find the number of elements in arrays A and C which are less than a particular Bi which can be done by applying binary search on each value of Bi.
+
+Lets suppose that at a particular index i, the element of array B is Bi. Lets also suppose that after we are done sorting A and C, we have elements {a, b, c} belonging to array A which are less than or equal to Bi and elements {j, k} belonging to array C which are also less than Bi. 
+So for every element in B we can find the number of elements less than it in arrays A and C using Binary Search and the sum of these elements can be found using prefix sums
+Run on IDE
+Run on IDE
+Run on IDE
+
+Since we need to iterate through the entire array B and for every element apply binary searches in array A and C, the time Complexity of this approach is O(Q * (logP + logR)) where P, Q and R are the sizes of the three arrays A, B and C respectively.

@@ -1,0 +1,13 @@
+vector:: assign() is an STL in C++ which assigns new values to the vector elements by replacing old ones. It can also modify the size of the vector if necessary.
+Syntax for assigning constant values:  
+Program 1: The program below shows how to assign constant values to a vector
+Run on IDE
+Output:
+Syntax for assigning values from an array or list:  
+Program 2: The program below shows how to assign values from an array or list
+Run on IDE
+Output:
+Syntax for modifying values from a vector 
+Program 3: The program below shows how to modify the vector
+Run on IDE
+Output:

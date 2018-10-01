@@ -1,0 +1,41 @@
+Round 1 (Coding round): 
+1) Range [L, R] is given. Need to find what is the maximum repeating digit in prime numbers between L and R (both inclusive). If more number of digits is repeated max times, return whichever digit is maximum
+   Eg: [2, 13] – maximum repeating digit is 1 among {2, 3, 5, 7, 11, 13}
+		[2, 9] – answer 7
+2) Given a number “S”, find out how many number of ways a, b, c, d (all > 1) can exist such that a+b+c+d = S;
+Round 2:
+1) OOPS Concepts
+2) Reverse alternate nodes in linked list
+   Eg: 1->2->3->4->5 ahould become 2->1->4->3->5
+3) Iterative post order traversal of binary tree
+4) Queue implementation using stacks
+Round 3 (Java):
+1) Arraylist, Linkedlist – when to use what
+2) Hashmap, Hashtable, concurrent hash map
+3) Hashcode, Equals, Hashmap implementation
+4) Serializable interface
+5) AbstractClass Vs Interface
+6) Multi threading, Difference between extends thread, implements runnable
+7) Callable interface, Executor framework
+8) Collections sorting, comparable interface
+9) Best thing I have done so far what I proud of
+Round 4:
+1) Given NxN matrix, (X,Y) position. Find how many ways You can reach from (X,Y) to (N,N). You are allowed to traverse in 2 directions – Right, Down
+2) Find loop in linked list. Find starting node of loop
+3) Binary tree zigzag traversal
+4) Given list of stock prices. You are allowed to buy and sell only once.
+	a) Find the maximum gain you can get
+	b) Find the maximum loss you can get
+5) Binary tree is height balanced or not. (Every node in tree should be height balanced)
+6) Implement String trim algorithm
+7) Write a multi-threaded program – launch 10 threads and exit from main thread after all those threads completed
+Round 5 (Manager):
+1) Given a number in form of array, maximize the number w.r.t allowed number of swaps (can swap only adjacent elements) –  maximize(int[] data, int numSwaps)
+   Eg: 1265 is number – if 1 swap allowed – maximum number we can get out of it is 2165
+	   1265 is number – if 3 swaps allowed – maximum number we can get out of it is 6215
+2) Questions on my projects
+3) So many behavioural questions
+Round 6 (HR):
+Why do you want to change ? What You are expecting ? and some other HR questions.
+
+

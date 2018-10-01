@@ -1,0 +1,23 @@
+Consider a sequence a0, a1, …, an, where ai = ai-1 + ai-2. Given a0, a1 and a positive integer n. The task is to find whether an is odd or even.
+Note that the given sequence is like Fibonacci with the difference that first two terms can be anything instead of 0 or 1. 
+Examples :
+Method 1 :  The idea is to find the sequence using the array and check if nth element is even or odd.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Method 2 (efficient) :
+Observe, the nature (odd or even) of the nth term depends on the previous terms and nature of the previous term are depends on their previous terms and finally depends on the initial value i.e a0 and a1.
+So, we have four possible scenarios for a0 and a1:
+Case 1: When a0 an a1 is even
+In this case each of the value in the sequence will be even only.
+Case 2: When a0 an a1 is odd
+In this case, observe a2 is even, a3 is odd, a4 is odd and so on. So, we can say ai is even if i is of the form 3*k – 1, else odd.
+Case 3: When a0 is even and a1 is odd
+In this case, observe a2 is odd, a3 is even, a4 and a5 is odd, a6 is even and so on. So, we can say, ai is even if i is multiple of 3, else odd
+Case 4: When a0 is odd and a1 is even
+In this case, observe a2 and a3 is odd, a4 is even, a5 and a6 is odd, a7 is even and so on. So, we can say, ai is even if i is of the form 3*k + 1, k >= 0, else odd.
+Below is implementation of this approach:
+Run on IDE
+Run on IDE

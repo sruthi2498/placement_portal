@@ -1,0 +1,50 @@
+Goldman Sachs visited our campus for both Full Time and Interns. I am going to share the experience for Full Time.
+1st Round:
+15 questions : Quant
+25  technical Questions (C,C++,DBMS,networking,OS)
+45 minutes for both..there was sectional cut-Off
+Coding round (two questions)
+1.	Check if duplicates exist in an array of N which has range 1 to N.
+2.	Find a pair of elements in an array that sum up to a given Value K .
+We were supposed to do  coding questions in 30 mins, there was no compiler.
+Finally a stupid “Essay”  –“Why I am a good fit for Goldman Sachs?”  (10 minutes)
+Total 7 people got shortlisted from 1st round
+2nd Round: Group Task
+ They gave us a hypothetical situation, that a ship is sinking, it has only one life boat and its capacity is only 8 and there are 12 members on the ship and each member has different profession and has a tool or an instrument that can be used for their survival.
+We need to discuss and select 8 people out of 12. (Basically you have to fight for your choices and convince others).
+4 got short listed after this round
+3rd Round: Duration (2hrs), Technical
+1.	How JVM works? (He asked internals)
+2.	What do you do in your free time?
+3.	Pattern matching question.. He was not satisfied with KMP algorithm..then I told him Trie..he asked me to implement  Trie…(code)
+4.	How would you search a file in Linux I told him grep and sedcommads…he was ok with it.
+5.	When a message arrives at network interface card what exactly happens after that, and what is Operating system’s role in it?
+6.	He asked me some questions in Perl..he wasn’t that good with perl language …he was nodding his head with whatever I was telling him.
+7.	Minimum window problem of strings. (we have to search all characters of a string that occur in another string with minimum window)
+8.	Some simple questions on Pyhton. (I mentioned it when he asked me what are the languages you have learnt)
+9.	Which one is more efficient a Join operation or a nested query.
+10.	Given a set to 3 tables transform these upto 4th Normal form….even I don’t know how I managed to do it. (m not that good with data-bases)
+4th Round: (Duration 1hr 45mins), Technical
+For this round previous guy sent a guy who know perl..this round was majorly on Perl and UNIX commands.
+1.	Tell me about yourself.
+2.	Given a file with business Date and contents. Extract the date(Validate it) and count all the other records in the file. (he was focusing on some basic pattern matching skills in Perl).
+3.	Check if a given IP address is valid or not.(Do it in perl using redular Expressions).
+4.	Check if a BT is BST or not.
+5.	There are 12 rats, 11 of them are trained to eat at fast rate except one. With minimum number if bread loafs I need identify the slow rat.
+6.	The classic puzzle to find where is the 1 rupee when 3 friends visit a restaurant  and pay 10 Rs each
+7.	Write a perl and awk script to get the permissions of a file or a directory. (this was the easiest)
+8.	Given a BST but two nodes have been swapped, I was supposed to identify the nodes…then he asked me to rectify it as well. (code)
+9.	Some operating system questions, virtual memory, why we use virtual memory, File system related questions.
+10.	Project related questions.
+11.	He asked me do I know about Obect Oriented python.(I said yes)..he dint ask any question about it.
+12.	Use linux commands to find 10 most frequently occurring word in a file.
+(sort –filename | unique –nc |  head -10 | awk {print $2})
+(I think I nailed this round)
+=
+5th Round: (45 mins), Technical:
+1.	How will you detect a cycle in a graph?
+2.	Why Goldman Sachs?
+3.	Given two stacks implement a Queue. (code was required).
+4.	Give me “Mathematical Model” for Bubble sort… I was confused  what is mathematical model..i asked him does he want the finite automata or workflow sort of answer…he said no, I want a single equation like (a+b)^2=a^2+b^2+2ab  this formula works for all values of a and b..he wanted me to come up with one line formula…I gave him one..he was satisfied
+5.	Now he asked to give mathematical formula for above stack Queue question(ques # 3 above)…I couldn’t come up with a sigle line equation.
+

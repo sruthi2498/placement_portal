@@ -1,0 +1,36 @@
+Please find the details of my amazon interviews below.
+Date of Interviews: 26th July 2012
+No of Rounds: 1 online exam + 4 PI
+Type of Interviews: Campus Interview for freshers
+
+Online test(Time): 90 Minutes
+20 Objective Questions: Aptitude and basic C objective problems.
+2 Subjective Questions:
+I.              Given a linked list containing character in each node, segregate its nodes in such a way that all nodes containing a vowel are moved to the end of the linked list. We will have to maintain the order.
+II.            Parenthesis checker.
+
+Interview Round 1(30-40 Minutes):
+Technical Interview
+Question 1: You are given a linked list and a parameter k. You will have to swap values in a certain fashion, swap value of node 1 with node k, then node (k+1) with node 2k and go on doing this in the similar fashion
+Question 2:  For the above question, do it without swapping the values. If you want a swap to occur between two nodes, then you will have to move the nodes itself.
+
+Interview Round 2(50-60 Minutes):
+Technical Interview
+Question 1: You are given many slabs each with a length and a breadth. A slab i can be put on slab j if both dimensions of i are less than that of j. In this similar manner, you can keep on putting slabs on each other. Find the maximum stack possible which you can create out of the given slabs.
+Question 2: The above question was raised to 3 dimensions.
+Question 3: The above question was then raised to k dimensions.
+Questions :   Then there were many questions asked on compilers and dynamic memory allocation.
+
+Interview Round 3(50-60 Minutes):
+Technical Interview
+Question 1: You are given pairs of numbers. In a pair the first number is smaller with respect to the second number. Suppose you have two sets (a, b) and (c, d), the second set can follow the first set if b<c.So you can form a long chain in the similar fashion. Find the longest chain which can be formed.
+Question 2:  Find the longest increasing subsequence in O(nlogn). Proof and full code was required.
+
+Question 3: You are given a linked list and an integer k. Reverse every consecutive k nodes of the given linked list.
+Question 4: You are given an array. For every element you have to replace it with the closest number on the right side which is greater than the element itself.
+
+Interview Round 4:
+The team was highly impressed so they cancelled my 4th round 😛 for others who appeared for the 4th round, it was atleast an hour long.
+
+HIRED!! 🙂
+

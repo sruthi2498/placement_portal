@@ -1,0 +1,48 @@
+1st Round (On Paper)
+(+ 4 mark for each correct and – 1 for wrong ans)
+Section 1 – Logical Aptitude 20 questions for 20 minutes
+Section 2 – Technical 20 questions for 20 minutes ( C, C++, Java O/P questions, OS, Networking etc.)
+Section 3 – One Coding Question for 20 minutes
+     It was a Dyanamic Programming problem. We were given a 2-D matrix of size [n*m] having time to cross each block and some blocks were containing ‘X’ denoting a bomb. We had to find minimum time of reaching to [n-1 , m-1] from [0 , 0] without passing through any bomb.
+16 students were selected for interview rounds.
+2nd Round (HR interview) [20-25 mins]
+1. Tell me something about yourself.
+2. Feedback about written round paper.
+3. Your ambition in life.
+4. He asked me to solve 2 aptitude questions from written round and matched the answers from my
+answer sheet.
+5. Why you want to join DE Shaw ?
+3rd Round (Technical interview-1) [35-40 mins]
+1. My written round code was not 100% correct So, he asked me to find the error in my code and
+then asked to write the correct code.
+2. Given a 2-D matrix of 0,1 in such a way that each row has 1’s in beginning and then all 0’s.
+He asked me to write a code to find the row with maximum number of 1’s.
+3. Difference b/w TCP and UDP. Where is UDP used ?
+4. Which is Layer-2 in OSI Model and it’s functionality.
+5. What is the functioning of Switch.
+6. Difference b/w port and socket.
+7. Basics of Socket Programming.
+8. Difference b/w process and thread. He gave a scenario and asked what to use process or thread in
+that scenario.
+9. Congestion Control in TCP.
+10. Puzzle – 2 player game, each one can choose any value between 1-10. Value of each turn of both players will be summed. When sum reaches 50 that player wins. He asked me to make a strategy for player A to win.
+11. Difference between const int *p and int const *p.
+8 students were selected for final round of interview.
+4th Round (Technical interview – 2) [1 hour]
+1. It was 3 AM in night , he asked how tiring was your 15 hrs long interview process.
+2. Given a table having [EmployeeId , EmpName , ManagerId] , he asked to write a SQL query to print name of each employee with his manager’s name.
+3. What is a trigger? Why is it used?
+4. Can a trigger be written for select query?
+5. What is a cursor?
+6. Difference b/w SQL and PL/SQL.
+7. What is a view? Insertion and deletion in a view.
+8. Why is indexing done in DBMS? Types of indexing.
+9. There is an infinite stream of blocks. A random block in b/w is a ditch. A kangaroo is sitting in any block. Kangaroo will jump N times in total , ith jump will be of either I blocks or 0 blocks.
+What will be the maximum distance kangaroo can cover from starting point.
+10. Program to reverse a singly linked list by recursion.
+11. A 2-D matrix of 0,1 is given. 0’s denote water and 1’s denote land. 
+Write a code to count Number of islands. Islands can be of any random shape. Any two adjacent 1’s (in any of 8 directions) are part of same island.
+12. He asked my ranks on Codechef , Codeforces , Spoj etc.
+GeeksforGeeks helped me a lot in my placement session. Practice all GeeksQuiz questions and read all interview experiences on geeks at least once.
+All the Best!!
+

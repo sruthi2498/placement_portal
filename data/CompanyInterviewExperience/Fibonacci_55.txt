@@ -1,0 +1,32 @@
+Given a number positive number n, find value of f0 + f1 + f2 + …. + fn where fi indicates i’th Fibonacci number. Remember that f0 = 0, f1 = 1, f2 = 1, f3 = 2, f4 = 3, f5 = 5, …
+Examples :
+ 
+Method 1 (O(n))
+Brute Force approach is pretty straight forward, find all the Fibonacci numbers till f(n) and then add them up.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+ 
+Method 2 (O(Log n))
+The idea is to find relationship between the sum of Fibonacci numbers and n’th Fibonacci number.
+F(i) refers to the i’th Fibonacci number.
+S(i) refers to sum of Fibonacci numbers till F(i),
+Adding all the equations, on left side, we have
+F(0) + F(1) + … F(n-1) which is S(n-1).
+Therefore,
+S(n-1) = F(n+1) – F(1)
+S(n-1) = F(n+1) – 1
+S(n) = F(n+2) – 1 —-(1)
+In order to find S(n), simply calculate the (n+2)’th Fibonacci number and subtract 1 from the result.
+F(n) can be evaluated in O(log n) time using either method 5 or method 6 in this article (Refer to methods 5 and 6).
+Below is the implementation based on method 6 of this
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

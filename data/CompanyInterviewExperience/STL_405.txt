@@ -1,0 +1,9 @@
+Store increasing sequence
+Assigns to every element in the range [first, last] successive values of val, as if incremented with ++val after each element is written.
+Template :
+Run on IDE
+Output:
+Application :
+It can be used to generate a sequence of consecutive numbers.
+Run on IDE
+OUTPUT :

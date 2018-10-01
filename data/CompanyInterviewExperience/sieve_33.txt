@@ -1,0 +1,16 @@
+Given n, find the smallest integer which has n factors or more. It may be assumed that the result is less than 1000001.
+Examples:
+
+There are many methods to calculate the number of factors, but the efficient one can be found here
+Simple Approach: A simple approach will be to run a loop to find out the factors of a number. One for finding out the factors of a  number in O(x) is to run a loop from 1 to x and see all numbers that divide x.
+Time Complexity: O(x) for every number x that we try until we find answer or reach limit.
+Efficient Approach:We can find out factors in sqrt(x)for every iteration.
+Time Complexity: O(sqrt(x)) for every number x that we try until we find answer or reach limit.
+Best Approach will be to traverse for every number and calculate the number of factors. Then check if the count is equal to or more then n then we get our desired smallest integer with n or more factors. 
+Below is the implementation of the above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(log(max(number))) for every computing number we check before getting the answer.

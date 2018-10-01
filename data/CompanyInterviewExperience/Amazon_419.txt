@@ -1,0 +1,29 @@
+Amazon visited our campus for hiring Software Developer interns for Summer 2016.
+Cut-Off :  75%
+140 students were shortlisted.
+Round 1 (Coding + Aptitude):
+First round mostly comprised of problems on OS, DS, Basic Aptitude, Algorithms etc.
+2 coding questions
+1. Given a string find the first non repeating character in it
+2. Given an array of integers, find count of minimum number of elements to be removed from the array such that the maximum element of the new array is at most twice of the minimum. 
+39 shortlisted after this round
+Round 2(F2F)
+He asked about my favorite subjects and Data Structures that I have implemented. I named few Data Structures including Segment Tree. Then he asked me about segment trees and how to solve some simple problems based on segment trees, He asked only about approach didn’t asked me to code. Then he asked me about 
+https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+I told him approach using level order traversal. Then he asked me to connect nodes on same level but this time to their left sibling. After telling my approach he asked me to code and said that he want code free of any errors. After I gave him my code he pointed out that there are some errors in code. He asked me to find and correct them myself.
+Then he asked another question:
+https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+After hearing my approach for this question he asked me to print leaves that correspond to diameter.
+Round 3(F2F)
+Only one question was asked in this round. She asked me to implement a data structure that can perform
+1) Insert (O(1))
+2) Delete (O(1))
+3) Count(O(1))
+4) Get Element(O(1))
+on integer inputs. Here Get Element returns any element present in DS.
+I told her my approaches using array, single linked list with hashing and using two singly linked list and hashing. I couldn’t reach exact solution but she was satisfied with my approach. 
+Solution to this problem was easy using doubly linked list and hashing.
+After this round a total of 19 students were selected for internship.
+TIPS:
+Finally, I would like to thank Geeksforgeeks for helping me with my preparation ?
+

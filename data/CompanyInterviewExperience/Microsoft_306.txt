@@ -1,0 +1,30 @@
+Hi, PFB my on campus interview experience with Microsoft.
+Written Test:
+First round was an online test which contains 20 MCQs on C & C++. Based on this test, they shortlisted some students and the next round was taken. The next round was a coding round which had two questions:
+Q1. Print last 10 lines of a very large string.
+Q2. Trim all the nodes in a BST which are not in the range of (minValue, maxValue).
+The codes were checked on their online compiler with their test cases.
+Group Activity:
+The night before the day of interview, we had a group activity round. We were given to solve one question on our own, and the other one we had to solve discussing with Microsoft mentor allotted to you.
+Q1. Insert an element in a sorted circular singly linked list. Pointer to any node of the list (may be denoted as the head) and pointer to the new node will be given as input. Generate test cases for your code. Check for all corner cases.
+Q2. An MxN matrix is given. If a cell contains 0 (zero) make that row and column zero. We had to discuss this question with Microsoft mentors. Discussion was important and they pointed out flaws and ask you to optimize algo (Space complexity).
+Interview Round-1:
+Q1. After a brief introduction the interviewer asked me to solve the puzzle of 100 bulbs. There are 100 bulbs (initially all switched off). At i-th iteration all the switches of i’s multiple are flipped. Finally, after 100 such iterations, how many bulbs will be still switched on?? I didn’t know the solution. The interviewer gave me a hint. Then after doing some maths, I finally gave him the solution (Perfect squares). Then he asked me to prove it. Somehow, I proved it (I was feeling lucky :P).
+Q2. In continuum to the previous question, he asked me to write a function which will take a number as input and return all of it’s factors. I solved it in O(sqroot(N)). Then he asked me to check whether I missed any edge case. So, I put a checking for negative numbers. He was happy with it.
+Q3. Then he asked me to write the code for DFS traversal of a tree. I asked him about the tree structure. He told me to write for an N-ary tree. Did it, using a vector (C++) of children pointers. This time, I didn’t miss a corner case (coz, there was almost none :P). He was happy with it.
+Interview Round-2:
+Interviewer was very cool and very frank. He went through my CV thoroughly asked me one question in SQL and two algorithm questions:
+Q1. He gave me an Employee table with Id, Name and ManagerId columns in it and then asked me to write an SQL statement which will output all the manager names who have at least 2 subordinates under them. I know, it’s very easy :P.
+Q2. He asked me to write the code to clone a singly linked list with next and random pointer and told me not to worry about any space complexity.  A fairly easy one. Solved it using a hash.
+Q3. In continuum to the previous question, he asked me to rewrite the above code without using any hash. Did it very quickly :P. He was really happy and chatted with me for a while. I even chewed a gum after taking his permission. He was very impressed by my handwriting. Yeah you heard me right, I was feeling lucky :D.
+Interview Round-3:
+Interviewer was funny and he continuously asked me not shout (though, I really wasn’t in a mood to shout ;)).
+Q1. He asked me to write a function which will connect all the nodes in a binary tree at the same level. I told him, I knew it and explained it in brief. He was cool and asked me whether I wanted to have a new question or just write this one. I said, “As you wish”. So he moved on.
+Q2. He explained an use case of MS Excel: we can select multiple columns in excel file and drag them together left or right. He then asked me to write the code to implement the aforementioned scenario on arrays. The input will be, an array, left and right index of a sub-array (multiple columns) and a destination index (either in left or right of the sub-array). After scratching for a few moments, I gave him an O(n) solution with left and right shift using flip method. He was really impressed and praised my handwriting once again (God is great :)).
+Q3. He quickly moved to the last question. A file with numbers from 0-9999999 (each number in a line) is given. How to sort the content. I gave him a solution with radix sort (as maximum 7 digits are possible for each number). Then he posed a constraint of very less RAM available. I discussed a modified external merge sort like algorithm with him. But then he told me to minimize the huge time taken by external merge sort. Then he gave a hint as “Use bits”. So I told him, to use a 10^7 size vector (which actually uses one bit for one boolean). He was okay with it.
+Finally I was HIRED !!! 😀 😀
+I am really really grateful to the geeksforgeeks team. How much I say about it, it will definitely be less. Keep up the great work 🙂
+ 
+ 
+
+

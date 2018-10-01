@@ -1,0 +1,15 @@
+Hi, a brief documentation of my Microsoft experience is as follows:
+Group Activity:
+On the evening before the interview we had a group activity round. We were given to solve one question on our own, and the other one we had to solve discussing with Microsoft mentor allotted to you.
+Q1. Insert an element in a sorted circular singly linked list. Pointer to any node of the LL will be given as input
+Q2. A matrix m*n is given. If a cell contains 0 (zero) make that row and column zero.
+We had to discuss Q2 with Microsoft mentors. Discussion is important and they point out flaws and ask you to optimize algo.
+Interview Round 1:
+Q1. Asked me to solve Q2 of group activity without using extra space.
+Q2. Given an array of digits, form two numbers from those digits such that sum of those two numbers are minimum
+Q3. Given an array of numbers, find out the minimum distance and print all the pairs with minimum distance
+Interview Round 2:
+Q1. Two string S1 and S2 are given, check whether S1 is a shifted version of S2
+Q2. Write KMP/ Rabin-Karp for substring matching
+Q3. Given a pointer to a circular linked list, delete that node
+

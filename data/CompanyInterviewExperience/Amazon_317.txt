@@ -1,0 +1,29 @@
+Given an integer array, find a maximum product of a triplet in array.
+Examples: 
+ 
+Approach 1 (Naive, O(n3) time, O(1) Space)
+A simple solution is to check for every triplet using three nested loops. Below is its implementation –
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Approach 2: O(n) Time, O(n) Space
+Below is its C++ implementation –
+Run on IDE
+Output : 
+ 
+Approach 3: O(nlogn) Time, O(1) Space
+Run on IDE
+Output : 
+ 
+Approach 4: O(n) Time, O(1) Space
+Note – Step 1 and Step 2 can be done in single traversal of the array.
+Below is its C++ implementation –
+Run on IDE
+Output : 
+Exercise:
+1. Print the triplet that has maximum product.
+2. Find a minimum product of a triplet in array.

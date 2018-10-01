@@ -1,0 +1,20 @@
+Aptitude Round: (1:30 hours)
+20 MCQs
+MCQs on OS, maths aptitutude, and algorithms etc . Few output questions on pointers. Do have a look at old GATE papers and you may get some seen questions 😉
+2 Coding questions: ( on hackerRank)
+Interview:
+Round 1:
+Round 2:
+Round 3:
+Round 4:
+    This was the round with main person who had come with Amazon team. He was taking interview since morning and had seen me with my friends discussing about interviews conducted by him. It was 7:30 in evening when my interview was about to start so while going to room in lift he asked me that if I know any of his questions. I honestly told that yeah I know about a few. He asked me about them and their solutions. One was similar to question 2 of round 1. Another was arranging a list of lists. He said that he will ask new questions now 😛
+I have a table given for parents of a node in chronological order and we have direct access to parents too.
+Ex – In this case
+Node – J I H L K G F D E C B A
+Parent – I H G K G F D,E C C B A NULL
+Given if I/P is (H, L) the output must be G. It seems similar to LCA concept of trees but it is a slight modification of it. I told about concept of stack that I’ll search for given nodes and will then store in two stacks and will pop till I get same value from stack. This popping I’ll do according to information of table of node- parent.
+I was not able to complete it but was able to show my approach and I handled the corner cases. He was satisfied with it.
+I suggest that always listen carefully to interviewer, they’ll definitely help if you have any doubt. Tell them your approach at least if you are not able to code it. Practice writing code on paper. Be very careful while you tell about projects. They may get very interested in your projects and it will be very helpful for you. For Amazon Arrays, Linked Lists and Trees are concepts which are very generally asked. Data structures & algorithms should be proficiently practiced. Thanks a lot GeeksforGeeks 🙂 🙂
+if you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks
+
+

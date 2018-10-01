@@ -1,0 +1,10 @@
+Given an positive integer n. Count total number of ways to express ‘n’ as sum of odd positive integers.
+Simple approach is to find recursive nature of problem. The number ‘n’ can be written as sum of odd integers from either (n-1)th number or (n-2)th number. Let the total number of ways to write ‘n’ be ways(n). The value of ‘ways(n)’ can be written by recursive formula as follows:
+The above expression is actually the expression for Fibonacci numbers. Therefore problem is reduced to find the nth fibonnaci number.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Note: The time complexity of the above implementation is O(n). It can be further optimized up-to O(Logn) time using Fibonacci function optimization by Matrix Exponential.

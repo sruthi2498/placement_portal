@@ -1,0 +1,12 @@
+Given N strings. Find the longest possible subsequence from each of these N strings such that they are anagram to each other. The task is to print the lexicographically largest subsequence among all the subsequences. 
+Examples:
+Input: s[] = { geeks, esrka, efrsk }
+Output: ske
+First string has “eks”, Second string has “esk”, third string has “esk”. These three are anagrams. “ske” is lexoigrapically large. 
+Input: string s[] = { loop, lol, olive }
+Output: ol
+Approach : 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE

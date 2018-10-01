@@ -1,0 +1,32 @@
+The complete process for Adobe – Member of Technical Staff consisted of 5 rounds.
+1. Online Round
+2. Round 1
+3. Round 2
+4. Round 3
+5. Round 4 (HR round)
+2 Separate online rounds were hosted on Hackerrank .
+Online Aptitude Round consisted of 30 questions.
+Online Coding Round consisted of 3 questions.
+1. You have to classify a string as “GOOD”, “BAD” or “MIXED”. A string is composed of lowercase alphabets and ‘?’. A ‘?’ is to be replaced by any of the lowercase alphabets. Now you have to classify the string on the basis of some rules. If there are more than 3 consonants together, the string is considered to be “BAD”. If there are more than 5 vowels together, the also string is considered to be “BAD”. A string is “GOOD” if its not “BAD”. Now when question marks are involved, they can be replaced with consonants or vowels to make new strings. If all the choices lead to “GOOD” strings then the input is considered as “GOOD”, and if all the choices lead to “BAD” strings then the input is “BAD”, else the string is “MIXED”.
+2. We are given a count of songs to be played – n, highest volume allowed – h, initial volume – i, and list of allowed volume change A[] of size n. The singer can either increase/decrease the volume of sound system for the next song by the allowed volume change A[j] for jth song from the volume of the j-1th song. The aim is to maximize the volume of last sound. Find the maximum volume that can be attained, or return -1 if there is no possibility of changing volume due to the given constrains. (Volume cannot be in negative.)
+3. We are given an array with n elements from {1,2,3,4}. Find the number of minimum changes required to be performed so that no two adjacent numbers are same.
+The interviewer asked about my internship project that I had done at Expedia. I had done some deep learning projects so he discussed the aim of the project and work flow.
+He asked me questions on following topics :
+1. Difference between Threads and Process, explain threads with example
+2. Semaphores, what is the need of semaphores
+3. Virtual class, virtual functions in C++, what is the need to use them.
+4. Runtime polymorphism in C++, give a real life example where you will use it
+5. Check if values in given singly linked list represent a palindrome. 
+6. Implement a min stack
+The interviewer asked about my GSoC project – the idea of the project, the challenges I faced etc. She also asked some OS concepts like CPU scheduling, multi-queue scheduling etc.
+I was given some design questions which eventually got reduced to :
+1. Implement Hash Map / Unorder Map
+2. Implement Least Recently Used Cache
+Various approaches and corresponding space & time complexities for above implementations were discussed in this round.
+In third interview round, interviewer deep dived in my Machine and Deep Learning projects. He asked me about types of Machine learning algorithms. Asked me to explain supervised and unsupervised algorithms. Also asked me which one I had used in my projects. He also went on to understand the work flow of my projects. I also told about my other projects which were not on resume as the discussion went towards unsupervised learning.
+Then I was asked following puzzles and questions.
+1. 21 matchstick puzzle and varients
+2. Tickets movie hall probability puzzle and then he introduced some variation in the original puzzle.
+3. Count number of ways for “Rat in a maze” problem.
+4. Find a pair with given sum in a Balanced BST
+Questions like why do you want to join Adobe were asked. I showed interests in ML and AI, so the interviewer discussed some recent advances and news. I was also asked that how would I develop an application for Blood Donation Management within a week.

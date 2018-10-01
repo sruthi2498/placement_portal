@@ -1,0 +1,12 @@
+Given a number N, task is to Check whether it is a permutable prime number or not.
+A Permutable prime number is that number which after switching the position of digits through any permutation is also prime. Some of the permutable prime numbers are 2, 3, 5, 7, 11, etc.
+Prerequisites : Primality Test | CPP next_permute()
+Examples :
+Approach : 
+1) Construct Sieve of Eratosthenes to find the prime numbers efficiently.
+2) Either generate every permutation of the number by switching its digits or use inbuilt C++ function next_permutation to check whether it is prime
+3) If any permutation of digits is not prime, simply answer is NO, otherwise YES.
+Below is the implementation of above approach.
+
+Run on IDE
+Run on IDE

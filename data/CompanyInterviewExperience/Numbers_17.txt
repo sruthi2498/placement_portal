@@ -1,0 +1,15 @@
+Given an integer n, find the absolute difference between sum of the squares of first n natural numbers and square of sum of first n natural numbers.
+Examples : 
+Asked in : biwhiz Company 
+Approach :
+1. Find the sum of square of first n natural numbers.
+2. Find the sum of first n numbers and square it.
+3. Find the absolute difference between both the sums and print it.
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

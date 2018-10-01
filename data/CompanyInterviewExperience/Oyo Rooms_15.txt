@@ -1,0 +1,25 @@
+Round 1: It was a customary online round on Hackerearth where we were given a total of 12 questions. The question set comprised of 2 coding questions of easy and medium-hard level respectively. The questions were-
+1. Given a bracket sequence in form of a string return whether or not they form a valid sequence.
+https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+2.Given two characters x and y and a string consisting of lowercase letters, find the number of subsequences starting with x and ending with y mod 10^9+7. Length of string<=10^5.
+e.g. – Given x= ‘a’, y=’b’ and string – abcb
+The answer for this case would be  5 and the subsequences are- ab, ab, abb, acb, abcb.
+Around 45 people were shortlisted for further rounds, with a few getting selected having done the first one optimally and the second one partially.
+Round 2: It was the first face to face round. The interviewer was an alumnus of our college so the interview started on a lighter note, with discussions on current college environment and how much the college has changed over the years. Then we moved to the technical part. He asked me a basic linked list question – https://www.geeksforgeeks.org/in-a-linked-list-given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/ .He went on to ask me a question from tree- It was to print the top view of a binary tree, and I was asked to write running code for this.
+     Then the focus shifted from data structures and he asked me if I was comfortable with dynamic programming.I was quite comfortable in saying yes, this made him ask me a couple of famous DP problems-
+https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
+https://www.geeksforgeeks.org/cutting-a-rod-dp-13/
+First I was asked to tell my approach for the two questions, then we moved on to complete codes of the same. I finished writing the codes quite fast, that seemed to have a impressed him a fair bit.
+This was all I had for this round.
+>Round 3:   Just 10 minutes after the completion I was called for the next round. This time the interviewer seemed to be more on the serious side. Surprisingly he started with his introduction then went on to ask mine. Then he straightaway came to a data structure design question where I was asked to design a data structure which supports 3 operations-
+1. Insert an integer
+2-Find if an element exists in it
+3-Find Kth most frequent element in the it.
+I started giving him approaches and he kept telling me to optimize further. I started with an O(N logN) approach , then gave an O(N) approach and then  after a while concluded with an O(log N) approach.
+   Then he asked me a couple of OS questions-
+1. Given a critical section where at most 5 processes can reside simultaneously, how would you handle the situation.
+2. Given a system having 4 GB RAM, how would a game of 12 GB be played on it.
+When I finished with the answer to these questions he asked me if I had any question for him. I asked him a couple then he told me that were done with the round.
+The two tech rounds were all I had. Quite a few candidates had to go through a third round, I was glad to be one of the 3 who did not have to.
+Later in the evening I got the news that I was getting an offer.
+Thanks GFG for everything,this is the least that I can offer in return.

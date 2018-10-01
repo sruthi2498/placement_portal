@@ -1,0 +1,6 @@
+Given a tree and weights of nodes. Weights are non-negative integers. Task is to find maximum size of a subtree of a given tree such that all nodes are even in weights.
+Prerequisite : Disjoint Set Union
+Examples :
+Approach :We can find solution by simply running DFS on tree. DFS solution gives us answer in O(n). But, how can we use DSU for this problem? We first iterate through all edges. If both nodes are even in weights, we make union of them. Set of nodes with maximum size is the answer. If we use union-find with path compression then time complexity is O(n).
+Below is the implementation of above approach :
+Run on IDE

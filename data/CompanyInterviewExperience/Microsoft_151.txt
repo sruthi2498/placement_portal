@@ -1,0 +1,70 @@
+Position: Software Engineer – 2(Big Data Team, Bangalore)
+I applied through referral. Got a call within a week.
+
+Round-1(Skype-Bangalore)(~45Mins)
+The interviewer directly asked me to explain about my current project. 5-6 questions from there.
+My project was based on cloud computing so, He asked me some basic questions about cloud computing. About
+three layers(IAAS, PAAS, SAAS), etc..
+The difference between CloudStack and OpenStack(CloudStack(CS), The product I am working on).
+OpenStack is a similar product. Scenarios where CS is used (how customers are benefited from CS).
+Then, He moved to Algorithm section. How will you differentiate the questions from google code jam and
+facebook hacker cup(As I participated in both competitions)
+He asked me to give him a problem. I told, To find the longest palindromic substring in a string of characters.
+Then, he asked me the solution, Gave Manachar’s algorithm. Asked the algorithm detailsInterviewerand time, space complexity.
+
+Round-2(F2F-Bangalore)(~1Hour 15Mins)
+The interviewer started with my Introduction. He then scanned my entire CV, all projects,
+even covered my school projects, etc..
+The difference between Java and C++. Advantages and disadvantages of each.
+Which language you are most comfortable with. Rate yourself out of 5.
+After that he asked, how the run time polymorphism works in C++. How C++ resolves it. I explained about
+Virtual stuffs and associated VPTR and VTABLE.
+Then, He asked details of my last project. Some here and there questions from the project.
+He moved to algorithm section.
+Q-1: Given MxN binary matrix, find the largest sub-square matrix with all 1’s.
+I came up with a DP solution. He asked me to explain the algo first then told me to write code on paper. I left some validation cases, so he asked to handle those, then asked me about time, space complexity and to write all test cases.
+Q-2: Find the row which contains most number of 1’s in a MxN binary matrix, Where in each row 0’s are always followed by 1’s. Gave him the binary search algorithm, but he asked me to optimize further. Then, I came up with the stepping linear time algorithm with O(M+N). (Same, asked to write code on paper then test cases). Time and space complexity.
+
+Round-3(F2F-Bangalore)(~1Hour)
+The interviewer started with my Introduction. It was kind of Design round.
+He asked me to design your own BitSet API. All the methods like flip, set, reset, countOnes, etc..
+What data structure will you use. He then, put a constraint like what if multiple threads access the
+methods. I gave solution to use mutex lock. He asked me the difference between semaphore and mutex, and
+how to handle deadlock situation. I told about maintaining locks in 2-phase. (Growing and shrinking
+phase). Then asked the implementation details. Wrote all codes on paper. Testcases and time, space
+complexities of each operation.
+
+Round-4(F2F-Bangalore)(~1Hour)
+Introduction. Why Microsoft, Why do you want to leave, Asked details of my last project.
+He then asked me to design LRU cache on white board. Asked to write code for searching a key
+on LRU. As usual, Time, space complexity and Testcases.
+Algo Question:
+Check if given binary tree is binary search tree? How to handle the multiple thread case?
+Some discussion on that. Wrote code on white board, testcases and asked time, space complexity.
+
+Round-5(F2F-Bangalore)(~45Mins)
+Introduction, Asked about the product. Asked to draw the architecture of the product. Some discussion of each component of the architecture. What you explored outside of your current work. I talked about docker container. Some discussion on that. Explained about their work in detail. What is expected from the position, etc…
+
+Round-6(Skype-Redmond)(~45Mins)
+It started with my Introduction. The interviewer asked the detail of my current project.
+What was the duration of the project, and how many members involved?
+How many programming languages used? How many programming languages do you know?
+Which one are you most comfortable with? Rate out of 5.
+He then asked me the difference between class and structure in C++. How to implement an interface in C++.
+etc..
+Algo Question:
+Given two linked lists sorted in ascending order, merge them into one linked list(Maintain Sorting). Do it in place. He asked me to write in a text editor, shared my screen. Asked me to listout all test cases, and time, space complexity.
+
+Round-7(Skype-Redmond)(~45Mins)
+Introduction. Asked me the project details. Some discussion on that.
+Algo Question:
+Sort 1 billion integers with limited memory. I told about sorting them chunk by chunk and then
+merging. He then asked me how to decide the chunk size. I explained with an example. Asked about time
+complexity. Then, Asked whether this will take the same amount of time if we have infinite memory. I
+told about the access time difference in primary memory and secondary memory. Asked details about
+secondary memory, About disk technology, sector, seek time, rotational delay, etc.. 
+
+Round-8(F2F-Bangalore)(~45Mins)
+Again started with my Introduction. He asked my project details. He was the engineering director of the team.
+Algo Question:
+Find median of an infinite stream of integers with limited memory. I came up with a solution where we have infinite memory. I started with insertion sort and then optimized to min-heap and max-heap  method. But he was more interested in limited memory algorithm. I tried hard, but couldn’t come up  with one. He told me to write code for my solution on white board. As usual asked to write test  cases, time and space complexity.

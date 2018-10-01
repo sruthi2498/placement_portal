@@ -1,0 +1,17 @@
+Given two arrays, the task is that we find numbers which are present in first array, but not present in the second array.
+Examples :
+
+Method 1 (Simple)
+A Naive Approach is to use two loops and check element which not present in second array.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Method 2 (Use Hashing)
+In this method, we store all elements of second array in a hash table (unordered_set). One by one check all elements of first array and print all those elements which are not  present in the hash table.
+Run on IDE
+
+Time complexity : O(n)
+Auxiliary Space  : O(n)

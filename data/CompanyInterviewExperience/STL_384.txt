@@ -1,0 +1,14 @@
+The stable_partition( ) algorithm arranges the sequence defined by start and end such that all elements for which the predicate specified by pfn returns true come before those for which the predicate returns false. The partitioning is stable. This means that the relative ordering of the sequence is preserved.
+Syntax: 
+Parameters:
+This function attempts to allocate a temporary buffer. If the allocation fails, the less efficient algorithm is chosen.
+Example 1:
+Run on IDE
+Output:
+Example 2:
+Run on IDE
+Output:
+Example 3: 
+Run on IDE
+Output:
+Complexity: Exactly end-start applications of the predicate and at most (end-start)*log(end-start) swaps if there is insufficient memory or linear number of swaps if sufficient memory is available.

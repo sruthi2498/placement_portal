@@ -1,0 +1,54 @@
+They called us at their office in Hinjawadi, Pune. Then started with process. We were fourteen students. All from same college.
+
+Round 1
+We had written test(No online Platform) which consist of 30 quantitative mcqs 20 technical mcqs and 10 SDLC and Testing related mcqs to be solved in an hour.
+Technical mcqs was from OS, DBMS, C output, Java output and concepts, Networking, Data Structure.
+Then after 15 minutes results announced and 9 out of 14 were shortlisted.
+
+Round 2
+Technical interview lasted for around 60-70 minutes.
+As my interview was second last in all students so he asked me what you were doing in this mid time?
+After introduction, Interviewer asked me about my very first project in resume i.e. FTP implementation. Then I started with introduction of my project then overall structure and then I wrote code for server side and explained it. He also asked me some questions on my project like what java packages used for GUI design? How multiple clients are allowed to connect? Limit on number of clients? about pause resume implementation, etc. 
+Then he asked me about java threads it’s interface and run method in deep.  
+Characteristics of OOPs?.
+Then he asked me a puzzle. Suppose we have 100 doors and they are initially closed. We are following N passes where N >= 1 and N <= 100, in each pass we are toggling(if closed then open else close) the doors multiple of N. So after 100th pass which doors will be opened?
+Almost 10-15 minutes were given to solve this puzzle and he was just looking at my approach.
+Few questions on DB like joins and all. Again asked, do you know triggers, plsql, etc
+which data structures do you know? Real life examples of stack?
+Given an array asked to write program to sort it. Then asked to write in O(n). Which is never possible.
+Finally asked to write a code to reverse string using c. I wrote efficient solution in very first attempt.
+Done!!!
+Any questions for me?
+After Five minutes They called me for next round.
+After this round 6 shortlisted out of 9.
+
+Round 3
+This interview was with Technical Director.
+It was lasted about half an hour. 
+Asked about interest areas.
+Started with a question, What is the difference between switch and router?
+almost 10 minutes were taken with same question. I was telling some characteristics between switch and router with saying both are almost same. 
+Then why to use switch if router can do  everything that is done by switch?
+Where to use switch and where to use router?
+How DHCP works?
+What is the thing you have done in College that you feel proud of?
+I told about my contribution in gnukhata.in/ 
+What matters for you money or work?
+If you have to leave a job then for what reason will you leave? Salary or Work?
+Then I asked some question about the company, products, technology used, Asked about a specific product details.
+Done!!
+After this round 4 shortlisted out of 6.
+
+Round 4
+This was HR round
+Lasted about 10 minutes.
+Asked about myself, family, define yourself, explain any situation where you have solved or helped in real life problem.
+At what position you want to see yourself after five years.
+Do you have any interest in managerial part of organisation? would you like to grow there?
+Done!!
+
+Some Guidelines:
+1. Never assume anything.
+2. Always keep asking questions if you are not clear with question.
+3. Speak Clear and Confidently.
+4. Be honest. If you don’t know the answer say I don’t know.

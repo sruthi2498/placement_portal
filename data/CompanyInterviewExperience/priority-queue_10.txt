@@ -1,0 +1,5 @@
+Given a Binary tree, the task is to print its all level in sorted order
+Examples:
+
+Here we can use two Priority queue for print in sorted order.  We create an empty queue q and two priority queues, current_level and next_level.  We use NULL as a separator between two levels. Whenever we encounter NULL in normal level order traversal, we swap current_level and next_level.
+Run on IDE

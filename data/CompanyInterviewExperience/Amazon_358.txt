@@ -1,0 +1,40 @@
+I recently had interviews with Amazon. Here’s my interview experience
+Coding round on Hacker rank (1 hour):
+1. Find minimum number of coins that make a given value
+Given a value V, if we want to make change for V cents, and we have infinite supply of each of C = { C1, C2, .. , Cm} valued coins, what is the minimum number of coins to make the change?
+2. Suppose you have given two strings S1 and S2. Find out if S1 is substring of S2. If S1 is present in S2 return starting index of S1 in S2 and if not present return -1.
+3. https://www.geeksforgeeks.org/find-two-rectangles-overlap/
+Face to Face Round 1 (Technical ~ 1 hour)
+
+1. LCA in a BST. Lowest Common Ancestor in a Binary Search Tree …
+ 2. Swap two nodes in a singly linked list.Swap nodes in a linked list without swapping data …
+ 3. Building bridges problem Dynamic Programming | Set 21 (Variations of LIS …       algorithm – Building bridges problem – how to apply longest …
+ 4. Implement a data structure with push() , pop() , find minimum element in O(1).      Design and Implement Special Stack Data Structure | Added …                      ( For each question they asked me to write the code and also tell all test cases.)
+Face to Face Round 2 (Technical ~ 45 mins)
+
+1. Find the number of islands.Find the number of islands – GeeksforGeeks
+ 2. Calculate how many paths exist from top left to bottom right corner of matrix with cost = k. Number of paths with exactly k coins – GeeksforGeeks               (For each question they asked me to write the code and also tell all test cases.)
+Face to Face Round 3 with Hiring Manager (Technical ~ 1hour)
+
+1. Tell me about yourself.
+ 2. Given 4 digits , find the sum of all the 4-digit numbers that can be formed using these 4 digits.SOLUTION: Find the sum of all four digit numbers that can …
+ 3. Merge two balanced BST’s.Merge two BSTs with limited extra space – GeeksforGeeks  (For each question , code and a dry run was expected)
+ 4. Tell me a situation when your manager disagreed with you.
+Telephonic Round 4  (Technical ~45 mins) ( held after some 3-4 days )
+This interview will is taken by some senior guy who doesn’t belong to the team you are hired for.
+ 1. He gave his brief introduction and then asked mine. 
+ 2. Why do you want to leave the current company
+ 3. Why Amazon?
+ 4. The most challenging project/thing ever done. Why it was challenging . How would u do the same project/thing again. i need to tell some improvements in previous approach/design/code.
+ 5. Tell me a situation when your manager disagreed with you / or had a different opinion
+ 6. Tell me a situation when there was a time constraint for project delivery and how you handled it.
+ 7. Find an element in a rotated sorted array.Search an element in a sorted and rotated array … (The collabedit link was shared to me through the mail but it didn’t work during the interview . So the interviewer asked me to just explain the logic)
+Some suggestions:
+ 1. Practice Trees , Linked lists , DP , Arrays , Strings , Stacks , Queue , Hashing , Heaps , Backtracking and basic Graph questions from gfg. The questions are asked as it is.
+ 2. Don’t just look at the solutions , write the whole code on paper while practising.
+ 3. In the interview , start from the less optimized solutions and then move to more optimised solutions.
+ 4. Practice the latest 20-25 sets from the Amazon Interview sets in gfg
+ 5. Ask questions / take hints from the interviewers.They are co-operative.
+ 6. Prepare behavioural questions like why leaving , why amazon , situation against manager etc. Have answers to these questions ready .Practice speaking them to yourself before the interview, otherwise you might get nervous.
+A big thanks to gfg for making everything easy.
+All the best folks! Prepare well.

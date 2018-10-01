@@ -1,0 +1,9 @@
+Syntax:
+Parameters: The function does not accept any parameters.
+Return value: The function returns an iterator pointing to the first element in the container. 
+Below program illustrate the above-mentioned function: 
+Run on IDE
+Parameters: The function does not accept any parameters.
+Return value: The function returns an iterator pointing to the position past the last element in the container in the multiset container. 
+Below program illustrate the above-mentioned function: 
+Run on IDE

@@ -1,0 +1,9 @@
+Given an array arr[] of n positive integers. Represent every number as its factors (x * y = arr[i]) [Here x or y cannot be 1] till it cannot be further represented as x*y = arr[i]. Print the number of steps required to split it till no further representations are possible.
+Examples:
+
+Approach is to pre calculate the prime factors of every number. Prime factors can be efficiently calculated using Sieve’s implementation which requires N * log N.  . We know a number can be represented as a multiplication of its prime factors and we can represent it till its not 1, so 1 is not taken into count, so if the number is other than 1, we count the number of prime factors, and then subtract 1 from it.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O( n * log n) 

@@ -1,0 +1,13 @@
+Given an integer N, find out the count of numbers(m) that satisfy the condition m + sum(m) + sum (sum(m)) = N, where sum(m) denotes the sum of digits in m. Given N <= 10e9.
+
+Examples:
+
+Approach: The first thing to note is that we are given the constraint  N<=10e9. This means sum(x) can at maximum be 81 for any number, This is because the largest number below 10e9 is 999999999 whose digits add up to 81. The maximum case for sum(sum(x)) will be 16 (number being 79<=81), so at max it 81 + 16 which is 97 needs to be checked. We just need to iterate from N – 97 to N and check which integers satisfy the equation because no integer smaller than N-97 can satisfy the equation and neither can any integer greater than N can.
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

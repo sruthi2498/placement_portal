@@ -1,0 +1,14 @@
+The res/values folder is used to store the values for the resources that are used in many Android projects to include features of color, styles, dimensions etc.
+Below explained are few basic files, contained in the res/values folder:
+An Android project contains 3 essential colours namely:
+These colors are used in some predefined resources of the android studio as well. These colors as needed to be set opaque otherwise it could result in some exceptions to arise.
+Below mentioned is the implementation of colors.xml resource:
+Run on IDE
+Note: It is also possible to define different user based colours for different types of resources.
+Run on IDE
+It is also possible to apply user-defined dimensions.
+Note: Always remember the difference in using dp or sp. Generally use sp for font size and dp for others.
+Run on IDE
+Android studio gives a warning in layout xmls if a string is used in that file, thus it is a good practice to store all hardcoded strings in strings.xml file.
+Run on IDE
+If any feature used in the files in values folder does not match with the minimum SDK version of the user, then android studio gives the option to define a separate file with the same name but for different API level. For eg., styles and styles(v21)[for API levels of 21 and above].

@@ -1,0 +1,32 @@
+Delhivery interview experience two tech round and one HR round.
+Written test : 
+There were two coding questions on hackerearth platform and 39 MCQ related to data analysis.
+Level of coding questions was not easy.
+Round 1 : 
+Q.1 Tell me about yourself.
+Q.2 which is your favourite subject ?
+    then they asked me about my subject and other interested field also.
+Q.3 Written Round question was asked me again and they told me to optimize .
+Q.4 They asked me to solve coding question
+https://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/
+    i told them DP and recursive way , they told me one other way also , so i use bfs and solve uniweighted  undirected graph shortest path. 
+Q.5 Coidng question they asked me related to strings.
+    Suppose we have string like “111122223333444455” and i want to make equal frequency of each number(integer) with maximum one deletion and two insertion and make equal length increasing sequence .
+    Ex : 1111 , 2222, 3333 , 4444, 55 they are decimal numbers . so i want to make equal frequency, if  i delete  one number so 111, 2222,3333,4444,55 not a valid string.    So I make 12345 , 12345,12345 ,12345 and make increasing sequence ( insert two 5 ) .
+Round 2 :
+Q.1 They asked me about my favourite subject from feedback from first round.
+Q.2 They asked me about my projects and intern projects .
+Q.3 One Real time scenario in which we have chessboard but not 8×8 , it is 4×4 . We have one
+    postman at top right side of board and he wants to send message pkts to cell (x,y) any random position on
+    board. Their are many packets and he wants to send each with minimum time and distance so how he does ?
+    they asked me to code for that .
+    i approach three solutions :
+    i.   It is Real time so i use routing protocol analogy.
+    ii.  i code with minimum cost path.
+    iii. Dijkstra algorithm with some modification .
+Q.4 They asked me about threads (many to many ) and user level and kernel level threads.
+Q.5 Coding question related to overlapping rectangle.
+    My approach is flood fill algorithm ( octatwise)
+Q.6 You have string “abcd@gh$bn*/”ghgkl” with char mix with alphabets .
+    expected output is : “lkgh@gn$bh*/”gdcba”
+    time complexity O(n) , space O(1)

@@ -1,0 +1,6 @@
+How to convert a single character to a string object.
+Examples:
+
+The idea is to use string class which has a constructor that allows us to specify size of
+string as first parameter and character to be filled in given size as second parameter.
+Run on IDE

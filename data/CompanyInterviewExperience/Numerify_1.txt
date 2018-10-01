@@ -1,0 +1,49 @@
+First written test was conducted on CoCubes platform,consisting of two parts:
+Part 1: Aptitude,Verbal,
+Part 2: 30 MCQ’s consisting of output questions of java,c++.Also from DBMS,CN,OS.
+Then after selection from written test,next round was Assignment round,we had to code in java or C++.
+1.Given is a (mxn) matrix with values comprising of 0 and 1. 1 defines a path while 0 is a
+void. By traversing from top (0,0) (top-left) position using up, right, down and left
+position, is it feasible to figure out if there is a valid path to the final (m-1, n-1) (bottomright)
+position. You cannot step on an already traversed tile more than once. If there is a
+valid path, can the same be printed?Print all possible
+paths.
+Input:
+Output:
+Yes
+Interview Round:
+Results of Assignment round were mailed to us and selected students were called for interview round.
+He started by discussing assigment question and variences of it,he asked approach to find the Shortest path in Assignment question.
+After this,he discussed on all my projects in detail which i had mentioned in my C.V.
+Then he gave me DBMS questions to solve one by one:
+1. Design a database schema to store Student marks for each test in the class per
+term. The information also should store the Professor who is in-charge to
+conduct that test. On this data, design a schema to secure data for view as
+follows:
+Professor can view data of all the students
+Student can view data pertaining to himself.
+Student can view Low, Average and High score of the class for each subject
+without the name of the student to compare his score with.
+2. He showed me two tables on laptop,First table with two cols:Boss_id,Emp_under_id.
+second table two cols:Emp_id,Designation.
+Write query to display hierarchy for any select employee based on designation,he asked what keys will you give to which cols and why?Explained the query.
+3. He asked there is large document given with lakhs of sentences, write a query to display count of corresponding each distinct word.(This was easy one).
+Other interviewer started asking Java Questions:
+1.Oops concepts explain with example inheritance,polymorphism.
+2.Abstraction,Data encapsulation why it is used.
+3.He asked in detail about Static keyword in java,what are static blocks why they are used.
+4.Why the signature of main method in java is (Public static void) and if you remove public/void/static what errors it will give.
+5.Diff btween threads and processes?Diff ways of creating threads in java?
+6.Explain multiThreading in java,he went into detail of this.He asked can you start a thread multiple number of times?
+Then he gave me very simple code to write:
+Given Slabs of percentages of tax,write a code to calculate tax for provided input:
+0-2lakhs–>3%
+2-5lakhs–>5%
+5-8lakhs–>7%
+above 8 lakhs–>12%
+He asked me to explain the code.
+Last question was a puzzle:
+Bridge and torch puzzle,There are four people who want to cross a bridge,and they have a single torch which they need to carry while crossing the bridge.
+Time taken by four people A,B,C,D is 2,2,5,5 mins respectively,to cross the bridge. When two people cross the bridge together, they must move at the slower person’s pace.
+Calculate minimum time needed for all four to be on the other side of bridge.
+

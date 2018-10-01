@@ -1,0 +1,9 @@
+The deque::rbegin() is an inbuilt function in C++ STL which returns a reverse iterator which points to the last element of the deque (i.e., its reverse beginning).
+Syntax:
+Parameter: This function does not accept any parameters.
+Return value: It returns a reverse iterator which points to the last element of the deque.
+Below programs illustrates the above function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

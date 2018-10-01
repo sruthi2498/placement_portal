@@ -1,0 +1,24 @@
+Please find the details of my Amazon interviews below. 
+Date of Interviews: 1 Sept 2012
+No of Rounds: 4
+Type of Interviews: Walk-in for 1 yr experienced
+
+Round 1:
+Question 1:- Given a 2D array containing only 0/1’s and each row is in sorted order. Find the row which contains maximum number of 1s.
+I was asked to code. Algo which I told was I will search position of first 1 in 1st row using binary search. And mark it. Now note that position check in 2nd row. If there is 1 for that position already found in 1st row, then binary search from 0 to that position else move to row number 3. Similarly continue further.
+
+Round 2:-
+Question 1:- Given a Binary tree and two nodes. Need to find the minimum ancestor, no parent nodes given.
+Each time when I told answer, they modified question little bit or removed some extra storage which I was taking.
+Question 2:- Given a Binary tree and two nodes. Need to find smallest path between them
+
+Round 3:-
+Question 1:- Given an array of infinite size containing 0/1 only and in sorted order, find position of first one. 
+My answer: first check whether 1 is present at 100th position or not if there, do binary search between 0 and 100 else check 1 is there at 200th position, and similarly continue further.
+Question 2:- Given life time of different elephants find period when maximum number of elephants lived. ex [5, 10], [6, 15], [2, 7]  etc.  year in which max no elephants exists.
+Other questions were regarding Operating system like virtual memory etc.
+
+Round 4:-
+It was HR round. Questions related to project. Questions like why I should Hire you etc were asked. 
+Result is still on wait.
+

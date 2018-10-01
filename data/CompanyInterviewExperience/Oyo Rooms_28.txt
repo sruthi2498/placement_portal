@@ -1,0 +1,24 @@
+Round 1: Skype
+Questions mostly on the technolgy you have worked on and algorithms.
+Algo:  Find pair in bst which sums to X.
+Ref: https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
+Round 2-5 (in person)
+Round 2:
+1. Implement stack using queue.
+Ref: https://www.geeksforgeeks.org/implement-stack-using-queue/
+2. Left view of Binary Tree
+Ref: https://www.geeksforgeeks.org/print-left-view-binary-tree/11111111111111111111
+And few Java concepts questions.
+Round 3: 
+1. Problem statement: Given a log files with sessionID, source pageId, destn pageID and Timestamp at which the page is visited. Identify all the pages that are linked and find the minimum count of page to visit to reach P2 from P1 – Use Graph and apply BFS.
+2. Design Tank Game – Identify all the classes, member variable, methods and relationship between each class. Design pattern that can be applied.
+Ref: https://www.youtube.com/watch?v=K6VBLJ4AR2Q  
+Round 4:
+1. Determine if there is a subset of the given set with sum equal to given sum
+Ref: https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/
+2. Implement LRU cache.
+Ref: https://www.geeksforgeeks.org/lru-cache-implementation/
+Questions on java concepts, design pattern and multithreading.
+Round 5 (Hiring Manager):
+Questions was mainly from resume, behavioral questions, design and databases concept(join,query)
+Note: You have to write the code on paper in each round. 

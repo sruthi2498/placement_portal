@@ -1,0 +1,10 @@
+Comparing String using Relational operators, Using compare()
+Relational operators vs std::string::compare()
+Using compare() :
+Run on IDE
+Output:
+Using Relational Operators : 
+Run on IDE
+Output:
+We can clearly observe the extra processing we need to go through while using relational operators.
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks (We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

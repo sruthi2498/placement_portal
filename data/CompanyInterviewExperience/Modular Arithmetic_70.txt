@@ -1,0 +1,12 @@
+Given a prime number n, the task is to find its primitive root under modulo n. Primitive root of a prime number n is an integer r between[1, n-1] such that the values of r^x(mod n) where x is in range[0, n-2] are different. Return -1 if n is a non-prime number.
+Examples:
+
+A simple solution is to try all numbers from 2 to n-1.  For every number r, compute values of r^x(mod n) where x is in range[0, n-2]. If all these values are different, then return r, else continue for next value of r.  If all values of r are tried, return -1.
+An efficient solution is based on below fact.
+If the multiplicative order of a number r modulo n is equal to Euler Totient Function Φ(n) (Note that Euler Totient Function for a prime n is n-1), then it is a primitive root [Source : Wiki]
+Although there can be multiple primitive root for a prime number but we are only concerned for smallest one.If you want to find all roots then continue the process till p-1 instead of breaking up on finding first primitive root.
+Run on IDE
+Output:
+Reference:
+https://en.wikipedia.org/wiki/Primitive_root_modulo_n#Finding_primitive_roots
+http://math.stackexchange.com/questions/124408/finding-a-primitive-root-of-a-prime-number

@@ -1,0 +1,7 @@
+coding round 1–(1 hr) – hackrrank
+1. given a string of any length, check if first half of the string (n/2+1 in case of odd length) is an anagram of the second half of the string or not. 
+2.in a 2d matrix, some cells are obstacles and others are clear. find number of paths from 0,0 to m,n.(0 paths if 0,0 is obstacle, wasn’t specified but was the 6th test case).
+coding round 2— (45 min + 15 min extended later) – hackrrank
+1. given n cities’ populations. you have to divide k hospitals in these cities such that the population load for the hospital with maximum load is minimum eg 2 cities – 20000,50000 and k=6 . so hospital in 1st=2, in 2nd=4 and answer is 12,500, the maximum load on any hospital.
+–add populations to priority queue, assume giving one hospital to each city in starting. pop from queue, give this city one more hospital, add (population)/(no. of hospitals to queue), do this till you have hospitals left, then return top of priority queue.
+2. simple bfs question with surprisingly complex language.. couldn’t figure out the question.. something about rods fused together being seperated where cost of each seperation is sqrt(no. o

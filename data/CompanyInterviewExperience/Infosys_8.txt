@@ -1,0 +1,13 @@
+We are given a sorted array A[] of n elements. We need to find if x is present in A or not.In binary search we always used middle element, here we will randomly pick one element in given range.
+In Binary Search we had 
+In Randomized binary search we do following
+It is a Las Vegas randomized algorithm as it always finds the correct result.
+Expected Time complexity of Randomized Binary Search Algorithm
+For n elements let say expected time required be T(n), After we choose one random pivot, array size reduces to say k. Since pivot is chosen with equal probability for all possible pivots, hence p = 1/n.
+T(n) is sum of time of all possible sizes after choosing pivot multiplied by probability of choosing that pivot plus time take to generate random pivot index.Hence
+Recursive C++ implementation of Randomized Binary Search
+Run on IDE
+Output:
+Iterative C++ implementation of Randomized Binary Search
+Run on IDE
+Output:

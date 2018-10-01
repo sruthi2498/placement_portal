@@ -1,0 +1,8 @@
+A directed acyclic graph (DAG) is a graph which doesn’t contain a cycle and has directed edges. We are given a DAG, we need to clone it, i.e., create another graph that has copy of its vertices and edges connecting them.
+Examples:
+To clone a DAG without storing the graph itself within a hash (or dictionary in Python). To clone, it we basically do a depth-first traversal of the nodes, taking original node’s value and initializing new neighboring nodes with the same value, recursively doing, till the original graph is fully traversed. Below is the recursive approach to cloning a DAG (in Python). We make use of dynamic lists in Python, append operation to this list happens in constant time, hence, fast and efficient initialization of the graph.
+Run on IDE
+Output:
+Creating the DAG by appending adjacent edges to the vertex happens in O(1) time. Cloning of the graph takes O(E+V) time. 
+
+

@@ -1,0 +1,21 @@
+I recently attended Komli media interview and wanted to share the experience. 
+First Round(Written)
+1.    Midas has boxes in three sizes: large, medium, and small. He puts 11 large boxes on a table. He leaves some of these boxes empty, and in all the other boxes he puts 8 medium boxes. He leaves some of these medium boxes empty, and in all the other medium boxes he puts 8 (empty) small boxes. Now, 102 of all the boxes on the table are empty. How many boxes has Midas used in total?
+See the answer here : https://www.easycalculation.com/puzzles/hard/boxes.php
+2. You are given a file which contains a very bit sequence of 0 and 1 and it is sorted. Hence all the zeros are in front of the ones.One needs to find the first orrcurance of of 1 in the file(return the position).
+The only method to access the file is through a method whose signature is — int getBitAtPosition(int position) — which returns the bit at the specified position in the file.
+3. Given a string find the short version of the string depending on the given parameter.
+method signature : shortenString(String s, int n) 
+    Basically truncate the consecutive run of a character if it exceeds n.
+4. write a function to divide two numbers upto a precision of 4 decimal places.
+    One can only use the addition/subtraction operators.
+5. Charles walks over a railway-bridge. At the moment that he is just ten meters away from the middle of the bridge, he hears a train coming from behind. At that moment, the train, which travels at a speed of 90 km/h, is exactly as far away from the bridge as the bridge measures in length. Without hesitation, Charles rushes straight towards the train to get off the bridge. In this way, he misses the train by just four meters! If Charles would, however, have rushed exactly as fast in the other direction, the train would have hit him eight meters before the end of the bridge.
+Answer : http://dailybrainteaser.blogspot.in/2011/08/train-puzzle.html
+Second Round :
+Discussion on the problems in the first round and optimization.
+Lot of discussion on the projects mentioned in the CV.
+Third round :
+1. Given an array of integers, for each position find out the product of the remaining elements in the array.
+    You are not allowed to use the division operator.
+    Calculate the same thing for all the positions and out in a different array. 
+2. Give a number n, find the all the possible sets of number whose sum will be n. A number can repeated within a set. 

@@ -1,0 +1,13 @@
+Express a given number as a summation of 4 positive primes. If it is not possible to express then print “-1”.
+Examples:
+
+Approach : Every even integer greater than 2 can be expressed as the sum of two numbers by Goldbach’s conjecture.
+Below are some facts for expressing a number as sum of 4 primes.
+Now we can easily express n as sum of two primes using link
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n sqrt(n))
+Auxiliary space: O(1)

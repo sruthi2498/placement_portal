@@ -1,0 +1,5 @@
+Given a sorted array of strings which is interspersed with empty strings, write a method to find the location of a given string.
+Examples:
+If there were no empty strings then we could’ve simply performed binary search. We can still use Binary Search with a little modification. If our mid is empty we just have to move mid to closest Non-Empty string.
+Below is a C++ solution for above approach.
+Run on IDE

@@ -1,0 +1,14 @@
+Given a positive integer n, the task is to print the n’th non Fibonacci number. The Fibonacci numbers are defined as:
+First few Fibonacci numbers are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 141, ……..
+Examples :
+
+A naive solution is to find find Fibonacci numbers and then print first n numbers not present in the found Fibonacci numbers.
+A better solution is to use the formula of Fibonacci numbers and keep adding of gap between two consecutive Fibonacci numbers. Value of sum of gap is count of non-fibonacci numbers seen so far. Below is implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)

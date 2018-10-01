@@ -1,0 +1,18 @@
+I was interviewed for Microsoft App-Ex Team.  I was selected. I am really thankful to GeeksForGeeks site which provides preparation material for technical interviews organised so well at one place. I am fan of you guys 🙂 
+Round1:-
+a) Implement your own atoi() function(To convert string to integer)  cover all the cases including negative integer.
+b) LCA for Binary Tree.Write code for it.
+c) WAP to Print last n lines of a big log file.
+Round2:-
+a) You are given an array containing only 3 type of characters let say a,b,c write a program to sort the array having these. Eg abcaacbbaaaaccc sort it. I gave standard 3 flag solution then he asked you are complicating it you can use other method then I gave counting method.He asked me to compare the complexity of both methods.then discuss leads to while calculating complexity we compare number of iteration only or total calculation in the program.
+then he asked if we have let say k type of character then which method is good the count one or three flag one.
+b) Implement T9 dictionary. how T9 works is : let say if I press 223 it should give all the possible valid words in suggestion Eg bad,cad,aad etc. give datastructure to store valid words etc.
+Round3:-
+This round was with hiring manager
+a) Write code for merge two sorted LinkedList Inplace.
+Then He gave a problem related to his team. In weather app, you have a number of weather stations, give datastructure and all to find the nearest weather station from a city.   
+Then He gave the brief about what his team work and all .
+Round4:-
+This was with GM of App-Ex team India.
+a) It was a design question. You are given a list of components you have to write design for rendering those components in container.Layout can be left aligned, right aligned, center aligned. You design should be extendable means if new layout comes you should modify your code as least as possible. Use concept of OOPS.
+

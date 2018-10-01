@@ -1,0 +1,42 @@
+Recently I was interviewed by Amazon for SDE 1, here is my Experience. Hope this will help others:
+Written Round :
+there where 3 coding question , out of which 2 where DS related and 3 rd one was Problem solving
+1. Count no of words in given string .
+2. Find first non repeating character in a stream of characters
+3. related to slot machine and its working
+Interviews
+F2F 1.
+1. firstly some non technical questions where there , such as
+            tell me about yourself ,
+            Why Amazon etc
+2. followed by 2 coding questions
+        1. Given a sorted dictionary of alien language , find order of characters.
+        2. find minimum number of characters needed to be added to the end of a string to make it palindrome.
+F2F 2.
+was a senior guy ,
+1.started with discussion on previous interview questions , as I had used DP in second question so a brief discussion on DP , tried to test me that does I really know the concept of DP.
+2. asked few puzzles , One should be prepared for some out of box questions as they want to check the thought process . even they change puzzles and try to get different solutions. Think loud always.
+F2F 3.
+was also a senior guy,
+1. Started with general induction and asked about till then my interview experience and related stuff.
+2. Simple Matrix multiplication problem ,with only 2 double pointer are given , we need to check sizes of  both matrix , multiplication feasibility and then do multiplication .
+3. Design Question from DataBase point of view , asked about table structure for the problem and had a good discussion on it , concept such as normalisation was discussed .
+Telephonic 4th
+He was a very senior guy from different team ,
+1. Started with general introduction followed by many Behavioural hr questions  .
+2. Followed by Design Question, a feature of Outlook
+A  Server receives meeting objects from multiple senders. Meeting object contains meeting time, sent time, recipient(s), sender id,etc. When recipient comes and checks the server, he/she should get requests based on meeting time and not based on sent time. Many discussions on space complexity and time complexity.?Eg:
+12 PM      From: A  To: B,C,D   meeting time: 4 PM   meeting Id: 1
+12.30 PM   from: A  To C,D      meeting time : 2 PM   meeting Id:2
+1:PM       From B   To: C       meeting time: 1.30PM  meeting Id:3
+When C requests the server, C should get ID3 as 1st, ID2 as 2nd and ID1 as 3rd meeting.
+Small set of Suggestions :
+1. Practice writing code using pen and paper .
+2. Try to be interactive as they are very much interested in candidate’s thought process , think loud , be confident .
+3. Firstly explain the logic and when interviewer is satisfied then start coding .
+4. Have few questions prepared for the interviewer as it shows interest of candidate towards the company .Do proper home work about the company.
+Thanks GeeksforGeeks for such a great content , Keep doing the great work  🙂
+ 
+ 
+
+

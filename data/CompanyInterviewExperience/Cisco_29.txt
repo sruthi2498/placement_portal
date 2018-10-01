@@ -1,0 +1,46 @@
+Interview consists of one written and two technical rounds followed by HR round.
+Written Test : Total 50 questions
+Aptitude : 20
+Technical : 30
+cutoff : 29 marks.  aptitude – around 9,10, Technical – 22  
+Aptitude Questions : 
+[Mainly covered on topics like basic probability question, functions, propositional logic, finding number with help of statement, simple passage, basic permutation]
+1. Aptitude means everyone starts with speed and distance, train problems, boats and cisterns, Time and work but here there was no questions on these topics.
+2. Simple questions on conditional probability like
+X having 5 chips with 1 defective, Y having 4 chips with 2 defective  what is the probability of selecting 1 defective chip out of 9 chips that to from Y.
+3. simple problems on Propositional logic
+p->q V p->r how many set of values for this logic gives true value
+Ans – 7
+4. two set {1,2,3,4} and {4,5} total number of elements in cartestian product of these two sets.
+5. If a digit square is divided by half of the number then its quotient is divided by and it is added by 36 then…. you can search questions of this type.
+6. Two white ball and 3 red ball in box a, 3 red and 4 white in box b, probability of selecting white ball from box b.
+7. Simple passage questions.
+Technical :
+Subject – [logic design, computer networks, os, datastructure, algorithms]
+1. 12,54,86,78,13 how many swaps you need if you sort this using bubble sort.
+2. Which of the following are valid coding schemes
+a)Manchester
+b)3B/2
+c)4B/2B
+3. Basic theoritical question on ADC
+4. Have a look on ICs like 8241,8251, question was which one comes under this group something like that
+5. ab’c+a’b’c+a’bc+a’bc’  minimize this expression
+6. question based on memory mapped i/o definition
+7. simple question os synchronization
+8. page replacement
+9. question on thrashing concept
+10. worst case n^2 and best nlogn  which sort ? -quick sort
+11. networks – which of the following are switch forwarding approach
+a) cut through b) store and forward
+ans – cut through
+12) have a look at switch,hub,router,bridge and osi layer
+14) how many hosts u can accomodate in 192.168.1.43/21
+15)os – context switch, deadlock
+Technical round:
+Revise OS, B.Tech or M.Tech projects, data structure,
+Program to find substring.
+Network questions like DNS, OSI, DHCP
+OS – InterProcess communication, Process, Deadlock, Garbage collection, Algorithm – Dijkstra’a algorithm,
+Datastructure – Linked list questions
+Tips and books- Gate questions, Data Structure made easy by Narisimha karumanchi, Timothy. J. williams computer science MCQ.
+

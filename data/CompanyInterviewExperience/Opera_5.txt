@@ -1,0 +1,28 @@
+WRITTEN TEST:
+Consists of questions on:
+A) General computer Science:- os, networking,library functions in c/c++ etc.
+B) Data structures and Algorithms(Highest wattage)
+C) Sq l Queries on join and aggregate functions, simple queries ,questions on 1 NF,2 NF,3 NF, BCNF and loss less and lossy join
+Cutoff-(65-70% questions)
+39 students were selected for interview from 300 students.
+ INTERVIEW ROUND:
+FIRST:
+A detailed discussion on my project.
+After that interview questions were as follows:-
+A) Design a login page of the system with two constraints:
+1) If the person is not login and if he gets the url of the main page after the login,den he should be redirected to the login page.
+2) There is a condition in the login if you login from one system and you do not log out and try to log in into another system then a error message should be generated that “you are already login,logout and then log in again”.
+B)Design a control+Z operation in the text editor.
+C)Design a new operation in the stack get max,such that you get the maximum element from the stack ,but the order of the stack should be maintained.
+D)Circular link list implementation
+E)Palindrome in the String,(pay special attention to all the test cases).
+F)How to compare two max heaps with only one element differ(basically time complexity).
+G)Design a module for your college such that each student mention her preferences of language and each company coming for campus placement give its preferences,design a module to compare the prefrences of the company and students,on basis of that allow that student to sit for placement(basically the data structure used in this)
+H) Shuffle the character array in the least possible steps and the most simplest ways(I was’nt able to solve this question).
+I)If you are at the starting node of the  circular linked list and you have to find out it’s tail node not in O(n) time.The time complexity should be O(log n) and space complexity O(1).
+SECOND ROUND:
+(Interview with the director of the company)
+Main focus was on java and core java concepts.
+Questions from the operating system basically deadlocks.
+**NOTE: Opera solutions expects the student should be well versed with all the concepts especially java and DBMS(sq l queries).
+

@@ -1,0 +1,13 @@
+Given an array of positive integers(may contain duplicates) and a number ‘m’, find the number of unordered triplets ((Ai, Aj, Ak) and (Aj, Ai, Ak) and other permutations are counted as one only) with product equal to ‘m’. 
+Examples:
+Input: arr[] = { 1, 4, 6, 2, 3, 8}, M = 24
+Output: 3
+The triplets are {1, 4, 6} {1, 3, 8} {4, 2, 3}
+Input: arr[] = { 0, 4, 6, 2, 3, 8}, M = 18
+Output: 0
+There are no triplets in this case
+A solution with O(N2) has been discussed in the previous post. In this post a better approach with lesser complexity has been discussed. 
+Approach: The below algorithm is followed to solve the above problem. 
+Below is the implementation of the above approach. 
+Run on IDE
+Time Complexity: O(N * log N)

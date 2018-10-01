@@ -1,0 +1,14 @@
+A Carol number is an integer of the form 4n – 2(n+1) – 1. An equivalent formula is (2n-1)2 – 2.
+An Interesting Property : 
+For n > 2, the binary representation of the n-th Carol number is n-2 consecutive one’s, a single zero in the middle, and n + 1 more consecutive one’s. Example, n = 4 carol number is 223 and binary of 223 is 11011111, here n-2 = 4-2 = 2 consecutive one’s in starting then single 0 in middle and then n + 1 = 4 + 1 = 5 consecutive one’s after it.
+Given a number n, the task is to find the n’th Carol Number. First few carol numbers are 1, 7, 47, 223, 959… etc.
+Examples :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference:
+https://en.wikipedia.org/wiki/Carol_number

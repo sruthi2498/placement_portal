@@ -1,0 +1,11 @@
+Amazon visited our campus on 12th August. There were 5 rounds namely –
+1) Written round
+2) – 5) All technical rounds with increasing difficulty levels
+The written round consisted of 20 mcqs ( OS, DBMS, CPP , C , JAVA and Aptitude basic level ) and two Hacker Rank coding questions –
+1) Overlapping subsets problem and
+2) The longest path in a given binary tree
+The technical rounds took 1 hour each.
+In the first technical round I was asked to check whether a given tree is a complete binary tree or not and then to code both recursive and non-recursive version of it. It also included another question like to find whether a number is a power of 2 or not.
+The 2nd technical round had questions like what is a symmetric number, how will you check if its a symmetric number. And then he asked me to find all the symmetric numbers of given n-digits. I wasn’t able to do the last part.
+The 3rd technical round consisted of a string compression problem. Given a string like AAABBBCDEFGHIJKLLLLLLLLLLLLLLL – you have to compress it to a string like A3B3C1D1E1F1G1H1K1L15. The question was to be done in O(n) and inplace.
+The 4th technical round consisted of the popular dynamic programming problem of cutting sticks of various length and merging them to form a bigger stick keeping in mind that you have to decrease the overall cost of merging.

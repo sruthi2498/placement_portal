@@ -1,0 +1,21 @@
+I want to share my interview experience with paytm with all of you.
+
+Round-1 [1.5 hr]
+1. Brief introduction
+2. Discussion about project
+3. why are you using Fluentd(EFK) in place of Logstash(ELK)
+4. Question on Elastic Search [Based on my project]
+5. Given a binary tree, write a function to print its top and bottom view.
+
+Round-2 [1 hr]
+1. Brief Introduction
+2. Given a N-ary tree, write a function to print its Left order traversal.
+3. Given a Binary tree, write a function to print its Left view.
+
+Round-3 [1.5 hr]
+1. Brief Intro
+2. Which projects, you find it most difficult and question related to that.
+3. Design Database for split-wise type app.
+4. What are the advantages and Disadvantages of NodeJs.
+5. How NodeJs Works internally.
+6. Why Some prefer multithread over NodeJs[single threaded]

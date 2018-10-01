@@ -1,0 +1,11 @@
+No written test for me.
+F2F1:
+1) Next greater number with same set of digits.
+2) Find a number in a sorted array rotated left. Ex: 5 6 7 8 9 1 2 3 4, Find 9
+F2F2:
+1) Level order traversal code. Also solve this problem without using null pointer
+2) Find the shortest path between two elements in a matrix with some Null elements. Means you cannot choose XY path since some location are not traversable  (Dijkstra’s Shortest Path algorithm)
+Round 3:
+1) Project Specific questions
+2) Implement DB copy from one system to another taking foreign key constraints into consideration ( Table B is having a foreign key constraint to table A. So B  can’t be copied before A. Imagine the I/P as a list of list i.e. adjacency list of graph. Now devise a way to copy the DB)
+Got eliminated here. Never felt so bad over losing something in last few years. Good company. Try on LinkedIn and apply.

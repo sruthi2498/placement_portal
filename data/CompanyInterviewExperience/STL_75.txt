@@ -1,0 +1,9 @@
+The unordered_multiset::bucket_size() is a built-in function in C++ STL which returns the number of elements in the bucket which has the element val. It will always be lower than the bucket_count. The number of elements in a bucket influences the time it takes to access a particular element in the bucket
+Syntax: 
+Parameters:  The function accepts a parameter val which specifies the element whose size of the bucket is to be returned.  
+Return Value: It returns an unsigned integral type which denotes the number of elements in the bucket which has the element val. 
+Below programs illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

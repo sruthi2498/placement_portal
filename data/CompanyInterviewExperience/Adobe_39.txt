@@ -1,0 +1,43 @@
+Adobe visited Hyderabad for a recruitment drive. Interviews were held in Novotel convention center.
+F2f 1(1.5 hours)
+The interviewer started with the discussion about current company and project. Then he asked me some basic DS and algo questions:
+1) Given an array, find all sets of 3 numbers whose sum equals to 0
+2) He asked me to write merge sort code and then quick sort
+3) Shuffle a sorted array
+4) Write indexOf function for substring search in a given string
+5) Which sorting algorithm does .sort() method use in java?
+6) Print all leaf nodes for a given BST
+F2f 2(1.5 hours)
+1) Given a stream of numbers which contains n numbers, each number is positioned at max k positions away from its actual position. Sort the array in the most optimized way.
+2) Design a data structure which would insert, delete, search and random in O(1)
+3) Given a number, find immediate larger number using same digits
+4) In Java, should you store a password in a String variable? If not, then why?
+5) You have 50 red balls and 50 blue balls, you have to place these balls in two containers in such a way that probability of a person picking up a red ball from any container is maximum.
+6) Some questions about GC, classloader, etc
+There were few other questions related to DS algo asked in this round for which he asked me only the logic and did not ask me to code, I don’t remember all.
+F2f 3(1.5 hours)
+1) You are given an API which returns text for a given pdf. Now design a service which would use the API to report managers/administrators if given bill as a PDF has same bill amount as been reported by the employee. In the report,  you have to return name, date and total amount in the bill.
+– Firstly he asked me to write code to extract name, date and bill amount from the pdf assuming that all bills follow same format, i.e,
+(Name:<Name> Date:<Date>…#@#$@#$@#……. Total:<Total>)
+– Then he asked me how would you report it to multiple managers/admins. He wanted to know which design pattern would I use.
+2) There is an app like Acrobat Reader for android. It maintains a list of all available pdf files in file system. How would you update the list when a new file is added and location of this file is unknown. You are given root directory and for each directory, you can check the timestamp when it was last updated.
+3) Given an array of size n and a number k<=n, find local maxima for each window of size k.
+
+4) 10 prisoners and hats puzzle
+
+5) Max coin sum game - There are n coins with some value placed in a straight line, you can pick any one coin from any one end of the line. You are playing this game with your friend, now you have to maximize your sum assuming that other player also plays it optimally. Assume you are first to pick up the coin.
+
+
+Director(30 mins)
+The interview was held in a large conference hall with the table & chair been placed exactly in the center of the hall. He asked me the following questions:
+1) Introduction, college, company and project details. Why do you want to switch your company?
+2) Then he asked me what is my strength in CS? I didn’t know what to answer at that moment and then out of nowhere I said ‘Problem-solving’. I was regretting a second later and thinking that I should have said ‘Data Structures’. Then he gave me a problem-solving question which I was not able to solve optimally. I told him brute force approach.
+There are some professors, some courses, and some students.
+Each professor can teach only a single course.
+Each course has a fixed duration(Eg. 10 weeks).
+For each professor, you are given time availability schedule(assume week wise).
+Each student has a list of courses he wants to learn.
+There can be only 1:1 classes, i.e., 1 professor can teach only a single student.
+A student can attend only one course at a time.
+A professor has to finish teaching a course in a one go.
+Your aim is to prepare a schedule so that all courses are taught in the least time. I will appreciate if readers can answer their approaches in comments.

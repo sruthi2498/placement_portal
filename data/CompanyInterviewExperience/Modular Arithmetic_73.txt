@@ -1,0 +1,17 @@
+You are given an array of positive and/or negative integers and a value K . The task is to find count of all sub-arrays whose sum is divisible by K?
+Examples :
+
+A simple solution for this problem is to one by one calculate sum of all sub-arrays possible and check divisible by K. The time complexity for this approach will be O(n^2).
+An efficient solution is based on below observation.
+So if any sub-array sum from index i’th to j’th  is divisible by k then we can saya[0]+…a[i-1] (mod k) = a[0]+…+a[j] (mod k)
+The above explanation is provided by Ekta Goel.
+So we need to find such a pair of indices (i, j) that they satisfy the above condition. Here is the algorithm :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(n + k)
+Auxiliary Space : O(k)
+References :
+http://stackoverflow.com/questions/16605991/number-of-subarrays-divisible-by-k

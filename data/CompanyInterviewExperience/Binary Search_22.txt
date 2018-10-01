@@ -1,0 +1,15 @@
+There are two ways to do binary search in Java.
+Run on IDE
+Run on IDE
+What if input is not sorted?
+If input list is not sorted, the results are undefined.
+What if there are duplicates?
+If there are duplicates, there is no guarantee which one will be found.
+How does Collections.binarySearch work for LinkedList?
+This method runs in log(n) time for a “random access” list like ArrayList. If the specified list does not implement the RandomAccess interface and is large, this method will do an iterator-based binary search that performs O(n) link traversals and O(log n) element comparisons.
+What is significant value of negative value returned by both functions?
+The function returns an index of the search key, if it is contained in the array; otherwise, (-(insertion point) – 1). The insertion point is defined as the point at which the key would be inserted into the array: the index of the first element greater than the key, or a.length if all elements in the array are less than the specified key. Note that this guarantees that the return value will be >= 0 if and only if the key is found.
+How to implement our own Binary search in Java?
+Run on IDE
+Is there any function like lower_bound() or upper_bound() in C++ STL?
+There are no such functions in Java till Java 9.

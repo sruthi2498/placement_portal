@@ -1,0 +1,35 @@
+First of all, there is a 70%/7.5 cgpa above eligibility criteria in Tolexo. After this there is one aptitude test and 2 technical interviews + a basic introduction with HR. I got a profile of software developer.
+Round1(Aptitude Test): It includes 4 sections which includes General Apti (15 questions), Reasoning(15), Technical(20) and verbal(15). These questions have to be done in 75 minutes with no negative marking. The test was taken on mettl.
+Practice questions of seating arrangement for reasoning and there is a question in technical section on array address in 2-D array whose answer is 1064 always (it’s like soory avansham of mettl). There is sectional cut-off in Tolexo, they won’t tell you about it.
+After this round 14 candidates were shortlisted who were called for next round.
+Round 2(Technical Interview1):  It includes questions on your project (Android in my case). He asked me questions on Android like why did you use fragments over activity, draw an architecture of your app, how u can transfer data from one activity to another, use of intents, why did you use volley library in one of your project, have you published any of your app on play store which I hadn’t and that’s all about project. Then he asked me questions on DS which includes
+1. Write a code of creation of doubly link list
+2. Write a code for preorder traversal of binary tree (both recursive and iterative)
+3. Use of link list
+4. Use of doubly linked list
+5. Check for BST.
+All these codes have to be written on a sheet from header files to return 0.
+Then he asked me questions regarding OOPs, OS which includes
+1. Use of constructors
+2. When a constructor is called
+3. What happens if we make a copy constructor private ?
+4  Difference in assignment and initialization
+5. What is deadlock and how it occurs.
+6. Give ways to prevent deadlock
+7. Write a code where deadlock can occur
+8. Write code for semaphore
+9. What is broadcasting.
+That’s all for tech1 interview which took one and half hours.
+Round 3(Technical Interview2): This round took just 20 minutes in my case where as for my friends it took 1-11/2 hours. He first asked me a little introduction of mine and then asked me to write a code for bubble sort which I had written perfectly but then he asked me to optimize it. I wasn’t able to think about the solution in one go but the interviewers are so helpful and friendly, he will motivate you and give you hint to reach to the solution. So after 2-3 hints I finally got the solution after which he thanked me and said “now go enjoy”.
+I would like to thank geeksforgeeks and my seniors for this.
+I advise you to do projects in machine learning or big data or Hadoop as these are the hottest topics currently and maintain your cgpa/percentage above 70% or 7.5 cgpa to become eligible for all companies. Don’t focus on cgpa it is just for eligibility, it has nothing to do with your selection. First prepare your resume with projects and then do interview prep 4-5 months before campus placements.
+I also want to include all the links from where I prepared for my interviews
+http://quiz.geeksforgeeks.org/gate-cs-notes/ 
+http://quiz.geeksforgeeks.org/lmns/ 
+https://practice.geeksforgeeks.org/topic-tags
+https://www.geeksforgeeks.org/data-structures/ 
+https://www.geeksforgeeks.org/c/
+https://www.geeksforgeeks.org/c-plus-plus/
+http://quiz.geeksforgeeks.org/placements/ (for apti)
+https://www.youtube.com/channel/UCdU_1sJ8SHKVckw8cPUbcCg/playlists (for apti)
+It took 3 months for my whole interview preparation from geeksforgeeks though I have also done a lot of geeksforgeeks earlier in winter break for 2 months.  Thanks again geeksforgeeks for all of my interview prep.

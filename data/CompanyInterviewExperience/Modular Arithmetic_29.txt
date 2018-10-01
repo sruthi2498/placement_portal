@@ -1,0 +1,23 @@
+Given an array of N integers, using ‘+’ and ‘-‘ between the elements check if there is a way to form a sequence of numbers which evaluate to a number divisible by M
+Examples:
+
+A simple solution is to recursively consider all possible scenarios ie either use a ;+’ or a ‘-‘ operator between the elements and maintain a variable sum which stores the result.If this result is divisible by M then return true else return false
+Recursive implementation is as follows:
+Run on IDE
+There are overlapping subproblems as shown in the image below (Note: the image represents the recursion tree till index = 3)
+
+So, now we will solve this using dynamic programming
+Method 1:
+We apply Dynamic Programming with two states :-
+(i) index,
+(ii) sum
+So DP[index][sum] stores the current index we are at and sum stores the result of evaluation of the sequence formed till that index.
+Run on IDE
+The Complexity of this method is O(N*sum) where sum is the maximum possible sum for the sequence of integers and N is the number of elements in the array.
+Method 2(efficient):
+This is more efficient than Method 1. Here also, we apply Dynamic Programming but with two different states :-
+(i) index,
+(ii) modulo
+So DP[index][modulo] stores the modulus of the result of evaluation of the sequence formed till that index, with M.
+Run on IDE
+The Complexity of this method is O(N*M).

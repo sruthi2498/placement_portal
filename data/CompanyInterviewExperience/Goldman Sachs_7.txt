@@ -1,0 +1,17 @@
+Recently, Goldman Sachs conducted a set of tests in our college in order to select summer interns and I’ll try to note my experience in detail here to help others prepare 🙂
+Round 1: The first round was an Online Test conducted on the Hackerrank platform. It consisted of 18 multiple choice questions-8 from general Computer Science topics like time complexity analysis, syntax check and formal language and 10 questions on statistics and probability. Scoring: +10 for each correct answer, -2 for wrong answers.
+There was also one coding question of 20 marks. The question was as follows: We were given an array of strings which represented the names of cities and 2 more 1-D arrays which represented the x and y coordinates of the cities, in order (So city[0], x[0] and y[0] will have the complete information of the first city). Then we had to answer m queries where for each query we were given a city name and we had to return a city which either had x or y coordinate in common with the current city and had the shortest possible distance from that city. If multiple such cities existed, we had to return the lexicographically smallest one and in case no city had x or y common with the current city, we had to return “NONE”.
+Constraints: n (Number of cities) and m (number of queries)<=10^5
+Length of city name<=10
+All cities would have unique coordinates.
+I used a custom sorting approach and maintained 2 arrays (sort on basis of x-coordinate in one array and y-coordinate in the other, followed by lexicographical order) and then performed a binary search over the array to get the lexicographically smallest city. I had also used a Hashmap in order to quickly retrieve the city name from the coordinates.
+12 people were selected for further rounds.
+Round 2: The interviewer initially asked me to introduce myself for 5 minutes or so and then started asking me questions from my resume. I believe that since I had mentioned Java to be my primary language in my resume, the questions were primarily from that, some of which were:
+I was also asked basic questions on algorithms like:
+He ended the interview by again asking me basic questions like “Do you have any idea of how Goldman Sachs operates?”, “If you were to choose between Goldman Sachs and Microsoft, which one would you choose? Why?” and finally, the most predictable one, “Do you have any questions for me?”
+6 people were selected for the final round.
+Round 3: This round was fast-paced and revolved around algorithms and puzzles (well, a lot of puzzles). Some of them involved:
+Algorithms/Data Structures:
+Puzzles/probability: Well, I was extremely glad to have practiced the puzzles archive of GeeksForGeeks as the questions were mostly familiar to me (:P)
+The trick is to keep your calm and let the interviewer know what you are thinking in case you are stuck as he/she will definitely help you out!
+Finally, two people were selected from our college for the internship, one of which was me.

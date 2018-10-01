@@ -1,0 +1,3 @@
+Recently, we had Citrix written test in our campus. There was a 1 hr aptitude test & 1 hour coding round. The aptitude test had simple questions on c/cpp, Networking, OS etc. and some general quant aptitude questions.
+The coding round had 2 questions to be done in 1 hour.
+Q1: A matrix of 1s & 0s are given, you have to find no of groups of adjacent 1s. Adjacency was based on 8-connectedness. (Finding no of components in an undirected graph)

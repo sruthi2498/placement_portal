@@ -1,0 +1,57 @@
+Recently I appeared for Flipkart Interview. I would like to share my experience.
+
+Round-1: Telephonic (45 mins)
+—————————–
+1. Given an array of n distinct integers sorted in ascending order. Find an index i s.t ar[i] = i. Return -1 if no such index exists. Note that integers in array can be negative.
+2. Design a stack which holds an integer value such that getMinimum() function should return the minimum element in the stack.
+FOLLOW UP: Implement popMin() function which would pop minimum element from the original stack. O(1) implementation was required.(Hint: Use LinkedList to implement stack and store address of minimum element node in min-stack)
+3. Print an organisational hierarchy.
+Naveen manages Satish
+Satish manages Anushree
+Satish manages Sandeep
+Gurinder manages Naveen
+Gurinder->Naveen
+Naveen->Satish
+Satish->Anushree,Sandeep
+Anushree->
+Sandeep->
+Round-2: Telephonic (30 mins)
+—————————– 
+1. Given an array which is first strictly increasing and then strictly decreasing. Find an element in this array.Discussions on various approaches and their complexities. 
+After these two rounds, I was called for Face-2-Face discussions in Bangalore. There I had 4 rounds.
+
+Round-3: In-House Coding(1 Hour 45 mins)
+—————————————-
+Write a running code in any language to implement the famous tic-tac-toe game.
+First there was discussion on various approaches and basic functions which would be required to implement the same. Then I was asked to code.
+I was given 1 hour 15 mins to code this.I had to design this game as per following:
+          1) Game has 3 modes: Human Vs Human, Human Vs Computer and Computer Vs Computer.
+      	2) Initially start with 3X3 grid, but it can be generalised to NXN grid. So don’t hardcode any variable.
+      	3) Minimise Code Redundancy and try to make it as modular as posible.
+      	4) Try to use abstraction and expose lesser number of functions(APIs) to outside world.
+      	5) Try to cover maximum number of edge cases, like when to abort the game, draw condition, win condition, overwriting existing value in grid etc)
+After I wrote running code for the same, I was told to explain my code and then run with some test cases. Then he asked me to mail the code.
+
+Round-4: Data Structure and Problem Solving(1 Hour)
+—————————————————
+1. Given a sorted and rotated array. Find an element in this array.(Famous Problem)
+2. This was an interesting problem. Given a set of intervals like 5-10, 15-20, 25-40, 30-45, 50-100. Find the ith smallest number in these intervals.
+Assume there are no duplicate numbers. 
+I told him that we would first sort the interval on basis of starting numbers. Then merge overlapping intervals to get a set of non-overlapping intervals like 5-10, 15-20, 25-45, 50-100. Now we can find the ith smallest number after finding the appropriate interval.
+FOLLOW UP: He then modified this question to accomodate duplicate numbers also. 
+3. Given a dictionary of 50,000 words. Given a phrase without spaces, add spaces to make it a proper sentence.
+FOLLOW UP Questions:
+      	1) Worst case complexity of finding a word in HASHMAP given we have ‘B’ buckets and total of 50,000 words. ( Ans: O(50,000/B) )
+      	2) Complexity of finding a word in TRIE. (Ans: O(Word Length) )
+      	3) Advantages of TRIE over HASHMAP and some similar discussions.	
+Round-5: Hiring Manager Round(45 mins)
+————————————–
+He asked me lots of questions regarding my current company projects.
+Questions:
+      	1. My role in current project.
+      	2. Most Challenging work in your company.
+      	3. What technologies you learnt last year? and several similar questions.
+Round-6: HR Round (10 mins)
+—————————
+common HR questions like why Flipkart, Why should we hire you etc.
+

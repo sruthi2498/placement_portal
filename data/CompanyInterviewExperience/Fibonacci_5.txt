@@ -1,0 +1,49 @@
+Prerequisites: Generating Functions, Fibonacci Numbers, Methods to find Fibonacci numbers.
+The method of using Generating Functions to solve the famous and useful Fibonacci Numbers‘ recurrence has been discussed in this post.  
+The Generating Function is a powerful tool for solving a wide variety of mathematical problems, including counting problems. It is a formal power series. For example, in counting problems, we are often interested in finding the number of objects of size . In such a case, we define a power series, which, in simple terms is an infinite term polynomial where the coefficient of the  degree term is the  term of the sequence. This helps us to find many interesting and important results. It should be noted that in the use of generating functions, we generally use the coefficients in the generating function power series, we rarely use the variable in the series. In this post too, we shall do the same. The ordinary generating function of some an is: 
+
+Fibonacci Numbers are one of the fundamental sequences in mathematics, and numerous ways have been discovered to find out the higher order terms of this sequence. This post discusses one such method.
+Let’s first define a generating function for the Fibonacci Numbers, and then the function will be simplified to get a recurrence. Using this, expand the simplification and break it into partial fractions, and then use two standard power series, and later combine them both to arrive at surprising result for the  term of the Fibonacci Series.
+Let us define the generating function  as 
+
+,
+where  is the ith Fibonacci Number.
+Since, 
+ . 
+ .
+Rearranging them we get, 
+.
+Taking the common terms, 
+
+
+Simplifying it further, the below function is obtained. 
+ .
+Solving for , we get: 
+ .
+We get the below formula by above operations: 
+
+,
+where,  and  .
+Thus, 
+
+Also note that, 
+.
+Thus, keeping this relation in above expression, we get, 
+ .
+Now the right hand side of the above expression can be separated into partial fractions, 
+ .
+Using Expansion on the two fractions, 
+ .
+Similarly, 
+ .
+Thus,
+ .
+Thus, 
+ .
+Now, 
+, 
+and, 
+
+Using the above two facts, it can be safely concluded that the value of 
+, rounded to the nearest integer.
+Finding n-th Fibonacci number using Golden ratio is one of the applications of this formula. 

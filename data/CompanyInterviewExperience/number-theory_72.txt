@@ -1,0 +1,26 @@
+Given an odd number n, find the average of odd numbers from 1 to n.
+Examples:
+
+Method 1 We can calculate average by adding each odd numbers till n and then dividing sum by count.
+Below is the implementation of the approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2
+The average of odd numbers can find out only in single steps
+by using the following formula
+ [n + 1 ] / 2 
+where n is last odd number.
+How does this formula work?
+Below is the implementation of the approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,38 @@
+Hello geeks, Last month I appeared for the Internship Interview of Amazon.
+What my personal experience says is that never try to jump to the right solution straight-away, instead take your time and think progressively about the possible solution to the given problem.
+Check for boundary test-cases carefully and also don’t remain completely blank during your conversation with interviewer but keep on telling him about the tentative solutions that are coming to your mind.
+My entire process consists of 3 rounds:
+1. Online Round.
+2. 1st Telephonic Interview
+3. 2nd Telephonic Interview
+Round 1:
+It was an online round consisting of 20 Multiple Choice Questions (from C language, Operating Systems, Data Structures and Algorithms and Software Development Concepts) and 2 Coding Questions:
+1. Given 2 linked lists constructed another linked list containing the sum of those 2 linked lists. e.g Given :  1 -> 2 -> 3 and 4 -> 5 -> 6 Ans: 5 -> 7 -> 9
+2. Find the Vertical sum of the given Binary Tree.
+Round 2 (Telephonic):
+The duration of telephonic Conversation was about 60 minutes and the Interviewer asked me 2 coding questions:
+1. Given an array of +ve as well as -ve numbers, find out whether it is possible or not to convert it to 0 by adding/subtracting operations on all the elements.
+e.g arr[]={1,2,3}
+YES (1+2-3)
+arr[]={3,6,2}
+3+6-2 != 0
+3-6-2 !=0
+-3-6-2 !=0
+-3-6+2 !=0
+-3+6-2 !=0
+-3+6+2 !=0
+3-6+2 !=0
+3+6+2 !=0
+Hence ans= NO
+2. Given a binary Tree where the structure of each node contains an extra “next” pointer (initially all NULL), modify the binary tree such that all the nodes at the same level gets connected by utilizing these given extra pointers.
+The interviewer also asked me to write the code for the same.
+Round 2 (Telephonic):
+The duration of telephonic Conversation was about 90 minutes and the Interviewer asked me 2 coding questions:
+1. Write a code to find the Diameter of the given a binary tree
+Firstly I gave the solution which has complexity O(n^2) then he asked me to optimize it so finally I did it in O(n).
+2. Given a number design the algorithm to find the next greater number which contains exactly same digits. e.g. n= 123 next greater with same digits = 132
+The number can be very large so its better to consider it as a sequence of characters.
+I was also asked to write the code for the same.
+I had a very great time preparing for the interview and got to learn a lot of new concepts.
+I am really very thankful to GeeksForGeeks for being the primary source of my preparation and believe me guys this website is just awesome.
+And ya forgot to mention I finally got the confirmed offer for Internship at Amazon 😀 😛

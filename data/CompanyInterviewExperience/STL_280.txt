@@ -1,0 +1,21 @@
+Multisets are a type of associative containers similar to set, with an exception that multiple elements can have same values.
+This function is used to insert a new element into the multiset container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown
+2. Parameter should be of same type as that of the container, otherwise an error is thrown
+Run on IDE
+Output:
+Run on IDE
+Output:
+Application
+Input an empty multi set with the following numbers and order using emplace() function and find sum of elements.  The advantage of emplace() over insert is, it avoids unnecessary copy of object.
+Run on IDE
+Output :
+Time Complexity : O(logn)
+emplace() vs insert()
+When we use insert, we create an object and then insert it into the multiset. With emplace(), the object is constructed in-place.
+Run on IDE
+Output : 
+Please refer Inserting elements in std::map (insert, emplace and operator []) for details.

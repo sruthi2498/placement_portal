@@ -1,0 +1,11 @@
+Given a binary array sorted in non-increasing order, count the number of 1’s in it. 
+Examples: 
+A simple solution is to linearly traverse the array.  The time complexity of the simple solution is O(n).  We can use Binary Search to find count in O(Logn) time. The idea is to look for last occurrence of 1 using Binary Search. Once we find the index last occurrence, we return index + 1 as count.
+The following is the implementation of above idea. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Time complexity of the above solution is O(Logn)

@@ -1,0 +1,58 @@
+Round 1( written test 40 mins)
+Around 60 candidates were short listed for round 1 based on aggregate percentage and eamcet rank 
+BTech and IDP students were considered for developer role and Mtech/Msit students were considered for tester profile,
+Round 1 was written test which has 20 Mcqs based on C,DS,OS,CO&A,and Complexity Analysis, Both Tester and Developer profile had different papers for written test
+15 members(9 dev + 6 testers) were qualified for round 2
+the level of difficulty was medium-hard, conceptual clarity is must to crack the test
+Round 2 (Technical 1 hr 15mins)
+1. Given a string, write a function to check whether it represents a valid C variable or not
+2. Discussion on internship
+3. Discussion on Projects
+4. Difference between Malloc() and Calloc()
+5. Write a function to delete a Node in Bst
+6. Level order traversal of a Binary tree( without recursion)
+7. Application of mergeSort , what are the situations where mergeSort is preferred over Quicksort and Vice-Versa
+8  Implement Mergesort
+9  Find the Kth maximum element in an array
+I gave him a heap Based solution , when he asked for further optimization
+I gave him a solution which returns the index of Kth maximum element using partition method of quicksort ( QuickSelect) 
+10. What are Balanced Binary Search trees,? what are the different types of rotations in AVL tree
+11. What is Trie? its Node structure and implementation
+12. Detect and Remove loop in a Linked List
+13. Check whether given string is palindrome or not without using integers.
+Round 3 (Technical 1 hr)
+1. Given an array find all the elements which occur odd number of times
+when i gave him O(n) solution which uses extra space, he asked me to do it with constant space, then i gave him a solution using sorting 
+2. Delete all the nodes in linked list which are occurring more than twice
+3. Given a String and pattern Find the last occurrence of the pattern in the given string
+I have implemented naive pattern matching algorithm with a complexity of O(n*m), then he asked for further optimization, then I gave him a solution based on KMP algorithm for pattern matching
+4. Discussion on Memory allocation for a program, different areas of memory (stack,heap,read-only areas)
+5. Given a number ,find the set bits in a number using a recursive function.
+
+Round 4 (Technical + HR 1 hr)
+1. Discussion on internship
+2. Discussion about projects that i have mentioned in my resume
+3. what are integrity constraints? what is referential integrity?
+4.what language do u prefer C or Java ( as i have mentioned them in my resume)
+5. why did u take integrated dual degree programme
+6. why teradata?
+7. If you are given an  opportunity ,How long are you willing to work with teradata?
+8. Do u like to work as a Team or as an Individual
+9. how good are u at debugging?
+10. what will you do if you don’t get to learn new things from company
+11. where do u find yourself 5 years from now?
+
+Round 5 ( HR 15 mins)
+This is a telephonic Round
+1.Tell me about yourself
+2. Discussion about Bond
+3. Any plans about Higher studies?
+4. Any plans about going to Abroad?
+5. How confident are you that you will get this job?
+Finally 2 members(dev)  were hired
+Tips:
+1. Interviewers are very friendly and interactive, utilize the interaction to maximum
+2. Always take all the requirements before writing code and write clean code during tech interviews
+3 . Be patient and be positive
+4.  Be strong with fundamentals
+5.  Questions are mainly based on data structures and problem solving ability

@@ -1,0 +1,88 @@
+4 sections, no negative marking but they had sectional cut-off.
+ Section 1 (C, C++ ):
+ 15 questions.
+Mainly questions of type what will be output of following, type of error.(compile time or run time ,etc.) [Do pointers, pointer to functions and OOP concepts in detail]
+This section was quite easy.
+ Section 2 (Operating System):
+ 10 questions.
+Questions on deadlock, process scheduling, priority inversion , look-aside buffer memory, etc.
+This section wasn’t that easy…..
+Section 3 (Data Structures):
+ 8 questions.
+DSA questions on sorting, searching , graph traversal (BFS n DFS),Minimum spanning tree (Prim and Kruskal algo), Shortest path(Dijkstra’s algo).
+Time complexity related questions and applications of all above mentioned topics. No straight forward questions.
+Toughest section of apti.
+Section 4 (Quant):
+ 8 questions.
+Questions on probability, series , simple logic puzzles.
+Easiest section of apti.
+No. of people shortlisted after the aptitude test = 20
+3 questions were there out of which we had to solve only 2
+1. Implement stack (push and pop) operations using linked list.
+2. Find the first non-repeating character in a given string in O(n) time complexity.
+3. Given co-ordinates of two rectangles find co-ordinates of intersecting rectangle.
+No shortlist after this test.
+ROUND 1 (Technical Interview):
+Questions:
+1. Tell me about yourself
+2. What is your goal?
+3. Find whether no. is even or odd…(I gave mod2 solution)
+4. Then he asked about machine cycles required registers required ….what exactly happens at os level…….then drawbacks of all these….
+5. So asked to give another solution to do same….so I suggested (X &1)….
+6. He said still it require 1 extra register…. I gave another solution using shift operator
+7. What are sockets, pipes, inter-process communication?
+8. What is little endian and big endian?
+9. WAP to determine whether your system is little endian or big endian?
+10. Convert little endian to big endian in constant time.
+11. I asked what does nvidia exactly do in s/w development section?
+12. He asked to give my opinion …. I told they take diff OS n optimize them to work more efficiently (in terms of time and memory) with nvidia cards and GPUs.
+13. He said your guess is correct….and explained even more.
+They shortlisted 7 people from this round.
+ROUND 2 (Technical Interview):
+Questions:
+1. Volatile memory and volatile variables.
+2. Function pointers and one program to implement function pointer.
+3. Uses of function pointer…(I said to send a function as argument)….he asked more…(I told that I know only one)
+4. What is polymorphism? What is virtual function…? How will you implement if I tell you to develop compiler?
+I said, I will maintain a static table to store pointers of virtual functions for each class…so it can be accessed by all objects….and my call to virtual function will be converted as…..
+p->fun_ptr->fun()….where p is my pointer to object.(He said this is another use of function pointer)
+5. What is function template? Do you know what exactly happen when template is executed? If you don’t then tell how will you do that?
+6. What happens in recursive function calls? What are the drawbacks?
+7. What is process, Thread? What is multi-threading?
+8. Design data structure to implement multi-threading.
+9. Can you find maximum stack memory available using above data structure….I said….can be….and told how I will do that….(pure imagination it was)….he was impressed
+10. He was going too deep at OS level….mainly kernel part….how kernel manages all processes?
+11. Thread scheduling….difference between process and thread scheduling.
+12. Storage classes in C++….on which part of memory these variables are stored?
+13. What is malloc, calloc function?
+14. Memory allocation in struct? Why it is like that….why continuous memory is not allocated to struct variables?
+It is like that so the variable can be fetched in single machine cycle…else it may require more than one increasing processing time.
+15. Implement your own malloc function such that it will allocate memory of 16 bytes and starting address will always be divisible by 16…..was told to write code.
+16. What exactly happens as we free up dynamically allocated memory using free()
+I told OS allocate the block of memory to some other process.
+17. In class of 100 students there are 24 girls and 32 boys….no 3rd gender person…..
+I gave him confused look….and asked how it is possible…? He said that is the question…you tell me….and told me to write equation….
+I wrote on paper……32 + 24 = 100
+I got a spark ….and I said it is possible only if these are the numbers to base 6….
+He said,”Yes….you got it.”
+18. Asked about my code which I wrote in coding test…..he doubted on that….I proved it works for all test cases….showed him with some test cases.
+19. Again a puzzle… On my birthday party he was invited….so he took a rectangular cake for me….but on the way he was so hungry that he ate a rectangular piece of cake…..The cut piece can be of any size and orientation. I was only allowed to make one straight vertical cut so that I and my sister will get same amount of cake. My answer … In general, when a straight cut is made at any angle through the centre of a rectangle, the resulting pieces are always of equal area. So let’s consider our situation. What if we make a straight cut such that it passes through the centre of both the rectangles?
+ROUND 3 (HR Interview):
+Questions:
+1. How was the day?
+2. How was apti, coding test, and entire selection procedure?
+3. Asked me if I have brother and/or sister…then about parents.
+4. What does your father expect from you?
+I answered this in Marathi then translated to English.
+5. Asked about future studies…..why I want to work and not want to go for PG.
+6. Asked about my interests….
+7. Are you a good cook? Tell me your special items that other love to eat?
+8. Asked whether I have interest in sports…then we had discussion on badminton and gymnastics….He asked rules of badminton.
+9. Asked whether I follow news…..followed by long discussion on elections, Mr. Narendra Modi and his Gujrat.
+10. What is your goal? What you want to achieve?
+I said to do something technological breakthrough or want an algo on my name….then our discussion moved to NP-complete problems.
+The guy didn’t know anything about it….so started explaining him about NP-complete problems.
+11. More questions about family.
+12. Asked “Are you *******guy???” I didn’t know that word…I asked him what that word mean….He thought something….then seeing ring (Ruby) in my finger….He asked “Do you believe wearing this ring really helps you???”….
+I said “Yess”….as I wore it on that day only.
+13. Biggest achievement in your life? Why do you think it is bigger than others?

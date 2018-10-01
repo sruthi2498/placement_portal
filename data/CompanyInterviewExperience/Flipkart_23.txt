@@ -1,0 +1,15 @@
+Round 1:(Coding Round)
+First round was online coding round on HackerRank. It comprised of 3 coding questions and duration was 90 minutes. 2 questions were hard and 1 was medium in terms of difficulty. Efficient solution required to pass all the TCs.
+People who have done 1 question completely or 2 questions partially were selected for the interview.
+ 
+Each TR comprised of 3 algorithm/data structure questions. We had to give the efficient approach to all 3 questions in order to qualify for the next round.
+Round 2:(Interview Round: TR-1)
+1) There are N different class files which have a parent-child relationship between them. Identify an efficient order for the compilation of those class files such that parent is compiled before all its childs. (Application of Topological Sorting of a Graph)
+2)
+https://www.geeksforgeeks.org/topological-sorting/
+3) A question that has to be reduced to the minimum number of steps required to reach end problem with DP approach.
+https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+Round 3: (Interview Round: TR-2)
+
+1) There are N teams and each team consists of 3 people. Each person’s height is given for all the teams. We have to place teams one behind the other such that each person in the back team is visible from the beginning. Find the maximum number of teams that can be arranged in such an order ?
+2) A binary matrix is given. 0 represent a block and 1 represents empty cell. We need identify minimum number of steps to reach from first column of matrix to last column of matrix.

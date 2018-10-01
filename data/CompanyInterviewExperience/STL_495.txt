@@ -1,0 +1,12 @@
+Searches the range [first, last) for the first occurrence of two consecutive elements that match, and returns an iterator to the first of these two elements, or last if no such pair is found. Elements are compared using the given binary predicate p or using ==.
+There are two possible implementations of the function as given below:
+Example :
+Given a sorted array of n elements containing all unique elements but one, the task is to find the repeating element in the array.
+Examples:
+We have discussed this problem with other approaches here.
+Run on IDE
+Output:
+Example:
+Given a container of size n, and a range between [0 … n], write a program to check if it is sorted in ascending order or not. Equal values are allowed in array and two consecutive equal values are considered sorted.
+Run on IDE
+Output:

@@ -1,0 +1,27 @@
+Find the number of negative numbers in a column-wise / row-wise sorted matrix M[][]. Suppose M has n rows and m columns.
+Example:
+We strongly recommend you to minimize your browser and try this yourself first.
+Naive Solution
+Here’s a naive, non-optimal solution.
+We start from the top left corner and count the number of negative numbers one by one, from left to right and top to bottom.
+With the given example:
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output  : 
+In this approach we are traversing through the all the elements and therefore, in the worst case scenario (when all numbers are negative in the matrix), this takes O(n * m) time.
+ 
+Optimal Solution
+Here’s a more efficient solution:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output  : 
+With this solution, we can now solve this problem in O(n + m) time.
+ 

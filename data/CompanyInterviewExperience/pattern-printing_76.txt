@@ -1,0 +1,13 @@
+Given a positive integer n. The problem is to print the pyramid pattern as described in the examples below.
+Examples:
+Source: Amdocs Interview Experience | Set 1
+
+Approach: For odd number row, values are being displayed in increasing order and for even number row, values are being displayed in decreasing order. The only other trick is to how to iterate the loops.
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O((n * (n + 1)) / 2)

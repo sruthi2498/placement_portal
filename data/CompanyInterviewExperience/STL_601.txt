@@ -1,0 +1,11 @@
+A bitset is an array of bool but each Boolean value is not stored separately instead bitset optimizes the space such that each bool takes 1 bit space only, so space taken by bitset bs is less than that of bool bs[N] and vector bs(N). However, a limitation of bitset is, N must be known at compile time, i.e., a constant (this limitation is not there with vector and dynamic array)
+    As bitset stores the same information in compressed manner the operation on bitset are faster than that of array and vector. We can access each bit of bitset individually with help of array indexing operator [] that is bs[3] shows bit at index 3 of bitset bs just like a simple array. Remember bitset starts its indexing backward that is for 10110, 0 are at 0th and 3rd indices whereas 1 are at 1st 2nd and 4th indices.
+         We can construct a bitset using integer number as well as binary string via constructors which is shown in below code.  The size of bitset is fixed at compile time that is, it can’t be changed at runtime.
+    The main function defined for bitset class are operator [], count, size, set, reset and many more they are explained in below code –
+Run on IDE
+Output :
+For bitset  set, reset and flip function are defined. Set function sets (1) all bits of bitset if no argument is provided otherwise it sets the bit whose position is given as argument. In same way reset and flip also work if they are called with no argument they perform their operation on whole bitset and if some position is provided as argument then they perform operation at that position only.
+For bitset all bitwise operator are overloaded that is they can be applied to bitset directly without any casting or conversion, main overloaded operator are &, |, ==, != and shifting operator <> which makes operation on bitset easy.
+ Use of above operator is shown in below code.
+Run on IDE
+Output :

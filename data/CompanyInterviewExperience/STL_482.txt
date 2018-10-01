@@ -1,0 +1,6 @@
+The function is defined in Defined in header <algorithm>. It rotates the order of the elements in the range [first,last], in such a way that the element pointed by middle becomes the new first element.
+Function Template :
+Types of Rotations
+Examples:
+Run on IDE
+Output:

@@ -1,0 +1,16 @@
+You are given two integer numbers, the base a (number of digits d, such that 1 <= d <= 1000) and the index b (0 <= b <= 922*10^15). You have to find the last digit of a^b.
+Examples:
+
+After taking few examples, we can notice below pattern.
+In the given table, we can see that maximum length for cycle repetition is 4.
+Example:  2*2 = 4*2 = 8*2 = 16*2 = 32 last digit in 32 is 2 that means after multiplying 4 times digit repeat itself. So the algorithm is very simple .
+Source : Brilliants.org
+Algorithm :
+Below is the implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

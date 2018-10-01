@@ -1,0 +1,12 @@
+transform_inclusive_scan() is inbuilt function in C++ and its same as inclusive_scan(), except a unary function which is first applied to each input item.
+Its functionality is to transform each and every element between first and last with unary_op then computes an inclusive prefix sum operation by the help of binary_op with a specific range. An inclusive  defined the i-th input element is included in the i-th sum operation.
+We can take an optional init(initial values)and writes the results to the range beginning at d_first.  
+Syntax:
+Parameters Used:
+Type requirements:
+Return Values: An iterator to the element past the last element written.
+Note: An unary_op is optional in this function and not applied to init. Actually, the init parameter appears at last.
+Following is the implementation of above problem.
+Run on IDE
+Output:
+Note: Above program may not run on many IDE’s.

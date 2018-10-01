@@ -1,0 +1,55 @@
+I attended TCS Codevita 2018 Interview this year at Gitanjali park, Kolkata and fortunately got through. Much credit goes to my super-friendly interviewerers. I can walk you through it. Below goes a summary of that Interview -(let’s call the 2 Interviewers I1 & I2)
+I1 : Please have a sit Goutam.
+[Wished them Good afternoon and sat]
+I1 : So tell me something about yourself.
+[Was ready with this answer but was super nervous since it was my first job interview]
+I1 : (immediately sensing my panic in my introduction) are you nervous?
+Me : A bit sir since this is my first job interview. (With a smile)
+I2 : Don’t be nervous we’ll give you ample opportunities to prove yourself.
+I2 : So you told you worked with Incident Management in your TCS Internship can you draw the Incident cycle?
+[Damn, I read the whole ITIL documentation but carelessly neglected this thing. However I kind of drew what I remember and confidently explained them what I drew and also told them I might be missing some states but these are the primary ones. They nodded and some questions followed regarding it, I answered them all]
+I1 : So what languages you use generally?
+[Now I knew many apart from C, C++ and Java like python, JavaScript and others but there was the need of presence of mind. Only mention those whose top to bottom is known theoretically along with implementation of data structures using them]
+So I told them sir I use C++ in competitive programming for the robust STL library support that I get and otherwise I know C and Java.
+I1 : Since you mentioned OOPs as a subject in your CV. Can you explain encapsulation?
+Me : Told them a simplified version of Encapsulation like Encapsulation is wrapping up data as a single unit for protection of data from outside sources… (bla something like that). Then tried to explain them with an example of car and it’s gear mechanism that user can only use it but cannot change from outside. User doesn’t know it’s proper implementation.
+I1 : can you explain with code?
+Me : Implemented Getter and setter function in my class of java.
+[They were satisfied]
+I1 : Do you know what is constructor?
+[Told them]
+I1 : What is the return type of a constructor?
+Me : (trying to figure out what he’s implying it can be any from int to float then suddenly understanding the intentionally misleading question) Constructor doesn’t have any return type sir.(with a smile)
+[He with a smile corrected my partially correct answer]
+I1 : Coming back to your Codevita performance. You said you solved only one problem why is that?
+Me : Sir, there were too many maths problem only one problem from ad-hoc which I did. (Quickly explained them what I did getting the chance to explain them)
+I2 : (sarcastically) so you said you couldn’t solve because there were maths problem. Why you don’t like maths? You also said in your introduction that you are too adaptative and a quick learner as strength. Then why only one problem?
+Me : (confidently with a smile) no sir, maths in school and maths in competitive programming are two different things I believe. Solving a differentiation problem in maths is comparatively easy but solving a competitive coding problem needs months of practice for a skilled coder. And right now my focus were into more algorithmic paradigms like Dynamic programming, Backtracking, etc so I was not ready for maths kind of problems however I did figure that I need to quickly dive into that section.
+[Satisfied][followed some more questions regarding my second web development internship]
+I2 : So Goutam where do you see yourself in the next 5 years?
+Me : (ready for this kind of question) Sir, I see myself as a lead developer in a renowned MNC like TCS with enough knowledge that my organisation seeks from me to fulfill my responsibilities expected.
+I2 : (suddenly) why lead developer why not an independent developer?
+Me : (trying to tackle this sudden attack) because I find enough leadership skills in myself.
+I2 : can you explain an incident where you found leadership skills in you?
+Me : (somewhat confidence broken) yes sir, I was the team lead/spokesperson while my internship in TCS. I successfully led my team and completed the project assigned with an ‘A’ grade.
+[Sensing my nervousness, the HR grill started]
+I2 : what are the qualities of a good leader?
+Me : (sensing things going out of hand due to my nervousness) sir, a good leader should always be with the team, look where the team is lacking on an individual basis and also do what is needed to mend that.
+I1 : (with a grin) so Goutam let’s say there’s a situation where you are the leader and the project under you completely fails due to a single person who was incompetent. What would you tell to your immediate supervisor would you point him out?
+Me :(completely sensing the grave I’m digging myself into. So tried to neutralise the situation.) Sir, I would try to recover the project as far as possible at first and then try to figure out what went wrong in him. If it’s his incompetency ofcourse I would point him out that this guy needs remedial but the failure will be an equal responsibility of the whole team as we’re here as a team. (Smiling which is now totally fake and intense tension building inside)
+I1 : (getting an added thing to grill) so you said failure is an equal responsibility of all that goes for success too? I mean if somebody outperforms in your team he won’t get the credit?
+[Now totally carefree as I was done with enough grilling, confidently]
+Me : Sir, I firmly believe Success is a sweet to be distributed among all. So yes, it will be a joint celebration as a Team(focussing on the last word). Having said that, the man of the match always gets his due credit that’ll be ensured. (Full smile)
+[A full smile on the other side too]
+[Some more questions from I2 regarding hobbies taken care of]
+[Formality questions like do you have any questions for us]
+I1 : Thank you for coming to TCS Goutam it was really nice talking to you. (Extends hand for shaking)
+[I2 does same. Done and dusted!]
+[They will make you sit for sometime after that and then if you’re selected they’ll call for document verification and elaborate the Service agreement. I was rebuked for not carrying originals. Avoid repetition of this mistake.]
+Cheers!
+Key takeaways :
+1. Confidence is what they were testing. How you do in a stressful situation was their point of observation. So whatever happens a relaxed answer with a smile will be rewarded.
+2. Be ready with basic technical questions. A wrong answer doesn’t count detrimental.
+3. Presence of mind. Refrain from providing information that you can’t explain suitably like “my leadership skill”.
+So all the best!
+In case we don’t know each other. I’m Goutam Bose, from Institute of Engineering and Management, Kolkata, 2019 passout batch CSE 🙂

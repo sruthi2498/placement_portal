@@ -1,0 +1,68 @@
+Intuit had visited our campus for recruting 2016 batch students for internship + FTE for Devops profile. We had four rounds.
+Round one :
+Online exam on hacker earth platform.
+20 MCQ questions 5 marks each.
+3 coding questions 100 marks each.
+MCQ questions were technical questions and logical questions. Technical questions were on cn,data structures ,algorithms.
+There were three coding questions.
+1) A girl is standing on matrix of size m*n . She is standing at the position (1,1). There are cards on which numbers are written . For example on top of card we have value A = 4 and on bottom B= 6. Then the girl has to move to a point ((x+A),(y+B)) from her position (x,y).She is not supposed to croos the boundaries of matrices . She throws away a card when she cant make further moves with it. And pics up the next card. We are supposed to find out number of jumps she made untill all cards are completed.
+output:
+single integer value giving number of jumps.
+2) Splendid matrix question.
+A matrix having numbers in a particular form was given . Analyzing those matrices we were supposed to understand the trick of creating those matrices.The splendid matrices foe values on n = 1,2,3 is given below. Its a 2^n * 2^n matrix. Given value of n we should
+generate 2^n * 2^n matrix.
+input : number of test cases, value of n and queries.
+the queries would be : 1) to find out at which index does the given number is present.
+2) given the index value i and j find out the number at that index.
+output: number or index values based on the queries.
+marks:100
+3) Navi is a counter strike pro. He always say how good he is at counter strike. After being tired of Navi, his friends decided to test his skills at shooting. They put M targets on a X-Y plane, each target is denoted by (X, Y) where X is x-coordinate and Y is – y-coordinate. His friends also gave him N locations on X-Y plane from where Navi can shoot the targets. Navi knows that he can shoot a target if Manhattan distance between his location and target is ? D. If Navi can shoot more than half of the targets (for odd values of M check only for the integral part of half of M, say M = 3, 3/2 = 1) only then his friends believe that he is a pro at counter strike
+otherwise he is not.
+Input :
+First line of input contains an integers T denoting the number of test cases. First line of each test case consists of three
+integers N, M and D separated by a space. Next N lines of each test case contains a pair of integers denoting the X -co-ordinate
+and Y – co-ordinate. Next M lines of each test case contains a pair of integers denoting X -co-ordinate and Y – co-ordinate of
+each of the target.
+N is number of shooting locations for Navi.
+M is number of targets.
+D is shooting range of Navi.
+Output:
+For each test case , Print “YES” if he is a pro else “NO” (without quotes) .
+Based on the reults of round one 12 students were shortlisted for second round.
+Round 2:
+Technical round
+
+Introduction to Devops profile.
+Questions:
+1) Tell me about yourself.
+2) Technical Interests,hobbies.
+3) Why computer science? What is its importance ?
+3) Deep discussion on my projects.How i implemented,What problems i faced,what technologies were used,etc. Prepare well on your projects because they expect you to know everything related to the project.
+4) Scenarios were given and asked to give solutions for them . for e.g: It requiries 1 second to retrieve 1 gb data from a database. Now you fill the databse with 10GB data . It takes 3 seconds. What technology u will use to reduce that 3 to one second even to retrive 10GB data.
+5) Questions relatd to skills u mention in the resume. I had mentioned about cisco packet tracer so they asked questions related to that.
+Round 3:
+Technical round:
+
+1) Tell me about youself.
+2) What is cloud ?
+3) What is Big data?
+4) Difference between cloud and bog data?
+4) Bankers algorithm.
+5) TCP protocol – the three way handshake
+6) Deleting an intermediate node in a linked list
+7) Quicksort algorithm
+Round 4:
+HR round:
+Introduction to Devops.How they work and what they work on ? .They explained everything related to Devops profile.
+1) Tell me about yourself.
+2) What are your strengths ?
+3) What are your hobbies?
+4) Since they came for Devops , they were testing trouble shooting capability of all students.
+&nbap;&nbap;&nbap;&nbap;&nbap; a) If you search for bluetooth in google and it gives result for television ,what will you do ?
+&nbap;&nbap;&nbap;&nbap;&nbap; b) When you are trying to open a website and you get some other unexpected website like a fake website ,what will you do?
+&nbap;&nbap;&nbap;&nbap;&nbap; c) You are in your house connecting the speakers to the telivison to watch a movie. But you find that you cant hear any sound. So how
+will you find out the problem and rectify it?
+5) Some questions related to project.
+6) How you will use the technologies you have studied untill now to help the devops team ?
+7) How will you see yourself after 3 years?
+8) What is your approach towards learning about any new technology ?

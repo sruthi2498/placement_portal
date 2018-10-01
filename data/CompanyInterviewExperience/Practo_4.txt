@@ -1,0 +1,24 @@
+There were total 3 rounds.
+
+First Round: It was online coding round, conducted through hackerrank. There were total 6 questions, in which every type of question was there(easy, medium,hard), no need to attend all question I did 2 submission successfully and got selected for next round.
+Note: for clear first round practice program from hacker rank website.
+1. Frog Racing
+2. Chocolate cut into 1X1 size
+3. how many character should be added to make string palindrom.
+4. Music play list
+5. given a number A find the smallest number B . such that AXB in contain 4 and 0 only, zero must not appear before any 4. for ex:- 4440000 is valid but 404004 is not valid.
+Second Round: It was a designing round
+In this round we have to make a design of app we need to tell how we make that app following all aspects.
+We have to design a cricket app, in which we need to show all running matches, how many member playing in each team, their record, strike rate, required run rate , ball by ball record each and everything.  We have to visualize how app will look, what extra option you want to add etc.
+
+Third Round:
+It was technical round, question were asked from coding, sql,os,ds, some puzzles, project.
+1. Describe you project
+2. write a code to check if two given string are anagram or not .
+3. By tossing a coin we can get either head or tail, i have a function toss() which return head or tail with equal probability.
+You have to write a function for dice which will return number from 1-6 with equal probability.
+constraints : you can not use random function, you can use only toss function.
+4. Write a query to fetch duplicate email from table, 
+5. find second max value from a total column.
+6. Mango, Apple, mixed puzzle
+and many more….

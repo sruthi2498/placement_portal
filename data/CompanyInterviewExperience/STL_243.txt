@@ -1,0 +1,6 @@
+Write a function to count number of smaller elements on right of each element in an array. Given an unsorted array arr[] of distinct integers, construct another array countSmaller[] such that countSmaller[i] contains count of smaller elements on right side of each element arr[i] in array.
+Examples:
+In this post an easy implementation of https://www.geeksforgeeks.org/count-smaller-elements-on-right-side/ is discussed.
+Create an empty Set in C++ STL (Note that Set in C++ STL is implemented Self Balancing Binary Search Tree).    
+Run on IDE
+Note that the above implementation takes worst case time complexity O(n^2) as the worst case time complexity of distance function is O(n) but the above implementation is very simple and works better than naive algorithm in average case.

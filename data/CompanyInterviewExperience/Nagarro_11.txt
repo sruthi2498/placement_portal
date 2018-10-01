@@ -1,0 +1,22 @@
+Nagarro came to our campus for their placement drive. They took the written test in the campus and called the shortlisted candidates to their Gurgaon office. 
+Round 1(a): Written test consisted of quant and logical aptitude questions (geometry, trigonometry, pie chart etc). The questions were ranging from easy to average. What really matters in this round is your speed to solve the questions. Very few people were able to solve all the questions. It had negative marking too. Practice from RS Aggarwal.
+Round 1(b): C-programming MCQ questions, though most questions were easy, there were few tricky ones as well, macro, pointers, inbuilt functions, errors etc.
+Then, there were coding test, followed by technical interview and HR interview.
+Round 2: Coding Test-
+1. Check if binary conversion of given number is palindrome or not. Ex: 6 (0110) is palindrome.
+I used a recursive function for binary conversion and then check for palindrome using a loop. Refrain from using inbuilt functions as they wanna check your logic. O(n) time complexity.
+2. Separate 0’s and 1’s in that order from a array of only 0’s and 1’s.
+I used partition algorithm (Quick Sort) to do the same. O(n) time complexity. 
+3. One Sentence (string) is given. find out the words, that has length even and greater than equal to 4 (e.g. 4,6,8.. etc.) and separate them with space.
+e.g. Given String : “abcd abc abcde abcdef”
+Output: “ab cd abc abcde abc def”
+I allocated a new string dynamically, and used two for loops to copy one string to another, adding a space at the middle of the word where word length was >=4 and even.  O(n^2) time complexity.
+It seems easy but it isn’t. I got to know that this can be minimized to O(n) time complexity in the next round.
+Practice all types of array and string questions.
+Round 3: Technical Interview-
+He asked me to explain the code I had written in the coding round. Asked to minimize the time and space complexities. Gave extensions to the above programs.
+Also, he asked about my projects, discussed my resume.
+Round 4: HR interview:
+This is a formality. You won’t be rejected unless you make a blunder during the interview. The interviewer will mark you on various skills which you filled in the form before the 2nd round and check that you filled the form seriously or not.
+All the best.
+

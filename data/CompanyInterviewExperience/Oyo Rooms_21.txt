@@ -1,0 +1,37 @@
+This was my experience in the hiring drive in Gurgaon in January 2018. Around 20-30 people showed up.
+Round 1: Written Round
+A paper was given on which the code had to be submitted for the give questions. No time constraint.
+Q1 – Given a binary tree, where every node value is a Digit from 1-9 .Find the sum of all the numbers which are formed from root to leaf paths.
+https://www.geeksforgeeks.org/sum-numbers-formed-root-leaf-paths/
+Q2 – You are given an unsorted array with both positive and negative elements. You have to find the smallest positive number missing from the array
+https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/
+ 
+Round 2: DSA & Design Interview
+Resume based questions on previous company, little bit about projects
+Q1 – Design Twitter. 4 services : follow, unfollow, post a tweet, get feed. All services need to be scalable for a large userbase with low latency and handle high concurrency.
+Q2 – You are at ground level. You can take 1 step or 2 steps. Find the minimum number of steps required to reach level N.
+Q3 – Given a infinite 2-D matrix, find the minimum number of moves it will take to move from (x1.y1) to (x2, y2) if you are allowed to move in all 8 directions.
+ 
+Round 3: DSA  Round
+Discussion on solutions given in 1st round. Optimisations if possible.
+Projects related questions – most challenging product, why a particular technique used etc..
+Q1 – Duplicate a Stack without using extra space.
+Q2 – Given a string containing open & closed parenthesis, find the minimum number of swaps required to make it a valid parenthesis string. If not possible, return -1.
+Q3 – Find the length of the longest increasing subsequence in an array of integers.
+ 
+Round 4: DSA  Round
+Why job change etc..?
+Q1 – There are 3 buckets with any number of balls in each of them. You can double the number of balls in a particular bucket by pulling the required number of balls from another bucket. Using only this operation,  tell whether for a given starting configuration if it is possible to equalise the number of balls in all the three baskets.
+Q2 – A linked list contains integers which are sorted based on their absolute values. Sort the linked list based on their actual values.
+Q3 – Theoretical : What is deadlock, give example? What is multi-threading?
+Q4 – Given 4 tables – Movies, Cities, Venues, Box Office. Write a sql query to fetch all the venues of a particular movies in a particular city ( PS – it was ‘Padmavaat’ !! )
+ 
+Round 5: DSA /Design/ Managerial Round
+Previous job experiences related..
+Why Oyo? Any new ideas?
+Changes in any technology that you use?
+Q1 – An array of integers contains positive numbers which point it to the next index. For eg A : 2 3 4 2. Each number at index represents a link to the index it points to. Find if a loop exists in such a representation
+Q2 – What all parameters will decide the number of elevators in a building.
+Q3 – Design an elevator system for a building.
+Behavioral Questions..
+ 

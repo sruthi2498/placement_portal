@@ -1,0 +1,21 @@
+ Techincal Round 1 :  
+Q1) Given a linked list in ascending order. Reverse the linked list and also skip the Fibonacci numbers while reversing. Dont use extra memory. Manipulate the pointers.
+Q2) Given a string, compute all possible palindromes in the string. Return the length and starting index of biggest palindrome substring.
+Q3) Print all possible permutations of {11,12,13,14,15}
+Q4) Write your own String datatype in class. Use parameterized constructors, plain constructors, and also write functions to return length and compare strings.
+Q5) Write a function in a class to return an instance if it doesn’t exist. If an instance already exists return that instance. Overall a class should have only 1 object/instance
+ Technical Round 2 :
+Q1) Best data structure to implement Dictionary and why ?
+Q2) AVL Tree Insert Function and other Utility Functions.  Link :  AVL Tree | Set 1 (Insertion) 
+Q3) Basics about SHA 256 Encryption. Lets assume the Server (Client Server Paradigm) receives encrypted content from Client. What is process we undertake ? 
+Q4) A puzzle to connect a 3*3 dot matrix with 4 lines and without lifting your hands.
+ Technical Round 3 :
+Q1) Delete a node in a Linked List. You are given the pointer to the Node to be deleted directly and not the Head of the Linked List. Link :  Given only a pointer/reference to a node to be deleted in a singly linked list, how do you delete it? 
+Q2) Given two Strings S1 and S2. Check if S2 is a rotated version of S1. You are allowed to use IsSubstr(Src, Dest) only once. Link :  A Program to check if strings are rotations of each other or not 
+Q3) Count the number of occurrences of a substring in a string. (Time Efficient : Hashing; Space Efficient : Iterative String search). Link :  Count distinct occurrences as a subsequence 
+Q4) JVM, ByteCode, Compiler, Linker, Machine Code, Stack Diagrams for Recursive Function, Memory Layout of C Programs. Link :  Memory Layout of C Programs 
+ HR Interview :
+Basic Questions about your ambitions, your hobbies, higher education plans, etc.
+
+
+

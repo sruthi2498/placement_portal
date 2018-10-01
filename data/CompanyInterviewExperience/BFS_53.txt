@@ -1,0 +1,10 @@
+Given a directed graph where every edge has weight as either 1 or 2, find the shortest path from a given source vertex ‘s’ to a given destination vertex ‘t’. Expected time complexity is O(V+E).
+A Simple Solution is to use Dijkstra’s shortest path algorithm, we can get a shortest path in O(E + VLogV) time. 
+How to do it in O(V+E) time? The idea is to use BFS. One important observation about BFS is, the path used in BFS always has least number of edges between any two vertices. So if all edges are of same weight, we can use BFS to find the shortest path. For this problem, we can modify the graph and split all edges of weight 2 into two edges of weight 1 each. In the modified graph, we can use BFS to find the shortest path.
+How many new intermediate vertices are needed? We need to add a new intermediate vertex for every source vertex.  The reason is simple, if we add a intermediate vertex x between u and v and if we add same vertex between y and z, then new paths u to z and y to v are added to graph which might have note been there in original graph. Therefore in a graph with V vertices, we need V extra vertices.
+Below is C++ implementation of above idea.  In the below implementation 2*V vertices are created in a graph and for every edge (u, v), we split it into two edges (u, u+V) and (u+V, w). This way we make sure that a different intermediate vertex is added for every source vertex.
+
+Run on IDE
+Run on IDE
+
+How is this approach O(V+E)? In worst case, all edges are of weight 2 and we need to do O(E) operations to split all edges and 2V vertices, so the time complexity becomes O(E) + O(V+E) which is O(V+E).

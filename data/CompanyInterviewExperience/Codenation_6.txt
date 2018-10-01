@@ -1,0 +1,20 @@
+There was 1 coding round (Codagon hosted on Hackerrank) and 4 interview rounds.
+At first, you have to appear in coding contest Codagon. After that, there were interview rounds.
+First round –
+30 min – Interviewer asked me about my projects and internship. No coding. It was a healthy discussion. He was asking related questions.
+Second round
+1 hr – Interviewer gave me 2 coding questions.
+1. Given a binary string find the number of continuous 1’s when k flips are allowed.
+flips meaning you can change a 1 to 0 or 0 to 1.
+2. Given a graph with n nodes and n-1 edges. Given that when you are at a node you choose to visit each of its children with equal probability and each edge has a length of 1. What is the expected length of total journey you can make?
+E(X) = (for_all_possible_x) P(x)*x
+I discussed the approach and complexity with him. Then I had to code the solution. I solved both the problems.
+Third round 
+1 hr – Interviewer asked me about my projects and open source contributions. He also asked several questions related to my work. Then he gave me a problem statement if you have access to all the android phones and say you can access all the APIs and gather all the data from those phones. Now you have to help a telecom operator like Airtel. You have to suggest all the ways to help the telecom operator improve their performance/bring new cool features. For a simple example, if you notice that in some region signal strength is low so you can report it to the telecom operator. I had to discuss those approaches and how to design them (provided it is feasible). So, overall it was design/critical thinking question. No coding.
+Fourth round
+30 min – It was an HR round with the CEO. He asked me why do you want to join this company. What was the toughest problem you have faced and a little bit about my projects.
+This process (excluding first coding contest) took 10 days.
+Got the offer. 🙂                                        
+
+
+

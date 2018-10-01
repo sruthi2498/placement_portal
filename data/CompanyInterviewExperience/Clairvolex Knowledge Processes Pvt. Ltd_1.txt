@@ -1,0 +1,39 @@
+Clairvolex Knowledge Processes Pvt. Ltd had visited our campus for the first time and their recruitment process was as follows :-
+First Round (Aptitude Test) :-
+Mode : Pen & Paper
+Total questions : 50 MCQ’s
+Time limit : 45 minutes
+Sections : 2
+First section was based on Verbal Ability, it comprised of 30 questions.
+Fairly simple questions were asked based on proper usage of words, synonyms, antonyms etc.
+Second section was based on Logical Reasoning and Aptitude, it comprised of 20 questions which were easily solvable in the stipulated time period.
+Second Round (Technical Test) :-
+Mode : Pen & Paper
+Total questions : 10
+Time limit : 45 minutes
+Sections : 2
+First section had 2 subjective questions.
+Q1) In many applications, 10% of the total data is used 90% of the time. Which data structure will be used for designing such applications? Justify your answer.
+A) Splay Trees. Give proper description about the working of splay trees and also give an example where it could be used for clarity.
+For e.g. In many hospitals, medical records of very few patients are accessed quite frequently.
+Q2) Person A wants to send an attachment to person B using a mail service. The networking model used is the OSI model. Discuss the functions of each layer involved in this process.
+A) In-depth understanding of all the 7 layers is required and you need to describe the basic functionalities of each layer in short pertaining to the scenario.
+Second section had 8 MCQ questions based on various concepts in Operating Systems namely paging, disks, caches etc and Computer Networks namely working of OSI model, routing etc.
+Third Round (Group Discussion) :-
+Topic : Should privatization be allowed in our government?
+Shortly after the group discussion’s were wrapped up, the short-list was announced and I was among the 26 students who were selected for the interview process.
+Fourth Round (Telephonic Technical Interview) :-
+I was asked questions regarding my technical test as the interviewer wasn’t informed about my answers in the technical test. I explained him my approach and he was pretty satisfied with my answers. He asked me about my favourite subjects to which I answered Operating Systems and Computer Networks.
+He asked the following questions regarding Operating Systems:-
+1) What Is Belady’s Anomaly?
+2) What is virtual memory?
+3) What is paging and segmentation? What is the difference between them?
+4) How to decide upon a page size in paging? Is the page size fixed for all processes?
+5) Are all segments of the same size in a segmented implementation?
+6) What is TLB and why is it used?
+He asked the following questions regarding Computer Networks:-
+1) Describe the functions of the 7 layers of the OSI model.
+2) Differentiate between OSI model and TCP/IP model.
+3) What is packet switching and circuit switching?
+Note :  Make sure that your fundamentals are strong in the core areas of Computer Science and you can sail through the recruitment process without much hassle 😀
+

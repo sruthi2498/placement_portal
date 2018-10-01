@@ -1,0 +1,10 @@
+std::next returns an iterator pointing to the element after being advanced by certain no. of positions. It is defined inside the header file .
+It does not modify its arguments and returns a copy of the argument advanced by the specified amount. If it is a random-access iterator, the function uses just once operator + or operator – for advancing. Otherwise, the function uses repeatedly the increase or decrease operator (operator ++ or operator –) on the copied iterator until n elements have been advanced.
+Syntax:
+Run on IDE
+Output:
+How can it be helpful ?
+Run on IDE
+Output:
+Explanation: Here, just look how if we want copy only a selected portion of the list, then we can make use of std::next, as otherwise we cannot use any +=, -= operators with bidirectional iterators supported by lists. So, we used std::next and directly advanced the iterator by three positions.
+

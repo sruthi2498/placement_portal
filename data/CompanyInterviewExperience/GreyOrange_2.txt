@@ -1,0 +1,32 @@
+There were 5 rounds. 2 coding and 3 interviews.  Both coding rounds on hackerrank platform:
+First Coding round :
+    1) A matrix containing 0’s and 1’s. Set whole row and column of a cell containing 0 to all 0’s.
+    Reference : http://stackoverflow.com/questions/339262/set-every-cell-in-matrix-to-0-if-that-row-or-column-contains-a-0
+    2) convert a number m to n with minimum operations. The operations allowed were -1 and *2.
+        For Eg : 4 and 6. Answer is 2.
+        1st operation : -1 -> 4-1 = 3.
+        2nd operation : * -> 3 * 2 =6.
+
+Second Coding round:
+    1) Given a matrix containing O’s and X’s. Convert all O’s to X’s  which are fully surrounded by all X’s.
+     Approach : First handle the boundary O’s and say change them to some other character say *. Now for all the remaining inside O’s check applying DFS if there is a way out ie, if the DFS reaches the character *. If not then convert all O’s to X’s in that matrix.
+    2) Direct knapsack problem.
+    3) Implement circular linked list with dynamic insertion and deletion with minimum time complexity. Queries were given during runtime, for insertion and deletion. After n such operations, print the linked list again.
+Interview Questions asked :
+First Round :
+    1) detect cycle in a linked list and the point where the cycle begins.
+    2) Min stack implementation.
+    3) Modified previous question and asked to find the middle element in this stack in minimum time complexity.
+    4) Questions asked in the coding test, asked some changes to optimize the algorithm.
+    5) Asked about hashing and linear probling.
+    6) Design patterns overview, and describe any two of them in detail.
+    7) Function overloading and overriding and difference between them.
+ Second Round :
+    7) Virtual functions, Interfaces, polymorphism both static and dynamic.
+    8) Design a system similar to geryorange where there is a central server monitoring all the robots(It was bit simple and direct).
+    9) Any versioning system. I said Git.. they looked over my git profile.
+    10) Favourite subjects : I told them cloud computing, then they asked me many things related to Docker containers.
+    11) Projects obvious, they asked me 3 projects.
+Third Round :
+    This was on phone, where he asked me all the technologies I have worked on. Then again there was a discussion on GIT and NoSQL databases. Why not SQL ?.
+    And again they asked me a project and it was finally done (y). 

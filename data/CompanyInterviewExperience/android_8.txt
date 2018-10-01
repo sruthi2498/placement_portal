@@ -1,0 +1,14 @@
+A splash screen is mostly the first screen of the app when it is opened. It is a constant screen which appears for a specific amount of time, generally shows for the first time when the app is launched. The Splash screen is used to display some basic introductory information such as the company logo, content, etc just before the app loads completely.
+Creating Splash screen using handler in Android
+Here we created two activities MainActivity showing the Splash Screen and SecondActivity in order to switch from MainActivity to SecondActivity. The main program is written in MainActivity, you can change activities as per your need.
+
+Using the ‘postDelayed()’ function:
+This function delays the process for a specified time. This is used with a handler which allows you to send and process Message and Runnable objects associated with a Thread’s MessageQueue. Each handler instance is a single thread.
+Below is the code for creating the splash screen:
+MainActivity.java
+Run on IDE
+activity_main.xml: You can use any image for the splash screen and first paste it into the drawable folder. XML file is easy to generate by drag and drop approach, just use imageview and select the appropriate image.
+Run on IDE
+
+Output:
+

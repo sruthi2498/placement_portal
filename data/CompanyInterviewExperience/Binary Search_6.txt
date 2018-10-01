@@ -1,0 +1,9 @@
+Given a sorted array and a target value, find the first element that is strictly smaller than given element.
+Examples:
+A simple solution is to linearly traverse given array and find first element that is strictly greater. If no such element exists, then return -1.
+An efficient solution is to use Binary Search. In a general binary search, we are looking for a value which appears in the array. Sometimes, however, we need to find the first element which is either greater than a target.
+To see that this algorithm is correct, consider each comparison being made. If we find an element that’s greater than the target element, then it and everything above it can’t possibly match, so there’s no need to search that region. We can thus search the left half. If we find an element that is smaller than the element in question, then anything before it must also be larger, so they can’t be the first element that’s smaller and so we don’t need to search them. The middle element is thus the last possible place it could be.
+Note that on each iteration we drop off at least half the remaining elements from consideration. If the top branch executes, then the elements in the range [low, (low + high) / 2] are all discarded, causing us to lose floor((low + high) / 2) – low + 1 >= (low + high) / 2 – low = (high – low) / 2 elements.
+If the bottom branch executes, then the elements in the range [(low + high) / 2 + 1, high] are all discarded. This loses us high – floor(low + high) / 2 + 1 >= high – (low + high) / 2 = (high – low) / 2 elements.
+Consequently, we’ll end up finding the first element smaller than the target in O(lg n) iterations of this process.
+Run on IDE

@@ -1,0 +1,41 @@
+Round 1: Written test
+The first round comprised of 25 one mark questions (without options) from C output questions and puzzle & general aptitude questions (Test Duration: 2 hour)
+C output questions part covered questions from iterations, pointers, array and data structures.
+Tips :- Solve the technical apt questions first and don’t stress yourself. Try to solve general apt after solving technical questions. (If you are strong in technical, it is easy to clear this written test)
+Reference :
+http://markandayannotes.blogspot.in/2015/12/c-questions_24.html
+https://kowsalyasumathi.blogspot.in/2016/06/c-program-quiz-question.html
+https://www.geeksforgeeks.org/quiz-corner-gq/#C%20Programming%20Mock%20Tests
+Round 2: Coding round
+You will be provided laptop and turbo C compiler. Java , C++ also allowed for second round.
+*********STRICTLY NO INBUILT FUNCTIONS**********
+Some of the questions are.
+2. Find the least prime number that can be added with first array element that makes them divisible by second array elements at respective index (check for prime numbers under 1000, if exist return -1 as answer) & (Consider 1 as prime number)
+3. Sort the array elements in descending order according to their frequency of occurrence
+Explanation : 3 occurred 4 times, 2 occurred 3 times, 12 occurred 2 times, 4 occurred 1 time, 5 occurred 1 time
+Note : sort single occurrence elements in ascending order
+4. Print true if second string is a substring of first string, else print false.
+Round 3: Advance programming round
+Lift system
+There were 8 modules
+1. Display the position of Lift
+2. Assign Lift to the users
+3. Assign nearest lift by comparing their current positions
+Assume,
+Explanation : L1 is near to 4 floor
+4. If two lifts are nearest to the user’s source floor, the assign the lift with same direction of user’s requirement.
+Example: if user request to move from 4 to 2 ,and if L3 is in 5th floor & L5 is in 3rd floor, then we should assign L3 because user requested for downward motion so L3 ill move down from 5th floor
+5. Restrict L1 & L2 for 0-5th floor , L3 & L4 for 6-10th floor , L5 for 0-10th
+Initially all lifts are at 0th floor.
+6. Assign lift with least number of stops
+Example:
+If L3 is in 9th floor
+And L5 is at 8nd floor
+If user wants to move from 8 to 0
+We should assign L3 because L3 ill stop at 8,7,6 and then 0 NumberOfStops = 3, but L5 ill stop at 8,7,6,5,4,3,2,1,0 and NumberOfStops = 8 so we should assign L3
+7. Assign capacity (Number of people capable to travel) to all lift and assign according to the capacity
+8. If any lift is under maintenance then their current position should be marked as “-1” and that lift should not be assigned at any cost.
+Round 4 and 5: Interview (technical and HR)
+In technical interview some puzzles and programming questions were asked. In HR interview some basic HR questions were asked.                                        
+
+

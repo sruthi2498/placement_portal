@@ -1,0 +1,13 @@
+Given an array of N integers and a number X. The task is to find the index of first element which is greater than or equal to X in prefix sums of N numbers.
+Examples:
+Input: arr[] = { 2, 5, 7, 1, 6, 9, 12, 4, 6 } and x = 8
+Output: 2
+prefix sum array formed is { 2, 7, 14, 15, 21, 30, 42, 46, 52}, hence 14 is the number whose index is 2
+Input:  arr[] = { 2, 5, 7, 1, 6, 9, 12, 4, 6 } and x = 30
+Output: 5
+Approach: The problem can be solved using lower_bound function in Binary search. But in this post, the problem will be solved using Binary-Lifting. In binary lifting, a value is increased (or lifted) by powers of 2, starting with the highest possible power of 2(log(N)) down to the lowest power(0). 
+Below is the implementation of the above approach: 
+Run on IDE
+
+Time Complexity: O(N)
+Auxiliary Space: O(N)

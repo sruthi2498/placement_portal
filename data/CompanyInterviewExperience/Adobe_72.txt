@@ -1,0 +1,27 @@
+2 Rounds of online test, one related to aptitude and other is related to c++. Aptitude one had around 39 questions and 2hours was given. C++ one had 19 questions and 2 hours was given. 7 coding questions and others basic c++ questions.
+Round 1(Technical):-
+1) There are N nuts and N bolts, u have to find all the pairs of nuts and bolts in minimum no. of iteration (comparision). All the nuts/bolts might have different diameter.
+2) There is a paragraph having million characters. You have to find out the first non –repeating character in the complete paragraph. For example:- aab cld jb      then answer should be :- c
+3) Any base to any base conversion i.e base 11 to base 7
+4) Questions related to Multi-Threading i.e synchronization or usage of Volatile (Basic questions)
+5) Questions related to projects from my resume
+Round 2(Technical):-
+1) Questions related to Multi-Threading i.e synchronization or usage of Volatile (Basic questions)
+2) Questions related to projects from my resume
+3) Garbage collection algorithms
+4) As I had Java background, so he asked me New features in JAVA 8
+5) There are chocolates each worth x. You have total amount y with you. And you can exchange z wrappers for 1 chocolate. So in this way how many chocolates he can eat.
+Round 3(Technical):-
+1) Declare a 2D array using pointer notation.
+2) A brief discussion about my work.
+3) Suppose there are packages having volume m and there are n packets having volume a,b,c…. each having volume less than m. So you need to find out the minimum no. of packets required to wrap up the products.
+4) There are N cities spread in the form of circle. There is road connectivity b/w city 1 and 2, then city 2 and 3 and so on till city n and 1. Each ith city has a petrol pump where you can pick pith petrol and distance between ith and i+1 th city is di . Assume you car has a mileage of 1km/litre. You have to find out if there exist any city, if you start from that city then you can visit all the cities either in the clockwise or anticlockwise fashion.
+Round 4(HR Round):-
+    Normal HR questions
+Round 5 (Director Round):-
+1) Questions a bit related about my personal life i.e schooling activites or hobbies.
+2) Questions pertaining to the best work(projects) that I did
+3) Things that every software programmer should know and he asked me to convince him.
+4) What do you do to keep urself updated on the technology.
+5) Asked me about any open source projects which I had and put in GIT…… told him about all of my projects.
+6) Few more questions related to technology.

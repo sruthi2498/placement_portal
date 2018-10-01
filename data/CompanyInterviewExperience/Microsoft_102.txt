@@ -1,0 +1,14 @@
+Given a string consisting of only 0, 1, A, B, C where
+A = AND
+B = OR
+C = XOR
+Calculate the value of the string assuming no order of precedence and evaluation is done from left to right.
+Constraints – The length of string will be odd. It will always be a valid string.
+Example, 1AA0 will not be given as an input.
+Examples:
+Source : Microsoft online round for internship 2017
+
+The idea is to traverse all operands by jumping a character after every iteration.  For current operand str[i], check values of str[i+1] and str[i+2], accordingly decide the value of current subexpression.
+Run on IDE
+Run on IDE
+

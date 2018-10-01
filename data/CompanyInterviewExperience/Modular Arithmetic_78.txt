@@ -1,0 +1,16 @@
+Given a large number as string, find remainder of number when divided by 7.
+Examples :
+Simple Approach is to convert string into number and perform mod operation. But this approach will not work for long strings.
+The exist an approach that works for large numbers also. Below are the steps.
+Let the given number be “num”
+Illustration :  
+How does this series formula work?
+Below is the intuition behind the series
+Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 

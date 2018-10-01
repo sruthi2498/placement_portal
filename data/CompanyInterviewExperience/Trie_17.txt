@@ -1,0 +1,33 @@
+Round 1:
+Hackerearth online coding round.
+
+Round 2: (1 hrs 15 minutes)
+Left View of a binary tree
+Explain Binary search and it’s complexity.
+How does a hash map work? What is the difference between a hash map and an array?
+Given an acyclic graph and a function f(x) that return the best path between two nodes. Find a function g(x) that returns the second best path.
+Follow up: What if the graph is cyclic?
+ACID properties of Database.
+Given a graph with different edge weights. Create a new edge in the graph between the given nodes such that this is the best path between these nodes.
+Given a dictionary of words and a string pattern. Output the count of words that match the string pattern in the dictionary.
+Eg. Dictionary: [cat, rat, mat, apple, boy, bat]
+String pattern: ?at
+Output: 4 (because cat, rat, mat, bat matches the string pattern)
+The interviewer asked me to dry run all of my codes. Also, you must know how to write code on paper.
+Round 3: (1 hrs 30 minutes)
+A T20 match is going on. You’re in Team B. First innings is over, they have scored “teamARuns” runs. Your team has scored “teamBRuns” runs at the end of “balls” balls. A ball can have multiple possibilities like [0, 1, 2, 3, 4, 5, 6, Wicket, No ball, Wide ball]. What is the probability that your team (Team B) will win?
+I was asked to write the code for this as well once I had explained my approach.
+I wrote a recursive code for this one. He then asked me to improve the time complexity. So I used DP to memoize the solution to sub problems.
+Given two customers – C1 & C2 and two restaurants – R1 & R2. You’re a delivery boy and travel at constant speed. Your distance from each of them is given. R1 takes t1 time and R2 takes t2 time to prepare the food. What will be your trajectory so as to get food to both customers in minimum time. I was asked to consider all the test cases and explain them.
+What would happen if in a certain situation, we were at an equal distance from both the destinations. How would you decide which route to take next.
+The interviewer was checking how I will approach the questions and whether I can write decent code or not. He mainly wanted to see how many corner cases could I cover int the second question.
+Round 4: (1 hour)
+This round was with the Director of Engineering.
+It started with a normal discussion about my college and my present company. 
+What are the technologies you’re working on currently.
+Discussion about my current projects.
+Spiral traversal of a binary tree
+Given a string “s” and another string “patt”. Find the character in “patt” that is present at the minimum index in s. I was asked to optimise my solution to use minimum time and space possible.
+I was asked to write the codes on a white board and explain them for edge cases.
+Why do I want to leave my present company?
+

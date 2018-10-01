@@ -1,0 +1,40 @@
+I had my interview with Oyo rooms(Gurgaon) in June 2018. It consists of 5 rounds including a written and director round.
+
+Round 1: the first round was a hackerearth coding contest. It consisted of 2 questions, time given was 1 hour-
+Q1- https://www.geeksforgeeks.org/decode-median-string-original-string/
+Q2- https://www.hackerrank.com/challenges/candies/problem
+The key here is to solve at least 1 question.
+
+Round 2: This round consists of the discussion regarding the previous round and some questions from the interviewer side. It is a f2f round. The questions the interviewer asked me was-
+1- Boundary Traversal of a binary tree. (https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/)
+2- Water trapping problem (https://www.geeksforgeeks.org/trapping-rain-water/)
+The interviewer was quite calm and open for discussions for approaches. The key for the round is to have discussion with interviewer regarding the edge cases that may come and the behavior he wants to have for those cases. After these discussions, I was asked to write the solution to these problems.
+
+Round 3: This round consisted of coding questions as well as a puzzle. This was again f2f round. The questions were-
+Q1- You are given a 2d matrix. Every no of the cell represents the price of that piece of land. And you are given a budget X. Now you need to maximize the no of lands that you acquire. You cannot buy another piece of land diagonally. You can only go left/right/up/down. Eg-
+The matrix looks like-
+3 1 12
+6 7 4
+4 2 2
+X- 12
+Ans- 4( the lands are 4, 2, 2, 4)
+Q2-<a href="https://www.geeksforgeeks.org/form-minimum-number-from-given-sequence”>https://www.geeksforgeeks.org/form-minimum-number-from-given-sequence
+Q3- http://www.mytechinterviews.com/gold-for-7-days-of-work
+
+Round 4- It was again a f2f round which had coding questions as well as questions based on Java.
+Q1- https://www.geeksforgeeks.org/find-local-minima-array/
+Now there were a lot of Java questions consisting of
+1- Overriding and overloading
+2- abstract classes and interfaces.
+3- Multithreading questions(print odd even in sequence), synchronization, Illegal monitor state exception.
+4- Thread Pool
+5- Singleton class implementation. (Thread safe implementation of it lazy initialization)
+For Java questions answer every question with example. This gives the impression to the interviewer that the candidate thoroughly knows about the subject.
+
+Round 5- This is the final round which is discussion with the technology head of the organization. There was discussion regarding –
+1- reason to join Oyo rooms.
+2- reason to leave previous company
+3- any technical read that you have read in the last 6 months.
+And lastly and questions for him. Please prepare for this round well in advance as it may seem trivial but plays an important role for him to see if you are culturally fit.
+Geeksforgeeks helped me a lot in preparing for my interviews. This interview experience is the result of it.
+Thank You.

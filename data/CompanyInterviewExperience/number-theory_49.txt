@@ -1,0 +1,17 @@
+According to Euler’s four square identity, the product of any two numbers a and b can be expressed as a sum of four squares if a and b both can individually be expressed as sum of four squares.
+Mathematically, if a =  and b = 
+             Then, a * b = 
+where c1, c2, c3, c4, d1, d2, d3, d4, e1, e2, e3, e4 are any integer.
+Example:
+Explanation :
+The product of the 2 numbers a(30) and b(4) can be represented as sum of 4 squares as stated by euler’s four square identity. The above are the 2 representations of the product a * b in sum of 4 squares form. All possible representation of the product a*b in sum of four squares form are shown.
+Approach : 
+Brute Force :
+A given number(a*b) can be represented in sum of 4 squares form by using 4 loops i, j, k, l to find each of the four squares. This gives all possible combinations to form a*b as a sum of four squares. At each iteration of the innermost loop(l loop), check the sum with the product a*b. If there is a match, then print the 4 numbers(i, j, k and l) whose sum of squares equals a*b. 
+Run on IDE
+Run on IDE
+Run on IDE
+Improved Algorithm:
+The time complexity of the above algorithm is  in the worst case. This can be reduced to  by subtracting the squares of i,j and k from the product a*b for all (i,j,k) and checking if that value is a perfect square or not. If it is a perfect square, then we have found the solution.
+Run on IDE
+Output:

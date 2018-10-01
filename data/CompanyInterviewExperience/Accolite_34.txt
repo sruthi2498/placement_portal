@@ -1,0 +1,23 @@
+Round 1(Written):
+There was a technical online test in the first round. 20 questions were to be done in 30 minutes.Questions were basically from data structures, DBMS, operating systems. There was a negative marking of 0.5. After this, 10 students were shortlisted.
+Round 2(Technical) (2 hours):
+1. Introduce yourself
+2. Given a string, I had to construct tree from that string. Also I needed to write the code for it.
+3. I was asked to construct the schema for the voting system of India, to put all the keys like primary key, foreign key etc. in the tables, to normalize the schema. All the 5 Normal forms should be fulfilled.
+Then I had to write query to display the political party who won the elections.
+After this round, 5 students were shorlisted.
+Round 3(technical) (2 hours):
+1. Given a file of size 500MB which contains cgpa of students as a single stream without spaces and without any other separator. I had to tell them the logic to separate the different cgpa’s.
+Also, I needed to tell them which data structure should be used to store the cgpa’s efficiently.
+2. Given a link list I had to tell whether it contains a cycle or not. If there was a cycle then which nodes were orphan nodes (i.e. the nodes which were not in the cycle ).
+3. Given an array of positive numbers, I had to tell them whether the square root of the array element exist in the same array or not. If it exists then display that number.
+4. Given an array containing denominations (i.e. the value of different coins) and the total sum. I had to find the minimum number of coins needed to make that sum.
+After this round 2 students were shortlisted.
+Round 4 (HR interview ) (30-45 mins):
+1. Introduce yourself
+2. What are your strengths and weaknesses?
+3. What do you want to become in future?
+4. A situation was given to me like if I was selected and I had to work late at night on some project whose deadline was approaching. Then what will be my reaction?
+5. Asked me about my interests and hobbies.
+
+

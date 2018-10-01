@@ -1,0 +1,10 @@
+Round 1:
+All the branches were allowed . Eligibility criteria was CGPA above 7 . It was conducted on cocube . Everyone gets different set of questions . 3 coding questions in 90 min .
+1 . Count how many times 1001 is repeated in string . If not then return -1
+2. Find index of first non repeating element in string
+3. A linked list and m, n was given . We have to delete the nodes between m and n.
+ 
+Marks were distributed as 2, 3, 5
+The test is conducted on cocube. Cocube is similar to normal wordpad. You cannot get any suggestions. Everything you have to do on your own. You cannot print anything . Even if you write print statement it does not print anything on console. It just check whether your code is working for testcase or not. If there is any error in your program it does not show what it is. Even the brackets also not get closed. It takes lot of time to run program .
+Tip –  Practice writing programs on notepad and running on console.
+ 

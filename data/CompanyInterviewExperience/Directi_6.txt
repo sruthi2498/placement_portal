@@ -1,0 +1,18 @@
+Given n, how many distinct Max Heap can be made from n distinct integers?
+Examples:
+
+Since there is only one element as the root, it must be the largest number. Now we have n-1 remaining elements. The main observation here is that because of the max heap properties, the structure of the heap nodes will remain the same in all instances, but only the values in the nodes will change. 
+Assume there are l elements in the left sub-tree and r elements in the right sub-tree. Now for the root, l + r = n-1. From this we can see that we can choose any l of the remaining n-1 elements for the left sub-tree as they are all smaller than the root.
+We know the there are  ways to do this. Next for each instance of these, we can have many heaps with l elements and for each of those we can have many heaps with r elements. Thus we can consider them as subproblems and recur for the final answer as:
+T(n) =  * T(L) * T(R).
+Now we have to find the values for l and r for a given n. We know that the height of the heap h = . Also the maximum number of elements that can be present in the h th level of any heap, m = , where the root is at the 0th level. Moreover the number of elements actually present in the last level of the heap p = n – ( – 1). (since  number of nodes present till the penultimate level). Thus, there can be two cases: when the last level is more than or equal to half-filled:
+ l =  – 1, if p >= m / 2
+(or) the last level is less than half-filled:
+ l =  – 1 – ((m / 2) – p), if p < m / 2
+(we get – 1 here because left subtree has  nodes.
+From this we can also say that r = n – l – 1.
+We can use the dynamic programming approach discussed in this post here to find the values of . Similarly if we look at the recursion tree for the optimal substructure recurrence formed above, we can see that it also has overlapping subproblems property, hence can be solved using dynamic programming:
+Following is the c++ implementation of the above approach:
+Run on IDE
+Output:
+Asked in: Directi.

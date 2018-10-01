@@ -1,0 +1,20 @@
+First round Technical
+1. Write a code for bubble sort.
+2. What are the osi layers and explain them.
+3. What are pointers.
+4. A puzzle : We have two pits with capacities of 5 and 4. How will you measure 2 litres of water with these pots.
+Soln: Fill 5 litre pot and pour the contents into four litre pot. So we are left with 1litre in 5 litre pot and 4 litres in 4 litre pot. Empty the contents of the four litre pot and pour the contents of 5 litre pot(1 litre) into 4 litre pot. Now again fill the 5 litre pot and pour the contents into the 4 litre pot until it becomes full. So now we have 3+1 lites in four litre pot and 5-3=2 litres in 5 litre pot.
+Second round 
+1. Given 9 dots how will u connect all these with just 4 lines without taking off your hand.
+2. In a car race what will your position be if you overtake the last person. You cant overtake the last person unless it is a circular track.
+Next Round 
+1. Questions about resume and projects.
+2. Find the nth bit of a number.
+Soln. given a number a;
+Let b=1;
+Shift b to the left n-1 times. b<<n-1
+C=a&b;
+If c is true then the nth bit is 1 or else the nth bit is zero.
+3. Given a 8 bit register with values ranging from 0-100. How much bits can be allocated for precision
+4. Difference between void main(); and void main(void); – https://www.geeksforgeeks.org/difference-int-main-int-mainvoid/
+ 

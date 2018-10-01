@@ -1,0 +1,11 @@
+
+Maps are associative containers that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have same key values.
+map::size()
+In C++, map() function is used to return the total number of elements present in the map.
+Syntax:
+Return Value: It returns the number of elements present in the map.
+Examples:
+
+Run on IDE
+Output:
+Time complexity: Constant i.e. O(1)

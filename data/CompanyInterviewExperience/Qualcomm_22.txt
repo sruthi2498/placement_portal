@@ -1,0 +1,29 @@
+Round 1:
+The first round was hosted on hirepro.in and consisted of 3 sections:
+Aptitude : 20 questions, 20 minutes
+I managed to do only about 10. Time is the key here.
+Programming 20 questions, 25 minutes
+basic questions based on output, functional programming, bit manipulation
+Did 18/20
+Elective: (Electronics/Communication/Software)
+I chose Software. 20 questions, 30 minutes based on OS, networking and OOP concepts.
+Did 16/20.
+The questions had a negative marking of 0.25.
+9 students were shortlisted out of 200 for the next round.
+
+Round 2: Technical Interview
+Interviewer began by asking me ‘What do you know about Qualcomm’ and then moved to on some general questions like:
+– Difference between CDMA and GSM technologies
+– Why CDMA was phased out
+– What is 3G LTE
+– How IoT can impact the communications industry.
+(They expect you to know about their company thoroughly.)
+This was followed by a thorough scan of my resume. Each and every project and internship was discussed in detail. For my project concerning Machine Learning, I was asked how about partitioning of dataset, choice of performance metric, RandomisedSearch versus GridSearch. 
+Even the accomplishments on my resume were scrutinised. How I approached bug finding on site, difference between self XSS and reflected XSS, how do you suspect HPP.
+So, basically if there is something on your resume, you should be aware of it in and out.
+After this, he came on to coding problems.
+Flatten a tree into a linked list
+Some conceptual questions on pointers such as differences between int const *ptr and int * const ptr 
+The interview concluded with which team would you like to join at Qualcomm.
+Overall, it was a nice and friendly experience.
+

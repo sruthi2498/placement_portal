@@ -1,0 +1,12 @@
+An Emirp Number (prime spelled backwards) is a prime number that results in a different prime when its decimal digits are reversed. This definition excludes the related palindromic primes. 
+Examples :
+Objective : Input a number and find whether the number is an emirp number or not.
+Approach : Input a number and firstly check if its a prime number or not. If the number is a prime number, then we find the reverse of the original number and check the reversed number for being prime or not. If the reversed number is also prime, then the original number is an Emirp Number otherwise it is not.
+Below is the implementation of above approach :.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

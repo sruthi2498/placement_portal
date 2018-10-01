@@ -1,0 +1,44 @@
+Sabre visited our campus for the role of Associate Developer.
+Eligibility Criteria: – CGPA >= 7 and no current backlogs, Minimum 60% in 10th and 12th.
+Eligible Branches: – CSE, IT, ECE, EEE.
+ 
+Round 1 – Online Round: – 1.5 hours
+A total of 95 students appeared for this round. It was conducted on HackerEarth. There were 40 MCQs and 2 coding questions.
+The MCQs were based on a variety of topics, both Technical Aptitude – OS, DBMS, OOPS, Output Questions (C, C++, Java), Computer Networks and General Aptitude – Blood Relations, Logical Reasoning, Circular Arrangements, Mensuration, Percentage, Boats and Streams, Alligations, Permutations and Combinations, etc. A few MCQs were of 2 marks and few were of 3 marks. There was a negative marking of -1 marks in both types of MCQs. All students get the same questions but in a jumbled format.
+First Coding Question (50 marks): – The question was similar to this question: –
+https://www.geeksforgeeks.org/shortest-distance-two-cells-matrix-grid/
+The changes made were: –
+0 marks a cell which can be traversed
+1 marks a cell which can’t be traversed
+2 marks the source node
+The task was to find the minimum no. of steps required to reach any of the edge cells.
+Second Coding Question (20 marks): – https://www.geeksforgeeks.org/check-instance-15-puzzle-solvable/
+An important thing to note about the online round is that the time limit is very strict, so, in case you get stuck at any particular question, skip it and come back to it later.
+ 
+Round 2 – Technical Interview: – 1 hour
+A total of 27 students were shortlisted for this round.
+A unique feature about Sabre’s technical interview was the fact that they didn’t see our resume, as they didn’t want to form any preconceived opinion of us based on that.
+At first, he asked me to explain my approach for the above two problems.
+I was able to pass all the test cases for the first question. I explained him my approach and he was impressed with it, especially the optimization which I performed by using the vis array in order to store the no of steps taken.
+Regarding the second question, I told him that because there wasn’t sufficient time, I was not able to solve it. Therefore, he asked me to try it in front of him. He said that in order to just determine if it’s possible or not, there is a pattern which is easy to tell, so he wasn’t interested in it, rather he wanted me to actually solve it. We had a little discussion on it, but I couldn’t come up with any approach. I said that Sir it is an AI problem and I am not able to come up with other solutions at the moment, but he insisted that other solutions do exist.
+Then, he asked me some basic OOPS question. A few of them are: –
+Then, he asked me whether I am more comfortable with RDBMS or OS. I answered OS. A few OS questions asked by him were: –
+Then he gave me a coding question to solve.
+https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+He wanted me to write an algorithm for solving the question. I tried to discuss my approach with him before writing the algo, but he was only interested in the final algorithm which I would come up with. I gave him a simple DP solution. As I prefer writing the complete solution instead of writing just the algo, I wrote the entire C++ code. He was impressed with this fact and also with the approach which I took.
+All the students who reached this round were given similar questions to solve on pen and paper. All of these questions were based on DP. A few of them are: –
+https://www.geeksforgeeks.org/find-maximum-length-snake-sequence/
+https://www.geeksforgeeks.org/coin-change-dp-7/
+https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+ 
+Round 3 – HR Interview: –
+A total of 14 students were shortlisted for this round. Since there was just one HR who had to take the interviews of every student, this was conducted in parallel with the first round, thus, some students had finished their HR interview even before some students had even started their Technical Interview. The time duration for this round varied from 11 minutes to 50 minutes, with most of the people having an interview of around 15-20 minutes.
+There were 2 panel members, one was the HR, the other was the head of the technical team. They greeted me warmly and introduced themselves. They went through my resume and then the technical head asked me to introduce myself, starting from my family. The HR was continuously making some notes about the entire conversation.
+While I was introducing myself, when I reached the part about my projects, he stopped me and started asking me questions related to them. For example, I had done a project on web-scraping, so he asked me how I would automate it so that it would work even if there are some changes made in the structure of the website. What made me choose React.js over other technologies for the development of my project.
+Also, he asked me that if they hire me and I have to choose between two technologies which are potentially good for a particular project, how would I choose, what parameters would I consider. He asked me to keep in mind the fact that I need to use the company’s money and man hours wisely. He then asked me “Where do you see yourself after five years? “. He discussed a little bit about my internship as well.
+When he was done, the HR started asking her questions. First, she asked me to describe my personality. Then she gave me a few scenarios and asked me how I would react to them: –
+In this round there are no right or wrong answers, just don’t contradict your answers.
+Finally, they asked me if I have any questions. I asked them two: –
+ 
+Out of the 14 who were shortlisted for this round, only 5 were offered full-time employment positions, and I was one of them 😀
+Thank You

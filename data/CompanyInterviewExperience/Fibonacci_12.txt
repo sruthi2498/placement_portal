@@ -1,0 +1,11 @@
+Given first two numbers of series, find n terms of series with these two numbers. The given series follows the same concept as Fibonacci series, i.e., n-th term is sum of (n-1)-th and (n-2)-th terms.
+Examples:
+Approach:
+The approach is similar to finding Fibonacci series where the summation of last two terms form the next term. Find the sum of first two given numbers, second number now will serve as first number to find the next term and the sum produced will serve as second number to find the next term. Sum of these two newly formed first and second term will form the next required term.
+Below is the implementation program:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Similarly, To find Nth number, generate N terms of series in the above manner and print Nth number.

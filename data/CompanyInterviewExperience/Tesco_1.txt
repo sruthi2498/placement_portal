@@ -1,0 +1,4 @@
+Q.1> Given a string, find the longest subseqence of chars from string that conntains all vowels may be repeated but in a e i o u order
+Examples:
+Q.2> Given a string, e. g., abababaa it can have many suffixes including whole string. Return sum of  max common prefix length of given string with all its suffixes
+Examples:

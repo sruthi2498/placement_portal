@@ -1,0 +1,41 @@
+Deque or Double-ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+This function is used to insert a new element into the deque container, the new element is added to the beginning of the deque.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. The parameter should be of the same type as that of the container, otherwise, an error is thrown.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)
+Application
+Given an empty deque, add integers to it using emplace_front() function and then calculate its size without using size function().
+Algorithm
+1. Add elements to the deque using emplace_front() function
+2. Check if the deque is empty, if not, increment the counter variable initialised as 0, and pop the back element.
+3. Repeat this step until the deque becomes empty.
+4. Print the final value of the variable.
+Run on IDE
+Output :
+This function is used to insert a new element into the deque container, the new element is added to the end of the deque.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. Parameter should be of same type as that of the container, otherwise an error is thrown.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)
+Application
+Given an empty deque, add integers to it using emplace_front() function and then calculate the sum of the elements.
+Algorithm
+1. Add elements to the deque using emplace_back() function
+2. Check if the deque is empty, if not, add the back value to the sum variable initialised as 0, and pop the back element.
+3. Repeat this step until the deque becomes empty.
+4. Print the final value of the variable.
+Run on IDE
+Output :

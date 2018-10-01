@@ -1,0 +1,18 @@
+Every project in Android includes a manifest file, which is AndroidManifest.xml, stored in the root directory of its project hierarchy. The manifest file is an important part of our app because it defines the structure and metadata of our application, its components, and its requirements.
+This file includes nodes for each of the Activities, Services, Content Providers and Broadcast Receiver that make the application and using Intent Filters and Permissions, determines how they co-ordinate with each other and other applications.
+The manifest file also specifies the application metadata, which includes its icon, version number, themes etc. and additional top- level nodes can specify any required permissions, unit tests and define hardware, screen, or platform requirements.
+The manifest comprises of a root manifest tag with a package attribute set to the project’s package. It should also include an xmls:android attribute that will supply several system attributes used within the file.
+We use versionCode attribute is used to define the current application version in the form of an integer that increments itself with the iteration of version due to updation. Also, versionName attribute is used to specify a public version that will be displayed to the users.
+We can also specify whether our app should install on an SD card of the internal memory using the installLocation attribute.
+We can also specify whether our app should install on an SD card of the internal memory using the installLocation attribute.
+A typical manifest node looks as:
+Run on IDE
+
+A manifest file includes the nodes that define the application components, security settings, test classes and requirements that make up the application. Some of the manifest sub-node tags that are mainly used are:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+References: https://developer.android.com/guide/topics/manifest/manifest-intro.html

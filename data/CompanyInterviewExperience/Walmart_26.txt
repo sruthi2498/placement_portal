@@ -1,0 +1,35 @@
+Online round: [60 mins]
+1. given a number N. print in how many ways it can be represented as N = a+b+c+d , 1< =a< =b< =c< = d; 1<=N< = 5000
+2. given two number l and r (l<=r<=10^6) find most frequent digit among all prime numbers between l and r inclusive. if frequency is same print highest digit.
+Round 1:
+1. difference between wait() and sleep() in java.
+2. write code to print 1 to 20 using 2 threads. one thread will print only even and another one only odd.
+3. Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words. print all possible sequence(Word Break Problem). how will you implement dictionary.
+4. discussion on REST services.
+5. discussion on garbage collector algorithms and different heap generations.
+6. some example on sql and he asked me to write sql code to get desired results. discussion on SQL CASE expressions.
+Round 2:
+1. discussion on different type of object relations (aggregation, association etc).
+2. difference between NoClassDefFoundError and ClassNotFoundException in java.
+3. difference between wait(seconds) and sleep() and their uses.
+3. discussion on mutex and semaphore. discussion on lock and synchronization.
+4. given linkedlist and a number k. reverse linkedlist in a group of k.
+5. there are n houses in a city. all in a single row. we can color a house with any one of three colors (R,G,B). cost of coloring each house is given for each color. no two neighbour house can have same color. print min cost to color all house.
+6. Given a wiki page, implement find all and replace all with limited regex support (? and *). e.g. of search : ‘?*?th’
+Round 3(Manager):
+1. why walmart, discussion on my current project.
+2. discussion on sql indexing and joins.
+3. discussion on java class initialization and constructors.
+4. discussion on garbage collector algorithms.
+5. 2 mathematical puzzle. first one was something related to counting numbers using fingers of one hand in alternate order. given a large number which finger will be the last finger when counting ends. second one was related to time velocity concept.
+6. about my weakness and how will i improve it.
+7. what was the last feedback you got from your manager.
+Round 4 (HR):
+1. tell me abt yourself, why walmart?
+2. where u see yourself after 5 yesrs.
+3. what i like and dislike about my current manager.
+4. my expectation from walmart.
+i was asked to write code for all algo/ds problems.
+ 
+
+

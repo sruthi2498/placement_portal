@@ -1,0 +1,58 @@
+Round 1 (Written Test ) 
+Duration –  90  mins
+Section  1 ( Technical objective questions) 
+–   25 mcq’s mainly focusing  on c , c++ , os  ,  data structures , algorithms 
+Section 2 ( 2  Coding questions )
+–  Code was supposed to be written on paper  
+Question  1:  Given a string of words return  all words   which have their reverse  present in the string as ( (word1  , reverseword1 ) , (word2 ,reverseword2) )   
+Question 2:  Finding the just smaller number formed using  same  number of digits.
+Print -1 if not possible . 
+Roiund 2 (Interview)
+First  round of interview was based on basic data structures  
+1.  Interviewer asked me to write code for the 2nd maximum element of an array  .  Then the 3rd and kth largest element in array  was discussed . 
+2.  Concepts related to binary search tree   , uses      and comparing complexity  . 
+3.  Asked about Hashing , Collisions , Implementation for hashing  .
+Round 3( Interview)
+Question 1:  Asked to write code for level order traversal in binary tree.  Question was further modified to do a spiral order traversal. Both were supposed to be done in O(n) time  complexity . 
+Then he asked me a puzzle  
+http://www.programmerinterview.com/index.php/puzzles/3-ants-on-a-triangle-riddle/
+There was a small discussion about my projects  then  . 
+Then he started asking questions about operating system
+– Mutual exclusion and semaphores .
+– Write code for producer consumer problem using semaphores .
+After I  wrote some pseudo code    problem was made more complex  by adding further constraints .
+The interviewer wanted to test my understanding about semaphores and asked some tricky and confusing questions .
+Round 4(Interview )
+Question 1: Write code to get maximum and second maximum element of a stack. The given function should be in O(1)  complexity . 
+I gave a solution using 2 additional stacks  
+Then he made it more interesting by extending the question to Find kth largest number from stack at any instance in O(1) time. Stack supports  push ,pop  , peek , and kthmaximum function .
+He was very particular about the O(1) constraint .
+I gave plenty of solutions but he wanted me to reach a O(1) solution.
+Finally i gave him a solution which used an additional heap  and a binary search tree and was able to get  O(1) time complexity .
+Question 2: Given a biotonic array  ( first numbers increase and then decrease ) write code to search a given number. Time complexity O(logn)
+The question was further modified to write code for 4 cases  to search –
+1 Array could be sorted ascending
+2 Array could be sorted descending
+3 Array could be first increasing and then decreasing
+4 Array could be first decreasing and then increasing 
+The idea was to first detect which case it was and then search accordingly
+ Time complexity O(logn)
+Question was further modified to handle duplicates. In case of duplicates my algorithm became O(n)
+Round 5 (Telephonic Interview)
+This round was a telephonic interview with the CTO of the company .
+First he asked me about database indexing. What ? Why to use indexing ? how is it implemented  ?
+I gave him a complete explanation
+This is a very good explanation
+http://www.programmerinterview.com/index.php/database-sql/what-is-an-index/
+The  he started with a small discussion  about my projects and research paper  . 
+He then moved on to data structures and asked me how to choose a relevant  data structure  for  a given problem .
+ – I gave him advantages of every  data structure and certain problems where specific data structures could be useful .
+Then he gave a question and asked me for what data structure should be used  keeping time complexity in mind 
+Question: Given a list of students and their marks write a function that would print all students with marks in a given range l , r 
+I gave a solution by indexing marks with a link list of students creating an array of link lists 
+He then modified the questions by adding marks in floating points were also allowed .
+I gave him a solution using map (c++) based on a key value pair of marks and list of students 
+But he asked to optimize the time complexity
+I then gave a modification of my first solution and adding concept of buckets  and binary search .
+He asked me a few hr questions in the end .
+

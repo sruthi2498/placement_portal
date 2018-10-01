@@ -1,0 +1,8 @@
+Given two expressions in the form of strings. The task is to compare them and check if they are similar. Expressions consist of lowercase alphabets, ‘+’, ‘-‘ and  ‘( )’.
+Examples:
+It may be assumed that there are at most 26 operands from ‘a’ to ‘z’ and every operand appears only once.
+A simple idea behind is to keep a record of the Global and Local Sign(+/-) through the expression. The Global Sign here means the multiplicative sign at each operand. The resultant sign for an operand is local sign multiplied by the global sign at that operand.
+For example, the expression a+b-(c-d) is evaluated as (+)+a(+)+b(-)+c(-)-d => a + b – c + d. The global sign (represented inside bracket) is multiplied to the local sign for each operand.
+In the given solution, stack is used to keep record of the global signs. A count vector records the counts of the operands(lowercase Latin letters here). Two expressions are evaluated in opposite manners and finally, it is checked if the all entries in the count vector are zeros.
+Run on IDE
+Output:

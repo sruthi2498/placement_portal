@@ -1,0 +1,11 @@
+Breadth-first search traversal of a graph using the algorithm given in CLRS book.
+BFS is one of the ways to traverse a graph. It is named so because it expands the frontier between discovered and undiscovered vertices uniformly across the breadth of the frontier. What it means is that the algorithm first discovers all the vertices connected to “u” at a distance of k before discovering the vertices at a distance of k+1 from u. The algorithm given in CLRS uses the concept of “colour” to check if a vertex is discovered fully or partially or undiscovered. It also keeps a track of the distance a vertex u is from the source s.
+It produces a “breadth-first tree” with root s that contains all reachable vertices. Let’s take a simple directed graph and see how BFS traverses it.
+
+The graph
+Starting of traversal
+1st traversal
+1st traversal completes
+
+Run on IDE
+Output:

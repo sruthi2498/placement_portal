@@ -1,0 +1,35 @@
+Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled automatically by the container.
+empty() function is used to check if the vector container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Application :
+Given a list of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the vector is empty, if not add the back element to a variable initialised as 0, and pop the back element.
+2. Repeat this step until the vector is empty.
+3. Print the final value of the variable.
+Run on IDE
+Output:
+size() function is used to return the size of the vector container or the number of elements in the vector container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Why is empty() preferred over size()
+empty() function is often said to be preferred over the size() function due to some of these points-
+Application :
+Given a list of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the size of the vector is 0, if not add the back element to a variable initialised as 0, and pop the back element.
+2. Repeat this step until the size of the vector becomes 0.
+3. Print the final value of the variable.
+Run on IDE
+Output:

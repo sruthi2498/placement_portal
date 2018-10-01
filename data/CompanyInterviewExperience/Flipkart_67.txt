@@ -1,0 +1,16 @@
+Telephonic Round – 1:
+1) Inversion count in an array – https://www.geeksforgeeks.org/counting-inversions/
+2) Iterative pre order traversal. 
+Telephonic Round – 2:
+1) Given an array and a number x, check for pair in array with sum as x – https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+2) Some question similar to reversing a linked list
+I was called to Bengaluru for In house interviews after two telephonic rounds
+Coding Round:
+1) Word Break Problem – https://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+DS and Algo Round:
+1) Possible words from phone keypad – https://www.geeksforgeeks.org/find-possible-words-phone-digits/
+Design Round:
+1) Design delivery system from city Hub to the customer – There was focus on how to figure out the location of the customer from address, finding the shortest path etc.,
+2) Design a state machine – Each state can handle n events and based on the event type next state is determined
+Hiring Manager Round:
+This was mostly based on the work I do and some behavioral questions

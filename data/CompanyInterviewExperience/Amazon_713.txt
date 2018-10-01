@@ -1,0 +1,27 @@
+Round 1 (Telephonic) 
+Q1. For a given number, find the next greatest number which is just greater than previous one and made up of same digits. 
+Q2. Find immediate ancestor of a given Node 
+Q3. Clone the linked list having an extra random pointer in nodes which is pointing random node in the list. 
+
+Round 2 (F2F) 
+Q1 In a binary tree, a random pointer is given in each node. If this pointer pointing other than any successor of the node then set it as NULL. Otherwise let it remain untouched. Write code. 
+Q2. You will be given the number of pairs of parenthesis. Find out the total possible valid unique combinations and there should not be any duplicity. Write code 
+
+Round 3 (F2F) 
+Project and some questions related to it.
+Q1 Given an in-order traversal of a special binary tree having property that the node is always greater than its left and right child. Construct the tree and write code. 
+Q2 Find top 10 trending words inserted by users in sites like twitter. Only algorithm. 
+Q3 write an efficient code to find the first occurrence of 1 in a sorted binary array. (2 minutes only) 
+
+Round 4 (Telephonic) 
+Q1. Remove duplicated from a string in O(n) without using hash. 
+Q2. Find the first occurrence of 1 in a sorted infinite binary tree. 
+
+Round 5 (F2F) 
+Amazon has many visitors to its site. And it tracks what pages the customers visited, etc and other stuff.
+Make an efficient data structure for storing 3 days of information of all those customers who have visited site exactly two different days and searched more than 3 unique pages of the site in those 2 days. 
+So whoever visited site exactly two days out of these three days and visited  more then 3 unique pages should be in the contact list.
+After final round got a regret mail after 3 days that I was Not selected.
+Run on IDE
+
+

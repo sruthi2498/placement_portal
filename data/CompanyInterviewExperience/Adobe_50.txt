@@ -1,0 +1,35 @@
+Online Written Test:
+Multiple choice questions on aptitude and programming 2 coding questions.
+F2F R1
+1) Given a string of any length. print all possible combinations of string length k
+Hint use recursion
+2) Given a matrix, print in spiral order.
+3) Verify whether given tree is BST or not.
+Had solved as per the method 3 https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+Then he himself orally briefed about method 1 from the same link and asked me to write code for the same and figure out what’s wrong with the approach.  
+F2F R2
+1) Given a Node such that 
+had to print all the paths from root to the file. if there is no file don’t print anything.
+Note: This is not tree or graph.
+The structure is like windows file system and hierarchy can be any long. So recursion will cause stack overflow. Solve it without recursion
+2) Given a sorted array with one number having any number of duplicates
+For eg [1,2,3,4,4,4,5,6]
+Find the index of the first occur of duplicating element.
+So for above example your function should return 3.
+Hint: Use Binary search
+3) Minimum number of jumps to reach end
+Given an array of integers where each element represents the max number of steps that can be made forward from that element.
+Write a function to return the minimum number of jumps to reach the end of the array (starting from the first element).
+If an element is 0, then cannot move through that element.
+Example:
+Input: arr[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9}
+Output: 3 (1-> 3 -> 8 ->9)
+F2F R3
+Discussed about resume and projects worked upon.
+1) Given a binary stream, state if the number is divisible by 3 at any point of time
+Discussed 2-3 approaches.
+2) Discussed various approached to implement dictionary.
+3) Given a set print all possible subsets.
+F2F R4 (directorial round, last one)
+Discussed about my work projects and college projects as well.
+Discussed various approaches and complexities for array rotation problem.

@@ -1,0 +1,81 @@
+Microsoft IDC Interview experience
+Online Round
+Platform: CoCubes
+Format: 3 coding questions
+Time: 75 minutes
+They had a pool of questions and three questions(2 + 3 + 5 marks) were given to each student randomly.
+Q1) Given an integer N and an integer M, output a number closest to N which is divisible by M.
+Expected Solution in O(1)
+Q2) Given a string of O’s and 1’s, output the maximum length of a sub-string of all 1’s.
+Expected Solution in O(n).
+Q3) Length of Longest Arithmetic Progression
+Expected Solution in O(n^3)
+GROUP FLY ROUND:
+40 candidates were shortlisted for the group fly round.
+No. of Questions: 2
+Time: 75 min.
+Question 1:
+Find a word in a grid of characters
+The problem was a modification of the above problem. We could move in all the 8 directions and zig-zag traversal was also possible. We had to return a list of coordinates(i,j) of the found the traversal. If more than one traversal possible, return any one.
+I solved using DFS. 
+Question 2:
+Imagine a Euclidean plane and N points(x,y) on that plane. You are given a list of such points. You will then receive queries if a particular point is present in the plane or not. Output TRUE or FALSE accordingly.
+0 < N < 10^6
+-10^6 <= x,y <= 10^6 
+They expected us to optimize the queries. I used unordered_map to store points and output queries in O(1).
+PERSONAL INTERVIEW
+50% candidates were selected after the group fly round i.e 20 students.
+ROUND 1:
+The interviewer took my CV and looked at it for at most 2 sec and kept it away. He then gave a puzzle question
+Ques 1)
+You have the following operators available with you: + – * / ( )
+Insert few of these operators to make the given line as a valid mathematical expression
+1 2 3 4 5 6 7 8 9 = 100.
+Note: If we don’t insert anything between 1 and 2, it becomes 12. Order of 1 to 9 must remain as it is.
+Solution: (1 + 2 + 3 + 4) * (-5 + 6) * (-7 + 8 + 9) = 100
+I gave the above solution within 2-3 min. He immediately told me to give one more solution.
+I again took 2-3 mins to come up with one more solution.
+Alternate Solution: 123 – (4 + 5 + 6 + 7) – (-8 + 9) = 100
+Ques 2)
+Design an Elevator System. We discussed this question for about 45 min.
+I asked him few clarification questions which he replied nicely. The interviewer was professional and helpful.
+1. How many elevators?
+Ans: N elevators. N is more than one.
+2. How many floors?
+Ans: M floors.
+3. Do we have one button for each lift or only one button for all the lifts on each floor?
+Ans: Only one button controls all the lifts.
+4. Do we need to consider things like max number allowed in the lift, etc?
+Ans: No. 
+I asked few other questions in the process of designing the system.
+Things he wanted me to answer:
+1. What kind of algorithm should we use to control the movement of lifts?
+2. Data Structures to be used.
+3. Optimization of the algorithm. A workable algorithm is not enough. It had to be optimised for efficient usage, time and power saving.
+Follow up questions:
+1. How will I handle concurrent requests?
+2. When not in use, on which floor will the elevators rest? Why?
+3. Will it be same during all hours of the day? Why?
+4. Will I use the same algorithm during the day and the night?
+5. How am I planning to save lift operating power?
+6. Will my algorithm work if one of the lifts becomes faulty?
+7. If a button is pressed twice on any floor, is my data structure handling that?
+8. I have been given one-year data on elevator usage. How would I use this data to optimize my algorithm to increase efficiency?
+9. Would you use any ML/AI stuff to optimize this problem? How?
+There were many more questions which I don’t remember exactly. I had to give a reason for every design decision.  He then asked me to write the object-oriented code for it.
+Solution: I had a Central-Manager class to manage all elevators, each elevator was working as a Thread. All data was stored with the Central-Manager. I stored incoming requests in Balanced Binary Search Tree. I had a priority assigned to each request if it comes from inside the elevator or outside the elevator, etc.
+He was very professional and experienced. He was very impressed with my answers. He filled my feedback on his laptop while I was writing code. Before I finished writing the code, he said I am done. Not required to write the code.
+I was sent directly to the Hiring Manager after this round. One or two more technical interviews were done for few.
+ROUND 2(Hiring Manager):
+He was a senior guy who worked 13+ years in Microsoft. He was very cool and friendly.
+He started by asking me if I have any questions for him regarding Microsoft, etc. I told I don’t have any specific questions but I am curious about what kind of work is done in Microsoft IDC, what is the most interesting project being done, etc. He told me that everything is interesting right now. He told me about the various divisions in IDC and what kind of projects they are doing. He then asked me about my dream company. I told Google. 😛 We then had a discussion about the pros and cons of Google and Microsoft. He asked few other questions like which is my favourite subject, etc. Few follow up questions on them. He said fine now solve a technical question.
+Question: It was a long problem statement and the solution boiled down to Toposort. I gave him the solution and he told me to write the code.
+He was convinced with the code. However, he told me one very small thing about my code which could have been written more elegantly. I agreed with him.
+We then discussed my projects. He told me to tell him about the project I did during my internship in Samsung Research Institute Bangalore. He also asked about my personal projects and follow up questions on them. He then asked if I have any questions for him. I said No.
+I was surprised that I had to give only 2 rounds so I asked him if there will be any more round after this. He said I am doing great. Relax.
+No. of personal interviews varied from 2-4 for the candidates. 
+Result: Selected.
+GeeksForGeeks was a great help during my preparation. Thanks to other students for sharing their interview experience. 🙂
+
+
+

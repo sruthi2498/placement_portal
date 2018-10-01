@@ -1,0 +1,39 @@
+I have interviewed with Goldmanc sachs in Nov-17. The process  is very slow as in my case first round was started in Sept-17 and last round ended in Nov-17.
+Round 1: First was the HackerRank Test. Two Coding questions, first easy ,second Medium to Hard Level.
+Note: I do not remember the exact wording of the question.
+1.)  Given an string and a burst length , output the string such that count of same adjacent characters in string are less than burst length.
+Example:
+Input : abbcaaaccd , 3
+Output: abbd
+ 
+2.) Given an array of distinct integers, output the number of sub-sequences of length 3, either in increasing or decreasing order.
+Tips: Prepare Dynamic Programming as almost every time second question is of DP.
+Round 2: CoderPad
+Here two questions were asked :
+Tips: In  CoderPad round first discuss your algorithm with the interviewer. Interviewer excepts you to write professional level code. Also interviewer will ask you to write all possible test cases especially corner test cases and your code should pass it.
+Round 3: Video Conference 
+In this round lots of technical questions were asked to check to in-depth knowledge of the C++ language.
+Some questions i remember are:
+ 
+After this round and a month wait, i was called for face to face discussion in GS Bangalore. All the below round were happened in GS Bangalore and in single day. For each round there were two interviewers.
+Round 4:  Face to Face
+Again lots of questions on C++ :
+Output:
+2 1 2
+1 0 1
+2 1 2
+Round 5 
+C++ questions :
+Round 6
+Design Question  : Design a mobile directory i.e. the list of contacts to save mobile number , email and other information. All operations which we can do in our mobile like searching by name , number etc.
+Algorithm Question : Given two strings s1, s2. output all the ways in which these two strings can be merged while keeping the order of character same as they were in s1, s2. Design a recursive algorithm.
+Example : s1 : ab , s2: cd
+Output :
+abcd
+acbd
+acdb
+cabd
+cadb
+cdab
+ 
+So guys, hope you will find it useful for your interview preparation. Best of luck!!!

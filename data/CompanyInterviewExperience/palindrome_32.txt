@@ -1,0 +1,11 @@
+Given a non-negative integer n. The problem is to check if binary representation of n is palindrome or not. Note that the actual binary representation of the number is being considered for palindrome checking, no leading 0’s are being considered.
+Examples :
+
+Approach: Following are the steps:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity: O(num), where num is the number of bits in the binary representation of n.

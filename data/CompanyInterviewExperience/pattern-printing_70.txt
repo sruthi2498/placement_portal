@@ -1,0 +1,11 @@
+Given height h and width w, print a rectangular pattern as shown in example below.
+Examples:
+
+The idea is to run two loops. One for number of rows to be printed and other for number of columns. Print a ‘@’ only when current row is first or last.  OR current column is first or last.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

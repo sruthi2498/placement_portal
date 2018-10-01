@@ -1,0 +1,12 @@
+Given an array of integers, find the first repeating element in it.  We need to find the element that occurs more than once and whose index of first occurrence is smallest. 
+Examples: 
+A Simple Solution is to use two nested loops.  The outer loop picks an element one by one, the inner loop checks whether the element is repeated or not.  Once we find an element that repeats, we break the loops and print the element.  Time Complexity of this solution is O(n2)
+We can Use Sorting to solve the problem in O(nLogn) time. Following are detailed steps.
+1) Copy the given array to an auxiliary array temp[].
+2) Sort the temp array using a O(nLogn) time sorting algorithm.
+3) Scan the input array from left to right.  For every element, count its occurrences in temp[] using binary search. As soon as we find an element that occurs more than once, we return the element. This step can be done in O(nLogn) time.
+We can Use Hashing to solve this in O(n) time on average.  The idea is to traverse the given array from right to left and update the minimum index whenever we find an element that has been visited on right side.  Thanks to Mohammad Shahid for suggesting this solution.
+Following are C++ and Java implementation of this idea.
+Run on IDE
+Run on IDE
+Output: 

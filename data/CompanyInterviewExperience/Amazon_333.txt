@@ -1,0 +1,13 @@
+Given a Binary Tree, find vertical sum of the nodes that are in same vertical line.  Print all sums through different vertical lines.
+Examples:
+The tree has 5 vertical lines
+Vertical-Line-1 has only one node 4 => vertical sum is 4
+Vertical-Line-2: has only one node 2=> vertical sum is 2
+Vertical-Line-3: has three nodes: 1,5,6 => vertical sum is 1+5+6 = 12
+Vertical-Line-4: has only one node 3 => vertical sum is 3
+Vertical-Line-5: has only one node 7 => vertical sum is 7
+So expected output is 4, 2, 12, 3 and 7
+We have discussed Hashing Based Solution in Set 1.  Hashing based solution requires a Hash Table to be maintained.  We know that hashing requires more space than the number of entries in it.  In this post, Doubly Linked List based solution is discussed.  The solution discussed here requires only n nodes of linked list where n is total number of vertical lines in binary tree. Below is algorithm.
+Run on IDE
+Run on IDE
+

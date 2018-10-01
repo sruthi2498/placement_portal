@@ -1,0 +1,19 @@
+You are given two positive numbers M and N. The task is to print greatest common divisor of M’th and N’th Fibonacci Numbers.
+The first few Fibonacci Numbers are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ….
+Note that 0 is considered as 0’th Fibonacci Number.
+Examples:
+
+A Simple Solution is to follow below steps.
+1) Find M’th Fibonacci Number.
+2) Find N’th Fibonacci Number.
+3) Return GCD of two numbers.
+A Better Solution is based on below identity
+The steps are:
+1) Find GCD of M and N. Let GCD be g.
+2) Return Fib(g).
+Below are implementations of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

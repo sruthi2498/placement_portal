@@ -1,0 +1,62 @@
+Round 1 –
+Total 200 students were shortlisted for online coding test. They allowed CSE, IT, ECE, EE, ME, PIE branches. There were total 4 coding questions and the difficulty level was easy, easy, Moderate and Moderate. Luckily I was able to solve all 4 questions. Test was of 2 hours i.e. half an hour for each problem.
+Q1. Given an array of integers. And the degree of the array is defined as the maximum repeating number in the array. Find the minimum length subarray whose degree is equal to degree of the whole array. (Important question asked in more than 4 companies)
+Q2 I don’t remember but it was very easy.
+Q3. https://www.codechef.com/problems/STACKS
+Q4. https://www.codechef.com/problems/KAN13F
+Total 14 student were shortlisted for interview rounds. And I was the only one who solved all questions in the list.
+Round2 (F2F Technical) –
+I entered in the Ist interview room and we shook hands. His first questions was Are you feeling nervous and I said No. He asked 2-3 questions about the campus. And then went on asking questions about the interview.
+Q1. Which of the problem in the online test was the most interesting problem?
+I said the third one. Then he asked me to walk him through that problem along with the solution.
+Q2 . Can you explain it to me along with the solution?
+I explained that problem as well as the solution. I solved that problem using the binary search and after hearing the solution, he seemed satisfied.
+Q3. How would you rate yourself on a scale of 0 to 10 in Data Structures and Algorithms?
+I said 9 (Be prepared for follow up questions). He said you seem to have pretty good grasp of DS and Algo so I won’t ask too many coding questions.
+Q4. Do you know median?
+I explained it to him.
+Q5. Given a row-wise sorted matrix of NxN. Can you find the median of the matrix?
+https://stackoverflow.com/questions/41414421/median-of-a-matrix-with-sorted-rows
+6. Then he asked me a puzzle. (King and 100 villagers)
+https://www.geeksforgeeks.org/puzzle-13-100-prisoners-with-redblack-hats/
+I explained the solution to him. Finally, he said I’m done for today. Do you have any questions for me? (Always ask questions when given the opportunity) I asked 2-3 questions about the company. And then He asked me to wait outside.
+After 5 min I was called in for the next round.
+Round 3 (F2F Technical) –
+Handshaking, greeting, etc.
+He was the senior of hiring team. Asked me how was your previous interview I said I answered all questions correctly so I think It went well.
+Q1. He asked me to find the first non-repeating element.
+And I did it using Hashing. Time complexity O(n) and space complexity O(n)
+https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+He asked me to optimize the space complexity. I did it using the same array i.e. use the given array as a hashtable. 2-3 questions about hash tables and how they are implemented in C++ (very easy questions like time complexity and open chaining etc).
+Q2. Given a f2() function which generates the random numbers from the range (0,1) with equal probability. Can you implement f4() function which generates the random numbers from the range (0,3) with equal probability using the f2() function.
+I said we need 2 bits in binary to represent 0-3 numbers in decimal. So we can generate each bit using f2() function and finally add them with the help of the formula.
+Bit0 * power(2,0) + Bit1 * power(2,1)
+https://www.geeksforgeeks.org/implement-rand3-using-rand2/
+Q3. He seemed satisfied and asked the same question as above but with different random number functions.
+f5() was given and I had to implement f7() with the help of f5().
+https://stackoverflow.com/questions/137783/expand-a-random-range-from-1-5-to-1-7
+Q4. Then He asked me about my projects which was Online Judge System and how would scale it for millions of users. Then he asked me How is sandboxing implemented in online systems such as codechef, HackerRank etc.
+I told him the solution using multiple server instances and load balancer. Then he asked me all the problems that I’m going to face in this solution such as node failure, data inconsistency, availability, performance etc. For sandboxing implementation, I told him about the virtual machine for each input code. Execute them in separate environment with restricted resources. He was impressed with my solution.
+Q5. Then he asked me about what are the social media platforms?
+Explained it to him with ease. Then he asked me to implement Twitter.
+http://blog.gainlo.co/index.php/2016/02/17/system-design-interview-question-how-to-design-twitter-part-1/
+Another real-world example of system design (Design Twitter) –
+https://www.interviewbit.com/problems/design-twitter/
+I was asked to wait outside.
+Length of this interview round was almost 2:30 hours.
+After 5 min I was called in for HR/Managerial round.
+Round 4 (F2F HR/Managerial) –
+Basic HR questions such as tell me something about yourself, strengths and weaknesses, where do you see yourself in next coming 5 years etc.
+Verdict – Selected !! (1/14 were hired and I was the one :D)
+Suggestions –
+Prepare system design questions as well because they are as important as coding questions.
+Operating system and Database management system are the most important academic subjects so prepare them well
+Read about the company
+Ask questions after the interview is over It shows that you are really interested in company
+InterviewBit is the best source for coding questions
+geeksforgeeks is everything
+http://blog.gainlo.co/index.php/category/system-design-interview-questions/ This is the best website for all famous system design questions.
+f you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+
+

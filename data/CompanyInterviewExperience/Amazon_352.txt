@@ -1,0 +1,33 @@
+ROUND 1 (Telephonic, 70 mins):
+1. Given an array, print the greatest element on right side, for elements having no greater element print “-1”..
+2. Given a binary tree, print its boundary traversal..
+3. Given a m*n matrix, find the number of paths to reach m*n from 1*1..
+After Round 1, I was asked for In House Interview SDC Hyderabad.
+ROUND 2 F2F (60 mins):
+1. Given a mountain array and some obstacles in array, check if there is a way to reach the end cell from beginning cell..
+2. Design a phone book, make search as efficient as possible.. Only approach was required on how will we store multiple numbers, multiple websites, multiple email ids etc and how will we search efficiently.. Many approaches were discussed: Linear Search, Binary Search then TRIE.
+ROUND 3 F2F(60 mins):
+This round was easy, i think just to check my coding skills.
+1. Given an array, find one pythagoras triplet..
+2. Given a binary tree convert it to its mirror tree..
+3. Given an n-ary tree convert it to its mirror image.
+4. A 1-D puzzle. I could not answer it as only 7-8 mins were given to me, but at last Interviewer asked my approach before leaving, she said yes I am on the right track but left as Interview time was over.
+ROUND 4 F2F (Hiring Manager, 60 mins) :
+1. Asked full explanation what i am currently doing in my company.. Asked me to explain on the whiteboard..
+2. Given a large file, that cannot be loaded into the memory, with 2 fields, ItemId and its description. Entry contains the list of all items sold on amazon.in. Track the most sold item item at any instant.
+I could not answer this question efficiently, I tried to explain him with MinHeap, he then said to go ahead and code. I did, but there were some flaws. But he was satisfied with the approach i took to solve the problem.
+3. Design a network packet class.. Class designing for Request, Response and Timeout Packets..
+4. Some behavioral questions, like tell me a time when you helped a collegue, a time when you were helped, what should you improve in yourself etc..
+ROUND 5 F2F (Sr. Manager, 75 mins):
+1. Asked about my current project in full detail, many questions why do we make this product, whats the use, who uses it, for what etc..
+2. Design a contact list, full production level working code was required for all methods. How will we store the contacts, what classes will we use, how will we search.
+So we should display all the matched contacts whenever we press some characters..
+Suppose when we open contact list and it have many contacts like (….Saransh Santa Sarcastic Secular Sharma Start …… )
+So if we type S , the screen displays all contacts with “S” then when we type “Sa”, screen must display Saransh Santa Sarcastic.
+Suggestions:
+1. DO NOT mug up the code. Understand it.
+2. If stuck, ask interviewer for hints, they are very co-operative.
+3. Prepare Data Structures(especially Arrays, Trees, DP, Linked List, Stack, Queues, Strings, Heaps, Hashing for Amazon).
+4. You should be flawless at explaining what you are currently doing and your past projects, future is a reflection of past.
+At last Thank you GeeksforGeeks for helping me through this.
+

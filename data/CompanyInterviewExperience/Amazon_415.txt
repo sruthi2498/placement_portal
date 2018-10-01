@@ -1,0 +1,31 @@
+Amazon visited our campus for hiring Software Developer interns for Summer 2016. All CS and IT students were eligible. 
+Round 1 (Coding + Aptitude): 
+First round comprised of problems on OS, DS, Basic Aptitude, Algorithms, Time Complexity etc. followed by 2 coding questions on HackerRank platform
+1. Find the nth Magic Number where a Magic Number is either a power of 5 or the sum of unique powers of 5. Eg. 5,25,30(25+5),125,130(125+5),…
+2. Given a dictionary find if any possible division of the input string corresponds to strings present in the dictionary. Eg. If “i” and “like” are present in the dictionary, we need to find if the given input string(say “ilike”) can be divided such that its components are members of the dictionary.
+18 students were shortlisted after this round.
+Round 2(F2F) 
+Problem 1 Given a matrix containing 1’s and 0’s in sorted order(all 1’s should be continuous followed by all 0’s), we need to find the row which has the maximum number of 1’s.
+Your program should return row=1(1 based indexing)
+Expected complexity = O(r+c) where r is the number of rows and c is the number of columns.
+I started out with O(r*c), then optimized to O(rlogc) and finally O(r+c).
+Problem 2
+Given three points in space find if a triangle exists.
+Problem 3
+Given four points in space find if a square exists.
+Problem 4 Given points in space, how will you determine whether the points given are in clockwise order.
+All the problems required full working code for the most optimized approach.
+10 students were further shortlisted for the next round.
+Round 3(F2F)
+We initially discussed about my project including the future course that I would like to further steer my project in.
+Problem 1 Given a Binary Tree, find if it is a Binary Search Tree with constant space complexity.
+Problem 2
+Suppose there are n Petrol Stations in a circle. The difference in distance between two stations P1 and P2 is L1 and so on and so forth.
+Now, given the fact that for every unit of petrol consumed you can only walk 1 unit distance and you can move further only for positive difference between the reserve petrol and the distance that is to be traversed. . Find out if there is a vertex starting from which you can come back to the same point traversing the circle once.
+Expected Complexity O(n) I started with O(n^2) and gradually optimized it to O(n)
+(Hint: Build a reserve array such that R[i] = P[i] – L[i])
+Full working code was required in this case as well.
+After this round, 6 students were selected for internship.
+TIPS:
+All thanks to Geeksforgeeks for helping me with my preparation and for being an excellent repository of past Interview Sets.
+ 

@@ -1,0 +1,13 @@
+A node is a leaf node if both left and right child nodes of it are NULL. 
+Here is an algorithm to get the leaf node count.
+
+
+Example Tree
+Leaf count for the above tree is 3.
+Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Please write comments if you find any bug in the above programs/algorithms or other ways to solve the same problem. 

@@ -1,0 +1,4 @@
+Give a number N, print alternate fibonacci numbers till n-th Fibonacci.
+Examples:
+Read method 2 in the following article : fibonacci number 
+Approach:Using dynamic programming approach. Keep storing the previously calculated fibonacci numbers and using the previous two to store the next fibonacci number. 

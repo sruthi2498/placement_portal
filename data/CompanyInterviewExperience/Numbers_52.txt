@@ -1,0 +1,14 @@
+What should be assigned to # so that 2582#724 is divisible by 11 ?
+(A) 4
+(B) 5
+(C) 6
+(D) 7
+ Answer: (C) Explanation: For a number to be divisible by 11, the difference of the sum of numbers at even and odd places should be either 0 or a multiple of 11.
+We assume the leftmost digit at position 1.
+So, Sum of numbers at even places = 5 + 2 + 7 + 4 = 18
+Sum of numbers at odd places = 2 + 8 + # + 2 = 12 + #
+ 
+Now, to make the number divisible by 11, we equate the sums obtained in the above step.
+18 = 12 + #
+=> # = 6
+Therefore, C (6) is the correct choice.Quiz of this Question

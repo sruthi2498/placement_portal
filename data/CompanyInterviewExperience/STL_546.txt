@@ -1,0 +1,10 @@
+Given an array of n distinct elements and a number x, arrange array elements according to the absolute difference with x, i. e., element having minimum difference comes first and so on.
+Note : If two or more elements are at equal distance arrange them in same sequence as in the given array.
+Examples : 
+The idea is to use a self balancing binary search tree. We traverse input array and for every element, we find its difference with x and store the difference as key and element as value in self balancing binary search tree.  Finally we traverse the tree and print its inorder traversal which is required output.
+C++ Implementation : 
+In C++, self-balancing-bianry-search-tree is implemented by set, map and multimap. We can’t use set here as we have key value pairs (not only keys).  We also can’t directly use map also as a single key can belong to multiple values and map allows a single value for a key. So we use multimap which stores key value pairs and can have multiple values for a key.
+Run on IDE
+Output:
+Time Complexity : O(n Log n)
+Auxiliary Space : O(n)

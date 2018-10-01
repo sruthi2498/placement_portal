@@ -1,0 +1,27 @@
+Salesforce, Hyderabad recently visited our campus for interns and FTEs. The process was quite similar for both the roles. I appeared for FTE role.
+Round 1: Online Round (Hosted on Hackerrank | Duration: 1 hour) 
+The online round consists of 10 MCQs and 2 coding questions.
+MCQs were asked from Data Structures and Algorithms, Operating Systems and DBMS. They were of easy complexity. (+1 for a correct answer and -0.25 for an incorrect answer)
+The coding questions were similar to the following two problems:
+a) Palindrome by swapping only one character ( https://www.geeksforgeeks.org/palindrome-by-swapping-only-one-character)
+b) Find the number of days between two dates ( https://www.geeksforgeeks.org/find-number-of-days-between-two-given-dates )
+Both problems were of 10 marks each and consisted of 4 test cases (each of 2.5 marks)
+14 students were shortlisted after this round.
+Round 2: First Technical Interview (around 1 hour)
+A quick introduction and basic CV based questions.
+Some of the problems asked were similar to the following problems:
+a) Given a sorted array (sorted in non-decreasing order) of positive numbers, find the smallest positive integer value that cannot be represented as a sum of elements of any subset of given set. (https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/)
+b) Consider a matrix with rows and columns, where each cell contains either a ‘0’ or a ‘1’ and any cell containing a 1 is called a filled cell. Two cells are said to be connected if they are adjacent to each other horizontally, vertically, or diagonally. If one or more filled cells are also connected, they form a region. find the length of the largest region. ( https://www.geeksforgeeks.org/find-length-largest-region-boolean-matrix/ )
+c) Another problem similar to m coloring problem
+d) Convert a binary tree to DLL (https://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/)
+You can be asked to write fully executable code on the sheet as well.
+9 students were shortlisted for the next round.
+Round 3: Second Technical Interview (around 1.5 hours)
+This interview was entirely based on System Design, OOPS Concepts and some were asked questions on OS ( Virtual Memory, Thrashing, LRU etc.).
+Some System Design problems that were being asked were Uber Pool, Swiggy, Banking System that inputs a list of transactions and tells top 5 customers at any point in an optimized way.
+Try to make this interview as interactive as possible by constantly engaging the interviewer as you go along with the problem, discuss with him/her how you are approaching towards the solution and share your thought process as well.
+They might ask you to write the class/data structure with proper variables and some functions as well.
+Round 4: HR Round
+This was a quick round of hardly 5-10 minutes interaction and very basic questions. Only 4 students were called for this round.
+Only those 4 were selected finally.
+Thanks to geeksforgeeks for helping me with preparation.

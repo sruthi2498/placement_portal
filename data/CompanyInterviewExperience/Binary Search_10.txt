@@ -1,0 +1,11 @@
+Given an array of N elements and an element K, find the index of an array element in Java. 
+Examples: 
+An element in an array of N integers can be searched using the below-mentioned methods. 
+Below is the implementation of the linear-search approach: 
+Run on IDE
+Below is the implementation of Binary search.
+Run on IDE
+Below is the implementation of Guava.
+Run on IDE
+Below is the implementation of Stream API approach. 
+Run on IDE

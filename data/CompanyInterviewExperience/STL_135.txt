@@ -1,0 +1,5 @@
+The map::emplace_hint() is a built-in function in C++ STL which inserts the key and its element in the map container with a given hint. It effectively increases the container size by one as map is the container that stores keys with the element value. The hint provided does not affect the position to be entered, it only increases the speed of insertion as it points to the position from where the search for the ordering is to be started. It inserts in the same order which is followed by the container. It works similarly to map::emplace() function but is at times faster then it if the user provides position accurately. It does not insert the key with the element if it is already present in the map container as the map stores unique key only. 
+Syntax:  
+Parameters: The function accepts three mandatory parameters key which are described as below: 
+Return Value: The function does not return anything.   
+Run on IDE

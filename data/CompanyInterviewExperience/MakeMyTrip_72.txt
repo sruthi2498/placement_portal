@@ -1,0 +1,20 @@
+Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] in txt[]. You may assume that n > m. 
+Examples: 
+Pattern searching is an important problem in computer science. When we do search for a string in notepad/word file or browser or database, pattern searching algorithms are used to show the search results. 
+We have discussed Naive pattern searching algorithm in the previous post. The worst case complexity of the Naive algorithm is O(m(n-m+1)).  The time complexity of KMP algorithm is O(n) in the worst case.
+KMP (Knuth Morris Pratt) Pattern Searching
+The Naive pattern searching algorithm doesn’t work well in cases where we see many matching characters followed by a mismatching character. Following are some examples.
+The KMP matching algorithm uses degenerating property (pattern having same sub-patterns appearing more than once in the pattern) of the pattern and improves the worst case complexity to O(n). The basic idea behind KMP’s algorithm is: whenever we detect a mismatch (after some matches), we already know some of the characters in the text of the next window. We take advantage of this information to avoid matching the characters that we know will anyway match.  Let us consider below example to understand this.
+Preprocessing Overview:
+Note : lps[i] could also be defined as longest prefix which is also proper suffix. We need to use properly at one place to make sure that the whole substring is not considered.
+Searching Algorithm:
+Unlike Naive algorithm, where we slide the pattern by one and compare all characters at each shift, we use a value from lps[] to decide the next characters to be matched. The idea is to not match a character that we know will anyway match.
+How to use lps[] to decide next positions (or to know a number of characters to be skipped)? 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Preprocessing Algorithm:
+In the preprocessing part, we calculate values in lps[]. To do that, we keep track of the length of the longest prefix suffix value (we use len variable for this purpose) for the previous index. We initialize lps[0] and len as 0.  If pat[len] and pat[i] match, we increment len by 1 and assign the incremented value to lps[i]. If pat[i] and pat[len] do not match and len is not 0, we update len to lps[len-1]. See computeLPSArray () in the below code for details.
+Illustration of preprocessing (or construction of lps[])

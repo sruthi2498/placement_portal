@@ -1,0 +1,17 @@
+Vectors are known as dynamic arrays which can change its size automatically when an element is inserted or deleted. This storage is maintained by container.
+The function alters the container’s content in actual by inserting or deleting the elements from it. It happens so, 
+Syntax:
+
+Parameters:
+Return value:
+Exception:
+Below programs illustrate the working of the function
+ 
+Run on IDE
+Output:
+ 
+Run on IDE
+Output:
+ 
+Run on IDE
+Output:

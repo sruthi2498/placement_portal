@@ -1,0 +1,32 @@
+Procedure: 1 written test, 1 paper coding round, 2 technical + HR round.
+1st Written Test: This was really a good written test including C/C++, OS , aptitude, DS and Algo.
+2nd Written Test: There were 7 coding question in 45 min 😀
+1. You are given two strings like where first string is like “a?b$c+ “, here A? means either A comes zero time or more than one time B$ means either B comes one time or not occur C+ means either C comes zero time or more than one time. The second string is a normal string, check whether the second string follows the first string pattern. 
+2. You are given a M x N matrix of non-negative integer, you need to find a square K x K matrix such that sum is maximum in that square matrix. (0<=K<=M,N)
+
+3. WA procedure to delete Kth node from front and from end. (when you delete from front then in reaming you need to delete from end). 
+
+4. How will you design Tic-Toc game?
+
+5. You are given random() function which return a random number from 1 to 5 now you need generate random number using these function from 1 to 7 with having equal probability of occurring of numbers b/w 1 to 7 .
+
+Rest I forget 🙁
+
+I was the topper of this written test.
+
+1st interview Round 
+They start asking me some general question like about myself, area of interest. About my project in detail, they also told me to write a parallel sorting procedure
+[bec. my project was on parallel computing]
+1. Design parking slot.
+2. Design Library (books management), which DS will you use?
+3. You are given a matrix of integers and your task to find an element which is maximum in the row and minimum in column.
+4. Discussion on 2nd written test questions.
+5. Discussion on Cloud computing and how will implement it.
+6. Where you use cloud computing in daily life.
+7. What you know about java. How much time will you take to learn java? How java is better than C++, where java is appropriate as compare to C++ and where C++ is more appropriate then java. Write a sample code in java to perform task (question no. 3)
+Rest I forget, there were two more questions on Real life application.
+2nd Interview Round
+This was coding round with one more candidate (he was my classmate). Following question need to be code
+1. You are given a matrix such that it is sorted in row as well in column. You need to find an element “k” in it with minimum complexity. 
+2. A sorted, rotated array was given and need to find an element in it (he was surprised when I wrote that code in single scan in O(logn) time complexity).
+Hurray, I got Placed. 🙂

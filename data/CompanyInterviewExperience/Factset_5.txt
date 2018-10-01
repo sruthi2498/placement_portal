@@ -1,0 +1,7 @@
+Given a matrix, the task is to construct a linked list matrix in which each node is connected to its right and down node.
+Example:
+A recursive solution for this problem has been already discussed in this post. Below is an iterative approach for the problem:
+
+Below is the implementation of the above approach: 
+Run on IDE
+Time complexity:  O(M * N)

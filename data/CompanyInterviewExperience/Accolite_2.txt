@@ -1,0 +1,31 @@
+Almost all branches were eligible. Online Test (OT) was conducted from their own website edu thrill. Around 550 people gave the test. The test was around 60 mins with questions from general OS, DS, DBMS, Algorithm and Aptitude topics to the best of my knowledge. The trick was to give answers quickly as there was a timer for each question. The no of marks you scored depends on how quickly you answered the question.
+Everyone who scored above 190-200 and had a good resume was called for direct interviews and the rest were called for another written coding test. In the coding test, they asked Remove BST keys outside the given range question.
+Round 1: 
+” Tell me something about yourself !”
+No questions from Resume. Main Focus on Data Structures, Algorithms and Problem Solving.
+” What is your favorite topic ?”
+I told him stacks and queues. He asked a few general questions that used stacks and a few traps that could be solved easily without stacks. I was using Stacks in all of them but he was sweet and kept on giving me hints to optimize some of them without using Stacks.
+He asked me Minimum Number of Platforms Required for a Railway Station problem. It was a new problem for me but I had solved a similar problem Find the point where maximum intervals overlap. So, I told him sorting based solution. He was happy with it and asked me to code it.
+He asked me to find the height of a binary tree when the leaves of a Binary tree form a doubly linked list (Figure attested). The trick was to identify the base case for a recurring solution.
+
+The method will recur until ((root.left.right==root) || (root.right.left==root)). He was overall impressed and the interview went on for about 75 mins.
+Round 2:
+
+” Tell me something about yourself !”
+” What all Projects have you worked on ?”
+
+He gave me this problem where I had to find the maximum number of connections I can make without any connection intersecting each other. E.g. Fig 1 has 3 (max) connections but Fig 2 has only 2 connections. I started solving using Bipartite graphs and ended up telling a simple loop-based solution. The key was to keep interacting with him.
+He then asked me Find top k (or most frequent) numbers in a stream question. He grilled me on optimizing it as much as possible. I told him O(k log(k)) time and O(k) space complexity solution.
+He later asked me to solve Minimize Cash Flow among a given set of friends who have borrowed money from each other problem inspired by the Splitwise app. I first gave a solution using DFS but it failed for some complicated test cases. I couldn’t optimize it further. He was overall satisfied and the round went on for another 75 mins.
+Round 3:
+Round 3 was a Skype interview with a manager in Accolite. It was a coding/design round. He asked me some basic questions and then he gave me a problem to solve based on one of my projects I did in a stock market simulation app.
+He said that I had to design a system that can handle multiple stock feeds (providing company name, stock price, timestamp, etc). He later defined a nominal value which was the sum of all companies total stock worth (No of Stocks owned x Stock Price at a given timestamp) at every given timestamp.
+I told him some distributed system and DBMS techniques to handle it quickly but he wanted to know how I’ll handle it using complex data structures and algorithms. So, I defined a few data structures and told him multiple hashing based solution. He was impressed and asked me to code it. The round went for 90 mins.
+HR:
+Generic HR questions. Keep calm and this will be a piece of cake.
+” Tell me something about yourself !”
+“Why Accolite ?”
+“Do you have any questions for us ?”
+Accolite mostly focuses on problem-solving skills, data structure, algorithms and programming skills. Interviewers were very helpful but the process was tough.
+3 people got selected.
+This article is contributed by Aman Singh Thakur.

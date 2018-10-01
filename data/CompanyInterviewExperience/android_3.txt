@@ -1,0 +1,54 @@
+Android Studio is the official integrated development environment for Google’s Android operating system, built on JetBrains’ IntelliJ IDEA software and designed specifically for Android development.
+
+Installation guide:
+
+
+Click on the “I have read and agree with the above terms and conditions” checkbox followed by the download button.
+
+Click on Save file button in the appeared prompt box and the file will start downloading .
+
+After the downloading has finished, open the file from downloads and run it .
+It will prompt the following dialogue box .
+
+Click on next .
+In the next prompt it’ll ask for a path for installation. Choose a path and hit next.
+Note :The installation path should have the required minimum space.
+
+It will start the installation, and once it is completed, it will be like the image shown below .
+
+Click on next .
+
+
+Once “Finish” is clicked, it will ask whether the previous settings needs to be impoerted [if android studio had been installed earlier], or not.
+It is better to choose the ‘Don’t import Settings option’ .
+
+Click the OK button.
+
+This will start the Android Studio.
+
+Meanwhile it will be finding the available SDK components .
+
+
+After it has found the SDK components, it will redirect to the Welcome dialog box .
+
+Click on next .
+
+Choose Standard and click on Next.
+Now choose the theme, whether Light theme or the Dark one .
+The light one is called the IntelliJ theme whereas the dark theme is called Darcula .
+Choose as required.
+
+Click on the Next button
+
+Now it is time to download the SDK components .
+
+Click on Finish .
+
+It has started downloading the components
+
+The Android Studio has been successfully configured.
+Now it’s time to launch and build apps.
+Click on the Finish button to launch it.
+
+Click on ‘Start new android project’ to build a new app.
+

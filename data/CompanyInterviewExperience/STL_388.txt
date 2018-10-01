@@ -1,0 +1,12 @@
+random_shuffle 
+It randomly rearrange elements in range [first, last).
+The function swaps the value of each element with some other randomly picked element. When provided, the function gen determines which element is picked in every case. Otherwise, the function uses some unspecified source of randomness.
+Run on IDE
+Output:
+shuffle
+Rearranges the elements in the range [first, last) randomly, using g as  uniform random number generator.
+The function swaps the value of each element with that of some other randomly picked element. The function determines the element picked by calling g().
+Run on IDE
+Output:
+What is the difference between shuffle and random_shuffle c++?
+Shuffle:

@@ -1,0 +1,37 @@
+Google Kickstart, formerly known as APAC is a test designed to hire people who are looking for a career in Google. The major difference between its former form and Kickstart is that there will be more testing rounds than before and is targeted to any age group rather than graduating students.
+Designed to hire the best minds of Asia Pacific region, the test primarily focuses on problem solving abilities, Data Structures and algorithms. Preparing for Kickstart involves getting familiar with its judging environment because it is quite different from other problems.
+Format
+
+
+ 
+Getting familiar with the Judging Environment
+When you have coded the problem and want to submit it for small inputs, download the text file, as soon as the file is downloaded a timer of 4 min starts and you have to run your inputs over your code and upload the text file within the time limit.
+You will immediately get to know if your submission was correct .
+In case of more than 1 submissions, the submission which fetched the most points first (small or large) will be considered and a penalty will be awarded for wrong submissions. Each time you download the file, a new set of test file is generated.
+Submitting for large inputs, a timer of 8 minutes start and you have to submit your code and output file along with it within the time limit but in this case the output file will remain the same in contrast to the small inputs.
+To get acquainted with the environment, please refer this QuickStart guide .
+Preparation Strategy
+Google kickstart heavily focuses on proficiency in Data Structures and Algorithms and to prepare for it is not an easy task but sure an enjoyable one. This article is written assuming that the reader has a mild experience in  programming because only then he/she is aiming for a career.
+Brushing up the basics: Solve various easy-medium level problems so you grasp the important small tips and tweaks. This will also increase your efficiency, accuracy and speed.
+Solving many problems from here will build up your base
+What to study?
+a) Learn Number Theory
+b) Greedy algorithms: Although questions from greedy are seldom asked but are important as they lay foundation for various algorithms. Refer this to find greedy algorithm problems.
+c) Binary Search: Is a very important tool when it comes to problem solving and problems based on it are asked repetitively. Good articles to be read:
+d) Graphs: Google kickstart is an easy-medium test hence basic-medium level questions from the graphs can be asked. Do practice questions based on: DFS, BFS, Dijkstra, Flloyd Warshall, MST and flow problems.
+Practice Questions on Graph
+e) Dynamic programming: Although variety of questions can be designed from the DP domain but fairly easy to medium questions are predicted. Practice DP a lot and do read:
+f) Divide and Conquer : This topic also helps solving problems in KickStart.
+g) More Advance Topics:
+Though problems from advanced data structures are seldom asked do read about Trie, BIT tree, BST. Also read:-
+Extra Pointers
+All the best!!
+
+
+
+
+
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        
+
+

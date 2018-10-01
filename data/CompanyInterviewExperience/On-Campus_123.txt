@@ -1,0 +1,41 @@
+Round 1:
+Online Test Platform – aspireminds
+section 1 : 7 code snippets – some corrections to be made in each of the code snippet (Total time 20 minutes) I did 6 out of 7.
+section 2 : 10 Aptitude questions (Age, Relations, Boat, etc) No negative marking. I solved 8/10 well. Make sure to do well in each section as there is sectional cutoff (20 Minutes)
+section 3 : 3 coding questions (60 minutes)
+Q.1 – given 2D matrix with 1’s and 0’s and location of queen. start from top left and find if queen location can be reached. 1 indicate you can move to that cell 0 indicate you can not move to that cell.
+Q.2 – related to array partition
+Q.3 – given x, y co-ordinates of points find minimum number of points that can be joined so that boundry formed by them will cover all the points inside that boundry.
+Make sure you solve minimum 2 questions in this section.
+32 students were shortlisted after written test.
+Round 2: 
+F2F Technical round (two on one)
+1.They picked one project from resume and started discussion on it for few minutes.(You should be clear about your project flow and about your contribution in it).
+2.In depth discussion on stack and queue. Then one question implement queue using stack(complete code), another one
+reverse string using queue(complete code + dry run), remove duplicates from array except its first occurance.
+3.Hashmap implementation, various hashing techniques (Be clear with stack, queue, hashmap).
+4.asked me to explain almost all object oriented concepts with real world example.
+5. Few questions on keywords like final(C), finally(java), public, private, protected
+these are the questions I remember from first round.Then they asked me if you have any questions.
+I asked about profile work, Technical analyst Program(TAP), work culture etc.It was almost 45-50 minutes.
+After first round 12 out of 32 were shortlisted.
+They made two groups of 6 each for group activity round.
+Round 3: 
+Group Activity Round
+In this round you will be given around 30 minutes of time and you have to come up with an idea that will be you product. you will have to divide work, make charts and follow some guidelines which they will tell. In last 5 minutes you have to present it. 4-5 very high profile people from Morgan come for this round. They sit around you while you are doing all this, observe you and make some notes. No one was eliminated from this round. (Try to come up with ideas and discuss politely).
+ 
+Round 4 : 
+System Design Round
+First Question :
+Design Railway Ticket Booking System – lot of discussion. I had to write various classes with their attributes and methods. Relation between those classes etc
+Second Question :
+Design feature of cart for E-commerce website
+Third Question :
+Design system where different types of procedure will invoked based on the file type retrieved fro database to server for processing.
+Round 5 : HR Round
+In this round VP read each and every word of my resume and asked me lots of questions on it. Do not fake anything here.Make sure you are aware of each and every word of your resume. He had long list of typical HR questions which he was asking one by one and writing something on one paper he had.This went on for almost 35-40 minutes. All 12 people were called HR round.
+ 
+Round 6 : Technical Round
+Out of 12 only I was called for one more technical round(Reason could be – My system design round wasn’t good enough).
+Only one question. Complete logical implementation of Splitwise. Lot of discussion. I came up with O(n*2) solution then O(nlogn) . He asked me to do everything on fly. No databases involved. Finally he was happy with the solution I provided.
+Out of 12, 3 got Internship offer + full time and 4 got Internship offer and I was one of them.

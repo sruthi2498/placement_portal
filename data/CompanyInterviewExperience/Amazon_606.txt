@@ -1,0 +1,11 @@
+Given an unsorted integer (positive values only) array of size ‘n’, we can form a group of two or three, the group should be such that the sum of all elements in that group is a multiple of 3. Count all possible number of groups that can be generated in this way.
+The idea is to see remainder of every element when divided by 3. A set of elements can form a group only if sun of their remainders is multiple of 3.
+For example : 8, 4, 12. Now, the remainders are 2, 1, and 0 respectively. This means 8 is 2 distance away from 3s multiple (6), 4 is 1 distance away from 3s multiple(3), and 12 is 0 distance away. So, we can write the sum as 8 (can be written as 6+2), 4 (can be written as 3+1), and 12 (can be written as 12+0). Now the sum of 8, 4 and 12 can be written as 6+2+3+1+12+0. Now, 6+3+12 will always be divisible by 3 as all the terms are multiple of three. Now, we only need to check if 2+1+0 (remainders) is divisible by 3 or not which makes the complete sum divisible by 3.
+Since the task is to enumerate groups, we count all elements with different remainders.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)

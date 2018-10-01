@@ -1,0 +1,19 @@
+Given a number n, we need to find the last two digits of 2n.
+Examples:
+A Naive Approach is to find the value of 2^n iteratively or using pow function. Once the value of 2^n is calculated, find the last two digits and print it. 
+Note: This approach will only work for 2n within certain range, as overflow occurs. 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Efficient approach: The efficient way is to keep only 2 digits after every multiplication. This idea is very simiar to the one discussed in Modular exponentiation where a general way is discussed to find (a^b)%c, here in this case c is 10^2 as the last two digits are only needed.
+Below is the implementation of the above approach. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(log n)

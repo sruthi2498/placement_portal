@@ -1,0 +1,13 @@
+Given a string s we need to tell minimum characters to be appended (insertion at end) to make a string palindrome. 
+Examples:
+
+The solution can be achieved by removing characters from the beginning of the string one by one and checking if the string is palindrome or not. 
+For Example, consider the above string, s = “abede”. 
+We check if the string is palindrome or not. 
+The result is false, then we remove the character from the beginning of string and now string becomes “bede”.
+We check if the string is palindrome or not. The result is again false, then we remove the character from the beginning of string and now string becomes “ede”.
+We check if the string is palindrome or not. The result is true, so the output becomes 2 which is the number of characters removed from the string.
+Run on IDE
+Output:
+Related Article : 
+Dynamic Programming | Set 28 (Minimum insertions to form a palindrome)

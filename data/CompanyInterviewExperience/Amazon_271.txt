@@ -1,0 +1,11 @@
+Given a 2D Matrix of order n X m , print K’th element in spiral form of matrix. See the following examples.
+Examples:
+
+Simple Solution:
+One simple solution  is to start traversing matrix in spiral form Print Spiral Matrix and start a counter i.e; count = 0. Whenever count gets equal to K, print that element. Time complexity for this approach will be O(n^2).
+Efficient Solution:
+We will consider only edge of the matrix at a time and then do recursion for the sub matrix made by removing edges of main matrix.
+Run on IDE
+Output:
+Time Complexity : O(c) where c is number of outer circular rings with respect to k’th element.
+Space complexity: O(1)

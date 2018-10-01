@@ -1,0 +1,30 @@
+Round 1: Telephonic Interview with Principal Engineer MakeMyTrip:
+Q1. Difference between Spark dataframe and rdd and which one is better ?
+Q2. Given a two relational tables and ask me to write a sql query as well as spark code for that.
+Q3. CAP theorem and which part of CAP theorem Hbase, HDFS & Cassandra follows ? Explain with reason.
+Q4. Options and traits in scala.
+Q4. Factory methods in scala.
+Q5. Spark repartitioning vs coalesce and when to use them ?
+Q6. Checkpointing in HDFS.
+And some questions on spark-sql as well. Well I answered more than 80% questions and interviewer was satisfied with at the end of the interview.
+Round 2: F2F at MakeMyTrip gurgaon office with Data Engineering Panel:
+Q1. You have two files in hdfs one having date range with two columns start date and end date and another having two column with date and visitors field. You have to write a spark code which gives date range having maximum no. of visitors using that two files.
+Q2. Spark Catalyst Optimizer architecture.
+Q3. Why do we use Options to remove null from Scala? What is the advantage of that ?
+Q4. Scala is statically typed or dynamically typed.
+Q5. Apache Kafka architecture and write a code to integrate it with spark streaming.
+Q6. Dstreams in Spark Streaming and various operations you can apply in dstreams.
+Q7. SQL query to find nth highest salary department wise.
+Q8. Justify CAP theorem.
+I have given solutions of most of the problems and hr asked me to wait for next round.
+Round 3: This round is based on Data Modelling. Interviewer gave me a board-marker & opened MakeMyTrip app in his mobile then he asked me to create data models for each page starting from booking page to hotel listing page followed by transaction page at the end.
+I have designed data models for each page then he gave me 3 aggregations query and want me to further optimize my model so that there is minimum response time for those queries.
+Then he told me to designed a data flow on the  basis of data model I have created earlier. I used kafka as a centralised service and created topics for each page(model) and suggested him a solution. He was impressed with the solution and told me to wait for HR.
+ 
+Round 4: It was a zoom meeting with tech lead and he asked me few questions:
+Q1. What are the various challenges I faced in my previous company.
+Q2. Best data analysis you have ever done.
+Q3. Git rebase vs merge.
+Q4. Why do we need zookeeper in hbase ?
+Q5. What are my skill sets ?
+After completing that round I got the call from HR that you have been selected.

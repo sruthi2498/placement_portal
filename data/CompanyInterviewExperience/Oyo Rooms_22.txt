@@ -1,0 +1,15 @@
+Round 1:
+2 coding questions:
+1. Given an array, find an element before that all elements are smaller than it, and after that all are greater than it. return index if any such item is present. otherwise return -1.
+2. Given a binary tree. Print bottom view from left to right.
+Bottom View of a Binary Tree
+
+Round 2:
+Discussed round 1 solutions.
+1. Print a linked list in zigzag order.
+e.g. 1->2->3->4->5 output should be : 1, 5, 2, 4,3
+Hint: you can modify the list
+2. There is incoming stream of integers. You have to continuously find kth largest element.
+3. A knight is present at initial position (i,j) in a nxn matrix. you have given a destination position (x,y). Find out minimum number of moves in that knight can reach to destination.
+Round 3:
+

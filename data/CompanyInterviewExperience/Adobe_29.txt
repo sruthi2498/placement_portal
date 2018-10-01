@@ -1,0 +1,55 @@
+Given a binary number as input, we need to write a program to convert the given binary number into equivalent decimal number.
+Examples :
+
+The idea is to extract the digits of given binary number starting from right most digit and keep a variable dec_value. At the time of extracting digits from the binary number, multiply the digit with the proper base (Power of 2) and add it to the variable dec_value. At the end, the variable dec_value will store the required decimal number.
+For Example:
+If the binary number is 111.
+dec_value = 1*(2^2) + 1*(2^1) + 1*(2^0) = 7
+Below diagram explains how to convert ( 1010 ) to equivalent decimal value:
+
+Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Note: The program works only with binary numbers in the range of integers. In case you want to work with long binary numbers like 20 bits or 30 bit, you can use string variable to store the binary numbers.
+Below is a similar program which uses string variable instead of integers to store binary value:
+
+Run on IDE
+Run on IDE
+// C# program to convert binary to
+// decimal when input is represented
+// as binary string.
+using System;
+class GFG
+{
+// Function to convert binary to decimal
+static int binaryToDecimal(String n)
+{
+	String num = n;
+	int dec_value = 0;
+	// Initializing base value to 1,
+	// i.e 2^0
+	int base1 = 1;
+	int len = num.Length;
+	for (int i = len – 1; i >= 0; i–)
+	{
+		if (num[i] == ‘1’)
+			dec_value += base1;
+		base1 = base1 * 2;
+	}
+	return dec_value;
+}
+// Driver Code
+public static void Main()
+{
+	String num = “10101001”;
+	Console.WriteLine(binaryToDecimal(num));
+}
+}
+// This code is contribute by mits
+Run on IDE
+

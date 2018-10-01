@@ -1,0 +1,34 @@
+Online Coding Round :
+This round was conducted on Cocubes. There were 3 coding questions for which time alloted was 75 minutes. There were various sets of questions .My questions were:
+1. Given a string, the task is to find the average of ASCII values of characters in the string .
+2. Intfix evaluation.
+3. Cousin sum of a binary tree .
+Other questions were:
+1.Next smallest palindrome.
+2.Given a number in form of string containing n digits .Find the smallest string after m deletions.
+3.Reverse a Linked List in groups of given size
+Round 2: 
+This  round was a pen paper round .Questions included 7 short answer question based on C and data structures  and a coding question was there .All short questions were mandatory.
+https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+Short questions were easy just read the question carefully 🙂 because chances of silly mistake were there .
+Interview I :
+In this round questions asked with me were:
+1.Implement three stacks in an array such that space is well utilized.
+2.I was given a min heap and was asked to code for converting it to max heap .(I had to write a clean a code and dry run it on  a given  array representation of heap);
+3. I was given a 2’s complementary binary representation of  a number and I had to convert it into decimal.
+After that normal questions on data structures were asked like amortized time to built a heap and to proof it .
+Interview 2:
+This was the round I liked the most so I want to elaborate it .In this round interviewer  asked me about what questions were asked in previous interviews, my favourite data structure for which I replied trees and then why I like trees etc.Basic questions on trees.
+Then I was asked to implement  a text editor (basically optimally perform a pattern search after any number of string deletion or insertion from a given text file).This round fully revolved around this question .
+At first I started with a brute force solution just searching the pattern starting with every index position.I was asked to write the code for this. Further I suggested KMP algorithm search .But the interviewer wanted something out of my mind not an already present algorithm or such and asked me also if I can optimize it further .After sometime I came up with  building a suffix tree thus the search time was just reduced to length of the string but the space complexity was huge in worst case and after every insertion or deletion I had to build the whole tree again.The interviewer was impressed with this but asked me to optimize it further . Later I thought to implement it with a structure containing a set for each character and store the index of occurence of each character in this set and suggested to run dfs for searching the pattern (Thus the space complexity was reduced to  O(n) ).The interviewer was impressed with the approaches I tried .Later he asked me have I any question  for him.
+TIPS : Always discuss the first solution which come in your mind whatever be the complexity then proceed to think for the optimized one.
+Interview 3:
+This was the last round . I was asked to introduce myself .Then what are my interests and what do I want to see myself in coming future, my achievements etc.
+Then I was asked  questions based on C/C++.Like basic features of OOP( a real life example where inheritance can be used), difference between function and macro( a program was given to me based on macro and I had to find what output will be ).Types of polymorphism .
+Coding questions were asked  for which I had to give logic (no code was required ).Out of these I knew one question from before so I told him that I knew it and he changed the problem .One of the question was finding a number in sorted and rotated array.
+Later he asked me have I any question  for him.
+6 students got internship and I was one of those.
+TIPS :Remain honest through out the interview .Inteviewers just want to see how you approach to  an unknown problem so dont think that complexity of my solution is too much .Discuss with the Interviewers whatever you are thinking . Some students were asked puzzles also (You can find sample ones at geeksforgeeks puzzles section).
+ 
+THANKS FOR READING .
+@sid 🙂

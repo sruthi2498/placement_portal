@@ -1,0 +1,83 @@
+This year Mentor Graphics came to our campus for hiring again.There were about 40-45 students of CST, ETC, IT who were shortlisted based on their CGPA.
+There were three rounds in total.
+Round 1:(Written Test)
+Duration was 90 minutes.It had three sections.
+a.Software
+b.Digital
+c.Analytical
+a.Software portion had the following questions:
+1.
+Identify any problem with this code and explain. Link
+What is the sizeof this struct in 32 bit and 64 bit machines.
+3.Write code to find mirror of a tree. Link 
+4.Given an array left rotate all the elements by 1.
+e.g:Input:a b c d e f
+Output:b c d e f a
+5.Code to Find height of a tree.
+6.Shift all the zeros of an array to right side in O(N). Link
+7.Given an infix expression, construct an expression tree from it and evaluate the expression. Similar to this.
+8.Finding the minimum length sub array with sum greater than given value of an array with positive integer elements in better than O(N^2) complexity. Link 
+First 6 questions had 1 mark and the last 2 were of 2 marks.
+b.Digital section had questions like :
+1.Re create a given circuit using only 2 input NAND gates.
+2.Realise a Boolean expression using mux.
+3.2 bit serial addition of 2 numbers using 2 input NOR gates.
+4.Given a circuit minimize the number of gates used to make that circuit.
+There were more circuit related questions but I do not remember them now.
+c.Analytical section had 10 questions, some of them were:
+1.Move 4 matches from a given figure to make 3 squares.
+2. http://puzzles4you.blogspot.com/2015/03/4-tablets-puzzle.html
+3.Crack the code. Link
+4. A and B decide to meet in some place between 1 and 2 pm .Both of them will not wait for the other for more than 15 minutes.What is the probability they will meet?
+5.In how many ways a four digit number divisible by 5 can be made using five digits(0, 5, 7 etc) with and without repetition.
+6.A thinks 100 lines of code in 5 minutes and types 100 lines of code in 10 minutes.After every 10 minutes, he takes a 5 minute break.How many lines of code will he type in 100 minutes?
+7.There are 32 teams in a knockout tournament.At least how many matches are required to get the champion and the true 2nd place team?
+Also there were some more puzzles.
+Round 2:(Technical Interview)
+11 of us were shortlisted for the first technical round interviews.There were two panels each with 2 interviewers.One panel had 6 students and other had 5.
+I was the first in the second panel.I was asked the following questions:
+1.Can a variable be declared void in C?
+2.Virtual functions in C++.What happens if we assign derived class address to base pointer but do not declare the class virtual, which function will be called?
+3.VPTR and VTABLE in C++
+4.Pointer Arithmetic
+5.
+What is the problem with this code, if any.
+This code compiles without an error but generates segmentation fault when executed.
+6.Difference between const pointer and pointer to a const with syntaxes.
+7.Private Constructor in C++, how a class with C++ constructor can be instantiated?
+I told them about the Friend function using C++, but they wanted the general standard solution which I didn’t remember at that moment.
+8.There is an array filled with only 0, 1 and 2s which are distributed.How to sort them efficiently so all the 0s come first, then 1s and then 2s.
+I told them about the solution using three counters for 0, 1, 2 and then print 0, 1, 2s accordingly and they were happy.
+9.Then I was asked about the only non repeating character in a string only consisting of alphabets.I told them the solution which uses extra space by maintaining an array.Then they told me to better the solution by not using extra space like hash maps or array which I could not do.
+10.I was then asked about Virtual memory in OS.
+11.Then I was asked to implement AND gate using 2:1 mux and also if any circuit can be realized using mux.
+12.The last question was given a D flip-flop I have to devise some logic the output is a clock which has time period 2 times that of the input clock signal of D flip-flop.
+The interview went for around 40-45 minutes.For the coding questions I didn’t have to write anything only the logic was enough.
+Round 3:(Technical+HR)
+6 of us were selected for this round and the panels were swapped i.e whoever had Panel 1 in the previous round had to go to Panel 2 and vice versa.
+First there was technical round which had questions like:
+1.What are the different parts of a computer?I told him about CU, ALU and the Von Neumann architechture.
+2.Difference between RISC and CISC.
+3.Different stages of pipeline of an instruction.How pipeline is better?
+4.Write a function which returns a unique valid identifier every time it is called.Here identifer means variable names, function names etc i.e what compiler treats as identifier.
+I told them I’ll generate a character randomly from a-z then concatenate with the system time.They were happy with this approach.
+5.Changing a bit of an integer. Link
+6.Calculating m^n efficiently. Link
+I was asked about the no.of multiplications in my solution.
+7.Difference between O(n) and O(n^2).If one is 0.01n and other is 0.00002n^2 then the later is better for small values of n then how can we say O(n) is better?
+I told them that for real life problems input size will be much greater and O(n) will be better then.
+8.Given input output and the program how to know the time complexity of the program without using analysis?
+I said we have to identify the main operation for the program like for sorting the operation is comparison and then keep a count of operations performed and then we can have relation b/w no.of operations and input size which will be the complexity.
+9.Given only input output how to know the time complexity of the program?
+I told them we can plot the time to get the desired output as a function of input size and get an approximate of the time complexity.
+10.Difference between buffer and latch, flipflop and latch.
+11.What is Cache Memory and why is it used?
+12.If a programmer knows how to reduce cache misses and the locality of the reference can he write code that will have minimum no of cache misses?
+I told them I was not sure but it can be done I think.Then he told me that yes it can be done and there’s a long theory behind it.
+13.I was asked about what projects I did using C/C++ and rate myself out of 10.
+14.I was asked about what machine learning algorithms I used as I had done an online course on it.
+15.Last question was given a digital serial bit stream if there is odd number of 1s then output 1 and else output 0 using some logic circuit.First it was for 6 serial bits and then he told me to do it for 2.I was having problems so he told me to draw the truth table and just after writing 1 case I told him it’ll be XOR circuit and then he told me to do it for 3 or 4 and I told him that all you have to do is XOR the bits.Then the HR madam asked me some questions like what do my parents do, why did I choose CS, am I fine with moving to Noida for the job etc.
+This technical and HR took almost an hour.
+After 15 minutes of waiting after this round had finished, they told me that I was selected along with two others.It was a very happy moment for me.
+To all my juniors in IIEST Shibpur, I would like to say, prepare the basic concepts of data structure specially linked list and trees and OOPS concepts. GeeksForGeeks articles are enough for this.When I was waiting for my interviews I had like 40-50 tabs of GeeksForGeeks open in my google chrome browser.Best of luck and prepare well.
+This article is contributed by Rajdeep Maity.

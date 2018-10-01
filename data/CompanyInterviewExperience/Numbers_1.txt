@@ -1,0 +1,5 @@
+Given an integer N greater than 2, the task is to print any combination of a, b and c such that:
+Examples:
+A naive approach is to use three loops and check for the given condition. 
+Below is the implementation of the above approach:
+

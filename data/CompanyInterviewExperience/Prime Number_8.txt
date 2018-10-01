@@ -1,0 +1,15 @@
+Find the minimum number of single-digit prime numbers required whose sum will be equal to N. 
+Examples:
+Approach: Dynamic Programming can be used to solve the above problem. The observations are: 
+Using these observations, built a recurrence to solve this problem. The recurrence will be: 
+dp[i] = 1 + min(dp[i-2], dp[i-3], dp[i-5], dp[i-7])
+For {2, 3, 5, 7}, the answer would be 1. For each other number, using Observation 3, try to find the minimum value possible, if possible. 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N)
+Note: In case of multiple queries, the dp[] array can be pre-computed and we can answer every query in O(1). 

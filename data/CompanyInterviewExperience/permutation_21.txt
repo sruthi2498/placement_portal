@@ -1,0 +1,18 @@
+Python provide direct methods to find permutations and combinations of a sequence. These methods are present in itertools package.
+
+Run on IDE
+Output 
+It generates n! permutations if length of input sequence is n. 
+If want want to get permutations of length L then implement it in this way.
+Run on IDE
+Output 
+It generate nCr * r! permutations if length of input sequence is n and input parameter is r.
+
+Run on IDE
+Output 
+Run on IDE
+Output 
+Run on IDE
+Output 
+Run on IDE
+Output 

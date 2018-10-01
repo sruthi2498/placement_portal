@@ -1,0 +1,13 @@
+Round 1: It was a written test which consisted of three sections-aptitude, technical(multiple choice questions) which included mainly data structures, sorting, searching, time complexities, programming-it had two questions
+1) Given a matrix print its transpose
+2) Given 5 lists of integers print distinct elements once for each list on a new line. You may refer similar article : Print distinct elements.
+Round 2:technical interview
+He asked me if i’m comfortable with mysql and later shifted to data structures
+I told by using 2 variables we’ll maintain the count and later just overwrite the array, he asked me to solve it in one traversal of array, then i told him have two pointers one from starting and other from end and as soon as we find the first 1 from left and first 0 from right swap them, (similar to quick sort) and do like this until both the pointers meet
+Round 3:technical interview
+He asked me to find number of squares in an n x n square and asked algo for it. Similar article Number of squares on NxN chessboard using general formula.
+Gave me a puzzle-8-identical balls-find the heaviest one. Similar Puzzle : Find Counterfeit coin.
+Find the intersection point in the linked list.
+Find the kth node from last in linked list
+Asked about collections framework in java, hash map.
+Just try to focus in the interview, problems were easy, but a little tricky.

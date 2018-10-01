@@ -1,0 +1,16 @@
+Given a grid with different colors in a different cell, each color represented by a different number. The task is to find out the largest connected component on the grid. Largest component grid refers to a maximum set of cells such that you can move from any cell to any other cell in this set by only moving between side-adjacent cells from the set. 
+Examples:
+Input :
+
+Grid of different colors
+Largest connected component of grid
+Approach :
+The approach is to visualize the given grid as a graph with each cell representing a separate node of the graph and each node connected to four other nodes which are to immediately up, down, left, and right of that grid. Now doing a BFS  search for every node of the graph, find all the nodes connected to the current node with same color value as the current node.
+Here is the graph for above example :
+
+Graph representation of grid
+At every cell (i, j), a BFS can be done. The possible moves from a cell will be either to right, left, top or bottom. Move to only those cells which are in range and are of the same color. It the same nodes have been visited previously, then the largest component value of the grid is stored in result[][] array. Using memoization, reduce the number of BFS on any cell. visited[][] array is used to mark if the cell has been visited previously and count stores the count of the connected component when a BFS is done for every cell. Store the maximum of the count and print the resultant grid using result[][] array. 
+Below is the illustration of the above approach:
+
+Run on IDE
+Run on IDE

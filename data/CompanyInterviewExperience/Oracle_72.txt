@@ -1,0 +1,30 @@
+Round 1 : multiple choice questions  based on Aptitude: Work and time problems, speed and distance problems, permutations and combinations, age related, relations (father-son), etc
+Note. U should be really fast at it since u would have not more than a minute for each question
+Verbal: this was not that tough to crack. If you are decent enough with vocabulary and grammer u can do well.
+Computer science aptitude: questions on C , Cpp, dbms (variables like Inout out and in) , triggers ,procedures, Operating system, ooad(one or two ques),
+Programming knowledge: Debugging, guess the output, given a flowchart with multiple blank boxes fill them with appropriate statements(one flowchart would be given and upto 5 qiestions or entire subsection will be based on that flowchart. But again in this round time is key factor. One must be as fast as he/she can.)
+Data Structures and coding: any one topic from trees (avl balancing, red black etc) ,stack, queue,circular queue(using array or linked list) will be randomly presented and the entire section containing about 8 to 10 ques will be based on that one topic.
+Snippet of code will be given and some mistake where we must choose correct part of code from given options.
+
+Round 2: Two questions to be coded and compiled on their cloud compiler
+1. Engineer will have first child as engineer, second as doctor,
+doc will have first child doc , second as engineer, generation starts with engineer and doubles every generation..  because all will have 2 kids
+so 1st gen = E
+2nd gen = ED
+3rd gen = EDDE
+4TH gen = EDDEDEED and so on … given generation number and child number , say if that child is engg or doc
+2. Given a string of multiple words where a word might contain two or more repeating characters. Print the word with maximum such repetitions .if two or more words have same number of (max)repetitions then print them in lexical order.
+Eg:input:” The college is in Massachusetts”
+    Output: Massachusetts (since 8 score)
+
+Tech Round 1 : Introduce yourself, then asked about my projects. Getting keen about them discussed about half an hour on the same. And them program to convert infix expression to postfix expression.
+Normal forms, oops concepts.
+Tech Round 2 : Introduce yourself, asked about my education and interests, then about my internship.
+Questions which would test your thinking ability such as
+1. Design a database for an e-commerce site
+2. How would you find one duplicate line in a text file consisting of one lakh lines.
+3. Design an elevator controller to control two or more lifts which work in favour of the user(they serve you in least time possible)
+4. What data structure would u use for developing a contact list consisting huge contacts such that searching is faster.
+5. OS concepts like paging, segmentation, thrashing etc
+I would like to thank geeksforgeeks for their excellent resource and quality.
+

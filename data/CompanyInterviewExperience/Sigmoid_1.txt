@@ -1,0 +1,55 @@
+Qualification Round:
+This round consisted of 6 programming questions to be solved in 2 hrs. It was conducted in Interviewbit Platform. Some of the questions were:
+1. A linked list is given.we need to arrange the linked list in such a way that nodes having odd values will come before nodes having even values.
+2.  Find shortest unique prefix to represent each word in the list.
+3.For Given Number N find if its COLORFUL number or not
+           COLORFUL number: A number can be broken into different sub-sequence parts.
+          Suppose, a number 3245 can be broken into parts like 3 2 4 5 32 24 45 324 245.
+           And this number is a COLORFUL number, since product of every digit of a sub-sequence are different and other questions exactly I don’t remember but one was from graphs and other two was from DP
+overall to qualify this round minimum 2 questions were  required  to be solved.I would say manage your time correctly and do not get stuck in one question only. 
+90 appeared for the test and 9 were selected.
+All interviews were conducted via skype
+Round 1:(Technical)
+It was a technical round and was taken by Senior Software Engineer in the company.
+First ,he asked me to introduce myself and then asked to explian about my projects and what I did in my Intership.He aasked questions from  that.
+Then he asked me about how I would rate myself in Data Structures And Algorithms.
+I said around 7 to 8 on scale of 10.
+Then,He asked me that if I was given a undirected graph,then how will I represent it?
+I said that i will represent it in two ways either using adjacency Matrix or Adjacency List.
+Then ,he asked me to write code to create above graph using adjacency list .
+Then,he said that we need to  find shortest distance between source and a destination.
+I asked whether the graph is unweighted or not?
+he said graph is weighted and the weights are distinct and positive.Then i changed the representation of each node in adjacency list and
+Then I said we can apply Dijkstra’s Algorithm and then he told me to  implement it in any language. I chose C++ to implement.
+Then he asked about the time complexity of algorithm that I had written and how i derived it. Then he said whether I have some questions or not.I asked some questions about the company and how is the growth for a fresher etc.
+overall,it was of moderate level  and it lasted for 40 mins.
+After  This round, 7 were selected.
+Round 2:(Technical)
+it was a technical round and was again taken by a senior software engineer in the company.This round was around 45 mins.
+First, he asked me to introduce myself and then asked to explian about my projects and what I did in my Intership.He aasked questions from  that.
+Then, he asked a question on arrays.
+It was : Given an array in which each value in the array represents the steps taken from that index.Find the minimum hops to reach end of array from start of array. I gave a DP approach and he was satisfied by that.
+Then he gave me DUTCH NATIONAL’S FLAG PROBLEM and i gave solution to it as well
+Then He asked me how to find the cycle in a Linked List.I gave three approches for this problem.
+Then he said whether I have some questions or not.I asked some questions about the products of company and culture of company.
+After this round, 5 were selected.
+
+Round 3:(HR + Technical)
+It was taken by a Program Manager in the company.This round was about 30-40 mins.
+First I was asked to introduce myself and then she asked me couple of Puzzles.
+The first puzzle was a rope puzzle and second was a light bulb puzzle.
+The puzzles were easy and can be found in GeeksforGeeks
+Then she asked me  a cost estimation problem.the problem was:
+ESTIMATE,HOW MANY BASKETBALLS ARE SOLD IN MUMBAI.
+It lasted around 30 mins
+After this , 4  students were selected.
+
+Round 4:(Technical)
+It was taken by CTO of the company and perhaps most difficult i guess…. 🙂
+This round was about 30-40 mins.
+First,he asked about various ways to reverse a string and asked me to derive the space and time complexities of the methods.
+After that he asked me about how can we find length of longest non-decreasing subsequence. I gave a Dp approach and he further tod me to optimize it.Then he told to code both DP approach as well as optimized one.
+then he asked how can we find the sequence..I gave an approach and he accepted it.(Not required to write a code ) 
+After  this two students were selected and I and my friend  were selected and another one student was put in waitlist.
+My suggestion is that if you want to crack these interviews,then u have to prepare for DP questions and then trees and Graphs.Also,you should know how these algorithms work and should be able to debug any error in your  code using dry run with an example.They really look if you are able to write a correct working industry level code  or not and YEAH, DO PREPARE FOR PUZZLES AND HR ROUND.
+Good luck guys…!!!!!!!!

@@ -1,0 +1,18 @@
+You are given a collection of strings and a list of queries. For every query there is a string given. We need to print the number of times the given string occurs in the collection of strings.
+Examples:
+Method 1 (Simple)
+The idea is simple, for every query string we compare it with all strings given in array. If the query string is matches, we increment count.
+
+Run on IDE
+Run on IDE
+
+ 
+Method 2 (Using Trie)
+Trie an efficient data structure used for strong and retrieval of data like strings. The searching complexity is optimal as key length.
+In this solution we insert the collection of strings in the Trie data structure so they get stored in it. One important thing is, we keep count of occurrences in leaf nodes. Then we search the Trie for the given query string and check if it is present in the Trie.  
+Run on IDE
+Output:
+ 
+Method 3 (Hashing)
+We can use a hash map and insert all given strings into it.  For every query string, we simply do a look-up in the hash map.
+Please refer Data Structure for Dictionary for comparison of hashing and Trie based solutions.

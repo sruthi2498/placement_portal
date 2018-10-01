@@ -1,0 +1,27 @@
+ROLE: BACK END JAVA DEVELOPER | EXPERIENCE: 2 – 4 YEARS
+Round 1: Technical Round.
+1. Introduce Yourself. Which language you are comfortable with. And what role are you looking for.
+2. Given an array which is first increasing and then decreasing. Find:
+a) Where is the peak index.
+b) Find if a given element if present in the array.
+3. Given N nuts and N bolts each of different size and also one nut can be paired with only one bolt. Create a Map to find all pairs given a nut can only be compared with a bolt or vice-versa and not among themselves.
+Round 2: Technical Round.
+1. WAP to find the maximum size sub-array given an array containing both positive and negative integers. Further also find the start and end index of that.
+2. WAP to merge two arrays of different sizes given that each is in sorted order.
+3. WAP to generate an array from a given array such that its elements follow the following condition:
+B[i] = (A[1] * .. * A[i-1] ) * (A[i+1] * .. *A[n])
+4. How to calculate X raised to power of N.
+5. Puzzle – Hats in a dark Room
+6. Puzzle – Reb and Blue Balls Replacing 
+Round 3: Technical Round.
+1. WAP to find the minimum element from a sorted rotated array.
+2. WAP to find all the triplets from a given sorted array whose sum is equal to a given number.
+3. How will you find mirror of a binary tree.
+4. Puzzle – A stack of coins having 10 Heads facing up and 90 Tails facing up. Divide them into two groups such that each has same no. of heads facing up.
+Round 4: Online Coding.
+1. Given an API which returns data in JSON format. We had to filter and sort some data based on some condition.
+2. Edit Distance problem for two strings. (https://www.geeksforgeeks.org/check-if-two-given-strings-are-at-edit-distance-one/)
+Round 5: Manager Round.
+1. Discussion about projects. What are the challenges faced by you. What was your role in team.
+2. Why do want to join TIL.
+3. Discussion about their technology and project.

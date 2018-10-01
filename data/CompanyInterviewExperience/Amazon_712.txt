@@ -1,0 +1,33 @@
+Team : Transportation
+Location :Hyderabad
+Round 1 (Online Test)
+Q1. Find the kth largest value in a BST
+Q2. Swap the alternate nodes in a singly linked list( not the data);
+Q3. Minimum no of coins required to get the given sum. Coins are given in a sorted array.
+Q4. A file contains data as follows( Student name, marks in 3 subjects)
+Shrikanth 20 50 60
+Kiran 30 80 90
+Find the student who has maximum average score
+Q5. Find out given two trees are isomorphic or not
+Round 2 (Telephonic Round)
+Q1.  Print the level order of binary tree such that each level should print in a different line
+Q2. Push() and Pop() methods of stack are given. Write a function to get the minimum of stack in O(1) time
+Project related questions
+Round 3 (F2F with Dev Manager)
+Q1. Connect nodes at same level in a binary tree( may not be a complete binary tree) without using recursion
+Q2. Sort the linked list which contains only 1,2,3 numbers in a single pass
+Round 4 (F2F with developers)
+Q1. Design a snake and ladder game
+Q2. Given a linked list contains even and odd numbers. separate the list into two lists contains odd/even numbers.
+Q3. Given a 2D matrix which contains 0’s and 1’s. Given two points of matrix whose value is 1. Find the path(with only 1’s) between the given points
+Round 5 (F2F with Senior Manager)
+Project related questions
+Challenging tasks done so far
+Q1. Given a large file which contains m rows and n columns. Given a column no, sort the column in such a way that corresponding rows also sorted
+Round 6 (F2F with Developers)
+Q1. Print all pairs(sets) of prime numbers (p,q) such that p*q <= n, where n is given number
+Q2. Given a binary tree, if parent is 0, then left child is 0 and right child is 1. if parent is 1, then left child is 1 and right child is 0. Root of the tree is 0. Find the kth node value which is present at Nth level
+Q3. Longest monotonically increasing sequence in O(NlogN)
+I couldn’t make it. Hope it helps someone else.
+Run on IDE
+

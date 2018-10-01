@@ -1,0 +1,52 @@
+Profile: Application Engineer
+Recruitment Procedure (On-Campus)
+Test 1: This was an aptitude test of around 2 hrs. It consisted of four parts and had subsections.
+1. Coding Skills
+2. General Computer Science Skills
+3. Verbal
+4. Quant
+All the sections had predefined time allocated for them. All the section had 5-6 subsection which also had predefined time. This round was tough as you are required to solve like 10 Aptitude Questions in 12 Minutes in each subsection.
+Test 2: This was a coding round of about 75 mins. It consisted of two questions. The difficulty was easy to moderate. They were:
+1. You are given a big number (<=1018). Partition the number in two parts such that one of them is divisible by A and the other is divisible by b.
+2. You are given a budget and you are at the root of the tree. You need to count how many leaf nodes you can visit in your budget if you have to pay particular cost at each node in the tree.
+
+Technical Round 1: The panel consisted of two people. The interview started with a standard “Tell me about yourself”. Following up, I was asked to describe my favourite project’s problem description and an overall solution. It was followed by many (around 5) coding problems all based on arrays. I was asked to write clean and runnable codes on a paper in a time limit of around 10 min for each question. Some of the coding problems are:
+1. Write a program to do a spiral order traversal of a MxN matrix.
+2. From all possible interpretations of an array of digits print a string of length X.
+3. Given an array with some random numbers, arrange it in such a way that first two elements are in increasing order, next 3 in decreasing order, next 4 in increasing order and so on.
+4. Find the rank of 31452 if 12345 is ranked 1st and 54321 is ranked last.
+It ran for about 1 hr which was a sort of stress interview. All problems were discussed and checked line by line and had to even write the functions for sorting. Questions were asked like “Which sorting technique to use and why is it suitable in different cases”. Solutions were expected in single traversals only and optimized solutions in first go.
+
+Technical Round 2: I was asked to write a runnable code on paper for converting a float number to its binary string. Then he asked 2 simple puzzles:
+1. Given that a dog runs 45km/day in a straight line in a field. The field has an area of 900km2. How long can he run in 2 days?
+2. Then he gave me some scenario in which cost of some stocks were increasing and decreasing in some years. I had to calculate a time in which buying those stocks was most suitable.
+The questions were asked with partial information and I had to come up with solutions taking into consideration those missing pieces. He was impressed that I gave him answers that taking into consideration all possible scenarios. Then he asked me about my work that I am doing in my masters and I described him about my research project with detailed diagrams and its real-life application. He seemed satisfied with my interest areas and forwarded me to the next round. This round was about 45 mins.
+
+Technical Round 3: Due to my good feedback from my previous two rounds this round this round ran for only about 20 mins. I was interviewed by a very senior and experienced person in cloud technologies. Initially questions were like:
+1. Tell me about yourself.
+2. How was the placement process till now?
+3. What are your favourite subjects?
+4. Why do you see yourself fit in this role (Applications Engineer profile)?
+5. Why you chose Software Systems as your master’s branch?
+6. Give me your feedback regarding pre-placement talks.
+The main thing he was interested in knowing that how much I was interested in working for company and as a cloud developer. He asked me some basics about networks regarding working of HTTP and Cookies. Lastly, I was asked a simple puzzle about how to measure 5ft from a 3ft and a 4ft sticks in one go (You can’t mark or break the sticks). 
+HR Round: Till this time, I had a feeling that I am almost through. This round ran for about 15 min in which he asked me standard HR questions like:
+1. Introduce yourself.
+2. Why Oracle?
+3. Why this role?
+4. What are your expectations as this will be your first job?
+5. My location preferences in between Hyderabad and Bangalore.
+6. What are your positives and an area in which you would like to see yourself improved?
+7. There are many more companies which are also coming to the campus like Amazon and Microsoft. So, which company would you prefer if selected and how do you compare these companies?
+This round was an easy one. Just you had to justify that joining an organisation like Oracle would be a great opportunity. Also, my interest areas were matching with the profile offered, so it was easy to justify for myself. Basically, he wanted to see that how honest I was in answering these questions.  This was a nice round which ended with a solid handshake and big smiles. And subsequently placed!!
+
+Sources of Preparation
+1. InterviewBit
+2. GeeksforGeeks Interview Experiences and most popular coding problems company wise.
+3. Some Quant and Aptitude preparation from Geeks and Indiabix.
+
+Courses and Certification
+Cloud Computing as an elective was quite important. They were interested in the projects that I had done in this course.
+
+Other Relevant Information
+Attend the pre-placement talks and pay attention to the part in which they describe the kind of work the company is doing because they are very happy to answer if you ask them questions about these in your interviews. Always explain that project which matches the profile and build a story around it. Rest your confidence is the key and hope for the best. Cheers! 🙂

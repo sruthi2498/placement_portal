@@ -1,0 +1,13 @@
+Lagrange’s Four Square Theorem states that every natural number can be written as sum of squares of four non negative integers.
+
+For eg. 
+Similarly 
+Similarly for any
+
+The above identity may be derived from Euler’s four square identity: which says we can write a product of 2 numbers (which can be written as sum of 4 squares) as the sum of 4 squares.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

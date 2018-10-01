@@ -1,0 +1,13 @@
+Given a number N which represents the number of rows. The task is to print a half diamond Number-Star pattern as shown in the below examples.
+Note: N is always an even number.
+Examples:
+On carefully observing the above pattern, it can be broken down into two different triangles:
+For the first triangle pattern:
+The same approach will be followed for the second triangle pattern with a slight change that here the condition will be checked where the inner iteration is equal to 0 or not.
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

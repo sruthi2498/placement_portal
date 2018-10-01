@@ -1,0 +1,50 @@
+Was called through a referral from a friend already working there.
+
+Round 1 (Telephonic)
+-Tell me about yourself
+-Explain one of your projects
+-questions on pointers and a long list was given comprising of binaries 0/1 in random order . The task was to achieve longest possible alternating sequence possible without using extra space. I gave a solution in quadratic time then optimized to linear.
+-Question on stack, reversing a string without using for loop and reversing a stack without using auxiliary space.
+-Included few more questions but don’t remember them
+-Interview went for 1 hour.
+After 1 week I was given a call and asked to come down to their office for interviewing.
+I reached at 12 and had about 5 rounds of an hour each
+
+Round 2(on-site)
+-Tell about yourself
+-had some discussion on projects i had done through out bachelors and masters
+-was given a list of numbers had to find the number which occurs twice in the list
+-One scenario in which a reporting of alarm happens each time the memory occupied by a process crosses some mark, had to minimize the number of alarms reported as it would not be feasible alarming the user each time the memory was above threshold(using patterns).
+-given a number of digits finding the next possible maximum number using those digits
+
+Round 3
+-Tell about yourself
+-Jumped to questions had to find the number which occurred only once(others occurred twice and consecutively) in a given list of numbers ,did it in linear tried for sub linear solution finding a solution.
+Some use cases for testing scenario
+Given a complex database make testing scenarios so as to ascertain the durability of the database.(had to deal with finding possible shortcomings in the system)
+
+Round 4
+-Tell about yourself
+-Implement Stacks using single queue
+-Given a string, find number of strings using ‘n’ distinct alphabets eg. given aabb and n=2, answer=aab, abb, ab and aabb
+-Some more questions on string permutation and combination
+– Asked oops concepts and compare java with c++
+-Asked a few questions on Unix scripting
+
+Round 5
+-Tell about yourself
+-given a list of size n find should have numbers from 1-n, but a number occurs twice and other number doesn’t occur. Find both the numbers in linear time.
+-A leaf grows twice the size it is yesterday.how many days would it cover half the pond, given the number of days in which it covers the whole pond.
+-A few more questions in do not remember
+-I was comfortable in Java so asked concepts of java here and there and other oops concepts
+
+Round 6 HR (Finally 7:00 pm)
+-was given a task to make a placement portal what technologies would you use I answered it using html, css and php etc
+-Asked to estimate the number of people playing football in india on guess
+and was asked to do the same on estimate
+-horses and races puzzle, I told I had already seen the problem so the hr twisted the problem here and there.
+-about yourself, strength and weaknesses
+-Some personal questions
+-About the role and few details of the company.
+All in all the interviewers were quite knowledgeable and kept on hinting a bit as and when i used to get stuck and asked for any questions I had about(Interview, company etc). Overall it was exhausting but good experience.
+

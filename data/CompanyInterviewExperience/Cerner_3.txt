@@ -1,0 +1,35 @@
+Round 1 (50 minutes) : Versant Test
+8 sections to test basic English communication skills (Sample test can be taken from here: https://www.versanttest.com/samples/english.jsp). Each section contains around 16-20 questions ranging from English speaking in the microphone, attention to detail, hearing skill, typing speed and grammar test, English writing skill, grammar and punctuation test, basic fill in the blanks test, etc. There is a minimum cut-off to clear this round which makes it important.
+Round 2 (1 hour) : Technical interview
+First the interviewer introduced himself and gave a brief on the company. Since I had told my major skill as C++ the interviewer (a tech architect), started with asking about basic OOPS concepts.
+Rate yourself on a scale of 1-10 in C++, DS and algos.
+1. What is encapsulation? How do you achieve it?
+2. Different types of memory? What is a stack? What is heap? How C++ decides on which memory to allocate data?
+3. What is the difference between malloc() and new?
+I told that in malloc you have to explicitly pass the size of the memory you need to allocate, also the datatype, etc. 
+4. I’m willing to pass the size and type explicitly, does new not call malloc() internally? How is new defined? what is the difference again?
+5. What is the difference between free() and delete? Why can’t I use both interchangeably? Same questions as above.
+6. What are virtual classes? Why do we need it? Write out an example and explain.
+7. Write a complete example of multiple inheritance with constructor, functions, destructor for inherited classes. Explain why we can assign derived class reference to a base class object?
+8. Interviewer wrote a small code snippet on the paper using pointers and asked me to write the output. Tried to trick using pointers over and over.
+9. What is a palindrome string? Write a program to tell me whether a const string* that I pass to it is palindrome or not?
+10. What is stack data structure? How does it work? Implement a stack using C++. Write all its functions.
+11. What is a linked list? How do you write a linked list? Why do we use it? What are its advantages and disadvantages? 
+12. Write a program to find me the middle node in a linked list without using extra space.
+13. How does compiler associates virtual functions and solves the call during runtime? – Explained the whole process of vtables along with an example and diagrams.
+At last, I had answered all the questions satisfactorily except the difference between new and malloc part where I couldn’t convince him. He wished me luck and asked me to wait in the lobby.
+Round 2 (40 minutes) : Tech interview
+Interviewer was friendly compared to the last one. He first reviewed my resume, asked me questions from it like about college, my degree, achievements during college, present job, why do I want to switch? What all projects I had done? My github projects, about my native place, why my native state is not so popular despite so many talented people being from there? What am I doing to change it? Who is the CM of my state? Who is the CM of Karnataka? Who is the cabinet minister from my state? The present politics scenario in my state?
+After talking about 15 minutes on several topics he finally jumped into tech.
+He didn’t knew C++ for which I was interviewing so he told he would ask questions from higher level languages (I had some ASP.Net and C# experience), etc
+1. What is webservices? 
+2. What is IIS and its configurations?
+3. What is multiple inheritance? Does C# supports it? Why not?
+4. Explain me in detail the process of compilation for virtual functions.
+5. If I have two base classes and both has same virtual function, both the classes are inherited by the same child class and it implements the same virtual function. Now without invoking objects and going to allocating derived reference in base class pointer object, how would I call all the three variants of my virtual functions? He was trying to apply logic of Java here like super.funtion() which I understood after some discussion and tried to explain that C++ doesn’t has a super keyword. Then he grilled how would I call virtual functions of both base classes distinctly without making their objects, etc.
+6. Write an efficient program to print all prime numbers till a given number N.
+7. What is difference between DBMS and RDBMS?
+8. What are the basic properties of a RDBMS? Explain each property.
+9. What is normalization? Explain its different forms?
+10. Difference between C# and C++? What should we use and when? Why C++ is better?
+Lastly he asked if I had any questions for him and wished me luck. At last the HR asked me to leave for the day saying a HR will contact me later for further process, if any. 

@@ -1,0 +1,23 @@
+For the position SDE I. 
+I had an online test through interviewstreet and following were the questions:
+https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+F2F Interview : 
+1. Generate all valid permutations using ‘(‘ and ‘)’. Valid permutation is the general definition of valid sequence of the opening and closing brackets. 
+I told him a solution where we would generate a combination using a recursive solution and prune the cases where a valid combination is no longer possible. The solution was fine and not that difficult. But the interviewer was very interested in knowing if I can calculate the complexity of the solution. He gave me some hints but it was just not striking me. I told him my approximate answer. We moved on.
+2. Create an ancestor matrix for a tree.
+The solution would seem simple. But since the matrix is N*N, the interviewer wanted some tricks to reduce the complexity of the write operation on the matrix.
+I told him a solution where you can initialize the matrix with all zeros and only write 1 for the ancestor cell using a modifies recursive solution and linkedlist.
+He was fine with the solution
+F2F 2: 
+1. Find the maximum weight node in a tree if each node is the sum of the weights all the nodes under it. Obviously tree nodes can have negative weights.
+2. Kadane’s algo
+F2F 3: 
+1. Find the diameter of a tree.
+2. Link every node of a level to the the next node at the same level 
+3. Find the first subarray which has a zero sum in an array
+F2F 4:
+Detailed discussion on projects I did in college and about my interests.
+Run on IDE
+

@@ -1,0 +1,65 @@
+Recently I have participated in Amazon SDE interview for Chennai location Kindle team. Kindle team has arrived Bangalore location to take drive.
+I have given 8 rounds
+Questions- Answers are as below
+R-1)  Written Test 1 :
+Three codes were asked :
+1) Find whether given LinkedList is Palindrome or not
+2) Find Whether given Binary Tree is Binary Search Tree or not
+Code : www.gohired.in/2014/07/check-binary-tree-is-binary-search-tree.html
+3) Create Regular expression and String Matching program for ? and *, where. * means any null or character may appear instead *. and ? means one or more previous character may appear in string.
+example
+input :
+AM*AZO?N*, AMAZON
+AM*AZO?N*, ABAZOO
+Both are matching as per rules of ? and *.
+After removing several candidates from process they conducted second round written.
+R-2 ) Written Test 2 :
+1) Stoke prices are given in array. Find for which duration I can buy and sell Shares to get maximum profit.
+We need to first explain our method and then star writing code.
+– After this round some 20 candidates left.
+R-3) Face to Face Round 1 :
+They discussed for all this 4 questions and why I choose to write this answer, some modification in question to see whether u can think more in deep , or several conditions changed, and they asked to redesign/rewrite answer.
+R-4) Face to Face Round 2 :
+Q1) Class diagram of one system ( don’t remember question)
+Q2) Find Leader in Array ( Leader means an element which is higher than all number which are indexed higher than element )
+Solution Traverse array from behind to find such elements (simple method)
+Q3) K sorted Linked Lists are given sort them in one ( write sudeo code )
+Then he told me to give logic to solve question without using auxiliary array ( result array )
+I did with in-place method,  searching and storing nodes in one linkedlist only.
+R-5) Face to Face Round 3 : 
+Only One question was asked : Rotate Array “D”times.
+Different strategies discueed, He was impressed with my another method to find new array location based upon array size N and D.
+R-6) Face to Face Round 4 : 
+Questions were from different topics like
+    -OS fundamentals
+like fork, child process creation and output if I use fork().
+What is deadlock, write sample C code to create deadlock.
+What is mutex, etc.
+     SQL Fundamentals.
+  Data Structure used in Query,
+  Sample Query like finding Manger’s name and Fundamentals of join
+     -Other General Quesions
+How Google Search engine works. Where Query goes their server, data storing etc
+What happens when you click on website address.
+     -Design GAME.
+GAME is like two players are fighting and ( kind of street fighter ) and design class diagrams and methods for this GAME, I can think any functionalists(like health, power, help from friend, etc )  any extra thing apart from which he mentioned.
+    – API is given, and this API servers different clients,
+Now one client has requirement so that functionality changes, but other clients dont need such functionality, how will you design your system.
+    – OOPS fundamentals were discussed like
+Static, Class can be protected or not, overloading and overriding difference and implementation of them,
+Software patters discussed like Factory and Abstract Factory
+Singleton and how to implement it.
+    Last Question was, If I want to store student data such that some students took Physics, some took Chemistry and some took both. I want to know all details of students, mark, name etc also. which way I’ll implement this system, which Data Structure will be used, and which design pattern.
+After All this round I was told to go home and Hiring Manager Round will be taken onsite at Chennai, I was told.
+for One month my rounds were not scheduled.
+One fine day I got change to give Project Manager round over phone ( they said Senior Manager will take onsite round and then HR round will be there)
+Round 7) Hiring Manager Round.
+Over call he asked me first question
+Q1) Array is given which is of 0 and 1, all connected 1 forms island.
+Find largest size island in given Array,
+I have provided working code, He then asked me to optimize and again writing code.
+Q2) Design LRU system. I have explained this
+and also class diagram and pseudo working code was submitted.
+Again for 20 days I didnt got call from HR and when I used to mail him, He simply replied that my candidature is on hold as Senior Manager is not free to take my next round.
+And Today Again I got call that I am rejected. because Hiring Manager is not convinced from my approach in round,
+I still don’t know what went wrong as both code given to HM were working.

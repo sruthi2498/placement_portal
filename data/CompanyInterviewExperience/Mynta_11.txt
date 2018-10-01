@@ -1,0 +1,42 @@
+First round 
+1) Given set of coins of different denominations like 1$(100), 5$(50) ..etc, and given an amount, I was asked to come up with optimal solution using least number of coins to get that amount.
+I told greedy approach of starting with maximum denomination coin, use up as much as possible, then moving on to next, I was asked to tell dynamic programming approach.
+I told I will split the amount in half and keep doing it until i reach 1 1 combination..start calculating optimal combination..and keep going up like..
+2) Next question was to try and implement google autosuggest. I told i will use tries, pseudo code and some optimizations on top of it.
+Second round
+1) If every leaf node in binary tree forms a double linked list, that is all the leaf nodes for a DLL.
+ex: 
+print all the leaf nodes….
+This involves first identifying leaf node. We can do that by checking at every node, if the its child points right back at the parent, then parent is leaf node.
+2) After this it is simple traversal of DLL and printing nodes.
+3) Level order traversal.
+4) Mirror image of tree
+5) Ancestors in binary tree.
+Third round
+System Design questions :
+1) A Bunch of devices….u can share files etc., ..each device might support only some limited format of files. Design a common server hosting all the files repository.
+2) Design a website where after user request…a bunch of processes need to be executed and then a mail is sent to user with the result. ..Take care of scalability etc.,
+Fourth round:
+System design: The whole supply chain, a central head, bunch of divisions under it… under each division ..bunch of manufacturing units and then under them…vendors.
+SOA approach seems to be best in this case.
+in mobile phones how autosuggest and autocorrect work….  google ranking algorithm…and little on analytics.
+Fifth round
+1) Database:design with one-one mapping, one-many mapping…some basic qns.
+2) Binary tree insert, delete ( all the cases in delete and when they happen)
+3) Zig zag level traversal of binary tree
+4) There was one dynamic programming question..I dont remember what it was…
+5) c++ oops….polymorphism…
+6) and also if following is possible…virtual parent, child1, child2
+virtual parent* = new child1
+child1* = new parent
+child2= child1 ???
+7) Given a bunch of floors….and egg will break only if it is thrown from a floor and any floor above that….what least number of eggs u would need if total floors are say 32..
+I went with binary search..where I strt from middle…throw the egg, if it doesn’t break…
+go to middle of upper half and if it does break..i know I should go to middle of lower half.
+…so 5 eggs
+Sixth round
+1) This was CTO round, if you make this round…you are doing pretty good.
+2) He asked a lot on what I worked on …and asked questions relevant to that.. process threads…stacks heaps. a minor system design on component in their system. how they are shared between…tradeoffs…
+we discussed about scalability and challenge….
+a bunch of behavioral questions .
+

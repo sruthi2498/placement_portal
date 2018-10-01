@@ -1,0 +1,17 @@
+Two tech rounds with HR discussion was done at Delhivery. Complete process took almost a week.
+Round 1: 
+Ques 1: Brief about yourself.
+Ques 2: Find all pair of elements in an array which sum as given integer x.
+Ques 3: Find index in an array such that sum of all elements on its left is equal to su of all elements to its right.
+Ques 4: Find third highest salary from employee’s salary database.
+Ques 5: What is JAX-RS?
+Ques 6: How to make sting mutable in Java? (initializing string using new will create it in heap which is not immutable but interviewer was interested to hear about string builder and string buffer )
+Ques 7: What was the entire stack used in your current project?
+Ques 8: How to include changes of other person in your branch (git)? What is –rebase in git? Some more questions of merge conflicts.
+Round 2:
+Ques 1: Asked about current project.
+Ques 2: Project was in nodejs so asked about why it is useful and in what scenarios callbacks are used ? How to run functions simultaneously ?
+Round 3: HR round
+Asked why you want to switch? What you are looking for ? etc etc
+Round 4: PI test
+It was predictive index test to determine compatibility with current employees. It was sort of psychometric analysis test. (Not a big deal)

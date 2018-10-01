@@ -1,0 +1,62 @@
+Recently Microsoft visited our campus for recruitment and following is my interview experience.
+MCQ Round-
+15 MCQ questions from C , C++  , java (1 question) , aptitute , etc on cocubes.com. There was no negative marking. Very few students eliminated in this round.
+
+Coding Round –
+2 coding questions –
+Q1.You are given a matrix of size M x N and only possible values in the matrix are
+0 ? representing empty position
+1 ? representing a fresh apple
+2 ? representing a rotten apple
+A rotten apple converts all the fresh apples to rotten ones which are adjacent to it in 1 unit of time. Given an input the matrix and you have to calculate the amount of time in which all the fresh apples become rotten. Also determine whether all fresh apples could be made rotten in finite time or not.(10 marks)
+Hence output should be 2 time units. (Definition of adjacent only included the left , right, bottom and upper cell and NOT diagonal cell)
+Q2.Find all nodes at k-distance from a given node in a binary tree – https://www.geeksforgeeks.org/print-nodes-distance-k-leaf-node/. (10 Marks)
+Some students were short listed for Microsoft IT , some for Microsoft IDC and some for both.
+Group fly round was conducted for some students and some students were directly selected for interviews.
+
+Group Fly Round – 
+For Microsoft IDC – Remove all duplicates from the input string https://www.geeksforgeeks.org/remove-all-duplicates-from-the-input-string/
+For Microsoft IT – Design name , role and permission system in which whenever user enters his role and name then permission granted to him (read ,write or execute) will be output.
+
+Interview 1 –
+1.Tell me about yourself.
+2.In a file there are 1 million words . Find 10 most frequent words in that file. https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
+  I gave the solution using trie and min heap.He asked me to write program assuming that insert and deletion of trie and heap is given.
+  Then he asked me about what should be test cases.
+  The following are the test cases –
+  a)if file contains a word which is in inverted commas like “abc def”. Here “abc def” should be considered as a single word but my program was taking “abc def” as two different words – (i) “abc  (ii) def” .
+  b)if file contains characters like tab (t) , r etc. then my program would not work.
+3.Some questions based on virtual memory concepts.
+4.Write name and average case running time complexity of any 6 sorting algorithms.
+5.When merge sort should be used ?
+6.Any question about Microsoft ?
+
+Interview 2 –
+1.Find the first circular tour that visits all petrol pumps – https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/.
+  First i gave a brute force solution. Start with Every petrol pump and check if circular tour is possible. This solution takes O(n^2) time complexity then he asked me for optimised solution.
+  I was unable to optimise but when he gave some hints then I gave O(n) solution. After that he asked about running time complexity of the problem and then he asked me to code.
+2.What is the use of indexing in relational table ?
+3.If join is applied on two tables – table1 and table2.Suppose table1 has more number of rows than table2 then table1 joins table2 takes more time to execute or table2 joins table1 takes more time to execute ? (Assume that there is no indexing in both the tables)  
+3.Some questions based on my projects.
+4.In which technology do you have passion ?
+5.Any question about Microsoft ?
+
+Interview 3 – 
+1.Are you comfortable with linked list ?
+  I said yes then he asked two questions from linked list.
+2.Clone a linked list with next and random pointer – https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/.
+3.Serialise and Deserialise a linked list with next and random pointer.
+  Serialise and deserialise a linked list means to save a linked list in a file and then using that file make same linked list again.
+  First I gave O(n^2) running time solution then he asked for optimisation. Then I gave O(n) running time solution using hashing.
+  He was giving me hints whenever I got stuck.
+
+Interview 4 (HR) –
+1.Why Microsoft should hire you ?
+2.What did you do in this summer ?
+3.Some questions based on my project.
+4.Construct a binary tree from given inorder and preorder traversals. https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/
+5.Any question about Microsoft ?
+In interviews they were giving sufficient time for thinking solution and they were helping whenever I got stuck.
+ My primary source for preparing for placement is GeeksForGeeks. Almost all the questions asked in all rounds are there in GeeksForGeeks. I thank a lot GeeksForGeeks for providing very nice materials for preparation for placements.
+
+

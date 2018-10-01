@@ -1,0 +1,18 @@
+Drive was conducted for software developer (6 months work ex)
+Round 1: two written questions
+– https://www.hackerrank.com/challenges/candies/problem
+– https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/
+
+Round 2: F2F
+ discussion of above 2 questions and
+– https://www.geeksforgeeks.org/maximum-product-subarray/
+– https://www.geeksforgeeks.org/bottom-view-binary-tree/
+Round 3: F2F
+– Given n numbers having k unique numbers and rest repeated where k<<n, sort them in time complexity less than O(nlogn)
+– Sort array having numbers 1, 2, 3 only
+– One thread (for printing 1, 100 times) vs 10 threads ( each printing 1, 10 times), which one is better and why ? advantages and disadvantages of both
+– SQL query
+(city_name, hotel_id) (hotel_id, hotel_name, date, hotel_price(per day))
+find the name of the most expensive hotel in each city, where a hotel is considered most expensive if its average price of past one month > average price of others over the month
+– Diamond inheritance problem in c++ and its solution
+ 

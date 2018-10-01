@@ -1,0 +1,9 @@
+Given a matrix containing lower alphabetical characters only, we need to count number of palindromic paths in given matrix. A path is defined as a sequence of cells starting from  top-left cell and ending at bottom-right cell. We are allowed to move to right and down only from current cell.
+Examples:
+
+    We can solve this problem recursively, we start from two corners of a palindromic path(top-left and bottom right). In each recursive call, we maintain a state which will constitute two cells one from starting and one from end which should be equal for palindrome property. If at a state, both cell characters are equal then we call recursively with all possible movements in both directions.
+    As this can lead to solving same subproblem multiple times, we have taken a map memo in below code which stores the calculated result with key as indices of starting and ending cell so if subproblem with same starting and ending cell is called again, result will be returned by memo directly instead of recalculating again.
+    Please see below code for better understanding,
+Run on IDE
+Output:
+Time Complexity : O(R x C)

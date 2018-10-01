@@ -1,0 +1,29 @@
+Given four arrays and an integer x, find the number of quadruples which satisfy a^b^c^d = x, where a belongs from Arr1, b belongs from Arr2, c belongs from Arr3, d belongs from Arr4.
+Examples :
+
+Method 1(Naive approach)
+It can be done using 4 loops, covering every quadruple and checking whether it is equal to x or not.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n4)
+Auxiliary Space: O(1)
+ 
+Method 2 (Efficient Approach)
+The idea is to use meet in the middle algorithm.
+For this, observe the pattern below:
+a ^ b ^ c ^ d = x
+XOR c and d both sides
+a ^ b ^ c ^ d ^ c ^ d = x ^ c ^ d
+Since, c ^ c = 0 and d ^ d = 0
+a ^ b ^ 0 ^ 0 = x ^ c ^ d
+That is, a ^ b = x ^ c ^ d
+Now, we just have to compute a ^ b and x ^ c ^ d which can be computed in O(n2) each and then find elements by using binary search.
+Run on IDE
+Output:
+Time Complexity: O(n2log(n))
+Auxiliary Space: O(n2)

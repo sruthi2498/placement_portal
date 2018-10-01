@@ -1,0 +1,37 @@
+Round-I: for 2 hours
+This was an online round. The entire two hours duration was split into three sections and each section had three sub sections:
+Section-I: This section was computer programming, Data Structures, Operating Systems (Basics) and Data Base Management System.
+Section-II: This section was Aptitude and Logical reasoning part.
+Section-III: This section was based on giving attention to details. To summarize this section, they give a large amount of similar data and ask to find a certain data from the whole bunch. You need to search through the document and search that data.
+Each section was really tight and required a faster problem solving capacity. It was like Race against Time.
+
+Round II: For 30 minutes
+This was a logical puzzle round which consisted of 4 puzzles to be solved in 30 minutes. This was a faster round in fact. 
+Q1: Given a set of 5 words. Find the word in which if you pick any letter you could say how many vowels are there in that word.
+Q2: A scenario of Tic-Tac-To game. Question was, finally who would win the game?
+Q3: To find the house number. Given 3 conditions.
+Condition1: If it divisible by 3 then it lies between 50-59
+Condition2: If it is not divisible by 4 then it lies between 60-69
+Condition3: If it is not divisible by 6 then it lies between 70-79
+Q4: It was also a puzzle. I don’t remember the question exactly. But it was a question on arrangement of people.
+
+Round-III: Coding round for half an hour
+Question: To find series of amicable numbers for 1 to 1000, both inclusive. For example consider pair (x, y). If d(x)=y and d(y)=x (d(a) is sum of proper divisors of ‘a’), then  (x,y)is called amicable pair.
+
+Round-IV: Technical Interview.
+The interview lasted for about 50 minutes. Some of the questions imposed by the interviewer:
+What are dangling pointers?
+Algorithm for Level Order Traversal.
+How do we say that Strings are immutable in Java?
+What is Java Virtual Machine and it’s Uses?
+Some questions on Sorting.
+Swapping without a temp variable and also using XOR.
+ACID properties in DBMS.
+Some Basic Concepts from Operating Systems.
+SQL Queries (eg: Find second largest number).
+Any Question Regarding Algorithms, start by giving brute force approach first. This will give an indication to the interviewer that you are thinking. Keep asking questions to the interviewer so that he/she will give a clue to proceed. Also this will indicate even if you don’t know an answer you are willing to learn.
+
+Round V: HR Round
+This was just for 10-15minutes. The interviewer was very jovial. He started off by asking, how was the day, had lunch etc and went to ask generic HR questions. Are you going for higher studies? What do you want to become in your career, in other words what’s your career objective? Why do we have to hire you?  What do you know about Oracle? Why did you choose this university for your B-Tech?
+
+

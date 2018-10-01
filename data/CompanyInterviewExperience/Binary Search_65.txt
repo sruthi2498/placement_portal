@@ -1,0 +1,7 @@
+Given a bitonic sequence of n distinct elements, write a program to find a given element x in the bitonic sequence in O(log n) time. A Bitonic Sequence is a sequence of numbers which is first strictly increasing then after a point strictly decreasing.
+Examples:
+A simple solution is to do linear search.  Time complexity of this solution would be O(n).
+An efficient solution is based on Binary Search. The idea is to find the bitonic point k which is the index of the maximum element of given sequence. If the element to be searched is greater than maximum element return -1, else search the element in both halves. Below is the step by step algorithm on how to do this.
+Below is the C++ implementation of above idea:
+Run on IDE
+Output:

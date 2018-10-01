@@ -1,0 +1,10 @@
+Given Q queries, with each query consisting of two integers L and R, the task is to find the total numbers between L and R (Both inclusive), having atmost three set bits in their binary representation.  
+Examples:
+Prerequisites : Bit Manipulation and Binary Search
+Method 1 (Simple): A naive approach is to traverse all the numbers between L and R and find the number of set bits in each of those numbers. Increment a counter variable if a number does not have more than 3 set bits. Return answer as counter. Note : This approach is very inefficient since the numbers L and R may have large values (upto 1018).
+Method 2 (Efficient) : An efficient approach required here is precomputation. Since the values of L and R lie within the range [0, 1018] (both inclusive), thus their binary representation can have at most 60 bits. Now, since the valid numbers are those having atmost 3 set bits, find them by generating all bit sequences of 60 bits with less than or equal to 3 set bits. This can be done by fixing, ith, jth and kth bits for all i, j, k from (0, 60). Once, all the valid numbers are generated in sorted order, apply binary search to find the count of those numbers that lie within the given range.
+Below is the implementation of above approach.
+
+Run on IDE
+Run on IDE
+

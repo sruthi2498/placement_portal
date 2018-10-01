@@ -1,0 +1,22 @@
+It was a walk-in for experienced candidates actually. 
+Round 1: Machine Coding Round (60 min)
+Q1. Infix to Postfix conversion e.g.  A+(B-C)*D becomes  ABC-D*+
+Q2. Given an array of integers find the minimum distance between a pair of numbers
+Q3. Find the frequency of each character in a given string
+
+Round 2: First F2F Technical Interview (60 min)
+General discussion on the projects and technologies that I worked on in my overall career of 2.5 years.
+Q1. Given an array of integers, You need to find the count of subarrays whose sum is divisible by a given number k, discussion on optimizations.
+Q2. Given a large binary tree, you have to transfer the tree over the network from system A to system B. basically he wanted to know how would I serialize and deserialize a tree, and how to send that serialized data in chunks in parallel.
+Some questions about recommendation system that I built, which algorithm have I used ?, what is item-item collaborative filtering ?
+Then he asked me if I have any questions for him.
+
+Round 3: Second F2F Technical Interview (30 min)
+General discussion about my current company and my role.
+Q1. Given a online movie ticket booking system, he wanted to know how can we handle simultaneous requests for same seat so that it should just be assigned to single user. how it can be done using MySQL, then how with REDIS. Asked some select and update queries in mysql.
+Q2. What are the different architectures we can use for user session management, discussion on client side session management, server side session management, what if one of the servers crashed.
+Q3. Given a m x n array in which each row consists of zeros and ones (zeros are present from left to right in a given row), find the row with maximum number of zeros.
+Q4. How does Elasticsearch store data, what is inverted indexing.
+Round 4: HR round
+This was just simple HR discussion, some behavioral questions
+Why you’re leaving your current company. 

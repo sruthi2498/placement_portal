@@ -1,0 +1,50 @@
+The process consisted of three rounds:
+Round-1 : Written Test (90 minues)
+Round-2 : Technical Interview
+Round-3 : HR Interview
+Round-1 : Written Test (90 minutes)
+There was a set of 15 Questions. The questions are given below:
+Qn-1: Write a program to check if the given tree is Symmetric structure wise or not.
+
+Example:
+Qn-2: Write a function to delete a node from Linked List.
+Qn-3: Find the output of the code and explain.
+Run on IDE
+Qn-4: Write a C function to convert an IPv4 Address (string format) to an unsigned integer . Also write the problem Test Cases.
+Qn-5: Write an efficient code snippet(function only) for achieving the following output array from a given input array. i.e. replace each array element with the greatest element on its right. Order of complexity should not exceed O(n) .
+Example:
+Qn-6: Explain little endian and big endian machine. What will be the output of the given code if this runs on two different machines (one in little endian and other in big endian)
+Run on IDE
+Qn-7: Consider the following data base schema:
+Now, following queries are run. What is the output ?
+Qn-8: What will be the output of given program ? If there is any error, please mention and explain.
+Run on IDE
+Qn-9: What will be the output of the following program ?
+Qn-10: What is the output of the following code snippet ?
+Qn-11: You are given a list of n-1 integers and these integers are in the range of 1 to n. There are no duplicates in list. One of the integers is missing in the list. Write an efficient code to find the missing integer.
+Qn-12: What is the output of the following code snippet ? Explain the logic behind the same.
+Qn-13: What will be the output of the following code and explain why ?
+Qn-14: If a network has 85.13.210.64/28 subnet. Find number of IP addresses in this subnet and also find usable IP address range.
+Qn-15: You are given a paragraph, which contains n number of words, you are given m threads. What you need to do it, each thread should print one word and give the control to next thread, this way each thread will keep one word, in case last thread come, it should invoke the first thread. Printing will repeat until all the words are printed in paragraph. Finally all threads should exit gracefully. Demonstrate with a simple pseudo code as to how you will approach the problem.
+By the evening, the results were out and total 6 students were selected for further rounds. Fortunately, I was one of them 🙂 
+Round-2 : Technical Interview
+Around 30 min interview
+Qn-1: Tell me about yourself
+Qn-2: Internship description
+Qn-3: What is a virtual function and Can a constructor be made virtual.
+Qn-4: Constructor is used at run time or compile time ?
+Qn-5: Can a constructor be made private. When do we make a constructor private.
+Qn-6: Write code to implement singleton class.
+Qn-7: How can you delete a node in a singly linked list, given the pointer to that node and no other pointer (or start pointer) to the list is available.
+Qn-8: Given a sorted array and a variable (sum), how to find out which pair of elements in the array when summed up equals to the variable (sum). How can you solve the problem if instead of array, the list of elements are stored in a BST.
+Qn-9: How many types of tree traversals do you use and what’s the advantage of inorder traversal.
+Qn-10: How to check if a Binary tree is a BST.
+Qn-11: Do you have any question for us.
+After the technical interview was over, they declared the result after an hour and 4 students were selected for the final HR round. Fortunately, I was one of them 🙂 
+Round-3 : HR Interview
+Around 45 mins Interview
+Qn: Walk me through your life in brief, Place of birth, schooling etc.
+Other general HR Questions related to relocation, adaptable to changes, work life balance etc. It was a very friendly talk.
+The final result came after 5 days and out of 4, only 2 students got selected, I was one of them 🙂 .
+This interview experience is of my friend POOJA DASHOTTAR (IIEST, Shibpur). It’s a suggestion from Pooja to all the students and juniors to follow GeeksForGeeks as it helped her a lot to clear the interview.
+

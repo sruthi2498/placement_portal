@@ -1,0 +1,15 @@
+The difference of two sets is formed by the elements that are present in the first set, but not in the second one. The elements copied by the function come always from the first range, in the same order.
+The elements in the both the ranges shall already be ordered.
+1. Comparing elements using “<":
+Syntax :
+Run on IDE
+Output:
+2. By comparing using a pre-defined function:
+Run on IDE
+Output:
+Possible Application : It is used to find the elements that are present only in first list and not in the second list.
+1. It can be used to find the list of students that are attending only first classes.
+Run on IDE
+OUTPUT :
+2. It can also be use to find the elements that are not present in first list only.
+Program is given above.

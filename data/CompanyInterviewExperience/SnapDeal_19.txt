@@ -1,0 +1,33 @@
+I gave this interview for Senior Software Developer Role.
+Round 1:
+Lots of puzzles and algo’s. The interviewer didn’t let me write code for anything, the moment I say efficient algorithm he moved next question.
+Q1. A tree is represented in the form of array. Where index(i) of the array represent value of a node and the value inside(A[i]) represent the parent index of the tree.
+Value corresponding to root is -1. Construct the tree.
+For Eg: 1,-1,1,2,3,1   index 1 is root,  with three children at indexes (0, 2 and 5) and index 3  is a child of 2, index 4 is a child of index 3
+Initially I did it O(n*n) and later with the help of extra space O(n), I did it in O(n)
+Q2. We played a game, there are n coins where each player has to pick up coins min 1 and max 6 one by one and the person who picks the last coin is the looser
+something like http://www.quora.com/Given-n-coins-for-two-players-playing-a-game-Each-player-can-pick-at-least-1-and-at-most-5-coins-in-one-turn-The-player-who-picks-the-last-coin-loses-the-game-If-they-play-optimally-which-player-will-win-the-game
+We played two such sets and both times the interviewer won and he asked me to find the logic behind it, luckily I could crack it using the two sample games I played.
+Q3. http://www.braingle.in/brainteasers/teaser.php?op=2&id=9653&comm=0
+After long discussion I could answer this as well, with some hints.
+Round 2:
+This round was a mix of core java and Designing
+Q1. Categories of different books in a library is stored in database as
+Category => String Name ,String Id,String ParentCategory_Id
+Null ->Physics->Electronics->Current
+Categories are infinite and sub categories are infinite
+All Categories with the parentCategory_Id null are the first level categories, and under each such category we will have multiple sub categories.
+He will give me an array_list with these tuples and I have to generate entire tree.
+I wrote a class Node{ String Id, String name, List children } and I return a node with null name and null Id as the root.
+Q2. A user logged in a page and the load balancer is sending each request of a user to different servers(instances). I want session_data in all servers, how to do this? 
+Q3. He asked me, if I know this. Collections.SynchronizedList(ArrayList lis)
+I said no and then explained what it is and asked me to implement.
+Round 3:
+This round went pretty good
+Q1. How java files are loaded into tom cat server
+Q2. How different versions of the dependency package resolve
+Q3. Two classes with same name in diff package, do they overload
+Q4. Two classes under same package(I told him compiler will throw error) and then asked which class will throw error first and few more generic java questions.
+Q5. Asked me to design a app like ola cab.
+
+

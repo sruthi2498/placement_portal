@@ -1,0 +1,14 @@
+Hi, BrowserStack recently visited our campus for written test for December placements. The written round was conducted on HackerEarth and was of 3 hours and had 2 coding questions.
+1. Comment removal
+Given a piece of code, the task was to remove all the comments from the code.
+Eg. Input 
+Run on IDE
+Output: 
+Run on IDE
+PS : take special care of corner cases, how to deal with string properly.
+2. JSON matching
+Given two JSON objects, find the values of fields. whose values are different.
+PS : take special care of input and output format.
+The questions were easy but the main task was to read the input correctly and string parsing related stuff.
+Hope this will help you all.
+

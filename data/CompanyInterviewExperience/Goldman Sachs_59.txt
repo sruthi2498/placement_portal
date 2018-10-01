@@ -1,0 +1,52 @@
+ I went through an interview at Goldman Sachs in their Bengaluru office for Java Developer role, and I would like to share my experience with you to help everyone to go through and prepare well for the same.
+Reporting time was 9.30 am, I reached there before time, was given a temporary id, and rounds started at around 11 am.
+Round 1 (written : 1 hr)
+We all were given question paper with 3 questions and answer sheets with 1 hr duration.
+1. Write a method to convert a number (range : 0 to 9 billion) to a String literal, e.g. sample input : 12345 , sample output : Twelve Thousand Three Hundred Forty Five.
+2. Merge two array lists to one without using inbuilt functions, map and set, remove all duplicates from merged list, and also print number of duplicates.
+3. Two tables were given with Foreign key relation on one table with other, and 2 scenarios were given, need to write SQL with join, aggregate operators etc between both tables and get results.
+After this in half an hour results were declared, and just after that I got call for next round.
+Round 2  (F2F : around 40 mins)
+Two guys took this round
+1. Asked about current job, work, build process and testing processes we use etc.
+2. Lots of questions were asked from java collections, Comparable, Comparator, synchronized hashmap, equals(), hashcode(), hashMap internal working etc.
+3. Some SQL queries using joins, group by, having, count etc
+4. Multi threading scenarios, producer consumer problem, write a program for deadlock between 2 threads, locking on object etc.
+5. Find middle element of linked list, find last nth element of linked list.
+6. Program for tribonacci series.
+7. java8 features.
+This round went very well, I gave optimized answers for most of the problems. After this I waited for around 3 hrs before next round call, had lunch in between.
+Round 3 (F2F : around 20-25  mins)
+Two ladies took this round
+1. Asked about my current project in detail, gave me various scenarios, how this will happen in your current project, explain step by step, DB tables involved, how data will persist etc.
+2. Gave me some hypothetical scenario and told me to design an application for it (either using DB model or Object model) and explain it.
+I explained everything well, and created good design for second problem also. After this round waited for around 15 mins, for next round
+Round 4 (F2F : around 20-25 mins)
+1. Asked about complete project in detail, current organization, reason of change etc.
+2. Write program to implement queue using not more than 2 stacks
+3. Write a program for equals() method to compare contents of 2 objects, I used instanceOf operator to verify class type, but he asked me to change it in such way that all subclass objects (with same contents) also return false when compared using equals() method, so I used getClass() method instead of instanceOf for comparison of object type.
+Interviewer looked to be very impressed after this round, in around 5 mins, got call for next round.
+
+Round 5 (F2F : around 20-25  mins)
+Interviewer was technology head for Java
+1. Gave some scenarios related to type erasure in java, and asked me expected output/error, I was not much aware of this, first I gave wrong answer, then he explained me what type erasure is, I was able to answer further questions on this.
+2. Some questions related to String Constant Pool, I answered correctly.
+3. What you don’t like/drawbacks of java? new features in java8.
+4. Then he gave me following scenario and told to write the program,
+Write a method which take list as input, and return any random value from List as output, with probability of return should be same for all elements of the list, you are given a helper random function which gives value from 0.0000 to 0.9999999 (consider these numbers are highly precise, and we need not to worry for precision). I was not able to come up with equal probability approach, so finally he gave some clues, with which I got the answer.
+Let x is random value returned by random method, and n be the size of input list.
+x can vary from 0.000 to 0.999
+we want to return list index from 0 to n-1.
+so simple answer, multiply x with n, to get indexes from 0 to n-1, and return the corresponding value from list.
+5. Then he changed above question random method, and told it can give any of these value 0,1,2,3,4,5,6,7,8 or 9, now solve the same problem, I tried many approaches but was not able to get any satisfactory answer.
+Later, after interview was over I thought over it and got answer using following approach
+Let x is random value returned by random method, and n be the size of input list.
+x can vary from 0 to 9.
+Get number of digits in n (size of list), let us say size of list is 230, so it is having 3 digits.
+Now we need to convert x from 0 – 9 to 0.000 – 0.999
+For this we can call random method 3 times, and lets say it returned 3 random values x1,x2,x3 (all values lie in 0,1,2,3,4,5,6,7,8,9)
+Now we can do 0.1*x1 + 0.01*x2 + 0.001*x3 to get a random number from 0.000 to 0.999. Now using approach from question 4 we can get the answer.
+I wish I could have thought of this during the interview.
+My interview was conducted on Saturday, they told me they will get back on Monday, I thought my earlier rounds went very well, and they may balance out few misses in last round, but unfortunately it was not, on Monday they informed me they can’t take my candidature forward. I felt I missed out a very big opportunity by a very small margin. 🙁
+I wish this post will be helpful to all people going to appear in Goldman Sachs interview, all the best to all of you. 🙂
+

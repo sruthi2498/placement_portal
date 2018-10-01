@@ -1,0 +1,38 @@
+First Round (F2F) 1 hour:
+———————————-
+1. Given an image with a lot of pixels, find all the pairs of pixels that are strongly connected. 
+2. Given an N-ary tree with thousands of nodes, pair the leaf nodes which do NOT SHARE the common path. i.e. Two Leaves can be Paired only if they do NOT have a common edge that was used in a previous pairing.
+Note: If we pair(join) say, (E-F) then we can NOT pair any of the (D-G) or (D-H) as they SHARE the COMMON path from A to C.
+So the above case is NOT possible
+I tried using a couple of solutions.
+Later on used Mathematical Induction (upon his hint)
+Basically, a pairing for n = 2 leaf nodes is true
+Assume a pairing exists for n = 2k leaf nodes (k > 0)
+Now you need to prove a pairing exists for n = 2k+2 leaf nodes
+So basically you just have to see the cases where you can insert the new nodes differently
+I will probably try to contribute with an article on this.
+Code was asked for both the questions.
+
+Second Round (F2F) 45 mins – 1 hr:
+—————————————————
+1. Given a tree, and a pointer to some node in the tree, print the left most element in the same level as that node
+2. Given a C-string, convert it into its ascii string. Ex: “CAR” -> “676582” (C-67, A-65, R-82)
+   Conditions are that you have to write it in C and you have to do it in place.
+3. Lots of questions on programs, Inter process communication, pthreads, java garbage collector etc that went for around 20 mins
+
+Third Round (F2F) 1 hr :
+———————————
+1. Reverse k-alternate nodes in a Linked List
+2. Given two strings s1 and s2, find if there exists a substring in s1 which contains an anagram of s2 (in O(n))
+3. Given an input of the calendar objects of 10,000 microsoft employees, input is a time interval T and an employee[] array, find the first interval where all the employees in the employee[] array are free for a minimum time interval T (i.e schedule the meeting)
+        I did this question using B+ trees and a Hash, I was told that max flow algorithms can be used.
+
+Fourth Round (F2F) Hiring Manager – 1 hr:
+———————————————————-
+1. Project/previous work
+1. Design whatsapp’s back end systems: (we should be able to handle 1 million requests a second and transmit data with least latency)
+     	I had used a lot of distributed systems concepts like message queues, sharding, CDNs, monitoring, InnoDB/MongoDB etc
+Preparing questions on Scalability and Distributed Systems is highly recommended.
+This site helped me a ton and I hope others will find their dream jobs too !
+Thanks geeks 🙂
+

@@ -1,0 +1,19 @@
+Telephonic Round:
+Q1: Question was a little tricky one but finally it was converted to Next greater Element (https://www.geeksforgeeks.org/next-greater-element)
+Q2: Given a Singly Linked list, Update the second half of the list such that n-th element becomes sum(1st + nth) element, (n-1)st element becomes sum(2nd + n-1st) element and so on. Eg: 2->3->4->5->6 => 2->3->(4+4)->(5+3)->(6+2)
+Face to Face Interview:
+Round 1:
+Q1: Design the payment module of the Uber App.
+Round 2:
+Q1: Design Memory Management System and tell about all the data structures you will use and why. How will you allocate and deallocate the memory using those data structure and Time & Space complexity of the operations.
+Q2: Given an array of words, print all anagrams together in the output array.
+Round 3:
+Discussion about the projects worked in previous company and how did you handle certain situation occurred while working on the project.
+Round 4:
+Q1: You are provided with different Excel files and the data format those files contain. You are also provided with low level parser. You have to design a system which takes the excel file and its data type as the input and returns the list of Data objects in the file.
+Round 5:
+Discussion about project in previous company.
+Q1: Design multiplayer generic board game (like chess or ludo)
+Q2: You are provided with 2D char array. You have to provide the 2D char array as response which contains the multiplication od the input array. For eg: input=> {{a,b},{c,d}}, output => {{a,c},{a,d},{b,c},{b,d}} 
+
+

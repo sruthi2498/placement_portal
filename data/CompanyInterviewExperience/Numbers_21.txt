@@ -1,0 +1,16 @@
+Given a number n, find a number in range from 1 to n such that its sum is maximum. If there are several such integers, determine the biggest of them.
+Examples :
+
+A naive approach is to iterate for all numbers from 1 to n and find out which number has maximum sum of digits. Time complexity of this solution is O(n).
+An efficient approach is to iterate from n to 1. Do the following for each digit of current number, if the digit is not zero, reduce it by one and change all other digits to nine to the right of it. If the sum of digits in the resulting integer is strictly greater than the sum of the digits of the current answer, then update the answer with the resulting integer. If the sum of the resulting integer is same as the current answer, then if the resulting integer is more then current answer, update the current answer with the resulting integer.
+How to reduce a digit and change all other digits on its right to 9?
+Let x be our current number.  We can find next number for current digit using below formula. In below formula, b is a power of 10 to represent position of current digit.  After every iteration we reduce x to x/10 and change b to b * 10.
+We use (x – 1) * b + (b – 1); 
+This line can further be explained as, if the number is x = 521 and b = 1, then
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(m) where m is the number of digits in n.

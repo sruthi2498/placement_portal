@@ -1,0 +1,9 @@
+Given an array of strings. The array has both empty and non-empty strings. All non-empty strings are in sorted order. Empty strings can be present anywhere between non-empty strings.
+Examples:
+
+A simple solution is to linearly search given str in array of strings.
+A better solution is to do modified Binary Search. Like normal binary search, we compare given str with middle string. If middle string is empty, we find the closest non-empty string x (by linearly searching on both sides). Once we find x, we do standard binary search, i.e., we compare given str with x. If str is same as x, we return index of x.  if str is greater, we recur for right half, else we recur for left half.
+Below is C++ implementation of the idea.
+Run on IDE
+Output:
+Although this approach works better than linear search, the worst-case runtime for this algorithm is O(n). 

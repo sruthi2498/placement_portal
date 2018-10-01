@@ -1,0 +1,21 @@
+This is not just my interview. But just gathered some questions asked to other candidates also.
+Round 1 –
+1) 25 Horses puzzle where you to find top 5 horses.    Answer : 8
+2) Two sand timers which measure 11,7 minutes.You have to measure 15min using those.
+3) Given 4 pairs of socks one of each yellow,blue,black,green.You have arrange them in such a way that there are 4 socks in between yellow socks ,3 in between the blue socks,2 in between the black and 1 in between the green socks.
+4) Given weighing scale.Find defective ball out of 27 balls in minimum number of comparisons.You will also have to tell whether defective ball  is lighter or heavier.
+5) 100 floors – 2 eggs puzzle.
+6) 2 ropes which can be burnt in 20min each.Have to measure 15min using those.
+Round 2 –
+Talked about resume,projects.
+1) Reverse a string,number.
+2) Reverse number using recursion.
+3) Coin change – DP
+4) Given a string count all different palindrome strings possible of any length and from each and every permutation of given string.    Ex: Given TACKLE – all palindrome strings of length 1,2,3… from TACKLE , ACKLET, CKEATL ,ETALKC etc.
+5) A 3×3 matrix with all distinct integers 1-9. How many combinations of matrix such that 3 digit number in first row when multiplied by 2 represents number in row 2 and when multiplied by 3 represents number in row 3.
+6) Repeating elements in a integer array.
+7) Left view of a tree.
+8) Given a sudoku (a 9×9 matrix) .In single iteration you will to tell if it is solved or not.
+9) Data Structure used for implementation of dictionary.
+10) Given 2 dates.have to find number of days between them.
+

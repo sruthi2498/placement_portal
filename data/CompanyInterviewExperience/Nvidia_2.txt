@@ -1,0 +1,28 @@
+Given a square matrix the task is that we turn it by 180 degrees in anti-clockwise direction without using any extra space.
+Examples :
+Method : 1 (Only prints rotated matrix)
+The solution of this problem is that to rotate a matrix by 180 degree we can easily follow that step 
+From the above illustration we get that simply to rotate the matrix by 180 degree then we will have to print given matrix in reverse manner .
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(N*N)
+Auxiliary Space  : O(1)
+ 
+Method : 2(In-place rotation)
+There are four steps :
+1- Find transpose of matrix.
+2- Reverse columns of the transpose.
+3- Find transpose of matrix.
+4- Reverse columns of the transpose
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(R*C)
+Auxiliary Space  : O(1)

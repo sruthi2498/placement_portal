@@ -1,0 +1,8 @@
+Given a special binary tree whose leaf nodes are connected to form a circular doubly linked list, find its height.
+For example,
+In the above binary tree, 6, 5 and 3 are leaf nodes and they form a circular doubly linked list. Here, the left pointer of leaf node will act as a previous pointer of circular doubly linked list and its right pointer will act as next pointer of circular doubly linked list.
+
+The idea is to follow similar approach as we do for finding height of a normal binary tree. We recursively calculate height of left and right subtrees of a node and assign height to the node as max of the heights of two children plus 1. But left and right child of a leaf node are null for normal binary trees. But, here leaf node is a circular doubly linked list node. So for a node to be a leaf node, we check if node’s left’s right is pointing to the node and its right’s left is also pointing to the node itself.
+Below is C++ implementation of above idea –
+Run on IDE
+Output:

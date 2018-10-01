@@ -1,0 +1,12 @@
+Given an array of words, print all anagrams together. For example, if the given array is {“cat”, “dog”, “tac”, “god”, “act”}, then output may be “cat tac act dog god”.
+Other approaches are discussed here in these posts
+1) given-a-sequence-of-words-print-all-anagrams-together
+2) given-a-sequence-of-words-print-all-anagrams-together-set-2
+Here is HashMap solution using C++ Standard Template Library.
+Approach :
+1) Store the vector elements in HashMap with key as the sorted string
+2) if key is same, then add string to value of HashMap(string vector)
+3) Traverse the HashMap and print the anagram strings
+Run on IDE
+Note : Compile above program with -std=c++11 flag in g++
+Output:

@@ -1,0 +1,50 @@
+Round 1:  Test:
+1) 20 aptitude question in 20 minutes.
+2) 16 questions in 15 minutes.
+3) 2 coding question. (a) To find minimum number of operations to form the maximum length palindrome string.
+Round 2:  Round 1 Technical interview:
+1) Tell me about pointers.what is sizeof int *p ,and  int **p and int ***p, and what is difference between them?
+what does they represent? tell about function pointers.
+2) Sorting of the stack.   (Complete Code).
+ Tell the middle element of the stack in O(1) Time.
+3) Tell about your project.
+4) What is polymorphism ? what is inheritance? what is hash Map?How to implement Hash Map?
+Examples of encapsulation, inheritance..(If Java is mentioned in resume)
+5) Given the tree and integer value k. Delete all leaf nodes that have the weight less than the value k without using extra space.
+(Weight is the sum of all data upto the root). There should be no leaf remained with weight less than k. 
+
+Round 3: Round 2 Technical interview :
+1)Given two nodes of a tree, find if they are cousin or not?
+2) level order traversal and pre order traversal of tree (write their codes).
+3) Discover new technique of sorting.
+4) Prototype of printf , malloc.  malloc is defined or declared in malloc.h ?
+6) What is max heap and min heap (definition)? Insertion in min heap? write the code of Heapifing the heap.
+7) How to divide the triangle in 7 equal ares?
+
+Round 4: Round 3 Technical interview:
+1) quick sort, merge sort, and optimized code for merge in merge sort, and of partition in quick sort. And question based on both sorting types.
+2) Implementation of DFS, BFS, SCC and other way of finding Strongly connected component of given graph.
+3) Given two array containing positive and negative numbers. separate the positive and negative numbers.
+4) Puzzle:
+given n digit number such that at 0th position contain total number of 0 in number itself, at 1 th position contain total number of 1 in number itself. at 2th position contain total number of 2 in number itself . onward.. And finally the total sum of all digit sum must be n itself.
+a) Find such 7 / 8 / 9 digit number ?
+b) Derive some mathematical expression for value any n.
+example :
+for 4 digit number :  1 2 1 0
+total number of 0 in number is 1, place 1 at 0 th position
+total number of 1 in number is 2, place 2 at 1 th position
+total number of 2 in number is 1, place 1 at 2 th position
+total number of 3 in number is 0, place 0 at 3 th position
+and sum of 1 + 2 + 1 + 0 = 4.
+similarly for 7 digit number :  3 2 1 1 0 0 0
+
+Round 5 : Hr Round :
+1) Tell something about yourself?
+2) Tell about your family members? and what they are doing? (brothers/sisters/father/mother).
+3) Tell about your day to day life (Daily Routine).
+4) Who is your inspiration person? what qualities do you hire from him/her? give the examples in current college life where you have shown those qualities.
+5) Number of friends in your Friend Circle? what do you all day on week ends. what does your friend call you?
+which quality of yours, does your friend like? and which does not.
+6) what gives you motivation?
+7) Hobbies and the extra-curricular activities from your Resume.
+G00d Luck to all of you………………………………

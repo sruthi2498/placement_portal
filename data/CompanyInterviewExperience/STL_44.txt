@@ -1,0 +1,12 @@
+The unordered_multimap::rehash(N) is a built-in function in C++ STL which sets the number of buckets in the container to N or more. If N is greater than the current number of buckets in the container (bucket_count), a rehash is forced.
+The new bucket count can either be equal or greater than N. If n is lower than the current number of buckets in the container (bucket_count), the function may have no effect on the bucket count and may not force a rehash.
+A rehash is the reconstruction of the hash table: All the elements in the container are rearranged according to their hash value into the new set of buckets. This may alter the order of iteration of elements within the container, although the relative order of the elements with equivalent keys is preserved. Rehashes are automatically performed by the container whenever its load factor is going to surpass its max_load_factor in an operation. By calling rehash to reserve a certain minimum amount of buckets in the hash table, we avoid the multiple rehashes that the expansion of the container may cause.
+Syntax: 
+Parameters:  The function accepts a single mandatory parameter N which specifies the minimum number of buckets for the container hash table.
+Return Value: The function does not return anything. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE
+Reference: http://www.cplusplus.com/reference/unordered_map/unordered_multimap/rehash/

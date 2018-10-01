@@ -1,0 +1,13 @@
+Parameters: This function does not accept any parameters.
+Return value: This function returns a constant iterator pointing to the first match in the match_results object. The matches contained in the match_results object are always constant.
+Note: First element always contains the whole regex match while the others contain the particular Capturing Group.
+Below program illustrate the above function.
+Run on IDE
+Output:
+Syntax:
+Parameters: This function does not accept any parameters.
+Return value: This function returns a constant iterator pointing to the past-the-end match in the match_results object. The matches contained in the match_results object are always constant.
+Note: First element always contains the whole regex match while the others contain the particular Capturing Group.
+Below program illustrate the above function
+Run on IDE
+Output:

@@ -1,0 +1,35 @@
+Company : One payu india ,Gurgaon
+Profile : Software Engineer
+Round 1 : Coding Round
+Consisted of 5 coding questions to be done in 1 hour .Most of them were based on algorithms but some were adhoc also . Everyone has a different set of questions jumbled from a pool of questions . Do 3 and you will definitely be through to the next round.
+Around 30 were shortlisted for interviews .
+The interviewers focused mainly on coding knowledge and skills .
+Can’t remember all of the questions.
+In all three interviews I have to make codes for all problems.
+Tech interview 1(50 min) :
+1. Tell me about urself.
+2. Given an array of ints of size n having no. from 1 to n+1 . find the missing no.  Atleast two solutions expected .
+3. P node problem in linked list .Its solution . I told him Floyd cycle .he asked why I moved fast pointer by two and not by four . told him we have to check multiple conditions  to find whether there is a second/third /fourth node otherwise if we try to access a node that doesn’t exists then it’s a runtime error. He looked satisfied.
+4. What is a stack ?
+5. Find leader elements and ii) next greater element for all in an array.
+5. Find whether a tree is a BST or not . Gave him 2 solutions :Inorder traversal and check if sorted  with or w/o array , use recursion in top down manner. He was expecting another solution which uses property of bst . Told him the min , max solution .told me to code latter two .
+6. Game question : 2 players play alternately . 1st always has to win.he can choose whether to play first or second.there is an array of coins(ints).at a time the player can choose only extreme ends.ex: 1 3 2 17 9 so player can choose only 1 or 9,if it chooses 9 then other can choose only 1 or 17.finally the player with max coins sum will win . what strategy will player 1 choose to win always.. Solved it with some help from interviewer . He extended the ques. Now the player 1 has to win with max sum (a good dp question).
+The  round went very good and the interviewer said he was impressed 😀 .
+Tech Interview 2(1 hr):
+1 . Given a text .there is a string in the text somewhere which is rotated version of original string .find and correct the rotated string in the text .ex:  text – there was a company named entureacc in 1990s. string : accenture . gave the solution using 2 arrays . he told me to take advantage of space(‘ ‘) and code solution. So i used space as delimiter and coded solution using a 26 size char array.
+2 . Reverse every word in a string . Code it . make sure ur code doesn’t have any bugs and try to code faster.
+3 . Discussion onQues asked in prev round.
+4. Multiple and multilevel inheritance in java. Is there multiple inheritance in java and why ?
+5. Design questions :                                                                                                       i)Design a car , ii) Design an elevator system .
+6. Camel banana Puzzle . Google it for problem statement .
+7. Boundary and zigzag Traversal in a tree.
+This round went perfectly and I was called for 3rd round immediately .
+ 
+Tech interview 3(50 min):
+Seemed like a police interrogation room with only 2 chairs and a table.The interviewer told me that I have to write complete codes for all probs in this round. I stayed confident…from outside ..
+1) Rotate a square matrix by 90 degrees using O(1) space .The question was new to me and after struggling for about 10-15 minutes while the interviewer was busy with his laptop, I solved it and wrote complete code for it.
+2)Given a binary tree ,I was given two pointers p1 and p2 to two nodes in the tree I have to swap the subtree rooted with these nodes . he asked me the base cases for this prob. I told him none of p1 and p2 should be ancestor of other .p1 and p2 should be in tree and they should not be null . Another constraint was that I can traverse the tree only once. I told him that I will find lca of both nodes and keep track of all ancestors of both using array and then use this array to perform swap. told me to code it.
+HR round (Telephonic):
+Just a formality. Asked everything about myself. How the prev rounds were. What I know about payu. Relocating, CTC, workin days etc.
+Recommended Reading: geeksforgeeks.org/data-structures,  headfirst for java, os video lectures by pk biswas.
+

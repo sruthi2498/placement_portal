@@ -1,0 +1,58 @@
+Hi, I had Flipkart interviews for SDE 1. I would like to share my experience.
+Online Coding Round (1 hour 30 minutes):
+On interviewstreet, there were 2 problems.
+1) It was long description for a DNA problem. Main DNA sequence(a string) is given (let say strDNA) and another string to search for(let say strPat). You have to find the minimum length window in strDNA where strPat is subsequence.
+2) There is a zoo and there are several groups(number of groups:K) of people for tour. Each group is having different size (g1,g2,g3…gK). There is one bus with capacity C. Journey starts from a point and bus will come back to the same point. A group can only be included in the bus if all the members of the groups can be accumulated in bus. After coming back from the tour, each group in the bus will again wait in the queue at the bus-stand. Bus-driver earns a rupee for each person travelled. You have to find the earning of the bus driver after R rounds.
+For example :
+Number of groups G = 4
+Group size for each group : 2 4 3 5
+Bus capacity : 7
+Number of rounds R : 4
+ 
+queue : (from front side) 2 4 3 5 
+First round : 2 4    (we can’t take 3rd group as 3 members can’t be accumulated after 2 and 4.)
+queue : 3 5 2 4  (1st and 2nd group are enqueued. i.e. 2 and 4)
+Second round : 3
+queue : 5 2 4 3
+Third Round : 5 2
+queue : 4 3 5 2
+Fourth Round : 4 3
+After 4 rounds, total earning is 6+3+7+7 = 23.
+Coding round 1 (1 hour) :
+Input :
+List of edges are given in the format (source,destination)  –> (s1,d1) (s2,d2)…
+There are some error codes with priority.
+1 – Loop
+2 – Multiple roots
+3 – More than two children
+Output :
+Indicate the error (considering the priority) in case of any error and exit the program.
+Print the tree structure in the bracket notation in case of no errors.
+(e.g. (A(B(D)(E))(C(F)(G))) .. Here A is root. B and C are children of A. D and E are children of B. F and G are children of C.)
+Coding round 2 (1 hour) :
+Design and code the sudoku solver.
+Coding round 3 (on skype) (1 hour 15 minutes) :
+There were two problems.
+1) A document and a list of words are given. You have to find minimum length window in the document where all the words can be found.
+2) 2-D matrix is given where each cell represents height of cell. Water can flow from cell with higher height to lower one. A basin is when there is no cell with lower height in the neighbours (left,right,up,down,diagonal). You have to find maximum size basin block. 
+Example :
+9 9 9 8 7 7
+8 8 7 7 7 8
+8 8 8 7 7 7
+8 8 8 9 9 9
+8 8 8 7 7 7
+4 4 5 5 5 5
+5 5 5 6 6 7
+5 5 5 8 8 6
+Here there are two basins.
+9 9 9 8 7 7
+8 8 7 7 7 8
+8 8 8 7 7 7
+8 8 8 9 9 9
+8 8 8 7 7 7
+4 4 5 5 5 5
+5 5 5 6 6 7
+5 5 5 8 8 6
+Maximum basin block size : 8
+After few days, I got an offer 🙂 🙂 :). Thank you so much geeksforgeeks for great help. It was awesome experience. It totally changed my thought process by solving the programming problems level by level and with deep understanding of solution for each problem. Many Many congratulations to the Author. 
+

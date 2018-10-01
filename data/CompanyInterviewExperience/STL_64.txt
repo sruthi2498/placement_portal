@@ -1,0 +1,9 @@
+The unordered_multimap::find() is a built-in function in C++ STL which returns an iterator which points to one of the elements which has the key k. If the container does not contain any element with key k, then it returns an iterator which points to the position which is past the last element in the container. 
+Syntax: 
+Parameters:  The function accepts a mandatory parameter k which specifies the key.  
+Return Value: It returns an iterator which points to the position where an element with key k is. 
+Below programs illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

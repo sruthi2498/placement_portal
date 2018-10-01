@@ -1,0 +1,14 @@
+Given a string and number of rows ‘n’.  Print the string formed by concatenating n rows when  input string is written in row-wise Zig-Zag fashion.
+Examples: 
+
+
+The idea is to traverse the input string.  Every character has to go to one of the rows.  One by one add all characters to different rows. Below is algorithm: 
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(len) where len is length of input string.
+Auxiliary Space: O(len)
+Thanks to Gaurav Ahirwar for suggesting above solution.

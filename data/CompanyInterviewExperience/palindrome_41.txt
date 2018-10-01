@@ -1,0 +1,7 @@
+Given an integer n. Find a string of characters ‘a’ and ‘b’ such that the string doesn’t contain any palindrome of length 3.
+Examples:
+
+The approach here is that we can use this string ‘aabb’ and print the characters of the string according to the given integer.
+Below is the code of above approach.
+Run on IDE
+Output:

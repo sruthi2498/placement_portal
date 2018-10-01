@@ -1,0 +1,19 @@
+A router is a layer 3 device used to forward packet from one network to another. It forwards the packet through one of its port on the basis of destination IP address and the entry in the routing table. By using routing table, it finds an optimised path between the source and destination network.
+Here, we will talk about Cisco router basic commands like assigning IP address to an interface, bringing up an interface, applying enable and secret password.
+Administrative Configuration:
+Giving hostname to router –
+It is used to set a name to a device stating an identity to a device. This is important as these hostname are used in WAN for authentication purpose.
+We can set the hostname as:
+Applying banner – These are specifically used to give a small security notice to the user who wants to access the router. We can customize it According to our need as like asking for credentials needed for the login.
+Types of banner are:
+Here motd means message of the day and # means delimiter i.e message should end with the symbol provided. This message will be shown while entering into the router’s user execution mode
+
+These banners are used to make login interactive. 
+Setting password –
+There are five passwords used to secure a cisco device:
+Assigning IP address to a router’s interface –
+As we know router is a layer 3 device therefore every port of a router should have an IP address to work. By default, a router’s port has no IP address and its line protocol is also down. 
+Here first we have to specify the router’s interface on which we want to give an IP address. Then we will enter interface mode where we will give an IP address as shown followed by its subnet mask (255.255.255.0).Then, we have made the router port administratively up by no shut command. 
+Copying and erasing configuration –
+We can manually copy the running-configuration (configuration in RAM) to startup-configuration (configuration in NVRAM). Therefore, when the next time router will boot up, it will load the configuration that we have copied (as by default the configuration of NVRAM is loaded).
+To erase the configuration of NVRAM, use the command

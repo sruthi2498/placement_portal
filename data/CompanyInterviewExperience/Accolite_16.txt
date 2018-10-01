@@ -1,0 +1,21 @@
+1st round consisted of 20mcq questions to be answered in 30 minutes.
+Around 120 students appeared for the test. 
+Top 5 were called directly for the interviews next 15 had to go for a subjective round consisting of 3 coding questions.
+I was called directly for the interview.
+First round of interview lasted for 2.5 hrs following questions were asked
+1. Design a tic tac toe game algorithm with all corner cases
+2. Find the maximum sum rectangle in a 2D array ( I gave the brute force and dp solution )
+3. Apply DFS on a graph using adjacency list
+4. Coin Change Problem ( Initially I gave recursive solution which had overlapping subproblems but then I gave him the DP solution and he accepted it.
+5. Print the largest sinusoidal sequence( ZIG ZAG sequence) in an array ( He asked me to code the recursive solution and then write the working code of DP solution)
+Second Round Consisted of 3-4 math puzzles and 1 DP problem (2hrs)
+– Find the smallest substring which consists all the alphabets.
+Third Round was HR (20mins)
+It was easy. She asked questions like my weakness/strength and preference for working centre- delhi/bangalore.
+Fourth round was Skype (45mins) 
+1. Insertion and deletion in a BST
+2. Modify a Linked List such that every node has the address of the node having the max value at its right . That is – for any ith node, from all the nodes at its right find the node with max value and store its address in ith node’s pointer – pmax.time limit- O(n) could be done using recursion.
+3. Job Scheduling Algorithm . 
+After this round I was given the offer letter.
+
+

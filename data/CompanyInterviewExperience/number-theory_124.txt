@@ -1,0 +1,10 @@
+Given two numbers k and n, find the largest power of k that divides n! 
+Constraints:
+Examples:
+
+We have discussed a solution in below post when k is always prime.
+Legendre’s formula (Given p and n, find the largest x such that p^x divides n!)
+Now to find the power of any non-prime number k in n!, we first find all the prime factors of the number k along with the count of number of their occurrences. Then for each prime factor, we count occurrences using Legendre’s formula  which states that the largest possible power of a prime number p in n is ⌊n/p⌋ + ⌊n/(p2)⌋ +  ⌊n/(p3)⌋ + ……
+Over all the prime factors p of K, the one with the minimum value of findPowerOfK(n, p)/count will be our answer where count is number of occurrences of p in k.
+Run on IDE
+Output:

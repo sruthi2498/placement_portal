@@ -1,0 +1,36 @@
+First round of the process was online test:
+Total 19 questions on Hackerrank platform:
+(i) 17 MCQ based on mostly basic data structures and algorithms, few on numerical ability, few on verbal reasoning
+(ii) 2 Coding questions
+Total 24 students were selected for interview process.
+First interview was technical round:
+In this round, all the candidates were asked about various topics to check fundamentals of computer engineering.
+Some of my interview questions:
+1) Difference between calloc and malloc with example of application,
+2) Given list of students with their names and marks, which sorting algorithm and data structure is preferrable for sorting marks in descending order.
+3) Grep command in Linux and its applications
+4) Design a database given following details: A company like Morgan Stanley has got many clients like HDFC, and other companies. Each client company has got many employees. We need to design databse to search efficiently the following details:
+    -> Print number of representatives for each company along with details of the company(like client ID, and some other usual details) using sql query
+My solutions:
+1) Malloc just allocates memory and calloc also initializes it.
+2) I designed it with sturcture(in C++) and wrote code for quicksort. Then I was asked about the reason and time complexity for that along with details of random pivot.
+3) Explained basic features of “grep” along with examples
+4) Two tables: (i) Clients(ClientID, ClientName, ClientDetail) and (ii) Representatives(ID, Name, ClientID), followed by SQL query to get details using inner join. Then I was asked about the reason to choose inner join and not outer join. I gave reason that, there won’t be any client without representative and and representative without company.
+Interview process for some of my peers also includes the topics like : database design, sorting, data structures for various applications like social media website, immutability in JAVA, OOP concepts like virtual functions and destructors, inheritence, etc.
+Then 9 candidates were selected for next round.
+Group Activity:
+We were divided into two groups of 4 and 5. We were provided two blank sheets, clay, lego toys. We were supposed to represent one startup idea and build prototype for it. Design logo, name, and key features and related stuff. Every member has to partiticipate in presentation. We were given total of 30 minutes followed by some questions like whom will choose as a team leader. Team leader was asked to choose the one whom he will remove from the team and whom he will take from other team with reason.
+Then it was followed by 3 round of interview.
+Interview 1(HR + puzzles):
+Typical HR questions like introduction, why Morgan Stanley, Why should we hire you, strength, weaknesses, etc.
+Then one HR question:
+Interviewer: Let’s say both of us are assigned a task to complete in sync and submit it within time limit to our boss. One of your close friend informs you that I have told boss that you are not working very hard but there won’t be any delay in work since I’ll complete it with hard work. What would be your reaction ?
+Interview 2(Technical):
+1) URL shorterning algorithm for customized URL and random URL service like tinyurl.com provides and some questions related to hashing for string as I described hashing for URL shorterning.
+2) Data strcuture for snake & ladder game followed by code for finding minimum number of dice rolling required to reach the finish of the game from starting location.
+3) OS concepts of virtual memory and its applications. Algorithms for LRU and LFU techniques.
+
+Interview 3(HR):
+Normal HR questions followed by hobbies and sports I like, places I wandered, games I play, etc.
+Thank you GeeksForGeeks
+

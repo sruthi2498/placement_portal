@@ -1,0 +1,11 @@
+Valarray slice selector : This class represents a valarray slice selector. It does not contain nor refers to any element – it only describes a selection of elements to be used as an index in valarray::operator[].
+std::slice is the selector class that identifies a subset of std::valarray. An object of type std::slice holds three values: the starting index, the stride, and the total number of values in the subset. Objects of type std::slice can be used as indexes with valarray’s operator[]. 
+In simple terms it is used to slice based on an index. A valarray slice is defined by a starting index, a size, and a stride.
+Syntax :
+Example: 
+Therefore, a slice with a stride higher than 1 does not select contiguous elements in the valarray.  For example, slice(3, 4, 5) selects the elements 3, 8, 13 and 18.
+Run on IDE
+Output:
+Application : A simple application of slice is finding the trace of a matrix.
+Run on IDE
+Output:

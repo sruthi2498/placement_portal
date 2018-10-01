@@ -1,0 +1,11 @@
+Write a program to check if a sentence is palindrome or not. You can ignore white spaces and other characters to consider sentence as a palindrome.
+Examples:
+Note that there may be multiple spaces and/or dots between two words.
+
+To find if a sentence is palindrome, compare each character from left and right. If they are equal, compare until left and right of string are equal or right becomes less then left. Remember to ignore white spaces and other characters in a string.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

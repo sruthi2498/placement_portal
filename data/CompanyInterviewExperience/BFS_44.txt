@@ -1,0 +1,8 @@
+Given a binary matrix of order m*n, the task is to find the distance of nearest 1 for each 0 in the matrix and print final distance matrix. From any cell (i,j), we can move only in four directions up, down, left and right.
+Note : Distance from one cell to immediate another cell is always incremented by 1.
+Examples:
+
+A simple solution for this problem is to for each 0 in the matrix recursively check the nearest 1 in the matrix.
+An efficient solution solution for this problem is to use BFS. Here is the algorithm to solve this problem :
+Run on IDE
+Output:

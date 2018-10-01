@@ -1,0 +1,11 @@
+There were total of three rounds:
+1. Written Test One question (time: 3Hrs)
+The questions were as follow:
+A company sells its products with a unique serial number on it. Company has has found that there are some products that don’t sell well which are identified to have ominous numbers in the serial number of the product. So if a serial number of the product contains atmost ’k’ ominous number then it won’t sell. 
+Given a range form s to e, you need to find number of products that would sell, leaving out the products that contains atmost ’k’ ominous numbers. 
+Input: First line contains the number of test cases, followed buy the range s to e, 1
+2. After clearing this round, I was called for the Technical Interview. The Interviewer asked me to breif myself and the projects I had taken up in my final year, along with questions from geeksforgeeks it self. He asked me to declare a two dimensional array using pointers in C++, he asked me to find the next greater element [link: https://www.geeksforgeeks.org/next-greaterelement/], two DP questions.
+1. Find longest increasing sub-sequence in 2d array. [link: http://stackoverflow.com/questions/6558710/longest-increasingsequence–2d-matrix-recursion], 
+2. Kandane’s Algorithm. Here the focus was more on the attitude towards the problem solving and the approach. Also they insisted me to get the optimized solution. I was able to give the optimized solution and he was satisfied.
+
+3. After this I was called for the HR round. One question that I remember was, ‘given a pen and the technologies like artificial intelligence, hadoop, and what whatever you can thin of, what are the three new features that you would add to this pen?’ Then he asked me about my interests in Computer Science, highschool-education, how i spend my time in college apart from the academics and few managerial HR questions. You have to remember here, you need to stand for whatever you say, he may create scenarios, in which you will want to change your answers and evaluations, but if you feel you were right then and now again stand for your point. I hope you have got some insight about the interview process. Good Luck and keep reading geeksforgeeks, because interviewers also pick up questions from the very same site.

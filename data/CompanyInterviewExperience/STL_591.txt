@@ -1,0 +1,15 @@
+Please note that the title is Functors (Not Functions)!!
+Consider a function that takes  only one argument. However, while calling this function we have a lot more information that we would like to pass to this function, but we cannot as it accepts only one parameter. What can be done?
+One obvious answer might be global variables. However, good coding practices do not advocate the use of global variables and say they must be used only when there is no other alternative.
+Functors are objects that can be treated as though they are a function or function pointer. Functors are most commonly used along with STLs in a scenario like following:
+Below program uses transform() in STL to add 1 to all elements of arr[].
+Run on IDE
+Output:
+This code snippet adds only one value to the contents of the arr[]. Now suppose, that we want to add 5 to contents of arr[].
+See what’s happening? As transform requires a unary function(a function taking only one argument) for an array, we cannot pass a number to increment(). And this would, in effect, make us write several different functions to add each number. What a mess. This is where functors come into use.
+A functor (or function object) is a C++ class that acts like a function. Functors are called using the same old function call syntax. To create a functor, we create a object that overloads the operator().
+Let’s delve deeper and understand how this can actually be used in conjunction with STLs.
+Run on IDE
+Output: 
+Thus, here, Increment is a functor, a c++ class that acts as a function.
+Thus, an object a is created that overloads the operator(). Hence, functors can be used effectively in conjunction with C++ STLs.

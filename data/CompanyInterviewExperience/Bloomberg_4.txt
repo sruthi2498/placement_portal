@@ -1,0 +1,52 @@
+I applied online through careers section of Bloomberg. The application was for entry level software engineer at Bloomberg London site. I needed to upload my resume and cover letter. My language of choice for the interview was C/C++.
+Section 1:
+Within few weeks of initiating the application, I got a call from HR saying that they would like take forward my candidature and schedule a phone interview for the same. It was a 1:1 phone interview. The phone call began with the interviewer introducing himself and then a brief introduction about myself. He then asked me why I wanted to join Bloomberg. He asked me following questions:
+1a) Pointer basics:
+Run on IDE
+1b) Bracket matching:
+You are given a string consisting of brackets and other characters. You have to tell if it is a well balanced string. See below for example:
+1c) Web browser design:
+Design and implement a web browser which supports the functionality that at any given instance you can efficiently tell the top 5 visited websites on basis of number of visits. This question was a variant of LRU cache and it can be optimally implemented using a map and doubly linked list. See below for design template:
+Run on IDE
+Section 2:
+Following this telephonic interview I was invited for a video interview. This interview process was 2:1 and it followed the same introduction pattern as previous interview. Following questions were asked:
+2a) Run length encoding of string. See below for example:
+2b) Merge overlapping intervals. See below for example:
+Section 3:
+Following the video interview I was invited for yet another 2:1 video interview. It followed the same introduction pattern as previous interview. Following questions were asked:
+3a) Given a binary tree, tell whether this is a valid BST.
+3b) Implement a generic hashmap in C++. Make sure to use templates, good hash functions and be ready to discuss design to handle collisions.
+Section 4:
+Following the above successful phone and video interview, I was invited to London office for onsite interview. I was given visa assistance and provided two way economy travel (India-London) along with 2 days and 2 nights of hotel stay.
+There were approximately 10 other candidates with me from different countries and location. We were greeted by a HR and given a full office tour. The office space is awesome – perhaps one of the best in the industry. I really loved it. This tour lasted for about an hour. Following this all of us had breakfast with engineers who were supposed to take our interviews. We were expected to do networking in this session.
+I will give the onsite interview details in the following subsections:
+4a) First round: This was a 3:1 interview on algorithm and data structures. I was asked a question very similar to 1.b. There was slight modification that if ‘&’ matches ‘&’ in string, how will you modify your code to accommodate this. You will expected to follow code modularity such that if any requirement is added you can easily accommodate that. In addition we discussed on C/C++ basic – pointers, data types. In addition there was also design questions on stack – how will you implement it ? – using arrays or linked list and what are the tradeoffs.
+4b) Second round: It was a 1:1 interview with a engineering manager. We discussed our resume in detail – what did I achieve, what were the shortcoming for the project mentioned in resume. He asked a lot of behavioral question where he wanted to see how good a team player I am.
+He then asked a design question. You work in an electronic exchange. Throughout the day, you receive ticks (trading data) which consists of product name and its traded volume of stocks. Eg: {name: vodafone, volume: 20}. What data structure will you maintain if:
+*You have to tell top k products traded by volume at end of day. (I used a vector and heap for this).
+*You have to tell top k products traded by volume throughout the day. (I used a balanced BST and map for storing memory addresses of each product).
+4c) Third round: The third round was with one of HR representative. She asked question pertaining of interest to HR team. Some of them are enumerated below:
+*Why Bloomberg?
+*How did you hear about Bloomberg?
+*Why you are not applying in other companies at London?
+*What is your ideal working condition?
+*What keeps you motivated?
+*Why do you want to leave your current company?
+*Will you feel sad about leaving your company?
+*What is your salary expectation?
+Section 5:
+Following the onsite interview one final phone call was arranged with engineering head at London. The purpose of the call as quoted was : “To see if Bloomberg provides what the candidate expects, so that at the end it is a win-win situation for both.” The emphasis was mostly on behavioral aspect of the candidate. Following are some of the questions I remember from interview:
+*Why Bloomberg?
+*What is your expectation from Bloomberg?
+*Why did you chose Computer Science as your area of major?
+*What is one project that you are proud of delivering?
+*What is one project in which you have failed?
+*What would you change if you are given a chance to work again on the project you have failed?
+*What is the most frustrating thing about your current organisation?
+*Tell the pros and cons of the companies you have worked in?
+Section 6:
+Following the above interviews, I received a call from HR saying that they would like to extend me an offer.
+PRO TIP: Get to know well about Bloomberg. You will be asked in all the interviews why do you want to join Bloomberg. Get to know about some of projects Bloomberg is doing that interests you and discuss about the same with your interviewer. The more enthusiastic you are about joining Bloomberg – the more it will increase your chances of you getting selected. The Bloomberg interview in addition to checking your technical abilities also sees if you are a good fit for the organisation – meaning there will be considerable emphasis on your behavioral side. Check out following links for information about technology at Bloomberg:
+https://www.bloomberg.com/careers/technology/engineering/
+https://www.techatbloomberg.com/
+https://www.bloomberglabs.com/

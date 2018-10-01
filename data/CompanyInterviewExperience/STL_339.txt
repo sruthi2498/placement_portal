@@ -1,0 +1,29 @@
+
+Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled automatically by the container.
+push_back() function is used to push elements into a vector from the back. The new value is inserted into the vector at the end, after the current last element and the container size is increased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Strong exception guarantee – if an exception is thrown, there are no changes in the container.
+2. If the value passed as argument is not supported by the vector, it shows undefined behaviour.
+Run on IDE
+Output:
+pop_back() function is used to pop or remove elements from a vector from the back. The value is removed from the vector from the end, and the container size is decreased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+1. No-Throw-Guarantee – if an exception is thrown, there are no changes in the container.
+2. If the vector is empty, it shows undefined behaviour.
+Run on IDE
+Output:
+Does pop_back() removes values along with elements ?
+When pop_back() function is called, element at the last is removed, values and elements are one of the same thing in this case. The destructor of the stored object is called, and length of the vector is removed by 1. If the container’s capacity is not reduced, then you can still access the previous memory location but in this case, there is no use of accessing an already popped element, as it will result in an undefined behavior.
+Application  push_back() and pop_back()
+Given an empty vector, add integers to it using push_back function and then calculate its size.
+Algorithm
+1. Add elements to the vector using push_back function
+2. Check if the size of the vector is 0, if not, increment the counter variable initialised as 0, and pop the back element.
+3. Repeat this step until the size of the vector becomes 0.
+4. Print the final value of the variable.
+Run on IDE
+Output:

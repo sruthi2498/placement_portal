@@ -1,0 +1,18 @@
+Symmetric difference of two sorted ranges
+The symmetric difference of two sets is formed by the elements that are present in one of the sets, but not in the other. Among the equivalent elements in each range, those discarded are those that appear before in the existent order before the call. The existing order is also preserved for the copied elements.
+The elements are compared using operator< for the first version, and comp for the second. Two elements, a and b are considered equivalent if (!(a<b) && !(b<a)) or if (!comp(a, b) && !comp(b, a)).
+The elements in the ranges shall already be ordered.
+1. Using default operator< :
+Syntax :
+Run on IDE
+Output:
+2. Using custom function :
+Synatx :
+Run on IDE
+Output:
+Possible Application :It is used to find the elements that are present in one container and not in other container.
+1. It is used to find the list of students that are not taking both classes. Students of both classes are present in lists.
+Run on IDE
+OUTPUT :
+2. It can also be use to find the numbers from both list that are not present in both list.
+  Program is given above.

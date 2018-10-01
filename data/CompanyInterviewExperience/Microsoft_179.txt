@@ -1,0 +1,5 @@
+1. Find square root of number without using sqrt function
+2. Given a directed graph. Construct another graph from given graph such that if path exists from vertices A to vertices B and from B to C, then path from A to C and from C to A also should exists.
+3. Write function which takes array of elements A and array of elements B and outputs (A-B)U(B-A).
+4. Implement hashmap on your own. Write good hashing function for string.
+Last round on some design questions.

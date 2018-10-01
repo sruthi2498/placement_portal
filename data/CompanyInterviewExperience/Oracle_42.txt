@@ -1,0 +1,77 @@
+This was an on-campus recruitment drive happened in the last week of July. Let’s get started
+Round-1: (Online Round)
+There are 4 sections in this round each further divided into some more subsections and each
+subsection has time limit separately.
+1) Quantitative Aptitude (40 questions/50 mins)
+2) Data Interpretation (20 questions/20 mins)
+3) Verbal ability (20 questions/20 mins)
+4) Technical (20 questions/30 mins)
+This test was conducted on oracle platform. Questions were moderate and most of the technical questions were output based questions involving bitwise operators, prefix/postfix operators, C++(OOP)
+Out of around 250 members they selected 25 members for the next round
+Round-2: (Online Coding Round)
+Two coding questions in 1 hour
+1) Given a grid of 2xM and N colors. We have to fill the grid with colors subjected to following
+rules
+i) First column grid elements can be of any color
+ii) Other than first column each grid element is filled with same color as previous
+column opposite row. That is
+grid[0][i] = grid[1][i-1] and grid[1][i] = grid[0][i-1]
+where i>0
+Print how in many ways we can color this grid?
+Ex: if m=2 and n=3(suppose Red, green, blue)
+Output: 9
+2) There is a production center in which each product goes through N stops to form a complete product. Somehow the order of moving a product from one stop to another stop got disrupted and product cannot be able to visit all the stops. As a technical engineer you have to change the order of links so that product can visit all the stops starting from 1(always). Given cost to reverse a link. Output min, max cost so that product can visit all the stops
+Input:
+N (number of stops) M (number of links)
+a b c (directed edge a-> b and to reverse this edge cost incurred is c)
+N 5 and 3->1)
+15 (5+4+6 reverse 2->3, 4->2, 1->5)
+This is fairly simple example but graph can be complicated which can lead to connected graph.
+This is not an elimination round but this round surely plays an important role in selection
+Round-3: (Face to Face interview)
+This interview lasted for 1 hour
+Interviewer looked at my resume thoroughly and asked me about my Machine Learning project followed by some questions on Machine Learning. Then he asked to rate my knowledge on C/C++/Java. After this he asked some algorithm questions
+1) Given two arrays one is of length M+N and another is of length N. First array consists of M elements, second array consists of N elements which are sorted in both of the arrays. We have to merge these two arrays into first array such that it becomes sorted. I gave him O(M+N) time, constant space approach
+2) Given a sentence we have to reverse it in such a way that letters in the word are in same order.
+Input: India is a great country
+Output: country great a is India
+I gave him O(N) time with constant space approach
+3) Given an array of length N-1 which consists of numbers from 1 to N in random fashion. We have to tell which number is missing. I gave him O(N) approach with two traversals. He said only one traversal is allowed then I used count of 1 to N approach to solve
+4) Two players are playing a game. Each selects a number from 0 to 9 alternatively. This number is added to his count once the count reaches 66 (Exact) That player wins the game. You are taking first move and how can you play in such a way that you have to win the game. After asking this question immediately he said we don’t have much time complete as soon as possible. I explained him the approach with in a minute he seemed satisfying We have to write code for all of the algorithmic questions While I was writing code for above questions he asked
+1) Function overloading and why do we have it
+2) Explain Operator overloading with example code? Why do we have it? Does Java support operator overloading?
+I said Java does not support operator overloading but + is used as both addition, concatenation operator
+3) When do we use merge sort and quick sort? Advantages, disadvantages of both
+4) Difference between trees and graphs? Which one is better explain w.r.t real life situationsThen he asked how much confident are you in mysql? I said 6 out of 10.
+Followed by one question on joins
+Finally he asked Any questions for me?
+This question is very important. Please do ask questions that are time worthy. for example I asked how results are obtained from a very big data base table which spans across multiple servers
+10 students were shortlisted for next round
+Round-4: (Face to Face interview)
+This is a design round which lasted for 1 hour with two interviewers. One of the interviewer directly fired a question without any introduction.
+Design a system in which users want to book a room in a hotel for specific time period?
+I went onto draw state diagram first but another interviewer stopped me and asked me to repeat the question. Then he asked me to tell system requirements -> user interfaces -> each and every entity with why I choose that why not others?
+I designed a state diagram for the system and ER diagram for the data base part. He then asked about each class and relationship between them. For the database part he asked questions like why I choose two tables over one, in which normal form both table are in and some more questions on DBMS concepts.
+Then other interviewer asked a puzzle
+Given a MxN rectangle we have to draw lines on it and break it down into 1×1 pieces such that
+i) We can draw one line at a time which divides any empty space into two parts
+ii) We should not draw a line such that it crosses another line
+How many minimum lines are used to break MxN into 1×1 pieces
+Ans: (n-1)*(m-1)
+Finally he asked any questions for him
+I asked two very good questions which he clearly explained. 
+After 1 hour results came and 4 people were shortlisted for HR round
+
+Round-5: (HR round Face to Face)
+This round lasted for 30 mins
+She introduced herself and asked me how was the previous rounds for me. Then she asked about my personal characteristics, strengths, family, problems faced in first year how I overcame them. Then she asked any questions for her?
+I asked how is the culture at oracle and how supportive are the team leaders, managers at Oracle.
+After 4-5 hours of eternal waiting results came and all 4 people were selected for ST profile.
+
+TIPS:
+1) Be prepared on important concepts like design problems, OOPs, applications of each sorting algorithms apart from standard questions on OS, networking, DS, algorithm etc.2) Put complete effort on solving given problem. Don’t look confused or say any answer doubtfully
+3) Don’t say immediately after hearing question interviewer is not looking for that. Take some time, think, structure your answer with example then say it with confidence
+4) Never lose hope at any point of time in interview. Always reply with confident tone and gently smile at the end.
+Just remember one thing if it is your day then you will get placed whatever happens. If it is not then a day is waiting for YOU in the future.
+All the best
+May the force be with you

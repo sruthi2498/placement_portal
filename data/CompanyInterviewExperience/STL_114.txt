@@ -1,0 +1,9 @@
+The multiset::emplace_hint() is a built-in function in C++ STL which inserts a new element in the multiset. A position is passed in the parameter of the function which acts as a hint from where the searching operation starts before inserting the element at its current position. The position only helps the process to get faster, it does not decide where the new element is to be inserted. The new element is inserted following the property of the multiset container only. 
+Syntax:
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return Value: The function returns an iterator pointing to the position where the insertion is done. 
+Below program illustrates the above function.  
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

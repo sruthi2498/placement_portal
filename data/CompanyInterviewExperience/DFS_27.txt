@@ -1,0 +1,9 @@
+Given a number n. we need to print all N digit pattern formed by mobile Keypad.
+Note: we can move up, down, left, right from any key of mobile keypad and every pattern contain unique key. 
+
+Examples:
+
+idea of this solution is based on the DFS. We pick all keypad key as a starting digit for N_digit number one by one, after that we are try to generate all N digit pattern formed by this key( Using DFS because we can only move either up, left, right or down from that key).
+Below c++ implementation of above idea
+Run on IDE
+Output:

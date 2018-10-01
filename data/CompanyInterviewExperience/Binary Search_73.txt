@@ -1,0 +1,18 @@
+Given an array arr[] of n elements, update all elements of given array to some minimum value x i.e, arr[i] = x (0 <= i < n), such that product of all elements of this new array is strictly greater than the product of all elements of the initial array, where 1 <= arr[i] <= 10^10 and 1 <= n <= 10^5
+
+Examples:
+
+
+
+Method 1 : O(n log n)
+We use binary search on the limits of n. At each mid, we check if the product of midn is greater than the original product of the array or not.
+We use log of products to avoid overflow. So we compute log of current product and log of midn during binary search to compare values.
+Run on IDE
+Output : 
+ 
+Solution 2 : O(n)
+By knowing the fact that product of n elements is P, if we have to find n-th root of P. To find the n-th root of product, we can simply divide n from sum of log of n elements of array and then ceil of antilog will be our answer to the problem, i.e.,
+ans = ceil(antilog(log(x)/n))
+ans = ceil(power(10, log(x)/n))
+Run on IDE
+Output : 

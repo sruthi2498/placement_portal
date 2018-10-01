@@ -1,0 +1,9 @@
+Given a list of items, sort them in increasing order.
+Examples:
+Strand Sort is a sorting algorithm that works in O(n) time if list is already sorted and works in O(n*n) in worst case.
+Below are simple steps used in the algorithm.    
+Illustration :
+Below is the implementation of above algorithm. The C++ implementation uses list in C++ STL.
+Run on IDE
+More Sorting Algorithms : 
+Practice Problems on Sorting

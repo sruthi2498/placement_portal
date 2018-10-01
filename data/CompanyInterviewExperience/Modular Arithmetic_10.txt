@@ -1,0 +1,13 @@
+Given two numbers N and D. The task is to find out the largest number smaller than or equal to N which contains the maximum number of trailing nines and the difference between N and the number should not be greater than D. 
+Examples:
+A naive approach will be to iterate from N till N-D and find the number with the largest number of trailing nines. 
+An efficient approach can be found by some key observations. One key observation for this problem is that the largest number smaller than N ending with at least say(K) nines is 
+[n – (n MOD 10^k) – 1]
+Traverse all possible values of k starting from total no of digits of N to 1, and check whether d > n%. If no such value is obtained, the final answer will be N itself. Otherwise,  check for the answer using the above observation.
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity:O(no of digits)

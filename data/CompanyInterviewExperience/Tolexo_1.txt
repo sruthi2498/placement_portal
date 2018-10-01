@@ -1,0 +1,16 @@
+Given a square matrix, find the maximum product of four adjacent elements of matrix. The adjacent elements of matrix can be top, down, left, right, diagonal or anti diagonal. The four or more numbers should be adjacent to each other.
+Note: n should be greater than or equal to 4 i.e n >= 4
+Examples :
+Asked in : Tolexo
+Approach:
+1. Group 4 elements which are adjacent to each other in each row and calculate their maximum result.
+2. Group 4 elements which are adjacent to each other in each column and calculate their maximum results.
+3. Group 4 elements which are adjacent to each other in diagonal and calculate their maximum results.
+4. Group 4 elements which are adjacent to each other in anti diagonal and calculate their maximum results.
+5. Compare of all calculated maximum results.
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

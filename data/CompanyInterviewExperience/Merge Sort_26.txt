@@ -1,0 +1,37 @@
+We have discussed sorting weapons used by different languages in previous article. In this article,  C++’s Sorting Weapon, Introsort is discussed.
+What is Introsort?
+Simply putting, it is the best sorting algorithm around. It is a hybrid sorting algorithm, which means that it uses more than one sorting algorithms as a routine. 
+Which standard sorting algorithms are used in Introsort
+Introsort being a hybrid sorting algorithm uses three sorting algorithm to minimise the running time, Quicksort, Heapsort and Insertion Sort
+How does it work?
+Introsort begins with quicksort and if the recursion depth goes more than a particular limit it switches to Heapsort to avoid Quicksort’s worse case O(N2) time complexity. It also uses insertion sort when the number of elements to sort is quite less.
+So first it creates a partition. Three cases arises from here.
+Why is it better than simple Quicksort or Why the need of Introsort?
+Since Quicksort can have a worse case O(N2) time complexity and it also increases the recursion stack space (O(log N) if tail recursion applied), so to avoid all these, we need to switch the algorithm from Quicksort to another if there is a chance of  worse case. So Introsort solves this problem by switching to Heapsort.
+Also due to larger constant factor, quicksort can perform even worse than O(N2) sorting algorithm when N is small enough. So it switches to insertion sort to decrease the running time of sorting.
+Also if a bad pivot-selection is done then the quicksort does no better than the bubble-sort.
+Why is Insertion Sort used (and not Bubble Sort, etc)?
+Insertion sort offers following advantages.
+Why is Heapsort used (and not Mergesort etc)?
+This is solely because of  memory requirements. Merge sort requires O(N) space whereas Heapsort is an in-place O(1) space algorithm.
+Why is Heapsort not used in place of Quicksort when the partition size is under the limit ?
+This question is same as why Quicksort generally outperforms Heapsort ?
+The answer is, although Heapsort also being O(N log N) in average as well as worse case and O(1) space also, we still don’t use it when the partition size is under the limit because the extra hidden constant factor in Heapsort is quite larger than that of Quicksort.
+
+Why is cut-off 16 for switching from quick sort to insertion sort, and 2*logN for switching from quick sort to heap sort ?
+These values are chosen empirically as an approximate because of various tests and researches conducted. 
+Run on IDE
+Output: 
+
+Is Introsort stable ?-
+Since Quicksort is also not stable so Introsort is also not stable.
+Time Complexity
+ Best Case – O(N log N)
+ Average Case- O(N log N)
+ Worse Case- O(N log N)
+where, N = number of elements to be sorted.
+Auxiliary Space
+Just like quicksort, it may use O(log N) auxiliary recursion stack space.
+Know Your Sorting Algorithm | Set 2 (Introsort- C++’s Sorting Weapon)
+References
+https://en.wikipedia.org/wiki/Introsort 

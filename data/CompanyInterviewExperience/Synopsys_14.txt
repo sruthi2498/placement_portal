@@ -1,0 +1,53 @@
+Recently I gave interview in Synopsis for the position of R&D Engineer. These were the questions asked :
+1. Round 1 : Telephonic Round
+      	a. Discussion regarding the academic projects.
+      	b. Discussion regarding the current job, roles and responsibilities.
+      	c. Find the maximum sum in an array such that no two elements are adjacent.
+      	b. Given n intervals with start and finish time and a global interval [globalStart, globalFinish], find all intervals which overlaps with the global interval.
+      	d. There is a pipe dealer who has got pipes of different lengths (two pipes may be of same length). He wants to sell his stock. He can only sell his stock such that the length of each pipe will be same. For eg. If length of pipes in his inventory are a=14, b=7, c=6 and he decides to sell pipes of length 7, then he can sell pipe b unchanged. He can cut pipe a, to get two pipes of length 7 each. But the pipe c=6 will be wasted. Suppose that the cost of each unit length of pipe is x and the cost of cutting a rod is y per cut ( so if we have d=21 then we need two cuts, so cost of cutting will be 2y). The cost for cutting is a loss to the dealer. We need to find the optimum length which he can sell to achieve maximum profit.
+	Note : say there are pipes of length 7, 11, 13 etc. he may choose selling length=7.56 i.e a length corresponding to which no pipe is present i.e every pipe needs to be cut.
+2. Round 2 : Telephonic Round
+      	a. Given an array which was sorted initially but then it was rotated at a point, find an element in it.
+      	b. Difference between static linking and dynamic linking.
+      	c. Explain BFS traversal in a graph.
+      	d. Perform BFS traversal using recursion.
+      	e. Suppose there are 3 players and 1 coin(with Head and Tail). Devise a strategy such that we can have a clear winner. Probability of winning should be same for every player. The coin may be tossed any number of times.
+3. Round 3 : F2F HR
+	a. Why do you want to leave your existing company?
+	b. Why do you want to join us?
+	c. In what other companies you have applied?
+	d. Questions related to expected salary and some random stuffs.
+	f. How are you as a team player?
+	e. Two puzzles were asked. Could not remember them, but they were easy.
+4. Round 4 : F2F Technical
+      	a. N sorted arrays are given. Combine them to get an overall sorted array. You can assume arrays to be of same size. 
+      	b.	Implement insert and delete functions in heap in C++.
+      	c.	Given a number x, find the minimum number of squared term required out of all possible ways to write the input as squares of numbers.
+		Eg : i/p : 10
+		we can have many ways of breaking the number 5 : 1×1 + 1×1 + 1×1 + 1×1 + 1×1 									         2×2 + 1×1
+		o/p : 2 because the decomposition 2×2+1×1 is having the minimum number of squared term(which is 2).
+      	d. In the previous question, what if we have a constraint that each individual product can’t be repeated i.e say for 8 : 2×2+2×2 will not be permissible because we can’t have two identical products (i.e 2×2, 2×2)
+
+Round 5 : F2F Discussion
+		Discussions related to the kind of work done there. This was merely a discussion round which dealt with knowing the company well.
+Round 6 :  F2F Technical
+      	a. Given two numbers what are the various ways to swap it. ( He was expecting the use of reference variable in C++).
+      	b. Given an expression, how to construct the expression tree. Coding was not required, just the logic.
+      	c. Write a function which will evaluate the value of expression by traversing the expression tree obtained earlier.
+            		Hint : Postfix traversal
+      	d. Why do you want to leave your existing company?
+Round 7  :  F2F Technical
+      	a. Write a function to check if a binary tree is a BST or not.
+      	b. Write a function to do zig-zag traversal in a tree.
+      	c. Say we have a register of n bits. the character ‘A’ occupies 1 bit, character ‘B’ occupies 2 bit. How many different words can be formed? 
+	d. Given a linked list find if there is a loop in it or not. if loop exists, find the starting position of loop.
+Round 8 : F2F Technical
+      	a. What are the ways in which you can store a 2D Matrix in memory. Advantages and disadvantages of both.
+      	b. Say we have a symmetric matrix, what will be disadvantage if we store it as a simple 2D array?
+      	c. For a given symmetric matrix, calculate the number of elements that are actually required to store in memory.
+      	d. How to efficiently store a symmetric matrix?
+      	e. for the previous question I said that we can store it as a 1D array. So he asked that given (i,j) how can we map it to the index in the 1D array.
+      	f. Given n intervals, each interval having start and end time, check if any two intervals overlap or not.
+      	g. What do you understand by hashing? What is the time complexity of searching? How can you achieve that time complexity?
+
+

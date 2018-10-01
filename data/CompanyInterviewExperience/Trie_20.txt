@@ -1,0 +1,12 @@
+Given a dictionary find out if given word can be made by two words in the dictionary. 
+Note: Words in the dictionary must be unique and the word to be formed should not be a repetition of same words that are present in the Trie.
+Examples:
+The idea is store all words of dictionary in a Trie. We do prefix search for given word. Once we find a prefix, we search for rest of the word.
+Algorithm : 
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+
+Exercise : 
+A generalized version of the problem is to check if a given word can be formed using concatenation of 1 or more dictionary words. Write code for the generalized version.

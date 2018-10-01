@@ -1,0 +1,29 @@
+Sets are a type of associative containers in which each element has to be unique, because the value of the element identifies it. The value of the element cannot be modified once it is added to the set, though it is possible to remove and add the modified value of that element.
+erase() function is used to remove elements from a container from the specified position or range.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee, if the position is valid.
+2. Shows undefined behaviour otherwise.
+Removing element from particular position
+Run on IDE
+Output:
+Run on IDE
+Output:
+Removing elements within a range
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity:
+1. setname.erase(position) – amortized constant
+2. setname.erase(startingposition, endingposition) – O(n), n is number of elements between starting position and ending position.
+Application
+Given a set of integers, remove all the even elements from the set and print the set.
+Algorithm
+1. Run a loop till the size of the set.
+2. Check if the element at each position is divisible by 2, if yes- remove the element and assign the return iterator to the current iterator, if no- increment the iterator.
+3. Print the final set.
+Note:erase return the iterator of the next element 
+Run on IDE
+Output :

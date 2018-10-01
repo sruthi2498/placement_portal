@@ -1,0 +1,46 @@
+Given an array arr[] of integers, find out the maximum difference between any two elements such that larger element appears after the smaller number. 
+Examples : 
+Method 1 (Simple)
+Use two loops.  In the outer loop, pick elements one by one and in the inner loop calculate the difference of the picked element with every other element in the array and compare the difference with the maximum difference calculated so far. Below is the implementation of the above approach :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n^2)
+Auxiliary Space : O(1)
+Method 2 (Tricky and Efficient)
+In this method, instead of taking difference of the picked element with every other element, we take the difference with the minimum element found so far. So we need to keep track of 2 things:
+1) Maximum difference found so far (max_diff).
+2) Minimum number visited so far (min_element).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+Like min element, we can also keep track of max element from right side. Thanks to Katamaran for suggesting this approach. Below is the implementation :
+
+Run on IDE
+Method 3 (Another Tricky Solution)
+First find the difference between the adjacent elements of the array and store all differences in an auxiliary array diff[] of size n-1. Now this problems turns into finding the maximum sum subarray of this difference array.Thanks to Shubham Mittal for suggesting this solution. Below is the implementation :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+We can modify the above method to work in O(1) extra space. Instead of creating an auxiliary array, we can calculate diff and max sum in same loop. Following is the space optimized version.
+Run on IDE
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+
+Below is a variation of this problem:
+Maximum difference of sum of elements in two rows in a matrix
+Please write comments if you find any bug in above codes/algorithms, or find other ways to solve the same problem

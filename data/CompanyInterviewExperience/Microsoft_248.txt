@@ -1,0 +1,78 @@
+Recently Microsoft visited our campus for SDE intern. The process took over 4 months.
+Round 1  (Online MCQ’s) 
+Time-30 mins
+This round consisted of 25 questions on C,C++,Aptitude(Probability) and OS.
+ 60 students out of 150 were shortlisted for the next round.
+Round 2 ( Online Coding Round)
+Time-90mins
+1) Write a function to check whether the string is valid or not.(Check Balanced Parenthesis{},[],()).
+*/header Stack.h was added in C++/*
+https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+2) Write a recursive function to form a list containing intersection of  two given linked list without creating new nodes.
+https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/
+https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/
+Students who solved both the questions were selected and some who solved one question were selected too.
+37 students were shorlisted for the next round.
+Round 3 (Telephonic interview)
+Time-27 Min
+-Firstly , the interviewer introduced himself. Then asked me to do the same.He asked to me bring a pen and a paper.
+-He asked me to briefly describe everything I had written in my resume.
+-Questions on my project
+        -Random Funtion
+        -Questions on Sql and Oracle
+        -What difficulties I faced during my project
+-Asked me to whether I would like to answer Question on DS or puzzles.I said both.
+-DS
+       -Height of tree in O(n).
+       – Find the minimum level where leaf node is found.
+       -When would height of tree and minimum level leaf node be equal.
+       -What is a height balanced tree.
+-Puzzle
+      -Given a tray of red and blue balls.Separate red on left and blue on right with minimum swaps.
+      -Solve the same with Red, blue and green balls.(traversing only once!)
+Only 9 were shortlisted for the further interviews. I was lucky enough to be one of them.
+We were called to Microsoft India Development Center, Hyderabad. There were total 23 students from IIT indore, IIT hyderabad, 
+IIIT  hyderabad and some other institutes.
+There were 3 f2f interviews.
+Round 4 (Technical) (30 mins)
+1)Resume discussion.
+2)Write an algorithm to merge two sorted linked list in place.I wrote an algorithm then he asked me to
+          -do it without using double pointer.
+          -without a dummy node
+          -asked me how would i test my solution.
+          -all possible test cases and how would my code respond to them.
+https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+ General discussion about project.
+*\Simplest round!\*
+Soon after the fourth round some of us were called for the  next round.
+Round 5 (Technical) (35 mins)
+1)Nodes at K distance from the root.He asked me to write the test cases. I wrote around 15.He was satisfied.
+2) What is deadlock?
+        Conditions of deadlock.
+        Write a code to show deadlock.
+        Explain Bankers Algorithm.
+3)Given a column number, find its corresponding Excel column name.
+https://www.geeksforgeeks.org/find-excel-column-name-given-number/
+He told me That i have good coding skills.
+Round 6 (Was supposed to be HR but Technical!! ) (30 mins)
+He asked me how my previous interviews went.
+Asked me terms like
+-Garbage collector
+-Unicode
+-Ascii etc.. (around 10!)
+1)Given n (no. of elements of array){1,2,3,4,5,6,7,8} , K (no of elements in one row or column as specified)(eg. 3)
+ and A boolean variable Col & Row. When Col =True We have to print elements of array like-
+1 4 7
+2 5 8
+3 6
+And when row= True
+1 2 3
+4 5 6
+7 8
+2)Assume a computer screen.All the pixels are colored black. Given (x1,y1) and (x2,y2) you have to color the line joining these 
+two points Black.
+(Hint:The line is not always going to be a diagonal straight line. Sometimes we may have to go vertically up and then sideways)
+The interviewer was helpful and patient.
+The experience was Grand! The people were so down to earth ! Every interview felt like a simple peer to peer conversation.
+All i would suggest is Geeks For Geeks And u need Nothing to do 😀
+

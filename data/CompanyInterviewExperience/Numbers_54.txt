@@ -1,0 +1,15 @@
+What is the unit’s digit in the product (267)153 x (66666)72 ?
+(A) 7
+(B) 6
+(C) 1
+(D) 2
+ Answer: (D) Explanation: The unit’s digit in (267)153 x (66666)72 is same as unit’s digit in (7)153 x (6)72.
+Now, unit’s digit in 74 is 1.
+=> Unit’s digit in 7z is 1, where ‘z’ is a multiple of 4.
+152 is the nearest number to 153, which is a multiple of 4.
+=> Unit’s digit in 7152 is 1
+=> Unit’s digit in 7153 is 1 x 7 = 7
+ 
+Also, unit’s digit when 6 is raised to any power remains 6, i.e., for all ‘n’, 6n will have 6 in the unit’s place.
+Therefore, unit’s digit in (267)153 x (66666)72 = unit’s digit in (7)153 x (6)72 = unit’s digit in 7 x 6 = 2
+Hence, D (2) is the correct answer.Quiz of this Question

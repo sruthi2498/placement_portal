@@ -1,0 +1,10 @@
+The scalbln() is a built-in function in C++ STL which takes two arguments and scales x by FLT_RADIX raised to the power n. The function returns the product of x and FLT_RADIX raised to the power n.
+FLT_RADIX: It is the value of the radix (integer base) of the exponent representation.
+Syntax:
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return Type: The function returns the product of x and FLT_RADIX raised to the power n. The returned value is of the same data-type as of x.
+Below programs illustrate the above function:  
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

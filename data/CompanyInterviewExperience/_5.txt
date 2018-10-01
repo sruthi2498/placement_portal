@@ -1,0 +1,19 @@
+Telephonic Discussion:
+1) Basic Java Questions about Strings.
+2) Sorting linked list of 0 and 1 and make separate linked list for both (further modified it to make separate linked lists of alternate elements in linked list)
+3) Explain quickSort
+First Round:
+1) Implement 2 stacks in one array
+2) Given a number N count the no of times 6 occurs in the number range between 1-N. [For N = 100 output = 20 {6,16,26,36,46,56,60,61,62,63,64,65,66,67,68,69,76,86,96} 66 has two ‘6’] 
+Second Round:
+1) Print BST in Descending order
+2) Find media of BST without traversing it completely, weights of nodes are given.
+3) Explain Heapsort
+Third Round:
+1) Design game for chess
+2) Design a meeting scheduling application like outlook
+3) Design a DB for Library
+Manager Round:
+1) Discussion about what my current work is?
+2) Why i want to leave my current company?
+3) If i had any questions

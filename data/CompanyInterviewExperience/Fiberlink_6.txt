@@ -1,0 +1,26 @@
+I was shortlisted for fiberlink interview. Following was my experience.
+1. Online test, one question, 60 mins. Given an array with marks for ‘n’ students. (The size of array will be ‘n’). Given the marks secured, you have to find out the rank of that student. Also note that array can duplicate marks(means same marks can be obtained by multiple students). The program should be time and space optimized.
+Ans : Completed in 30 mins. Used an heap to get rank 1 and so on.
+Onsite:
+Round 1: Given a building with infinite number of floors. The number of rooms on each floor are 10,5,10,5.. and so on starting from the ground floor. The room number starts from 1 and keeps on increasing. Given a room number, find the floor on which room lies and the position of room from the left.
+Very simple.
+Other questions from previous projects.
+Round 2: Computer fundamentals, dll, multi-threading, How debuggers work, TCP/IP.
+Prob: Given a binary tree. Given a leaf node, you have to convert the binary tree in such a way that the leaf node becomes the root node.
+Round 3: (With director)
+Why you left the previous job and all.
+Prob1: Given a queue. Every time an insertion or deletion happens, a new version of the queue is created. At any time, you have to print any older version of the queue with minimal time and space complexity.
+Prob2: Given a telephone keypad.
+1 2 3
+4 5 6
+7 8 9
+* 0 #
+You can start from any number other than ‘0’. You can move to the next number the way a chess bishop moves. You can go back to the same number. Any number should not contain * or #. Generate all possible six digit numbers. 
+Round 4 HR:
+1. Why you left your job?
+2. Current CTC, expected CTC.
+3. How soon you can join?
+4. What do you expect from this job.
+Final verdict:
+Disqualified !!! Surprising for me. Because I didn’t miss even a single question. Was able to solve all of them. The only thing I feel that went wrong was when I asked about company workload, oncall stuffs and all. They got an impression that higher workload was a concern for me which was not the case actually. 🙁
+Run on IDE

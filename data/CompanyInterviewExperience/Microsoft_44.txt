@@ -1,0 +1,16 @@
+About Me: 6.5 Years experienced professional.
+[Online]
+Round 0: Hacker rank 90 min online test.
+[Onsite]
+Round 1: 
+Q1: Given a string, return whether string is valid or invalid. A valid string is one which has each character repeating the same no of times as any other character. Also, if, at most one character appears unmatched no of times than rest of the characters, its also a valid string. All other strings are invalid.
+Q2: Given a TV remote: The keypad numbered from 0 – 9 is also mapped to alphabets (a-z) [i.e. 1-a, b, c; 2-d, e, f; so on]. Also given is a long list of channel names. User will provide an input i.e. digit string – Task is to display all channel names that start with the different string combinations that are produced through user input. [i.e. Input ’12’ will correspond to combinations ‘ad’ ‘ae’ ‘af’ ‘bd’ ‘be’ ‘bf’ ‘cd’ ‘ce’ ‘cf’. Hence display all channel names that start with these combinations].
+Round 2:
+Q1: Given two strings, find out minimum no of operations required to convert string 1 to string 2. The only operations allowed are Insert, Delete, Replace. [‘Edit Distance’ Problem]
+Round 3:
+Q0: Output of a small piece of code – Judging the property that when a process is killed, corresponding Threads also get killed.
+Q1: A log file of a server is given. Data is stored in form of [IP, timestamp] tuple for the IP that hit the server at the given timestamp. Give an algorithm to find top 10 hits in last 5 mins.
+Round 4:
+Q1: Given a Binary tree with nextsibling pointer. Populate nextsibling, using constant space (i.e no queue etc).                                        
+
+

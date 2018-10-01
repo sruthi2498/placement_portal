@@ -1,0 +1,14 @@
+Given a string of length N, find the length of the smallest sub-string consisting of maximum distinct characters. Note : Our output can have same character.
+
+Examples:
+
+Method 1 (Brute Force)
+We can consider all sub-strings one by one and check for each sub-string both conditions together
+1. sub-string’s distinct characters is equal to maximum distinct characters
+2. sub-sting’s length should be minimum .
+Time Complexity : O(n^3)
+Run on IDE
+Output:
+Method 2 (Efficient)
+Please refer Smallest window that contains all characters of string itself for implementation and more details.
+ Asked In : DailyHunt 

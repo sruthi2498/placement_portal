@@ -1,0 +1,55 @@
+Given three numbers a, b and m where 1<=a, m<=10^6. Given very large 'b' containing up to 10^6 digits and m is a prime number, the task is to find (a^b)%m.
+
+Examples:
+
+Input: a = 2, b = 3, m = 17
+Output: 8
+2 ^ 3 % 17 = 8
+Input: a = 3, b = 100000000000000000000000000, m = 1000000007
+Output: 835987331
+
+Approach: According to Fermat’s little theorem,
+From this, as of the problem, M is prime, express A^B mod M as follows:
+Where x is B mod M-1 and A ^ (M-1) continues B/(M-1) times
+Now, from Fermat’s Little Theorem,  
+Hence,
+Hence mod B with M-1 to reduce the number to a smaller one and then use power() method to compute  (a^b)%m. 
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+# Python3 program to find
+# (a^b)%m for b very large.
+# Function to find power
+def power(x, y, p):
+	res = 1; # Initialize result
+	# Update x if it is
+	# more than or equal to p
+	x = x % p; 
+	while (y > 0): 
+		# If y is odd, multiply
+		# x with the result
+		if (y & 1):
+			res = (res * x) % p;
+		# y must be even now
+		y = y >> 1; # y = y/2
+		x = (x * x) % p;
+	return res;
+# Driver Code
+a = 3;
+# String input as b
+# is very large
+b = “100000000000000000000000000”;
+remainderB = 0;
+MOD = 1000000007;
+# Reduce the number B
+# to a small number
+# using Fermat Little
+for i in range(len(b)):
+	remainderB = ((remainderB * 10 +
+	               ord(b[i]) – 48) %
+	               (MOD – 1));
+print(power(a, remainderB, MOD));
+# This code is contributed by mits
+Run on IDE
+Run on IDE

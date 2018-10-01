@@ -1,0 +1,30 @@
+Given an array with both +ive and -ive integers, return a pair with highest product.
+Examples :
+A Simple Solution is to consider every pair and keep track maximum product.   Below is the implementation of this simple solution.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)
+A Better Solution is to use sorting. Below are detailed steps.
+1) Sort input array in increasing order.
+2) If all elements are positive, then return product of last two numbers.
+3) Else return maximum of products of first two and last two numbers.
+Time complexity of this solution is O(nLog n). Thanks to Rahul Jain for suggesting this method.
+An Efficient Solution can solve the above problem in single traversal of input array.  The idea is to traverse the input array and keep track of following four values.
+a) Maximum positive value
+b) Second maximum positive value
+c) Maximum negative value i.e., a negative value with maximum absolute value
+d) Second maximum negative value.
+At the end of the loop, compare the products of first two and last two and print the maximum of two products.  Below is the implementation of this idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n)
+Auxiliary Space: O(1)
+Thanks to Gaurav Ahirwar for suggesting this method.

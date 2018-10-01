@@ -1,0 +1,14 @@
+Queue is also an abstract data type or a linear data structure, which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). In a FIFO data structure, the first element added to the queue will be the first one to be removed.
+queue::swap()
+swap() function is used to exchange the contents of two queues but the queues must be of same type, although sizes may differ.
+Syntax:
+Return value: None
+Examples:
+Errors and Exceptions
+1. It throws an error if the queues are not of the same type.
+2. It throws error if the queues are not of the same size.
+2. It has a basic no exception throw guarantee otherwise.
+
+Run on IDE
+Output:
+Time complexity: Linear i.e. O(n)

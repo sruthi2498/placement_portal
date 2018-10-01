@@ -1,0 +1,28 @@
+My experience for Amazon’s Software Development Engineer-2
+1st Round (Face-to-Face)
+1. Design ATM
+2. Design Car Service center
+—- Deep dive into design and focus on specific modue called ‘Service’
+—- Supervisor should be able to allot a Best Engineer to Service customer request, How do you code to get best engineer to fix the car service request. 
+2nd Round (Face-to-Face)
+1. Write a program to get all list of nodes without siblings in Binary tree
+2. How do you implement ‘Car service center’ application to achieve Reliability, Scalable and Consistent in distributed environment.
+3rd Round (Face-to-Face)
+1. Some behavioural Questions
+2. Core java Q: Why do we need equals method ? Can we check equality using hashcode method. Difference b/w them ?.
+3. Get all nodes K distance away from leaf nodes. I could able to tell him my idea, but I couldn’t able to come up with program with in given time. 
+4th Round (Face-to-Face)
+1. Specific questions on current working project.
+2. Implement my own Connection pooling
+3. Given a linked list, write a function to reverse every k nodes. Initially I told him solution with help of Stack , then he asked without using extra space, With his clue, I could able to tell him using recursive logic to solve it.
+Inputs:  1->2->3->4->5->6->7->8->NULL and k = 3
+Output:  3->2->1->6->5->4->8->7->NULL.
+5th Round (Face-to-Face)
+1. Given a string, find the longest substring which is palindrome. For example, if the given string is “forgeeksskeegfor”, the output should be “geeksskeeg”. I have seen this question , but never thought about solution.
+Same question i got in interview, I was very happy to get solution, interview asked me optimize further. I could fix 1 improvement and he suggested 1 improvement.
+2. Identify all possble entities/domain objects in Cricket. Went little deep.
+3. Given Channel, Program and TRP ratings, How do you consume those at server side,
+and what do you do to retrieve specific data like 1Get all programs in given channel where TRP is > 10′.
+4. Some behavioral Questions
+Overall it was great experience, Myself satisfied with my performance in all rounds expect 3rd round :(.
+

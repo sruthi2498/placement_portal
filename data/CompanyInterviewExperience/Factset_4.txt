@@ -1,0 +1,39 @@
+Factset visited our college for hiring for Software Engineer position. The interview consisted of a pen and paper coding round, followed by interview rounds for the students selected after the coding round.
+
+Pen and Paper Coding Round:
+There were three questions in this round. We were asked to write the code for the questions in the sheets provided to us, along with the logic applied and worst case time complexity.
+    1) Given a matrix of 0’s and 1’s,  for a cell containing 0, change all the cells of that row and column to 0. For reference: https://www.geeksforgeeks.org/a-boolean-matrix-question/
+    2) Given a number X, find the smallest number, product of whose digits equals X. For reference: https://www.geeksforgeeks.org/find-smallest-number-whose-digits-multiply-given-number-n/
+    3) Given an array, sort the array in wave form. For Reference: https://www.geeksforgeeks.org/sort-array-wave-form-2/
+29 People were selected after this round for the interview process. The interview process consisted of 2 technical and 1 HR round.
+
+Round 1: (Technical)
+Three questions were asked in this round, all related to data structures and algorithms. I was asked to give an efficient logic for each ques and write the pseudo for it. The questions were:
+    1) Given a sorted array find the magic point, point where a[i]=i.
+Tips: Proceed with Binary search approach, considering all boundary cases and duplicate value case.
+For reference: https://www.geeksforgeeks.org/find-a-fixed-point-in-a-given-array/
+    2) Given 3 strings A, B and C, check if the C is an interleaving of A and B or not.
+Tips: Understand the DP solution, but be prepared with other brute force solution as well. I gave the DP solution but he asked can it be done without using DP. So I gave a solution using the merging concept of merge sort, considering both the orders AB and BA. Again consider the boundary cases.
+For reference: https://www.geeksforgeeks.org/find-if-a-string-is-interleaved-of-two-other-strings-dp-33/
+    3) Given a BST, Update the value of every node to the sum of all nodes greater that node in the BST.   Tips: A 2 traversal method can be implemented using In-Order traversal. But if asked to do it in one traversal, use In-Order traversal in reverse order.
+For Reference:  https://www.geeksforgeeks.org/transform-bst-sum-tree/
+
+ Round 2: (Technical)
+Firstly I was asked questions about my Internships. Then three questions were asked in this round, again all were related to concepts of data structures.
+    1) You are given some IP ranges and a token associated with each IP range. The ranges have no overlapping but they are not continuous. When a user requests for a token from an IP, You find the range to which this IP belongs, and return the corresponding token in response. I was asked to create a structure for this problem which will carry out the task.
+Tips: Ask about which IP addresses should be taken into consideration, like I confirmed that I should handle IP address from 10.0.0.0 to 10.0.0.255 (256 IP’s).This will help you in your design. Then think about arrays and link list for storing the ranges. For searching, use binary search and look for boundary conditions. I also proposed a binary search tree solution where each node stores 2 values, the start and end value of a range. The idea of using this was to keep the ranges sorted and avoid extra sorting time.
+    2) Given 2 matrices, which are row and column sorted, and a value X, find pairs by taking 1 element from each matrix such that the sum of the pair elements equals X.
+For reference: https://www.geeksforgeeks.org/count-pairs-two-sorted-matrices-given-sum/
+    3) Given an unsorted array, find the smallest missing positive number. Few solutions can be sorting the array, using frequency counting technique etc. But if it is required to find it in O(n) time and O(1) space, then refer to the Link.
+https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/
+
+Round 3: (HR Round)
+    1) Tell me about yourself. (Interests, Hobbies, Extra curricular activities)
+    2) Tell me your strength.
+    3) If I asked your teachers and colleagues about you, what feedback will be obtained.
+    4) Willingness to relocate and working on any new technology.
+    5) Preferred Working languages and softwares. (With reference to my CV)
+    6) What do you know about the organization.
+After all the interviews got over, 10 people were selected, I was one of them.
+Few general tips: Be confident in what you are saying. Discuss your solutions with the interviewer properly and try not to panic just by listening the question. Think about the questions and the approach logically.  They want to see how the candidate tackles the questions and how well he/she can apply the concepts.
+At the end, I would like to thank geeksforgeeks for providing such relevant materials for all those in need of it.

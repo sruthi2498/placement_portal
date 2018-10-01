@@ -1,0 +1,25 @@
+Round 1:
+It was F2F round(DS and algorithms). They asked about me and my experiences in previous company. I have created couple of open source projects. Mentioning about them really impress the interviewer if it is really a good one. Then he continued with some data structure questions. I had two questions.
+Question 1:
+Given a tree asked to print the path of the tree which has the highest number of bends. Then he modified the question and asked me to code for both.
+Question 2:
+Given a tree with each node having numbers. Path from root to a leaf node forms a number like (root(1)->left(2)->leftLeaf(3) = 123). He asked me to code to add all the number for root to leaf.
+This round went pretty well.
+Round 2:
+It was F2F round(Problem solving). There were two interviewers. They directly went for the process after introducing them. This round had 5 questions and was bit hard.
+Question 1:
+Given 2D array for characters and a string, asked to find whether the string follows the pattern of the dictionary. I will explain the pattern below.
+2D array
+|a|b|c|
+|b|c|a|
+|b|b|a|
+String: bababbcac
+ 
+The pattern is, the words in the dictionary should be present in the string in same order and the letter taken by one word should not be the part of other dictionary word. We should find whether all the dictionary words can be formed or not in the given string.
+Answer:
+Let me index the string bababbcac – (1,2,3,4,5,6,7,8,9)
+1st word in dictionary – abc follows 457
+2nd word in dictionary – bca follows 268
+2nd word in dictionary – bba follows 134
+Question 2:
+It was from dynamic programming in string stuff

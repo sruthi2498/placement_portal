@@ -1,0 +1,23 @@
+What is a 2D Vector?
+A 2D vector is vector of vectors. It is an matrix implemented with the help of vectors.
+Run on IDE
+Output:
+ 
+Case 1 : To sort a particular row of 2D vector.
+This type of sorting arranges a selected row of 2D vector in ascending order . This is achieved by using “sort()” and passing iterators of 1D vector as its arguments.
+Run on IDE
+Output:
+ 
+Case 2 : To sort the entire 2D vector on basis of a particular column.
+In this type of sorting 2D vector is entirely sorted on basis of a chosen column. For example if the chosen column is second, the row with smallest value in second column becomes first row, second smallest value in second column becomes second row, and so on.
+{3, 5, 1},
+{4, 8, 6},
+{7, 2, 9};
+After sorting this matrix by second column, we get
+{7, 2, 9} // Row with smallest value in second column
+{3, 5, 1} // Row with smallest value in second column
+{4, 8, 6}
+This is achieved by passing a third argument in “sort()” as a call to user defined explicit function.
+Run on IDE
+Output:
+Sorting 2D Vector in C++ | Set 2 (In descending order by row and column)

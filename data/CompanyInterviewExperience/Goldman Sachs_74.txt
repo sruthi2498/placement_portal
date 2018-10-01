@@ -1,0 +1,38 @@
+Goldman Sachs Interview questions – Onsite (Experience: 1+ years)
+Technical rounds – 4
+Managerial round – 1
+Technical rounds
+Round 1
+1. Explain RESTful web services. Jersey syntax
+2. What is a race condition?
+3. What is segmentation fault?
+4. What is an abstract class? Can a class be abstract without abstract methods? Difference between an interface and abstract class.
+5. Why Java doesn’t support multiple inheritance?
+6. Will static methods be inherited? Can they be overridden?
+7. Merge sort and quick sort.
+Round 2 
+1. Given an array of 1’s and 0’s. Segregate them.
+2. Given two sorted arrays with sizes m and n. Merge them into a third array of size m+n.
+3. A function is given that returns 1 with probability p and returns 0 with probability p-1. Write another function which calls this function and returns 1 and 0 with probability 1/2 each.
+4. Three ants in corners of triangle puzzle.
+ Round 3 (Vice – president)
+1. Questions on projects I had worked on.
+2. How HashMaps work in Java?
+3. Explain JVM architecture.
+4. How garbage collector works in Java?
+5. Given an array of numbers, arrange it in such a way that a1 > a2 < a3 > a4 < a5 > a6 < …..
+Round 4
+1. Given a linked list, reverse the elements from the beginning in blocks of two. Given: 7 -> 4 -> 9 -> 2 -> Null. Output: 4 -> 7 -> 2 -> 9 -> Null.
+2. Given a Rubik’s cube of size n (Made of n^3 smaller cubes). You remove all that are visible from outside. How many cubes are left?
+3. The 4 people, bridge and one torch puzzle.
+4. Java generics syntax.
+5. Implement multiple stacks in one array.
+6. In an array of positive integers, find pythagorean triplets in O(n^2) runtime.
+Managerial round
+
+1. Why do you want to leave your job?
+2. Why Goldman Sachs?
+3. Why not Google? (I said I would be happy to work for Google if they offered me a job)
+4. Are you fine working in proprietary languages?
+5. 100 gold coins and 5 pirates puzzle.
+6. What is your notice period?

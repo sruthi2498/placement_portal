@@ -1,0 +1,8 @@
+Given two strings ‘A’ and ‘B’ of equal length. Two players play a game where they both pick a character from their respective strings (First picks from A and second from B) and put into a third string (which is initially empty). The player that can make the third string palindrome, is winner. If first player makes palindrome first then print ‘A’, else ‘B’. If strings get empty and no one is able to make a palindrome, then print ‘B’.
+Examples:
+After taking few examples, we can observe that ‘A’ (or first player) can only win when it has a character that appears more than once and not present in ‘B’.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

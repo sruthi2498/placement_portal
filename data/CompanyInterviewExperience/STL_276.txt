@@ -1,0 +1,11 @@
+multimap::swap() is used to swap the contents of one multimap with another multimap of same type and size.
+Syntax:-
+Parameters :
+The name of the multimap with which
+the contents have to be swapped.
+Result :
+All the elements of the 2 multimap are swapped.
+Examples:
+
+Run on IDE
+Output:-

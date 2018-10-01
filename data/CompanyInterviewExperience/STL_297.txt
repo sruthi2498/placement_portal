@@ -1,0 +1,10 @@
+Maps are associative containers that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have same key values.
+This operator is used to reference the element present at position given inside the operator. It is similar to the at() function, the only difference is that the at() function throws an out-of-range exception when the position is not in the bounds of the size of map, while this operator causes undefined behaviour.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the key is not present in the map, it shows undefined behaviour.
+2. It has a no exception throw guarantee otherwise.
+Run on IDE
+Output:
+Time Complexity:  O(logn)

@@ -1,0 +1,12 @@
+Given a string str of small alphabetic characters other than this we will be given many substrings of this string in form of index tuples. We need to find out the count of the palindromic substrings in given substring range.
+Examples:
+
+Prerequisite : Count All Palindrome Sub-Strings in a String
+    We can solve this problem using dynamic programming. First we will make a 2D array isPalin, isPalin[i][j] will be 1 if string(i..j) is a palindrome otherwise it will be 0. After constructing isPalin we will construct another 2D array dp, dp[i][j] will tell the count of palindromic substring in string(i..j)
+    Now we can write the relation among isPalin and dp values as shown below,
+Total time complexity of solution will be O(length ^ 2) for constructing dp array then O(1) per query.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

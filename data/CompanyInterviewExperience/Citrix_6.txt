@@ -1,0 +1,64 @@
+Written Tests:-
+There was a 1 hr aptitude test & 1 hour coding round. The aptitude test had simple questions on c/cpp, Networking, OS etc. and some general quantitative aptitude questions.
+The coding round had 2 questions to be done in an hour.
+Q1: A matrix of 1s & 0s are given, you have to find no of groups of adjacent 1s. Adjacency was based on 8-connectedness. (Finding no of components in an undirected graph) (Islanding problem :- https://www.geeksforgeeks.org/find-number-of-islands/)
+Q2: A number is given and you had to translate it to string form (Indian system – lakhs, crores etc. not millions, billions etc .) The word “and” had to be added at the appropriate place (after 100s place if there was a digit in 10s or 1s place)
+101 => one hundred and one
+2311 => two thousand three hundred and eleven
+900020 => nine lakh and twenty
+35 => thirty five
+3 => three
+1<=N<=999999999
+
+Round 1(Technical)(45 mins):-
+How are you today?
+(While scrutinizing my resume) Tell me about yourself?
+Why Software, Why not Electrical?
+Which language do you prefer.? C or java(As majority of my work was in Android development, I told her java)
+Which data structures do you like most? (I told her Linked Lists and trees)
+Write any code of any data structure? (She wanted to check if I’m not bluffing them by writing data structures as my area of interest). I wrote the code in C.
+She started to pick some projects of mine and also asking me to explain them
+What is a web server?
+How do you connect your android app to a web server?
+Full form of http? (I dodged that by saying I’m not into networking)
+Any Questions for us.?
+-> I asked them as the company’s name suggests what research work they do.?
+-> How would I be contributing to research work, If I’m hired.?
+-> Is there any chance of getting promoted to Citrix U.S ?
+-> What kind of work environment is there in Citrix.?
+She gave me a hint that she was impressed by my work and I’d be interviewed for the second round
+Round 2(Technical)(1.5 hrs approx):-
+He took a glance at my resume and said “I called you because I liked your resume very much”.
+I smiled and my confidence level skyrocketed to 200%.
+He asked me to describe myself in 5 mins and started a timer of 5 mins.
+Explain any project of yours in detail.?
+I started explaining it to him. He started going deeper and deeper into my project, asking every basic detail about it.
+He wanted to check my basics of java and android.
+For ex., he asked
+How does an AsyncTask work?
+What is encapsulation and polymorphism?
+How does encapsulation and polymorphism works?
+When I was stuck at one position, he started helping me by giving analogy related to my project. He helped me at every stage, whenever I was stuck.
+How does multithreading works?
+What is volatile and synchronous in java?
+How many methods are there to create threads and how do they work.?
+He asked me some simple logical reasoning questions.
+For ex.
+yx * 7 = zxx . Find x,y,z?
+a,c,f,h,k,m,? Find the missing alphabet.?
+Last he asked me if I have any questions about the company.?
+    	-> Sir, you’re having a lot of experience in software industry, any advice for a fresher like me.?
+    	-> What profiles are they offering and what is the work associated with each one of them.?
+
+Round 3(HR)(45 mins approx):-
+How are you.?
+Why Software, why not Electrical.?
+After seeing many of my projects were self-mentored.She asked how do you manage it?
+Strengths and weaknesses.?
+What profile you’re targeting here in citrix.?
+What do you do apart from coding and studies.?
+How many apps have you published till date and why you didn’t publish the rest.?
+Any shortcomings in our interview process.?(I told them, I didn’t like the HackerEarth platform on which they take tests. )
+Tips/Advices:- 
+They were mainly looking for guys who had done lots of projects in software. In the whole interview process they only focused on my projects and  fundamentals of java. They didn’t ask me anything that’s not in my resume. So, Don’t write anything in your resume that you’re not confident about. They just want you to have sound  basic concepts.
+Thanks GeeksforGeeks.! 😀

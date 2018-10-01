@@ -1,0 +1,21 @@
+I attended the Oracle Server Technology interview at  Banglore. They started with a PPT followed by a written test. Then two rounds of technical interview and then HR. Finally result got declared after a week and got selected thank you geeks for geeks.
+ 
+You are expected to write a algorithm/pseudo code followed by actual code in c/c++/java.
+Q1. A tree is given, send it on a network. You can assume send() and receive() functions are available.
+Q2. A compressed string is stored in an array of sufficient length. Write a program and its complexity to un-compress the string. i.e. a3b6c4 à aaabbbbbbccccc
+Q3. A media player selects songs from a database contains huge number of songs. Create a shuffle function such that it selects a song randomly but it does not repeat the songs. You can assume random function rand() is available.
+Solution 1.
+a)Read the string in inorder and transfer it using send() and receive() function.
+b)Read the string in preorder and transfer it using send() and receive() function.
+c)At the receiving end inorder and preorder both are available so tree can be reconstructed.
+Solution 2.
+a)  First read all the frequencies and add them up as total_freq.
+b)  Start filling of array from index total_freq.
+c)  Repeat a character by the frequency given.
+Solution 3.
+a) Enumerate the songs, Assign a specific number to each song.
+b) Write a map function which maps() the output of random() function to the size of song database (size).
+c) Play the song whose number is output of map function.
+d) Now scale up the sequence number of that song such that it moves out of range of map() function, i.e. seq_no= seq_no + size;  (so that next time it can’t be repeated until all songs have been played once).
+e) Once all songs have been played, again scale down their sequence number.
+

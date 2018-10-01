@@ -1,0 +1,7 @@
+Given a string, Find the 1st repeated word in a string
+Examples:
+question source : https://www.geeksforgeeks.org/goldman-sachs-interview-experience-set-29-internship/
+
+The idea is to tokenize the string and store each word and its count in hashmap. Then traverse the string again and for each word of string, check its count in created hashmap
+Run on IDE
+Output:

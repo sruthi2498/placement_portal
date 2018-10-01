@@ -1,0 +1,36 @@
+Microsoft has mainly 2 written test followed by 2/3 interview including HR round.
+1st Online Written Test:  This written test was easy, only C/C++ (easy questions) and some of OS and Microprocessor question were there, Total count was 20.
+2nd Online Test: In Second round, there were two problem to code (they provide us editor, Pariksha Lite)
+1. WAP to print last 10 lines of given string. If string has less than 10 lines then print whole string, lines are separated by ‘\n’ . [Ans. There are two app. (i) Top to down (ii) Bottom to up ( this is efficient ) ]
+2. A Binary Tree is given, print nodes value, level by level separated by ‘\n’ [Ans. Level Order Traversal ]
+1st Face to face Interview
+My interview was good, following problem were asked me to do. 
+1. WAP to print the first unique character in a given string, make sure your program should run for all corner cases as well. {Ans. It is easy, use hashing with counting method, time and space complexity is O(n) and O(1)}
+Then he told me how you will test your program followed by the test case.
+2. You are given a square grid of nxn, you need to print the circle form by it in clockwise direction. for example
+12
+45
+then output : 1254
+123
+456
+789
+then output: 2684
+[Ans. It is easy to code using two successive loops. Have a look a similar question “Print element of matrix in Spiral Form”, Refer Geeksforgeeks]
+3. Some question on new technology and you interest.
+2nd face to face interview
+Some questions on my project like what you have done, why you choose this project, how you will enhance your project etc.
+Then he asked me some puzzles and aptitude question. 
+1. You are given a jar in which there are 99 % black balls and 1% white balls, draw some black balls out from jar such that there left 98% black and 2% white. How many black balls you drawn?
+[Ans. Let there are total N balls so, black(b) = 99N/100 and white(w) = N/100 after drawing ‘x’ balls the percentage of white get increase to 2% so N/100 = 2*(N-x)/100 => x = N/2 , so draw half black balls].
+2. At 10:30 what is the angle between hour and minute needle. [ you can do it ]
+3.  Puzzle: you have two eggs and 100 story building; find the top floor from which both of the eggs get break.
+4. WAP to word by word reverse a given string. Ex. Given string is “Hey hi how ru ?”. then print “? Ru how hi hey”.  Test your program for corner cases. Write test cases for your code and what happens if the given string is too long without separated by space that cannot be accommodate in given memory . [easy to answer]
+5. Convert Singly and Doubly sorted linked list to BST and optimize it.
+[Can be solved in O(nlog(n)) and O(n)]
+3rd Face to face Interview (Final round)
+This round was combination of HR round and technical round.
+He started with some general questions like about me, what is your area of interest followed by what’s your aim, why you want to join Microsoft etc. Then he asked me in which area you are passionate, I told him DS, Algo, C/C++ and OS. Then he asked me which operating system do you like / know about, after that, he asked me some question related to it. (around 5 question, and they were really tough one). He also asked me about Windows server edition (some deep questions). Then he gave following DS, Algo questions.
+1. Wap to find paths from root to any leaf such that sum is equal to given sum.
+{ans. It is easy to do, use logic of root to leaf path}. Rest I forgot..
+Run on IDE
+

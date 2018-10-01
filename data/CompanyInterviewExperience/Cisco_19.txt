@@ -1,0 +1,17 @@
+Hi everyone, recently CISCO visited our campus for a summer internship for pre-final year students(3rd year single degree + 4th year dual). 
+1st round (MCQ)
+The 1st round was a MCQ round consisting of 50 problems in 1 hour. The questions were from aptitude, Data structures, microprocessors and some common puzzles like the Josephus and the Queens problem. The questions were farly intermediate however being a CS student i didn’t know much about the MicroProcessors questions. They selected around 10 students for the interview round. There was only 1 round of interview which lasted around an hour for each one of us
+The platform for the test was mettl.com
+2nd round (Technical F2F)
+The interview started with the general Tell me about Yourself. He mainly wanted to know my subjects and fields of interest.
+From there he moved straight to the projects on my resume.(10 min)
+I did electives on Information Retrieval and Machine Learning and the next 10min were spent on this.
+The he gave a DSA question. You are given a sorted array and your objective is to construct a BST out of it. The constructed BST should have the shortest possible height. I had to first explain my approach to the problem and when he was convinced I was asked to write the full code for the problem. I later found this question on GFG: https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/  
+(20 min)
+Next followed few discussions on Graph Algorithms. Explain Djikstra, real life applications, limitations of djikstra (fails when negative edges), solution for negative edges(Bellman Ford), explain Bellman Ford. (10min)
+Next I was asked about my favorite language. When I answered C++ a few theory questions followed. What are friend functions, virtual functions, auto pointers and a few questions on classes.
+If classB inherits from classA, A and B both have a function func1(), object is made as A obj = new B(), if we call obj.func1() which one will get called. I answered B’s one but then he wanted to know why and the internal structure of C++ in such a scenario. Please reply in the comments if you have a proper answer. (10min)
+The interview ended with a few HR questions like why CISCO, future objectives and goals, etc
+Surprisingly they didn’t ask any of us any Networking questions. Might be because we are still doing our networking course this sem.
+My only tip from this experience would be when you read questions on GFG try not only finding a solution but also coding the solution and that too on paper. Its really tough to write code on paper when you have your interviewer over your head looking at your every step.
+Also be clear with all the projects present in your resume. One of my projects used a long mathematical formula and he even wanted to know about the formula.

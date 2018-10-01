@@ -1,0 +1,21 @@
+Moonfrog Labs Interview Experience
+Recently I got interviewed at Moonfrog Labs. Here is my interview experience.
+Round 1(1 hour):
+The interviewer was very friendly and helping. She started with my introduction and discussed a bit about my current project. 
+Q1. Check whether a graph can be converted to a tree or not.
+First we have to discuss the approach and then code on paper.
+Q2. Design a jigsaw puzzle.
+Discussion on this went for long and I have to write the class diagram and definition for few functions which I mentioned in my design. 
+Round 2(1 hour):
+Q1. Reverse a singly linked list (Both iterative and recursive approach).
+Q2. Add 2 numbers represented in the form of linked list.
+Q3. Print nodes at a given distance K from the given node in a binary tree.
+Q4. Given an array of integers, at each index I can take steps upto the value at that index. I have to find the minimum number of hops required to traverse the complete array.
+For example: input[] ={2,5,3,6,8,1,3}
+From index 0, I can take 1 or 2 steps. From index 1, I can take 1,2,3,4 or 5 steps and so on.
+Round 3(30 minutes):
+Q1. Two players are playing a game in which each have to pick 1, 2, 3 or 4 coins in each turn. There are n coins in total. Design a strategy to win the game.
+Q2. http://codeforces.com/problemset/problem/487/A
+I was not able to solve this question.
+I did not receive the offer but it was a good experience. I would like to thank geeksforgeeks for providing such an awesome platform for interview preparation.
+ 

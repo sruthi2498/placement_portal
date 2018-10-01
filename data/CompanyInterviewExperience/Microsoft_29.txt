@@ -1,0 +1,25 @@
+Microsoft invited applications for interns from our college. Process consisted of following rounds. each round was an elimination round. we started off with about 200 applicants and in the end 10 were selected.
+Round 1:  
+First round was an online test on Co-Cubes that comprised of three coding questions. (75 Minutes)
+Question 1: http://www.geeksforgeeks.org/evaluate-a-boolean-expression-represented-as-string/
+Question 2: dont remember sorry!
+Question 3: http://www.geeksforgeeks.org/connect-nodes-level-level-order-traversal/
+ 
+Round 2: Group Fly(Written Test 45 Minutes)
+In this round we were divided in groups of about 4-5 and assigned a interviewer . 2 questions were given and we had to write code, give test cases and explai approach. Alithough it was a written round, but i would advise to try and interact with interviewer and discuss approach.
+Question 1: Given an equation print its reverse. Ex. I/P=  66 + 23 * 45 +77/330 ; O/P=  330/77+ 45 * 23 + 66 .
+this is similar to -> http://www.geeksforgeeks.org/reverse-words-in-a-given-string/  the only difference is to also reverse words when operators are encountered.
+Question 2: http://www.zrzahid.com/longest-increasing-path-in-a-matrix/
+The key to clear this round is to write code and explain it’s approach very clearly . They need to see your problem solving skills and how you try to approach it. Reaching right answer is not that important.
+Round 3, 4, 5 : Personal Interview (60-75 Minutes each)
+Group fly was followed by 3 personal interviews. Each was an elimination round . In each round first my resume was discussed. It is important that you know your projects in and out.
+Then interviewer gave me a simple question :
+1)http://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/
+2)http://www.geeksforgeeks.org/longest-common-subsequence/
+3)http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
+4)http://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+5)How does square root library work ? Implement it.
+I was also asked some questions from OS. Process, threads and paging were asked.
+First we discussed approach and then he asked me to code. It is important that you keep discussing your approach while thinking about it. Be confident . Walk interviewer through each line of code. First try to give naive and brute force solution . Do not try to jump and give the most optimized solution right away. They need to see your problem solving skills. The interviewer will try to break your code by test cases. But they will also suggest solutions here and there. They are also very friendly so environment is relaxed.
+Round 6 : Personal Interview – HR (60-75 Minutes)
+This was the final round with a senior interviewer he asked me about myself and why I wanted to work with them.

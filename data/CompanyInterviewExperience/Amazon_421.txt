@@ -1,0 +1,50 @@
+Hi Everyone recently Amazon visited our campus for SDE-1 and internship and I got an offer for internship as well as SDE-1. Here’s my experience.
+
+Written Exam(1hr:30mints):
+There were 22 questions asked in which 20 were of MCQ’s and 2 coding questions. Most of the MCQ’s came from OS, Algorithm, C-o/p and aptitude (directly from previous year Computer science GATE).
+First coding question: Determine the diameter of a tree (Taking input was a bit difficult as we have to take input in array of unknown size,sort it and create BST). 
+Second coding question: Given a string of words seperated by comma,we have to print pair of words who are anagrams line by line(case-insensitive). If you don’t find any such pair then print -1.
+Interview Rounds:
+Round 1(1hr:15mints):
+1. Started with Introduction then he jumped into project and discussed about 15 mints.
+2. Given an array print elements according to frequency and if two elements have same frequency then print it in decreasing order.
+      Gave solution using 2d matrix in O(n2). Then reduced the complexity by sing AVL tree in O(nlogn).Later coded AVL tree solution on paper.
+3. Given a binary tree, print boundary traversal
+      I gave solution by using three traversal(as given in gfg) then he asked me to do it in single traversal. I discussed alot with him then finaly came up with solution by using queue and stack data structure. Later he asked me code it and I coded correctly. He was impressed with my code.
+
+Round 2(1hr):
+1. Started with project discussion of around 25 minutes.
+2. Given an array of stock prices, find maximum loss in buying and selling stocks. I gave him appoach first, then he asked me to code. Coded it.
+3. Implement garbage collector in C without using free function.
+4. What is virtual inheritance.
+5. Explain how the file is stored in memory.
+6. Explain UNIX I node Implementation.
+7. Difference between process and threads.
+8. How threads are executing parallely and how they share memory.
+9. Asked algorithm to schedule kernal level threads(gang scheduling).
+
+Round 3(1hr:30mints):
+1. Started with Introduction
+2. Detailed project discussion of around 45 minutes.
+3. Given me the Resource allocation graph with set of processess and resources, ask me to tell him the approach to execute all the process.
+      I told him to use topological sort suddenly he said very good and ask me to code. I coded it.
+4. Explain the need of synchronization with the help of example.
+      I explained him with use of producer-consumer and printer spooler problem(also written code for both).
+5. basics of synchronization i.e code for wait and signal operation and how the semaphore maintains their suspended list.
+At the end of this round interviewer was very impressed.
+Round 4(1hr):
+1. Given a integer number n, tell its binary representation is palindrome or not.
+      e.g 4=100 not palindrome
+      5=101 palindrome.
+      TC = O(n) and SC = O(1) was expected and I coded it.
+2. He gave me a java code using lock on this keyword.Ask me is there any problem in the code using lock keyword when multiple threads are running concurrently. I found the problem then he ask me to resolve it and I resolved it.
+3. What is virtual memory. Who implements it.
+4. How virtual memory concept is implemented in system.
+Tips:
+1. Interviewer don’t expect you to give all correct answer though they want to see your approach first and how you tackle a problem which you don’t know apriori.
+2. Brush up OS fundamentals thoroughly and try to practice code on paper as much as you can.
+3. Along with basic data structures also have some idea of advance data structures like BBST,Trie,Graphs etc.
+4. Think loud in front of interviewer and try to engage him all the time.
+5. Listen his words carefully, probalbly they will have some hints to answer.
+I would like to thanks geeksforgeeks team for providing such a great platform. You guys are doing awesome job.
+

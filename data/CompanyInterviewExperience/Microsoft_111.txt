@@ -1,0 +1,39 @@
+Microsoft IDC Interview experience
+ONLINE ASSESSMENT
+Platform: CoCubes
+Format: 3 coding questions
+Time:  90 minutes
+Q1) complete the following function: 
+Where Treenode is a structure defined as:
+The function should calculate (12*feet+inches) for all the array elements and return the maximum value.
+Q2) complete the following function:
+The function should return the pointer to the inorder successor of the ‘node’ provided in the function. If does not exist, return NULL.
+Q3) complete the following function:
+Return the head pointer to the intersection of the two linked lists. It was mentioned that no extra space to be used and implementation should be recursive.
+
+GROUP FLY ROUND:
+40 candidates were shortlisted for the group fly round. 
+The candidates were roughly divided in a group of 4-5 and a mentor was in charge of each group. We were given a question and we were asked to write a function-solution in any high level language (scripting languages like Ruby, php, python were not allowed). We were allotted maximum 45 minutes.
+Ques: Given two character arrays(not strings) of same length, and their length as a parameter to the function. We have to find whether the first string is a rotation of the other. We should not use any extra space. The time complexity may be quadratic.
+The mentor kept coming to everyone. He first asked what i was thinking. I told him the approach with an example. Then I wrote the code, sample test cases and a basic approach section in bullets. Though, they demanded only the code.
+ROUND 1: 
+Around 50% candidates were selected after the group fly round.
+I was given two coding questions:
+Ques 1) given a tree, print all the edges of the tree such that both the following conditions are satisfied:
+Only print the node whose right child is NULL,
+The node is a leaf node.
+    I gave a recursive approach. I later realised while explaining that it failed in certain conditions. I asked for some time to rectify it. I finally gave him a code and he seemed fine about it.
+Ques 2) given a matrix, traverse the matrix in a zig-zag manner: 
+    I gave an approach of time complexity O(N X M). He asked me if i can do it in lesser time complexity. I may use extra space. I could not come up with anything very concrete. My round was done.
+ROUND 2:
+The interviewer asked how was my group fly round. Then he explained to me a situation that I have a fixed 2-D space of NXM. I have been given a set of random numbers(not in running). I have to find an efficient way to store them and such that I can retrieve each element in least time complexity.
+With hit and trials we reached an approach where I can store the numbers in such a way that each row is sorted, and the order across the rows is also increasing. Now we can just apply binary search on 1st column to find the appropriate row , and then binary search the number in the obtained row. Time complexity: logM+logN. He asked me to code it. That was it for the second round.
+The interviewer was very helpful and jolly.
+
+ROUND 3: (FINAL)
+I was called for round 3 after 15 minutes. It was supposed to be HR but it was predominantly technical. I was asked about all my projects and my role in them.
+Then he gave me a question and said that we would discuss only the approach ,and there was no need to code it.  
+The problem was similar to the below geeksforgeeks problem:https://www.geeksforgeeks.org/divide-and-conquer-set-7-the-skyline-problem/
+I struggled a bit but he helped me. Then we discussed the final solution and approach.
+Since it was 8:30 pm, I was done for the day. After the round was over, I was told that I am done with all the rounds and need not come the other day.
+

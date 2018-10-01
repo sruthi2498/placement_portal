@@ -1,0 +1,25 @@
+Deque or Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+This operator is used to assign new contents to the container by replacing the existing contents.
+It also modifies the size according to the new contents.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the containers are of different types, an error is thrown.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:
+This operator is used to reference the element present at position given inside the operator. It is similar to the at() function, the only difference is that the at() function throws an out-of-range exception when the position is not in the bounds of the size of deque, while this operator causes undefined behaviour.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the position is not present in the deque, it shows undefined behaviour.
+2. It has a no exception throw guarantee otherwise.
+Run on IDE
+Output:
+Application
+Given a deque of integers, print all the integers present at even positions.
+Algorithm
+1. Run a loop till  the size of the array.
+2. Check if the position is divisible by 2, if yes, print the element at that position.
+Run on IDE
+Output:

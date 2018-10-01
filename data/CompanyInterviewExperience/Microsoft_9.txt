@@ -1,0 +1,16 @@
+Round 1:
+Q1 Write a method to search pattern in a given string; (naive solution) but working code with all edge cases.
+Q2 Write a method that accepts 9×9 array of Sudo and returns if it is a valid state of sudoku. (Empty cells denoted by 0’s).
+some networking concepts ie.  TCP and about my experiences with DB.
+Round 2:
+Q1 LLD and HLD about a functionality in my project.
+Q2 https://www.geeksforgeeks.org/converting-roman-numerals-decimal-lying-1-3999/
+Round 3:
+Q1 Design a battleship game; wanted all classes and interfaces and method signatures.
+Q2 Difference bwn Virtual and physical memory (asked in a twisted way)
+Round 4:
+Discussions about current project and the work I had done earlier
+Design a class whos job is to provide an id to other parts of application, one id can be used by one person at a time.Also the callers will come with an id; our job is to say YES or  No to whether he can use it. If some other person came with the same id we have to return false until the first caller is done with it.
+I gave him HashSet and array of booleans approach, he wanted something else (kind of bitvectors)
+https://www.geeksforgeeks.org/check-if-a-string-has-all-characters-with-same-frequency-with-one-variation-allowed/
+I misinterpreted this questions but still coded it out completely, lol

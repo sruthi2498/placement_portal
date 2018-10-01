@@ -1,0 +1,6 @@
+Given a very long list of URLs, find out last unique URL. Only one traversal of all URLs is allowed.
+Examples:
+
+We can solve this problem in one traversal by using Trie with a Doubly Linked List (We can insert and delete in O(1) time). The idea is to insert all URLs into the Trie one by one and check if it is duplicate or not. To know if we have previously encountered the URL, we need to mark the last node of every URL as leaf node. If we encounter a URL for the first time, we insert it into the doubly Linked list and maintain a pointer to that node in linked list in leaf node of the trie. If we encounter a URL that is already in the trie and has pointer to the url in the linked list, we delete the node from the linked list and set its pointer in the trie to null. After all URLs are processed, linked list will only contain the URLs that are distinct and the node at the beginning of the linked list will be last unique URL. 
+Run on IDE
+Output:

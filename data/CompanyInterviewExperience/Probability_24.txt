@@ -1,0 +1,54 @@
+Recently DirectI visited our campus for placements for three profiles –
+	1. Platform Engineer
+	2. Applications Engineer
+	3. Operations Engineer
+This process is for the first two profiles, I did not apply for Operations.
+Round 1: Online coding round (263 applicants)
+Q1. Given cost C[i] and calorie content P[i] of n chocolates, find the maximum amount of calorie one can take in a budget of W money units. Constraints : W <= 1000, n <=100, C[i]<=100, P[i] <= 100.
+Q2. Given 2 strings s and p of same length. (length<=16)
+	Define dist(string a, string b) = max(distinct characters in a, distinct characters in b).
+	A valid operation is to exchange characters at the same index between s and p. Eg: if s=”abaa” and p=”baab”, then after one operation, we can get s=”aaaa” and p=”bbab” (Exchanging characters at index 1).
+	Find the minimum value of dist(s,p) if s and p can undergo the described operation any number of times.
+Q3. Given a tree with n nodes in the following manner – In array par, par[i] denotes parent of node i in the tree. Root is always at index 1 and par[1]=0. Also, index of child nodes is always greater than index of parent.
+	Given q queries, process each of them ->
+	a) ADD(x,y) : Add value y to node x.
+	b) ADDUP(x,y) : Add value y to all nodes in the path from root to node x.
+	c) VAL(x) : Print value of node x.
+	d) VALTREE(x) : Print sum of values of all nodes in the subtree with root x.
+	Constraints: 1<=n<=1,000,000
+				1<=q<=1,000,000
+	Those who solved at least two questions were shortlisted.
+Round 2: F2F Algo round 1(31 shortlisted candidates)
+Consisted of only 1 algorithm based question, so did the next two rounds. Had to write the code.
+Q. Given an nxn chessboard and position (x,y) of a knight on it, what is the probability that it stays in the chessboard after k moves.
+Round 3: F2F Algo round 2 (20 shortlisted candidates)
+Only approach was asked.
+Q. Points from (0,0) to (R,C) in the cartesian plane are colored r, g or b. Make a triangle using these points such that-
+	a) All three vertices are of different colors.
+	b) At least one side of triangle is parallel to either of the axes.
+	c) Area of the triangle is maximum possible.
+	Output the maximum possible area.
+	Constraints : 1<=R<=1000, 1<=C<=1000
+	9 people were directly shortlisted for final interview, and 4 were immediately rejected. Rest 7 were called for Algo round 3.
+Round 4 : F2F Algo round 3 (7 candidates)
+	Given heights of n rows of grass H[n]. A farmer does the following operation k times->
+	Selects start index (s), end index (e) and a height (h). Fixes his grass trimming instrument at height h and trims the grass from row-s to row-e. Meaning, for each H[i] for i between s and e, H[i]=min(H[i],h).
+	Print all heights after k operations.
+	Attention -> If H[i] was 6 and h was 4, then after trimming H[i] becomes 4 (does not reduce by 4).
+	Prohibited ->
+	a) O(nk) solution.
+	b) Use of Segment Tree(Only Update operations are there, so Segment Tree is overkill).
+	c) Use of BIT.
+	Expected time complexity – O(nlogn).
+	I gave all these approaches before the interviewer rejected them, then gave an approach using heaps with time complexity O(nlogn), but he wanted a simpler approach.
+	Only 1 candidate from these 7 was called for final interview (in addition to the 9 previously selected). I was rejected in this round.
+Final Interview : Telephonic(over Skype, 10 candidates)
+	I didn’t give this round but here’s what they asked-
+	1. Introduction about yourself.
+	2. Projects done, past internships.
+	3. Questions related to DS (around 6-7).
+	4. Questions related to networking (around 10-12).
+	5. Questions related to DBMS and OS (around 10-12).
+	6. Few HR questions.
+	Finally, 4 candidates were selected, 3 as Platform Engineers and 1 as Applications Engineer.
+

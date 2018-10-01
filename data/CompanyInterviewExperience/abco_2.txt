@@ -1,0 +1,45 @@
+Round 1
+15 Technical Aptitude (predominantly DS), 3 Queries, 2 Coding Question hosted in HackerRank
+Round 2 (F2F Technical Interview)
+Find the number of rotations in a rotated and sorted array
+https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/
+Find the pair of numbers with given sum
+https://www.geeksforgeeks.org/check-if-two-numbers-have-sum-exactly-x/
+Check if two nodes are cousins
+www.geeksforgeeks.org/check-two-nodes-cousins-binary-tree/
+Assume a round robin tournament of n students in which each student plays every other student exactly once. Arrange the students in such a way that each student is lost to the person to student to his left and won against the person to his right.
+(I suggested a topological sort based solution. The correct approach is to build a BST and followed by Binary Search)
+Applications of Inorder, Preorder, Postorder Tree Traversals
+Questions on SQL using aggregate functions
+Given scores of all the students in each subject, write a single query to find the student ranking 1st in the class
+Every student has an entry for each day he came to school, calculate the number of days he came to school
+A question was asked if you are ready to work on Business Intelligence tools when filling up the credentials for online round. Why did you choose “yes”?
+Why were you rejected in previous companies? Have you rectified your mistakes?
+Round 3 (F2F Technical Interview)
+Syntax of a select statement in SQL and explain every keyword in it
+Discussion on “group by” and “having”
+Indexing and types of indexing
+Syntax to create index
+CREATE INDEX index_name ON table_name (column1, column2, …);
+Various ways by which kth smallest element can be found
+https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+List all the Data Structures you know and suggest an application in the computer science field
+Greatest Achievement in your life
+Round 4 (HR Interview)
+Why CSE? Why PSG?
+Why ABCO?
+How do you see yourself after 5 years?
+Why won’t you do higher studies?
+Family Background
+
+
+
+
+ Also Remember
+Being without pressure will give a lot of room in your brain to think
+Take enough time and solve DS problem without any urgency. Even if the interviewer urges you, you can take extra time by asking him politely.
+You’ll just have to give an impression that you are potential enough to do the job. Your one line showing your interest towards the firm or the one complementing statement about those guys can definitely raise your performance up a notch. 
+The HR questions asked are not to know about you. It is to check how well you communicate. When the HR asks “Why CSE?”, he definitely is not expecting an answer like “CSE has a lot of scope in the future”. You can definitely make up stories here and make the answers lot more interesting and unique.
+ 
+ 
+

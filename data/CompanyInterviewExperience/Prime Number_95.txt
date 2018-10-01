@@ -1,0 +1,14 @@
+Given an integer n, we need to find a range of positive integers such that all the number in that range are composite and length of that range is n. You may print anyone range in the case of more than one answer. A composite number is a positive integer that has at least one divisor other than 1 and itself (Source : wiki )
+
+Examples :
+The solution is little tricky. Since there are many possible answers, we discuss a generalized solution here.
+Example for above algorithm
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Analysis of above algorithm
+Time Complexity : O(n)
+Auxiliary Space : O(1)

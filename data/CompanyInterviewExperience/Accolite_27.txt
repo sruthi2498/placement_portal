@@ -1,0 +1,24 @@
+Given two arrays which are duplicates of each other except one element, that is one element from one of the array is missing, we need to find that missing element.
+Examples:
+One simple solution is to iterate over arrays and check element by element and flag the missing element when an unmatch is found, but this solution requires linear time over size of array.
+Another efficient solution is based on binary search approach. Algorithm steps are as follows:
+ 
+Below is the implementation of above steps
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+What if input arrays are not in same order?
+In this case, missing element is simply XOR of all elements of both arrays.  Thanks to Yolo Song for suggesting this.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+

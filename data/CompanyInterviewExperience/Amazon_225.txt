@@ -1,0 +1,12 @@
+Given a knapsack weight W and a set of n items with certain value vali and weight wti, we need to calculate minimum amount that could make up this quantity exactly. This is different from classical Knapsack problem, here we are allowed to use unlimited number of instances of an item.
+Examples:
+
+Its an unbounded knapsack problem as we can use 1 or more instances of any resource. A simple 1D array, say dp[W+1] can be used such that dp[i] stores the maximum value which can achieved using all items and i capacity of knapsack.  Note that we use 1D array here which is different from classical knapsack where we used 2D array.  Here number of items never changes.  We always have all items available.
+We can recursively compute dp[] using below formula
+Below is the implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

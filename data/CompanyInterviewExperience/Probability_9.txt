@@ -1,0 +1,17 @@
+Given N which denotes the initial position of the person on the number line. Also given L which is the probability of the person of going left. Find the probability of reaching all points on the number line after N moves from point N. Each move can be either to the left or to the right. 
+Examples:
+Input: n = 2, l = 0.5
+Output: 0.2500 0.0000 0.5000 0.0000 0.2500
+The person can reach n-1th position and n+1th position in 2 passes, hence the probability is 0. The person can reach 0th position by only moving 2 steps left from index 2, hence the probability of reaching 0th index is 05*0.5=0.25. Similarly for 2n index, the probability is 0.25. 
+Input: n = 3, l = 0.1
+Output: 0.0010 0.0000 0.0270 0.0000 0.2430 0.0000 0.7290
+The person can reach n-1th in three ways, i.e., (llr, lrl, rll) where l denotes left and r denotes right. Hence the probability of n-1th index is 0.027. Similarly probabilties for all other points are also calculated.
+
+Approach:  Construct an array arr[n+1][2n+1] where each row represents a pass and the columns represent the points on the line. The maximum a person can move from index N is to 0th index at left or to 2nth index at right. Initially the probabilities after one pass will be right for arr[1][n-1] and left for arr[1][n+1]. The n-1 moves which are left will be done, hence the two possible moves will either be n steps to the right or n steps to the left. So the recurrence relations for right and left moves for all will be: 
+ arr[i][j] += (arr[i – 1][j – 1] * right)
+ arr[i][j] += (arr[i – 1][j + 1] * left)
+The summation of probabilities for all possible moves for any index will be stored in arr[n][i]. 
+Below is the implementation of the above approach: 
+Run on IDE
+Time Complexity: O(N2)
+Auxiliary Space: O(N2)

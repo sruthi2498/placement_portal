@@ -1,0 +1,30 @@
+I recently got a call from Qualcomm Hyderabad for Engineer position. I am from CS background and had 1 year experience.
+There are #3 Tech Rounds and #1 Hr round.
+Round 1:
+1. Discussion about my last company, what they do and what is my role.
+2. Interviewer started with my resume and asked about my projects. One of the project is related to C so he asked me to code a small module in that.
+3. Memory layout of the C program, Heap & stack allocation. Malloc & calloc differences. storage classes in C.
+4. Fibonnaci with recursion and its time complexity derivation.
+5. Operating system synchronization mechanism, mutex vs semaphores, monitors.
+Round 2:
+1. Bit manipulation questions, Little and Big endian conversions.
+2. Questions on compiler design, they want me to tell the steps and what happens in each step inshort like preprocessor, compiler, assembler, linker, loader etc. In which stage error will be thrown and how it throw the error.
+3. Design a system which accepts a number divisible by 5. Hint finite automata state daigram for mod 5
+4. Many questions on static variable and static function and difference between static vs global vs extern.
+5. Reading a paragraph from a file and print the palindromes.
+Round 3:
+1. Discussion about my last company, what they do, what is my role, why I want to change.
+2. Discussion about my projects. And the toughest module among all the projects I have done, why it is tough, what are the different approaches I tried.
+3. write a program to find the number in a sorted array. constraints: you don’t know the size of the array and you should try without finding the array size.
+(Hint: Use exceptions).
+I have done using array out of bound exception and later optimized using binary search.
+4. Oops concepts, Static and dynamic polymorphism, Vtable, Vptr.
+5. Questions on Inheritance,  upcasting and downcasting.
+6. Cache mechanism in computer architecture, L1 and L2.
+Round 4: (HR)
+1. why I want to change the company?
+2. why I want to join Qualcomm?
+3. He explained about the work culture and about qualcomm.
+4. What are my strengths and weakness. 
+HR round is really cool, we had this round by having coffee in Cafeteria.
+

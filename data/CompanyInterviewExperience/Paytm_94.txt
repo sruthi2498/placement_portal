@@ -1,0 +1,42 @@
+You are given an array of 0s and 1s in random order.  Segregate 0s on left side and 1s on right side of the array. Traverse array only once.
+Method 1 (Count 0s or 1s) 
+Thanks to Naveen for suggesting this method.
+1) Count the number of 0s. Let count be C.
+2) Once we have count, we can put C 0s at the beginning and 1s at the remaining n – C positions in array.
+Time Complexity : O(n)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The method 1 traverses the array two times.  Method 2 does the same in a single pass.
+
+Method 2 (Use two indexes to traverse)
+Maintain two indexes. Initialize first index left as 0 and second index right  as n-1.
+Do following while left < right
+a) Keep incrementing index left while there are 0s at it
+b) Keep decrementing index right while there are 1s at it
+c) If left < right then exchange arr[left] and arr[right]
+Implementation:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Another approach : 
+1. Take two pointer type0(for element 0) starting from beginning (index = 0) and type1(for element 1) starting from end (index = array.length-1).
+Initialize type0 = 0 and type1 = array.length-1
+2. It is intended to Put 1 to the right side of the array. Once it is done, then 0 will definitely towards left side of array.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Time complexity: O(n)
+// Thanks san4net for suggesting this method.
+
+Please write comments if you find any of the above algorithms/code incorrect, or a better ways to solve the same problem.

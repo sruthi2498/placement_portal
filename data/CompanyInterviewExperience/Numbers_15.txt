@@ -1,0 +1,19 @@
+Given a number n, find sum of square of first n even natural numbers.
+
+Examples :
+
+A simple solution is to traverse through n even numbers and find the sum of square.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+An efficient solution is to apply below formula.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

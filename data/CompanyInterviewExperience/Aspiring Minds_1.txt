@@ -1,0 +1,17 @@
+I was interviewed for the Product Engineer role on campus recently. The process consisted of AMCAT test followed by 2 Tech Interviews and 1 HR round.
+Round 1 – MCQs – Logical, Verbal, Computer Science ( OS, DBMS, Networks ) and 2 coding questions.
+Coding Questions (120 mins)
+1. Reverse a linked list from the middle.
+2. Implement a round robin scheduler and calculate the average waiting time. The inputs were the arrival time, burst time, Time quantum, no of processes.
+Then around 15 students were shortlisted for the telephonic interviews and live coding (google docs)
+Tech Interview 1 (90 mins)
+Thorough discussion about the projects. My major work was on LAMP stack and since the projects were live, so the interviewer kept on grilling me. Questions on the database, challenges faced, control flow were asked. He even asked the implementation of few modules on Google Docs. The interview ended with some questions on OOP concepts.
+Tech Interview 2 (45 mins)
+This was again a live coding round. Simple coding questions and few SQL queries were asked.
+1. Code a general series where the next element is the sum of last k terms.
+2. On clicking a node in a tree, all the adjacent edges are turned on. Calculate min of clicks such that all the edges are turned on.
+3. SQL queries on Self Join and Inner join
+4. Select distinct records without using the DISTINCT keyword. Both using a subquery and without it.
+5. Few more SQL queries.
+Luckily, I was shortlisted after my tech rounds and did not go through the HR round. 
+I am thankful to GeeksforGeeks for my preparation. 

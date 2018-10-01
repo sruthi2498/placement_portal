@@ -1,0 +1,25 @@
+Deque or Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+at() function is used reference the element present at the position given as the parameter to the function.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the position is not present in the deque, it throws out_of_range.
+2. It has a strong no exception throw guarantee otherwise.
+Run on IDE
+Output:
+Application
+Given a deque of integers, print all the integers present at even positions.
+Algorithm
+1. Run a loop till  the size of the array.
+2. Check if the position is divisible by 2, if yes, print the element at that position.
+Run on IDE
+Output:
+This function is used to swap the contents of one deque with another deque of same type and size.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It throws an error if the deque are not of the same type.
+2. It throws error if the deque are not of the same size.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:

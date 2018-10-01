@@ -1,0 +1,17 @@
+Given two integers n and k. Find position the n’th multiple of K in the Fibonacci series.
+Examples :
+Fibonacci Series(F) : 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040… (neglecting the first 0).
+A Simple Solution is to traverse Fibonacci numbers starting from first number. While traversing, keep track of counts of multiples of k.  Whenever the count becomes n, return the position.
+An Efficient Solution is based on below interesting property.
+Fibonacci series is always periodic under modular representation.  Below are examples.
+Why is Fibonacci Series Periodic under Modulo?
+Under modular representation, we know that each Fibonacci number will be represented as some residue 0 ? F (mod m) < m. Thus, there are only m possible values for any given F (mod m) and hence m*m = m^2 possible pairs of consecutive terms within the sequence. Since m^2 is ?nite, we know that some pair of terms must eventually repeat itself. Also, as any pair of terms in the Fibonacci sequence determines the rest of the sequence, we see that the Fibonacci series modulo m must repeat itself at some point, and thus must be periodic.
+Source : https://www.whitman.edu/Documents/Academics/Mathematics/clancy.pdf
+Based on above fact, we can quickly find position of n’th multiple of K by simply finding first multiple. If position of first multiple is i, we return position as n*i.
+Below is the implementation :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,39 @@
+
+Round 1 (Pen and Paper Round)
+
+A square matrix of size n x n is given. Given a pivot with co-ordinates (r,c), you need to move in a clockwise spiral manner and print the elements. You can even go out of bound of the matrix while moving in clockwise spiral fashion, but make sure to print only the matrix elements.
+Build Lowest Number by Removing n digits from a given number (https://www.geeksforgeeks.org/build-lowest-number-by-removing-n-digits-from-a-given-number/)
+Convert a 2D matrix into a linked list. Nodes have two pointers right and down. (https://www.careercup.com/question?id=12364850)
+
+Round 2 (Technical Interview I)
+
+Had 10 mins discussion on my internship project.
+Design a database schema, which has employees, companies and job profiles in different tables and define the relationships between the tables.
+Write the function atoi (convert a string to int) present in C++. You had to consider all the cases like negative no, invalid representation of number in the string and truncate the string to int, if a float number was given in string. You had to think of all the cases by your own, no help was given.
+Given a string with spaces, replace the spaces with ‘%20’. It should be done in-place in O(n) time, without any extra memory. Note : Using memory to fit %20 is allowed.
+Tell whether the tree given is a perfect binary tree. No recursion can be used and no extra memory can be used. There was no bound on time complexity.
+Given a string like ‘aaaabbbddef’, print the output as ‘a4b3d2e1f1’. Both recursive and iterative approaches were asked. And it was to be done in single traversal.
+
+Round 3 (Technical Interview II)
+
+Suppose you are receiving a stream of data every second about the stock sold out, with company name and price. You need to return a list of the top 10 companies, whose stocks are being sold the most, at any instant in O(1).
+Suppose you won a jackpot, and are allowed to watch movies in a hall for the next 24 hrs. The hall has multiple screens. Given the start and finish times of all the movies, output the maximum number of movies you can watch on that day.
+There are multiple banks A, B, C, D, … and on ‘n’ different days, it has different amount of cash. If you are a thief, you need to maximize the amount of cash you can steal from the banks after ‘n’ days. Condition : Suppose on Day 1, if you steal from bank A, on Day 2 you can steal from all other banks except bank A, as security guards will be deployed. Output the maximum possible cash that can be stolen.
+
+Round 4 (HR Round)
+
+Few questions about my projects.
+Few questions about my internship.
+Where do you see yourself after 3 years ?
+Do you want to go for higher studies ?
+Are you willing to relocate to Hyderabad ?
+Some other questions specific to my interview.
+I had answered all questions in all rounds. I was asked to code for every question except the 1st question for Technical Interview – II. Also, no help was given in any question, which is generally seen in the interviews of other companies.
+Some tips after my 3 experiences –
+1) Stay confident.
+2) Never seem to look confused.
+3) Take your time but speak with authority.
+4) It is better to avoid telling a term about which you don’t have proper knowledge.
+5) Make sure you make it a point to tell the interviewer about your strengths and what you are best at.
+
+

@@ -1,0 +1,15 @@
+There were two questions.
+Q 1. Given N and N elements Find the number of distinct sums. For example:
+3
+1, 2, 3
+Possible sums of all subarrays: 1, 2, 3, 3, 5, 6. Return Value: 5 (Distinct sums are: 1, 2, 3, 5, 6)
+Q 2.  Given a string S, and a matrix M of characters. find if S exist in M or not.
+Test case:
+abc
+3 3
+a v f
+g b e
+c b e
+Answer: (0, 0) (1, 1) (2, 0)
+All 8 neighbors considered.
+Solved 1st with 100% success, and in 2nd 14/16 cases were passing.

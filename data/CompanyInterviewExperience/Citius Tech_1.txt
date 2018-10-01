@@ -1,0 +1,63 @@
+Aptitude
+Logical questions only
+15 questions in 30 minutes
+Some are CAT level and some are GRE level 
+They had 4 sets
+69 people made it to the next round
+If you score 15/15 then they will only take only HR round else both the rounds
+Technical round
+I was the last person to be called for the interview
+My Interview started at 7pm
+Stress interview
+1) Tell me about yourself
+I mentioned about my projects, extra curricular activities, achievements etc.
+2) Since I had developed a Python Application which allows the users to send email without logging in.
+His next question was what libraries did I use?
+Can u make it without a library? Ans: No
+3) What are ACID properties?
+He wanted all the details
+4) In my IBM project I had used Jquery and AJAX
+He asked what all do you know about JQuery?
+What all do you know about AJAX?
+5) In my CV I had mentioned I knew ASP.Net and JSP
+He asked PHP kyun nahi aata hai
+6) What is the difference between Microsoft SQL Server and IBM DB2? (ab yeh kaha se aa gaya)
+7) Difference between Java and javascript
+8) Difference between encapsulation and abstraction
+9) In 80s C was popular then why C++ was invented? (he wanted my view)
+10) Javascript database connection code
+11)Latest Android version
+12)He asked me whether I know shell scripting. I replied Yes and then he said OK Cool, I won’t ask you that (toh pucha kyu)
+Since I had done a couple of Microsoft Certifications on various Operating systems these questions are based on them
+1) Design a client server application in which the Active directory has more than 1 lakh users and you need to find all the users starting from A from the client
+Answer : You can’t do it. You can only do it on the server. Microsoft server OS does not provide these many rights
+2) there is application server and 100 clients are connected to it. Some users are downloading content on the server’s drive via the client and some of them uploading content on the server’s drive
+How will implement this?
+Answer Concurrency control and transaction processing explained the process
+Now he started grilling me
+Why do you need to Microsoft certifications and all?
+Usme cut,copy, paste karna sikha kya?
+Why in server OS 2008? and blah blah he went on
+Trust me this same interviewer asked my friend about image processing and cloud computing also
+Interview ended at 7:43pm
+Round 2
+HR+Tech	Again I was the last one to be interviewed
+This round was pretty chilled out
+Tell me about your family background
+Do you have a facebook account? – I said no then he asked explain working of browser (ye kaha se aa gaya)
+OSI Model
+He gave me simple puzzle (Always think loud)
+Explain normalization and denormalization
+Why denormalize?
+Explain ACID properties (phir se)
+Do you have any offer from any other company?
+Why citius
+Do you have any questions for me
+I asked how is the journey in citius tech for a fresher
+he started explaining and went on for 7 mins
+Interview ended at 8:50pm
+The list of the selected candidates was mailed to the Training and placement officer after two days
+Total selections made: 30
+I was one of them 🙂
+My sincere thanks to GeeksforGeeks and all the very best to all other Geeks!
+If you like GeeksforGeeks/GeeksQuiz and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks/GeeksQuiz and help other Geeks.

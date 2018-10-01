@@ -1,0 +1,33 @@
+Eligibility Criteria: CGPA >=7.5 (with no history of arrears)
+Round 1: Technical Test (1 hour 30 min)
+An online test held on HackerRank which consists of 20 MCQ’s and 2 coding questions.
+MCQ’s
+They were pretty simple and straight forward. 5 questions were from general aptitude like probability, permutation and combinatorics. Rest of the questions were from Data Structure, Algorithm and C and C++ output questions. Reading GeekQuiz helped me a lot. 
+Around 300 students took the test out of which 21 were shortlisted. I was also one of them. We were interviewed the following day.
+Face-to-Face Interview 1(~1 hour)
+ The interviewer asked me to introduce myself. After I gave my introduction, he went straight to the questions. 
+Question 1: A program to check if a binary tree is BST or not
+Given a binary tree, we need to check if it’s a binary search tree. He wrote the following function
+ bool isBST(Node *root)
+I asked him if I could modify the function template to include min and max values. He said that I can modify the function template. So I gave my approach as described here. After reviewing the solution, he asked me to explain it with an example. I drew a small tree and explained it to him. He was satisfied and we moved on to the next question.
+Question 2: Maximum sum such that no two elements are adjacent
+Given an array of positive and negative numbers find the maximum sum in the array such that no two elements are adjacent. The question can be found here.
+As soon as he gave the question I said it is a Dynamic Programming problem. He asked me to write code. I wrote the code by using a dp array of size n (size of array) and I gave a top-down approach. He thoroughly checked if my code could handle all the corner test cases. He asked me to run the code for array of size 1 and 2. I explained it to him. He was satisfied and we moved on to the next question.
+Question 3: Find a given word in a matrix of characters.
+Given a NxM matrix and string s, check if the string is part of the matrix. We can move to top, left right and bottom from a given cell. The question is similar to this.
+Initially after giving the question I said we should use Depth First Search. But he gave me a case where it won’t work and asked me to modify the approach. I said BFS and he asked me to write code. I wrote the code by handling all edge conditions. But I missed the visited array part. He read my code and gave me a case where it would run into an infinite loop. Now, I found out what was missing and said I have to include the visited array. He was satisfied and asked me to add that part to the code.
+After this, the interview was over. He asked me if I had any questions for him. I asked him a few questions and we were done.
+Out of 21 students, 12 students were selected for the second interview. Fortunately, I was also selected.
+Face-to-Face Interview 2(~1 hour)
+ The interviewer read my resume and asked me to introduce myself. After I gave my introduction, he went to the question.
+Question 1: Count Possible Decoding of a given Digit Sequence
+ Let 1 represent ‘A’, 2 represents ‘B’, etc. Given a digit sequence, count the number of possible decoding of the given digit sequence. The question can be found here. 
+ I gave my approach using Dynamic Programming. He asked me to reduce the space complexity. I gave an approach like finding nth Fibonacci number. He was satisfied. Then, he asked me to generate all the possible decoding instead of counting them. I gave my approach using backtracking and he was satisfied.
+Question 2: Identify the classes required to play chess game.
+ This was like a general question. I said four classes like – pieces, board, clock, player and game. He asked me to identify the attributes and functions of each of the class and how they interact with each with other. I told them. He was satisfied.
+ Finally, he asked me if I had any questions for him. I asked him a few questions and we were done.
+That was all for the interviews.
+General Tips: 
+ Don’t be nervous when speaking to the interviewer. And don’t think for a long time. Speak out your thoughts so that they can help if you go wrong. Preparing from GeeksforGeeks helps a lot.
+ Best of Luck! 
+ 

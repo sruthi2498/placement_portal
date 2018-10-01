@@ -1,0 +1,28 @@
+First Round:
+1.Aptitude Questions, basically logical aptitude, Not the standard aptitude questions which we get in other companies, it included some questions of geometry, trigonometry, and puzzle type questions, analytical ability,
+Question were like – find the measure of an angle in the figure, solve the trigonometric equation, data interpretation-a data table was given and based on that table question were given, find the sum of a given series, arrange in descending order -sruds ka, etc..Paper was not so easy 🙁
+Second Round:
+Technical ability test: questions on basic C language, like predict the output, find error, then puzzle type question of queues and stacks, then write level order traversal after insertion in a heap, dry run of bubble sort and quicksort, and some very basic question like no of nodes in binary tree and all… Overall this round was very easy.:):):)
+Third Round:
+Coding Round: Three questions
+1. You’re given a m x m matrix. Write a function to rotate submatrix within the matrix by 90degree clock wise. Function takes x and y as starting row and column coordinate of matrix and N as size of submatrix as argument. Inplace rotation was required. I gave brute force I.e. With extra memory.
+2. You are given a sorted array containing both negative and positive values. Resort the array taking absolute value of negative numbers. Your complexity should be  O(n)
+3. Wap to find subsets that contains equal sum in an array: 
+Fourth Round:
+He started with tell me something about urself. Meanwhile he was going through my coding paper. Then he said lets dry run the first program.. We started, then he was confused in my program, I said should I explain it to u?? He said let me see it.. Then he startedd asking why this variable, can I use anything else.. Finally, he was done with my first code,.  Code was correct. Then he came to second code and again he said lets dry run it.. I used mergsort sort merging technique, so he said ok explain me this, and again why this variable, and can u do any thing else other than this and so on.. Maine third code m kuch nhi likha tha, so he asked the reason. Maine kaha ki mai sol tak nhi pahuch paya tha, toh usne kaha tell me jitna socha tha, then I told him jo maine socha tha.. Then he asked, ki is problem k baare m fir socha ya nhi free time m, I said yes, he said so how it is solved then, I said dynamic programming. He asked nothing..
+He gave me a extra question- Given a text string and a sample string. Find if the characters of the sample string is in the same order in the text string.. Give a simple algo..
+I gave him few solution.. He was done with my interview, and he was happy with my solution.
+Fifth Round: HR Round:
+Tell me something about urself.
+Tell me something about ur family background.
+Tell me something about ur educational qualification. Schooling… Graduation… Etc..  Incidentally, 
+What was ur Rank in MCA enterance??
+Tell me about ur all achievements… Scholarshipholder…… second topper graduation…. Second topper matriculation… ranking in technical fests… Maths olmpiad… Etc…
+Tell me about ur strength and weakness.. PS: Try to give ur weakness such that it is counted as strength… My strength : Hard Working and dedicated to work. My Weakness : Relationship, relationship is the first priority before any work.. Give me incident when u ranked relationship above any other work.
+What do u know about Nagarro? PS:For this question just concentrate in the company ppt.. That will be sufficient 🙂 Basically Jo ek do line Maine ppt m suni Thi use hi bol Diya Tha Maine.. Kuch lines aur jaise Ki there is small DUCS family there in nagarro, alumni batate hai ki there is time flexibility and a very good working environment…… Outings…. Festivals… Freshers party…. Headquarters… Etc….
+Which area of the computer Science u liked most during this course of MCA? I said programming , data structure, Algorithm i liked the most 🙂
+Which kind of programming u do, i told him him i usually do contests in codechef, geeksforgeeks questions, and off course the curriculum assignments…
+Tell me in which language u r comfortable for programming, I told him JAVA. then he said why not C. I said, basically i also work in C but prefer java. But when  language is not specified in assign, i prefer only Java. Then i asked ,  which language is used in company. She said Java, C plus plus, .net… Then i asked, which language will i get, she said it is decided after training. Are u comfortable in working outside your city, i said yes.. Do you have passport, i said No, she said apply as soon as possible.
+GeeksforGeeks helped me a lot 🙂 Best site to prepare for Technical Interviews..
+Big thanks to GeeksforGeeks 🙂
+

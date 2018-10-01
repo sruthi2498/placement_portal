@@ -1,0 +1,18 @@
+Given a number n, the task is to find the nth Centered Tridecagonal Number. 
+A Centered tridecagonal number  represents a dot at the center and other dots surrounding the center dot
+in the successive tridecagonal(13 sided polygon) layer.
+Examples :
+
+Input :  2
+Output : 14
+Input :  9
+Output : 469
+
+
+Formula for nth Centered tridecagonal number:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Reference: http://oeis.org/wiki/Figurate_numbers

@@ -1,0 +1,16 @@
+Given an array arr[] containing numbers from 0 to 9 only, the task is to form the minimum possible number from the given digits and then check if the first and last digit of the number thus created can be rearranged to form a prime number or not.
+Examples:
+
+Input: arr[]={2, 6, 4, 9}
+Output: Minimum number: 2469
+         Prime number combinations: 29
+The first and last digits are 2 and 9 respectively. The combinations are 29 and 92. Only 29 is prime.
+Input: arr[]={2, 6, 4, 3, 1, 7}
+Output: Minimum number: 123467
+         Prime number combinations: 17 71
+The first and last digits are 1 and 7 respectively. The combinations are 17 and 71, and both are primes
+Approach:
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE

@@ -1,0 +1,46 @@
+Round 1 : Online Test
+Duration: 2+ hours
+Format: 4 Sections each having 3-4 subsections each having some MCQs
+Level: Easy | (91/120~) selected
+Content and Syllabus: Programming | C | Data Structures | Debugging Codes | Logical Ability | Puzzles | Aptitude | DBMS | OS | Algorithms | Communication Skills etc.
+Round 2: Coding Test
+Duration: 1 hour
+Format: 2 Questions
+Selection Criteria: Candidates who solved 1 Question were selected
+Level: Easy-Moderate(Depending on Programming Skills) | (39/91) selected
+Question 1: Given a String, according to this string one more String was given. Return True or False depending on the following condition Satisfaction
+Condition- For each letter in 1st String either a match should be found at the same index of another String or if the match is not found the 2 characters should occur in pair at any index, if found.
+Test Case 1: hello ehllo  Output: True | Pair (e,h) is in pair
+Test Case 2: hello eello  Output: False| Pair (e,h) is not in pair
+Question 2: Given a binary matrix and a number T. A flip is defined as flipping all bits of a column. Find maximum number of rows having all 1 after exactly T flips.
+
+Round 3: Technical Interview
+Duration: 20-25 Minutes
+Level: Easy | (25~/39) Selected
+Focus: Logical and DS and Algorithms Skills
+Firstly I was asked to introduce myself. Then some Questions were asked related to my project, followed by implementation commands. Questions on Core Java. Polymorphism, Serialization, Collection, Advantages of Interfaces and Abstract Classes over each other etc. Networking Question what happens when you write https://www.google.com and you receive the page. Work on each step. Nuts and Bolts Problem, Quick Sort, Reversal of Linked List. 2 Puzzles. Well known puzzles 1st Rope Burning Puzzle. 2nd He proved famous 1-2 and then asked to identify bug.
+
+Round 4: Technical Interview 2
+Duration: 50-60 Minutes
+Level: Moderate-Hard (Depends where the Interview heads up-to) | (12/25~) Selected (12 were selected after 2nd, 3rd technical Interview combined. Round 3 was not for everybody)
+Focus: Previous Work, Subjective Strength, Live Problem Solving Skills
+Started with a good handshake and a flooding smile. I was asked questions on Theater(Non-Academic) and problems of publicity of Theater. I elaborated 3 projects out of 5 in this interview. Interviewer was specially focusing on my Software Engineering Skills. He asked for SDLC, E R diagram of my projects, Sequence Diagrams, Use Cases. Unfortunately I was not aware of any of these in depth except E R Model, but I explained implementations. He then asked for optimization of my projects and future scopes. Explanation of Red-Black Tree. 1 puzzle was asked. You have n cakes in your hand when you leave Office. Task is to take at-least 2 cakes to home. You have to cross 5 bridges, at each bridge 50% of your cakes are taken and 1 is given back to you from them. Find minimum  n to start with. At last he asked for a left outer join problem of DBMS.
+
+Round 5: H-R Round
+Duration: 8-10 Minutes
+Level: Easy | (10/12) Selected
+Focus: Communication Skills, Verification of Previous Interviewer Reviews, Confidence
+Introduction, Family Background. I was asked difference between ArrayList and HashMap, followed by toughest DBMS Query, and then writing a Nested query. He then asked me, if I have any Question. I asked 3 general questions.
+
+My word of Advice
+1.	Do Not Fake
+2.	Presentation skills matters  the most
+3.	Do not try to study everything I was asked. Maximum things was part of my interests
+4.	Fail safe. If you do not know anything. Explain Something and then try to deviate attention towards your part of interest.
+5.	Practice Correct words to be spoken
+6.	Go with a fresh mind. They would be generating questions on the statements you make.
+7.	Try to bring interviewer to your interests.
+8.	Revise all your skills one day earlier
+9.	Go through your Resume one day earlier
+10.	Don’t panic if you give wrong answer or if you don’t know. Its absolutely fine to fail. Yes, it is OK if you fail. You would be judged relatively.
+

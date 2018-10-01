@@ -1,0 +1,6 @@
+Given an array of integers, print histogram of array values.
+Examples:
+
+The idea is to print the given histogram row by row.  For every element, we check if it is greater than or equal to current row. If yes, put a ‘x’ for that element. Else we put a space.
+Run on IDE
+Output:

@@ -1,0 +1,5 @@
+This approach is based on Wilson’s theorem and using the fact that factorial computation can be done easily using DP 
+Wilson theorem says if a number k is prime then ((k-1)! + 1) % k must be 0.
+Below is Python implementation of the approach. Note that the solution works in Python because Python supports large integers by default therefore factorial of large numbers can be computed.
+Run on IDE
+Output : 

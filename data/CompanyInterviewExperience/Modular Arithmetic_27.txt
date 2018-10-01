@@ -1,0 +1,13 @@
+Given an array A containing N non-negative integers. Only following operation can be performed on the array:
+A[i] = ( A[i] + 1 ) % 3
+where A[i] is the element of array A at index i, and performing this operation once costs 1 unit. Find the minimum cost to make all elements equal.
+Examples :
+Approach: At first, we will try to convert all the numbers greater than 2 to a number between 0 to 2.Since, numbers from 0 to 2 will not exceed 2 using the only allowed operation A(i)=(A(i)+1) % 3(No matter how many times we do this operation). Then we will fix one of the 3 possible values(0 to 2) and find the cost of making all elements equal to it.
+Minimum cost out of the three + the extra cost to convert all numbers greater than 2 to a number between 0 to 2 will be our answer.One special case we need look here is, if all the elements are equal by default (like in array {7, 7, 7, 7}), then our answer will be zero.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity :O(n)

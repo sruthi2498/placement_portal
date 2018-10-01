@@ -1,0 +1,15 @@
+std::unique is used to remove duplicates of any element present consecutively in a range[first, last). It performs this task for all the sub-groups present in the range having the same element present consecutively.
+But, what if we don’t want to alter with the original range and just want the result of std::unique to be copied into another container, for this we have another function defined in , i.e., std::unique_copy(). In this, only the first element from every consecutive group of equivalent elements in the range [first, last) is copied.
+It can be used in two ways as shown below:
+Run on IDE
+Output:
+Here, in this vector, all the sub-groups having consecutive duplicate elements have been reduced to only one element, and have been copied to vector v1.
+Run on IDE
+Output:
+Where can it be used ?
+Run on IDE
+Output:
+Explanation: Here, we have firstly sorted the vector to make duplicate elements consecutive and then applied std::unique_copy to remove duplicate elements and store the unique elements in another container.
+Run on IDE
+Output:
+Explanation: Firstly, we removed the duplicate elements and stored the resultant in another container and then compared the resultant container with the previous container, if both are same, this means that the previous container consisted of only unique elements, and there is no duplicate element.

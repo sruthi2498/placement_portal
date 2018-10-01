@@ -1,0 +1,48 @@
+Amdocs visited our college for full time Software Engineer profile. Selection process was consist of 3 round.
+Round 1:
+Total of 150 students appeared in online test out of which 31 are selected for next round.
+# 1st Round Topics:
+1.1) Quantitative Aptitude
+1.2) Logical reasoning
+1.3) English comprehension and general questions
+1.4) sql/pl-sql (queries)
+1.5) unix (commands)
+1.6) OS and C outputs (some C conceptual questios too)
+1.7) 2 Coding questions ( 1. WAP to print all prime numbers from 1 to n, 2. WAP to print all distinct number in an array (e.g. if array is 1,3,5,4,7,3,4,7 then o/p is : 1,3,5,4,7)
+NOTE: first you will have to choose in which language you will code (option was c and java)
+#2nd Round:
+interviewer started with asking me about my family background and then from where you did BCA.
+2.1) He asked me to rate myself in all subjects out of 5 ( in C,C++,DBMS,SQL,PL/SQL,Networking) (i didn’t rate 4 in any of the above subjects so he asked me tell a subject (or a field) in which i can rate 4). i told puzzle solvig. He asked two simple puzzle….
+    (2.1.1) You have a 7 inch gold bar and you have to give 1 inch bar daily to a servant working for you (he works for 7 days). what will be the minimum cut so that you can give the wage to servant. ( i answered then he asked what if the bar is 15 inch and servant works for 15 days (answered)).
+    (2.1.2) what will come at question mark? 
+    (there is an error in the question  “2+5=14″… i corrected that and then answered 🙂 )
+
+2.2) Now he switched to Technical part
+what is structure, difference between structure and union,
+what is void pointer,
+const pointer, pointer to const,
+selection sort complexity ( worst case, best case, he was trying to confuse me 🙂 )
+program for Perfect number,
+2’s cmplement of -5,
+merge sort (only explanation and complexity)
+Dangling pointer
+Data structure to reverse string ( other than stack)
+Data structure used for networking
+what is multiplexing and demultiplexing
+what is signal
+what is cursor
+Difference between ‘where’ and ‘having’ (dbms)
+Difference between ‘truncate, drop and delete’ (dbms)
+what are aggregate function(dbms)
+Simple queries related to Self join
+then he asked do you have any questions i asked about the the technology the company is working on, he told me about some of the technologies.
+(DS questions can be asked as linked list questions were asked to one of my friends)
+
+#3. HR-Round
+ 1. Tell me about your family background
+2. why amdocs?
+  3. Do you want to do any further study?
+  4. issue with job location ?
+  5. why there is variation in percentage of marks
+Out of 31, 14 were selected.
+ 

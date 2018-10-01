@@ -1,0 +1,53 @@
+Round 1 (Online on HackerRank)
+Duration: 90 minutes
+20 MCQ questions mostly based on Operating System, Data Structures and Algorithms and a few puzzles. 
+2 coding questions
+1. Given a string (which may or may not be a palindrome) of length ‘n’. Also given ‘k’ (0 <= k <= n), such that ‘k’ represents the maximum number of characters of the string that you can replace to convert it to a palindrome. Your task is to convert the string to maximum palindrome that can be formed by replacing the string with digits 0-9. If it isn’t possible to convert the string to palindrome, print “-1”. 
+Note: Leading 0’s in the string are also considered to be a part of palindromic string. Eg., 00100 is also a palindrome with leading zeros.
+Test Cases:
+i. n = 4, k = 2. Given input string “1111”, then the output string would be “9119”
+ii. n = 4 k = 1. Given input string “1231”, then the output string would be “1331”
+2. Given a text and pattern string. The pattern consists of the following characters
+‘+’: It can be replaced with 0 or more occurrence of the previous character
+‘*’: Matches any sequence of characters (including the empty sequence)
+‘?’: It can be replaced with single occurrence of any character
+You task is to determine if the string and pattern match after successfully replacing the special characters in the pattern with the above rules. Print “true” if the text and pattern match else print “false”
+Test Cases: The first string is the pattern and the second string represents the text
+	The MCQs were pretty easy to solve if the concepts are clear. The code was manually verified by 	team and then students were shortlisted based on the quality of code and overall score.
+Round 2 (F2F) Duration: 60 minutes
+The interviewer was in a hurry I felt and he asked me some basic questions like “tell me about yourself?” and then we discussed about my internship and it went on for 10 minutes before he came up with a question.
+1. Design the shuffle button of a music player such that it maintains random property and make sure that it plays all the songs uniquely in a cycle (i.e, no song should repeat itself unless all other songs in a particular cycle are played)
+I initially gave him an O(nlogn) approach. He wanted me to optimize it and after some pen and paper work I came up with an O(n) approach and the interviewer seemed to be satisfied.
+Round 3 (F2F) Duration: 70-80 minutes
+The interviewer was very friendly and made me comfortable by offering some snacks and water. Later he asked me to give my best shot and to not fool him if I had already heard of the problems he was going to ask. He asked me to tell few lines about myself and then discussed about my internship for 5 minutes and then fired few questions.
+1. Traffic Car Problem. Given n people and n+1 parking slots. Each person has a car and a parking slot allocated. One night they all go to a party and get drunk. They end up parking their cars randomly. What’s the best way to go back to the initial configuration (one where every car is in the right allocated slot). n+1­th  parking slot can be used to swap the cars.
+I told the interviewer that this question was asked to one of my friends and that I discussed it with him. He seemed impressed with my honesty. He then moved on to ask the next question.
+2. A variation of stock buy sell to maximize profits problem : https://www.geeksforgeeks.org/stock-buy-sell/
+3. Trapping Rain Water Problem : https://www.geeksforgeeks.org/trapping-rain-water/
+Tips: Keep the interviewer involved in the discussion. Give him the approach and if you are not thinking in the right direction, they are always there to guide you. Don’t jump to the code as soon as you are given the problem.
+I coded the last two problems after explaining him the logic behind it and the interviewer seemed to be satisfied.
+Round 4 (F2F) Duration: Around 90 minutes
+Initially there was only one person who was interviewing me but then he was joined by another person and it looked that I needed both of their approval to move into the next round.
+1. We started off with discussing my previous internships. He was very curious to know about what were my key deliverables as an Intern and also seemed to learn from my experience at those firms. 
+2. Count ways to reach nth stair : https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
+I first explained him how the result can be derived and then after he was satisfied with the logic, gave him a recursive approach, followed by the memorization approach and then the iterative Dynamic Programming approach.
+3. Tree Isomorphism Problem : https://www.geeksforgeeks.org/tree-isomorphism-problem/
+Logic was given and then I coded it. He still didn’t seemed to be satisfied and asked me to walk him through my code for an example tree and draw the recursion tree for the same.
+4. Dynamic Programming (Longest Arithmetic Progression) : https://www.geeksforgeeks.org/length-of-the-longest-arithmatic-progression-in-a-sorted-array/
+5. He asked me to design a student database efficiently. 
+Raw thinking was what he wanted I felt.
+6. Few DBMS related query questions that were simple to answer.
+Round 5 (F2F) Duration : 100-120 minutes
+The interviewer was very friendly at the beginning. He became little strict as the interview went on and in the end he again turned back to the amicable mood he started with 😛
+1. We started off with discussing my internships in detail. This went on for about 30 minutes until he was satisfied with that fact that I had put in lot of effort in making it a successful project.
+2. Stock buy sell problem which was asked in the second round. I told him that this was asked to me in the earlier rounds and he seemed to be impressed with my honesty. I guess I got some loyalty marks there.
+3. Connect the nodes of the binary tree in the same vertical level by using the next pointer. The tree could have nodes with at most two parent nodes.
+Approach was given and he didn’t seemed to be fully satisfied with my code at first, but then after some optimizations he said it seems to be fine now.
+4. Few question on Paging, Collision Resolving techniques, Page replacement algorithms.
+Probably the interviewer wanted to make sure that the new hire is well familiar with other subjects other than DSA. He seemed to be satisfied with the answers.
+5. Why Amazon? 
+The standard question that everyone is asked in the end of the last round.
+Thanks GeeksforGeeks. 
+Tips: Try to be calm and give the interview. The interviewers are very well experienced and they not only test your technical skills but also read your expressions (on how well you respond to what they ask). Sometimes luck might not be on your side, so do not get disappointed even if you are rejected. Keep practicing and indeed you will crack some good firm soon 🙂
+
+

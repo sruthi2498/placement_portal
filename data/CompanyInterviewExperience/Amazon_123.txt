@@ -1,0 +1,28 @@
+In my college, we 250 students  have attended Amazon interview, and from that 16 among us are selected for the internship.
+1st round: Online test: 2 – coding questions
+We were given 1.30 hrs to complete it
+i) Merge two sorted arrays
+ii) Find the element which is repeated more than twice in given array
+20 MCQ questions based on data structures
+2nd round : written test – 2 programs
+we were given 1.15 hr to solve it. and it was correct and marks were given separately by all judges. Among them nearly 30 are selected for next round.for the second problem they have expected for dynamic programming solution.
+i) Given an array, arrange it in such a way that odd elements occupy the odd positions and even elements occupy the even positions.
+ii) Convert the given string into palindrome by removing minimum number of characters.
+3rd round: written test: 2 programs
+Here we were given 1 hr and a HR will be present to whom we must explain our answer and satisfy his expectations.
+                                       i) find the next largest number by using the same digits in  the given number.
+                                       ii) given a matrix , sorted row wise , find the common   element among all the rows.
+4th round: Technical hr: 
+I was selected for next round for QAE and they asked me several questions. We must answer all the questions by considering the practical scenarios and presence of mind is important.Even if u doesnt know the correct answer, try to compromise them with ur smartness.
+                                    i) Write testcases for frequently bought items in     amazon.com
+                                     ii) write usecases for temperature sensing application
+                                     iii) write a linux command for deleting all the files contains                                         the word “error” in its name from a folder named XXX.
+                                     iv) Troubleshoot: in amazon.com a person X has ordered for                                       10 items.oly 2 among them were delivered to X.but it is                                            showing in amazon’s mobile app, as all 10 items are                                                delivered.at the same ti,e it shows the correct status in                                            amazon’s website….find why??
+5th round: Technical Hr with Hiring manager:
+                                   In this round he ll question u technically, but he ll check ur way of answering and attitude.He ll just check whether u ll be suitable for that position.Ur knowledge doesnt matter here..Ur attitude speaks.
+                                  i) Validate the cancel order option in amazon.com
+                                  ii) Draw the flow diagram of ur project and explain it briefly.                                           How ll u provide security for ur project.and many                                                       questions related to my project.
+                                  iii) troubleshoot : you are unable to see the latest details in ur                                    mobile app.it still shows the old details.What are all the                                            reasons?
+                                  iv) troubleshoot: what all the things u ll do , if u couldn’t open                                     ur mobile app?
+
+

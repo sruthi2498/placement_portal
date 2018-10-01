@@ -1,0 +1,8 @@
+Prerequisite: Templates in C++
+While creating templates, it is possible to specify more than one type. We can use more than one generic data type in a class template. They are declared as a comma-separated list within the template as below:
+Syntax:
+Run on IDE
+Output:
+Explanation of the code:
+tells the compiler that the first argument is of type float and another one is int type.
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks(We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

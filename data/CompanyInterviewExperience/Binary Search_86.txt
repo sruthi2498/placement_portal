@@ -1,0 +1,20 @@
+An element is a peak element if it is greater than or equal to its four neighbors, left, right, top and bottom. For example neighbors for A[i][j] are A[i-1][j], A[i+1][j], A[i][j-1] and A[i][j+1]. For corner elements, missing neighbors are considered of negative infinite value.
+Examples:
+Below are some facts about this problem:
+1: A Diagonal adjacent is not considered as neighbor.
+2: A peak element is not necessarily the maximal element.
+3: More than one such elements can exist.
+4: There is always a peak element.  We can see this property by creating some matrices using pen and paper.
+Method 1: (Brute Force)
+Iterate through all the elements of Matrix and check if it is greater/equal to all its neighbors. If yes, return the element.
+Time Complexity: O(rows * columns)
+Auxiliary Space: O(1)
+Method 2 : (Efficient)
+This problem is mainly an extension of Find a peak element in 1D array. We apply similar Binary Search based solution here. 
+Below is the C++ implementation of above algorithm:
+Run on IDE
+Time Complexity : O(rows * log(columns)).  We recur for half number of columns. In every recursive call we linearly search for maximum in current mid column.
+Auxiliary Space : O(columns/2) for Recursion Call Stack 
+Source:
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec01.pdf
+

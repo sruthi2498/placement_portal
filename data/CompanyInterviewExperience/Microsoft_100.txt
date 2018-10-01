@@ -1,0 +1,22 @@
+Microsoft Internship Interview Experience July 2017:
+First round was a 75 minutes online round in which 3 simple questions were asked.
+First question was given two numbers n,m find a number closest to n and divisible by m.
+Second question was given a string consisting of only 0,1,A,B,C where A=AND B=OR and C=
+XOR. Calculate the value of the string moving from left to right assuming no order of precedence.
+Third question: You are given a binary tree of integers and an ’sum’. Return the length of the shortest path beginning at root and ending at a leaf node such that the sum of numbers along that path is equal to ‘sum’.
+
+Fly round:
+Second round was a written test in which 2 questions were asked. First question was sentence reversal and second question was maximum product sub array.
+Write neat codes and besides optimizing time complexity, take care to optimize space complexity as well(if possible of course). Use good variable names.
+MS interview experience:
+
+Round 1: I was asked to populate the next right pointer in a binary tree. First I used queues but was asked to further optimize it such that it consumes O(1) extra space. Was asked to write the codes for both of them.
+
+Round 2:
+1. Difference between a thread and a process?… similar kinds of other OS questions.
+2. What is abstraction, encapsulation, inheritance etc..
+3. Was asked to explain LRU algorithm.
+I was asked to code the edit-distance problem (geeksforgeeks standard problem).
+He began with designing an application which will track and plot the other user’s location and gave me various scenarios like for example how I will handle memory overflow if sender went offline. This went on for more than 10-15 minutes.
+
+Round 3: I was asked to implement LRU cache.Further,on how I would implement a hash within one data structure (keys and values are strings), given three operations insert(), get1() and get2(string s), where get1() returns the least recently used string and get2(s) returns the string mapped to s(the Interviewer had insisted that I reduce get(1) to o(1) as it was a cache).I somehow managed to reduce the complexity to O(log(n)), O(1) and O(log(n)) respectively and he appeared to be convinced. I was asked a lot about my project in Deep learning (Machine Comprehension). Further he asked me what kind of projects I would like to work on during my internship and if I had any questions for him.

@@ -1,0 +1,14 @@
+Given an array of positive integers and many queries for divisibility. In every query, we are given an  integer k ( > 0), we need to count all elements in the array which are perfectly divisible by ‘k’.
+Example:
+Simple Approach is to traverse over every value of ‘k’ in whole array and count total multiples by checking modulas of every element of array i.e., for every element of i (0 < i < n), check whether arr[i] % k == 0 or not. If it's perfectly divisible of k, then increment count. Time complexity of this approach is O(n * k) which is not efficient for large number of queries of k.
+Efficient approach is to use the concept of Sieve of Eratosthenes. Let’s define the maximum value in array[] is ‘Max’. Since multiples of all numbers in array[] will always be less than Max, therefore we will iterate up-to ‘Max’ only.
+Now for every value(say ‘q’) iterate q, 2q, 3q, … t.k(tk <= MAX) because all these numbers are multiples of 'q‘ .Meanwhile store the count of all these number for every value of q(1, 2, … MAX) in ans[] array. After that we can answer every query in O(1) time.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(M*log(M)) where M is the maximum value in array elements.
+Auxiliary space: O(MAX)

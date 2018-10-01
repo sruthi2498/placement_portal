@@ -1,0 +1,65 @@
+I recently attended the walk-in process for Amazon Off campus recruitment drive. This was for SDE position at Chennai. I would like to share my interview experience with Geeks for Geeks.
+Written Round :
+ a) Given a linked list and 2 integers M and N.. Keep M nodes and delete N nodes repetitively till the end of linkedlist.
+ b) Given a BST , replace a node value with the sum of  all the elements larger than the current node.
+          I could solve it with Reverse Inorder traversal and an int pointer to keep track of the sum.
+ c) Given a BST and a value , check if the  path sum from root to leaf equals the given value.
+1st F2F round: 
+a) Multiply two linked lists represented by numbers. Only one linked list must be used to do all additions and store the result i.e., intermediate additions should not be done with extra linked lists and finally computing the result.
+b) Given a BT check if there is a BST in it. If it exists print the largest BST in the BT.
+c)Given a large file with huge number of words group the anagrams of a word
+          	hai how are you. iahohw done woh.
+o/p:
+hai ->iah
+how ->woh ->ohw
+done
+are
+2nd F2F round:
+a) Given a linked list , print the nth last node. He asked me to give the optimised solution for it.
+solved using slow pointer.
+b) Find the LCA in Binary Tree
+          	He asked me to optimise the code with bottom up approach and gave lots of boundary conditions
+c) Given a zigzag traversal construct a tree from it. Full working code was asked.
+	           Solved it with double ended queue.
+3rd F2F round :
+a) Given a chess board of finite length , start postion of a knight , an end position.
+          	->find whether the end position is reachable by the knight.
+          	-> Number of minimum hops required to reach that position.
+                I came up with a BFS solution instantly . He posed several conditions in the same question as I have seen the question already.
+b) He changed the question to infinite length chess board and if given two knights in a chess board .find minimum hops required for them meet.
+          	->gave a lot of space and time constraints.
+          	->asked me to write the complete code without STL.
+c) if we encode A-1 , B-2 , C-3 , I send a word CAMP encoded as 311316. It can be decoded as 3 11 3 16 (CKCP), 3 1 1 3 16(CAACP) , 3 1 1 3 1 6 , (CAACAF) . given a input encoded string find the no. ways it can be decoded.   (ACODE prob. in Spoj)
+                          311316 – 4
+                     ->Could n’t come up with DP solution at first so gave a solution with recursion tree. He asked me to optimise to avoid unnecessary computations.. Finally Solved it using DP.  
+4th F2F round ( Bar Raiser Round):
+               The Round started with the projects I have done so far. Few basic questions in cloud computing. I have used Amazon Web Service (AWS) in one of my projects.
+          	a) Lots of questions on AWS . Why we used it when there are so many alternatives.
+          	b) When i convinced him with scalability issues, he posed questions on how AWS handle load Balancing and scalability issues .
+          	c) Obviously questions on Elastic Map Reduce and Elastic Block Storage. Questions piled up until I could explain every nook and corner in that project.
+          	d) Strengths and Weakness.
+          	e) Why Amazon and why do I leave my previous company within 2 months.
+                     f) Given a linked list with random pointers , clone the linked list.
+	          	Gave few solutions and he asked me to clone without manipulating the original linked list but with extra space. Came up with little tweaks using HashMap
+Map< node * , node *>  key is the node and value is the random ptr node.
+                    g) Find the ceil and floor of a value in a given BST without extra space.
+	          	if a BST contains 1 3 6 7 9 12
+                     ->if the given value is 8 floor is 7 and ceil is 9.
+                    ->if the given value is 9 both floor and ceil is 9.
+P.S. Be cautious in explaining your projects.   
+5th F2F round: (Hiring Manager Round):
+Few questions on projects and advantages of AWS.
+          	a) Asked me about the different inter process communication methods.
+          	b) Which method is faster and why. Then he asked me to explain about shared memory
+          	c) Asked to write the code to implement LRU cache.
+	          d) Then code for malloc implementation given an array.
+          	e) He asked me to write a thread safe code for the given scenario.
+	          	given two writer threads and two reader threads . give a mechanism to handle the writer and reader threads. The writer thread writes a value 1 2 3 4 in a queue or array and  reader thread reads it and print the output as 1 , 2 ,3 ,4 …..In the same order as given and only once…
+	          	->i handled it with a binary semaphore and a single queue for both reader and writer..
+          	f) conditions for a deadlock and he asked me to associate with the real life scenario.
+	          	mutual exclusion and all the cases.
+          	g) Different types of scheduling and what type of scheduler does linux have and why.
+          	h) doeslinux have preemptive scheduling and few questions on virtual memory.
+            He just analysed my approach towards the problem and checked my basic understanding in OS concepts. 
+      Finally got offer from Amazon after two days. I owe a great thanks to GeeksForGeeks. It helped me a lot to improve my data structure and problem solving skills. Hope this will help you. All the Best .
+

@@ -1,0 +1,10 @@
+The diameter of a tree (sometimes called the width) is the number of nodes on the longest path between two leaves in the tree. The diagram below shows two trees each with diameter five, the leaves that form the ends of the longest path are shaded (note that there is more than one path in each tree of length five, but no path longer than five nodes)
+
+We have discussed a solution in below post
+Diameter of a binary tree
+In this post a different DFS based solution is discussed. After observing above tree we can see that the longest path will always occur between two leaf nodes. We start DFS from a random node and then see which node is farthest from it. Let the node farthest be X. It is clear that X will always be a leaf node and a corner of DFS. Now if we start DFS from X and check the farthest node from it, we will get the diameter of the tree.
+The C++ implementation uses adjacency list representation of graphs. STL‘s list container is used to store lists of adjacent nodes.
+
+Run on IDE
+Run on IDE
+

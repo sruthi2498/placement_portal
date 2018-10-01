@@ -1,0 +1,50 @@
+Round 1(Online):
+There were 2 questions time limit 90 mins.
+1. A person wants to go from origin to a particular location, he can move in only 4 directions(i.e East, West, North, South) but his friend gave him a long route, help a person to find minimum Moves so that he can reach to the destination.
+Input – NESNWES
+Output – E
+You need to print the lexicographically sorted string. Assume the string will have only ‘E’ ‘N’ ‘S’ ‘W’ characters.
+E.g – SSSNEEEW
+output – EESS
+2. A sender will send a binary string to a receiver meanwhile he encrypt the digits. You are given a encrypted form of string. Now, the receiver needs to decode the string, and while decoding there were 2 approaches.
+First, receiver will start with first character as 0; S[0] = 0, P[1] = S[1] + S[0], P[2] = S[2] + S[1] + S[0] and so on.
+Second, Receiver will start with first character as 1; S[0] = 1, P[1] = S[1] + S[0], P[2] = S[2] + S[1] + S[0] and so on.
+You need to print both the strings, after evaluation from both first and second technique. If any string will contain other that binary numbers you need to print NONE.
+Round 2(Machine Coding Round):
+There was only one question, time limit 45mins
+Q1. Word Wrap problem with few conditions, even i didnt remember much conditions here are some conditions.
+i) there can be maximum of X characters in a single line.
+ii) there can be maximum of Y number of spaces in the end of the each single line.
+iii) if a string length is big enough, so that it cannot be printed in single line, use ‘-’ in the end of the line and print string further in the different line.
+also there should not be ‘–’ consecutively in the end, if the string contains already ‘-’ in the end dont put ‘-’ character.
+E.g. flip-kart and if x = 5 so it should be ->
+flip-
+kart
+iv) the string should not start with these characters(‘.’ , ‘,’ ‘ ‘)
+v) the cost value should be minimum, there can not be multiple answer for a single string.
+Eg. This is a flipkart online programming test.
+x = 10 Y = 3
+Output
+This is a
+flipkart
+online pr-
+ogramming
+test.
+First Technical Interview (F2F):
+They asked me about myself, so i gave my brief intro to them(there were 2 people who were taking the interview)
+He saw my resume and asked me that do i know DBMS.
+I said i have done a course on it. So he started asking about DBMS. He explained me how the order are made in flipkart (like there are many item from different locations and many order are places
+and there are many order item to be placed at different location. There can be offers on items).
+After explaining he asked me what tables would you like to used for online shopping like flipkart. He asked the the primary keys for every table and foreign key if there are any.
+He then asked me about mapping of these keys and what type of mapping to be used here(one to one, many to many or many to one).
+Then he asked me about my Codechef and spoj rating. Then he asked me 3 coding questions:
+1 – http://www.codechef.com/JULY14/problems/SGARDEN/
+2 – Simple dp question that a frog can take 1 or 2 step. Number of ways to reach nth position.
+3 – Number of palindrome between 2 given numbers.
+Technical + HR interview(F2F) – 
+He discuss everything about my project very deeply.
+Then he asked a coding question.
+http://www.careercup.com/question?id=13394663
+f you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+

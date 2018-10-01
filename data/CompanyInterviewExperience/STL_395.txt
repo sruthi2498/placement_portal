@@ -1,0 +1,14 @@
+C++ STL offer many utilities to solve basic common life problems. Comparing values are always necessary, but sometimes we need to compare the strings also. Therefore, this article aims at explaining about “lexicographical_compare()” that allows to compare strings. This function is defined in “algorithm” header. It has two implementations.
+Implementation 1 : lexicographical_compare(iter1 beg1, iter1 end1, iter2 beg2, iter2 end2)
+
+Run on IDE
+Output:
+Implementation 2 : lexicographical_compare(iter1 beg1, iter1 end1, iter2 beg2, iter2 end2, Compare comp)
+
+Run on IDE
+Output:
+
+Possible application :  Comparing strings can be generally used in dictionary, where we need to place words in lexicographical order. Example of this can be to find the word which occurs 1st in dictionary among given set of words.
+Run on IDE
+Output:
+

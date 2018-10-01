@@ -1,0 +1,37 @@
+Lately, I had an on campus interview with Arista Networks. Here are the details of the company’s written and interview process.
+Round 1 (Written, On paper, 10 Questions, 45 min) :
+1. Array indexing based C o/p question
+2. Compute size of structure, Struct hack
+3. Allocate m*n 2 D array. The array should be accessible as arr[i][j].
+4. Given a sorted integer array. Convert it to a balanced BST (Size of array is given)
+5. Program to check whether 2 rectangles in a 2 D plane overlap or not.
+6. A simple o/p question based on fork() (This question always comes in Avishkar and Mock exams)
+7. Given an array of n integers which contains integers from 0 to n 1, with any of these integers appearing any number of times. Find the repeating integers in O(n).
+8. Mutilated Chessboard Puzzle
+9. Merge two sorted singly linked lists into one sorted singly linked list. Allocate no extra node.
+10. Don’t remember
+Round 2 (Tech Interview, 4 Questions) :
+1. Given a full binary tree.
+Given the tree structure like this 
+Root pointer is not given.
+Given a pointer to node x(say 10) (indexing left to right starting from root as 1).
+To reach node 10 from root, you need to move left, then right, then left.
+
+Return a pointer to the corresponding node y in the other subtree of root (if x was present in left, y should be found in right and vice versa) tracing same path sequence.
+For x = 10, y will be 14 [from root, go right (must search in other subtree always), right, left]. You are not allowed to calculate the size of the tree.
+2. Given an integer N. Convert it into MS Excel column string.
+Ex N = 1 : A
+N = 2 : B
+N = 27 : AA
+N = 52 : AZ and so on
+3. A router’s table is given. There are 4 rows and 3 columns (Destination IP, Mask, Next Hop) in
+the table. Given the destination IP address of a packet. Determine its next hop. (Hint : Longest
+Prefix Matching)
+4. Draw the states of a process in an OS
+Round 3 (HR Interview) :
+1. How did you come to know about Arista? (Tell them about the Google story)
+2. Why do you want to join Arista?
+3. A practical problem :
+Given a project P. P has m modules (M1, M2, …, Mm). Each module has some tasks (t1, t2, .., ti) where i can vary for each module.
+There are E engineers. Assume that every engineer can do any task of any module. More than 1 engineers are allowed to work on a task  simultaneously. Efficiency of each engineer for each task is given (No. of days it will take ith engineer alone to complete task tj of module Mk). Each task is atomic. So you start a task only when you know you can finish it completely without any pauses in b/w. There can be dependencies b/w the tasks too (Say t3 of M2 depends on t4 of M1, t3 of M2 cannot be started until t4 of M1 has been finished). You have to o/p the no. of days it will take to complete the project (Assume that wherever possible tasks can be run in parallel too). Design data structures to represent resources (Engineers, computer systems etc.), tasks and dependencies b/w them so as to minimise duration of the project. 
+Thank you geeksforgeeks for helping me throughout my journey 🙂

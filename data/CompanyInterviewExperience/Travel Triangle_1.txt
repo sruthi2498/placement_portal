@@ -1,0 +1,12 @@
+I had interview with travel triangle  for SDE . There was two technical round  both guys was cool and interview process was very nice  when i got stuck they provide  me  hint .
+Round 1:
+Q1. You have a infinite stream of repeated number find top K frequent number from this stream  and discussion on this question like which data structure will you use and time complexity etc.
+Q2. https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+Q3. Given a link list consist of data , next pointer and also a random pointer which points to a random node of the list . how will you make clone of this ?
+Q4 . Discussion on projects , i have done one project related to OS so lot’s of discussion regarding OS concepts. like Memory management techniques , how will you calculate CPU usages ,CPU time ,for a process on run time ?
+Round 2:
+Q1. Design Gmail Chat Server ?
+Q2. Sort a stack using only one another stack ?
+Q3. How a array (fixed size can) use like for k stack ? and after this how will you make these k stack to memory efficient?
+Q4. Discussion on my MVC web application projects.
+ 

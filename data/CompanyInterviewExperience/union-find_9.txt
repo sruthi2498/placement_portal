@@ -1,0 +1,25 @@
+Given a set of n jobs where each job i has a deadline di >=1 and profit pi>=0. Only one job can be scheduled at a time. Each job takes 1 unit of time to complete. We earn the profit if and only if the job is completed by its deadline. The task is to find the subset of jobs that maximizes profit.
+Examples:
+A greedy solution of time complexity O(n2) is already discussed here.  Below is the simple Greedy Algorithm.
+The costly operation in the Greedy solution is to assign a free slot for a job. We were traversing each and every slot for a job and assigning the greatest possible time slot(<deadline) which was available.
+What does greatest time slot means?
+Suppose that a job J1 has a deadline of time t = 5. We assign the greatest time slot which is free and less than the deadline i.e 4-5 for this job. Now another job J2 with deadline of 5 comes in, so the time slot allotted will be 3-4 since 4-5 has already been allotted to job J1.
+Why to assign greatest time slot(free) to a job?
+Now we assign the greatest possible time slot since if we assign a time slot even lesser than the available one than there might be some other job which will miss its deadline.
+Example:
+J1 with deadline d1 = 5, profit 40
+J2 with deadline d2 = 1, profit 20
+Suppose that for job J1 we assigned time slot of 0-1. Now job J2 cannot be performed since we will perform Job J1 during that time slot.
+Using Disjoint Set for Job Sequencing
+All time slots are individual sets initially.  We first find the maximum deadline of all jobs. Let the max deadline be m. We create m+1 individual sets. If a job is assigned a time slot of t where t => 0, then the job is scheduled during [t-1, t].  So a set with value X represents the time slot [X-1, X].
+We need to keep track of the greatest time slot available which  can be allotted to a given job having deadline.  We use the parent array of Disjoint Set Data structures for this purpose. The root of the tree is always the latest available slot.  If for a deadline d, there is no slot available, then root would be 0.  Below are detailed steps.
+Initialize Disjoint Set: Creates initial disjoint sets.
+Find :   Finds the latest time slot available. 
+Union :  
+How come find returns the latest available time slot?
+Initially all time slots are individual slots.  So the time slot returned is always maximum.  When we assign a time slot ‘t’ to a job, we do union of ‘t’ with ‘t-1’ in a way that ‘t-1’ becomes parent of ‘t’.  To do this we call union(t-1, t).  This means that all future queries for time slot t would now return the latest time slot available for set represented by t-1.
+Implementation : 
+The following is C++ implementation of above algorithm.
+Run on IDE
+Run on IDE
+

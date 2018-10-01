@@ -1,0 +1,12 @@
+Given a binary tree, print it vertically. The following example illustrates vertical order traversal.
+
+We have discussed an efficient approach in below post.
+Print a Binary Tree in Vertical Order | Set 2 (Hashmap based Method)
+The above solution uses preorder traversal and Hashmap to store nodes according to horizontal distances. Since above approach uses preorder traversal, nodes in a vertical line may not be prined in same order as they appear in tree. For example, the above solution prints 12 before 9 in below tree.  See this for a sample run.
+If we use level order traversal, we can make sure that if a node like 12 comes below in same vertical line, it is printed after a node like 9 which comes above in vertical line.
+Run on IDE
+Run on IDE
+
+Time Complexity of above implementation is O(n Log n). Note that above implementation uses map which is implemented using self-balancing BST.
+We can reduce time complexity to O(n) using  unordered_map. To print nodes in desired order, we can have 2 variables denoting min and max horizontal distance. We can simply iterate from min to max horizontal distance and get corresponding values from Map. So it is O(n)
+Auxiliary Space : O(n)

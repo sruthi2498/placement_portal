@@ -1,0 +1,6 @@
+Given a C/C++ program, remove comments from it.  
+We strongly recommend to minimize your browser and try this yourself first.
+The idea is to maintain two flag variables, one to indicate that a single line comment is started, another to indicate that a multiline comment is started.  When a flag is set, we look for the end of comment and ignore all characters between start and end.
+Following is C++ implementation of above idea.
+Run on IDE
+Output 

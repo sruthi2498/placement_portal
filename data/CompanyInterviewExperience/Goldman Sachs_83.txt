@@ -1,0 +1,41 @@
+Telephonic Round(1st Round) (Manager):
+1) Swap two variables without using third variable.
+2) There ‘s an array with every element repeated twice except one. Find that element.
+3) Implement LRU cache
+4) How will you implement State Machine
+5) Design Problem: You have a database of million records, that needs to be acessed for each operation. That database is updated very rarely. And there are multiple processes that queries the database and operates on the values. How will you design this?
+6)How do you write a callback function?
+2nd Round( Written):
+1) 15 qs(65 mins) on C++ OOPS , namespaces, inheritance, dynamic_cast, static_cast . The difficulty level was above average.
+2) C++ program to implement a container class. 
+You have to implement algorithms:-
+1) add a new record. This operation fails, if there is any element with the same id.
+2) Delete a record
+3) Edit a record
+4) Find a record
+5) provide iterators begin() and end()
+3rd Round(F2F):
+1) You have the co-ordinates of two rectangles. Find in minimum number of comparisons, if they are overlapping or not.
+2) Write code for implementing Tower of Hanoi problem. What data structures you will use? How will you implement the Move function(that moves the disc).
+4th Round(F2F):
+1)Discussion on Important c++ concepts: Virtual functions, Run time polymorphism, Static polymorphism, Function overloading, Function overriding, Types of cast in C++, Static_cast, Dynamic_cast, difference between new and malloc, Copy constructor, operator overloading, Templates
+2) Program for Anagrams. Different approcahes( hashing, sorting)
+3) Code for first non-repeating character in the string
+4) Least Common Ancestor for n-ary Tree.
+5th Round( Video conference from UK (2 persons)):
+1) About my projects
+Puzzle: You have two train carriages situated at a different point on  a infinite train track. The carriage can move up and down , and given that they can only know whether the other train has started from this point or not.  Write an algorithm which will make the train carriages meet. The same algorithm should run on both the carriages.
+2) virtual functions, auto_ptrs, ordered_map, Hashing, Chaining , Linked list vs array, Inheritance Concepts, static functions, generic programming, Some advanced concepts: CRTP(Curiously Recurring template problem), run time polymorphism
+6th Round(TeleConference from UK(2 persons)):
+1) Deep discussion on the current project in my current company
+7th Round(With Manager):
+1) Deep Discussion on my current role in company, and what will be your role in the company, about the team, about the work. I said that I have other offers in hand, then he said to evaluate the pros and cons of each offer compared. Then he discussed deeply about the current work.
+8th Round(Telephonic with MD for the division from UK):
+1) Deep discussion on the current project in my current company
+9th Round(Telephonic with Senior Director of the division from UK):
+1) Deep discussion on the current project in my current company
+2) Use of Static keyword in different circumstances
+3) Design problem: You have a socket connection on client side. And that socket connection receives million ticks per second for every stocks. Suppose you have 50 stocks. So the value of each stock is changing 10,000 times in a second. So this needs to be shown to the client in the GUI. And also Mean, Median,Highest, Lowest needs to be shown. How will you design in the most efficient way
+The Interviewers were very nice. If you would get stuck in any problem, they would drop hints. And if you did any mistakes, they would prompt you and tell you to correct yourself.
+Also only if all the interviewers involved will give positive feedback, then only they will move ahead with the candidature. So they make it a point that all the team members meets the interviewee. 
+

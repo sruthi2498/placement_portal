@@ -1,0 +1,12 @@
+Given a list of N numbers, Find two numbers such that the product of the two numbers has the maximum number of factors. Formally given n numbers a0, a1, a2, …..an. We are required to find two numbers ai and aj such that their multiplication gives the maximum number of factors and return number of factors of ai * aj
+Constraints
+1 <= N <=100
+1 <= ai <= 10^8
+Examples:
+One simple approach seems to be to take two numbers with maximum prime factors. This approach might not work as the picked two numbers may have many common factors and their product might not have maximum factors. For example, in [4, 3, 8], (4, 8) is not answer, but 3, 8 is answer.
+We consider every pair of numbers. For every pair, we find union of factors and finally return the pair which has maximum count in union.
+
+Run on IDE
+Run on IDE
+
+An alternate approach is to find LCM of all pairs and find factors in all LCMs.  Finally return the pair whose LCM has maximum factors.

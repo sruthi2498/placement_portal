@@ -1,0 +1,8 @@
+Given a number N, print all prime number smaller than or equal to N in reverse order .
+For example, if N is 9, the output should be “7, 5, 3, 2”. 
+Examples:
+A simple solution is to traverse from N to 1. For every number, check if it is a prime using school method to check for prime. Print the number if it is prime.
+An efficient solution is to use Sieve of Eratosthenes. We efficiently find all number from 1 to N, then print them.
+Run on IDE
+Run on IDE
+Run on IDE

@@ -1,0 +1,13 @@
+Given a number n, we need to count square numbers smaller than or equal to n.
+Examples :
+
+A simple solution is to traverse through all numbers from 1 to n and for every number check if n is perfect square or not. 
+An efficient solution is based on below formula.
+Count of square numbers that are greater than 0 and smaller than or equal to n are floor(sqrt(n)) or ⌊√(n)⌋
+Count of non-square numbers = n – ⌊√(n)⌋
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

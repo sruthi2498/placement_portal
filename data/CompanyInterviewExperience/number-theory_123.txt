@@ -1,0 +1,6 @@
+We are given a number N. We need to check if the given number N can be represented as sum of two Great numbers. If yes then print those two great numbers else print no. Great numbers are those which are represented in the form : ((b)*(b+1)*(2*b+1))/6 where b is a natural number.
+Examples:
+
+As we know  ((b)*(b+1)*(2*b+1))/6 where b is a natural number represents the sum of square of first b natural numbers. For example if b = 3 then 1+4+9 = 14. So to check if the input number n can be represented as sum of two great numbers then we will first compute all the great numbers less than n in an array. Then we will use two pointer approach to find the pair than can sum up to the given number n.
+Time Complexity: O(N)
+Auxiliary Space : O(N)

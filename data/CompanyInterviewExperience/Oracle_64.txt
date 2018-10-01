@@ -1,0 +1,42 @@
+Round 1: It was an online MCQ round consisting of 4 parts – Verbal, Aptitude, Computer Science and Programming Knowledge. 
+Computer Science section consisted of questions based on OS, DBMS, Software Engineering. It also had some questions on time complexity of certain written codes and of sorting algorithms.
+Programming :
+– This section focused on ability to understand codes. Questions basically on AVL tree, BST tree and linked list were presented in form of codes and had to find output of those codes. One program had about 5 questions. 
+– We also had question based on flow charts. 
+– One really had to be clear about the concepts of linked lists, stack and queues. 
+
+Round 2 : Online coding round consisting of two questions.(Time : 1 hr)
+– First question of general implementation
+– Second question was based on directed graph.
+
+Technical Round 1:
+– Brief introduction of myself.
+– Then he asked me how would I create a database of people with adhar number, name and father’s name.
+– Second question was to implement a calculator which would perform basic operations of +, -, * and /.
+He asked me to write full working code with boundary case handled in any of the preferred language C, C++ or Java. Then he went through me resume and asked I wrote the code he asked me to explain it. Then he also asked about how would I extend my code to make it work for scientific calculations like sin(x), cos(x), etc.
+– After he had gone through my resume, he asked me to explain one of the recently solved questions on any online programming platform. I had recently solved Codeforces Div 2 question and explained the question to him. He also asked my approach how I solved the question. I made him walk through the solution of O(n^2) complexity to O(n) complexity. 
+
+Technical Round 2 : 
+– Brief introduction of myself.
+– Difference between array and linked list. Advantage of array over linked list.
+– Which language I prefer out of C and C++ and why ?
+– Which was my favourite data structure and algorithm and why? I replied with array and DFS and explained my reasons.
+– Why I had interest in Data Structure and Algorithms ?
+– Which data structure between array and linked list would I prefer if I had 10, 100 and 1000 elements ? I had to give my answer both in terms of time and space complexity.
+– class A { … };
+	A ob; // Declaration 1
+	A *ptr = new A(); // Declaration 2
+	Difference between these two declaration.
+– To write a code explaining the working of copy constructor.
+– Static classes.
+– Given a linked list of size “N”, how would I delete 5th element from last ?
+– He asked me to write working code of reversing a linked list.
+– Difference between calloc and malloc. Also he asked me to write the syntax of these two.
+– Given a stack and a queue. At any point of time let stack hold N1 elements and queue hold N2 elements.
+	1. If N1 and N2 both are odd, swap the middle elements of stack and queue.
+	2. If N1 and N2 both are even, then we would have two middle elements in stack and two in queue. Out of these four elements swap the max element with the min element.
+	3. Do nothing otherwise.
+Although I couldn’t solve the question fully, I gave him my approach and he suggested me to solve this question using min stack algorithm and implementing queue using two stack.
+– Why I started competitive programming ?
+Overall at the end of the day, it was all my competitive programming experience that helped me in those four rounds. I would really like to thank Codechef, Codeforces, Hackerearth and GeeksforGeeks for providing me such a wonderful platform to improve myself.
+

@@ -1,0 +1,5 @@
+The map::emplace() is a built-in function in C++ STL which inserts the key and its element in the map container. It effectively increases the container size by one. If the same key is emplaced more than once, the map stores the first element only as the map is a container which does not store multiple keys of the same value. 
+Syntax:  
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return Value: The function does not return anything.   
+Run on IDE

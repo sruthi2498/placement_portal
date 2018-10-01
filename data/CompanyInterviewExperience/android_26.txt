@@ -1,0 +1,60 @@
+Since Android OS took over the world, it’s hard to imagine the outsourcing niche without a mobile app development. Usually, the launching of the app is a quite time-consuming process. When a company decides to make an enterprise application, it is needed here and now. That’s why the mechanism of building hybrid or native apps for Android usually requires using a third-party library to speed-up the process. Let’s take a look at the top-four of them, which are often used by mobile application developers nowadays and review their most interesting functions and possibilities.
+Butter Knife
+Butter Knife is a small library that is used to reduce the number of the code lines in your project and make it clear. The library doesn’t affect the final apk-file size. Butter Knife uses annotations to bind objects from an xml file with objects from application’s logic. Also, it binds some objects’ actions (for example, you click on the object or choose an item from the list) with the overall logic of an application.
+If you want to include this library in your project, write in your module’s gradle:
+Run on IDE
+After this action, Butter Knife library will be ready for use. In the example below, you can see how you can make the Button item bound with TextView item, performing a simple activity: when user clicks on the button, the text changes.
+Run on IDE
+As simple as that. You don’t need to use findViewById for each view item and don’t need to implement onClickListener and the respective methods onClick.
+You can also bind pre-defined resources with annotation. In our example it will look like:
+@OnClick(R.id.button)
+public void onButtonClick()
+{
+    textView.setText(text);
+}
+
+Now our resource file contains string value text. If we need to add multiple translates for this value – we can duplicate the resource file as many times, as many languages we want to have in the app, and translate the needed information within each file into the foreign language.
+You can use ButterKnife.bind anywhere you would otherwise put findViewById calls. It means that you may use it in fragments, view holders, etc.
+This is only a tiny piece of what this library can do. If you are interested in the other possibilities of this one, just visit the official Butter Knife web-page and read more.
+Glide
+Glide is an image-loading and caching library for Android focused on smooth scrolling. If you need to display images, video stills or animated GIFs in your application – this library is for you. In order to include this library in your project, you need to write one row of code in your module’s gradle:
+Run on IDE
+Where “http://goo.gl/gEgYUd” – our image’s URL, imageView – the window where the image is loaded and showed.
+Glide provides not only the function of displaying our images. It can also produce memory caching and a big variety of transformations. The function, which is quite popular due to the fact, that it’s frequently used by mobile application developers – is creating rounded image view. For this solution you need to create a custom class extended BitmapTransformation and override the method transform:
+Run on IDE
+Finally, our image will be rounded. With the help of the Glide library, we can round all images that we need in such a simple way.
+Describing the second useful feature of this library that we’ve mentioned above, which is cashing, we can mention that Glide cashes resized images to the memory or disk. For example, there is an image on the server with a resolution of 1000*1000 pixels and your application has image view with a resolution of 100*100 pixels. The library will resize downloaded image to 100*100 pixels and will cash it with such resolution. In case your application will need to show this image again, it will automatically get this image from cash and will show it immediately. The library won’t need to resize the image again because it is already resized in cash.
+More information about useful features of this library you can read on Glide official web-page.
+Retrofit
+We can’t imagine an application that is not connected to the web-server or some informational web-source. Retrofit is a type-safe HTTP client for Android and Java. We use this library to create HTTP request to the server.
+You need only one row of code to include the library to your current project:
+Run on IDE
+Let’s test it out on a simple example, where we will receive a list of emojis from GitHub.
+Firstly, we add the following row to our gradle file:
+We have added gson converter to our project allowing the library automatically convert the result of the request to the custom object.
+Then we create ServiceGenerator class:
+Run on IDE
+This class defines one method to create a basic REST adapter for a given class/interface.
+The following code defines the RestClient and a method to request the list of emojis.
+Then we change our onButtonClick method:
+Run on IDE
+Now when we click on the Click Me button – we will see a list of emojis below.
+ 
+Retrofit is a powerful library as it contains many useful features. You can read more detailed review of this toolkit by following the link.
+Realm
+Android Realm database is simple to use, yet powerful as the core has been written in C++ and is compiled in the native code. With Realm our models are also schemas/tables for our database. This library was made especially for mobile development, which means, it is targeted on mobile devices only and this is the reason why it is appreciated by developers so much. You can read the detailed review of how to include this library to your project in this article.
+To introduce you some features of the library, we will update our abovementioned example. For faster and safer app performance, there are always two databases: the main DB (local) and the remote one. While storing all the objects in the local DB, we need to duplicate them into the remote DB. For this purpose we will need to duplicate the list of emojis we already have and to automatize the whole process of adding and deleting objects from one DB to the other one, we need to write the code pieces, introduced below.
+We need to create the object structure (schema) for our database:
+Run on IDE
+Next, we need to change our ImageAdapter class. We add two methods, which allow to delete and add items to the list.
+Run on IDE
+In the MainActivity we create three methods, which operate with emojis objects:
+Run on IDE
+And finally, we change our onCreate method. Here we initialize our database and set a click listener on the item of our list.
+Run on IDE
+Now our application looks like introduced in the picture below:
+
+The ready variant of the app you can check out by following our page on GitHub.
+Conclusions
+Overall, There are so many challenges that companies are facing on the every-day basis while deciding to build a mobile app. 
+There are actually much more challenges to mention, but we can surely say, that every challenge has its solution, and IT companies provide them nowadays on the full-stack basis. Lack of ideas can be compensated with creative UI/UX designers, who will generate it and analysts to assess its potential on the market. Lack of employees can be easily solved with the help of remote mobile developers. With the help of this research, we are now sure, that mobile app development for Android CAN be easier and less time-consuming if developers use third-party libraries for coding. Of course, these are only a couple of them mentioned here, but there surely more of them exist, which are worth using as well.

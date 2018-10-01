@@ -1,0 +1,9 @@
+The list::emplace() is a built-in function in C++ STL which extends list by inserting new element at a given position. 
+Syntax:
+Parameters: The function accepts two mandatory parameters which are described below:
+Return value: It returns a random access iterator which points to the newly inserted element.
+Below programs illustrate the above function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

@@ -1,0 +1,44 @@
+Online round (1 hour on hackerrank):
+1. There are ‘n’ ticket windows in the railway station, ith window has ai tickets available. Price of a ticket is equal to the number of tickets remaining in that window at that time. When ‘m’ tickets have been sold, what’s the maximum amount of money the railway station can earn?
+e.g.
+INPUT: n=2, m=4
+a1=2 , a2=5
+OUTPUT: 14(2nd window sold 4 tickets so 5+4+3+2).
+2. You are given a 2-D matrix with M rows and N columns.You are initially positioned at (0,0) which is the top-left cell in the array. You are allowed to move either right or downwards. The array is filled with 1’s and 0’s. A 1 indicates that you can move through that cell, a 0 indicates that you cannot move through that cell. Return the number of paths from top-left cell to bottom-right cell.(i.e. (0,0)to(M-1,N-1)). Since answer can be large thus you have to return ans%(10^9+7).
+Constraints: Best time and space complexity were required to cover all the test cases for both questions.
+INTERVIEW ROUNDS:
+Round 1 (40 mins Skype):
+One coding question to be done on shared screen.
+1. Given a string of characters , parse the numeric values in it ,add all of them and return the result.
+Lot of discussion regarding the various test cases around this question(e.g, handing of -ve numbers , decimals , overflow etc).
+Main concentration was just to get as many as test cases possible and an efficient solution as well.
+And Some common question like why you coding in C++? Advantages of OOP?
+Round 2 (45 mins Skype):
+Again one coding question to be done on shared screen.
+1. Given an array of positive integers, find all possible triangle triplets that can be formed from this array.
+eg: 9 8 10 7
+ans: 9 8 10, 9 8 7, 9 10 7, 7 8 10
+Note : array not sorted, there is no limit on the array length.
+Again the main concentration was to work around all possible test cases and an efficient solution as well.
+Round 3 (50 mins Skype):
+Design round basically :
+Design a complete system for “Traffic enforcement camera” (http://en.wikipedia.org/wiki/Traffic_enforcement_camera).
+He asked to tell as many as test cases possible for the scenario. I managed somehow to 15-20, later he told there can be many more viz. weather conditions, fog etc.
+what type of testings should be performed on this system?
+Then by going through my resume, he asked details from my first project as it was related to Image processing then some basic stuff about system calls and Unix commands.
+Then some other question :
+1) Do you know about any software testing framework? (like Selenium)
+2) What is the best protocol to store images?
+3) How JSON(JavaScript Object Notation) works?
+4) which database to use and when ? (he was try to ask about NOSQL databases).
+Round 4 (40 mins Telephonic HR+Tech):
+This round was with the hiring manager from their head office. He just started with the basic introduction. Asked my area of interest. Then questions accordingly.
+Like:
+1) One liner command to kill all process in the system which were using JAVA?
+2) Difference between TOP and PS commands? why TOP is called TOP?
+3) Explain XSS attacks and how to prevent it? and the same for sqli? Any experience with them?
+4) Algorithmic : https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/ gives as many solutions you can? Then ..tell about their time and space complexity?
+5) Explain your final year project?
+6) Why should I hire you , not others?
+7) Experiences with automated and manual testings ?
+Then he asked me if I had any questions, I asked some company stuff. That’s all !! Hope that helps. Best of luck.

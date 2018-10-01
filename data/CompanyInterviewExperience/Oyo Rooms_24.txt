@@ -1,0 +1,33 @@
+Round 1: Written test with 2 questions
+Question1: Given an array of size n containing both positive and negative numbers. Find the count of subarrays whose sum is 0.
+Question2: Add next pointer to every node present at the same level.
+Round 2: Data structures and Algorithm
+First discussion on my approach and code for the written test problems
+Question 1: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+Question 2: Given a chess board of size m*n. A knight is present at some initial position. Find the minimum number of moves so that it can move to some given final location.
+Hint: Think BFS
+Round 3: Algorithm, Design and OOPS concepts
+Question 1: Design a tank game. https://www.youtube.com/watch?v=ms-MTSCF3mw
+HLD and LLD with classes and functionalities. Design patters, abstract classes and interfaces
+Question 2: A continuous stream of numbers is coming. Find the median at any given time. Algorithm and code
+Hint: Lets say m is a median at any given time. Use a min heap of numbers more than m and a max heap of numbers less than m. Now retrieval is O(1) and insertion is O(log n)
+Question 3: Design whatsapp. Just high level design
+Question 4: How deployment works on multiple server machines. Concepts of AB testing and few other questions
+ 
+Round 4: Algorithm, Design, multi threading, concurrency, database concepts
+Question 1: Given a string of characters. You need to transform it to a given new string of same length in minimum cost where:
+a) ‘b’ can be transform to ‘a’ or to ‘c’ with cost 1. Similarly for other characters.
+b) any numbers of b’s can be transformed to c’s with cost 1 and also to a’s with cost 1.
+Question 2: Given multiple bars of given heights and unit width. Find the rectangle with max area.
+Question 3: Design a vending machine
+Question 4: How will you choose which column to choose for indexing.
+Question 5: Sharding in databases. How facebook would shard it users database
+Questions on mulithreading, immutable class, concurrency
+ 
+Round 5: Design, Previous experience and practical questions
+Question 1: Explain any 1 project I enjoyed working on
+Interviewer was not interested in my project and moved to a design question
+Question 2: Design a traffic signal starting with all use cases, HLD, LLD
+Question 3: Design an elevator system
+My favorite design patterns and what patterns I would use in above questions
+What I would look in design reviews and in code reviews and few other behavioral questions

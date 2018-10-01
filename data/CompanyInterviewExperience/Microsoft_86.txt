@@ -1,0 +1,18 @@
+Consider an infinite x-y plane. Infinite people walk on the plane in upward or +ve Y direction. At each integer point on the x-axis, only one person walks. Suppose, several barriers exist parallel to the x-axis. Barriers are provided as three truplets
+Calculate how many people will get stuck at any point due to the barriers.  Use of extra space to keep track of different points on x axis is not allowed.
+
+Examples:
+Asked in: Microsoft IDC Internship.
+
+A simple approach is to use a very long array initialized to zero. Then we can mark those values by 1 which are in the barrier by looping through each barrier. This would solve the case of overlapping of barriers.
+But we cannot use another array as mentioned before. Thus, we  use sorting and simple math. Following are the steps:
+1. Sort all barriers by x1 (Starting point)
+2.  After sorting, 3 cases arrive:
+……I. The next barrier does not overlap with the previous. In this case, we simply add count of points covered by current barrier.
+……II. The next barrier partly overlaps the previous one. In this point we add non-overlapping points covered by current barrier.
+……III. The next barrier completely overlaps the previous barrier. In this case, we simply ignore current barrier.
+Below is the implementation of above approach.
+Run on IDE
+Output :
+We can easily note that there is no importance of y in the question, so it may not be stored.
+Time Complexity : O(n Log n)

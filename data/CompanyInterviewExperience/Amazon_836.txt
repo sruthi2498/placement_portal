@@ -1,0 +1,39 @@
+There are 2 sorted arrays A and B of size n each. Write an algorithm to find the median of the array obtained after merging the above 2 arrays(i.e. array of length 2n). The complexity should be O(log(n)).  
+
+Note : Since size of the set for which we are looking for median is even (2n), we need take average of middle two numbers and return floor of the average.
+Method 1 (Simply count while Merging)
+Use merge procedure of merge sort. Keep track of count while comparing elements of two arrays. If count becomes n(For 2n elements), we have reached the median. Take the average of the elements at indexes n-1 and n in the merged array. See the below implementation.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+
+
+Method 2 (By comparing the medians of two arrays)
+This method works by first getting medians of the two sorted arrays and then comparing them.
+Let ar1 and ar2 be the input arrays. 
+Algorithm :
+Examples :
+For above two arrays m1 =  15 and m2 = 17
+For the above ar1[] and ar2[], m1 is smaller than m2. So median is present in one of the following two subarrays.
+Let us repeat the process for above two subarrays: 
+m1 is greater than m2. So the subarrays become
+Implementation :
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(logn)
+Algorithmic Paradigm: Divide and Conquer
+
+Median of two sorted arrays of different sizes
+
+References:
+http://en.wikipedia.org/wiki/Median
+http://ocw.alfaisal.edu/NR/rdonlyres/Electrical-Engineering-and-Computer-Science/6-046JFall-2005/30C68118-E436-4FE3-8C79-6BAFBB07D935/0/ps9sol.pdf ds3etph5wn
+Please write comments if you find the above codes/algorithms incorrect, or find other ways to solve the same problem.

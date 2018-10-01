@@ -1,0 +1,11 @@
+Given an array of distinct integers, print all the pairs having a positive value and negative value of a number that exists in the array.
+Note: Order of the pairs doesn’t matter.
+Examples:
+A naive approach is to run two loops i.e. Consider each element of the array using the outer loop and search for its corresponding positive/negative value in the array using an inner loop. Similarly, find all the pairs. Time Complexity of this approach will be O( n2).
+A better approach is to use sorting i.e. first sort the array and then for each negative element, do a binary search to find its counterpart (+ve number). If found, print that pair. If the current element is positive then break that loop as after that there will be all the positive numbers.
+Run on IDE
+Run on IDE
+Time Complexity: O(nlogn)
+An efficient Approach is to use hashing. Below are the required steps:
+Run on IDE
+Time Complexity: O(n)

@@ -1,0 +1,18 @@
+Technical Round-1
+1. Maximum Subarray Sum problem: Different approaches and code
+2. Given a 2-D char array, with random alphabets, find the word “INTUIT”, s/t “N” lies in the neighborhood of I, T lies in the neighborhood of N, and so on. Neighborhood meaning any of the eight squares around the middle square. Approach and code using recursion.
+3. Linked List: Pairwise reverse the linked List, eg : 1->2->3->4->NULL to 2->1->4->3->NULL. Code with proper syntax. Dry Run
+Example Output-based Question. 
+And so on…
+Technical Round-2
+1. Introduce yourself.
+2. General discussions on the languages: C, C++, Java
+3. Questions related to Pointers: Output based questions –
+4. Memory Leak and a program where this occurs.
+5. General OS concepts
+6. Given 2 processes P1, and P2. And P1 allocates a pointer ptr1 with an address FH1231, discuss if P2 can access this.
+Technical Round-3
+1. Given 2 strings A and B, determine if B is a rotation of A. Code and logic
+2. Given n consecutive numbers starting from 1, determine the one missing number. Different approaches.
+3. OOPS concepts eg:  Comparison  of objects, Everything about Inheritance, Static and Dynamic Binding. 
+

@@ -1,0 +1,22 @@
+Given a number n, print following pattern without using any loop.
+Examples :
+We basically first reduce 5 one by one until we reach a negative or 0. After we reach 0 or negative, we one add 5 until we reach n.
+Source: Microsoft Interview Question.
+
+
+The idea is to use recursion.  It is an interesting question to try on your own.  
+Below is the Code.  The code uses a flag variable to indicate whether we are moving toward 0 or we are moving toward the back to n.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+How to print above pattern without any extra variable and loop?
+The above program works fine and prints the desired out but uses extra variables.  We can use two print statements. First one before the recursive call that prints all decreasing sequence. Second one after the recursive call to print increasing sequence.  Below is the implementation of the idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to AKSHAY RATHORE for suggesting above solution.

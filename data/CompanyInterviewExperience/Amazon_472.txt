@@ -1,0 +1,30 @@
+Given a string ‘str’, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
+Examples: 
+Source: Google Interview Question
+
+
+There can be many solutions to this problem.  The challenging part is to solve the problem in O(n) time.  Below is a O(n) algorithm.
+Let the given string be ‘str’ and length of given string be ‘n’.
+1) Find length of the longest proper prefix of ‘str’ which is also a suffix.  Let the length of the longest proper prefix suffix be ‘len’.  This can be computed in O(n) time using pre-processing step of KMP string matching algorithm.
+2) If value of ‘n – len’ divides n (or ‘n % (n-len)’ is 0), then return true, else return false.
+In case of ‘true’ , the substring ‘str[0..n-len-1]’ is the substring that repeats n%(n-len) times.
+Let us take few examples.
+Input: str = “ABCDABCD”, n = 8 (Number of characters in ‘str’)
+The value of len is 4 (“ABCD” is the longest substring which is both prefix and suffix)
+Since (n-len) divides n, the answer is true.
+Input: str = “ABCDABC”, n = 7 (Number of characters in ‘str’)
+The value of len is 3 (“ABC” is the longest substring which is both prefix and suffix)
+Since (n-len) doesn’t divides n, the answer is false.
+Input: str = “ABCABCABCABCABC”, n = 15 (Number of characters in ‘str’)
+The value of len is 12 (“ABCABCABCABC” is the longest substring which is both prefix and suffix)
+Since (n-len) divides n, the answer is true.
+How does this work?
+length of longest proper prefix-suffix (or len) is always between 0 to n-1.  If len is n-1, then all characters in string are same.  For example len is 3 for “AAAA”.  If len is n-2 and n is even, then two characters in string repeat n/2 times.  For example “ABABABAB”, length of lps is 6.  The reason is if the first n-2 characters are same as last n-2 character, the starting from the first pair, every pair of characters is identical to the next pair.  The following diagram demonstrates same for substring of length 4.
+
+Following is the implementation of above algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:  
+Time Complexity: Time complexity of the above solution is O(n) as it uses KMP preprocessing algorithm which is linear time algorithm.

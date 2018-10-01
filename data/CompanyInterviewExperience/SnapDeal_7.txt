@@ -1,0 +1,41 @@
+Below was my experience with Snapdeal SDET Bangalore Location.
+Round-1: Telephonic Interview -Skype
+—————————————————-
+Basic questions on Java (Since it was mentioned in my resume).
+Like Arraylist vs LinkList
+Exception Handling questions
+MongoDB basic questions (How to create sequence, and Indexing)
+Automation related questions as :
+Selenium Grid. Basic syntax in automating search in google maps using selenium.
+Given an array:
+{ 2, 3, -7, 6, 8, 1, -10, 17 }
+Find the smallest positive number missing.
+After selection i was called to Snapdeal office for other rounds.
+Round-2:
+———–
+Sort a Array using Comparator Interface.
+How to write a User defined Exception
+Basic questions on Selenium and about the project, how selenium is used in our project.
+Coding question
+All combination of  a string ABCD
+A B C D AB AC AD BC BD BCD (Only forward combinations)
+Round 3: Hiring Manager round.
+————
+Was asked to Design and write test cases for Google Maps and google Translator.
+It took 30 mins to complete it.
+Given a question and to execute it on online editor which had all test cases.
+Arr1 = {10,20,30,40,50}
+Arr2 = {5,10,15,20}
+Output  Sum of (Max of arr1 divisible by 10 & Max of arr2 divisible by 5)
+You can use only one for loop. 
+Round 4:
+————-
+Questions on Map Reduce in MongoDb(Since mongoDB was in my resume).
+Questions related to selenium.
+Given a string ABCDEF -> I need to tell , if this string has all characters from A-Z
+Round 5
+———–
+HR Questions
+Normal HR Stuffs.
+
+

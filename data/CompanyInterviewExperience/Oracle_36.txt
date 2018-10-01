@@ -1,0 +1,77 @@
+Pre-Interview Round:
+Round 1:
+4 sections:
+*Communication Skills and English
+*Software Engineering Aptitude
+*Coding Questions
+*General Computer Science
+Each section has 4/5 sub-sections. And each sub-section had time limits.
+Questions are of easy-moderate level. Speed is of utmost importance. One shouldn’t waste time on difficult questions.
+Interview Rounds:
+Technical Round 1 (45mins):
+The interviewer was very polite and started off by making me feel comfortable with questions like “How are you feeling?”, “Had breakfast?”. She began with very simple questions first.
+*Given an integer n, print a rhombus like pattern with stars.
+E.g.
+*Print a given number in words.
+https://www.geeksforgeeks.org/convert-number-to-words/
+*Given a string, format it as following:
+*Given a linked list and a number k, reverse the list in groups of k nodes.
+I was asked to write code for each one of the above.
+*Basic concepts about OOPs.
+*Example to explain Inheritance.
+*Concepts on Destructor
+*Camel and bananas Puzzle
+*Candle burning puzzle
+
+Technical Round 2(1hr 20mins):
+*Concepts on function overloading – I was given erroneous pieces of codes. Asked to find mistake, correct them and explain what kind of error could it cause (compilation/runtime).
+*Overriding of Methods
+*ACID properties- Explanation with examples
+*Runtime polymorphism with codes for virtual function
+*Normalization of database
+*What are deadlocks? How to avoid them? Handling a situation with semaphores
+*Conflict Serializability
+*Given an unsorted array filled with 0,1,2 (each having frequency>1), sort them in a single traversal of the array.
+*Given a stack (linked-list representation), sort it in O(n) time. (Hint: Take another stack)
+*Given a linked list, sort it using any technique. I had used merge-sort. I was asked to explain why not Quicksort. Also I was asked to derive the time complexites for worst and average cases of both.
+*Detect and remove loop in a linked list.https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+*Print all possible root to leaf paths of a binary tree.https://www.geeksforgeeks.org/given-a-binary-tree-print-all-root-to-leaf-paths/
+*Implement a queue using stacks
+*Find the mirror of a binary search tree.
+https://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/
+*Check if a tree is height balanced or not.https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/
+*Explanation of 0-1 Knapsack Problem with code
+*Logic to find minimum number of nodes that would cover all edges of a graph. I was asked if I was comfortable in graphs. I said no, so he said, okay leave you dont need to write the code.
+*Puzzle on apples,oranges and mixed fruits
+*Puzzle:
+1st statement says: Atleast 1 statement is wrong
+2nd statement says: Atleast 2 statements are wrong
+..
+100th statement says: Atleast 100 statements are wrong
+How many statements are right?
+Technical Round 3(1hr):
+*Basic questions on Java
+*Advantages of RDBMS over file systems
+*Explanation of my summer project at CNeRG
+*I had a full stack web development project. I was asked about how I implemented its backend. I had to draw ER Diagrams for the schema. I had to write prototypes of all the functions that I had implemented. Make sure you keep your tables optimally normalized when you show it to them.
+*I was asked to design a model of an application whose specifications the interviewer had stated. A layout of the UI and clear diagrams to explain the underlying operations was what was required. I mentioned functionalities to ensure scalability, space-time trade-off, ease pf customer usage and security. He asked me to write an encryption algorithm to store a password in a database. I said I dont know any standard cryptographic algorithm but I wrote code for a very basic encryption, by converting characters to their ASCII values and applying a function over them, and storing the resultant string. He seemed satisfied.
+*He asked a few nested queries involving a lot of joins.
+*He asked if i have any questions for him. I asked 3 questions regarding their ERP and Cloud services.
+Final HR Round (15 mins):
+*Tell me about yourself
+*With a CGPA of 9, why would you go for a job and not higher studies?
+*Why Oracle?
+*What is it in your CV which you think is an achievement for you?
+*Tell me about your interests
+*Are you a leader or a follower?
+*Give me 3 adjectives which your best friend would use to describe you.
+*If I give full authority of your city for 3 hours, what are the changes you would want to implement and how.
+*Location Preference
+*Do you have any questions?
+Suggestions:
+*Do not get nervous, maintain your calm. These are very nice people.
+*If the interviewer asks for an O(n) approach and you are unable to think of one, tell him all the O(n^2), O(nlogn) approaches which come to your mind. Let them know that your mind isn’t idle.
+*Keep a constant smile on your face, not just in the HR round, but in technical rounds too while convincing them with your solution.
+*Be very thorough with atleast one subject apart from Algorithms. Preferably DBMS. Knowledge of Java is an added bonus.
+*Be confident, but don’t sound arrogant,
+*Keep calm, code and study GeeksfoGeeks. 😛

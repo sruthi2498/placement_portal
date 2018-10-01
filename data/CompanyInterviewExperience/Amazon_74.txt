@@ -1,0 +1,45 @@
+
+Online Round:
+It consisted of 20 mcqs and 2 coding questions. The test was hosted on HackerEarth.
+Given a string. Find all the palindromic partitions of the string. (Number of way the string can be partitioned so that all the partitions are palindrome)
+2. You are given with a large paragraph and N words.You have to find a min length subparagraph of the paragraph which contain all those N words in any order.
+Round 1 (35-mins):
+The interviewer started with the most common questions “Tell me about yourself” , in which I explained my projects , my achievements and my strengths. I was asked 2 questions from ds and algo in this round.
+Find all the hero and super hero in an array. Hero – Elements which are greater than all the elements on its right side. Super Hero – Elements which are greater than all the elements on its left and right side (Largest Element of the array which should only occur once). Expected Complexity – O(1) space and O(n) time in single traversal. 
+2. https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+Round 2 (60-mins):
+I was asked to introduce myself asked about my strengths and my weakness. Like last round I was asked 2 questions on data structures and algorithms. 
+Discussions on projects for 15-20 minutes.
+Find Maximum number possible by doing at-most K adjacent swaps. Expected Time Complexity – n*K and space complexity – O(1) 
+Find the closest pair to a given sum in an unsorted array. Approaches – Brute force, Sorting , Ceil and floor using BST.
+Memory Allocation in C++. How to allocate double memory in c++. Couldn’t Explain this.
+Was called for 3rd round after 5 mins.
+Round 3 (90-mins):
+This round was purely on algorithm design and data structures.
+ https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+Couldn’t derive this for O(1) space.
+2. https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/
+3. https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+Explained O(n^2) dp approach. Gave a segment tree approach of time complexity O(nlogn) , space O(nlogn).
+4. https://www.geeksforgeeks.org/find-first-non-repeating-character-stream-characters/
+Implemented using Double Linked List and Hashmap.
+Was called for the final round after 5 mins.
+Round 4 (30-mins):
+The round started with discussions on Operating Systems and Compiler Design.
+Operating System Questions-
+What is caching ?
+Where does cache lie in operating system ?
+Difference between associative mapping and direct mapping in cache.
+What is spooling ?
+Applications of spooling.
+Compiler Design Questions – 
+What is lexical analysis ?
+What is semantic analysis ?
+What is a Deterministic Finite Automata (DFA) ?
+Difference between DFA and NFA ?
+Exhaustive discussion on my current projects.
+Finally 3 questions were asked on data structures and algorithms.
+ https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
+ https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
+ https://www.geeksforgeeks.org/bottom-view-binary-tree/
+Verdict : Selected 🙂

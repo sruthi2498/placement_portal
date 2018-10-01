@@ -1,0 +1,36 @@
+Morgan Stanley had hiring drive where around 150 people came for interview.
+First Round:(Coding Round)-45 Minutes
+Here we have to code 2 problems
+1) first problem was on hierarchy print based on a string. There are some employee manager relationship and based on input string , we have to print complete hierarchy.
+For e.g.
+Ajay-> Ramesh
+Deepesh-> Animesh
+Mohan->Ajay
+Rahul-> Mohan
+Input: Rahul
+Output: Rahul->Mohan->Ajay->Ramesh
+2) There is one string, separated by space and you have to reverse the word of the String based on the Fibonacci Series. If is there any duplicated number in Fibonacci series then you don’t have to reverse that words.
+For Ex.
+Input : zero one one two three four five six seven eight nine ten
+Output : oerz one one owt eerht four evif six seven thgie nine ten
+After this round some people were shortlisted, I don’t know the numbers
+Second Round: Group Activity
+As MORGAN STANLEY’s legacy, gave some.picutres and said to come up with an idea and you want to impress your investors with your idea so they will invest in your project idea.
+    Advice : Don’t suppress anyone try to give new idea and actively participate.
+Third Round(F2F): 1 Hour
+It was pure technical round. Started with project discussion and he provided me some sort of condition and asked me to resolve using my previous company projects. Then he gave me three data structure questions:
+1) There are number of 1’s and 0’s in a 2D matrix, you have to find the max square in 2D matrix which has boundary as 1’s
+2) In a stock market, prices are changing in every interval of an hour. You have to provide the full channel of your buying and selling of stocks. If you buy a stock then after selling it, you can buy the other one. You can’t continuously buy.
+3) There are infinite number of a stream. You have to find the median at any point of time. You can’t use extra memories.
+Then he changed the question and told me to print a random number from infinite number of stream.
+Then he asked me hashmap and his implementation and some sort of output using hashmap.
+
+Fourth Round(F2F): Design Pattern Round+ Technical Round 1h 30 minutes
+He asked my brief introduction and then he discussed about the projects. Then he asked me question based on stability and scalability . Some questions based on load balancer, cache layer and databases. I worked on Cassandra, so he asked me its internal workflow. Then he told me to design a in memory database where I can ask any query and your database is so scalable and sustainable then he can provide me data based on those query. Then he asked me how will you do indexing in your database and how primary key persist the data. Deletion and insertion in database. He checked the designed database with some queries and he was satisfied. He asked B+ tree and B- tree.
+Then he asked me about collection and asked me about all three maps(Hashmap,TreeMap,LinkedHashmap) and internal structure of all three map. He gave more attention towards treemap so he discussed more about Red black tree.
+Then he told me to design a Hashmap which can sort data while inserting and whose hashcode place doesn’t change . Only value will change based on sorting
+After that he asked me about singleton and IOC
+Fifth Round: Behavioral Round 30Minutes
+Interview was very friendly. He asked my interest, my achievement, which project do you think is the most difficult one and how will you tackle that. How much you know about Finance. I said that I don’t know much about finance but I m a quick learner. Then, he told me that then why will I hire you because we already had people who are from IITs NITs and BITS, and you are almost behind them in finance. I gave him the reason about my training in snapdeal where I stood 1st among 450 candidates where candidates from mentioned colleges and also stood 3rd in hackathon, held in snapdeal and then he asked my future plan and some other behavioral questions.
+After 2 days, I got a call from HR and 3 people were selected. One for UI, one for Backend and one for Finance. I selected for backend as senior associate in the Prime Brokerage Funding & Finance Technology division.
+Thanks geeksforgeeks for helping me out and sharp my knowledge in the field of problem solving and data structure.

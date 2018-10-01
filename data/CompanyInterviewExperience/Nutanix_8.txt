@@ -1,0 +1,7 @@
+Given a string of digits, determine whether it is a ‘sum-string’. A string S is called a sum-string if a rightmost substring can be written as sum of two substrings before it and same is recursively true for substrings before it.
+Examples : 
+In general a string S is called sum-string if it satisfies the following properties:
+From the examples, we can see that our decision depends on first two chosen numbers.
+So we choose all possible first two number for given string. Then for every chosen two numbers we check whether it is sum-string or not? So the approach is very simple. We generate all possible first two numbers using two substrings s1 and s2  using two loops. then we check whether it is possible to make number s3 = (s1 + s2) or not. If we can make s3 then we recursively check for s2 + s3 so on. 
+Run on IDE
+Output:

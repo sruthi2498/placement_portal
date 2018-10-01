@@ -1,0 +1,10 @@
+Given a positive integer n that represents dimensions of a 4n x 4n matrix with values from 1 to n filled from left to right and top to bottom. Form two coils from matrix and print the coils.
+Examples:
+
+Total elements in matrix are 16n2. All elements are divided in two coils. Every coil has 8n2 elements. We make two arrays of this size. We first fill elements in coil1 by traversing in given order. Once we have filled elements in coil1, we can get elements of other coil2 using formula coil2[i] = 16*n*n + 1 -coil1[i].
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Asked in Yahoo

@@ -1,0 +1,21 @@
+Given a number N. The task is to print all possible sums of consecutive numbers that add up to N.
+Examples :
+
+One important fact is we can not find consecutive numbers above N/2 that adds up to N, because N/2 + (N/2 + 1) would be more than N. So we start from start = 1 till end = N/2 and check for every consecutive sequence whether it adds up to N or not. If it is then we print that sequence and start looking for the next sequence by incrementing start point.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Optimized Solution:
+In above solution, we keep recalculating sums from start to end, which results in O(N^2) worst case time complexity. This can be avoided by using a precomputed array of sums, or better yet – just keeping track of the sum you have so far and adjusting it depending on how it compares to the desired sum.
+Time complexity of below code is O(N).
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Reference : 
+https://www.careercup.com/page?pid=microsoft-interview-questions&n=2

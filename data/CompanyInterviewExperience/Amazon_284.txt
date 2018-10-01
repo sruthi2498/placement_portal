@@ -1,0 +1,36 @@
+There were 5 rounds in total.
+Round 1:
+MCQs based on mainly OS and OOP.
+Q.1 Tell whether a matrix containing 0s and 1s can be divided into 2 sub matrices containing equal number of 1s.
+Q.2 Find maximum elements in an array in windows of size 3.
+Technical Interview 1:
+Q.1 Discussion on projects
+Q.2 Some simple question involving unordered map. Then asked me to first implement the map and then use it.
+Q.3 Several questions on OS (semaphores, mutex, scheduling)
+Technical Interview 2:
+Q.1 K-heavy problem. Given a binary tree, you need to prune it such that the final tree contains all root-to-leaf sums more than equal to k.
+Q.2 Sort m arrays each of size n. He wanted the divide and conquer approach.
+Technical Interview 3:
+Q.1 Several questions on CN (Protocols, IP Addressing, High level design of a server system used in companies like Amazon)
+Q.2 Sort a string in linear time.
+Q.3 At Amazon.com, users log in and access random pages numbered as 1,2,3… Given at any time, you need to tell the most popular sequence of 3 pages visited by users.
+Eg.
+At some time t,
+U1: P1, P2, P3, P8, P1, P2
+U2: P8, P1, P2
+O/P: P8, P1, P2
+At time t+1, say
+U1: P1, P2, P3, P8, P1, P2, P3
+U2: P8, P3, P2
+O/P: P1, P2, P3
+Technical Interview 4:
+Q.1 Given an array containing 0s and 1s your aim is to convert all 1s to 0s. You can only use an auxiliary function for doing this (No swapping or modification to order of elements can be done otherwise). The auxiliary function void flip(int index) toggles all the elements to right of index and index itself. You need to return the minimum no. of calls required to complete the task. Linear time is expected.
+Also consider time complexity of flip function while doing complexity analysis.
+Q.2 Tricky question which involved usage of hashing in Rabin Karp algorithm. Dont remember the exact question.
+Note:
+50/250 were shortlisted after MCQ round.
+19/50 were shortlisted after 2 tech interviews.
+16/19 were placed after next 2 interviews.
+OS, CN and OOP is a must in addition to DS problems. All the best.
+A big thanks to geeksforgeeks for providing such wonderful platform!
+

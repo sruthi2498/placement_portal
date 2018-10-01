@@ -1,0 +1,30 @@
+I attended a Paytm recruitment drive.
+The requirement was for both Front-end and Backend Developers. I applied for Backend.
+First there was a written round. The paper consists of 4 Sections.
+1- C programming and Data structure objective questions.
+2- Aptitude
+3- Java / Node JS
+4- Subjective programming Question
+Subjective questions were
+1- Print all interleavings of given two strings
+Link – https://www.geeksforgeeks.org/print-all-interleavings-of-given-two-strings/
+2- Largest subarray with equal number of 0s and 1s
+Link – https://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/
+After the written round I went through 2 interviews.
+First interviewer asked me 3 algorithm questions.
+1- Segregate 0s and 1s in an array
+Link – https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
+2- Extended the above question to Sort an array of 0s, 1s and 2s
+Link – https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+3- There are 3 operation available.
+     a) Subtract 1
+     b) Divide by 2(applicable only when number is divisible by 2)
+     c) Divide by 3(applicable only when number is divisible by 3)
+Give the minimum number of operation requires to reduce the number to 1.
+Second Interviewer asked only 1 question.
+1- Recursively remove all adjacent duplicates in an array containing numbers.
+Link to remove adjacent duplicates from string is mentioned below.
+Link – https://www.geeksforgeeks.org/recursively-remove-adjacent-duplicates-given-string/
+Thats’ it…!!!!!!!!
+Thanks GeeksforGeeks.
+

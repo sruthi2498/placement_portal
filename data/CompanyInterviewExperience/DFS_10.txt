@@ -1,0 +1,7 @@
+Given n nodes of a tree and their connections, print Subtree nodes of every node.
+Subtree of a node is defined as a tree which is a child of a node. The name emphasizes that everything which is a descendant of a tree node is a tree too, and is a subset of the larger tree.
+
+Examples :
+Approach:  Do DFS traversal for every node and print all the nodes which are reachable from a particular node.
+Explanation of below code: 
+Run on IDE

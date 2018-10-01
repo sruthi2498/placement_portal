@@ -1,0 +1,9 @@
+multimap::operator= is used to assign new contents to the container by replacing the existing contents. It also modifies the size according to the new contents.
+Syntax:-
+Examples:
+
+Errors and Exceptions
+1. If the containers are of different types, an error is thrown.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:-

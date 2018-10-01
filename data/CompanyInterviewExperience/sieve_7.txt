@@ -1,0 +1,20 @@
+Given a number N. The task is to find the sum of all the prime divisors of N. 
+Examples:
+A naive approach will be to iterate for all numbers till N and check if the number divides N. If the number divides N, check if that number is prime or not. Add all the prime numbers till N which divides N. 
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N * sqrt(N)) 
+Efficient Approach : The complexity can be reduced using Sieve of Eratosthenes with some modifications. The modifications are as follows: 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N * log N) 

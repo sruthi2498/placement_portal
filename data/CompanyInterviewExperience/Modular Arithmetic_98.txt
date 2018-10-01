@@ -1,0 +1,20 @@
+Given a number n, check if it is prime or not. We have introduced and discussed School method for primality testing in Set 1.
+Primality Test | Set 1 (Introduction and School Method)
+In this post, Fermat’s method is discussed. This method is a probabilistic method and is based on below Fermat’s Little Theorem.
+If a given number is prime, then this method always returns true. If given number is composite (or non-prime), then it may return true or false, but the probability of producing incorrect result for composite is low and can be reduced by doing more iterations.
+Below is algorithm: 
+Below is the implementation of above algorithm.  The code uses power function from Modular Exponentiation
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of this solution is O(k Log n).  Note that power function takes O(Log n) time. 
+Note that the above method may fail even if we increase number of iterations (higher k).  There exist sum composite numbers with the property that for every a < n, an-1 ≡ 1 (mod n).  Such numbers are called Carmichael numbers.  Fermat’s primality test is often used if a rapid method is needed for filtering, for example in key generation phase of the RSA public key cryptographic algorithm.
+We will soon be discussing more methods for Primality Testing.
+
+References:
+https://en.wikipedia.org/wiki/Fermat_primality_test
+https://en.wikipedia.org/wiki/Prime_number
+http://www.cse.iitk.ac.in/users/manindra/presentations/FLTBasedTests.pdf
+https://en.wikipedia.org/wiki/Primality_test

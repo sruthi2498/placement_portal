@@ -1,0 +1,13 @@
+People in a group, are sitting in a row numbered from 1 to n. Every has been asked the same question, “How many people of your country are there in the group?”
+The answers provided by the people may be incorrect. People of the same country always sit together. If all answers are correct determine the number of distinct countries else print “Invalid Answer”.
+Examples:
+Source : ThoughtWorks Application Qualifier Test
+
+This is a basic problem that can be solved in linear time. We will take a variable curr_size that tells us the size of the current country being considered. Whatever the size is, next ‘size’ number of people should give the same answer in order for a valid group to be formed. If anyone gives a different answer or there are less that that number of people available then the answer is Invalid. Below is the implementation of idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

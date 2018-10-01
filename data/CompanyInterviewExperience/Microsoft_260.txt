@@ -1,0 +1,34 @@
+Given a string ‘str’ of digits, find  length of the longest substring of ‘str’, such that the length of the substring is 2k digits and sum of left k digits is equal to the sum of right k digits. 
+Examples :
+Simple Solution [ O(n3) ]
+A Simple Solution is to check every substring of even length.  The following is the implementation of simple approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Dynamic Programming [ O(n2) and  O(n2) extra space]
+The above solution can be optimized to work in O(n2) using Dynamic Programming. The idea is to build a 2D table that stores sums of substrings. The following is the implementation of Dynamic Programming approach.
+
+Run on IDE
+Run on IDE
+
+Time complexity of the above solution is O(n2), but it requires O(n2) extra space.
+
+[A O(n2) and  O(n) extra space solution]
+The idea is to use a single dimensional array to store cumulative sum.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Gaurav Ahirwar for suggesting this method.
+
+[A O(n2) time and O(1) extra space solution]
+The idea is to consider all possible mid points (of even length substrings) and keep expanding on both sides to get and update optimal length as the sum of two sides become equal. 
+Below is the implementation of the above idea.
+Run on IDE
+Output: 
+Thanks to Gaurav Ahirwar for suggesting this method.

@@ -1,0 +1,20 @@
+Double base Palindrome as the name suggest is a number which is Palindrome in 2 bases. One of the base is 10 i.e. decimal and another base is k.(which can be 2 or others).
+Note : The palindromic number, in either base, may not include leading zeros.
+Example : The decimal number, 585 = 10010010012 (binary), is palindromic in both bases.
+A Palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward, such as madam or 12321.
+Find the sum of all numbers less than n which are palindromic in base 10 and base k.
+Examples:
+Method 1 : This method is simple. For every number less than n :
+This method is quite lengthy as it checks for every number whether it is a palindrome or not. So, for number as large as 1000000, it checks for every number.
+If k = 2, then a palindrome in base 2 can only be odd number, which might reduce the comparisons to 1000000 / 2 = 500000 (which is still large).
+Below is the implementation of the above approach :
+
+Run on IDE
+Run on IDE
+
+Method 2 : This method is a little complex to understand but more advance than method 1.  Rather than checking palindrome for two bases. This method generates palindrome in given range.
+Suppose we have a palindrome of the form 123321 in base k, then the first 3 digits define the palindrome. However, the 3 digits 123 also define the palindrome 12321. So the 3-digit number 123 defines a 5-digit palindrome and a 6 digit palindrome. From which follows that every positive number less than kn generates two palindromes less than k2n . This holds for every base k. Example : let’s say k = 10 that is decimal. Then for n = 1, all numbers less than 10n have 2 palindrome, 1 even length and 1 odd length in 102n. These are 1, 11 or 2, 22 or 3, 33 and so on. So, for 1000000 we generate around 2000 and for 108 we generate around 20000 palindromes.
+Below is the implementation of the above approach :
+
+Run on IDE
+

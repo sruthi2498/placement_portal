@@ -1,0 +1,18 @@
+Online Coding round
+1.	Find all the Node at the distance K from a given node in a Binary tree. Print them in any order.
+2.	Design a LRU cache.
+Telephone screening rounds
+1.	Given two sorted linked lists. You start with a one of the two lists and then move till the end. You may switch to the other list only at the point of intersection (which mean the two node with the same value in different lists.) You have to find the path of maximum sum 
+2.	Design a contact list for a cell phone which can add & search really quick and is scalable.
+Machine coding round
+1.	Write a program which should create a parse tree, find invalid query and do some optimizations.
+Input: fist line contains the list of columns. There will be subsequent lines which will contain the query as follows. 
+ONSITE INTERVIEWs
+1.	Design a Synchronized Message broker queues. How will you handle various situations like one queue is down, automatic failover, active master selection, handling acked and unackedmessages.
+2.	Design a site like book my show. It was an open ended question so I concentrated on  inventory management. List all entities, classes objects modules and their interactions.
+3.	Design a secure Card storage system. Again open ended but the concentration was on encryption and decryption
+4.	HR round. What are your strength and weaknesses, what did you do that made you happy. What was your best contribution till date.
+5.	Design a Traffic signal . List all entities and classes involved. How will you handle pedestrian crossings etc.
+6.	Design a game of tic tac toe, handling winning situation etc. NXN, multiplayer, multiplayer with synchronization, Disaster recovery, data analytics, SWOT of each approach.
+
+

@@ -1,0 +1,19 @@
+A Matrix series is defined as follows:
+
+M, MT, M(MT), M(MT)2, M2(MT)3, M3(MT)5, M5(MT)8 . . . . . . . ., 
+where M is a binary square matrix of size K x K (Binary Matrix is a special type of Matrix where each element of the matrix is either 0 or 1) and MT represents the transpose of Matrix M.
+
+Given N and K,  find the Nth term of the series. 
+Prerequisites :  Modular Exponentiation
+Examples:
+Approach :
+It can be observed that the powers of MT are 0, 1, 1, 2, 3, 5, 8….. for the 1st, 2nd, 3rd….. terms respectively. This pattern for the powers of MT is nothing but the Fibonacci series. 
+Except for the first term, it can be seen that the powers of  M also have the same pattern but, here the power of M is the same as the power of MT for the previous term.
+Since in Kth term MT has a power of fibK, M has the power of fibK – 1.
+Where fibi represents the ith fibonacci number.
+Thus, for the Kth term (for K ≠ 1) of the series can be calculated as:
+As Fibonacci values increase pretty fast the 45th Fibonacci number is close to 1010. So the Kth power cant be calculated by repeated multiplication of the matrices K times. To do this, efficiently we can calculate the Kth power of the matrix using an idea similar to Modular Exponentiation. 
+As in Modular Exponentiation, the power is divider by 2 at every step, here also we follow the same Divide and conquer strategy except the fact that here we don’t multiply numbers, instead, here multiplication of matrices is required which can be done in O(N3), where N is the size of the square matrix.
+Below program illustrate the above approach:
+Run on IDE
+Output :

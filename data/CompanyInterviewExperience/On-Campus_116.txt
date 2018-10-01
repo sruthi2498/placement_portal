@@ -1,0 +1,15 @@
+Oyo rooms came for campus placement in our college on 17th August.
+Online Round: It had 20 MCQ and 2 coding question. Total marks was 161.
+30 students out of a total of 150 were selected for the F2F interview.
+Round 1: The interviewer was pretty chill, and first made me comfortable. The round begin with usual introduction and then straightaway jumped to DS/Algo questions.
+This round lasted around an hour. 21 students were selected for the second round.
+Round 2: Again I got a friendly interviewer. After introduction I got a very simple question.
+After this round many students where told ‘no further rounds’. It included people who did extremely well and were selected, and also the one’s who weren’t selected. The rest around 10-12 including me were asked to wait, in case of further round.
+Round 3: It had only 1 question
+Suppose in a social network like FB, where I have a friend, and my further my friends have friends and so on. And each person likes some books.
+Q1. Given a person, return the books he likes.
+Q2. Return k most liked books in the network.
+I was confused wheter I had to design DB for this kind of situation or it was a system design question, or if I had to choose DS for different things. the interviewer clarified ‘I had to code it’.
+So I told the various data structures I would use for storing these, like max-heap for book like count, so that I get k most liked books in O(k) once the heap is built. Next he asked me to write code for this approach.
+13 students were selected and unfortunately I wasn’t. And I am still interviewing for other companies for my first job! 😛
+Tip: OYO Rooms interview are heavilly inclined towards DS/Algo, prepare all the previously asked interview questions specially from Binary Tree and DP.

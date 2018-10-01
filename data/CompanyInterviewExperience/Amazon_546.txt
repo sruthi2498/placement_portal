@@ -1,0 +1,37 @@
+Hai, recently amazon visited our campus for recruitment. Here is my amazon experience.
+1000 people attend round 1
+Round 1: (1.30 hrs)
+20 MCQ’s + 2 coding question
+19 MCQ’s were from os,c++,java and single mcq from probability
+Coding questions:
+1. Find maximum sum in a array,such that no two elements are adjacent.
+For example 3,2,7,10 should return 13, sum of 3 and 10. Handle for negative cases too.
+2. Given a binary search tree,print the sum of all nodes that are in same axis (Modification of vertical order traversal)
+I attended 12 mcq’s. There was negative marking,so i attended the questions which i was very confident and did both programs.
+I was confident that i will clear the round 1.
+Round 2: (Group Fly Activity) ( 1 hr)
+Around 36 people were shortlisted for second round.
+We were divided into many groups and each group was alloted a mentor.
+Two questions were given and we have to discuss the approach with mentor and only after getting his approval we have to code.
+1. Given a monotonically increasing and then decreasing array with duplicates and a key, return true if key exists in array.
+2. Given k sorted arrays of different or equal sizes, merge them into a single sorted array.
+Thanks to mentor, he was very cool and helpful, I did both the codes and handled corner cases too.
+Round 3: (30-45 min)
+18 people were shortlisted for third round and i was one among them.
+First the interviewer asked to tell about myself.
+Then he asked why i had low cgpa when compared with my school marks.
+Then came the first question
+1) Given n ropes of different length, combine them into a single rope,such that total cost is minimum. You can tie two ropes at a time,and cost of tying is sum of length of ropes.
+First i gave a solution similar to insertion sort in a linked list,he was not satisfied, and then I gave a min heap approach. He asked for time complexity. I got wrong,so he asked what steps u will do and time complexity for each step. He added all the step cost and asked me to arrive at final time complexity.
+After this, I got correct.
+Then he asked  about 2nd code in group fly activity.I used merge sort for it and he asked why i had used merge sort,and asked to improve the code.
+Then i gave a min heap solution (:P we discussed after group round). He asked me to code it. I was not good at heaps. I tried my best but unable to arrive at working code
+So finally he asked if i had any questions for him. I asked about amazon’s environment.After this i thanked and left.
+I was sure that i will be eliminated  and i was eliminated.
+Only 10 people went to 4th round and 3 people were hired finally.
+Here are some mistakes done by me
+It was first f2f for me and i was very nervous and had butterflies in stomach, which ultimately decreased my performance.
+I was not confident about the answer i gave.
+My communication skills  were very poor.
+So try  to avoid the mistakes done by me.
+

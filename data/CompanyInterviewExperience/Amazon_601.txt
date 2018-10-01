@@ -1,0 +1,33 @@
+Hello Guys, I was recently interviewed by Amazon for SDE-1 position. Following is my interview experience.
+Round-1 (Written on InterviewStreet)
+1. Rotate a N*M matrix 90 degrees clockwise
+2. Given a string find the repeated characters and print them in lexicographical order. e.g i/p string- “ABCCAD” o/p-“AC”
+3. Given a binary tree, find the k-th largest element
+4. Convert Binary tree to DLL
+Round 2 (Telephonic)
+1. Given an MxN array, in which the rows are sorted. Need to sort the complete array
+Round 3 (F2F)
+1. Spiral Level order traversal of Binary tree
+2. Given a huge file 100 million integers. He further divided the file
+to 100 files with 1 million integers each. Each file is sorted. Find the efficient way to find smallest ‘m’ integers. Note ‘m’ is very less in comparison to a million
+3. Given sorted & rotated array find the index of given integer
+Round 4 (F2F)
+1. Given a Binary Tree and a sum k.Print all the paths with sum = k. Path can or cannot start with root
+2. Reverse k elements of linked list
+3. Given a 2D array find the maximum sum rectangle
+4. Given a list of n mp3 songs. Play them randomly. No song should repeat until all the others are played.
+Round 5 (F2F with Development Manager)
+1. Tell me about yourself and the projects done in previous company. A discussion on those projects followed.
+2. Why do you want to leave your previous company
+3. Given a binary tree 
+Round 6 (F2F)
+1. Given stock price of Amazon for some consecutive days. Need to find the maximum span of each day’s stock price. Span is the amount of days before the given day where the stock price is less than that of given day 
+2. Given a Binary tree each node should contain the sum of left and right subtrees. Leaf nodes will become 0 in the resulting tree.
+Round 7 (F2F with Project Development Manager)
+1. Tell me something about yourself
+2. Tell me about your previous company and projects
+3. Why do you want to leave the previous company in such a small time.
+Finally got the offer after few days 🙂
+Tips:- Be clear to the interviewer, the are quite helpful. Try to discuss the various approaches that come up in your mind if you are struck somewhere.
+All the best.!!
+

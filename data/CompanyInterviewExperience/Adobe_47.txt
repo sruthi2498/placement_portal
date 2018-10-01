@@ -1,0 +1,37 @@
+Test Procedure: (Prior to interview date)
+1. Online Written test.
+ Time: 1:30 hrs
+ Questions: 25(5- coding, 20- MCQ)
+  MCQs were aptitude, Operating systems and output questions
+  Coding were simple array manipulation.
+
+2. F2F Interview(1 hrs) (Bangalore)
+ Q1: Find the diameter of the of binary tree with least complexity(O(n)).
+https://www.geeksforgeeks.org/diameter-of-a-binary-tree/ 
+ Q2: Convert a binary search tree to balanced binary search tree(with and without rotation)
+ 
+3. F2F Interview(1:30 hrs) (Bangalore)
+ Q1: Intro and explain project
+ Q2: Assume, there are millions of line in a file. Print the last K lines from that file.
+ Q3: Coin change problem(Normal solution and dynamic programming solution) https://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/
+ Q4: OS concepts- Virtual memory and Paging
+ Q5: Print Tree in the veritical form https://www.geeksforgeeks.org/print-binary-tree-vertical-order/
+ Q6: One pointer manipulation question in Linked list (forgot exact question :)).
+ Q7: Tell me about the design patterns that youhave used for your project. Explain their application.
+ 
+4. F2F(video conferencing from Noida) Interview(1 hrs)
+ Q1: Intro and explain project
+ Q2: Difference between 32 bit and 64 bit OS
+ Q3: Explain the scenarios when C++ program might crash.
+ Q4: Optimize Linear search in an array for least number of comparison.
+ Q5: One more programming question regarding array. Can’t remember 🙁
+
+5. Director’s interview: (Bangalore)
+ Q1: Intro and explain project
+ Q2: What you learned from your last project?
+ Q3: What will you avoid if you have to do it again.
+ Q4: How do you manage to succeed in It industry in spite of being from Electronics background
+ Q5: You have 4 byte integer. WAP to return the number of set bits in O(1) complexity. You could use some space if u need
+ Q6: Current offers and concerns regarding salary and job location. 
+I’d like to thank GeeksforGeeks for helping me during my interview preparations. Hope this helps. Please comment if any clarification is needed.
+

@@ -1,0 +1,14 @@
+Given a set of strings, find the longest common prefix.
+We start with an example. Suppose there are two strings- “geeksforgeeks” and “geeks”. What is the longest common prefix in both of them?  It is “geeks”.
+Now let us introduce another word “geek”. So now what is the longest common prefix in these three words ? It is  “geek”
+We can see that the longest common prefix holds the associative property, i.e-
+So we can make use of the above associative property to find the LCP of the given strings. We one by one calculate the LCP of each of the given string with the LCP so far. The final result will be our longest common prefix of all the strings.
+Note that it is possible that the given strings have no common prefix. This happens when the first character of all the strings are not same.
+We show the algorithm with the input strings- “geeksforgeeks”, “geeks”, “geek”, “geezer” by the below figure.
+
+Run on IDE
+Output : 
+Time Complexity : Since we are iterating through all the strings and for each string we are iterating though each characters, so we can say that the time complexity is O(N M) where, 
+Auxiliary Space : To store the longest prefix string we are allocating space which is O(M).
+How to improve this ?
+Please see Longest Common Prefix | Set 2 (Character by Character Matching)

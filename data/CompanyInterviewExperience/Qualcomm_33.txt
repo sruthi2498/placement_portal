@@ -1,0 +1,11 @@
+Given a Binary Tree, print left view of it. Left view of a Binary Tree is set of nodes visible when tree is visited from left side.
+
+Examples:
+The left view contains all nodes that are first nodes in their levels.  A simple solution is to do level order traversal  and print the first node in every level.
+The problem can also be solved using simple recursive traversal.   We can keep track of level of a node by passing a parameter to all recursive calls.  The idea is to keep track of maximum level also.  Whenever we see a node whose level is more than maximum level so far, we print the node because this is the first node in its level (Note that we traverse the left subtree before right subtree). Following is the implementation-
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: The function does a simple traversal of the tree, so the complexity is O(n).

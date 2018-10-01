@@ -1,0 +1,29 @@
+I’ve attended the Amazon interview in Hyderabad, This was kindle team, I got rejected but I’d like to share the experience, thought of giving back something to geeksforgeeks, which was a great reference for me.
+Written test 
+Very straight forward
+1. Given a linked list, sort without extra space.
+I wrote merge sort
+2. Methods to serialize & deserialize a tree ,must complete the below 2 monthods. File serialize (node *root) & node * deserialize(File f)
+Cleared the written test, I was told this after 1:30 Hrs.
+First round
+1. Find diameter of a tree, I’ve seen the question here, But i didn’t recollect.. So solved my self..in some primitive way which made me write code with difficulty.
+2. Find a lowest common Ancestor, The variation was the tree was just a Binary Tree, Not BST, It was interesting to solve as i know only BST variation.
+Second round
+1. Given an array randomize it,
+2. Write all possible permutations of a array of size z.
+3. Given a 2-D array of 0s and 1s, find islands in it. An Island is 1s together. E.g (below there is U shaped island)
+0100001
+0100001
+0100001
+0100001
+0111111
+4. Write a method to check if a tree is BST or not. I wrote some stupid mistake in this code, probably that gave away my interview.
+Third round
+1. So many HR like questions. Why Amazon, Why u want to leave, Why u dont want to stay, what did you do to stay back, biggest challenge, worst mistake, etc etc.. blabbered something.
+2. Write a method that will test a function which merges 2 sorted linked lists.
+3. Design a system, which can convert books from one format to another
+Fourth Round
+Only one design question: Design a email client.
+After 4 days and lot of anticipation, I got a mail saying I got rejected, Was wondering what they exactly look for.
+
+

@@ -1,0 +1,17 @@
+std::replace
+Assigns new_value to all the elements in the range [first, last] that compare to old_value. The function use operator == to compare the individual elements to old_value
+Function Template :
+Return Value :
+This function do not return any value. If elements that needs to be replace is found then element
+replaced otherwise remain unchanged.
+
+Examples:
+Run on IDE
+Output:
+std::replace_if
+Assigns new_value to all the elements in range [first, last] for which pred returns true.
+Function Template :
+Examples:
+Run on IDE
+Output:
+Also you can add any kind of function in std::replace_if that can only have one argument only.

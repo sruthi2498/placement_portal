@@ -1,0 +1,20 @@
+We are given a map of cities connected with each other via cable lines such that there is no cycle between any two cities. We need to find the maximum length of cable between any two cities for given city map.
+
+
+Run on IDE
+Output:
+Time Complexity : O(V * (V + E))
+ 
+
+1) Create a distance array dist[] and initialize all entries of it as minus infinite
+2) Order all vertices in toplogical order.
+3) Do following for every vertex u in topological order.
+…..Do following for every adjacent vertex v of u
+………..if (dist[v] < dist[u] + weight(u, v))
+……………dist[v] = dist[u] + weight(u, v)
+4) Return maximum value from dist[]
+ 
+Since there is no negative weight, processing vertices in topological order would always produce an array of longest paths dist[] such that dist[u] indicates longest path ending at vertex ‘u’.
+The implementation of above approach can be easily adopted from here. The differences here are, there are no negative weight edges and we need overall longest path (not longest paths from a source vertex).  Finally we return maximum of all values in dist[].
+Time Complexity : O(V + E)
+This article is contributed by Shashank Mishra ( Gullu ). This article is reviewed by team GeeksForGeeks. If you have any better approach for this problem then please share.

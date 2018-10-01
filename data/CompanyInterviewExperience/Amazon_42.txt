@@ -1,0 +1,12 @@
+Given a list of distinct unsorted integers, find the pair of elements that have the smallest absolute difference between them? If there are multiple pairs, find them all.
+Examples:
+
+This problem is mainly an extension of Find minimum difference between any two elements.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Does above program handle duplicates?
+The cases like {x, x, x} are not handled by above program. For this case, the expected output  (x, x), (x, x), (x, x), but above program prints (x, x), (x, x)

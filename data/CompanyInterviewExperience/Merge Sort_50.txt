@@ -1,0 +1,37 @@
+What is it?
+A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted.
+Formally stability may be defined as,
+Let  be an array, and let  be a strict weak ordering on the elements of .
+A sorting algorithm is stable if-
+
+where  is the sorting permutation ( sorting moves  to position  )
+Informally, stability means that equivalent elements retain their relative positions, after sorting.
+
+Do we care for simple arrays like array of integers?
+When equal elements are indistinguishable, such as with integers, or more generally, any data where the entire element is the key, stability is not an issue. Stability is also not an issue if all keys are different.
+An example where it is useful
+Consider the following dataset of Student Names and their respective class sections.
+
+If we sort this data according to name only, then it is highly unlikely that the resulting dataset will be grouped according to sections as well.
+
+So we might have to sort again to obtain list of students section wise too. But in doing so, if the sorting algorithm is not stable, we might get a result like this-
+
+The dataset is now sorted according to sections, but not according to names.
+In the name-sorted dataset, the tuple  was before , but since the sorting algorithm is not stable, the relative order is lost.
+If on the other hand we used a stable sorting algorithm, the result would be-
+
+Here the relative order between different tuples is maintained.  It may be the case that the relative order is maintained in an Unstable Sort but that is highly unlikely.
+Which sorting algorithms are stable?
+Some Sorting Algorithms are stable by nature, such as Bubble Sort, Insertion Sort, Merge Sort, Count Sort etc.
+Comparison based stable sorts such as Merge Sort and Insertion Sort, maintain stability by ensuring that-
+Element  comes before  if and only if , here i, j are indices and .
+Since , the relative order is preserved  i.e.  comes before.
+Other non-comparison based sorts such as Counting Sort maintain stability by ensuring that the Sorted Array is filled in a reverse order so that elements with equivalent keys have the same relative position.
+Some sorts such as Radix Sort depend on another sort, with the only requirement that the other sort should be stable.
+Which sorting algorithms are unstable?
+Quick Sort, Heap Sort etc., can be made stable by also taking the position of the elements into consideration. This change may be done in a way which does not compromise a lot on the performance and takes some extra space, possibly .
+Can we make any sorting algorithm stable?
+Any given sorting algo which is not stable can be modified to be stable. There can be sorting algo specific ways to make it stable, but in general, any comparison based sorting algorithm which is not stable by nature can be modified to be stable by changing the key comparison operation so that the comparison of two keys considers position as a factor for objects with equal keys. 
+References:
+http://www.math.uic.edu/~leon/cs-mcs401-s08/handouts/stability.pdf
+http://en.wikipedia.org/wiki/Sorting_algorithm#Stability

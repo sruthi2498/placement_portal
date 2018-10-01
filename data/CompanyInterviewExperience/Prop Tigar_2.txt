@@ -1,0 +1,44 @@
+Round 1 :
+This was an online objective round comprising of 4 sections : aptitude, basic Reasoning,  English and   a technical section which included questions mostly from DBMS.
+Aptitude and reasoning was just a cakewalk. The technical round had a few tricky questions but I attempted all of them since the round had no negative marking. 
+After a couple of hours the result was announced. 26 students ( B.tech + M.tech +MCA)  were shortlisted in total.
+Luckily, I made it to the interview. 
+There were two technical rounds in total followed by an HR round, both the tech rounds being eliminators.
+TECHNICAL ROUND 1 : ( 50 min)
+The interview started with the ritual “ INTRODUCE YOURSELF “ question. He went through my CV and asked me to explain my project. My project was a LOAD BALANCER using SOFTWARE DEFINED NETWORKING. I explained every single thing beginning from what is SDN to how does a load balancer work. He cross-questioned a lot but I handled him well. This project discussion lasted for about 15 minutes after which he started asking questions from DS/Algo. 
+1. Pseudo-code to determine the height of a binary tree? ( Complexity )
+2. Pseudo-code to determine the diameter of a binary tree ? ( Complexity)
+     	(I gave him an O(n^2) solution , he said optimize it , later I gave him an O(n) solution )
+3. Pseudo-code to check if all leaves in a binary tree are at same level?
+4. Validate if a given tree is a BST or not?
+5. Given a number find its square root ?
+     	( Gave him a solution using binary search. He was satisfied)
+6. Given a string , print all possible permutations of that string.
+     	( Did it using backtracking )
+This was the last question . I was told to wait for the results. 
+After 50 minutes or so, the result was announced. Out of 14 people from B.Tech only 4 were called for the 2nd round. 
+TECHNICAL ROUND 2: ( 1 Hr 10 Min):
+The interviewer straightaway asked what all had been asked in previous round.  I told him the questions which had been asked. He asked me to write the code for the latest coding problem that I had solved. I wrote the code. He kept on giving test cases and asked me to dry run the code on those test cases. The code worked just fine. Later he made changes to the same code and asked me to code the problem again..
+I somehow managed to code the problem. I knew there were corner cases which had still not been taken care of. But the interviewer was probably not bothered about the corner cases..
+After this, he began firing questions from anywhere (DS , OS , c++ , Algo , linux )
+1. Print all root to leave paths in a binary tree.
+	( I gave him a solution using a function which was using a path array, its length and pointer to head of the root as argument . He asked me to remove the path array and its length from arguments  and rewrite the code . I said that I would declare the array as global. He wasn’t satisfied. )
+2. Banker’s Algo?
+3. Function overloading and function overriding ( difference) ?
+4. Connect leaves of a binary tree to form a doubly linked list?
+5. Semaphores and monitors ( difference)
+	( I told him that I had no clue about monitors)
+6. TCP/UDP ( general discussion)
+7. Basic OOPs concepts.
+8. Object slicing.
+9. Difference between process and threads.
+10. Randomized Quick sort ( discussion on its worst case)
+11. Design Patterns ( I Told him that I had studied it in the 5th semester but right now I am clueless) .
+12. Coin change problem
+13. Discussion about project
+At the end, he asked if I had any questions. Of course, yes 😉
+Out of the 4 students shortlisted for the 2nd round, 3 were called for HR. I was one of those 3.
+HR Round : 
+Basic questions like why should we hire you , strengths, weaknesses, etc.. What changes would you like to make to our selection procedure.
+He then asked me to explain my project to him as if he was a 5 year old  kid. I did, and he seemed pretty impressed.
+I was then told to wait for the results . 

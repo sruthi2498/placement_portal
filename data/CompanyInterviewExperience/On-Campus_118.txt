@@ -1,0 +1,66 @@
+Infosys visited our college for the Specialist (Power Programmer) profile. It consisted of 3 rounds.
+ 
+Round 1: was a pure coding round in HackerRank with two medium level coding questions to be solved in 1hr 30 min.
+ 
+1.) There are  K events with start and end time and the total allocated time is N. You have to arrange the events slots such that the events are as contiguous as possible, thus maximizing the remaining time of the day.
+ 
+Example:
+N( total hour count)=15
+K( number of events)=3
+Next line contains the 3 events with [start_time  end_time] format.
+[0-5], [6-7], [8-10]
+ 
+Output: 7
+ 
+Explanation: we have  1st event from 0 to 5 hrs. then we can shift the event [6-7] to [5-6]. Current contiguous slot becomes [0-6].  Now the last event [8-10] can be shifter from [6-8]. Thus our final contiguous slot becomes [0-8]. We have the rest of the day i.e. [8-15] off. Which is =7hrs
+ 
+2.) Gold Mine problem with a twist. You are in a nXn grid containing 0, 1 and -1s.
+ 
+1 indicates it contains  1 unit of gold.
+0 indicates that there is a path through that square
+-1 indicates that it is a blockage
+ 
+You need to reach [n-1][n-1], starting from [0][0] using down OR right movement. And then from [n-1][n-1] you need to go back to [0][0] using up  OR left movement. On the way, you have to choose the path through which you can pick maximum gold. Note that once you have picked the gold, that square becomes 0. The grid was of 100×100 size in worst case, so don’t use backtacking or any recursive approaches. Optimized code only. Example:
+ 
+N=4
+1 1 -1
+1 0 -1
+1 1 1
+Ans: 6
+ 
+Explanation:
+While going down path is: [0, 0]-> [1, 0]-> [2, 0]-> [2, 1]->[2, 2] giving us 5 gold in total
+Now reset all the blocks in our path to 0, wherever there is 1, as we have picked those gold.
+Now to get back to [0, 0] we follow: [2, 2]-> [2, 1]-> [1, 1]-> [0, 1]->[0, 0] giving us 1 gold.
+So total gold =5+1=6.
+ 
+I was able to do the second one and progressed into the next round. Out of around 80 people, 7 were selected to next round.
+ 
+Round 2: (Technical Interview):
+ 
+It started off with basic introduction about myself, my projects and my interests.
+He then asked me to design a RESTful API to retrieve, update and edit a contacts database from your phone to a server. I was asked to do this question because I had similar projects in my resume. I did not remember exact code for fetching and converting to JSON . But I was able to give him a good explanation regarding the whole process and part of the code.
+ 
+Then he gave me a problem to solve . There were a list of companies and their invoices(invoice ranges) for particular year. We had to find the missing invoices for that range, for every company. Its approach should be very similar to: Overlapping Intervals
+ 
+ 
+Output:
+For TCS, missing invoices are: 106, 107
+For Infosys, missing invoices are: 110, 111.
+ 
+Then we discussed my machine learning project in detail. I had used SVM and KNN in my project and also performed rigorous feature extraction as preprocessing in matlab. I described each of the algorithms, why I used them and processing stages in detail.
+ 
+I was able to answer all questions confidently in the round. The interviewer was quite friendly.
+ 
+Round 3 (HR):
+
+This round was more of a formality and I was asked about my region preferences for job posting. Also asked if I was available for overtime or travel. Then he asked if I had any questions for him.
+I asked him about the growth  possibilities in Infosys, onsite opportunities and how a Specialist role differed from other engineering positions.
+ 
+He told me that there is enough growth if your project receives attention . Onsite opportunities will be there if the clients require it, otherwise, it is provided preferably at a later stage to more experienced employees. The Specialist job role is mainly that of a leader who is assigned a lot of responsibilities, mainly of Important product based projects demanding excellent grasp of knowledge and recent technologies.
+ 
+2 candidates were selected finally, me being one of them.
+ 
+I would like to extend my heartfelt thanks to  GFG for my success. I  had practiced a lot of coding, puzzles and read a lot of articles from GFG and they proved to be fruitful.
+Your hard work will pay off someday. Keep Believing always !!
+ 

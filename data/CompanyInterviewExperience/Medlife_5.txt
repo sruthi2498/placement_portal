@@ -1,0 +1,29 @@
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+1) The subarray which is already sorted.
+2) Remaining subarray which is unsorted.
+In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray  is picked and moved to the sorted subarray. 
+Following example explains the above steps:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n2) as there are two nested loops.
+Auxiliary Space: O(1)
+The good thing about selection sort is it never makes more than O(n) swaps and can be useful when memory write is a costly operation. 
+Exercise : 
+Sort an array of strings using Selection Sort
+Stability :  The default implementation is not stable. However it can be made stable. Please see stable selection sort for details.
+In Place :  Yest, it does not require extra space.
+ 
+
+Snapshots:
+
+
+
+
+
+
+Other Sorting Algorithms on GeeksforGeeks/GeeksQuiz:
+ 
+ 

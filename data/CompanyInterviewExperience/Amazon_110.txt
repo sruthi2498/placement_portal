@@ -1,0 +1,46 @@
+CODING AND APTITUDE ROUND
+There were 20 aptitude questions and 2 coding questions.
+Aptitude question – each of 1 mark (-0.25 mark for wrong answer)
+Aptitude question are based on OS, DBMS, Output question on c/c++, and some questions were on time complexity of the given code
+Coding question – each of 10 mark
+1. Given a string you have to partition the string in such a manner that each part of the partitioned string is a palindrome in itself and you have to count the number of such partition 
+So output will be 3.
+2. You are given with a large paragraph and N words.
+You have to find a min length subparagraph of the paragraph which contain all those N words in any order. Here length of a paragraph is the count of words in the paragraph.
+
+FIRST F TO F ROUND
+1. Tell me about yourself (tell them about your projects and all).
+Then he asked 2 coding questions:
+1. Given an array in such a way that first the element stored in array is in increasing order and then reach to a peak element after which elements stored in decreasing order.
+Then he asked me to search a given element in this array gave some approach he was satisfied and asked to code I did the same.
+2. He asked me to design a snake and ladder game for 2 player and code it. 
+SECOND F TO F ROUND
+First he asked me about my projects in detail. Then he asked 2 coding question
+1. Print a month of a calendar such that starting day of the month, number of days in a week and number of days in a month Is given you can consider it as an alien calendar which can have more than 31 days in a month and more than 7 days in a week like this
+
+2. Second question was same as above but print like this
+
+He was satisfied with my approach and code.
+
+THIRD F TO F ROUND
+1. Given a string print all the permutations of the string
+2. Stream of integer is given, each time when you get an integer you have to print the kth largest integer I gave 2 approach first using insertion sort and a k length array and second using binary min heap of k element he gave some hints also at last he asked me to code I did the same.
+
+FOURTH F TO F ROUND
+1. He asked about projects and some question related to OS
+2. Then he asked given an array of strings in sorted order in some alien language where we don’t know the ordering of the alien alphabets form these given strings we have to deduce and print the ordering of all the alphabets. I used graph and topological sort he was satisfied and asked me to code I did the same.
+3. Then he asked given an array of string count the number of anagrams I gave solution for 2 strings then he asked solution for the main problem I was struggling then he helped me and we reached to solution.
+SOME TIPS 
+1. Be confident amazon have amazing interviewers they won’t let you fell nervous
+2. Try to communicate in English don’t worry about the fluency.
+3. Try to improve your problem solving and coding skills
+4. Don’t just mug up or read the solution try to get the concept behind any problem and practice approach building.
+5. During interview don’t jump to the solution direct try to start with brute force and keep talking to interviewer while you are building an approach he will let you know what he wants.
+6. Listen carefully your interviewer and follow his instruction only and catch his hints also.
+7. The only thing amazon wants in a candidate is analytical and problem solving skills
+8. You can use any programming language I used java
+9. For preparation I used hackerrank, geeks for geeks, and book karumanchi of ds and algo.
+NOTE: Please excuse my English 😀
+
+
+

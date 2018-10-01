@@ -1,0 +1,29 @@
+1st Round : (2 hrs)
+1. Implement LRU Cache,
+2. Implement your own Blocking Queue.
+3. Questions on Collections ,
+a. How AtomicInteger works
+b. Hierarchy of Collection
+c. Internal Functioning of Hashmap.
+d. Fail fast and Fail Safe Iterator.
+e. Write different ways in which you can traverse over a map.
+4. Print odd and Even Numbers using Threads
+5. Questions on Concurrent API, Executor Class, Executor Service, ThreadFactory.
+6. Questions on Serialisation/Deserialisation
+7. Questions on Design Patters – Composite, Observer, Decorator etc
+I dont remember other questions, but the interviewer grilled me completely in Java.
+2nd Round: (1.5 to 2 hrs)
+1. Search in a rotated sorted array.
+2. Implement Heap Sort.
+3. Given an Alien Language , with all sorted words , find the order of alphabets.
+4. Find median in a stream of numbers.
+5. Implement Producer Consumer Model with Theadpool, without Executor Framework.
+6. Garbage collector design discussion
+3rd Round: (1 hr)
+1. Find the Median in two sorted arrays.
+2. OS questions
+– questions related to memory management and allocation.
+– Fragmentation.
+3. Design Question
+– Bus Seat booking System.
+Later i was informed that i was not selected, but i was really impressed with the nature of the interviewers, they were very friendly and cooperative, I was happy that i realised how hard i need to work. Thanks GeeksforGeeks because of which i could solve few of them.

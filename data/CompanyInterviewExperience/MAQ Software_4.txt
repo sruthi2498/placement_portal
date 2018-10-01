@@ -1,0 +1,21 @@
+Round 1: 
+The first round was of two parts.The first part contained 30 aptitude questions in 30 minutes .Be fast else you won’t be able to complete.
+In the second part there were two coding questions to be completed in 30 minutes.They will provide you a compiler but they will test your code on one test case and final testing would be done after the test and once you submit you will have no second chance of submitting so be very sure about your code.The questions that came in my first round was
+1. Given a sum S find the smallest 5 digit number whose sum of digits is S.If such a number does not exist print impossible.
+2. Given a number x find the nearest prime number before x. https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+28 people were shortlisted after this round
+TECHNICAL ROUND 1:
+The interviews happened on skype. They will ask you to share the screen and write  a code.The interview started with discussion on my project followed by three coding questions.
+1. What is recursion ? What are its types ? Write a recursive code to generate fibonacci series.
+2. Given a binary string print the length of maximum consecutive 1’s in the string.
+3. Right View of a Binary tree. https://www.geeksforgeeks.org/print-right-view-binary-tree-2/
+He then switched to dbms:
+1.What is a primary key ? What are its properties ?
+2. What is  indexing ? Explain types ?
+He then switched to object oriented programming and asked questions on it.
+I then had a puzzle to solve:
+Given three boxes one has only red one has only blue and one has a combination of the two and all the labels of the box are incorrectly placed.If we pick one ball from a box it is considered one move.At a time we can only take one ball from a box. Find the minimum number of moves to identify correct label for boxes.
+8 people were shortlisted after this round.
+TECHNICAL ROUND 2:
+The second technical round consisted of some questions from my project. It also consisted questions from dbms and software engineering.
+There was no HR and 2 people were selected for FTE+Internship and  2 were selected for internship.

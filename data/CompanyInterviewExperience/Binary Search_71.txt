@@ -1,0 +1,12 @@
+Given an array of n distinct elements. Check whether the given array is a k sorted array or not. A k sorted array is an array where each element is at most k distance away from its target position in the sorted array.
+For example, let us consider k is 2, an element at index 7 in the sorted array, can be at indexes 5, 6, 7, 8, 9 in the given array.
+Examples :
+
+Copy elements elements of original array arr[] to an auxiliary array aux[].
+Sort aux[]. Now, for each element at index i in arr[], find its index j in aux[] using Binary Search. If for any element k < abs(i-j), then arr[] is not a k sorted array. Else it is a k sorted array. Here abs is the absolute value.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(nlogn)
+Auxiliary space: O(n)  

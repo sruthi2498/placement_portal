@@ -1,0 +1,11 @@
+Given an string of binary number n. Convert binary fractional n into it’s decimal equivalent.
+Following are the steps of converting binary fractional to decimal.
+A) Convert the integral part of binary to decimal equivalent
+B) Convert the fractional part of binary to decimal equivalent
+C) Add both integral and fractional part of decimal number.
+Illustration
+Run on IDE
+Time complexity: O(len(n))
+Auxiliary space: O(len(n)) 
+Where len is the total digits contain in binary number of n.
+See this: Convert decimal fraction to binary number.

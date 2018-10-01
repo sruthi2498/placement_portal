@@ -1,0 +1,7 @@
+Given an array with n distinct elements, convert the given array to a form where all elements are in range from 0 to n-1.  The order of elements is same, i.e., 0 is placed in place of smallest element, 1 is placed for second smallest element, … n-1 is placed for largest element.
+We have discussed simple and hashing based solutions.  
+In this post, a new solution is discussed. The idea is to create a vector of pairs. Every element of pair contains element and index. We sort vector by array values. After sorting, we copy indexes to original array.
+Run on IDE
+Output : 
+Time Complexity : O(n Log n)
+Auxiliary Space : O(n)

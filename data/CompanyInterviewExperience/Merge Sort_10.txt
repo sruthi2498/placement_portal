@@ -1,0 +1,18 @@
+Given an unsorted array of distinct elements. Task is to count number of cross lines formed in an array elements after sorting the array elements.
+Note: Draw a line between same array elements before sorting and after sorting the array elements.    
+Examples :
+
+Simple solution of this problem is based on the insertion sort. we simply pick each array elements one-by-one and try to find it’s proper position in the sorted array.during finding it’s appropriate position of an element we have to cross all the element_line whose value is greater than current element.
+Below is the implementation of above idea :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity :O(n2)
+Auxiliary space: O(1)
+Efficient solution based on the merge sortand inversions count.
+During mer
+Below c++ implementation of above idea.
+Run on IDE
+Output:
+Time complexity :O(nlogn)

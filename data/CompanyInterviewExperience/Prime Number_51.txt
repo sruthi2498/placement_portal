@@ -1,0 +1,15 @@
+Given a string, our task is to print the characters present at prime index.
+Examples :
+
+
+Approach :
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Optimizations : 
+For large strings, we can use Sieve of Eratosthenes to efficiently find all prime numbers smaller than or equal to length of string.

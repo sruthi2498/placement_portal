@@ -1,0 +1,35 @@
+Recently Microsoft conducted an on-campus interview at my college. It consisted of 5 rounds which were all on-campus. They were as follows:
+
+Round 1(online)(30 minutes):
+Consisted of 15 mcqs mostly related to c/c++ and probability. It was fairly easy and very few people were eliminated.
+Round 2(online)(1 hour):
+We had to write two programs in this round.
+1.A sorted list of strings interspersed with NULL in random indices is given. Return the position of a given search string. Return -1 if string not present.
+ex:”a”, “b”,””,””,”c”,””…. find “b” . o/p: 2
+Just a simple linear search will suffice.
+2. Given an array of integers where all the elements occur odd number of times except 3 elements which occur even number of times, find the 3 elements.
+A brute force solution is fine. You may also use a hashmap.
+The above two rounds were hosted by cocubes.com.
+Round 3(Group fly round)(30 minutes) :
+Groups of 5 were made amongst the remaining candidates. Each group was assigned an interviewer and we were given a problem to solve.
+Write a program to rotate a square matrix 90 degrees clockwise using constant space.
+Round 4(F2F)(90 minutes):
+The interviewer asked a lot of questions about my projects. Spent about 30 minutes on questions related to NLP and machine learning. Asked me about SVMs,  neural nets,  back propagation etc.
+Then he moved on to programming questions. I was asked to program a regular expression(regex) matcher. Given a pattern string and an input string return true if the two match. The regex special characters like * and ? had to be taken into consideration. Basically if there is a ‘?’  in the pattern string any character in the input string can take its place. Same goes for ‘*’ but in this case any number of characters can replace it in the input string.  
+The rest of the interview involved making modifications to this program. For example, modify the program so that it returns true on a partial match, i.e. even if the pattern is present inside the  input string.
+Round 5(F2F):
+This round started with questions like why do you want to work for microsoft? Tell something about yourself etc.
+Then came the final round of technical questions.
+I was asked to write 2 programs and answer some theoretical questions.
+1. Given a MxN matrix of 0s and 1s convert all rows and columns to 0 which have at least one 0 in them. You can use O(m) space.
+2. Given a matrix of characters and an input string, return true if the string is present in the matrix. 
+Output: string is present.
+Some final questions:
+1. Some questions about b trees. Don’t remember the exact questions.
+2. Describe an algorithm to balance a binary search tree.
+3. Describe another algorithm for the same.
+This was the final round.
+I would like to thank the geeksforgeeks team for providing us with such a fantastic platform.
+Hope this helps at least some of you.
+Thank you. 
+

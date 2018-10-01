@@ -1,0 +1,17 @@
+The test was held at 7 in the morning and then the shortlist was announced within an hour. The test included three questions:
+a) Given an array find a subsequence with maximum sum but all the elements must be non-adjacent
+b) Given an array consisting of whole numbers, push all the zeroes at the end but the order of positive numbers must be same
+c) Given an array consisting of only integers, write a program to put all the negative numbers on even indices and the non-negative numbers on the odd indices and if +ve numbers are more in number place them at the end after all -ve numbers have been placed and same goes for the +ve numbers too.
+Solving two may take you to the interview (I guess), the first round had two questions
+a) Given an array, find all the subarrays (contiguous) of even length which has equal left sum and a right sum. Ex:- [2,4,6,6,4,2,10], for
+this the answer is 4, i.e. [2,4,6,6,4,2],[4,6,6,4,2,10],[4,6,6,4],[6,6]. Asked me to write a code, firstly I tried doing it by brute then it came to be O(n3) solution 🙁 and was unable to efficiency.
+b) Then he asked me what’s a Trie Node, deleting and adding strings in trienode and I explained it to him
+c) Asked about my project and that’s it I cleared first round
+I was the only one sent to the 2nd round
+Firstly, he asked me to briefly introduce about myself and then asked why am I trying a IT company when I’m a civil engineering student and
+then I explained him about why and all things… There were three questions:
+a) Given a nxm matrix filled with all 0s and 1s, find the biggest subsquare which has all 1s in it. Done it using Dynamic Programming
+b) Reverse a linked list in a group. Ex:  1->2->3->4->5->6-NULL with k=3 then the output must be 3->2->1->6->5->4->NULL. There is a solution for this on geeksforgeeks in the paytm interview section
+c) The tough question for me and the reason I couldn’t get selected (I think that’s the reason) Given an array with numbers in it, you will have n number of queries, each query will have 3 inputs x,y,val where x and y represents the start and end indices of a subarray whose all elements must be increased by a value ‘val’ and then there would be n queries again where each query will have x and y where each query must be returned with the sum of the subarray [x index to y index] of the updated array. At first glance everyone would say that just add every
+time a query has been sent but then there would be no point of asking. So, I said I would use union and intersection of the indices and somehow get to the answer and so he asked how to find union and intersection and that’s where I toppled and couldn’t answer and that’s it they said ok and I left. 
+After an hour, the results came and they didn’t select anyone from IT profile 🙁

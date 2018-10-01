@@ -1,0 +1,11 @@
+Given a string you need to print all possible strings that can be made by placing spaces (zero or one) in between them
+Examples :
+
+If we take a closer look, we can notice that this problem boils down to Power Set problem.  We basically need to generate all subsets where every element is a different space.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Asked in: Amazon

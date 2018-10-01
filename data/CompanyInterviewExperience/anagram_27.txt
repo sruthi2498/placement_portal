@@ -1,0 +1,21 @@
+Given an array of words, print all anagrams together.  For example, if the given array is {“cat”, “dog”, “tac”, “god”, “act”}, then output may be “cat tac act dog god”.
+A simple method is to create a Hash Table. Calculate the hash value of each word in such a way that all anagrams have the same hash value. Populate the Hash Table with these hash values. Finally, print those words together with same hash values.  A simple hashing mechanism can be modulo sum of all characters.  With modulo sum, two non-anagram words may have same hash value. This can be handled by matching individual characters.
+Following is another method to print all anagrams together. Take two auxiliary arrays, index array and word array. Populate the word array with the given sequence of words. Sort each individual word of the word array. Finally, sort the word array and keep track of the corresponding indices. After sorting, all the anagrams cluster together. Use the index array to print the strings from the original array of strings.
+Let us understand the steps with following input Sequence of Words: 
+1) Create two auxiliary arrays index[] and words[].  Copy all given words to words[] and store the original indexes in index[] 
+2) Sort individual words in words[].  Index array doesn’t change.
+3) Sort the words array.  Compare individual words using strcmp() to sort
+4) All anagrams come together. But words are changed in words array. To print the original words, take index from the index array and use it in the original array. We get 
+Following are the implementations of the above algorithm. In the following program, an array of structure “Word” is used to store both index and word arrays.  DupArray is another structure that stores array of structure “Word”.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity:  Let there be N words and each word has maximum M characters.  The upper bound is O(NMLogM + MNLogN).
+Step 2 takes O(NMLogM) time. Sorting a word takes maximum O(MLogM) time.  So sorting N words takes O(NMLogM) time.  step 3 takes O(MNLogN) Sorting array of words takes NLogN comparisons.  A comparison may take maximum O(M) time.  So time to sort array of words will be O(MNLogN).
+Using hashmap
+Here, we will sort each word, calculate its hashcode and then put it in a map where the key will be hashcode generated after sorting. The value of the map will be a list containing all the words which have same hashcode after sorting.
+Lastly, we will print all values from the hashmap where size of values will be greater than 1.
+Run on IDE
+Output : 
+Given a sequence of words, print all anagrams together | Set 2  

@@ -1,0 +1,36 @@
+Written Test (on Hackerrank)
+20 MCQ’s and 2 Coding Questions to be solved in 90 minutes
+1) NEXT PERMUTATION: Next Largest Number with same set of digits.
+For Ex: I/P: 123, O/P: 132
+2) DFS + DP Standard Question. I don’t remember the exact problem statement, but it was pretty standard one and required a DFS+DP solution.
+Round One (Telephonic)
+1) Given an array of zeroes and ones. You are allowed to flip any one 0 so as to maximize the continuous number of one’s.
+A variation of this problem: https://www.geeksforgeeks.org/find-zeroes-to-be-flipped-so-that-number-of-consecutive-1s-is-maximized/
+2) Given only a Node of a Binary Tree, Find the next in-order successor in O(1) space. Root of tree is unknown.
+As he told to assume anything except the position of root, To solve the problem I assumed that the Treenodes also contain parent pointers to their respective parent.
+Round Two (F2F)
+1) Given a Binary Tree. Print its elements vertically. Solved it using Horizontal Distance concept and hashmap.
+https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
+2) Variation of above question, you are not allowed to use Hashmap. Discussed many approaches. He applied a constraint of not using any Hashing, after a lot of discussion and variations came up with the solution as a Doubly Linked List of List of Nodes. Since I was not allowed to use hashing, the variation I did to solve was to maintain a global pointer to the doubly linked list, moved it left in doubly linked list for the left child of current treenode and move right for right child of current tree-node.
+
+Round Three (F2F)
+Introduction and Internship related discussion followed by these technical problems
+1) Given a Stream of sorted integers. Size of input vector is unknown. Find a given integer. Expected Complexity; Log(n)
+Hint: Used Perfect Square’s as the start index and end index in binary search approach.
+2) Variation in above problem, as we do not know the end point. Lets assume we have a function which returns NULL if the threshold index (Size of input vector)
+had crossed. Now improve above solution to handle the case.
+Ex: Lets assume that the array size is
+3) Subject Related Questions: TCP v/s UDP, Virtual memory, Cryptography etc
+4) Design a Music Player which plays songs in random order without repeat. Came with O(n) Time and O(1) space solution.
+Round Four (F2F)
+Introduction, Project related questions followed by:
+1) Given k sorted Linked Lists. combine those into one sorted list.
+Used custom Min heap approach to do the same.
+2) Implement Custom Min Heap for above problem.
+3) Print Nodes at distance “k” from a given node in a binary tree.
+Round Five (Telephonic)
+1) Introduction and Project discussion.
+2) Convert given  integer into Roman Number format but by using minimum number of conditional statements. Came up with lot of approaches,
+he was not satisfied with any approach and asked to remove as much conditional statements as I can.
+3) Given an array of zeroes and ones. find the maximum size of subarray with equal number of zeroes and ones. Came up with O(n) time and O(n) space solution, something similar to the one discussed here:https://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/
+

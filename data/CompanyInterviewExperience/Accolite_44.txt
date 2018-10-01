@@ -1,0 +1,27 @@
+Accolite came to our campus for recruitment.
+First Round Written Test:
+30 MCQs in which question related to DS Networking OS Unix commands DBMS. Questions were easy.
+They selected 7 students out of around 60 students for next rounds.
+Tech Round 1: First of all interviewer see my resume then asked about the projects that I have done.
+1. He asked to write a program to print right view of binary tree. First he asked me approach. I told him two approach one iterative and other recursive .Then he asked to write code for iterative version considering all corner cases.
+2. He write an array A[n][2],where n is no row , Ist column contains child node and 2nd column contain parent node. A node can have any no of child. You have to find no of distinct groups.e.g. 
+O/P is 3 because when we create graph between parent and child then no of disconnect graph will be 3.I
+told him to create a graph then find no of disconnect components using DFS but he asked to solve without creating graph i.e. only using the given matrix. Then I told him an approach he was satisfied with that.
+One more ques that I forget………
+After this round 4 were left.
+Tech Round 2:  In this round interviewer was a very cool and friendly person. When I entered into the room he was doing something with his laptop and then he asked about me after that he he draw a picture and asked my opinion on that.
+1. Row and column wise sorted matrix was given you have to find kth smallest element. I know the solution but I said him push all elements to min heap and then pop min from heap k times then he asked me to optimize it .Then I told him using min heap of size k then asked me write the code I couldn’t write complete code he said ok u.
+2. 3 balance are given and weight on each balance and weight of each balance is given .then 3rd balance is kept on right side of 2nd balance and 2nd balance is kept of right side of 1st balance .I have to find how weight I need to balance all the 3 balances.
+I told him approach then he said write the code as quick as possible. I completed the code and then go through my code and said go for next round.
+After this round 2 were left.
+Tech Round 3: In this round interviewer was very serious. 1st he go through my resume and then asked about myself. Then he asked do u know java I said NO .then asked about my projects that I’ve done.
+1. He asked to find root to leaf path having path sum equal to K.
+2. Merge two sorted linked list.
+HR ROUND: This round was just for formality. She(HR) asked me that what do u know about ACCOLITE,
+I told him something about the company and asked why ACCOLITE ,my strength weakness etc……….
+And then she asked to wait for results.
+After this round only I was left and waiting for results
+Finally she called me, all the interviewer were present in room and they said u have done well up to this level but they some doubts choose a language JAVA C OR C++ I choose C.I was given a plane paper asked me solve it.
+THIS WAS JUST A PRANK AND THE EVERY LAUGH AND SAID U R SELECTED AND then everyone congratulated me and gave me some goodies……………..
+I would like to thank geeksforgeeks which helped me enormously in getting placed.
+

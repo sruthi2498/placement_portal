@@ -1,0 +1,20 @@
+Written :
+1. Given a string and pattern with (*, ?) Check if it can match the string.
+2. Find an element in first increasing and decreasing array.
+Round 1 :
+1. Given an array of strings. Find all pairs which form palindrome. O(N)
+2. Celebrity problem.
+Round 2 :
+1. Given a set of dependent tasks, find order for dependent tasks. Variation of topological sort.
+2. Count of paths from top left to right bottom in an array containing 0/1. Here 1 means blocked shell. You are allowed to move right or down.
+Round 3 :
+1. Project discussion (Hint : Prepare your project well, with all ins and outs)
+2. find maxsum in a binary tree. (node can have -ve numbers as well).
+Round 4 :
+1. Design Bookmyshow : HLD, LLD and different race conditions discussion. scalability discussions
+2. Given an integer array, find the number of merge operations required to make it a palindrome
+Round 5 :
+1. Behavioral questions : conflicts, challenges, innovation
+2. Project discussion
+3. Design Restaurant booking application HLD and LLD. Write an algorithm to optimally assign tables for bookings.
+

@@ -1,0 +1,56 @@
+Written 1 : Technical and Aptitude.
+Written 2:  Written Coding
+Written 1 was Normal Written exam based on fundamentals of Aptitude and Computer Science.
+Written 2:
+Few Questions I remembered :
+Q1 :
+Q2 : 
+    where CTRL+A, CTRL+C, CTRL+V each acts as one function key for “Select All”, “Copy”, and “Paste” operations respectively.
+    If you can only press the keyboard for N times (with the above four keys), please write a program to produce maximum numbers of A. If possible, please also print out the sequence of keys.
+    That is to say, the input parameter is N (No. of keys that you can press), the output is M (No. of As that you can produce).
+Q3 : Consider a Binary Tree not necessarily BST,Remove all nodes which don’t lie in any path with sum>= k.
+Q4: Given an array arrange it in the form a<b>c<d>e<f>g……….
+Q5 : Given an array of numbers arrange it in the form of a single number such that the concluded number is
+     the maximum.
+     e.g. given : 99,8,76,45,66,9,7,33,5,42
+     O/P : 99987766654233
+Sectional Cut-off for O/P and Coding Questions.
+Marking was done against correct approach not the exact answers.
+Round 1 (Technical):
+Q1: How will you store 800 Million records in database.
+Q2: Data storage of double and float differs in C/C++ and Java How is it ???
+Q2: Transfer data between a program written in Java and C#.
+Q3: I  need to establish a network in which I will be sure of security ,How will you proceed
+Q4: A and B are two sets Write a non nested query so that I can get the data in B but not in A.
+Q5: 000…………..? 11111111111111111111…………….? Write a Program which find the index of the
+    start of series 11111111…..?.
+Round 2 (Technical):
+Q1: Give your introduction along with your technical skills.
+Q2: Explain your project “Stock Prediction”
+Q3: I want to retrieve records from a table from date 1 – 15.I don’t want to use range Queries
+    Suggest the optimal solutions…
+    I suggest Indexing on date column.
+    He insisted on alternate ways.
+    “he said what you think you can do……”
+Q4: What is Unique and NULL Constraint ?
+    Difference between Primary Key and Unique.
+    How many maximum records in Unique can be NULL.
+Q5: Write Most optimized algorithm for finding a Word in sentence.
+    (I used Trie approach , he scolded me for not asking the sentence is sorted or not.. the used Binary search.)
+Q6: Difference between thread and process.
+    What is PCB ?
+    What is synchronization ??
+    What is Semaphore ?
+    Explain and solve Producer Consumer Problem using Semaphore ? What is Drawback here
+    What is monitor ? Solve Producer Consumer Problem using Monitor and explain pros and cons.
+Final 8 candidates from Delhi region selected.
+Round 3(Final Round Managerial and Technical):
+Q1 : What you want to do in your Life ?? Discussion life as a placement coordinator ?
+     What you did ? your duties ? differences you made …
+Q2 : Doing Post Market Analysis of a Stock Market of Previous Month .
+     Write a Program of Stock Buy Sell to Maximize Profit.
+Q3 : Explain Cursor ? its types ? differences between them ? What to use When ?
+Q4 : Explain Matrix ? Matrix Multiplication? Difference ways of Matrix Multiplication ?Explain Both.
+Q5 : What are you doing right now ??? will you join us ?? Why ??
+Students from 30 Colleges of India are evaluated and Top 25 are offered the JOB.
+I was not one of them. 

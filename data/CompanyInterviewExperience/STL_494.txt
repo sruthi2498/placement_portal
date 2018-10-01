@@ -1,0 +1,6 @@
+The data() function writes the characters of the string into an array. It returns a pointer to the array, obtained from conversion of string to the array. Its Return type is not a valid C-string as no ‘\0’ character gets appended at the end of array.
+Syntax: 
+Run on IDE
+Output:
+Here, we can easily notice, both contents and length of original string and transformed array are same.
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks (We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

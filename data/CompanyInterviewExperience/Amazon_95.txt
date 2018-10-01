@@ -1,0 +1,11 @@
+Given an array of non-negative integers and a value sum, determine if there is a subset of the given set with sum equal to given sum.
+Examples:
+
+We have discussed a Dynamic Programming based solution in below post.
+Dynamic Programming | Set 25 (Subset Sum Problem)
+The solution discussed above requires O(n * sum) space and O(n * sum) time. We cab optimize space. We create a boolean 2D array subset[2][sum+1]. Using bottom up manner we can fill up this table. The idea behind using 2 in “subset[2][sum+1]” is that for filling a row only the values from previous row is required. So alternate rows are used either making the first one as current and second as previous or the first as previous and second as current.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

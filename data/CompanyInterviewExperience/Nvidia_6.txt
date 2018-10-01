@@ -1,0 +1,50 @@
+I had a campus interview of NVIDIA for their team at Pune.
+Round 1 : Written Test
+In written test there were 50 multiple choice questions divided into 3 sections, time allocated was 60 min. No negative markings were there but there were sectional cut offs for every section. There were 3 sections in the test
+Section 1 : 30 questions on C, C++, DS, Algorithms ( questions were like find out the output, which type of errors, flow of program, memory management, pointers, array, structure, linked list, stack, BST, AVL trees, etc. )
+Section 2 : 10 questions on Operating System ( questions like memory management algorithms, deadlock, find process time, look-aside buffer memory, process scheduling, etc. )
+Section 3 : last 10 questions were Analytical, which include logical reasoning, number series, logical puzzles, etc.
+Total 150 students were appeared for the written test out of which 31 were shortlisted.
+Round 2 : Technical Interview I
+Before entering into the room we had some talk, they were very cool !
+Questions:
+1. Tell me about yourself
+2. Asked questions from every section of resume( mostly focused on projects )
+3. What is booting process of linux operating system
+4. Questions on android, how is the project structure, manifest file, life cycle and some tricky questions on android
+5. Puzzle lamp-bridge
+6. Write code for tic-tac-toe game
+7. Write graphic program for ball bouncing on wal
+8. How to implement the logcat of android studio?
+9. What is CUDA? Write CUDA program to add two array by their index
+10. How many maximum threads can you create? What is block? What is grid?
+11. Concepts of C++ like Virtual functions, Inheritance, Constructors, static variables etc.
+12. Why we use virtual functions? How they are implemented?
+13. Questions on Hadoop
+Out of 31 they shortlisted 9 people for second technical interviewRound 3 : 
+Technical Interview II
+Interview was with senior manager
+1. Start with projects discussions, asked me to show the code of my projects and explain it in
+detail.
+2. You have an application that writes 1 to 1000 in a file, write another application which will
+close the first application once the first application writes the numbers upto 100.
+3. Do you know Linux? (as I had mentioned it in my resume) write down basic commands
+4. Write a code for ls command (input was a directory name)
+5. Booting process in detail
+6. Can you change the grub? If yes then how?
+7. If you kill a parent process then what will happen ?
+8. Write CUDA program for matrix multiplication? What are the different ways to do the same problem?
+9. How do we synchronize threads in CUDA?
+10. Is it possible to change the action of certain keys? if yes then how?
+From 9 they shortlisted only 3 people for HR interview
+Round 4 : HR Interview
+Questions:
+1. Introduction
+2. How was the selection process?
+3. What is Nvidia? Who is the CEO? Basically the history about Nvidia
+4. Why do you want to join Nvidia?
+5. Ask me for which other companies from our campus you went for
+6. What are the things that you like about Nvidia?
+7. Asked about future studies. why do I want to work and not want to go for PG.
+8. Do you have any question for us?
+All the 3 students got selected for NVIDIA

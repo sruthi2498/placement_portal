@@ -1,0 +1,22 @@
+Given two arrays, the task is to calculate the product of max element of first array and min element of second array 
+References : Asked in Adobe (Source : Careercup)
+Examples :
+
+Method 1: Naive approach We first sort both arrays. Then we easily find max in first array and min in second array. Finally we return product of min and max.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity  : O(n log n)
+Space Complexity : O(1)
+Method 2 : Efficient approach In this approach, we simply traverse the whole arrays and find max in first array and min in second array and can easily get product of min and max.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity  : O(n)
+Space Complexity : O(1)

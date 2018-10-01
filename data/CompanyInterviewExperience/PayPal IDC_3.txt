@@ -1,0 +1,47 @@
+PayPal visited our campus for recruiting students and the job profile is the software engineer. There were 4 rounds including the first test round.
+Round – 1:
+This is a test conducted in hackerrank and all languages were enabled.
+There were only two coding questions and they were:
+1) You would be given a string and you have to find the frequency of most frequent substring in that string and there are some more additional constraints like the substring length should fall in the given range of minLength and maxLength and the number of unique letters in that substring should not exceed maxUnique. The terminology with which the question was given was not this simple. It actually took some time for me to fully understand the question. This can be solved easily using hashing.
+Eg:
+I/P: abababab
+O/P: 4 (since ab is the most frequent substring with frequency 4)
+2) You would be given a string and you have to find the maximum product of two nonoverlapping subsequences. Actually, the problem statement which was given there was very much misleading and I couldn’t solve it there. Later some of my friends who solved it told me that we have to break the string into two parts and we have to independently find the palindromic subsequences in those two parts.
+Eg:
+I/P: arcpacqabmaobanb
+O/P: 25 (since acaca and babab are the two subsequences and their lengths are 5 each so the max product is 5 * 5 = 25)
+ 
+More than 600 students gave the written test and 28 students were shortlisted for the next round. I was one of them.
+ 
+Round – 2:
+Interviewer asked me to introduce my self and I introduced my self like where I’m coming from and from which branch I’m from and my love towards coding etc.. He seemed to be satisfied with my introduction.
+After that there was a brief discussion on the projects which I have done.
+Later interviewer asked me how would you store the address of a million people. I gave him a neat NoSql approach and he seemed satisfied with that.
+Then he told let’s solve some algorithmic problems and I said yes.
+1) I will be given a binary search tree and I have to validate it. I immediately told him that I had already solved this question in cracking the coding interview book. He gave a smile and told no problem and asked me to write the code to which I wrote the code.
+2) I will be given a string and I have to print the number of anagrams possible with that string. It’s just printing the count of different permutations possible with that string and it is simple factorial(n) divided by product of factorials(duplicates). I wrote the code.
+He asked me why I was not able to solve the second question in first round. I told him how I misunderstood the question and then he asked me whether I could solve it now or not. I said yes and wrote the code for that.
+He said all the best for your coming rounds 🙂 I felt very happy after hearing this directly from him.
+I don’t know how many students were eliminated in this round.
+Round – 3:
+Again there was this introduce yourself question and I did that amazingly just like how I did it in first round. He looked happy. Now again there was a discussion on my projects and this time he asked even more deeper questions like how did you implement this etc…
+After that he asked my approach to the questions which I have written in round – 2. I explained them.
+He then asked me to write binary search algorithm and I wrote the code for that.
+He then asked asked me to reverse a linked list. Since I don’t have much practice with linked lists, I took some time to come up with the normal solution and wrote the code for that.
+Then he gave another problem to solve. It is there will be an arraylist containing some characters and there is another array which has the indices that has to be deleted from the first arraylist.
+Eg:
+I/P: [‘l’, ‘a’, ‘p’, ‘t’, ‘o’, ‘p’], [3, 1, 2, 5]
+O/P: [‘l’, ‘o’]
+I immediately told him that I came across this situation in one of my projects and he gave a smile to this and asked me to write the code. I simply sorted the second array and used a counter variable to keep track of how how many indices were deleted so far and he seemed to be impressed.
+He then gave me the 25 horses puzzle. Though I’m not able to completely solve it I gave him 2 approaches. He then told me that the answer is the combination of these two approaches and I felt happy. The interview got over after this and I don’t know how many people were eliminated after this round.
+ 
+Round – 4:
+Again there was this introduce yourself question. By that time I became master in introducing my self :p This time there were two people in the panel and I’m little bit scared because of that. One guy is just observing me without asking anything and he didn’t had any smile on his face. I started getting tensed because of that guy. The other interviewer gave me the load balancer problem. I would be given 3 containers and I will have a list containing the weights and I had to pack the weights in those 3 containers such that the difference in their weight sum should be minimum for all the 3 containers.
+I initially gave a min heap approach where I will always add the upcoming weight to the node containing least weight. He asked me to implement it on the board. I did it but the balance is not very perfect.
+I then told him that we can add 2 or 3 weights and club them to form a group and similarly we can make 3 groups. Still the balance was not very good.
+Again I told him that we can sort the weights and then we can fill the containers to which he was not satisfied because by sorting itself the solution is getting suboptimal.
+Finally I told him the best soultion is generate all the possible combinations using dynamic programming and find the best one out of them. He seemed satisfied with this solution and asked me the time complexity for that. I said 3 ^ n since there aren’t any overlapping subproblems in this. He finally said ok and told that this is an NP hard problem :p and there isn’t any polynomial solution for this.
+Now I was asked to extract names from a given paragraph without using NLP or machine learning or anything like that. The question looked very abstract to me. He gave me this question to test whether I give up easily or not and I thought for some time and gave some 2 or 3 approaches. Though they don’t extract names very perfectly they would work to some extent and he seemed satisfied with that.
+Now the other guy started asking me questions. He asked me how hashtable is able to achieve search in O(1) and I didn’t know the answer by that time. So I told that and he told me how it is able to acheive that.
+Next he asked me to remove the duplicates from  a linked list and I did that. Next he told that the linked list is sorted now and he wanted me to make changes to that code itself rather than writing newly and I did that.
+Finally he gave me a smile and said that the interview is over and we both walked out of that room together. Finally 7 people were selected and I’m very happy to be one among them. Thanks geeks for geeks 🙂

@@ -1,0 +1,12 @@
+Given two numbers ‘a’ and b’. Write a program to count number of bits needed to be flipped to convert ‘a’ to ‘b’. 
+Example : 
+XOR of two number will have set bits only at those places where A differs from B.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Sahil Rajput for providing above implementation.
+To get the set bit count please see this post: Count set bits in an integer

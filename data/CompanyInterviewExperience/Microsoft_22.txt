@@ -1,0 +1,42 @@
+Microsoft recently visited our campus IIT ROORKEE. The selection process was as mentioned below.
+First round was an online coding round consisting of three questions conducted on CoCubes website(Test portal) .
+
+Q1) Very basic question -: Given two integers n and m return n+m if the number of digits in n+m is equal to the number of digits in n otherwise return n. n and m can be positive and negative as well.   2 MARKS 
+Q2) Basic dp question -: Given a string of length n find out the number of possible strings having no consecutive ones in the string.  3 MARKS 
+Q3) A linked list normal level question -: Given a linked list L1 – > L2 -> L3 -> ….. Ln-1 -> Ln return the string in the following format L1 -> Ln -> L2 -> Ln-1 -> L3 -> Ln-2 -> ….  5 MARKS 
+Though not officially declared but the cutoff was 7/10 marks.
+Students were shortlisted for second round .
+ Second Round was a group fly round . Details are mentioned below 
+Q1 ) Given a 8 bit integer swap its two consecutive bits (d0 with d1, d2 with d3 .. and so on ) and then return it. For example 00010101 (23) should return 00101010 (42) .
+Q2 ) Merge two sorted linked list . The duplicates in two linked list should be present only once in the final linked list .
+Q3 ) There exists a linear path from 1 -> n cities  for example 1->2->3->4-> … ->n Each path connecting two cities has a cost associated with it. You need to answer queries regarding the cost of moving from (xi -> xj) city.
+The space complexity can be O(n) but queries must be answered in O(1) time complexity according to the question.
+Q4 ) Some output question on C++ based like
+ char *ptr = “ABCDEF”
+ char str[] = “ABCDEF”
+ cout<<sizeof(str);
+ cout<<strlen(str);
+ cout<<sizeof(ptr);
+ cout<<strlen(ptr);
+Q5 ) Reverse the words in the given sentence .
+ "Sky is blue" should return "blue is Sky" 
+Q6 ) Given two rectangles and their bottom right, bottom left, top left and top right coordinates (x, y) find the coordinates of the rectangle formed by the intersection of the two rectangles.
+The problem with group fly round is that you have to write the code on sheet of paper so you should be very careful while writing the code as a human would be reading it . Proper indentation, comments (if you have time) should be written along with the code. Mention a bit about your approach to give the checker a hint and make it easy for him to evaluate.
+Shortlisted students were called for interview.
+ There were two technical interviews. 
+ First technical interview 
+The interviewer was really friendly and in the first interview he asked to introduce myself and tell me about your recent project mentioned on the resume. The exact question was
+Briefly describe your recent project and what were the difficulties that you faced during the implementation of the same.
+
+Then he asked me the famous count and say problem. Given a string “aabbbccd” return the string “a2b3c2d1” as result.
+Second question was to implement the Linux tail command which prints the last n lines of the file as output where n is a integer parameter. File handling question.
+The interviewer asked me to write the code on paper so again do practice to write code on paper as sometimes people cut a lot of times and mess up in the interview. Think properly about the implementation during the provided time and don’t rush to write the code instantly.
+First interview ends.
+ Second interview 
+Question 1 ) First question was to come up with a code that provides 3 suggestions to you as you type in the phone . In this interview you are not expected to write the entire code but you have to provide the interviewer with the approach for the question.
+The question was as I type “bananaa” the code should suggest me with banana. The spelling mistake can occur in between the word, in the end, in the beginning. Provide me with three strings from the dictionary having maximum match with the mis-spelt word. In case of word exists in the dictionary don’t suggest anything.
+Question 2 ) Given an array of integers maximize num1 + num2 – distance.
+ distance between ‘5’ and ’10’ in the array 5 4 89 25 10 is (4).
+Second Interview ends and the interview ends.
+Prepare 2-3 questions to ask the interview about the company and ask them when he says “Do you have any question for me”. Stay positive during the interview. Usually The interviewer asks to write the test case where your code can possibly fail. Even if you know your code won’t fail, try to generate some interesting test cases; don’t stay quite. The interviewer checks your approach and your communication skills and your ability to guide him through your thought process rather than coming up with the correct code in the first attempt. He helps you if you are moving in the wrong direction.
+Overall it is a bit luck dependent as well.

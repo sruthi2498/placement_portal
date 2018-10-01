@@ -1,0 +1,21 @@
+The legendre , legendref and legendrel are built functions in C++ STL that are used to compute the value of unassociated polynomials of degree n and argument x. Value of order-n unassociated Legendre Polynomial of x is given by :
+      
+The first few Legendre polynomials are
+      
+Syntax:
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return Value: The function returns the value of order-n unassociated Legendre Polynomial for argument x. The return type depends on the parameters passed.
+Note: The function runs in and above C++ 17(7.1).
+Below program illustrates the above mentioned functions: 
+Run on IDE
+Errors and Exceptions: The function throws an error on three cases which is described below: 
+Below programs illustrate the above errors: 
+Program 1: 
+Run on IDE
+Output: 
+Program 2: 
+Run on IDE
+Output: 
+Program 3: 
+Run on IDE
+Output: 

@@ -1,0 +1,57 @@
+Technical Test:
+1. Given a matrix consisting of ‘*’ and characters, print the character having maximum number of stars aside it (including diagonal elements too). If two characters have same maximum count, print lexicographically smallest one.
+Answer: Simple traversal of matrix and checking the conditions
+2. Given an array of numbers in range (0 – 49) and queries having start index and end index, find maximum element for each query.
+(I applied simple brute force and got partial score).
+Answer: Use segment tree data structure or square root decomposition.
+Alternate Solution: As we have numbers in range of only (0 – 49), define a map of arrays for each value. For each value, store indexes where it occurs in the corresponding array. For each query, start from 49 to 0 and check if given element is present in the range.
+10 Technical Questions (Data structures and Algorithms, Computer Networks, DBMS, Operating Systems)
+10 Aptitude Questions
+12 students were shortlisted for interviews.
+Technical Round 1:
+This round was conducted on a video conference with some employees at Hyderabad office. They asked me to write code of each question on editor.
+1. Given a continuous stream of strings, find top 10 largest strings at any instant. Following link will be helpful.
+https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+2. Some discussion on multiprocessing and multithreading. Which is efficient – creating threads or creating new process. Then, they asked me to write one code on threads.
+You are given 3 threads and a global variable – let say count = 0. First thread is used to increase count, second thread is used to decrease count and third thread is used to print the count variable. Using above information, print the following pattern:     1 2 3 4 5 4 3 2 1
+I used semaphores to restrict order of thread call and tried to build the solution, but I couldn’t write correct code.
+3. Find Kth permutation of a string.
+e.g string = ACBD and k = 0; ans – ABCD.
+I intially sorted the string and applied the algorithm to find next permutation of a given string k times.
+Complexity: n * log(n) + k * n
+They asked to optimize the solution that I wasn’t able to.
+5 students were selected for round 2.
+Technical Round 2:
+1. They asked me about my internship project at Walmart Labs. I worked on middleware so they asked me what is middleware and what work did you perform in whole project. Always try to answer in your context rather than team’s context. As my project included http requests, they asked some questions:
+2. Given an array of integers of size n. An element at index i is called peak element if arr[i – 1] < arr[i] > arr[i + 1] for i in range 1 to n – 1 OR arr[i] > arr[i + 1] for i = 0 OR arr[i] > arr[i – 1] for i = n – 1;
+Find all peak elements in an array in less than O(n) time complexity.
+I proposed the solution if array contains single peak element like 4 6 8 9 3 2. Then they gave me a hint – can you apply you algo to solve above problem. I gave solution to print any of peak element.
+https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
+They asked whether above solution will work in every scenario. I answered yes because it was supported by 2 edge conditions. They removed edge conditions and asked for new solution. I said there is only O(n) solution then.
+3. Write a function to give power(x, y).
+4. You are given a processor with only one memory cell. It receives one integer (first 1, then 2, 3, ……) at each instant from a machine. Propose an algorithm for the processor such that –
+If someone extracts an integer from processor, it will give an integer with the probability 1 / (number of integers processor has received from machine) i.e.
+Machine passed 1 to processor. If one extracts an integer from processor, it should extract 1 with probability 1.
+Machine passes 2 to processor now. If one extracts, it should extract 1 with probability 1/2 and 2 with probability 1/2
+Machine passes 3. 1 with probability 1/3, 2 with 1/3, 3 with 1/3.
+Please note that you have only one memory cell so you can store atmost 1 integer.
+I gave them an approach. They were pretty much satisfied with it.
+5. Celebrity problem (solved by using stack)
+https://www.geeksforgeeks.org/the-celebrity-problem/
+HR Round:
+Tell me something about yourself and discussion went on for like 10 – 15 minutes.
+Technical Round 4:
+1. Questions on middleware (my internship project), why to use middleware can’t we perform the same task using frontend and backend, why to add unnecessarily one more layer.
+2. Difference between TCP and UDP. How will you implement UDP with all services provided by TCP?
+Ans: We can implement TCP services at application layer earlier on so that we can apply UDP services later on at transport layer. Establish a reliable connection earlier from both ends using application layer itself.
+3. Given a table products with 3 columns product_id, product_type and country. A query is performed –
+Select * from products where country = “India”.
+It will take O(n) time. Try to optimize this.
+Ans: I used concepts of B+ Trees and indexing with B+ Trees.
+4. Discussion on OS concepts like swapping, demand paging, how OS selects a desirable frame (answered whole process of page table, page fault, victim frame, page replacement algo, bits in page table like modified, read/write etc.)
+5. You are given many files of 6 GB, each having stream of integers. You have space of 4 GB left in your main memory (mainly to swap out, swap in). You have to store sorted sequence of integers in all file in a other output file. How will you do that?
+I gave wrong solutions and then gave up.
+6. Trapping rain water problem
+https://www.geeksforgeeks.org/trapping-rain-water/
+Prepare for your projects well enough and try to give them a message that you have done a significant amount of work in the project.
+At last of each round, they ask you if you have any questions. You should prepare some good questions. It always puts a good impression.

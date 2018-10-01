@@ -1,0 +1,34 @@
+About myself : I was contacted on Linkedin by a google recruiter. I have 4 years of experience.
+Phone screen
+Warm ups
+1) Manually calculate bits in 146
+2) Tell difference between big endian and little endian
+Actual questions
+1) kth largest element in array
+2) Find minimum number of steps to reach the end of array from start (array value shows how much you can move). DP question
+Next day recruiter called me for onsite interview.
+I scheduled my onsite interview after 30 days to give myself sufficient time to prepare.
+Onsite interview
+Round 1
+1) Design question based on storing images.Stress on performance and scale.
+2) Divide number and return result in form of a string. e.g 100/3 result should be 33.(3) Here 3 is in brackets because it gets repeated continuously and 5/10 should be 0.5.
+Round 2
+1) Median of stream of numbers
+2) Question like pancake sorting where you can only swap to sort an array of characters.
+Round 3
+1) Find count of a number in sorted array.
+2) Design two player battleship game to be played over internet
+Round 4
+1) Design question based on wearable devices.
+2) Draw a line on 2D array of boolean. You will be given start point and end point co-ordinates.
+Round 5
+1) Compare two documents(string array) based on n grams.
+e.g doc1 – Today is Sunday.
+doc2 – Today is Saturday
+if n = 2 then number of duplicates is 1 (Today is)
+if n = 1 then number of duplicates is (Today, is)
+if n = 3 duplicates is 0
+Final comments – You must do graphs, DP, string, array, bits and Link list questions from geeksforgeeks. 
+Design questions are much harder to answer than it seems. Prepare hard for them.
+I appeal geeksforgeeks team to post more questions on design.
+

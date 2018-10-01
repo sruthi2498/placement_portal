@@ -1,0 +1,25 @@
+Interview experience from Birla Institute of Technology, Mesra
+Round 1: Online Coding Round
+This round was on CoCubes platform and consisted of 3 questions (2, 3 and 5 marks).
+Q1 : Given a string, calculate the ASCII average of the characters (as float). [2 Marks]
+Q2 : Given a number as a string, find the next greatest palindrome (return as String). [3 Marks]
+This is a popular SPOJ question.
+Q3 : Rearrange a given linked list according to the order. [5 Marks]
+https://practice.geeksforgeeks.org/problems/reorder-list/1
+Other Questions that were asked :
+101 students were shortlisted from 250+ applicants.
+Round 2: Group-Fly Round
+This was an interesting round. We were asked to design an Air Traffic Controller System. We had to write our ideas, data structures and algorithms on a paper. There were some additional constrains
+Apart from this, we had to create 5 tests for our system. We had to design and execute the test-cases. 45 minutes were given in total.
+I used a multi-threading model and used important scheduling concepts like Semaphores.
+29 students were selected for PI.
+Round 3: Personal Interview
+3 rounds of interview total.
+In the first round, I was given 2 coding questions.
+I had to write the code and run a few test cases as well.
+The second round was again technical,
+The interviewer asked me to implement a dictionary. I used Tries and HashMap. He later asked me to handle the cases of Auto-Correction and Text-Prediction (like modern search engines). I wrote the code as well and he asked me to explain it (Tries + DFS + String Handling). Then, we discussed about Search Engines and how user experience can be improved.
+Then, he asked me about OOPS. What is Run time and Compile time polymorphism? Explain and give examples.
+The third and the final round was with a senior manager,
+He asked me everything about my projects and we had a discussion in detail. He liked the originality of my projects and was impressed by my work. Then, he asked me about my Google Summer of Code project and my contributions to open-source and we had a very healthy discussion.
+About 5 minutes later, the HR called me and said that I was selected. It was one of the best moments of my life.

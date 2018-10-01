@@ -1,0 +1,22 @@
+Round I
+1. Say millions of players are playing a game online and their scores keep changing. Every player is represented by ID and SCORE. How to implement following queries
+(i) a new player can be added, input will be id and score
+(ii) a existing player’s score can be updated as game is being played online in real time, input will be id and score
+(iii) any time a player can get its rank, input will be id, return rank
+(iv) any time you should give top k players, where k is not fixed, input is k, return list of top k players with id and scores
+I tried to solve it with lot of data structures but balanced binary search tree appeared me best at that time for all queries. He also asked to handle cases where scores of players are same. There can be two cases : scores of same players have same rank and scores of same players have different rank on basis of id.
+2.http://www.geeksforgeeks.org/find-excel-column-name-given-number/
+Round II
+1.http://www.geeksforgeeks.org/recursively-remove-adjacent-duplicates-given-string/
+This question has ambiguous outputs.
+consider input : 1 2 4 5 5 4 4 5 7 8
+if you remove first two occurrence of 5 first then output will be 1 2 5 7 8
+if you remove first two occurrences of 4 first then output will be 1 2 4 7 8
+Interviewer only stated the problem did not asked to use recursion or something so I solved it using stack without recursion but took lot of time.
+2.http://www.geeksforgeeks.org/ugly-numbers/
+Round III
+1.Java Concepts Questions, required proper explanation
+2.http://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/
+ 
+
+

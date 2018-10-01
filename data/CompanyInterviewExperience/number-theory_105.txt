@@ -1,0 +1,14 @@
+Given three positive integers X, Y and P. Here P denotes the number of turns. Whenever the turn is odd X is multiplied by 2 and in every even turn Y is multiplied by 2. The task is to find the value of max(X, Y) ÷ min(X, Y) after the complete P turns.
+Examples :
+
+Lets play the above game for 8 turns :
+Here we can easily spot a pattern :
+Here z is actually the power of 2. So, we can simply say – 
+Below is the implementation :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

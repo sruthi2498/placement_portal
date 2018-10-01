@@ -1,0 +1,43 @@
+I am a guy from CSE dept, IIT-BHU and currently in 4th year.  I am placed in microsoft now and all the credit goes to geeksforgeeks for sharpening and improving my coding skills. Thanks a lot guys for such a wonderful site.  Below is my interview experience,  if its of any help to my fellow job seekers. 
+Written Round 1 : 
+50 multiple choice questions in 60 mins time. Had 2 sections – Aptitude and Programming Ability.
+Written Round 2 : 3 coding questions in 1 hour.
+1. Swap every consecutive odd and even positioned bit in a number.
+Ex:- 10101011010101 = 01010111101010
+2. Given a binary search tree . Convert it into a doubly linked list in place (no extra space) such that prev points to left child and next points to right child.
+3. Given a linked list that contains 0,1 and 2 . Sort this linked such that it contains 0s first, then 1s and then 2s in O(n) time. Ex:- 2->2->1->0->0->2->1->1->0 = 0->0->0->1->1->1-2->2->2
+
+PI round 1 (Technical):
+1. About urself, most challenging project of all you have done and about ur internship.
+2. Remove from string s1, all the characters that are present in string s2.
+S1=”abcde” s2=”xyazbx” Ans. S1= ”cde”
+3. Reverse alternate k nodes in an linked list.
+Ex:- 1->2->3->4->5->6->7->8 if k=2; then return 2->1->3->4->6->5->7->8
+4. Always ask some questions to the interviewer at the end. That’s a good gesture.
+5. Write test cases for the programs above and see if ur program covers all the test cases or not.
+PI round 2 (Program manager)
+1. Design a tic-tac-toe game for multiplayer on a smartphone.
+2. Design a vending machine for blind and deaf.
+PI round 3 (Technical)
+1. Add numbers from 1 to n^2 into a n X n matrix spirally.
+2.  Remove duplicates from a string in place. Ex-microsoft -> microsft
+3. Some question on recursive functions using memoization technique for optimization.
+PI round 4 (Testing)
+1. Given a func :: int *strcmp(char *s1,char *s2);
+Write test cases to check functionality and security issues and even automate the
+generation of test cases.
+2. Given a func :: int typeOfTriangle(int side1,int side2,int side3); (func gives a number for the type of triangle)
+Write test cases to check functionality and security issues and even automate the generation of test cases.
+3. WAP to reverse words in a sentence.
+I am a good boy -> boy good a am i
+4. WAP to get the next higher palindrome of a given number.
+123 -> 131 1232 -> 1331
+PS – Functional issues are test cases that check the functionality of the program and Security issues are the ones where the program may crash.
+PI round 5 (Technical)
+1. WAP to check if a binary tree is a BST or not.
+2. WAP to find Least Common Ancestor of two nodes in a BST.
+3. Reverse every two nodes in a linked iteratively and recursively.
+PS- Whenever u write a program be sure to cover all the corner cases and write it in a proper indented way. As interviewers ask to write testcases for the program u have written and then check if ur program covers all the test cases.
+All the best fellas !!!
+Run on IDE
+

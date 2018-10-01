@@ -1,0 +1,31 @@
+I was recently interview for Senior Software Engineer @Myntra. This is my interview experience.
+Round 1 : Online Test (90 mins)
+Online test was help at their office on HackerEarth.
+Need an efficient solution for the problem.
+Given an array a[], find three indices (triplets) i,j,k such that:
+1. i < j < k
+2. a[i] < a[j] < a[k]
+3. a[i] + a[j] + a[k] <= t , where t is a given sum
+Array is not necessarily sorted. Have to count number of such triplets.
+
+Few days after online test I was contacted for further rounds of interviews.
+
+Round 2: Technical Round (1-1.5 hours)
+1. Deletion in a binary search tree
+2. Construct a BST with preorder and inorder traversals given
+3. Couple of more questions on trees.
+Round 3: Technical Round (1 hour)
+1. Discussion about certain implementations in my project.
+2. Implementation of O(1) insertion, deletion and finMin through stack.
+3. Couple of questions on trees.
+Round 4: Problem Solving round (1 hour)
+1. Find the intersection point of two merging linked lists.
+2. Identify Trending Topics with many constraints like demographic regions/gender/religion etc. Discussion on the best methods.
+3. An iron rod is given that has to be cut in a manner such that the cost is maximized. Different rod sizes have different costs and there is a cutting cost involved.
+Last round was a telephonic round with VP after few days.
+Round 5 : VP/Designing Round (Telephonic – 50mins)
+1. Discussion on projects.
+2. Behavioral questions. Interests, why willing to change etc.
+3. Design a bus reservation system defining classes and member functions.
+
+

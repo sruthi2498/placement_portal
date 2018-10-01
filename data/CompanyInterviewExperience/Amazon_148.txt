@@ -1,0 +1,14 @@
+Given an alphanumeric string, extract maximum numeric value from that string. Alphabets will only be in lower case.
+One approach to solve the problem is discussed here, other using Regular expressions is given in Set 2
+Examples:
+Its solution is simple i.e. Start traversing the string and perform two operations:
+Return the maximum value at the last.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+But in the case of large numbers above program wouldn’t work because of integer range in C and C++. So, to handle the case of large numbers we have to take each numeric value as separate string and then find maximum value.
+Run on IDE
+Run on IDE
+

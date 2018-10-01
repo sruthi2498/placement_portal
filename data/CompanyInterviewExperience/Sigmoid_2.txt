@@ -1,0 +1,7 @@
+This test consisted of only one section i.e. PROGRAMMING, conducted on Hackerrank.
+Details:
+1. Find the difference between maximum and minimum element such that the maximum element is always at higher index  than the smaller element.(easy)
+2. LEGO BLOCKS -(Dynamic programming)..Given an area of NxM ,you have optimally fill that area with given tiles(dimension of tiles were given).(not so standard question,if you have solved this before,then it was easy else quite difficult in the first go).
+3. Given a number N.Toggle all its bits,  and the number then generated was to represented in decimal format.Like 4=100 after toggling 011,so ans is 3.(easy)
+4. Given a preorder traversal of a binary tree,you have to determine whether a BST is possible for that traversal or not.(moderate)
+5. Given an array of elements,you have determine the number of pairs(a,b) such that |a-b|=K.(easy)

@@ -1,0 +1,50 @@
+Adobe visited our campus for full time Member of Technical Staff-I (MTS-1)
+First round consisted of an aptitude test and a coding test.
+The aptitude test had 45 minutes and 45 questions.
+The test was an average one. A tip start the test from the last question they were really easy as compared to the starting 15 questions.
+The coding test had 3 questions to be completed in 90 minutes.
+1) you are given the waste at certain positions with values between 1.01 and 3.00 and you can carry atmost 3.00kg at one time. You had to tell the minimum number of bags required to carry the waste.
+Input
+4
+1.30 1.40 1.50 1.60
+Output
+2
+Input
+4
+1.40 1.70 1.50 1.50
+Output
+3
+Question 2) A CEO of a company wants to keep his employees happy. He can keep them happy if he has enough cookies in the pantry that are required at any time.
+The values at ith position indicates how much candies one person needs.
+A value Ci<0 means the employee needs cookies otherwise he keeps those cookies back in pantry.
+Input
+-5 4 2 -1 -6 -1 0 5
+Output
+8 (it should have been 7 but 8 was given so had to print ans+1)
+Question 3) you are given the heights of n towers and a value k. You can either decrease the value of a tower by k or increase the value by k. You have to tell the minimum difference between  the maximum and minimum height tower.
+Input
+3 5
+7 -7 4
+Output
+4
+
+Round 2
+24 students were shortlisted out of a potential 200 students.
+I was asked 4 questions.
+1) tell whether a string of parenthesis is valid or not.
+2) you have an the heights of the bars given in an array first you have to tell the amount of rain water trapped between the bars and then he extended the question to finding the block with maximum water trapped.
+3) print all the permutations of a string with and without repeating characters.
+4) implement and tell the complexity of inserting a value in a vector in c++.
+
+Round 3
+This round was the toughest round.
+First i was asked to design a spell checker. I used tries and implemented most of the functions.
+Then i was asked a few OS questions like difference between process and a thread etc.
+Then i was asked what happens when you type a URL in your web browser.
+Then he asked me a question on finding an element in a 2D matrix which is sorted column and row wise.
+Finally he asked me to design a web browser and cover every aspect of it.
+
+Round 4:
+This round was based completely on my past internships and projects.
+A few questions were which project or internship excited you the most.
+Finally 8 students were selected for the job.

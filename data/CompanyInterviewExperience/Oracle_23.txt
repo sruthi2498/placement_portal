@@ -1,0 +1,38 @@
+Oracle Visited my campus last week and got through Oracle Server technology. I can’t remember many questions but I will try to tell as much as I can. Total There were 6-7 rounds including HR round for getting through it.
+1. Online round
+This was a 90 minutes test in 4 sections
+1) Quantitative Aptitude/ Data Interpretation
+2) English & Vocabulary
+3) Software Engineering: contains flow chart related questions
+4) Technical (C/C++, OOPS, DS, Algo, OS, DBMS, Networking)
+The questions were of moderate level. You just need to have some basic knowledge for CS concepts to attempt the 4th section. Each section few subsections. Each of them was divided into fix time slots. You may rest 1 or 2 minutes rest in between sections switches.
+Only 53 students were shortlisted for next coding round.
+2. Coding round
+The next round was an online coding round. Two questions were given and we were required to solve that question in 60 minutes. The languages allowed were C, C++ and Java. There was no elimination in this round.
+Questions :
+1. Find the length of shortest unordered (neither increasing nor decreasing) sub array in given array.
+e.g. input 7 9 10 8 11  – output 3 ( 9 10 80)
+input 1 2 3 5 – output 0 (increasing order)
+hint: output always is either 3 or 0.
+2.  Maximize profit based 0/1 knapsack without an upper bound. (based on dynamic programming)
+Few test cases were visible while others were hidden. Beware while coding, sometimes they might open your code during the interview. One more point, if you are not able to solve all problems in given time. Try them before appearing for the interview with a more optimized approach. I did same.
+All students were sent to interview round. 
+Pre-placement Talk:
+They told us about Oracle, about server technology developer responsibilities. Salary scale and other perks were discussed. They were welcoming our questions in a cool way. Interact with them via wise questions. It lasts for 45 minutes.
+Interview Round 1 (coding) 20 minutes
+2:1 student: interviewer arrangement was there. The interviewer asked about your comfort language. I choosed C. Language is not a parameter for selection. One problem related to frequency generator over strings was given. One by one he went through our logics. The interviewer was very co-operative, Guided for few edge cases. You have to debug and show entire dry-run of your code. It was an elimination round. I was sent for the 2nd round. 16 students were eliminated from this round.
+Interview Round 2 (coding) 30 minutes
+This was 1:1 interview round. I was asked to solve few more problems in form of coding like finding co-linear points etc. Their main focus was on your problem-solving approach like how to lead to optimized approach? In this round, the asked me about the day before a coding round. I was able to solve one questions correctly and with the second question, there were some issues, which I clarified in this round ( as I done homework before coming here on the same problem). 2 students were eliminated in this round.
+Interview Round 3(coding) 25 minutes
+Again, it was same as previous rounds code with debugging and dry-run. Questions were simply based on array and trees. Explaining your approach in clear and concise way was key to clear this round. Only 16  students were sent to this round. 
+HR round- 20 minutes
+After introduction and family background, Hr went through my resume then asked me about my year gap as I am doing my Masters, I justified my answered. HR asked me about what I learned from past organization like team spirit etc. Other questions were like: 
+1. Why Oracle?
+2. For which companies, you appeared before Oracle?
+3. Why should oracle hire you?
+4. Strength and weakness?
+5. Where would I see myself in next 5 years?
+In answer to “any other questions from Oracle?”, I asked about Hierarchy structure in Oracle, which lead to a good discussion with HR.
+It was entire full day process. Results were declared at night. 14 students were selected for Oracle server technology, By the great support of my parents, teachers, friends and training placement cell I was one of them. That was All !!
+Special Thanks to geeksforgeeks 🙂
+

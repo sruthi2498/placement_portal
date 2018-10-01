@@ -1,0 +1,13 @@
+Given a string, the task is to count all palindrome substring in a given string. Length of palindrome substring is greater then or equal to 2.
+Examples:
+We have discussed a similar problem below.
+Find all distinct palindromic sub-strings of a given string
+
+The above problem can be recursively defined.
+If we draw recursion tree of above recursive solution, we can observe overlapping Subprolems. Since the problem has overlapping subproblems, we can solve it efficiently using Dynamic Programming. Below is Dynamic Programming based solution. 
+Run on IDE
+Run on IDE
+
+Time complexity O(n2)
+Auxiliary Space O(n2) 
+Count All Palindrome Sub-Strings in a String | Set 2

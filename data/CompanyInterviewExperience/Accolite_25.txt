@@ -1,0 +1,15 @@
+Given a set of strings, find the longest common prefix.
+Previous Approaches –  Word by Word Matching ,  Character by Character Matching,  Divide and Conquer 
+In this article, an approach using Binary Search is discussed.
+Steps:
+Algorithm Illustration considering strings as – “geeksforgeeks”, “geeks”, “geek”, “geezer”
+
+
+Run on IDE
+Run on IDE
+Output :
+Time Complexity : 
+The recurrence relation is
+where
+So we can say that the time complexity is O(NM log M)
+Auxiliary Space: To store the longest prefix string we are allocating space which is O(N) where, N = length of the largest string among all the strings 

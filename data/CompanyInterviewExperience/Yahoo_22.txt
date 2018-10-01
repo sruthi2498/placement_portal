@@ -1,0 +1,25 @@
+Hi, I am Saurav Biswas, from IIT Kharagpur, currently doing my PhD in Machine Learning in Germany. I got hired at Yahoo SDC, India, in December (3rd to be precise) last year, through campus interviews. I was offered a position for Senior Software Engineer. 
+Interview consisted of a written test comprising of 25 objective questions, a coding round and then three technical and an HR round. 
+Here is the list of interviews in chronological order :
+
+Round 1 : Written test 
+The round comprised of 25 objective questions from basic Algorithms , Data Structures , OS , Networking , databases and a few math puzzles. From this round, 20 people were selected for the next coding round . This written round was held sometime in the middle of November . 
+
+Round 2 : Coding 
+We were given an hour, and the problem was something like given a set of 2 dimensional pairs of points (floats/doubles) find out the two nearest points, for each point. I used recursive divide  and conquer approach to solve it in O(nlgn) time. Later I was told to generalize the code for n points (pseudo code ) after my algo passed the test cases successfully . 
+From the coding round around 10 people were selected for the PI round of technical interviews . 
+
+Technical Interviews :
+Round 1 :
+I was posed a few questions on linked lists which I easily answered . The last question was that suppose you have implemented a search engine , you want to find if a URL typed by you is present in the cache of URLs that you have , more or less you have to give an optimized algo for it . I had read about suffix trees , the night before ( my good luck ) and I managed to code the problem with relative ease . The interviewer was satisfied and I qualified for the second Technical Interview . 
+Round 2 :
+This time , the interviewer posed a math puzzle . I don’t remember it exactly , but it was something that the problem when framed mathematically would yield you an inequality in two variables , and you had to solve for the two unknowns . Initially I was in a fix , but the interviewer was kind enough to suggest me that i solve it heuristically . I started with base cases and proceeded up and finally the solution converged after a few iterations . The interviewer was satisfied . He then talked about what I would like to work on if I got an offer from Yahoo . Coming from a machine learning background , I was interested in working on the Yahoo Search Engine and he said he would definitely look into it . I was through that round . 
+Round 3 :
+This time , the interviewer focused on Networking , OS and OOP concepts . I was asked to code the multiple Producer / Consumer problem , which I did . Then he asked a few questions on OOP , like difference between overloading and Overriding , virtual and friend functions and so forth . There was also a question on Iterators in JAVA . I had a strong grasp on OOP so I answered them . Finally he said he would like to ask me a question from Networking . He told me to explain the Leaky Bucket Algorithm . I didn’t know about it , so I said maybe he could ask me something else . So he asked me about TCP Three Way handshake . I did so more or less well . 
+
+Final Round : HR 
+The HR Interview was casual , asking me about personal interests , hobbies ( I told I played the guitar ) and what I would bring to if offered a job in Yahoo . She also asked me if I had any other companies in hand . I had none so I said I would like to go with the offer if I got it . 
+So finally I was hired in the position of a Senior Software Engineer . But I got a PhD offer from Germany in Machine Learning , so I declined the offer later in June . 
+As a note of advise to fellow aspirants , I would say that please read up Cormen and Tenenbaum for Algo / DS . I personally would like to thank g4g for their wonderful collection which is also a must  . It helped me a lot too . Also people tend to screw up questions from OS/ Networking so keep basics like Synchronization, Process handling , Deadlocks , Memory management , TCP/IP clear . Read basic stuff for databases like primary keys , normalization and that should be it . Refer to xkcd for standard math puzzles . 
+Best of luck to all.
+

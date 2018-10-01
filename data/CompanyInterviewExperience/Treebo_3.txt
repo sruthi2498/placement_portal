@@ -1,0 +1,16 @@
+WRITTEN ROUND – It happened on HackerEarth
+1) Negative Signs : In this problem given a number N, we have to return Yes/No such that if it is possible to get sum as zero by making half the numbers as negative(for odd number take floor of half). For example, if N=3 answer will be yes for {1,2,-3}
+2) OZ graph : Graph related ques, don’t remember the exact problem statement. Solved it partially using BFS.
+
+ROUND 1–Started with Discussion based on my resume.
+1) I have a stream of number, I need to find the median of data at a given point of time.
+	I already knew the solution to problem so interviewer varied the question to
+2) I have a stream of number, I need to find the random number from list with equal distribution.
+	I solved the problem, then interviewer asked for mathematical proof, I had given that too.
+3) For a given tree, print inOrder traversal. In the tree, leaf nodes’ left pointer and right pointer are pointing to the respective leafs.
+	I was told to write the code for it
+
+ROUND 2-
+Design based round. It was more of a discussion round than a Q/A round
+I was told to Give a DB design for task scheduler.
+I was unable to provide good design, so was rejected after this round.

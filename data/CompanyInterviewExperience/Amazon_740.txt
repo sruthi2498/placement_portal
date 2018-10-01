@@ -1,0 +1,20 @@
+Following are my interview details for senior software engineer in 2010. Thought of sharing it, if it helps anybody
+Telephonic Interview 1
+1)  Write your own power function in C/C++. Time complexity of your code, optimizations.
+2)  Given two strings, write a function to remove all characters in one string which are present in other string
+Telephonic Interview 2
+1) Construct a tree from ancestor matrix.  The main thing he wanted to check was use of binary search.
+2) Find the k maximum selling items at amazon site at the end of day. Given a file which has count all sold items.  Use of min heap was expected.
+Face to Face 1
+1) Given a Binary Search Tree, in-place convert it to DLL.
+2) Find the next greater element for every element in array.
+Face to Face 2
+1) Median of two sorted arrays.
+2) Given an XML file, how will you store it in memory.  Use of tree was expected.
+There were some more questions that I don’t remember.
+Face to Face 3
+1) Given a Binary Tree, check if every node is sum of all of its children.
+2) Given any Binary Tree, convert it to a tree where every node is sum of all of its children.
+3) Given an array, find three numbers a, b and c such that a^2 + b^2 = c^2
+That is all I remember now.
+Run on IDE

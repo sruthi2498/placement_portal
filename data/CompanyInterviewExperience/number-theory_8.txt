@@ -1,0 +1,9 @@
+A number is said to be Surd if its square root, cube root, etc are not integers.  For example, 9 is not a Surd as square root of 9 is 3, but 5 is Surd as square root of 5 is not integer.  Similarly 8 is not a Surd (Cube root of 8 is integer), but 7 is.
+Given a range, find if it is Surds or not
+Examples:
+The idea is to try every power of all numbers from 2 to √n and check if any power is equal n or not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

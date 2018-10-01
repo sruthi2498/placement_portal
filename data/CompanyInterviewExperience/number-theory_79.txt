@@ -1,0 +1,16 @@
+In number theory, the aliquot sum s(n) of a positive integer n is the sum of all proper divisors of n, that is, all divisors of n other than n itself.
+They are defined by the sums of their aliquot divisors.  The aliquot divisors of a number are all of its divisors except the number itself.  The aliquot sum is the sum of the aliquot divisors so, for example, the aliquot divisors of 12 are 1, 2, 3, 4, and 6 and it’s aliquot sum is 16.
+A number whose aliquot sum equals its value is a PERFECT number (6 for example).
+Examples :
+
+A simple solution is to traverse through all numbers smaller than n. For every number i, check if i divides n. If yes, we add it to result.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Efficient Solutions : 
+Sum of all proper divisors of a natural number
+Sum of all the factors of a number

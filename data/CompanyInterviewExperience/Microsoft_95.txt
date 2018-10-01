@@ -1,0 +1,14 @@
+First round was a 75 minutes online round in which 3 simple questions were asked.
+First question was given two numbers n,m find a number closest to n and divisible by m.
+Second question was given a string consisting of only 0,1,A,B,C where A=AND B=OR and C=
+XOR. Calculate the value of the string moving from left to right assuming no order of precedence.
+Third question was to find length of longest AP in given set of numbers.
+Second round was a written test in which 2 questions were asked. First question was sentence reversal and second question was maximum product subarray. Solution to these questions are available on Geeksforgeeks.
+
+Three rounds of interviews were held. These rounds were mostly technical.
+In first round I was asked to optimize my solution of questions asked in written test. I gave a space optimized solution by reversing sentence in place. Then he asked me to explain my project. Another question was, given two expressions in the form of a tree. Where each node is either a token or an operator. Check if the given expressions are same. Tokens can not be compared i.e their value in not defined. And the operator behaves similar to addition having properties like commutative and associative. Question was simple I used map to store frequencies of each token and compared them. 
+In second round I was asked two simple algorithmic questions and one question on Machine Learning. 
+In third round interviewer asked me to design a data structure similar to dictionary. Then he asked me about the kind of work I would like to do.
+Interviews were friendly. They give you sufficient time to think and provide hints if you are stuck. 
+Thanks to GeeksforGeeks as you can find most of the questions on this platform.
+

@@ -1,0 +1,6 @@
+std::advance advances the iterator ‘it’ by n element positions.
+Syntax :
+Motivation problem : A vector container is given. Task is to print alternate elements.
+Examples :
+Run on IDE
+Output:

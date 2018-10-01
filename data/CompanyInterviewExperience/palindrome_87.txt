@@ -1,0 +1,17 @@
+Given a string of lowercase ASCII characters, find all distinct continuous palindromic sub-strings of it. 
+Examples: 
+Step 1: Finding all palindromes using modified Manacher’s algorithm:
+Considering each character as a pivot, expand on both sides to find the length of both even and odd length palindromes centered at the pivot character under consideration and store the length in the 2 arrays (odd & even).
+Time complexity for this step is O(n^2)
+Step 2: Inserting all the found palindromes in a HashMap:
+Insert all the palindromes found from the previous step into a HashMap. Also insert all the individual characters from the string into the HashMap (to generate distinct single letter palindromic sub-strings).
+Time complexity of this step is O(n^3) assuming that the hash insert search takes O(1) time. Note that there can be at most O(n^2) palindrome sub-strings of a string. In below C++ code ordered hashmap is used where the time complexity of insert and search is O(Logn). In C++, ordered hashmap is implemented using Red Black Tree.
+Step 3: Printing the distinct palindromes and number of such distinct palindromes:
+The last step is to print all values stored in the HashMap (only distinct elements will be hashed due to the property of HashMap). The size of the map gives the number of distinct palindromic continuous sub-strings.
+Below is the implementation of the above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Similar Problem:
+Count All Palindrome Sub-Strings in a String

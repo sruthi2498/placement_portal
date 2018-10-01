@@ -1,0 +1,21 @@
+Given a string, check if all the characters of the string are same or not.
+Examples:
+
+
+Simple Way
+
+To find whether string has all the same characters. Traverse the whole string from index 1 and check whether that character matches with first character of string or not. If yes, than match until string size. If no, than break the loop.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+
+Quick Way (Not time complexity wise, but in terms of number of lines of code)
+
+The idea is to use find_first_not_of() in C++ STL. 
+find_first_not_of() finds and returns position of first character that does not match a specified character (or any of the specified characters in case of a string).
+Run on IDE
+Output: 

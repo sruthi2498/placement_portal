@@ -1,0 +1,25 @@
+First round  was technical aptitude. Total 65 students were eligible. 15 MCQs were asked-
+Everyone had different sets. All sorts of questions were asked, I had each question on linked lists, binary tree, B tree, STL, sorting, Java and OS.
+Second round- Coding.
+Around 40 students were shortlisted and coding round was conducted the same day. Everyone had different questions. Two problems were given and I had-
+1. Find max index difference j-i such that a[j]>a[i] and j>i.
+2. Find sum of data of all leaves of a binary tree on same level and then multiply sums obtained of all levels.
+People who solved both and some with one were shortlisted. Results were announced after 3 weeks.
+14 people were shortlisted after second round and were called to Bangalore.
+Many students from different colleges were present for process there.
+Third round- Group fly.
+This was elimination round. Two questions were to be solved in one hour. A mentor was assigned to each group of 8-9 students. We had to discuss our approach and then code it and submit.
+1. Remove duplicates from string in place in O(n).
+2. Check whether given binary tree is balanced or not. Definition was no two leaves should have height difference of greater than one.
+People who solved both or at least gave proper approach for both were shortlisted.
+Fourth round – Technical interview (45 min to 1 hour)
+Interviewer was polite and responsive.
+First 15 min discussion on my database project, he asked me questions like what technologies I used for front end and back end. I explained all the functionalities.
+Then he asked me a question on binary tree.
+Connect nodes on same level in a binary tree. Initially I gave him level order approach where I used recursive function to access each level but as it was O(n^2) he told me to optimize the solution.
+Then I gave him iterative approach of following-
+https://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/
+He said the code will be complex and there will be many cases, so he told me to think of another approach. I wasn’t able to give another approach other than these.
+Final round was HR but I wasn’t called for it.
+Overall experience was good and mentors, interviewers were very polite.
+Thanks to geeksforgeeks team for putting such good content on website. I would advice to go through problems on website as it improves thinking and approach.

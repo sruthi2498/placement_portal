@@ -1,0 +1,23 @@
+
+Deque or Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+pop_front() function is used to pop or remove elements from a deque from the front. The value is removed from the deque from the beginning, and the container size is decreased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+
+Run on IDE
+Output:
+Application : Input an empty deque with the following numbers and order using push_front() function and print the reverse of the deque.
+Run on IDE
+Output:
+pop_back() function is used to pop or remove elements from a deque from the back. The value is removed from the deque from the end, and the container size is decreased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+
+Run on IDE
+Output:
+Application :
+Input an empty deque with the following numbers and order using push_front() function and print the reverse of the deque.
+Run on IDE
+Output:

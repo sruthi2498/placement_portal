@@ -1,0 +1,3 @@
+Ever wondered how sort() function we use in C++/Java or sorted() in Python work internally?
+Here is a list of all the inbuilt sorting algorithms of different programming languages and the algorithm they use internally.
+In the next sets we will implement Introsort ( C++’s sorting weapon ) and Sleep sort, Gnome Sort and other unconventional sorting algorithms.

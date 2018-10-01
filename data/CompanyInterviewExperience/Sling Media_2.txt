@@ -1,0 +1,25 @@
+Round 1 :
+First round was an online test which had two sections Technical and Aptitude. Technical section included questions from Operating System, Data Structures, OOPS, Digital Logic and Output questions in C. Aptitude questions were mainly from Time and Work, Compound Interest, Boats and Stream, Probability, Mixtures and Alligation.
+TIPS: Practice MCQs from Geeksforgeeks , Indiabix.
+Round 2 (Technical Interview Round 1) :
+The Interviewer browsed through my resume and asked some general questions about the projects mentioned in my resume. 
+One of my projects was on Parallel Programming so he asked me questions on that. He asked me questions on threads, locks and Semaphores as well.
+He asked me to detect loop in a linked list. His next question was to reverse the linked list.
+He then asked me basics of pointers like Null pointer and dangling Pointer. He also asked me about memory leak.
+ 
+TIPS: Know each and every word of your resume.
+Round 3 (Technical Interview Round 2) : 
+Difference between Encapsulation and Abstraction
+He then asked me the famous Ant and triangle problem. “ Three ants are sitting at the three corners of an equilateral triangle. Each ant starts randomly picks a direction and starts to move along the edge of the triangle. What is the probability that none of the ants collide? “
+He then asked me Eight Coin Problem. “There are eight identical-looking coins; one of these coins is counterfeit and is known to be lighter than the genuine coins. What is the minimum number of weighing needed to identify the fake coin with a two-pan balance scale without weights? “
+He also asked me to write code for Insertion Sort. Also asked about the time complexity of various other sorting algorithms.
+He asked me to pick up my favorite project from my resume. He then asked me about the challenges I faced during the project completion.
+TIPS: Get the concepts very clear. Also these days a lot of Interviewers are asking puzzles so browse through a couple of common Interview puzzles beforehand.
+ 
+Round 4 (HR Round) : 
+He asked me general questions about me and some family background.
+How do I spend my leisure time ?
+He then gave me a scenario like if I have ten crore rupees, what would I do ?
+Where do I see myself in next 3 years?
+He asked me if I had any questions about the job or the company.
+

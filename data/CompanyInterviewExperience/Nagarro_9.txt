@@ -1,0 +1,13 @@
+Nagarro Software Pvt. Ltd. came for pool campus drive.  There were two rounds. 
+First round had two sections technical (20 Minute) and aptitude (40 Minute) of one hour.
+In Technical Section we have 20 single choice objective programming question from Basics of C Programming Language. Questions are quite easy. Some of them needs to select correct output of given program and some need to select correct program for given output in question.
+In aptitude section we have 40 single choice questions. Questions are typical from Math and Logical Reasoning.
+Second round had three subjective Programming questions.
+Q1.  Write a Program to print the given matrix in wave like form. 
+Q2.  Write a Function to check if the given string contains the given number of unique characters (You should ignore case of character so ‘R’ & ‘r’ should be counted as same character.). 
+Q3.  Write a Function to find the Increasing Subsequence whose sum is highest in which each number is greater than previous by one in the given array. If the difference is less than or greater than one then it is not considered as subsequence. Print the subsequence array and sum of the subsequence array. Time complexity of program must be O(n).
+Input array :-  1 , 2 , 3 , 4 , 5 , 3 , 4 , 5 , 6 , 7 , 9 , 10 , 11 , 12 , 8 , 9 , 10 , 21 , 35 , 36 , 37 , 22
+Output :- Longest Subsequence :  35,36,37
+    	        		 Sum = 108
+I think result is not declared yet or I didn’t clear because I didn’t get any mail from them till date.
+

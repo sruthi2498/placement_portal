@@ -1,0 +1,43 @@
+Given a number (N), check if it is pentagonal or not.
+Examples :
+Pentagonal numbers  are numbers which can be arranged to form a pentagon. If N is a pentagonal number then we can use N dots or points to generate a regular pentagon (Please see figure below).
+The first few pentagonal numbers are 1, 5, 12, 22, 35, 51, 70, … 
+
+Image Source: Wiki
+Method I (Iterative) 
+We begin by noting that the nth Pentagonal Number is given by
+
+Follow an iterative process. Consecutively substitute n = 1, 2, 3 … into the formula and store the result in some variable M. Stop, if M >= N. After iteration if M equals N then N must be a pentagonal number. Else if M exceeds N then N cannot be a pentagonal number.
+Algorithm
+Below is the implementation of the algorithm
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The Time complexity of this method is O(n) since we need to compute successive values of pentagonal numbers up to N.
+ 
+Method 2 (Efficient) 
+The formula indicates that the n-th pentagonal number depends quadratically on n. Therefore, try to find the positive integral root of N = P(n) equation. 
+P(n) = nth pentagonal number
+N = Given Number
+Solve for n:
+P(n) = N
+or (3*n*n – n)/2 = N
+or  3*n*n – n – 2*N  = 0 … (i)
+The positive root of equation (i)
+ n = (1 + sqrt(24N+1))/6
+After obtaining n, check if it is an integer or not. n is an integer if n – floor(n) is 0.
+Implementation of the method is given below :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time and Space Complexities of this method are both O(1).
+References :
+1) Wikipedia – Pentagonal Numbers
+2)  Wolfram Alpha – Pentagonal Numbers

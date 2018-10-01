@@ -1,0 +1,10 @@
+The match_results::operator[] is a built function in C++ which used to get the i-th match in the match_result object. It gives the reference to the match at the position given inside the operator.
+Syntax:
+Parameters: It accepts a single parameter N which specifies the Match number. It is lower than match_results::size. The match number 0 represents the entire matched expression. Subsequent match numbers identify the sub-expressions if any. The passed integral is an unsigned integral type.
+Return value: It returns the direct reference to the match at the N-th match. 
+Note: First element always contains the whole regex match while the others conatain the particular Capturing Group.
+Below programs illustrates the above function.
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

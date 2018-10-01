@@ -1,0 +1,9 @@
+Suppose you’re on a game show, and you’re given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what’s behind the doors, opens another door, say No. 3, which has a goat. He then says to you, “Do you want to pick door No. 2?” Is it to your advantage to switch your choice?
+
+Source: http://en.wikipedia.org/wiki/Monty_Hall_problem
+ 
+ 
+ 
+ 
+Solution:
+If you switch, you get the car with probability 2/3.  So switching is always a good choice.  Refer this MIT video lecture for great explanation. 

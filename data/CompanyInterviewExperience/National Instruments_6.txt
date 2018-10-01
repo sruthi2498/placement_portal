@@ -1,0 +1,17 @@
+Hi, Recently i have taken written test from “National Instruments”, Please check the following questions. 
+Question 1)
+Brand, Coop and Murph are scientists and are conducting n distinct experiments of various difficulties. All three want to do the experiments in the order of the difficulty of the experiment but there’s a catch. They are currently in different time dimensions but are connected by one thing – gravity! If at least two of them end up doing the experiment in the same order then due to gravitational anomaly all the experiment will fail.
+Now given the number n and a list of difficulties di for each experiment, is there a way to order the experiments such that:
+        All 3 do the experiments in the order of difficulty from least difficult (denote by a lesser difficulty value) to most difficult.
+        The order of these experiments should be unique i.e no two scientists can do the experiments in the same order.
+Input
+1 <= n <=2000
+1 <= di <=2000
+
+Output
+YES or NO
+
+Question 2)
+Skynet has grown to become the dominant force on earth and has almost completely wiped out the human race. Skynet has been building robots ever since it’s inception and has been updating it’s models every year while making them better. Skynet wants to annihilate humanity completely. It plans to remove one last band of humans lead by John Connor. Skynet thinks it can destroy these humans using only two of it’s robots. But Skynet doesn’t want to send two robots with the same model number lest John Connor finds out a weakness in that model and easily destroy both of them.
+Skynet has at its disposal N robots and to save space Skynet has stored information about pairs of robots belonging to the same model. If it doesn’t have any info stored for a particular robot then it is implied that the robot is the only one in that model.
+Given these constraints, in how many ways can Skynet pick two robots to destroy John Connor and his rag tag group of humans.

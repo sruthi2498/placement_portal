@@ -1,0 +1,47 @@
+Samsung visited our campus.
+I.      Written test :
+Online test consisting of a coding question, which was to be solved in 3 hours. 
+Given an integer ‘K’ and a tree in string format. We had to print the sum of all elements at Kth level from root.
+For example:- 
+Tree was given in the form: (node value(left subtree)(right subtree))
+For tree given above: (0(5(6()())(4()(9()())))(7(1()())(3()())))
+Input format: K  Tree
+Output format: Sum
+For example, for given tree:
+Input: 2  (0(5(6()())(4()(9()())))(7(1()())(3()())))
+Output: 14
+Students, who were able to pass all the test cases, shortlisted for next round.
+
+II.     Technical Interview : (40 Min.)
+1.      Tell me about yourself.
+2.      A discussion on my project.
+3.      Interviewer asked me whether I know android programming or not.
+4.      What is polymorphism?
+5.      Difference between overloading and overriding.
+6.      Implement queue using linked list.
+7.      Few basic questions on sorting.
+8.      Interviewer asked me to tell four header files in C.
+9.      Full form of ‘conio’(header file).
+10.     A simple puzzle:
+https://en.wikibooks.org/wiki/Puzzles/Logic_puzzles/Pair_of_Socks
+11.     What is semaphore?
+12.     He asked about CPU scheduling algorithms.
+13.     Difference between preemptive and non- preemptive algorithms.
+14.     Round Robin algorithm.
+15.     He asked few SQL queries.
+16.     What is view in DBMS?
+17.     What is Indexing?
+18.     Do you have any question?
+III.    HR Interview : (30 Min.)
+1.      Tell me about yourself.
+2.      Discussion about college life.
+3.      He asked about the best phase of my life.
+4.      What is your biggest achievement?
+5.      Do you have offer from any other company at present?
+6.      Why Samsung?
+7.      A puzzle: 
+He asked me to fill the numbers from 1 to 8 in these 8 boxes, one number exactly once, such that no two consecutive elements are
+adjacent(diagonally, horizontally or vertically) to each other. 
+8.      Do you have any question?
+Finally, 17 students were selected.
+

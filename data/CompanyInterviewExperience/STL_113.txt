@@ -1,0 +1,12 @@
+The ilogb(x) function in C++ STL returns the integral part of the logarithm of |x|, by using the FLT_RADIX as base for the logarithm. In general, the value of FLT_RADIX is 2, so ilogb() is equivalent to ilog2()(for positive values only).
+Syntax:
+Parameter: The function accepts a single mandatory parmaeter x whose ilogb() is to be calculated. The data-type can be of double, float, long double or int. 
+Return Value: The function returns an integral part of the logarithm of |x|, using FLT_RADIX as base for the logarithm. The function returns three exception values: 
+Below programs illustrate the above function: 
+Program 1:
+Run on IDE
+Program 2:
+Program for non-integral type
+Run on IDE
+Program 3:
+Run on IDE

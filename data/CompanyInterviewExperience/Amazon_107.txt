@@ -1,0 +1,30 @@
+Amazon visited our campus(Jadavpur University) to recruit interns and FTEs. I’m sharing my internship interview experience.
+There were 3 rounds in all – 1 Online Round followed by 2 F2F Interviews.
+Online Round(90 min on Hackerearth):
+There were 20 questions mostly based on C, C++, DS, Reasoning and a few from OS, OOPS, DBMS etc and 2 coding questions.
+The 2 coding questions were:
+1) Find the maximum sum of lengths of non-overlapping contiguous subarrays with k as the maximum element.
+Ex: Array: {2,1,4,9,2,3,8,3,4} and k = 4
+Ans: 5
+{2,1,4} => Length = 3
+{3,4} => Length = 2
+So, 3 + 2 = 5 is the answer
+2) You are given an array A where A[i] (1-based indexing) denotes the number of chocolates corresponding to each station. When we move from station i to station i+1 we get A[i] – A[i+1] chocolates for free. Note that if this number is negative, we lose that many chocolates. We can only move from station i to station i+1 and that too if and only if we have non-negative number of chocolates with us. Given that cost of one chocolate is Rs. P , our task is to find the minimum cost incurred in reaching station n from the first station (station 1).
+Ex: A: {1,2,3} and P = 10 Ans: 30
+To reach station 1 from the starting station, we need to buy 1 chocolate.To reach station 2 form station 1, we get A[1] – A[2] = -1 chocolates i.e. we lose 1 chocolate. Hence, we need to buy 1 chocolate.Similarly, we need to buy 1 chocolate to reach station 3 from station 2.Hence, total cost incurred = (1+1+1)*10 = 30.
+Out of around 150 students, 26 were shortlisted for Round 2.
+-> In the 1st question those who used cin/cout instead of printf/scanf got TLE in 20% of test cases.
+->In the 2nd question not a single test case was passed on using int instead of long long int. I wasted about 40 mins on this.
+->Doing MCQ was important. Few students who solved both the coding question but didn’t attempt the MCQs were not selected while some who could solve 80% of 1 question(8/10 test cases) and few MCQs were selected.
+Round 2: FTF Interview (Around 30 mins):
+First, the interviewer told me to introduce myself and then he asked me : Count all nodes at distance k from a given node in a binary tree. It’s very similar to https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/ . Suddenly he went out of the room and came after about 20 mins.By that time I came up with the O(n) solution, I explained it to him with a pseudo code. Then, he asked me if I had any questions for him.
+Round 3: FTF Interview (Around 45 minutes):
+First, the interviewer told me to introduce myself and then asked me the question asked in the 1st round. Then, she asked me about threading.I told her that I haven’t studied JAVA well. Thereafter she didn’t ask anything related to JAVA.
+1 .https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/ I started with an O(RlogC) ssolution,she told me to optimize it , after some time I finally gave the O(R+C) solution.She asked me to write the code.
+2. A stream of integers are coming you need to keep the track of minimum at any time, which DS would you use? I told her that I’ll simply store the numbers in a vector and keep a variable min and update min whenever required. Then she told me what if you need to find Kth minimum. I told her to explain the question again , then she asked https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/. We discussed various approach. She asked me to code the Max-heap approach(use of STL was allowed).Then she asked me various questions about heap.
+3. How to represent heap efficiently? I told her the array representation, then she asked me to explain the one using pointers. After that, she asked me which one is better and why? I listed various reasons one of which was that array is cache friendly, she asked me to elaborate this.She also asked me few questions on cache.
+4. She asked me to explain heap sort in detail. We discussed it for about 5 min covering everything in detail. Code was not required.
+5.  https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/ . Initially my approach was wrong, she showed a case where it failed . After some time i told her O(N*N) approach which was correct, she asked me to optimize it and told me to think of some DS which i can use.Finally, I came up with the solution using heap, she asked me to code it.
+Finally, she asked if I had any questions for her. My experience of this round was very good, the interviewer was very helpful and friendly.
+Out of the 26 selected for the interviews, 13 were finally selected for internship.
+During my preparation geeksforgeeks, indeed, was a great help. Almost all questions asked in the interview were from geeks. A big thank you to other geeks as well for sharing their interview experiences as going through past experiences was the perfect way to end my preparations.

@@ -1,0 +1,26 @@
+Round 1:
+Q1. Implement memcpy function. How do you make compiler to give warning if user passes nomberOfBytes less then equal to zero.
+Q2. Write code to multiply two matrix.
+Q3. What is SIMD?
+Q4. What are different IPCs mechanisam.
+Q5. Find least common ancestor for N-ary tree, given pointer of two nodes. tree structure has parent pointer too.
+Q6. what are the principles of Dynamic programming.
+Round 2:
+Q1. Design like/unlike feature of facebook, when some one uploads a photo.
+       How do u notify to users who have already liked the photo.(Observer pattern)
+       10 million users like the photo at the same time, how do you handle such scenario.
+        Solution:(duplicate the photo instance in multiple servers based on load balance and do parallel reduction technique to do like++(lock like in each server) for each server and then broadcast the number of l         ikes to other servers )
+Q2. Write code for inorder traversal of a tree. Recursive and iterative using stack.
+Q3. Given a matrix of size nxn, how many ways are there to go from 0,0 to n-1,n-1. Both recursive and DP based solution.
+Q4. Given a matrix of sise nxn and filled with 0s and 1s. you cant step into cell with zero. what is the shortest path to go from 0,0 to n-1,n-1. Both recursive and DP based solution. 
+Round 3: (Director Round)
+Q1. Why do we need copy constructor?
+Q2. Write method signature for copy constructor.
+Q3. Write method signature for operator overloading.
+Q4. Implement a stack which supports push and pop function. Write production level code.
+ some question related to work and behavioral questions.
+Round 4:
+Q1.There are two players A & B.
+Pots of gold are arranged in a line, each containing some gold coins (the player can see how many gold coins are there in each gold pot – perfect information).  They get alternating turns in which the player can pick a pot from one of the ends of the line.  The winner is the player which has highest number of gold coins at the end.
+The objective is to maximize the number of gold coins collected by A, assuming B also plays optimally.  A starts the game. You need to tell the final state of both the player.
+Q2. Can we do array[i]=i++;

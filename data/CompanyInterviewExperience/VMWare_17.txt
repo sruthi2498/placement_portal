@@ -1,0 +1,25 @@
+VMWare visited an extension centre of our campus for hiring IT App Developer.
+Round 1
+The first round a written one, conducted on HirePro platform. It had 2 section, Aptitude and Technical. Time allotted was 75 mins. The aptitude section was quite tough. In technical section, there were a mixed bag of questions ranging from Hashing, OS, DBMS, Data Structures etc. to Networking , Linux etc.
+16 students were short listed for further round.
+Round 2
+There was also a coding round. There was only one question to be solved in one hour. There were no in-built test cases or submission portal. The coding round was held in 3 diff batches. The questions were :
+1) Find all primes numbers less than a given prime number.
+2) Check whether a number is an Armstrong number or not.
+3) Convert a infix expression to postfix.
+A total of 35 students were selected for next round.
+Round 3
+The next round consisted of a software architecture question. We had to design Class/Object and E-R diagram for web app to be built for a music store. The app needs to handle online orders, in store purchases and inventory as well.
+I deviated a bit from Class/Object or E-R diagram and gave a micro services based Web App architecture with SQL based Scheme design. I drew table structure for all tables including various functional dependencies and relations. I also made various middleware services for app functioning. It was later revealed that company gave a lot of weight-age to this round, at least in my case.
+10 students were eliminated after this round.
+Round 4
+There were two Techincal Interviews. To my surprise, they were really short.
+Round 5
+In the second interview, first I was asked to explain what I did during my internships. Then he asked me few questions from technical sections. Few of them were :
+1) Explain 2NF, Functional Dependencies
+2) How will you distribute requests from Load Balancer to different servers. He was basically asking for CPU scheduling algos.
+3) Most used function in C lang. (Still boggled by this question)
+4) Some questions on NoSQL and SQL databases.
+This was followed by two HR interviews. Standard HR questions were asked there on why VMWare, about me etc.etc.
+In the end, 5 students were selected by VMWare for full time roles as well as Six Months Internship.
+

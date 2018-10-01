@@ -1,0 +1,22 @@
+Round 1:
+How to make class immutable
+Shift linked list by k elements
+Iterative merge sort
+Round 2:
+1)
+Given rules of below  kind of format
+R1= e1&e2|(e3&e1)
+Where e(i)  is an expression. ( Not necessary to be defined for the problem). There can be n number of rules. The rules can get complex.. the question is how do you store these rules( what data structure/ class structure) so that if there are 10 rules out of n to be applied on some parameter, you need to print what is the result of each rule. Main question is how to store these rules.
+Example..
+R1= e1&(e2|e3)& e4|(e1&e2)
+R2= …..
+…..
+R100= ….
+Interviewer have the hint to store them in forest with expressions as nodes and rule id as edge. Live below .
+R1=e1&(e2|e3)
+First expand it as (e2&e1)|(e3&e1). Store as below forest..
+e2–e1
+e3–e1
+2)
+Clone linked list with each node having random pointers sorry from next . Without any extra space
+ 

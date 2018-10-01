@@ -1,0 +1,58 @@
+Experience: 8 months
+Online Written Test:
+Given interviewstreet links of two tests. 24 hr. time-line to finish both tests. Tests are independent,can be given at any-time on that day in any order.
+1. Duration 120 min.
+Basic C,OS 20 multiple choice questions
+7 coding questions
+2. Duration 50 min.
+40 low level maths aptitude and LR questions
+After a week, received call for onsite interview rounds at noida office.
+4 technical rounds + HR:
+1st round: (manager level guy)
+little intro to give it a start
+why do you want to leave so early (Graduated in 2013 so its only 8 months)
+Should I evaluate you as freshers or experienced ? (because my previous work was bit of non-technical)
+1.(Bit manipulation/bit masking)
+Given a M*N size tv screen. Colour of each pixel is integer value b/w 0-7 (i.e. 3 bits to represent colour)
+screen is tightly packed bits(no byte padding allowed). now given a (i,j) index of pixel change its colour ?
+Basically screen is matrix but in memory its represented as 1-d array.
+character array can be used to represent each bit.
+Hint:
+map matrix (i,j) to 1-d array and change 3 bits to change colour.
+problem arise when 2 bits are in one byte and another 1 bit is in another byte.
+2. Process vs threads
+3. One question to check whether i have idea on address space of process and threads
+(based upon threads share data and heap but have separate stacks )
+4. How realloc() work in C.
+2nd round: (4-5 years experienced guy)
+1. Given an integer N . tell if it is power of 3 or not.
+2. Given infinitely long character array.
+replace all occurrence of particular word with another word of larger length. Solution should be inplace can do copy only one time.
+e.g.
+Gandhi was born in 1969. Gandhi was from gujrat.
+replace gandhi with mahatma
+3. Given a binary search tree delete any node in tree.
+one more question…
+3rd round: (4-5 years experienced guy)
+1. Given sorted 2-d array of integers i.e. row wise and coloum wise sorted
+Search for given number in array.
+2. Given an circular linked list. convert it into non-circular . no link or data can be changed.
+(basically find start node of circular list and de-link it )
+3. Given an integer array find two numbers with sum equal to K.
+one more question…
+I finished this round early so he chated about which system you use.(windows or linux)
+what is difference b/w this two.
+You had 4 gb RAM or 8 gb RAM ? how RAM size affect user perspective ?(want to know i have general idea about virtual memory or not)
+4th round: (highly experienced old guy)
+Given sorted 2-d array of integers i.e. row wise and coloum wise sorted
+Search for given number in array.
+I told him i already solved this in previous interview.
+then he extended same question.
+Insert a number in this array.
+Delete a number in this array.
+Only this question,because we had wide discussion about various approaches.
+HR round:
+Didn’t happen because HR was in urgent critical meeting.
+After 2 days got a call from HR that I was selected for Adobe 😀 🙂
+Thanks you geeksforgeeks team for making my preparation smoother.
+

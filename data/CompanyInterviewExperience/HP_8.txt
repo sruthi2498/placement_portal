@@ -1,0 +1,34 @@
+Recently, HP R&D visited our campus as part of recruitment drive. There was a CGPA cut off of 7.75
+Profile offered: R&D engineer.
+Location: Bangalore.
+Round 1: Online Round 75min.
+20 Aptitude Questions,
+22 Technical Questions and
+8 OOPS Questions(CPP or Java).
+NO CODING QUESTIONS.
+Level of both Aptitude and Technical was tough.
+From among 200+ students, they shortlisted 40.
+Round 2: Technical Interview(~ 1 hr)
+First of all he asked me to Introduce myself.
+Then series of questions,
+*) He asked me which was my favorite programming language C/CPP/JAVA. I said C but he started asking questions from Java?, explain Hashing in Java, and said me to design a hash function to store name, value pair for a scenario consisting of petabyte of data.
+*)Print Lowest Common Ancestor in BST and its complexity.
+*)Calculate no of set bits for a given integer.
+*)Few unix questions like, what is system call, what is fork() system call, and relationship among child and parent, what is meant by address space, what resources are shared bw child and parent, what is meant by address space, memory layout of C program.
+*)Few C programming questions like, what is meant by de-referencing, indirection operator, and few concepts related to Pointers in C.
+*)Few questions on OS like why virtual memory is need, need of paging, concept of semaphores etc.
+*)And finally, discussion on Projects mentioned on Resume.
+and we were done!
+
+Round 3: Managerial and Technical Round(~30 min)
+He started off, with few questions about my background then followed series of questions.
+*)First up, he asked me my favorite subject I said Data Structures, Algorithms. He asked me whether I knew OS,
+I said scheduling algorithms, he then asked different scheduling algorithms and which is best scheduling algorithms(among those I mentioned) and then he gave me a scenario of single core processor, and asked to explain scheduling on those processors.
+Next up,
+*)What is meant by file system, explain linux file system, why is it in tree like structure.
+*) He then asked me which operating system have I worked on, I said windows primarily and ubuntu 14.04 on virtual box(VMware), he then asked me how virtual OS works on Parent OS, what kind of communication takes place bw them, how are packets from internet passed to virtual OS browsers etc( just a discussion, he was much interested in my approach).
+*)And few questions on Interrupts, what are kernel and user Interrupts, different kinds of interrupt levels etc.
+*)Difference bw pen-drive and hard-disk in terms of memory access and kinds of memory they use(flash memory,concept of magnetic tape),how does system identify them.
+The interviewer was very friendly and helpful, and we spoke in native language(Kannada)?. 
+Round 4: HR round:
+He asked me about my family background, why computer science? and few other normal HR questions.

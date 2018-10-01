@@ -1,0 +1,36 @@
+Consisted of 1 online test, 1 written test, 1 technical interview and 1 hr interview
+ONLINE TEST
+Consists of
+1. Aptitude
+a. quantitative aptitude – Work and Time, Percentages, Profit and Loss, Speed, Distance and Time, Permutations and Combinations, Probability
+b. logical aptitude
+c. Communication/Verbal ability
+2. Coding
+a. Longest palindromic subsequence
+b. For a given number in string format, find the maximum number that can be made with K adjacent swaps of the digits of the given number
+WRITTEN TEST
+1. Multithreading
+Print odd and even numbers alternatively using two threads.
+2. Subset Sum
+For a given array and a sum ‘k’, print true if there is a subset in the given array that sums up to the given sum, k
+Example:
+TECHNICAL INTERVIEW
+The interview panel consisted of two interviewers. The first thing he asked was “Tell me more about yourself”, of course. Then I was asked to explain my code from the written test. They had our written test papers with them during the interview. We were asked to show how our codes worked and were asked to make improvements to make it run more efficiently.
+They gave me another coding problem to solve.
+Given a string, eliminate every even duplicate of letters present in the string.
+Example:
+Input:
+thisisastring
+Output
+thisasring
+Explanation:
+t h i s i s a s t r i n g – The repeating letters in the input string are in bold.
+The even duplicates need to be removed, i.e., the second, fourth, sixth, .. recurring letters
+Final output, t h i s a s r i n g
+I solved the question with a count variable and a boolean array with a size equal to string length. And they were satisfied. I just explained my logic/algorithm and they were happy. They didn’t want the code.
+One of the interviewers was grumpy while the other one was friendly, smart and understanding.
+I was asked to explain my projects. I had three projects that were electronics/robotics/software related. I focused on the programming part of each of the projects. Told them interesting technologies I was exposed to in each of the projects.
+They also asked a few common HR questions like
+ 
+HR INTERVIEW
+

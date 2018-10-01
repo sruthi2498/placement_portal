@@ -1,0 +1,10 @@
+Given a perimeter P, the task is to find the number of right triangles possible with perimeter equal to p.
+Examples:
+So the aim is to find the number of solutions which satisfy equations a + b + c = p and a2 + b2 = c2.
+A naive approach is to run two loops for a(1 to p/2) and b(a+1 to p/3) then make c=p-a-b and increase count by one if . This will take  time.
+An efficient approach can be found by little algebraic manipulation :
+
+Since a + c > b or, p – b > b or, b < p/2. Thus iterating b from 1 to p/2, calculating a and storing only the whole number a would give all solutions for a given p. There are no right triangles are possible for odd p as right angle triangles follow the Pythagoras theorem. Use a list of pairs to store the values of a and band return the count at the end. 
+Below is the implementation of the above approach. 
+Run on IDE
+Time complexity: O(P)

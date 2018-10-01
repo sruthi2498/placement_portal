@@ -1,0 +1,33 @@
+I applied in Belzabar off-campus, and got a chance to be interviewed by them. There were total of 5 rounds.
+
+Online Coding Round: 1 hr
+It consists of a single coding question and you have to write the code on notepad type editor and no compiler was given. It is not required that your code will compile fine, but the logic must be optimized. 
+Ques: Belzabar completed 14 years of service, so to denote it on the number system, there are some Belzabar numbers in the form of n(n-14) or n(n+14), where n is prime. So you have given the input X, find the count of all the Belzabar numbers less than or equal to X.
+Bonus Ques: Print all the Belzabar numbers less than/equal to X.
+The question was easy but try to solve optimally and put all the comments necessary to understand the solution/logic you are using, and attempt the bonus question for sure.
+
+Round 2 : Face-to-Face Technical Interview
+An experienced tech guy took this interview, he started with the basic introduction and then move to the data structures.
+Q1: Sort an array of 0’s and 1’s.
+Q2: You have the ages of India’s population, sort all the ages in an optimized way.
+Q3: Find the minimum path between 2 given nodes of a binary tree.
+
+Round 3 : Face-to-Face (Tech Interview with VP)
+He started with the basic intro, then moved to my projects in detail, with a discussion on different technologies and then he moved to the mathematical and logical questions and then ended with one question of DS.
+Q1: Find the intersection area of the 2 different circles.
+Q2: What is the formula for finding if the 2 different circles intersect, 2 different rectangles intersect, 2 different hexagons intersect. What is the pattern you observe in them? Which one is easier to calculate and Why?
+Q3: Find the sum of 2 given integers. Integers are represented as an array and you have to put the sum of integers in the array of integers itself.  
+
+Round 4: Face-to-Face HR
+General Discussion with introduction, my basic profile apart from technical, every sort of things you have done in your college.
+Q1: Why do you want to join Belzabar?
+Q2: Why we hire you, any quality which will be helpful for the company?
+Q3: Some basic counter questions from your profile interests like if you are a foodie as in my case, she wanted to know what is the best dish you tasted and from where?
+
+Round 5: Face-to-Face (Tech Round with Director)
+This round again started with some intro from resume, and asked me how did you find the interviews so far. Then he moved to some technical questions.
+Q1: A process which takes ‘T’ time to execute in a single processor system and takes the same time to execute in multiprocessor machine, how is it possible?
+Q2: What do you mean by normalization?
+Q3: Write an SQL query to modify the type of a column from string to an integer.
+Q4: In a knockout tournament, if there are N players, how many rounds do you need to play to find out the winner? How did you observe-specify the methods of observation.
+In the end, I would like to suggest prepare from Geeksforgeeks and do regular coding, it helped me a lot and I got the offer. Thank you geeksforgeeks for providing all the stuff required for learning.

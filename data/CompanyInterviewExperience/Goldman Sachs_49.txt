@@ -1,0 +1,22 @@
+Recently Goldman Sachs came to our campus to recruit FTEs and interns. All students from Circuit Branches were eligible to apply. I will write about the interview experience for the interns.
+Round 1 (Online)
+This was hosted on HackerRank and was of 75 minutes duration. There were 5 MCQs of 10 marks each, with -3 negative marking. These were based on core CS topics like DS, Algorithms Analysis, Graph Theory etc. There were 2 coding questions:
+1. Find the 1st repeated word in a string. (15 marks)
+eg. Input: Ravi had been saying that he had been there.
+Output: had
+2. You have a cupboard with A,B,C pairs of red, green and blue socks respectively. You can take out only 1 sock at a time, without looking. Find the maximum number of times T you must take out a sock till you get N matching pairs, of any colour. (35 marks)
+eg A=2, B=4, C=4
+N=1 T=4
+N=2 T=6
+N=4 T=9
+N=5 T=10
+16 people were short-listed for subsequent F2F interviews.
+A lot of questions were asked in each interview round. I will mention the important ones.
+Round 2
+The interviewer asked me about the subjects I have covered in CS so far. I was asked to explain the various ways of searching in an array and to write the code for a Regular Binary Search and the Modified Binary Search for an infinitely long array. Then I had to write the code to find out the maximum product of n-1 elements of an array having of size n. Special attention was given to the handling of all the corner cases. Next, I was asked to solve https://www.geeksforgeeks.org/stock-buy-sell/ for 2 cases: Buying and selling 1 time and then 2 times. After a few other questions, he concluded by asking if I had any questions for him.
+Round 3
+The interviewer went through my CV thoroughly. I was asked to speak about myself, my activities in college and other academic interests. I also had to explain my projects in detail. He discussed with me my proficiency in various programming languages and asked me to explain the process of Garbage Collection in Java, and with a code snippet, asked how I’d implement my own Garbage Collector. Next, given a long string, and 2 words, I had to find the minimum distance between the mid-points of the occurrences of the pair of words. Then I was asked https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/ . I was asked about LRU Cache and had to write and explain how I’d implement it, using any DS of my choice. After a few other questions, he concluded by asking if I had any questions for him.
+Round 4
+This was a technical-cum-HR round. The interviewer discussed each of the questions from the Online Coding Round. Then, given an input stream of integers, I was asked how I’d display the number (if any) which has appeared more than 50% times in the input stream so far, with space constraints, in O(n), and then O(1) space. After some other technical questions, he moved on to other questions about myself, and concluded by asking if I had questions for him.
+Finally they selected 4 students for internship.
+Going through the articles and interview experiences in GeeksForGeeks is integral to the preparation for any interview. A big thank you to the website and all the contributors !

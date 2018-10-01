@@ -1,0 +1,27 @@
+Samsung Bangalore came to our campus to recruit for a software development engineer role. The following process took place.
+Round 1: Online test.
+The question was to calculate the shortest time taken from source to destination in outer space. We had n bidirectional warm holes in between which could be used for faster travel. STL or any other extra libraries were not allowed. There were 50 test cases and all had to be passed in order to clear this round.
+A total of 22 students got shortlisted for the next round.
+Round 2: Technical group discussion.
+We were divided into  two groups and were given a question and had to come up with approaches and discuss them with the group. Everyone was even made to compile their thoughts on a piece of paper. Separate questions were asked from each of the groups.
+Q1. Given large number of points on a 2D plane come up with a fast approach to calculate n closest point to a given x,y point on the plane.
+Q2. Given two files having unique characters and about 100 gb in size. One has some characters missing. You need to compare with the original file and find the count of missing characters.
+I did really well in my GD. I got the second question and came up with a binary search approach which impressed the panel. I later suggested some other optimizations.
+Finally, 12 people got shortlisted. You were not expected to solve the whole question. Any good approach or active involvement was enough to get shortlisted.
+Round 3: Technical Interview 1
+I was the first one to be called for the interview. The guy asked me to give a brief introduction of myself. After that he straight away jumped to my internship work. We had an elaborate 15 min discussion on the work I did at a start up. Then he started asking me some basic OS stuff. I was asked to code the producer consumer problem. I did that correctly. After that he started diving deep into OS and memory concepts, of which I had little clue. I did poorly there. After that we had a 5 min discussion on one of my projects which was on neural networks. At last he asked me if I had any questions for him I said I would like to know more about Samsung and the research areas that they are presently working on. He gave a pretty informative reply.
+Round 4: Technical Interview 2
+This was a pure algorithmic problem solving round. The interviewer without wasting anytime gave me graph question to solve.
+A truck has to go from one city to another. There are n cities in between connected by roads and the time taken to reach cities are given as edge weights. We had to find the shortest path given that truck driver can only drive for 12 hours in a day and has to rest in a city after that. My initial approach was to do it by dfs since we had to only find the shortest number of days. To which he said he wanted both days and hours.Finally, I came up with a modified Dijkstra’s approach. He seemed satisfied.
+I was asked another dp question where we had n wines and had to sell from either left or right making maximum profit in the process. We could sell once each year and the cost of the wines keeps getting increased with each passing year. I quickly came up  with a solution for this problem.
+The last question was same as the GD topic for the other group. After a lot of thinking and clarification I came up with an approach which requires dividing plane into grids and saving points in each grid and calculating for only those grids which were closest to the given point. I used max heap for this. Didn’t  code anything.
+Round 5: HR
+This was more strenuous than expected.
+He grilled me on several questions like-
+Why is your CGPA low ? It was 7.
+You have a major in electronics then why IT ?
+Proudest moment of your life ?
+Any plans of doing an MBA or MS ?
+The round ended with me asking him about my role at Samsung if I get selected.
+The final list was released after an hour. They took four students. I was one of them and the only non cs candidate.
+Tips: Know everything you have mentioned in the resume. If you have mentioned anything regarding ML, they almost certainly will grill you on that. Solve previous year interview questions.

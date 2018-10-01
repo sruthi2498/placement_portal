@@ -1,0 +1,36 @@
+Hi, Recently Snapdeal visited my campus (Jamia Millia Islamia) and I got an offer from Snapdeal,here is my interview experience:
+Round 1:
+First round was online written round.It consists of 25 Questions.
+22 MCQ’s and 3 Coding questions
+1) Check for balanced parentheses in an expression. https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+ 2) Given an array where each element is the money a person have and there is only Rs. 3 note.We need to check whether it is possible to divide the money equally among all the persons or not.If it is possible then find Minimum number of transactions needed.
+ 3) Find next greater number with same set of digits. https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+ They shortlisted 18 people for the Personal interviews.
+ Round 2:(30 min.)
+ F2F Technical Interview 1:
+ 1.  Diameter of binary tree.       https://www.geeksforgeeks.org/diameter-of-a-binary-tree/.
+ 2.  C++ concept like polymorphism,inheritance,function overloading,virtual function,virtual destructor etc.
+ 3.  Next greater Element (full code)     https://www.geeksforgeeks.org/next-greater-element/
+ 4.  A sorted Array has been rotated r times to the left. find the minimum in least possible time(O(logn) expected).    https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/.
+ 5.  You have an sorted array,you have to make a balanced binary search tree from it      (only approach) and basic insertion and deletion in BST.
+ 6.  Detect and remove loop from linked list(only approach).    https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/. 
+Round 3: (35 min.)
+F2F Technical Interview 2:
+1.  Tell me about yourself.
+ 2.  Check if anagram of a string is palindrome or not.
+ 3.  N stair problem.(Dp approach) https://www.geeksforgeeks.org/count-ways-reach-nth-stair/.
+ 4.  Search in a row wise and column wise sorted matrix. https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/.
+ 5.  Difference between Process and Thread.
+ 6.  find the number occurring odd number of time (xor solution). https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/.
+7.  25 horse puzzle.  http://classic-puzzles.blogspot.in/2011/11/25-horses-puzzle.html
+Round 4: HR round(10 min.)
+F2F HR Interview:
+ Basic behavioral questions. why snapdeal etc.
+I liked the way interviewers were interacting, they were very supportive and friendly as well.
+TIPS:
+1. Don’t jump into solutions, ask about the type of input that is given and output that is expected.
+2. The interviewer always tries to take you to the most optimal solution so listen to what all he says. Many a times they are big hints !!!
+3. Be honest.
+4. Keep believing that you will get the job.
+I would like to thank GeeksForGeeks which helped me to improve my knowledge and understanding of Data structures and Algorithms.
+

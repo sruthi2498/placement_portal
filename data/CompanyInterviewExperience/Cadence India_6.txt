@@ -1,0 +1,26 @@
+I recently gave interview for Cadence, for Member Technical Staff position. Total Work Experience – 2.5 year.
+Telephonic :
+1) How to limit the scope of a variable -> I explained about static
+2) what is linked list, implement using array and linked list (which is better single or doubly? ) and space and runtime complexities of push() and pop().
+3) In a directed graph how can you find a cycle? is it possible to find using BFS, why BFS is preferred over DFS.
+Face to Face 
+Round 1 :
+1) Automata basic questions (i din remember automata.. the guy helped me in this one)
+make a State diagram for a*b*c expression.
+2) convert it into deterministic diagram
+3) state diagram for a[POW(n)]b[POW(n)]c (use of counter is required)
+4) n jobs are given , their dependency list is given how will you schedule them ? (I explained using modified BFS)
+5)If a graph DS is given, how will you dump that into memory and retrieve it again ?
+Round 2 :
+1) Write code for string reversal.
+2) Write code for linked list implementation. push and pop
+3) Puzzle – 23 coins are given and two player are there. anyone can pick 1 to 4 coins at a time.
+One who picks the last coin wins.. Find algo for it.
+Round 3 :
+1) In a project, i have an api which takes some parameters and returns a string.
+How will you handle the memory allocation done inside this API ? – Ans is you make it static.
+2) Puzzle – two ropes are given. each burn in 60 mins. how to count 45 mins from it.
+Round 4: 
+1) General questions about my current work and projects done with the senior manager.
+Round 5:
+HR round.. 

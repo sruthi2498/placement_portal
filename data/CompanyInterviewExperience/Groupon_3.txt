@@ -1,0 +1,65 @@
+Round 1 : Online Test :-
+Given link of mettl to take the test online
+Test was based on core java and collections
+1. 
+When is the B object, created in line 3, eligible for garbage collection?	
+A.	after line 5
+B.	after line 6
+C.	after line 7
+D.	There is no way to be absolutely certain.
+2.  
+Where will be the most chance of the garbage collector being invoked?
+A.	After line 9
+B.	After line 10
+C.	After line 11
+D.	Garbage collector never invoked in methodA()
+3. 	Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?
+A.	TreeMap
+B.	HashMap
+C.	LinkedHashMap
+D.	The answer depends on the implementation of the existing instance.
+4. 	Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+A.	java.lang.String
+B.	java.lang.Double
+C.	java.lang.StringBuffer
+D.	java.lang.Character
+5. 	Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?
+A.	java.util.HashSet
+B.	java.util.LinkedHashSet
+C.	java.util.List
+D.	java.util.ArrayList
+6. 	You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?
+A.	java.util.Map
+B.	java.util.Set
+C.	java.util.List
+D.	java.util.Collection
+Interview Round 1 (Technical):-
+1.    Tell me something about yourself
+2.    Given a link list how will you find out Kth to the Nth node in link list.
+3.    Given two Strings find out if they are anagram to each other
+4.    Some basic questions on collections which to use when.
+5.    String libraries like StringUtils, what are the benefits what is the difference between isBlank and IsEmpty
+Interview Round 2 (Technical):-
+1. Print following Triangle 
+2. How to remove duplicate elements from array List. 
+3. Given a array list with numbers 1.100 find the 1 number which is missing in O(n) time.
+4. Design class for a  Restaurant Menu given Food Type,and price list
+5. What do you know design patters? which one you have seen so far ( As  I was having only 1 year experience interview does not emphasise too much on this question. I just gave simple definitions of strategy, decorator and MVC pattern)
+6. Suppose there are many threads accessing a critical value and few are updating it , take the example of Airplane seat reservation.
+7. How will you handle inconsistency. (He was looking for locks as answer and then discussed different lock types)
+Interview Round 3:( Technical-Managerial) –
+1.  What kind of work have you done  so far ? ( I told her the name of the website) she opened the website and asked some questions on work done on that website.
+2.    Given 9 balls, find defective one in minimum steps using weight scale.
+3. Classic 25 horse problem, 25 Horses, Have a 5 horse track,No stopwatch, How many races are required to determine the 3 fastest horses.
+Interview Round 4 : HR-executive
+1.  Tell me something about yourself
+2.    Any challenge or initiative that you taken during school, college or office.
+3.    Why do you want to change ?
+4.    Why nearbuy ?
+5.    Expected CTC ?
+Interview Round 5: CTO
+1.    Tell me the work that you have done in your 1 year of your experience
+2.    What Technology stack  you have used ?
+3.    Why looking for a change ?
+4.    By what date you can join us ?
+

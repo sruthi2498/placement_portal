@@ -1,0 +1,22 @@
+Given a number ‘n’ and a prime number ‘p’. We need to find out the power of ‘p’ in prime factorization of n!
+Examples:
+
+Naive approach 
+The naive approach is to find the power of p in each number from 1 to n and add them.Because we know that during multiplication power are added.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Efficient Approach 
+Before discussing efficient approach lets discuss a question given a two numbers n, m how many numbers are there from 1 to n that are divisible by m the answer is floor(n/m).
+Now coming back to our original question to find power of p in n! what we do is count the number of numbers from 1 to n that are divisible by p then by  then by  till  > n and add them . This will be our required answer. 
+Below is implementation of above steps.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity :O((n))

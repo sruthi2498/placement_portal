@@ -1,0 +1,20 @@
+Given an array and a value k. We have to find the maximum number of equal elements possible for the array so that we can increase the elements of the array by incrementing a total of at-most k.
+Examples:
+
+Input : array = { 2, 4, 9 }, k = 3
+Output : 2
+We are allowed to do at most three increments. We can make two elements 4 by increasing 2 by 2. Note that we can not make two elements 9 as converting 4 to 9 requires 5 increments.
+Input : array = { 5, 5, 3, 1 }, k = 5
+Output : 3
+Explanation: Here 1st and 2nd elements are equal. Then we can increase 3rd element 3 upto 5. Then k becomes (k-2) = 3. Now we can’t increase 1 to 5 because k value is 3 and we need 4 for the updation. Thus equal elements possible are 3. Here we can also increase 1 to 5. Then also we have 3 because we can’t update 3 to 5.
+Input : array = { 5, 5, 3, 1 }, k = 6
+Output : 4
+
+Naive Approach: In the naive approach we have an algorithm in O(n^2) time in which we check for each element how many other elements can be incremented so that they will become equal to them.
+Efficient Approach: In this approach, first we will sort the array. Then we maintain two arrays. First is prefix sum array which stores the prefix sum of the array and another is maxx[] array which stores the maximum element found till every point, i.e., max[i] means maximum element from 1 to i. After storing these values in prefix[] array and maxx[] array, we do the binary search from 1 to n(number of elements of the array) to calculate how many elements which can be incremented to make them equal. In the binary search, we use one function in which we determine what is the number of elements can be incremented to make them equal to a single value.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(nlog(n))
+Space Complexity : O(n)

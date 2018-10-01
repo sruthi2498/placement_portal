@@ -1,0 +1,16 @@
+Given a positive integer N. The task is to find the number of ways of representing N as a sum of 1s and 2s.
+Examples:
+
+For N = 1, answer is 1.
+For N = 2. (1 + 1), (2), answer is 2.
+For N = 3. (1 + 1 + 1), (2 + 1), (1 + 2), answer is 3.
+For N = 4. (1 + 1 + 1 + 1), (2 + 1 + 1), (1 + 2 + 1), (1 + 1 + 2), (2 + 2) answer is 5.
+And so on.
+It can be observe that it form Fibonacci Series. So, the number of ways of representing N as a sum of 1s and 2s is (N + 1)th Fibonacci number.
+How ?
+We can easily see that the recursive function is exactly same as Fibonacci Numbers. To obtain the sum of N, we can add 1 to N – 1. Also, we can add 2 to N – 2. And only 1 and 2 are allowed to make the sum N. So, to obtain sum N using 1s and 2s, total ways are: number of ways to obtain (N – 1) +  number of ways to obtain (N – 2).
+We can find N’th Fibonacci Number in O(Log n) time. Please refer method 5 of this post.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:
+Time Complexity: O(logn).

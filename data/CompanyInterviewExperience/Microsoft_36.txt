@@ -1,0 +1,66 @@
+Round 1(Coding Test):
+It was a coding test which was held on cocubes platform. 3 problems were given of varying marks:
+2 marks: Given a number, we need to find the nearest multiple of 10 of it. The rules were as follows: 1. If the unit’s digit is less than 5 return the nearest multiple of 10 smaller than the given number and if it is greater than or equal to 5, return the nearest multiple of 10 greater than the given number.
+Example:
+Input:
+144
+156
+Output:
+140
+160
+This question was really easy to solve. Just simple implementation by using modulo operation.
+3 marks: Given a number n, we need to return the number of possible binary strings of size n where there are no consecutive ones in it.
+This is quite a popular dynamic programming questions for interviews. GeeksForGeeks has a solution for it. Link:https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/
+5 marks: Given a linked list and two integers M and N. Traverse the linked list such that you retain M nodes then delete next N nodes, continue the same till end of the linked list. This was quite easy. GeeksForGeeks has a solution to it. Link:https://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list/
+50 students were selected after this round.
+Round 2(GroupFly Round):
+It was a pen and paper round. We need to solve the problem given to us on paper and explain our approach to the mentors who were near us. Problem given to solve: Print all the paths in a binary search tree with a given sum. This was easily solvable using stacks or vectors and having the concept of recursion and inorder traversal of a tree. Tips to crack this round: 1. Write well. Good handwriting matters to some extent.
+2. Write the approach first and comment your code well.
+3. Atlast write the time complexity and space complexity of the solution you wrote. All these really matters to an extent.
+24 students were selected for the next round.
+Round 3(Technical Interview):
+This was held in skype. The first half an hour discussion was entirely based on the projects and internships I worked
+upon. She asked me about the detailed explanation of the Research Project I did at IIT Kharagpur and also about the Machine Learning Internship I did at Acadview. After that she asked two coding questions: They were:
+1.Given a sorted array of decimal numbers we need to find a decimal number x in it. She asked me to reduce the number of comparisons in it. I was really confused as what to do better than logn approach of binary search. I told her many cases:
+When the elements can be repeated we need to find the first and last index.
+She said she need further optimization. I was really confused what to say.
+I then said what if the number of elements are large then to reduce overflow we need to calculate mid in other way to avoid overflow issues. Then I told her the answer she was looking for. If the element to be found is greater than the maximum number in the array we just needed to return false. I know this was naive but this was what she was looking for. 😛
+2. Given a linked list, you need to detect whether there exists a loop in a linked list or not. She asked me not to approach it with the famous hare and tortoise method, stack method or hashing method but to modify the structure of the linked list in such a way and use as little extra memory in the node’s structure possible to detect the loop in a single traversal. For this I used a boolean variable in the node’s structure and manipulated it during traversal to find the loop.
+She was impressed by my approach and seemed satisfied after she looked at my code. She then asked me to wait for the next round.
+Round 4(Technical Interview):
+This was a F2F round.
+He first asked me to introduce myself and then asked me about my internship. He then asked me a question:
+Given a set of integers, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum. This really took time to explain my approach to the interviewer. I first started from the recursive approach and then went on with the bottom up DP solution to the problem. He was really asking me a lot of questions on my approach and was giving me test cases to validate my approach. He was satisfied with my approach finally.
+GeeksForGeeks has a solution to it. Link:
+https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/
+Then he started asking me questions from Object Oriented Programming. The questions were:
+1. Explain inline functions. Why do we use it?And what does the compiler do when it sees the word inline? When can an inline function be disadvantageous?
+2. Explain abstract classes. What if a pure virtual function is not defined in the derived class?
+3. The famous diamond problem using virtual base class. He then went on with Database Management Systems. The questions were:
+1. Explain the workflow of databases. From Software Resource Specification to normalization. He just asked me about the steps.
+2. Next he asked me about all forms of normalization and we had a detailed discussion on it. He was asking me a lot of questions on BCNF.
+Next he shifted to system design:
+Given a shopping site like flipkart or amazon, you need to design the payment portal page and
+how you would validate the information you entered.
+He gave me three different categories of payment:
+1. Debit Card
+2. Credit Card.
+3. Net Banking.
+Also he asked me to say each and every test methods that I will use to test the page. We had a detailed discussion on it. Net banking part was the most challenging part. He then asked some HR Questions which I aced through easily.
+
+Round 5(Technical cum HR):
+The interviewer first asked me about the summer Internship I did at IIT Kharagpur. He was asking in-depth questions from it. He really knew about the noise models and the networks I used.
+He then asked me about my Machine Learning Internship and gave a real world problem to solve it with any algorithm I know.
+Given our College Portal, how will I display the top trending news in twitter of all categories. I used K-Means Clustering to solve the problem. He then asked me about how it works and I explained him the centroid shifting method.
+He didn’t give any reaction..:P
+He then shifted to Operating Systems:
+What is a semaphore? Is it a variable or a function? How are its atomic operations defined? How is it used to solve critical section problem? How is it used to maintain the order of execution of processes?
+I gave him the required answers. He seemed satisfied. He then asked a question:
+Rotate a N*N matrix clockwise.
+This was easy for me and I explained him the transpose and reverse rows approach. He was satisfied with my approach.
+He again shifted to system design:
+He asked me to design a URL Shortenener like tiny URL.
+I really struggled a lot with this as I haven’t studied system design well but I gave him the hashing and encoding method and trying to approach it with it. He again gave neutral expressions..:P
+Finally he asked me about my family background. About my hobbies and the accolades I won in it. And then asked the common HR questions like What’s your career objective? Why Microsoft? and all.
+I was then asked to wait.
+Finally 10 students were selected and I was one among them. It really was the most amazing day of my life. 🙂

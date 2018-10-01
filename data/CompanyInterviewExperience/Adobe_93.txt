@@ -1,0 +1,40 @@
+First of all, I would like to sincerely thank the entire GeeksforGeeks team for creating and maintaining such an awesome site. GeeksforGeeks has tremendously helped me in my preparation for the on-campus interviews and finally cracking the job interview for Adobe.
+Type of Interview: On-Campus for MTS 1
+No of rounds: 1 apti + 1 written + 4 PI
+Aptitude Round: 1 hour
+There were 15 questions on LR followed by 30 questions on DI. The questions were similar to those asked in management examinations like CAT.
+The results were declared after a couple of hours and around 50 odd students were selected for the written round.
+Written Round: 2 hours
+It was divided into two sections :
+Section 1 contained 10 questions including a couple of questions on OS and the rest were common programming questions.
+Section 2 had 10 syntactical questions on C/C++. I guess most of them can be found on GeeksQuiz.
+15 students cleared the written test and were to attend the PIs the next day.
+PI Rounds-
+1st Round: 45 minutes
+1. Had a general discussion about various data structures. Comparison of BST and hashmap ( relative advantages and disadvantages ). Applications of each.
+2. Implement a queue using 2 stacks. Then optimize the implementation.
+3. Suppose we have two functions void g() and void h(). The function h() has been called somewhere in the body of g(). Now using a debugger, we find that that the program crashes as soon as the return statement in h() ( at the end of function h() ) is executed. There is nothing syntactically wrong with the program. How will you debug the code ???
+My answer : The function h() has modified the return address on stack.
+4. The last question was a puzzle. You have 7 coins out of which one is fake. Find the fake coin in minimum number of weightings.
+2nd Round: 45 minutes
+1. The round started with a rigorous discussion about various OS concepts, specially virtual memory and demand paging.
+2. Implement a stack using 2 queues. Now optimize the implementation.
+3. A robot can walk on 1 step or 2 steps. Find the number of ways in which he can reach the nth step.
+I started with the naïve recursive solution. He asked me to draw the entire recursion tree and hence manually find the answer for n=8. I asked him to make it n=5 😀 I pointed out the overlapping sub-problems and gave him the DP solution. He also asked for time and space complexities of both the solutions.
+4. This question was related to what he called conditional operator on an image. I had no idea what that was. So he explained it to me.
+A monochromatic image is represented by a MxM matrix Image0. We have another WxW matrix Op ( W<=M, W is odd ). Create a new MxM matrix Image1 such that each pixel Image1(i,j) is the summation of the product of overlapping pixels when the pixel(i,j) of Matrix Image0 is aligned with the central cell of Matrix Op.
+At first I suggested a naïve O(N2xW2) solution. He asked me to write the complete code. Using a getpixel function which returns the pixel value if the co-ordinates are valid and 0 for invalid co-ordinates, usually helps in such cases.
+Then he told me that all the values in the matrix Op are equal. Optimize the implementation.
+I was able to bring it down to O(N2xW).
+
+3rd Round: 45 minutes
+1. Fibonacci series. Just the recurrence relation and derive the time complexity of recursive implementation. 
+2. Write a function that takes n parameters and returns an n-dimensional array using those parameters as the dimensions. The expression a[i1][i2]…[in] should work.
+For 1-d array, it’s trivial. For 2-d arrays of dimensions mxn, first create an array of m 1st-level pointers and  for each pointer allocate an array of size n. He asked me to do it for k-dimensional array where k is a parameter. The real issue was implementing k nested loops, where k is not a constant value.
+I was able to implement it using a single loop which runs from i=0 to i=k^k – 1. For each iteration, I calculated the various nested loop variables, say par(L)=i mod k^(L+1) , where L=0 represents the innermost loop and par(0) represents the innermost loop variable. So when par(t)=0 for some t, it’s obvious that either i=0 or the immediate outer loop, ie the loop L=t+1 has moved on to its next iteration. So the malloc statement between the loops L=t+1 and L=t has to be executed.
+The interviewer was very impressed with the approach.
+3. The question started with the interviewer asking me to write a program to print “Hello World”. I just stared at him for a while. So he repeated the question 😛 He then wanted to know what the compiler does when it encounters the statement #include, whether the stdio.h file contains just the function declaration of printf or the definition too. Then we had a discussion on static and dynamic libraries.
+4th Round(HR Round): 20 minutes
+Was asked typical HR questions like why do you want to join Adobe, your dream companies, why not go for a higher education instead of a job, what do you like to do in your free time. When I told him that I was a sci-fi fan, he asked me that assuming I had the resources, how would I design an iron-man suit 😀 Needless to say, I really enjoyed this round for multiple reasons 😀
+Finally, the results were declared and 5 students including me were hired 😀
+

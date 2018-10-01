@@ -1,0 +1,9 @@
+In many competitive programming problems, we need to find greatest common divisor also known as gcd. Euclids algorithm to find gcd has been discussed here
+C++ has the built-in function for calculating GCD. This function is present in  header file.
+Syntax:
+Run on IDE
+Output:
+Note: If either M or N is not an integer type, or if either is (possibly cv-qualified) bool, the program is ill-formed. Also, If either |m| or |n| is not representable as a value of type std::common_type_t, the behavior is undefined.
+Run on IDE
+Output:
+Error, As the data type float is not supported by std::gcd.

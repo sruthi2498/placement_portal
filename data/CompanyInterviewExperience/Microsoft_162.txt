@@ -1,0 +1,37 @@
+Microsoft (IDC) had come to my campus to recruit FTEs and summer interns. The selection procedure involved an online coding round, Group-fly round and 2-3 interviews.
+Round 1 (Online coding round):
+This round was the online coding round in the co-cubes portal. There were three questions carrying 25marks (5+10+10) of total. 1 hr and 30 mins were given for this round.
+i) Given the numbers n and k, change the k th bit of the number n to ‘0’ if it is ‘1’, else return the number n itself
+Example:
+For n=13 (1101) & k=2, return 13
+For n=13 (1101) & k=3, return 9 (1001)
+ii) Return the sum of two binary numbers represented as strings
+Example:
+For n1=111 & n2=10011, return 11010
+https://www.geeksforgeeks.org/add-two-bit-strings/
+iii) Return the sum of all the leaf nodes at minimum level in a binary tree. If there exists no tree, then return -1
+Example:
+
+For the above binary tree, return 100 (40+60)
+After the first round, 5 of them were selected for the interviews directly and around 12 of them were selected for the group fly round. As all the questions were quite easy, the selection was based on the efficiency of the code.
+Round 2 (Group-fly round):
+Given a number n, print the number in words.
+Example: For n=125, print One hundred and twenty five.Technical Interview 1:
+1. I was asked the same question as in the group fly round. (As I was selected directly to the interview, my interview happened at the same time the group fly round was going on)
+First the approach was discussed and after the interviewer was satisfied with my approach, I was asked to write the code for the same.
+He then asked me to write down the test cases for the same problem. I came up with all the possible test cases. I then realised that I had not written a code to include all these test cases and asked the interviewer if I had to correct my code, for which he said it was not required.
+2. There’s a system that takes a stream of numbers. When each new number arrives, find the median of the set of numbers that we have so far. I gave a solution using AVL trees and wrote the code for the same. I was also asked to
+evaluate my solution.
+Technical Interview 2:
+1. Given a BST and a number n, find two numbers in the tree that sums up to n. This was to be done in place i.e. without any extra space.
+I came up with a brute-force solution and two more solutions using extra-space. I was asked to write the code for one of them.
+2. In facebook, given a person p, find the number of connections till the kth level. The friends of p form the 1 st level, friends of friends of p the 2 nd level and so on.
+The data structure and the algorithm to be used were discussed and code was to be written for my approach.
+Last interview:
+This one was called as the AA(As-Appropriate) round in which the interviewer looks for uniqueness,
+technical knowledge and soft-skills too.
+1. The whole interview was about the mini-project I had mentioned in my resume. A deep discussion on other approaches and about storage that would make the search efficient was done.
+2. General HR questions like ‘Why Microsoft?’ were asked.
+Finally 2 of them were selected. In all the interviews, rather than the correct solution, the approach and uniqueness of the solution was weighed more.
+I thank geeksforgeeks.org for providing a great support for my placement preparations.
+

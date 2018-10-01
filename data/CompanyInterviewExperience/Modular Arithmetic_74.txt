@@ -1,0 +1,25 @@
+Given two integer N ans K, the task is to find sum of modulo K of first N natural numbers i.e 1%K + 2%K + ….. + N%K.
+Examples :
+
+Method 1:
+Iterate a varible i from 1 to N, evaluate and add i%K. 
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(N).
+Method 2 :
+Two cases arise in this method.
+Case 1: When N < K, for each number i, N >= i >= 1, will give i as result when operate with modulo K. So, required sum will be sum of first N natural number, N*(N+1)/2.
+Case 2: When N >= K, then integers from 1 to K in natural number sequence will produce, 1, 2, 3, ….., K – 1, 0 as result when operate with modulo K. Similarly, from K + 1 to 2K, it will produce same result. So, the idea is to count how many number of times this sequence appears and multiply it with sum of first K – 1 natural numbers.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(1).

@@ -1,0 +1,102 @@
+A big big thanks to geeks for geeks for constructing this platform where candidates find suitable question sets. 
+1. 1st Round (Coding round on hacker rank) :
+    Two questions. Each of 100 marks. Total time given was 2 hours.
+    Question 1: https://www.geeksforgeeks.org/find-length-largest-region-boolean-matrix/
+    Question 2: https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+2. 2nd Round (Tech) : 
+    Two questions. Here the basic knowledge of data structures and algorithm is tested to determine whether candidate is eligible for onsite interview rounds or not.
+    Question 1: https://www.geeksforgeeks.org/find-zeroes-to-be-flipped-so-that-number-of-consecutive-1s-is-maximized/
+    Question 2: https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+3. 3rd Round (Tech):
+    Two questions. Knowledge of algorithms and data structure was tested. Along with it, production level code had to be written on paper and it was to be made sure that no edge cases remain uncovered.
+    Question 1: https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/
+    Question 2: https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
+4. 4th Round (Tech):
+    Same checks as present in 3rd round. Since i did not perform well in the 2nd question of 3rd round, more stress on my coding part was given in this round. They were thoroughly checking my code and pointing all the edge cases if any.
+    Question 1: https://www.geeksforgeeks.org/clone-linked-list-next-arbit-pointer-set-2/
+    Question 2: http://stackoverflow.com/questions/6179635/what-is-a-good-data-structure-for-storing-and-searching-2d-spatial-coordinates-i
+5. 5th Round (Hiring Manager – Tech & Non Tech):
+    Checks were same as above rounds. Along with those, whether the candidate was a good fit at amazon was checked. 
+    Question 1: Given a stream of integers, at any point of time, fetch the count of integers which are smaller than a given number.  
+    Question 2: HR Questions
+     – give an instance where your manager and you disagreed.
+     – give an instance where you outperformed yourself.
+     – expiain your project and your role in it.
+     – explain the most difficult project you’ve faced.
+6. 6th Round (Bar raiser Tech and Non Tech) : 
+     This guy will thoroughly check everything starting from code, algorithm, data structure, behavior etc. It is necessary of every candidate to crack this round. 
+    Question 1:
+    Given the below pattern, write a recursive code for all values of n. 
+   N = 3
+    - - -
+    -
+    - -
+    -
+    - - - 
+    N = 4
+    - - - -
+    -
+    - -
+    -
+    - - -
+    -
+    - -
+    -
+    - - - - 
+    N = 5
+    - - - - -
+    -
+    - -
+    -
+    - - -
+    -
+    - -
+    -
+    - - - -
+    -
+    - -
+    -
+    - - -
+    -
+    - -
+    -
+    - - - - -
+    N = 6
+    - - - - - -
+    -
+    - -
+    -
+    - - -
+    -
+    - -
+    -
+    - - - -
+    -
+    - -
+    -
+    - - - - -
+    -
+    - -
+    -
+    - - - -
+    -
+    - -
+    -
+    - - -
+    -
+   - -
+   -
+   - - - - - -
+    Question 2:
+    Explain internals of hash map's put method and write code for it.
+    Question 3: HR Questions
+     - give an instance where your manager and you disagreed.
+     - give an instance where you outperformed yourself.
+     - expiain your project and your role in it.
+     - explain the most difficult project you've faced.
+Practices : 
+1. Practice code with pen and paper.
+2. Cover all edge cases.
+3. Take time to code but make sure once done, the code is impeccable.
+4. Do practice HR questions seriously.
+5. Try to cover as many geeks for geeks amazon interview sets as possible. As you can see my interview questions were mostly covered by articles already present. 

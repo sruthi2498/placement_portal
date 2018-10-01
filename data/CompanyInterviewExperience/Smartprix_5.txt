@@ -1,0 +1,30 @@
+Smartprix recently visited my campus. 
+First round was of 2 sections;
+Aptitude-consisted of Diagrammatic reasoning, Image analysis, Picture sequencing related 20 questions in 25 minutes with +3/-1 marks.
+Technical(related to output in c++/Java)- 10 questions in 25 minutes.
+Aptitude level was well and good,requires analytical thinking with accuracy and speed.
+Technical Questions were of medium difficulty.
+After I got selected, we were called for 2nd round which was based on Coding, hosted on hackerrank, was of 2 questions that were to be solved in 3 hrs.
+1st question was on String formatting having 50 marks for successful submission
+Ex-
+Input: Smartprix site india comparison best-Replacement array
+{} is {4} online {3} shopping {} in {}-positional argument array
+Output
+Smartprix is best online comparison shopping site in India
+Explanation-
+**If there is number inside curly braces,print element of replacement array at that index, if that index exists otherwise print whatever is inside curly braces(Note-there may be word inside braces as well, in that case simply print that word)
+**If there is nothing inside curly braces,number those as 0,1,2… from left to right and accordingly replace with corresponding element of replacement array
+2nd Question was on parsing given lines of code according to given custom language syntax and generate code that takes as input lines of code in that language and produces corresponding output if there is no syntax error
+5 primitive string functions were given as print, tolower, toupper, reverse, append_a that do the same as their names suggest. Syntax was given for defining user defined function that can use any of those in any order and each function is passed a string argument and returns modified string
+Ex-
+Input:
+define  str
+toupper str
+append_a toupper str
+end
+print “hello”
+toupper “hello”
+append toupper  hello
+Output:
+You had to print string after each line of code
+Overall, It was an amazing learning experience,Questions revolved  around practical problems that you are most likely to face during your exposure to coding challenges.

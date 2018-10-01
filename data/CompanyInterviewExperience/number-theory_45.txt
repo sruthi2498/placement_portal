@@ -1,0 +1,40 @@
+Brahmagupta Fibonacci identity states that the product of two numbers each of which is a sum of 2 squares can be represented as sum of 2 squares in 2 different forms.
+Mathematically, 
+If a = p^2 + q^2 and b = r^2 + s^2
+then a * b can be written in two
+different forms:
+= (p^2 + q^2) * (r^2 + s^2)
+= (pr – qs)^2 + (ps + qr)^2 …………(1)
+= (pr + qs)^2 + (ps – qr)^2 …………(2)
+Some Examples are:
+
+        a = 5(= 1^2 + 2^2)
+        b = 25(= 3^2 + 4^2)
+        a*b = 125
+        Representation of a * b as sum of 2 squares:
+        2^2 + 11^2 = 125
+        5^2 + 10^2 = 125
+em>Explanations:
+a = 5 and b = 25 each can be expressed as a sum of 2 squares and their product a*b which is 125 can be expressed as sum of 2 squares in  two different forms. This is according to
+the Brahmagupta Fibonacci Identity and satisfies the identity condition.
+        a = 13(= 2^2 + 3^2)
+        b = 41(= 4^2 + 5^2)
+        a*b = 533
+        Representation of a * b as sum of 2 squares:
+        2^2 + 23^2 = 533
+        7^2 + 22^2 = 533
+        a = 85(= 6^2 + 7^2)
+        b = 41(= 4^2 + 5^2)
+        a*b = 3485
+        Representation of a * b as sum of 2 squares:
+        2^2 + 59^2 = 3485
+        11^2 + 58^2 = 3485
+        26^2 + 53^2 = 3485
+        37^2 + 46^2 = 3485
+Below is a program to verify Brahmagupta Fibonacci identity for given two numbers which are sums of two squares.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

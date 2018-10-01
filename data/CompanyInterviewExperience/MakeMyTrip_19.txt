@@ -1,0 +1,28 @@
+I recently got interviewed for MakeMyTrip for the Software Engineer full time position. There were in a total of 5 rounds.
+First Round (Online Coding + Aptitude):
+Firstly don’t expect the online interface to be friendly. There were 3 sections. First section was aptitude which had very very simple questions like addition, subtraction. Second section had a single coding question and the third section had 2 coding questions. All the three coding questions were basic DP and bruteforce. You just had to pass the hidden testcases taking care of the limits.
+1. Find the no. of trailing zeros in n factorial.
+2. Given an equation
+ 	Cukoo(n) = Cukoo(n-2)*2 + Cukoo(n-1) -3 (something like this)
+ find Cukoo(n) for a given large input.
+3. Don’t remember.
+Second Round (Technical Interview):
+The interviewer went through my resume and asked several questions from it. He took one of my projects and had a long discussion over it. Also he asked me to write a few functions that I had used in it.
+Then he asked me several questions:
+1. Given 2 trees, find if one tree is a subtree of other. Write complete code explaining your approach.
+2. Given two functions of which one function prints the series of odd numbers (like 1 3 5 7 …) and the other prints the series of even numbers (like 2 4 6 8…). How will you use these two functions to print a consecutive number series i.e., 1 2 3 4 5 6…. I used monitors(semaphores) and he was convinced.
+Third round (Technical Interview):
+The interviewer was very friendly.
+He asked several questions:
+1. What is diamond problem? How do you deal with it (both in c++ and java)? Then he discussed about multiple inheritance in c+ and java.
+2. Questions on polymorphism, virtual class, etc. What is vptr? Again a long discussion over the properties of classes and objects.
+3. Implement strcpy and strcmp functions of C with all the corner cases covered.
+Fourth round (Technical Interview):
+1. What are ACID properties? How are they implemented? How are all the 4 properties taken care of in the real-time applications?
+2. What are threads? What is the difference between a thread and a process?
+3. Find cycle in a graph. Compare different approaches. He was very particular about the DFS approach.
+4. Given a grid representing a maze, find out if there is only a single path to enter the maze and exit. You can view the problem as to check if there are exactly two points on the outer boundary of the grid and there is exactly one path connecting these two points.
+Fifth round (HR):
+General questions starting with the traditional “tell me about yourself”. 
+Thanks to geeksforgeeks for helping me in my journey. 
+

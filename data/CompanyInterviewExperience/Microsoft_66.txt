@@ -1,0 +1,31 @@
+I applied to Microsoft through referral program for full – time position of software development engineer. All of the candidates who applied through referral were invited for an online coding test on co-cubes platform after 2-3 weeks.
+Three questions were given in 75 minutes of time to solve. Solving on co – cubes platform is a nightmare by the way, no auto – completion, cannot even copy – paste or test your code manually.
+The system testing of solutions was done after your submission of all 3 questions, and result is not shown to you (whether all 3 went correct or not). You were however given a very weak test case on co-cubes to check your solution, which easily showed false positive.
+You have to solve ALL 3 questions to qualify this round.
+All students who qualified coding round were invited to Microsoft Hyderabad for further interview process.
+Around 150 students appeared for group – fly round. It was a pen – paper test. We were provided with only one question, to be solved in 45 minutes.
+We have to write the whole program from input to output, along with some test cases (They wanted to test your program testing skills for corner cases). You are allowed to use any language.
+Note : – Judging criteria was correctness of the code than anything else. Try to write clean code as possible and use meaningful variable and function names. People who had correct running code (Even in exponential time complexity for DP) were selected than faster codes with errors.
+Nearly 30 – 35 students were selected for next round.
+Interviewer first thoroughly went through my resume. He was impressed with my competitive coding profile, and then asked me to explain one of my project. He then asked me two algorithmic questions.
+The interview went for around one hour.
+This was the hardest interview round. Interviewer literally asked me everything under the sun.
+Interviewer first asked me to introduce myself, as she went through my resume. She inquired about my competitive programming profile, and my hobbies. I was asked few OS questions on multi – threading and it’s real – life implementations. Afterwards, I was provided with a design problem,
+She then noted down four sectors from my resume, namely, data structure and algorithm, programming language (C++), DBMS and Client – side scripting, and then asked me to rate myself in all four.
+Firstly, she started basic questioning like, “what is a tree”, and progressed to BFS & DFS, their algorithm, uses and where one is preferred over another. This lead to thorough discussion on Dikstra’s shortest – path algorithm. Underlying reasons was to check your in-depth knowledge.
+After DSA, discussion moved to C++, pointers, their uses and difference between struct, class and their pointer handling. Discussion went around OOPS concepts like polymorphism, function overloading and overriding.
+She then proceeded with networking questions. This discussion went on like a recursive DFS, as everything we discussed, lead to some other topic. Few topics and questions I remember were, “What is a IP”, “Why a machine needs a IP”, “What is a static and dynamic IP, and when one is preferred over another”, “Firewalls”, “Encryption Methods / Cryptography”,  “about HTTP and HTTPS protocol” and thorough questions on “Client – side & Server – side scripting”. Discussion also veered to off-topic questions like, we have to design a robot / system which recognises emotions by voice, how & what parameters will you use to do the same ?
+Finally, we finished discussion on networking, and she asked me two simple DBMS SQL queries, one being “print the second largest number in the table”.
+This interview went around for more than one and half hours. Interviewer was very helpful and friendly, and gave hints whenever I was stuck.
+Note : –  Do not panic if you are stuck, or not able to answer. Be honest to what to do or do not know. If the question is factual, you can admit you don’t know, rather than blabbering non – sense. However, for thinking / brainstorming questions, it is better to be persistent and go on trying.
+
+Now, only 10 – 12 students were remaining. Few people had a HR round for this, few didn’t even had this round. Mine was technical round.
+My interview was taken by a senior person. He asked to me introduce myself, and then proceeded to ask about all my projects. Throughout the interview, he listened without cross – questioning me. After that, he asked if I had any questions for him. I asked few questions and it was over.
+Final Result was declared within half and hour, and 9 people were selected at last. Fortunately, I was one of them.
+The total interview process took nearly 11 hours.
+ADVICE :-
+Clear concept of data structure and algorithm is necessary, alongside knowledge of OOPS concepts, OS and DBMS. Project’s are also necessary, and having some interesting projects surely attracts curiosity of the interviewer. It should be kept in mind they look for a balanced candidate with knowledge in different fields.
+During interview, keep on communicating with the interviewer, be curious and cross – question them.                                        
+
+
+

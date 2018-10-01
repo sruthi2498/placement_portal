@@ -1,0 +1,19 @@
+
+Array classes are generally more efficient, light-weight and reliable than C-style arrays. The introduction of array class from C++11 has offered a better alternative for C-style arrays.
+This function is used to set a common value for all the elements of the array container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It throws an error if the assignment operation throws some error.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:
+This function is used to swap the contents of one array with another array of same type and size.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It throws an error if the array are not of the same type.
+2. It throws error if the array are not of the same size.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:

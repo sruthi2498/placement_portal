@@ -1,0 +1,59 @@
+Hiring event in Delhi for Amazon Bangalore. First was written programming test and we needed to write full working code without a single bug. Guys please focus more on written, sometimes we don’t take this serious and write code with many bugs. 
+Written Round: 
+Write most optimized solution for all problem.
+1. Check a linked list is palindrome or not.
+2. Search an element in a row and column wise sorted matrix. 
+3. Number of bits we need to flip from A to get B. 
+Problems are easy and can be solved if you have practiced for sometime from geeksforgeeks but the major part was writing clean and bug free code with most optimized solutions.
+
+F2F – 1 
+After clearing the written round I went for first F2F round.
+1. There is one class which has private array list and this array list is initialized in constructor of this class.
+We have one public method getItem(int i) { ” return ith item of array list” }, We need to know the size of array list. We can only call getItem method.
+https://ideone.com/VaE0QL
+Please check the above code for more details. 
+2. Search an element in a BST. 
+3. Given a set of time intervals in any order, Print all the pair of overlapping intervals .
+4. My college project was on RTOS (Real Time OS) and interviewer also did the same project when he was in college , so we had lot of discussion on project. 
+He was very impressed.
+
+F2F-2 
+Here is F2F round 2 where I was not able to give optimized approach for the first problem.
+1. Given a string and he asked me to find Longest Repeated Substring in the given string. 
+2. Given a mXn matrix with no obstacle and we can move in right or down direction. Count the no of paths to reach from top left cell to bottom right.
+I gave recursive solution with 2^n complexity and then optimized the solution using memoization. 
+3. Create sorted list of all unique partitions of given number 5 = { {4, 1}, {3, 2}, {3, 1, 1} …. }
+https://www.geeksforgeeks.org/generate-unique-partitions-of-an-integer/
+This round didn’t go well and I was praying L Finally HR came and said you haven’t performed well in this round so you will have another technical round and I was like “ok no problem”.
+
+F2F – 3
+Finally last round of the day and I knew I have to perform well otherwise I have no chance. 
+1. You are given a dictionary and a string. You need to check the string is valid (exist in given dictionary) or not, if its not valid then perform one of the three operation (Insert , remove , replace) on string and get a valid string. We need to find another string which has One edit distance with this string.
+Interviewer asked me about the data structure used to implement the Dictionary. I suggested Trie for dictionary. After some discussion he asked me to write code for insert in Trie and for the above problem.https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
+2. How to implement Trie. Space optimized version.
+This was part of 1st problem and we had discussion on space of a trie when we have 500-600 characters in some language. I suggested HashMap instead of using static array in Trie. And then he asked me to write structure and Insert method. 
+3. Max sum tree . every node has its value plus maximum of left and right sub tree sum.
+Expected time complexity O(N).
+After this round HR told me to leave for the day and I will have one more technical and one Hiring manager round.
+I was happy that I completed all the round. 
+4. Find maximum sum rectangle in given matrix. 
+
+F2F – 4 (Technical plus behavioural)  
+1. Find the maximum element in an array which is first increasing and then decreasing. 
+2. Project discussions.
+3. Anything that you have done out of your responsibility.( In technical part )
+4. Any situation when your manager really appreciated your work.
+
+Telephonic Round with hiring manager. 
+This was my last round of the process and it was with hiring manager.
+1. Tell me about yourself.
+2. Your day to day work at current company.
+3. Discuss any project which.
+4. Any disagreement movement with your manager.
+5. Why Amazon? and why are you leaving current company?
+Guys prepare hard for behavioural questions, these questions are asked to know the person.
+Then 2 easy programming questions but again the measuring part was code and the way we explain our solution.
+1. Check a string is palindrome or not.  
+2. Count no of words in a string. 
+He asked me to write test case for both the problem. 
+

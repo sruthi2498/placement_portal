@@ -1,0 +1,10 @@
+Given a number, find minimum sum of its factors.
+Examples:
+
+To minimize sum, we must factorize factors as long as possible. With this process, we prime factors. So to find minimum sum of product of number, we find sum of prime factors of product.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

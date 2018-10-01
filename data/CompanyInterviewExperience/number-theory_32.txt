@@ -1,0 +1,38 @@
+Given a and b, find the ceiling value of a/b without using ceiling function. 
+Examples:
+The problem can be solved using ceiling function, but the ceiling function does not work when integers are passed as parameters. Hence there are following 2 approaches below to find the ceiling value. 
+Approach 1: 
+ceilVal = (a / b) + ((a % b) != 0) 
+a/b returns the integer division value, and ((a % b) != 0) is a checking condition which returns 1 if we have any remainder left after the division of a/b, else it returns 0. The integer division value is added with the checking value to get the ceiling value.   
+Given below is the illustration of the above approach:
+
+Run on IDE
+Run on IDE
+# Python3 program to find ceil(a/b)
+# without using ceil() function
+import math
+# Driver Code
+# taking input 1
+a = 4;
+b = 3;
+val = (a / b) + ((a % b) != 0);
+print(“The ceiling value of 4/3 is”,
+                   math.floor(val));
+# example of perfect division
+# taking input 2
+a = 6;
+b = 3;
+val = int((a / b) + ((a % b) != 0));
+print(“The ceiling value of 6/3 is”, val);
+# This code is contributed by mits
+Run on IDE
+Run on IDE
+Approach 2:  
+ceilVal = (a+b-1) / b 
+Using simple maths, we can add the denominator to the numerator and subtract 1 from it and then divide it by denominator to get the ceiling value.
+Given below is the illustration of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

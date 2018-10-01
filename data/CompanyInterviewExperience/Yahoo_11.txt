@@ -1,0 +1,22 @@
+A surpasser of an element of an array is a greater element to its right, therefore x[j] is a surpasser of x[i] if i < j and x[i] < x[j]. The surpasser count of an element is the number of surpassers. Given an array of distinct integers, for each element of the array find its surpasser count i.e. count the number of elements to the right that are greater than that element.
+Examples :
+
+ 
+Method 1 (Naive)
+The naive solution would be to run two loops. For each element of the array, we count all elements greater than it to its right. The complexity of this solution is O(n2)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)
+Method 2 (Uses Merge Sort)
+For any element of the array, we can easily find out number of elements to the right that are greater than that element if we know number of elements to its right that are less than that element. The idea is to count the number of inversions for each element of the array using merge sort. So, surpasser count of an element at position i will be equal to “n – i – inversion-count” at that position where n is the size of the array. 
+We have already discussed how to find inversion count of complete array here. We have modified the discussed approach to find number of inversions for each element of the array instead of returning inversion count of whole array. Also, as all elements of the array are distinct, we maintain a map that stores inversion count for each element of the array.
+Below is C++ implementation of above idea –
+
+Run on IDE
+
+Time complexity of above solution is O(nlogn).

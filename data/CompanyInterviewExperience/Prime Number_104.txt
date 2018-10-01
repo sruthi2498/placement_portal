@@ -1,0 +1,10 @@
+Given a n-digit number. Prime point is the index of the digit whose left and right side numbers
+are prime. Print all the prime points of the number. If no prime point exists print -1.
+Examples:
+
+Algorithm
+Prime number checking is based on optimized school method
+Run on IDE
+Run on IDE
+Run on IDE
+

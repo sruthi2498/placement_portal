@@ -1,0 +1,36 @@
+Round 1
+Online round comprises 4 sections:
+Each section had its own individual time constraints.
+The coding question asked to me was given a string remove vowels which are alone and not those which are together.
+Example :
+cat->ct
+root->root
+rattle->rttl
+repeat->rpeat
+a->null
+aaaaa->aaaaa
+Others were asked:
+Saddle point but only for 5X5 matrix
+Sorted Insert in CLL
+26 students out of 86 were shortlisted for the pool. Solving the coding question correctly was not important. What matters is your final marks.
+Round 2
+This was a group discussion round. The main aim of this round was to check if students can communicate clearly in English. The topics asked were simple and about 40% of people got selected per group of 16 students. My group’s topic was Job vs Entrepreneurship Even if some students could not make through, they were shortlisted on the basis of their CV.
+Round 3
+This was a technical round. The interviewer asked me to introduce myself. Then he went through my CV and started asking questions based on it.
+What is StackOverflow? How is it different from Quora?
+My resume had Git/Github in the skills section. He asked me what Git is, its need, how it is different from GitHub, what is open source software, which company recently acquired GitHub and for how much etc.
+Then he asked me why I was doing android app development while most of my classmates were doing Machine Learning.
+After this, he asked what is the latest version of Java, who owns Java, for how long have I been coding on Java, what other languages do I know etc.
+Then he started asking me questions from DBMS. What is the difference between DDL and DML? What is the difference between DROP and DELETE?
+Then he asked me about NoSQL databases. How are they different from SQL? My app had Firebase as NoSQL database why did I choose it? Name a few NoSQL databases. What is CRUD? What is BASE?
+Then he took me to another interviewer and both of them started taking my interview.
+He asked me how do I authenticate email in my app. How to check if a email id is correct? He then asked to write code on overloading and overriding. Then he asked me if the superclass method is declared public then whether the overriding method in the subclass can be either private or protected and vice versa. What is the static keyword? Can a static function be overridden?He then started asking me about hashing its implementation in Java. Discussion on HashSet. He was consistently asking me, “Are you sure?”, “Is it right?” etc. to check if I was confident with my answer.
+He asked me a coding question Reverse a number Then I solved it and told him that it was a very easy question and persuaded him to ask me a tougher one but he did not.
+Finally, they asked me if I had any questions. I asked them what were they expecting from a candidate since my interview was not based on something specific. They told me they needed a well-rounded candidate. I asked what is the use of Java in Yodlee.
+I was directly shortlisted for the HR round since my interview went very well. Most others had to face two technical rounds and some even had to face even three. They did not give anyone a benefit of doubt.
+Round 4
+The interviewer asked if why I selected engineering, why NIT Jamshedpur, my rank in JEE Mains & Advanced, placement rules in my college, my hometown, parents, siblings etc; if I will have trouble reallocating to Banglore. He saw my project and asked why I thought to make it. He asked to tell him something which was not in my CV. I told him my strength and weaknesses. He asked me to tell an incident to justify it. I made up a story on the spot but he asked if I was lying. I told yes. He appreciated me for my honesty. He asked about my hobbies, why I wanted to join Yodlee, what do my friends think about me. Then he asked me If I had any questions. I asked what should I do in my final year so that I will get an edge when I join Yodlee.
+RESULT: Two students(one of them was me) were selected from NIT Jamshedpur and 4 from IIEST Shibpur.
+Tips specifically for Yodlee:
+Hope you do well! Best of luck!
+ 

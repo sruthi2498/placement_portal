@@ -1,0 +1,30 @@
+Quikr came to our college for associate software engineer profile. CSE EEE IS and ECE were the eligible branches.
+Round 1:
+It was a pen and paper round.There were questions from basic computer science subjects like C C++ DBMS OS and automata theory.There were 30 questions to be answered in 45 mins.The difficulty level was easy to  moderate.There were 2-3 basic aptitude questions as well.The questions were just to check if the student is familiar with basic computer science concepts.They shortlisted 20-22 students after this round.Those who answered 18-19 questions got through.I was one of them.
+Round 2:(Technical interview 50 mins)
+The technical interview started with the interviewer asking me to introduce myself which i did well.He immediately switched to my technical interests.Seeing a DBMS project in my resume he started asking DBMS.He told me to give a brief introduction to the project(did not go deep in the technical aspects.)
+1.Told me to design a basic BookMyShow application.He told me to draw tables containing list of movies in a city and a table containing theaters.He than asked me to mention the primary keys.He wanted to know if i had any row to link the tables.It took me 2-3 mins to come up with tables as per his requirements.Here knowing the requirement is the key.If we are smart enough we can get  enough information out of him which helps in designing.He asked 2-3 simple queries.They were basic join operation queries.I used nested query in one question and he asked if it can be done using join.I came up with join solution as well.At the end he seemed satisfied with my explanation.
+2.He switched to my next project which was basically a hardware project.It was mainly on internet of things.He asked me general questions regarding IOT. (what is IOT?why IOT?).He told me to explain the project and asked me the most difficult task to complete the project.I answered him confidently.I even wrote a small piece of code of my project.He was happy with my explanation.
+3.He asked me my favourite subject.I told Data Structures.He asked me to write the code for reversing a link list.I wrote it immediately without any error.He asked me to compare arrays and linked list. While explaining i used the term locality of reference.He asked me to explain it in detail.He then asked me to explain memory hierarchy.He came back to data structures and asked about trees.Why do we use trees?asked me write a code for Level order traversal and asked to make some subtle modification to make it work for couple of more situations.I did it with some hint from him.He seemed happy and asked me if i had any questions.I asked him regarding the projects company is taking.He answered my question.In this way i was done with round 1 interview.
+Round 3:(Technical interview 1 hour)
+8-9 people got selected for second round.I went for my interview and was asked to wait for  couple of mins as the interviewer was busy with something.He finished off and started with my projects.I was asked similar questions regarding project which i answered well.
+Then suddenly out of nowhere he asked me my hackerrank rank.I said i do not do it regularly but sometimes for practice.
+He asked if i know java or javascript to which i said NO.
+He asked me if i know php and i said NO.
+Then he asked me a designing question.
+He said me to imagine a 10th class geometry problem which is given in English language and i had to convert it into a figure.Basically come up with a module to draw the figure from the question.He wanted to test my OOPS concepts.
+1.I told him how will i trace the question by considering it a string.
+2.To search for keywords(circle,square,tangent)using basic searching techniques.
+3.he asked me to write function prototypes.
+4.finally asked me to come up with a class to link all functions.
+5.Asked me to show how i can use polymorphism and inheritance to improve my module and then asked me to explain  all these terms.This discussion went for 20-25 mins.
+He wrapped up with a coding questions where i was to asked write a code to reverse individual words of a string.
+eg:- I love my country.
+output:-I evol ym yrtnuoc.
+I wrote an error free code covering all corner cases.He was satisfied.
+He then himself talked about the company.I took keen interest and asked him several questions.The discussion went on for 10 mins.He then asked me to wait outside for results.
+Round 4:(HR 15-20 mins)
+I was called for the HR round.This was the best round.He asked me how  was my day? i said it was good and i enjoyed it.(never say it was tiring or hectic.)He asked me about my family friends and my college.What i like about my college and what i do not.He told me to talk about my non technical interests.He then asked me about my hometown.
+Then the most common question.Why do u want to join the company?Always look to praise the company.A diplomatic answer is expected.Then he told me about the company.I asked a few general questions. He then greeted me and told me to wait outside for results.
+Finally they selected 5 people from our college and i was one of them.
+Being honest is the key to success.We should never lie regarding our technical knowledge.Ask relevant questions as it leaves a positive impression.Finally luck matters in selection so always give your best shot and hope for the best. Thank you!

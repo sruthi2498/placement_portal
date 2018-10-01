@@ -1,0 +1,27 @@
+I interviewed with Amazon, Hyderabad. Interview was in October, 2014. I was 4 months experienced, and was applying for SDE-1 position.  
+I had 4 interviews, and my experiences are as follows. 
+1st Round
+Q1 – Clone a graph. ( Similar Question -> https://www.geeksforgeeks.org/clone-linked-list-next-arbit-pointer-set-2/)
+Basically while cloning, when you create a new node in the cloned graph, have a hashmap which maps the old node to new node.
+So in the hashmap key = old node, value = new node. 
+Q2 – Given an array of numbers, for each number print the first number to it’s left which is greater than the current number. 
+2nd Round
+Q1 – Find the row number according to the excel nomenclature –> (the opposite of this, https://www.geeksforgeeks.org/find-excel-column-name-given-number/) 
+Q2 – Find the number of islands in a 2d Array -> https://www.geeksforgeeks.org/find-number-of-islands/ 
+3rd Round(Hiring Manager) 
+Q1 – Given a number in words, print the number. 
+There were a lot of edge cases, and discussion with regards to this. ( I took a lot of time and the manager did not seem to pleased. 🙁 ) 
+Q2- In a sorted array, find two numbers who’s difference is k. 
+https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
+A lot of questions as to Why Amazon, Why do you want to leave so early. 
+4th Round(Bar Raiser) 
+Q1 – Given a sorted array find a number. (Simple Binary Search)
+Now consider repetitions and find the left most occurrence. (Binary Search to first find number, then again Binary Search to find left most occurrence)
+Similarly find the right most occurrence. (Binary Search to first find number, then again Binary Search to find right most occurrence)
+Now using the above two functions, find the number of times the element is present.
+Note – Cases like where number is NOT present, 
+Q2- Assembly Line Scheduling. (Very Simple DP.)
+https://www.geeksforgeeks.org/dynamic-programming-set-34-assembly-line-scheduling/
+Result
+After three weeks, I got a generic email saying that I could not clear it. I had a really irresponsible recruiter who did not have the courtesy to give me a call and just convey some feedback. Eventually, I think I took too much time with the first question in the manager round. 
+

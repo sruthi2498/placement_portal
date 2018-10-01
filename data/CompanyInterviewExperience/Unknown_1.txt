@@ -1,0 +1,25 @@
+Company’s Background : The company is recently funded startup  and their main focus is on sustainable energy.
+Round 1 : Telephonic Interview (about 30 minutes)
+The interview began with a formal greeting and a brief introduction about the company, which as always before any interview you should already have a good idea about (That’s your Homework before you even think about preparing for the interview). I knew about the company but I didn’t interrupt the interviewer as he was really excited in telling me about it.
+I was asked in details about the projects I’ve done and also about the experience I have had in this domain.
+I described in detail about what I’ve made till then. I recently started development in Android so I didn’t have much in my arsenal. I made a Drink(Water) reminder app, a clock app, an apk converter and a gym fitness app. I told him about every app in detail and he asked me a few questions in between about some functionality of the apps.
+Then he said he will be asking some basic Android and Java questions.
+Q-1 : How’s the following described layout will be made? A single row with “Name” on the left and “College” on the right and an explicit divider on the bottom.
+Ans : A horizontal linear layout nested inside a vertical linear layout.
+Q-2 : How can the divider be implemented aside from the default provided by the Recycler and List Views?
+Ans : 
+Q-3 : Fragment lifecycle methods or what are the methods that fragments have that an activity doesn’t?
+Ans : Fragments also have onAttach() and onDetach() methods.
+Q-4 : How recycler view works?
+Ans : Google’s Documentation
+Q-5 : continuing the previous one… What layouts the Adapter offer?
+Ans : Linear Layout, Grid Layout and Staggered Layout
+Q-6 : What are call back methods?
+Ans ; The concept of callbacks is to inform a class synchronous / asynchronous if some work in another class is done. Some call it the Hollywood principle: “Don’t call us we call you. In simple words if a class needs to tell other class then it can be achieved by the callback method.
+super method in many default methods are a callback method to the superclass of the aforementioned method.
+Q-7 : What’s the difference between defining and declaring a variable?
+Ans : Declaring a variable does not allocate the memory to the variable, it just states that the variable exists, whereas defining a variable  also allocates the memory to the  variable.
+Q-8 : How to add and remove data from a List in android?
+Ans : For adding elements dynamically, we should use ArrayList. It has pre-defined methods to add and remove data.
+ 
+And then our interview ended with a Q&A round from my side.

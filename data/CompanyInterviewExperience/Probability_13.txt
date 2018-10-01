@@ -1,0 +1,8 @@
+Given a Binary Tree with children Nodes, Return a random Node with equal Probability of selecting any Node in tree.
+Consider the given tree with root as 1.
+Examples:
+A simple solution is to store Inorder traversal of tree in an array. Let the count of nodes be n.  To get a random node, we generate a random number from 0 to n-1, use this number as index in array and return the value at index.
+An alternate solution is to modify tree structure. We store count of children in every node. Consider the above tree. We use inorder traversal here also. We generate a number smaller than or equal count of nodes.  We traverse tree and go to the node at that index. We use counts to quickly reach the desired node. With counts, we reach in O(h) time where h is height of tree.
+We start traversing the tree, on each node we either go to left subtree or right subtree considering whether the count of children is less than random count or not.
+If the random count is less than the count of children then we go left else we go right.
+Below is the implementation of above Algorithm. getElements will return count of children for root, InsertChildrenCount inserts children data to each node, RandomNode return the random node with the help of Utility Function RandomNodeUtil.

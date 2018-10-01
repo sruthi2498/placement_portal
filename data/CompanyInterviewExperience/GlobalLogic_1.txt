@@ -1,0 +1,28 @@
+Global Logic organized off campus recruitment. It organized in three rounds.
+Round 1:  It contained aptitude and technical sections. It is to be done in 2 hours. Test round was organized by hackerearth. In first section, it contained 40 questions of aptitude questions. In second section, it contained three programmings questions. One program was related to array arrangement.
+1) Rotate elements of array by k steps in clockwise direction.
+input: [1, 2, 4, 5, 6, 7, 8]  and k=3
+output: [6, 7, 8, 1, 2, 4, 5]
+Solution:  You can do it yourself. Note that you could do efficient in memory. you need to take extra memory. you store element after k cell while getting the elements of array. After storing the n-k elements, rest of elements can store on first k cell of array.
+2.) Adding the user in database (i.e. set) if that user was not present in database (i.e. set) then print ‘yes’ or if user existed in database (i.e. set) then print ‘no’.
+input: 5
+rahul rahul ajay mohan ajay
+output: yes no yes yes no
+Solution: You can do this using set.
+3.) Find nth number from a generated set of numbers (sorted set) where each number was divisible by given two numbers ‘a’, ‘b’ or both.
+input contains a, b or n.
+input: 2 3 10
+output: 15
+Solution: set of numbers where each divisible by a=2, b=3 or both is 2, 3, 4, 6, 8, 9, 10, 12, 14, 15, … so 10th number is 15.
+It was enough to solve atleast one program.
+Round 2: It was technical interview round. Interviewer asked from your preferred language. He asked “introduced yourself, which project had done in your academic”. I chose core java. He asked about oops concept, abstract class, what is fully abstract class, difference between interface and class, what is inheritance and write simple program of it. He gave me two programs. one question was, you have two sorted arrays and you have to merge both arrays in such way that resulted arrays be sorted. This was kind of merge sort step. Other question was,  insert a new number in array. He wanted to test your mind about you would consider the overflow case of array or not. After that he asked, “what it is database” and some queries of mysql. After asking around 3 or 4 question of MySQL. He told me to wait for HR round.
+Round 3: It was HR round. He asked following questions.
+1.) Introduce yourself.
+2.) What do you know Global Logic?
+3.) Let’s suppose you have joining offers from Infosys and Global Logic, which will you choose and why?
+4.) What is oops?
+5.) What is database?
+6.) How will you illustrate the database to one who is 60 years old?
+7.) Where do you see yourself after 10 years.
+Round 4: It was manager round.
+If you find any errors then let me know.

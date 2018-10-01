@@ -1,0 +1,133 @@
+Round 1(2 hrs):
+It had two sections:
+	1. 50 Mcqs in 60 minutes. The questions included were related to networking, OS, quantitative aptitude, c, c++, oops.
+	2. 2 Coding questions in 60 min.
+		i. Given some variable number of positive and negative numbers in some random order and n . Find the nth largest number.
+		ii. Given two integers n and m. Find the longest contiguous subset in binary representation of both the numbers.
+			Ex: n and m are 10 and 11. Their binary representation is 1010 and 1011. Longest contiguous substring in both is 101 and the longest contiguous subset is the value of 101 which is 5.
+Round 2(Around 1.15 hrs):
+This was a technical round. It had questions related to my projects, xml, javascript, c++(mainly virtual concepts and oops), OS, networking, data structures, algorithms, network security, web services, puzzles. 
+xml
+1. What are the two types of xml parsers?
+2. What will happen if the text node contains an ‘&’ symbol in xml?
+3. What is cdata type node in xml?
+4. What is DOM?
+javascript
+5. How do you create objects in javascript?
+6. What are the types of inheritance in javascript?
+7. What is JSON?
+oops and c++
+8. What is inheritance, polymorphism?
+9. How is run time polymorphism achieved in c++?
+10. What is the size of an object of empty class in c++?
+11. Does virtual table affect the size of the object in c++?
+12. What are default arguments? Why are they used?
+os
+13. What is virtual memory? Why is it required?
+14. What is a process?
+15. How does the mapping of logical address space to physical address space happen for a process?
+16. What is paging? How is it implemented?
+17. What is re-entrant code?
+18. What is a thread? Why is it required? Some discussions about it.
+computer networks
+19. What happens when you type www.google.com in the browser tab?
+20. What is ARP? What does it do?
+21. Where is ARP table stored?
+22. Considering you’re in a different network from google’s network, your request packet while at the sending host will have the destination mac address as mac address of what network element in your network?
+23. What are the OSI Layers?
+24. Name at least one protocol in each of the layers of internet protocol stack?
+25. What is subnet? IP address?
+26. Given an ip address, how do u identify what subnet does it belong to?
+27. What is CRC? Explain how is it used in error detection?
+28. What is routing? What are the different routing algorithms?
+29. Link state algorithm uses which algorithm to find shortest path? What does distance vector algorithm use to compute new vectors?
+30. How does TCP ensures reliable data transfer?
+data structures
+31. What are the standard stack operations?
+32. Given a infinite stream of numbers along with whether the numbers are pushed or poped from the stack, give the largest element in the stack at any point in time with time complexity O(1) for each of the operations and O(N) extra space complexity.
+algorithms
+33. What are all the sorting algorithms u know and their time complexities.
+34. Explain quick sort with example?
+other
+35. What is symmetric and asymmetric encryption?
+36. What is digital signature?
+37. What are the differences between SOAP and REST web services
+puzzles
+1. 100 prisonors with Red/Black Hats?
+	Reference: https://www.geeksforgeeks.org/puzzle-9-find-the-fastest-3-horses/
+2. Find the fastest 3 horses.
+	Reference: https://www.geeksforgeeks.org/puzzle-13-100-prisoners-with-redblack-hats/
+Round 3(Around 45 minutes):
+This was also a technical round. It had questions related to my projects, OS, networking, algorithms and some general hr questions(I thought this might be the last round because of these questions but i did’nt know more rounds were coming).
+He started asking about the code I had written for the 2nd coding question in the Round 1. I had done brute force and i explained to him. He said optimize it. Then i told some optimization which was incorrect. He only made understand what was wrong in that.
+Then i said solution using Dynamic programming.
+algorithms
+1. Tell me any algorithm that has the complexity O(N), O(logN)? Explain why how those complexities are determined?
+2. What are the best and worst case time complexities of quick sort?
+3. Why quick sort has O(nlogn) complexity in the best case and and O(n^2) in the worst case?
+OS
+4. What is segmentation? paging? Explain in brief.
+5. What segments does an executable contain? When does stack and heap segments gets allocated for a process? How is the mapping done?
+Computer networks
+6. What are the differences between TCP and UDP?
+7. When is one preferred over the other?
+8. What is flow control? Explain how TCP provides flow control?
+9. How TCP ensures Reliable data transfer? Some discussions about cumulative acknowledgement, duplicate packets, duplicate ACKS, timers, buffering, fast retransmit. 
+Some general questions.
+1. What did you do in summer?
+2. Have you done any internships?
+3. What are your interests?
+Round 4(Around 1.5 hrs):
+This was also a technical round which apparently turned out to be hard for me compared to last rounds. But somehow i was able to make through it with clues/hints the interviewer was giving to me.
+Computer Network and security.
+1. What is IDS? How does SNORT work?
+2. What is DOS attack? Specifically, TCP syn attack?
+3. How do you uniquely identify a TCP socket at server host?
+4. How many no of simultaneous TCP connections can be established at most from a client host to a particular socket on the server host?
+5. To send simultaneously 1 million packets to some network (DOS attack), how many IP addresses are required minimum?
+6. What are the fields in the TCP segment?
+7. How a three way TCP handshake happens?
+8. Can the ACK packet in the 3rd step of handshake contain payload in the data field?
+9. Socket programming – How are sockets created and connection is established? Write the standard functions used in socket programming.
+10. Why client and server choose random initial sequence numbers? 
+Coding questions
+11. There is a n x n grid and an arrow at random cell whose position is not known and direction in which it is pointing is also not known. The arrow can be pointing in either of the four directions(top,right,bottom,left).
+There are three operations allowed:
+	i. goStraight() //moves the arrow to the next cell in whatever direction it is pointing.
+	ii. isWall() // returns true if the next cell is wall otherwise false.
+	iii. turnRight() // turns the arrow to its right direction.
+ Your Given an object which has some hidden methods which will randomly place the arrow in the grid and supports these 3 methods. You should traverse the entire grid i.e., all the cells but without traversing any cell twice using the given object.
+12. Snake and ladder game.
+You are given two lists of two tuples describing the initial and final positions of ladders and snakes. You need to find the minimum number of moves required to win the game.
+	Reference: https://www.geeksforgeeks.org/snake-ladder-problem-2/
+oops and languages
+13. What is virtual inheritance in c++?
+14. What are the major differences between c and c++?
+15. What are the differences between c++ and java.
+16. What is the difference macro and function? Can macro be parameterized? are macro parameters specified with data type?
+17. Implement oops concepts like encapsulation, inheritance, polymorphism etc., in C.
+18. Write a macro which computes the size of any given parameter like the sizeof operator.
+19. Given the following structure:
+	struct some
+	{
+		char c;
+		int i;
+		short s;
+	};
+	What is the size of the structure, assuming 32 bit architecture?
+OS
+20. does Unix implement demand-paging?
+21. How does a system call gets executed? Explain in detail.
+22. Difference between spin lock and semaphore?
+23. When is one preferred over the other?
+Round 5(Around 20 minutes):
+This was an HR round. It had some general questions like:
+1. Tell me about yourself.
+2. What are your areas of interest?
+3. Explain your project. Some discussions about it.
+4. Some questions about my family background.
+5. Where do you see yourself in next 5 years?
+6. Do you have any questions about Citrix?
+Finally, after an hour wait, I got an offer from Citrix. It was my first interview and it was a great experience.
+My suggestion for facing interview is know your subjects well conceptually, be proficient in at least one oops language and develop a good logical and analytical thinking.
+Thanks to geeksforgeeks for providing such a great platform to practice and learn various concepts.

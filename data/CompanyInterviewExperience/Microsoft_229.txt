@@ -1,0 +1,35 @@
+Microsoft visited our campus for hiring FTE’s and Interns. I had opted for both Microsoft IT and IDC. The first couple of rounds were online rounds and were hosted on Cocubes.com 
+Round 1
+It comprised of 15 MCQ Questions and time allotted was 30 mins. Every student had a unique set of questions which comprised of C,C++ (I/O), Data Structures, Java, and Aptitude. The questions required a decent amount of thinking.
+Round 2 (Online Coding)
+1. You are given a matrix of dimensions m*n where each cell in the matrix can have values 0,1 or 2 which has the following meaning :
+0:empty cell
+1:cells have fresh oranges
+2:cells have rotten oranges
+So we have to determine what is the minimum time required so that all the oranges will be rotten. A rotten orange at index [i,j] can rot other fresh orange at indexes [i+1,j] ,[i,j+1] ,[i-1,j] ,[i,j-1]. If it is impossible to rot every orange then simply return -1.
+This was to be done without allocating any extra space.
+2. Connect all leaf nodes of a binary tree to make a LL. (Without allocating any extra space for the linked list).
+Now, around 30 students were shortlisted for Microsoft IT and around 40 for IDC. There were some people who got short listed for both. I was lucky enough to sit for both of them.
+From here I will write the processes for IDC and IT separately.
+FOR IT
+Round 3(Group Fly Round)
+Some people who had a high score in the 1st and 2nd rounds did not have to appear this round. They were promoted for the next rounds.
+There were two questions.
+Discuss your approach with your mentors and be very clear about it. Write comments on the paper code.
+Round 4 (Technical PI)
+The interviewer was nice and made me feel extremely confident. He went through my resume and asked me a few basic questions on data structures that we use. Also know the efficiency of using each data structure and there pros and cons.
+He first asked me to write a code to implement the “Evaluate Function” of Microsoft Excel. I gave him the solution where we convert the expression from infix to postfix and then evaluate the postfix expression. However, I was aware that this solution would not work for 2 digit number (or results). So I suggested an improvement by taking input as a string and then converting the string into an integer. The interviewer was satisfied with the logic.
+He then asked me if I knew anything about encryption. Though I didn’t have a very clear idea but I told him about some ciphers that can be used.
+I had only one project on my resume. We had a 15 minute discussion of the challenges faced in making it and how it could be further improved.
+The interview lasted for around 40-45 mins.
+Round 5 (As Appropriate AA)
+Now people who did relatively well in the previous technical round qualified for this.
+The interviewer was again very warm. Though my CGPA was high, it kept decreasing every semester. He asked me the reason for this.
+Then we discussed about my experience and work at one of the earlier places that I had interned. And he asked a few other questions like “Why Microsoft? “ and “What I can do to improve Microsoft?”.
+Just be honest and confident about what you speak. And this round should go smooth.
+FOR IDC
+It followed a very similar structure like the IT interviews. The interviews here focused more on coding and databases. There were two Technical PI rounds instead of one after the group fly round.
+The question tested the fundamentals and data structures.
+There was a question on implementing a data structure to store a word along with all of its acronyms from a dictionary such that we can search it efficiently.
+Thanks to GeeksforGeeks for building such a repository. I have learned a lot from this forum in the last one year. Awesome platform. And I would urge others who gain from this platform to contribute their experiences as well.
+Cheers.

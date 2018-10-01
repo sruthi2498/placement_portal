@@ -1,0 +1,43 @@
+Amazon had visited our campus in August for hiring 6 months intern for final year and summer interns for pre final year (SDE-1). The drive comprised of one online round and maximum two F2F interviews
+ 
+Round 1 (online): The online round consisted of 2 coding problems and around 20 MCQ’s
+Problem 1 : https://www.geeksforgeeks.org/count-number-ways-reach-given-score-game/
+In the above mentioned link they have considered that order does matter but in the online round they had specified that order does not matter .
+Problem 2 : https://www.geeksforgeeks.org/length-smallest-sub-string-consisting-maximum-distinct-characters/
+31 students were shortlisted for further rounds.
+Advice : The problems that are asked in online round are not that tough, anyone with little bit of practice can clear it with ease . So keep practicing 😀 
+ 
+Round 2 ( F2F-1….100 mins ) :The interviewer was cool and he made sure that I was comfortable and then he started.
+He just had a look on my Resume and then started giving me problems
+Problem 1: Given M and N.Calculate the number of ways to form M digit number such that value at any digit can be at most N and value at current digit is at least twice the value at previous digit(The condition should be satisfied at every digit index, for example if M=3 and N=9 then 136 is a valid number and 135 is invalid)
+He said that N can be anything and the final number can contain more than M digits if you are thinking in decimal number system.Basically he wanted to say that don’t restrict yourself to decimal number system consider a ideal number system with maximum digit value N.
+Hint-Dynamic Programming.
+ 
+Problem 2: Given a number N (1<=N<=10^5) . Find out if N can be expressed in terms of a1^n1 + a2^n2 + a3^n3 + ……. +ak^nk ( a1, a2, a3…ak are bases and are >1 and n1, n2, n3…..nk are exponents and are >0)
+if yes count such sequences
+Hint – precompute all the powers and then apply dynamic programming
+ 
+Problem 3 : Given N points in 1-D plane (x -axis) with their co-ordinates and M boxes.Place M boxes (every box should be placed on one of the N points ) in such a way that the minimum distance out of distances of every pair of adjacent boxes get maximized ( i.e make minimum distance as large as possible )
+Hint-Binary search on answer
+ 
+I was able to solve all the above 3 problems but i found them very difficult . It took quite a bit of time and scratching of head to solve them. Interviewer was always supporting and he was motivating me to solve problem and he kept on giving me hints through out the interview.
+Advice- Be confident and take your time and keep on telling interviewer about what you are thinking and what your thought process is .He is more keen to see your thought process rather than your final solution.
+ 
+Round 3(F2F-2 ….. 50-60 mins): The interviewer was very chill .He just told me to assume as if I am giving an interview to one of my close friend.Then he started the interview
+ 
+Problem 1 : https://www.geeksforgeeks.org/shuffle-a-given-array/
+Problem 2 : https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+Problem 3 : https://www.geeksforgeeks.org/wildcard-pattern-matching/
+ 
+Then he shifted his focus towards computer science fundamentals . He asked me to explain normalization in DBMS and all the normal forms also.
+After this he asked me to explain how and why hashing is done ( a small discussion on it )
+then he asked me about Map and some STL function on about how they are implemented in c++  i.e internal working and a little code explanation of them
+ 
+In this round the interviewer was more sort of interested in my approach not the solution and he didn’t expected me to solve all the problems just was motivating me to approach nicely.
+Round 3 over . Now comes the best part . I was given SLI  ( 6 months intern )at Amazon India and my happiness was sky high.
+Final Advice – Practice makes a man perfect.Keep on practicing and your hard work will always be rewarded.You just have to be patient and confident.
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,8 @@
+Given a linked list, the problem is to delete all the nodes from the list that are greater than the specified value x.
+Examples:
+Source: Microsoft Interview Experience | Set 169.
+Approach: This is mainly a variation of the post which deletes first occurrence of a given key.
+We need to first check for all occurrences at head node which are greater than ‘x’, delete them and change the head node appropriately. Then we need to check for all occurrences inside a loop and delete them one by one.
+Run on IDE
+Output:
+Time Complexity: O(n).

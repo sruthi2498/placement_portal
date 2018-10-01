@@ -1,0 +1,13 @@
+Difficulty Level: Rookie
+Given a number n and a value k, turn of the k’th bit in n. 
+Examples:
+The idea is to use bitwise <<, & and ~ operators.  Using expression "~(1 << (k – 1))“,  we get a number which has all bits set, except the k’th bit.  If we do bitwise & of this expression with n, we get a number which has all bits same as n except the k’th bit which is 0.  
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Exercise: Write a function turnOnK() that turns the k’th bit on.

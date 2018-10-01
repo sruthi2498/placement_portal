@@ -1,0 +1,24 @@
+Find the sum up to n terms of the series: 1.2.3 + 2.3.4 + … + n(n+1)(n+2). In this 1.2.3 represent the first term and 2.3.4 represent the second term .
+Examples :
+Simple Approach We run a loop for i = 1 to n, and find the sum of (i)*(i+1)*(i+2).
+And at the end display the sum .
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Using Efficient Approach we know that we have to find = summation of( (n)*(n+1)*(n+2) )
+
+Sn = summation[ (n)*(n+1)*(n+2) ]
+Sn = summation [n3 + 2*n2 + n2 + 2*n]
+We know sum of cubes of natural numbers  is (n*(n+1))/2)2, sum of squares of natural numbers is n * (n + 1) * (2n + 1) / 6 and sum of first n natural numbers  is n(n+1)/2
+Sn = ((n*(n+1))/2)2 + 3((n)*(n+1)*(2*n+1)/6) + 2*((n)*(n+1)/2)
+So by evaluating the above we get,
+Sn = (n*(n+1)*(n+2)*(n+3)/4)
+Hence it has a O(1) complexity.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(1)

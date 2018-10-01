@@ -1,0 +1,37 @@
+Round 1: 
+It was a writen round with three questions :
+1. Find a row with maximum number of 1’s in a sorted 2D Boolean matrix.
+2. Find next greater element for every element of an array to its right in O(n).
+3. Convert a sorted array to binary search tree.
+Round 2:
+1. There is a linked list which is sorted based on their absolute values. Sort them based on their actual values.
+Eg.,   input :  1 -> -2 -> -3 -> 4 -> -5   output: -5 -> -3 -> -2 -> 1 ->4
+2. Reverse a linked list.
+3. Given a 1D array where each cell represents a toll gate ticket value. Find the minimum number of tickets needed to surpass the whole array (means till u reach the end of array) .
+If ticket value is 1 then u can pass that cell alone. If ticket value is 2 u can pass that cell and the next cell.. that is how ticket values work.
+Eg : Input :  3 1 5 4 1 1 1  Output :In this case if v  buy ticket from a[0] and a[2] meaning two tickets are enof to pass this array..  
+Round 3:
+Only one question was asked :
+1. Convert a BST to sorted doubly linked list without any extra space. (only ptrs to nodes should be created ,no new node creation is allowed.)
+Round 4:
+Telephonic Round:
+1. Tell me about yourself
+2. Print the boundary of a tree.
+3. There are billions of URL given. Come up with a efficient data structure  that returns ip address of these urls.
+4. Trie data structure
+I was asked to send the code snapshot within five mins after ending the call.
+Round 5:
+1. Tell me about yourself
+2. Projects and Internship
+3. Given a tree where each node has an additional ptr called “next” ptr. Initially this next ptr of every node is null. Write code such that each node’s next ptr should point to its next bfs node.
+4. Trending tab related question: Given a large stream of strings, return the top 10 most frequently occurring string . (Hash map + min heap of size 10 is the solution.)
+Round 6:
+1. Tell me about yourself
+2. Why do u like Database Mgt System (I had DB in my areas of interest)
+3. Design the backend of a social networking application (Eg : linked in)
+4. All OS related qns
+5. Network qns
+6. Oops concepts with real time examples.
+7. General technical questions.
+
+

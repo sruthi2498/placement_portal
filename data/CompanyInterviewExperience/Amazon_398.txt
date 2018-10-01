@@ -1,0 +1,23 @@
+Firtst Round: 20 mcqs from quants, os, data structures. they were easy. 
+2 programming questions to be solved in hackkerrank.
+First: some people are standing in a queue and only even people are selected. Again out of these only even people are selected.This happens until we are left with one.
+Find out the position of that person in the original queue.
+second: We have to find the longest possible interval that can be formed by combining certain overlapping or constituent events from the given intervals.
+people who solved one question were selected to the next round.
+
+Second round: 
+1. find the area of largest possible rectangle from the given histogram.
+2. print the boundary leaves of a binary tree.
+some 20 odd people were selected.
+Third Round: Technical Interview.The interviewer is my college pass out. He asked me about my projects very briefly. Then he asked two questions.
+1. Given a number give the count of all possible words that can be formed out of it taking the digits continuously. time complexity O(n).
+2. print the level order traversal of binary tree
+Fourth Round: Technical interview. three questions were asked
+1.find the maximum element in a sorted rotated array.O(logn)
+2.print all the pairs of numbers that sum up to K in a given BST. O(n)
+3. sort all the one’s and zero’s to opposite sides.O(n)
+Fourth round: basic questions on os,dbms, networks.
+Since I had some projects he asked me questions on cloud, and based on my answers the topic got drifted towards distributed computing, etc.
+Next round was HR interview.
+
+

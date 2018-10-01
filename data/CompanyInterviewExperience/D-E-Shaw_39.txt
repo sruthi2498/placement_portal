@@ -1,0 +1,12 @@
+Given a matrix where every element is either ‘O’ or ‘X’, find the largest subsquare surrounded by ‘X’. 
+In the below article, it is assumed that the given matrix is also square matrix. The code given below can be easily extended for rectangular matrices.
+Examples: 
+A Simple Solution is to consider every square submatrix and check whether is has all corner edges filled with ‘X’.  The time complexity of this solution is O(N4).
+We can solve this problem in O(N3) time using extra space.  The idea is to create two auxiliary arrays  hor[N][N] and ver[N][N].  The value stored in hor[i][j] is the number of horizontal continuous ‘X’ characters till mat[i][j] in mat[][].  Similarly, the value stored in ver[i][j] is the number of vertical continuous ‘X’ characters till mat[i][j] in mat[][].  Following is an example.
+Once we have filled values in hor[][] and ver[][], we start from the bottommost-rightmost corner of matrix and move toward the leftmost-topmost in row by row manner.  For every visited entry mat[i][j], we compare the values of hor[i][j] and ver[i][j], and pick the smaller of two as we need a square.  Let the smaller of two be ‘small’. After picking smaller of two, we check if both ver[][] and hor[][] for left and up edges respectively.  If they have entries for the same, then we found a subsquare.  Otherwise we try for small-1. 
+Below is implementation of the above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

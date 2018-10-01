@@ -1,0 +1,22 @@
+Given a string str, we need to find the no. of positions where a letter(lowercase) can be inserted so that string becomes a palindrome.  
+Examples:
+
+Naive Approach:This approach is to insert all 26 alphabets at every position possible i.e., N+1 positions and check at every position if this insertion makes it a palindrome and increase the count.
+Efficient Approach:
+    First you have to observe that we have to make insertion only at the point when the character at that point violates the palindrome condition i.e., . Now, there will be two cases based on the above fact:
+Case I: What if the given string is already a palindrome
+         Then we can only insert at the position such that the insertion does not violate the palindrome.
+           1) If the length is even then we can always insert any letter in the middle.
+           2) If the length is odd then we can insert the letter which is in middle, to the left or right to it.
+           3) In both the cases we can insert the letter which is in middle(let it be ‘CH’), at positions equals to:
+(no.of consecutive CH’s to the left of middle letter)*2.
+Case II:If it is not a palindrome
+          As mentioned above we should start inserting at position where , So we increase the count and check for the cases if insertion at any other position makes it a palindrome.
+           1) If  is a palindrome, then we can insert* at any position before  until ,   K in range .(*letter = S[N-i-1])
+           2.)If  is a palindrome, then we can insert* at any position after  until ,    K in range .(*letter = S[i])
+      In all the cases we keep increasing the count.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

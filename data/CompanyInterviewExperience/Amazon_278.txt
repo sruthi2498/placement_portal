@@ -1,0 +1,51 @@
+Amazon visited our campus for SDE_1. The entire interview procedure was divided into a coding round and a set of 4 face to face interview.
+Online coding round:
+It was a 90 minutes test with 22 questions(20 MCQs + 2 coding) set hosted on HackerRank.
+Coding questions:
+1. Reverse words in a string.
+Example: Let the input string be “i like this program very much”. The function should change the string to “much very program this like i”https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+2. Largest length of subarray with given sum.
+https://www.geeksforgeeks.org/find-subarray-with-given-sum/
+MCQs consisted of OS, Geometry, Basic Maths, C ,Recursion and such topics.
+Whoever solved atleast two questions were chosen for the interviews.
+
+F2F 1(Technical):
+He asked me about my Summer Internship Project at Microsoft India Development Centre, Hyderabad and asked me about several technologies involved in it and why I had used certain things.
+Then he moved on to two technical questions.
+1. Given a sorted and pivoted array, find an element given to you.
+I had given him a O(logn) solution with pivot finding and then doing binary search in either halves. But it was a O(logn) + O(logn), so he asked me to modify it to a one O(logn) question. After giving him the solution, he asked me to write production level code considering all corner test cases.
+2. Given a BST which consists of marks of students in a class. It is found that all even ranked students have cheated,so we reduce k marks from their score. Modify the BST to make the change of marks without considering that after this operation, the BST might not remain a BST anymore.
+I gave him a modified inorder traversal so that elements are sorted and solved it using a counter variable. He asked me to modify it to using neither a static counter variable nor a pointer passed to the recursive calls. For both questions, he also asked me the time and space complexity.
+F2F 2(Technical):
+He asked a very brief idea about my Summer Internship again. Then he asked me 2 questions again.
+1.Given a k sized window in an array,find max element in each window.
+https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/
+I discussed a lot with him as to which data structure could be used and finally came up with a Queue solution. I was asked to code it again considering all the corner cases.
+2.Implement a queue using stacks with the operations (Enqueue,Dequeue,IsEmpty,Size).
+While I was telling him the solution,he even asked me whether I would prefer Arrays or Linked List implementation when i make a normal queue.
+(Space and time complexity for both)
+
+F2F 3(Technical):
+He also asked me a brief introduction to my Summer Internship Project.
+He began with the pros of cons or arrays and linked lists. Then a question on arrays:
+1. Given an array with all even elements present even number of times except one which is present odd number of times. Find that element.
+I started with XOR solution, but he told me the OS doesn’t support XOR.So,I gave him a HashMap solution. He went on asking me to optimize further. So at the end I had a space complexity of O(k) where k= number of unique elements.
+Asked me the Space and Time complexity of the most optimized solution.
+2. Given four types of array  
+Find the type of array in O(1) and then find the maximum element in the array.
+Except case c, max element is O(1). For c, I gave binary search solution. he asked me to write the code considering the corner cases.
+F2F 4(Bar raiser):
+He asked me what my favorite subject was. I told DS,so he asked me from DS.
+1. Write a class of circular queue using array implementation with Enqueue and Dequeue member functions.
+2. Given a binary matrix( filled with 0 and 1 only) where 0 depicts water and 1 depicts land. We can traverse either up or down or left or right.Given a source and destination,find if we can reach the destination.
+He then modified it to finding the path followed and then the minimum path possible.
+(Code wasn’t required)
+3. Given a series of operations to build a project along with the time taken by each operation. Some operations are dependent on previous operations. Find the minimum number of days needed to finish the operation.
+I wasn’t very sure of the solution I was thinking,so he said it was okay and concluded the interview.
+Tips:
+1. Keep sharing your idea with the interviewer, he would help you a lot.
+2. Don’t give up, you might come up with a brilliant idea with a little more thinking.
+And do remember:
+“If it doesn’t end well then it probably hasn’t ended yet”
+I would like to thank all my friends for all the support and a special thanks to GeeksForGeeks for their awesome website. Cheers! 🙂
+

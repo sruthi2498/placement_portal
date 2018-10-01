@@ -1,0 +1,81 @@
+Total 52 students from CS, IT and ETC branch were shortlisted by the company (This was done according to CGPA).
+In total, four rounds were there.
+ROUND 1: Written Test
+ROUND 2: Technical Interview 1st phase
+ROUND 3: Technical Interview 2nd phase
+ROUND 4: HR round
+ROUND 1: Written Test (90 Min)
+1) There were three sections in the written test
+    a) Software
+    b) Digital
+    c) Analytical
+a) SOFTWARE: you will be asked to write algorithms, functions (in your preferred language) of questions related to Linked List, Tree, Bit manipulation, Strings, Dynamic Memory allocation.
+Few of the questions were:
+(*) Reverse the Linked List in size of 2 (Link).
+(*) Write the output:
+(*) A 2-D array M is given, where M[i][j] = 1 means that i is the parent of j. Construct a tree from the given array. (An array with an example will be given for clarification).
+(*) Reverse the words of a string in O(1) space.. For example: “i am a boy” should give the output as “boy a am i” .(note: it must be done in O(1) space) . (Link)
+(*) Two arrays of size m and n are given (m>>n). Write an algorithm to find the common elements in both of them. It should be an optimal solution. 
+(*) A number ‘n’ is given . Find the first greater and first smaller number than ‘n’ which has same number of ‘1’ bits in their binary representation. 
+For exmaple: n = 5 should give the output as 3 and 6 as number of 1 bits in 5(“101”) = 2 and number of ‘1’ bits in 3(“011”) and 6(“110”) as also 2.
+(*) Write a function to find the inorder successor in a Binary Search Tree (assume that, each node has a pointer to it’s parent). (Link)
+b) Digital: You will be asked questions related to Digital Electronics.
+Few of questions were:
+(*) Construct a 16:1 multiplexer using 4:1 multiplexers. 
+(*) Given a circuit, identify which Logic it represents (You will be given the ciruit diagram). Draw the Truth table also.
+c) ANALYTICAL: you will be asked mostly puzzles.
+Few questions were:
+(*)  Find the fastest 3 horses from a group of 25 horses. You can race 5 horses at a time. What will be the minimum number of races required ? (Link)
+(*) 3-ants-and-triangle. (Link)
+(*) 100 Doors puzzle. (Link)
+(*) How-many-squares and rectangles are are there on a chessboard ? (Link)
+ROUND 2: Technical Interview 1st phase (Approx 50 minutes on each student)
+Few of the questions were:
+(*) Difference between #define and typedef in C ? Link
+(*) Why do we need to use cache memory ? Give the exact reason. (Link
+(*) What is a process and give few examples of process.
+(*) Write a function to find the mirror image of a Binary tree . 
+(*) Write a function to check if two Binary trees are mirror image of each other or not. (Link)
+(*) Write a function to find the height of a Binary search tree. Link
+(*) Interviewer : Do you like Object Oriented Programming ?
+    Me : Yes. I prefer C++ for it.
+    Interviewer : What is virtual function in C++ ? (Link)
+(*) How does the virtual function internally work ? What role does compiler play in it ?
+(The interviewer was expecting that I should know about VTABLE, VPTR and INDEX ). Fortunately I had read this thing on GeeksForGeeks . (Link).
+(*) If you prefer C++ so much, Can you call a function say fun() before the main() function starts in C++ ?
+    My answers to this questions were as follows : -> This can be done in many ways :
+    -> 1st Way : Create a class with a constructor in which fun() will be called; and create a class object as the global variable.
+ Reason : Global variable is always created before main() starts.
+     -> 2nd Way : Create a static variable and assign that variable with function, so compiler will end up calling that function before main because static variable gets assigned before main starts.
+ Reason : Because static variable gets assigned before main starts.
+(*) Write the boolean equation for 4:1 Multiplexer . (Link)
+Then after a long wait, the 1st phase of Technical Interview got over and finally the result came and out of 52 students, 16 were selected for 2nd phase of Technical Interview (I was one of them ?) .
+ROUND 3: Technical Interview 2nd phase (Approx 50 minutes on each student)
+Few of the questions were: 
+(*) You are given a 2-D array, in which row elements are in ascending order and column elements are in descending order. Write an efficient function to find a key in this array . (Link)
+(*) After I answered the above question, they changed the question, suppose the row and column elements are both sorted in descending order. How will you now find the key in it efficiently ?
+(Just start searching from the top right corner or bottom left corner and follow the procedure of above question).
+(*) Write an algorithm to check if all the nodes in an undirected graph are connected or not.
+(*) What if the graph is directed ? (Link)
+(*) Write an efficient program to find pow(x, n) . (Link) Please keep in mind that they are asking for an efficient solution. 
+(*) There was a puzzle which is known as The Pot of Beans puzzle. (Link)
+Again after a long wait, the 2nd phase of Technical Interview got over and finally the result came and out of 16 students, 5 were selected for last round i.e. HR round. (I was one of them ?).
+ROUND 4: HR Round
+Few questions asked were:
+(*) Give me your introduction apart from your CV .
+Ans: I started with my home town, location, family, from where I did my schooling, and finally my hobbies.
+(*) Why do you want to join Mentor Graphics ?
+Ans I praised about the work life balance there, the good work culture, facilities that we were being, a good relation between people there, learning opportunities given etc. and of course a good salary (These things, they had mentioned during the presentation, so I liked these points about Mentor Graphics)
+(*) How many languages do you know in Computer Science ?
+Ans C, C++, Python , Java.
+(*) Any other new technology that you worked on ? 
+Ans Twisted Python, Docker, Honeypot, ELK, GEF.
+She saw Summer internship at IIT, Kanpur in my CV and liked the project on Honeypot ? 
+(*) What extra things you do and love? 
+Ans Dancing, Singing, Writing Poems, Skateboarding, Playing Basketball and Being fit.
+(*) Which would you prefer more: Work or Money ? 
+Ans For now, being a fresher I would prefer Work over Money because I want to learn now and gain experience. A person is young until he/she is learning. 
+(*) Any question for me ? 
+Ans You are a member of Mentor Graphics team, how would you express your experience till now at Mentor Graphics ? She answered my question very well and I was glad that we had a very good conversation. 
+Finally the process was over. The total process took around 18 hours. Next day, we were mailed the result. Out of 5, three students were selected finally and fortunately I was one of them ? 
+I want to take this opportunity to tell my juniors (IIEST, Shibpur) that, all the links that I have mentioned above , almost all of them leads to a GfG page. This shows, how much help I had got from GfG and I am still making the most of it. Hence, I would request all of you to follow GeeksForGeeks as I want you people to do much better than me which I know you all will. All the very best for your placements and remember "Nothing is impossible" . Keep working hard and keep following GeeksForGeeks.

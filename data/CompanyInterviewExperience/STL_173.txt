@@ -1,0 +1,6 @@
+set::key_comp() is an inbuilt function in C++  STL which returns a copy of the comparison object used by the container. By default, this is a less object, which returns the same as operator ‘. This object determines the order of the elements in the container. It is a function pointer or a function object which takes two arguments of the same type as the container elements and returns true if the first argument is considered to go before the second in the strict weak ordering it defines or false otherwise. Two elements of a set are considered equivalent if key_comp returns false reflexively (i.e., no matter the order in which the elements are passed as arguments). 
+Syntax:
+Parameters: This function does not accept any parameter.
+Return value: The function returns a copy of the comparison object used by the container.
+Program to demonstrate the above function:
+Run on IDE

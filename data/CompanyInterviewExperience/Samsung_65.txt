@@ -1,0 +1,5 @@
+Given a singly linked list, delete all occurrences of a given key in it.  For example, consider the following list.  
+This is mainly an extension of this post which deletes first occurrence of a given key. 
+We need to first check for all occurrences at head node and change the head node appropriately.  Then we need to check for all occurrences inside a loop and delete them one by one.  Following is C implementation for the same.
+Run on IDE
+Output: 

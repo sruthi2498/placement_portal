@@ -1,0 +1,37 @@
+?I like to thanks geeksforgeeks.org for my ?entire journey in placement.
+Round->1 (multiple choice questions)
+1. Intersection of two linked list.
+2. There is a 2 d array. 0 signifies water and 1 signifies land. an island is connected 0s(in all 8  direction) and no  0 should be on the outer edge of two array. You have to count the bumber of such possible array.
+You have to solve both coding question to enter in 2nd round 
+In round 2 interviewer were very cool and supporting. try to shake hand while entering and ask every detail of problem. 
+Round 2:
+1. Explain yourself.
+2. A backtrack problem on sudoku.
+    write full code on paper in any language. write failure case of your code.
+3. Discussion on projects.
+    i had done a project on big data on frequent itemset.they were really interested in    each and every detail of big data paradigm.
+4. Your strength and weakness and extra curricular interests,
+Round 3:
+1. there is a 3 million character string. u have to print the count of occurrence of each node.
+  do not jump on to the question. wait for him to complete. i gave count sort pf O(n) solution but he was focusing on more optimized one.
+2. again he jump to my big data project. he gave me a real life scenario and asked to design it.
+   you are giving the information of about 10,000 sites about their users and the product they had bought. you are a consultant. give a big data solution to find out the places where users had bought the jewellery in large amount. also give the name and details of users who had bought jewellery in large amount.
+he was quite impressed by my design. we discuss the design for about 30 minutes. then instantaneously they told me that i am selected for 3rd round.
+Round 4: (HR round)
+HR was very cool
+1. tell me about yourself.
+2. why Miscrosoft.
+3. tell any 4 of your favorite product of Miscrosoft
+4. tell 2 good and 2 bad points of Microsoft.
+5. Why you opt for your college.
+    he was trying to check my planning skills to compare 2 entities.
+6. Why computer science.
+7. Tell any 1 social problem that bothers you the most.
+8. Suggest 3 solution to above problem as a technical guy.
+9. what is big data
+10. what will you do if your colleague is not working
+11. what if you are not agreed with your senior
+My tips is to stay cool and enjoy the interview. carefully tell your weakness. Don’t worry to ask questions from interviewer. Take proper use of the time. Big data helps me a lot in every round.focus on designing problems along with data structure.
+geeksforgeeks,org alone is sufficient.
+Best of luck to all guys who are preparing.
+

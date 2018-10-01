@@ -1,0 +1,37 @@
+Round 1: Online Round
+This round was conducted on Hackerrank platform. It had 3 sections.
+First section  consisted of 2 coding questions and time allotted was 50 minutes.(Minimum one question has to be attempted to qualify)
+First question:(Easy question)
+N is the input.A function was given and we have to find ‘x’ which satisfy this definition N-F(X)=X.
+Definiton of F(x) is that it sums up the  digits of the input number.13 Testcases were there for this question.
+ 
+Second Question:(Medium to Hard category)
+There are n companies and each company has m market share, market share are identified by their market ID.
+We have to find the minimum no of merges so that no more than two companies have same share.
+Range:1<=m<=5
+Input: 3
+2
+1 2
+2 3
+2 1
+Output:2
+Second section was Technical MCQ(10 questions, 20 minutes), marking scheme was 2 marks for correct and -0.5 for incorrect.
+1.)Insertion sort worst case complexity
+2.)Minimum stack space if a particular postfix expression has to be evaluated and expression was given
+3.)Pseudo code snippet was given and we have to find the output
+Third section was Quant(10 question, 20minutes) -marking scheme was 2 marks for correct and -0.5 for incorrect.(medium to hard questions)
+In this round around 200-250 students appeared for the test and 16 were shortlisted for next round.
+Round 2: This round was technical round :
+First question asked was related to Node.js as i had done my project using this technology.Then further in this i was asked to optimize the space of dependencies in my project structure.
+Rat in a maze problem was asked :https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/
+We were given four arrays of equal length which are not sorted and they have unique elements in them but across the arrays elements can clash so we were asked to pick one element from each array and satisfy this condition ‘x1+x2+x3+x4<m’ and count all possible solutions.
+Then a question from DBMS invloving joins, group by.I was supposed to write query.
+After this 3 students were shortlisted for next round.
+Round 3:This round was again technical
+Firstly questions from OOPS(JAVA) were asked as i knew JAVA.
+questions like access specifiers, improvement in java8, collections related questions like Hashmap internal implementation, difference between arraylist and vectors.
+Tree related question of preorder traversal that i have to optimize the space and was not required to perform recursion and iteration for traversing the tree.”This question was to trick me and check my knowledge in tree so i told 2 approaches and then he was like i am kidding “.
+https://www.geeksforgeeks.org/print-maximum-sum-square-sub-matrix-of-given-size/–>Modified version of this question was asked, instead of n*n it was given m*n matrix.
+After this 3 students were shortisted.
+ROUND 4:This was HR round, so i attended the pre placement talk and was able to tackle many questions and other questions were general .
+Then they selected me finally and only one student from our college was selected.

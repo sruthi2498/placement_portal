@@ -1,0 +1,136 @@
+The recruitment process took place for two days in our campus in June ’17.
+Round 1:
+This was an online MCQ’s test .There were 20 questions in each of the two sections, one for C Programming (Loops, functions, Strings, etc…) and the other for Quantitative Aptitude(really tough). It was an online test  this time, unlike the usual written test. Top 50 students were selected for next round.
+Round 2: Short Coding
+1. Pangram Checking
+Check whether all english alphabets are present in the given sentence or not
+I/P: abc defGhi JklmnOP QRStuv wxyz
+O/P: True
+I/P: abc defGhi JklmnOP QRStuv
+O/P: False
+2. Password Strength
+Find the strength of the given password string based on the conditions
+Four rules were given based on the type and no. of characters in the string.
+Weak – only Rule 1 is satisfied or Rule 1 is not satisfied
+Medium – Two rules are satisfied
+Good – Three rules satisfied
+Strong – All Four rules satisfied
+I/P: Qw!1        O/P: Weak
+I/P: Qwertyuiop      O/P: Medium
+I/P: QwertY123       O/P: Good
+I/P: Qwerty@123    O/P: Strong
+3. First Occurences
+Given two strings, find the first occurence of all characters of second string in the first string and
+print the characters between the least and the highest index
+I/P: ZOHOCORPORATION PORT
+O/P: OHOCORPORAT
+Explanation: The index of P in first string is 7, O is 1, R is 6 and T is 11. The largest range is 1 – 11.
+So print the characters of the first string in this inex range i.e. OHOCORPORAT
+4. Matrix Diagonal sum
+Given a matrix print the largest of the sums of the two triangles split by diagonal from top right to bottom left
+I/P:
+3 3
+1 2 3
+4 5 6
+7 8 9
+O/P: 38
+5. Matrix Addition
+Given n integer arrays of different size, find the addititon of numbers represented by the arrays
+I/P: 4
+3 5 4 2
+2 4 5
+4 5 6 7 8
+4 9 2 1
+1 2
+O/P: 50856
+6. Cricket Scores
+Given a timeline of scores, find the individual scores of player 1 and player 2 and Extras
+W – Wide N – No Ball . – Dot Ball
+Consider the game starts from player 1
+I/P:
+1 . 2 . 4 3 6 W 1 . N . 2 1
+O/P:
+P1 – 8
+P2 – 12
+Extras – 2
+7. Queries
+R A B C
+1 56 67 89
+2 89 54 90
+3 78 91 83
+4 69 72 95
+R – Rollno, A, B, C – Marks in three subjects
+Given the above matrix, print the result of the queries given the following syntax.
+The first input string has a single character denoting the field to be printed.
+* – All fields of the selected rows
+A – Print only field A
+B – Print only field B
+C – Print only field C
+The second string contains the condition – <field><relational_operator><value>.
+> – Greater than
+< – Less than
+= – Equal to
+I/P: *
+A>70
+O/P:
+2 89 54 90
+3 78 91 83
+4 69 72 95
+I/P: A
+C<90
+O/P:
+56
+78
+8. Count Possible Paths
+Given a N*N binary matrix and the co-ordinate points of start and destination, find the number of possible path between them.
+I/P:
+4
+1 0 0 1
+1 0 1 0
+1 1 1 0
+0 1 1 1
+1 2 (start position)
+0 0 (destination)
+O/P: 2
+I/P:
+4
+1 0 0 1
+1 0 1 0
+1 1 1 0
+0 1 1 1
+2 0 (start position)
+3 3 (destination)
+O/P: 2
+9. Shuffle an Array
+Given a range of numbers print the numbers such that they are shuffled
+First line contains no. of test cases.
+I/P:
+3
+1 10
+5 12
+1 10
+O/P: (The order of numbers may vary)
+2 3 9 5 1 10 6 7 8 4
+5 6 9 12 10 11 7 8
+9 5 1 2 3 4 8 7 6 10
+If any of the given ranges are same, The orders of the numbers must vary.
+I/P: 4
+1 7
+1 7
+1 7
+1 7
+O/P:
+6 7 1 5 2 3 4
+1 7 2 6 3 5 4
+6 3 5 1 4 2 7
+1 2 3 6 5 7 4
+ 
+Around thirty students were selected for next round.
+Round 3:Advanced Coding
+
+This time we were asked to develop the good old BOMBERMAN game. There were six modules, each of which is an improvement of the previous module. We were evaluated at the completion on each module. The each module were given with very clear explanation and sample test cases. The HR’s were friendly and cleared the doubts of the students. Around twenty were selected for the next round.
+Round 4: Technical HR
+Questions were from Java, OOPs, Basics of DBMS, Projects, etc… A data structure problem was given for which I have to give the logic to solve it followed by some puzzles. Some real time applications and the problems in it were discussed.
+Round 5: General HR
+You are almost IN if you are called for this round. Some common HR questions and you are done with the interview.
+The overall interview process was really good and anyone with really good Problem Solving and Logical Thinking skills can crack it.

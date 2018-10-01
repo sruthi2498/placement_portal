@@ -1,0 +1,15 @@
+Round 1: (1 hr)
+I appeared for the interview at Scientific Games(Bally Technologies) . First round was written test and that entirely depends on programming.
+Two parts in coding, PART A and PART B and in each part, there are four questions and we have to write one question in each part. I would like to share you some of the coding questions.
+1) Finding Anagram in a String.
+2) Finding odd or even without using any Conditional statements.
+3) Counting the order of alphabets with the help of ASCII values.(Eg: ACBD(input) and here A is correctly placed in first place so the count is 1, c and b are not in correct places and D is in correct order and so we need to print COUNT=2)
+4) Checking the String is Palindrome or not.
+5) Count of spaces in string and then move the letters right to count of spaces. (Eg: a bc dde, here the space is 2 and output should be (  a bc dde). Note that I have given two spaces before a.
+And my suggestion is that, write the logic correct and you will be get into next level.
+CHOICE OF LANGUAGE IS YOURS.
+ 
+Round 2: GROUP DISCUSSION
+They have given topic on “HOW TO DESIGN A SOCIAL WEBSITE” . Here speak everything technically. They will check the technical stuff . So speak boldly and apply the technical skills.
+Round 3: TECHNICAL INTERVIEW
+Interview is little tough to clear. First, they asked about my projects which I have done and also they have asked me to draw a ER diagram and class diagram for that corresponding projects. Then they raised basic technical questions in C, OOPS, DBMS, OS. Mostly they focused on Memory management concepts. Then they asked me to write Threading program in Java.

@@ -1,0 +1,17 @@
+Forward list in STL implements singly linked list. Introduced from C++11, the forward list is useful than other containers for insertion, removal and moving operations (like sort) and allows time constant insertion and removal of elements.It differs from the list by the fact that forward list keeps track of the location of only next element while list keeps track to both next and previous elements.
+This function is used to insert a new element into the forward list container, the new element is added to the beginning of the forward list.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. The parameter should be of the same type as that of the container otherwise, an error is thrown.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)
+Application : Input an empty forward list with the following numbers and order using emplace_front() function and sort the given forward list.
+Run on IDE
+Output

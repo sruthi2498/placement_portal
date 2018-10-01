@@ -1,0 +1,56 @@
+Morgan Stanley interview experience
+1st round: (90 minutes)
+It was multiple choice questions round. It consists of 3 sections:
+1.	This section had computer fundamental questions which were easy. It had 10 questions.
+2.	This was language dependent section. You were allowed to choose any of C/C++/JAVA language and there were 30 questions in this section. The level of difficulty was moderate.
+3.	Last section had logical and mathematical aptitude questions. A total of 10 questions.
+So in total this round had 50 questions.
+2nd round: (45 minutes)
+This round had 4 questions for which we were supposed to write code on paper. Only 45 minutes were given for this round.it was not an elimination round but it was an important one. Questions were:
+1.	Exchange kth node from start and kth node from end of a singly linked list.
+Example: if the linked list is
+5->10->25->45->31->16->23->51 and k=3
+Then linked should be converted to
+5->10->16->45->31->25->23->51
+Boundary cases had to be handled properly.
+2.	Given a number, you have to find next greater number which has same set of digits.
+Example:
+If given number is 4765 the output should be 5467.
+3.	Given a binary tree, you have to print level order traversal of the tree (left child then right child) but every next level has to be printed in next line.
+Example:
+If the given tree is
+Then the output should be
+5
+10 15
+56 47 12 42
+4.	You are given a sentence you have to reverse it word by word.
+Example:
+Input:
+this is morganstanley interview question
+output:
+question interview stanleymorgan is this
+Although the questions were not too difficult but due to the time constraints you have to check boundary cases and comments your code properly.
+3rd round: (45 minutes- 1 hour)
+This round was a technical interview as well as an elimination round. First of all he asked me about my recent projects and he asked me to tell in detail about my last project. I made him understand everything and discussed about several aspects about it. Then again he asked me if I have done any OOPs project. Since I had one so I told him about that and explained him the OOPs concepts used in that.
+Then he moved on and asked me about my approach for 2nd question of coding round which I told him and after that I was told to write end to end code for that which I did. Again he asked me to write code for the last problem of coding round and approach too.
+After that he moved on and came to OOPs. The questions were based upon virtual functions, function overloading, function overriding, inheritance, abstract class etc.
+4th round: (30 minutes)
+This was a group task. We were 5 in a group and the panelhad 5 persons as well. They had some 10 images with them;they distributed 5 out of them to us and then kept rest of 5 images on the desk. We were supposed to make assumptions about the picture given to us and the time given was 2 minutes, then they told us to come up with a story as a group, whose theme is business ethics, including those 5 pictures as well in 15 minutes. Basically they were checking your communication skills, body language and team work. Then before those 15 minutes were over he included some more 5 picturesinto that and told us to make story now.
+Then we were asked to tell about our contribution in the story.
+5th round: (1.5 hours)
+It was again a technical interview although it was very late in night I had a long interview. Again he started with my project, he took around 30 minutes with project related queries and he asked me several things future scopes, modifications etc. then he moved on with an algorithm question:
+There is an array of ordered pairs(value, color) with sorted by value. You have to sort it based on color but relative order of values shouldn’t be changed. I gave him a solution for that, then he modified the question that now the value part is not sorted and you have to sort it based on color first and then for same color based upon value. I gave him solution with array of linked list then he asked me about time complexity and all. He asked about sorting technique, why merge sort not quick sort. How can we make quick sort better. How to find median of an unsorted set of values, I told him about selection algorithm and about its time complexity as well.
+Again he asked me an algorithm question:
+You are given some process with burst time and some fixed memory. You have to accommodate as much process in memory as possible.
+And fixed memory is 10
+So I gave him answer with greedy approach, which includes 2,3,4 but he told me you can have 2,3,5 which will not waste memory at all. Then I came up with solution using knapsack algorithm. He was satisfied with that.
+Afterwards he asked me some questions like
+Suppose you are given a printer which has very less memory let say memory that can accommodate only 1mb at a time and you want to print a file with 100 pages each size 1mb how you will manage that. Then he extended the problem like if the printer is connected to a network and from each system if I give command to print 100 files how you will handle that. Spooling is done on printer side or system side. And he kept on extending the problem in different dimensions. Again he asked suppose we want to print only one file like poster which is very large say 500mb how you will handle these type of situation.
+So this was most interesting and lengthy round of all and it was over in night around 11:30.
+Round 6: (HR round 15 minutes)
+Last round was an HR round which was not long for me but for others it was long too.
+He asked me where are from and will you have some problem in reallocating.
+What did you learn coming to this college and what did you learn from your projects?
+Then he asked me if I want to ask him something. I asked him some doubts and that’s all.
+By the end of this it was already 12:30 in night. They told us to wait for results and we waited till night 2:30 but they couldn’t come to a conclusion.
+So next day morning they announced the result and I was one of four whom they hired from my college.

@@ -1,0 +1,14 @@
+Given two integer number n and d. The task is to find the number between 0 to n which contain the specific digit d.
+Examples:
+Approach 1: 
+Take a loop from 0 to n and check each number one by one, if the number contains digit d then print it otherwise increase the number. Continue this process until loop ended.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Approach 2:
+This approach uses every number as a String and checks digit is present or not. This approach use of String.indexOf() function to check if the character is present in the string or not.
+String.indexOf() >= 0 means chaaracter is present 
+and String.indexOf() = -1 means character is not present 
+Run on IDE

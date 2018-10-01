@@ -1,0 +1,37 @@
+Round 1: (Written Test): Time constraint : 45 Minutes.
+1. Print level order traversal of a given tree, but in each level output should be sorted.
+1
+2 3
+8 19 13 21
+Output: 1
+2 3
+8 13 19 21
+2. Write function to print Sum till Nth number in series 5 + 55 + 555 …
+e.g. N = 2 output: 60
+N = 3 output: 615
+3.
+Round 2: (F2F Interview)
+1. There is an incoming stream of infinte numbers. You have to give maximum value in sliding window of size N.
+2. 2 sorted array of size N and M. (N > M). First array have exactly M vacant spaces. Fill element of second array into first array in O(N).
+Round 3: (F2F Interview)
+1. Given a string, You have to tell how many number of characters need to be inserted which can make it a palindrome.
+e.g. ABCDCB Output: 1 insert ‘A’ in last
+ABCDA Output: 2 insert ‘B’, ‘C’ or insert ‘D’ and ‘B’ etc.
+Hint: DP
+2. Given a NxN matrix which have following structure:
+1
+2 3
+4 5 6
+7 8 9 10
+You have to tell maximum value in a path from first element to last row with 2 constraints : You can chose only one element in each row. You can chose either exact below element in next row of current element or right element to exact below element. e.g. in given exampe if yo have chosen 3, in next row you can chose 5 or 6 only.
+ 
+ 
+Round 4: (F2F Interview)
+1. 2 array with N and N+1 strings. Both have same N strings and second array have one extra string. You need to find extra string.
+2. Implement Queue, Enque and deque operation.
+3. There is graph which have several cities, city coordinates are given. Indentify a best place to open a airport.
+4. Implement XOR with using AND, OR, NOT gate
+5. Questions from the Projects written in CV.
+Round 4: (HR)
+1. Basic introductory and hr questions.
+ 

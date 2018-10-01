@@ -1,0 +1,19 @@
+I recently attended Microsoft Interview for their CRM team in Bangalore.
+F2F Round 1:
+Design and Implement: Producers and Consumer Problem. Producers produce different kind of messages and Consumers register themselves for different kind of messages. Need to design and implement Producer, Consumer and a Delegator which is responsible for storing and delivering the messages to appropriate listeners.
+Changed the question to handle millions of messages.
+Changed the question to handle different priority messages.
+Threading model for Producer, Listener and Delegator.
+In the end he asked me to code 2 methods of Delegator.
+1: which adds the message from Producer to its internal queue.
+2: Delegate, which delivers the message to appropriate listener.
+My Opinion: There is no right or wrong answer for design question, in fact the interviewer also told the same thing. Start with something simple, a minimalist design and improve/change as requirement changes. 
+F2F Round 2:
+1. A MxN matrix containing integers (positive, negative and zero’s). For every position containing 0, mark the corresponding row and column as 0.
+Told him the queue approach. But he wanted with O(1) space complexity in O(n) time complexity.
+2. Variation of https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
+F2F Round 3:
+1. Implement Power(x,y) without loop. Interviewer wanted all test cases covered like Power(x,0) and most optimized solution.
+2. Rotate MxN matrix by 90 degress. This is where my luck ran out, The interviewer gave me hint, but still couldn’t come up with solution.
+
+

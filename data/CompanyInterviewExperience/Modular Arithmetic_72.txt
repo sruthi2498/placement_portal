@@ -1,0 +1,21 @@
+Given a number n, find the last non-zero digit in n!.
+Examples:
+A Simple Solution is to first find n!, then find last non-zero digit of n. This solution doesn’t work for even slightly large numbers due to arithmetic overflow.
+A Better Solution is based on below recursive formula 
+Illustration of formula:
+For the numbers less than 10 we can easily find the last non-zero digit by above simple solution, i.e., first computing n!, then finding last digit.
+D(1) = 1, D(2) = 2, D(3) = 6, D(4) = 4, D(5) = 2,
+D(6) = 2, D(7) = 4, D(8) = 2, D(9) = 8.
+How does above formula work?
+The below explanation provides intuition behind the formula. Readers may refer Refer http://math.stackexchange.com/questions/130352/last-non-zero-digit-of-a-factorial for complete proof.
+In n!, number of 2’s are always more than number of 5’s. To remove trailing 0’s, we remove 5’s and equal number of 2’s.  
+Let a = floor(n/5), b = n % 5. After removing equal number of 5’s and 2’s, we can reduce the problem from n! to 2a * a! * b!    
+D(n) = 2a * D(a) * D(b)
+Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

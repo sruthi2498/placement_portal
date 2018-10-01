@@ -1,0 +1,12 @@
+Given a doubly linked list, write a function to sort the doubly linked list in increasing order using merge sort.
+For example, the following doubly linked list should be changed to 24810
+
+Merge sort for singly linked list is already discussed.  The important change here is to modify the previous pointers also when merging two lists.
+Below is the implementation of merge sort for doubly linked list. 
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Goku for providing above implementation in a comment here.
+Time Complexity:  Time complexity of the above implementation is same as time complexity of MergeSort for arrays.  It takes Θ(nLogn) time. 
+You may also like to see QuickSort for doubly linked list 

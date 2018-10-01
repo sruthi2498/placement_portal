@@ -1,0 +1,18 @@
+Round 1: Written Test included two sections.
+Section A: Output based questions,  SQL queries, Finding error in given code (THIS SECTION HAD NEGATIVE MARKING).
+Section B: This round consisted of 3 programming questions. First was a matrix question where sum of particular pattern has to be printed. Second one was a binary tree question. Third was a problem from dp https://www.geeksforgeeks.org/program-bridge-torch-problem/. We were asked to write time and space complexity in all three questions. (NO NEGATIVE MARKING IN THIS SECTION).
+18 students were shortlisted from 361 after this round.
+Round 2: Tech Interview (25-30 mins)
+He started by asking about the projects that I’ve done during my 4 years for 10 mins. After this he asked for my favourite data structure and reason for choosing that particular data structure. I went ahead with trees.
+Q1; Find the lowest common ancestor in a given binary tree?
+I gave an O(n) solution. https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/.
+He then asked me to optimize it to log(n). https://www.geeksforgeeks.org/find-lca-in-binary-tree-using-rmq/
+Q2: Combinational sum.
+https://www.geeksforgeeks.org/combinational-sum/.
+Round 3: Tech Interview (35-40 mins)
+This round was the most grilling of all. He started by asking my hobbies and then moving on to the projects. We discussed about the pros and cons of the projects and what could have been done to optimize the projects. He also gave some cases and asked for the output and reasons it produced those outputs.
+He then asked me to design whatsapp.
+He then switched to DAA and asked me to write heapify() function. He also asked about merge sort, insertion sort and radix sort. He then asked about trees (their implementation and usage) like AVL, B Tree and RB Tree.
+Round 4: HR Round (10-15 mins)
+It is a normal conversation round where they discuss about your personality and your interests.
+ 

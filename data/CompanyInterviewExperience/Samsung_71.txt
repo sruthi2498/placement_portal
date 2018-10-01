@@ -1,0 +1,37 @@
+General Questions asked for SDE-1 in Samsung Research India Bangalore:
+1.  client server architecture
+2.  L value R value reference
+3.  OOPs concepts
+4.  MFC COM DCOM definition
+5.  big n small endian –> how to know a m/c is small or big endian?
+6.  Templates –> V v v interested in this
+7.  STL
+8.  Function pointers : how and y ?
+9.  Virtual n friend fxn n class : Why n how (behind d scene)
+10. Singleton class : Why and how?
+11. Abstract n pure virtual : DETAIL – y used, how used?
+12. Constant n static fxn n var : difference, use n wats behind d scene?
+13. Interfaces
+14. Namespaces : do namespaces interact? if yes, how? if no, y not?
+15.  *p = NULL; – ok? –|__ Which to use and y?
+     &p = NULL; – ok? –|   any error? if yes, y n how(n behind d scene)
+16. Scheduling – in detail, which DS to use in which and Y?
+17. Class diagrams
+18. ACID property usage
+19. Which SDLC model to be used where and y? –> scenario based
+20. Segments of memory – heap, stack, data, code
+21. Which variable goes where in memory? (static, extern, register, auto, const, etc)
+22. Size of class
+23. Object of d class in the class declaration – when needed?
+24. https://www.geeksforgeeks.org/software-engineering-lab-samsung-interview-set-2/
+25. Virtual Destructor
+26. Null, smart, wild, void/generic, dangling pointer
+27. Diamond problem of inheritance and virtual class
+28. Threads
+29. Implement 3 stacks using 1 array
+30. Deep Copy n shallow copy
+31. Runtime error, segmentation fault, compiler error, stack overflow
+32. https://www.geeksforgeeks.org/memory-layout-of-c-program/
+33. deque
+I apologize that I do not remember the questions as asked according to the interviews but this was pretty much it. I got through and I wanna thank Geeks for Geeks for it.
+

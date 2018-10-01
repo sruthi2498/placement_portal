@@ -1,0 +1,9 @@
+The unordered_multiset::emplace() is a built-in function in C++ STL which inserts a new element in the unordered_multiset container. The insertion is done automatically at the position according to the container’s criterion. It increases the size of the container by one. 
+Syntax: 
+Parameters:  The function accepts a single mandatory parameter val which is to be inserted in the container. 
+Return Value: It returns an iterator which points to the newly inserted element. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

@@ -1,0 +1,12 @@
+1) First I had a 90 minutes coding round with three questions:
+They had modified a few questions from SPOJ. I found these later on.
+http://www.spoj.com/problems/BALLOT/
+http://www.spoj.com/problems/MARTIAN/
+A question on strongly connected components
+2) On site round 1 (hiring manager):
+Discussion on projects. Which projects have you failed in? How do you go about a project if you are stuck. In which project did you need the most motivation?
+3) On site round 2 (technical):
+Given an array of struct nodes, check if all of the nodes are part of a single binary tree and if all nodes of that binary tree are in this array or not.
+Asked me to code the entire problem too.
+4) On site round 3(technical):
+This was a design kind of question, he wanted me to implement search in contacts list when the keyboard type is T9 (predictive text). Discussed different types of maps we will need to implement and preprocessing needed. How will you do this with a trie? How would you do string matching? Asked me to code the entire solution up. 

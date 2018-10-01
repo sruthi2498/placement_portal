@@ -1,0 +1,33 @@
+ Round 1: Resume based CGPA>=5
+ Round 2: Online-Test
+ Test was organized on hackerrank containing two section & total 22 question, first section contain 20 objective type questions, question are maily from data structure and two programming questions. Both section was easy but we have need good basic knowledge of C/C++ and data-structure. I have remember some questions.I am sharing here
+1. we have a sorted array of 10 integer. what is average time to search an integer?
+2. what is average time search in an array.
+3. what is postfix expression for a+b*(c^d-e)^(f+g*h)-i. ?
+4. slitly modification of “Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:”
+
+ programming questions:
+ 1. Given a two number a & b find number of perfect square number lies between a & b (including both a & b).?
+ 2. Alex is attending a Halloween party with his girlfriend, Silvia. At the party, Silvia spots the corner of an infinite chocolate bar (two dimensional, infinitely long in width and length).If the chocolate can be served only as 1 x 1 sized pieces and Alex can cut the chocolate bar exactly K times, what is the maximum number of chocolate pieces Alex can cut and give Silvia?
+Input Format:
+The first line contains an integer T, the number of test cases. T lines follow. Each line contains an integer K.
+Output Format:
+T lines; each line should contain an integer that denotes the maximum number of pieces that can be obtained for each test case.
+Constraints:
+1 <= T <= 10
+2 <= K <= 10^7
+
+Note: Chocolate must be served in 1 x 1 sized pieces. Alex can't relocate any of the pieces, nor can he place any piece on top of another.
+
+
+
+ Round 3.
+ Skype Round: This was completely technical round of around 1hr, I am sharing some questions here.
+ 1. what is TCP?
+ 2. Difference between primary and secondary memory?
+ 3. what is cache memory?
+ 4. what is virtual memory?
+ 5. write program to print right view of tree in post order.what is time complexity of your algorithm and how?
+ 6. given an array of integer find next maximum. 
+ 7. given an array of integer and a key(k) find the subset whose sum is equal to k.
+ 8. lot of discussion on soring and searching algorithm and their corner case. 

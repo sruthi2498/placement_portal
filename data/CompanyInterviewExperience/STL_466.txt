@@ -1,0 +1,8 @@
+std::count() returns number of occurrences of an element in a given range. Returns the number of elements in the range [first,last) that compare equal to val.
+Complexity It’s order of complexity O(n). Compares once each element with the particular value. 
+Counting occurrences in an array.
+Run on IDE
+Counting occurrences in a vector.
+Run on IDE
+Counting occurrences in a string.
+Run on IDE

@@ -1,0 +1,28 @@
+Recently I attended the Amazon walk-in and got selected for the position of SDE I.
+Written test: 
+1. Write a code to convert tree to DDL(assume tree node contains pre, next pointers and set as null intially.)
+2. WAP to encode and decode string.
+        aabbbbcccd  a2b4c3d1
+3. Find the sum of elements in after nth iteration for below operation on array. 
+Hiring Manager:
+1. Find the nearest leaf node from given node in binary tree..
+      use post order traversal.. like LCA in binary tree
+2. Find the first k largest numbers from large file size. Explain solution for 
+           1. When we have space to store K elements in RAM
+            2. When we didn’t have space to store K elements in RAM
+Tech:
+1. Design N-ary tree, to make sure that lock and unlock operations can be done with minimum complexity (height of tree)
+      a node can be locked when its ancestors or successor are not locked.
+      we can a unlock a node a any time.
+2. a[] = {a,b,c,d,e} b[]={f,g,h} result should be = af+bg+ch+df+eg
+Tech:
+1. Find maximum product of subarray in given array of integers
+2. Design T9 dictionary
+Bar Riser:
+1. Design a tree, in which a root can have unlimited children and write a code to print each level in separate level
+2. Print the anagrams present in a huge file (each line in file contains one word and you didn’t have any constraints like limited memory etc..) for a give string
+      use trie or hashmap
+Like all Amazon interviews in GFG, here interviewer more concerned about edge cases and perf perf perf perfect code.
+Thanks a lot GEEKS FOR GEEKS  and my dear friends Ramesh, Purush, Jhadey for helping me in preparation.
+Run on IDE
+

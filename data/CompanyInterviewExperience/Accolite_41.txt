@@ -1,0 +1,50 @@
+Written MCQ
+There were 20 multiple choice questions to be done in 30 minutes time and most of the technical questions were from geeksquiz , one blood and relation question and one simple probability question. 
+There was no negative marking.
+Paper Coding round
+21 students were shortlisted from the 1st MCQ round and in this round we were asked to write the codes (function only) of 3 questions in 1 hour time.
+Q1. You are given a matrix of size MxN and only possible values in the matrix are
+0 – representing empty position
+1 – representing a fresh apple
+2 – representing a rotten apple
+A rotten apple converts all the fresh apples to rotten ones which are adjacent to it in 1 unit of time. Given an input the matrix and you have to calculate the amount of time in which all the fresh apples become rotten. Also determine whether all fresh apples could be made rotten in finite time or not. (20 marks) 
+Input
+2 1 0 2 1
+1 0 1 2 1
+1 0 0 2 1
+After 1 time unit, the matrix will be transformed to
+2 2 0 2 2
+2 0 2 2 2
+1 0 0 2 2
+After 2 time units the matrix will look like
+2 2 0 2 2
+2 0 2 2 2
+2 0 0 2 2
+Hence output should be 2 time units. (Definition of adjacent only included the left , right, bottom and upper cell and NOT diagonal cell)
+Q2. You are given a Binary tree and you need to find out the maximum path sum between any 2 leaf nodes of the binary tree (The maximum path sum may or may not pass through root of tree). To be done in O(n) time (20 marks) https://www.geeksforgeeks.org/find-maximum-path-sum-two-leaves-binary-tree/
+Q3. You are given an unsorted array of integers and you need to find out whether there exists a majority element in it. (Majority element is one which appears more than n/2 times in an array of size n). To be done in O(n) time (10 Marks) https://www.geeksforgeeks.org/majority-element/
+The result of this round was declared late in the night. Some 7 or 8 students were called for the face to face interview rounds. I was the first one to be called and F2F rounds started at 11.30 PM and ended up in 5 AM in the morning :-p I was lucky to be free around 1.15 AM 😀
+Face 2 Face Round 1
+Q1. I couldn’t complete my Paper coding round question 1 (rotten apples). She (the interviewer) asked me to rectify the problem in it. I did it with the help of MxN extra space for visited[][] matrix. She said do it inplace. I did by modifying the Matrix values to 3 , 4 , etc. 🙂
+Q2. Find 5th from last element in a singly linked list. Firstly I gave a solution which took two traversals. She said to do it in 1 traversal only. I did it by taking two pointers and maintaining a distance of 5 nodes between them. Q3. You are given a string for example if input string is “I am abc xyz”. Output should be the modified string as “xyz abc am I” .This was to be done inplace and in O(n) time.
+Q4. You are given a unsorted array of both positive and negative integers. You need to find out the maximum sum subarray in O(n) time. You need to find the start and ending indexes along with the sum.
+Q5. You are given a BST and two keys k1 and k2. You need to find out the lowest common ancestor of the two keys Iteratively. I suggested the solution of storing the path in a vector and finding the 1st mismatch of key value in the root to k1 and root t k2 path.
+Face to Face round 2
+Q1. Take the example of paper coding round rotten apples question and suggest some algorithm where you are allowed to change the position of rotten and fresh apples in such a way that the resultant matrix converts least number of fresh apples to rotten apples. I suggested an approach where I would first count the number of rotten and fresh apples initially and arrange all fresh apples in a sub-matrix starting from (0, 0) position and similarly arrange all rotten apples in sub-matrix from (N-1, M-1) position. He was satisfied with this approach
+Q2. You are given an elevator system with 3 elevators, you have to suggest some algorithm in which the amount of time that a person waiting on some x floor and has pressed the up or down button should wait for least amount of time and also the person inside the elevator also should not wait for too long to reach his destination floor.
+Q3. Asked some general questions as to what are tokens of a language. What is a grammar and production rules. Then he asked me to check whether a given code in some language is syntactically correct or not. You are provided the set of valid tokens for this language and also symbol table.
+Q4. You are given a text file storing characters or words. Suggest some way to compress the file such that there is always some amount of space compression possible. 
+I suggested to use a trie tree as all the prefixes will share the space. He said this approach is dependent on whether the input has common prefixes or not.
+Suggest some other way. I then said that we can use Huffman Encoding and assign smallest code to most frequent word in the file and so on. He said again this approach also is dependent on whether your input has frequently occurring words or not. 
+Then I suggested that since all characters can be represented in terms of 8 bits or 1 byte. We can take the XOR of prev and next character and store it in the current character position. This way I would be able to always get a n/2 size reduction in the encoded file. The idea was similar to https://www.geeksforgeeks.org/xor-linked-list-a-memory-efficient-doubly-linked-list-set-1/
+He was satisfied and this was the end of my 2nd F2F round. He told me to get some sleep because you will be having a skype interview with our technical manager followed by HR round in the morning.
+3rd round (Skype)
+Q1. He asked me to define NP and NP hard problems followed by the definition of automata and regular language. He then asked me are regular expressions. 
+Q2. He shared a google doc with me and gave me a regular expression like abab*(a|b) and an input string s. I needed to write a code to check whether the given input string could be generated from this regular expression or not. Return a Boolean true or false value. I coded it up in 5 minutes :-p
+Q3. You are given a N-ary tree and a value K. You need to return true if there exists some root to leaf path having sum = k and false otherwise. I did it using recursion and in O(n) time.
+He told me that you’ll be having your final HR round in some time. I knew that I was going well because he seemed to be quite satisfied with my answers.
+Final HR round
+That was the round for which I’ve been waiting for hours 😀
+She (the HR) started off with some general questions like tell me about yourself and your aims and goals in life. What are your hobbies. I told her that I love art and craft. She asked me what will I make for her if tomorrow is her birthday :-p She was very friendly and nice to talk to. 🙂 It didn’t seem that I was talking to the HR. It was more like talking to a friend. She asked me what I liked about Accolite and why do I wish to join the company and stuff. Finally we discussed about the pay-scale and work culture in Accolite. 
+
+

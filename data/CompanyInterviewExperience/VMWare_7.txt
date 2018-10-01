@@ -1,0 +1,75 @@
+Round 1 : Online round via hirepro
+Round 1 (90 mins): 4 Sections.
+Section 1:
+Time : 15 mins.
+10 MCQ’s , Aptitude Section
+Aptitude questions ( Boats & Streams, Profit and Loss, Histograms etc.,)
+These questions were tough(for the time given).
+Section 2 :
+Time : 30 mins
+12 MCQ’s , Technical Section
+Technical Questions on OS,Networks,OOP.
+Easy if you prepare well ( check out the language section for OOP concepts ).
+Section 3 :
+Time : 15 mins
+15 MCQ’s , Language section
+Questions in C++, Python,Java(predicting the output mostly).
+These were tricky, prone to error , most of the correct answers were “Compile error”.
+Prepare Java,C++ and Python questions from Language section in GFG.
+Section 4 :
+Time : 30 mins
+One coding question ,Find if a given number has exactly three factors.
+It was an easy question, My approach was to find the square root of the given number and find if it’s
+a Prime or not.(O(logn)+O(sqrt(n))).
+range of number 2<=n<=2^32 (Unsigned int will work, take long long for caution).
+10 out of 126 were shortlisted for the interviews.
+
+Round 2 : Face to Face interview on skype.
+After greeting, he immediately jumped to the technical part.
+Question 1: (Just to test whether I can code or not) Find the max-min in an array.
+(He shared a screen on collabedit.com, I had to type in the code for him to verify).
+I gave the basic solution of 1 linear scan and find the answer.
+Question 2: For the same array in question 1(Any unsorted array) find maximum of a[j]-a[i] for (i<j)
+My approach : Use auxiliary space to store minimum up to i, and find max(a[i] – min_upto[i])
+time:O(n)
+space:O(n)
+He asked me if I can do it in O(1) space.
+I told him I can check for every possible pair in O(n2).
+He gave me hint to find maximum on the right part of every element at i,store the difference in a variable, I understood the logic and told him I only need to update this maximum if the current element at i is equal to the maximum.He was impressed as I grasped the idea quickly,asked me to write a function to find the maximum on the right of an element, I told him we have an inbuilt stl function for that (*max_element(a.begin()+i,a.end()) , he was happy with my answer and stopped coding questions and jumped into theory.
+Question 3: Tell me about virtual keyword and it's usage, I gave him a crisp explanation.
+Next few Questions on Threads in java.
+How run() method is different from start()
+for 3 threads t1,t2,t3 on same object
+t1.run()
+t2.start()
+t3.start()
+predict the output for this..I gave him the correct answer.
+Then he said he was done with the first round.
+
+Round 3 : Similar to Round 2.
+Basic introduction, How was your day so far?
+Question 1 : Given a number n , and head node of a linked list , reverse all the n-partitions.
+I had to code on collab-edit and he verified later.
+Question 2 : What is the worst case complexity on Quicksort and when does it occur?
+O(n2) , when the array is already sorted.
+What would be the remedy?
+I told we can use merge sort as it is always O(nlogn)
+He asked if we can randomize choosing the pivot , would that help?
+I verified with the code of the partition function and found out it would work, I told him yes it'll always be O(nlogn) if we randomize pivot.
+He seemed satisfied.
+Question 3 : Given a 2D maze with 0's and 1's , find if there is a path between two points..path can be only those cell's containing 1's;
+I had to code this, I did it using DFS modification , he was impressed.
+He asked a few questions on scheduling algorithms in OS and regarding the fork() system call.
+Some more questions on packages , abstract classes and interfaces in java, I answered all of them ( thanks to GFG for the quick notes ).
+Then he said he was done and would get back to me.
+
+Round 4 : Telephonic HR round
+He explained me everything regarding the work for an intern then posed some basic behavioral questions.
+1) How was your day so far?
+2) What do you think about our work at VMware?
+3) What kind of a person are you?
+4) What would your friend tell about you?
+Be honest, if asked about future aims , never say anything regarding higher education or entrepreneurial ideas , It leaves them in a confused state to take you or not , just tell them you want to work in a good organization and scale up in it.
+Then he gave me the details regarding the stipend and perks.(This means you are selected).
+At last 2 of us were selected for internship in VMware Banglore.
+Practicing previous interview questions from GFG helped me.

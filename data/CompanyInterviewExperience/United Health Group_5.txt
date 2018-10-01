@@ -1,0 +1,26 @@
+The first test was on aptitude.
+30 questions in 45 minutes. Each question weighed 1 and there was a negative marking of 0.5. The questions were related speed distance time, simple permutation combination probability, heights and distances (trigonometry), areas, complete the sequence.
+Three coding questions to be written down on a paper and submitted.
+The time given was 30 minutes.
+1) Convert a binary tree to its mirror
+2) Length of the longest common subsequence for two given strings
+3) Sorting an array of pairs
+There were three rounds of interviews. The first one was related to projects and internships. I was asked a bit of machine learning too. The person asked me to explain some ML ideas to him. I didn’t have a project on Machine Learning though.
+He said “explain to me what is machine learning. Think of me as a person with no knowledge of how all this works”.
+He asked me about supervised and unsupervised learning then.
+At the end of this, he asked me :
+“If you have to sell your project to me, how will you do it?”
+My project was on pygame with python and he asked me some basic questions about the language. “Is python a front end language or a back end language?”
+“what is pygame?”
+Simple web development questions like what is jQuery? How is this related to JavaScript. How do you use them together? This was based on a few projects i had done.
+He wanted to know about the results of the projects and if someone else had performed them – what i had done differently, if i had similar results or not.
+Some students who had projects on DBMS were asked questions on left outer join, Normal forms, mysql.
+
+The second interview:
+He asked me my preferred language. I chose C++.
+He asked me about memory management in C++, where are extern variables stored, where are global variables stored. He asked me to draw the typical memory layout of a program. Some OOPS questions followed like what is the size of an empty class?  Some questions on how the compiler works. What does the preprocessor do? What is an object file? Can you open an object file? What does the linker do? Output of some C/C++ programs like those given on GeeksforGeeks. Dynamic memory allocation. Questions related to pointers. There were a lot of small questions rather than a few big ones. One another question was Iterative way to solve the question on converting a binary tree to its mirror.
+This was followed by an HR round which had questions like:
+1) what are your strengths?
+2) if your boss or senior is giving you an approach which is not optimised, how will you point it out to him?
+3) why do you want to join us?
+4) what are your expectations with us?

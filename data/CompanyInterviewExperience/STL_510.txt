@@ -1,0 +1,34 @@
+Given two sorted arrays of size m and n of distinct elements. Given a value x. The problem is to count all pairs from both arrays whose sum is equal to x.
+Note: The pair has an element from each array.
+Examples :
+Method 1 (Naive Approach): Using two loops pick elements from both the arrays and check whether the sum of the pair is equal to x or not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(mn)
+Auxiliary space : O(1)
+Method 2 (Binary Search): For each element arr1[i], where 1 <= i <= m, search the value (x – arr1[i]) in arr2[]. If search is successful, increment the count.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(mlogn), searching should be applied on the array which is of greater size so as to reduce the time complexity.
+Auxiliary space : O(1)
+Method 3 (Hashing): Hash table is implemented using unordered_set in C++. We store all first array elements in hash table. For elements of second array, we subtract every element from x and check the result in hash table. If result is present, we increment the count.
+Run on IDE
+
+Time Complexity : O(m+n)
+Auxiliary space : O(m), hash table should be created of the array having smaller size so as to reduce the space complexity.
+Method 4 (Efficient Approach): This approach uses the concept of two pointers, one to traverse 1st array from left to right and another to traverse the 2nd array from right to left.
+Algorithm :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(m + n)
+Auxiliary space : O(1)

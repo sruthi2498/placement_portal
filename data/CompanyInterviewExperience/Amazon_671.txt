@@ -1,0 +1,19 @@
+Given n dice each with m faces, numbered from 1 to m, find the number of ways to get sum X. X is the summation of values on each face when all the dice are thrown.
+The Naive approach is to find all the possible combinations of values from n dice and keep on counting the results that sum to X.
+This problem can be efficiently solved using Dynamic Programming (DP).
+Why DP approach?
+The above problem exhibits overlapping subproblems. See the below diagram. Also, see this recursive implementation. Let there be 3 dice, each with 6 faces and we need to find the number of ways to get sum 8:
+
+Please take a closer look at the above recursion. The sub-problems in RED are solved first time and sub-problems in BLUE are solved again (exhibit overlapping sub-problems). Hence, storing the results of the solved sub-problems saves time.
+Following is implementation of Dynamic Programming approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(m * n * x) where m is number of faces, n is number of dice and x is given sum.
+We can add following two conditions at the beginning of findWays() to improve performance of program for extreme cases (x is too high or x is too low)
+Run on IDE
+With above conditions added, time complexity becomes O(1) when x >= m*n or when x <= n.
+Exercise:
+Extend the above algorithm to find the probability to get Sum > X.

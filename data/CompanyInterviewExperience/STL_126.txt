@@ -1,0 +1,9 @@
+The vector::capacity() function is a built-in function which returns the size of the storage space currently allocated for the vector, expressed in terms of elements. This capacity is not necessarily equal to the vector size. It can be equal to or greater, with the extra space allowing to accommodate for growth without the need to reallocate on each insertion. The capacity does not suppose a limit on the size of the vector. When this capacity is exhausted and more is needed, it is automatically expanded by the container (reallocating it storage space). The theoretical limit on the size of a vector is given by member max_size. 
+Syntax: 
+Parameters: The function does not accept any parameters. 
+Return Value: The function returns the size of the storage space currently allocated for the vector, expressed in terms of elements. 
+Below programs illustrate the above functions:
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

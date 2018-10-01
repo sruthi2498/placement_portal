@@ -1,0 +1,31 @@
+There were three easy questions.
+1st Qus:
+Complete a function that takes two integer x and y. you have to return x+y if numbers of the digit in (x+y) are equal to x otherwise, return x.
+2nd Qus:
+Complete a function that takes a binary string. You have to return the longest size of contiguous substring containing only ‘1’.
+3rd Qus:
+Complete a function that takes the root of a tree( implemented as linked list and every node containing an integer) and an integer N. You have to return maximum depth of leaf node, such that sum of elements of the node
+in the path from the root to the leaf node should equal to N.
+The fly round was about 45 minutes. The student had to write code for 2 problems on paper.
+1st Qus:
+Write a function that takes a sentence. You have to return that sentence having words in reverse order.
+Input: He is not coder.
+output: coder not is He.
+2nd Qus:
+https://www.geeksforgeeks.org/maximum-product-subarray/ 
+According to my thought, Don’t think to solve the question fast ( It will be better If you are fast.), You can take your time, Write a beautiful code ( clearly understandable to anyone, eg if you are using helping array, then choose the name for this wisely like MinSum[], SmallestInt[],CurAns[]).
+ The first Interviewer asked me a question, Do you know XML encoding. I said, No sir I never listen about it, I don’t think it was in course ever. Then he describes some thing about it. While listening to the
+description, Don’t be silent try to asking questions regarding your doubt and the other corner test-cases try to be smart ( don’t ask any silly question ). If you feel that question is easy So tell your approaches not the direct solution.
+I don’t remember the whole question but I remember the input-output, that was,
+input: 5 > 4 or 7 4 or 7<9
+1st qus: Write the code for finding numbers of zero in N!.
+2nd qus: The question was you have a website of lottery purchase, simultaneously the people buying lottery from your site. You have to choose a candidate randomly with uniform probability. I have to write the code also. Luckily He was impressed by my previous answers so he gave me lots of hints to find out the solution for next question. At last, I found the solution. he told me to code it, I write a code but he did not agree, and
+told me it is not correct, write other, Then finally I write a correct code. Both were happy and satisfied. Then he asked me the 5-6 question of
+Operating system,
+1. The difference between mutex and semaphore,
+2. The difference process and thread
+3. What is the new tab in chrome process or thread
+4. What should you do to share the same resources by more than one process simultaneously ,Luckily he was satisfied by my answer and looked impressed.
+ He asked me about my project, interest. That was very easy interview.
+
+

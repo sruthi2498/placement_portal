@@ -1,0 +1,31 @@
+Coding Test 
+Platform: CoCubes    Format: 3 coding questions  Time: 75 minutes
+They had a pool of questions and three questions(2 + 3 + 5 marks) were given to each student randomly.
+1. Given an array A of size m and another array B of size n. Return the product of maximum of A and minimum of B. (2 marks)
+2. Given an integer N and an integer M, output a number closest to N which is divisible by M. (2 marks)  Input: N = 15, M = 7  =>  Output: 14
+Input : N = 17, M = 3  => Output : 18
+3. Given a string containing or ‘|’ , and ‘&’ and xor ‘^’ in between binary bits 1 or 0. Return the output.Evaluation is from left to right.  Eg. 1^1|1&0^1, answer is 1. (3 marks)
+4. You are given two increasingly sorted linked lists. Return the head pointer of a linked list containing elements of the two linked lists sorted in descending order. Only use constant extra space
+5.  Given a binary tree. Find the deepest left leaf node (deepest leaf node that is left child of its parent). If there are two such nodes, return the maximum among them. (5 marks) https://www.geeksforgeeks.org/deepest-left-leaf-node-in-a-binary-tree/
+6. Longest increasing subsequence. (5 marks) https://www.geeksforgeeks.org/longest-increasing-subsequence/
+Group Fly
+The fly round was about 60 minutes
+1. Given an N-ary tree. Add a new member next pointer  to every node in the tree. Connect nodes at same level. Example of binary is given below but we were asked to solve for N.  https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+2. Given a list of contacts which exist in a phone directory. The task is to implement search query for the phone directory. https://www.geeksforgeeks.org/implement-a-phone-directory/
+3. Write the test cases for File Transfer ? http://www.geekinterview.com/question_details/78911
+We have to write the answers and code in paper. The first question was to test our Coding skills, second one for data structure design and third was for debugging.
+Interview
+I had 3 interviews, in each one of them they asked me to write code on paper.
+First one
+1. Two nodes of a BST are swapped, correct the BST.
+2. Given only a pointer/reference to a node to be deleted in a singly linked list, how do you delete it?
+3. Question on your CV. I have done one project using OOP concepts, so he asked me about it.
+4. LRU cache.
+Second one
+1. Matrix chain multiplication https://www.geeksforgeeks.org/dynamic-programming-set-8-matrix-chain-multiplication/
+2. Printing brackets in Matrix Chain Multiplication Problem https://www.geeksforgeeks.org/printing-brackets-matrix-chain-multiplication-problem/
+
+Third one
+1. Extract Leaves of a Binary Tree in a Doubly Linked List.
+2. Delete Alternate node in linked list.
+

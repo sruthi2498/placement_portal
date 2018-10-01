@@ -1,0 +1,41 @@
+Most of the Dynamic Programming problems are solved in two ways: 
+One of the easier approaches to solve most of the problems in DP is to write the recursive code at first and then write the Bottom-up Tabulation Method or Top-down Memoization of the recursive function. The steps to write the DP solution of Top-down approach to any problem is to: 
+1-D Memoization
+The first step will be to write the recursive code. In the program below, a program related to recursion where only one parameter changes its value has been shown. Since only one parameter is non-constant, this method is known as 1-D memoization. E.g., the Fibonacci series problem to find the N-th term in the Fibonacci series. The recursive approach has been discussed over here.
+Given below is the recursive code to find the N-th term: 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+A common observation is that this implementation does a lot of repeated work (see the following recursion tree). So this will consume a lot of time for finding the N-th Fibonacci number if done.  
+The following problem has been solved using Tabulation method. 
+In the program below, the steps to write a Top-Down approach program has been explained. Some modifications in the recursive program will reduce the complexity of the program and give the desired result. If fib(x) has not occurred previously, then we store the value of fib(x) in an array term at index x and return term[x]. By memoizing the return value of fib(x) at index x of an array, reduce the number of recursive calls at the next step when fib(x) has already been called. So without doing further recursive calls to compute the value of fib(x), return term[x] when fib(x) has already been computed previously to avoid a lot of repeated work as shown in the tree.   
+Given below is the memoized recursive code to find the N-th term.
+
+Run on IDE
+Run on IDE
+If the recursive code has been written once, then memoization is just modifying the recursive program and storing the return values to avoid repetitive calls of functions which have been computed previously.
+2-D Memoization
+In the above program, the recursive function had only one argument whose value was not constant after every function call. Below, an implementation where the recursive program has two non-constant arguments has been shown.  
+For e.g., Program to solve the standard Dynamic Problem LCS  problem when two strings are given. The general recursive solution of the problem is to generate all subsequences of both given sequences and find the longest matching subsequence. Total possible combinations will be 2n. Hence recursive solution will take O(2n). The approach to write the recursive solution has been discussed here. 
+Given below is the recursive solution to the LCS problem:
+
+Run on IDE
+Output:
+Considering the above implementation, the following is a partial recursion tree for input strings “AXYT” and “AYZX”
+In the above partial recursion tree, lcs(“AXY”, “AYZ”) is being solved twice. On drawing the complete recursion tree, it has been observed that there are many subproblems which are solved again and again. So this problem has Overlapping Substructure property and recomputation of same subproblems can be avoided by either using Memoization or Tabulation. The tabulation method has been discussed here. 
+A common point of observation to use memoization in the recursive code will be the two non-constant arguments M and N in every function call. The function has 4 arguments, but 2 arguments are constant which do not affect the Memoization. The repetitive calls occur for N and M which have been called previously. So use a 2-D array to store the computed lcs(m, n) value at arr[m-1][n-1] as the string index starts from 0. Whenever the function with the same argument m and n are called again, we do not perform any further recursive call and return arr[m-1][n-1] as the previous computation of the lcs(m, n) has already been stored in arr[m-1][n-1], hence reducing the recursive calls that happen more then once.   
+Below is the implementation of the Memoization approach of the recursive code.
+
+Run on IDE
+3-D Memoization
+In the above program, the recursive function had only two arguments whose value were not constant after every function call. Below, an implementation where the recursive program has three non-constant arguments is done.
+For e.g., Program to solve the standard Dynamic Problem LCS problem for three strings. The general recursive solution of the problem is to generate all subsequences of both given sequences and find the longest matching subsequence. Total possible combinations will be 3n. Hence recursive solution will take O(3n). 
+Given below is the recursive solution to the LCS problem:
+
+Run on IDE
+The tabulation method has been shown here. On drawing the recursion tree completely, it has been noticed that there are many overlapping sub-problems which are been calculated multiple times. Since the function parameter has three non-constant parameters, hence a 3-D array will be used to memoize the value that was returned when lcs(x, y, z, m, n, o) for any value of m, n and o was called so that if lcs(x, y, z, m, n, o) is again called for the same value of m, n and o then the function will return the already stored value as it has been computed previously in the recursive call. arr[m][n][o] stores the value returned by the lcs(x, y, z, m, n, o) function call. The only modification that needs to be done in the recursive program is to store the return value of (m, n, o) state of the recursive function. The rest remains the same in the above recursive program.  
+Below is the implementation of the Memoization approach of the recursive code:
+
+Run on IDE
+Note: The array used to Memoize is initialized to some value (say -1) before the function call to mark if the function with the same parameters has been previously called or not.

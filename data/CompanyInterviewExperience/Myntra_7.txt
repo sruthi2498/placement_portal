@@ -1,0 +1,7 @@
+Attended coding interview for myntra. Question was based on the movement of Robot. 
+G-GO one unit
+L-Turn left
+R-Turn right
+Given an input of string have to find whether there exists a circle which the robot would traverse. Input of string is the set of G,L,R have to return yes or no.
+
+

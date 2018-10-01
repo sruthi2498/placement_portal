@@ -1,0 +1,43 @@
+ROUND 1:
+This was an online round.There were three sections :
+1) Aptitude and logic
+2) Data structures(mainly binary tree),OS,DBMS,OOPS.
+3) Data analysis.
+ROUND 2:
+Online coding round:
+2 codes:
+code 1: given an array and a player.The player selects elements from array.If the player selects an item with value i the he/she cannot select i+1 or i-1.Find the maximum sum of value the player can select.
+I/P : 4 1 2 8
+O/P : 14
+I/P : 9 7 4 5 6 1 2 3 8
+O/P: 25
+code 2: Find the number of palindromes that can be formed by jumbling the words of a given string.
+I/P : abab
+O/P : 2
+I/P : none
+O/P : 0
+TECHNICAL ROUND 1:
+1) tell me about yourself?
+2) some questions on sorting algorithms? i.e, which sort is better and running times for each?
+3) given a  list of strings place all anagrams together.
+4) Given two numbers represented by two lists, write a function that returns sum list. The sum list is list representation of addition of two input numbers.
+https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+5) What is virtual memory? Demand paging?and some basic questions on os.
+6) Given a big file sort it? Big in the sense doesn’t fit into memory.
+7) what is register storage class?
+TECHNICAL ROUND 2:
+1) Why is OOP better than procedural programming? adv and disadv of OOPS.
+2) Puzzle: Pirate one: Ten pirates discover a chest containing 100 gold coins. They decide to sit down and devise a distribution strategy. The pirates are ranked based on their experience (Pirate 1 to Pirate 10, where Pirate 10 is the most experienced). The most experienced pirate gets to propose a plan and then all the pirates vote on it. If at least half of the pirates agree on the plan, the gold is split according to the proposal. If not, the most experienced pirate is thrown off the ship and this process continues with the remaining pirates until a proposal is accepted. The first priority of the pirates is to stay alive and second to maximize the gold they get. Pirate 10 devises a plan which he knows will be accepted for sure and will maximize his gold. What is his plan?
+3) Reverse a linked list.
+4) https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+TECHNICAL ROUND 3:
+1) Design the snake and ladder game and finally if three players play it must give me the winner? i was asked to write the code for it.(some optimisations then).
+2) Gave me array : 9 16 7 8 25 95 23 11 and i was asked which sorting algo would be best to sort it and asked me number of iterations it will take?
+3) Asked me to explain merge sort and was asked to write complete working code for it.
+HR INTERVIEW:
+1) Tell me abt yourself?
+2) how were the interviews?
+3) how was 2nd round better than first?
+4) asked me abt my internship.
+5) asked me abt my family,hobbies and etc.
+

@@ -1,0 +1,14 @@
+Given an array A[], find a subset of maximum size in which sum of every pair of elements is a prime number. Print its length and the subset. Consider many queries for different arrays and maximum value of an element as 100000.
+Examples :
+
+Let’s make some observations and then move to problem. Sum of two numbers is even if and only both the numbers are either odd or even. An even number cannot be a prime number except 2. Now, if we take three numbers a, b and c, two of them should be either odd or even(Pigeonhole theorem). So, our solution exists only in two cases – (Let the subset be B)
+First count the number of ones in the array using a for loop.
+ 
+Below is implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)

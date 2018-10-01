@@ -1,0 +1,9 @@
+The unordered_multiset::bucket() is a built-in function in C++ STL which returns the bucket number in which a given element is. Bucket size varies from 0 to bucket_count-1. 
+Syntax: 
+Parameters:  The function accepts a single mandatory element which specifies the value whose bucket number is to be returned. 
+Return Value: It returns an unsigned integral type which signifies the bucket number in which the element is. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

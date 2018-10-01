@@ -1,0 +1,5 @@
+The multimap::emplace_hint() is a built-in function in C++ STL which inserts the key and its element in the multimap container with a given hint. It effectively increases the container size by one as multimap is the container that stores multiple keys with same values. The hint provided does not affect the position to be entered, it only increases the speed of insertion as it points to the position from where the search for the ordering is to be started. It inserts in the same order which is followed by the container. It works similarly to multimap::emplace() function but is at times faster then it if the user provides position accurately. 
+Syntax:  
+Parameters: The function accepts three mandatory parameters key which are described as below: 
+Return Value: The function does not return anything.   
+Run on IDE

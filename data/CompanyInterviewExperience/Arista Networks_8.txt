@@ -1,0 +1,15 @@
+Round 1 : Technical Interview
+Question 1: Given a sorted doubly link list and two numbers C and K. You need to decrease the info of node with data K by C and insert the new node formed at its correct position such that the list remains sorted.
+Complete working code with test cases was required .
+Question 2: Given a binary tree , and two values a and b, find the shortest length between the nodes with info a and b.
+Question 3: Basics of synchronization , test and set, locks, mutex. (wrote a code and kept on adding constraints ,asked if code would work in mutiprocessor, uniprocessor, multithreaded system).
+Round 2 : C/C++ concepts + HR
+The round began with detailed description of projects. Then, He went into the details of printf function, format string and variable arguments and asked to implement my own printf fuction.
+Interviewer wrote basic C programs on shared screen and output had to be predicted.
+Basic HR questions
+Round 3 : Technical Interview
+Question 1 : Given a large file which contains m rows and n columns. Given a column no, sort the column in such a way that corresponding rows also sorted.
+Question 2 : Suggest a way to search in sorted link list in better then O(n) time . ( Skip lists )
+Question 3 : LRU cache implementation.
+Question 4 : Find the mean and median of the elements such that elements are dynamically added at runtime( only approach).
+Finally, Why do you want to join Arista networks.

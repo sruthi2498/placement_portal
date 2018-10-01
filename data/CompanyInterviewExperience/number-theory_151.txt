@@ -1,0 +1,27 @@
+Given three numbers n, r and p, compute value of nCr mod p. Here p is a prime number greater than n. Here nCr is Binomial Coefficient.
+Example:
+We have discussed following methods in previous posts.
+Compute nCr % p | Set 1 (Introduction and Dynamic Programming Solution)
+Compute  nCr % p | Set 2 (Lucas Theorem)
+In this post, Fermat Theorem based solution is discussed.
+Background:
+Fermat’s little theorem and modular inverse
+Fermat’s little theorem states that if p is a prime number, then for any integer a, the number ap – a is an integer multiple of p. In the notation of modular arithmetic, this is expressed as:
+ap = a (mod p)
+For example, if a = 2 and p = 7, 27 = 128, and 128 – 2 = 7 × 18 is an integer multiple of 7.
+If a is not divisible by p, Fermat’s little theorem is equivalent to the statement  a p – 1 – 1 is an integer multiple of p, i.e
+ap-1 = 1 (mod p)
+If we multiply both sides by a-1, we get.
+ap-2 = a-1 (mod p)
+So we can find modular inverse as p-2.  
+Computation:
+Following is the implementation of the above algorithm. In the following implementation, an array fac[] is used to store all the computed factorial values.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Improvements:
+In competitive programming, we can pre-compute fac[] for given upper limit so that we don’t have to compute it for every test case.  We also can use unsigned long long int everywhere to avoid overflows.
+

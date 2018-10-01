@@ -1,0 +1,49 @@
+I received a call from a consultancy, informing me that there are vacancies in D E Shaw for freshers. So they take my resume from  naukri.com and send it to DE Shaw. Within 10 minutes, i got another call from D E Shaw recruiter. She scheduled my telephonic interview on the next day.
+Telephonic Round : (1 hour)
+1. Tell me about yourself.
+2. Discussion about projects. They asked me what  technology i used and which classes i created in my project.
+3. Difference bw C and C++.
+4. OOPs principles with examples , function overloading , function overriding , types of polymorphism, templates
+5. Virtual functions and how they work (vtable and vptr concept)
+6. Exception handling in C++
+7. difference bw C++ and java.(I told him some differences and also i clearly mentioned him that i am not comfortable in Java. So he don,t ask me any further questions on Java).
+8. Difference bw array and linked list . what is stack.
+9. Indexing and joins in DBMS , clustered and non clustered index
+10. How to create a BST .
+11. loop detection in linked list, merging of linked list
+12. Which sorting algorithm is best .?
+13. Private constructor . example when it use ( i told singleton pattern )
+After few days I got a call for the interviews at Hyd. D E Shaw has awesome office. (All rounds were taken by 2 Interviewers)
+Interview round 1:
+1. Tell me about yourself.
+2. Discussion about projects. They asked me what  technology i used and which classes i created in my project.
+3. Search an element in sorted and rotated array. (I told him the approach that does not require to find the pivot. )
+4. Group By in SQL , write the query for finding the second highest salary. (without using sub-query sol )
+5. He asked me in which language i was most comfortable among C and C++. I told C++.
+6. Some questions on C++.
+7. Smart pointer concept in C++
+8. Templates in C++.
+Interview round 2:
+1. Tell me about yourself.
+2. why DE Shaw ?
+3. point of intersection in two linked list(2-3 approaches)
+4. write a code to check a string is palindrome is not.
+5. indexing in dbms , joins , ACID properties
+6. function overloading , virtual functions .
+7. Singleton class
+8. Deadlock, deadlock prevention techniques, paging, segmentation, dirty bit, virtual memory. IS Using virtual memory technique is always helpful??
+9. Inode in Unix
+10. Abstract class and interface . When to use abstract class and when interfaces are used?
+11. Which data structure i will use to implement forward and backward button in browser (Doubly linked list)
+12. A simple puzzle 
+HR round:
+Some basic HR questions
+Apart from that, below are some  questions,  asked to other candidates there.
+1. Design a online reservation system for n rooms.
+2. Longest palindromic substring .
+3. 25 Horses puzzle
+4. Which sorting algo is used to sort names in a large file .
+5. Reverse a stack.
+6. Reverse a doubly linked list .
+Geeks for Geeks helped me lot in my preparations. I followed GFG thoroughly during my preparations, hope that my experience would help you in your interviews.
+

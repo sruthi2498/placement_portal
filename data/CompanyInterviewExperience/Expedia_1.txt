@@ -1,0 +1,21 @@
+Expedia visited our campus for interns on  5th Sept.
+Round 1: Online technical round hosted on Hackerrank. This round comprised  2 coding questions and 10 Mcq’s. Duration of test was 90 minutes.
+Mcq’s were from Data structure, Algorithm and Aptitude.
+Coding question 1: We are given some coins and a maximum height and  we want to arrange them in a way like stairs such that sum of the height of stairs do not exceed max height.Example in first row we can put 1 coin, in row 2 we can put 2 coins in row 3 we can put 3 coins and so on. Find total number of rows that can be formed.
+My approach: simple 1+2+3…….<=max height. Let number  of rows be n so  n*(n+1)/2=max height. Simple quadratic equation there will be two roots positive one will be our answer.
+ 
+Coding question 2: We are given m cars on a lane with their starting  and ending points and length of the road n. Find the length of  max gap  on the road where there are no cars.
+constraints: 1<=m<=exp(10, 5), 1<=n<=exp(10, 9).
+My approach: Merge all the overlapping intervals and then take the max length of all the disjoint intervals.Somehow like this https://www.geeksforgeeks.org/merging-intervals/.
+31 students were shortlisted after this round for interviews among 392 students.
+Interview process.
+Round 1: He asked me to tell me about myself for 5 minutes. Then he asked me a puzzle  http://www.mytechinterviews.com/8-identical-balls-problem.He then later asked me to write a code that gives segmentation fault he told me to write proper code with all the synatx intact.He told if any of the syntax gets wrong it would deduct marks.
+Round 2: He first asked me to rate myself on Data structure, Algorithm and language in which i code on a scale of 10.Then he asked me a ques given an array count number of pairs as well as print those pairs which are reverse(similar to palindrome) of each other.
+eg. arr={36, 1, 1000, 2, 18, 63, 81} it should print ans as 3. {36, 63}, {18, 81}{1, 1000}.
+Second ques: Given a word in a dictionary search a word efficiently I told him that it can be done using storing all words in a map and then searching for that particular word he told me to optimise further I told it can be done using trie data structure then he asked me to implement trie from scratch including search and insert function.https://www.geeksforgeeks.org/trie-insert-and-search/.
+Round 3: This round went very long the interviewer seemed very strict. He asked a few questions similar to system design.
+Then some behavioral questions like why Expedia and finally he told me to ask if I have any questions for     him(read a little about the company, the technologies they work on and ask question related to that it lefts a good impact of yours on the interviewer.)
+Other questions which were asked to me and my other friends were:
+I would like to thank geeks for geeks and all the contributors  who contributed to interview experiences it helped           me a lot during my interview preparations.
+  Final verdict: Selected!
+This article has been  contributed by Aishwary kumar.

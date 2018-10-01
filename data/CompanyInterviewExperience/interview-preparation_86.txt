@@ -1,0 +1,45 @@
+What is the difference between declaration and definition of a variable/function
+Ans: Declaration of a variable/function simply declares that the variable/function exists somewhere in the program but the memory is not allocated for them. But the declaration of a variable/function serves an important role. And that is the type of the variable/function. Therefore, when a variable is declared, the program knows the data type of that variable. In case of function declaration, the program knows what are the arguments to that functions, their data types, the order of arguments and the return type of the function. So that’s all about declaration. Coming to the definition, when we define a variable/function, apart from the role of declaration, it also allocates memory for that variable/function. Therefore, we can think of definition as a super set of declaration. (or declaration as a subset of definition). From this explanation, it should be obvious that a variable/function can be declared any number of times but it can be defined only once. (Remember the basic principle that you can’t have two locations of the same variable/function).
+What are different storage class specifiers in C?
+Ans: auto, register, static, extern
+What is scope of a variable? How are variables scoped in C?
+Ans: Scope of a variable is the part of the program where the variable may directly be accessible. In C, all identifiers are lexically (or statically) scoped. See this for more details.
+How will you print “Hello World” without semicolon?
+Ans:
+Run on IDE
+See print “Geeks for Geeks” without using a semicolon for answer.
+When should we use pointers in a C program?
+1. To get address of a variable
+2. For achieving pass by reference in C: Pointers allow different functions to share and modify their local variables.
+3. To pass large structures so that complete copy of the structure can be avoided.
+C
+4. To implement “linked” data structures like linked lists and binary trees.
+What is NULL pointer? 
+Ans: NULL is used to indicate that the pointer doesn’t point to a valid location. Ideally, we should initialize pointers as NULL if we don’t know their value at the time of declaration. Also, we should make a pointer NULL when memory pointed by it is deallocated in the middle of a program.
+What is Dangling pointer?
+Ans: Dangling Pointer is a pointer that doesn’t point to a valid memory location. Dangling pointers arise when an object is deleted or deallocated, without modifying the value of the pointer, so that the pointer still points to the memory location of the deallocated memory. Following are examples.
+Run on IDE
+Run on IDE
+What is memory leak? Why it should be avoided
+Ans: Memory leak occurs when programmers create a memory in heap and forget to delete it. Memory leaks are particularly serious issues for programs like daemons and servers which by definition never terminate.
+Run on IDE
+What are local static variables? What is their use?
+Ans:A local static variable is a variable whose lifetime doesn’t end with a function call where it is declared. It extends for the lifetime of complete program. All calls to the function share the same copy of local static variables. Static variables can be used to count the number of times a function is called. Also, static variables get the default value as 0. For example, the following program prints “0 1”
+Run on IDE
+What are static functions? What is their use?
+Ans:In C, functions are global by default. The “static” keyword before a function name makes it static. Unlike global functions in C, access to static functions is restricted to the file where they are declared. Therefore, when we want to restrict access to functions, we make them static. Another reason for making functions static can be reuse of the same function name in other files. See this for examples and more details.
+You may also like:
+Commonly Asked C Programming Interview Questions | Set 2
+Commonly Asked Java Programming Interview Questions | Set 1
+Amazon’s most asked interview questions
+Microsoft’s most asked interview questions
+Accenture’s most asked Interview Questions
+Commonly Asked OOP Interview Questions
+Commonly Asked C++ Interview Questions
+Commonly asked DBMS interview questions | Set 1
+Commonly asked DBMS interview questions | Set 2
+Commonly Asked Operating Systems Interview Questions | Set 1
+Commonly Asked Data Structure Interview Questions.
+Commonly Asked Algorithm Interview Questions
+Commonly asked Computer Networks Interview Questions
+Top 10 algorithms in Interview Questions

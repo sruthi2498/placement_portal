@@ -1,0 +1,52 @@
+Round 1:
+ Question paper was divided into 4 sections
+   TIME: 2 hrs
+1. English
+2. Software engineering aptitude
+3. General coding questions
+4. Mathematical aptitude
+Questions were moderate except the second part which included flowchart based questions which were tough to answer provided the time limit. Each sections were further divided into three or four subsections each having there own time limit. Time management is the key in this round.
+40 students were selected form this round
+    Round 2 : TIME : 1 hr 15 min
+      Interview was very polite and was patient to let me think over the questions and answer them
+    She started with the subset sum problem.
+https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/
+    I gave her the DP approach and she was satisfied with me.
+Next she gave me a problem on topological sort . I took some time to understand the question but finally did it
+https://www.geeksforgeeks.org/topological-sorting/
+next she asked me a puzzle : if I give you two options to either take a fixed sum of money or increasing sum in geometric progression which one will you take. Answer must be supported by mathematical explanation
+she gave me a pattern to print for a given value of n 
+ I quickly recognized that the numbers are in the power of 11 so then she asked me to write the code for it
+Then she asked me about oop concepts like polymorphism , inheritance whose explanation must be supported with a code
+Code was required for each 
+
+Round 2: TIME: 1 HR 30 MIN
+Interviewer was again very friendly . he took a paper and wrote 4 questions on it
+1. Given a bottle of pills where each bottle has same pills of the same weight except one . I had to identify the bottle using weight measurement instrument only once https://www.geeksforgeeks.org/puzzle-7-find-the-jar-with-contaminated-pills/
+2. Given the arrival and departure time of different trains find out the minimum no of platforms required so that none of the trains need to wait
+https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+3. Given a matrix given out those element in the matrix which is common in all the rows of the matrix
+https://www.geeksforgeeks.org/common-elements-in-all-rows-of-a-given-matrix/
+4. Next questions was a puzzle .  
+A man need to take pill A and B every day . but one day by mistake he mixes two pills of A and one pill of B.  he cannot thow away the water containing those pills as they are costly and he cannot consume them also . what should he do
+https://www.geeksforgeeks.org/puzzle-10-a-man-with-medical-condition-and-2-pills/
+He gave me around 30 min to think. He told me optimize the third solution (without using extra space).
+After he told other interviewer to ask questions
+He asked me basics concepts of pointer and different pointer like dangling pointer, far pointer etc
+After which he gave me 2 sql queries . I told me I am not that proficient in writing queries but he asked me to try . I didn’t think I wrote the correct answer but considering my performance with the previous interviewer I was selected for the third round.
+ROUND 3:
+TIME : 45 min
+It was kind of hr and technical combined
+Interviewer started by asking about my interests , my job location preference , family background etc
+Then he gave me a problem to design schema for a site like udemy where there are a no of students , teachers and courses and each course has a certain discount depending upon the marks of the student . he told me to pay special emphasis on primary key and foreign key and the cardinality ratios and other constraints which he gave me
+He came back after 30 min and asked me to explain my design . he asked questions on normalization , referential integrity , keys etc
+
+ROUND 4(HR):
+Started with a brief discussion about my family
+Why do you want to join oracle
+My likes and interests
+What will you do if your friend from your team performance drops drastically
+Then she asked if I had any questions . 
+
+
+

@@ -1,0 +1,8 @@
+C++ map stores keys in ordered form (Note that it internally use a self balancing binary search tree).  Ordering is internally done using operator ” < "   So if we use our own data type as key, we must overload this operator for our data type.
+Let us consider a map having key data type as a structure and mapped value as integer.
+Run on IDE
+We can also make < operator a member of structure/class.
+Run on IDE
+What happens if we do not overload < operator?
+We get compiler error if we try to insert anything into the map.
+Run on IDE

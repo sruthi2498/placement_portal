@@ -1,0 +1,18 @@
+Hi, Recently I was interviewed by Hike. I have 4 years of experience.
+Round 1
+Machine Coding round to create an android application to take pictures from and upload to a server. 
+Designing , thread safety and performance was evaluated 
+Round 2
+1.Given a sorted array of m size with m elements
+and another sorted array of m+n size with n elements starting from the 0th index .
+Merge these two arrays in linear time without using extra space 
+Round 3
+questions on hashmap working ,concurrent hashmap and Collections.synchronize
+Round 4
+How to analyze usage history of a application
+Reverse alternate levels of a binary tree
+Round 5
+Designing a  LRU Cache which is thread safe and can be scaled
+Designing a file sharing mechanism between two users .
+Concepts of distributed systems were asked.
+I thank geeksforgeeks which helped a lot in my preparation.

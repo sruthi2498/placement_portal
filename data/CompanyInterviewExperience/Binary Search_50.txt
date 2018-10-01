@@ -1,0 +1,10 @@
+Given an array of sorted integers. We need to find the closest value to the given number. Array may contain duplicate values and negative numbers. 
+Examples:
+A simple solution is to traverse through the given array and keep track of absolute difference of current element with every element. Finally return the element that has minimum absolution difference.
+An efficient solution is to use Binary Search.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

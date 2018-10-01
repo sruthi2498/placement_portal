@@ -1,0 +1,11 @@
+A number is said to be twisted prime if it is a prime number and reverse of the number is also a prime number.
+Examples:
+The idea is first check if n is a prime number then reverse the number n and check reversed n is a prime number or not.
+We use methods of below two articles.
+1) Check if a number is prime (School Method)
+2) Reverse digits of a number.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

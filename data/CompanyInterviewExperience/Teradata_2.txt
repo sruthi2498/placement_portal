@@ -1,0 +1,43 @@
+Teradata recently visited our campus and the package offered was above 8 lpa. They were recruiting for the role of C/C++ development and functional testing.
+Round 1(Written – 45 minutes)
+The questions for this round was different for the development and testing team. Candidates selected for this round were mainly on the basis of their CGPA and the corresponding entrance exam rank. Around 50 candidates took the exam(both dev and test profiles). I was in the development profile. For me, this was the toughest round. The questions were above GATE level. A few previous years’ GATE questions were also asked. The subjects were C, DS and OS. Some of the questions were tricky. There were few tough questions from bit manipulation and pointer arithmetic.
+16(8 dev+8 test) ppl qualified this round.
+Round 2 (Technical Interview 1 – 30 minutes)
+This round was pretty easy. I was asked two questions. The only language allowed was C
+1. Remove trailing blank spaces from the end of a string.
+I quickly gave a O(n) solution, n being the length of the string. He asked to optimise it in any way I can. I used the sizeof() operator for calculating string length to avoid traversing to the end of the string. He looked satisfied.
+2. Given a Single Linked List, reverse the list whenever a “1” is encountered
+i/p: 2->3->4->5->1->10->11->12->1->13->14
+o/p: 5->4->3->2->1->12->11->10->1->13->14
+Took about 10 minutes to write the full code covering all test cases. He asked me to optimise it a bit.
+Some discussion on projects listed in resume and he was done.
+Round 3 (Technical interview – 50-55 minutes)
+I found this round to be easy too. The interview greeted me and told that my DS was good from first round’s feedback. He then asked me to grade myself out of 10 in DS. I played safe and said 6 or 7. He asked me to answer the following questions in C:
+1. Check a string to be palindrome
+2. Place the characters of the string inside the nodes of a Singly Linked List i.e, every node has one character. Check palindrome
+3. Merge two sorted strings
+4. Do the same using Single Linked Lists instead of arrays.
+5. Do the above question inplace
+6. You’re given a Single Linked List whose length is unknown and a number k. Find the kth element from the end of the Linked List
+7. Do the above using a single pass of the Linked List.
+Some discussion about projects.
+I wrote code for all the questions above, as quickly and accurately as possible. He seemed impressed with that.
+
+Round 4 (ML interview- optional)
+Only those candidates who had previous experience with ML were invited to this interview. I had taken a course on Coursera and mentioned in the resume, hence called for this additional round.
+1. Difference between unsupervised and supervised learning
+2. Explain the Linear Regression model. How is data revamped onto this model? What are the APIs used by your platform by which you did this project? And some other questions related to the algorithm and quality metrics.
+3. Gave some scenarios. Asked to distinguish between unsupervised and supervised learning in each of them with reasons.
+4. Imagine you want to help your mess with wastage your food. How will you use ML to solve this problem? Enumerate the conditions you’d use and classify them.
+Round 5 (Manager round – 30 minutes)
+Around 2-3 developers qualified for this round.
+Basic questions like where do you want to see yourself in 5 years and 10 years. Some questions about the resume projects(bit technical). Why did you apply for ML profile too? Other basic HR questions.
+Round 6 (HR round – 30 minutes)
+Last round was with who seemed like a head HR. He asked about my strengths, weakness. Other HR questions like incidents where I had taken initiative and saw it through, USP, CGPA, position in the class etc.,
+After the final round, 1 developer and 1 tester was selected
+
+Few tips:
+1. Be very strong with the basics. I was lucky to be faced with strings and Single Linked List questions. Some of my friends were asked on graphs, B-Trees etc
+2. Understand the question completely and thoroughly
+3. One thing I thought worked for me was the pace with which I answered the questions. Once the question was clear to me, I was very fast in writing code. That impressed all the interviewers.
+4. Be specific while answering.

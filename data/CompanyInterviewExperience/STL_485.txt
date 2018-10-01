@@ -1,0 +1,4 @@
+std::basic_string::max_size is used to compute the maximum number of elements the string is able to hold due to system or library implementation limitations.
+Run on IDE
+Output:
+Note : The maximum size can depend on the compiler and system.

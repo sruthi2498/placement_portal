@@ -1,0 +1,14 @@
+Round 1: Face to Face
+1. Calculate a power x: Power(x, n)
+2. Find pivot in sorted rotated array Sorted rotated array
+3. Top view of a tree: Top view
+4. Explain Singleton pattern in multi threaded environment. Why double checking lock is required ? 
+Round 2: Face to Face
+1. Implement an immutable class that has a hashMap as instance variable
+2. Internal working of a hashmap
+3. Design tiny URL service
+4. How hashcode and equals work. What is its significance. What are the the relative conditione between hashcode and equals eg. If 2 objects are equal there hashcode must be equals but vice versa may not be true.
+5. There are 3 threads that perform the same task. Main thread starts all these threads. Find out which thread gives fastest result.
+Round 3: Face to Face Hiring Manager round 
+Basic behavioral questions and current project discussions. 
+Thanks Geeks for Geeks for the prep help. Got an offer from walmart.

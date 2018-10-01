@@ -1,0 +1,48 @@
+Recently makemytrip visited our Campus and I got selected in recruitment drive.The placement drive consisted of 4 rounds.
+Round1: MCQ and coding round
+It was an online test of 60 minutes consisting of 20 aptitude question and 3 coding question. Platform used for the test was of makemytrip and slightly difficult to understand.
+Question1: Calculate the power of a ^ b mod c using logn approach.The thing that was to be taken care of was that you did not needed to return or print your answer but you had to store it in their predefined global variable. You could easily find the solution on geeksforgeeks site.
+Question2: Given a sentence you were supposed to calculate the count of Capital , small letter and number.Question seemed to be quite easy but the pick was that you needed to store the answer in char* output variable in the form of c1:c2:c3 where c1 represent count of capital letter c2 represent count of small letter and c3 represent count of number.
+(Hint use sprintf to store your answer in formatted way in the variable
+sprintf(output,”%d:%d:%d”,c1,c2,c3);
+)
+Question3: Activity Scheduling problem
+You are given 2 arrays representing the starting and finishing time of activities . Determine the maximum number of non conflicting activities that you can achieve.
+(Hint : make a structure of start and finish time and sort according to finishing interval)
+I solved 2 completely and 1 partially
+Tip:Since they have only one sample test case so even you are not able to solve the coding question just store the hard coded answer in that variable. I did that in last :P)
+Out of 110 students 30 students got selected for Personal Interview round.
+Round 2: Personal Interview
+Since I was last candidate in that list waiting from 10:30 am My turn came at 10:30 PM.The interviewer was very cool and friendly.He started with asking tell me about yourself and what projects I have done.After half hour rigerous discussion over my project and making schema of databases I used in project He started asking question on ds.
+Question1: Sort a linklist consisting of 0,1,2’s.
+(Hint: I used hashmap of stl in c++ to store the count of 0,1 and 2)
+Question 2: Given a stock You need to find the maximum profit you can earn .You are allowed to buy and sell as many number of time you can.)
+Question 3:Design a treeset in java.
+(Hint:I told him to use BST but he told to think of more optimized way so Ii told AVL and wrote functions for insertion in AVL tree)
+Question4:Diffrentiate between method overloading and method overriding.What are static blocks in java.
+Question5: Drilling question on deployment descriptor,struts,mysql.
+Round3: Personal Interview
+The interviewer seemed to be exhausted . He asked me that Since you are the last person so all the question you would have asked. So tell me what all question you have asked. I told him distinct palindromic substring in string, LIS, LCS etc students told that you are asking.He thought for a while and told me to write standard bfs code for graph traversal.
+Question2: You have been given a matrix of character and a dictionary.You need to find the valid words that you can obtain from it and print it.
+(Hint:I used dfs to find the valid sequence and assumed that all words are stored in a hashmap)
+After these He asked 6 puzzles to be solved in a given time.
+Puzzle 1 : 1.5 hen give 1.5 egg in 1.5 day. How many hens are required to have 4 dozen of egg in 6 days.
+Puzzle 2: 2 ropes and take 1hr to burn. Calculate 45 min
+Puzzle 3:10 jar with 10gm marble in each jar.One jar contain 9gm marbles only.Find the defective jar in one turn.
+Puzzle4:150 person are standing in a queue in sorted order.A blind person comes
+and wants to be at right position in queue.So he asks any person whether he can stand in front of him.He will reply in Yes or No . You have to find the right place after 2Yes.
+Give a strategy to find the correct place.
+(Hint:This puzzle can be reduced to egg drop puzzle)
+Puzzle 5:25 horse having race find top 3
+Puzzle 6:A person is riding a car and he sees a milestone A. After 1hr he sees milestone B which has digits reversed of A.After one hour more he finds a milestone C which contains all the digits of A and B . Given that A < B < C find the speed of car.
+(Other question that were asked from my friend
+1.Distinct Palindrome in string
+2.Transaction minimize problem
+3.LCS and LIS (dp approach)
+4.Diameter of tree
+5.Pattern Matching Algorithm (KMP))
+HR round:
+He asked me about my family background,what I do ,hobbies.What I know about makemytrip.What location I would prefer , whether I am satisfied with package or not,Working environment etc,
+It lasted for half hour.
+Tip:(Be expressive,Think out loud,Be confident. They need to know your approach not the solution)
+

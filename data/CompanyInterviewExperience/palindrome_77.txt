@@ -1,0 +1,12 @@
+Given a string str we need to tell minimum characters to be added at front of string to make string palindrome.
+Examples:
+
+    A brute force way to solve this problem is to keep adding characters from last one by one at front and keep checking whether current string is palindrome or not, at max we need to check characters equal to half of length of string because in worst case half of the string need to be added at front to make string palindrome.
+We can solve this problem efficiently in O(n) time using lps array of KMP algorithm.
+First we concat string by concatenating given string, a special character and reverse of given string then we will get lps array for this concatenated string, recall that each index of lps array represent longest proper prefix which is also suffix. We can use this lps array for solving the problem.
+Here we are only interested in the last value of this lps array because it shows us the largest suffix of the reversed string that matches the prefix of the original string i.e these many characters already satisfy the palindrome property. Finally minimum number of character needed to make the string a palindrome is length of the input string minus last entry of our lps array. Pease see below code for better understanding
+Run on IDE
+Output:
+Efficient Approach : Start checking the string each time if it is palindrome, and if not, then delete the last character and check again. After deleting count number of characters from the last i.e., the characters to be added to front, there will be a string which will be palindrome. 
+Run on IDE
+Thank you  Sanny Kumar  for suggesting this approach.

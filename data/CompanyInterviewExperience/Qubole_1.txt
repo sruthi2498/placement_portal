@@ -1,0 +1,11 @@
+Here’s my experience of Qubole interview.
+Input:
+Was csv files of fb users data. 
+Questions for above Input:
+1. Parse the data and build a graph.
+2. Check if two users are friends.
+3. Check if two users have a friend in common.
+4. Find total mutual friends for a pair of users.
+5. Find potential friends based on mutual friend count.
+6. How will you do this for large datasets  ?
+OO code was required which had a good design and was well commented.

@@ -1,0 +1,14 @@
+Round 1:
+There was an online coding round which was the first round. It was conducted on cocubes platform. There were 3 coding questions, one of 3 marks and two of 5 marks. The 3 mark question was based on array. Mine was :
+1. There’s a array and you need to find the second minimum of odd indexes of the array and second maximum of even indexes of the array. Then two return their sum.
+2. You need to implement a function which returns the boundary sum of a binary tree.
+3. There’s a binary tree. You need to find the minimum number of jumps needed to reach the second node from the first one. You need to implement the function which takes the root of the tree and the value of nodes as arguments.
+ 
+Total 173 students appeared the online coding round and around 60 students got selected for the next rounds.
+Round 2:
+Next round was a group fly round. You need to write the code on paper. They gave one problem and 20 minutes to solve. My group had the problem where we need to find whether two given nodes in a binary tree exist in the same path or not. Other group had problems related to DFS, BFS and clustering.
+Around 35 students got selected for the next round one.
+Round 3:
+The next round was a group interview. My group was given a puzzle to solve. The puzzle was that you have 15 identical bottles of wine, one of which contains poison 4 glasses, 4 men who can drink any of the glass. You need to figure the bottle containing poison provided that one man can test only once, no matter if he survives and you can pour any bottle to any glass.
+All other groups faced coding questions from sorting, graphs.
+Finally, 30 students were selected for SRIB internship. Fortunately we didn’t face any HR round before final selection!

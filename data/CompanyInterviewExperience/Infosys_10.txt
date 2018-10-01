@@ -1,0 +1,9 @@
+the first was a coding round on hacker rank ide, there was 2 questions to be answered in 90 minutes.
+Question 1 : there are switches that can be controlled by a remote , n such switches are connected in series and at the end of there is a bulb , the remote has a button that toggle the state of the switch (on to off and vice versa) , but the remote only works in switches which have a electric connection to them , A switch is connected when when all the previous switches are turned ON, and the bulb is on when all the switches are ON , At first all the switches are off and only the first switch is connected ,
+Input- N (number of switches ) ,1 < N < 30
+K(number of times the button is pressed) 1 < k < 10^7 output – 1 (if the bulb is on) , -1 (if it’s not) hint : figure out a simple math formula where the ans is 1 for value of K is k = p* pow(2, N) – 1 [for all p > 1 and p*pow(2,N) < K ].
+Question 2 : there are N employee sitting in consecutive cubicles , we have to send a few of them to onsite , but each time we send one employee onsite , his cubicle becomes empty , now the other employees from both side of that empty cubicle stops working until they are given a gift .
+the gifts are given in both sides of the empty cubicle until we reach the end or found another cubicle ,
+Input – number of cubicle , and index numbers of people to be sent
+output- min number of gifts needed
+hint: we have to find the order in which we will sent the people on site , find the index that’s in the middle or near about middle and send him out , keep doing the same for left and right sub array , there are many other ways of doing this by using binary trees .

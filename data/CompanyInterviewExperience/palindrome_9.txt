@@ -1,0 +1,26 @@
+Given a string, the task is to find all the palindromic sub-strings from the given string.
+In Set – 1, another approach has been already discussed and that consider only distinct sub-strings but in this equal sub-strings i.e. ll and ll are considered as two sub-strings, not one.
+Examples:
+Input : hellolle
+Output : 13
+[h, e, l, ll, l, o, lol, lloll, ellolle, l, ll, l, e]
+Explanation:
+1) ellolle
+2) ll, ll – Note that these are two distinct sub-strings that only happen to be equal
+3) lol and lloll
+4) And, of course, each letter can be considered a palindrome – all 8 of them.
+ 
+Input : geeksforgeeks
+Output : 15
+[g, e, ee, e, k, s, f, o, r, g, e, ee, e, k, s]
+Approach:
+1- We can have two types of palindrome strings that we need to handle -Even Length -Odd Length
+2- The idea is to consider a mid point and keep checking for the palindrome string by comparing the elements on the left and the elements on the right by increasing the distance or palindromeRadius by one at a time until there is a mismatch.
+3- The algorithm handles the even and odd length palindrome scenarios in a single pass.
+4- The pivot starts from 0 and moves till the end with a step size of 0.5.
+…….a) when the pivot is a non-fractional value, then the palindromeRadius values are integral starting from 0.
+…….b) when the pivot is a fractional value, then the palindromeRadius values are like 0.5, 1.5, 2.5, 3.5 ..
+5- So, each time we get a palindrome match, we put it in a list (so that the duplicate values are preserved because each duplicate sub-string is obtained by a different combination of alphabet positions)
+Run on IDE
+Run on IDE
+Note: To print distinct substrings, use Set as it only takes distinct elements.

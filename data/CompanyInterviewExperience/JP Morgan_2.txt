@@ -1,0 +1,27 @@
+Round 1:
+Two programming questions, one of 40 marks and the other of 60 marks on Hackerrank-
+Out of approx. 100+ candidates, 31 were shortlisted for interviews.
+Round 2: (Technical Round-1)
+The interviewer glanced through my resume and asked me about my previous summer internship project.
+He started asking about how web-app works, how are things fetched from server from backend ?, basic architecture diagram of client, server and database.
+Then he asked me how much I was comfortable with Java. I answered that I was comfortable with web-point of view.
+Given a text-file containing account number, transaction nature(debit/credit) and amount, which is already validated, how will I use this file to update database for changes in amount of each account.
+I suggested to avoid going and coming back to database again and again, that is first of all compute everything then make changes/updates in database. Also, parallelism will help calculating things faster and doing them efficiently. I was asked more about multithreading and synchronisation in Java and to relate the concepts here.
+Also he discussed about various sorting algorithms.
+The interviewer was very helpful and gave hints appropriately.
+In the end he asked – in an internship what scene/behaviour can make you feel disappointed during/after the internship ?
+Round 3:(Technical Round-2)
+Again I was asked about my summer internship project first, then about OOPs-
+They asked me the programming language I was most comfortable with.
+I answered C language because I had implemented all data structures and algorithms in C.
+They asked me to write a code for file-handling in C and a few question(s) about C language.
+A few more questions and I was done with this round.
+Again the interviewers were kind.
+HR Round:
+HR questions-
+Why JP Morgan ?
+Why did not you join any start-up if you want to make an impact on a large amount of clients ?(Que based on my previous answer)
+and a few more like fields of interests etc.
+ 
+Thanks to all my professors and geeksforgeeks for this rich experience.
+This article is contributed by Abdul Sattar Mapara

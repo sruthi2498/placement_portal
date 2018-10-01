@@ -1,0 +1,53 @@
+Known to have one of the most rigorous interviews in the industry. The company offers two positions
+Directi Media.net
+Database/ Web developer
+Application Engineer 
+1st Round : A competition hosted on Codechef with two problems. You got to completely pass all test cases to qualify.
+One question is generally implementation specific and the other is based on dynamic programming. The implementation question is fairly easy but could have corner cases which could make them difficult to pass. I could solve only 1 question within 90 minutes. 
+ Interviews :
+ The questions they ask could range from Technical topics like OS, CN, DS, Algorithms, Database, Web Technology etc
+1st Interview : 3 algorithmic questions.
+Given coordinate of buildings, and the total stretch of horizontal line. Calculate the total unoccupied space on the line. A building occupies 200 units of space on left and right.
+Input : 100, 300, 400, 700, 1200
+Output : 100
+Given 2 input strings, S1 and S2, find the minimum window within which elements of S2 occur in S1.
+Input : XUABLPQUDBA
+ABD
+Output : 3
+Given m number of mouses and cheese with their positions given in two arrays, find the minimum number of time required to eat the last cheese. A mouse can eat only a single cheese.
+Input : m=7
+5 92 7 64 57 82 45
+68 900 51 400 25 52
+Output :808
+Round 2:
+Questions about projects. What is a session?
+How is session implemented?
+Where are cookies stored?
+Where is session maintained etc?
+Find whether two strings are anagrams of each other? Optimise.. Without any data structure.
+You have a stack and the elements inside it are sorted. Insert an element into it,maintaining sorted sequence. Without using additional stack or any data structure. 
+Find the maximum palindrome you can get from a number with k swaps.
+Input k =5
+Input : 362287
+ Output 992299
+Given a list of prices of stock prices for x days. Calculate the maximum profit one can do. Stocks can be bought and sold any number of times.
+ Input :6 5 3 7 8 9 2 4 5 6 1
+Output : 10
+Round 3:
+Given a number, Find the next smallest palindrome
+Input : 705692
+Output : 706607
+Questions about project, Explain the Android ecosystem.
+How will you build an app from scratch, Guide me through the process.
+How is database implemented in android. What is and explain Content provider resolver in Android.
+Suppose I enter a domain address. Guide me through the process about how the browser loads the response.
+HashMap vs BST : Advantages uses cases
+Different types of maps in Java SDK
+Questions on concurrency in Java.
+Synchronised methods block how they work.
+Nested synchronised blocks
+Problems. 
+Tips : Look at problems from geeksforgeeks.org
+Try to solve as much as them as possible on your own. Bring non graph solutions to O(n). And optimize graph as well. They just want to know how good you are at applying logic that you have learnt. Keep your computer fundamentals strong and be confident with your concepts. The interview is an experience itself, with the best minds in the industry interviewing you. If you think you are wrong or aren’t sure. Let them know you aren’t sure and tell them that what you feel the implementation should be etc
+All the best.
+Result: Placed 

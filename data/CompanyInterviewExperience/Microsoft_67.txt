@@ -1,0 +1,14 @@
+Online Test: This was a cocubes online test. Multiple choice questions regarding basic machine learning and a little bit of neural network was asked. The test also had a section on basic aptitude and logical reasoning.  14 people out of about 100 were selected for the GroupFly round.
+The Group Fly round consisted of two coding questions. We had to write working code for them on paper and also write unit tests.
+1> Given a string like “fun1(fun2(a,b) ,c ,fun2(a),fun3(c,d))” how many unique function signature are there. Ans:4
+You can use 2 stacks and count the number of commas in between the brackets.
+2> Given a box of dimension W,H and co ordinates of points inside that box. Find the largest area that is free of any of these points.
+Round 1: First Round of interview was with a member of the bing team at microsoft. He asked me about my Project. I had to explain the project fully with most of the maths involved.
+Round 2:The second interview was about basic coding skills. The interviewer gave 2 questions and I was supposed to solve them on paper. The first question was more about how you approach the problem rather than code. He thank asked me why neural network work and why is it a booming field.
+Given a W,H of a big box and multiple boxes of different w,h . You want to fit the smaller boxes into the big box so that the placement looks aesthetically pleasing.. the smaller boxes could be less than the number required to fill the big box fully. That is there could be only one small box or there could be infinite small boxes of different sizes..
+Round 3: This round was a mixed HR and technical round. The interviewer asked me about what I expected out of the job. What I knew about the work. He than gave me a simple coding question for which I was to write the code on paper. He also asked me about why I wanted to work in the field of machine learning.
+https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+ 
+Overall the interview was fun. The interviewers were friendly and helped if you get stuck at some place in your approach.
+ 
+ 

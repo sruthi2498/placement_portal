@@ -1,0 +1,14 @@
+Given a number n then print n terms of fibonacci series in reverse order.
+Examples:
+Algorithm
+1) Declare an array of size n.
+2) Initialize a[0] and a[1] to 0 and 1 respectively.
+3) Run a loop from 2 to n-1 and store
+sum of a[i-2] and a[i-1] in a[i].
+4) Print the array in the reverse order.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,7 @@
+Given an array. The task is to count the possible pairs which can be formed using the elements of the array where both of the elements in the pair are prime.
+Note: Pairs such as (a, b) and (b, a) should not be considered different.
+Examples:
+A naive approach  is to count all possible pairs in the array and check if both the elements in the pair are prime. 
+An efficient approach is to count a number of primes in the array using Sieve of Eratosthenes. Let it be C. Now, total number of possible pairs is equal to C*(C-1)/2.
+Below is the implementation of the above approach:
+Run on IDE

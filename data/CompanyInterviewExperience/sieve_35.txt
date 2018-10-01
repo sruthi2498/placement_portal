@@ -1,0 +1,11 @@
+Given three integers A, B and K. We need to find no. of K-prime numbers in the range [A, B]. A number is called K-prime if it has exactly K distinct prime factors. 
+Examples:
+
+A simple solution is to traverse through given range. For every element of the range, find its prime factors. Finally print all those numbers whose prime factors are k.
+An efficient solution is to use Sieve Of Eratosthenes Algorithm
+ If we observe the above algorithm clearly it has a property of iterating through all the multiples of prime numbers less than N. So the number of times the algorithm marks a number not prime is equal to the number of prime factors of that number. To achieve this, maintain an array called marked and increase the count of a number every time when it is marked as not prime by the algorithm. And in the next step, we iterate through all the numbers in the range [A, B] and increase our count of k-prime numbers if marked[number] == K. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

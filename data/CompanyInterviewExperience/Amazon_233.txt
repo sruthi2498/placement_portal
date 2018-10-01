@@ -1,0 +1,22 @@
+The First Round of test was taken online by Amazon on Hackerearth.
+First Round:
+2 Technical Rounds:
+They take time in declaring results as they ensure that all eligible candidates make it to the Technical Interviews. Technical Rounds also consists of coding. Here,  you need to discuss your approach with the interviewer and then code it on paper.
+1st Technical Round:
+General question of Tell My About Yourself. Following this were technical questions mainly coding.
+Q1. Find the position of the rightmost set bit.
+I gave various approaches, firstly dividing by 2. Then they asked for a solution using bit operations. Gave them solution using OR. GFG Link: https://www.geeksforgeeks.org/position-of-rightmost-set-bit/
+Q2. Time complexity of Binary Tree: Searching, Inserting
+2nd Technical Round:
+Again asked Tell My About Yourself. There were 2 coding questions asked.
+Q1. Large number sum using Linked List.
+2 Approaches: Reversing the linked list and then adding or Recursion. Gave both the solutions. Then the question was: In case of a billion digits, which would you prefer? Recursion has a lesser time complexity but, a normal system won’t be able to operate so much on recursion, as there will be a stack overflow. Hence for a billion digits we have to go with reversing the linked list and then adding each digits.
+GFG Link: https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+Q2. Find an element in a strictly row sorted and column sorted 2 dimensional array without brute force.
+GFG Link: https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+Q3. Questions on Sorting and Searching algorithms complexity.
+Q4. Questions on Networking
+What is BGP(Border Gateway Protocol)?
+What is Link State Routing? How does it work?
+What is OSPF?
+TCP/IP model and OSI model.

@@ -1,0 +1,13 @@
+Given coordinates of four points in a plane, find if the four points form a square or not.
+To check for square, we need to check for following.
+a) All fours sides formed by points are same.
+b) The angle between any two sides is 90 degree. (This condition is required as Quadrilateral also has same sides.
+c) Check both the diagonals have same distance
+
+The idea is to pick any point and calculate its distance from rest of the points.  Let the picked picked point be ‘p’.  To form a square, distance of two points must be same from ‘p’, let this distance be d.  The distance from one point must be different from that d and must be equal to √2 times d.  Let this point with different distance be ‘q’.
+The above condition is not good enough as the the point with different distance can be on the other side.  We also need to check that q is at same distance from 2 other points and this distance is same as d.
+Below is C++ implementation of above idea.
+Run on IDE
+Output: 
+Extended Problem:
+Check if four segments form a rectangle

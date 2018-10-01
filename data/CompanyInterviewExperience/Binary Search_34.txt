@@ -1,0 +1,20 @@
+Binary Search is a searching technique used to search an element in a sorted array. In this article, we will learn about how to implement Binary Search in PHP using iterative and recursive way. Given a array of numbers, we need to search for the presence of element x in the array using Binary Search.
+Examples:
+
+This searching technique is more efficient than linear search.
+Method 1(Iterative):
+Steps Involved:
+1) Sort the array as binary search only works on sorted ranges
+2) Compute the middle element if the element we wish to search is greater than the middle element search on the right side else search on the left.
+3) Return True if the element is found.
+Run on IDE
+Output:
+Method 2(Recursive):
+Recursion is a way where we repeatedly call the same function until a base condition is matched to end the recursion.
+Proceeding with the steps in method 1 here we use the same idea by just changing the parameters of the function in recursive manner and breaking down the problem.
+Run on IDE
+Output:
+Related PHP functions:
+
+in_array() in PHP 
+array_key_exists() in PHP

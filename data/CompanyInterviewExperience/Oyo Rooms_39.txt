@@ -1,0 +1,39 @@
+Written Test (1 hour and we had to write code on paper):
+1) Remove duplicates in sorted linked list
+2) You are given an array of non negative integers and you need to select numbers from this array such that no two are adjacent and the sum of the numbers selected is maximised. Find this maximum sum. 
+Round 1:
+Discussion on the written test questions.
+1) Given a Binary Search Tree and an integer n, print the k nearest values to n. Nearest value means that we need to consider the absolute difference between n and the integers in the BST nodes.
+2) He wanted to know a data structure to implement a map (zoom into the map, zoom out of the map and slide up, down, left and right). He didn’t ask me to code it. Just discussions. 
+Round 2:
+Discussion on Projects.
+Reverse alternate k nodes in a linked list.
+How does a browser organise HTML tags while it parses the HTML file? Some discussions on how CSS etc is used as the page is being rendered.
+Round 3:
+Design an efficient data structure which supports the following:
+insert(int x) //inserts x into the DS
+check_if_exists(int x) //returns true if x exists otherwise false
+kth_maximum_frequency( ) //returns the number with the kth maximum frequency in the DS
+Discussed about printing all permutations of a string and recursion in detail. Memory management for Recursion. 
+Round 4:
+Discussion about internships and roles there.
+If you are supposed to release a feature tomorrow, but you realise today that there is a problem with it and you can’t fix it by tomorrow – what do you do? The feature won’t scale for all the users.
+Discussions on other such scenarios and course of action.
+Round 5:
+First of all, basic concepts were asked:
+1) What is an abstract class?
+2) What is polymorphism?
+3) What is multiple inheritance?
+4) Explain all the normal forms? Just the concepts even if you don’t remember name-wise.
+5) What are primary indices and secondary indices in DBMS?
+6) Explain Semaphores and the critical section problem.
+Imagine a matrix of size m*n of ‘B’ = Black, ‘W’ = White, ‘U’ = Uncolored grid locations.
+You start out at an index (i, j) and you can move up, left, right or down.
+If you are at ‘B’, you can move to a ‘B’ or a ‘U’.
+If you are at ‘W’, you can move to a ‘W’ or a ‘U’.
+From ‘U’, you can move to any color.
+Code this out and return True if you can reach the boundary of the matrix starting at (i, j).
+I coded this with BFS and he wanted to know what would happen if we choose DFS? Will the best case improve?
+We then discussed about implementing a data structure that can be used with a web crawler to keep track of the frequency of the website links already visited. He wanted to know how I
+ would implement a depth constraint on the Web crawler.
+

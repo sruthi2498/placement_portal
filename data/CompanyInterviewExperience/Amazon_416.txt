@@ -1,0 +1,11 @@
+Given an array arr[] and a position in array, k. Write a function name reverse (a[], k) such that it reverses subarray arr[0..k-1].  Extra space used should be O(1) and time complexity should be O(k).  
+Example: 
+We strongly recommend you to minimize your browser and try this yourself first.
+Below is the implementation for the same.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(k)

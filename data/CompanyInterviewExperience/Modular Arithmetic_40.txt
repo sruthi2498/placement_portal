@@ -1,0 +1,20 @@
+Given an array A[] of size N. Solve Q queries. Find the product in range [L, R] under modulo P ( P is Prime).
+Examples :
+
+Brute Force 
+For each of the query, traverse each element in the range [L, R] and calculate the product under modulo P. This will answer each query in O(N).
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Efficient Using Modular Multiplicative Inverse:
+As P is prime we can use Modular Multiplicative Inverse. Using dynamic programming we can calculate a pre-product array under modulo P such that value at index i contains the product in the range [0, i]. Similarly we can calculate the pre-inverse product under modulo P. Now the each query can be answered in O(1).
+Inverse Product array contains the inverse product in the range [0, i] at index i. So for the query [L, R] the answer will be Product[R]*InverseProduct[L-1]
+Note: We can cannot calculate the answer as Product[R]/Product[L-1] because the product is calculated under modulo P. If we do not calculate the product under modulo P there is always a possibility of overflow. 
+Run on IDE
+Run on IDE
+Run on IDE
+

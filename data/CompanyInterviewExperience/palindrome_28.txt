@@ -1,0 +1,10 @@
+Given a string S. Print the lexicographically smallest string possible. You can make minimal changes to the characters in the string and you can permute the string.
+Examples:
+Explanation 1:Change the last index “c” to “b”, it becomes “aabb”. Then rearrange the string, it becomes “abba”. This is the lexicographically smallest string.
+Explanation 2: change “d” to “b” => “aabcb” => “abcba”.
+
+Approach:
+cnt[a] be the no.of occurences of the character a. Consider odd values of cnt[a], then a palindrome can not contain more than one character a with cnt[a]. Denote characters with odd count cnt[]  as follows a1, a2….ak(in alphabetical order). Replace any of the symbols ak with a1 and ak-1 with a2 and so on upto middle of sequence above. Now, there are no more than one odd symbol. Place it in the middle of answer. First half of answer will consist of  occurences of symbol a. Second half will contains same symbols in reverse order.
+Example :
+Run on IDE
+

@@ -1,0 +1,32 @@
+This is an account of my recent interview experience with Amazon. My process started off at one their hiring drives. It was a tiresome process that comprised a written round followed by six rounds of interview, spanning around 37 days.
+Following is an account of my experience:
+Round 1 (Written round):
+1.      Given two linked lists each of which represent a number, write a function that returns a linked list that represents the sum.
+2.      Given a sorted array of numbers. Construct a balanced binary tree with the numbers in the Array as keys.
+3.      Given a sorted Array of numbers that has been rotated by a few positions, write a function to search an element in the Array.
+Round 2 (F2F):
+1.      Given a binary tree in which the node structure has an additional field called “next” which of pointer to tree node type, fill up this field of each node to point to the next node at the same level (NULL if last node).
+2.      Sort an almost sorted Array. An almost sorted Array being an Array in which a number is at the most k positions away from its position in the sorted Array.
+3.      You are given a 2D grid in which each cell is either empty, contains an entry “D” which stands for Door, or an entry “W” which stands for wall (Obstacle). You can move in any of the four directions from each empty position in the grid. Of course you cannot move into a cell that has “W” in it. You need to fill each empty cell with a number that represents the distance of the closest door to that cell. (They asked me only for the Algo as there wasn’t much time).
+Round 3 (F2F):
+1.      Given a 2D (Rectangular) grid of points. You need to find the shortest path from a given source point to a destination point. You can only move up or right. Now among these points, there a few special points from which you can directly jump to the diagonally opposite point (Top-Right diagonal). You are granted a function which when invoked on the point returns 1 if it is a special point and 0 if it is not.
+2.      You are given a sequence of black and white horses, and a set of k stables numbered 1 to k. You have to accommodate the horses into the stables in such a way that the following conditions are satisfied:
+a.      You fill the horses into the stables preserving the order of horses. For instance, you cannot put for horse 1 into stable 2 and horse 2 into stable 1. You have to preserve the ordering of horses.
+b.      No stable should be empty and No horse should be left unaccommodated.
+c.      Take the product (number of white horses * number of black horses) for each stable and take the sum of all these products. This value should be the minimum among all possible accommodation arrangements.
+Round 4 (F2F with Hiring Manager):
+1.      Discussion on my current work, difficulties and challenges faced at work, difficult people I have had to work with, instances when I went out of my way to propose creative solutions to existing problems at work etc.
+2.      Given a parentheses string, determine if it is a valid / legitimate parentheses string. For strings consisting of single parentheses type and those consisting of multiple types.
+Round 5 (F2F – Bar Raiser):
+1.      Discussion on my current work, difficulties and challenges faced at work etc:-
+2.      Given a floor of dimensions 2 x W and tiles of dimensions 2 x 1, write code to find the number of ways the floor can be tiled.
+3.      Given a graph, if we were to print all nodes within k hops of a given node, which algorithm would we use, the answer to this was obviously a Breadth first search. He followed it up asking, if one were to use Depth first search instead to code this problem instead, one would encounter bloated running times for Graphs with certain attributes (Perhaps Dense graphs or some such). Describe what types of graphs would a DFS algorithm falter with and why.
+Round 6 (Telephonic Interview):
+1.      Given that you want to maintain a backend for a bookstore Application that would store names of Authors and books, such that the application can return all the books written by a specific Author and all the Authors of a specific book which is specified in a query. The query can be such that only a substring of the Authorname or the bookname is specified and all the matches should be returned. I proposed a trie based solution, and was asked to code the solution on a collabedit shared document.
+2.      Describe multithreading.
+3.      Describe all the processes that happen between you typing in a URL and the webpage appearing on your screen.
+4.      What is a singleton set What is the data storage model (Data structures) used to store records in a relational Database.
+5.      Given an Array containing numbers between 1 to n, out of which 1 number is missing, find the missing number.
+6.      Given a sorted Array and a number, print all pairs of numbers in the sorted Array that sum to the given number.
+I got the confirmation call the same evening that I had the telephonic interview. GeeksForGeeks is a godsend for interview aspirants aiming at top companies. Keep up the outstanding work guys, your website has shaped careers and lives. J
+

@@ -1,0 +1,21 @@
+Round 1: [Manager]
+1) Showed code in his PC, how to optimise the given code
+2) Program crashing before main() is called, what can be probable causes?
+3) when does segmentation fault occurs..
+4) which type of error can be cause by overwriting any allocated memory. Purpose of stl[array, list, maps, sets]. why they are used [some basic os concepts], complexities
+current project, anhy typical problem faced etc…
+Round 2: [Coding]
+https://www.geeksforgeeks.org/queue-using-stacks/
+https://www.geeksforgeeks.org/search-a-word-in-a-2d-grid-of-characters/
+https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+N ranges are given , give which number is repeated maximum times
+https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/
+Round 3: [Coding]
+Design a compiler which can detect the circular inclusion of header files.
+How to represent a large number[100 digits], convert a large number into binary, provide bits in a particular ranges[eg but 45 to 78] for a 200 digit number
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+RTTI, typeinfo, dynamic cast, why is dynamic cast expensive
+https://www.geeksforgeeks.org/puzzle-23-days-of-month-using-2-dice/
+Round 4: [Director]
+https://www.cut-the-knot.org/SimpleGames/EightDigitPuzzle.shtml
+https://www.geeksforgeeks.org/puzzle-set-35-2-eggs-and-100-floors/

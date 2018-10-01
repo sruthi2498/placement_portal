@@ -1,0 +1,52 @@
+Given N rods of different lengths. The task is to cut all the rods with some maximum integer height ‘h’ such that sum of cut-off lengths of the rod is maximized and must be greater than M. Print -1 if no such cut is possible. 
+Note: A rod cannot be cut also. 
+Examples:
+Input:  N = 7, M = 8, a[] = {1, 2, 3, 5, 4, 7, 6}
+Output: 3
+Rod 1 and 2 are untouched, and rod 3, 4, 5, 6, 7 are cut with the cut-off lengths being (3-3) + (4-3) + (5-3) + (7-3) + (6-3) which is equal to 10 which is greater than M = 8. 
+Input:  N = 4, M = 2, a[] = {1, 2, 3, 3}
+Output: 2
+Approach: 
+Below is the implementation of the above approach: 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+= 0; $i–)
+		{
+			// Only if length is greater
+			// than cut-off length
+			if ($adj[$i] > $mid)
+			{
+				$sum = $sum + $adj[$i] – $mid;
+			}
+			// When total cut off length becomes
+			// greater than desired cut off length
+			if ($sum >= $target)
+			{
+				$f = 1;
+				$low = $mid + 1;
+				break;
+			}
+		}
+		// If flag variable is not
+		// set Change high
+		if ($f == 0)
+			$high = $mid;
+	}
+	// returning the maximum cut off length
+	return $low – 1;
+}
+// Driver Code
+$n1 = 7;
+$n2 = 8;
+$adj = array( 1, 2, 3, 4, 5, 7, 6 );
+// Sorting the array in ascending order
+sort($adj);
+// Calling the binarySearch Function
+echo (int)binarySearch($adj, $n2, $n1);
+// This code is contributed by ChitraNayal
+?>
+
+Time Complexity: O(N * log N)
+Auxiliary Space: O(1)

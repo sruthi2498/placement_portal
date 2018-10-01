@@ -1,0 +1,62 @@
+I was interviewed recently and got through Oracle ST. I can’t remember many questions but I will try to tell as much as I can. 
+
+Online round
+This was a 90 minutes test in 4 sections
+1) Quantitative Aptitude
+2) English & Vocabulary
+3) Data Interpretation
+4) Technical (C/C++, Java, DS, Algo, OS, DBMS, Networking)
+The questions were really easy. You just need to have some basic knowledge for CS concepts to attempt the 4th section
+Written Round
+Due to shortage of time on the day of interview, they asked one coding question to be written on a paper in 30 minutes and that would was to be discussed in 1st round. They didn’t really care about the working code but wanted to know how you approached the question.
+The question was:
+1st line of input had some N numbers and next line had one integer. Using basic mathematics operations( +, -, *, / ), you had to determine if the number in next line could be formed or not. If yes, print the combination. Else print not possible.
+Case 1:
+Input:
+4,2,3
+11
+Output:
+4*2+3
+Input:
+1,1,1
+1
+Output:
+1*1*1
+Input
+1,2,3
+124
+Output:
+Not possible
+Input:
+2,5,7,3
+-7
+Output:
+2-5-7+3
+Round 1
+1) The 1st question was the usual ice breaker “Tell me something about yourself”. 
+2) Then he asked me to explain about the android app I had written in my resume. I explained him each and every thing in detail, drawing the flow of the app on sheet, explaining how the app connected to the server and triggered a php script. He was quite impressed with the app which I could see on his face.
+3) Then he asked me to write the conditions to be taken into consideration while deleting any node from a tree on a sheet of paper.
+4) He asked me if I had any questions for him. This is pretty important because it shows how much you are interested in the job. Ask some sensible question here.
+Round 2
+He asked me how much I was comfortable in Networks and asked me many questions.
+1) How is a file transferred via ftp and how exactly does FTP work? How many sockets would be required for one file transfer? (I could not really get what he tried to ask)
+2) What is the path followed if my system wants to connect to some given IP of another system? 
+3) What algorithm is used for garbage collection in Java?
+4) IPv4 packet structure
+5) How DHCP works?
+Round 3
+1) What is the difference between a graph and a tree?
+2) Find a path between two given nodes in a binary tree. Write proper code for this. Also check if any of the nodes is actually present in the tree. (wrote the code to find LCA(lowest common ancestor) and print path from NODE1 – LCA – NODE2)
+3) 
+    What will be the output of this code?
+4) 
+    How many times “heyy” will be printed?
+This round went more into discussion than an interview. The team was really chill and made me feel really relaxed during the round.
+HR round
+This was just a formality. It did not last even 5 minutes.
+1) She asked me about my background.
+2) Why should I choose you?
+3) Why Oracle?
+4) Any location preference between Hyderabad, Bangalore and Noida?
+5) Any questions for the team? I asked if I could extend my joining date by 15-20 days 😛
+

@@ -1,0 +1,22 @@
+Given a string, the task is to check if the string can be made palindrome by swapping a character only once.
+[NOTE: only one swap and only one character should be swapped with another character]
+Examples:
+Approach:
+
+This algorithm was based on a thorough analysis of the behavior and possibility of the forming string palindrome. By this analysis, I got the following conclusions :
+1. Firstly, we will be finding the differences in the string that actually prevents it from being a palindrome.
+…..a) To do this, We will start from both the ends and comparing one element from each end at a time, whenever it does match we store the values in a separate array as along with this we keep a count on the number of unmatched items.
+ 
+2. If the number of unmatched items is more than 2, it is never possible to make it a palindrome string by swapping only one character.
+ 
+3. If (number of unmatched items = 2) – it is possible to make the  string palindrome iff the characters present in first unmatched set are same as the characters present in second unmatched set. (For example : try this out “bdababd”).
+ 
+4. If (number of unmatched items = 1)
+…..a) if (length of string is even) – it is not possible to make a palindrome string out of this.
+…..b) if (length of string is odd) – it is possible to make a palindrome string out of this if one of the unmatched character matches with the middle character.
+ 
+5. If (number of unmatched items = 0) – palindrome is possible if we swap the position of any same characters.
+
+Run on IDE
+Time Complexity : O(n)
+Auxiliary Space : O(1)

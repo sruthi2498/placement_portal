@@ -1,0 +1,28 @@
+Round 1: Written test
+The first round comprised of 40 one mark questions (without options) from C output questions and flow chart questions (Test Duration: 2 hour) :-
+C output questions part covered questions from iterations, pointers, array and data structures.
+Suggestion: I would suggest to do quizzes from geeksforgeeks to get in touch with all concepts of C and other subjects.
+Tips :- Solve the questions with calm mind. Don’t stress yourself during test because you have to do 40 questions in 120 minutes. Don’t spend too much time on any question if you are not able to do it in the first attempt.
+Round 2: Coding round
+You will be provided laptop and turbo C compiler. Java and C++ not allowed for second round.
+Some of the questions are.
+1. Print second frequently occurring number in given series
+Example :
+Explanation: 1 occurs 3 times, 2 occurs 2 times, 3 occurs 1 time and 4 occurs 1 time. Hence second frequently occurring number in given series is 2
+2. Print only numbers which is present in Fibonacci series (0 1 1 2 3 5 8 ……..)
+Example:
+3. Print pattern like this
+4. NxN matrix will be provided. 0->block, 1->Not a block
+Always starting point is (0,0), Ending point is (N-1,N-1).
+You have to go from starting point to ending point. One valid solution is enough.
+Example:
+5. Insert 0 after consecutive (K times) of 1 is found.
+Example:
+Round 3: Advance programming round
+You have to code for Railway reservation system.
+(Test Duration : 3 hours)
+Round 4 and 5: Interview (technical and HR)
+In technical interview some puzzles and programming questions were asked.
+In HR interview some basic HR questions were asked.
+Finally 3 got selected for extend interview process.
+In extend interview process they will assign a mentor for you. Your mentor will give some task from Java, Javascript etc..After one month they confirmed my offer.

@@ -1,0 +1,9 @@
+The iswspace() is a built-in function in C/C++ which checks if the given wide character is a wide whitespace character or not. It is defined within the cwctype header file of C++.
+Syntax:
+Parameters: The function accepts a single mandatory parameter ch which specifies the wide character which is to be checked for a wide whitespace character or not.
+Return Value: The function returns two values as shown below.
+Below programs illustrates the above function.
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

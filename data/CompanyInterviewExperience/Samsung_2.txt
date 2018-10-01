@@ -1,0 +1,24 @@
+Recently, Samsung R&D Bangalore came to our college for hiring interns for summer 2019. The overall process had 3 rounds.
+Round 1 (Online Coding Test):
+There was an online coding round which was the first round. It was conducted on cocubes platform, similar to Microsoft. There were 3 coding questions, one of 3 marks and two of 5 marks. The questions were different for everyone, but similar difficulties.
+Mine were :
+1. Given an array of random numbers, Push all the zero’s of a given array to the end of the array. For example, if the given arrays is {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0}, it should be changed to {1, 9, 8, 4, 2, 7, 6, 0, 0, 0, 0}. The order of all other elements should be the same.
+Link- https://www.geeksforgeeks.org/move-zeroes-end-array/
+2. Given a Binary Tree and a node(value of node) you need to find the length of closest Leaf from that node. If the given node is not present in the binary tree then return -1 and if node is itself a leaf then return 0.
+Link- https://www.geeksforgeeks.org/closest-leaf-to-a-given-node-in-binary-tree/
+3. There’s a binary tree. You need to find the minimum number of jumps needed to reach the second node from the first one. You need to implement the function which takes the root of the tree and the value of nodes as arguments.
+Link- https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+Total around 150-180 students appeared the online coding round and 57 students got selected for the next round.
+Round 2 (Technical GD):
+Next round was a group fly round. We were divided into groups of 4 and were given 1 question to solve in around 40 minutes. We needed to write the pseudo code on paper.
+The question was mostly from Dynamic programming. Mine was- https://www.geeksforgeeks.org/number-of-palindromic-paths-in-a-matrix/
+A few others were-
+The result of group fly was declared immediately after the completion of the round.
+36 students got selected for the next round.
+Round 3 (Tech cum HR):
+The next round was a Personal Interview (F2F) (2 Interviewers)
+In this Round, I was asked a little about my projects which involved DBMS. Later he asked me basic questions regarding struct in C++ and pointers. As they were already late, the interview went on for only 8-10 minutes.
+Luckily, I didn’t get the 2nd interviewer, as he was asking questions on system designing and he basically rejected almost everyone whom he interviewed except for the ones having good projects in ML.
+Finally,  22 students were selected for SRIB internship and fortunately, I was one among them.
+IMPORTANT TIPS-
+

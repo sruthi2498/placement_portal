@@ -1,0 +1,9 @@
+bitset::none() is a built-in STL in C++ which returns True if none of its bits are set. It returns False if a minimum of one bit is set. 
+Syntax: 
+Parameter: The function accepts no parameter. 
+Return Value: The function returns a boolean. The boolean value is True if none of its bits are set. It is False if at least one bit is set. 
+Below programs illustrates the bitset::none() function. 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

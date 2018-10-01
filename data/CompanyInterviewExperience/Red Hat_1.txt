@@ -1,0 +1,42 @@
+I am doing my final year B.E CSE. I would like to thank geeksforgeeks. It helped a lot for cracking the interview. I applied online for the post of a Associate software Engineer Intern at Red hat, Bangalore. 
+The first round was a written test round. We had nearly around 30 questions in aptitude as well as coding and a C program to write.
+Aptitude: The aptitude questions were moderate and it covered all most all of the topics. It is not necessary for you to remember any formula.Most of the problem involved solving it logically. If you know the concepts you can solve. Majority of the questions were on probability, permutation combination, work and time,average, ratio, and few which combined the concepts. One could crack easily if you brush up the Apti concepts. 
+Programs: You need to be strong to answer this programmatic questions. All the questions were either from C or C++. some of the questions I remember was on
+Macro functions With different signatures
+Operators precedence checking snippet
+Main within main function
+Switch special cases
+Loop exceptional cases
+Storage classes and so on
+Program:  It was a file program read input from a file and say the occurrence of each string i.e output the occurrence of each word along with the count to a different file.
+I solved aptitude and programs. I am sure of getting 23+ in both. We were given only 1 hour and 15 mins. So I solved 23 each qns in Apti and pgms. Then I started writing code. To get additional points I have written a C program as well as a Shell Script program for that. After writing the code they stil gave us some time and I did few questions in Apti and code. Since there was no negative marks I just marked some option for the remaining qns.
+The results were announced and only 3 of them were selected for the next round. I was the one to clear first with higher marks. So were asked to wait and after ten minutes they asked me to attend Technical Hr 1
+The HR was very friendly and cool. He asked me about the first round and there was an ice breaking session.Then he started technical questions.He asked why pointers, usage, advantage, disadvantage, discussed many cases, malloc, calloc, dangling pointer, null pointer, a code for implementation, be strong in your project,asked to draw use case,he stated some flaws and asked how would I rectify it in project, I had around 4 projects, which means I included 2 C programs that solved a real world problem.So he went discussing all these.Asked about data structures,A linked list programs just to find the middle node in single access, I just said use two pointers ,one move once and the other move twice, approach ,which was so easy. He asked if I knew it earlier. I said yes.code was asked to write for al pgms.
+The next program was to find the intersection of linked lists. I know it already but just took little time to solve.Even if you know the programs earlier take few time to answer. Then simple C programs
+Sort an array with 0 and 1 in O(n) complexity. first i said merge sort then I said keep one pointer at start and the other pointer at end.If you find any 1 from start, then start decrementing the end pointer til you find a 0 and exchange those.If I and j points to adjacent positions  then stop the program.
+A matrix program to print for any n*n order.
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16 and the output is
+1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10.
+I wrote the code and made lot of changes to make it efficient. Then he asked few questions from OOPS and web technologies and questions from my Resume about paper presentations, memberships clubs etc..
+I was confident enough that I would clear this round.One of them was eliminated and two of us was asked to attend the next round after having lunch in their office.
+The second technical round was with a hiring manager. He asked about data structures.Given family tree problem and asked how would I solve. I proposed graph and he was satisfied with the data structure and told how would I have a structure for it and few exceptional cases how would I solve.
+Questions were on projects. He asked many questions from each of the project.
+About each ppt that I have done.He also asked C programs involving storage classes,pointers,Ascii values.Asked commands and pgms in shell scripting,he asked in detail about testing and asked to say test cases.I   told all the functional and non functional test cases.He asked if I know to work with any testing tool.I said no.He asked in Python.I could answer only one question,then I said I have just started learning python and I am not familiar.i said I will learn well before I would join. Then he asked few HR questions.
+Why red hat
+What is the post that I am going to join
+The tool that I am going to work.it would be mentioned in the job requirement post
+Will I be able to work wel continuously and so on
+What are you proud about yourself
+About my family
+And few more common questions and asked me if I have any questions
+I asked a question about the tool I am going to work what kind of work will I be having,
+Then I thanked him for having a nice session and for meeting him. We were asked to leave for the day and said results would be announced later. 
+Tips:
+Be confident ,express yourself,
+Take your project reports to add up,
+Express that you want the job.
+Most of the programs were on geeksforgeeks.
+All the best!!

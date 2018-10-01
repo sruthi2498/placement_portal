@@ -1,0 +1,49 @@
+Check whether a given graph contains a cycle or not.
+Prerequisites: Disjoint Set (Or Union-Find), Union By Rank and Path Compression
+We have already discussed union-find to detect cycle. Here we discuss find by path compression, where it is slightly modified to work faster than the original method as we are skipping one level each time we are going up the graph. Implementation of find function is iterative, so there is no overhead involved.Time complexity of optimized find function is O(log*(n)), i.e iterated logarithm, which converges to O(1) for repeated calls.
+Refer this link for
+Proof of log*(n) complexity of Union-Find
+Explanation of find function:
+Take Example 1 to understand find function:
+(1)call find(8) for first time and mappings will be done like this:
+
+It took 3 mappings for find function to get the root of node 8. Mappings are illustrated below:
+From node 8, skipped node 7, Reached node 6.
+From node 6, skipped node 5, Reached node 4.
+From node 4, skipped node 2, Reached node 0.
+(2)call find(8) for second time and mappings will be done like this:
+
+It took 2 mappings for find function to get the root of node 8.  Mappings are illustrated below:
+From node 8, skipped node 5, node 6 and node 7, Reached node 4.
+From node 4, skipped node 2, Reached node 0.
+(3)call find(8) for third time and mappings will be done like this:
+
+Finally, we see it took only 1 mapping for find function to get the root of node 8. Mappings are illustrated below:
+From node 8, skipped node 5, node 6, node 7, node 4, and node 2, Reached node 0.
+That is how it converges path from certain mappings to single mapping.
+Explanation of example 1:
+Initially array size and Arr look like:
+Arr[9] = {0, 1, 2, 3, 4, 5, 6, 7, 8}
+size[9] = {1, 1, 1, 1, 1, 1, 1, 1, 1}
+Consider the edges in the graph, and add them one by one to the disjoint-union set as follows:
+Edge 1: 0-1
+find(0)=>0, find(1)=>1, both have different root parent
+Put these in single connected component as currently they doesn’t belong to different connected components.
+Arr[1]=0, size[0]=2;
+Edge 2: 0-2
+find(0)=>0, find(2)=>2, both have different root parent
+Arr[2]=0, size[0]=3;
+Edge 3: 1-3
+find(1)=>0, find(3)=>3, both have different root parent
+Arr[3]=0, size[0]=3;
+Edge 4: 3-4
+find(3)=>1, find(4)=>4, both have different root parent
+Arr[4]=0, size[0]=4;
+Edge 5: 2-4
+find(2)=>0, find(4)=>0, both have same root parent
+Hence, There is a cycle in graph.
+We stop further checking for cycle in graph.
+Run on IDE
+Output:
+Time Complexity(Find)  : O(log*(n))
+Time Complexity(union) : O(1)

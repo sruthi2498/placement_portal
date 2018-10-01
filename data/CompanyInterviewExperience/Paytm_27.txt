@@ -1,0 +1,56 @@
+Online Coding Round
+Time : 70 min
+Question : 3 Coding Question
+1st Question : Finger counting game
+2nd Question :  Count number of triplets with product equal to given number
+3rd Question : Wildcard Pattern Matching
+Around 23 students were selected from the coding round and were called for further interview rounds.
+Round 1(Face-To-Face)
+ 
+The interviewer was very friendly.He asked me to introduce my self
+Then he asked me some question
+1) Find kth largest element from the unsorted array
+He asked me to write a code for this.
+2) Expression Evaluation
+I just gave approach may be he is staisfied with this and we discussed about postfix and prefix notation.
+3) Find GCD of two numbers
+Just approach
+At this point he asked me difference between process and thread.
+4) Top view of binary tree
+ First we discussed approach He gave m test case where my approach is failing and gave me time to think and i come up with correct approach and then he asked me to write full code on pen-paper and i did it.
+5) Print Power set of non-repeated element string
+ex
+Input-abc
+output-
+a
+b
+c
+ab
+bc
+ca
+abc
+I came up with recursion approach.Then he asked me to write code after code he asked me to draw recursion tree . Here he find error in code and i gave him simple solution but he asked to write a new code and draw tree again and he left room.
+After 4-5 min another person came and said me to come to another room for round 2.
+Round 2(Face To Face 2)
+ 
+The interviewer was very friendly.He asked me to introduce my self and about my hobby.
+After he asked me new and exiting thing you did in last few days.
+I took some seconds and  answered I faced my life’s first interview. He asked when.? i replied – Few min ago sir .
+Then we discussed about data structure. Where to use different data structure and practical use of different data structure in real life.Here he mainly focused on binary tree, min heap and max heap.
+After he asked for brief introduction of the projects that i have done.After he asked me few question about my project.
+My one of the project include tic tac toe game so after complete discussion about my project we played 3 tic tac toe game (1-0) :p.
+After this he asked me code for
+Print Binary tree in vertical order
+I gave full approach and we discussed about another approach and i wrote pseudo code for this and discussed about complexity.
+During this round he offered me chips and cookies.
+HR Round
+This is non-tech round.They just want to check your nature ,attitude and team work skills.
+Here he asked me some basic HR question
+verdict – Selected 🙂
+A tip- Don’t take CS fundamentals for granted, although coding is important, you should also be through about OS,OOPS.
+If you don’t get anything,you can always ping me
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+Tags

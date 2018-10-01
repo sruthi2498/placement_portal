@@ -1,0 +1,4 @@
+This a common question asked in DS interviews that despite of better worst case performance of merge sort, quicksort is considered better than mergesort. There are certain reasons due to which quicksort is better especially in case of arrays:
+The std::sort() function which is present in C++ STL is a hybrid sorting algorithm provides average and worst case time complexity of O(nlogn). The sorting algorithm which it uses is called Introsort.
+Introsort is combination of both quicksort and heapsort, It begins with quicksort and switch to heapsort if recursion depth exceeds a level based on the number of elements being sorted.
+Related Article: Why Quick Sort preferred for Arrays and Merge Sort for Linked Lists?

@@ -1,0 +1,4 @@
+Given a number N, the task is to print the following pattern:-
+Examples:
+There is a nested loop required to print the above pattern. The outer loop is used to run for the number of rows given as input. The first loop within the outer loop is used to print the spaces before each star. As you can see the number of spaces decreases with each row while we move towards the base of the triangle, so this loop runs one time less with each iteration. The second loop within the outer loop is used to print the stars. As you can see the number of stars increases in each row as we move towards the base of the triangle, so this loop runs one time more with each iteration. Clarity can be achieved if this program is dry run.
+Run on IDE

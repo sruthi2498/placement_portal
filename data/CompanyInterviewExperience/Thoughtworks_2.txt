@@ -1,0 +1,69 @@
+ThoughtWorks visited our college for campus hiring. Total 170+ students appeared for this company.The selection process contain following rounds:
+1. Short coding round
+2. long coding round
+3. Technical Interviews
+4. HR +Leadership Interview
+5. Interview on TW’s third pillar of social and economic justice.
+First 2 rounds were held in our college and remaining rounds were held at ThoughtWorks office, Pune.
+Round 1: Short Coding
+In this round we had given 5 coding problem and time given was 40 mins.
+Problems :
+1.Given two strings.Print characters from first string which are not in second string.
+2.Given array.Print even numbers in ascending order and odd numbers in descending order.
+3.Given Matrix. Print Matrix which contain elements at border are doubled of given matrix and remaining elements should half of it.
+4.Check socks are given in pair or not.(R-red socks, B-blue socks, G-green socks)
+eg:   RRGBGB –> True
+RRRGG –>False
+5. Rotate given string.
+Note: If you are regular user of geeksforgeeks or hackerrank then you can easily crack this round.
+Those who solved 3 or more problem got selected for next round. 46 students shortlisted for next round.
+
+Round 2: Long coding round
+
+This round was around 90 mins.
+The problem statement was design of Electricity Bill calculator system. Given some hard coded data like which appliance consumes how much units and slab wise rate. First 45 mins you have to code with your own and after that one thoughtWorker joined with me. She helped me a lot to make my solution better. They judge your OOPs concepts, coding style, reusability of your code.
+Suggestions:
+Before going to appear this round try to solve common problems on Object oriented design like Mars Rover Problem, IPod Inventory etc..(Search on internet). This will boost your oops concept and you will get confidence while solving any problem.
+ 
+23 students shortlisted from above rounds and interviews scheduled on next two days at ThoughtWorks office, Pune.
+Round 3:Technical Interview
+
+The technical interview started with my Smart India Hackathon project because in introduction i mentioned that our team were finalist in it. He asked me about how you implemented google map?. Why Node.js ? Explain asynchronous programming in node.js ?  Why MongoDB?
+Then he gave me marker and told me to solve  following problem on board:
+Given array contain positive and negatives numbers. Find smallest positive number which is not in array.
+Then he moved to data structure:
+What is BST? Explain on board?
+How to find given tree is BST or not? (I told them two solutions).
+Find max element in BST?
+Given any one number and BST, Find inorder successor and predecessor of given number which in may or may not in tree.
+Then few questions on java:
+What is collection? What is need of it?
+Internal working of HashMap in java?
+What is complexity of insertion and searching in HashMap?
+Then he moved to my next project which is Online Coding Platform. He said me to explain whole project on board. After giving explanation  he started to  fire questions.I answered all questions .(Note:Please go through details of your project.Otherwise you will get caught in trouble.)
+Done with TI..!!!
+ 
+Round 4: Leadership + HR Interview
+Interview started with how was the day at Thoughtworks office? Introduce yourself?
+Which is challenging situation you handled in your life? Strengths?Weakness?
+Tell us more about leadership roles you played in your life.
+What projects you did? She impressed with our coding platform project.
+Which platforms you use to learn new technologies?
+Some Situation based questions.
+Why ThoughtWorks?
+ 
+Round 4: Interview on third pillar of TW(Social and economic justice.)
+
+Discussion on few issues in India like Cast reservation, Transgender, Women empowerment, poverty etc.
+I told them my opinion and  solutions for  all issues. It lasts for 1 hour  and I am done with all rounds.
+ 
+I was waiting for result and very next day result announced and  10 students from our college got selected for ThoughtWorks and I am one of them.
+ThoughtWorks is an extremely good company to work for. They look for developers who are not only good at what they do but also capable of thinking out of the box.
+References for study:
+For coding:
+Solve number of problems on practice section of geeksforgeeks.
+Also do regular coding hackerrank, codechef and codesignal.
+For subjects:
+GeeksforGeeks is the best soure to learn Java, DB, OS, Networking, c, c++.
+For more in OS go with Galvin Book, Java Durga sort videos, DB Sanchit Jain videos on YouTube.
+This article is contributed by Ritesh Harel.

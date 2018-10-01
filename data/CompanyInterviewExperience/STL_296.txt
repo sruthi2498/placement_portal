@@ -1,0 +1,14 @@
+Maps are associative containers that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have same key values.
+at() function is used reference the element mapped to the key value given as the parameter to the function. For example, if we have a string “hi” mapped to an integer 1, then passing the integer 1 as the parameter of at() function will return the string “hi”.
+How is at() function different from operator[]
+at() function checks the range of the container, and throws an exception when we try to access an element not in the range, while operator[] does not checks the range of the container and shows an undefined behaviour when an element not in the range is accessed.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the key is not present in the map, it throws out_of_range.
+2. It has a strong no exception throw guarantee otherwise.
+Run on IDE
+Output:
+Time Complexity:  O(logn)
+How is at() function different from operator[]
+at() function checks the range of the container, and throws an exception when we try to access an element not in the range, while operator[] does not checks the range of the container and shows an undefined behaviour when an element not in the range is accessed.

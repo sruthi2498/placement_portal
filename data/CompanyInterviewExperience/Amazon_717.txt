@@ -1,0 +1,37 @@
+I am very thankful to geeksforgeeks team for such a great site. I got offer from Amazon.
+Written Test
+It was online test on interviewstreet.
+20 MCQs- basics of C & C++, OS and some aptitude question
+
+There were 4 technical rounds each for 40-60 minutes, no HR round.
+1st Round
+Given two numbers and a binary tree, all elements in binary tree are distinct, write code to determine the shortest distance between the two nodes. (unit distance between two adjacent nodes). Nodes don’t have parent pointer.
+ 
+2nd Round
+1. https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+2. There are some glasses with equal volume 1 litre. The glasses kept as follows
+You can put water to only top glass. If you put more than 1 litre water to 1st glass, water overflow and fill equally both 2nd and 3rd glass. Glass 5 will get water from both 2nd glass and 3rd glass and so on..
+If you have X litre of water and you put that water in top glass, so tell me how much water contained by jth glass in ith row.
+Example. If you will put 2 litre on top.
+1st – 1 litre
+2nd – 1/2 litre
+3rd –  1/2 litre
+
+3rd Round
+1. https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+2. Liked list is given as below (with elements as 1, 2 and 3), sort this in one pass.
+3->2->2->1->2->3->1
+
+4th Round
+1. An expression is given.
+[] can enclosed [], {} and ()
+{} can enclosed {}, ()
+() can enclosed only ()
+Check that brackets in the expression are valid or not according to enclosing condition and opening closing condition.
+Follow UP:
+Two arrays are given.
+One array contains symbols and second one contains expressions. Symbol array contains opening symbol at even index and closing symbols at odd index just after opening symbol. Index is starting from 0. Opening symbol at index i can only contain symbols from i to 2n-1, If there n pairs of symbols.
+Now check that expression in the expression array is valid or not.
+2. There are m sorted arrays of each size n. You have another array B of size m*n. Fill the array B from the m arrays in sorted order.Give the optimal solution.
+I liked the way interviewers were interacting. They were very supportive and friendly as well.
+

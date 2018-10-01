@@ -1,0 +1,13 @@
+In number theory, a Balanced Prime is a prime number with equal-sized prime gaps above and below it, so that it is equal to the arithmetic mean of the nearest primes above and below. Or to put it algebraically, given a prime number pn, where n is its index in the ordered set of prime numbers,
+
+First  few balanced prime are 5, 53, 157, 173……
+Given a positive integer N. The task is to print Nth balanced prime number.
+Examples:
+
+The idea is to generate prime numbers using Sieve of Eratosthenes and store it in an array. Now iterate over the array to check whether it is balanced prime or not and keep counting the balanced prime. Once you reach the nth prime, return it.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+

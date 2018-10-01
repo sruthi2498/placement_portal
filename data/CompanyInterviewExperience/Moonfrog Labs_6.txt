@@ -1,0 +1,38 @@
+Q1. Given a sequence of integers, find the longest increasing subsequence. Example:
+arr =  [1, 2, 5, 3, 7]
+ans : [1, 2, 5, 7] or [1, 2, 3, 7]
+arr =  [4, 3, 1, 2]
+ans: [1, 2].
+Solution:
+Run on IDE
+[1, 2, 3, 3, 4]
+—————————————————————————————————————————————–
+Q2. Given a vectors of numbers of fixed length, for example: 
+v1 = [4, 3, 1, 2]  v2 = [2, 4, 3, 5]
+The relationship nested between two vectors is defined as follows:
+if the corresponding entries of a vector are all smaller than the other vector, after rearranging entries of vector if needed, then first vector
+is said to be nested in the other. Example
+Not nested
+v1 – [4, 3, 1, 2]        v2 – [2, 4, 3, 5]
+v2 – [2, 4, 3, 5]        v1 – [4, 3, 1, 2]
+After re-arranging:
+Nested
+v1 – [4, 3, 1, 2]
+v2 – [5, 4, 2, 3]
+Hence v1 is nested in v2.
+Given a pair of such vectors , write a function as follows:
+function isNested(Vec a, Vec b);
+Result:
+ -1 if a is nested in b
+1 if b is nested in a
+0 if nesting is not possible.
+———————————————————————————————————————-
+Q3. Given a list of numbers in random order. Is it possible to pair all elements in the list in such a way that no two pairs share an element
+and the sum of elements in a pair is divisible by 101. Example:
+v1 [ 1, 100, 1]
+Ans: No
+v2 [1, 100, 100, 1]    [2, 98, 101, 1]
+Ans: Yes
+v3 [1, 200, 100, 100, 2, 1]
+Ans:  yes
+

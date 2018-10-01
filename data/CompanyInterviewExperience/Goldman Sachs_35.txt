@@ -1,0 +1,48 @@
+I appeared for the Goldman Sachs recruitment process for the position of Technical Analyst, Bangalore. I applied via employee referral.
+Round 1: Hackerrank written test
+Two questions were there in the round.
+1.) Spiral order traversal of the matrix
+2.) Subarray with 0 sum
+Round 2: Coderpad round
+This is a telephonic interview and a screen is shared for writing the full working code. And you need to write some of your test cases and clear the nes they have provided. Two questions were asked in this:
+1.) A car has to be given on rent. Different people come and ask for it for interval [s,e] and offer some price p. To whom shall the car be given in order to earn maximum.
+2.) I don’t remember the question exactly, but logic of the problem was BFS.
+After these two, I was called for onsite interviews. Their interview process is a day long procedure. I had 6 round of interview and all were technical.
+Round 3:
+Two interviewers came and they both were very friendly.
+First I was asked various behavioural question like why I want to change, describe myself, strength, weakness. They asked me to rate myself in the skills mentioned in my resume on a scale of 1-10.
+1.) First technical question was finding first non-repeating character in a string.
+2.) Then,internal implementation of list and map in C++. I was asked to do implementation of AVL trees as well. They were knowledgeable and had a good understanding of data structures.
+3.) How a hashmap is implemented internally in JAVA. Then its most famous contract question as well.
+I was then asked some puzzles, water jug problem, fit balls in the given box.
+Round 4:
+This round was a discussion of almost every data structure I have read.
+1.) Started with linked list, circular LL, DLL, overflow and underflow conditions, working, applications where they can be used.
+2.) Binary tree, BST, code for deletion in tree. The interviewer was more interested to know how I’m writing the recursive calls. He asked me to draw the recursive stack and show every activation record.
+3.) I was then asked to design cache. He gave me various scenarios like how will make the system fault tolerant if one machine goes down. We also discussed about push and pull affinity, he said running stream of records will come and you have some n machines. How will you store these records and then fetch them.
+Round 5:
+This round was less of technical but more on resume.
+1.) We discussed various projects and things I mentioned in it.
+2.) A technical ques, given a 2D matrix, I was asked to find an submatrix with maximum sum. Submatrix can be square and rectangular as well.
+3.) Some discussion on Software Testing, waterfall and spiral model etc. The person was from the Risk Management team and testing concepts were discussed in this interview.
+4.) Then he came to OS. Critical section problem, testAndSwap() instruction, peterson’s problem its drawback and why software solutions were needed for solving critical section problems.
+Round 6:
+This was again a coding round and I was expected to write the fully working code.
+1.) Rotate matrix by 90, 180 , 270.
+2.) Root to leaf path in a binary tree.
+3.) They asked me about the work in my current company. Then they shifted to why JAVA over C++. If I am creating any application from scratch, which language should I chose and why.
+Round 7:
+This round was majorly the discussion on Machine Learning and design problems.
+1.) I was given a scenario related to file system and was asked various question of how it’s different API’s can be designed. How to maintain the whole structure when a file was modified. At any given time, I have to output the files modified within last 5 days. The file system is a big one.
+2.) The second problem was again a scenario in which a company C collects data from Company A and B about some 100 customers which always remain fixed. Some records are provided to C by A and B and C has to validate these. How shall they provide the record, how should company C release its application. In what frequency, should validations be carried on the data collected, when should the data be collected. How can you make your system learn about the 100 customers, so that the cost of validation can be reduced. This was a very open-ended question.
+3.) Scenario again, the code in production branch is producing lots of error everytime the code is run. I was asked how machine learning can make this situation better. I firstly contradicted his question by saying, how the code has been committed to production branch when it has errors. Shouldn’t it be in the developer branch and integrated and committed in production later. The interviewer and me were laughing for next 5 mins because of how I contradicted him. He changed errors to warnings then, said, Developers many times ignore them, but can they be of any use? I introduced lot of machine learning here and we had discussion on various models.
+Round 8:
+Again technical round cum last Hiring Manager round.
+1.) A problem on string was given. I don’t remember exactly, but logic was LIS. Both recursion and DP code.
+2.) Problem on arrays. Solved using queues.
+3.) Design cricbuzz.
+4.) Design notification system. Here he mentioned you have the database and records are stored. You need to filter which the records as per the trending topics and deliver notifications. For context filtering, I talked about NLTK, n-grams, tagging, and then prioritizing the records filtered.
+With this the process ended and he started explaining me about the work of the team etc.
+Overall, it took around 7 hours for these 6 interviews.I hardly took 15 mins break in between.
+Next day, I received the call that my interviews went well and they’d like to proceed further with my candidature. I got the offer.
+I’d like to thanks GeeksForGeeks for their incredible website which helped me prepare a lot. Do go through previously asked interview questions an dpractise them.

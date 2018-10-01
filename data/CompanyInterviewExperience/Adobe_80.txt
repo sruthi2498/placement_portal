@@ -1,0 +1,37 @@
+Recently I got the oppportunity to be interviewed for the position of MTS-1 at Adobe. Here is my Interview Experience:
+Written Round:
+Part A (50 mins):
+45 questions based on logical reasoning, DI, quant and geometry. The questions were easy but the real issue was time in this round.
+Part B(2 hrs):
+13 MCQs on C,C++ basics (referencing and dereferencing of string pointers ,size of union etc.), OS basics
+7 coding qustions. Some of which I remember are :
+a)Reverse a linked list.
+b)Check if a number is a Palindrome or not.
+c)Multiply two numbers without using * operator and using minimum number of additions.
+d)Balancing of parenthesis.
+e)Find the row with maximum ones in a 2D array where in each row all 1s occur before all 0s
+f)Check if a given sum is availabe in an array.
+F2F Round 1:
+a) I was asked to allocate a 2D array dynamically. I did that. I was then asked to free the allocated memory.
+b)Implement an averaging filter assuming a fixed window size on an image. Entire code was required.( We can ignore the border cases). I first did it using a brute force approach. The interviewer then asked me to optimise it. I did it using extra space to store the sum of elements in a fixed window size so that we do not have to compute it for each pixel of the image
+c) He told me that for a very large image (2D matrix) the row major traversal is better than coloumn major traversal. Why?
+ Entire array cannot fit into main memory at same time. Rows are contigously allocated. Therefore benifits from locality of reference.
+d)Questions on virtual memory and paging.
+e)Which data structure should we use to represent polynomials and why?
+F2F Round 2:
+a)Implement queues using linked list. Entire working code with all corner cases was required.
+The interviewer was impressed as I had handled all the test cases properly.
+b)Most optimal code to calculate the number of set bits in an integer. (i.e. O(no of set bits))
+c)Difference between process and threads, multiprogramming and multithreading, multithreading and multitasking.
+c)Consider there are 9 balls. One ball is defective (might be heavy or light). Find the defective ball in maximum 3 weighings.
+I went into the wrong direction as I thought that I had done this before. But he gave me one or two hints and based on that I was able to come to correct answer.
+F2F Round 3:
+a)There are 2 people A and B. Both A and B have equal speed of walking. Both A and B have equal speed of running. Now assume that A runs for half the time and walks for half the time. While, B runs for half the distance and walks for half the distance. Can we tell conclusively who will win in a race?
+b)There are two arrays. One contains n digits and the other n-1 digits. How to find the missing digit in the second array?
+I asked the interviewer if I can assume that the elements are unique. He said yes. Then I solved it using XOR method. He asked what if the nos are negative or fration. I said that as two negative numbers or 2 decimal numbers will be stored in the same way in memory therefore XOR will work for that cases as well.
+c)Find square root of ‘N’ without using square root function.
+d)Find whether the number ‘n’ is a palindrome or not. He wanted the best optimal solution with all special cases.
+Finally after a lot of hints I was able to bring it down to O(1) space complexity and O(log(n/2)) time complexity. He was pretty satisfied !
+Fourth Round : HR Round (30 Minutes)
+It was an amazing experience as the interviewers were very friendly and made me feel at ease. I would like to thank GeeksForGeeks team for creating such a wonderful portal which helped me a lot in my interview preparations.
+

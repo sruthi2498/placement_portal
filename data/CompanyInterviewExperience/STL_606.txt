@@ -1,0 +1,8 @@
+Given a graph and a source vertex in graph, find shortest paths from source to all vertices in the given graph.
+We have discussed Dijkstra’s shortest Path implementations.
+The second implementation is time complexity wise better, but is really complex as we have implemented our own priority queue. STL provides priority_queue, but the provided priority queue doesn’t support decrease key and delete operations. And in Dijkstra’s algorithm, we need a priority queue and below operations on priority queue :
+Above operations can be easily implemented by set data structure of c++ STL, set keeps all its keys in sorted order so minimum distant vertex will always be at beginning, we can extract it from there, which is the ExtractMin operation and update other adjacent vertex accordingly  if any vetex’s distance become smaller then delete its previous entry and insert new updated entry which is DecreaseKey operation.
+Below is algorithm based on set data structure.
+Below is C++ implementation of above idea.
+Run on IDE
+Output : 

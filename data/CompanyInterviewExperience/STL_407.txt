@@ -1,0 +1,17 @@
+Union of two sorted ranges
+The union of two sets is formed by the elements that are present in either one of the sets, or in both. Elements from the second range that have an equivalent element in the first range are not copied to the resulting range.
+The elements are compared using operator< for the first version, and comp for the second. Two elements, a and b are considered equivalent if (!(a<b) && !(b<a)) or if (!comp(a, b) && !comp(b, a)).
+The elements in the ranges shall already be ordered.
+1. Using default operator < :
+Run on IDE
+Output:
+2. Using custom function :
+Syntax :
+Run on IDE
+Output:
+Possible Application : It is used to find the elements that are present in either one container or in both containers.
+1. It can be used to find the list of all the students that are attending both subjects.
+Run on IDE
+OUTPUT :
+2. It can also be use to find union of two sets.
+   Program is given above.

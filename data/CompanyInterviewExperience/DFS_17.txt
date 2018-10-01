@@ -1,0 +1,9 @@
+Given an undirected graph, task is to find the minimum number of weakly connected nodes after converting this graph into directed one.
+Weakly Connected Nodes : Nodes which are having 0 indegree(number of incoming edges).
+Prerequisite : BFS traversal
+Examples :
+Explanation :
+
+Approach :  We find a node which helps in traversing maximum nodes in a single walk. To cover all possible paths,  DFS graph traversal technique is used for this.
+Do the above steps to traverse the graph. Now, iterate through graph again and check which nodes are having 0 indegree.
+Run on IDE

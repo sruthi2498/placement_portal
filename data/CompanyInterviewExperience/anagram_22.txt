@@ -1,0 +1,16 @@
+Given two strings in lowercase, the task is to make them anagram. The only allowed operation is to remove a character from any string.  Find minimum number of characters to be deleted to make both the strings anagram?
+If two strings contains same data set in any order then strings are called Anagrams. 
+Examples :
+The idea is to make character count arrays for both the strings and store frequency of each character.  Now iterate the count arrays of both strings and difference in frequency of any character abs(count1[str1[i]-‘a’] – count2[str2[i]-‘a’]) in both the strings is the number of character to be removed in either string.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary space : O(ALPHABET-SIZE)
+The above solution can be optimized to work with single count array.
+
+Run on IDE
+
+Thanks to vishal9619 for suggesting this optimized solution.

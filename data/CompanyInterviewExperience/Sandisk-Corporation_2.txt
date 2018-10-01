@@ -1,0 +1,15 @@
+Until this moment, I did only 1 round.
+First they told me about the company and what they do here.
+Then asked about me, and asked me to talk about projects I have done in my degree so far.
+Then he started asking me about Operating System stuff: Semaphores, Mutex, Shared memory…
+Q1: What is the difference between a thread and a process?
+Q2: How to processes talk to each other? How can they access the same memory?
+Q3: If you have an interrupt section, that when this interrupt happens, you want to wake up  the thread (only then). How do you do that?
+Q4: C doesn’t have overriding functions. But, how is that you can add as many args as you want in the function parameters? How does that happen backstage?
+Q5: Implement the insert function in a 2-way linkedlist.
+Q6: I was asked to give him an efficient solution for this problem: Find the Missing number.
+First he wanted with < O(n) space Complexity, then with O(1) space complexity. (but of course time efficient).
+Then he wanted me to give him an equation of the sum of all numbers from 1 to n. He told me to give him the full solution for it.
+Q7:  Then the last question was this puzzle: 2 Eggs and 100 Floors. Which I think was pretty hard to understand during the interview! I don’t know why.
+That was it. 1 hour and a half.
+ 

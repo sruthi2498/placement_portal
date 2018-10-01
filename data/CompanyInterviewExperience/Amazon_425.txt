@@ -1,0 +1,37 @@
+I had an interview with Amazon recently below are the questions asked. 
+Qualification round
+1) Rotate/Shift the elements of a square array clockwise by one at a time. (Not by 90 degrees, but by one element. Think of concentric circles)
+Example:
+1 2
+3 4
+Output:
+3 1
+4 2
+2) Write a function that determines whether a two dimensional array contains duplicate values within k indices of each other
+The first line of input will be a number indicating how many rows are in the matrix. This will be followed by lines of input one for each row of the matrix each row will contain the same number of columns with each column separated by a space. Following the matrix will be a single line of input containing a number indicating the k value.
+Output should be ‘YES’ or ‘NO’
+example:
+4
+1 2 3 4
+5 6 7 8
+9 10 11 12
+13 14 15 16
+3
+Output: No
+F2F Interview
+5 rounds in total.
+Each round was for 45 mins.
+1st F2F
+Tell me about yourself
+Given three sorted arrays, how will you sort all the three arrays into one array, shortest time expected
+2nd F2F
+Design architecture that should handle millions of hits at given time, the response time of the system should be the least. – ( Hash Map for data storage is something i came up with and that was accepted. Couldnt come up with a solution for the entire problem.)
+3rd F2F:
+About project experience and how i handled it. Amazon leadership skills were mostly expected.
+4th F2F:
+Sum all the values of the nodes of a Binary tree that fall on the same column and print them.
+The solution is to treat root as the center and any node that moves away from it (left/ right )one at a step is treated as under same column 
+5th F2F:
+Print the values of a binary tree that occurs on the same level.
+-Level order traversing.
+

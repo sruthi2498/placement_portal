@@ -1,0 +1,9 @@
+Binary search is a popular method of searching in a sorted array or list. It simply divides the list into two halves and discard the half which has zero probability of having the key. On dividing we check the mid point for the key and uses the lower half if key is less than mid point and upper half if key is greater than mid point. Binary search has time complexity of O(log(n)).
+Binary search can also be implemented using multi-threading where we utilizes the cores of processor by providing each thread a portion of list to search for the key.
+Number of threads depends upon the number of cores your processor has and its better to create one thread for each core.
+Examples:
+
+Note – It is advised to execute the program in Linux based system.
+Compile in linux using following code:
+Run on IDE
+Output:

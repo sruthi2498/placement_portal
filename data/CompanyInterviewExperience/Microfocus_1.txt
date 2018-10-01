@@ -1,0 +1,11 @@
+1) Tell me about your projects.
+2) What is your most comfortable language? [I said C/C++]
+3) Write a C program to reverse a string, both iteratively and recursively. Constraints: no global/static variable should be used.
+4) What is malloc() used for?
+5) What happens when you don’t free dynamically allocated memory?
+6) What is a process?
+7) What are the elements in a PCB [Process Control Block]
+8) What are the segments that a process has?
+9) Given a piece of code, identify which variable will go into which section(data/ stack/ heap).
+10) Why is stack made as a expandable segment?
+11) What are the differences you noticed between working in WinOS Vs working in Linux?

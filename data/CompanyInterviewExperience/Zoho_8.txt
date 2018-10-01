@@ -1,0 +1,32 @@
+Round 1: The first round consists of 15 c aptitude questions and 10 aptitude questions. Out of 15 c-aptitude questions, 10 were allocated 1 marks and 5 were allocated 2 marks. The questions will be mostly based on backtracking with recursions and functions. Theory type questions won’t be asked. Also, concentrate on pointers. Note: All the questions are fill in the blanks.
+Round 2: The second round consisted of 5 questions. Time: 2h30m
+1. Print the given input string in ‘X’ format.
+Note: The string length will be of odd length.
+https://www.geeksforgeeks.org/print-string-of-odd-length-in-x-format/
+2. Two sorted arrays will be given. Create an array consisting of the elements of two arrays with duplicate elements removed in sorted order.
+Note: Use only one loop. No sorting.
+https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/
+ 
+3. Two strings of equal length will be given. Print all the adjacent pairs which are not equal.
+Input: asdfghij and adsfgijh
+Output: sd-ds, hij-ijh
+4. Find the frequency of all numbers in an array.
+Note: use dynamic memory allocation.
+For example, if the input is {1, 2, 45, 67, 1, 88}, do not calculate the frequency of all elements from 1 to 88.
+5. From the input sentence given, find the strings which are not palindrome and print it.
+Input: he knows malayalam
+Output: he knows
+Round 3:
+One application will be given. Time: 2h30m
+Write an application for booking railway ticket reservation system. The application should have four functionalities.
+Conditions for booking:
+There are a total of 63 berths for 63 confirmed tickets, 9 berths for 18 RAC tickets and 10 tickets in waiting-list. If the waiting-list ticket count goes above 10, print as ‘No tickets available’. The following passenger details should be obtained from the user.
+The tickets should not be allocated for children below age 5.But, their details should be stored. Lower berth should be allocated for persons whose age is above 60 and ladies with children if available. Side-lower berths should be allocated for RAC passengers.
+Conditions for cancelling:
+Whenever a ticket is cancelled, a ticket from RAC should be confirmed and a waiting-list ticket should move to RAC.
+Conditions for printing booked tickets:
+Print all the tickets that are filled along with the passenger details and at the end, print the total number of tickets that are filled.
+Conditions for printing available tickets:
+Print all the tickets that are unoccupied and at the end, print the total number of tickets that are unoccupied.
+ 
+ALL THE BEST !!!

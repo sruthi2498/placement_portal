@@ -1,0 +1,21 @@
+Amazon was the first company to visit our university this year. They have taken 3 rounds for selecting students for internship program.
+1. Online coding round : This was as usual. 2 coding questions and 20 MCQs. MCQs were from probability, permutation, output, tree, DBMS and OS.
+Coding questions were easy. The first one was finding-next-greater-element-with-same-set-of-digits. I’ve to implement the function long nextGreater(long n);
+There were hidden test cases. That means, if you submit successfully, then also your code might be wrong. You’ve to design and test your code. 
+Second question was easy, finf max(|Ai – i| – |Aj – j|) from an array with i!=j. 
+There were students who were not selected just because they answered only 3 or 4 MCQs. Actually, the selection was not done based on the coding questions. Two of my friends answered both the coding questions an didn’t answer any MCQ and were not seected.
+2. 2nd round was a F2F round. 
+The interviewer was very frank, friendly and helpful as well. 
+At first he gave me the problem of finding triplets in an array that adds up to a given value. I told him that I’ve solved it before and he told me to explain the algorithm. I did. 
+Then he gave me another problem. Given a BST and a range, return all the elements in that range. I told him one recursive approach and I had to write the code on the paper. He told me that there are two bugs in the code, find it. Later I figured out and modified the code. 
+Then he gave me infix to postfix conversion and evaluation of postfix. I solved it but then he told me it was wrong. Then I’ve to find out what was wrong with my code. I took an example and debugged my code.
+Then he gave me a chance to ask him questions if I had. I asked him, “How many hours do you code in a day?” He replied, “Sometimes I don’t write code at all, sometimes it is 12-16 hours.” He also mentioned that his wife doesn’t like him. I told him, you should have married a CS girl. He was laughing. I asked some other questions and it was really an awesome conversation.
+3. 3rd round was HR round. The interviewer started talking about the life and culture at amazon. 
+Then he asked me the problem of finding whether two nodes in a Binary tree
+are cousins or not. I was not able to solve it at first. I was nervous. I wrote the code but again it was wrong, he told me you’ll get 2 more minutes for 5 times. But he gave more than 10 minutes to solve it. Actually he was trying to confuse me. 
+2nd question was a math question, it was easy and then he told me to implement insert method
+of MaxHeap. I told him that I can’t. I can use MaxHeap but I’ve never implemented MaxHeap. He said, “Then implement it now.” I did and said, “Have you ever implemented MaxHeap insert method in O(1) time ?” He just stared at me and then I said, “I don’t like remembering algorithms that I don’t even understand. And I never needed this algorithm as well”.
+Later I apologized for the arrogance that I showed. He asked me lot of questions like why do you want to work at amazon ? Then he gave me a chance to ask him quetions. I asked the same question,
+“How long do you code ?” He said, “I don’t write codes at all.” I said, “Why ?” He said, “Because I’m the HR manager” I said, “I thought that there will be one more round and that’ll be the HR round.
+And I heard that the HR manager likes to ask mathematical questions”. He laughed and said, “I asked you one.”
+And one advice that I can give you is that You don’t need to know thousands of algorithms. Apply your brain to develop them because they’ll give you sufficient time to do that. Remembering algorithms is a bad habit. And be confident and proud of what you already know. Thanks geeksforgeeks for giving me such an unexpected happiness.

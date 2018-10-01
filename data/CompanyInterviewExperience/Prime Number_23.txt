@@ -1,0 +1,20 @@
+Given a number ‘n’, check whether it is an emirpimes or not.
+An emirpimes(“semiprime” when spelled backwards) derives its definition from the way it is spelt. So, an emirpimes is a number that is a semiprime (product of two prime numbers) itself, and the reversal of its digits gives another new number, which too is a semi prime. Hence, by definition we can conclude that none of the palindrome numbers can be emirpimes, as the reversal of their digits does not give any new number, but forms the same number again.
+Examples :
+
+Input : 15
+Output : Yes
+Explanation : 15 is itself a semi prime number, since it is a product of two prime numbers 3 and 5. The reversal  of its digits gives a new number 51, which too is a semi prime, it being the product of two prime numbers, viz., 3 and 17
+Input : 49
+Output : Yes
+Explanation : 49 is itself a semi prime number, since it is a product of two prime numbers(not necessarily distinct) 7 and 7. The reversal of its digits gives a new number 94, which too is a semi prime, it being the product of two prime numbers, viz., 2 and 47
+Input : 25
+Output : No
+Explanation : 25 is itself a semi prime number, since it is a product of two prime numbers(not necessarily distinct) 5 and 5. The reversal of its digits gives a new number 52, which is not a semi prime, it being the product of three and not two prime numbers, viz., 2, 2 and 13
+
+Approach : 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

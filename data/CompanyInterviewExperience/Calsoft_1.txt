@@ -1,0 +1,34 @@
+Interview Experience of Calsoft Pune:-
+First of all they gave PPT
+After that there was an online Exam that was pure coding exam. There were three questions :
+It was 2 hours exam.
+Questions were fairly easy
+Q1: Two strings are given S1 and S2 , replace all character in S1 with ‘+’ those are not there in string S2.
+        	example S1 = MOHIT and S2 = ROHIT, answer = +OHIT.
+Q2: An integer array is given, we have to tell in which case it lies, cases are:-
+        	Case 1. array[5] = {4, 5, 6, 7, 8} ie series of natural number.
+        	Case 2. array[5] = {2, 3, 5, 8, 13} ie fibonacci series.
+        	case 3: array[5] = {9, 16, 25, 36, 49} ie square of natural number’s.
+	        example: given input array[7] = {10, 11, 12, 13, 14, 15, 16}, ans = case 1.
+	                			 given input array[5] = {1, 1, 2, 3, 5},  ans = case 2.
+		                		 given input array[5] = {1, 4, 9, 16, 25}, ans = case 3.
+Q3. Given an input array and a integer n, we have two tell in how many ways we can get number n by summing the numbers of given array, we can use a number only once.
+	        example: array[5] = {1,3,7,9,10,11} and n = 12 then
+	        possible cases are 1+11, 9+3. so ans = 2.
+ I did all the questions and got first name in list.
+ After this exam they shortlisted 12 candidates for PI, I was.
+ They called me for PI, Some of the questions they asked were:-
+ First of all Interviewer saw my online exam’s code and ask me about toghness of paper.
+ Then we discussed about my Projects and and Internship for a while after that he asked me:-
+ What is difference between process and thread.
+ What happen when we type ‘www.google.com’.
+ What is Kernel.
+ What is dynamic memory and how to allocate it in C.
+ What is pass by reference and pass by value in C.
+ What is static and public variables and methods in java.
+ Is there any difference between Static and public Variables in java.
+ and some more…
+ In between he asked me some HR questions like what are your hobbies, did you go through our website and what did u see there and some more.
+ Questions were straightforward and requires basic understanding of OS, Networking, C and JAVA.
+ After first interview they called me and said your first interview gone very well so no need of further round but for some people they have taken HR round as well.
+

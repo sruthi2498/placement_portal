@@ -1,0 +1,15 @@
+Given an array, count those pair whose product value is present in array. 
+Examples:
+
+A Simple solution is to generate all pairs of given array and check if product exists in the array. If exists, then increment count. Finally return count.
+Below is implementation of above idea
+
+Run on IDE
+Run on IDE
+Output:
+Time complexity: O(n3)
+An Efficient solution is to use ‘hash’ that stores all array element. Generate all possible pair of given array ‘arr’ and check product of each pair is in ‘hash’. If exists, then increment count. Finarlly return count. 
+Below is implementation of above idea 
+Run on IDE
+
+Time complexity : O(n2) ‘Under the assumption insert, find operation take O(1) Time ‘

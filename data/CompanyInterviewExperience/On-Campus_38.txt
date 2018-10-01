@@ -1,0 +1,13 @@
+Round 1:
+This was a written round with 40 question and no negative marking.
+There were 3 sections:
+C/C++ output(quite tough)
+OS(average), Aptitude(average)
+Round 2:
+He asked about my project in detailed and focused on how I implemented the functionality of few key things. Gave to write a proper c code of
+https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+first, I gave a O(n^2) approach then he said to optimize it. then I gave O(nlogn) approach by sorting the array and then using binary search for finding(arr[i] – k) where k is the given sum.
+Round 3:
+From some this round was HR and for some it was tech. for me it was tech.
+asked few c++ questions and difference between c/c++/java and few puzzles.
+Total of 11 students were selected and I was one of them. 

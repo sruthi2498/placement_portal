@@ -1,0 +1,15 @@
+Given three integers a, b, n .Your task is to print number of numbers between a and b including them also which have n-divisors. A number is called n-divisor if it has total n divisors including 1 and itself.
+Examples:
+Naive Approach:
+The naive approach is to check all the numbers between a and b how many of them are n-divisor number for doing this find out the number of each divisors for each number . If it is equal to n then it is a n-divisor number
+Efficient Approach:
+Any number can be written in the form of its prime factorization let the number be x and p1, p2..pm are the prime numbers which divide x so x = p1e1 * p2e2….pmem where e1, e2…em are the exponents of prime numbers p1, p2….pm. So the number of divisors of x will be (e1+1)*(e2+1)…*(em+1).
+Now the second observation is for prime numbers greater than sqrt(x) their exponent cannot exceed 1. Let’s prove this by contradiction suppose there is a prime number P greater than sqrt(x) and its exponent E in prime factorization of x is greater than one (E >= 2) so P^E sqrt(x) so P^E > (sqrt(x))E and E >= 2 so PE will always be greater than x
+Third observation is that number of prime numbers greater than sqrt(x) in the prime factorization of x will always be less than equal to 1. This can also  be proved similarly by contradiction as above.
+Now to solve this problem
+Step 1: Apply sieve of erastothenes and calculate prime numbers upto sqrt(b).
+Step 2: Traverse through each number from a to b and calculate exponents of each prime number in that number by repeatedly dividing that number by prime number and use the formula numberofdivisors(x) = (e1+1)*(e2+1)….(em+1).
+Step 3: If after dividing by all the prime numbers less than equal to square root of that number if number > 1 this means there is a prime number greater than its square root which divides and its exponent will always be one as proved above.
+Run on IDE
+Output:
+

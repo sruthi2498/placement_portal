@@ -1,0 +1,12 @@
+A full prime number is one in which the number itself is prime and all its digits are also prime. Given a number n, check if it is Full Prime or not.
+Examples : 
+
+The naive approach will be to check if the number is prime or not then check the digits are prime or not, but this wont be efficient enough.
+The efficient method is to do the other way around as there will be very few numbers in every 1000 numbers for which we have to check if it is prime or not, rest all numbers will fail when its digits are not prime. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+If we are given multiple numbers and range of numbers is small enough so that we can store them in array, we can use Sieve of Eratosthenes to answer queries fast.

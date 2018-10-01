@@ -1,0 +1,11 @@
+Given a tree, print the level order traversal in sorted order.
+Examples :
+
+We have discussed a priority queue based solution in below post.
+Print Binary Tree levels in sorted order | Set 1 (Using Priority Queue)
+In this post, a set (which is implemented using balanced binary search tree) based solution is discussed.
+Approach :
+1. Start level order traversal of tree.
+2. Store all the nodes in a set(or any other similar data structures).
+3. Print elements of set.
+Run on IDE

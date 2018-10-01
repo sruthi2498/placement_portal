@@ -1,0 +1,13 @@
+Given an array, find the subarray (containing at least k numbers) which has the largest sum. 
+Examples:
+Asked in : Facebook 
+
+This problem is an extension of Largest Sum Subarray Problem. 
+1) We first compute maximum sum till every index and store it in an array maxSum[].
+2) After filling the array, we use the sliding window concept of size k. Keep track of sum of current k elements. To compute sum of current window, remove first element of previous window and add current element. After getting the sum of current window, we add the maxSum of the previous window, if it is greater than current max, then update it else not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)

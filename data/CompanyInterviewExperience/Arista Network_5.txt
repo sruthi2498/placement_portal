@@ -1,0 +1,32 @@
+Arista recently visited our campus for interns. There were three rounds in total. Initially students were shortlisted based on CGPA(8+). Then there was a primary online coding round following which there were two interviews.
+
+1. Coding round on hackerrank
+	There were three coding questions to be solved in 90 minutes.
+	Question 1. The question was based on ip fragmentation, where data length 	was to be divided into multiples of MTU(maximum transmission unit). Each 	fragment of data was to be structured as a node in a linked list.
+	(Difficulty – Easy)
+	Question 2. A snippet of code was provided and it was required to debug the 	code. No details were provided as to what the code does and what to expect. 	Solution dealt with altering structure pointers and node length.
+	(Difficulty – Medium)
+	Question 3. Add two linked lists and return the solution as another linked list.
+	(Difficulty – Easy)
+I was shortlisted for the interviews along with 4 of my friends.
+
+2. Technical Interview
+	* Was asked questions regarding my approach towards the coding challenge. 	Discussed about code redundancy and recursive solutions.
+	* Was asked to give a real world application of circular linked list.
+	* Was asked to provide a data structure for string predicition as in auto fill in 	mobile phones. (Wasn’t comfortable with tries, so implemented as a tree)
+	* Was asked about my projects(Luckily I did a project in networking in the 4th 	semester)
+	* Was asked if I had any questions( I asked about growth oppurtunities at 	Arista etc.)
+The interviewer seemed pleased and satisfied.
+
+3. Technical cum HR interview
+	The second interviewer seemed a really jolly person. He asked me who took my first interview, and apparently I couldn’t remember the name of my first interviewer or any of his features (I am really pretty bad with names and faces). I then asked if he had a pic of his colleagues and that I would defintely recognize the interviewer once I see him. He said that he might as well just have one and finally I was able to recognize the interviewer through the pic.
+	The entire incident left us in laughter and my nervousness vanished.
+	* Was asked to introduce myself.
+	* Deep dicussion on the courses I took, and how my grades reflected. (I had 	secured a low grade in digital design lab and was asked particularly about it)
+	* Talked about my interests in Data structures, OS and networking.
+	* Dicussion on my networking project.
+	* Discussion on threads and networking sockets.
+	* Was asked if I had any questions.( I asked about Arista’s cloud based OS and 	why a single common platform image is better than OS for different devices 	with different chassis)
+	* Was asked about how I looked at myself after 2-3 years and my future plans.( 	I was honest with the answer and talked about working in an organisation that 	provides me ample growth oppurtunites and working on projects that have real 	implications on the life of people)
+The interviewer seemed content with my answers.
+I would like to dedicate my success to the geeksforgeeks team for maintaining such a vast repository of questions. Keep up the good work.

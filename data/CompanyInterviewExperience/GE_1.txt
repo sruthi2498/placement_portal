@@ -1,0 +1,37 @@
+GE Digital visited our campus for recruiting Software Engineers. The job location is Bangalore.
+In consists of 4 rounds: Online round, Group Discussion, Technical round and HR round.
+First Round 
+The first round was a Online test on AMCAT platform. It was an online test having 5 sections. The sections included Quantative, Logical Reasoning, Verbal Reasoning, Technical Aptitude and Automata ( 2 coding questions in 45 minutes). Technical aptitude had MCQ’s on DS, Algorithm, C/C++ Output, DBMS and OS. There were different sets for different candidates. Technical questions can be practiced from AMCAT,indiabix,etc. Adaptive test, can’t return to question after skipping it, better to answer all questions since there is no negative marks.
+The two questions in Automata asked were :
+Given an integer S and integers M, N find the value of ((S^M)%10)^N)%1000000007. The question is a modified form of this question.
+Modular Exponentiation
+Given a string remove all vowels in a string and return the string.
+Other questions which were asked to others were:
+a)Print all primes in [2,N]
+b)Smallest Permutation of a given number considering negative and positive numbers.
+c)Next Permutation of a given number.
+https://www.programiz.com/cpp-programming/examples/prime-number-intervals
+Maximum sum such that no two elements are adjacent (https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
+Rearrange array such that all odd numbers occupy odd positions and even numbers occupy even position. Order of numbers needs to be maintained without use of extra space
+Given an array of size n and a number k, sort the first k integers in non-descending order and the last n-k into non-ascending order.
+Around 50 students were selected for the second round that was on the next day of the online round. The day started with the pre-placement talk with the representatives giving complete details about the company, its technological centres, its technologies and the skills required. Its better to attend the pre-placement talk.
+ Second Round 
+Second round was GD. Students were divided into groups of 12 and topic was “Digital India”, “Social Networking”, “Technology”. It went on for 20 mins. Speak confidently and coherently. Add to what others are saying or contradict them politely. Let others speak too. Be a leader. Try to initiate and help others put their point by providing them chance. After GD 19 people were shortlisted for further rounds.
+ Third Round 
+This was a technical interview. There were 2-3 interviews going on simultaneously. The questions were mainly asked on Core Computer Science Subjects like OS, Data Structures and Algorithm, DBMS, OOPs and JAVA.
+Thoroughly read everything whatever you have write in your CV. Don’t put irrelevant things in CV.
+Thorough discussion on project and the technology and objective of the project.
+General questions on recent technologies like Big Data, Cloud Computing and Data mining.
+Balanced Trees, AVL Tree Deletion Insertion and other tree based questions.
+OS and DBMS were basic questions. They were more interested in candidates with good projects on CV. So better to prepare a good CV.
+System Design questions were also asked to some of us.
+Coding questions asked were-
+Reverse a string, Find middle of a linked list, Delete a node in the linked list, Dynamic programming coding questions, string manipulation questions and basic questions on binary tree and BST.
+Around 9 candidates were selected for the final round that was on the next day.
+ Fourth Round 
+HR questions were all behavioural questions.
+1) Tell me something about yourself which is not on your resume.
+2) Why GE? Why engineering? Strengths? Weaknesses? etc.
+3) Why do you know only one coding language?
+4) Any questions for us.
+Finally, 4 students were hired from our campus.

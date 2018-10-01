@@ -1,0 +1,44 @@
+Factset came to our college for campus recruitment drive.
+
+Round 1(Written):
+(around 200 students sat for this round)
+It was a pen and paper coding round and consisted of 3 coding questions.
+Question 1: Given a matrix of size m*n and a starting index, find the longest path length from this index traversing only those elements whose difference from the current element is equal to k. (30 marks)
+Hint: use DFS 
+Question 2: This question was related to Morris traversal of trees, in which sum of all tree nodes data had to be calculated without using stack or recursion. (20 marks)
+https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
+Question 3: This was a simple question in which an integer was given and we had to give maximum number by swapping only 2 digits.Example: 6425 gives 6524 (10 marks)
+After this round, 26 students were shortlisted for the personal interviews to be conducted the next day
+Round 2 (PI Round 1):
+I was first asked to introduce myself and then I was given 3 questions one after the another and asked to write the proper code for each of them. It was a one on one interview.
+Question 1: Given a Binary Tree check whether it’s a BST or not.
+https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+Since I had already seen this question, I gave all the approaches correctly.
+Question 2: Decrypt an encrypted string given in the form 4[a]2[b] = aaaabb 4[a2[b]]=abbabbabbabb. I solved this question using stack and STL. 
+Question 3: Given an integer in the form of a string, delete k digits from it such that the resulting number is maximum.
+https://www.geeksforgeeks.org/build-lowest-number-by-removing-n-digits-from-a-given-number/
+After this round, 15 students went forward to the 2nd PI round.
+
+Round 3 (PI Round 2): 
+This was also a pure technical coding round. There were 2 panelists. 
+Question 1: Given an array of strings and an integer k, arrange the strings in multiple lines in a justified format such that there are k characters in each line and there is at least single character space between two strings, and space should be distributed uniformly between words in a line.
+Example: {“This”,”is”,”an”,”array”,”of”,”strings”}
+Expected output:
+This is an
+array    of
+strings.
+The approach I applied was to first see which all words can be accommodated in the current line giving the bare minimum of 1 character space between two words as mentioned in the problem statement. Then I calculated the number of empty spaces in the line and distributed it uniformly amongst the words.
+Question 2: In this question, we had to find the majority element and give all the possible ways to solve this question, including Moore’s voting algorithm.
+https://www.geeksforgeeks.org/majority-element/
+Question 3: In this, we had to find the maximum leaf to leaf path sum. This is similar to the diameter of a tree code.
+https://www.geeksforgeeks.org/find-maximum-path-sum-two-leaves-binary-tree/
+Question 4: In this question, I was asked which DS is used to implement phonebook in mobile phones. I said Trie and so I was asked to give its node structure and explain insertion and search operations.
+https://www.geeksforgeeks.org/trie-insert-and-search/
+Round 4 (HR Interview):
+Discussion about internships, projects, and college experience.
+Some standard questions like why do you want to join Factset? why should we hire you? where do you see yourself in 5 years?
+Hobbies and interests.
+After these rounds, 10 students were selected from our college. I, fortunately, was one of them.
+The interviewers were very helpful and guided whenever I got stuck. I was asked to write codes for all questions except for the last question of the 3rd round. 
+Be confident, the interviewers want to check your approach towards questions and your conceptual knowledge.
+I am really thankful to Geeks For Geeks for playing an instrumental in my preparation for campus interviews. I would have been truly difficult without you guys. 

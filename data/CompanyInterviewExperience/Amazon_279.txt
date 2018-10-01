@@ -1,0 +1,24 @@
+Recently, Amazon visited our campus and as a matter of fact it was the first to visit.
+They took 3 rounds to select interns.
+1st round – Online test
+There were 20 MCQs, which included questions from C, C++, Java(Multi Threading) and few aptitude questions.
+Then, there were 2 coding questions-
+1)http://quiz.geeksforgeeks.org/lexicographically-minimum-string-rotation/
+2) Given a string, check whether string is Good or Bad(Condition – String is composed of ‘a’ and ‘b’ characters only and you can add only “ab” anywhere in the string to form a Good string).
+
+2nd Round – F2F interview
+Interviewer gave me one question – Count possible paths from top left
+https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+He first asked me to give recursive approach and then optimize it further by creating an extra matrix.
+Finally, he asked me to give DP solution of the problem.
+Interviewer was very helpful and discussed every step of my solution. He wanted to see how I approach the given problem and further optimize it gradually.
+
+3rd Round – F2F Interview 
+Interviewer started with my projects and slowly came to Operating system. He asked few questions related to it-
+1) What is a page fault?
+2) How does it affect the CPU performance?
+3) How to minimize it? (I talked about LRU)
+He asked me to design LRU using appropriate Data Structures.
+I did it using doubly linked list and map. Then, he talked about complexity of my solution and wrapped up the interview by asking if I had any questions for him.
+
+Few advises – First, be cool and don’t be nervous because interviewer wants you to be interactive and confident. Think out loud and keep discussing with interviewer about any of your queries. Lastly, just memorising algorithms won’t do any good. One has to learn the art of developing logic of a problem.

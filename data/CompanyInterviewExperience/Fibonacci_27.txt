@@ -1,0 +1,22 @@
+Fibonacci series = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ……..
+Different methods to find nth Fibonacci number are already discussed. Another simple way of finding nth Fibonacci number is using golden ratio as Fibonacci numbers maintain approximate golden ratio till infinite.
+Golden ratio: 
+
+Examples:
+
+Approach:
+Golden ratio may give us incorrect answer.
+We can get correct result if we round up the result at each point.
+Till 4th term, the ratio is not much close to golden ratio (as 3/2 = 1.5, 2/1 = 2, …). So, we will consider from 5th term to get next fibonacci number. To find out the 9th fibonacci number f9 (n = 9) :
+Note: This method can calculate first 34 fibonacci numbers correctly. After that there may be difference from the correct value. 
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+We can optimize above solution work in O(Log n) by using efficient method to compute power.
+The above method may not always produce correct results as floating point computations are involved. This is the reason, this method is not used practically even if it can be optimized to work in O(Log n).  Please refer below MIT video for more details.
+

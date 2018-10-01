@@ -1,0 +1,9 @@
+bitset::test() is an inbuilt function in C++ STL which tests whether the bit at a given index is set or not. 
+Syntax:
+Parameters:  The function accepts only a single mandatory parameter index which specifies the index at which the bit is set or not. 
+Return Value: The function returns a boolean value. It returns true if the bit at the given index is set else it returns false. 
+Below programs illustrate the above function:  
+Program 1:  
+Run on IDE
+Program 2:  
+Run on IDE

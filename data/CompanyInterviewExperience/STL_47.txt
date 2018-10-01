@@ -1,0 +1,13 @@
+The unordered_multimap::operator= is a built-in function in C++ STL which does three types of tasks which are explained below. 
+Parameters:  The function does not accepts any parameter. The container to the right is the one from which the elements are to be copied to the container in the left. 
+Return Value: It does not return anything. 
+Below program illustrates the above function: 
+Run on IDE
+Parameters:  The function does not accepts any parameter. The container to the right is the one from which the elements are to be moved to the container in the left. The elements in the right container are destroyed after operator= is used. 
+Return Value: It does not return anything. 
+Below program illustrates the above function: 
+Run on IDE
+Parameters:  It does not accepts any parameter, it has the list to the right which will be assigned to the container. 
+Return Value: It does not returns anything. 
+Below program illustrates the above function: 
+Run on IDE

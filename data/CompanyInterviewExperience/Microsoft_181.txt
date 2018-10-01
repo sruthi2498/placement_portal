@@ -1,0 +1,9 @@
+Given a singly linked list, delete middle  of the linked list. For example, if given linked list is 1->2->3->4->5 then linked list should be modified to 1->2->4->5
+If there are even nodes, then there would be two middle nodes, we need to delete the second middle element. For example, if given linked list is 1->2->3->4->5->6 then it should be modified to 1->2->3->5->6.
+If the input linked list is NULL, then it should remain NULL.
+If the input linked list has 1 node, then this node should be deleted and new head should be returned.
+A Simple Solution is to first count number of nodes in linked list, then delete n/2’th node using the simple deletion process.  
+The above solution requires two traversals of linked list.  We can delete middle node using one traversal.  The idea is to use two pointers, slow_ptr and fast_ptr.  Both pointers start from head of list.  When fast_ptr reaches end, slow_ptr reaches middle. This idea is same as the one used in method 2 of this post.  The additional thing in this post is to keep track of previous of middle so that we can delete middle.
+Below is C++ implementation.
+Run on IDE
+Output : 

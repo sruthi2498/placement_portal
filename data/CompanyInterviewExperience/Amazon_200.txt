@@ -1,0 +1,13 @@
+Given two numbers as strings. The numbers may be very large (may not fit in long long int), the task is to find sum of these two numbers.
+Examples:
+The idea is based on school mathematics. We traverse both strings from end, one by one add digits and keep track of carry.  To simplify the process, we do following:
+1) Reverse both strings.
+2) Keep adding digits one by one from 0’th index (in reversed strings) to end of smaller string, append the sum % 10 to end of result and keep track of carry as sum/10.
+3) Finally reverse the result.
+Run on IDE
+Output:
+Optimization:
+We can avoid the first two string reverse operations by traversing them from end. Below is optimized solution.
+Run on IDE
+Output:
+Time Complexity : O(n1 + n2) where n1 and n2 are lengths of two input strings representing numbers.

@@ -1,0 +1,4 @@
+abs(), labs(), llabs() functions are defined in cstdlib header file. These functions return the absolute value of integer that is input to them as their argument.
+Run on IDE
+Run on IDE
+Run on IDE

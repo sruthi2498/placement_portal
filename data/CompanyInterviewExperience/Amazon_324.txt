@@ -1,0 +1,32 @@
+Round 1: It was a written round with three question.
+Q1) Find a peak element. https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
+Q2) Top View of binary tree. https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+Q3) Maximum difference between node and its ancestor in Binary Tree. https://www.geeksforgeeks.org/maximum-difference-between-node-and-its-ancestor-in-binary-tree/
+Round 2 (F2F):
+Q1) Given an array of distinct integers, find if there are two pairs (a, b) and (c, d) such that a+b = c+d, and a, b, c and d are distinct elements. If there are multiple answers, then print any of them. Expected complexity :  O(n2
+Q2) Lowest Common Ancestor in a Binary Tree https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+In both the questions, they needed a proper working code covering every edge cases.
+Round 3 (F2F):
+Q1) If I am designing a media player and I want to store songs and play them in random order
+a) What data structure will you use to store songs?
+b) How will you select the next song to play in a way which prevents the same song being played in consecutive turn.
+I spend some time and finally came up with the working solution.
+Q2) Clone a binary tree with random pointers. https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
+(Hint: Use HashMap)
+ 
+Round 4 (Telephonic) :
+Q1) Tell me about yourself. Your current company, your role and responsibilities. Reason for leaving current company.
+Q2) Maximum triangle path Sum : Starting from the top of a pyramid of numbers like below, you can walk down going one step on the right or on the left, until you reach the bottom row:
+
+One of such walks is 55 -> 94 >- 30 -> 26. You can compute the total of the numbers you have seen in such walk, in this case it’s 205.
+Your problem is to find the maximum total among all possible paths from the top to the bottom row of the triangle. In the little example above it’s 321.
+Q3) Design your own Process Control Block(PCB).
+Q4) Give me an example of a project that didn’t work out well?
+Q5) What are some of the things that you and your supervisor have disagreed about?
+Round 5 (Telephonic) :
+Q1) Tell me about yourself. Your current company, your role and responsibilities.
+Q2) Asked about the challenges faced in your current company. Did you ever have a boss that you did not like or get along with?
+Q3) Check for balanced parentheses in an expression. https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+I was asked to write code as well on collabedit site.
+Q4) Move all zeroes to end of array. https://www.geeksforgeeks.org/move-zeroes-end-array/
+ 

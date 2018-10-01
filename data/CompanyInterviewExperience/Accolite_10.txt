@@ -1,0 +1,11 @@
+Given a string of length m containing lowercase alphabets only. We need to find the n-th permutation of string lexicographically.
+Examples:
+We have discussed how to find lexicographically n-th permutation using STL. Time complexity of previous approach is O(n * n!) which is quite high.
+Here we use some Mathematical concept for solving this problem.
+The idea is based on below facts.
+We first count frequencies of all characters in an array freq[]. Now from the first smallest character present in the string (smallest index i such that freq[i] > 0), we  compute the number of maximum permutation possible after setting that particular i-th character as the first character. If this sum value is more than given n, then we set that character as the first result output character, decrement freq[i], and continue same for remaining n-1 characters. On the other hand, if the  count is less than the required n, iterate for the next character in the frequency table and update the count over and over again until we find a character that produces a count greater than the required n.
+Time Complexity: O(n) i.e. order of string length
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,23 @@
+Round 1:
+This was a coding round. There were two coding questions on the online platform(Hackerrank). Test Duration was 50 minutes.
+First Question 
+You are given a string of HTML tags with opening and closing tags, we have to find the maximum number of total tags where we group the same tags together and count them. Here the tag is defined as one opening and one closing tag where the order of opening and closing tag is irrelevant. Opening tag is defined as text written inside angular bracket (<tag>) and closing tag is defined as text written inside the angular bracket followed by (</…>)
+Sample Input : <head><body></body></head></head><head></body></head><body><head>
+Sample Output: 3
+Explanation :
+Total 3 head tags and 2 body tags, so answer is 3 i.e. max of 2, 3.
+Here the point to be considered is that the tag is either opening followed by closing (not necessarily consecutively) or closing followed by the opening tag.
+Second Question 
+Find the number at kth index in the ith permutation of first n natural numbers. Inputs are given in order of n,  i, k.
+Sample Input: 3 2 2
+Sample Output: 3
+Total 22 students were selected for the next interview round.
+Round 2:
+This was the technical round and lasts about 1 hour 45 minutes in which they asked why did your second question in online coding round didn’t work. I told them about a minor flaw in my code.
+The further questions in round 2 were:
+Round 3:
+It was also the technical round. It lasts about 1.5 hours.
+Question asked in this round includes:
+Round 4:
+It was the HR round and she asked me questions like :
+Result: Selected

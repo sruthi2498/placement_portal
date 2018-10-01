@@ -1,0 +1,66 @@
+I had SAP Labs first round on 10th Oct 2015(ON-CAMPUS).
+The first round consisted of 15 logical reasoning numerical questions which were bit tough i felt as  i never practiced apti (mainly consisted of relationships qns, people sitting around a round table who is beside whom(some thing of this kind qns 5-6).
+One passage on RISING PRICES INFLATION .
+10 Questions on picture viewing , like
+1. given 3 bags picture, select the one which best suites a girl/lady for regular use ,
+2. What is hidden in BASKIN ROBINS symbol(they will display symbol also) ans: a number 13
+3. what can u see in KINGFISHER symbol etc…
+4 questions on Software engineering(qns on water fall model , black box testing) and one testing question
+(i got it on quick sort).
+Finally had two coding questions
+1. Given {“hello”,”aaa”,”hi”} dispaly 1 if reverse of a string exists in the input else 0.
+ans: here reverse(“hello”)=”olleh” which is not in input , so display 0
+similarly for “aaa” , u should display 1.
+2.i dont remember the question , but logic was easy. given 4 as input find its factorial i.e, soln=16
+now do soln = soln – 1;
+finally display soln*soln;
+The people who solved more than 1 and a half codes got shortlisted for developer interview and the people
+ who solved less than 1 code got shortlisted for consultancy.
+Note:The have their own compiler, so dont worry about complexity just solve it.
+——————————————————————————————————————–
+After two days had interviews.
+1 F-F Interviw: (technical)
+No introduction nothing , directly asked
+1.storage classes in c and explain
+2.many questions on pointers
+3.switch statement questions
+4.program to display reverse of a number by not using the instruction rev=rev*10+rem ;
+ans: just display remainder each time and divide by 10 till number becomes 0
+5.features of C++ and explain
+6.write a program to keep track of number of objects created
+ans: use static variable and increment in constructor
+7.program on function overloading in c++
+8. wap in c for given INDABCINDAKLND as an input string stored in singly linked list , whenever D and A is found
+immediately in a string  , insert I in between D and A.
+———————————————————————————————————————- 
+2 F-F Interview: (technical)
+1.introduce urself
+2.Explain the features of OOP
+3.Many questions on abstract classes and interfaces , like why is interfaces needed and explain with real time example
+4.If input string is ABCDJKCBJ and char is B, wap to to display two strings i.e,one string left to B and other right of B
+ans:
+AC
+CJ
+5.Given a array as input lets say A={1,2,-4,-1,0,5,-7,0,3,0} find the subarray with product of all numbers is max.
+ans: sort it first {-7,-4,-1,0,0,0,1,2,3,5}
+sub array is {-7,-4,1,2,3,5}
+6.Explain bubble sort
+7.Many questions on data structures as my project was based on DS.
+8.Explain one of my project
+———————————————————————————————————————–
+3 F-F Interview:
+1. Design a database of Dell which customizes the products
+2.Few queries on it
+———————————————————————————————————————–
+4 F-F HR:
+1.Introduce urself
+2.have u ever worked in team
+3.whether u wish to work individual or in team and why??
+4.what will u do if u have conflicts in your project team?
+5.Few technical questions to check my confidence level , like which among C , C++ and JAVA  is faster and why?
+ why C is used in implementation of OS even though its not as secured as C++ and JAVA?
+6.Explain linked list to a lame person.
+7.Do u have any other offers , if so why will u join us.
+8.A puzzle , a bat and a ball together costs 1 Rs 10 paise , and a bat alone costs one Rupee more than ball ,then wat
+is the price of ball(with out using pen and paper).
+Thank you Geeksforgeeks,

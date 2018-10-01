@@ -1,0 +1,35 @@
+I was interviewed at Flipkart. Following was my interview experience.
+Initially there was one telephonic screening round. then I was called at their bangalore office.
+Telephonic round:
+Given an unsorted array find an entry in array where arr[i]= i; modified it to if array is sorted.
+find median of a long stream of numbers at any instant of time.
+implement LRU cache. (DS used in it and explanation )
+Round 1. Machine coding round
+
+Maintain an employee hierarchy with attributes 
+Print complete hierarchy of given employee.
+find top 10 employees on the basis of salary ,at any instant of time .
+Perform CRUD opérations on the hierarchy.
+they measure you performance on following
+Code should be running
+time limit is 1:30 minutes.
+Appropriate data structures used.
+optimized and modular code.
+Round 2: Technical
+Optimize the code done in machine coding round
+     A lot of discussion on the approach i used. Various edge case discussions.
+Round 3. Technical
+print the top view and right view if tree.
+create a mirror tree from the already existing tree inplace.
+How many ways a 4*n wall be filled with 4*1 sheets so that the wall ends uniformly.
+Round 4: Hiring Manager Round
+A lot of discussions on my previous work. asked me to draw the architectural diagram of my latest project and explain thoroughly.
+What is a columnar database. why we preferred redshift over mysql for data warehouse.
+Why Flipkart.
+what is you passion and aspiration
+Where do you see yourself down the line in 2-3 years.
+what kind of work motivates you.
+what was the toughest project you ever received. problems faced in that. how you solved it.
+Any questions if I had for him.
+Basically Hiring manager wants to check if you are a good asset to his team and will fit in the company culture.
+Thanks a lot to GeeksForGeeks for such an awesome platform for geeks like us 😉 

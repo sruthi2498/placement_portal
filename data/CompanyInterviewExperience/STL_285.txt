@@ -1,0 +1,19 @@
+Deque or Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+push_front() function is used to push elements into a deque from the front. The new value is inserted into the deque at the beginning, before the current first element and the container size is increased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Strong exception guarantee – if an exception is thrown, there are no changes in the container.
+2. If the value passed as argument is not supported by the deque, it shows undefined behaviour.
+Run on IDE
+Output:
+Time Complexity :  O(1)
+Application 
+Given an empty deque, add integers to it using push_front() function and then calculate its size.
+Algorithm
+1. Add elements to the deque using push_front() function
+2. Check if the size of the deque is 0, if not, increment the counter variable initialised as 0, and pop the front element.
+3. Repeat this step until the size of the deque becomes 0.
+4. Print the final value of the variable.
+Run on IDE
+Output:

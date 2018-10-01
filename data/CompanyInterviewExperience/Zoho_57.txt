@@ -1,0 +1,17 @@
+Given two numbers represented by two linked lists, write a function that returns sum list. The sum list is linked list representation of addition of two input numbers. It is not allowed to modify the lists. Also, not allowed to use explicit extra space (Hint: Use Recursion).
+Example
+ 
+We have discussed a solution here which is for linked lists where least significant digit is first node of lists and most significant digit is last node. In this problem, most significant node is first node and least significant digit is last node and we are not allowed to modify the lists. Recursion is used here to calculate sum from right to left.
+Following are the steps.
+1) Calculate sizes of given two linked lists.
+2) If sizes are same, then calculate sum using recursion. Hold all nodes in recursion call stack till the rightmost node, calculate sum of rightmost nodes and forward carry to left side.
+3) If size is not same, then follow below steps:
+….a) Calculate difference of sizes of two linked lists. Let the difference be diff
+….b) Move diff nodes ahead in the bigger linked list. Now use step 2 to calculate sum of smaller list and right sub-list (of same size) of larger list. Also, store the carry of this sum.
+….c) Calculate sum of the carry (calculated in previous step) with the remaining left sub-list of larger list. Nodes of this sum are added at the beginning of sum list obtained previous step.
+Following is implementation of the above approach.
+Run on IDE
+Run on IDE
+
+Time Complexity: O(m+n) where m and n are the sizes of given two linked lists.
+Related Article : Add two numbers represented by linked lists | Set 1

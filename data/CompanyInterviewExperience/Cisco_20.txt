@@ -1,0 +1,14 @@
+Given an array, how to check if the given array represents a Binary Max-Heap.
+Examples: 
+A Simple Solution is to first check root, if it’s greater than all of its descendants. Then check for children of root.  Time complexity of this solution is O(n2)
+An Efficient Solution is to compare root only with its children (not all descendants), if root is greater than its children and same is true for for all nodes, then tree is max-heap (This conclusion is based on transitive property of > operator, i.e., if x > y and y > z, then x > z).
+The last internal node is present at index (2n-2)/2 assuming that indexing begins with 0.
+Below is C++ implementation of this solution.
+Run on IDE
+Output: 
+Time complexity of this solution is O(n). The solution is similar to preorder traversal of Binary Tree.
+Thanks to Utkarsh Trivedi for suggesting the above solution.
+An Iterative Solution is to traverse all internal nodes and check id node is greater than its children or not.  
+Run on IDE
+Output: 
+Thanks to Himanshu for suggesting this solution.

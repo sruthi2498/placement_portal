@@ -1,0 +1,80 @@
+Written Test:
+10 aptitude and data interpretation questions, questions based on language of ur choice(C/C++/Java), questions on basic Computer skills. 
+I was able to do only 2-3 out of 10 apti questions…and almost all C questions and Computer skills questions.
+Some questions:
+Apti:
+1)	A person need to weigh 5 balls (weight<30kg)  but the weighing machine can weigh only weight >30.So the person weigh two balls together (ie. Weigh all possible pairs)..the values of weight of all possible pairs were given and we need to find the lightest ball
+2)	Given 3 boxes with A having 2 white balls 3 blue balls, B having 1 white 4 blue and C having 4 white 1 blue. Find out the probability of picking 2 white and 1 blue if one ball is picked from each box
+3)	In how many ways can 4 balls be distributed in 3 distinct boxes when each box may have any number of balls. Also, 2 balls are identical
+4)	A simpler  version of Einstein puzzle
+5)	Data Interpretation Questions –given two graphs interpret data.
+C /Computer Skills:
+All questions were easy. Mostly output based
+1) printf(“%d”,sizeof(“”));
+2) Question on hashing and quadratic probing
+3) Question on binary tree
+4) Given base address of array, find array[5][6]
+5) Question on number of comparisons in binary search
+6) Questions on size of union /structure and there memory layout
+Shortlisted 21 out of 256 students
+Coding Round:
+ We had to write 4 codes on paper  in 45 mins:
+1)	Given a dictionary, find all the words which are anagram of each other
+2)	 Given a sorted  array and a number ‘c’ . find pair of numbers such that a+b=c
+3)	Given a sorted array .remove duplicates from it
+4)	Given a binary tree T1 with millions of node and another binary tree T2 with hundred of nodes.Find if T2 is subtree of T1.
+questions were easy, but time was less
+Tech Interview:
+1)	which platforms u use?
+2)	tell some commands of linux
+3)	how to kill process
+4)	how to send some specific signal to a process using kill
+5)	how to see process created by specific user
+6)	how to check memory utilization of all set of process
+7)	how to check CPU utilization of processes(which is consuming highest)
+8)	questions about my Intern project
+9)	what u have done in android?
+10)	
+How many times this loop will run on a 2 gb ram and a 8 gb ram.
+11)	how 4gb process can run on 2 gb ram
+12)	why we use 8 gb ram if we can manage with 2 gb ram
+13)	given n servers and a scheduler which take messages and send it to one of n servers.
+Also given the percentage in which the messages should be distributed among servers for load balancing. Give a algorithm on how will u decide the destination server of a message which has just arrived.
+14)	What functions are there in class automatically..write copy constructor signature. Why reference is used as argument.
+15)	At last I asked him about Glass-Steagall Act which lead to birth of Morgan Stanley. He explained me for 10-15 min
+Shortlisted 9 out of 21
+Group Activity
+Divided into 2 groups and each group was given some set of pictures initially..Some pictures were specifically given to individuals and others were common. We as group had to come up with a story using those images.After 5 min some more pictures were given to us and we were asked to add those images also in our story. All the discussions we had in the group was heard by them.
+At last, in 5 min we had to tell the story as a team with each person talking about the part of story in which his specific picture fits in.
+The theme of story was also specified as “Business Ethics”
+Tech Interview:
+1)	Design Reservation system(long discussion) :
+I designed Database for it and did lot many changes in my initial design. We discussed different issues which made me changing my design at various places.
+How will u manage situation where two person see same seat number available and proceed for reservation at same time. I told him about transaction and locking, he said from which point of reservation will u lock and allow only one transaction to proceed.
+I gave all kinds of possible answers but he was unsatisfied, I gave analogy of transaction from ATM and transaction from Net banking at the same time..and he asked me to tell the answer as to how to handle this situation.
+At the end when I was not able to come up with something really working (other than locking the attributes), he said that these problems are very complex and do not have simple solution, he just wanted to see my thinking and asked in if I know about observer pattern.
+2)	Tell about design patterns
+3)	Tell about observer pattern
+4)	12 balls puzzle
+5)	Implement queue using two stacks with best case of both enqueue and dequeue in O(1)
+6)	SQL queries :
+Given three tables Student(sid,…) ,Class(cid,….) and joining table Student_class(sid,cid)
+Find all students names taking no class
+I did it using ”not exists” and subquery but he said subquery is not allowed
+I told him that we can use “except” ,but he said no
+Then he gave hint as join and I told him to do outer join and he was satisfied.
+Query to find students taking more than one class
+HR round:
+1)	Tell me about urself
+2)	Intern project
+3)	Project other than intern project
+4)	Asked about extra circular activities. What all those awards written in my resume actually means
+5)	Asked a question, explained the whole situation without paper and pen :
+In short the question was how will u have distinct values of product names from the array of product class which contain product names as well as other attributes.
+I told him to use Set, then he asked how it is implemented in java, I talked about hash set, he asked about specific function of class (whose hash set is made)
+Which is called internally…which I did not know…and told him about simple hashing of strings and he was satisfied and told me the answer as hashcode function
+He said how will u use threading in same problem and improve performance again I told me all kind of things like to have two thread which traverse the array in opposite direction(one from beginning and one from end ) and maintain the set as global variable
+He said what if there are multiple such arrays..
+6)	I asked him about the frameworks they use and he went on explaining for 15 mins (of which I could not get much) and said how come u did not had any question in ppt. He was enjoying a lot in telling me all kind of things and wanted people to ask more questions at ppt and show interest
+Run on IDE
+

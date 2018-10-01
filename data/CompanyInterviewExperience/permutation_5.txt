@@ -1,0 +1,35 @@
+This was a pool campus conducted by amazon for internship.
+Online Round: There were 20 mcq(+1 for each) and 2 coding questions(+30 for each). MCQ had more networking and DS problems.
+1. Given three linked list, add them.
+Input will be of this format
+1->0->1
+8->9->9
+5
+Output: 1->0->0->5
+Solving above problem in python is easier than C++. I solved it in C++ using deque(30/30 points).
+2. Given an array of size n consisting of positive integers, choose three integers(not necessarily contiguous) such that they are in ascending order and their product is maximum. Input was given in this format.
+array = {5, 3, 6, 8, 9, 10}
+Output: array = {8, 9, 10}
+Many people(including me) ignored the ascending order part and got 20/30 points. Later during interview, interviewer asked me to explain my code and told me the corner case.
+Note: Input was given exactly like I said in both problems. It was a bit different from usual problems. You first have to break strings to integers then solve the problem.
+Round 2:
+https://www.geeksforgeeks.org/validity-of-a-given-tic-tac-toe-board-configuration/
+This was on paper round. I have heard there is another easier solution using magic square. 8 were selected from this round.
+Round 3:
+Technical Interview Round 1
+The interview started with the most common questions “Tell me about yourself” and “Projects/Internship”. Then there were few theory questions like what is binary tree? What is binary search tree? Then 2 coding questions.
+1. https://www.geeksforgeeks.org/level-order-tree-traversal/
+2. https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+Instead of digits, it was string of alphabets. There was a bug in my code. Interviewer gave me a test case and asked me to test it. Changed the approach and solved it by sorting. He asked which sorting and why? First I said merge sort because of nlogn complexity. Then I said since range is small(1-26), we can use count sort. He asked if we really need sorting? Then I said that reversing the second part was sufficient because it was in descending order.
+Round 4:
+
+Technical Interview Round 2
+Again discussion on “Tell me about yourself” and “Projects/Internship”.
+1. https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+He first asked how will you solve this problem. Gave 3 different approaches. Then finally asked to write code for deque approach.
+I was asked few more theory questions from DS and DAA. Like what are some algorithmic paradigm? Difference between Greedy and DP? Questions on Dijkstra(Complexity, greedy or dp). And finally I was given a problem based on graph and was asked which algorithmic paradigm will be used to solve it? Answer was backtracking.
+Interviewers were friendly. They helped us giving hints wherever we got stuck.
+My advice is read past interview experiences from GeeksforGeeks and practice those problems on GeeksforGeeks judge. Brush up your CS fundamentals like Data structures, Algorithms, Networking and Database.
+Thank you GeeksforGeeks for helping me during my interview preparation. 🙂                                        
+
+

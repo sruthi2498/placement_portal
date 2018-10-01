@@ -1,0 +1,6 @@
+Returns an iterator pointing to the first element in the range [first, last] which does not compare less than val.
+The elements in the range shall already be sorted or at least partitioned with respect to val.
+Template :
+Examples:
+Run on IDE
+Output:

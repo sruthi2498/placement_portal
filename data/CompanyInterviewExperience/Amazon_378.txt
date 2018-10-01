@@ -1,0 +1,33 @@
+Given an integer x, find square root of it.  If x is not a perfect square, then return floor(√x).
+Examples : 
+There can be many ways to solve this problem.  For example Babylonian Method is one way.
+A Simple Solution to find floor of square root is to try all numbers starting from 1. For every tried number i, if i*i is smaller than x, then increment i.  We stop when i*i becomes more than or equal to x.  Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of the above solution is O(√ n).  Thanks  Fattepur Mahesh for suggesting this solution.
+A Better Solution to do Binary Search.  
+Algorithm:
+1) Start with ‘start’ = 0, end = ‘x’,
+2) Do following while ‘start’ is smaller than or equal to ‘end’.
+         a) Compute ‘mid’ as (start + end)/2
+         b) compare mid*mid with x.
+         c) If x is equal to mid*mid, return mid.
+         d) If x is greater, do binary search between mid+1 and end. In this case, we also update ans (Note that we need floor).
+         e) If x is smaller, do binary search between start and mid-1
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(Log x)
+Thanks to Gaurav Ahirwar for suggesting above method.
+Note: The Binary Search can be further optimized to start with ‘start’ = 0 and ‘end’ = x/2.  Floor of square root of x cannot be more than x/2 when x > 1.
+Thanks to vinit for suggesting above optimization.

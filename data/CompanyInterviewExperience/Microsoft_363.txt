@@ -1,0 +1,45 @@
+I would like to thank GEEKSFORGEEKS team that they made my confidence level high when it comes to coding. I finished my interview today, hope this could be of help to others.
+
+Date Of Interview: 25th Aug, 3rd Sept, and 4th Sept 2012
+No. of Rounds: 2 online exams + 6 rounds of PI
+Type of Interview: Campus Interview for fresher’s
+
+25-08-2012:
+Online test conducted by some PARIKSHA LITE company (outsourced)
+TEST 1: There were 15 questions to be done in 30 min.  6-7 of them were basic calculations and program output easy ones. 
+TEST 2: 
+A)	There were 3 questions to be coded for IDC test:
+….1)	Check whether a linked list is a palindrome or not
+….2)	Whether a given sting is a new arrangement of main string (eg COXX is XXOC but not XOC)
+….3)	Convert a given sorted dynamic linked list to balanced binary search tree.
+B)	There were 4 question in MSIT test:
+….1)	Write merging two arrays code or pseudo code.
+….2)	Reverse a string of characters.
+….3)	Print binary representation of a given number.
+….4)	Given a control tower for aeroplane how will you make sure it does not fail. (Basically designing question )
+
+03-09-2012: 
+Round1:
+Q1) A thread waiting at while(1) and thread waiting at wait(wrt), what is the difference?
+Q2) Output of following C program. 
+Q3) Write code to find Nth node from the last of a linked lists, and write test cases for the same.
+Round2: 
+Q1) Write code to implement a command called 'tail -5 filename' in unix file using file pointers and also write test cases (HINT using fread and fseek command)
+Q2) Write pseudo code to implement LRU in real time OS.
+Round3:
+Q1) Write code to convert given number into words (eg 1234 as input should output one thousand two hundred and thirty four)
+Q2) Write test cases for the same question mentioned above.
+Round4:
+Q1) Write anagrams code when you are given an isWord() function in the fastest possible ways and also write test cases for that. After this the HR asked me to come on next day
+
+04-09-2012
+Round5: 
+Q1) Design a database schema for college elections and how will you make sure at database end that one user can vote for one person standing for one post only.
+Q2) Write code to detect deadlocks and prevent deadlocks and implement as two separate functions.
+Q3) Write Singleton pattern code and state places with usage of keyword static and virtual.
+Q4) given two processes one that updates a database in 2 min and other in 5 min. Together they take 7 min. Design a method that can reduce this to minimum possible.
+Q5) Write code to count number of nodes of a tree, find depth of a tree, find width of the tree.
+Round6:
+Q1) Design a class diagram for students registering for a sport and competition being held based on which you can decide which guy wins or loses.
+Rest were sort of HR questions like why microsoft, your strengths etc but in the end she said we will send your feedback to the campus placement cell, Thank you. 🙁
+

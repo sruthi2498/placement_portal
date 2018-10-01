@@ -1,0 +1,36 @@
+Hi, Recently I attended Knowlarity Interview. 
+
+Round1:
+   1) swap the even bits and odd bits in the number.
+I/P:  01010101    O/P:10101010
+   2) convert a binary tree in Double Linked list. He then asked, how will you handle the case when the parent left and right pointers are changed, but children has not been processed yet 
+   3) Find the min element in Stack in O(1) time, without affecting Push and Pop operation.
+Round 2:
+  1) Left view of a Binary tree
+   2) Puzzle:  Using all(8,8,3,3) and only operators(*,/,-,+), make 24
+   3) I/P:  “My    \t   India \t is great”
+       O/P:    great is India My
+    The string can contain many spaces,tabs between the words, but you have to output with 1space between the words.
+Next he modified the problem, told to it inplace, without using an auxillary array.
+4) There are two arrays.All the elements in the array are same, except one pair. Find that pair. I told Hashing. He told to improve it.  It can be done as an equation.
+Sum of first array – Sum of second array = x-y
+Sum of squares of first array – Sum of squares of second array = x^2- y^2
+Round 3:
+  1) How do you implement LRU cache
+  2) Your current project in Company
+  3) I don’t remember 
+Round 4:
+ 1) You have a stream of numbers. At any time , find the maximum and the unique number at any time.
+I/P: 5 6 7 7 6 
+O/p:5 6 7 6 5
+2) There is a Binary Tree. Find the min and max of the binary tree , without using Global variable
+3) Check if a Binary tree is BST or not
+Round 5 (Director Round):
+1) Print the maximum subsequence in the 1d array
+2)
+Given n and k, find the kth bracket in nth term in O(n)
+I did in O(n+logn). He told to improve it. Then he told the solution in O(k). And then he told to code in computer and gave the inputs to check it.
+Round 6 CTO Round:
+1) Merge two sorted linked list
+2) Puzzle: You are given two eggs. There is a 100 floor building. Find the minimum floor from which if the egg is thrown , breaks , in minimum number of throws. Answer=> 14
+Then he asked if I had any questions for him.

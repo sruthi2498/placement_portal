@@ -1,0 +1,15 @@
+Consider you have an infinitely long binary tree having a pattern as below:
+Given two nodes with values x and y. The task is to find the length of the shortest path between the two nodes. 
+Examples:
+A naive approach is to store all the ancestors of both nodes in 2 Data-structures(vectors, arrays, etc..) and do a binary search for the first element(let index i) in vector1, and check if it exists in the vector2 or not. If it does, return the index(let x) of the element in vector2. The answer will be thus  
+distance = v1.size() – 1 – i + v2.size() – 1 – x
+Below is the implementation of the above approach. 
+Run on IDE
+Time Complexity: O(log(max(x, y)) * log(max(x, y)))
+Auxiliary Space: O(log(max(x, y)))
+An efficient approach is to use the property of 2*x and 2*x+1 given. Keep dividing the larger of the two nodes by 2. If the larger becomes the smaller one, then divide the other one. At a stage, both the values will be the same, keep a count on the number of divisions done which will be the answer. 
+Below is the implementation of the above approach. 
+Run on IDE
+Time Complexity: O(log(max(x, y)))
+Auxiliary Space: O(1)
+The efficient approach has been suggested by Striver. 

@@ -1,0 +1,27 @@
+Given two sorted arrays of size m and n respectively, you are tasked with finding the element that would be at the k’th position of the final sorted array.
+Examples:
+
+Basic Approach
+Since we are given two sorted arrays, we can use merging technique to get the final merged array. From this, we simply go to the k’th index.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Auxiliary Space : O(m + n)
+Divide And Conquer Approach 1
+While the previous method works, can we make our algorithm more efficient? The answer is yes. By using a divide and conquer approach, similar to the one used in binary search, we can attempt to find the k’th element in a more efficient way.
+Run on IDE
+
+Note that in the above code, k is 0 indexed, which means if we want a k that’s 1 indexed, we have to subtract 1 when passing it to the function.
+Time Complexity: O(log n + log m)
+Divide And Conquer Approach 2
+While the above implementation is very efficient, we can still get away with making it more efficient. Instead of dividing the array into segments of n / 2 and m / 2 then recursing, we can divide them both by k / 2 and recurse. Below implementation displays this.
+Run on IDE
+
+Time Complexity: O(log k)
+Now, k can take a maximum value of m + n. This means that log k can be in the worst case, log(m + n). Logm + logn = log(mn) by properties of logarithms, and when m, n > 2, log(m + n) < log(mn). Thus this algorithm slightly outperforms the previous algorithm.Also see another simple implemented log k approach suggested by Raj Kumar.
+Run on IDE

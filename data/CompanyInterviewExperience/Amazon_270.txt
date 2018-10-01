@@ -1,0 +1,25 @@
+
+Online round (1 hour 30 min)
+20 MCQs + 2 coding questions-
+1) Given an expression string exp, write a program to examine whether the pairs and the orders of “(” and “)” are correct in syntax
+2) Given preorder and inorder traversal of a binary tree, print preoder and inorder of the tree after modifying it such that each node stores the sum of its left and right subtree.
+   (building the tree was not required)
+Technical round 1 ( 1hr 30 min) F2F
+1) Given a string of characters find the first non repeating character.
+did it with hashing.
+He asked me to do it using one loop. I did it by taking two pointers.
+2) Given a list of vehicles group vehicles by their property.
+All vehicles with same production year and other parameters are to be grouped together.
+He asked me to write object oriented code.
+I did it with list of lists.
+Then He asked me to modify the code considering the production year and other parameters as objects and not just integer or string variables.
+He was looking for some better method for comparison of two vehicles . I did it operator overloading inside the vehicle class.
+Technical round 2 (1 hour 30 min) F2F
+1. Given two numbers return the sum of the two numbers considering all the cases(like integer overflow, underflow etc).
+2. Given array of elements denoting price of some objects, print the maximum sum that can be obtained following some constraints-
+  i)only one of the two ends from the array can be selected at a time
+  ii)the seller can sell only one item per day
+  iii)the value of each of the elements gets multiplies by the number of days passed.
+  I did it with dynamic programming.
+3. Print next greater palindrome of a given array with each element denoting a single digit of an integer.
+4. Connect nodes at same level with O(1) extra space.

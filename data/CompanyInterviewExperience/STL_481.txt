@@ -1,0 +1,4 @@
+Returns a reference to the character at the specified location pos. The function automatically checks whether pos is the valid position of a character in the string (i.e., whether pos is less than the string length), throwing an out_of_range exception if it is not.
+Syntax:
+Run on IDE
+Output:

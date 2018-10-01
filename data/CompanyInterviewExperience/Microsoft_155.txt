@@ -1,0 +1,32 @@
+Round 1 (Telephonic)
+1) What is LRU. How to Implement it.
+2) Find kth smallest element in an array.
+3) In a file, there are two columns, first column has some word (String) and 2nd column has some value (Double).
+Example :-
+ABC 23.4
+ERF 34.89
+WERT 122.9
+Now user wants some arithmetic operations like
+1) ABC + ERF = 23.4 + 34.89 = 58.29
+2) ABC – WERT = 23.4 – 122.9 = -99.5
+Design an efficient DS for these kind of operations.
+Round 2 (F2F)
+1) Asked about current Project.
+2) Given a string str. You have to make this string to square string with maximum length. A square string is of the following format:
+str = x + x; where x is any string. Return length of this square string.
+Example
+str = ababa
+Max length square string = 4;
+str = abcd
+Max length square string = 1;
+Round 3 (F2F)
+1) Asked about current project. Asked to draw architecture of my project. Then Asked to design a new feature that is currently not there in my project.
+2) Design undo and redo operation in Microsoft Word like text editor.
+3) Design Hit Counter. (Design Hit Counter)
+Round 4 (F2F)
+1) Asked about current project.
+2) You are given a text file. You have to return the list of starting index of the given word in text file. Design an efficient DS for that.
+Example :-
+Text file content : “geeks for geeks”
+word : “geeks”
+List : {0,10}

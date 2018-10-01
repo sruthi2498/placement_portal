@@ -1,0 +1,8 @@
+Given a positive integer N. Consider a matrix of N X N. No cell can be accessible from any other cell, except the given pair cell in the form of (x1, y1), (x2, y2) i.e there is a path (accessible) between (x2, y2) to (x1, y1). The task is to find the count of pairs (a1, b1), (a2, b2) such that cell (a2, b2) is not accessible from (a1, b1).
+Examples:
+
+Consider each cell as a node, numbered from 1 to N*N. Each cell (x, y) can be map to number using (x – 1)*N + y. Now, consider each given allowed path as an edge between nodes. This will form a disjoint set of the connected component. Now, using Depth First Traversal or Breadth First Traversal, we can easily find the number of nodes or size of a connected component, say x. Now, count of non-accessible paths are x*(N*N – x). This way we can find non-accessible paths for each connected path.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:
+Time Complexity : O(N*N).

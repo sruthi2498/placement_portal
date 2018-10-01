@@ -1,0 +1,7 @@
+Given a number n, find n-th Fibonacci Number.  Note that n may be large.
+Examples:
+Prerequisite :  BigInteger Class in Java, Fibonacci numbers
+Fibonacci of large number may contain more than 100 digits, it can be easily handled by BigInteger in Java. BigInteger class is used for mathematical operation which involves very big integer calculations that are outside the limit of all available primitive data types.
+Run on IDE
+Output: 
+Note that the above solution takes O(n) time, we can find n-th Fibonacci number in O(Log n) time. As an exercise, find n-th Fibonacci number for large n in O(Log n) time.

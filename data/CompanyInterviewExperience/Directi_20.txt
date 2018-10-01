@@ -1,0 +1,12 @@
+Given an array of size N which is initialized with all zeros. We are given many range add queries, which should be applied to this array. We need to print final updated array as our result.
+Examples:
+
+This problem can be solved using segment tree with lazy updates in O(log N) time per query but we can do better here, as update operation is not given. We can process each query in constant time using this logic, when a query to add V is given in range [a, b] we will add V to arr[a] and –V to arr[b+1] now if we want to get the actual values of array we will convert the above array into prefix sum array. See below example to understand,
+So in effect, when we add a value V to specific index of array, It represents adding V to all elements right to this index, that is why we add –V after range to remove its effect after its range of add query.
+    Please note in below code, if range spans till the last index, the addition of –V is omitted to be in memory limit of the array.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

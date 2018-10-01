@@ -1,0 +1,31 @@
+Round 1:
+First round was taken on mettl, online judge. There was two questions and that required to be done in 1hr
+1. A paragraph which contained some dates in format DD-MM-YYYY, find number of distinct years in the paragraph.
+ 
+For e.g Some random words with date 12-01-1990 and some more words with date 12-12-2017 and again some random words with same date 12-05-1990
+ 
+Output will be: 2
+Since two different years (1990 and 2017)
+ 
+2. Given an array containing positive integers. Find count of magic numbers in the array.
+A magic number is that number which can be expressed as sum of two numbers and those two numbers should be reverse of each other. For e.g 22 is magic number which can be expressed as 11+11, 121 is magic number which can be expressed as 29+92
+ 
+Input: [4, 22, 121, 13]
+Output: 3
+Round 2:
+Round 2 was F2F.
+1. Write a function to clone a link list with random pointers.
+Expected complexity was O(N) with O(1) space
+2. What are MySQL engines ?
+3. What is load balancer ?
+4. What is session and cookies ? How sessions are maintained and how these values are passed from client to server ?
+5. How to handle high request per second (distributed systems)?
+6. Write mysql query to find 2nd highest salary.
+Round 3:
+In this round there were discussions on current employment and the projects. Discussion on DB designs and some modules. Some questions on AngularJS(I have experience in that, thats why)
+1. Given a long string and an array of words. Find the minimum window in the string where all the words in given array are present in that window.
+For e.g if string is
+A B B A C E Y I J A B
+Array is [ B, I, Y ]
+So the output will be 7, 11
+Where 7 is starting index and 11 is end index of window.

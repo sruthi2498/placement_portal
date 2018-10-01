@@ -1,0 +1,39 @@
+ACM ICPC(Association for Computing Machinery – International Collegiate Programming Contest) is a world-wide annual multi-tiered programming contest being organized for over thirteen years. The contest is sponsored by IBM.
+This article focuses on what all topics that are important for the competitive programming and should especially be studied in order to train yourself for upcoming ACM-ICPC contest.
+Rules of the Contest – World final Rules for 2017 Click here
+Indian Participants –  Codechef conducts all the Indian Regionals. Click here to know about team formation,  reimbursements etc
+ICPC for Schools by CodeChef – This competition serves as a gateway for the school students to participate in ACM ICPC contest along with ICPC college participants held across India. It is an idea conceived by CodeChef and supported by Amrita University. 
+A sample ICPC Problem : A usual ICPC problem has the following features:
+Preparing for ACM-ICPC
+First and foremost Step: PRACTICE – Following are the resources that can be referred for practicing the ACM-ICPC alike contests and problems. For all these OJs, begin with the problems with maximum submissions and check other solutions to check how you may improve. Do Participate in their monthly contests to remain up to the mark.
+What to study?
+Knowing just the basics of programming won’t be fruitful for aspirants of ACM ICPC. One needs to have a thorough knowledge of advanced algorithms used as well. Following Topics list out the necessary Topics and Algorithms that one must surely know to improve and stand a chance in the actual competition.
+
+Elementary data structures:  To begin with competitive programming, one must master the Data Structures. Following is the list of most commonly used data structures:
+Advanced Data Structures
+Priority queues, union-find sets, (augmented) interval trees, (augmented) balanced BSTs and binary indexed trees
+More  Advanced Data Structures.
+Sorting and Searching : Concentrate to learn the basic concepts and also get familiar with all the library functions available.
+String manipulation : Strings make programming problems interesting and difficult too and probably thats the reason they are used extensively in such contests. Learning library functions for String actually proves very helpful (C++ : See this and this, String in Java).
+Choosing the right Language : C++ is till date most preferred language followed by Java when it comes to programming contests but you should always choose a language you are comfortable with. Being CONFIDENT in any language is most  important.
+Standard Template Library : A quintessential especially for those using C++ as a language for coding
+Dynamic Programming
+All DP Algorithms
+BackTracking
+More articles on Backtracking
+Greedy Algorithms
+More articles on Greedy Algorithms
+Graph Algorithms : One of the most important topic which you can not ignore if preparing for ACM – ICPC.
+All Graph Algorithms
+Basic Mathematics
+Arithmetic : Programmers must know how integers and real numbers are represented internally and should be able to code high-precision numbers. Bit manipulation tricks and knowing library functions for number basic arithmetic would be very helpful.
+Number theory :  Knowing some of these concepts would save a lot of time and efforts while programming in the contests.
+Combinatorics : Although directly might not seam to be important, Combinatorics is important to estimate asymptotic complexity of algorithms.
+Geometrical Algorithms
+Network Flow Algorithms
+All Articles on Geometric Algorithms
+More Advanced Stuff
+Bit Algorithms , Randomized Algorithms , Branch and Bound ,  Mathematical Algorithms , Heavy Light Decomposition,  A* Search 
+Informative Articles that you may like to read
+References:
+Programming Camp Syllabus

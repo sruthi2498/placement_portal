@@ -1,0 +1,12 @@
+Syntax:
+Parameters: The function does not accepts any parameter.
+Return value: The function returns a reverse iterator pointing to the last element in the container.
+Program to demonstrate the array::crbegin() method: 
+Program 1: 
+Run on IDE
+Syntax:
+Parameters: The function does not accepts any parameter.
+Return value: The function returns a constant reverse iterator pointing to the theoretical element right before the first element in the array container.
+Program to demonstrate the array::crend() method: 
+Program 1: 
+Run on IDE

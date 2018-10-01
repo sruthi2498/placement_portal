@@ -1,0 +1,22 @@
+Given an integer ‘n’, print the first ‘n’ terms of the Moser-de Bruijn Sequence.
+The Moser-de Bruijn sequence is the sequence obtained by adding up the distinct powers of the number 4 (For example 1, 4, 16, 64, etc). 
+Examples :
+It is observed that the terms of the sequence follow the recurrence relation :
+It may be noted here that any number which is the sum of non-distinct powers of 4 are not a part of the sequence. For example, 8 is not a part of the sequence because it is formed as the sum of non-distinct powers of 4, that are 4 and 4.
+Thus, any number which is not a power of 4 and is present in the sequence must be the sum of the distinct powers of 4.
+For example, 21 is a part of the sequence, even though it is not a power of 4 because it is the sum of the distinct powers of 4, that are 1, 4 and 16.
+Employ the recurrence relation discussed above to generate the sequence, efficiently.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Dynamic Programming Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

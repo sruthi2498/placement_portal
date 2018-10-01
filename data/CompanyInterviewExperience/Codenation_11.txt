@@ -1,0 +1,11 @@
+Given a string that (may) be appended with a number at last. You need to find whether the length of string excluding that number is equal to that number. For example for “helloworld10”, answer is True as helloworld consist of 10 letters. Length of String is less than 10, 000.
+Examples :
+Asked in: Codenation Interview
+
+A  Naive approach  is to traverse from starting and retrieve the number from string and check if length of string – digits in the number = number or Not 
+An efficient  method is to do following steps
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

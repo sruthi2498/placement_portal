@@ -1,0 +1,20 @@
+Given a Binary Tree where every node has following structure.
+The random pointer points to any random node of the binary tree and can even point to NULL, clone the given binary tree.
+Method 1 (Use Hashing)
+The idea is to store mapping from given tree nodes to clone tre node in hashtable. Following are detailed steps.
+1) Recursively traverse the given Binary and copy key value, left pointer and right pointer to clone tree. While copying, store the mapping from given tree node to clone tree node in a hashtable.  In the following pseudo code, ‘cloneNode’ is currently visited node of clone tree and ‘treeNode’ is currently visited node of given tree. 
+2) Recursively traverse both trees and set random pointers using entries from hash table.  
+Following is C++ implementation of above idea.  The following implementation uses map from C++ STL.  Note that map doesn’t implement hash table, it actually is based on self-balancing binary search tree.
+Run on IDE
+Output: 
+
+Method 2 (Temporarily Modify the Given Binary Tree)
+1. Create new nodes in cloned tree and insert each new node in original tree between the left pointer edge of corresponding node in the original tree (See the below image).
+i.e. if current node is A and it’s left child is B ( A — >> B ), then new cloned node with key A wil be created (say cA) and it will be put as  A — >> cA — >> B (B can be a NULL or a non-NULL left child). Right child pointer will be set correctly i.e. if for current node A, right child is C in original tree (A — >> C) then corresponding cloned nodes cA and cC will like cA —- >> cC
+
+2. Set random pointer in cloned tree as per original tree
+i.e. if node A’s random pointer points to node B, then in cloned tree, cA will point to cB (cA and cB are new node in cloned tree corresponding to node A and B in original tree)
+3. Restore left pointers correctly in both original and cloned tree
+Following is C++ implementation of above algorithm.
+Run on IDE
+Output: 

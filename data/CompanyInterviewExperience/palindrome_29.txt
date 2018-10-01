@@ -1,0 +1,25 @@
+Given a sequence, find the length of the longest palindromic subsequence in it.
+
+Examples:
+
+We have discussed a Dynamic Programming solution for Longest Palindromic Subsequence which is based on below recursive formula.
+
+// Every single character is a palindrome of length 1
+L(i, i) = 1 for all indexes i in given sequence
+// IF first and last characters are not same
+If (X[i] != X[j])  L(i, j) =  max{L(i + 1, j), L(i, j – 1)} 
+// If there are only 2 characters and both are same
+Else if (j == i + 1) L(i, j) = 2  
+// If there are more than two characters, and first
+// and last characters are same
+Else L(i, j) =  L(i + 1, j – 1) + 2
+
+The solution discussed above takes O(n2) extra space. In this post a space optimized solution is discussed that requires  O(n) extra space.  The idea is to create a one dimensional array a[] of same size as given string.  We make sure that a[i] stores length of longest palindromic subsequence of prefix ending with i (or substring s[0..i]).
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(n*n)
+Auxiliary Space : O(n)

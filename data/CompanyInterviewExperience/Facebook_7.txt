@@ -1,0 +1,18 @@
+An encoded string (s) is given, the task is to decode it. The pattern in which the strings are encoded is as follows.
+Examples:
+
+The idea is to use two stacks, one for integers and another for characters.
+Now, traverse the string, 
+
+Below is implementation of this approach:
+
+Run on IDE
+Run on IDE
+
+
+
+
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        
+
+

@@ -1,0 +1,25 @@
+I recently attended an interview with Amazon at WTC, Bangalore
+Round 1 – Written (write code for any 2 out of 3)
+1. Given an array of elements which is first increasing and then decreasing, find the maximum element in the array.
+Points where based on how we handle the corner cases like what if we have only two elements in the array.
+2. Given a string of parentheses, find if the expression is balanced or not ?
+3. Given a binary tree, find the level which has maximum number of nodes, consider root as level zero
+People were asked to write 2 or 3 lines about the approach they follow, the space and time complexity, data structures used to solve the problem
+I attended 1 and 3 – scored 7/10, on my further analysis I had failed to handle the corner cases in question.3
+Round 2 – Face to Face discussion
+1. Write program to escape URL string, say you are given a URL string, you have to replace
+“(space)” -> “%22”
+“(double quotes)” -> “%d”
+say http://www.google.com/hello world” -> http://www.google.com/hello%22world%5d
+what is the space and time complexity, can we accomplish the solution with only one traversal of the string ?
+2. Given a million of points(x,y) in a two-dimensional plane and a utility function to compute the distance from Origin, how will you return the smallest k distances from the Origin.
+Answer : Use Comparator and sort the array, return first K elements from the sorted list
+Follow up: why do we need to keep all elements in the sorted list, how can we maintain only k elements in the sorted list ? Time, space complexity of the solution. time complexity of the problem.
+Round 3 – Face to Face discussion
+3. Implement hash map of your own
+Follow up:
+1. How to handle a collision situation
+2. How can we reduce the time complexity of rehashing process  ??
+Gave my best in this round but couldn’t clear it.
+Amazon people were friendly all during the process.
+

@@ -1,0 +1,60 @@
+ROUND 1:
+90 Minute Online Round: QUESTIONS were 10 General Aptitude, 20 Coding Skills, DBMS and OS Questions, English. Questions were Easy but every section had a time limit and you cannot use the remaining time for another section.And once you submit you cannot change the answer no negative.
+After first round they shortlisted 76 for Aplication profile And 39 for Server tech profile.
+Server Tech guys had one hour coding round with 2 questions.
+1. https://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/
+2. Some overlapping intervals problem I don’t remember But it was Tough.
+Platform was their own Oracle Cloud.
+No Elimination after coding Round.
+Application people had 3 tech Interviews followed by HR.
+Server people had 2 Tech followed by HR.
+For Application Interviews:
+1. Tech(F2F)(For 30-45minutes)
+Basic questions-(Collection of my friends questions also)
+Find each character frequency in string.
+Check whether a palindrome
+Length of Longest Non Repeating Subsequence
+Explain how facebook works
+Why Finally Block is used in java
+Difference between Error and Exception
+Print some Patterns
+Diameter of a tree
+Reverse a LinkedList
+Puzzles:
+1. 12 balls are there one is defective (may be heavy or light)find the defective ball also whether heavy or light in 3weighs.
+2. Oranges Apple puzzle
+3. Burning Rope puzzle
+4. Stop Clock of 7 and 4 is there measure 9 minutes.
+5. Two trains travel in opposite Directions. Speeds of Trains are given.distance between them is ‘d’.find Speed of bird which is moving from one train to another before the train collides.
+They were giving a feedback of your Coding,ProblemSolving and Communication Skills. 
+2. Tech(F2F)(For 60 minutes)
+1. Josepus problem
+2. Detailed Discussion on Project.
+3. Calloc and Malloc differences.
+4. Oracle is the string if your input is “cle” return true, input=”cleo” or “acleor” return true–return true if the input is substring of main string rotation is also considered.
+5. File is there print Each word and it frequency in lexicographic order.
+6. Find 3 and 4 rth highest marks of students in c.
+7. Dining Philosopher problem.
+8. Implement your own rand() function.
+9. Why do we use Graphs?
+10. Mirror tree Generation , no of paths from Source to Destination,Root to leaf Paths..
+11. Check whether a number is divisible by power of 2.
+3. Tech(F2F)(40 minutes)
+1. Questions on pointers(deep Discussion).
+2. How do you return multiple values from a function.
+3. Why do you use a SelfJoin Examples
+4. When do we use a Left outer join
+5. How memory is Allocated for Structure and Array.
+6. More questions on DBMS.
+7. Bankers Algorithm to Prevent Deadlock.
+8. Difference between compiler and interpreter.
+9. Sieve of Erastonnes for Prime numbers.
+10. Interested in higher Studies?
+11. Some behavior Questions.
+4. HR
+Normal HR questions.
+Why not MS.
+Why Oracle.
+Package Discussions.
+Thank u is really a small word for GeeksforGeeks Your a Life Saver Keep up the GoodWork:)
+

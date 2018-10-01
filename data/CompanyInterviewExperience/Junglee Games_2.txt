@@ -1,0 +1,40 @@
+Given a m x n rectangle, how many squares are there in it?
+Examples : 
+
+Let us first solve this problem for m = n, i.e., for a square:
+For m = n = 1, output: 1
+For m = n = 2, output:  4 + 1  [4 of size 1×1 + 1 of size 2×2]
+For m = n = 3, output: 9 + 4 + 1 [4 of size 1×1 + 4 of size 2×2 + 1 of size 3×3]
+For m = n = 4, output 16 + 9 + 4 + 1 [16 of size 1×1 + 9 of size 2×2 + 4 of size 3×3 + 1 of size 4×4]
+In general, it seems to be n^2 + (n-1)^2 + … 1 = n(n+1)(2n+1)/6
+Let us solve this problem when m may not be equal to n: 
+Let us assume that m <= n
+From above explanation, we know that number of squares in a m x m matrix is m(m+1)(2m+1)/6
+What happens when we add a column, i.e., what is the number of squares in m x (m+1) matrix?
+When we add a column, number of squares increased is  m + (m-1) + … + 3 + 2 + 1
+[m squares of size 1×1 + (m-1) squares of size 2×2 + … + 1 square of size m x m] 
+Which is equal to m(m+1)/2
+So when we add (n-m) columns,  total number of squares increased is (n-m)*m(m+1)/2.
+So total number of squares is m(m+1)(2m+1)/6 + (n-m)*m(m+1)/2.
+Using same logic we can prove when n <= m.
+So, in general, 
+.
+Using above logic for rectangle, we can also prove that number of squares in a square is n(n+1)(2n+1)/6
+Below is  implementation of above formula.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Alternate Solution :
+Let us take m = 2, n = 3;
+The number of squares of side 1 will be 6 as there will be two cases one as squares of 1-unit sides along the horizontal(2) and second case as squares of  1-unit sides along the vertical(3). that give us 2*3 = 6 squares.
+When the side is 2 units, one case will be as squares of side of 2 units along only one place horizontally  and second case as two places vertically. So number of squares=2
+So we can deduce that
+Number of squares of size 1*1 will be  m*n
+Number of squares of size 2*2 will be (n-1)(m-1)
+So like this the number of squares of size n will be 1*(m-n+1)
+The final formula for total number of squares will  be  n*(n+1)(3m-n+1)/6
+Thanks to Pranav for providing this alternate solution.

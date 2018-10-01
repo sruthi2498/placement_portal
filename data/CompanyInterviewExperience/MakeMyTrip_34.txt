@@ -1,0 +1,28 @@
+Round-1: Online test
+There were 2 sections – Aptitude and Coding
+Section A- 20 MCQ’s on General Aptitude.
+Section B- There were 3 coding questions.
+1) Given an array and 2 numbers l,r find the number of elements in the array in between l and r;
+2) Calculate a power b (b -> [1,1000000000] (required a logn approach).
+3) Let 1 represent ‘A’, 2 represents ‘B’, etc. Given a digit sequence, count the number of possible decodings of the given digit sequence.
+eg. input –  “121” output – 3.
+Round-2 : Technical Round (1 hour 10 minutes).
+ The interviewer was very friendly and was trying to find out how much u can think.
+1) Given a rotated array around a pivot element find a number x in the array.(write code in log n time).
+2)Given 50 red and 50 blue balls, arrange them in 2 bags in such a way that the probability of taking out a red ball in 1st attempt is strictly  > 1/2. 
+3) reverse a linked list.
+4) The concept behind why a sewage lid on a road is round-shaped.Trying to find out how much u can think. (because the lid wont go inside  in any way as a circle is uniform 360 degree.Rest any shape can go inside along the diagonal vertically).
+5) find the depth of a tree.
+6) A cake is on table.Another piece is cut from anywhere in the cake.Using a single cut divide the cake into 2 parts.(cut along the line joining the mid-points of the cake and the piece.)
+7) write full working code for printing a matrix in spiral form.
+8) Measure 4 litres water using 2 containers of capacity 5 and 3 litres respectively.(infinite supply of water).
+Round-2 Technical Round (50 minutes).
+A good 10-minutes discussion on my project.
+Next I was made to write full code for every question.
+1) Iterative preorder traversal.
+2) Iterative inorder traversal.
+3) Reverse a string wordwise. (Let the input string be “i like this program very much”. The function should change the string to “much very program this like i”).
+4) Calculate a^b in logn and find the total number of multiplications.(check binary representation of b and count 1’s for the number of multiplications.)
+Round-3: HR Round
+Some general question on my background and the HR gave a presentation and she finally said SEE U IN MAKEMYTRIP.
+I thank geeksforgeeks for my success.

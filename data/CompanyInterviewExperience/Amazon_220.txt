@@ -1,0 +1,52 @@
+I got a call from an consultant for recruitment drive in Delhi.
+
+1. first round (1 hour 30 minutes): online written
+It was online written round on a platform called Stockroom.io
+two questions
+ A) Two string a haystack and needle is given find at what all indexes needle occurs in haystack as an anagram(0 based indexing)
+    for eg:
+    INPUT
+    ABACDABCABA
+    BA
+    OUTPUT
+    0,15,8,9
+    time complexity O(n) expected. The only thing to pay attention was that ASCII        characters starts from A
+B) Given A company’s hierarchy where each employee reports to exactly one manager. and one manager can be reported by multiple employees, implement necessary setter getter functions in object oriented way. also write a helper instance methods to return lowest common manager for two given employees
+    answer to this question was simple but had to write object oriented code and zip it then upload it.
+2. second round(1 hour): Design round  
+    this was most critical and important round.
+    A) Design a geographically partitioned multi-player card game, that supports multiple players, multiple games at a time.
+    Each game will have one contractor like ones we have in a bar, He can play a game or just watch it. integrate payment systems.
+    first HLD was required, use cases, flow diagram. then a low level design was required all necessary classes where will u use polymorphism, where inheritance, multithreading, synchronised approach if needed, socket connections
+    other things that surfaced and he asked as interview goes : round robin load balancer, hash-map based load balancer, two layer caching, nosql db, design patterns, solid principles, ACID property, CAP theorem etc.
+    interviewer was a senior person and knew a lot. I was nervous in this round but answered well.
+    B) many behavioral questions
+3. third round (1 hour): technical
+   A) many behavioral and “what if you were in a situation” questions
+   B) Given an array of words which comes in a dictionary of some language in the same order.
+      tell if its possible?
+      ans. represent characters of words as a graph and find out if graph is cyclic (cycle in directed graph)
+      the interviewer was very supportive. He gave me few important hints in terms of question understanding.
+4. fourth round (1 hour): technical
+    he asked me what you like , I said array questions 🙂 He started laughing.
+    A) given an array of integers and two types of queries point update and range sum?
+      ans: I said binary indexed tree then he asked for other ways I said segment tree, He asked more , I said prefix array or sqrt decomposition.
+      he asked me to write code for the same. made some variations like lazy propagation.
+    B)topological sorting. given a words of dictionary tell alphabet ordering.
+    C) many behavioural questions
+Hr came and told me that we are done for the day one more interview is there which was on next day.
+Hr was very supportive she gave me some constructive feedback and told me to get prepared well and come next day as next day was
+with a Bar Raiser.
+5. fifth round (1 hour): technical+ design + behavioural, Bar Raiser
+    A) asked tree related questions , how to represent and model a tree.
+    B) Design a Netflix type system. start from HLD to LLD. detailed discussed happened on this
+    discussion on search, video serving, authentication, encryption, dns lookup, which caching strategy would you chose?
+    serving multi quality video etc.
+    C) few behavioural questions.
+Few things to remember:
+1. for technical go through geekgsforgeeks practice test and interview experiences
+2. for design have a look at carreercup
+3. review OS concepts.
+4. recruiters and hr is very supportive
+5. prepare for behavioural questions well.
+6. prepare “do you want to ask any questions?”

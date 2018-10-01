@@ -1,0 +1,36 @@
+I recently had an interview at amazon for SDE2 role. I am here to share my experience :
+Telephonic :
+1. you are given a string and hashmap.
+replace all characters that are present in hashmap with hash value and generate all possible combinations.
+2. Given a tree, print all cousins of node that is given as input.
+Round 1
+Interviewer was really nice guy, he was helpful and gave hints while solving
+1. Implement LRU – time 45 min
+as 15 min were left, so he asked one more ques and said we wont code for it.
+2. given an unsorted array, get the median of array. – this has to be done in O(n)
+We had discussion on this i tried all DS to look for solution, he gave me hint that i can sort, so i came up with solution in which i used optimised quick sort and i was also asked to code in last 3 min.
+Round 2
+1. He asked me to design Parking Lot.
+2. He asked me to code zig-zag printing of binary tree.
+we also had discussion on challenges of my past experiences.
+Round 3
+This was bar-raiser, i got to know after the round.
+1. He asked me about my experience and background and asked some tricky questions on leadership.
+2. Asked me to design the flight system with src, destination and no of hops. (i coded 3.5 pages of solution :))
+3. Why you want to join amazon ?
+4. How will optimise the performance and check for leaks ?
+Round 4
+This guy was very smart, he pin points anything that i say and marks it.
+discussion about my background.
+1. Why did you shutdown your company ?
+2. why amazon ?
+3. Tell me about your failures ?
+4. Tell me about your project with max technical difficulty ?
+5. How will optimise any system ?
+6. Design a Railway system – it was very lenghty stuff, i coded around 5 pages.
+Round 5
+1. You have a tree, find the minimum lenght from input node to leaf.
+Happy to receive the offer and join here…:)
+
+
+

@@ -1,0 +1,7 @@
+Given a string of length n, print all permutation of the given string. Repetition of characters is allowed. Print these permutations in lexicographically sorted order  
+Examples:
+For an input string of size n, there will be n^n permutations with repetition allowed.  The idea is to fix the first character at first index and recursively call for other subsequent indexes.  Once all permutations starting with the first character are printed, fix the second character at first index.  Continue these steps till last character. Thanks to PsychoCoder for providing following C implementation.
+Run on IDE
+Run on IDE
+
+In the above implementation, it is assumed that all characters of the input string are different.  The implementation can be easily modified to handle the repeated characters.  We have to add a preprocessing step to find unique characters (before calling allLexicographicRecur()).

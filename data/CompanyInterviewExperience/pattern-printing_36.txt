@@ -1,0 +1,11 @@
+Given the value of n i.e, the number of lobes. Print the double-helix structure of Deoxyribonucleic acid(DNA).
+
+Explanation :
+DNA primarily consists of 4 hydrocarbons i.e. cytosine [C], guanine [G], adenine[A], thymine [T].DNA bases pair up with each other, A with T and C with G, to form units called base pairs.
+Below is the implementation to print the double-helix DNA sequence :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

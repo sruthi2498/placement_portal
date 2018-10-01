@@ -1,0 +1,15 @@
+A polite number is a positive integer that can be written as the sum of two or more consecutive positive integers. Given N, find the N-th polite number.
+Examples:
+
+There exist an interesting pattern that only powers of 2 are not present in series of Polite numbers. Based on this fact, there exist below formula (Lambek–Moser theorem) for N-th polite number.
+
+Here to find Nth polite number we have to take n as n+1 in the above equation
+The inbuilt log function computes log base-e, so dividing it by log base-e 2 will give log base-2 value.
+Given below is the implementation of the above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference: Wikipedia

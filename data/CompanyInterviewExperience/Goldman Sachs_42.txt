@@ -1,0 +1,23 @@
+Given a string, find the repeated character present first in the string.
+(Not the first repeated character, found here.)
+
+Examples:
+Asked in: Goldman Sachs internship
+
+Simple Solution using O(N^2) complexity
+The solution is to loop through the string for each character and search for the same in the rest of the string. This would need two loops and thus not optimal.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Optimization by counting occurrences
+This solution is optimized by using the following techniques:
+1. We loop through the string and hash the characters using ASCII codes. Store 1 if found and store 2 if found again. Also, store the position of the letter first found in.
+2. We run a loop on the hash array and now we find the minimum position of any character repeated.
+This will have a runtime of O(N).
+
+Run on IDE
+Run on IDE
+Run on IDE
+

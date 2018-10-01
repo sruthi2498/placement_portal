@@ -1,0 +1,11 @@
+Following questions were asked in the second round of telephonic interview:
+1. Asked about some questions related to Design patterns.
+2. Find a loop in linked list
+https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+3. Length of the loop
+Soln: Once the loop is detected, keep the slow pointer as it is, but move the fast pointer with a count variable until it reaches the slow pointer.
+4. Variation of find a largest sum of contiguous array
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+5. Given two nodes in a graph, check if they are connected or not. Pre processing can be done but the result should be computed real quick
+Soln: Create a hash map with key as a single node and value as a list of all connected nodes
+

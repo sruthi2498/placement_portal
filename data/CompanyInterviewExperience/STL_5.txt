@@ -1,0 +1,6 @@
+Given a string containing space-separated words and a number K. The task is to find and print all those words whose length is greater than K using stringstream in C++. 
+A general solution to solve this problem using loops is discussed in the previous article. In this article, a solution using stringstream in C++ will be discussed.
+Examples:
+The idea is to use stringstream to create a stream by splitting the given string into tokens and then process the stream and print the words with length greater than K.
+Below is the implementation of the above idea:
+Run on IDE

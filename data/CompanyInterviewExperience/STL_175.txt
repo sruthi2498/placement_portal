@@ -1,0 +1,5 @@
+The multimap::emplace() is a built-in function in C++ STL which inserts the key and its element in the multimap container. It effectively increases the container size by one as multimap is the container that stores multiple keys with same values. 
+Syntax:  
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return Value: The function does not return anything.   
+Run on IDE

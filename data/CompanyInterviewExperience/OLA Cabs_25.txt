@@ -1,0 +1,29 @@
+I attended the interview for OLA Cabs in Bangalore for SDE position recently. Here is my interview experience. 
+Round 1 
+Written Coding Test (1 hour)
+We were asked to design a Bowling game and write code for it with proper OOPS concepts . The problem statement was not difficult . Main focus was to check coding skills and writing good quality code pertaining to OOPs concept . 
+Round 2 (45 mins)
+Tell me about yourself . Discussion about project
+Coding test discussion with Interviewer
+Round 3 (1 hour 15 mins)
+Tell me about yourself . Discussion about project
+A lot of technical questions .
+Mirror Tree (Full code).
+some questions on Arrays.
+Suppose there is a parking lot with 3 entrances . U need to find the best parking space for a particular vehicle to park when entered from any entrance .
+Initially used Hashmap to solve it .
+Then came up with Heap solution with hints eventually.
+U can refer this  Question
+https://www.geeksforgeeks.org/a-data-structure-question/
+Asked me great deal about Hashmap and its internal working and Hashing when I talked about Hashmap.
+Implementation of Heap and its complexity (just the explanation not full code)
+Asked about my preferred language . I said Java , so lot of basic Java questions followed  along with classes , interfaces design.
+Why do you want to join StartUp ?
+Round 4 (45 mins)
+Hiring manager
+Why do u want to leave current org. ?
+Why do you want to join StartUp ?
+Current project details .
+Should be thorough with the projects u have done.
+Module diagram with complete explanation for one of the project .
+

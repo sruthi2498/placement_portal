@@ -1,0 +1,19 @@
+
+Priority queues are a type of container adaptors, specifically designed such that the first element of the queue is the greatest of all elements in the queue.
+top() function is used to reference the top(or the largest) element of the priority queue.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the priority queue container is empty, it causes undefined behaviour
+2. It has a no exception throw guarantee if the priority queue is not empty
+Run on IDE
+Output:
+Application :
+Given a priority queue of integers, find the number of prime and non prime numbers.
+Algorithm
+1. Enter the size of the priority queue into a variable.
+2. Check if the priority queue is empty, check if the top element is prime, if prime increments the prime counter, and pop the top element.
+3. Repeat this step until the priority queue is empty.
+4. Print the final value of the variable prime and nonprime(size – prime).
+Run on IDE
+Output:

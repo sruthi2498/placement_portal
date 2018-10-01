@@ -1,0 +1,9 @@
+The strtoumax() function in C++ interprets the contents of a string as an integral number of the specified base and return its value as an uintmax_t(maximum width unsigned integer). This function also sets an end pointer that points to the first character after the last valid numeric character of the string, if there is no such character then the pointer is set to null. The return value is set to garbage value when a negative number is entered as a string. This function is defined in cinttypes header file.
+Syntax:
+Parameter: The function accepts three mandatory parameters which are described below: 
+Return Type : The strtoimax() function returns two values which are described below:
+Below programs illustrate the above function:
+Program 1 :
+Run on IDE
+Program 2 :
+Run on IDE

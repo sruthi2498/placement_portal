@@ -1,0 +1,37 @@
+Online Coding Test (2 hours):
+There were 15 MCQs based on Data Structures and Algorithms, JavaScript, c++, Java, Time Complexity Analysis. 3 coding questions were given.
+1) You are given a string consisting lowercase letters. You have to find number of substrings in which all characters are different.
+Constraint: 1 <= length of string N <= 100000
+Expected Complexity: O(N)
+2) You are given an array. You have to find a subset from this array such that average of elements of this subset is less than or equal to k.
+Constrains: 1 <= length of array N <= 100000, 1 <= k <= 10^9.
+Expected Complexity: O(N logN)
+3) You are given a graph of n nodes with m bidirectional edges. Each edge has some value associated with it. Vertex 1 is source vertex. You have K wildcards. In the path from vertex 1 to vertex i (2 <= i <= n), you can use atmost K wildcards while traversing. When you use a wildcard on an edge, you can pass that edge in summing the cost of path (i.e. value of that edge will be 0 if you use a wildcard on an edge). Note: You can use atmost K wildcard from vertex 1 to vertex 2. Now you can again use atmost K wildcards from vertex 1 to vertex 3 and so on to vertex n. i.e. You can use atmost K wildcards in each path from source to destination. You have to find minimum distances from node 1 to all other nodes in graph.
+Constraints: 1 <= n,m <= 500000, 1 <= K <= 15
+Expected Approach: DP with shortest path algorithms on graph.
+Round 1 (Technical):
+1) Draw relational schema of your DBMS course project.
+2) Write some queries related to your project.
+3) What is hashing? What are different schemes for hashing?
+4) What is load factor and rehashing?
+5) Pseudo code of quick sort.
+Round 2 (Technical):
+1) System Design – TinyURL system – Two functions – get() and set(). Get() method takes shorter URL and redirect to main longer url. Set() method takes longer url and gives shorter url. (All about how you will implemented in database – how will you store your data such that retrieval will be optimal.)
+2) How will you handle critical sections? What happens when your system crashes?
+3) System Design – Mall system (Define 4-5 functionalities. What tables you can make for database to satisfy all these functionalities? How will you store data on the disk efficiently – concept of AVL tree or B+-tree).
+4) Write a code about detect cycle in undirected graph.
+Round 3 (Extra Technical for some students):
+1) Puzzle: Two trains come to each other with 50 kmph and 70 kmph respectively. There is a bee on a train 1. It travels to train 2 with speed 80kmph. Immediately after reaching at train 2, it goes back again at train 1 with same speed. It does this until trains collide. You have to determine the distance bee covers until trains collide.
+2) Puzzle: There are 25 horses. You have to make minimum number of races to determine first 3 winner horses.
+3) System Design – Parking lot system. There are many floors. On each floors, there are many rows of parking slots. There are 3 types of parking slots – Tiny, Medium, Big. You can park bike, car or bus. Bike can be parked at any type of slot. Car can be parked either at Medium slot or Big slot. Bus can be parked by taking 5 consecutive parking slots of big type. Design system in terms of OOP concepts – make classes, class diagram, methods, variables.
+4) You are given pipe of L length (Assume as X – axis and opening of pipe is at coordinate L). There are many droplets on various x coordinates in pipe. Each droplet has some velocity in right direction. When two droplets collide with each other, they merge and accepts the smaller velocity. At L, how many droplets will be out?
+5) You are given a linked list. You have to find length of loop.
+Round 4 (HR round):
+1) What are your hobbies?
+2) What one thing that you proud of yourself?
+3) How was your experience about earlier interview rounds?
+4) What was most challenging part of your earlier interview rounds?
+5) When in your life, you felt that you are a failure?
+6) What is your dream company other than sprinklr?
+7) What is your weakness?
+At the end, total 8 students were selected.

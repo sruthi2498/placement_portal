@@ -1,0 +1,17 @@
+The intersection of two sets is formed only by the elements that are present in both sets. The elements copied by the function come always from the first range, in the same order. The elements in the both the ranges shall already be ordered.
+Examples:
+
+1. Comparing elements using “<":
+Syntax :
+Run on IDE
+Output:
+2. By comparing using a pre-defined function:
+Synatax :
+Run on IDE
+Output:
+Possible Application : It is used to find the elements that are present only in both the sets.
+1. It can be used to find the list of students that are present in both the classes.
+Run on IDE
+OUTPUT :
+2. It can also be use to find the common elements in both the list.
+  Program is given above.

@@ -1,0 +1,18 @@
+Given a number n, the task is to find the nth hexadecagonal number.
+A Hexadecagonal number is class of figurate number and a perfect squares. It has sixteen sided polygon called hexadecagon or hexakaidecagon. The n-th hexadecagonal number count’s the sixteen number of dots and all others dots are surrounding to its successive layer.   
+Examples :
+
+Input : 2
+Output :16
+Input :7
+Output :301
+
+
+Formula to calculate hexadecagonal number:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference: https://en.wikipedia.org/wiki/Polygonal_number

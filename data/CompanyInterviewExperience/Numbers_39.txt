@@ -1,0 +1,22 @@
+Microsoft IDC came to our campus to recruit summer interns. The selection procedure involved a coding round, group fly followed by 3 interviews.
+Round 1
+This round had 3 questions and was hosted on cocubes.
+1) Given two numbers find the number of carries while adding them.
+2) Given an array of distinct integers and a number ‘m’, find the number of          triplets with product equal to ‘m’.
+3) Given 2 arrays, swap corresponding elements so as to sort both the arrays. Print minimum number of swaps and -1 if arrays can’t be sorted this way.
+Around 22 people were selected for the next round
+Round 2
+This had a single question and we were supposed to code it in 20 mins after discussing the approach with the mentor.
+Given an arbitrary order of alphabets and two strings, tell which one is greater, smaller or equal according to the given order.
+We had a campus pool, so each batch had 18 students and around 9-10 were selected from each.
+Round 3
+This was a technical interview which started with a small discussion on projects and a question on pointers which I could not answer exactly.
+Q1 – Implement the hint function in the Bubble Breaker game. I was asked to write the code which I did flawlessly.
+Q2 – Implement the code to solve sudoku( by trial and error). He only asked the approach.
+Round 4
+This was another technical interview and the interviewer was extremely cool unlike the last one. He started with a simple question – find the nth node from the end in a linked list and asked me to code it covering all corner cases. He also asked me to write test cases for the same. He was quite happy with my code and approach.
+Round 5
+This was the HR round and the interviewer was extremely calm and supportive. She started off with the introduction and introduced herself as well. Then she asked me to write the code for iterative level order traversal. After doing this quickly, she asked me to write another code for constructing a binary tree from its inorder and postorder traversals. I did this quite easily too.
+The results were announced after a couple of days and I was selected 🙂
+For questions like that in Round 5, GeeksforGeeks helps a lot, but other than that it is the regular practice and your interest in coding that helps you sail through. Thanks gfg 🙂
+

@@ -1,0 +1,16 @@
+D. E. Shaw recently carried out intern procedure in our college. The whole process had three rounds.
+Round 1:
+It was CV shortlisting. Out of total 41 candidates, 12 were selected.
+Round 2:
+It was a telephonic interview. The call lasted 40 minutes. The interviewer asked about my academic project first. Next he asked about my preference in programming language – C/C++/JAVA. My preference was C++. So he started with OOP concepts. After I have named few of the highlights of OOP, he asked about Data Encapsulation. He then demanded an example for the same. Few questions followed about the C++ implementation of the example that I had given. He then switched to virtual functions. Next came Inheritance, upcasting and downcasting, where should the virtual keyword be used.
+He asked me how do we call the constructor of base class using derived class. Next he asked DS questions. There were three questions in total.
+1. Given a string. How do we check if we can obtain a palindrome by rearranging the characters of the string.
+2. Given a singly linked list. How to we detect if a loop is present in the list. (Both Brute-Force as well as Floyd’s Cycle Algorithm had to be explained in details).
+3. Given a doubly linked list with a next pointer pointing to next node and other pointer pointing to any random node. How do we clone this list?
+Round 3:
+Last round was again a telephonic interview. This time too the call lasted 40 minutes. There were two interviewers this time. I was asked to explain one of my projects at the beginning. Then, I was asked to explain any of the projects.
+Next, they asked me about STL, Generic classes and templates in C++. He then asked me to give an example of a class implemented using templates.
+After this came the Data Structures part. This time, they asked me two questions. Both of them were related to real-life scenarios.
+1. Given details of a person – First name, last name and telephone number. Sort them according to the last name. I said we can use qsort() and explained the whole process and design of comparator function. But they demanded an answer without using any of the library functions.
+2. They next asked me given a number in the directory, how will you search for the person details from the directory. Your answer must be efficient enough so that it could be used on a map like Mumbai.
+3. The next question was to implement a spell-check that is used in Microsoft Office Word and which data structure could be used to implement it.

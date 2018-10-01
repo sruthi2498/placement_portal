@@ -1,0 +1,27 @@
+Here is the collection of TOP 25 frequently asked questions based on experience (mine and friends) of interviews in multiple companies.
+1) Lowest common Ancestor (https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
+2) A unsorted array of integers is given; you need to find the max product formed my multiplying three numbers. (You cannot sort the array, watch out when there are negative numbers)
+3) Left View of a tree (https://www.geeksforgeeks.org/print-left-view-binary-tree/)
+4) Reversing of Arrays (https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array/)
+5) Cache Line, Cache internal concept, RR scheduling
+6) Print the middle of a given linked list (https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)
+7) Pair wise swap of elements in linked list (https://www.geeksforgeeks.org/pairwise-swap-elements-of-a-given-linked-list/)
+8) HashMap internals (http://javarevisited.blogspot.in/2011/02/how-hashmap-works-in-java.html)
+9) Double checking Singleton (http://javarevisited.blogspot.in/2014/05/double-checked-locking-on-singleton-in-java.html)
+10) Factory Pattern (http://javarevisited.blogspot.in/2011/12/factory-design-pattern-java-example.html)
+11) Print a given matrix in spiral form (https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
+12) DFS on Graph and its representation (https://www.geeksforgeeks.org/graph-and-its-representations/, http://ideone.com/TA4ldc)
+13) Object Oriented concept, Polymorphism , Method overloading, method overriding, Difference between abstraction and encapsulation, Aggregation and Composition
+14) Print nth last node in linked list
+15) Delete a given node in Linked List under given constraints (https://www.geeksforgeeks.org/delete-a-given-node-in-linked-list-under-given-constraints/)
+16) Implement Stack using Queues(https://www.geeksforgeeks.org/implement-stack-using-queue/)
+17) Find if two rectangles overlap (https://www.geeksforgeeks.org/find-two-rectangles-overlap/)
+18) Multithreading concepts
+19) Given an array of integers, update the index with multiplication of previous and next integers,
+20) Difference of creating threads in Java using Thread and Runnable
+21) How hashset is implemented in Java internally.
+22) DeadLock example code (Producer & Consumer Code)
+23) Find the number which is not repeated in Array of integers, others are present for two times.
+24) Serialization and related concepts.
+25) Comparators in TreeSet
+Thanks to geeks4geeks team for providing a nice platform. You guys are the best.

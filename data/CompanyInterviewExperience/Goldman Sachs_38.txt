@@ -1,0 +1,22 @@
+Goldman Sachs conducted a Code Sprint where 6 challenges were given. I solved 4 of them and was ranked below 1600 out of 10120 candidates. After this I got a call from the HR to appear for the next rounds.
+ 
+1st Round: HackerRank Test (1 hr 30 min)
+1. Given n and an array of strings, print the string that contains the digits (1, 2, 3), if there are multiple strings that satisfies the conditions, print them in ascending order.
+2. Given a sequence of M and N with M representing increasing and N representing decreasing, output the smallest number that follows this pattern.
+You need to solve atleast one question in order to progress to further round.
+ 
+2nd Round: CoderPad Interview (1 hr)
+This is a screen sharing round where the interviewer will be on call with you.
+The interviewer asked about my experience, I answered 1 year. Probably the problem difficulty is based on the candidate’s experience.
+1. Given a string, the task is to find maximum consecutive repeating character in string
+https://www.geeksforgeeks.org/maximum-consecutive-repeating-character-string/
+2. Given a string, print the reverse order of the string.
+https://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/
+You need to solve atleast one question in order to progress to further round.
+ 
+3rd Round : Face to Face Technical Interview (45 min)
+This was a 2 on 1 face to face technical round in Goldman Sachs office campus.
+1. Write a query to get the below output.
+2. Given an array of numbers where each number is in continuous series and would not be repeated once the series is over, print the count of each number.
+3. Write a program to count frequency of each number in an array of elements without using a hash table.
+I gave O(n) complexity solution, but the interviewer was not satisfied with it and asked me to implement a balanced binary search tree which I couldn’t.

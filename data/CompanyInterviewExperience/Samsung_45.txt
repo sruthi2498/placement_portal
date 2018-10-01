@@ -1,0 +1,27 @@
+Recently, Samsung has visited our campus for hiring FTEs and they have put a CGPA cut off of 7.0/10.The number of rounds varied from 2-4 depending on the performance in each interview round. I had 2 rounds, one being technical which lasted for almost 2 hrs and the other HR which lasted for around 45 min. A coding round was held initially which is then followed by on-campus interview rounds.
+Round 1 : Online coding round
+This round was held on Samsung’s platform for evaluating coding performance. We have been asked to install their special software. There was only one question in this round which has 10 test cases. The question has absolute marking. Only if all the test cases are passed, we will be eligible for the next round. Last test case was really difficult in achieving. Many of them got 9/10. Question was related to backtracking.
+All those who got 10/10 test cases passed are called for the first face to face technical round.
+Round 2 : Face to face Interview(Technical)
+This round lasted for a long time. As soon as I entered the room, the interviewer introduced himself and asked about me. He had a look at my resume and started asking questions about my projects. One of my projects was about Twitter Sentimental Analysis. He asked me to explain that project using only diagrams and no words and within 2 minutes. I drew some block diagrams and explained him. He felt satisfied. He then grilled more on that project. He has put forward various types of scenarios and asked me to solve them. Unless we have a sound understanding of what the project is about, it is difficult to answer his questions. He then asked me about other projects and had me do a deep down analysis on each and every project(especially Machine Learning). He then went for coding questions. He asked my preferred language initially. He had a stack of papers and he started pulling out a paper randomly. All those questions are from medium to high level difficulty. He is more interested in the approach rather than the complete solution.
+Some of the questions he asked are :
+1) Given random points in a 2-D plane, construct a convex polygon with minimum area of covering and which encompasses all the given points.
+Initially I gave him an approach for a square which holds all the points. He then kept asking me to improve my solution. I was asked to write a pseudocode also.
+2) Quicksort Algorithm : He asked me about the best case,worst case time complexity along with some examples where we see best case and worst case. He then asked me to code quicksort. He is very particular about indentation even though I am writing on a paper. He then asked me if I can say the time complexities of Heap sort and Merge sort. I answered all of them.
+3) Array searching : Given an array which is already sorted. Search an element in it (complete code required): search an element
+Find the minimum element in a sorted rotated array(complete code required) : Minimum element
+4)Duplicates and missing number. He asked me the following questions :
+Missing Number (complete code required)
+smallest positive number missing (pseudocode)
+Repeating and Missing Number (Full code)
+5)Time complexity questions :
+He gave me some code snippets and asked me to write their Time complexities. These were of easy to medium level of difficulty.
+He then asked me some questions about my Internship and How would I contribute for Samsung.
+Finally, he asked me if I have any questions. I did ask him some questions which he found very interesting. He explained them clearly.
+That’s all for the round. He offered me some snacks and asked me to wait outside 😛
+Round 3 :
+This was the HR round. HR asked me about my interests,family background, internships, some puzzles, detailed analysis about the current problems that we are facing in India and my solutions for them, inspirational personality, my position after 5 years.
+This round was very casual. It was more like a chat. It lasted for like 45min.
+I thought that there would be another round as almost everyone had at least 3 rounds.
+A big thank you to GeeksforGeeks for providing such invaluable material for preparation.
+

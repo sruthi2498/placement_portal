@@ -1,0 +1,14 @@
+The nth Taxicab number Taxicab(n), also called the n-th Hardy-Ramanujan number, is defined as the smallest number that can be expressed as a sum of two positive cube numbers in n distinct ways.
+The most famous taxicab number is 1729 = Taxicab(2) = (1 ^ 3) + (12 ^ 3) = (9 ^ 3) + (10 ^ 3).
+Given a number N, print first N Taxicab(2) numbers.
+Examples:
+We try all numbers one by one and check if it is a taxicab number. To check if a number is Taxucab, we use two nested loops :
+In outer loop, we calculate cube root of a number.
+In inner loop, we check if there is a cube-root which yield the result.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

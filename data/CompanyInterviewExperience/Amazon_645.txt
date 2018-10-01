@@ -1,0 +1,51 @@
+Recently, I have been through the interview experience of Amazon India and I would like to share my experience with everyone.
+Position: SDE- 1
+No. of Interviews: 1 Written + 4 PI
+Day 1:
+Round 1 : (Written)
+20 MCQ questions consisting of Data Structure, Algorithms, Operating Systems, Probability, Combinatorics and Quatitative Analysis.
+Coding Problems :
+1. A string consists of parentheses and letters. Write a program to validate all the parentheses. Ignore the letters.
+  eg. ((alf)ls) – valid
+      )(dkk)() – invalid
+2. You are involved in a betting game whose rules are as follows :
+   a) if you win a round, the bet amount will be added to your sum and next bet amount will be $1;
+   b) if you lose a round, the bet amount will be reduced from your total sum and next bet will be twice the previous.
+   c) game ends when all the rounds are complete or you dont have sufficient sum.
+   Initially, you are given with a string of the form “WLWWL” where W indicates a win and L indicates a loss and initial sum. Initial bet amount will be $1.
+Function prototypes and main was given for both questions.
+Round 2 : (Face to Face)
+Some discussion on my projects, and then a couple of questions.
+1. An array of integers is given, find all the ranges present in the array.
+   eg. 1 6 4 2 3 — ranges will be {1-4} and {6}.
+   I used sorting to solve this problem, so some follow up questions about which sorting technique i would prefer here.
+   What is the difference between merge sort and quick sort and when quick sort is preferred over merge sort, etc.
+2. Two strings are given. One of them is the initial string and other string contains characters as per their priority. Sort the initial string as per the given second string. characters in initial string may or may not be present in the second string. If not present, sort them in lexicographical order at the end of output.
+   eg. String1 – ddloyc, String2 – odl
+   Output – oddlcy
+   Again, some discussion over various approaches to solve this problem.
+Round 3 : (Face to Face)
+Discussions over my projects.
+1. (Reservoir sampling problem) https://www.geeksforgeeks.org/reservoir-sampling/
+2. Generate all valid permutations of n pair of parenthesis.   https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/
+3. Given a bst, update the value of every node with sum of value of all nodes greater than and equal to the value of current node.
+   Counter Question : I had used global variable for this purpose, so he asked me to solve it without any global or static     variable.
+4. Inorder Successor of a node in bst.
+5. Given a list and a number k, invert first k elements and leave next k elements. Repeat this throughout the list.
+Round 4 : (Face to Face)
+1. N number of jars are kept in a linear fashion. Each jar contains a color whose value ranges from 0-99. Now you can mix any two adjacent jars having colors ‘a’ and ‘b’ (both integers), and it will produce a new color of the value (a+b) mod 100 and will also produce smoke with value (a*b). Mix all the jars in a way such that in the end only one jar remains and total smoke produced is minimum.
+Day 2 :
+Round 4 : (Telephonic with someone very senior)
+He said that i must have been through many coding questions already, so he will start with the basics.
+1. What is the difference between C and C++ ?
+2. Which one will you prefer, when and why?
+3. What is the difference between C++ and JAVA.
+4. Which is better, C++ or JAVA. Support your answer.
+5. Give one use case where C/C++ can use pointers to solve it, but it can’t be done in Java.
+6. Again, some discussion over my projects. Which project i liked most and why? What problems did i face during that
+   project and how i handled them.
+7. Given a stream of 0’s and 1’s in which 0’s come first and then 1’s, find the first occurrence of 1.
+8. Design a data structure for phone-book of mobile phones. Implement it and discuss about its benefits and limitations.
+In the evening they announced the result and i was hired!!! 🙂 🙂
+Suggestions :- Write a neat code with indentations. It’s a good idea to mention all the test cases(in case of an algorithmic problem) and all the use cases(if needed to design a data structure) beforehand. And, don’t just respond to the questions of the interviewer, try to interact with them.
+

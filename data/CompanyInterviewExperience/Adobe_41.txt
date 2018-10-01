@@ -1,0 +1,18 @@
+Round 1st
+1. Questions about my projects, past experience
+2. Design an Elevator system
+Round 2nd
+1. Given two nodes and root of the binary search tree. Find the LCA of the two nodes.
+2. Extend the solution to binary tree.
+Discussion went for the following corner case.
+When one of the two nodes belong to the subtree of the other and LCA, in that case, is the parent of the node whose subtree the other node belongs to. How would you handle this case. 
+Round 3rd.
+1. Given a number in decimal. Print it’s binary representation.
+2. Given two huge files (can’t fit in memory) having strings, print the common strings in them.
+Round 4th
+1. Asked about the projects.
+2. Given a number N, print the triangle of asterisks. 
+3. Question on processes and threads.
+4. Given a binary tree. Print the level order traversal but from the lower side.
+
+

@@ -1,0 +1,28 @@
+Given an integer n and a prime number p, find the largest x such that px (p raised to power x) divides n! (factorial) 
+Examples:
+n! is multiplication of {1, 2, 3, 4, …n}.
+How many numbers in {1, 2, 3, 4, ….. n} are divisible by p?
+Every p’th number is divisible by p in {1, 2, 3, 4, ….. n}.  Therefore in n!, there are ?n/p? numbers divisible by p.    So we know that the value of x (largest power of p that divides n!) is at-least ?n/p?.  
+ 
+Can x be larger than ?n/p? ?
+Yes, there may be numbers which are divisible by p2, p3, … 
+ 
+How many numbers in {1, 2, 3, 4, ….. n} are divisible by p2, p3, …?
+There are ?n/(p2)? numbers divisible by p2 (Every p2‘th number would be divisible).  Similarly, there are ?n/(p3)? numbers divisible by p3 and so on.
+ 
+What is the largest possible value of x?
+So the largest possible power is ?n/p? + ?n/(p2)? +  ?n/(p3)? + ……
+Note that we add only  ?n/(p2)? only once (not twice) as one p is already considered by expression  ?n/p?.  Similarly, we consider ?n/(p3)? (not thrice).
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time complexity of the above solution is Logpn.
+What to do if p is not prime?
+We can find all prime factors of p and compute result for every prime factor. Refer Largest power of k in n! (factorial) where k may not be prime for details.
+Source:
+http://e-maxx.ru/algo/factorial_divisors

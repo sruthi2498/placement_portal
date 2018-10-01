@@ -1,0 +1,8 @@
+Given two arrays a[] and b[], we need to build an array c[] such that every element c[i] of c[] contains a value from a[] which is greater than b[i] and is closest to b[i].  If a[] has no greater element than b[i], then value of c[i] is -1.  All arrays are of same size.
+Examples:
+
+Naive Approach : For each element in b[], we traverse the whole of a[] and try to find the closest greater element, and save the result for each search. This will cost time complexity of O(n^2).
+Efficient Approach : Sort the array a[], and for each b[i], apply binary search in sorted array a[]. For this method our time complexity will be O(nlogn).
+Note: For closest greater element we can use upper_bound(). 
+Run on IDE
+Output:

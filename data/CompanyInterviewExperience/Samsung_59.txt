@@ -1,0 +1,23 @@
+First Round : Coding Round
+Second Round : Tech + HR interview
+First Round :
+it was quite simple, the question was similar to , given a level K , you have to find out the sum of data of all the nodes at level K in a binary tree.
+it was bit tricky the input  is in the form
+(P(C()())(C()()))
+P is for Parent, C is for child.
+if parent has one child : (P(C()())())
+if parent has no child  :  (P()())
+Second Round:
+Technical:
+1. write a program , given a matrix with 0’s and 1’s , you enter the matrix at (0,0) in left to right direction , whenever you encounter a 0 you retain in same direction , if you encounter a 1’s you have to change direction to right of current direction and change that 1 value to 0, you have to find out from which index you will leave the matrix at the end.
+2. given a coordinate (x,y) in a matrix of 0’s , make all the diagonals element through (x,y) as 1 in that matrix.
+3. Basics about run time and compile time polymorphism. (with examples)
+4. what is the need of run time polymorphism if we already have compile time polymorphism? (with example)
+5. write a program to allocate a 3D-array dynamically.
+HR:
+1. Introduction. 
+2. Project and my role.
+3. why do you want join samsung if you are already placed ?
+I Hope my experience will help you, and Best of Luck from my side. 🙂
+
+

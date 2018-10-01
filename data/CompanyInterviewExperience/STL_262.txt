@@ -1,0 +1,10 @@
+Associative arrays are also called map or dictionaries.  In C++. These are special kind of arrays, where indexing can be numeric or any other data type
+i.e can be numeric 0, 1, 2, 3..  OR character a, b, c, d… OR string  geek, computers…
+These indexes are referred as keys and data stored at that position is called
+value.
+So in associative array we have (key, value) pair.
+We use STL maps to implement the concept of associative arrays in C++.
+
+Example:
+Now we have to print the marks of computer geeks whose names and marks are as follows
+Run on IDE

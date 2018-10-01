@@ -1,0 +1,14 @@
+Given a string str, find count of all palindromic permutations of it.
+Examples :
+
+The idea is based on below facts :
+For example if input string is “aabbccd”, the count of palindromic permutations is 3! (We get three by taking floor of half of all counts)
+What if half itself has repeated characters?
+We apply simple combinatorial rule and divide by factorial of half.
+For example “aaaaaabbbb”, floor of half of string is 5. In half of a palindromic string, ‘a’ is repeated three times and ‘b’ is repeated two times, so our result is (5!) / (2!) * (3!).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+The above solution causes overflow very early.  We can avoid overflow by doing modular arithmetic. In the next article, we would be discussing modular arithmetic based approach.

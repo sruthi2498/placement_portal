@@ -1,0 +1,9 @@
+Round 1: The first round was the online round comprising of one coding question and 8 MCQs.
+The coding question was essentially binary search in a row wise and column wise sorted matrix – https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+The MCQs were related to MST and finding if the string matched the given CFG and a few other questions of comprehension type.
+Round 2: About 27 people were selected out of 200. This round was purely technical one on one interview. The first question was to delete the leaf nodes in a graph. The second question was to find the length of the longest uniform substring (for ex: aabbbccs here ‘bbb’ is the longest uniform substring. They were more focused if you could solve and code the optimised solution with the inputs they give. Torch and Bridge puzzle was also asked – https://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/
+Round 3: About 14 people were shortlisted for this round. This round was also technical+puzzle. 3 mislabeled jars https://practice.geeksforgeeks.org/problems/3-mislabeled-jars and the beaker puzzle. I was also asked to give the class diagram to design a search engine.
+Round 4: 7 people were selected for this round. This round was also a technical round. I was asked to code the implementation of atoi() function and the second question was a simple string manipulation question.
+Round 5: This round comprised of puzzles – 12 balls are given out of which one of them is either heavy or light. We need to find the minimum number of tries within which we can identify the odd ball.
+Many of the other candidates had further rounds as well.
+Finally one candidate was selected out of the seven.

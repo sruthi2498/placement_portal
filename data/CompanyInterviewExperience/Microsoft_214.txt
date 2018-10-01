@@ -1,0 +1,13 @@
+Have been interviewed for Microsoft India, Hyderabad location for their IT team for Software Engineer role. 
+Following questions were asked in the first round telephonic interview
+1. How is C++ better than C?
+2. When do you use overloaded functions and when do you use overrided functions?
+3. I have a list of customer objects which in turn can contain a list of Order objects which in turn can contain a list of Item objects. Need a Reporting module that will be total amount of purchase done by each customer and total amount of purchase done by all the customers. What modifications has to be done in the classes?
+Ans: Gave few approaches but he was not satisfied.
+4. There are three different types of users – employee, admin and manager. Each user should have different permissions. How will you achieve this?
+Ans: Users will be the base class. Employee, admin and manager will be the derived classes. I was not sure of how to do this in the interview. But, thinking now. We can have overriden functions in each class of admin/employee/manager such that if the user does not have permission the function in that particular class can just return error without performing any action. If the user has permission, the actions can be defined in that function.
+5. Given a linked list, reverse the nodes from (n-x)th node. Given only x.
+Ans: Have two pointers. One pointer will be at the head node, increment the second pointer until it reaches xth node. Now increment both the pointers until the second pointer reaches end of the linked list. Now reverse the linked list from the first pointer location onwards
+6. In class car, accelerate() is a method that increases the velocity variable each time the method is called. The requirement is to alert the user when the velocity reaches it’s maximum limit.
+Ans: I told that we can change the accelerate() method to return a bool var of True whenever the limit is reached. He asked for other ways. I told the user can keep polling every time if the maximum limit has reached or not. He is not satisfied.
+

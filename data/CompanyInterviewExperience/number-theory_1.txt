@@ -1,0 +1,11 @@
+Given a number N, the task is to print the maximum between the sum and multiplication of the digits of the given number until the number is reduced to a single digit. 
+Note: Sum and multiplication of digits to be done until the number is reduced to a single digit. 
+Let’s take an example where N = 19,
+
+ 19 breaks into 1+9=10 then 10 breaks into 1+0=1. 1 is a single digit sum.
+Also, 19 breaks into 1*9 = 9. 9 is a single digit multiplication.
+So, output is 9 i.e. maximum of 9 and 1.
+
+Approach: 
+Below is the implementation of above approach:
+Run on IDE

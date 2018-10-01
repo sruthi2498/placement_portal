@@ -1,0 +1,8 @@
+Given a directed graph, a source vertex ‘src’ and a destination vertex ‘dst’, print all paths from given ‘src’ to ‘dst’.
+Consider the following directed graph. Let the src be 2 and dst be 3. There are 3 different paths from 2 to 3.
+
+We have already discussed Print all paths from a given source to a destination using DFS.
+Below is BFS based solution.
+Algorithm :
+Run on IDE
+Output:

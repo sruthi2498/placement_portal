@@ -1,0 +1,10 @@
+When we pass an array to a function, a pointer is actually passed.
+When a vector is passed to a function, a copy of the vector is created. For example, we can see below program, changes made inside the function are not reflected outside because function has a copy.
+Run on IDE
+Output:
+The above style of passing might also take a lot of time in cases of large vectors.  So it is a good idea to pass by reference.
+Run on IDE
+Output:
+If we do not want a function to modify a vector, we can pass it as a const reference.
+Run on IDE
+Output:

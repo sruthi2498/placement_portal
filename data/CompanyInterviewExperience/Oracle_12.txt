@@ -1,0 +1,42 @@
+Round 1:
+First round was multiple choice question based on Core Java on inheritance, exception handling, type erasure, threading etc.
+Round 2:
+Second round was coding round and the questions asked to me to code was as follows –
+Priyanka works for an international toy company that ships by container. Her task is to the determine the lowest cost way to combine her orders for shipping.
+She has a list of item weights. The shipping company has a requirement that all items loaded in a container must weigh less than or equal to 4 units plus the weight of the minimum weight item. All items meeting that requirement will be shipped in one container.
+What is the smallest number of containers that can be contracted to ship the items based on the given list of weights?
+Input Format
+The first line contains an integer , the number of orders to ship.
+Next line will contain  integers,  , representing the orders in a weight array.
+Output Format
+Return the integer value of the number of containers Priyanka must contract ot ship all of the toys.
+Constraints
+
+
+Sample Input
+Sample Output
+Round 3:
+This round was face to face . He asked me questions on
+1.hibernate(versioning, many to one mapping etc..)
+2.code matrix problem . A 2n+1 (odd) size square matrix is given . We have to check if the centre element is equal to the individual sum of all the half diagonals in only ONE for loop . For example –
+5*5 matrix –
+M =   2   9   1   4   -2
+6   7   2   11   4
+4    2  9  2   4
+1   9   2    4   4
+0   2   4   2   5
+ 
+Sum of Half Diagonal 1 = 2+7=9
+Sum of Half Diagonal 2 = 9+0=9
+Sum of Half Diagonal 3 = 11 + -2 = 9
+Sum of Half Diagonal 4 = 5+4 = 9
+All the sums equal to the centre element that is M [2][2]=9, Hence return true or if any on of the sums of half diagonals doesnt match to the centre element, return false.
+ 
+3. a puzzle to find a defective ball amongst a collection of balls
+4. A way to synchronise booking of same seat on bookmyshow without using synchronisation like locks .
+Round 4:
+Design Round – Asked me to design a online retail System like Amazon taking into account the Customer, the Seller, the logistics and asked me to come up with database tables .
+Round 5 :
+Managerial Round –
+He asked me few questions on my previous projects, nature of work that i have done, few behavioural questions and one coding question.
+ 

@@ -1,0 +1,85 @@
+Round 1 (45 mins):
+Tell me about yourself.
+1. Given an array of strings with R, G & B as characters. Sort the array such that all R comes first, followed by Gs & followed by Bs. Do it in O(n) time complexity. (Paper Code)
+   For eg. array is:
+        I/P: G G R B R B B G R B R
+        O/P: R R R R G G G B B B B
+Hint: Same problem as sorting strings of 0s, 1s & 2s.
+Done using the same logic as that of sorting 0s, 1s & 2s in no time. Interviewer was happy. *:) happy
+2. Can you do the same above program using Singly Linked List (SLL) & Doubly Linked List (DLL) in O(n) time complexity.
+Done it using DLL comfortably.
+But using SLL I got stuck as we’ve to keep track of PREV pointer every time. He wanted it to be done in a SINGLE PASS if possible. Was not able to do this for SLL.
+
+Round 2 (1.30 hrs):
+Tell me about the projects you’ve worked on.
+1. Matrix Multiplication of 2 matrices. Both of the matrices are Distributed across a cluster of nodes. And matrices are of huge size (BigData). How can you multiply these matrices efficiently. He wanted to know the approach only but not the actual code.
+(He asked me this Distributed problem esp. as I’ve worked on Apache Spark & Hadoop Distributed architecture in my project. So he was very keen to check my knowledge in the Distributed & BigData domain.)
+Hint: Think in terms of MapReduce jobs.
+My approach: As we know that in matrix multiplication, ith row is multiplied with jth column, (i+1)th row is multiplied with (j+1)th column, & so on till (n-1)th row with (m-1)th column.
+Map each ith row to jth column, (i+1)th row to (j+1)th column & so on till (n-1)th row to (m-1)th column.
+The idea is to make Keys as ROW index & Values as Column index.
+While doing the Reduce operation, Multiply the respective Rows & Columns using above Mapped Rows & Columns. B’coz generally in the Reduce operation of MapReduce jobs, Spark/Hadoop brings all of the mapped data into one Server to do the computation & stores the result. So in the Reduce operation, Spark/Hadoop will bring only the mapped Row & Column while doing the actual multiplication. We need NOT to bring all Rows & Columns data at once.
+This was my approach. One can think of the other approach also & share their better approach too.
+Laterally he asked me about MapReduce jobs in further details & asked me about Hadoop & Distributed architecture (NameNode, DataNode, etc.). Some questions on Scalability.
+2. Given an N-ary tree with thousands of nodes in it. Pair (Join) the Leaf nodes which do NOT SHARE the common path. i.e. Two Leaves can be Paired only if they do NOT have Intersecting path.
+For example, 
+Leaf nodes: E, F, G, H & D
+Possible Pairs in O/Ps:
+                    a) (E-F), (G-H) or
+                    b) (E-G), (F-H) or
+                    c) (E-H), (F-G) or
+                    d) (E-D), (F-G) or
+                    e) (E-D), (G-H) or
+                    f) (E-D), (F-H) or
+                    g) (D-H), (F-G) or
+                    h) (D-G), (F-H) or
+                    i) (D-F), (G-H)
+Note: If we pair(join) say, (E-F) then we can NOT pair any of the (D-G) or (D-H) as they SHARE the COMMON path from A to C.
+i.e. E-B-A-C-F —> (E-F) pair
+       D-A-C-G —> (D-G) pair
+       D-A-C-H —> (D-H) pair
+So the above case is NOT possible.
+Also if there are EVEN number of Childs, then exactly n/2 pairs are possible. In case of ODD number of Childs, 1 of the Childs will be left Unpaired.
+I’ve told him using BFS as it traverses each Edge exactly ONCE. The idea was while doing BFS traversal, Pair Childs of a Visiting node if both of their Childs are Leaf nodes.
+If the Visiting node has only ONE Child (Left Child or Right Child only) then store this Child in the TEMPORARY array (Array of Pointers to the Childs).
+Once the BFS traversal ends, Pair the remaining Childs in the TEMPORARY array one by one.
+Again he was NOT satisfied as BFS works LEVEL-WISE. So he told me what if some of the nodes have SKEWED sub-tree with thousands of nodes.
+I got stuck. 🙁 
+He told me to apply Mathematical Induction.
+If we can prove for the Base Case that at least 2K Childs can be Paired. Then we pair & prove it for 2K+2, 2k+4, , , , , , ,2K+n Childs too.
+I was Blank in MI concepts.
+Was NOT able to solve this problem. 🙁
+He was so impressed *:) happy with my 1st problem’s approach using MapReduce. He was a little bit satisfied with the 2nd problem’s approach. So I’ve been forwarded to 3rd round.
+Lunch time. Soooooooo Good. Food was so good. Really liked it.
+
+Round 3 (50 mins):
+He had quickly looked at my CV. Then he asked me to tell something about the projects that I’ve worked on & working on. As I’ve worked mostly on Machine Learning & NLP domain, he asked me few questions about NLP. How will you Scale your current project.
+1. Given a sentence, Reverse it Word-by-Word.
+   For example,
+      I/P: “Microsoft Azure is one of the best Cloud solutions”
+       O/P: “solutions Cloud best the of one is Azure Microsoft”
+   So easy. Given on GFG. 🙂
+   Done it in no time.
+   He asked me do it in a SINGLE PASS. As the solution requires 2 PASSES of the sentence. (1st for reversing each individual word & 2nd for reversing WHOLE sentence).
+   Got stuck. 🙁 Taken a long time to think about this. Couldn’t able to do this. Finally he asked me another question.
+2. Detect a Loop in a Singly Linked List. *:) happy
+   Given the GFG approach. He was Happy.
+3. Remove the Loop in above SLL.
+Again given the same GFG solution. 🙂 
+I’ve been told to wait for the 4th & Final round.
+
+Round 4 (Design Round):
+What do you know about Cloud Computing.
+Do you know anything about Microsoft Azure.
+Design a WindowsBox just like DropBox Cloud storage.
+Provide all the services IaaS, PaaS & SaaS using Service-Oriented Architecture (SOA).
+Have given very Low-level design. NOT up to his expectations. As I’ve NOT worked on Cloud Technology earlier. 🙁
+NOT able to perform well in this round. 🙁 
+Advise:
+    Prepare for the Design questions & Scalability.
+    One can go through this link: https://www.quora.com/How-should-I-prepare-system-design-questions-for-Google-Facebook-Interview
+    Watch out this video. Its very good.
+    They look for the basics of Data Structures & Algorithms. (esp. Linked Lists & Tree)
+Lastly, GeeksForGeeks is the best source for all. GFG really helped me a lot in the preparation.
+Thanks 🙂
+

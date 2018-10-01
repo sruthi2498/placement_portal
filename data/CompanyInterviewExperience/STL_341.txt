@@ -1,0 +1,28 @@
+
+Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled automatically by the container.
+This function can be used to fetch the first element of a vector container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the vector container is empty, it causes undefined behaviour.
+2. It has a no exception throw guarantee if the vector is not empty.
+Run on IDE
+Output:
+This function can be used to fetch the last element of a vector container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the vector container is empty, it causes undefined behaviour.
+2. It has a no exception throw guarantee if the vector is not empty.
+Run on IDE
+Output:
+Difference between front(), back() and begin, end() function
+begin() and end() function return an iterator(like a pointer) initialized to the first or the last element of the container that can be used to iterate through the collection, while front() and back() function just return a reference to the first or the last element of the container.
+Application : Given an empty vector of integers, add numbers to the vector, then print the difference between the first and the last element.
+Algorithm
+1. Add numbers to the vector using push_back() function
+2. Compare the first and the last element.
+3. If first element is larger, subtract last element from it and print it.
+4. Else subtract first element from the last element and print it.
+Run on IDE
+Output:

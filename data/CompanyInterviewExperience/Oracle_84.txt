@@ -1,0 +1,22 @@
+Given a value V, if we want to make change for V cents, and we have infinite supply of each of C = { C1, C2, .. , Cm} valued coins, what is the minimum number of coins to make the change? 
+Examples:
+This problem is a variation of the problem discussed Coin Change Problem.  Here instead of finding total number of possible solutions, we need to find the solution with minimum number of coins.
+The minimum number of coins for a value V can be computed using below recursive formula.
+Below is recursive solution based on above recursive formula.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of above solution is exponential. If we draw the complete recursion tree, we can observer that many subproblems are solved again and again.  For example, when we start from V = 11, we can reach 6 by subtracting one 5 times and by subtracting 5 one times.  So the subproblem for 6 is called twice.
+Since same suproblems are called again, this problem has Overlapping Subprolems property. So the min coins problem has both properties (see this and this) of a dynamic programming problem. Like other typical Dynamic Programming(DP) problems, recomputations of same subproblems can be avoided by constructing a temporary array table[][] in bottom up manner. Below is Dynamic Programming based solution.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of the above solution is O(mV).
+Thanks to Goku for suggesting above solution in a comment here and thanks to Vignesh Mohan for suggesting this problem and initial solution.

@@ -1,0 +1,12 @@
+    A 2D vector is a vector of vector. Like 2D arrays, we can declare and assign values to 2D matrix
+Run on IDE
+Outout : 
+Like Java’s jagged arrays, each row of 2D vector can contain different number of columns.
+Run on IDE
+Output : 
+Exercise Problem : Define the 2D vector with  different sizes of column  input by user.
+Examples:
+First we  take the input of row and and take the input of column of every row.
+Now the initialize the memory of every row by the size of column.
+Run on IDE
+Output:

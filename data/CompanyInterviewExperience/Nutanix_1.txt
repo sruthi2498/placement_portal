@@ -1,0 +1,32 @@
+The entire process consisted of 5 rounds: 1 online coding, 1 debugging, 2 Technical and 1 HR/System Design Round.
+The minimum criteria for the online test was set for more than 8.5 CGPA so out of a batch of 450 students somewhere close to 80-90 students were qualified for the test.
+There were 2 questions in the Online Test:
+Q.1: Given an n-ary tree and some queries for the tree, in every query you’ll be given a node you are supposed to print preorder traversal of the subtree rooted at that node.
+Test cases were so good that you have to pre-store the traversal for every node before processing queries and this pre-storing should also be done in only 1 tree traversal.
+Q.2: A city is represented as graph with V junctions and E roads connecting them. There are two special junctions ; 1 is the office and 1 is the house. A lady starts from the office and wants to go to the home in following way:
+She will first rationally select a road which is going out from the current junction and walk on it. If she has arrived at the house then the task is finished otherwise she will randomly select another road (not the one from which she came to this junction) and walk on it.
+The above entire process consist one move. You are supposed to answer if the lady will be able to reach the house ever using some strategy for choosing the rational road in each step and if she can reach the house then what will be the minimum number of moves with the best strategy.
+I was able to do 1st question completely and 8 test cases for 2nd question.
+16 people were selected after this round.
+In debugging round, there were two questions written on the paper we were all supposed to find as many errors in the program as we can. 1 code was in C to implement a doubly circular linked list and dividing a list into two halves. 2nd code was in Java implementing synchronisation while reading from multiple files using multiple threads and writing into a single file.
+6 people were selected after this round.
+In both the technical round followed it was made clear that only one question will be given you have to solve it within 45 minutes. If you are able to solve the question correctly then there will be more questions in that particular round otherwise you are out of the process.
+1st Technical Round Question: From (1, 1) you are supposed to go to (n, m) (1 <= n, m <= 10^7) in a matrix. Print the minimum path if it exists. Allowed moves from a node (x, y) are (x, x+y) or (x+y, y).
+I first suggested DP and BFS approach but they were not good enough because of the constraint so I came up with the approach in which I would be going from target to (1, 1) if I’m currently at (x, y) so my previous node in the path would have been (x, x-y) if x is maximum else (y-x, y). In this way if ever encounter 1 either at x or at y then I will print rest of the path if not then there is no path. Time complexity for this algorithm will be O(max(n, m)).
+2nd Technical Round Question: Given an array, you are supposed to find the reign of every element. Reign of an element is the continuous range in the array containing the element in which it is maximum.
+For Example: 8 9 5 4 2 6 7 1 5
+Reign for:
+8: 1 1
+9: 1 9
+5: 3 5
+4: 4 5
+2: 5 5
+6: 3 6
+7: 3 9
+1: 8 8
+5: 8 9
+I was able to solve the question using stack approach within 20 minutes.
+As I mentioned earlier, both the technical rounds were of exactly 45 minutes so after solving the questions there was a bidirectional interview where me and the interviewer were talking about various topics such as my projects, about company and work, some technologies and algorithms etc. These sessions were great because they didn’t feel like interviews but it was more like talking to a friend on various things. I really enjoyed this process.
+After Technical rounds 5 people were selected for the last round. 2 were called for the system design round and 3 were called for HR round. In system design round, 1 person was asked to implement instagram type of platform and another one’s question was something related to databases I can’t recall exactly.
+In HR round to me, there was discussion on my projects. I was supposed to explain my project in a way that he could understand as he didn’t have a technical background. Again this was an interactive round with questions ranging from my interests to my location preference etc.
+After last round, people from HR round were selected for 6 month intern + Full time offer and 1 person from system design was offered 6 month intern.

@@ -1,0 +1,36 @@
+Goldman Sachs conducted on campus hiring for tech interns in our campus.
+CGPA cutoff: 7.0
+Branches Eligible: All circuital branches
+
+Online Round:
+An online round was conducted on hackerrank. The duration of the test was 90 minutes. There were 5 MCQs ( 10 marks each, -3 negative marking) and two coding questions( one 35 marks, and the other 15 marks)
+MCQs were based on the concepts of Data Structures and Algorithms. Proper in- depth knowledge was required to solve these MCQs.
+Coding questions: 1. Given a string, find the first non repeating character.
+                  2. Given an array, find the number of contiguous subarrays such that the product of the elements of the subarray is less than or equal to a given positive integer k. ( Brute force gave TLE in this question. So proper optimised O(n) complexity solution was required)
+After the online round, 6 students were shortlisted out of 170 for the personal interviews.
+
+Personal Interview Round 1:
+1.) Given a string, print all possible permutations of the characters of that strings. (Had to cover all the edge cases)
+2.) What is elastic search.
+3.) Modification of the first question, asked to give permuatations containing only 3 characters.
+Few more questions were asked on graphs.
+
+Personal Interview Round 2:
+1.) Find the median of the stream of integers
+2.) Talked about my resume and the projects I did
+3.) Given a binary tree, check if it is Binary Search Tree without using extra space
+Few more questions on heaps.
+This round mostly revolved around trees and heap.
+
+Personal Interview Round 3:
+1.) Talked about my Resume
+2.) What is JSON
+3.) What is REST api
+4.) Egg dropping puzzle
+One more puzzle was asked. I cant recall it now
+
+Personal Interview Round 4:
+1.) Discussed questions of the first online test( conducted on hacker rank)
+2.) Questions on probability and statistics
+Few more HR questions
+Finally , two students were selected for the internship.

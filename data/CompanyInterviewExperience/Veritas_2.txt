@@ -1,0 +1,53 @@
+Veritas visited our college for campus recruitment. They conducted total 4 rounds.
+Round 1:Aptitude test + Coding round(1hr 30min)
+There were total 20 mcq’s. out of which around 4-5 were quantitative while 15-16 were technical,two coding problems and one SQL query. Quantitative questions were so easy,while technical mcq’s were based on:
+a.C(pointers)
+b.C++(constructors,oops concepts)
+c. linux commands(basic)
+d.data structures(stacks,traversal techniques in trees)
+Out of two coding problems one was easy and other was medium,out of which solving any 1 coding problem was mandatory to avoid disqualification.
+1.Merge the given two strings with alternate characters of each others.
+e.g. if a = “hello” and b = “world” then expected output was “hweolrllod”
+2. Second problem was based on trees and its traversal.
+At the end there  was one SQL query based on SQL joins.
+Out of almost 160 students 39 students were shortlisted. Then they told us to give ratings on paper out of 10 for subjects like C,C++,Java,Database,OS,System programming and any other if we want.(I gave web design and android)
+Round 2:Technical interview-I(1hr 30mins)
+1.Question based on designing a system monitoring the misbehavior in college campus.Interviewer gave me system requirements and asked me in depth about implementation. Through that he was checking my approach towards solution , OS concepts like semaphores , scheduling algorithms , interrupt handling mechanism and how to embed these concepts in that system. He also asked how to store data related to system in database, how to store unstructured data like videos and images(I told them about firebase databases), how to speed up processing on data , how to maintain database consistency.He also asked me how to implement threads in that system.The discussion about this question took almost 20-25 mins.
+2. What are storage classes in C ? What is difference between extern and global?
+3. How to delete the node at given position in linked list?
+4. How to free memory in C and java?
+5. What is virtual function in C++? What is pure virtual function?
+6. What is deadly diamond of death?
+7. Implement circular queue using array.
+8. OOPS concepts(data hiding, polymorphism, encapsulation, coupling , cohesion)
+9. What is exception handling in java?
+10. Can we have one try block and many catch blocks in java?
+11. How hashmap works internally?
+12. What is disadvantage of chaining in hashing?
+13. How can we assure about O(1) retrieval in Hashmap if it uses chaining for collision ?
+14. How will you build exception handling mechanism for your own designed language?
+This interview was little bit challenging. They were testing the basic concepts from root.
+Round 3:Technical interview – II (1hr – 1hr 15mins)
+1.  How to sort the objects?
+2. What is comparator and comparable in java? Difference between them.
+3.When to use comparator and when to use comparable?
+4. Write two codes illustrating the use of comparator and comparable. And told me to do some modifications.
+5.Write the program for Josephs problem in circular linked lists.
+6. Then he asked me in depth about OOPS concepts and tried to confuse me in OOPS.
+7. Disadvantages of OOPS.
+8. What are predefined objects in Javascript?
+9. How to perform debugging in Javascript?
+10. What is CSS?Types of including CSS in HTML(inline,internal,external)
+11. How to set image in background of html page?
+12. What is normalization and denormalization?When denormalization is preferred over normalization?
+Round 4:HR interview – (20-25 mins)
+1.  Tell me about yourself.
+2. Family background.
+3. Why veritas?
+4. Other simple HR questions and technical preferences.
+5. opinion about company politics.
+At the end, out of all students 6 students were selected and I was lucky enough to be one of them.
+This article is contributed by Hemant Gotkhindikar. 
+
+
+

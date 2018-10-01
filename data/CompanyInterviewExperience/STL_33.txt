@@ -1,0 +1,10 @@
+The match_results::operator= is used to replace all the matches in a smatch object with new matches from another smatch object.
+Syntax:
+Parameters: The smatch object on the right side gets copied to the one at the left side. 
+Return Value: It does not return anything. 
+Note: First element always contains the whole regex match while the others conatain the particular Capturing Group.
+Below programs illustrate the above function.
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

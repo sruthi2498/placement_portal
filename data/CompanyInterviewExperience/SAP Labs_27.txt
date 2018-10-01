@@ -1,0 +1,81 @@
+Round 1: Online Test
+The online test was comprised of 107 MCQ questions including 2 programming codes to be done in 90 minutes. Platform used was Mettle.
+There were 6 sections – 
+1. Psychometric test – 60 questions in 10 minutes 
+2. Logical reasoning 
+3. Data interpretation 
+4. Technical questions(C, C++, DBMS, OS, Computer Networks) – 15 questions 
+5. Analytical + quantitative 
+6. Verbal aptitude 
+and finally 2 coding questions. 
+Solving at least one of them is essential for getting shortlisted. It sounds like a lot but actually it’s not. Give stress on codes, they have more weightage. Do practice following coding questions which were asked last year like
+1. C Program to reverse each word of a sentence with starting letter to be in CAPS 
+Input: my nAMe is john. 
+Output: Ym Eman Si Nhoj. 
+2. http://www.careercup.com/page?pid=sap-labs-interview-questions 
+Given a number recognize if it is bleak or supported by some number. 
+You need to only make function in both coding questions and run it against test cases. 
+Format would be like this- 
+3. http://stackoverflow.com/questions/19343509/number-of-possible-ways-of-assigning-free-plots-to-buildings-with-the-restrictio 
+4. Find GCD of given 2 numbers 
+Additional Tips: Before appearing in actual SAP’s written test, explore Mettle and give sample test on it. While writing test, don’t think about googling because in case you try to go away from current tab, it will generate a red screen with a warning. So avoid clicking here and there. Give first priority to coding and give at least half an hour to programming. As soon as you see 1 hour remaining, attempt the MCQs. 
+# Around 850 students appeared in this round and 62 made it to the next one. (28 in R&D and 34 in consulting)
+Round 2: Group Discussion
+From here they divided students in 2 groups according to role. I was selected in R&D so here is my experience –
+We had design thinking round to check our innovative skills instead of usual GD.’Swachh Bharat Abhiyan’ was the topic in this round. We had to take interview of a customer (random guy), understand his needs and further design an application. After taking interview we were given 30 minutes to design 3 screens of our app on sheets. Then everyone was called for short PI in which we had to explain our design.
+Additional tips: Prepare questionnaire very well before taking interview. Don’t just ask interviewee but suggest your points too. Try to include as many as feature you can in your app. Presentation was the most important part so work on your presentation skills. Keep PI interactive and ask if they have any questions at the end. 
+#15 Out of 28 were selected for the next round in R&D.
+Round 3: Technical Interview
+PI – We had 2 Technical rounds. 
+Tech 1: 
+Interviewer started with common questions like: 
+1. Tell me something that is not on your resume 
+2. Projects- describe technical specifications. Then he jumped on some basic conceptual questions
+3. What is a class and object in C++.Explain by taking an example. 
+4. What is method overloading? Give example 
+5. How is Encapsulation implemented? Give example? Write code 
+6. DBMS – Queries, normalization, ACID properties, joins, some question on data redundancy and inconsistency 
+7 Data structure and why do we use them. Give real life example of stack and queue. 
+8. I have an array of numbers from 1 to 100 (both inclusive). The size of the array is 100. The numbers are randomly added to the array, but there is one random empty slot in the array. What is the quickest way to find that slot as well as the number that should be put in the slot? He asked to write code and further optimize it and give one line solution. 
+Try it, it’s easy!! 
+9. In the end he asked a simple puzzle to count number of squares of same size and derive a formula. 
+It went for 45 minutes and since we had a long talk on complexity so he asked me to give my time complexity I answered O(1) 😀 
+Tech-2: 
+In this round they were giving some scenario and we had to build and describe it. The interviewer gave me a scene similar to what we do on Flipkart. 
+Use Case 1: A user logs into Flipkart and selects products and adds it in his cart. Further add and delete items from cart and do payment. Now make class diagram, code with reference to user and administrator. I made class diagram and some code but I was not sure about it as I had never implemented such system so I asked him to change the scenario. Here he could have asked me to leave but he changed the scenario and gave me this one 
+Use Case 2: There is company named ABC and it is working on some old software. Sales guys of this company has to go and first sell things and then come back to update the changes done in the whole day now this company is thinking of including a mobile app through which sales person can update the data instantly being at customer location. Tell me how it can be done and what technology we can use. I had some idea about this and answered every question asked to me. 
+In the end he gave me a simple puzzle. 
+You have 3 baskets, one with apples, one with oranges and one with both apples and oranges mixed. Each basket is closed and is labeled with ‘Apples’, ‘Oranges’ and ‘Apples and Oranges’. However, each of these labels is always placed incorrectly. How would you pick only one fruit from a basket to place the labels correctly on all the baskets? 
+PS: I knew the answer but I took some time and then answered him.
+Tips: Be specific and say truth. 
+Don’t rush in giving answers, take your time think and then give your answer. 
+If u don’t know something just let him know clearly.
+Round 4: HR Interview
+PI – Managerial + HR 
+Basically they check your interpersonal and communication skills here. 
+My managerial round went for 1 hour and HR round for 1.5 hour. 
+Managerial Round: 
+1. Tell me about yourself, your family, schooling, role model 
+2. Why sap?
+3. What is cloud? Private, public, hybrid?
+4. Sap is focusing on becoming cloud player? What’s your take on that?
+5. Simple case study on cloud computing. 
+6. What innovations you have done so far. 
+7. I am giving you 5 minutes, present me an innovative solution and sell it to me 
+8. Latest gadgets, technology 
+9. Future plans 
+HR: 
+1. why SAP?
+2. Strengths and weaknesses. Have you ever tried to make your weakness as strength? If yes, how? 
+3. Are you a team player? Give instances. 
+4. If you are leading a team and there are multiple suggestion how will u finalize the solution to a certain problem? 
+5. General talks about family, environment, college life, projects, and friends.
+Tips: These were general questions so I would suggest to prepare them. Now sit in front of mirror and imagine yourself as interviewer and interviewee both at same time and let the both individuals talk to each other.
+General Tips and Advice
+Be calm and true.
+Prepare well for interview.
+Your ‘Why SAP’ should be very clear in mind.
+They don’t need hard core coders but ones having strong logical reasoning.
+Start preparing soon, stay cool and give your best shot.
+Last but not the least, google about SAP before appearing.
+

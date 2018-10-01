@@ -1,0 +1,35 @@
+Given the sequence of odd numbers
+1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, ….
+Find the sum of first n odd numbers
+Examples:
+
+A simple solution is to iterate through all odd numbers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Auxiliary Space : O(1)
+ 
+An efficient solution is to use direct formula. To find the sum of first n odd numbers we can apply odd number theorem, it states that the sum of first n odd numbers is equal to the square of n.
+
+&Sum;(2i – 1) = n2 where i varies from 1 to n
+let n = 10, therefore sum of first 10 odd numbers is
+1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 = 100
+if we apply odd number theorem:
+sum of first 10 odd numbers  = n * n = 10 * 10 = 100.
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(1)
+Auxiliary Space : O(1)
+How does it work?
+We can prove it using mathematical induction. We know it is true for n  = 1 and n = 2 as sums are 1 and 4 (1 + 3) respectively.

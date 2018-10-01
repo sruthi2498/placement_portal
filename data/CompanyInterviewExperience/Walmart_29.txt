@@ -1,0 +1,39 @@
+I was interviewed for Senior Software Engineer position in Walmart (6-8 years of experience,even people with 4yrs exp were also shortlisted)
+Written Test (Hacker Earth) [Time limit 90 min]
+
+1) Check for balanced parenthesis
+https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+2) Magnificent Fountains
+https://www.hackerearth.com/problem/algorithm/magnificent-fountains/
+3) Find the maximum digit occurred in a range of prime numbers
+Eg: Range  ( 21 -40)  –>Prime numbers are 23,29,31,37,39 ( 2 occurs 2 times, 3 occurs 4 times, 1 and 7 occur 1 time and 9 occurs 2 times ->Answer is 3)
+========================================================
+Face to Face discussion
+1st round:(Mostly JAVA)
+1) What is the major advantage of autoboxing?
+2) How to define custom annotation?
+3) Out of multiple threads if thread throws Runtime exception what happens to other threads?
+4)Implement LRU cache without LinkedHashhMap
+5) Explain garbage collection process in JAVA
+6)Explain JAVA memory model.
+7)Difference between IsInstance and Instanceof.
+8)Can you override methods of Arraylist?If so how?
+9)Difference between Hash Map and Tree Map
+10) Explain Concurrent hash map . (and few more which I am not able to recall)
+2nd round:(More of Data structures)
+1)Explain inner classes in JAVA.Where exactly inner classes were used while designing famous JAVA APIs.
+2) Reverse a linkedlist.
+3) Maximum height of a tree.
+4)Find the number of leaf nodes for a given node.
+5)How has Linkedin designed the number of hops to get connected to other people.
+3rd round:(Algorithms)
+1) Remove spaces in a string without using inbuilt function and taking constant space.
+2) Find the number of possibilities to move from one point to another point in a chess board kind of sqaure box.
+The interview process was quite long as the panel count was very less.( 9am to 7pm)
+Tips:
+1)Compared to Amazon,Flipkart and many hot startups Walmart is easy to crack
+2)Be prepared with basics of JAVA
+3)Be good at BackTracking,Greedy algorithms and Dynamic Programming.
+4)They stress more on solution than optimization.
+All the best for people who gonna attend the drive.
+

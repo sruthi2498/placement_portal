@@ -1,0 +1,11 @@
+Given a two dimensional grid, each cell of which contains integer cost which represents a cost to traverse through that cell, we need to find a path from top left cell to bottom right cell by which total cost incurred is minimum.
+Note : It is assumed that negative cost cycles do not exist in input matrix.
+This problem is extension of below problem.
+Min Cost Path with right and bottom moves allowed.
+In previous problem only going right and bottom was allowed but in this problem we are allowed to go bottom, up, right and left i.e. in all 4 direction.
+Examples:
+
+It is not possible to solve this problem using dynamic programming similar to previous problem because here current state depends not only on right and bottom cells but also on left and upper cells. We solve this problem using dijkstra’s algorithm. Each cell of grid represents a vertex and neighbor cells adjacent vertices. We do not make an explicit graph from these cells instead we will use matrix as it is in our dijkstra’s algorithm.
+	 In below code Dijkstra’ algorithm’s implementation using C++ STL is used. The code implemented below is changed to cope with matrix represented implicit graph. Please also see use of dx and dy arrays in below code, these arrays are taken for simplifying the process of visiting neighbor vertices of each cell.
+Run on IDE
+Output:

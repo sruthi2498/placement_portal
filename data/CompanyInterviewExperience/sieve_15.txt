@@ -1,0 +1,51 @@
+Given an array A containing numbers from 2 to N.. A special type of sieving is done on it .
+The procedure of sieving is as follows:
+Find the number of unmarked integers after sieving.
+Examples:
+Naive Approach:
+One basic approach is to run two loops. Outer loop to traverse the whole array and inner loop for traversing from 2 – Q to  unmark all the proper divisors of Q by checking a[i] % Q = 0.
+Time Complexity: O(N^2)
+Efficient Approach:
+A simple observation suggests that actually there is no need to do sieving here instead, the value of N will determine the answer.
+Case 1: If N is Odd then number of unmarked elements will be  (N/2) + 1.
+Case 2: If N is Even then number of unmarked elements will be  (N/2).
+Time Complexity: O(1)
+Examples:
+
+Input : N = 5
+Output : 3
+A[] = { 2, 3, 4, 5 }
+Steps:
+1.) Q = 5 : Mark All the proper divisors of Q, here no element is there so every element remains unmarked.
+3.) Q = 4 : Mark all the proper divisors of Q. Here 2 gets marked and unmarked elements are {3, 4, 5}.
+5.) Q = 3  :
+6.) Now no further marking can be done so stop here
+So number of unmarked elements are 3 i.e {3, 4, 5}
+In case of ODD value of N result should be (N/2)+1 = (3/2)+1 = (5/2)+1 = 2+1= 3.
+Input : N = 4
+Output : 2
+A[] = { 2, 3, 4 }
+Steps:
+1.) Q = 4 Mark all the proper divisors of Q. So here 2 gets marked and unmarked elements are {3, 4}
+3.) Q = 3
+4.) Now no further marking can be done so stop here
+So number of unmarked element after sieving are {3, 4} = 2
+In case of EVEN value of N result should be (N/2) = (4/2) = 2
+Run on IDE
+Run on IDE
+# Python3 Program to determine
+# the number of unmarked
+# integers in a special sieve
+def countUnmarked(N):
+	if (N % 2 == 0):
+		return N / 2;
+	else:
+		return N / 2 + 1;
+# Driver Code
+N = 4;
+print(“Number of unmarked elements:”,
+              int(countUnmarked(N)));
+# This code is contributed
+# by mits
+Run on IDE
+Run on IDE

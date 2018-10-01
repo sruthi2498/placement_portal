@@ -1,0 +1,30 @@
+I had my citrix interview on campus. I would like to share my experience. 
+Written Round:
+Section 1: 50 MCQs in 1 hour duration.
+There were very basic questions of C, C++, OS, Networking, and Aptitude all mixed.
+Section 2: 3 coding question on basic data structures and algorithms. Use of STL wasn’t allowed.
+1.	Print a ‘Y’ shaped pattern from asterisks in n number of lines.
+2.	Level-order traversal of k-ary tree.  Print all levels line by line.
+3.	Implement an LRU cache. (Prototypes were there to implement).
+Interview Rounds:
+First Round (Technical):
+1.	Questions on my project such as tables, UI, Platform used etc. Some questions on BigData.
+2.	How to implement Apache server? Write code for http server. What is difference between http and https? What is difference between GET and POST method?
+3.	How to implement STL map? I implemented with AVL tree (RB-Tree would be better). Then some questions on AVL tree and RB-Tree.
+4.	What is singleton design pattern? Its implementation. Race condition in this pattern and how to remove it.
+5.	What is multithreading? How is it implemented? User-level and Kernel-level threads. What their advantages and disadvantages?
+6.	What is race condition? Implement a C function with race condition.
+7.	Some questions on Inter Process communication.
+8.	Solution of Producer Consumer Problem.
+Second Round (Technical):
+1.	Starting and ending co-ordinates of one-dimensional line segments are given. Find the co-ordinates of longest line segment that can be formed from these segments. Write two functions addSegment() and findMaxSegment(). He asked me to write a perfect C code.
+2.	What is flow control in TCP?
+3.	What is virtual memory? What are the advantages of it? If we have infinite RAM then should we use virtual memory or not and why?
+Third Round (Managerial):
+It was taken by production manager.
+1.	Puzzle: 1 out of 12 identical balls is faulty. It may be heavier or lighter. Identify it with simple-balance in minimum no. of weightings.
+2.	Biggest technical problem solved. Area of Interest. Want to be a developer or tester.
+3.	Some regular HR questions like where do u see yourself after 10 years etc. .
+Fourth Round (HR Round):
+It was taken by Recruiting manager. Some regular HR questions were asked like strength, weaknesses, leadership skills etc.
+After few hours I got an offer 🙂 🙂 :). It was a great experience. Interviewers were very friendly and they just wanted the logics instead of actual syntax. To crack citrix interview conceptual knowledge of various computer science subjects like OS, Networking, Algorithms, OOPs is important. Thanks to geeksfogeeks for providing such a great platform to practice and learn various concepts.

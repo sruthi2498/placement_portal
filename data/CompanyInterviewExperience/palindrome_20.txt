@@ -1,0 +1,15 @@
+Given two positive integers N, M. The task is to find the number of strings of length N under the alphabet set of size M such that no substrings of size greater than 1 is palindromic.
+Examples:
+
+First, observe, a string does not contain any palindromic substring if the string doesn’t have any palindromic substring of the length 2 and 3, because all the palindromic string of the greater lengths contains at least one palindromic substring of the length of 2 or 3, basically in the center.
+So, the following is true:
+Knowing this, we can evaluate the answer in the following ways:
+
+Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

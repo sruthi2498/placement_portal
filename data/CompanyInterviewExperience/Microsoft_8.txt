@@ -1,0 +1,20 @@
+Round 1:online test
+There were 3 questions :OT
+Delete m nodes after n nodes in a linkedlist
+Find day of a date if 1 jan 1990 was monday
+Write a program in which if it is 75 make it 80 and if it is 74 make it 70.
+Round 2:Group fly
+there were 2  questions :
+Infix to postfix and connect nodes at same level in a binary tree
+Interview Rounds:
+Round 3:
+coin change, denomination  problem of dp  and reverse k nodes in a linkedlist suppose  1 2 3 4 5 6 7 8 is the linkedlist and   k is 3 then output should be 3 2 1 6 5 4 8 7.
+Round 4:
+You are given a sorted array in which all elements are occurring twice except one element find that element in logn complexity
+You are given a array suppose 1 2 4 6
+Now output should be 48 24 12 8
+This you have to do without using division operation
+Round 5:
+In this round  a simple problem was given suppose   you are given some files which may be dependent on each other so you have to tell all possible routes and also tell you which processes can run concurrently.He was asking me what you will do and how you will make its prgm.
+ 
+ 

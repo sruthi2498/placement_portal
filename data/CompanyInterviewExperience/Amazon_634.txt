@@ -1,0 +1,26 @@
+Hi All,  I got the following question for the On-Campus placement process. Hopefully it’ll help you too.
+Screening Test
+Q1. Left View of a tree
+Q2. Add three numbers represented as linked lists
+example
+n1: 1->2->3
+n2: 4->5
+n3: 6->7->8->9
+sum: 6->9->5->7
+Round 1 (F2F Interview)
+Connect same level nodes without level order traversal. (Code)
+Given an array where all numbers but one occurs in pairs, suggest all ways to find the unique number. What if the array was sorted? (Code)
+Round 2 (F2F Interview)
+Print cousins of a given node (Not sibling)
+Given a 20 GB file and  2GB RAM, how to parse it and detect where to break it, concepts of memory management
+Implement 3 stacks in array, all approaches and code
+Deepest left leaf of a binary tree
+Round 3 (F2F Interview)
+Longest path in a tree with just one bend. May or may not start with from the root. (Complete code)
+Code for deadlock and how to resolve.
+OOPS concepts, polymorphism
+Round 4 (Telephonic Interview)
+Check if a tree is a subtree of another. (Code)
+Convert a given number to Roman numbers.
+Thanks a lot to the GeeksforGeeks team again. Appreciate the hard work you guys have put. Also a big thanks to all the contributors.
+

@@ -1,0 +1,12 @@
+Two numbers are in the ratio of 5:7. If their LCM is 105, what is the difference between their squares ?
+(A) 216
+(B) 210
+(C) 72
+(D) 840
+ Answer: (A) Explanation: Let ‘h’ be the HCF of the two numbers.
+=> The numbers are 5h and 7h.
+We know that Product of Numbers = LCM x HCF
+=> 5h x 7h = 105 x h
+=> h = 3
+So, the numbers are 15 and 21.
+Therefore, difference of their squares = 212 – 152 = 441 – 225 = 216Quiz of this Question

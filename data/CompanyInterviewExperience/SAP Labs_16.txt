@@ -1,0 +1,12 @@
+Given a string str containing only lowercase characters. The problem is to print the characters along with their frequency in order of their occurrence and in the given format explained in the examples below.
+Examples:
+Source: SAP Interview Experience | Set 26
+
+Approach: Create a count array to store the frequency of each character in the given string str. Traverse the string str again and check whether the frequency of that character is 0 or not. If not 0, then print the character along with its frequency and update its frequency to 0 in the hash table. This is done so that the same character is not printed again.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n), where n is the number of characters in the string.
+Auxiliary Space: O(1), as there are only lowercase letters.

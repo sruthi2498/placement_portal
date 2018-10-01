@@ -1,0 +1,7 @@
+Given an array of limits. For every limit, find the prime number which can be written as the sum of the most consecutive primes smaller than or equal to limit.
+The maximum possible value of a limit is 10^4.
+Example:
+Below are steps.
+Below is implementation of above steps.
+Run on IDE
+Output:

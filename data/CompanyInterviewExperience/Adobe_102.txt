@@ -1,0 +1,27 @@
+Date Of Interview: 3rd December 2012
+No. of Rounds: 1 Written exam + 4 rounds of PI
+Type of Interview: Campus Interview for freshers
+ 
+Written Round
+The written round consisted of three sections 45 min each. The first was an objective type which consisted of 30 MCQs on basic Mathematical and Logical problems. Then there were 2 subjective papers each consisting of 10 questions. One was based on C programming and the other on basic engineering concepts.
+ 
+Interview Round 1
+Model a datastructure for a DFA that takes an event as parameter and performs a desired action.
+Write a code that efficiently counts the total Set Bits in a number.
+Write a code that efficiently calculates X power n where x and n are integers.
+Write a code that efficiently calculates the nth term of Fibonacci series (He wanted a logn solution).
+Interview Round 2
+What is Synchronization? What is Mutex? Reader Writer Problem
+There are 25 horses and a track which can race 5 horses at a time. Find the top 5 horses in minimum number of races. Assuming best horse always wins.
+Write a function to check if a singly linked list is a palindrome.
+Interview Round 3
+What do you know about Volatile keyword explain with an example code.
+Declare an array of function pointers that return a pointer to a func that in turn return a pointer to a char array.
+Given a Roman notation of a number convert it into its decimal number. Write a function to do this.
+Given a string, find the length of the longest substring with distinct characters.
+What is Paging and why is it used?
+Interview Round 4
+HR Round: Normal HR questions
+ 
+HIRED!! 😀
+

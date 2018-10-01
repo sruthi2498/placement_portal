@@ -1,0 +1,11 @@
+There is an array of ‘x’ and ‘o’. From each ‘x’ a signal originates which travels in both direction. It takes one unit of time for the signal to travel to next cell. If a cell contains ‘o’ , the signal changes it to ‘x’ . Time taken so that array contains ‘x’ only.
+Ex – Let array is a : {o, o, o, x, o, o, x}
+At time t = 0 signal originates from a[3] and a[6]
+At t = 1 state of array a:{o, o, x, x, x, x, x}
+At t = 2 array a:{0, x, x, x, x, x, x}
+At t = 3 a:{x, x, x, x, x, x, x} so ans is 3.
+F2F-1 :
+F2F-2 :
+F2F-3 :
+ 
+ 

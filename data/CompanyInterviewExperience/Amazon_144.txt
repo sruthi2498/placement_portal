@@ -1,0 +1,20 @@
+You are given N distinct numbers. You are tasked with finding the number of groups of 2 or 3 that can be formed whose sum is divisible by three.
+Examples :
+Naive Approach :  For each number, we can add it up with every other number and see if the sum is divisible by 3. We then store these sums, so that we can add each number again to check for groups of three.
+Time Complexity: O(N^2) for groups of 2, O(N^3) for groups of 3
+Auxiliary Space: O(N^2)
+Optimum Approach
+If we carefully look at every number, we realize that 3 options exist:
+Now, for groups of two being divisible by 3, either both number have to belong to category 1 (both are divisible by 3), or one number should leave a remainder 1, and the other a remainder 2. This way the remainders add up to 3, making the sum divisible by 3.
+To form a group of three, either all three numbers should give the same remainder, or one should give remainder 0, another should give 1, and the last should give 2.
+In this way, we do not care about the numbers themselves, but their respective remainders. Thus by grouping them into three categories, we can find the total possible groups using a simple formula.
+Let C1 be number of elements divisible by 3.
+Let C2 be number of elements leaving remainder 1.
+Let C3 be number of elements leaving remainder 2.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Asked in Amazon

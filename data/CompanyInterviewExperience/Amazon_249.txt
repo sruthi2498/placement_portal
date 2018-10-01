@@ -1,0 +1,27 @@
+Recently Amazon came to our college for both FTE and interns. Here I am sharing my interview experience. There was 1 online round and 4 F2F interviews. Online round had 2 coding questions and 20 MCQs (based on OS, sorting complexity, Recursion,  DBMS , geometry etc).
+F2F 1
+He introduced himself and asked me about my project which I had done in Samsung Research Institute this year.
+Then He asked me these questions
+1. Suppose there is only one platform and n number of trains. So at any point of time only 1 train will stay in platform. N time intervals are given which represent the timing duration of n trains.You have to find what is minimum number of trains that have to be postponed such that no collision take place.(full code was required covering all corner cases)
+2. Suppose a string “abca” is given. Print all of its permutation such that no 2 same combination will be printed twice. (Considering string can have duplicate characters).(full working code required)
+3.Asked me what DS I will use to evaluate a given expression? Then Asked to write the code of Infix to Postfix conversion.
+4.There is an array of N numbers ranging from 1 to N. Only 1 number is missing, return the index of that number.
+F2F 2
+Asked me many question regarding my project for first 10 minutes.Then asked the following questions
+1. A matrix is given containing only 1 and 0. So whenever you access a 0 make the entire row and column as 0.
+I was using o(n2) space first, he said to use o(n) space only.
+2. Given a binary tree find the minimum root to leaf height.
+I told him a level order solution where I was en queuing the level also with each node. He said not to push the levels with each node, so I kept on delimiter which I was pushing only after one entire level traversing was over and returned as soon as I got a leaf node.
+F2F 3
+This interview was taken by the senior most person among the interview panelists. I was nervous while entering the room and as a result I messed up the interview.
+He directly started asking question without any introduction which made me more nervous 😛
+1. He wrote one nested recursive program(around 12-15 lines) on a page and asked me to draw the recursion stack of that program and show him in what order one function is called and stored in the stack and in what order it is returned back to its callee function. And to prove what is the space complexity through that recursion stack.
+I was nervous and was loosing confidence so could not solve it properly.
+2. Find the second largest and second smallest in a given array in single traversal.
+3. Find power(x,y) without using pow function.(divide and conquer approach was required)
+After this round I did not get a call for the last round. Some of my friends were asked questions on basic BFS application, topological sorting , LRU cache implementation , Boxing stack problem in the last round.
+Tips
+1. Questions asked will be very easy at most of the times. Be confident. Whatever be the question you were asked try to solve it as long as you can, share your approaches with your interviewers.They will certainly help you out.
+2. Have a clear idea of your project, they will ask you several questions regarding that.
+3. Work very hard. 🙂
+All the best 🙂

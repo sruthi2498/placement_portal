@@ -1,0 +1,15 @@
+The sort_heap( ) is an STL algorithm which sorts a heap within the range specified by start and end. Sorts the elements in the heap range [start, end) into ascending order.
+The second form allows you to specify a comparison function that determines when one element is less than another.
+Defined in header 
+It has two versions, which are defined below:.
+1. Comparing elements using “<":
+Syntax:
+ Implementation
+2. By comparing using a pre-defined function:
+Syntax:
+Implementation
+Run on IDE
+Output:
+Another Example :
+Run on IDE
+Output:

@@ -1,0 +1,10 @@
+Given a binary matrix, find the maximum size rectangle binary-sub-matrix with all 1’s.
+We have discussed a dynamic programming based solution for finding largest square with 1s.  
+In this post an interesting method is discussed that uses largest rectangle under histogram as a subroutine. Below are steps.  The idea is to update each column of a given row with corresponding column of previous row and find largest histogram area for for that row.
+Illustration : 
+Below is the implementation.  It is strongly recommended to refer this post first as most of the code taken from there.
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(R x X)

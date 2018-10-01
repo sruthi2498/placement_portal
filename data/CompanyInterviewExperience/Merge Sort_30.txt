@@ -1,0 +1,10 @@
+Given two sorted singly linked lists having n and m elements each, merge them using constant space. First n smallest elements in both the lists should become part of first list and rest elements should be part of second list. Sorted order should be maintained. We are not allowed to change pointers of first linked list.
+For example, 
+We strongly recommend you to minimize your browser and try this yourself first.
+The problem becomes very simple if we’re allowed to change pointers of first linked list. If we are allowed to change links, we can simply do something like merge of merge-sort algorithm. We assign first n smallest elements to the first linked list where n is the number of elements in first linked list and the rest to second linked list. We can achieve this in O(m + n) time and O(1) space, but this solution violates the requirement that we can’t change links of first list.
+The problem becomes a little tricky as we’re not allowed to change pointers in first linked list. The idea is something similar to this post but as we are given singly linked list, we can’t proceed backwards with the last element of LL2. 
+The idea is for each element of LL1, we compare it with first element of LL2. If LL1 has a greater element than first element of LL2, then we swap the two elements involved. To keep LL2 sorted, we need to place first element of LL2 at its correct position. We can find mismatch by traversing LL2 once and correcting the pointers. 
+Below is C++ implementation of this idea.
+Run on IDE
+Output : 
+Time Complexity : O(mn)

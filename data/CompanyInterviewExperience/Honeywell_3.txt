@@ -1,0 +1,13 @@
+Given an array A of size N, containing integers. We have to answer Q queries where each query is of the form:
+For each query print two integers p and q which represent the probability p/q. Both p and q are reduced to the minimal form.
+If p is 0 print 0 or if p is equal to q print 1, otherwise print p and q alone.
+Examples:
+
+The idea is to maintain two arrays, say even[] and odd[], which maintain the number of even or odd element upto index i. Now, to answer each query, we can compute result denominator q by finding number of element in the given query range. To find result numerator, we remove number of elements upto l – 1 from elements upto r.
+To output the answer in minimal form, we find the GCD of p and q and output p/gcd and q/gcd. For answer 0 and 1, we will explicitly specify the conditions.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

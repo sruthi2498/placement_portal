@@ -1,0 +1,6 @@
+Given an integer n, find whether n is a Polydivisible or not. In mathematics, a number is called Polydivisible if it follows some unique properties. The number should not have any leading zeroes. The number formed by first i digits of the input number should be divisible by i, where . If any number follow these properties then it is called Polydivisible number.
+Examples:
+Approach: The idea is very simple. 
+Below is the implementation of the above approach.
+Run on IDE
+Run on IDE

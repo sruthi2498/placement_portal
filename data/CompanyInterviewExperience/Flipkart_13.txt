@@ -1,0 +1,16 @@
+It was 2 day process.
+First day:
+1> Hackerrank test (2 problems):
+Problem 1: Given an array find if array gets sorted by reversing any subarray of this array.      Ex: In {1, 2, 3, 4, 8, 7, 6, 9} we can reverse subarray from index 4 to 6. 
+Problem 2: Parking lot problem: Given 3-dimensional parking lot, lets say, length width and floor. mplement following two methods:
+             void unpark(int i, int j, int k); where i, j, k are the parking coordinates.
+             void park(); The car should be parked in empty cell with lowest floor and between length              and breadth prefer minimum length.Example, (3, 4, 2) is preferred over (1, 1, 3) as floor                 is 2 in first case. (1, 2, 3) is preffered over (2, 1, 3). (2, 3, 3) is preffered over                 (2, 4, 3).
+Design a chess. Implement all the moves.
+2nd Day:
+1> DS and Algo (2 questions) whiteboard discussion:
+    a> How to implement siplify debts of splitswise.(Use graph)
+    b> Implement google auto suggest
+2> Design round:
+   Design BookMyShow
+I was disqualified in last round.
+

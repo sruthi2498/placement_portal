@@ -1,0 +1,40 @@
+Written Round:
+	This Round was pen and paper round consisted of 45 questions out of which only 2-3 are aptitude and rest are from DS, OS, C, C++, Networking, DBMS. Questions were standard so you should well aware of these concepts though most of the questions were from geeksforgeeks. You need to correct about 30 – 35 question to clear this round.
+Total 227 students appeared out of which 82 students are shortlisted
+Coding round(9 Were shortlisted):
+	This round consists of 4 questions that has to be solved in 2 hours.
+1.Given an array find whether it can be divided into two parts such that both parts sum is equal.
+2.  https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+3. Print the prime number between some given range
+4. Given a sorted array of numbers, find the total number of elements within a range(inclusive). Please do mention the time and space complexity in the comments otherwise your solution will not be accepted.
+Ex a = [1,2, 4,5, 8,10,12] range = [3,6]
+Output:- 4 5
+Restriction:- You can’t use STL
+Round 1( 6 were shotlisted :: Duration 2 hours)
+1. You are given an array of integers and four operators    + , * , ( , ) and using these four operator you have to find the maximum sum that you can make Example:  array elements are {1,2,3) Lets examine two scenario 1*2*3 and (1+2)*3 so second is giving 9 and first is giving 6 so answer should be 9.
+2.You are given a integer n find how many ways you can make palindrome number consisting of n digits and print it also you are not supposed to use any array or character array means you can only use recursion.
+Example : n = 2 then answer would be 11,22,33,……………………….
+3. https://www.geeksforgeeks.org/find-number-of-islands/
+4. Project discussion thoroughly.
+
+Round 2(Duration 1 hours approx.)
+1. Given a matrix with some empty cell and some cell having bomb and you are at (0,0) and you have to reach to a given location say (destx, desty) find whether there is a possible path of not if Yes print the minimum distance you can only go through empty cell.
+2. https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+3. Given an integer you have to find the minimum length of factor such that none of the factor is perfectly divisible by any perfect square.
+Input#1:  n = 180
+Output#1 : 6 * 30 having length 2
+Input#2:  n = 166320
+Output#2: 2x6x6x2310  having length 4
+Note : Firstly find prime factor and then think
+4. Topological sorting(Kahn’s algorithm discussion)
+5. Small discussion on project
+Round 3(Duration : 45 minutes)
+This was skype round and taken by founder and roughly about 5 minute project discussion and about 30 minute OS question
+In OS:
+How OS execute some program.
+Thrashing , reason of thrashing and how to resolve it.
+Deadlock and starvation thoroughly discussion how to eliminate.
+Demand paging
+Page replacement techniques
+Some basic HR questions
+

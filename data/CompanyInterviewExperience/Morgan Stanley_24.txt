@@ -1,0 +1,47 @@
+I had done an 8-week summer internship at Morgan Stanley, Bengaluru. Unlike other companies which give Pre-Placement Offers to the interns on the basis of the work done and manager’s feedback, Morgan Stanley conducts interviews for the same.
+There were 3 rounds of interviews for everyone. The interviews were held in the penultimate week of the internship. All the interviewers were Vice Presidents at Morgan Stanley.
+
+1. Technical Interview
+There were 2 interviewers. The questions asked were:
+*Explain in brief about your intern project.
+*Implement any SQL query in any suitable language(preferably C/C++/Java), using suitable data structures for implementation as well as storing the result. The SQL query may contain joins of various tables. (Written Code)
+*What is malloc?
+*Static and dynamic memory allocation in C.
+*Some questions based on pointers in C.
+*A code was given, based on pointers in C, tell whether the code will run perfectly or generate some compilation/runtime error.
+*Stack and heap memory in C.
+*Find factorial of a number, considering all the base cases as well as big input. (Written Code)
+*What is normalization in databases? Why is it helpful?
+*What are Collections in Java?
+*Which data structure in Java would be used, such that infinitely many elements could be added, depending on the choice of the user, and the elements should be accessed directly, in O(1) time(Indirectly, a hybrid of Array and LinkedList). Implement the same data structure in C.
+*You are given a 4 GB RAM. How would you run 20 GB processes using this 4 GB RAM? (OS – Virtual Memory concept)
+*What are threads and processses?
+*How different is C# from other languages?
+*How a program gets compiled and run?
+*Explain the various stages that happen during the compilation of a program.
+*How a program gets compiled and run in C?
+*How a program gets compiled and run in Java?
+*What is JVM? Explain in detail.
+*What is JRE and JDK?
+
+2. Technical + HR Interview
+There were 2 interviewers. The questions asked were:
+*Explain in detail about your intern project.
+*Using Object-Oriented concepts, design a college academic system, containing students, details of every student, departments, details of every departments, courses available, and much more. After creating the necessary classes, methods and variables for this system, create appropriate methods to find the topper of a particular department, rank of a particular student, topper of a subject etc. An ideal object-oriented code in Java was expected. (Written Code)
+*How was your experience at Morgan Stanley?
+*Your feedback of your team members?
+*Your favorite subject
+and many more.
+3. Pro-fit(Professional Fitness) / HR Interview
+*Tell me about yourself.
+*How was your experience at Morgan Stanley?
+*Explain in brief about your intern project.
+*Did your team members help you?
+*Any qualities that your team members need to improve upon.
+*What are your strengths and weaknesses?
+*Have you ever lead a team? Your leadership experience.
+*Have you ever had any conficts in opinions? With juniors? With seniors?
+*Why should we hire you?
+and many more typical HR questions.
+Finally, they gave Pre-Placement Offers to 10 out of 28 interns.
+

@@ -1,0 +1,11 @@
+Given a positive integer, find maximum integer possible by doing at-most K swap operations on its digits.
+Examples:
+
+Idea is to consider every digit and swap it with digits following it one at a time and see if it leads to the maximum number. We repeat the process K times. The code can be further optimized if we swap only if current digit is less than the following digit.
+Below is C++ implementation of above idea – 
+Run on IDE
+Output:
+The above code can further be optimized by stopping our search if all digits are already sorted in decreasing order. Please do share with us if you find more efficient ways to solve this problem.
+Exercise : 
+1. Find minimum integer possible by doing at-least K swap operations on its digits.
+2. Find maximum/minimum integer possible by doing exactly K swap operations on its digits.

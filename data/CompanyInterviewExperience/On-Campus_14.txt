@@ -1,0 +1,29 @@
+Microsoft IDC visited our campus for internships. They set CGPA cut off as 7 for applying.
+Round-1(Online test)
+The first online round was on Co-Cubes ( a very bad platform with no option of custom input as well.) which comprised of 3 coding questions (Test Duration: 75 mins). Not all the questions were same, Different students had different questions. We just had to complete the functions for all the problems. You can choose your language between C, C++, Java and C#, :-
+1) 2 marks – https://www.geeksforgeeks.org/round-the-given-number-to-nearest-multiple-of-10/ 
+2) 3 marks – Given a date in the format (DD/MM/YYYY), find the day of the week. Given – 01/01/1990 was Monday.
+3) 5 marks – https://geeksforgeeks.org/rearrange-a-given-linked-list-in-place/
+Some other questions got by others were –
+https://www.geeksforgeeks.org/average-of-ascii-values-of-characters-of-a-given-string/ (2 marks)
+https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/ (3 marks)
+https://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list (5 marks)
+After this round 37 students from 75 students were shortlisted. Though no official cutoff was released, unofficially boys getting at least 7 marks and girls getting at least 2 marks qualified.
+Round 2: Group Fly (Pen and Paper test)
+This round was pen and paper coding round. 2 questions were given and we had to write our own code in pen and paper without using any library. From the scratch you have to write everything. 6-7 students were assigned a single mentor discuss question and approach.
+Question 1: Alphabet is defined as A, B, K, C, D, E, F, G, H, L, N, NG, R, P, Q, T, S, W, U . Note – ‘NG’ is a single letter. You need to write a function that given two words as a parameter, compare the words and reuturn their lexicographical order as per alphabet system written above.
+Question 2: https://www.geeksforgeeks.org/diagonal-sum-binary-tree/
+In this round it was very important to communicate with the mentor assigned with regards to the solution approach as only he was responsible to selected you. You should also first understand the question carefully and clarify it with the mentor. Writing clearly and neatly is also important. After this round 14 students were selected for next rounds.
+<strong>Round 3: Technical Interview</strong>
+I was asked 3 questions in this round –
+1)https://www.geeksforgeeks.org/urlify-given-string-replace-spaces/
+2)https://www.careercup.com/question?id=5756760659853312
+3) Fastest way to loop through a 2d array – that is horizontally or vertically if the order doesn’t matter to user. https://stackoverflow.com/questions/997212/fastest-way-to-loop-through-a-2d-array
+I was able to solve all 3 questions with some guidance from the interviewer at times and fix my mistakes. Overall he seemed satisfied and asked if I have any questions for him.
+Round 4: Technical Interview
+The interviewer took my resume and asked me questions on the skillset I had mentioned like databases, javascript, tensorflow, difference between Machine Learning and Deep Learning, use of NLP etc. He then asked me difference between SQL and NoSQL (I had mentioned MongoDB in resume) and things related to them. Then he asked me to design the database of a Flipkart like website using SQL and NoSQL.
+Then he asked me this question – https://www.geeksforgeeks.org/print-reverse-of-a-linked-list-without-actually-reversing/ Since I wasn’t able to do this without extra variable he gave me hints to do that.
+Then he asked me about JOIN in database, DDL, DML and gave a question on MySQL Merge and Joins. Then he asked me about OOPS – things like Abstraction, Encapsulation, Protected, Static variable etc. He also gave me another question, I do not remember that one! Sorry.
+This was a long interview of more than an hour, as the interviewer was discussed a lot of things with me including Azure.
+Round 5: Non-Technical Interview
+This was like an HR round. The interview asked me my expectations of internship, my projects and interests in computer science. He asked me a lot of things about why computer science, on my favorite technology and other stuff. He didn’t give me any specific question to solve but kept on asking questions like this. It was about 30 minutes of interview.

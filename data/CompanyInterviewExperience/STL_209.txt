@@ -1,0 +1,10 @@
+The list::erase() is a built-in function in C++ STL which is used to delete elements from a list container. This function can be used to remove a single element or a range of elements from the specified list container.
+Syntax: 
+Parameters: This function can accepts different parameters based on whether it is used to erase a single element or a range of element from the list container.
+Return Value: This function returns an iterator pointing to the element in the list container which followed the last element erased from the list container.
+Below programs illustrates the list::erase() function. 
+Program 1: Erasing a single element.
+Run on IDE
+Program 2: Erasing a range of elements.
+Run on IDE
+Note: This function works in linear time complexity, that is the number of elements erased from the list container.

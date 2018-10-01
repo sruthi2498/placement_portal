@@ -1,0 +1,26 @@
+I recently went through the Amazon interview process for the post of SDE-1. It was an amazing experience for me.
+Online Round (2 hours):
+Q1- Program to rotate a matrix by 90 degree clockwise.
+Q2- Program to convert a binary search tree into doubly linked list.
+Q3- Program to find a node which is just greater than a given node in a tree.
+Q4 –Given a sentence. Find all the characters which are repeated more than 1 time and print them in lexicographical order.
+F2F interview 1(45 minutes):
+Q- Given a MXN matrix. To find the number of ways to reach the mth row and nth column cell from 0,0 cell. Find the same if some of the cells are marked as not reachable.
+First implemented using recursion then through dynamic programming.
+Q- Given a linked list like a1-a2-a3-a4-b1-b2-b3-b4. Convert it into a1-b1-a2-b2-a3-b3-a4-b4.
+F2F Interview 2(50 minutes):
+Q- Given a sorted array of 0 and 1. Find the first occurrence of 1. Production working code was required. I provided him O(logn) solution. He asked me how it is O(logn). Then I explained him and generated the formula for same. He was convinced finally.
+Q- Implement the cache using LRU technique.  Production working code was required.
+F2F Interview 3(1.5 hours):
+Discussion on my current project. He asked every minute details of my project and made me feel like he knows better than me about my project 😛
+Then he asked me to implement a data structure for showing the currently visited items by a customer on any website. You will find the same on Amazon website at bottom left side.
+Program to sort m sorted arrays. I told him that I knew this. So we moved ahead.
+Data structure to push, pop and find min element in O(1) time.
+F2F Interview 4(45 minutes):
+Q- To delete all the nodes from a binary tree that lie on a path whose sum from root to leaf is less than a given value K. Twist was that the node values can be any integer. It may be a negative number.
+He asked me to find the time complexity and space complexity.
+I did it using recursion with O(n) time complexity and O(1) space complexity. He said that there is some space being used by my program that I am not taking into consideration. I got his point. Since I was doing it using recursion, So some internal stack space was being used and that would be O(logn)i.e  height of tree. That was bit tricky.
+Q- Given two sorted arrays. Find the median of the combined array.
+One thing that you need to keep in mind is that you need to provide them the optimized solution with respect to time and space and don’t forget to consider the corner cases.
+After 4 days I got a confirmation call from Amazon 🙂
+

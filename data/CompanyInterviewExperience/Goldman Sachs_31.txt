@@ -1,0 +1,20 @@
+I got contacted by a recruiter agency.
+1st Round (HackerRank Test 1 Hour 30 Mins):
+1) https://www.geeksforgeeks.org/print-number-ascending-order-contains-1-2-3-digits/
+2) 2. Given a sequence of M and N with M representing increasing and N representing decreasing, output the smallest number that follows this pattern.
+Input    : MMMM
+Output   : 12345
+Input    : NNNN
+Output   : 54321
+Input    : MMNM
+Output   : 2314
+My hackerRank test was same as described here: https://www.geeksforgeeks.org/goldman-sachs-interview-experience-set-35-experienced/ 
+Solved both of them and got the call for next round. 
+2nd Round (Coderpad Test 1 Hour):
+1) There are two fractions example: F1 = 3/4 and F2 = 5/6. You need to compute their sum and return the result.
+2) One problem similar to described here: https://www.geeksforgeeks.org/solve-dynamic-programming-problem/
+The interviewer will be helping you in case you get stuck. But make sure you at least start approaching the problem. Even the brute force.
+Completed both of them in 1 hour and got the call for next round.
+3rd Round (F2F)
+Project-specific questions. Related to Java JDBC, Socket Programming and project at the current company.
+Got eliminated here.

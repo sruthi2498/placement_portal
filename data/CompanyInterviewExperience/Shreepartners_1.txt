@@ -1,0 +1,24 @@
+Written was mixture of technical and aptitude. Aptitude tests covers few questions on numbers, reasoning and probability.
+Technical part covers Operating System, Database and Data Structures
+Coding Questions
+1. Given a sorted array, print any two numbers equal to a given number.
+2. Write optimized code to find x to the power of y.
+3. Given an array of n numbers, divide the array in 3 Lots in such a way that the difference between the lots is minimum (I gave sort the array and then divide into lots by taking elements from each list for e.g. 1,2,3|4,5,6|7,8,9  take them like (1,6,7),(2,5,8),(3,6,9)).
+4. Write a program to print the matrix in alternating rectangle of 0’s and X’s.
+5. Write a program for searching for number of occurrences of a word in file.
+Technical :
+Solution written in the test for coding questions was asked to elaborate and asked to do the necessary optimizations if possible.
+Q1. Difference between abstract classes and Interfaces
+Q2. What are time sharing systems.
+Q3. Important Concepts of OOPS (Inheritance,Encapsulation)
+ advantage of OOPS over other Languages.
+Q4. CPU Scheduling Algorithms
+Q5. Write Recursive and Non-Recursive Factorial Program.
+HR:
+Simple Questions were asked:
+Q1 . Introduce Yourself
+Q2.  Your area of Interest ?
+Q3.  Why shreepartners ?
+Q4.  Travelling to gurgaon will be possible or not ?
+Q5.  Will be able to work late ..
+Please suggest most optimized solution to the coding question number 3.

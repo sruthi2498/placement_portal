@@ -1,0 +1,42 @@
+I got a referral from an employee for the QAE position at Chennai and after applying I got call from Amazon the very next day. They scheduled the phone call interview. The interviewer didn’t show up on the scheduled date.
+So we scheduled again to a new date.
+Phone Interview:
+1) Asked test cases for Amazon Shopping Cart.
+2) You are hosting a web app in your server which is accessible only to a particular set of people. But on an unusual day, all the people are able to access your web app. How would you troubleshoot this issue?
+3) Given an array, find the largest product of two consecutive elements. 
+Phone interview went well and I got a call from Amazon within a week for scheduling onsite rounds. 4 onsite face to face interviews were scheduled.
+Face to Face 1:
+1) Test cases for analog alarm clock.
+2) Test cases for lift.
+3) You are hosting a game in your server. All the users are connected to the game. When one user tries to connect to the multiplayer game he gets Error Occured message. How would you troubleshoot this scenario?
+Face to Face 2:
+1) Asked about my current project in depth.
+2) Given an integer, find the nearest palindrome to that number.
+Eg1. I/P : 115 O/P : 111
+Eg2. I/P : 117 O/P : 121
+https://leetcode.com/problems/find-the-closest-palindrome/solution/
+3) Given an array, find the first duplicate element.
+Eg. I/P : [1, 2, 4, 4, 1, 3, 7, 5, 5, 2]
+O/P : 4
+4) Given a sentence, reverse all the words in that sentence.
+Eg. I/P : This is sample text
+O/P : sihT si elpmas txet
+5) Asked all test data for the amazon login page.
+Bar Raiser Round:
+2) How would you test Whispersync feature in Kindle.
+3) Given two sorted linked lists, merge the lists in a sorted manner with constant extra space.
+Merge two sorted linked lists
+
+4) Asked all possible behavioral questions like
+a) What is the most challenging/complex job that you did?
+b) Any misunderstanding scenario with you manager and teammates?
+c) Why are you interested in QAE?
+d) How would you handle pressure?
+Managerial Round:
+1) Asked about my current project in depth.
+2) Again asked all possible behavioral questions to test whether I can handle pressure situations and How do I handle prioritization of jobs and about my testing strategy.
+3) Given an integer, find sum of digits of that number until sum becomes single digit
+https://www.geeksforgeeks.org/finding-sum-of-digits-of-a-number-until-sum-beco
+mes-single-digit/? and asked the test data for the same.
+Programming questions were easy. They do stress much on test cases and troubleshooting.
+All the Best!!!

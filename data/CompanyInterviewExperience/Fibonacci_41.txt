@@ -1,0 +1,26 @@
+We are given a variable n, we need to find whether Fibonacci number  will be multiple of 10 or not. 
+Examples:
+
+A Simple Method is to find nth Fibonacci number and check if it is  divisible by 10 or not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Efficient Method :
+The above solution may not work if n is very large, then it is not possible to find fibonacci number. Moreover, we can check without finding fibonacci number by looking on the pattern. Let’s see how !
+If number is divisible by 10, then it must have to be divisible by 5 and 2 both. 
+Multiples of 2 in Fibonacci Series : 
+0  1  1  2  3  5  8  13  21  34  55  89  144  233  377  610  987  1597  2584 ….
+The number shown in bold are divisible by 2. On careful observation, we finds that every 3rd number is divisible by 2.
+Multiples of 5 in Fibonacci Series : 
+0  1  1  2  3  5  8  13  21  34  55  89  144  233  377  610  987  1597  2584 ……
+The number shown in bold are divisible by 5. On careful observation, we find that every 5-th number is divisible by 5.
+Now LCM of 3 and 5 is 15. So, every 15-th Fibonacci number will be divisible by 10. So, we don’t need to find Fibonacci number, just we have to check if n is divisible by 15 or not. Below is the implementation.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+This code runs in O(1) time.
+

@@ -1,0 +1,18 @@
+Given a number n, the task is to find the even factor sum of a number.
+Examples:
+
+Prerequisite : Sum of factors
+As discussed in above mentioned previous post, sum of factors of a number is
+Let p1, p2, … pk be prime factors of n. Let a1, a2, .. ak be highest powers of p1, p2, .. pk respectively that divide n, i.e., we can write n as n = (p1a1)*(p2a2)* … (pkak).
+If number is odd, then there are no even factors, so we simply return 0.
+If number is even, we use above formula.  We only need to ignore 20.  All other terms multiply to produce even  factor sum.  For example, consider n = 18. It can be written as 2132 and sun of all factors is (20 + 21)*(30 + 31 + 32). if we remove 20 then we get the
+Sum of even factors (2)*(1+3+32) = 26.
+To remove odd number in even factor, we ignore then 20 whaich is 1. After this step, we only get even factors. Note that 2 is the only even prime.
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

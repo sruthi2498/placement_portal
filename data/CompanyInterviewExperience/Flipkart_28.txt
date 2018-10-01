@@ -1,0 +1,27 @@
+Round 1:
+Coding Round – 90 minutes – Hackerrank
+Problem 1 : Given an array of N integers. Find number of of sub-arrays with M number of odd integers.
+Problem 2 : N gears were given each with their own cost ci and radius ri. One extra gear was also given with radius r1. A distance d was given and we had to find the gear with minimum cost following the below conditions:-
+Problem 3 : Graph problem Based on Union find.
+Can be done without union find also.
+There is a city with n areas, and we need to build clinics in the city such that all the areas have access to the clinics.
+The road between the cities might be damaged or broken.
+The cost for repairing the road is R and the cost of building the clinic is C.
+Find the minimum cost such that all the areas have access to at least one clinic.
+For example( If the city is divided into three areas such that the roads between those areas are damaged that either we can build the clinics in all three areas or build the clinic in any one area and connect the other two areas with it by repairing the roads between them.)
+Round 2: This was a Face-to-Face interview round.
+Problem 1 : Base on bipartite matching.
+Given a certain no. of prisoners. Where prisoner ai is enemy of prisoner aj we need to find that whether it’s possible to divide the prisoners into two cells equally such that the constraints are also satisfied.
+Problem 2 : Given a path there are some nodes landing on which stops further movement. So if a monkey want to reach the end of the path find the total no. of ways he can do it.I said that an easy approach would be recursion which he agreed . Then immediately went onto explaining the dp approach.He seemed satisfied.
+Round 3: Face-to-face round
+Problem 1 : They repeated the problem 1 from round 2 with some modification. I said that i had already disscussed this in previous round (extra points for honesty i guess :p) .So the next problem was given an array of temples with certain heights , U need to find the total offering u need to do such that at each temple the offering is more than whatever is offered to any of the temple with lower height. I said simple sorting works in this case. So the question was modified now where the offering only depends on the adjacent temples.
+Problem 2 : Given a binary tree suppose i start fire at a leaf node , what is the total time for all the nodes to get burned.
+Round 4: This was HM + Technical Round
+Problem 1:
+Given a wall u have some portraits . u place portraits on the wall randomly . Overlap , leaving space everything possible. So now at the end of all assignment find the total no. of portraits visible.
+Had detailed discussion about my internship and other projects. Other than that hr questions where covered too.
+This round lasted upto an hour or so.
+Round 5 : Hr round.
+As soon as entered the room they shook my hand and said welcome to flipkart. Then explained about my role in the company
+Suggestions : We know it’s very obvious but we never follow it but still keep very calm,  remember where u are in a search of a job even the recruiter is in search of a good candidate. Also, after each round ask questions and use them to ur benefit in the next round.
+I would like to thank GeeksforGeeks + interviewbit for helping me in my preparation and would suggest u the same.

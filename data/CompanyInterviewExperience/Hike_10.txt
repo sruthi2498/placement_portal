@@ -1,0 +1,33 @@
+Profile: Automation Testing/Manual Testing
+Process: Written Test (90 Minutes) + 2 Technical Interviews.
+Round 1 (Written Test)
+It consists of 50 questions (including 2 programming questions, mandatory for Automation Testing). For Manual Testing, test case were to be written for an Instant Messaging app like hike/whatsapp.
+Section 1- General Aptitude/Logical
+Section 2- Software Knowledge (Questions like latest version of iOS, Windows, Android. Operating Systems etc)
+Section 3- Database and Linux
+Section 4- Computer Programming (Output questions of java/c/c++, generic questions related to programming)
+Coding Question 1: 
+Given a string of parentheses, write a program to find whether its valid or not.
+Examples-
+input: {{{}}}
+output: Valid
+input: }{}{}{}}
+output: Invalid
+Coding Question 2: 
+Given ‘m’ number of small bricks (each x inches long) and ‘n’ big bricks (each y inches long), we want to create row which is z inches long using combination of small and big bricks. Write a program to verify whether it is possible to create such row of bricks or not.
+Note: Solution Mx + Ny = z is not recommended.
+ Examples-
+input: We have 4(m) small bricks each 3 inches(x) long and 3(n) big bricks each 4 inches(y) long. We need to create row which is 14(z) inches long.
+output: Yes
+input: We have 2(m) small bricks each 2 inches(x) long and 2(n) big bricks each 5 inches(y) long. We need to create row which is 6(z) inches long.
+output: No (no combination of bricks will make wall which is 6 inches long).
+Interview:  
+For automation testing- Programming question like
+Convert a binary tree into its mirror.
+Reversing a linked list.
+Database Queries etc. were asked.
+Solution Q1:
+Run on IDE
+Solution Q2:
+Run on IDE
+

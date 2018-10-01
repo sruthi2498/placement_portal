@@ -1,0 +1,10 @@
+Given a Number n such that 1 <= N <= 10^6, the Task is to Find the LCM of First n Natural Numbers.
+Examples:
+
+We have discussed a simple solution in below article.
+Smallest number divisible by first n numbers
+The above solution works fine for single input.  But if we have multiple inputs, it is a good idea to use  Sieve of Eratosthenes to store all prime factors. As we know if LCM(a, b) = X so any prime factor of a or b will also be the prime factor of ‘X’.
+Illustration: 
+Below is C++ implementation of above idea.
+Run on IDE
+Output:

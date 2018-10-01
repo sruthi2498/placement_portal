@@ -1,0 +1,12 @@
+Given a doubly linked list, rotate the linked list counter-clockwise by N nodes. Here N is a given positive integer and is smaller than the count of nodes in linked list.
+
+N = 2
+Rotated List:
+
+Examples:
+ Asked in   Amazon 
+
+To rotate the Doubly linked list, we need to change next of Nth node to NULL, next of last node to previous head node, and prev of head node to last node and finally change head to (N+1)th node and prev of new head node to NULL (Prev of Head node in doubly linked list is NULL) 
+So we need to get hold of three nodes: Nth node, (N+1)th node and last node. Traverse the list from beginning and stop at Nth node. Store pointer to Nth node. We can get (N+1)th node using NthNode->next. Keep traversing till end and store pointer to last node also. Finally, change pointers as stated above and at Last Print Rotated List using
+PrintList Function.
+Run on IDE

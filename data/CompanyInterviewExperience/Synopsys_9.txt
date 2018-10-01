@@ -1,0 +1,79 @@
+Recently Synopsys ( Noida Center ) visited our campus for recruitment for Research and Development profile and a cg cut of 8.5 was enforced .  
+Round 1 (Written test)
+A written test was conducted which included 4 sections of 10 questions each followed by 1 subjective coding question.
+Section A : Had questions ranging from Quantitative,analytical and Logical Reasoning.
+Section B : Questions from Digital electronics(counters,flip flops etc) , Micro processors                          and Computer System Architecture .
+Section C : 10 questions from Operating System.
+Section D : C/C++ output based questions .
+1 Subjective coding question  :
+Write a method which accepts 2 Integer Arrays and their size N . Element B[j] for j=0..N should be equal to product of all the elements A[i] i=0..n such that i!=j .Eg : A : {2,5,4,10}   B should be {200,80,100,40 }.
+Time Complexity O(N)
+Though question was simple just make sure it was bug free and make sure to take care of special cases like division by zero etc . 
+9 students were shortlisted for interviews after this round 
+Round 2 (Technical Interview )
+The interviewer asked me to introduce myself followed by basic Object oriented Programming questions .
+1. Difference between procedural and Object Oriented programming .
+2. Advantages of OOP over structural programming.
+3. Derive an upper bound for height of a balanced binary tree with N Nodes.
+4. Why do we require Balanced BSTs ?
+5. Program to check whether a BST is balanced or not .
+6. State some Applications of Balanced BST .
+7.Explain Memory leakage and  Dangling Reference .How they differ from each other ?
+8.What is Singleton design pattern ?
+9.Implement a Singleton class and some application where it is implemented .
+10.Explain what is Object Slicing.
+11. Explain what is Virtual table.
+12. Is virtual function by default a method stub in c++ ?
+Thereafter the interviewer asked me if i was familiar with STL of C++ . I prefer to code in Java so i told him how Collection class in java suits this purpose .
+13.What is a HashMap and how does it works internally ?
+14.Difference between C++ and Java .
+15.How objects are allocated in java .
+16. Where are static variables stored in memory.
+17.What is Cache ?
+18.What is Cache Coherence ?
+19.What is Virtual Memory ?
+20. Explain Thrashing (In context to page faults) .
+After the very 1st interview round the interviewer was really impressed by me . However he said that you won’t fit in our company because you prefer to code in java . So somehow i was able to convince him that I would just fit in . (Syntax of Java is similar to C++ and the fact that I learned C and C++ prior to Java ).
+After the 1st Interview round 4 candidates were shortlisted .
+Round 3 (Technical Interview )
+This was the 2nd interview round . The guy straight away asked about my interests to which i replied Data structures and Analysis and Design of Algorithms. 
+1. What is Heapify operation ,Percolate Up and Percolate Down ?
+2. Implement Heapify operation .
+3. Implement Insert operation for Max-Heap .
+4. You are given n elements find the upper bound for inserting the n elements in the heap.
+5. Multiply a number by 7 without using *, / operator or loop .
+I wrote all the methods he asked and he was really impressed 🙂 . 
+Thereafter he asked some simple puzzles .
+6. What is the maximum score a Batsman can score in a cricket match.
+7. The famous prisoner Hat puzzle . (I told him that i had solved this earlier ) .
+In the end he asked some questions from Operating System and Compute System Architecture .
+8. Explain types of Interrupts .
+9.What is pooling ?
+10.If Cache is so fast why not eliminate Main memory and have a Cache memory by itself
+11. What is a micro controller ?
+Apart from the last question i was able to answer all the questions 🙂 
+Then he asked me about my AIEEE (JEE Mains Rank) , i told him how ours was the first batch where boards were also taken into consideration and how just because of boards my rank fell sharply .
+The Interviewer was alumni of the same college so he had a friendly chat there onwards He told me what all had changed in the campus along with his experiences in college .
+Again after this round 2 candidates were shortlisted for the final HR rounds .
+Round 4 ( HR Interview 1 )
+ The same guy who took Technical Interview 1 took HR .
+1. Asked about my family background .
+2. Tried to put pressure on me convincing that i wont be able to adapt in the company environment (Because of C++ Java issue , the company requires you to code in C++ there.)
+3.What are in hot topics in Technical World ?
+4. Any Future Plans to study ?
+5. Why settle for a job right now ?
+6. Any problem coming to Noida ? 
+Round 5 ( HR Interview 2 )
+As i entered the room the guy was standing , we shook hands and he started the interview .
+1. He asked me about how the technical interviews went  ?
+2. He asked me the explain the projects written in my CV .
+3. How have u applied engineering via these projects ?
+4. What new have you implemented at your end in these projects ?
+5. Where do you see yourself in 5 years ?
+6. Any future plans to study abroad ?
+7. He saw in my CV ,in the interests section : Weight Training (Bodybuilding) and had a discussion over this topic for next 10 minutes , What is my current program and diet and for how long i have been lifting , what is your body fat percentage etc..
+8.He asked if i already had any other offer .
+9.How long do you think you will stay in this organisation ?
+10. Why choose Synopsys over the other company(from which i already got an offer) ?
+I would like to convery a big thanks to Geeksforgeek team . This site and interviewbit are the sole reason for my success. Keep up the good work fellas . Thank u sooo much 🙂 
+

@@ -1,0 +1,40 @@
+We have a number n. We need to find whether number n can be represented by the sum of two squares.
+Examples :
+
+Brute-force approach – O(n)
+We use two for loop running till squareroot of n and each time we will check whether the sum of square of both numbers of loop is equal to N.If we found that combination then we will print Yes otherwise No.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+We can also this problem in O(sqrt(n))
+For solving this problem in sqrt(n) complexity we use a hashmap where we will store the squares of number till sqrt(n) and each time we will search for (n – sqrt(i)) in the hashmap if it exists then return Yes else return No.
+Run on IDE
+
+We can also this problem in O(sqrt(n)log n)
+This approach has been contributed by Sagar Shukla.
+ 
+ Binary Search Approach :
+Another method to check if   is a perfect square, is by making use of Binary Search. The method remains same as that of a typical Binary Search to find a number. The only difference lies in that we need to find an integer, mid in the range  such that this number is the square root of  Or in other words, we need to find an integer, mid, in the range , such that midxmid = 
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(sqrt(c)log(c))
+This approach has been contributed by Sagar Shukla.
+ 
+This approach is based on the following statement, which is based on Fermat’s Theorem:
+“Any positive number n is expressible as a sum of two squares if and only if the prime factorization of n, every prime of the form (4k + 3) occurs an even number of times.”
+By making use of the above theorem, we can directly find out if the given number n can be expressed as a sum of two squares.
+To do so we simply find all the prime factors of the given number n, which could range from  along with the count of those factors, by repeated division. If at any step, we find out that the number of occurrence of any prime factor of the form (4k + 3)occurs an odd number of times, we can return a False value.
+In case, n itself is a prime number, it won’t be divisible by any of the primes in the . Thus, we need to check if n can be expressed in the form of (4k + 3). If so, we need to return a False value, indicating that this prime occurs an odd number(1) of times.
+Otherwise, we can return a True value.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

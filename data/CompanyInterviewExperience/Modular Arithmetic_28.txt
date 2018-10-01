@@ -1,0 +1,15 @@
+Given A and B, the task is to find the number of possible values that X can take such that the given modular equation (A mod X) = B holds good. Here, X is also called a solution of the modular equation.
+Examples:
+If we carefully analyze the equation A mod X = B its easy to note that if (A = B) then there are infinitely many values greater than A that X can take. In the Case when (A < B), there cannot be any possible value of X for which the modular equation holds. So the only case we are left to investigate is when (A > B).So now we focus on this case in depth.
+Now, in this case we can use a well known relation i.e.
+We are looking for all possible X i.e. Divisors given A i.e Dividend and B i.e., remainder. So,
+So, the problem reduces to finding the divisors of (A – B) and the number of such divisors is the possible values X can take.
+But as we know A mod X would result in values from (0 to X – 1) we must take all such X such that X > B.
+Thus, we can conclude by saying that the number of divisors of (A – B) greater than B, are the all possible values X can take to satisfy A mod X = B
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of the above approach is nothing but the time complexity of finding the number of divisors of (A – B) ie O(√(A – B))

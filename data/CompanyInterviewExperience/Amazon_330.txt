@@ -1,0 +1,36 @@
+I was recently interviewed by Amazon, Bangalore for SDE position. It was an off campus drive in Delhi for TRMS team.
+Written Test :
+Q1) Find a peak element. https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
+Q2) Top View of binary tree. https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+Q3) Maximum difference between node and its ancestor in Binary Tree. https://www.geeksforgeeks.org/maximum-difference-between-node-and-its-ancestor-in-binary-tree/
+Round 1 (F2F):
+Q1) In a sorted array every number is present twice, only one number is present one time. You have to find the number occurring once. Expected complexity : O(log N)
+Ex : 101, 101, 200, 200, 301, 450, 450
+Output : 301
+Q2) Clone a binary tree with random pointers. https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
+In both the questions, they needed a proper working code covering every edge cases.
+Round 2 (F2F):
+Q1) Next greater element. https://www.geeksforgeeks.org/next-greater-element/
+Q2) You have been given a grid with some doors, walls and some empty spaces.
+1st part : You have to tell the least no of moves to go from random position in the grid to the nearest door. You can move in four directions only, i.e, left, right, above, below.
+
+2nd part : Least distance of every empty cell to the nearest door. Lots of discussion was done on both the parts of the problem.
+I spend some time and finally came up with the working solution using Breadth first traversal.
+Q3) Find Excel column name from a given column number. https://www.geeksforgeeks.org/find-excel-column-name-given-number/
+This was the toughest round.
+The interviewers had their flight to Bangalore and were getting late. So, next two rounds were telephonic.
+Round 3 (Telephonic) :
+This round was taken by hiring manager.
+Q1) Tell me about yourself. Your current company, your role and responsibilities. Reason for leaving current company.
+Q2) A 100 coin puzzle.
+Q3) What happens after you write “a.out” and press enter. He wanted to know the functionality performed by the OS after executable file is created of your code.
+Q4) What happens when your code encounters NULL?
+Q5) Garbage collector in Java. How is it different ?
+Round 4 (Telephonic) :
+Q1) Tell me about yourself. Your current company, your role and responsibilities.
+Q2) Asked about the challenges faced in your current company. Any situation where you were in disagreement with your manager. Any innovative or unique work performed in the current company.
+Q3) Connect nodes at the same level. https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+Proper working code was expected covering all edge cases. They shared the collabedit link.
+Q4) What is Lock? Asked about semaphores, virtual memory, process scheduling.
+
+

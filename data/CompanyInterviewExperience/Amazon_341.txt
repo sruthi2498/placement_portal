@@ -1,0 +1,41 @@
+ROUND 1(Technical):
+I initially had a telephonic interview where it started with my basic intro and some questions about my current work. He then asked a couple of binary tree related questions:
+1.1 Check if a given binary tree is BST or not.
+1.2 In a BST, each node has an additional attribute ‘score’ along with the value. You need to write two functions:
+a. Update(value, newScore) -> update the score of the node with value ‘value’ to the newScore
+b. SubTreeScore(value) -> get the sum of scores of all nodes in the subtree with node having the value ‘value’ as the root
+Interviewer wanted O(logn) solution for Update and O(1) for SubtreeScore function. We are allowed to change the structure of the node to add additional attributes
+c. Discussion on the above solution for the case where nodes are deleted from the tree(How to still have O(1) solution for SubTreeScore)
+After this round, I immediately got a call for next round, which was an on-site interview event
+ROUND 2(Technical):
+Around 30-40 candidates appeared for interviews on-site on that day and it all started with a written coding test having 3 questions:
+2.1 Level-order traversal for a binary tree
+2.2 Don’t remember it exactly, something to do with pair-wise XOR operation for an array. I could only give an O(n^2) solution for this.
+2.3 Given a matrix, with each node having a value. You start from 0,0 and have to reach n,m. From i,j you can either go to i+1,j or i,j+1. When you step on each block, the value on that block gets added to your current score. What’s the minimum initial score you must carry so that you can always reach n,m(through any possible path) having positive score at the end. 
+ Ans -> 6 – for path 2,-5,-6,3,1 we need initial score of 6 so that when we land on 1, we have a positive score of 1
+After this everyone had a max of 3 interviews the same day, subject to qualification of each round.
+ROUND 3(Managerial):
+Around 80% of the interview was about my current job and tiniest details about everything.
+Design an automobile system -> two/three/four wheeler, petrol/diesel/gas, gear/non-gear and classifications like this
+How will you detect when a keyboard/mouse is attached to the computer? I said we will have kind of listeners that listen to a port continuously and act accordingly. He insisted on a solution without listeners. Had a good 5 mins discussion on this.
+ROUND 4(Technical):
+4.1 Linked list containing characters as values. Find if a linked list is palindrome.
+4.2 Building Bridges Problem
+4.3 Bottom View of binary tree
+ROUND 5(Technical):
+5.1 pow(a,b) needed to cover each and every case possible
+5.2 LRU cache implementation
+5.3 Given an array of numbers, form the largest number possible by concatenating all of them. Needed to return a string.
+After this, I was told that I can leave for the day, but next week will be called again for an on-site-interview.
+ROUND 6(Hiring Manager):
+Again, 70-80 % of the time spent on my current work, minute details of each and everything along with typical behavioural questions like hurdles faced, disagreement with manager, conflicts and others..
+Reverse a linked list again covering all possible scenarios
+Some easy problem on binary tree (don’t remember exactly what)
+After this I had to wait for almost a week for their call, where I was asked to appear for another interview.
+ROUND 7(Bar-Raiser):
+Started with some behavioural questions like Why Amazon, why leave prev company along with current job role details.
+Longest Palindromic Substring in a string. The interviewer was satisfied with the first solution that I suggested, asked me to code the same, and was convinced with the code too, although I did make a small mistake which I realized later.
+Initial intent was to ask two such questions, but I guess time restriction forced it to just one.
+Thanks a lot geeksforgeeks. The Amazon sets here did help a lot in the preparation.
+
+

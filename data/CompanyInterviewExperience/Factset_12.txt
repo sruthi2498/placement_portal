@@ -1,0 +1,41 @@
+Selection Process had two phases.
+
+Pen Paper Coding round (phase 1):
+We were handed a booklet consisting of three coding questions, followed by blank space to write the solution for the same.
+Q-1: Given a matrix of size n*m, and a point P(c,r). Print the matrix in spiral form(clockwise) starting the point P.
+Ex.
+Input:
+3 3      // n, m
+1 2 3
+4 5 6
+7 8 9
+1 3     // point P
+Output:
+3 6 5 2 9 8 7 4 1
+Q-2: Given a string containing only numbers(0-9). What is the smallest number you can get by removing exactly k characters from the string. 
+Q-3: Given a matrix. Convert it into a linked list matrix such that each node is connected to its next right and down node. 
+–
+
+Face2Face (phase 2):
+There were two technical rounds followed by an HR round.
+
+Round 1:
+The interviewer asked four coding questions:
+Q – Given a string with repeated consecutive elements. Compress the string by replacing all the consecutive occurrences of the characters by the number of repetition.
+Ex:
+I/P:
+aabbbcddddee
+O/P:
+a2b3cd4e2
+Q – Given a Binary Tree. You need to check if its a Perfect Binary Tree or not without using any extra space, recursion or anything.
+Q – Given an array with every number twice, two numbers appear only once. Find these two numbers.
+Q – Which sorting technique would use to sort an almost sorted array and why? Explain with an example.
+
+Round 2:
+The interviewer told me take seat and wait for 2-5 mins. He then gave me the first question.
+Q – Given a matrix (NxN) which is row-wise and column-wise sorted. Now print the elements present in the matrix in sorted order. Constraints – Space complexity not greater than O(N). (N is the no. of rows, not the entire matrix size)
+As i explained the logic, he asked me to code it, and dry run some test cases.
+Q – Given an n-ary tree. Find the LCA of two given nodes.
+After this one more interviewer joined, and they both discussed about the first Pen-Paper round and asked about how i came up with the solution.
+Asked some questions on OOPs like Order of execution of constructors in inheritance. 
+They were pretty impressed. Try to be interactive during the interview. They help a lot.

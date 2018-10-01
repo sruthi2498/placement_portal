@@ -1,0 +1,21 @@
+Round 1(percentage based shortlisting)
+Expedia shortlisted around 90 students who had an aggregate percentage above 70%.
+Round 2 (20 MCQs & 2 Coding questions)
+Hosted on hackerrank. MCQ were on Data Structures, C, JAVA and aptitude. Coding questions were-
+21 students were shortlisted after this round
+Round 3 (Technical Interview F2F)
+• Questions regarding my project.
+• Questions on data structures, from linked lists to tries, their complexities etc.
+• Implementation details of HashMaps and collision handling.
+• One coding question: Given an array of n integers representing stock prices on nconsecutive days find a pair (buyDay, sellDay), with buyDay ? sellDay, such that if we bought the stock on buyDay and sold it on sellDay, we would maximize our profit.
+ Round 4 (Technical Interview-2 F2F)
+• Tell me about yourself.
+• Coding question: Write an optimal program that would determine the total number of stops an elevator would take to serve N number of people.
+There is an elevator in a building with M floors. This elevator can take a max of X people at a time or max of total weight Y. Input is in the form of twoarrays:1. weights of persons, 2. the floor they need to stop at.
+• Questions based on real world problems, how to handle them and one design based question. It was mostly focused on OOPS.
+Round 5 (HR Interview F2F)
+• He asked me to tell something about myself.
+• The difficulties I faced while working on my project and how did I overcome those.
+• One practical world based problem (on graphs) and a long discussion on it
+• Why do you want to join expedia? Why should we hire you and other related stuff.
+I was given an offer for internship for SDE profile.

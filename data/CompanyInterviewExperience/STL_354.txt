@@ -1,0 +1,22 @@
+Deque or Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+This function is used to reference the first element of the deque container. This function can be used to fetch the first element of a deque.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+This function is used to reference the last element of the deque container. This function can be used to fetch the first element from the back of a deque.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application :
+Given an empty deque of integers, add numbers to the deque, then print the difference between the first and the last element.
+Algorithm
+1. Add numbers to the deque using push_back() function
+2. Compare the first and the last element.
+3. If first element is larger, subtract last element from it and print it.
+4. Else subtract first element from the last element and print it.
+Run on IDE
+Output:

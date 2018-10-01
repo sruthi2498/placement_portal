@@ -1,0 +1,63 @@
+Total 3 rounds. 1st written followed by 2 face to face and every round was ELIMINATION one. 
+1st Round: Written (1hr)
+3 sections. 20 min each.
+1st section:  20 aptitude questions and was really hard. Avg no of questions solved is 4. 
+2nd section:  20 (C++ & Java) oops related questions and other output questions too. (level was good. G-Facts)
+	In C++: mainly Virtual functions, virtual destructor, copy constructor, initialiser list, virtual inheritance questions, inner classes etc.
+	In java: mainly inner classes, Base reference and Child object concept, overriding questions etc.
+3rd section: Write running code for following problem:
+	Find 2 nos in a sorted array whose DIFFERENCE is given no K.
+Out of 99, 22 students got selected. They were mainly from IITs, IIITs, NITs, Amazon, Microsoft, ADB etc.
+
+2nd Round:  Face to Face (1hr)
+Rapid fire questions 🙂 Mainly from OOPs concept of C++, Data Structures & Algorithms, O.S
+Started with simple question and moved in depth.
+(1)	What is dangling reference?
+(2)	Moved on to what happens when we access it.?
+(3)	How to handle it? I said we can use reference count or std::auto_ptr to avoid dangling reference. He was happy with auto_ptr smart pointer concept.
+(4)	Then what happens when another auto_ptr assigns previously assigned auto_ptr (i.e when we use assignment operator in auto_ptr)? I said only one auto_ptr can hold object, so old auto_ptr will point to NULL.
+(5)	Now, what happens when Old auto_ptr tries to access object (i.e NULL). I said runtime exception and program may crash.
+(6)	Name the type of exception. I said may be segmentation fault.
+More questions like:
+(7)	Simple question. In exception handling, there is “return 1” written in try block and “return 5” written in final block. Which value will be returned from function and why?
+(8)	Create your own Heap overflow, Stack overflow. How will you handle them?
+(9)	How virtual functions internally works. Explained in detail working of Virtual Table with multiple inheritance concepts too.
+(10)	What is pure virtual function and what is its use?
+(11)	 What is virtual destructor and why do we use it? Few discussions on it.
+(12)	What is Iterator? Write a code to implement an iterator for a given Stack Class.
+And many more OOPS questions which as I said was asked rapidly.
+Now D.S & Algorithms were simple like:
+(1)	Students are sitting in a class room in row wise order. They have been given their exam marks. Now a teacher comes and starts with 1st row 1st student and asks there marks till last row last students linearly. At any point of time highest mark upto now was to be told and after saying highest mark that student should leave class. Next time, higest marks was to be told in remaining ones. So basically insertion and deletion was there.
+I gave solution using MAX heap with insertion logn and deletion logn.
+Or self balancing BST with insertion logn and deletion logn.
+(2)	Largest BST in Binary Tree. Implemented this with O(n) time complexity.
+(3)	Implement phone dictionary. Gave solution using trie with hashing. Few discussions on it, but was happy at the end.
+This round went excellent according to me.
+Out of 22, 5 students were able to go to 3rd round.
+
+3rd Round: Face to Face. Mainly tried to confuse everyone 🙂 It was fun. (1:15 hr)
+Mainly related to my present work. As I was working in java field, using Spring & Hibernate, so they asked me few basic questions of Spring & Hibernate. Not in depth.
+They focused on Java, O.S & D.S & Algo.
+Java:
+(1)	Can static method be overridden? Why?
+I knew the answer so explained in detail.
+(2)	This is good one. 
+In another class a function was written like:
+Now if i call: 
+then this function should return name of Employee from object “obj” which was passed as parameter. So based on name of attribute value, it should return that object’s attribute value.
+D.S & Algo were simple:
+(3)	Given sorted array. All are repeated twice except one. Find that.
+Normally people will XOR and get result in O(n). Challenge comes in using sorting property to get in log(n).
+(4)	Sequentially Sorted Array. All present exactly once. One number was missing from sequence and was replaced with any random number. Find both missing & random numbers. This was just to confuse people who try to use sorting property without realising that searching in sorted array will not always result in log(n) solution.
+More twist on this question like, all repeated exactly twice except for one which is present once and its 2nd occurrence is replaced with any random numbers.
+And 2 more modifications. Overall, it was simple and required little thinking.
+(5)	Rotate a square matrix by 90 degree with O(1) extra space. This was interesting. Solution given in “Cracking The Code Interview” book.
+Operating System:
+(6) What is Zombie process? Write code to create Zombie process.
+(7) What is Orphan process? Write code in C to create Orphan process too.
+(8) One query. Given a table having attributes stud_name, English, phy, chem., maths. Write a query to display the name of student in descending order of their aggregate marks.
+(9) What is IPC? (Asked from my friend).
+(10) There are N points in space. Find whether two given points are connected or not. This is a graph question. Modified Floyed Warshall’s Algorithm will work. Other good algorithms are also available in GeeksForGeeks. (Asked from my friend)
+Results declared after 3-4 days. Out of 5 students, 2 of them got selected finally. I was one of the lucky guys. 🙂
+Special Thanks to you GeeksForGeeks team. I am following this site since 1 year. This is my favorite Geek Site. Now I got very good offer from D. E. SHAW. The way you have organized your site is awesome. The algorithms you provide are neat, efficient & easy to grasp. Though whole GeeksForGeeks content is very good, but I would recommend other Geeks to specially follow GeeksForGeeks algorithms & G-Facts.
+

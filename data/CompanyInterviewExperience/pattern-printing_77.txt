@@ -1,0 +1,12 @@
+Given a 2D array, print it in zigzag form.
+Examples : 
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: Time complexity of the above solution is O(row*column).
+Related Articles:

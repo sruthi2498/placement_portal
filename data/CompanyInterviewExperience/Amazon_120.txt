@@ -1,0 +1,20 @@
+1st ROUND(Online Round :90 min)
+     There were 20 aptitute questions based on C,DS,OS,OOPS and 2 coding questions.
+     Coding Questions:
+                     1. https://www.geeksforgeeks.org/find-nth-magic-number/
+                     2. https://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/
+                     Since coding questions were easy those who completed both coding questions and some aptitude questions were selected.
+                     Total 19 students were selected from this round.
+2nd ROUND (TECHNICAL INTERVIEW :Around 1 hour)
+     First he asked me a genuine question : “tell me about yourself”.
+     1.Find the intersection of two arrays .Initially i told him to use c++ map to hash, immediately he asked me to implement your own defined map,I was a little confused then he asked me to use hashmap and finally i solved this one.Interviewer was very co-operative.       
+    After this he asked me about various data structures then he asked:
+     2.Given a binary tree,print the nodes in spiral form.I solved this one immediately using two stacks, he was    much impressed and told me to wait for next round.
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+     Total 6 studens were selected for next round.
+3rd ROUND (TECHNICAL INTERVIEW : Around 30 min)
+    The interviewer was very cool.He immediately asked me questions:
+    1. Find the rotation point in a rotated sorted array.It was a stright forward question on binary search.
+https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/
+    2. Given a linked list separate even and odd numbered nodes such that even numbered nodes are at the front of   the list and in order followed by odd numbered nodes.Since it was also a straight forward question. I   explained two approaches and he was satisfied and asked me to code it.
+ https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/

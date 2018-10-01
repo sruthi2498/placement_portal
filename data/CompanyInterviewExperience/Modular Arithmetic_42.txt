@@ -1,0 +1,24 @@
+Given an array A[] (1<=A<=10) of size N (1<=N<=10), find number of subsequences of length 3 whose sum is divisible by M (1<=M<=10).
+Examples:
+
+Brute Force Approach:  We use 3 nested loops to traverse all the sub sequences of length 3 to count all such sub sequence which satisfy the given condition.
+Here the brute force solution will work in O(N)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Second Approach (Efficient for small M): The above implementation takes a lot of time. So we need a better approach to solve this. Here we will use index mapping (hashing technique) to solve the problem. As we need to check if the sum of the chosen three numbers are divisible by M, we store each value under modulo M. We use a frequency array to store the number of occurrence of each elements using index mapping techniques.
+Three case may occur:
+Firstly, if thrice of a number is divisible by M then we will add  to answer where N is frequency of that number.
+Secondly, if twice of some number A added with sum number B is divisible by M then we will add   * Freq[B] to the answer.
+Thirdly, if all the number A, B, C that sum up to S which is divisible by M then we will add Freq[A] * Freq[B] * Freq[C] to the answer.
+With this approach we can solve the problem in O(M) which is executable in the given time.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,14 @@
+We have discussed qsort() in C.  C++ STL provides a similar function sort that sorts a vector or array (items with random access).   Below is a simple program to show working of sort().
+Run on IDE
+Output :
+So by default, sort() sorts an array in ascending order.
+
+How to sort in descending order?
+sort() takes a third parameter that is used to specify the order in which elements are to be sorted. We can pass “greater()” function to sort in descending order. This function does comparison in a way that puts greater element before.
+Run on IDE
+Output:
+
+How to sort in particular order?
+We can also write our own comparator function and pass it as a third parameter.
+Run on IDE
+Output: 

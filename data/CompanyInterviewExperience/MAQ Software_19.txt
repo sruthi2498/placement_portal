@@ -1,0 +1,41 @@
+1. Written Round :
+1) 30 Aptitude questions(30 min).
+2) 2-Coding questions(30 min).
+2-a) Write an algorithm for dutch national flag problem
+2-b) Write an algorithm for n-queens problem
+Total 40 people were selected for second round.
+2.Technical Round 1 (around 1Hr 15min):-
+1) What is web technology.
+2) Write some Basic syntax of HTML.
+3) Given 2 tables of employee containing employee_id,employee_name and department containing employee_id(foriegn key),  dept_id  find the name of the employee who worked in maximum no. of deparments.
+4) Discussion about projects which I had written in resume.
+5) What is inheritence, overloading and over-riding.
+6) Difference between Encapsulation and abstraction.
+7) What is indexing in databases.
+8) What are clustered and non-clustered indexes.
+9) Real life application of Data Structures.
+10) Which Data structure used in printer.
+11) Which Data structure used for maintaining Dictionary.(Trie)
+12) What is the searching and space compexity of your Trie for maintaining Dictionary.
+13) 2 simpe puzzel.
+14) Add 2 numbers a and b without using ?+? operator.
+15) find nth Fibonacci number. (Gave O(logn) solution)
+3.Technical Round 2 (around 1 Hr):-
+1) How many square in (8*8) chess board.
+2) Give general formula for square in (n*n) board and proove it.
+3) Write code for Sudoku Game Problem and discuss time complexity of the code which was written by me. Discuss many  thing about that code he said to optimise the code then i optimise some portion of code then we move on to the next question.
+4) puzzel:- 2 jar one contain 4 red and other one 4 blue randomly select any jar maximize the probability of selecting  red ball by rearranging the balls.   Puzzel#6 http://www.crazyforcode.com/probability-puzzles-interview/
+5) Write code for calculating factorial of big number (Array).
+6) Puzzel:-Given a pastry. someone eat it from one side how you divide it into 2 equal parts.
+7) Egg droping Puzzel. I give solution of 2 egg 100 floor puzzle but then said to give the generalized formula for it then  i solve it using DP.
+4. HR+Technical Round(around 1 Hr) :-
+Q1-Tell me about yourself?
+Q2-Family background?
+Q3-Discussion about projects which I had written in resume.
+Q4-Write code for making Queue using 2 stack. Discuss about time complexity and space complexity and he said optimise the code.
+Q5-Write code for Water Jug problem (check condition are we able to make any given number in any of the jug or not).
+Q6-Puzzel:-Given a rectangle and a circle and a point lie on circle and center lie line y=x and 1 point of rectangle lie on origin.  circle put into rectangle find the radius of circle.
+A total of 3 students were offered the job(I was one of them). 2 students were offered the intern.
+Thank you so much geeksforgeeks team.
+
+

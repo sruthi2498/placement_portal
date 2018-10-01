@@ -1,0 +1,7 @@
+Vectors: Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled automatically by the container. C++ program to transform vector into string.
+String: C++ has in its definition a way to represent sequence of characters as an object of class. This class is called std:: string.
+std::ostringstream: It is an Output stream class to operate on strings. Objects of this class use a string buffer that contains a sequence of characters. This sequence of characters can be accessed directly as a string object, using member str.
+
+Run on IDE
+Output:
+

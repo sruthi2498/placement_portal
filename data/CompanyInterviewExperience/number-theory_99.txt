@@ -1,0 +1,21 @@
+Given a number and to find first and last digit of a number.
+Examples:
+
+To find last digit of a number, we use modulo operator %. When modulo divided by 10 returns its last digit.
+Suppose if n = 1234
+then last Digit = n % 10 => 4
+To finding first digit of a number is little expensive than last digit. To find first digit of a number we divide the given number by 10 until number is greater than 10. At the end we are left with the first digit.
+ Approach 1 (With loop):  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Approach 2 (Without loop)  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Important note:  log10() is a mathematical function present in math.h header file. It returns log base 10 value of the passed parameter to log10() function.

@@ -1,0 +1,11 @@
+Given a number k, find the required minimum number of Fibonacci terms whose sum equal to k.  We can choose a Fibonacci number multiple times.
+Examples:
+
+We can get any sum using Fibonacci numbers as 1 is a Fibonacci number. For example to get n, we can n times add 1. Here we need to to minimize the count of Fibonacci numbers that contribute to sum. So this problem is basically coin change problem with coins having fibonacci values.  By taking some examples, we can notice that With Fibonacci coin values Greedy approach works.
+Firstly we calculate Fibonacci terms till less than or equal to k. then start from the last term and keep subtracting that term from k until k >(nth term). Also along with this keep increasing the count of the number of terms.
+When k < (nth Fibonacci term) move to next Fibonacci term which is less than or Equal to k. at last, print the value of count.
+The stepwise algorithm is:
+Below is the C++/java implementation of the above approach.
+
+Run on IDE
+Run on IDE

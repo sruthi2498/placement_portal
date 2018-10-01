@@ -1,0 +1,16 @@
+Given a paper of size A x B. Task is to cut the paper into squares of any size. Find the minimum number of squares that can be cut from the paper. 
+Examples:
+Asked in : Google
+
+We have already discussed the Greedy approach to solve this problem in previous article. But the previous approach doesn’t always work. For example, it fails for the above first test case. So, in this article we solve this problem using Dynamic Programming.
+We know that if we want to cut minimum number of squares from the paper then we would have to cut largest square possible from the paper first and largest square will have same side as smaller side of the paper. For example if paper have the size 13 x 29, then maximum square will be of side 13. so we can cut 2 square of size 13 x 13 (29/13 = 2). Now remaining paper will have size 3 x 13. Similarly we can cut remaining paper by using 4 squares of size  3 x 3 and 3 squares of 1 x 1. So minimum 9 squares can be cut from the Paper of size 13 x 29.
+
+Explanation:
+minimumSquare is a function which tries to split the rectangle at some position. The function is called recursively for both parts. Try all possible splits and take the one with minimum result. The base case is when both sides are equal i.e the input is already a square, in which case the result is 1. We are trying to find the cut which is nearest to the center which will lead us to our minimum result. 
+Assuming we have a rectangle with width is N and height is M.
+Below is the implementation of above idea using Dynamic Programming.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,8 @@
+In C++, priority_queue implements heap.  Below are some examples of creating priority queue of pair type.
+Max Priority queue (Or Max heap) ordered by first element
+Run on IDE
+Output : 
+
+Min Priority queue (Or Min heap) ordered by first element
+Run on IDE
+Output : 

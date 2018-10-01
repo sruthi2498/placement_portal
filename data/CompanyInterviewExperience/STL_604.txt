@@ -1,0 +1,13 @@
+Given an undirected, connected and weighted graph, find Minimum Spanning Tree (MST) of the graph using Prim’s algorithm.
+We have discussed below Prim’s MST implementations.
+The second implementation is time complexity wise better, but is really complex as we have implemented our own priority queue. STL provides priority_queue, but the provided priority queue doesn’t support decrease key operation. And in Prim’s algorithm, we need a priority queue and below operations on priority queue :
+The algorithm discussed here can be modified so that decrease key is never required.  The idea is, not to insert all vertices in priority queue, but only those which are not MST and have been visited through a vertex that has included in MST.  We keep track of vertices included in MST in a separate boolean array inMST[].
+Below is C++ implementation of above idea.
+Run on IDE
+Time complexity : O(E Log V))
+A Quicker Implementation using array of vectors representation of a weighted graph : 
+Run on IDE
+Note : Like Dijkstra’s priority_queue implementation, we may have multiple entries for same vertex as we do not (and we can not) make isMST[v] = true in if condition. 
+Run on IDE
+But as explained in Dijkstra’s algorithm, time complexity remains O(E Log V) as there will be at most O(E) vertices in priority queue and O(Log E) is same as O(Log V).
+Unlike Dijkstra’s implementation, a boolean array inMST[] is mandatory here because the key values of newly inserted items can be less than the key values of extracted items. So we must not consider extracted items.

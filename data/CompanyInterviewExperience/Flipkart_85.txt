@@ -1,0 +1,10 @@
+A sender sends a binary string to a receiver meanwhile he encrypt the digits. You are given a encrypted form of string. Now, the receiver needs to decode the string, and while decoding there were 2 approaches.
+Let the encrypted binary string be P[] and actual string be S[].
+You need to print two string generated using two different after evaluation from both first and second technique. If any string contains other that binary numbers you need to print NONE.
+Source: Flipkart Interview | Set 9 (On-Campus)
+The idea to solve this problem is simple, we keep track of last two decoded bits. The current bit S[i] can always be calculated by subtracting last two decoded bits from P[i].
+Following is the implementation of above idea.  We store last two decoded bits in ‘first’ and ‘second’.
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)

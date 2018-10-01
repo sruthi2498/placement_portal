@@ -1,0 +1,117 @@
+Round 1: Online test on Codechef contains 3 Coding Questions
+1. Amanada, a school kid, is learning English alphabets. Her teacher devised a small game to make the task fun. A grid of ‘m’ rows and ‘n’ columns is filled with English alphabets.She needs to search English words in this grid by moving one step at a time in any of the adjacent grid cells.A grid of alphabets and a set of English words are given. Amanda can start from anywhere in the grid and can move in any of the 8 adjacent grid cells, one step at a time. Each grid cell can only be used once.
+Input
+You are given a template in which you need to implement a function whose signature is given below.
+C
+int findWordInAGrid(char grid[128][128], int m, int n, char word[32])
+/* return 0 for false, 1 for true. */
+C++
+bool findWordInAGrid(char grid[128][128], int m, int n, char word[32])
+Java
+static boolean findWordInAGridJava(char[][] grid, int m, int n, String word)
+grid[][] represents the characters that are in the given grid. Only the first m rows and the first n columns should be considered relevant. word is the word whose occurance has to be found in the grid. Remember, word may start from any location in the grid. word will never contain more than 30 characters. Return true if word is found in the grid, false otherwise.
+Output
+The function should return true, if you can find the word in the grid and false otherwise.
+Example
+Let’s consider the grid given below:
+a b c
+d e f
+g h i
+And set of words to be searched are:
+abc
+abedhi
+efgh
+Output:
+The output of the above example should be:
+abc: true
+abedhi: true
+efgh: false
+2. You are given a grid with 3 rows and N columns. Each cell in the grid contains the value 0 initially. You perform several operations of the following type on the grid Pick a row, say r. Pick a start column and end column, say s and e. Of course 1 ≤s ≤ e ≤ N. Now, set all values in the grid in row r, from column s to column e to 1. After you perform all the operations, you wish to find subgrids in this grid (or rectangles, if you please) which contain only 1s. Most importantly, you wish to find the rectangle that has the largest area. Print the area of this rectangle.
+Input
+The first line of input contains a number T, the number of test cases. The first line of each test case contains the number N and M respectively, separated by a single space. N is the number of columns in the grid. M is the number of operations you perform on the grid. Each of the next M lines contain three integers R, C1 and C2 respectively to describe the operation. R is the row in which the operation is performed. C1 and C2 are the start and end columns respectively. You may assume that 1 ≤ C1 ≤ C2 ≤ N.
+Output
+For each test case output a single number on a line by itself. This number should be the area of the largest rectangle that can be chosen on the grid – which contains only of 1s.
+Constraints
+1≤T ≤ 100
+1 ≤ N ≤ 1000000
+1 ≤ M ≤ 1000
+Attention: The test data is designed such that solutions that simulate each operation in O(N) will get TLE. You should be able to solve each test case in O(N). Hint: Convert each operation to a pair of “start” and “end” events. Observe that the order of operations doesn’t matter. Thus you can process the events in increasing order of columns. You can also simply store how many events start / end at each cell (since all events are alike and have idempotent effect). Now, you can walk through the grid column by column maintaining the longest streak of 1s towards the left in each row. This helps in considering the best possible rectangles with their right edge at current column.
+Sample Input
+3
+5 2
+1 1 4
+2 3 5
+10 3
+1 1 8
+2 2 10
+3 1 9
+5 2
+2 1 4
+3 3 5
+Sample Output
+4
+21
+4
+Explanation
+In the first test case the final grid looks like
+11110
+00111
+00000
+We can see that the largest rectangle with 1s has the area 4. There are two such rectangles. 1,1 –
+1,4. And 1,3 – 2,4.
+In the second test case the final grid looks like
+1111111100
+0111111111
+1111111110
+The largest rectangle is 1,2 – 3,8. The area of this rectangle is 3*7=21.
+3. You are given N stones, labeled from 1 to N. The i-th stone has the weight W[i]. There are M colors, labeled by integers from 1 to M. The i-th stone has the color C[i] (of course, an integer between 1 to M, inclusive). You want to fill a Knapsack with these stones. The Knapsack can hold a total weight of X. You want to select exactly M stones; one of each color. The sum of the weights of the stones must not exceed X. Since you paid a premium for a Knapsack with capacity X (as opposed to a Knapsack with a lower capacity), you want to fill the Knapsack as much as possible.
+Write a program that takes all the above values as input and calculates the best way to fill the Knapsack – that is, the way that minimizes the unused capacity. Output this unused capacity. See the explanation of the sample test cases for clarity.
+Input
+The first line of input contains the integer T, the number of test cases. Then follows the description of T test cases. The first line of each test case contains three integers, N, M and X, separated by singlespace. The next line contains N integers, W[1], W[2], W[3] … W[N], separated by single space. The next line contains N integers C[1], C[2], C[3] … C[N], separated by single space.
+Output
+An optimal way of filling the Knapsack minimizes unused capacity. There may be several optimal ways of filling the Knapsack. Output the unused capacity of the Knapsack (a single integer on a line by itself) for an optimal way. If there is no way to fill the Knapsack, output -1. Output T lines, one for each test case.
+Constraints
+1 ≤ T ≤ 10
+1 ≤ M ≤ 100
+M ≤ N ≤ 100
+1 ≤ W[i] ≤ 100
+1 ≤ C[i] ≤ M
+1 ≤ X ≤ 10000
+Sample Input
+4
+9 3 10
+2 3 4 2 3 4 2 3 4
+1 1 1 2 2 2 3 3 3
+9 3 10
+1 3 5 1 3 5 1 3 5
+1 1 1 2 2 2 3 3 3
+3 3 10
+3 4 4
+1 2 3
+3 3 10
+3 3 3
+1 2 1
+Sample Output
+0
+1
+-1
+-1
+Explanation
+In the first test case you can select stone 2, stone 5 and stone 9. The knapsack will be completely full. Of course, there are several other ways to select stones such that the knapsack is full. The unused capacity in all such ways is 0.
+In the second test case you cannot select stones such that the knapsack is completely full. You can select stones {1, 4, 9}, such that the unused capacity is 10-1-1-5 = 3. But there is a better way. Select stones {2, 5, 8}. The unused capacity is 10-3-3-3 = 1. This is the optimal way. There is another way that is optimal. Select stones {1, 5, 9}. The unused capacity is 10-1-3-5 = 1. In the third test case there is only one option. Slect stones {1, 2, 3}. The total weight will be 11. This is more than what the knapsack can hold. In the fourth test case there is no stone of color 3. Thus, there is no valid selection of stones possible.
+The answer will be -1.
+Those who solved one question were selected for second round.
+Round 2: (Skype Interview – 45 Minutes)
+1. Given a grid of m*n, a player P1 & P2 is at node (x1,y1) & (x2,y2) respectively. There are n gems placed on different positions of grid i.e. (G1,G2,G3…..Gn). Calculate the minimum cost required to pick all the gems. A gem can be picked by a single player. Gems should be picked in particular order i.e. G1 should be picked first then G2 & then G3 so on.
+For example:
+P1 (1,1) & P2(3,4)
+There are 4 gems:
+G1 (1,1), G2(2,2),G3(3,2),G4(4,2)
+Total cost: 5
+P1 will pick G4.
+P2 will pick G1,G2, G3.
+Complexity : O(n)
+Round 3: (Skype Interview- 45 Minutes)
+1. Given an array of n elements. ‘n’ operations needs to be performed on the array. For each operation start_index, end_index,trim_value is given. One has trim the value starting from the start_index to end_index inclusive. If the value at that index is more than or equal to trim value then make it equal to trim_value else leave it as it is. After performing ‘n’ operations find the maximum value of the array.
+Complexity: O(n)
+

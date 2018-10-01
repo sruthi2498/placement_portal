@@ -1,0 +1,8 @@
+std::is_sorted_until is used to find out the first unsorted element in the range [first, last). It returns an iterator to the first unsorted element in the range, so all the elements in between first and the iterator returned are sorted.
+It can also be used to count the total no. of sorted elements in the range. It is defined inside the header file . In case, the whole range is sorted, it will return an iterator pointing to last.
+It can be used in two ways as shown below:
+Run on IDE
+Output:
+Syntax:
+Run on IDE
+Output:

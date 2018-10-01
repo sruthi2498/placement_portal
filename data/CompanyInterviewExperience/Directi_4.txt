@@ -1,0 +1,8 @@
+There is a m*n rectangular matrix whose top-left(start) location is (1, 1) and bottom-right(end) location is (m*n). There are k circles each with radius r. Find if there is any path from start to end without touching any circle.
+The input contains values of m, n, k, r and two array of integers X and Y, each of length k. (X[i], Y[i]) is the centre of ith circle.
+Source : Directi Interview
+
+Approach : Check if the centre of a cell (i, j) of the rectangle comes within any of the circles then do not traverse through that cell and mark that as ‘blocked’. Mark rest of the cells initially as ‘unvisited’. Then use BFS to find out shortest path of each cell from starting position. If the end cell is visited then we will return “Possible” otherwise “Not Possible”.
+Algorithm : 
+Run on IDE
+Time Complexity : It takes O(m*n*k) time to compute whether a cell is within or not in any circle. And it takes O(V+E) time in BFS. Here, number of edges in m*n grid is m*(n-1)+n*(m-1) and vertices m*n. So it takes O(m*n) time in DFS. Hence, the time complexity is O(m*n*k). The complexity can be improved if we iterate through each circles and mark -1 the cells which are coming within it.

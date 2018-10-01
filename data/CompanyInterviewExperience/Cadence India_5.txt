@@ -1,0 +1,39 @@
+I applied through cadence home -> careers ->. I uploaded my linkedin link as resume. I got a call within a week and was asked to give a telephonic round.
+Round 1 – Telephonic
+1.      Tell me about yourself
+2.      What is the difference between C and C++
+3.      Is a C program faster than a C++ compiled program.
+4.      What is UNION in C?
+5.      What all type of sorting algorithms do you know?
+6.      What does the term “object oriented programming mean?”
+7.      What is the difference between overloading and overriding?
+8.      About my present work.
+I was then called for face to face interviews; I did not delay and fixed it the day after today.
+Round 2 – F2F
+1.      What does your current company’s software do? About the current company?
+2.      Compilation of a C/C++ code. He gave me a dummy program. He then asked me to use #ifdef #endif in the header files, then asked its uses.
+3.      Different segments of memory. Where all can a variable be allocated?
+4.      There is a stack where push and pop operation are happening. At any point of time user will query secondMin(). This API should return second minimum present in the stack.
+5.      Given a number, tell number of bits set in the number in its binary representation. Ex. N = 5, Ans – 2 (101 has 2 1’s in it)
+6.      Reversing a string recursively, iteratively. He then asked me to rewind the whole stack or trace the recursive version for examples – “hello” and “ABCD”.
+7.      Cell padding concept in struct/class.
+8.      Traversal in a tree. Made me code iterative and recursive version of in-order traversal.
+Round 3 – F2F
+1.      Difference between static and dynamic bindings.
+2.      Concept of virtual function in C++. How is a vtable maintained? What are its enteries? Example code where virtual function is used.
+3.      What is auto, volatile variables? Scopes of variables.
+4.      References in C++.
+5.      What is a static function in a C++ class? Why is it used? How to call a static function of class from any part of the code.
+6.      Given an array of numbers (+ve and –ve), tell the subarray with the highest sum.
+7.      Height of a tree, diameter of a tree.
+
+Round 4 – F2F (Manager/Director round)
+1.      Allocate a 2-D array using C/C++.
+2.      Why does a program crash? Valgrind issues etc.
+3.      Puzzle: 100 floor building and 2 eggs given, find the minimum/maximum number of trys required to find the floor where the egg will break. The answer I gave was 19. He asked me to normalize the solution; we then came up with answer 13.
+4.      Puzzle: Jumbled N pens and N caps, all caps separated from their pens, all pens have some thickness properties. How would you cap all the pens?
+5.      Given a dictionary, how can you represent it in memory? What will be the worst case complexity of a search done on the DS designed?
+6.      About my current work
+Round 5 – HR
+1.      Why do you want to leave your current company?
+2.      What do you know about us?

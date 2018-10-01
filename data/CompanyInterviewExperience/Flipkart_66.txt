@@ -1,0 +1,37 @@
+I recently had flipkart interview on-site, Bangalore. This interview has 4 rounds. Three technical and one manager. 
+Round 1: Machine coding: 1 hour 30 min
+Very nice question
+Questions:  You are given some equations which may contain > or = on different-different operand. For example there are valid input and invalid (a=5, b<a=50) 
+Highlighted one are invalid bec as they come they ask for overwrite the data (a>b>c = 5; C has e and f so we can overwrite.
+Input: You are given those string in string array
+Output: 
+I solved this problem using Trie 😉
+One can see my implementation at here: https://github.com/nitsgupta/practice/tree/master/JAVA/JsonBuilder
+Round 2: Discussion and optimization: 30 min
+This round is all about discussion on your previous implementation, why did you use? How did you come with approach, any further optimization? Etc. Interview was impressed with my data structure selection and implementation ( though I mentioned him I’ve assume few things and that can be generalized via different way]
+Round 3: DS Algo : 30 min
+*You are given a binary tree with extra pointer : next . Populate it
+https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+*Calculate width of binary tree mathematically, what is the maximum width of any tree could have of n nodes.
+         — I came up with 2logn
+*Design a data structure with perform following operation in O(1) time
+->Enqueue , ->Dequeue , ->Find and ->delete
+My Approach1: I answered using hash table(item,boolean) and queue
+Then he asked me tell me when ur code will break. [Since he did not mention the item could be repeated so Boolean is not right choice]. I answered instead of Boolean I’ll have count. After that I said in that case delete will be not be O(1).
+ My Approach 2: Queue as doubly linked list, Hashmap (integer, doubly linked of pointer to node of queue] 
+*Basic fundamental questions. 
+*Probability question: You are given with PxQ matrix and a point inside the matrix (x,y) where you standing. If you step outside the matrix you’ll die. You are allowed to move in all four direction. Movement will be totally random. For Given N steps, what is the probability that you’ll alive?
+My approach: I tried different approaches from bad to good approach. My last approach based on small problem to big problem i.e. Induction based. But I was not able to bring up to the equation what he was expecting.
+http://stackoverflow.com/questions/16522296/probability-of-death-of-a-man-moving-n-steps-in-a-matrix
+
+Round 4: Manager round: 2 hour
+* Various behavioral questions
+*Discussion on Last project
+* What problem have you faced in last project, how did you resolved them
+* Tell me the architecture design of you last project.
+* What was the most critical?
+* Various question on Concurrency
+* Various question based on my resume [I had taken interviews in IITR from my last company]
+etc…
+I would to say thanks to Geeksforgeek for such a wonderful platform for tech guys. 
+

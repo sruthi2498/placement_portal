@@ -1,0 +1,6 @@
+Given two integers ‘L’ and ‘R’, we need to write a program that finds the count of numbers having prime number of set bits in their binary representation in the range [L, R].
+Examples:
+
+For each number in the range [L, R], we calculate the number of set bits. Using Sieve of Eratosthenes we generate a prime array up to the last number in the range (i.e. R). If the number of set bits is prime we increase the count of the numbers and print it.
+Run on IDE
+Output:

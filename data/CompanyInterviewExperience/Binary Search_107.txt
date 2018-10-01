@@ -1,0 +1,9 @@
+Given an array of n elements. The task is to find number of sextuplets that satisfy the below equation such that a, b, c, d, e and f belong to the given array:
+Examples:
+
+First, reorder the equation, a * b + c = (f + e) * d.
+Now, make two arrays, one for LHS (Left Hand Side) of the equation and one for the RHS (Right Hand Side) of the equation. Search each element of RHS’s array in the LHS’s array. Whenever you find a value of RHS in LHS, check how many times it is repeated in LHS and add that count to the total. Searching can be done using binary search, by sorting the LHS array.
+Below is the C++ implementation of this approach:
+Run on IDE
+Output:
+Time Complexity : O(N3 log N)

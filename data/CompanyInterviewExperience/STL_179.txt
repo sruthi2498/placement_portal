@@ -1,0 +1,15 @@
+The acosh() is an inbuilt function in C++ STL which returns the inverse hyperbolic cosine of an angle given in radians.
+Syntax:
+Parameter :The function accepts one mandatory parameter x which specifies the inverse hyperbolic angle in radian which should be greater or equal to 1. If the argument is less than 1, -nan is returned. The parameter can be of double, float or long double datatype. 
+Return : The acosh() function returns the inverse hyperbolic sine of the argument in radians which is in the range [0, inf].
+Below programs illustrate the above approach: 
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Errors and Exceptions: The function returns no matching function for call to error when a string or a character is passed as an argument.
+Program 3:
+Run on IDE
+Output:
+Program 4:
+Run on IDE

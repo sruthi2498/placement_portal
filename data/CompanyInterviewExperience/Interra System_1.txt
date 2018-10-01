@@ -1,0 +1,38 @@
+Round 1:
+Subjective written round
+Programming output questions on constant pointer, static variable, typedef, macro, virtual function, copy constuctor etc
+Also write codes for reverse link list
+check palindrome
+rearrange array with -ve in starting and +ve in end etc
+For output you should have good knowledge of c,c++
+Also there are some aptitude problems
+total 30 marks with time limit 1.5 hrs
+Interview 1:
+1. Find Subarray that has max sum i.e. kanade algo.
+2. Find subarray that has 0 as a sum
+3. They asked me to write the base cases while calculating average in c
+4. Find a element in 2d array if rows and columns are sorted they ask to find optimise solution
+5. Also a puzzle of playing A and B ensuring winning of A
+
+Interview 2:
+1. 17 minute boat puzzle
+2. magic square
+2. 5 parrot problem
+3. coin puzzle.
+4. they tell me to solve question i wrongly attempt in exam.
+5. they ask me to write code for ascii to integer value.
+
+Interview 3:
+1. long discussion on project
+2. they ask me some project related logical problems
+3. then they go to sorting algos
+4.  ask me to sort elements of array  in frame of size k with time complexity
+5. question to arrange old on left and even on right with array positive elements
+later they want to arrange in a way that odd no. in decreasing form then even in increasing
+thy expect me to solve using single sort using some preprocessing.
+HR:
+1. Tell about yourself other than ur cv
+2. About my family offers further study plan nature etc
+3. They ask about my interests
+4. Why interra?
+A great thanks to geeksforgeeks and geeksquiz

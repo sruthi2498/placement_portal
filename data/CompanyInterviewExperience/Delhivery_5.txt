@@ -1,0 +1,12 @@
+Since I am getting a lot of help from geeksforgeeks, I think that it’s my duty to write about my own interview experiences.
+Recently, I appeared to face to face interview for Delhivery. 
+There were 4 rounds:
+1. Online round, which I qualified and got a mail about the same.
+2. F2F : I went to Gurgaon, their office. First of all the interviewer discussed about my CV. All my major products, minor products and other things which I mentioned on my CV.
+Then he asked about OOPs related question, such as polymorphism, inheritance, abstraction and encapsulation. He asked to design a database and write join queries to fetch data. He asked about the keys, Normal Forms etc.
+In the end he asked a programming question. I was given a matrix like this:
+a a a
+a b c
+d e e
+By moving left, right, top & down, I need to count the number of ways a string occurs in the matrix.
+3. In this round, the interviewer discussed about React.js, since I had mentioned it on my CV. Then after, he asked me common ancestor question.

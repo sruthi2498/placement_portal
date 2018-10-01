@@ -1,0 +1,28 @@
+Round 1(Online test):
+DURATION: 90 mins
+General Aptitude and technical online questions and one programming question. It was pretty easy round.
+For technical most of the questions were related to C outputs/ SQL joins / UNIX commands.
+For aptitude there was an equal weightage to verbal, quant and reasoning. Believe me it was easiest round and a week preparation is enough.
+For programming round you have to first choose the language in which you want to code (c/c++/java). My program was to simply “remove a loop from a linked list, if loop exist”. You can easily find the solution in geeksforgeeks.
+More than 500 students participated in this round.
+Round 2(Technical round):
+DURATION: 60-75 mins
+Only 123 students proceeded for the next round.
+The whole technical round was based on your resume.
+In my interview, they asked only two questions based on some puzzle and i need to code it out.
+PUZZLE 1:
+Given an instance of a chess board, you need to design an algorithm for check-mate condition.
+It was quite easy puzzle, you just need some observation and must take care of corner test conditions.
+while writing the algorithm, he was trying to find the loop hole in my algorithm but i was able to answer them all  and even he was helping me out by giving some hints in between.
+PUZZLE 2:
+I need to design the sitting arrangement of the train where in an algorithm the input was given a number and i need to find out whether it was “window seat”, “middle seat” or “lower seat”. In this algorithm, you just need to take care of pattern of “window seats” and modulus operator will help you to design an algorithm.
+After that, he told me to design an algorithm for opposite pair of a seat. for example “1 is opposite to 6” and “6 is opposite to 1” . similarly, “2 is opposite to 5” in the same way “5 is opposite to 2” and so on.
+Again, some observation and modulus operator helps me in designing the algorithm.
+Round 3(HR Round):
+DURATION : 7-10 mins(formality round)
+Total 63 students proceeded for this round.
+They asked me the basic introduction about myself and family.
+Then he asked me simple hr questions like  “likes and dislikes”, “strength and weakness”and “preferred job location”.
+After about 10 mins, they announced the result and total 63 students got selected and luckily i was one of them..
+NOTE: The interview totally depends on the interviewer and some of my friends got basic conceptual questions from c++ and dbms. However, you must strong your concepts for interview and if it was you lucky day you will definitely get selected.
+Happy CODING!!!

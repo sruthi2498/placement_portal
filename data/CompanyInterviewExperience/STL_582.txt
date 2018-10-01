@@ -1,0 +1,14 @@
+What is Vector of Pairs?
+A pair is a container which stores two values mapped to each other, and a vector containing multiple number of such pairs is called a vector of pairs.
+Run on IDE
+Output:
+ 
+Case 1 : Sorting the vector elements on the basis of first element of pairs in ascending order.
+This type of sorting can be achieved using simple “ sort() ” function. By default the sort function sorts the vector elements on basis of first element of pairs.
+Run on IDE
+Output:
+ 
+Case 2 : Sorting the vector elements on the basis of second element of pairs in ascending order.
+There are instances when we require to sort the elements of vector on the basis of second elements of pair. For that, we modify the sort() function and we pass a third argument, a call to an user defined explicit function in the sort() function.
+Run on IDE
+Output:

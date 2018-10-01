@@ -1,0 +1,14 @@
+Find the maximum sum of lengths of non-overlapping  subarrays (contiguous elements) with k as the maximum element.
+Example 1:
+Example 2:
+Example 3:
+question source : https://www.geeksforgeeks.org/amazon-interview-experience-set-376-campus-internship/
+
+Algorithm :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+It may look like O(n2), but if you take a closer look, array is traversed only once

@@ -1,0 +1,36 @@
+I took Coding Round 1 of Direct I campus recruitment today . Sharing the 2 questions which have been asked. 
+Question 1 (Optimal substring reversal):
+You are given a string S. Each character of S is either ‘a’, or ‘b’. You wish to reverse exactly one sub-string of S such that the new string is lexicographically smaller than all the other strings that you can get by reversing exactly one sub-string.
+For example, given ‘abab’, you may choose to reverse the substring ‘ab’ that starts from index 2 (0-based). This gives you the string ‘abba’. But, if you choose the reverse the substring ‘ba’ starting from index 1, you will get ‘aabb’. There is no way of getting a smaller string, hence reversing the substring in the range [1, 2] is optimal.
+Input:
+First line contains a number T, the number of test cases.
+Each test case contains a single string S. The characters of the string will be from the set { a, b }.
+Output:
+For each test case, print two numbers separated by comma; for example “x,y” (without the quotes and without any additional whitespace). “x,y” describe the starting index (0-based) and ending index respectively of the substring that must be reversed in order to acheive the smallest lexicographical string. If there are multiple possible answers, print the one with the smallest ‘x’. If there are still multiple answers possible, print the one with the smallest ‘y’.
+Constraints:
+1 ? T ? 100
+1 ? length of S ? 1000
+Attention:
+The constraints are designed such that an O(N3) algorithm per test case, would not pass. 
+Question 2 (Database Queries): 2 points
+You have a set of N objects. Each of these objects have certain properties associated with them. A property is represented by a (key, value) pair. For example, assume you have the following two objects. 
+Each object you have, will have at most 4 properties. An object will have at least 1 property. Note, from the two objects above, that it is not necessary for key in the properties to be same for all the objects. Also, it is not necessary for the key to be different.
+Now, given N such objects, you wish to answer M queries. Each query is represented by a set of properties (again, at most 4 properties, and at least 1 property). The answer for the query is the number of objects in the set, that have all the given properties. Two properties are considered equal iff both the key and the value match.
+For example, if you have the above two objects, then the answer for the following queries is
+Query:  { (height, 100), (yposition, 36) }
+Answer: 1 // matches Tower, but not Tree
+Query:  { (yposition, 36) }
+Answer:  2 // matches both Tower and Tree
+Query:  { (height, 100), (noofleaves, 500) }
+Answer:  0 // neither Tower, not Tree satisfy both properties
+Input:
+The first line of input contains N and M. This is followed by the description of the N objects. The description of the i-th object will start by a number k, which is the number of properties associated with the object. The next k lines contain two space separated strings – the property key and the property value. Note that the property value is not necessarily an integer (although this is so for the example above).
+This is followed by the description of M queries. The format of a query will be exactly same to that of the objects. Check the Sample Input for clarification.
+One test file will contain only one test case. A single test case may contain several queries.
+Output:
+Print M lines. Each line must be the answer of the respective query.
+Constraints:
+1 ? N ? 10000
+1 ? M ? 100000
+1 ? k ? 4
+

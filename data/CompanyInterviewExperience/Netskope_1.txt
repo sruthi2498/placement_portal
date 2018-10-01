@@ -1,0 +1,16 @@
+I recently attended Netskope interview, there were total of 5 rounds of interview.
+First round: It was Hangouts call, Started with asking basic questions in python like pass by reference and pass by value, difference between sets and lists in python etc., then I said I am more comfortable in C++, So he started asking C++ concepts like Virtual functions, Dynamic polymorphism and some questions on pointers.
+Programs: Middle element of linked list, and one program which does basic file operations like reading, writing, searching for a word in a file.
+Second Round: Program to find longest substring with k unique characters in a given string.
+Example: Input aabacebbdaabaa
+For 2 -> Output: aabaa
+For 3 -> aabac
+Thanks to geeksforgeeks.org https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/
+Third Round: Started with my projects on few questions on my project,
+I have server which takes 1000 requests per sec and database which takes 100 requests per second, So How to match server and database requests.
+Questions on VANETS(Vehicular AdHoc Networks), Since my B-Tech project was on VANETS.
+And also few questions on my other projects.
+Fourth Round: Started this round introducing myself and then He started to ask problem solving techniques, Given file which contains 1M numbers, Out of which I have to find 100 maximum numbers.
+Design patterns Questions, then program to find loop in a linked list, How to where the loop is? and also to remove loop in linked list.
+Fifth Round: How do you design alarm clock for blind people, He asked explain the scenarios that come into picture while designing the alarm and what are the modules required for that and then It was just like managerial round, He only asked questions like my interest, future goals etc.,
+Thank you so much geeksforgeeks.org for providing one of the best portal to learn problem solving techniques, programming languages, Puzzles and many more.

@@ -1,0 +1,11 @@
+The C++ STL set is a data structure used to store the distinct value in ascending or descending order. By default, we can use it to store system defined data type only(eg. int, float, double, pair etc.).
+And if we want to store user-defined datatype in a set (eg. structure) then the compiler will show an error message. That is because of the property of the set that value kept in the set must be ascending or descending order. And while doing so the compiler cant compare two structures(as they are user-defined) and that’s the reason to why the compiler shows us the error message.
+So, in order to store a structure in a set, some comparison function need s to be designed. Implementation of this is given below:
+Examples:
+Explanation:
+Here we insert a random list to the set, and when we output the set the list gets sorted in ascending order based on the comparison function we made.
+Run on IDE
+Output:
+Application:
+a) Very useful while printing all distinct structure in sorted order.
+b) Insert new structure in a sorted list of structures.

@@ -1,0 +1,7 @@
+Gone through Prop Tiger process for Java opening for Software Engineer.
+F2F round:
+Ques 1: Brief intro about Java projects. Pointed at some instances and asked Java questions.
+Ques 2: Asked to write complete error free code in one shot to find diameter of binary tree.
+Ques 3: Again asked to code in one shot to convert binary tree which hold children sum property.
+Ques 4: Prove right or wrong p^2-1 =12k where p= prime number and k= positive integer. Simple approach is to use (p-1)(p+1) which means p^2-1 is divisible by 4, then find how it is also divisible by 3.
+ 

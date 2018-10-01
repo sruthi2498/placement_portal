@@ -1,0 +1,17 @@
+Given a positive integer n, find the no of factors in n! where n <= 105. 
+Examples :
+Note that the brute force approach won’t even work here because we can’t find n! for such large n. We would need a more realistic approach to solve this problem. 
+The idea is based on Legendre’s formula. 
+Any positive integer can be expressed as product of power of its prime factors. Suppose a number n = p1a1 x p2a2 x p3a3, …., pkak where p1, p2, p3, …., pk are distinct primes and a1, a2, a3,………….., ak are their respective exponents.
+Then the no of divisors of n = (a1+1) x (a2+1) x (a3+1)…x (ak+1)
+Thus, no. of factors of n! can now be easily computed by first finding the prime factors till n and then calculating their respective exponents. 
+The main steps of our algorithm are:
+Below is the implementation of above idea:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Note : If the task is to count factors for multiple input values, then we can precompute all prime numbers upto the maximum limit 105.

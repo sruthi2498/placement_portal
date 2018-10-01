@@ -1,0 +1,9 @@
+The unordered_multimap::bucket_size() is a built-in function in C++ STL which returns the number of elements in the bucket n.
+Syntax: 
+Parameters:  The function accepts a parameter n which specifies the bucket number whose count is to be returned.  
+Return Value: It returns an unsigned integral type which denotes the number of elements in the bucket with bucket number n. 
+Below programs illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

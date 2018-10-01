@@ -1,0 +1,13 @@
+Given two integers n and m. The problem is to find the number closest to n and divisible by m. If there are more than one such number, then output the one having maximum absolute value. If n is completely divisible by m, then output n only. Time complexity of O(1) is required.
+Constraints: m != 0
+Examples:
+Source: Microsoft Interview experience | Set 125.
+
+We find value of n/m. Let this value be q. Then we find closest of two possibilities. One is q * m other is  (m * (q + 1)) or (m * (q – 1)) depending on whether one of the given two numbers is negative or not.
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(1)

@@ -1,0 +1,32 @@
+Position : Software Dev Intern
+Location : Arcesium, Hyderabad
+ 
+PRELIMINARY ROUND :
+Shortlisting was done on the basis of GPA. Don’t know the exact cutoff as it wasn’t revealed, but I guess it must be around ~8.50. 
+ 
+ONLINE ROUND :
+This round was on Hackerrank and it was divided into 3 sections :
+ 
+Section 1 : Aptitude Test, 15 ques in 20 min
+Section 2 : Technical MCQs involving OS, DBMS, OOPs, C++, Java based questions, 15 ques in 15 min
+( The difficulty level of both the sections wasn’t at all according to time given for corresponding sections. I was expecting this, so rather than going sequentially, I scrolled through them and focused only on those which could be solved quickly. Most of the students were able to solve only 10 questions in total )
+Section 3 : Coding questions, 2 questions in 45 min
+Q1. You are given N distinct coins. In one move you pick a random coin of value X and then you remove all the coins with value X-1 and X+1 along with the coin X. The game gets finished when no coins are left to pick. Find the maximum number of moves in which you can finish the game. Constraints : 1 <= N <= 10^5
+Q2. You are given a string S composed of only lowercase letters and an array of points corresponding to each letter. You have to find maximum score you can get for a substring which starts and ends with same letter. Constraints : 1 <= |S| <= 10^5  -10 <= points <= 10
+ 
+FIRST INTERVIEW :
+Questions were mainly based on my resume. I had done 2 internships, so they asked me about my projects there and my experience. They asked few questions like, 
+I was asked about what all classes would I use to design a text editor like VIM. The text editor should have normal features like Deleting, Inserting, Saving and Jumping to a line.
+I was also asked what would I do if I want some other developers to be able to design plugins for my text editor.
+Given top-left and bottom-right co-ordinates of N rectangles, determine whether any two rectangles overlap or not.
+ 
+SECOND INTERVIEW :
+ 
+THIRD INTERVIEW :
+You are given a dictionary consisting of maximum 15 letter words. Also you are given two words W1 and W2 from the same dictionary. With W1 as the source word, you have to reach to W2. One operation involves replacing one letter with any other letter such that the resultant string also exists in the dictionary. We have to find the minimum number of operations required to reach to W2. It is guaranteed that solution exists.
+Sample Test Case :
+ Dictionary : [ ‘abc’, ‘abd’, ‘abb’, ‘acb’ ]
+W1 : ‘abc’ W2 : ‘acb’
+Ans : 2 ( ‘abc’ -> ‘abb’ -> ‘acb’ )
+( Initially, I gave a solution using Trie but it wasn’t perfect. They gave me a hint to use Graphs. After that I was able to solve it quickly )
+A person has a revolver with max capacity of 6 bullets but he has only one bullet with him. He gives you two options, either he will first pull the trigger in the air and then shoot at you or he will directly shoot aiming at you. What would you choose ? 

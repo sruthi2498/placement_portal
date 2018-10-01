@@ -1,0 +1,15 @@
+We recommend reading following post as a prerequisite of this post.
+K’th Smallest/Largest Element in Unsorted Array | Set 1
+Given an array and a number k where k is smaller than the size of the array, we need to find the k’th smallest element in the given array. It is given that all array elements are distinct.
+Examples:
+We have discussed three different solutions here.
+In this post method 4 is discussed which is mainly an extension of method 3 (QuickSelect) discussed in the previous post.  The idea is to randomly pick a pivot element.  To implement randomized partition, we use a random function, rand() to generate index between l and r, swap the element at randomly generated index with the last element, and finally call the standard partition process which uses last element as pivot.
+Following is an implementation of above Randomized QuickSelect. 
+Run on IDE
+Run on IDE
+
+Time Complexity: 
+The worst case time complexity of the above solution is still O(n2). In worst case, the randomized function may always pick a corner element.  The expected time complexity of above randomized QuickSelect is ?(n), see CLRS book or MIT video lecture for proof. The assumption in the analysis is, random number generator is equally likely to generate any number in the input range.
+Sources:
+MIT Video Lecture on Order Statistics, Median
+Introduction to Algorithms by Clifford Stein, Thomas H. Cormen, Charles E. Leiserson, Ronald L.

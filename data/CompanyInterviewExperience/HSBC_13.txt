@@ -1,0 +1,43 @@
+Interview experience:
+2 profiles , one for legacy technologies one for new age technologies(big data, cloud computing,data analytics)
+
+Round 1:
+Written round consisting of 5 sections verbal(passage / article consisting of 20 blanks),analytical/aptitude(very basic questions),attention(very easy),C&Data Structures(easy includes sorting, graph, output questions),Java(involved a bit concepts interface ,threading , collections ).
+It had sectional cut-off and java section was really the deciding factor.
+
+Round 2:
+Coding round:
+2 questions: 30 minutes
+1:Given a string count number of consonants, vowels and ‘?’,’!’,’*’.String consists of only lower case characters.
+2:Given a 2D matrix as  
+constraints:in-place algorithm
+Explanation:change the row and column of a[i][[j] to all 1’s if its equal to 1.
+ith row with all 1 and jth column with all 1 as shown.
+They will judge you on time and space complexity as the questions were easy.
+
+Round 3:
+Technical Interview 1:(both legacy and new age)(1 & 30 hour)
+Q1: Tell me about yourself.
+A:I gave a good reply and he asked about my habit of reading tech articles as i mentioned.Then i explained about Quantum computing and it took 20 minutes.
+Q2: From my CV about my projects(in detail) and internships.
+Q3: Gave certain problems about DDOS and possible solutions one being your server limit is 10000 and the hacker sends in 1000000 bogus requests how will you handle such situation.
+A2:I explained about the Firewall concept but he wasn’t satisfied.
+Q3: Explain the use of your projects/technologies in Bank enterprise.
+Q4: Asked about the situation to solve the problem of pass-key loss in internet banking(He asked about what problem you face in internet banking to which i said this problem)
+A5: I proposed a good solution to which he seemed impressed.
+Main focus was on the CV.
+
+Round 3:(30 minutes)
+Technical Interview 2:(only for new age)
+Q1: Why do you want to work with HSBC ?
+Q2: Explain about the projects.
+Q3: What technology you want to work upon and Why?
+
+Round 4 : 
+HR Interview
+Q1: Tell me about yourself
+Q2: Situation:You are in a team of 5 and 1 of them has a conflicting thought upon a project.What will you do?
+Q3: How do you perceive people?
+Q4: Situation: 10 people say that a person X is really annoying and you have to share a room with him .What will you do?
+Q5; Any questions?
+Finally they selected 3 for the New age technologies(they call them ACERS)  and 5 for the Legacy technologies. Best of luck to everyone.And Thanks @geeksforgeeks.org .

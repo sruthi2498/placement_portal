@@ -1,0 +1,16 @@
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.
+remove() function is used to remove all the values from the list that correspond to the value given as parameter to the function
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+remove_if() function is used to remove all the values from the list that correspond true to the predicate or condition given as parameter to the function. The function iterates through every member of the list container and removes all the element that return true for the predicate.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application : Given a list of integers, remove all the prime numbers from the list and print the list.
+Run on IDE
+Output:

@@ -1,0 +1,11 @@
+Given a number n, find all generators of cyclic additive group under modulo n. Generator of a set {0, 1, … n-1} is an element x such that x is smaller than n, and using x (and addition operation), we can generate all elements of the set.
+Examples:
+A simple solution is to run a loop from from 1 to n-1 and for every element check if it is generator. To check generator, we keep adding element and we check if we can generate all numbers until remainder starts repeating.
+An Efficient solution is based on the fact that a number x is generator if x is relatively prime to n, i.e., gcd(n, x) =1.
+Run on IDE
+Run on IDE
+
+How does this work?
+If we consider all remainders of n consecutive multiples of x, then some remainders would repeat if GCD of x and n is not 1. If some remainders repeat, then x cannot be a generator. Note that after n consecutive multiples, remainders would anyway repeat.
+Interesting Observation : 
+Number of generators of a number n is equal to Φ(n) where Φ is Euler Totient Function.

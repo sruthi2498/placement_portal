@@ -1,0 +1,10 @@
+Given n nodes of a forest (collection of trees), find the number of trees in the forest.
+Examples :
+
+Approach :
+1. Apply DFS on every node.
+2. Increment count by one if every connected node is visited from one source.
+3. Again perform DFS traversal if some nodes yet not visited.
+4. Count will give the number of trees in forest.
+Run on IDE
+Time Complexity : O(V + E)

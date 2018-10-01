@@ -1,0 +1,28 @@
+Implement Priority Queue using Linked Lists.
+Priority Queues can be implemented using common data structures like arrays, linked-lists, heaps and binary trees.
+Prerequisites :
+Linked Lists, Priority Queues
+The list is so created so that the highest priority element is always at the head of the list. The list is arranged in descending order of elements based on their priority. This allow us to remove the highest priority element in O(1) time. To insert an element we must traverse the list and find the proper position to insert the node so that the overall order of the priority queue is maintained. This makes the push() operation takes O(N) time. The pop() and peek() operations are performed in constant time.
+Algorithm :
+PUSH(HEAD, DATA, PRIORITY)
+Step 1: Create new node with DATA and PRIORITY
+Step 2: Check if HEAD has lower priority. If true follow Steps 3-4 and end. Else goto Step 5.
+Step 3: NEW -> NEXT = HEAD
+Step 4: HEAD = NEW
+Step 5: Set TEMP to head of the list
+Step 6: While TEMP -> NEXT != NULL and TEMP -> NEXT -> PRIORITY > PRIORITY
+Step 7: TEMP = TEMP -> NEXT
+        [END OF LOOP]
+Step 8: NEW -> NEXT = TEMP -> NEXT
+Step 9: TEMP -> NEXT = NEW
+Step 10: End
+POP(HEAD)
+Step 2: Set the head of the list to the next node in the list. HEAD = HEAD -> NEXT.
+Step 3: Free the node at the head of the list
+Step 4: End
+PEEK(HEAD):
+Step 1: Return HEAD -> DATA
+Step 2: End
+Below is the implementation of the algorithm :
+Run on IDE
+Time Complexities and Comparison with Binary Heap: 

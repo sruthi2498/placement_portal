@@ -1,0 +1,41 @@
+In most of the programming competitions, problems are required to answer the result in 10^9+7 modulo. The reason behind this is to have problems for large integers so that only efficient algorithms can solve them in allowed limited time.
+What is modulo operation:
+The remainder obtained after the division operation on two operands is known as modulo operation. Operator for doing modulus operation is ‘%’. For ex: a % b = c which means when a is divided by b it gives the remainder c, 7%2 = 1, 17%3 = 2.
+Why do we need modulo:
+Due to these reasons, problem setters ask to give the answer as a result of modulo of some number N.
+There are certain criteria on which value of N depends:
+10^9+7 fulfills both the criteria. It is the first 10-digital prime number and fits in int data type as well. In fact any prime number less then 2^30 will be fine in order to prevent possible overflows.
+How modulo is used:
+A few distributive properties of modulo are as follows:
+So, modulo is distributive over +, * and – but not over / [Please refer Modular Division for details]
+NOTE: The result of ( a % b ) will always be less than b.
+In case of computer programs, due to size of variable limitations we perform modulo M at each intermediate stage so that range overflow never occurs.
+Function for finding factorial of large number using modulo but at different positions.
+Run on IDE
+Run on IDE
+The same procedure can be followed for addition.
+(a + b + c) % M is the same as ( ( ( a + b ) % M ) + c ) % M.
+Perform % M every time a number is added so as to avoid overflow.
+Note: In most of the programming languages (like in C/C++) when you perform modular operation with negative numbers it gives negative result like -5%3 = -2, but what the result comes after modular operation should be in the range 0 to n-1 means the -5%3 = 1. So for this convert it into positive modular equivalent.
+Run on IDE
+But the rules is different for division. To perform division in modulo arithmetic, we need to first understand the concept of modulo multiplicative inverse.
+Modulo multiplicative Inverse(MMI):
+The multiplicative inverse of a number y is z iff (z * y) == 1.
+Dividing a number x by another number y is same as multiplying x with the multiplicative inverse of y.
+x / y == x * y^(-1) == x * z (where z is multiplicative inverse of y).
+In normal arithmetic, the multiplicative inverse of y is a float value. Ex: Multiplicative inverse of 7 is 0.142…, of 3 is 0.333… .
+In mathematics, modular multiplicative inverse of an integer ‘a’ is an integer ‘x’ such that the product ax is congruent to 1 with respect to the modulus m.
+ax = 1( mod m)
+The remainder after dividing ax by the integer m is 1.
+Observe that the MMI of a number may be different for different M.
+So, if we are performi,ng modulo arithmetic in our program and we need the result of the operation x / y, we should NOT perform
+instead we should perform
+Now one question remains.. How to find the MMI of a number n.
+There exist two algorithms to find MMI of a number. First is the Extended Eucledian algorithm and the second using Fermat’s Little Theorem.
+You can find both the methods in the given link:
+Modular multiplicative inverse
+Finding modular multiplicative inverses also has practical applications in the field of cryptography, i.e. public-key cryptography and the RSA Algorithm. A benefit for the computer implementation of these applications is that there exists a very fast algorithm (the extended Euclidean algorithm) that can be used for the calculation of modular multiplicative inverses.
+References: 
+https://www.quora.com/What-exactly-is-print-it-modulo-10-9-+-7-in-competitive-programming-websites
+https://discuss.codechef.com/questions/4698/use-of-modulo-1000007-in-competitions
+https://codeaccepted.wordpress.com/2014/02/15/output-the-answer-modulo-109-7/

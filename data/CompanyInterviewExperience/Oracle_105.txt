@@ -1,0 +1,10 @@
+Given an integer, write a function that returns true if the given number is palindrome, else false.  For example, 12321 is palindrome, but 1451 is not palindrome.  
+
+Let the given number be num.  A simple method for this problem is to first reverse digits of num, then compare the reverse of num with num.  If both are same, then return true, else false. 
+Following is an interesting method inspired from method#2 of this post.  The idea is to create a copy of num and recursively pass the copy by reference, and pass num by value. In the recursive calls, divide num by 10 while moving down the recursion tree.  While moving up the recursion tree, divide the copy by 10.  When they meet in a function for which all child calls are over, the last digit of num will be ith digit from the beginning and the last digit of copy will be ith digit from the end.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+To check a number is palindrome or not without using any extra space

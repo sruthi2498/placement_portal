@@ -1,0 +1,18 @@
+Given a binary tree, we need to find maximum value we can get by subtracting value of node B from value of node A, where A and B are two nodes of the binary tree and A is an ancestor of B. Expected time complexity is O(n).
+For example, consider below binary tree 
+
+We can have various ancestor-node difference, some of which are given below :
+8 – 3 = 5
+3 – 7 = -4
+8 – 1 = 7
+10 – 13 = -3
+. . . .
+But among all those differences maximum value is 7 obtained by subtracting 1 from 8, which we need to return as result.
+As we are given a binary tree, there is no relationship between node values so we need to traverse whole binary tree to get max difference and we can obtain the result in one traversal only by following below steps :
+If we are at leaf node then just return its value because it can’t be ancestor of any node. Then at each internal node we will try to get minimum value from left subtree and right subtree and calculate the difference between node value and this minimum value and according to that we will update the result.
+As we are calculating minimum value while retuning in recurrence we will check all optimal possibilities (checking node value with minimum subtree value only)  of differences and hence calculate the result in one traversal only.
+Below is C++ implementation of above idea.
+
+Run on IDE
+Run on IDE
+Output : 

@@ -1,0 +1,18 @@
+A string contains patterns of the form 1(0+)1 where (0+) represents any non-empty consecutive sequence of 0’s. Count all such patterns. The patterns are allowed to overlap.
+Note : It contains digits and lowercase characters only. The string is not necessarily a binary. 100201 is not a valid pattern.
+One approach to solve the problem is discussed here, other using Regular expressions is given in Set 2
+Examples:
+
+Let size of input string be n.
+1. Iterate through index ‘0’ to ‘n-1’.
+2. If we encounter a ‘1’, we iterate till the elements are ‘0’.
+3. After the stream of zeros ends, we check whether we encounter a ‘1’ or not.
+4. Keep on doing this till we reach the end of string.
+Below is the implementation of the above method.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,30 @@
+Given an integer N. Find the minimum number of square free divisors. In other words, the factorization of N should comprise of only those divisors that are square free. A square free number is that number which is not divisible by any perfect square (Of course, 1 will not be considered as perfect square in this case).
+
+Constraints: 2 ≤ N ≤ 106
+
+Examples:
+
+Input : 24
+Output : 3
+Explanation: 24 will be represented as 24 = 6 x 2 x 2, here every factor
+(6 and 2) both are square free.
+Note: 24 cannot be represented as (24 = 12 x 2) or (24 = 24) or (24 = 8 x 3) because in all these factorizations, every factorization has atleast one number that is not square free i.e. 12, 24 and 8 are divisible by 4 (4 is a perfect square). Hence minimum number of square free divisors is 3.
+Input : 6
+Output : 1
+Explanation: 6 will be represented as 6 = 6, since 6 is not divisible by any perfect square. Hence minimum number of square free divisors is 1.
+Prerequisites: Sieve of Eratosthenes
+A Naive Approach is to consider all possible factorizations of number N and then check if there exists a number which is not square free (divisible by some perfect square) for each factorization. If it exists, then discard that factorization, otherwise consider that factorization in answer. After considering all correct factorizations, find the minimum number of square free divisors.
+Efficient Approach: Build Prime Sieve (using Sieve of Eratosthenes) by finding all the prime factors upto square root of N (upto 103 considering the constraints). Now, consider all prime factors less than or equal to square root of N and for each prime factor find its maximum power in number N (like max power of 2 in 24 is 3). Now, we know that if a prime factor has a power greater than 1 in N, it can’t be grouped with itself (for e.g. 2 has power of 3 in 24, hence 2 x 2 = 4 or 2 x 2 x 2 = 8 can’t occur in the factorization of 24 as both of them are not square free) since it will be divisible by some perfect square. But a prime factor grouped with another prime factor (only once) will never be divisible by any perfect square. This gives us an intuition that answer will be the maximum of maximum powers of all prime factors in number N. In other words,
+Below is an illustration to explain the above algorithm
+
+Let N = 24. Factorization of N can be represented in many ways and out of those we have to find that in which there are minimum divisors with each divisor being square free. Some factorizations are:
+24 = 24 (24 is not square Free)
+24 = 2 * 12 (12 is not square free)
+24 = 3 * 8 (8 is not square free)
+24 = 4 * 6 (4 is not square free)
+24 = 6 * 2 * 2 (Every divisor is square free with divisor count = 3)
+24 = 3 * 2 * 2 * 2 (Every divisor is square free with divisor count = 4)
+Hence, appropriate answer would be 3 (24 = 6 * 2 * 2). Now if we observe carefully, we can’t group a prime factor with itself but with another prime factor. Like in this case, 2 is grouped with 3 to make 6 (square free) to reduce divisors count. Thus, answer would be maximum of maximum powers of all prime factors because we need atleast that much count to retain the condition of square free and other prime factors (whose power is not maximum) can be grouped with the prime factor with maximum power to minimize the count of divisors.
+
+Below is the implementation of above approach in C++. Here, we will do preprocessing of finding prime factors (using Sieve) so that we can answer many queries simultaneously. 
+Run on IDE

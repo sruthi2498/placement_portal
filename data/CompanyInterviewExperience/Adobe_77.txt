@@ -1,0 +1,38 @@
+Written Round
+There were two round technical and aptitude
+1.	Aptitude round consisted 45 questions (50 minutes)  except two passage based on logical reasoning rest were easy, time management was important in this round.
+2.	20 Technical question 13 multiple choice from OS and C++ , 7 questions were coding related running code were required.
+After  almost 15 days I got call that I have been shortlisted for the next round.
+F-2-F Round 1:
+1.	Write a program to search an element in a row-wise and column-wise sorted 2-dimesional array .
+2.	Write a program to convert a binary tree to binary search tree.
+3.	Two string are given check whether second string are substring of 1st string or not second string may contain wild card character like ‘*’ and  ‘?’.
+4.	Many C/C++ related question, concept like virtual function , static variable are discussed.
+5.	Suggest method to multiply two object(operator overloading , proper code for overloading was required). 
+F-2-F Round 2:
+1.	Write a Recursive function to reverse a link list.
+2.	You are given a string in which every character is followed by space u have to return n/2 string that is each character as a separate string ..extra space were not allowed.
+3.	Many OS related questions Deadlock,Mutex, Semaphore,  IPC etc.
+4.	Many typical C/C++ declaration, memory allocation difference between new/malloc, free/delete and details about how memory allocation takes place.
+F-2-F  Round 3:
+HR round
+1.	Your strength
+2.	Weakness
+3.	Why adobe
+many more HR questions.
+F-2-F Round 4:
+1.	Implement a stack using two queue and queue push, pop operation proper working code were required.
+2.	Write a function to find 2nd largest element in an array.
+3.	Reverse a string efficiently.
+4.	Design a chess game.
+3-4 puzzle were discussed one related to time glass, one related to watch , and one related to number this one was really interesting,  Puzzle was write an eight digit number in which 0th position represents number of zero in that number, 1st position represents number of 1’s in the number , 2nd number represents number of 2’s in the number …so on.
+Many C/C++ concept were discussed this interview went on for olmost 1 hour and 20 minutes ..this was director round and fortunately went well ?
+F-2-F round 5:
+1.	U have n vending machine out of which 1 is defected find the defected machine in O(1)  on solving this he modified it give general solution for the case in which 2 machine are defected O(1) solution were required.
+2.	U have given a link list make a new link list which is reverse of original link list.
+3.	Again many C/C++ and OS related conceptual questions and some general discussion on few data structure .
+F-2-F round 6:
+1.	Write a recursive function to print directory structure. Two function were given isfolder() and openfolder().
+2.	Write proper running code for heapsort and some discussion related to that.
+3.	Asked 3-4 puzzle.
+4.	Again some C/C++ related question.  

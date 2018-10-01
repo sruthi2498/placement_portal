@@ -1,0 +1,10 @@
+First Round :  10 Mins –  Introduction of the team ,  myself , Behavioral questions . Next 45 mins – write a findMatch method for online game where two players are set to play game.
+If player X comes online then he needs to be matched with player whose existing rank is closest possible to that of Player X. This had to be efficient algorithm and scale to millions of users
+Second Round :Given different time periods during which tasks were running  find the time at which maximum tasks are running.
+Third Round :  Given a String find out if it contains ONLY all strings from another string.
+Input : str  – FeeO & another String – { “Fe”, “e”, “O”}
+Hint : Use DFS to solve this
+Fourth Round: Design Amazon address manager app
+Fifth round: Behavioral questions only.
+
+

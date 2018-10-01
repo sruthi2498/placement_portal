@@ -1,0 +1,19 @@
+Forward list in STL implements singly linked list. Introduced from C++11, forward list are useful than other containers in insertion, removal and moving operations (like sort) and allows time constant insertion and removal of elements.It differs from list by the fact that forward list keeps track of location of only next element while list keeps track to both next and previous elements.
+remove() function is used to remove all the values from the forward list that correspond to the value given as parameter to the function
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if the value passed doesn’t match the forward list type.
+2. Shows no exception throw guarantee if the comparison between value and elements of the forward list feature doesn’t throw any exception.
+Run on IDE
+Output:
+remove_if() function is used to remove all the values from the list that correspond true to the predicate or condition given as parameter to the function. The function iterates through every member of the list container and removes all the element that return true for the predicate.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows no exception throw guarantee if the predicate function feature doesn’t throw any exception.
+Run on IDE
+Output:
+Application : Given a list of integers, remove all the prime numbers from the list and print the list.
+Run on IDE
+Output

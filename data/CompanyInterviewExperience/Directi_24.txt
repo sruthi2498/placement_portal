@@ -1,0 +1,12 @@
+Given two arrays of positive integers of size m and n where m > n. We need to maximize the dot product by inserting zeros in the second array but we cannot disturb the order of elements.
+Examples:
+Asked in:  Directi Interview
+
+Another way to look at this problem is, for every pair of elements element A[i] and B[j] where j >= i , we have two choices:
+The idea is to use Dynamic programing .
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(nm)

@@ -1,0 +1,2 @@
+A number of the form 2x + 1 (where x > 0) is prime if and only if x is a power of 2, i.e., x = 2n. So overall number becomes 22n + 1. Such numbers are called Fermat Number (Numbers of form 22n + 1).  The first few Fermet numbers are 3, 5, 17, 257, 65537, 4294967297, ….
+An important thing to note is a number of the form 22n + 1) is not always prime. For example 225 + 1 = 25 + 1 = 232 + 1 = 4294967297 = 641 * 6700417.  

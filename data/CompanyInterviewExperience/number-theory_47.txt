@@ -1,0 +1,22 @@
+In mathematics, Bertrand’s Postulate states that there is a prime number in the range  to  where n is a natural number and n >= 4. It has been proved by Chebyshev and later by Ramanujan. A lenient form of the postulate states that there exists a prime in range n to 2n for any n(n >= 2).
+
+There exists a prime p for  for all n <= 4. The less stricter form states that there exists a prime p. For  for all n <= 2. 
+   Examples:
+        For n = 4 and 2*n – 2 = 6,
+         5 is a prime number in the range (4, 6).
+        For n = 5 and 2*n – 2 = 8,
+         7 is a prime number in the range (5, 8).
+        For n = 6 and 2*n – 2 = 10,
+         7 is a prime number in the range (6, 10).
+        For n = 7 and 2*n – 2 = 12,
+         11 is a prime number in the range (7, 12).
+        For n = 8 and 2*n – 2 = 14,
+         11 is a prime number in the range (8, 14).
+
+
+Examples :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

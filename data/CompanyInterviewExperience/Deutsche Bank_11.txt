@@ -1,0 +1,20 @@
+Round 1 :
+2 coding questions with 10 MCQs on CS Fundamentals. Time 1.5 Hrs.
+1. The minimum number of key presses to move from one song to another in a circular playlist.
+2. Longest palindromic subsequence
+MCQs were of easy level.
+30 out of 95 candidates were selected for the following rounds.
+Round 2 :
+This round was a technical interview that lasted for roughly 70 minutes.
+1. Tell me about yourself.
+2. What is your favorite subject? I answered DBMS. So she started asking questions from DBMS.
+a. What is Entity?
+b. Design an ER diagram for IRCTC. What are the attributes and primary keys in the tables? What derived attribute can be there in the design?
+c. What different normal forms do we have? Give the definitions of 1NF, 2NF & 3NF. Given a STUDENT(Roll,Name,Ph_No) schema where Ph_No is multi-valued attribute, what are the 1NF & 2NF normal forms?
+3. She then shifted to DSA.
+a. Implement a queue with two stacks.
+b. Construct BST from a given array(i.e. inserting elements of the array from left to right to a BST)
+c. Write pseudocodes for insertion and search of an element in a BST with illustration.
+d. She asked me what all sorting algorithms do I know. I answered Selection sort, Bubble sort, Insertion sort ,Merge Sort & Quick sort. She asked me which one was my favourite and why. I told merge sort. She then gave me an example array and illustrate all the basic algorithms like selection sort, bubble sort, insertion sort and merge sort. I was then asked to write a code for the merge operation in merge sort.
+4. Do you have any questions for us? I asked about the fields that deutsche bank work on. In this regard, she told me that she wanted to ask me about my projects if time permitted.
+10 candidates proceeded for next rounds that contained another tech round and one HR round. Finally 4 students got the job offer.

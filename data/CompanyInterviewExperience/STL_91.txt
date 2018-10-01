@@ -1,0 +1,11 @@
+The ratio_less_equal() is an inbuilt function in C++ which checks if the ratio R1 is less than or equal to the ratio R2. It returns True if the ratio is less than or equal to ratio 2, else it returns false. 
+Syntax:
+Template Parameters The function accepts two template parameters ratio1 and ratio2 which are to be compared. 
+Return value: The function returns a boolean value which is true if the ratio1 is less than or eqaul to the ratio2 otherwise returns false.
+Below programs illustrates the above function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Program 3:
+Run on IDE

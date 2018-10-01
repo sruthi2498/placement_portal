@@ -1,0 +1,5 @@
+C++ defined functions to get smallest and largest elements among 2 or in a container using different functions. But there are also functions that are used to get both smallest and largest element using a single function, “minmax()” function achieves this task for us. This function is defined in “algorithm” header file. This article would deal in its implementation and other related functions.
+Run on IDE
+Output:
+Run on IDE
+Output:

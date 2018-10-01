@@ -1,0 +1,12 @@
+Given two binary tress. The problem is to check whether the two binary tress are mirrors of each other or not.
+Mirror of a Binary Tree: Mirror of a Binary Tree T is another Binary Tree M(T) with left and right children of all non-leaf nodes interchanged.
+ 
+Trees in the above figure are mirrors of each other.
+
+We have discussed a recursive solution to check if two trees are mirror. In this post iterative solution is discussed.
+Prerequisite: Iterative inorder tree traversal using stack
+Approach: The following steps are:
+Reverse inorder traversal is the opposite of inorder traversal. In this, the right subtree is traversed first, then root, and then the left subtree.
+Run on IDE
+Output:
+Time Complexity: O(n)

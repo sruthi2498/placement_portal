@@ -1,0 +1,22 @@
+Recently, Morgan Stanley visited our campus for the written exam for December placements. Here are the questions for the written round.
+3 questions coding + 30 objective
+Total Time – 1:30 hr
+Objective Ques were simple – C/C++ prog, , input/output, logical ques.
+Coding Ques —
+1. Given an array and a number k. Find number of pairs in the array having sum equal to k.
+2. Given a number N. We can divide the number into N/2,N/3 and N/4 at a time rounding all these to integer value. Now you can repeat above procedure for newly generated numbers.
+Get the maximum number that you can generate from a given number.
+Example – Given Number = 12
+12 –> 6 + 4 + 3
+6 –> 3 + 2 + 1
+4 –> 2 + 1 + 1
+3 – > 1 + 1 + 0
+So max number generated = 13 (6+4+3).
+3. Various dates are given to us in a specific format. Find the least date among them.
+example – Given-
+13 Jan 2014
+24 Dec 1994
+08 Feb 2000
+Ans – 24 Dec 1994
+Hope this will help you all.
+

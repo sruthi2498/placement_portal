@@ -1,0 +1,19 @@
+Write a program to print all sophie germain number less than n. A prime number p is called a sophie prime number if 2p+1 is also a prime number. The number 2p+1 is called a safe prime. For example 11 is a prime number and 11*2 + 1 = 23 is also a prime number so, 11 is sophie germain prime number . The first few Sophie German prime numbers are 2, 3, 5, 11, 23, 29, 41, 53, 83, 89, 113, 131, 173, 179 .. 
+Examples:
+
+Here is the program to print sophie germain number below n .
+The solution of this is simple . To obtain all the sophie numbers below n we will make a loop till n and for each number in the loop we can check that whether that number and (2*number + 1), both are prime or not and for checking this we have used Sieve of Erastothenes method.
+Below is the implementation of this approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Application of Sophie Prime Numbers :
+
+1. It is used in cryptography as safe primes become the factors of a secret key in RSA cryptosystem.
+2. In the first version of AKS Primality Test, it is used to lower the worst case complexity .
+3. It is used in the generation of Pseudo Random Number .
+

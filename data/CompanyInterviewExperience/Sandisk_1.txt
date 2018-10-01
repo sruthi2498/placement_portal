@@ -1,0 +1,29 @@
+(Aug, 2018): BE and ME CS and EC people were eligible. The cutoff was 7 cgpa.
+Round 1:
+There was three section. 15 questions were on each section, 45 min in total given.
+1. Aptitude (easy to moderate) — compulsory
+Either of below section. Will get bonus if do both,
+2. C/C++ based MCQ
+3. Pure electronics
+Of course, I wrote section 2. Problems were really good. You have to be extremely good in C, some questions were like,
+a. passing variable number of arguments in c
+b. problems based on macros
+c. packing and alignment in c
+d. 4-5 questions on pointers, all with complex representation
+e. output based questions
+Round 2:
+There were panel of two member.
+P-1: Finding loop in linked list, write iterative and non iterative codes. Space C. = O(1)
+P-2: Explain any data structure, with its use case. I explained “Union find”.
+2 min discussion on my resume technical skills.
+The other guy started grilling me in c/c++:
+Q1: Explain macro function and inline function
+Q2: Pointer and reference
+Q3: Why to use inheritance ?
+Q4: Function pointer, array of pointer, pointer to an array
+Q5: How class is different from structure, why we need it? Can we do same thing using structure only.
+We were supposed to answer in details such as how the compiler deals, their underlying description not just properties and difference.
+Round 3:
+A normal HR + managerial round. Nothing technical.
+Note: Almost everyone has gone through more rounds after round 2 excluding HR round.
+Result: Selected 🙂

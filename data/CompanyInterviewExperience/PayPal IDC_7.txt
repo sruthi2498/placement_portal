@@ -1,0 +1,33 @@
+Around 800 students from our university were eligible to attend the interview process conducted by PayPal
+First round (online round)
+Conducted at hackerrank which had 15 MCQ ( technical + aptitude ) questions and a coding question.  Program asked was Maximum amongst minimum in sub arrays.
+I did 12/15 mcq questions correctly and for coding question there was 13 test cases so optimal solution was required to ran all test case (I used heap concept to give nlog(n) solution)
+Around 40 of the students were selected for the next round.
+Round 2: (elimination round)
+It was coding test on paper. There were 2 question
+1) Minimum no. of coin to a given amount
+2) longest-palindromic-subsequence in string
+it was on greedy and dynamic concept. I gave dynamic solution for both
+Around 13 of the students were selected for the next round.
+Round 3: Technical F2F
+The interviewers (Two of them were present) asked me to introduce myself. They glanced my resume, code and started shooting out the questions!
+Asked me to explain the code of second round and what other solution can you give, as I gave dynamic solution for both, first one can be done easily by greedy approach as the coin where in decreasing order and had 1 coin of value one he was happy with the solution.
+Asked me about my favorite subjects I said data structure and algorithm.
+He gave me some scenario and asked which sorting algorithm will you use and why and what is the worst condition.
+After that he started asking question on data base.
+Gave me some scenario on board and asked to make ER diagram and write query for the problem, he gave me 10 min for this. I was struggling hear because I was not getting the problem he gave. He helped me to understand the problem and gave some hint and said you very close, then finally I got the solution (you should have a good idea about group by, having and sub query).
+Then asked some oops concept
+What is difference between encapsulation and data hiding?
+How can you access private data from other class?
+About dynamic allocations in c
+From this 7 students were selected for the next round.
+Round 4: Technical F2F
+Asked about my online test experience and what programming language you are good at, I said C++ (as I use this for competitive programming).
+Then he asked about how virtual function is implemented in compiler.
+He gave me some real life example and asked me what oops concept will you use, it real want bad for me.
+Then he switched to data structures.
+Add a functionality of finding maximum in a stack in O(1).
+How will you delete a node (given node pointer) in link list if no head pointer is given.
+All 7 where selected (including fulltime offer and internship offer)
+Geekforgeek and my interest & achievements in competitive programming (hakerrank/topcoder) helped me a lot.
+

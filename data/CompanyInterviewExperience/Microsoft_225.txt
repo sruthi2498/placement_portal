@@ -1,0 +1,21 @@
+Given a grid with each cell consisting of positive, negative or no points i.e, zero points. We can move across a cell only if we have positive points ( > 0 ). Whenever we pass through a cell, points in that cell are added to our overall points. We need to find minimum initial points to reach cell (m-1, n-1) from (0, 0). 
+Constraints :
+Example: 
+
+
+At the first look, this problem looks similar Max/Min Cost Path, but maximum overall points gained will not guarantee the minimum initial points. Also, it is compulsory in the current problem that the points never drops to zero or below. For instance, Suppose following two paths exists from source to destination cell.
+We can solve this problem through bottom-up table filling dynamic programing technique.
+Now we know how to compute min_Points_on_exit, but we need to fill the table dp[][] to get the solution in dp[0][0].
+How to compute dp[i][j]?
+        The value of dp[i][j] can be written as below.
+
+                     dp[i][j] = max(min_Points_on_exit – points[i][j], 1)
+
+Let us see how above expression covers all cases.
+Finally return dp[0][0] which is our answer.
+Below is the implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

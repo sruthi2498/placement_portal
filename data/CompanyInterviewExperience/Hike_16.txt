@@ -1,0 +1,16 @@
+Written round :
+We all were required to write a code for LRU implementation with proper Locks and synchronization so as it is thread safe.
+Round-1
+1. A sorted array is rotated K times. Sort it in o(n) traversal without extra space.
+2. Median of a stream of array.
+Round-2
+1.Pirates and gold puzzle.
+2. Why manhole is round ?
+3. two pair with a given sum in a bst with o(log n) space.
+4. K random numbers from infinite stream of array with equal probability.
+question from projects were also asked.
+Round-3
+Lots of question from projects and technology used there.
+How you choose tgose technology over the others ??
+Given a file with student name and marks .. Print all student whose marks lies within a given range of marks.
+

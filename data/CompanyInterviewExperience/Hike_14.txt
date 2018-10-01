@@ -1,0 +1,29 @@
+I was interviewed for Android Developer. 
+Round 1 :
+Discussion about Android basics and Java.
+Optimized technique to fetch ListViews from database v(assuming you have no temp buffer)
+ListView Recycling
+Image caching
+Questions on cache in Android
+Inheritance in Java, Interfaces
+Comparison of C++ and Java interms of Inheritance
+Memory allocation for 2D array using pointers in C++
+Alternative for pointers in Java
+SoftReference and Weakreferences in Android
+Activity lifecycle  in android
+Fragments, Fragment lifecycle in android 
+Find if two linked list merge, get the merging point
+Calculate the velocity of a swipe done by user on mobile screen.
+Round 2 : (Simulation Round) 
+They give you a problem to implement in 3 hours. We can use any language, any library or any framework.
+I was given to develop a Broken Link Detector :
+1. A URL good be given as seed URL
+2. Fetch all the pages on this webpage
+3. Check all broken links (those link are broken which give HTTP code other than 2xx OR 3xx)
+4. If the link is not broken and is of the same domain, repeat steps 2-4 for this.
+5. The final output should be txt file which stores all broken links corresponding to which webpage they occurred.
+After the implementation, the interviewer saw the whole code, discussed the whole logic. Asked about optimizations which can be added.
+I was even asked to implement the optimization (adding Thread Workers and concurrency) after going back and send him the code.
+Round 3 : (with CTO)
+Behavioral questions – Tell me about yourself, your projects, why do you join BSB, etc.
+

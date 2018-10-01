@@ -1,0 +1,10 @@
+Given three numbers a, b and m where 1<=b,m<=10^6 and 'a' may be very large and contains upto 10^6 digits. The task is to find (a^b)%m.
+Examples:
+
+This problem is basically based on modular arithmetic. We can write (a^b) % m as (a%m) * (a%m) * (a%m) * … (a%m), b times. Below is a algorithm to solve this problem :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

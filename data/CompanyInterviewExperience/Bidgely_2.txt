@@ -1,0 +1,65 @@
+Aptitude and Coding Round
+There were 12 questions (10 general aptitude + 2 coding questions) and the duration was 1 hour.It was an online test in hackerrank.
+The marking scheme was +5 for the correct answer and -2 for incorrect answer for general aptitude.
+The aptitude test the knowledge of speed and time, A.P ,G.P, probability, permutation and combination and other general mathematics concepts.
+Some of the questions were:-
+1.There is a Set of 30 numbers which are in A.P. Sum of the 1st 11 no.s is equal to the  sum of 1st 19 no.s. So, find the sum of the 30 terms that were in A.P.
+2.Given three sides(a, b, c) such that a+b+c=1.What is the probability that these three sides will form a triangle?
+3.Two trains having speed of 30km/h and 40km/h moving in opposite direction meet at a point.What is the distance between them 1 minute before the collision?
+The two coding questions were:-
+1.Coin change problem-Given a value of N, what are the different number of ways we can make change when we have infinite supply of 50 paisa and 1 Rupee. This question is similar to:
+Dynamic Programming | Set 7 (Coin Change) – GeeksforGeeks
+2.Given two strings:- can you convert first string to the another string but the condition is
+If the character is at odd place you can swap this character with the characters only at the odd places in the given first string.
+If the character is at even place you can swap this character with the characters only at the even places in the given first string.
+You cannot insert or delete any character on your own.
+So you have to print YES or NO if you can convert the first string to another string
+E.g
+1.
+1st String :-geeks
+2nd String :- for
+Output:-NO(As the string’s lengths are different)
+2.
+1st string :-skeeg
+2nd String :-geeks
+Output:-YES
+Explanation:-
+’s’ which is at 1st position (odd position) can be swapped with ‘g’ which is at 5th position(odd position)
+Similarly ‘k’ which is at 2nd position (even) can be swapped with ‘e’ which is at 4th position(even position)
+After doing the above two steps we can convert the 1st string to the another string
+3.
+1st String :-abd
+2nd String :-bad
+Output:-NO
+Explanation:-
+’a’ which is at 1st position (odd position) cannot be swapped with ‘b’ which is at 2nd position(even).It can be swapped only with ‘d’(3rd position -odd )
+4.
+1st string:-abcde
+2nd string :- cdeba
+Output:-YES
+Explanation:-
+’a’ which is at 1st position (odd position) can be swapped with ‘c’ which is at 3rd position(odd position)
+’b’ which is at 2nd position (even position) can be swapped with ‘d’ which is at 4th position(even position)
+The string has become cdabe
+Now we can swap a with e and after that we converted the 1st string to the another string
+I was able to solve 4 aptitude and both the coding questions and I was selected for the interview along with 12 more students.
+Interview Round 1:-
+e.g int arr[]=[1,2,3,4,5] and k=6;
+So (5,1) sum is 6 divisible by k.
+Interview Round 2:-
+Here he asked me about the approach that I have made to solve the coding problems in the online test.
+Next question is :-Given an array which contains both positive and negative numbers.You can put the numbers in the pairs or leave it alone.When you form the pairs you have to multiply the numbers which constitute the pair. Once you have done you have to sum it.
+Aim:-You have to get the maximum sum.
+E.g. if A[]={-1,0,1}
+So to get the maximum sum,the arrangement will be {-1,0} and {1}.So the answer is (-1*0)+1 ={1}.
+If A[]={-1,9,4,5,-4,7}
+The Pair formation will be {-1,-4} {9,7} {4,5}
+Ans : (-1*-4)+(9*7)+(4*5)=87.
+If A[]={8,7,9}
+The Pair formation will be {9,8},{7} Ans: (9*8)+7=79
+Then he gave me a puzzle.
+The puzzle was exactly same as the
+ 
+Interview Final Round :-Telephonic Interview(30 minutes)
+This was the final round which include both technical questions as well as HR questions. Some Technical questions include:-
+HR questions were:-

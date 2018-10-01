@@ -1,0 +1,14 @@
+CheckBox belongs to android.widget.CheckBox class. Android CheckBox class is the subclass of CompoundButton class. It is generally used in a place where user can select one or more than choices from a given list of choices. For example, selecting hobbies.
+Class Hierarchy :
+It has two states – checked or unchecked.
+Methods of CheckBox class
+Below is the code for an example where the user chooses its hobbies from the given list containing Painting, Reading, Singing and Cooking with the help of CheckBox.
+MainActivity.java
+Run on IDE
+ 
+activity_main.xml
+The activity_main.xml has a TextView, 4 CheckBoxes and a button.The TextView prompts the user to select his/her hobbies.
+First user select its choices and then presses the Submit button. After pressing Submit button, a toast will generate showing the selected hobbies.
+Run on IDE
+Output:
+

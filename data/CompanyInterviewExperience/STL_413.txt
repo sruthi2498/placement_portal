@@ -1,0 +1,11 @@
+Clamps a variable to a given range[high – low].
+Note : This function is defined in header  from C++17 onwards.
+Examples:
+Syntax :
+Run on IDE
+Output:
+Run on IDE
+Output :
+With Binary Predicate
+Run on IDE
+Output:

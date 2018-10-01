@@ -1,0 +1,96 @@
+SAP Labs Procedure consists of 5 rounds.
+1) ONLINE EXAM
+2) APPLICATION DESIGNE
+3) TECHNICAL
+4) MANAGERIAL
+5) HR
+1 Round: ONLINE EXAM
+First round was online exam round. Exam consisted of multiple sections of objective questions.1 section was 10 minute 60 questions round in which behavioral question were asked. All the questions were simple.I didn’t think this section had any weight age from the point of view of marks/cut off. It was only to judge what kind of person you are. Remember although questions were yes/no kind of questions but among all those question they ask same thing in more than one way so if you try to check the option which should be correct instead of what you actually feel then you might end up giving different answers to same questions which might lead to your rejection. So it’s in your best interest to answer what you feel. Other sections were aptitude and quantitative. There was one technical section in which o/p questions were asked and some operating system questions were there too. There were 2 coding questions in last section.  Solving at least one of them was essential for getting shortlisted. Difficulty level was above
+average. Important aspect was speed. Around 200 students appeared in this round and 30 made it to the next one.
+2 round: APPLICATION DESIGNE
+This round was to check your innovative skills. There were 6 groups of 5 students each. Everyone was given same problem and needed to come up with 3 ideas of apps designing
+which can be helpful in solving social issues. Example was given by recruiter as – Suppose you are on your way and you see an accident so you take out your phone and click a picture and upload it via your app and authorities were informed immediately through that app. We were given 45 minutes to think of 3 ideas and make class/E-R diagram for those ideas. After 45 minutes everyone was given 5 minutes to explain their ideas in their group. Even though some students had better diagrams and writing than me (or at least that’s how I felt) but they didn’t make it to the next round because presentation was important as well. Keep it interactive and if possible ask them if they have any questions at the end.
+18 Out of 30 were selected for the next round.
+3 Round-TECHNICAL
+It was a technical round and there was no specific pattern of questions. It was purely dependent upon you interviewer what you’ll be asked. Although overall areas covered were OS , DBMS , C output question and some networking too.
+1)question – Give your intro which I had prepared already.
+ADVICE-Give your intro in categories like-
+a) first your background(very short version).
+b) Tell him about your academics profile.
+c) Tell him about your area of interest.
+d) Tell him about project(s) you have done.
+e) Tell him about your technical skills in categories as which one you are proficient in and which one you are good in. Don’t mention the average one unless asked explicitly about those.
+f) At last tell him about what kind of person you are.
+My interviewer was very keen. He kept everything in his mind I said. First he asked me to explain myself with examples as I said that I am very punctual and honest ? . I explained that to him and he seemed satisfied.
+2)question-
+Asked me about my project. I explained him problem statement first then what was the solution and then it’s implementation. He had some cross questions and I explained those.
+3)question-– Asked me one simple c output question.
+While(“abcd”);
+What will be output with explanation?
+4)question- Detailed discussion over MAC address as
+a) What is MAC address.
+b) Why do we use MAC also if IP address is already there to identify computer nodes in network .
+Just to see whether my concept of MAC and IP was clear or not.
+5)question-
+Why did I choose IT in b.tech.
+I must tell you this was not a question where you can throw anything as an answer because when I tried to do that my answer was thrown back at me and I had to give him reasons for my opting IT branch. It was a tech round and even though this question was not very techy but you must explain yourself logically and in steps.
+6)question-
+He said and I quote- “I want to hack your college network. How do I do it.”
+Now some questions are asked in that way for which answer cannot be to the point and short. So first make it very clear what does interviewer actually want to do/know. So I asked him-
+What kind of hacking are we talking about here cause we have DNS server ,database sever ,proxy server and web server. Which one do you want to hack into.
+Then he said okay but first I will need to be on the network. How do I do that.
+So I said for that you can plug your computer in LAN, you’ll be on the network. Next step is proxy server authentication to use network. So as we don’t know password (that’s why we are hacking, isn’t it?) we will have to try all different combinations for user id and password and for that we can use tool like hydra(thank god I remembered this tool from somewhere).Then he asked me some other way to do it as it might take forever to guess the correct combination. So I suggested him that many students will also be on the network and they have vulnerable open ports. So we can scan the network using NMAP and find such open port then use them to get into network. So now we are in the network next thing I asked now which server you want to hack. He said database server-
+So I replied that we can use SQL injections. He asked me to explain that and I did. He asked if I knew any other way. Thanks to once seemed useless cryptography, I remembered “MAN IN THE MIDDLE ATTACK”.I explained that to him. He seemed very satisfied.
+7)question-
+He took his i-phone and showed me it’s fingerprint scanning feature + password feature in case of fingerprint scan fails. Then he asked me to write code for it. I wrote code for that. One line in code was if(scanned fingerprint=system stored fingerprint) so he asked me that fingerprint scanner is very small and our thumb is very large. How would one part of thumb will be matched to another part (cause it may happen that you had given lower part of your thumb print initially and now you are trying with upper part of thumb).How do we resolve this issue in programming. I explained him it’s not about exact matching but it’s about pattern of thumbprint and for that we can use pattern matching instead of simple “=” operator. Then a little bit about pattern matching.
+8)question-
+He asked me how good am I in puzzles.
+I told him that I am good in puzzles. So he started asking me one. As soon as he started to explain puzzle I recognized that puzzle and told him that what he was going to ask and solution as well. He seemed impressed but apparently I dropped an axe on myself. He got the idea that I am very good at puzzle and he asked me a tough one that I didn’t read about ever so I tried all that I could but couldn’t find the solution. Then he moved on to the next questions but seemed disappointed as he was starting to expect much from me.
+9)question-
+He asked me what is a data structure and why do we use one.
+Explained him.
+He asked some real life example of stack and queue.
+All I could gave him was programming examples but when he insisted on real life examples I gave him some weird made up not so real life example. :-p
+10)question-
+He asked me about recursion
+Explained him.
+As we were talking very much on each question. He felt like talking more and from tech he went around for some biggest learning from a mistake/biggest achievement of life kind of questions. There were other questions too which I can’t seem to remember now.
+He told me that he is done with the interview and If I had any questions.
+I asked him about opportunities to go foreign in future and he told me that there will lots of trips and opportunities to go Germany, US and other countries.
+So this round went for more than 1:30 hour but it was good.
+After this round 6/18 were cleared for the next round.
+4 Round- MANAGERIAL
+In this round initially introduction then he gave me a problem for making class diagram for an online shopping website within 5 minutes.
+I made that then he had some questions and also pointed out some naming mistakes but apart from that conceptually he seemed satisfied with my diagram.
+Then he asked me that he has explained different areas that SAP Labs in working in. which one I would be interested to work in. Now here comes the problem as I couldn’t remember what those areas were. So I said I’m interested in technical work and will be hoping to work on a managerial post after 4-5 years. He said that’s okay but as all the
+work we do is technical but which field i would like to work in. I was getting his point very clearly but I was afraid to say an area name in case SAP Labs is not working in that field and I’ll be screwed. So I said “I’m sorry sir.I am not getting your point”. He explained me that our company is working in ERP, Analytics, Cloud computing and gave some other name too(now I got all the names ? ). I thought for 10 seconds and chose cloud computing and analytics. He asked me why these and why not others. I explained him that my project was on analytics so I loved that I am also fascinated with cloud computing. He said okay how are you fascinated and what do you know about cloud computing. I explained him all that. He seemed happy.
+Then he asked me what career path I’ll be following. I didn’t remember those as well clearly so he drew all of them and then I selected one path and explained him my reasons. Lucky me that he wasn’t looking for how much attention I paid in PPT.
+ADVICE- pay attention during ppts.
+Then he asked me if I have any questions for him.I replied that I had but I asked in last round.
+(NEVER SAY “NO” WHEN GIVEN OPPORTUNITY TO ASK SOMETHING EVEN IF YOU DON’T HAVE ANY REAL QUESTIONS JUST ASK ANYTHING OR EXPLAIN THAT YOU HAVE ALREADY ASKED THEM IN PREVIOUS ROUND BUT NEVER SAY “NO”.)
+Only 4 students made it to HR round.
+5 Round- HR
+Initially intro.
+Then some situational question.
+Biggest disadvantage of working in a team.
+What would I do if I was given to complete 30 days of work in 1 week.
+Explained him with some made up stories and partial truth about my internship and he seemed satisfied.
+And some more HR questions. Can’t seem to remember them now.
+Then he said he is done and if I have any questions for him. Never say “NO” in HR for this.
+So I asked him about promotion criteria in SAP Labs.He explained very well.HR are really good. The way they categorize objective instantly and then start talking is really awesome. The way he explained the simplest question of mine was awesome.
+Then he told me to wait outside for results.
+Now all 4 students were done with HR. We waited for 20 minutes and then they came with 4 packets of gifts announcing selection of all 4 students.
+After that we went for dinner with recruiters.
+ADVICE
+Try to be truthful as much as possible in interview.
+Do not lie about your skills in resume.
+Use preparing materials like-
+For written exams—
+a) ***must do 295 C for o/p question practice.
+b) ***Solve geeksforgeeks quizzes, gate exam papers. c/c++ sections.
+Geeks for geeks is best source available for cs/it students. Use it well.
+For interviews—
+Prepare basics well during 3rd year in all subjects.
+Read all famous puzzles from puzzles sites.
+And most of all keep smiling during interview. 🙂
+

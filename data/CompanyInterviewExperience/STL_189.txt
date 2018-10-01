@@ -1,0 +1,9 @@
+forward_list::splice_after() is an inbuilt function in CPP STL which transfers the elements in the range of first+1 to last from a given forward_list to another forward_list. The elements are inserted after the element pointed to by position in the parameter. 
+Syntax:
+Parameters: The function accepts four parameters which are specified as below:
+Return value: The function has no return value.
+Below program demonstrates the above function: 
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

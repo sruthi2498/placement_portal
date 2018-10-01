@@ -1,0 +1,9 @@
+Given an array of strings, print them in alphabetical (dictionary) order. If there are duplicates in input array, we need to print all the occurrences.
+Examples:
+
+Prerequisite: Trie | (Insert and Search).
+Approach: In the previous post array of strings is being sorted, printing only single occurrence of duplicate strings. In this post all occurrences of duplicate strings are printed in lexicographic order. To print the strings in alphabetical order we have to first insert them in the trie and then perform preorder traversal to print in alphabetical order. The nodes of trie contain an index[] array which stores the index position of all the strings of arr[] ending at that node. Except for trie’s leaf node all the other nodes have size 0 for the index[] array.
+Below is the implementation of the above approach.
+Run on IDE
+Run on IDE
+

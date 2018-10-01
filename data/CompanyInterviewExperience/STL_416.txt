@@ -1,0 +1,21 @@
+std::sort is used for sorting the elements present within a container. One of the variants of this is std::partial_sort, which is used for sorting not the entire range, but only a sub-part of it.
+It rearranges the elements in the range [first, last), in such a way that the elements before middle are sorted in ascending order, whereas the elements after middle are left without any specific order.
+It can be used in two ways as shown below:
+Syntax:
+Run on IDE
+Output:
+Here, only first three elements are sorted from first to middle, and here first is v.begin() and middle is v.begin() + 3, and rest are without any order.
+
+Syntax:
+Run on IDE
+Output:
+Where can it be used ?
+Run on IDE
+Output:
+Run on IDE
+Output:
+Point to remember:
+Run on IDE
+Output:
+Explanation: Here, we applied std::partial_sort on v and std::sort on v1, upto second position. Now, you can understand that std::sort sorted only the element within the given range, whereas partial_sort took into consideration the whole container, but sorted only the first two positions.
+

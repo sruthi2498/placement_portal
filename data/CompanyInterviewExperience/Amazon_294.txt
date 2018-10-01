@@ -1,0 +1,28 @@
+Given an array arr[] of n integers, find the maximum that maximizes sum of value of i*arr[i] where i varies from 0 to n-1.
+Examples :
+
+Method 1 (Naive Solution : O(n2) )
+A simple solution is to try all possible rotations. Compute sum of i*arr[i] for every rotation and return maximum sum. Below is the implementation of this idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)
+Auxiliary Space : O(1)
+Method 2 (Efficient Solution : O(n) )
+The idea is to compute value of a rotation using value of previous rotation.  When we rotate an array by one, following changes happen in sum of i*arr[i].
+1) Multiplier of arr[i-1] changes from 0 to n-1, i.e., arr[i-1] * (n-1) is added to current value.
+2) Multipliers of other terms is decremented by 1. i.e., (cum_sum – arr[i-1]) is subtracted from current value  where cum_sum is sum of all numbers. 
+Below is the implementation of this idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)

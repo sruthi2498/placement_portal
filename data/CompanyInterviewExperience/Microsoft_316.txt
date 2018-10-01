@@ -1,0 +1,17 @@
+I recently got interviewed  for a position in Microsoft, following is my interview experience. 
+Round 1 (Telephonic):
+   Started with my introduction followed by my work in existing company.
+  1. Given a circular doubly linked list, delete a given element. He was looking for all the corner cases
+Round 2 
+   1. Given an integer array find largest sum of elements which is continuous (kadane algorithm), Later asked to make code changes to find the array also. Also asked to give test cases for the same.
+  2. Given a design of  an application, comment/recommend the changes to be done 
+Round 3:
+1. Given two linked lists check if they intersect??
+2. Test cases to test an ATM
+Round 4: 
+1. Find least common ancestors of a binary tree ( I said I know this, he moved to next question)
+2. Check if one array is subset of other ( discussed different methods like hashing, sorting ), asked to write a sorting function also
+3. Design questions related to the team they were interviewing for.
+Finally I got an offer from Microsoft, they are very pleased with my performance. All the interviewers are very friendly. Thanks a lot geeksforgeeks, with out your help this would not have been possible.
+Run on IDE
+

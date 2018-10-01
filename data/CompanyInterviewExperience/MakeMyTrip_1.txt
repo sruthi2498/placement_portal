@@ -1,0 +1,12 @@
+Interview was for Bangalore location. Candidates were called to the office. Questions ere straightforward but not sure of their expectations. There were lot of candidates, so longer waiting time.
+Round 1: F2F
+Interviewer asked about previous projects and experience. Some programming questions and to optimise it better. Topics covered like, singleton class, Double locking in singleton and explanation on how it’s working, why to use singleton over static class, hibernate questions.
+Algorithm problem: Given sorted array with 0′ and 1’s, find the array index where 1’s starts. I think I discussed well and communicated my thoughts well.
+Round2: Programming on paper
+Interviewer asked me to write a pseudocode and then the best code I can write. He made the discussion comfortable and I communicated my ideas well. In the hurry to solve the problem and to impress him i forgot that he asked to write best code. Also because of the comfort level I thought he will ask me if I can write better/generic code if that’s the priority and not the solving complex algorithm problem. He later mentioned that that are looking for self-guided/self-starter type programmers.
+Problems asked: 1. Code to compute max subarray sum and handle a case with all negative numbers. Write edge cases. (He asked me 3, I gave 4, he suggested 5th..I wonder if that unimpressed him).
+2. Given array of strings of constant length, how to change string1 to string2, by only changing one character at a time and we are only allowed to use intermediate strings present in the string array. (Suggested making a graph and using BFS)
+Had discussion on scalability topics like load balancer, cache, master slave db, write-through cache.
+Rejected after this round ultimately.
+Round 3:
+I didn’t make last technical round.

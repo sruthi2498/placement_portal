@@ -1,0 +1,8 @@
+Trie is an efficient information retrieval data structure. In our previous post on trie we have discussed about basics of trie and how to insert and search a key in trie. In this post we will discuss about displaying all of the content of a trie. That is, to display all of the keys present in the Trie.
+Examples:
+The idea to do this is to start traversing from the root node of trie, whenever we find a NON-NULL child node, we add parent key of child node in the “string str” at the current index(level) and then recursively call the same process for the child node and same goes on till we find the node which is a leafnode, which actually marks the end of the string.
+Below is the C++ implementation of above idea:
+Run on IDE
+Output:
+NOTE:  The above algorithm displays the content of Trie in Lexographically Sorted order.
+Some useful applications of Trie are:

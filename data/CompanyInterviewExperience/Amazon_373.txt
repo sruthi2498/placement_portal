@@ -1,0 +1,19 @@
+Given a positive integer n, find if it can be expressed as xy where y > 1 and x > 0. x and y both are integers.
+Examples :
+The idea is simple try all numbers x starting from 2 to square root of n (given number).  For every x, try x^y where y starts from 2 and increases one by one until either x^y becomes n or greater than n.
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+One optimization in above solution is to avoid call to pow() by multiplying p with x one by one.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

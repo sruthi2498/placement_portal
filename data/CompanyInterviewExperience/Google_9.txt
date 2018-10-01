@@ -1,0 +1,13 @@
+Given an array of length n + 1, containing elements 1 through n and a space, Requires the use of a given swap (index i, index j) function to sort the array, You can only swap the gap and a number, in the end, put the gap at the end.
+There will be a number 999 in array as gap or space.
+Examples:
+We follow a recursive approach to solve this problem. As we can only swap numbers with the space. First of all we find the index of space. If the index is start of array, then move this space to the second last index by swapping with each number in it’s right.
+If space is neither start of array nor last element of array and element before it greater than the element next to space then do following.
+Step 1: Swap space and element next to space
+       In case of {3, 999, 2} make it {3, 2, 999}
+Step 2 : Swap space and greater element
+   eg-convert {3, 2, 999} to {999, 2, 3} 
+Otherwise, elements next to index are sorted and swap it with the previous element. Again call the sort function with size of array decreased by 1 and index of space – 1 as we will get one sorted element each time.
+Run on IDE
+Output:
+Time Complexity- O(n2)

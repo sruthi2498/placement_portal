@@ -1,0 +1,67 @@
+I applied to Microsoft through referral program for Internship as software development engineer. All of the candidates who applied through referral were invited for an online coding test on co-cubes platform after 2-3 weeks.
+Online Coding Round (On Co-Cubes) :-
+Three questions were given in 75 minutes of time to solve. Solving on co – cubes platform is a nightmare by the way, no auto – completion, cannot even copy – paste or test your code manually.
+Question 1 (2 – Marks) : It was either compare two strings or add two strings (each character of a string was from 0 – 9).
+Question 2 (3 – Marks) : Find largest subarray with distinct elements in it.
+https://www.geeksforgeeks.org/subarrays-distinct-elements/ ( Here its asked to calculate sum )
+Question 3 (5 – Marks) : Write a function that accepts root of binary tree as its argument and return the sum of all leaf nodes at maximum depth from root.
+https://www.geeksforgeeks.org/sum-leaf-nodes-minimum-level/
+This question is just the opposite but the core idea remains same.
+E.g    1
+……../ \
+…….2   3
+……/      \
+…..2       1
+Ans :- 2 + 1 = 3
+The system testing of solutions was done after your submission of all 3 questions, and result is not shown to you (whether all 3 went correct or not). You were however given a very weak test case on co-cubes to check your solution, which easily showed false positive.
+You have to solve ALL 3 questions to qualify this round and try to write as optimal solution as possible.
+All students who qualified coding round were invited to Microsoft Gurgaon for further interview process.
+Group Fly Round : –
+Around 60-65 students appeared for group – fly round. It was a pen – paper test. We were provided with only one question, to be solved in 45 minutes.
+ Question – Given a binary tree convert it into n-ary tree with following conditions each node at same level are connected to each other from left to right in a single chain and the whole level is connected to root R.
+E.g       1                     R
+………../  \                  / | \
+………2    3       ->   1   2  4
+……./      / \                  |     \
+…..4     5   6                3      5
+………………………………….\
+…………………………………..6
+One part of this question is something similar to https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+and in the next part we had to define a data – structure (this was important) for our output tree and connect accordingly.
+We have to write the whole program from input to output, along with some test cases and dry run your solution (They wanted to test your program testing skills for corner cases). They were also expecting optimized solution. You are allowed to use any language.
+Note : – Try to write clean code as possible and use meaningful variable and function names and keep talking about different approaches to your assigned mentor.
+I solved it using queue and level order traversal with output structure defined as follows :
+struct Node{
+struct Node* root;
+vector<struct Node*> child;
+int value;
+};
+Nearly 20 – 25 students were selected for next round.
+Round 1 (Technical) : –
+Question 1 – Given a binary tree, return the root of largest BST subtree in it.
+ https://www.geeksforgeeks.org/find-the-largest-subtree-in-a-tree-that-is-also-a-bst/
+I had to completely code it on paper from input to output, and then explain the whole code.
+Write few test cases for it (including some edge cases) and dry run my solution.
+Interviewer first went through my resume. He then asked me to explain one of my project(Specifically what part I did).
+He than began asking me questions from OS ( He asked from scheduling, context switch, PCB, Virtual Memory), he was quite impressed from me as I gave almost all the correct answers.
+The interview went for around 45 minutes.
+Round 2 (Technical) :-
+Question 1 – Given a binary tree, print its left view.
+https://www.geeksforgeeks.org/print-left-view-binary-tree/
+I had to code its leftViewUtil function.
+Question 2 – WAP to rotate a array by k elements.
+ https://www.geeksforgeeks.org/array-rotation/
+I just had to explain my logic, I gave him two approaches first one was with O(k) extra space (Method 1) and 2nd one was Method 3 of above link. He was satisfied with my logic but he wanted to think of another approach so he gave me a hint of something to do with reversing the array so the code would be of 3 lines.
+After this hint I was able to give him the approach he wanted.
+ https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/
+Round 3 :-
+My interview was taken by a senior person. He asked to me introduce myself, and then proceeded to ask about my interests (related to CS). Throughout the interview, he was talking with me discussing different things and asking questions. He asked me my favorite problem. I described him a dynamic programming problem. Then he asked me a lot of questions related to OS(Critical Section Problem, Memory Management).
+After that, he asked if I had any questions for him. I asked few questions and it was over.
+Final Result was declared within half and hour and I was selected. Along with me 4-5 more students were selected.
+The total interview process was conducted from around 9 am to 6 pm.
+ADVICE :-
+Clear concept of data structure and algorithm is necessary, alongside knowledge of OOPS concepts, OS and DBMS is also important. Project’s are also necessary, and having some interesting projects surely attracts curiosity of the interviewer.
+Do not panic if you are stuck, or not able to answer. Try from very basic approach from brute force to actual solution and keep talking to your interviewer discussing various approaches it is the most important part.
+GFG is must to be able to perform good in interviews.
+ 
+This article is contributed by Shubham Kothari.

@@ -1,0 +1,17 @@
+Given an array of positive integers. We need to make the given array a ‘Palindrome’. Only allowed operation on array is merge. Merging two adjacent elements means replacing them with their sum. The task is to find minimum number of merge operations required to make given array a ‘Palindrome’.
+To make an array a palindromic we can simply apply merging operations n-1 times where n is the size of array (Note a single element array is alway palindrome similar to single character string). In that case, size of array will be reduced to 1. But in this problem we are asked to do it in minimum number of operations.
+Example :
+Expected time complexity is O(n).
+
+
+Let f(i, j) be minimum merging operations to make subarray arr[i..j] a palindrome. If i == j answer is 0.  We start i from 0 and j from n-1.
+Therefore this problem can be solved iteratively using two pointers (first pointer pointing to start of the array and second pointer pointing to last element of the array) method and keeping count of total merging operations done till now.
+Below is implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity for the given program is : O(n)
+

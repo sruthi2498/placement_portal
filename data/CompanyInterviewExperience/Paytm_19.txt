@@ -1,0 +1,27 @@
+I was interviewed by Paytm  for a Software Engineer profile.
+Round 1: “Coding Round” 
+The coding test was taken on Mettl. Two questions, 1 Hr time.
+Each question had around 10-12 test cases to be passed. A list of candidates was announced for F2F interview.
+It was going to be a long day! Phew!
+Round 2: F2F (1 Hr)
+Basic Introduction. The interviewer went through the Resume, asking question on it.
+Was asked to implement Immutable class. A detailed discussion on Immutable classes.
+Was Asked to implement and explain inner working of Thread Pool and Semaphores.
+Round 3: F2F (1 Hr)
+Basic Introduction. The interviewer went through the Resume, asking question on it.
+A detailed discussion on HashMap and inner working of it. Discussion on how/when to increase size of it. Discussion on threshold value and load Factor.
+http://javaconceptoftheday.com/initial-capacity-and-load-factor-of-hashmap-in-java/
+Was asked to write production code for implementing a LinkedHashMap where items when retrieved comes out in the same order as inserted.  An update on already present element makes it as a new element.
+Production level code for three functions were asked to implement with every case covered:
+Asked me about its Time/Space Complexity.
+Round 4: F2F (~35 Mins)
+Basic Introduction. The interviewer went through the Resume, asking question on projects I’d on it in detail.
+Was asked to explain working of a Trie, as I had used it in one of my projects. Also few Question related to OS (I don’t really remember them now!)
+Round 5: F2F (HR Round)
+Basic HR questions. It went on a fun track asking about travel and places to visit around:p
+ 
+ 
+                                         
+
+
+

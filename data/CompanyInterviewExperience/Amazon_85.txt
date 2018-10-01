@@ -1,0 +1,6 @@
+Problem Statement
+A road is divided into two ways of which one leads to City of truth and other leads to City of Lies. All the people of City of Truth always tell truth and all the people from City of Lies always lie. There are two people standing at the division one from City of Truth and other from City of Lies. You don’t know who belongs to which city. You can ask only one question from any of the two people standing there to determine which way leads to city of truth and which leads to city of lies.
+
+Answer Statement
+Ask anyone, “Which city do you belong too?”.
+In this case, the person belonging to City of Truth always tell the truth and will tell you the way to his city, while the person belonging to City of Lies will lie and point in the direction of City of Truth.

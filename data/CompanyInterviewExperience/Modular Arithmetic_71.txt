@@ -1,0 +1,11 @@
+Given a number (as string) and two integers a and b, divide the string in two non-empty parts such that the first part is divisible by a and second part is divisible by b. If string can not be divided into two non-empty parts, output “NO”, else print “YES” with the two parts.
+Examples:
+A simple solution is to one by one partition array around all points. For every partition, check if left and right of it are divisible by a and b respectively. If yes, print the left and right parts and return.
+An efficient solution is to do some preprocessing and save the division modulo by ‘a’ by scanning the string from left to right and division modulo by ‘b’ from right to left.
+If we know the remainder of prefix from 0 to i, when divided by a, then we compute remainder of prefix from 0 to i+1 using below formula.
+lr[i+1] = (lr[i]*10 + str[i] -‘0’)%a. 
+Same way, modulo by b can be found by scanning from right to left.  We create another rl[] to store remainders with b from right to left.
+Once we have precomputed two remainders, we can easily find the point that partition string in two parts.
+Run on IDE
+Output : 
+Time Complexity : O(len) where len is length of input number string.

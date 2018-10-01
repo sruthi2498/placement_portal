@@ -1,0 +1,19 @@
+Given a number N. You are tasked with finding the smallest number S, such that N is a factor of S! (S factorial). N can be very large.
+Examples:
+Naive Approach
+We iterate from 1 to N, calculating factorial in each case. When we find a factorial that’s capable of having N as a factor, we output it. This method will be difficult to implement for large N, as the factorial can become very large.
+Time Complexity: O(N^2)
+Optimized Naive Approach
+Instead of iterating from 1 to N, we use binary search. This is still a bad method, as we are still trying to calculate N!
+Time Complexity O(N log N)
+Optimum Solution
+We can first calculate all the prime factors of N. We then reduce our problem to finding a factorial which has all the prime factors of N, at least as many times as they appear in N. We then binary search on elements from 1 to N. We can utilize Legendre’s Formula to check whether a number’s factorial has all the same prime factors. We then find the smallest such number.
+Run on IDE
+Run on IDE
+
+At no point do we actually calculate a factorial. This means we do not have to worry about the factorial being too large to store.
+Lagrange’s Formula runs in O(Log N).
+Binary search is O(Log N).
+Calculating prime factors is O(sqrt(N))
+Iterating through prime factors is O(Log N).
+Time complexity becomes: O(sqrt(N) + (Log N)^3)

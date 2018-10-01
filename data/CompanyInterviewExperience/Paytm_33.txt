@@ -1,0 +1,25 @@
+There are n houses build in a line, each of which contains some value in it. A thief is going to steal the maximal value of these houses, but he can’t steal in two adjacent houses because owner of the stolen houses will tell his two neighbour left and right side. What is the maximum stolen value.
+Examples:
+
+While reaching house i thief has two options, either he robs it or leave it. Let  dp[i] represents the maximum value stolen so far on reaching house i. We can calculate the value of dp[i] as following – 
+Thief  will consider both options and decide whether to rob or not and maximum of both values will be the maximum stolen value till reaching house i.
+We can prepare dp in bottom up manner instead of recursively. Following is the program for that –
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity = 
+Space complexity  = 
+We can optimize extra space, by using two variables to store value dp[i-1] and dp[i-2]. Following is the program for that –
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity = 
+Auxiliary Space   = 

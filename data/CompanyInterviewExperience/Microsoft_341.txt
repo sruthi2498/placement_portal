@@ -1,0 +1,12 @@
+Online Test:
+MCQs: Mostly comprise the following types: find the output, definitions of basic C/C++ concepts.
+Coding questions:
+1) Given a very large string, print the last ten lines.
+2) Do a level order traversal of a binary tree.
+Interview Round 1:
+1) Find the output:
+Run on IDE
+There was a very detailed discussion on this question for nearly twenty minutes. I think I kind of screwed this one. Basically, I had to explain how and why does a segmentation fault occurs.
+2) Suppose a linked list contains list of documents containing a particular word. You are given two such linked lists and you have to print names of all documents that contain both these words. [I gave an algorithm based on the assumption that the list contains document names in sorted order]. I was also asked to write the code regarding this. This operation can be classified as (A and B), where A and B are the words and they have lists associated with them. He then moved on to more complicated cases such as (A and B or C and (not D)). Brackets may or may not be presented. I was only asked to give an algorithm corresponding to this.
+3) What are the steps that occur when you send an E-Mail. A detailed discussion was done regarding this wherein we also discussed about the layers of the OSI model, the protocol used for sending E-Mail, the layer to which it belongs to.
+

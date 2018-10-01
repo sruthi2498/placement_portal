@@ -1,0 +1,20 @@
+The first round was the basic elimination round- online coding test. There were sets of questions and everybody got 3 random questions from it. The marking scheme of the questions was 2, 3, 5 marks. The test was conducted on cocubes platform. The test duration was 75 minutes. Here are some of the set questions I remember:
+1.) Delete m nodes after n nodes of a linked list
+2.) Calculate the sum of two numbers and return the sum if the sum and first no have same no of digits else return the first no.
+3.)Evaluate infix expression.
+3.) Trim BST.
+4.) Find the day from the given date.
+5.) Based on Rounding off a number.
+Around 54 people were shortlisted for the next round.
+Then we had a group fly round. There were 2 questions:
+1.) Resolve the unix path. (I did this using a stack)
+2.) No of encodings possible(based on DP)
+After this, only 16 people were shortlisted.
+Then, we had the first technical interview. I was asked about my favourite data structure, complexity of BST, AVL, etc. Then, I was asked to code a min depth question where merging of nodes had to be done. (horizontal distance approach). Next question was to find the minimum index in a stream of characters which matches all the characters in a given string. (I solved it using a hashmap). Also I had used Neo4j in one of my project so I was asked how graph databases are better than the others.
+ 
+In the second technical interview, I was asked https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/ . Second question was to find the largest number smaller than the give number by only using the digits in the given number. Then I was asked to reverse a linked list iteratively.
+ 
+In the third and final technical interview, I was first asked to find the Kth neighbour of a node in a binary tree. Then i was asked to find the column number if the column name in ana excel sheet was given.
+Overall, what I learnt during the interview process is that if you’re stuck anywhere, seek help from the unexpected source- the interviewers. Ultimately, they are in your campus to get you on board with them and hence are ready to give hints whenever you’re stuck. The key is to keep communicating everything that’s on your mind to the interviewer so as to know if you’re moving in the right direction and always listen and use their feedback carefully.
+Finally, 4 students were selected for the internship.
+Thanks to geeksforgeeks for being the best site to practice coding and prepare for interviews.

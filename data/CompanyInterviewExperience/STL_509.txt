@@ -1,0 +1,4 @@
+Unlike normal C/C++ arrays, we don’t need to do element by element comparison to find if two given vectors contain same elements or not.
+In case of vectors, the operator “==” is overloaded to find the result quickly. Below is an example to demonstrate same.
+Run on IDE
+Output : 

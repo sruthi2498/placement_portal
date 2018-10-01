@@ -1,0 +1,18 @@
+Given a number x, determine whether the given number is Armstrong number or not. A positive integer of n digits is called an Armstrong number of order n (order is number of digits) if.
+Example:
+
+The idea is to first count number digits (or find order). Let the number of digits be n. For every digit r in input number x, compute rn.  If sum of all such values is equal to n, then return true, else false.
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Run on IDE
+
+Find nth Armstrong number
+Run on IDE
+Run on IDE
+
+
+References:
+http://www.cs.mtu.edu/~shene/COURSES/cs201/NOTES/chap04/arms.html
+http://www.programiz.com/c-programming/examples/check-armstrong-number

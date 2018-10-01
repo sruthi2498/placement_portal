@@ -1,0 +1,9 @@
+Two dice are thrown simultaneously. What is the probability of getting two numbers whose product is even?
+(A) 7/9
+(B) 5/8
+(C) 3/4
+(D) 1/2
+ Answer: (C) Explanation: Total number of outcomes = 6 * 6 = 36.
+Number of favorable outcomes = (1,2/4/6), (2,1/2/3/4/5/6), (3,2/4/6), (4,1/2/3/4/5/6) (5,2/4/6), (6,1/2/3/4/5/6) = 3 + 6 + 3 + 6 + 3 + 6 = 27.
+Therefore, required probability = 27/36 = 3/4.
+Quiz of this QuestionPlease comment below if you find anything wrong in the above post

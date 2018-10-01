@@ -1,0 +1,6 @@
+Given a word and a text, return the count of the occurences of anagrams of the word in the text(For eg: anagrams of word for are for, ofr, rof etc.))
+Examples:
+A simple approach is to traverse from start of the string considering substrings of length equal to the length of the given word and then check if this substring has all the characters of word.
+Run on IDE
+An Efficient Solution  is to use count array to check for anagrams, we can construct current count window from previous window in O(1) time using sliding window concept.
+Run on IDE

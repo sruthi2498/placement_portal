@@ -1,0 +1,34 @@
+ROUND-I
+The first round comprised of 30 MCQ questions including C output questions,Data Structures and Algorithms, Operating Systems,DBMS(Test Duration: 40 minutes).
+Questions were mostly easy with a few exceptions of course.
+25 students were shortlisted for second round.
+Note: You have to carry your laptops along with you in each of the following technical round as they will look at your projects and make you code live.
+14 students moved to the next round.
+ROUND-II(Technical)
+This round was totally based on my project. As I have made a project on Socket Programming in Java,the interviewer started asking questions from Computer Networking. This round went on for about 45 minutes.
+Tips:- Get your projects working and make sure that you have in depth knowledge of the technologies that you used to make that project.
+ROUND-III(Technical)
+First he asked me about my favorite subjects. I told him I like Data Structures and Algorithms, Operating Systems, DBMS, Computer Networking(All of them 😛 ).
+Then he started with rapid fire on all the above subjects. Here are a few I remember:
+1. What is LRU? Where is it used?
+2. Give an example of query which uses subquery.
+3. What are the three pillars of OOPS? Explain them.
+4. TCP vs UDP?
+5. Name the layers of OSI model.
+6. What are different topologies?
+Then he gave me 2 coding questions which I have to solve on my laptop.
+1. Given an array of n elements, rotate the array elements clockwise k times.(time given:5 minutes).I solved it
+2. Second question was Coin Change problem(Dynamic Programming) and he gave 15 minutes for this. I wrote the code but couldn’t get the right output. He gave time for debugging but still couldn’t figure out.
+Tips:- Make sure you have strong hold of OOPs concepts and core subjects like OS, DBMS, Networking.  They will make you code so be prepared for it.
+Round-IV(technical)
+He asked me to write algorithm to implement Quicksort on a doubly linked list. While i was writing he interrupted and asked me to explain the algorithm.
+Then he asked if i know what Dynamic Programming is. I told him. Then he asked me to name a few more approaches using which we can solve problems. I told him Greedy Approach and Divide and Conquer. He asked me to give an example of each. For Greedy Approach i said TSP and then he asked if we can apply Divide and Conquer in TSP. Why and why not?
+Then he gave me a puzzle. There is a circle of radius R/4 on the top of another circle  of radius R. Then we start rotating the smaller circle along the circumference of the larger circle. When the smaller circle returns to the starting position i.e after one round , how many rotations it would have completed on its own.
+11 students moved to HR.
+ROUND-V(HR)
+If you manage to reach this round then you are good to go.This round was more like a general conversation. No one was eliminated in this round.
+1. Tell me about yourself.
+2. Where do you see yourself in 2 years and 5 years?
+3. What are you passionate about?
+4. What do you look for inn a company?
+5. Would you be comfortable in moving to Bangalore?

@@ -1,0 +1,28 @@
+Online Written
+1.       Cant remember the question exactly, but it was bit easy and was easily solvable using the substring function for the string.
+2.       Need to find whether two rectangles overlap or not
+3.       Need to find the matching percentage , if we are given two paragraphs         
+Telephonic
+1.       Need to find the least common ancestor for given two nodes
+2.       Implement Min stack problem with other optimizations
+Fully functional code and covering all boundary conditions was required
+Face to face 1 (Hiring manager)
+1.       Top K words from the file containing millions of words. Proper code for the scenario.
+2.       Why do you want to change the company
+3.       What is your manager review for you in your current company
+4.       What all projects you worked on and detail
+5.       Some other non tec questions
+Face to face 2
+1.       Given a number n where n means 0,1,2,3….n-1. Compute the no of BST which can be formed using this range as input in any order
+2.       Given a string input : aaabbccdeeabb output should be : a3b2c2de2ab2
+Challenge here is that we need to do it in place, without any other string or data structure
+For both the problems full code with all the boundary conditions was required
+Face to face 3
+1.       Rotate a 2D matrix by 90 degree, but here the matrix is stored in 1D form
+2.       Given a linked list which contains representation of any number, like for 1234, the representation will be 1->2->3->4. Now we need to add 1 to the number, so that the output is 1->2->3->5
+3.       Then he asked me 1-2 questions for which I immediately responded the solution, through that he got the idea that I already know the solution
+4.       Moved to the white board, he draw a matrix, each contains only 0 ad 1 but in sorted manner. I need to return the row which is having the max no of zeros. Then he asked me optimized solution for finding the first ‘1’ in the array
+5.       Then he explained me a production line problem, Many factors were involved in that, robotic arm need to draw some lines with various colors on some wall. We need to minimize the cost of drawing those lines, Code was not required in that situation, as the problem set was very big, but we discussed the complexity plus solving procedure for each of the factors of the problem. Every minute detail of how will I solve the problem.
+Basically problem itself was composed of many different types of sub problems, keeping mind open at that time is very important.
+Then after few days, I mailed the HR regarding the result, she told me one round is still pending, will update soon and after 1-2 week, they sent the mail for halting the process, didn’t get any solid reason, as it was totally unexpected, all my rounds went well.
+

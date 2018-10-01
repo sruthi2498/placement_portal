@@ -1,0 +1,21 @@
+Consider an array of string and find duplicate words in that array and print that duplicate words if exist.
+Examples:
+
+Method 1 (Using Sorting) 
+1. Sort array of string.
+2. compare adjacent word in array of string.
+3. if two word are same then push that word in another vector string.
+4. print the duplicate words if exist.
+Run on IDE
+Output:
+ 
+Method 2 (Using Hashing) 
+1. Create an empty hash table.
+2. One by one traverse words.
+3. For every word check if already exists in the hash.
+……..if (already exists in hash)
+………….Print the word
+……..Else
+………….Insert the word in hash.
+Run on IDE
+Output:

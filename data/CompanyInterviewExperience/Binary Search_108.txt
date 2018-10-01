@@ -1,0 +1,12 @@
+You are given a bitonic sequence, the task is to find Bitonic Point in it. A Bitonic Sequence is a sequence of numbers which is first strictly increasing then after a point strictly decreasing.
+A Bitonic Point is a point in bitonic sequence before which elements are strictly increasing and after which elements are strictly decreasing. A Bitonic point doesn’t exist if array is only decreasing or only increasing.
+Examples :
+
+A simple solution for this problem is to use linear search. Element arr[i] is bitonic point if both i-1’th and i+1’th both elements are less than i’th element. Time complexity for this approach is O(n).
+An efficient solution for this problem is to use modified binary search. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(Log n)

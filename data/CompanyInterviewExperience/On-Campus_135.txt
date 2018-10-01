@@ -1,0 +1,32 @@
+(Aug, 2018): Insight: It was on-campus, students from ME and BE computer science were only eligible. The cgpa cut off was 8.5, but later they reduced to seven. There were two profiles Server Technology group (ST group) and Apps Development (Apps group).
+Round1:
+Cumulative of A and B were taken.
+Part A:
+Multiple choice questions as well as some fill in the blanks type questions were there. The test covers topics comprises of Quantitative, Reasoning, some C program (find output) and Java program – all of them are graph and tree based, English comprehensive. Each section has 15-20 min which was further divided into fix 5-7 min.
+You have to be very quick to solve. However, you don’t require separate preparation.
+I performed poorly.
+Part B:
+Next day coding round was there. Two questions were asked.
+1. Find the maximum length distinct substring in a given a string,
+e.g. S = “abbaacdekdfjjk” o/p: acdek
+2. A cricket player has to score N runs, with condition he can take either 1 or 2 runs only and consecutive one should not be 2. Find all the possible combination he can take
+e.g. N = 4, o/p = 3 (1+1+1+1, 1+2+1, 2+1+1, 1+1+2)
+Solved both problems.
+Round2:
+Total 66 sits in the first round, 22 shortlisted for ST profile (who performed overall better in round 1 as well as all who solved both coding problems) and 24 shortlisted for Apps profile.
+This round was mainly problem discussion.
+P-1: I was asked to optimize my code that I submitted round 1, part B first problem.
+P-2: Given a singly linked list, find kth element from the right end. Space complexity has to be O(1) and TC has to be O(n).
+P-3: Discussed a project that I mentioned in my resume. He was particularly interested whether the outcome of the project is some product or not. It has to be challenging.
+P-4: Asked a puzzle, Given 7 min, 4 min sand timers, How can we calculate 9 min ?
+Round3:
+P-1: Given n array with different sizes, all sorted, you’ve to merge all these into single sorted array.
+https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
+He asked whether I know Java, SQL. I said no. Then, he asked me to design data base storage system. Then, for 30-40 min, we discussed pros and cons of my design as well as improvement.
+Then, we discussed some random topics related to Big data industry (casual).
+Round4:
+Usually, everyone has three rounds and one HR. But I had another tech round. As I was good in data structure and coding, but not very good and neither have any prior knowledge of data base. Therefore, they took another round. They asked my favorite topics, replied files ystem.
+He asked me questions from the Unix file system and Google file system (in details).
+HR Round:
+This was normal hr round as supposed to be. They put me on waiting list one.
+Result: Not selected

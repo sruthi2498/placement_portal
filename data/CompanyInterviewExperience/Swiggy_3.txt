@@ -1,0 +1,49 @@
+First Round (Online Coding on HackerRank)
+4 problems
+Time -90 min
+1. Stock Buy Sell to Maximize Profit
+link- https://www.hackerrank.com/challenges/stockmax
+2. Given A string you need to print all subset of that string
+3. Check if a given sequence of moves for a robot is circular or not
+Input: path[] = “GLGLGLG”
+Output: Given sequence of moves is circular
+Input: path[] = “GLLG”
+Output: Given sequence of moves is circular
+link- https://www.geeksforgeeks.org/check-if-a-given-sequence-of-moves-for-a-robot-is-circular-or-not/
+
+Second Round (F2F Interview) 45 min.
+1. First he asked me to design the database for food shop, then he asked me to minimize the complexity of database and then he asked me some DBMS Query related to Join Operation.
+2. Given a Sorted array in which all elements are repeated except one element. Find non repeated element in O (log n).
+3. Some Questions On DNS server and IP address.
+4. What is cache Memory? What is TLB? And uses?
+5. Which policy you will use to swap pages? Implement LRU?
+
+Third Round (F2F Interview) (70-80) min.
+1. Discussion on project
+2. What is Encryption? How you can use it in your project?
+3. What is Block cipher and Advanced Encryption Standard (AES)? If someone knows that you are using
+Polybius Cipher then what is the complexity in decrypting your original data (information)?
+4. He modified “Stock Buy Sell to Maximize Profit “problem i.e. you can’t buy or sell stock continuously and you can skip any day to sell or purchase.
+3. Diff between Mutex and Semaphore?
+4. There is stream of infinite number you need to find the median of number?
+5. There are 4 resources and 4 process .Is there any condition in which Deadlock occurs?
+6. Find an Element in A Sorted Array which is rotated any number of times.
+7. Again he asked me about Robot problem (1st round 3rd question).
+8. What is synchronization? If a process has opened a word file in write mode and preempted beforeclosing it, at the same time another process is trying to open that file in write mode .Will it Open or Not?
+
+Fourth Round (Online Interview on Skype) 60 min
+1. Any challenging task you did in last two Years?
+2. Write a code For Expression Evaluation?
+3. If i type www.facebook.com and clicked on search button, what will happen in background?
+4. Tell me about data structure that DNS server uses? How DNS search for IP address?
+5. O (2^n), O (n!) Which one complexity is better and why? Prove mathematically.
+6. How Hashing works? Why its complexity is always O (1).
+7. Again he asked about my Project.
+
+Fifth Round (HR round) 20 min
+1. Tell me about yourself?
+2. How was your online interview round?
+2. Why you want to join Start-up like Swiggy even you have other companies also?
+3. Do you have any question?
+Then i asked 3-4 questions.
+Thank you GeeksforGeeks 🙂

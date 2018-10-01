@@ -1,0 +1,7 @@
+reverse() is a predefined function in header file algorithm. It is defined as a template in the above mentioned header file. It reverses the order of the elements in the range [first, last) of any container.
+Note: The range used is [first,last), which contains all the elements between first and last, including the element pointed by first but not the element pointed by last.
+Syntax:
+
+Examples:
+Run on IDE
+Output:

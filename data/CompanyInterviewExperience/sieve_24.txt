@@ -1,0 +1,15 @@
+A frugal number is a number whose number of digits is strictly greater than the number of digits in its prime factorization (including exponents). If the exponent is 1 for a certain prime, involved in the prime factorization, then that exponent does not contribute to the number of digits in the prime factorization.
+Some examples of frugal numbers are:
+1) 125 = , here the number of digits in the number is three (1, 2 and 5) which is strictly greater than the number of digits in its prime factorization which is two (5 and 3). 
+2) 512 = , here the number of digits in the number is three (5, 1 and 2) which is strictly greater than the number of digits in its prime factorization which is two (2 and 9).
+3) 1029 = 3 × , here the number of digits in the number is four (1, 0, 2 and 9) which is strictly greater than the number of digits its prime factorization which is three (3, 7 and 3).
+The first few frugal numbers are : 125, 128, 243, 256, 343, 512, 625, 729, ….
+It may be noted here that prime numbers are not frugal numbers, since the number of digits in the prime factorization of a prime number is equal to the number of digits in the prime number (since exponents of value 1 are not considered).
+Example 19 = , but the 1 in the exponent does not contribute to the number of digits in the prime factorization of the number. Hence the number of digits in the number is two (1 and 9), which is equal to the number of digits in its prime factorization (1 and 9).
+A program to find whether a number, ‘n’ is frugal or not involves simple steps. First, we find all prime numbers upto ‘n’ and then find the prime factorization of n. Finally, we check whether the number of digits in n, is greater than the number of digits in the prime factorization of n.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Optimization : 
+The above code can be optimized using the approach discussed in Print all prime factors and their powers

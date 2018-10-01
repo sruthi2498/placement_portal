@@ -1,0 +1,19 @@
+Recently I had appeared for Yatra Interview. I would like to share my experience.
+1st Round: (Technical Round)
+—————————-
+1. Tell me about yourself and your current company work.
+2. Find whether two strings are anagrams of each other or not.What would happen if strings are very large.
+3. Level Order traversal of a binary tree.
+4. Given an unsorted array: Print all pairs having sum equal to given sum. After solving this, question was modified  NOT to print duplicate pairs.
+2nd Round: (Technical Round)
+—————————-
+1. Tell me about yourself and your current company work.
+2. Find whether a binary tree is BST or NOT.
+3. Design a stack with findMax() (getting maximum element from stack) in O(1).
+4. Given a binary tree, find whether all leaves are at same level or not.
+5. Check whether given linked list is palindrome or not.Write optimized code handling all edge cases.
+3rd Round: (HR Round)
+———————
+1. Normal HR Questions.
+2. Difference between HashMap & LinkedHashMap.
+After few days, I got the offer :D. Thanks to GeeksForGeeks for providing solutions in a very simple manner which helped me a lot in the preparation. To crack Yatra interview, Data Structures and Algorithms concepts should be clear. Knowing Java/C++ is a plus point.

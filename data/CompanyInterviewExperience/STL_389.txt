@@ -1,0 +1,12 @@
+Operator overloading is one of the features of Object oriented programming which gives an extra ability to an operator to act on a User-defined operand(Objects).
+We can take advantage of that feature while debugging the code specially in competitive programming. All we need to do is to overload the stream insertion operator(See this article to understand more) “<<" for printing the class of vector, map, set, pair etc. For instance,
+Vector
+Run on IDE
+Set
+Run on IDE
+Map
+Run on IDE
+Pair
+Run on IDE
+As we can see from above, printing or debugging would become easier as we don’t need to write down the extra for loop or print statement. All we need to write the specific container name after the insertion operator “<<" of cout.
+Exercise: Now let’s design your own template with operator overloading for other container class according to your requirement. 

@@ -1,0 +1,24 @@
+Hello guys, I am having a 1.3 year of experience and I applied in Paytm money for software engineer profile.
+Round 1: online test.
+Round 2: all algorithm questions.
+Round 3: algorithm + java + spring boot framework.
+Round 4: projects + 1 algorithm + query optimization.
+Online test(1 hrs):-
+   1. Coin change problem modified version, time O(n*n).
+   2. Balanced parenthesis problem, and print longest braces length, time O(n).
+Algorithm:-
+Java:-
+   1. Internal implementation of HashMap.
+   2. Difference b/w Abstract and interface.
+   3. write a custom class to achieve Mutability.
+   4. Java multithreading with both approach differences.
+Spring boot:-
+   1. Dependencies of injection, inversion of control.
+   2. Some annotations.
+   3. What’s the problem we are facing without Dependencies of injection.
+Project:-
+   1. Ask current working project with some internal and deeper discussion.
+   2. Query optimization and some internal working of the database which I was using in my current project.
+Optimize the query:-
+Select a, b, c from table where d=* and e=*;
+ 

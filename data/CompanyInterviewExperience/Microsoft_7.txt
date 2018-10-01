@@ -1,0 +1,23 @@
+The complete process involved one online round, one group fly, few technical interviews, f2f interview with senior manager.
+Online Coding Round: 
+This round had 3 questions and was conducted on the cocubes’ platform. The questions that I got were:
+People who had a good CGPA (9+) or had done at least 2 questions went to the next round.
+Group Fly:
+There were around 22 people who gave the group fly round, 15 of which got selected for the interview. We were given two questions in this round, we had to discuss the approach with our mentors and write a compilable code on a page. The questions were:
+Try to write clean found with a lot of comments and proper variable names. They also considered if you have given an iterative approach or a recursive (iterative was more preferred since it’s faster, but it did not make much difference in the end).
+Technical Interviews:
+I had 3 technical interviews, try to interact with the interviewer as much as you can. If you are giving them a brute force approach, make sure you tell them what is the problem with it before jumping into an optimized solution.
+Round 1: All the questions in this round were based on arrays.
+The first question I got was to count the number of distinct numbers in a window of size k. The solution can be found here. I gave 2-3 approaches with their time and space complexity before coming to the O(n) solution.
+In continuation to this, he asked me to print the largest number in the window of size k. The solution can be found here. I had to write a compilable code for this problem, I solved it using dequeue. He also asked me to create test cases and dry run my code, I was judged on whether I can think of the corner cases in my approach.
+Round 2: This round had a mixed bag of questions.
+The first question was based on binary search, just to warm things up. He asked me a few questions on strings ( like largest substring with unique characters and LCS), but I told him I had already seen them before so we moved on to dynamic programming questions.
+In the next question, I was given a boolean array with A[i]=1 denoting that the ith place is safe and A[i]=0 meant that the ith place contained a bomb. Given an initial speed k, after reaching a safe point, you could either increase or decrease my speed by 1, or keep it the same. You can move exactly k number of steps in the array where k is your current speed. If you reach the end of the array or your speed becomes 0 at any safe point, you win. If you step on a bomb or go beyond the array size, you die. In how many ways could you win the game? I first gave him a recursive solution then tried a dynamic programming approach to solve the problem. Except for a few corner cases, I could do this problem.
+The last problem in this round was tree based, I was given a binary tree with nodes containing a number in the range 0-9, hence each path from the root to leaf can be thought as an n digit number where n is the path length. I had to find the sum of all paths. Since the sum can overflow, I had to use modular arithmetic. Later he asked me to write a compilable code for the same.
+While I was solving these questions, I was asked a few questions about my projects. The questions were related to authentication (session and token) and database in general.
+Round 3: This round was fairly easy, I was asked basic questions.
+First I was asked to write a code that prints a pyramid pattern using asterisks (*). Later the asterisks were replaced by Pascal’s triangle.
+Finally, I was asked to write a code that returns the height of a generic tree.
+Final Interview:
+This was more of an interaction than an interview, the senior manager and I discussed the various projects that are going on in Microsoft, he showed me the project he was working on. He was friendly.
+Finally, after spending 15+ hours on interviews, I got selected, alongside 5 other people from my college!

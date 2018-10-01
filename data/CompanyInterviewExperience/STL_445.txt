@@ -1,0 +1,10 @@
+upper_bound() is a standard library function in C++ defined in the header . It returns an iterator pointing to the first element in the range [first, last) that is greater than  value, or last if no such element is found. The elements in the range shall already be sorted or at least partitioned with respect to val.
+Template :
+Examples :
+Below are some C++ programs to illustrate the use of std::upper_bound :
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : The number of comparisons performed is logarithmic in the distance between first and last. i.e, (at most log2(last – first) + O(1) comparisons).
+Important Points

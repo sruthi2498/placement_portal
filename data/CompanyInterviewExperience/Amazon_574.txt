@@ -1,0 +1,24 @@
+Hi, Below is my interview experience for Amazon for SDE-I position.
+Round-1(F2F)
+1.) Traverse a binary tree in a spiral manner. (zig-zag manner)
+2.) Given a number, find the just greater number than the given number containing the same digits as the given number. Write code for this.
+Round-2(F2F)
+1.) Print a binary tree in a level order traversal but in bottom to top manner.
+2.) Given 2 BSTs, validate their equality. Both are equal if they consist of the same set of values
+irrespective of their structures. (Can you traverse them parallely).
+3.) Given a infinite stream of integers, find the first non-repeated number till now. Write code for this.
+Round-2(F2F)
+1.) Given a binary tree, convert it into doubly linked list and after the conversion, the linked list should
+look like the post order traversal of the binary tree. The conversion should be in-place. What is the time and space complexity of the program.
+2.) Given the following sequence
+A, B, C,…..Z, AA, AB, AC,…….AZ, BA,…..BZ…..ZZ, AAA…..
+1, 2, 3,…..26,27………………………………………..
+Given n, return the string. What is the time and space complexity of the program.
+Write code for this.
+Round-4(F2F) – with Hiring Manager
+1.) Given an array, return the second largest number. Write code for this.
+You can not modify the array, just traverse the array once and return the required number.
+Handle all the edge cases. What should be the function signature.
+2.) Given two files which contain very large size of number, say the size of the file is 5 GB.
+That means that you can not load the whole file into memory. How would you add these two files and store the result in another file. Long discussion on optimization.
+

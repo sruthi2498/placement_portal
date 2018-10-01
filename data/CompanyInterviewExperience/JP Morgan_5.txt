@@ -1,0 +1,64 @@
+JPMC visited our campus for Full time and Internship opportunity.
+I sat for Technology Analyst Program 2018 Full-Time.
+There were total of  3 rounds. First one was Online Coding Test, Second One Technical and Third one HR Round.
+Round 1:
+The online coding test was hosted on HackerRank Platform. There were 10 MCQs comprising of Aptitude and Technical Questions. Each question had a weightage of 3 marks. There was no negative marking. Apart from this there were 2 coding questions.
+1st One :
+It was a typical Buy/Sell problem with two different scenarios.
+One was that you can sell after you buy and other was that you can sell and buy anytime.
+This is was the easier question 30 marks.
+Link : https://www.geeksforgeeks.org/stock-buy-sell/
+2nd One :
+It was relatively tougher problem with a weightage of 40 marks.
+Typical 2d-DP problem.
+Question: Find and return the maximum sum of  k x k matrix with maximum sum in a n x n matrix.  LINK: https://www.geeksforgeeks.org/print-maximum-sum-square-sub-matrix-of-given-size/
+ 
+Round 2:
+There was two different panel, simultaneously taking the interviews for FULL-TIME.
+One was Senior VP and other was on some higher technical post.
+I went to the Senior VP, he greeted me well and for my resume.
+I was asked why i didn’t have any last name, since I have only First Name, I answered it very smartly and he seems to be impressed right there.
+Then he asked me if I know Design Patterns and have Implemented them in a real life project. Link: https://www.geeksforgeeks.org/software-design-patterns/
+Since , I know about them , I have answered them but told him that I have implemented a few in real life projects.
+Then he asked , tell me a language you are proficient in.
+I answered JAVA. Then he told me to rate myself in JAVA, and spot on I gave myself 7/10.
+He then asked me to write a program to swap two numbers in JAVA. It was more of a trick question as he wanted to know , how I’m gonna implement it.
+I made a separate function to swap numbers where numbers are taken in list , and then return the new list to update the old one.
+EX-
+List swap(List list){
+       //some code 
+}
+public static void main(String[] args){
+List list=swap(list);
+} 
+ 
+Basically he wants to see , if I would choose to implement code in modular way or not.
+Then, he asked me what other things I know, I told him Android and he seems very keen to know how much i know about it.
+I told him about Services , UI , Handlers , Loaders etc .. and he seems to be knowing all of them too.
+It’s more of a discussion than Q/A session.
+Then he asked me if I had prior experience in testing like Integration , System, Unit testing as I had interned as Android SDK Developer.
+He asked various types of work that I did in my intern, So kindly be thorough in whatever you did in your intern , if any.
+Then he asked me Two Puzzles.
+First one was : You have 13 Blue balls and 12 Red balls in a bag and we pick two balls at a go. If we pick same color balls then both of them are out of the bag else Red ball will be out.
+Then what is the color of last ball that will be left and why?
+I answered it in less than 5 minutes and he was pretty much impressed with my approach as it was both mathematical as well as logical, as per what he said.
+Second one was : https://www.theguardian.com/science/2017/jul/03/did-you-solve-it-are-you-smarter-than-a-cat
+I answered it in 8-10 minutes, then he checked my approach with around 15-16 test cases. He doesn’t seems satisfied with that, so he told me his approach.
+But i proved that his approach was also giving the same answer. He seems to be impressed by that and said GOOD analysis.
+Then, he asked if I have any questions for him and I asked , what should i be working on before joining , if got selected.
+He told me that i should learn Advanced Data Structures.
+At last he asked my favourite subjects, I answered DS and Algo,
+Then he asked me to write functions to print Top View , Bottom View ,Left View and Right View of Binary Tree.
+I did all of them in 15 mins and he said : “You are really good at coding and analytics”.
+Round 3:
+The HR was very cool and friendly. He introduced himself and then asked me to introduce myself.
+He asked me about my family, family background.
+He told me why haven’t I choose to do Btech after knowing about my peers and other personal questions.
+Then, he asked what do you know about J.P Morgan and what’s the latest news about it?
+He told me that I have the most interesting CV out here and asked about my Android Apps, motive behind making them
+What are the users I had targeted  and how it is different from other apps under the same criteria?
+Then at last, he asked me if I know the compensation breakup and I’m open to all 3 positions i.e. Mumbai , Bengaluru , Hyderabad .
+And finally I greeted him with saying, Hoping to hear from you soon.
+Overall the interview experience was great.
+It was more of tricky and in-depth knowledge test than just usual Technical Interview .
+8 were selected for FTE out of which I was one of them.

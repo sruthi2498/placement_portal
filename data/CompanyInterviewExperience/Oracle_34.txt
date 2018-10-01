@@ -1,0 +1,43 @@
+Oracle GBU recruit at NIT Agartala for the following Profile:
+The whole recruitement process complete in the following phases which includes:
+
+Total 65 were shortlisted after this round.
+
+There were two questions in this round and the time allotted to solve both questions is 1 Hr.
+First question was like printing the list as per conditions mentioned. The questions was easy but the trap over here is  reading input as size of list is not given.
+Second question: N*N grid is given and chef positions mark with some stepping  X values( by stepping values means, he can move x steps in a day).Here we need to find a cell where all chefs can reach in total minimum days as per travel rules:
+Only one chef can travel on a given day and he can travel in all four directions and chef i can take any number of steps between 1 to step[i]
+Note:Chef position is marked by non-negative integer value.
+After  coding round only 39 students were shortlisted for further Technical and HR round.
+
+Before starting  of the round, 3 puzzles were given to solve for half an hour. I am able to solve only one out of three.
+1:Project description,introduction was done as the round start.
+2:He gave  2 problems from Tree data structure  to solve:
+a: Check whether given sum is possible to form or not by adding node value consecutively.
+b: Insertion and deletion in a tree
+3: Mention some  applications of data structures in real life.
+4: Prime Number Concept and complete running code
+5: What ispires me to switch from core to CS?
+6: Some basic questions from java like Polymorphism,interface,advantage of java etc.
+7: Who is the CEO and founder of Oracle?
+
+Technical Round 2:
+1: Introduction and internship Project Discussion
+2: He gave two simple program to write.
+a: Printing of fibonacci series using recursion
+b: pattern was given and I was asked to write code for the given pattern.
+3: He asked some sql query questions like
+a: finding the name of a student having who got second highest CGPA from student table
+b: Displaying the name of students who study in NIT Agartala from student table and whose CGPA is greater than7
+4: Dome basic questions like foreign key,types of databases,inner Join etc.
+5: Finally, he asked  two puzzles at the end (from top 25 interview puzzles available on net).
+After the result of second round come out only 5 students from ECE and some students from CSE  as well was left out for HR Round.
+HR Round:
+1: Tell me about yourself
+2: What is the difference between primary key and unique key? If we have unique key then why we go for primary key?
+3: I was asked to write a java code for polymorphism.
+4: He asked about my parents and profession
+5: Finally, we had short conversation about oracle life,my academic and personal life etc. 
+As the recruitment process completes only 3 students from ECE (including me),6 students from CSE of NIT Agartala finally got placed.As this a pool campusing  for NIT Agartala and Silchar 3 students from NIT Silchar were also placed.
+Tips:Be honest,confident and make sure whatever you are mentioning in your CV is known to you starting from your projects to your skills.
+Before going for an interview explore the company once,read wikipedia and relevant informations. Being an ECE student, I would advice to all ece students that you should be good in programming and have strong command over Data structures, C/C++, DBMS(optional).If you are good enough in Core please do mention otherwise simply deny.

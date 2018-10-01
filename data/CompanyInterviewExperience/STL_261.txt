@@ -1,0 +1,17 @@
+Assign value by a pair of {} to a container
+Run on IDE
+Run on IDE
+    __gcd(value1, value2)
+You don’t need to code Euclidean Algorithm for a gcd function, from now on we can use. This function returns gcd of two numbers.
+    e.g. __gcd(18, 45) = 9.
+Run on IDE
+Note that this works only in GCC.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Note : This works only in GCC.
+
+Run on IDE

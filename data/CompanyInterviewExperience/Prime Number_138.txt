@@ -1,0 +1,7 @@
+Given a range [low..high], print the smallest twin numbers in given range (low and high inclusive). Two numbers are twins if they are primes and there difference is 2.
+Example:  
+A Simple Solution is to start to start from low and for every number x check if x and  x + 2 are primes are not.  Here x varies from low to high-2.
+An Efficient Solution is to use Sieve of Eratosthenes
+Below is C++ implementation of above idea.
+Run on IDE
+Thanks to Utkarsh Trivedi for suggesting this solution.

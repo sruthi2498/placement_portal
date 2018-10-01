@@ -1,0 +1,24 @@
+My Expedia Experience:-
+Online Test:-
+MCQs on almost all topics (DS, Algo, C, C++, OS, DBMS, Quant, Verbal)
+2 coding problems:- 
+	1. Rat in a maze(Basic Recursion Problem).
+	2. Given a undirected graph check whether it is a tree or not(Easy BFS problem).
+F2F Technical Interview Round 1(40 Mins):
+	-Very Long and depth discussion on Projects.
+	-Discussion about some google products implementation :(.
+	-Given Inorder and Preoder Traversal of a binary tree, Construct the Binary Tree.(Complete code with all boundary Conditions needed).
+F2F Technical Interview Round 2(40 mins):
+	-Discussion on projects(Asked to dry run the algo used)
+	-Multithreading?
+	-Process and Threads ?
+	-Semaphores Implementation + Some Basic OS Questions(Critical Sections etc)
+	-Solve Reader Writer Problem with Semaphores(Code was needed :P)
+	-Given a tree, print rightmost nodes.(I said, it can be done using Level Order Traversal and printing the Last node at each Level,
+		then he asked to write the code for it).
+	-Implement Queue With 2 stacks
+	-Some More Questions on another projects.
+F2f HR(60 mins) :
+	-Introduction
+	-Many Questions on different practical situations, and asked for my reaction to them.
+	-Find top 3 records from an employee table.

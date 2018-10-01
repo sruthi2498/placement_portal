@@ -1,0 +1,11 @@
+Given an array of integer values which need to be sorted by only one operation – subarray rotation where subarray size should be 3. For example, If our array is (1 2 3 4) then we can reach to (1 4 2 3), (3 1 2 4) in one step. We need to tell whether it is possible to sort the complete array with this operation or not.
+Examples :
+    Suppose we have one subarray as [A[i] A[i+1] A[i+2]]. After one rotation, we get [A[i+2], A[i], A[i+1]]
+If we observe inversions before and after rotation, we can see that parity of inversion is not changed i.e. if  [A[i] A[i+1] A[i+2]] has even number of inversions [A[i+2] A[i] A[i+1]] will have even inversions. Same is true for odd inversions. Due to movement of A[i+2], inversions either increase by 2 or decrease by 2 or remain same i.e. their parity won’t change.
+    After observing above fact we can say that if initial array configuration has even number of inversion then it is possible to make them zero making array completely sorted otherwise not. We use merge sort based method for counting inversions. After getting the number of inversions, we can easily check parity of inversion and conclude whether it is possible to sort the array or not.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n Log n)

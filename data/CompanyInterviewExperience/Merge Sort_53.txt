@@ -1,0 +1,51 @@
+Given two sorted arrays, find their union and intersection.
+Example:
+
+
+Union of arrays arr1[] and arr2[]
+To find union of two sorted arrays, follow the following merge procedure :
+
+1) Use two index variables i and j, initial values i = 0, j = 0
+2) If arr1[i] is smaller than arr2[j] then print arr1[i] and increment i.
+3) If arr1[i] is greater than arr2[j] then print arr2[j] and increment j.
+4) If both are same then print any of them and increment both i and j.
+5) Print remaining elements of the larger array.
+Below is the implementation of the above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(m + n)
+Handling duplicates in any of the array : Above code does not handle duplicates in any of the array. To handle the duplicates, just check for every element whether adjacent elements are equal.
+Below is the implementation of this approach.
+
+Run on IDE
+Run on IDE
+
+Intersection of arrays arr1[] and arr2[]
+To find intersection of 2 sorted arrays, follow the below approach :
+
+1) Use two index variables i and j, initial values i = 0, j = 0
+2) If arr1[i] is smaller than arr2[j] then increment i.
+3) If arr1[i] is greater than arr2[j] then increment j.
+4) If both are same then print any of them and increment both i and j.
+Below is the implementation of the above approach :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(m + n)
+
+Another approach that is useful when difference between sizes of two given arrays is significant.
+The idea is to iterate through the shorter array and do a binary search for every element of short array in big array (note that arrays are sorted). Time complexity of this solution is O(min(mLogn, nLogm)).  This solution works better than the above approach when ratio of larger length to smaller is more than logarithmic order.
+
+See following post for unsorted arrays.
+Find Union and Intersection of two unsorted arrays
+Please write comments if you find any bug in above codes/algorithms, or find other ways to solve the same problem.

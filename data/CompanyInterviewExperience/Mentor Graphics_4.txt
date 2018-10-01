@@ -1,0 +1,20 @@
+Let there be a string say “I AM A GEEK”. So, the output should be “GEEK A AM I” . This can done in many ways. One of the solutions is given in Reverse words in a string .
+Examples:
+This can be done in more simpler way by using the property of the “%s format specifier” .
+Property: %s will get all the values until it gets NULL i.e. ‘\0’. 
+Example: char String[] = “I AM A GEEK” is stored as shown in the image below :
+
+Approach: Traverse the string from the last character, and move towards the first character. While traversing, if a space character is encountered, put a NULL in that position and print the remaining string just after the NULL character. Repeat this until the loop is over and when the loop ends, print the string, the %s will make the printing of characters until it encounters the first NULL character. 
+Let us see the approach with the help of diagrams:
+step 1: Traverse from the last character until it encounters a space character .
+
+Step 2: Put a NULL character at the position of space character and print the string after it.
+
+Step 3: At the end, the loop ends when it reaches the first character, so print the remaining characters, it will be printed the first NULL character, hence the first word will be pprinted.
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

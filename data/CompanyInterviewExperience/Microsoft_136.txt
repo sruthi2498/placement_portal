@@ -1,0 +1,18 @@
+1st Round :
+1)https://www.geeksforgeeks.org/maximum-product-subarray/
+2)https://www.geeksforgeeks.org/sort-an-almost-sorted-array-where-only-two-elements-are-swapped/
+3) Delete all nodes whose value is greater than K
+2nd Round (1 hr 30 mins)
+1) Clone a Binary Tree
+2)  There is a rack of shelves having balls of red and blue in each row . Retrieve all identical rows.
+3)  There is a rack of shelves having balls of red and blue in each row . Retrieve all unique rows.
+4)  How u will remove duplicates in an stream of Integers
+5) What Data structure you will use to identify unique elements and discard duplicates.
+3rd Round (1 hr 30 Mins)
+1) Given an Infinite stream of strings as  AAAAABBBCCDDDEEE… How will you arrange characters so that  string become unique without duplicates . Return true if it is possible to arrange else return -1. Ex . AAABBCCDEF – O/p ABABCDCEF : Possible . AAAAAAAAAAAAAAAAAAAAAAB : Not possible
+4th round
+1) Given Co-ordinates of x and y in an input array Identify if square can be formed at any point of time via coordinates if so return true;
+2) Given a Pre-Order Traversal of BST convert it into BST.
+3) Identify Leaves of BST through Pre Order without constructing it.
+It gave me a Lot of Learning to think out of Box. Thanks GFG .
+

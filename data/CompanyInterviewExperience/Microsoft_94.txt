@@ -1,0 +1,7 @@
+Two strings are given and you have to modify 1st string such that all the common characters of the 2nd strings have to be removed and the uncommon characters of the 2nd string have to be concatenated with uncommon characters of the 1st string.
+Examples:
+
+The idea is to use hash map where key is character and value is number of strings in which character is present. If a character is present in one string, then count is 1, else if character is present in both strings, count is 2.
+Run on IDE
+Output:
+Asked In : Microsoft

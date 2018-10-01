@@ -1,0 +1,10 @@
+Given the value of length, print the crown pattern using ‘*’ and ‘#’.
+Note : In order to print a perfect crown, take the value of length as an odd number greater than 15.
+Examples :
+Below is the implementation to print crown pattern :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

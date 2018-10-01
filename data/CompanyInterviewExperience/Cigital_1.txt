@@ -1,0 +1,76 @@
+Question 1:  Cigital is planning to conduct Secret Santa for Coming Christmas. Secret Santa is a Western Christmas tradition in which members of a group or community are randomly assigned a person to whom they anonymously give a gift.Every time they used to assign person by writedown the names on paper pieces and pick the random one.This time Engineering team comes up with a new Idea. They created one large string say secret santa string(1<=size of string<=100000).Each person in Cigital has to select substring from that string(1<= size of substring <= size of secret santa string) by providing starting and ending index.They will collect all substrings of all people then they will try to match substrings of people and according to that they will assign person.They need your help to match two substrings of given secret santa string.
+Input:
+The first line will contain secret santa string S.
+Next line will contain the Integer n denoting the number of queries.
+Following n lines will contain four integers l1,r1,l2 and r2 denoting starting and ending of two substrings(inclusive).
+Output:
+For each Query output “Yes” if two substrings are matched otherwise print “No”
+Constraints:
+1 â‰¤ |Size of secret santa string| â‰¤ 10^5
+1 â‰¤ n â‰¤ 10^5
+1 â‰¤ l1 â‰¤ r1 â‰¤ |Size of secret santa string|
+1 â‰¤ l2 â‰¤ r2 â‰¤ |Size of secret santa string|
+The string will contain only lowercase letters.
+Sample Input:
+secretsantasanitizedcreate
+5
+2 2 3 3
+1 1 7 7
+7 9 12 14
+3 5 21 23
+6 10 13 17
+Sample Output:
+No
+Yes
+Yes
+Yes
+No
+Question 2:   Cigital currently maintaining a portal named RADEC for maintaining scan details. Scan means it tests the given code/project and produces existing vulnerabilities. Customer can schedule at any time. Currently Cigital offering FIVE types of scans with different SLA(time required to complete scan).
+1. ABC2 (SLA=2, takes 2 days to complete)
+2. ACB3 (SLA=3, takes 3 days to complete)
+3. BAC5 (SLA=5, takes 5 days to complete)
+4. BCA7 (SLA=7, takes 7 days to complete)
+5. CAB10 (SLA=10, takes 10 days to complete)
+Admin can perform three types of operations.
+1. Admin can schedule a Scan(for a given Scan Id, Scan Type, Start Date).
+2. Admin can delete a scan by Scan Id.
+3. Admin wants know maximum number of scans present in a day of given interval[t1,t2] both
+inclusive.
+Input format :
+First line contains integer ‘t’ representing number of test cases
+For every test case first line contains ‘n’ representing number of operations performed by admin next n lines contains any of these operations
+(i) Scheduling new Job : 1 scan_id scan_type start_date[example: 1 112342 3 6 ; 112342 is id of scan, 3 is scan type i.e. BAC5, it takes 5 days to complete, 6 is start date, so its end date is start date+SLA-1, i.e 6+5=11 is end date ]
+(ii) Deleting a Job : 2 scan_id[example: 2 112342]
+(iii) Peak day : 3 t1 t2[example: 3 15 100]
+First digit in each query denotes operation:
+1=Add
+2=delete
+3=peak
+scan_id,scan_type,start_date,t1,t2 are integers, and in range of 1 to 1000000
+Example:
+Input:
+1
+6
+1 1 2 7
+1 2 5 3
+1 3 1 9
+3 3 20
+2 1
+3 3 10
+Output:
+3
+2
+Explanation:
+in first query type2 scan added, it’s start date is 7 and end date is 7+3-1=9
+in second query type5 scan added, it’s start date is 3 and end date is 3+10-1=12
+in third query type1 scan added, it’s start date is 9 and end date is 9+2-1=10
+in fourth query, find maximum number of scans in a day with in dates 3,20 both inclusive
+scan1 runs on days
+7,8,9
+scan2 runs on days 3,4,5,6,7,8,9,10,11,12
+scan3 runds on days
+9,10
+so, on day 9 total 3 scans will be running, so answer is 3
+in fifth query, scan1 is deleted
+in 6th query, maximum number of scans in a day with in dates 3,10 is 2
+Problem 3:

@@ -1,0 +1,23 @@
+Forward list in STL implements singly linked list. Introduced from C++11, forward list are useful than other containers in insertion, removal and moving operations (like sort) and allows time constant insertion and removal of elements.It differs from list by the fact that forward list keeps track of location of only next element while list keeps track to both next and previous elements.
+push_front() function is used to push elements into a Forward list from the front. The new value is inserted into the Forward list at the beginning, before the current first element and the container size is increased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Strong exception guarantee – if an exception is thrown, there are no changes in the container.
+2. If the value passed as argument is not supported by the forward list, it shows undefined behaviour.
+Run on IDE
+Output:
+Application : Input an empty forward list with the following numbers and order using push_front() function and sort the given forward list.
+Run on IDE
+Output
+pop_front() function is used to pop or remove elements from a forward list from the front. The value is removed from the list from the beginning, and the container size is decreased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+1. No-Throw-Guarantee – if an exception is thrown, there are no changes in the container.
+2. If the list is empty, it shows undefined behaviour.
+Run on IDE
+Output:
+Application : Input an empty forward list with the following numbers and order using push_front() function and print the reverse of the list.
+Run on IDE
+Output

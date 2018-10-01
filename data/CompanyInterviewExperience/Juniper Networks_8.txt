@@ -1,0 +1,6 @@
+Given a singly linked list of 0s and 1s find its decimal equivalent. 
+Decimal Value of an empty linked list is considered as 0.
+Initialize result as 0.  Traverse the linked list and for each node, multiply the result by 2 and add node’s data to it.
+Run on IDE
+Output : 
+

@@ -1,0 +1,11 @@
+
+Forward list in STL implements singly linked list. Introduced from C++11, forward lists are useful than other containers for insertion, removal and moving operations (like sort) and allows time constant insertion and removal of elements.It differs from the list by the fact that forward list keeps track of the location of only next element while list keeps track to both next and previous elements.
+This operator is used to assign new contents to the container by replacing the existing contents.
+It also modifies the size according to the new contents.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the containers are of different types, an error is thrown.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:

@@ -1,0 +1,14 @@
+Given a positive integer n, we have to find the total number of divisors for n.
+Examples:
+We have discussed different approaches for printing all divisors (here and here). Here task is simpler, we need to count divisors.
+First of all store all primes from 2 to max_size in an array so that we should only check for the prime divisors. Now we will only wish to calculate the factorization of n in following form :
+ n = (a1^p1) * (a2^p2) *…….*(an^pn), where a1, a2…an all are prime factors and p1, p2, .. pn are integral power of them as pi being integral power of ai in factorization of n.
+So, for this factorization we have formula to find total number of divisor of n and that is:
+(p1+1) * (p2+1) *….*(pn+1).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference : Number of divisors.

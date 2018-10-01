@@ -1,0 +1,13 @@
+
+Find how many palindromic subsequence (need not necessarily be distinct) can be formed in a given string. Note that the empty string is not considered as a palindrome.
+Examples:
+
+The above problem can be recursively defined.
+If we draw recursion tree of above recursive solution, we can observe overlapping Subprolems. Since the problem has overlapping subproblems, we can solve it efficiently using Dynamic Programming. Below is Dynamic Programming based solution.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(N2)

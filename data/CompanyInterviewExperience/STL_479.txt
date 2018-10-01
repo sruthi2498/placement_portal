@@ -1,0 +1,10 @@
+resize() lets you change the number of characters. Here are we will describe two syntaxes supported by std::string::resize() in C++
+Return Value : None
+Syntax 1: Resize the number of characters of *this to num.
+Note : If num > size() then, the rest of characters are initialized by the ‘\0’.
+Run on IDE
+Output:
+Syntax 2: Uses a character to fill the difference between size() and num.
+Run on IDE
+Output:
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks(We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

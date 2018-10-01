@@ -1,0 +1,15 @@
+Telephonic Interview 1. (Telephonic + Google Docs Shared)
+Q1. Given an array of integers, you need to find the local maxima.
+Hint : Refer this article.
+Q2. Given a sequence of brackets, how will you identify if its valid or not.
+Hint : Refer this article.
+
+Telephonic Interview 2. (Telephonic + Google Docs Shared)
+Q1. There are 2 arrays . Smaller is of size m and has m elements in sorted order. The bigger array is
+of size m+n, where there are only n elements in initial n positions in sorted order. So, last m
+positions are empty in the bigger array.Insert smaller array’s m elements in m+n array has has all numbers in sorted order.
+Hint : Refer this article.
+Q2. Given a binary tree with integer values, find the sub-path with the maximum value in it
+Hint : Refer this article.
+
+

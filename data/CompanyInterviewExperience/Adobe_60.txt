@@ -1,0 +1,10 @@
+Given an array of numbers, return true if given array can represent preorder traversal of a Binary Search Tree, else return false. Expected time complexity is O(n).
+Examples:
+A Simple Solution is to do following for every node pre[i] starting from first one.
+Time Complexity of the above solution is O(n2)
+An Efficient Solution can solve this problem in O(n) time.  The idea is to use a stack.  This problem is similar to Next (or closest) Greater Element problem. Here we find next greater element and after finding next greater, if we find a smaller element, then return false.
+Below is implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+

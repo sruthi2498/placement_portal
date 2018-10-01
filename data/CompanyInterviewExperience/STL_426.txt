@@ -1,0 +1,13 @@
+Given an array and a number k where k is smaller than size of array, we need to find the k’th smallest element in the given array.
+Examples:
+
+We use set in C++ STL.
+1) Insert all elements into a set.
+2) Traverse the set and print k-th element.
+Run on IDE
+Output:
+Time complexity of above solution is O(n Log n). Note that set in STL uses a self-balancing BST internally and therefore time complexity of search and insert operations is O(log n).
+Related Posts : 
+K’th Smallest/Largest Element in Unsorted Array | Set 1
+K’th Smallest/Largest Element in Unsorted Array | Set 2 (Expected Linear Time
+K’th Smallest/Largest Element in Unsorted Array | Set 3 (Worst Case Linear Time)

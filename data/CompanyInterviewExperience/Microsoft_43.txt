@@ -1,0 +1,51 @@
+An employee( alumnus of our college ) had taken CVs of interested students from CSE and IT department. A few students were shortlisted for the online round.
+Round 1 ( CoCube Online Round )
+Question 1: Basic question on Strings. Cake walk completely.
+Question 2: Easy question on Linked List. Adding two numbers.
+Read https://www.geeksforgeeks.org/sum-of-two-linked-lists/
+Question 3: Intermediate question on Linked List. Cant remember the exact question but it was primary based on
+finding the mid point, followed by some other operations.
+Read https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
+Read https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+Round 2 ( Group Fly Round ( Onsite ))
+There were 40 students in total. They were divided into 10 groups of 4 each. Each group was assigned a mentor and were seated in different rooms. This is a written coding round. Though there are 4 members in each group, don’t mistake this round to be a team round. You compete with the rest, not work with them. Firstly a question is given and 10 minutes are provided to solve that problem. Once 10 minutes are over, you have got to explain your approach to the mentor. It should include your understanding of the problem, your approach, corner cases and your final idea. After the mentor is done with discussing the solution with all the members, second question is given. 20 minutes are provided to solve this problem. After discussing the solution, the round ends. Results are declared after 30 minutes.
+Question 1: Implement Deep Copy
+Read https://www.hackerearth.com/practice/notes/deep-copy-and-shallow-copy/
+Question 2: Let’s say you are given a stream of tweets. At any point of time, top k tweets must be shown on the screen.
+Now, i must mention that this is all the mentor said. Now it’s your responsibility to talk to the mentor and understand the question completely before jumping to the solution.
+After clarification, the question meant, each tweet will have a description, likes, retweets. Now you have got to be able to write a module which displays top 5(k=5 lets say) tweets on the screen.
+Read https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
+Read https://www.geeksforgeeks.org/find-top-k-or-most-frequent-numbers-in-a-stream/
+15 people were selected for the next set of rounds.
+Round 3 ( Face to Face Technical Round 1 )
+This was a 75 minutes long round. A member of the recruiting team will take your interview. Initially he asked me a few things written in my CV. He must have spent 15 minutes on that. He took interest in my self projects and asked me a few questions related to Web Development.
+Question 1: What is MVC and how is it different from FLUX? ( Because i had used Redux during my internship and i like rails)
+Question 2: Explain how the site that you have built works. ( Based on my self-project )
+Following this, he asked me the simplest question of the milennium. Only thing i could understand from this that he wasn’t interested in the solution of the problem, but the kind of test cases my solution tackles.
+Question 3: A Web page has an input field for a string. Write a funtion which would return an integer for the given string.
+Example: ‘ 0567 ‘
+Output: 567
+Question 4: The Trapping Rain Water Problem
+Read https://www.geeksforgeeks.org/trapping-rain-water/
+Round 4 ( Face to Face Technical Round 2 )
+This was a 75 minutes long round as well. The interviewer was a senior member of the recruiting team. He spent 30 minutes on my CV. I had to justify every line that was written on it. Starting from my CGPA to my internships to my self projects to my skills. Be confident when you talk about your CV.
+Following this, he asked me about my course subjects. I answered DS, Algo, OS, Networking, OOPs. He asked several questions
+Question 1: Name layers of the OSI Model with protocols belonging to the layers.
+Question 2: What is the significance of Data Link Layer?
+Question 3: Difference between Router and Hub? Which layers do these devices belong to?
+Question 4: How is scheduling done in Linux and what data structure is used?
+Question 5: What exactly is TLB?
+Question 6: What is the diamond problem and how is it solved?
+Question 7: How does Overriding work?
+Following this, he gave me two quetions to solve.
+Question 8: While installing npm packages, there might be a problem while installing those packages. What can be that problem? I replied that one package A can have a dependency package B and package B can have package A as one of its dependency. Problems like these can happen. He nodded and asked how would you solve this? Basically the question reduced to finding cycle in a directed graph.
+Read https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+Question 9: Given a binary tree, revert all the links and return a vector containing all the leaf nodes.
+This has a very intuitive post order traversal based solution.
+Round 5 ( Face to Face Technical-cum-HR round )
+This was a 30 minutes round. The interviewer was a senior member as well. He didn’t ask many technical questions. He also focussed on my CV and asked me a few HR questions.
+Question 1: Where do you see yourself in 5 years, 15 years and 25 years.
+Question 2: What interests you more? Full-Stack or Back-end?
+ 
+5 people were hired and I was one of them. I would like to thank this community and this is a way of giving back. Cheeers. 🙂
+ 

@@ -1,0 +1,34 @@
+Given a Preorder traversal of a Binary Search Tree. The task is to print leaf nodes of the Binary Search Tree from the given preorder.
+Examples:
+
+Method 1: (Simple) 
+The idea is to find Iorder, then traverse the tree in preorder fashion (using both inorder and postorder traversals) and while traversing print leaf nodes.
+How to traverse in preorder fashion using two arrays representing inorder and preorder traversals?
+We iterate the preorder array and for each element find that element in the inorder array. For searching, we can use binary search, since inorder traversal of binary search tree is always sorted. Now, for each element of preorder array, in binary search we set the range [L, R].
+And when L == R, leaf node is found. So, initially, L = 0 and R = n – 1 for first element (i.e root) of preorder array. Now, to search for element on the left subtree of root, set L = 0 and R = index of root – 1. Also, for all element of right subtree set L = index of root + 1 and R = n -1.
+Recursively, follow this, until L == R.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:
+Time Complexity: O(n log n)
+Auxiliary Space: O(n)
+Method 2:(using Stack)
+The idea is to use the property of the Binary Search Tree and stack.
+Traverse the array using two pointer i and j to the array, initially i = 0 and j = 1. Whenever a[i] > a[j], we can say a[j] is left part of a[i], since preorder traversal follows Visit -> Left -> Right. So, we push a[i] into the stack.
+For those points voilating the rule, we  start to pop element from the stack till a[i] > top element of the stack and break when it doesn’t and print the corresponding jth value.
+Algorithm:
+How this algorithm works?
+Preorder traversal traverse in the order: Visit, Left, Right.
+And we know left node of any node in BST is always less than node. So preorder traversal will first traverse from root to leftmost node. Therefore, preorder will be in decreasing order first. Now, after decreasing order there may be node which is greater or which break the decreasing order. So, there can be case like this :
+
+In case 1, 20 is leaf node whereas in case 2, 20 is not the leaf node.
+So, our problem is how to identify if we have to print 20 as leaf node or not?
+This is solved using stack.
+While running above algorithm on case 1 and case 2, when i = 2 and j = 3, state of stack will be same in both the case :
+
+So, node 65 will pop 20 and 50 from the stack. This is because 65 is the right child of a node which is before 20. This information we store using found varible. So, 20 is a root node.
+While in case 2, 40 will not able to pop any element from the stack. Because 40 is right node of a node which is after 20. So, 20 is not a leaf node.
+Note: In the algorithm, we will not be able to check condition of leaf node of rightmost node or rightmost element of the preorder. So, simply print the rightmost node because we know this will always be leaf node in preorder traversal.
+Below is C++ implementation of this approach:
+Run on IDE
+Time Complexity: O(n)

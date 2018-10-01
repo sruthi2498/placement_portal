@@ -1,0 +1,42 @@
+Recently GE digital company visited our campus for campus recruitments for 2 months internship. They conducted an online coding and aptitude test followed by GD and interviews.
+Aptitude test and Online Round
+The aptitude test was of 90 minutes and 250 students sat for the text and cut-off was 8 cgpa for computer science and 8.5 cgpa for other branches.
+The test was conducted on AMCAT and there were 4 sections logical reasoning, General aptitude, Verbal ability and Technical aptitude. 
+It was followed by and Coding Round that consisted of 2 Questions that had to be solved in 45 minutes.
+1. We were given a number n and we had to print all prime numbers starting from 2 to the number n.
+For example: – n=10
+Ans: – 2,3,5,7.
+2. We were given a number X and it was a key and we had to generate unlocking key of the particular key. The unlock key was smallest possible permutation of the number that is formed with the digits of the given number. 
+There was a constraint on the range of N
+-10^5<=N<=10^5
+For Example: – N=05113
+ Unlocking key – 10135.
+33 students were shortlisted after this round for further rounds of interview.
+Round 2(Group discussion)
+We were divided into 3 groups of 11 students and were given a topic to discuss for 15 minutes.
+The topic for the group discussion was – Connecting rivers in India good or bad. 
+13 students were shortlisted for Next round of interview.
+Round 3(Technical Round)
+The interviewer was quite knowledgeable and at start she asked about my introduction and reviewed my resume and asked a few questions on that.
+These were the questions asked to me.
+1. Tell me something about yourself.
+2. I mentioned PHP and HTML in my resume so she asked a question about post and get method in PHP and how to use it.
+3. I told her that I am comfortable in C and C++ so she asked a few questions on basics of C and C++.
+1. What are different Storage classes in c and describe them.
+2. Difference between new and malloc.
+3. Explain about Function Overloading and Operator overloading.
+4. Difference between delete and delete [].
+5. How to copy a string in C and C++. She also asked to write its code.
+6. Explain about different Access specifiers in C++.
+7. Write a program to print hello world in C and she asked few questions on that.
+8. A brief code snippet on function declaration and function definition.
+9. Tell more about storage classes like extern and register.
+10. What Do you mean by DBMS?
+4. She asked me if I had any Questions for her.
+ I asked her about the Predix software that Ge Digital makes so she asked about it and how can we implement IOT in Thapar university and explain me about IOT.
+Overall the interview went very well but I was not selected for HR round of interview.
+7 students were selected out of 13 for HR Round of interview and after HR Round 3 students secured internship for 2 months at GE Digital.
+The interview experience was quite good and they focused on all the core computer science subjects. Geeks for geeks was a lot of help to me as it helped me in my placement preparation and provided almost all content that was necessary for placement preparation.
+This article is contributed by Ashish Madaan.
+
+

@@ -1,0 +1,21 @@
+A F2F
+1. Min stack problem (algo+code)
+2. filling next pointer in tree but in zig-zag order (algo+code)
+B Hiring manager
+1. A big file (some TB’s) containing custid, page and time stamp, find out the repreating customer( the one who visits after 24 hrs)(algo)
+2. In a paragraphs tell the frequency of the words(algo)
+3. A sequence of array, print the kth largest number(algo+code)
+C F2F
+1. Left view of a tree (algo+code)
+2. Swap two node pointers in a singly linked list(algo+code)
+D F2F
+1. Given some sets of people who fight against each other. They are represented as graph. if a link exists between A and B, the it means that A and B are fighting against each other. Likewise there are some more links. The question was to divide the nodes into groups such that no person in a group fight with another member in that group. (More of bipartite graph) find the groups (algo)
+2. A singly linked list, find the kth element from the last. The question was further modified to not to process a node more than once. (algo)
+E Bar raiser
+1. Questions on projects, what is it, what did you do (deep diving)
+2. Situation that has to miss deadline
+3. Any situation encountered with performance issues
+4. Any situation where you need to convince your team mates
+5. Any situation where you can see there are some improvements required and proposed
+6. There is a large file( 1TB) containing braces. Question is to check for their balance. I said will use a counter, will increment on an open brace and decrement on an close brace. If counter goes negative or counter is non zero at the end of the file, braces are not balanced. Otherwise balanced. Followup question was to make this process parallel (meaning to see if this problem can be solved through parallelism, like dividing the the problem into sub problem….) Remember the file is very large.
+

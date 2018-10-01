@@ -1,0 +1,11 @@
+We have discussed flattening of a multi-level linked list where nodes have two pointers down and next. In the previous post, we flattened the linked list level wise. How to flatten a linked list when we always need to process down pointer before next at every node.
+Source : Oracle Interview
+
+If we take a closer look, we can notice that this problem is similar to tree to linked list conversion. We recursively flatten a linked list with following steps.
+1) If node is NULL, return NULL.
+2) Store next node of current node (used in step 4).
+3) Recursively flatten down list.  While flattening, keep track of last visited node, so that the next list can be linked after it.
+4) Recursively flatten next list (we get the next list from pointer stored in step 2) and attach it after last visited node.
+Below is C++ implementation of above idea.
+Run on IDE
+Output:

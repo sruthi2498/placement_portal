@@ -1,0 +1,46 @@
+Hi everyone, I would like to share my experiance with MicroSoft, as i have been the lucky hire.
+Date: 27th August 2012
+No. of Rounds: 2 Written(online) + 4 rounds of PI( all Algo/Technical )
+Type of Interview: Campus Interview for freshers
+
+Written (online)
+Objective(60 minutes) + Subjective(60 minutes)
+Objective: Apptitude + Reasoning( 30 questions ) and technical( 20 questions, C/C++ programs, flow chart, identify correct function ) 
+Subjective: 3 coding question( No in-build compiler in Web-Browser, simply you have to write your working code as a function/functions )
+1) A number is given say n, find the minimum number which is greater than n and has same no. of set bits in it.
+2) Binary search tree to Doubly linked list conversion( prefer in-place conversion )
+3) Find the second maximum no. in an array
+
+Personal Interviews (4 rounds)
+Round 1: ( 40-50 mins )
+1) Details about the project that i have listed in my resume, asked various question related to those projects.
+2) details about q1 and q2 which is asked in the Subjective round, how you solve the problem and ask to write the same code I have written in Test and explain it.
+3) question from OS:
+….i) You have 10 GB of RAM, and you load multiples instances of a program of size 1 GB( let’s say more than 10 instances), then what will happen, how the OS handle this situation and up to what extends?
+….ii) producer – consumer problem
+Round 2: ( 20-30 mins )
+1) You have given a number N, print all balanced parenthesis expression which can be generate using N pairs of open and close braces. For ex. for N=3, ((())),()()(),()(()),(())()
+First i gave him a brute force solution(generate all possible combination and check for valid expression),then he ask me for optimized code and I was able to do it after little mess-up.also ask for complexity of my code.
+2) You have given a adjacency matrix of a graph, find the number of connected component set of the graph.
+Round 3: ( 35-45 mins )
+1) A string str and two character a and b are given to a function, find out the minimum distance between these two given characters in the str. first I gave him a bruce force solution( O(n^2) ) then he ask to optimize it ( O(n) ) and finally somehow i was able to do it.
+2) You have n processes and m available resources, explain each step of OS in the execution of those process along with which data structure will be suitable at a condition, which scheduling algorithm will suit best, also in case of preepmtive scheduling, waiting queue etc.. its take a long time to explain him. but finally he is satisfied with my answers.
+3) Write a modified strcmp function which ignores cases and returns -1 if s1 < s2, 0 if s1 = s2, else returns 1.
+
+4) iterative inorder traversal.
+Round 4: ( 40-45 mins )
+1) Give a schema for college student database management( tables, attributes and relationships ), ask me to normlize it up to 3NF.
+2) Some queries based upon schema:
+Find the maximum score of each student in his/her last semestes math subject.(it also be possible that some student got year back and not promoted, handle all the cases).
+I tried it hard, gave him 2-3 wrong answers, but not able to do it(as i’m not very good in DBMS).. but he was satisfied with given schema.
+3) He ask me about favorite programming language, and why I like that language..
+4) You have given a range in Integer(a to b), find all the prime number between a and b.
+…..i) first i gave him the simple solution(check every no. whether it is prime or not).
+…..ii) then he asked about Sieve and to implement it, and which on is better( first approach or seive)
+5) what is most challenging moment in your B.Tech life. ?
+6) Why do you want to join MicroSoft.?
+7) Some question on my hobbies.
+8) do you have any question for me.?
+i asked 2-3 questions related to job profile(SDE/SDET) that they are offering,current projects and areas.
+Finally…end of PIs and After 10-15 minutes, To my great relief, this time I was hired… 🙂
+

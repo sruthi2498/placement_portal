@@ -1,0 +1,6 @@
+Given a number num, find whether the given number is palindrome or not using Bash Scripting.
+Examples:
+
+Approach
+To find the given number is palindrome just check if the number is same from beginning and the end. Reverse the number to check if the number reversed is equal to the original number or not, if yes than echo Number is palindrome otherwise echo Number is NOT palindrome .
+

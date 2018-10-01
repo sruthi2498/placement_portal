@@ -1,0 +1,59 @@
+First Round Written Test
+3 sections in all. To be done in 90 minutes 
+Section A: – 10 aptitude questions (you can find almost every question on indiabix).
+Section B: – 13 questions based on C skills.
+Section C: – 2 programming questions which were easy.
+1) Reverse every K nodes in a singly linked list.
+2) Find out the next greater element having same digits.
+First Technical Interview
+The interviewer was quite cool and composed.
+1 He started with simple question and asked me to write the code of Quick sort but before I could start he said leave it and tell me how you will find out 3rd smallest element from an array.
+2. Based on first Question, rather than an array you have a large file containing billions of number and from it you have to print Kth minimum element.
+3. A file containing billion of numbers in unsorted manner is given to you. At run time you will be given two integers ‘m’ and ‘n’. Now print all the numbers from file which lies in this range. He said u can use extra space, no problem with memory but time complexity should be minimum.
+4. This question was new to me. He told me let’s play a game. I said okay sir :). In this game we will be given even number of cards. Each card will be having some digit written over it. Now both player will play optimally and can only choose card from either corner. He asked me to devise a strategy which would help me winning the game always.
+Later he asked me to prove my strategy for the general case 🙂
+Second Technical Interview
+Interviewer asked me about chess, rules of chess and all
+1.	He started with Knight Tour problem in which I have to print the path. Conditions were
+I have to cover all the blocks in chess. I can use only 63 moves and solution must be other than backtracking.(most optimal solution).  He wanted me to tell him the strategy required to prune the recursion tree.
+2.   Given a file which contains large number of strings.
+e.g.:my name is XYZ. My emansi XYZ
+i.e. it has words and reverse of words. There can be the case where no reverse word is present
+            He told me to print all those pair whose reverse is also present in the file.
+            For above example output will be:
+            {name,eman}, {is, si}
+            Constraints were Minimum space should be used and time complexity should be minimum
+            further he added don’t compute reverse of string at all.
+(He was interested in function which I will use to calculate the hash value of string).
+3. He asked me what my weak point in coding is.  I said finding out the corner test cases. At this he caught me and said let see how you will face your fear and give me a code and asked me to generate all the test cases for the program.
+Later he asked me to write code for printing a helix (spiral matrix)
+and write all corner test cases for it.
+I wrote solution for NxN but he asked me to write for NxMand do dry run for several test cases.
+That is how second round went ?
+Third Technical Interview
+The interviewer was a bit strict. 
+In this round only single Question was asked but it took almost 1 hour.
+He asked do you know spell checker in micro soft word. I said yes.
+He said, you have newspapers of last 20 years. Use these newspapers and suggest most probable words.
+He gave me example
+Input: fon
+for this input print
+Output: foe, for, fork, fond 
+Question seemed easy but when I started he kept adding constraints on data structures used and complexity.
+I used lexicographical dictionary for this but later he added two more example
+he asked me to suggest ‘con’ and ‘ion’ as most probable word for fon.
+Later he added another example
+Browser
+Bsowerr
+He said suggest browser for ‘Bsowerr’.
+He kept adding examples and constraints.
+My solution started from lexicographical dictionary moved to Trie Tree then to Edit Distance problem then Hashing 
+He said why I gave you newspapers rather than Dictionary. From this I got smell of Machine learning
+He wanted me to suggest on the basis of currently most frequently used words.
+And the Question got more complex
+and it ended on SUFFIX TREE.
+HR round
+It was telephonic round taken by the CEO of the company and asked me all HR related Questions
+It was a good experience.
+
+

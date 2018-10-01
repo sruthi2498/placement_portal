@@ -1,0 +1,17 @@
+Given an array of n positive integers, the task is to find the minimum inverting factor in the given array.
+Inverting factor is defined as the absolute difference between the reverse of any two numbers arri and arrj where i != j.
+Note : Trailing zeroes should be ignored while reversing the digits i.e. 1200 becomes 21 when reversed.
+Examples:
+
+Input : arr[] = { 56, 20, 47, 93, 45 }
+Output : 9
+The minimum inverting factor is 9, of the pair (56, 47).
+Input : arr[] = { 26, 15, 45, 150 }
+Output : 0
+The minimum inverting factor is 0, of the pair (15, 150).
+
+A naive approach is to iterate over two loops to find all possible pairs. Reverse both the numbers individually and find their absolute difference. Update the inverting factor (minimum absolute difference) at every step. Time Complexity would be O(N2).
+An efficient approach would be to precompute the reverse of each array element and store it in its reversed form only (considering the case of trailing zeroes also). Now, to find the minimum inverting factor, sort the array in non-decreasing order. Since the array is sorted, minimum absolute difference always occurs among any two adjacent numbers.
+Below is the implementation of above approach in C++.
+Run on IDE
+Time Complexity : O(N * logN)

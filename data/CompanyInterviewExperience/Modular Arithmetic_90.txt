@@ -1,0 +1,22 @@
+Given a number ‘n’ and a prime p, find if square root of n under modulo p exists or not.  A number x is square root of n under modulo p if (x*x)%p = n%p.
+Examples :
+A Naive Method is to try every number x where x varies from 2 to p-1.  For every x, check if (x * x) % p is equal to n % p.  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of this method is O(p).
+This problem has a direct solution based on Euler’s Criterion.
+
+Euler’s criterion states that 
+Below is implementation based on above criterion.  Refer Modular Exponentiation  for power function.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+How does this work?
+Time complexity of this Euler Criterion based method is O(Log p)
+You may like to see below:
+Find Square Root under Modulo p | Set 1 (When p is in form of 4*i + 3)

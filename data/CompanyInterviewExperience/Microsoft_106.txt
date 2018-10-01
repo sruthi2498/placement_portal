@@ -1,0 +1,13 @@
+Write a function to connect all the adjacent nodes at the same level in a binary tree.
+Example:
+We have already discussed O(n^2) time and O approach in Connect nodes at same level as morris traversal in worst case can be O(n) and calling it to set right pointer can result in O(n^2) time complexity.
+In this post, We have discussed Level Order Traversal with NULL markers which are needed to mark levels in tree.
+
+Run on IDE
+Run on IDE
+
+Time complexity :O(n) where n is the number of nodes
+Alternate Implementation: 
+We can also follow the implementation discussed in Print level order traversal line by line | Set 1.  We keep connecting nodes of same level by keeping track of prev visited node of same level.
+Implementation : https://ide.geeksforgeeks.org/gV1Oc2
+Thanks to Akilan Sengottaiyan for suggesting this alternate implementation.

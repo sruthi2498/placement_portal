@@ -1,0 +1,7 @@
+The Selection Sort algorithm sorts maintains two parts.
+The algorithm works by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the end of sorted part. 
+We have already discussed about Iterative Selection Sort. In this article recursive approach is discussed. The idea of recursive solution is to one by one increment sorted part and recursively call for remaining (yet to be sorted) part.
+Run on IDE
+Run on IDE
+Run on IDE
+

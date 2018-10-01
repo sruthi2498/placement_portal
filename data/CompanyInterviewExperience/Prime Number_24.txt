@@ -1,0 +1,20 @@
+Given an array of N integers, the task is to perform the following two queries:
+
+query(start, end) : Print the number of prime numbers in the subarray from start to end
+update(i, x) : update the value at index i to x, i.e arr[i] = x
+Examples:
+Method 1 (Brute Force)
+A similar problem can be found here. Here there are no updates.We can modify this to handle updates but for this we need to build the prefix array always when we perform an update which makes the time complexity of this approach O(Q * N)
+Method 2 (Efficient)
+Since, we need to handle both range queries and point updates, a segment tree is best suited for this purpose. 
+We can use Sieve of Eratosthenes to preprocess all the primes till the maximum value arri can take say MAX in O(MAX log(log(MAX)))
+Building the segment tree:
+We basically reduce the problem to subarray sum using segment tree.
+Now, we can build the segment tree where a leaf node is represented as either 0 (if it is not a prime number) or 1 (if it is a prime number).
+The internal nodes of the segment tree equal to the sum of its child nodes, thus a node  represents the total primes in the range from L to R where the range L to R falls under this node and the sub-tree below it.
+Handling Queries and Point Updates:
+Whenever we get a query from start to end, then we can query the segment tree for the sum of nodes in range start to end, which in turn represent the number of primes in range start to end.
+If we need to perform a point update and update the value at index i to x, then we check for the following cases: 
+Run on IDE
+The time complexity of each query and update is O(logn) and that of building the segment tree is O(n)
+Note: Here, the time complexity of pre-processing primes till MAX using the sieve of Eratosthenes is O(MAX log(log(MAX))) where MAX is the maximum value arri can take

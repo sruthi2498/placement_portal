@@ -1,0 +1,19 @@
+Allows Duplicates:
+We have discussed about unordered_map in our previous post , but there is a limitation, we can not store duplicates in unordered_map, that is if we have a key value pair  already in our unordered_multimap and another pair  is inserted, then both will be there whereas in case of unordered_map the previous value corresponding to the key is updated by new value that is only  would be there. Even  can exist in unordered_multimap twice.
+Internal Representation:
+    The internal implementation of unordered_multimap is same as that of unordered_map but for duplicate keys another count value is maintained with each key- value pair. As pairs are stored in hash table, there is no particular order among them but pair with same keys come together in data structure whereas pair with same values are not guaranteed to come together. 
+Time Complexity:
+     All operation on unordered_multimap takes constant amount of time on an average but time can go to linear in worst case depending on internally used hash function but in long run unordered_multimap outperforms multimap (tree based multimap). 
+Functions:
+    unorderd_multimap supports many function which are demonstrated in below code :
+Run on IDE
+Output:
+    As we can see in above code most of the operation work similar to unordered_map but some things to note are :
+We can use initializer list for initializing and inserting many pairs at once.
+There is no [] operator for unordered_multimap because values corresponding to a key are not unique, there can be many values associated with a single key so [] operator can not be applied to them.
+Erase function deletes all instances of values associated with supplied key.
+Find function returns an iterator to any instance of key-value pair among all pair associated with that key. 
+How to access/delete if a specific value for a key?
+If we want to check whether a specific  is there or not, we need to loop over all pairs of key-value corresponding to k, in similar way we can erase one copy of a specific  from data structure. There is no specified order in which all values of a key are stored.
+Run on IDE
+Output:

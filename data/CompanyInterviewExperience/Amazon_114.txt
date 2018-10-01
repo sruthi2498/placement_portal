@@ -1,0 +1,25 @@
+Round 1: Online Round(90 minutes)
+There were 20 MCQs and two coding questions. MCQs were mostly logical reasoning, running time and DS/Algo. There were also 2-3 OS, 2-3 DBMS and 1 networking MCQ.
+2 coding questions-
+1- Magic numbers are defined as either powers of 5, or sum of unique powers of 5. Find nth magic number. Eg: 5,25,30,125,130 etc.
+https://www.geeksforgeeks.org/find-nth-magic-number/
+2- Print matrix in diagonal form.https://www.geeksforgeeks.org/zigzag-or-diagonal-traversal-of-matrix/
+Round 2: FTF Interview(Around 1 hr)
+First the interviewer told me to introduce myself. After that he asked 2 coding questions.
+1- Given a binary tree and a node of that tree, find all nodes at a distance d from the given node. Pointer to root node is given.
+I took a lot of time to solve this question. The interviewer found mistakes and told me, and I corrected them or changed my approach slightly. After almost 45 minutes I was able to write the correct code.
+2- Given an array of integers, find the first non-repeating number in the array.
+I gave him the hashmap based approach and he told me to write code. I did so. After that, he told me to find the answer in a single linear traversal of the array. I discussed a lot of approaches but none of them were satisfactory. I couldn’t come up with the correct approach. (Later on when someone asked him the solution, he said that he himself doesn’t know, but maybe a very complex solution exists. I’m still not sure on that. Maybe he just wanted to check how much we can think. :p)
+<Round 3: FTF Interview(Around 30 minutes)
+The interviewer asked me what subjects I like. I told him ds algo but he didn’t want to hear that. So he asked what else and I said DBMS. Then he asked me what is a transaction, how is it different from an sql query, what are its properties.
+After that he moved on to coding questions. He asked me what data structures or algos I like. I said arrays and graphs. Then he asked these questions.
+1- Given a sorted dictionary(array of words) of an alien language, find order of characters in that language.
+https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+I told him I had seen this question before and told him the approach. He didn’t ask me to write the code.
+2- How will you find if a cycle exists in a directed graph?
+I gave him my approach and wrote the code.
+3- Find the longest palindromic subsequence in a given string.
+I tried to solve and told him some approach, even though I knew it was wrong but was hoping for some hint. After just one or two minutes he said let me change the question.
+4- Given 3 characters a, b, c, find the number of strings of length n that can be formed from these 3 characters given that; we can use ‘a’ as many times as we want, ‘b’ maximum once, and ‘c’ maximum twice.
+I told him the dynamic programming approach and he asked me to code it, so I wrote the code.
+After that he said that’s all, do you want to ask any questions. 🙂

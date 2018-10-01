@@ -1,0 +1,9 @@
+Merge two sorted linked list of size n1 and n2. The duplicates in two linked list should be present only once in the final sorted linked list.
+Examples:
+Source: Microsoft on Campus Placement and Interview Questions
+Approach: Following are the steps:
+Run on IDE
+Output:
+Time complexity: O(n1 + n2).
+Auxiliary Space: O(1).
+Exercise: Get the final sorted linked list without duplicates in a single traversal of the two lists.

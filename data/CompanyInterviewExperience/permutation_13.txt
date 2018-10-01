@@ -1,0 +1,13 @@
+Given an array arr[] of size n>4, the task is to check whether the given array can be arranged in the form of Left or Right positioned array?
+Left or Right Positioned Array means each element in the array is equal to the number of elements to its left or number of elements to its right.
+Examples :
+
+A simple solution is to generate all possible arrangements (see this article) and check for the Left or Right Positioned Array condition, if each element in the array satisfies the condition then “YES” else “NO”. Time complexity for this approach is O(n*n! + n), n*n! to generate all arrangements and n for checking the condition using temporary array.
+An efficient solution for this problem needs little bit observation and pen-paper work. To satisfy the Left or Right Positioned Array condition all the numbers in the array should either be equal to index, i or (n-1-i) and arr[i] < n. So we create an visited[] array of size n and initialize its element with 0. Then we traverse array and follow given steps :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)

@@ -1,0 +1,18 @@
+Mirror of a Tree: Mirror of a Binary Tree T is another Binary Tree M(T) with left and right children of all non-leaf nodes interchanged.
+
+
+Trees in the above figure are mirror of each other
+
+Method 1 (Recursive)
+
+Algorithm – Mirror(tree):
+Run on IDE
+Run on IDE
+
+Time & Space Complexities:  This program is similar to traversal of tree space and time complexities will be same as Tree traversal (Please see our Tree Traversal post for details)
+ 
+
+Method 2 (Iterative)
+
+The idea is to do queue based level order traversal.  While doing traversal, swap left and right children of every node.
+Run on IDE

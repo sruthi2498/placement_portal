@@ -1,0 +1,11 @@
+Given a Binary Search Tree (BST) and a positive integer k, find the k’th largest element in the Binary Search Tree. 
+For example, in the following BST, if k = 3, then output should be 14, and if k = 5, then output should be 10.
+
+We have discussed two methods in this post.  The method 1 requires O(n) time. The method 2 takes O(h) time where h is height of BST, but requires augmenting the BST (storing count of nodes in left subtree with every node). 
+Can we find k’th largest element in better than O(n) time and no augmentation?
+In this post, a method is discussed that takes O(h + k) time.  This method doesn’t require any change to BST.
+The idea is to do reverse inorder traversal of BST.  The reverse inorder traversal traverses all nodes in decreasing order.  While doing the traversal, we keep  track of count of nodes visited so far.  When the count becomes equal to k, we stop the traversal and print the key.
+
+Run on IDE
+Run on IDE
+Time complexity: The code first traverses down to the rightmost node which takes O(h) time, then traverses k elements in O(k) time.  Therefore overall time complexity is O(h + k).

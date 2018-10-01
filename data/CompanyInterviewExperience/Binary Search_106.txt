@@ -1,0 +1,12 @@
+Given a matrix of N rows and M columns, the task is to find the minimum absolute difference between any of the two adjacent elements of an array of size N, which is created by picking one element from each row of the matrix. Note the element picked from row 1 will become arr[0], element picked from row 2 will become arr[1] and so on.
+Examples:
+
+The idea is to sort all rows individually and then do binary search to find the closest element in next row for each element.
+To do this in an efficient manner, sort each row of the matrix. Starting from row 1 to row N – 1 of matrix, for each element m[i][j] of current row in the matrix, find the smallest element in the next row which is greater than or equal to the current element, say p and the largest element which is smaller than the current element, say q. This can be done using Binary Search. Finally,find the minimum of the difference of current element from p and q and update the variable.
+Below is implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(N*M*logM).

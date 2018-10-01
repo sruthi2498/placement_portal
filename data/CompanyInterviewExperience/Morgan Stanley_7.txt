@@ -1,0 +1,10 @@
+ First Round : Telephonic round
+I was interviewing for Java developer post at Mumbai office of Morgan Stanley.
+Interview mostly consisted of multi-threading questions and one data-structure and algorithm question.
+Q.1> You are given are two threads (T1 and T2) for generation and two threads (T3 and T4) for validation. How do you make sure that T3 & T4 runs only after (T1 & T2).
+Q.2> How do you make a class immutable? He then asked me what if the class have reference to some APIs which has setter methods. I couldn’t answer that.
+Q.3> What is the difference between countdown *something* and  *something*. Couldn’t hear properly.
+Q.4> What is a volatile keyword?
+Q.5> Difference between LinkedHashMap and HashMap
+Q.6> DIfference between ConcurrentHashMap and SynchronizedHashMap.
+Q.7> Given a linkedlist, how to do you find nth element from the last, if size of the LinkedList is unknown?

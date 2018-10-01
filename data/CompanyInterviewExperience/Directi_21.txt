@@ -1,0 +1,12 @@
+Given two numbers N and A, find N-th root of A. In mathematics, Nth root of a number A is a real number that gives A, when we raise it to integer power N. These roots are used in Number Theory and other advanced branches of mathematics.
+Refer Wiki page for more information.
+Examples:
+
+As this problem involves a real valued function A^(1/N) we can solve this     using Newton’s method, which starts with an initial guess and iteratively shift towards the result.
+    We can derive a relation between two consecutive values of iteration using Newton’s method as follows,
+    Using above relation, we can solve the given problem. In below code we iterate over values of x, until difference between two consecutive values of x become lower than desired accuracy.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

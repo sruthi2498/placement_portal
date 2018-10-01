@@ -1,0 +1,19 @@
+Log() function in C++ :  The log() function in C++ returns the natural logarithm (base-e logarithm) of the argument passed in the parameter.
+
+Syntax for returning natural logarithm:
+result = log(x)
+Syntax for returning logarithm (base-10 logarithm) of the argument.
+result = log10(x)
+The parameters can be of any data-type like int, double or float or long double.
+Log() function returns value according to the following conditions:
+..a) if x>1 then positive
+..b) if 0<x<1 returns a negative value
+..c) if x=1 then it returns 0
+..d) if x=0 then it returns -inf
+..e) if x<0 then it returns NaN(not a number)
+Run on IDE
+Output:
+Application: 
+One of the applications of log() function is to calculated values related to log, for e.g., while finding polite number we need the formula to be written in code, for that we can use log() function. Given below is an implementation of log() function.
+Run on IDE
+Output:

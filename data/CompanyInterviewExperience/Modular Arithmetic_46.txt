@@ -1,0 +1,7 @@
+Given a singly linked list and a number k, find the last node whose n%k == 0, where n is the number of nodes in the list.
+Examples:
+1. Take a pointer modularNode and initialize it with NULL. Traverse the linked list.
+2. For every i%k=0, update modularNode.
+Run on IDE
+Run on IDE
+

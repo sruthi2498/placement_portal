@@ -1,0 +1,12 @@
+Given a array size of n, find the last k digits (1 <= k < 10) of product of array numbers 
+Examples:
+
+A simple solution is to multiply all numbers, then find last k digits of product. This solution may lead overflow as the array product may be high.
+A better solution is to multiply array elements under modulo of 10k
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ Time Complexity : O(n)

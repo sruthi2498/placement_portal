@@ -1,0 +1,13 @@
+In C++ we can store string by one of the two ways –
+In this post, second method is discussed. string class is part of C++ library that supports a lot much functionality over C style strings.
+C++ string class internally uses char array to store character but all memory management, allocation and null termination is handled by string class itself that is why it is easy to use. The length of c++ string can be changed at runtime because of dynamic allocation of memory similar to vectors. As string class is a container class, we can iterate over all its characters using an iterator similar to other containers like vector, set and maps, but generally we use a simple for loop for iterating over the characters and index them using [] operator.
+C++ string class has a lot of functions to handle string easily. Most useful of them are demonstrated in below code.
+Run on IDE
+Output : 
+As seen in above code, we can get length of string by size() as well as length() but length() is preferred for strings. We can concat a string to another string by += or by append(), but += is slightly slower than append() because each time + is called a new string (creation of new buffer) is made which is returned that is a bit overhead in case of many append operation. 
+
+Applications :
+    On basis of above string function some application are written below :
+Run on IDE
+Output : 
+Related Articles:

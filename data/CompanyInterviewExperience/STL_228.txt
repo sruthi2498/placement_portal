@@ -1,0 +1,10 @@
+
+bitset::count() is an inbuilt STL in C++ which returns the number of set bits in the binary representation of a number. 
+Syntax: 
+Parameter: The function accepts no parameter. 
+Return Value: The function returns the number of set bits. It returns the total number of ones or the number of set bits in the binary representation of the number if the passed number is an integer. 
+Below programs illustrates the bitset::count() function. 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

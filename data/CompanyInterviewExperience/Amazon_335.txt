@@ -1,0 +1,25 @@
+Given an unsorted array, find the minimum difference between any pair in given array.
+Examples :
+Method 1 (Simple: O(n2)
+A simple solution is to use two loops.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Method 2 (Efficient: O(n Log n)
+The idea is to use sorting. Below are steps.
+1) Sort array in ascending order.  This step takes  O(n Log n) time.
+2) Initialize difference as infinite.   This step takes  O(1) time.
+3) Compare all adjacent pairs in sorted array and keep track of minimum difference. This step takes  O(n) time.
+Below is implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+

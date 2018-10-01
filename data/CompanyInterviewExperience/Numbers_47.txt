@@ -1,0 +1,13 @@
+What is the largest number which divides 26, 47, 84 to leave remainders 2, 3, 0 respectively ?
+(A) 4
+(B) 6
+(C) 8
+(D) 1
+ Answer: (A) Explanation: 26 – 2 = 24
+47 – 3 = 44
+84 – 0 = 84
+The number divides 26, 47, 84 to leave remainders 2, 3, 0 respectively.
+=> The number should divide 24, 44, 84 completely.
+ 
+HCF (24, 44, 84) = 4
+Hence, 4 is the required number.Quiz of this Question

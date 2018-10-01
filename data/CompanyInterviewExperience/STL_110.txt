@@ -1,0 +1,9 @@
+The list::merge() is an inbuilt function in C++ STL which merges two sorted lists into one. The lists should be sorted in ascending order. If no comparator is passed in parameter, then it merges two sorted lists into a single sorted list. If a comparator is passed in the parameter, then it merges the list accordingly doing internal comparisons.  
+Parameters: The function accepts a single mandatory parameter list2_name which specifies the list to be merged into list1. 
+Return value: The function does not returns anything
+Program below demonstrates the function:
+Program 1:
+Run on IDE
+Parameters: The function accepts two parameters which are described below: 
+Return value: The function does not returns anything 
+Run on IDE

@@ -1,0 +1,32 @@
+I’m in E&CE and I’m sharing my interview experience with Amazon on IIT campus to help you prepare for your interviews. There was online test for 300 students. 25 were selected for interviews. There were 4 back-to-back rounds on the same day. My interview process lasted for around 5 hours and finally I got hired. 🙂
+Round 1:
+1. Given 1 billion integers. Find 100 maximum integers. Memory available is insufficient to store 1 billion integers.
+2. Given array of N integers ranging from 0 to N-1. Output maximum repeating integer. Use only O(1) memory.
+Round 2:
+1. An array of integers is given such that it is first ascending and then descending. Find index of some given integer in that array. Ex. 2,4,6,8,7,5,4,3. Input: 4. Output: 2, 7. Write code on paper.
+2. Two sorted arrays are given. Find median when both arrays are merged and sorted. Write pseudo code on paper. Take care of boundary conditions.
+Round 3:
+Basic OS, DB concepts. 
+1. You are given some integers. Propose a data structure to implement “add”, “delete”, “fetch” and “fetch any” operations. All four operations must complete in constant time.
+2. There is a B-tree with two type of nodes A and B. Return nth A or nth B while doing inorder traversal in O(1) time. And write pseudo code on paper.
+Round 4 with manager:
+There is very huge text file consisting several rows and columns of integers. Memory available is not sufficient to store whole text file. One column can be stored in memory. Sort whole file corresponding to given column keeping all rows unchanged. You cannot make new text file. Write neat code on paper.
+Solution:
+Round 1:
+1. Make min heap of first 100 elements. For each remaining elements, if it is greater than root (min) node then remove root node, add that element then heapify. Time = 1 billion * log(100)
+2. Simple. For i = 0 to N-1, A[A[i]%N] += N. Return i with max A[i]. O(n) time. 
+Round 2:
+1. Find pivot point. O(log n) Binary search in both left and right arrays. O(log n)
+2. Compare median of both arrays. Accordingly select right half or left half array. Repeat. O(log n)
+Round 3:
+1. Make a hash table and a linked list. When you add an element add it in both hash table and linked list. But in hash table along value caralso store pointer to the same value in linked list. To delete an element find it in hash table, use stored pointer to delete the same element from linked list also. For fetch any operation return head node of linked list. Memory = 2*N
+2. Preprocess in O(n) time: Make two vectors for A and B. Traverse in-order. When you get A add its pointer in vector of A. Same for B. 
+Round 4:
+Read whole column. Heap sort (saves memory). Now you know old indices and new indices. Shift entire rows from old index to new index. Keep one row in temp storage to avoid overwriting.
+Some tips that may help you:
+1. Always be confident for whatever you are saying.
+2. Listen carefully. Ask doubts until the question is perfectly clear to you.
+3. Think out loud. Start with obvious approach and then improve upon it.
+4. They will test your way of approach, thinking process. Don’t give up. Interviewer may give you hint if you are stuck.
+5. Direct them to ask you about your strong topics.
+

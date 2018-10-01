@@ -1,0 +1,11 @@
+Given an array that represents elements of geometric progression in order. One element is missing in the progression, find the missing number.  It may be assumed that one term is always missing and the missing term is not first or last of series.
+Examples:
+
+A Simple Solution is to linearly traverse the array and find the missing number. Time complexity of this solution is O(n).
+An efficient solution to solve this problem in O(Log n) time using Binary Search. The idea is to go to the middle element. Check if the ratio of middle and next to middle is equal to common ratio or not, if not then the missing element lies between mid and mid+1. If the middle element is equal to n/2th term in Geometric Series (Let n be the number of elements in input array), then missing element lies in right half. Else element lies in left half.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Note : Drawback withs this solution are : For larger values or for bigger array, it may cause overflow and/or may take more time to computer powers.

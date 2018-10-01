@@ -1,0 +1,26 @@
+Given two numbers n and k where n represents number of elements in a set, find number of ways to partition the set into k subsets.
+Example:
+We strongly recommend you to minimize your browser and try this yourself first.
+Let S(n, k) be total number of partitions of n elements into k sets. Value of S(n, k) can be defined recursively as,
+S(n, k) is called Stirling numbers of the second kind
+
+How does above recursive formula work?
+When we add a (n+1)’th element to k partitions, there are two possibilities.
+1) It is added as a single element set to existing partitions, i.e, S(n, k-1)
+2) It is added to all sets of every partition, i.e., k*S(n, k)
+Therefore S(n+1, k) = k*S(n, k) + S(n, k-1) which means S(n, k) = k*S(n-1, k) + S(n-1, k-1)
+Below is recursive solution based on above formula.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of above recursive solution is exponential. The solution can be optimized as there are overlapping subproblems. For example, below is recursion tree of countP(10,7).  The subproblem countP(8,6) or CP(8,6) is called multiple times.
+So this problem has both properties (see this and this) of a dynamic programming problem. Like other typical Dynamic Programming(DP) problems, recomputations of same subproblems can be avoided by constructing a temporary array dp[][] in bottom up manner using the above recursive formula. 
+Below is C++ implementation of Dynamic Programming Solution.
+Run on IDE
+Output: 
+Time Complexity: O(n x k)
+Auxiliary Space: O(n x k)
+Similar Article:  Bell Numbers 

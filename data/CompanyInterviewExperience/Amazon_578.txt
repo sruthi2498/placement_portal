@@ -1,0 +1,26 @@
+1. Phone Interview
+  a. Given sorted array in decreasing order. Find first occurrence of given key.
+  b. Find diameter of a binary tree.
+2. Face to face 1 (Programing skill)
+   a. https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/
+   b. Merge N sorted lists to a single sorted list but comparisons should be minimum
+3. Face to face 2 (DS round)
+  a. 1 represent A, 2 rep B etc and 26 rep Z. Given a number, find number of possible decoding for this number. No need to consider number starts with zero. Eg: input – 1234, output – 3(ABCD, AWD, LCD)
+  b. How to find a loop in linked list. How to remove this loop.
+  c. How to design LRU cache(looking for the DS’s used and their interaction)
+4. Face to face 3(Design)
+  a. A device need to upgrade and downgrade its software. Eg: mobile phone need to upgrade its OS. Design high level and low level.
+     (follow-up – 1. form version X to Y is not possible but z can. 2. from current version to latest version not possible but we can upgrade to an intermediate version and then to latest version. What
+DS will be effective here)
+  b. Design a semaphore.
+5. Face to face 4(curtain raiser)
+  a. HR questions including prev projects, best work etc
+  b. Given a linked list where each node contains an extra arbitrary pointer which points to any node in the list. Write code to clone the list.
+  b. Print vertical sum of a binary tree.
+  c. Print a binary tree in vertical zig-zag order.
+6. Manager round
+  a. manager round HR questions. Team fit questions etc.
+  b. Given a mathematical expression. How to design this expression evaluator using OOPs concept.
+Each round consists of 1 to 1.30 Hrs.
+
+

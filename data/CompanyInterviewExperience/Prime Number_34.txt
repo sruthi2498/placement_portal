@@ -1,0 +1,16 @@
+Given two numbers N and M. Find the number of ways in which factorial N can be expressed as a sum of two or more consecutive numbers. Print the result modulo M.
+Examples:
+
+A simple solution is to first compute factorial, then count number of ways to represent factorial as sum of consecutive numbers using Count ways to express a number as sum of consecutive numbers. This solution causes overflow.
+Below is a better solution to avoid overflow.
+Let us consider that sum of r consecutive numbers be expressed as:
+(a + 1) + (a + 2) + (a + 3) + … + (a + r), which simplifies as (r * (r + 2*a + 1)) / 2
+Hence, (a + 1) + (a + 2) + (a + 3) + … + (a + r) = (r * (r + 2*a + 1)) / 2. Since the above expression is equal to factorial N, we write it as
+2 * N! = r * (r + 2*a + 1)
+Instead of counting all the pairs (r, a), we will count all pairs (r, r + 2*a + 1). Now, we are just counting all ordered pairs (X, Y) with XY = 2 * N! where X < Y and X, Y have different parity, that means if (r) is even, (r + 2*a + 1) is odd or if (r) is odd then (r + 2*a + 1) is even. This is equivalent to finding the odd divisors of 2 * N! which will be same as odd divisors of N!.
+For counting the number of divisors in N!, we calculate the power of primes in factorization and total count of divisors become (p1 + 1) * (p2 + 1) * … * (pn + 1). To calculate the largest power of a prime in  N!, we will use legendre’s formula.
+
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE

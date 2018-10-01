@@ -1,0 +1,10 @@
+ Explain the data structures and algorithms that you would use to design an in-memory file system. Illustrate with an example in the code logic where possible. 
+Asked In: Amazon
+A file system, in its most simplistic version, consists of Files and Directories. Each Directory contains a set of Files and Directories. Since Files and Directories share so many characteristics, we’ve implemented them such that they inherit from the same class, Entry. 
+Implemented Main logic in Java
+Run on IDE
+Alternatively, we could have implemented Directory such that it contains separate lists for files and subdirectories. This makes the nurnberOfFiles () method a bit cleaner, since it doesn’t need to use the instanceof operator, but it does prohibit us from cleanly sorting files and directories by dates or names. 
+For data block allocation, we can use bitmask vector and linear search (see “Practical File System Design”) or B+ trees (see Reference or Wikipedia).
+References: 
+https://www.careercup.com/question?id=13618661
+https://stackoverflow.com/questions/14126575/data-structures-used-to-build-file-systems

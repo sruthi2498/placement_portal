@@ -1,0 +1,76 @@
+Oracle Interview Experience
+Oracle visited our campus for the job profile of Server Technology. Sharing interview experience of server technology.
+Round-1: Online Test (Duration: 1hr 15min)
+The online test was conducted on Oracle platform. It had various sections:
+1.Verbal Ability (had 4 subsection including passage reading, grammar checking, fill ups etc),
+2.General Aptitude (logical, Maths, etc)
+3.Technical Assessment (DBMS, OS, etc)
+4.Coding Assessment (questions on finding output for AVL, Trees, Graphs, etc)
+5.Flow Chart problems
+The difficulty level of certain sections was hard. Overall difficulty was moderate. It is important to manage time.
+After this round, 54 students were shortlisted for the coding round.
+Round-2: Coding Round(Duration: 2hr)
+Coding round was conducted on Oracle platform. This round had 2 coding questions of moderate difficulty. The round was non-eliminating.
+Round-3: Technical Interview(Duration: 1hr)
+In this round, every interviewer had 2 candidates.
+Question:
+Started with general question like “Tell me about yourself” with the interviewer taking a look at my resume in the meantime.
+“Given an array, sort the array in the most optimal manner and find a given number in that array”.
+Both the candidates were given time to write their codes(not psuedo code) on a sheet of paper  and then were asked to submit the sheet. Then when called in turns for the interview on the code. 
+37 candidates qualified after this round.
+Round-4: Technical Interview(Duration: 1hr)
+This round also began with a brief discussion on my major project. After that, the interviewer asked me following questions:
+1.Given following input:
+1: 2, 3, 4
+2: 5, 6, 7
+7: 8, 9
+Represents that employees 2, 3 and 4 report to employee 1; employees 5, 6 and 7 report to employee 2; and employee 8 and 9 report to employee 7. You have to return a string containing the list of direct as well as indirect employees. For example, return “1:2 3 4 5 6 7 8 9”.
+2.Given the path to a directory, write a program to return the count of total number of files in that directory (This includes the count of files within the directory inside the input directory).
+3.Given input as:
+1.     (a+b*c)+a-(a*c)
+Return True;
+2.    (a+b)*{c}+{d-e]
+Return False;
+This is a parenthesis balancing problem.
+Then, the interviewer asked me several questions regarding Method overriding in java such as
+1. Given: 
+Will the above compile.
+2.
+class Animal{
+    public static void print(){
+       SOP(“Animal”);
+    }
+}
+class Dog extends Animal{
+    public static void print(){
+       SOP(“Dog”);
+    }
+}
+Are the following correct:
+a)Animal a = new Dog();
+b)Dog d = new Animal(); 
+Puzzle:
+Given 3 beakers of 8L, 5L and 3L, get 4L and any one beaker.
+About 25 students qualified after this round.
+Round-4: Technical Round (Duration: 1hr)
+Design a car parking system. We discussed about various classes that could be possible.
+We also had discussions regarding static block and final class.
+Puzzle:
+A king has some party after 24 hr and out of 1000 bottles of wine, one bottle has poison. He has 10 prisoners (who can die :P). You have to find the poisoned bottle. The poison shows reaction after 24 hr.
+Some questions asked by other candidates:
+1.Difference between B and B+ trees.
+2.Puzzle:
+If I place 1 bird on every tree, I have 1 bird left. If I place 2 birds on every tree, 1 tree is left. How many birds are there on the tree.
+3.Questions related to DBMS, schema of your project.
+4.Given an array, find the equilibrium point.
+About 16 students qualified.
+Round-5: HR Round (Duration: 30mins)
+1.Tell me about yourself.
+2.Since I don’t know you, how would you describe yourself. What are your key points? Your strengths? Your Weakness?
+3.Job Preference
+4.What made you apply?
+5.What have you learned over the last 3 years in college (Nothing technical please).
+14 students were shortlisted. 
+As a suggestion, be confident while explaining your approach to the interviewer. Work on your communication skills. Be honest. Take time, dry run your code before giving final code. Even if you are stuck, discuss your approach with the interviewer. 
+
+

@@ -1,0 +1,9 @@
+I had my onsite rounds with Microsoft.
+There were 4 interviews. 
+Round 1. Given a circular buffer, write Get( ) and Post( ) methods . Get(n) should return the n characters in the string, if ‘n’ elements are not present, it should throw an exception. Put( string s) should put each of the characters of string s into the buffer without overwriting anything which hasn’t been read by Get()
+Round 2 Longest common substring from 2 given strings. As I couldn’t give optimal solutions, asked me to write a strcmp(str1, str2) method
+Round 3 Write a secure and safe strcpy( ) method . Asked me some theoretical questions about indexing and triggers for sql
+Round 4 Write a program which generates XLS column numbers given the column number in decimal.
+e.g. 
+Good Luck to future interviewers
+

@@ -1,0 +1,16 @@
+Given two integers n and m. Find the longest contiguous subset in binary representation of both the numbers and its decimal value.
+Example 1:
+Example 2:
+Example 3:
+Question Source :https://www.geeksforgeeks.org/citrix-interview-experience-set-5-campus/
+
+Prerequisite :
+1) substr C++
+2) find C++
+We convert given numbers to their binary representations and store binary representations in two strings. Once we get strings, we find the longest common substring by trying all length substrings starting from maximum possible length.
+Run on IDE
+Run on IDE
+
+Optimizations to above approach: 
+The above solution can be optimized by methods discussed in below posts:
+Dynamic Programming | Set 29 (Longest Common Substring)

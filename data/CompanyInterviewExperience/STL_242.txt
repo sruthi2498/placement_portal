@@ -1,0 +1,4 @@
+How to apply STL binary_search to vector of pairs(key, value), given that vector is sorted by its first value(key) 
+struct compare  in the code contains two function which compares the key(searching element) with the first element in the vector
+Run on IDE
+The above binary_search operation has time complexity  O(lg n) 

@@ -1,0 +1,12 @@
+Given a string that contains digits of a number. The number may contain many same continuous digits in it.  The task is to count number of ways to spell the number.
+For example, consider 8884441100, one can spell it simply as triple eight triple four double two and double zero. One can also spell as double eight, eight, four, double four, two, two, double zero. 
+Examples :
+
+This is a simple problem of permutation and combination. If we take example test case given in the question, 11112. The answer depends on the number of possible combinations of 1111. The number of combinations of “1111” is 2^3 = 8. As our combinations will depend on whether we choose a particular 1 and for “2” there will be only one possibility 2^0 = 1, so answer for “11112” will be 8*1 = 8.
+So, the approach is to count the particular continuous digit in string and multiply 2^(count-1) with previous result.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+If you have another approach to solve this problem then please share.

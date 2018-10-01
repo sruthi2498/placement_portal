@@ -1,0 +1,21 @@
+Given an array with distinct elements, the task is to find the pairs in the array such that a  % b = k, where k is a given integer.
+Examples :
+
+A Naive Solution is to make all pairs one by one and check their modulo is equal to k or not. If equals to k, then print that pair.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)
+An Efficient solution is based on below observations : 
+To quickly check if an element is present in array, we use hashing.
+
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n* sqrt(max))  where max is the maximum element in the array.
+Reference: 
+https://stackoverflow.com/questions/12732939/find-pairs-in-an-array-such-that-ab-k-where-k-is-a-given-integer

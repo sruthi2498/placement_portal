@@ -1,0 +1,48 @@
+I always wanted to write about my fascinating interview experience with Xerox but did not get the right opportunity or time to express the same. Now having fixed a bug in the code of the revolutionary project I have been working on in XRCI, I am thinking to refresh myself a bit by writing my Interview experience with XRCI which happened one and half year ago.
+On the day of the Interview, I woke up at 6 am in the morning which is pretty unusual compared to my other days of the year in IIT Guwahati. I shaved and took my bath. I dressed casually – casual shirt, a semi-formal white pant and my favorite casual woodland shoes. I had my breakfast at around 7:30 am and headed for the interview.
+The interview with Xerox was scheduled from 9 am. From our batch, 12 candidates were selected for face to face interview. When I reached the venue at around 7:45 am, I saw all my friends were already there. They were dressed very formally with polished shoes. I looked at my shoes and felt a little bit awkward but did not let that to subdue my confidence.
+Me and and my friends were chatting. At around 8:30 am, one of our friends called informing us that the eBay written test is about to start. Two of our friends jumped off their chairs and paused. Now the discussion was whether to go for the eBay written test or gamble our luck just with Xerox. After a brainstorm those two went for the eBay written test and 10 of us put all our money on Xerox.
+At sharp 9 am, we saw the Xerox guys entering the venue. My heart throbbed so heavily that I thought it will some how come out of it’s enclosure. All of my attempts to remain calm was not working. After some time the interview scene was ready. Four guys were taking the interviews in four separate rooms. Two of them were interviewing the M.Tech candidates and rest two were interviewing the B.Tech candidates.
+Two of our friends went inside the interview rooms and we were having goosebumps sitting in the room allotted for the candidates. Two of our friends were still digging their heads into some Algorithm books hopping to soak in the last bit of knowledge possible.
+My turn came and with an excited heart and refreshing all the positive reviews that I had read about Xerox I went inside the room. A big tall guy was sitting in the room. As I entered into the room, he rose up from his seat and introduced himself and asked me to take my seat.
+He then told me to introduce myself which I prepared perfectly and told him about my experience and the projects that I had worked on. Before joining my M.Tech in IIT Guwahati, I had also worked with different software firms and there was a discussion on that aspect too.
+He was looking into my resume very patiently while I was telling him about myself and my projects. He then pointed out something called Business Process Modelling from my resume and we had a long discussion regarding that.
+After this initial introduction here comes the first technical question
+Write code to delete a node from a linked List.
+I was very well prepared with my coding skills. I wrote the code pretty quickly using a fast pointer and a slow pointer in C, taking the node to be deleted as Input. I am very strong with pointers in C. You give me this question now and I will write the code which will run in the very first attempt. But to my surprise, in the interview room I fumbled a bit while trying to cover the edge cases. I was getting very angry on myself and this increased my problem.
+But then I somehow calmed myself down and careful thought the edge cases like –
+What happens if the list is empty
+What happens if it has only one element
+What happens if the node to be deleted is not there in the list at all
+What happens if the to be deleted node happens to be the last node in the list.
+I completed the code, showed to him and we were done with the first question.
+Then comes the second question.
+How will you find the median of a list.
+I first explained him the procedure using two heaps and proceeded to write the code. This time I was pretty confident and my fumbling was gone. I wrote the code and showed it to him and we were done with the second question.
+Third question – How Garbage collection works in Java.
+Lots of discussion and he seemed to be convinced.
+I had worked on Hadoop in one of my projects for the course Data Mining.
+Fourth question – Why and when distributed computation is required.
+This was a vague question (intentional) and I picked up the famous Word Count example to walk him through the whole process of distributed hash map step by step.
+He then asked a question on distributed hash map regarding preserving the keys which I don’t exactly remember now but I remember that I convinced him for most of the parts but not to the fullest.
+The first interview was over. I came out of the room keeping my fingers crossed and one of my friends entered the room. Rest of my friends who are still waiting for their turn showered me with questions about the interview and I answered them one by one.
+After a while, one of my friends came out of the other room looking very dissatisfied. He told that for the sake of mentioning, he put Java and Python in his resume and got bombarded.
+So, if you are not thorough with a skill, PLEASE DO NOT put that in your resume.
+At that time I saw four of my friends are yet to face their turn and the time was around 12:30 pm. I went for my lunch and came back at around 1:15 pm. At that time last two of my friends were getting interviewed.
+The first round was over at around 1:40 pm and the interviewers went for their lunch. We were waiting for our results. Our placement volunteers told us that the results will be announced after they will come back from their lunch.
+All of us were very excited; although some three of us lost their hopes. The interviewers came back at around 2:30 pm. and my heart began to pound again. After some 15 minutes, the volunteer was coming towards our room with a paper in his hand and I can still feel the excitement at this moment. Imagine how many neurons would have been fired.
+He announced four names including myself who are proceeding to the next and final round and called one of the four members to enter the interview room. We are thinking like why only one. In the previous round they called two at a time.
+I got the answer when I was called immediately after my friend was done with his interview. I entered the room and all the four interviewers were sitting there. I did not have any time to get scared; otherwise I would have been to death.
+One interviewer straight away started with the convex hull algorithm and asked me to explain how that works. I studied that long before out of my own interest as it was not included in my course and that paid me well that day. 
+You never know which knowledge you acquired will be handy at what time. He was pretty impressed with my explanation. Then a kind of senior level guy entered the room and straight way asked me one conditional probability question. Then another one. Then another one again… and it was a probability marathon.
+After that he told Probability is Good. I was now relaxed.
+Then a tall and long haired guy entered the scene. The big guy who took my first round gave him my resume. He glanced it and told me that he will ask me an Algorithm question.
+The question – You are given a dictionary of an unknown language. You have to find the order of the alphabets.
+I told myself – Oh Boy! I am in trouble. This was a pretty vague question (intentional). I asked a lot of cross question and finally my intuition told me that this is a Graph question. And immediately after that I was able to find the hiding Topological Sort.
+He told me to write code for topological sort. This time I was on top of my confidence. I began to write it. He paused me and told me to write only the pseudo code. I did that. While I was writing my code, he was reviewing all my codes that I wrote in the first round.
+He then asked me something regarding the Fibonacci Heap. I never heard of that and he skipped the question.
+I came out of the room being very confident and to wait for the result. The third guy went inside. We were not talking much now. All of us were in tension. We were hoping that they will take all of us.
+After some time the interview was over. It was around 6:15 pm. Immediately the placement volunteer came to us with a paper on his hand. He announced only my name.
+I went inside again. Signed on some documents. Took my offer letter and came out highly satisfied.
+So, that’s it. I hope you will be able to take something out of it.
+You can also check my Microsoft Interview Experience here

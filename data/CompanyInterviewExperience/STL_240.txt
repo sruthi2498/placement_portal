@@ -1,0 +1,11 @@
+Pre-requisite : set in C++, unordered_set in C++
+Differences : 
+Use set when
+Use unordered_set when 
+Examples:
+If you want to look at implementation details of set and unordered_set in c++ STL, see Set Vs Map. Set allows to traverse elements in sorted order whereas  Unordered_set doesn’t allow to traverse elements in sorted order.
+Run on IDE
+Run on IDE
+Predecessor/Successor in Set:
+Set can be modified to find predecessor or successor whereas Unordered_set doesn’t allow to find predecessor/Successor.
+Run on IDE

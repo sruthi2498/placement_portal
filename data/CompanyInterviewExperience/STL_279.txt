@@ -1,0 +1,5 @@
+In C++, all containers (vector, stack, queue, set, map, etc) support both insert and emplace operations.
+The advantage of emplace is, it does in-place insertion and avoids an unnecessary copy of object. For primitive data types, it does not matter which one we use. But for objects, use of emplace() is preferred for efficiency reasons.
+Run on IDE
+Output:
+Please refer Inserting elements in std::map (insert, emplace and operator []) for details.

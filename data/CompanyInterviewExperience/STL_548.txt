@@ -1,0 +1,12 @@
+Given an array of distinct positive integers, the task is to find the maximum product of increasing subsequence of size 3, i.e., we need to find arr[i]*arr[j]*arr[k] such that arr[i] < arr[j] < arr[k] and i < j < k < n 
+Examples:
+
+A Simple solution is to use three nested loops to consider all subsequences of size 3 such that arr[i] < arr[j] < arr[k] & i < j < k). For each such sub-sequence calculate product and update maximum product if required.   
+An Efficient solution takes O(n log n) time. The idea is to find following two for every element. Using below two, we find the largest product of an increasing subsequence with an element as middle element.  To find the largest product, we simply multiply the element with below two.
+Note : We need largest of as we want to maximize the product. 
+To find largest element on right side, we use the approach discussed here. We just need to traverse array from right and keep track of maximum element seen so far.
+To find closest smaller element, we use self-balancing binary search tree as we can find closest smaller in O(Log n) time.  In C++, set implements the same and we can use it to find closest element.
+Below is C++ implementation of above idea.  In the implementation, we first find smaller for all elements. Then we find greater element and result in single loop. 
+Run on IDE
+Output:
+Time Complexity: O(n log n) [ Inset and find operation in set take logn time ]   

@@ -1,0 +1,15 @@
+Given a sorted array of positive integers, rearrange the array alternately i.e first element should be maximum value, second minimum value, third second max, fourth second min and so on. 
+Examples:
+Expected time complexity is O(n).
+The idea is use an auxiliary array. We maintain two pointers one to leftmost or smallest element and other to rightmost or largest element. We more both pointers toward each other and alternatively copy elements at these pointers to an auxiliary array. Finally we copy auxiliary array back to original array.
+Below are programs based on above facts.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+Exercise : How to solve this problem if extra space is not allowed?
+
+Rearrange an array in maximum minimum form | Set 2 (O(1) extra space)

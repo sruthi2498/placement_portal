@@ -1,0 +1,16 @@
+Hi All, Here is my interview experience with Amazon for internship. Hope it helps:
+Round 1:
+Online round with 20 objective questions on (Questions related to data structures, analysis of algorithms, C Language and some puzzles.) and 2 coding questions in 90 minutes
+Write a program to reverse k alternate nodes of a linked list
+Ex: 1->2->3->4->5->6->7->8->9
+If k is 3 Output should be: 3->2->1->6->5->4->9->8->7
+Given a string. Write a program to form a string with first character of all words.
+Ex: The bucket is full of water
+Output: Tbifow
+Check all edge and corner cases.
+Round 2: Face to face round
+Given a binary tree. Modify it in such a way that after modification you can have a preorder traversal of it using only right pointers. During modification you can use right as well as left pointers. Write complete code and dry run it for some test cases.
+Given 2 linked lists. Find out if they intersect or not. If yes, find intersection point .Write complete code for it.
+I could not remember the simple way: find the length of the lists and simply move forward the shorter list by difference of the lengths and find the intersection point. Instead, I joined the end of first list at the end of the 2nd list and then went for cycle finding by Floyd Cycle finding Algorithm. Although both are O (n), but he was impressed as it was a new approach.
+Round 3: Face to face round
+Given a sorted array of 0’s and 1’s. Find out the no. of 0’s in it. Write recursive, iterative versions of the code and check for all test cases.

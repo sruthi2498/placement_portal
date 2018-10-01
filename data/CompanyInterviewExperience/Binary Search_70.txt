@@ -1,0 +1,13 @@
+Given a positive value N, we need to find the count of numbers smaller than N such that the difference between the number and sum of its digits is greater than or equal to given specific value diff.
+Examples:
+
+    We can solve this problem by observing a fact that for a number k less than N,
+    So, finally we can say that if a number k satisfies the difference condition then (k + 1) will also satisfy same equation so our job is to find the smallest number which satisfies the difference condition then all numbers greater than this and up to N will satisfy the condition so our answer will be N – smallest number we found.
+    We can find the smallest number satisfying this condition using binary search so total time complexity of solution will be O(log N)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

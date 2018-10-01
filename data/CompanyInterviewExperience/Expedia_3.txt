@@ -1,0 +1,14 @@
+Given an array of n integers. The problem is to find maximum length of the subsequence with difference between adjacent elements as either 0 or 1.
+Examples:
+Source: Expedia Interview Experience | Set 12
+
+The solution to this problem closely resembles the Longest Increasing Subsequence problem. The only difference is that here we have to check whether the absolute difference between the adjacent elements of the subsequence is either 0 or 1.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n2)
+Auxiliary Space: O(n)
+Maximum length subsequence with difference between adjacent elements as either 0 or 1 | Set 2

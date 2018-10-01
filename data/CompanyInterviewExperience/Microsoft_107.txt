@@ -1,0 +1,35 @@
+ROUND 1 – ONLINE ASSESSMENT 
+Platform – cocubes.com
+Duration – 75 minutes
+Format – 3 Coding Questions
+Maximum Score – 10 marks
+About 120 students appeared for this test. Questions were random and all students had different sets with a few overlapping questions.
+
+1. Complete the following function-
+Where TreeNode is a structure defined as:
+The function was supposed to return the maximum value of TreeNode. This was supposed to be done by calculating (12*feet+inches) for each element. It constituted of 2 marks.
+
+2. Complete the following function-
+Where ‘Node’ is the structure of a linked list node defined as:
+The code was supposed to recursively find the intersection between 2 linked list(already sorted) with a condition that no extra space is to be used. This question was for 3 marks.
+Example:
+
+3. Complete the following function-
+Where ‘Node’ is the structure of a linked list node defined as:
+alternateReverse() must remove the even number nodes from the linked list and append them to the end in reverse order. No extra space was allowed. It was for 5 marks.
+Example:
+ROUND 2 – GROUP FLY 
+Around 40 students were shortlisted for this round. This was a pen-paper based test. The candidates were roughly divided into a group of 4-5 and a mentor was in charge of each group. We were given a question and we were asked to write a function-solution in any high-level language (scripting languages like Ruby, PHP, Python were not allowed). We were allotted maximum 45 minutes.
+Question-Given two character arrays(not strings) of the same length, and their length as a parameter to the function. We have to find whether the first string is a rotation of the other. We should not use any extra space. The time complexity may be quadratic.
+The mentor kept coming to everyone. He first asked what I was thinking. I told him the approach with an example and then wrote my code down. The mentors were helping and motivating. They demanded code only.
+ROUND 3 – TECHNICAL INTERVIEW 
+Around 25 students were selected for this round.
+The interviewer introduced herself and then asked me to tell her about myself. Then she asked me to find longest common prefix from an array of strings. We discussed an approach and then I had to code it down. She also asked me about the time complexity and then asked me to optimise it. I gave another approach and then she asked me to code it and give the time complexity. We optimised the solution further with a new approach and I coded it too. The interviewer was satisfied.
+https://www.geeksforgeeks.org/longest-common-prefix-set-1-word-by-word-matching/
+She, in the end, asked me if I had any questions for her? I asked her a question. The interview went on for about 1hr 10mins.
+ROUND 4 – TECHNICAL INTERVIEW 
+The interviewer introduced him and then I did. He gave me 2 questions-
+He asked me if I had any questions for him? I asked him one too. The interview went on for about 45 mins.
+ROUND 5 – HR INTERVIEW 
+The interviewer has 20+ years of experience in Microsoft. He introduced himself and asked me if I had any questions for him. We then discussed Achievements and Positions of Responsibility from my resume for about 20 mins.
+The interview went on for about 1hr. They announced the result the next day and selected 5 students.

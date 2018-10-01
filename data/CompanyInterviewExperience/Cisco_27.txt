@@ -1,0 +1,27 @@
+Status: Full Time job + 6 month internship offered.
+It was a 4 round interview. The first round was a written round with 50 questions(20 aptitude + 30 technical) for 1 hour. The second round was a technical round(1 hour). The third was a technical + management round(20 mins).The fourth round was a short HR round(10 mins).
+In the first round, 20 aptitude comprised of simple-medium-complex aptitude questions.Some were answerable within 10 seconds, some took 30-40 seconds and the harder ones took slightly over a minute to solve. The questions were based on all the classic aptitude topics.Some questions were stated in a confusing way, but other than that, no hiccups were present. The technical side had 30 questions. roughly about 10 from C, C++, OS were asked, another 5-6 were from electronics side.Around 5 from networking topics and the rest were based on data structures, complexity estimation,and topics around that. I was able to answer most of the aptitude questions(17-18) were correct out of 20 and more than 22 questions were right out of 30 in the technical side. I think the cutoff for the second round was around the 40 mark, which i had gotten and i made it to the second round.
+In the second round, the interview started off with simpler,shorter questions, like for example the interviewer pointed to one of the technical questions in the previous round(the interviewer has your answer sheet from the previous round) and asked me to explain the approach i had taken to solve the problem. The question he asked me to explain was a recursive function, and i had to estimate the worst case time complexity of the function. the function was something like this. 
+The answer to this was O(2^n). The interviewer modified the question to this:
+return (function(params-1) + function(params-1)) * function(params-1)
+The complexity of this was O(3^n). He asked me to derive it on paper which i did. The next question was regarding how to set the nth bit in a 32bit-integer. The answer was pretty straight forward.  variable | 1<
+      4         Then the answer would be:
+    /   \              1357264
+  2      6
+ /  \    / \
+1    3  5  7
+
+After taking a few hints from the interviewer i was able to code it up without errors.
+The next question was to print the tree in a zig-zag manner. ie:
+for the tree above the zig-zag traversal would yield: 4267531.
+After thinking for some time, hints from the interviewer, i was able to code this up as well.
+Basically by this time 1 hour was up. The key points the interviewer looked for, was my approach to the problem, error-less coding, All corner cases must be taken care of while implementing the program.The most important thing is you should be sure of your solution. The interviewer asks you if the solution is right or wrong, here he is checking your confidence, try to dry run the program once or twice after coding it up, this would help with the confidence. Also , try to speak as much to the interviewer about your thought process, this not only gives a better opinion to the interviewer, but if you tell him where your stuck, he/she might give you clues to proceed further.
+After answering all the questions with hints from the interviewer , i qualified for the next round.
+In the third round, The technical-management round., the key focus was your thought process, they were not too keen about the technicality of the solutions. The interviewer asked me what were my favorite topics, and i replied data-structures and algorithms. Then he asked me to code up a part of a  social network were people were nodes and different types of connections existed between them. my job was to write functions to connect any two nodes of the graph, and also another function to check if 2 nodes are directly or indirectly(transitively) connected.
+I asked him, whether all these edges/connections were directed or undirected, so he asked me to assume they were undirected for simplicity. Then i was asked to come up with a data structure to handle these operations. It was obvious that it was a graph structure and the nodes had user details and a edge-list inside it.
+the socialGraph class had a insertion,deletion functions and connect(node*,node*) ,
+isconnected(node*,node*) functions as friend functions to connect 2 nodes and check if 2 nodes are connected. connect function was straight forward ,as i had to append node reference  to the edge-list of the node.
+Then to check if 2 nodes are connected, i did a DFS from the source node to the destination node. The interviewer asked me to make the code such that it could scale. So i suggested that we could do a A* search instead of a DFS to make the search space smaller. The interviewer seemed satisfied with my solutions and then we moved on to the other questions. He asked me about my projects, the roles i have played in various clubs in the college, my future plans, why Cisco? and other simple questions like that.
+I did well enough to get qualified for the final round which was a casual HR round where they asked simple questions like the meaning of my name 😛 and then i was given a evaluation form to fill, and they asked me some questions on that which i could answer.
+The interview overall was reasonable, but certainly made me think out of my shoes, and strong knowledge in Data structures and algorithms helped me pass this interview.
+

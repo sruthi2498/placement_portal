@@ -1,0 +1,42 @@
+Round 1: Written (pen & paper) :
+Paper 1 : 20 Ques on Aptitude, hard to crack in time constraint (20 mints) – DIFFICULT to MODERATE
+Paper 2 : 20 Ques on Programming Language (C,C++,Java) and on core CS (OS, DBMS, CN, DSA) (20 mints) – MODERATE to EASY
+No coding round.
+One should focus on number of correct ques rather than increasing overall attempt,
+Shortlisted 14 students out of 100.
+Round 2: F2F Technical (45 mints) :
+Started by asking how was the test ? How was your day today ?
+Made me comfortable .
+ 1. Given an array consisting of both positive as well as negative numbers, find the max sum contiguous sub array.
+ 2. Stream of numbers is coming , at any point you need to return the top 20 elements from the elements received so far. Which data structure will you choose?
+ 3. Implement Queue using Stacks.
+ 4. Discussion on applications of various data structures.
+ 5. Design problem using OOP
+ 6. Discussion on steps for executing source code.
+Round 3: F2F HR (30 mints) :
+ 1. Meaning of your name ?
+ 2. Gave topic on which I need to write for 5 mints.
+ 3. Asked me about my scholastic achievements.
+ 4. What happens when you enter URL?
+ 5. Guesstimate
+ 6. Difference between scripting and programming language ?
+ 7. What makes Linux different from Windows.
+Round 4: F2F HR (30 mints) :
+ 1. Do you know this pointer, when to use virtual functions, what are constant functions.
+ 2. What are Lattices in reference to  C++.
+ 3. Which all languages you know ?
+ 4. Discussion on DBMS concepts
+ 5. Which is your dream company?
+ 6. Ques on general awareness.
+Round 5: F2F Technical (45 mints) :
+ Ice breaker followed by these questons-
+ 1. Standard Puzzles
+ 2. Given some order of digits in a string, return a number which is just bigger than the present number in the string using same digits.
+     Asked to calculate the time complexity and to further optimize it.
+ 3. Given a matrix with entries 0 and X, change X’s to 0 if you find X cluster surrounded by 0’s from all sides, return the updated matrix.
+ 4. Discussion on different DS and sorting algorithms.
+ 5. Asked to write SQL query for given situation.
+ 6. Design problem
+ 7. Fundamental questions on CN.
+I thanks GeeksforGeeks team for providing wonderful platform to enhance one’s skill set.
+

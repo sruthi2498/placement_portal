@@ -1,0 +1,35 @@
+Position: Securities Division- Equities One Delta Developer roles ( C++ Developer)
+Location: Bangalore(Emabassy Golf Link Business Park)
+It was a drive. I was shocked to see 100+ Candidates in Exam Hall.
+I think, Around 20 candidates cleared Written Test.(Yeah… I’m In)
+
+1st Round: Written Test ( Duration: 60 Mins)
+5 MCQ ( all c++ Code snippets )
+1. template without arguments
+2. vector erase in for loop
+3. deleting a pointer twice
+4. sizeof  Vs strlen
+5. sizeof of derived class with Virtual Functions in it’s base class.
+1 Programming Question.
+–> Event Management. Given some event intervals , each Interval {s,e} will contain start & end time. ( InterVal Tree Problem I)
+Asked to Implement the following Operations:
+==> 1.Add/Delete an event
+==> 2.Find Events happening in any given time.
+==> 3.Get All overlapping Events
+==> 4.Time & Space Complexity of each operation.
+Have to write syntactically correct Code for these 4 Operations.
+
+2nd Round:(FF2F)
+They started with asking about my Current work/Company…etc
+I was asked to write code for Stack Implementation. I Answered it, Using Array.
+Then, they asked what do you once if goes out of space. I modified my answer using Vector.
+Next was some video player test cases. It’s bit lengthy problem statement.
+the crux of the question is you given bunch of intervals. I have to write a code to print all the time missing interval’s.
+ex. (4,10), (3,8), (12,20). Interval Range: 0-25, find out the missing intervals in this range?
+Output:(0,3)(10,12)(20,25) .
+I couldn’t able to provide a solution in my 1st attempt. They gave me some time to think & Answer. In 2nd Attempt i quiet solved it.
+My Solution:
+sort the given intervals on Starting Time of intervals.
+For the above example, they look like (3,8) (4,10) (12,20).
+Iterate through this sorted intervals, print missing intervals. 
+that’s all. I was asked to leave after 2nd round.

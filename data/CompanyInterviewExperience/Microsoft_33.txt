@@ -1,0 +1,40 @@
+Round 0: Coding Round
+3 coding questions :
+Platform cocubes (ui is very bad and be prepared to code in a very small text editor which can’t be enlarged).
+1.Find average of ascii values of stream of characters (1 mark).
+2.Evaluate a given infix expression consisting of numbers and operators.
+3.Linked list question : insert the reversed liked list of nodes at odd position at alternate places.
+1->2->3->4->5 to 1->5->2->3->4
+(Other Questions were ){
+2. regular expression matching
+find how many substrings match that 10*1, exist in a given string.
+3. Trim the BST so that it contains nodes with values within a given range only.
+}
+
+Round 1: Pen and Paper Round
+2 questions were given and correct code was expected to be written.
+1. Trains arrival and departure time was given and u have to calculate the max. platforms required so that no train has to wait.
+2. Set the next pointer of all tree nodes.
+(next pointer should point to node right to current node at same level).
+Round 2: Technical Interview 1
+.
+
+Round 3:Technical Interview 2
+1.Asked me to write a random() for hashmap to return a random key in 0(1) time .
+He helped me through it and i talked about all the pros and cons of solution as we were constructing the solution.
+2. Asked me to write code to construct Trie.
+3. Asked me question about calculating Bandwidth of network as a application level programmer.
+BW=data transmitted/time delay(he asked but i didn’t agree and i talked about all the delays and retransmission and stuff involved in time delay than he gave hint about files read/write )
+so application point of view ::
+time delay=file read/write time+propagation delay
+so BW=data transmitted/propagation delay.
+4. Gave me 25 horses problem to which i politely replied that i know it already.
+5. Then he asked me how many matches will be there if every person is to have a match with every other.
+ans : nc2.
+6. How many matches if there are knockouts in a tournament.
+ans : n/2+n/4+n/8+……+n/2^logn
+Round 4: Technical Cum HM Interview
+SUGGESTIONS :
+1. Don’t spend too much time on writing code and being silent throughout . Write half the code, discuss your approach and its cons. They will spare the coding by having a look at even your half written code.
+2. If u can’t fake that you have already done a question then straight ahead tell the interviewer.
+3. Discuss things with the interviewer about your ideas and approach, they can’t help u if they don’t know where r u stuck . Also it gives them an impression that u can solve a problem with some other person or u can cooperate (team player).

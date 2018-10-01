@@ -1,0 +1,39 @@
+Round 1 : Screening
+There were 20 questions on OS,DS, CN, Algorithm and 2 coding question
+Aptitude question – each of 1 mark (0 mark for each wrong answer)
+ 2 Coding question – one contained 100 marks and other contained 116.
+1st:- you have give n people position in a row, 1 represents standing and 0 represents sitting, after every hour, the persons whose neighbor was sitting in previous hour will sit in current hour, and rest sitting people will stand., the same process will continue for given hour, For eg, 6 people are there 1 0 1 1 0 0, and after 3 hours it will be
+1 0 0 0 0 0.
+2nd:- http://ideone.com/K5FZ9x
+Out off 120 students 14 were selected for interviews.
+
+Round 2: F2F
+2 questions were given,
+1st:- you have given an array of non-negative numbers and target sum, you to find minimum length of subarray whose sum is larger than target
+2nd:- you have given an array with repeating numbers, and a window k less than n, you were suppose to find if there is any repeating element for and ith index, like { 1, 2, 3, 4, 5, 2, 5} and k=2, for i=4, it is true.
+
+Round 3: F2F
+4 questions were given,
+1st:- find K random elements from N distinct elements such that probability of all remain the same.
+2nd:- HeapSort
+3rd:- check whether two trees are mirror images of each other or not.
+4th:- https://www.geeksforgeeks.org/word-ladder-length-of-shortest-chain-to-reach-a-target-word/
+
+Round 4: F2F
+1st:- what is pointer
+2nd:- how recursion works and how its memory allocation happens.
+3rd:- https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+4th:- https://www.geeksforgeeks.org/word-ladder-length-of-shortest-chain-to-reach-a-target-word/
+5th:- https://www.geeksforgeeks.org/maximum-sum-nodes-binary-tree-no-two-adjacent/
+
+Round 5: F2F
+1st:- https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+2nd:- given an infinite binary stream, you are suppose to on every ith position that whether the number formed till is divisible by 3 or not, for eg. 0 1 1 0 1 1…
+outout :- yes, no, yes, yes, no, yes..
+Tips:-
+1) remain Honest with them.
+2) tell your approach how you are solving the question.
+3) tell them frankly if you do not know some subject, in my case i know only DS and Algorithm and they did not mind it at all.
+4) go through past interview experience on geeksforgeeks
+Getting placed in amazon is like a dream come true!!
+Thank you geeksforgeeks, for all this, it helped me alot, whatever i have done, i have done it from geeksforgeeks only!!

@@ -1,0 +1,26 @@
+After going through the template definition of various STL algorithms like std::search, std::search_n, std::lower_bound, you must have found their template definition consisting of objects of type Forward Iterator. So what are they and why are they used ?
+Forward iterators are one of the five main types of iterators present in C++ Standard Library, others being Input iterators, Output iterator, Bidirectional iterator and Random – access iterators.
+Forward iterators are considered to be the combination of input as well as output iterators. It provides support to the functionality of both of them. It permits values to be both accessed and modified.
+
+One important thing to be kept in mind is that bidirectional and random-access iterators are also valid forward iterators, as shown in the iterator hierarchy above.
+Salient Features
+So, the following two expressions are valid if A and B are forward iterators:
+Run on IDE
+Output:
+So, as we can see here we can both access as well as assign value to the iterator, therefore the iterator is at least a forward iterator( it can be higher in hierarchy also).
+
+Note: The fact that we can use forward iterators with increment operator doesnot mean that operator – -() can also be used with them. Remember, that forward iterators are unidirectional and can only move in the forward direction.
+So, the following two expressions are valid if A is a forward iterator:
+Practical implementation
+After understanding its features, it is very important to learn about its practical implementation as well. As told earlier, forward iterators can be used both when we want to access elements and also when we have to assign elements to them, as it is the combination of both input and output iterator. The following two STL algorithms can show this fact:
+Run on IDE
+Here, we can see that we have made use of forward iterators, as we need to make use of the feature of both input as well as output iterators. In L1, we are required to dereference the iterator first as a rvalue (input iterator) and in L2, we are required to dereference first as a lvalue (output iterator), so to accomplish both the tasks, we have made use of forward iterators.
+
+Run on IDE
+Here, we can see that we have declared last as a bidirectional iterator, and not forward iterator, since we cannot decrement a forward iterator as done in case of last, so we cannot use it in this scenario.
+
+Note: As we know that forward iterators are the combination of both input and output iterators, so if any algorithm involves the use of any of these two iterators, then we can use forward iterators in their place as well, without affecting the program.
+So, the two above examples very well show when, where, why and how forward iterators are used practically.
+Limitations
+After studying about the salient features, one must also know its deficiencies as well although there are not as many as there are in input or output iterators as it is higher in hierarchy.
+That is why, its name is forward, which shows that it can move only in forward direction.

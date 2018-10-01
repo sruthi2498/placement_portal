@@ -1,0 +1,69 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the TCS interview.
+Solution:
+Let the sum of the first 10 numbers is equal to ‘x’
+Let the sum of the last 20 numbers is equal to ‘y’
+According to the question:
+x/10 = y/20
+Therefore, y = 2x
+Solution:
+At first, we calculate the LCM of 133 and 190 which is 1330. So, the front wheels take 10 rounds to cover 1330 metres and the rear wheels take 7 rounds to cover the same. So to take 9 extra revolutions the vehicle would have travelled 1330 * 3 = 3990 metres.
+Solution:
+According to the question, the number is equal to 406x + 115.
+Since 406 is divisible completely by 29, therefore any multiple of 406 that is 406x when divided by 29 leaves remainder 0. Now 115, when divided by 29, leaves remainder 28.
+Solution:
+The first can be filled in 26 ways.
+The second place can be filled in 25 ways.
+The third place can be filled in 10 ways.
+The last digit can be filled in 9 ways
+.
+Solution:
+This is a 26 base question. Just like there is the Decimal system consisting of 10 digits from 0 to 9, the Base 26 system consist of 26 alphabets where A = 0, B = 1, Z = 25 and so on.
+Let’s calculate, O N E + O N E
+For E(4),
+=> E + E
+=> 4 + 4
+=> 8
+=> I
+For N(13),
+=> 13 + 13
+=> 26
+On converting 26 to Base 26 we get 1 0. Keeping 0(A) and taking 1 as carry
+For O(14),
+=> O + O + 1
+=> 29
+Dividing 29 by 26 we get 1(B) 3(D)
+So answer is BDAI
+Solution:
+‘problemsolving’ consist of 14 letters. On dividing 2015 by 14 we get 13. So the 13th letter is n and hence the answer.
+Solution:
+The divisibility rule for 9 is that the sum of all digits of a number should be divisible by 9. Let’s calculate the sum of the digits:
+There are 50 1’s (unit place) = 50
+There are 10 1’s (tens place) = 10
+There are 10 2’s (tens place) = 20
+There are 10 3’s (tens place) = 30
+There are 10 4’s (tens place) = 40
+There is one 5 (tens place) = 5
+For each number 1 to 9, there are 5 sets of sum 45(1+2+…+9) = 225
+=> So sum of all digits = 380
+=> 380 / 9 = 2 (Answer)
+Solution:
+Let’s apply the weighted-average formula.
+Let there be n1 litre of 90% acid solution and n2 litre of 75% solution
+Therefore,
+=> 78 = ((90 * n1) + (75 * n2))/(n1 + n2)
+We get,
+=> n1/n2 = 1 / 4
+So 30 litres needed to be divided in the ratio of 1:4, which gives us 6 litre as the answer.
+Solution:
+Ram will be 32 years old in next 8 years. So his present age is 32 – 8 = 24 years old
+After 4 years Ram will be 28 years old. So his father will be 28 * 2 = 56 years old.
+Therefore, fathers present age is 56 – 4 = 52 years old
+Two years ago Ram was 22 years old. So his mothers age the was 22 * 2 = 44 years old
+Therefore mothers present age is 44 + 2 = 46 years old.
+Solution:
+
+Let ‘b’ be the number of boys and ‘g’ be the number of girls. According to the question:
+=> b / (g – 12) = 2 / 1
+Since b = g;
+we get g = 24.
+So the total number of students = 24 + 24 = 48

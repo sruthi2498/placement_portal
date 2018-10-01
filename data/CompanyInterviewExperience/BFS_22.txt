@@ -1,0 +1,10 @@
+Suppose A is at position (0, 0) of a 2-D grid containing ‘m’ rows and ‘n’ columns. His aim is to reach the bottom right point of this grid traveling through as minimum number of cells as possible.
+Each cell of the grid contains a positive integer that defines the number of cells A can jump either in the right or the downward direction when he reaches that cell.
+Find the minimum no of cells that need to be touched in order to reach bottom right corner.
+Examples:
+
+Following is a Breadth First Search(BFS) solution of the problem:
+Run on IDE
+Output:
+  Time Complexity : O(n)
+  Auxiliary Space : O(n)

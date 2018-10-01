@@ -1,0 +1,27 @@
+Queue are a type of container adaptors which operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front.
+empty() function is used to check if the queue container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application : Given a queue of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the queue is empty, if not add the front element to a variable initialised as 0, and pop the front element.
+2. Repeat this step until the queue is empty.
+3. Print the final value of the variable.
+Run on IDE
+Output:
+size() function is used to return the size of the list container or the number of elements in the list container.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application : Given a queue of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the size of the queue is zero, if not add the front element to a variable initialised as 0, and pop the front element.
+2. Repeat this step until the queue size becomes 0.
+3. Print the final value of the variable.
+Run on IDE
+Output:

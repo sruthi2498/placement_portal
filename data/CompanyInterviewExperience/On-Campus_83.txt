@@ -1,0 +1,25 @@
+Recently I was interviewed for CarWale for  SDE-1 position on Campus.
+Round 1:Written Technical (coding):
+
+This was an online coding test held on HackerRank.There were 4 questions to be solved within 2hrs.2 were easy and 2 were medium.Solving 2 questions may get you shortlisted.
+Round 2: Technical:
+
+First Interviewer asked some questions related to my resume; he was having it already. Then we had a small discussion on my projects as i had mentioned in my resume. Then he asked some data structure and algorithm questions.
+1. You are given an string of n characters. you have to remove exactly k characters and make the lexicographically smallest string. Expected time complexity O(n) .
+2. You are given an array. You have to find whether there is a triplet of index i, j, k such that i<j<k and a[i]<a[j]<a[k]. Expected time complexity O(n).
+3. System design: I had to design Facebook. He asked me to design only back-end for some core features. How many tables will be there? How will you link them? Then he asked me to convert this database into data-structure. How will you store this information with any data-structure? Which data-structure will you use for this table? These types of questions were there.
+Interviewer was quite helpful. He was giving me hints wherever i got stuck. All i want to suggest is don’t go to the best solution at first start with brute force and keep optimizing your solution and never give up and ask questions at the end.
+Round 3: Technical:
+
+Interviewer was the technical head. Whole interview was on resume and projects based. He asked me to explain my projects briefly and asked many questions on projects like he gave me some situations to solve based on my projects. Then he asked about my role in my projects what i had done in this perticular project and how i did this. Then he asked how will i upgrade my system and what will be new core features. Long discussion on ‘How will you do this?’ Then he asked about difficulties i had faced while implementing the system and how i overcame them. Then he finally asked if i had any question, I asked some questions.
+ 
+Round 4 : HR Interview:
+This was the best part of whole recruitment process. He was very Friendly. First he asked me to tell him about my family, friends, school life, college life, coaching life, life adventures, achievements, weaknesses etc. He asked me what my school friends, faculty, school teachers, college friends will tell him about me if he asks them. Then he asked me about my hobbies and what do i do in my free time. Then he gave me some situations:
+1. What is success for me?
+2. What will you do if your manager is trying to pull you down?
+3. Will you work with a manager again who pulled you down before?
+4. What will you do if you team-mates are trying to ruin your work and how will you deal with them?
+And many situations he gave me. All i want to suggest be yourself and give positive answers.
+Then He asked if i had any question and i asked few questions. We had long discussion on some topics.
+Results were announced after half an hour after the interviews were done. 4 People got placed from my college and i was one of them.
+

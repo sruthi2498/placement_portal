@@ -1,0 +1,9 @@
+The forward_list::max_size() is a built-in function in C++ STL which returns the maximum number of elements a forward_list container can hold
+Syntax:
+Parameters: The function does not accept any parameters.
+Return Value: The function returns the maximum number of elements the container can hold. 
+Below programs illustrate the above function:  
+Program 1:  
+Run on IDE
+Program 1:  
+Run on IDE

@@ -1,0 +1,31 @@
+Amazon visited our campus for FTE’s (Full Time Employees). Interview process started with an online coding round followed by 4 face to face interviews. The level of difficulty increased as we move to the further rounds. All interview rounds started with brief introduction about me.
+Online Round:
+A hackerank contest with 22 questions inclusive of 2 coding problems and 20 MCQ’s on C, OS, DBMS, Networking.
+The 20 MCQ’s are mainly based on Algorithm analysis for example time complexity space complexity for a particular snippet of code, basic C, java output based questions, OS Mutex ,semaphores, IPC, synchronisation etc..
+Here are some of the questions i remember
+Coding Questions :
+F2F 1 ( 1 hr 30 min, TECHNICAL ) :
+Interviewer is a lady, probably 3-4 years senior to me.She asked me two coding Questions:
+Output: ( 1 2 8 6 ) or (1 3 4 7)
+Ans: It is just a modification of level order traversal,keep track of a Boolean flag variable and flip it after each iteration. She then asked me write complete code neatly.
+I said i already know that question she skipped to the next question
+Ans: https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+F2F 2 ( 1hr 30 min TECHNICAL ) :
+He gave me two coding questions
+F2F 3 ( 1hr TECHNICAL ) :
+The interviewer went through my resume and my previous interview rounds performance and said introduce yourself. I introduced myself: He asked me if I had done any internships. I said no sir,i got chance in some of the companies but i didn’t take it. He then asked me what did you learn in this summer ,I said I prepared for the placements and I’ve done 1-2 mini projects.
+He then asked me why didn’t you take that interns. I told him i don’t like those companies hiring process itself how can i work in the company.I said that they all asked memorizing concepts which i am very weak in and didn’t even ask me single logical question.he even didn’t ask me single coding question.
+He said lets start our process you are here because of your coding skills, but in this round I am gonna ask you theoretical questions.
+He asked me
+He then gave me a coding question: You have to replace every element of an array with its immediate smaller element to the right. If such an element doesn’t exist don’t replace it.
+Ans: I gave him a stack solution which he was very much satisfied and asked me to code taking care of corner cases. He then asked me write complete code neatly. He is satisfied with my code and asked me to wait outside for further round.
+F2F 4 ( HR+TECHNICAL ) :
+He started by asking me to introduce myself and gave a coding question.It’s the tough question
+You will be given a floor say(m*n) dimensions and sub rectangles that can fit inside the big rectangle..you have to print the floor plan for given dimensions of small sub rectangles.
+He explained me that it requires construction of SLICING TREE and then printing floor plan. He asked which all the data structures you will use to construct it and asked me think of it.
+Ans: I gave him an stack/queue based approach .I told him that i’ll sort the sub rectangles by lengths/breadths and push them in stack in d=increasing order. .he was very much satisfied with my algorithm and asked me to code it.I coded it completely and showed him . .I just solved the problem and i didn’t print the floor plan which is our actual problem. .i then implemented the print function inside it.
+He said that he’s done with the interview and asked me if any queries.
+I asked him about the kinda of project he’s currently working and some casual discussion on technologies.
+PS:- Everyone knows the algorithm but it’s implementation with robust,clean code is required which covers all test cases.they will certainly give corner cases that our code fails to execute so make sure you write a universal code.Make sure you ask any doubts if any to clarify the given question/scenario.The interviewers are a lot helpful and they give you hints if you are struck.
+Thanks GeeksforGeeks . .It helped me a lot in my preparation.
+

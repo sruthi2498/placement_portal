@@ -1,0 +1,26 @@
+Given an array of primes such that the range of primes is small. Remove duplicates from the array.
+Examples:
+Source : Amazon Interview Question
+
+Run on IDE
+Output : 
+Time Complexity : O(n2)
+ 
+
+Run on IDE
+Output : 
+Time Complexity : O(n Log n)
+Auxiliary Space : O(1)
+ 
+
+Run on IDE
+Output : 
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+ 
+
+Run on IDE
+Output : 
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+Note that this solution would not work if there are composites in array.

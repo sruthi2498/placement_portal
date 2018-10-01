@@ -1,0 +1,40 @@
+Experience – 1.8years
+Round-1:(Technical-1:10 min)
+1. Introduce yourself. 
+2. Deep discussion on the current project which I’m working on.(project high level architecture, questions on design, frameworks used etc.,)
+3. Write a clean code to find the median of incoming stream of integers(I started with brute force approach and with a little help from the interviewer I could come up with the optimized solution,discussion on complexities)
+4. Find the top ‘k’ repeating elements in a given file.
+5. Basic questions on java.
+6. What do you know about spring frame work?
+7. Questions on Hadoop,hive,sqoop etc.,
+Round-2(Technical-2hrs)
+1. Introduce yourself.
+2. Deep discussion on the projects that I have worked on.(High level design, Technologies used etc.,)
+3. What are the object oriented features present in java?
+4. What is polymorphism?
+5. Difference between run time and compile time polymorphism with example.
+6. What are the different types of exceptions that you have faced till now?
+7. Difference between array out of bounds and array out of index exception?
+8. Exceptions hierarchy.
+9. Difference between checked and unchecked exceptions with example?
+10. What are the different collection which you have used till date?
+11. Collection hierarchy.
+12. Difference between arraylist and list?
+13. Difference between set and map?
+Which of them can contain null values?
+14. Equals and hashcode with example?
+15. Write a clean program which takes input as “entuet” and converts it to “Intuit”. She was basically checking if I know how to code in java.
+16. Write a program which takes input as a file containing few sentences and outputs in descending manner the list of repeated keywords.
+17. Questions on map-red in Hadoop with an example
+18. few SQL queries.
+19. MVC design Patten with example.
+20. How to send the username and password of a database securely when you use sqoop?
+21. Difference between equals and hash code? When to override etc?
+22. What is single ton design pattern?
+23. Give me a real life example of where we use Singleton pattern?
+24. How hash table works internally?
+25. Why do u want to leave your current company?
+26. Why do you want to join Intuit?
+27. Do you have any questions for me?
+Though I couldn’t make it after this round ..it was super duper exhausting interview experience. It was a back to back interview and I was scribbling on the board these 3hrs. Thank you geeksforgeeks. 😀
+

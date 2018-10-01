@@ -1,0 +1,18 @@
+Online round:
+1. There exist a binary tree with each node containing a character (lower case letters for leaf nodes and upper case letters for non-leaf nodes) and exactly two child, Now given a string find the number of root to leaf paths that contain this string as its subsequence. And the binary tree is given in post order notation.
+2. A long question and a brute force solution of finding the most optimum subset (2^n)
+First Round- 
+1. Find the k root of a number n. Mention the special cases, if any.
+2. Given a connected graph with n-1+k edges and k being less than 10. Convert this graph to a tree removing the most weighted set of edges.
+3. Given a set of coins n with each coin i having Pi probability to give heads. Find the probability of getting k heads, when all coins are tossed together.
+Second Round- 
+1. Given a random function which gives some value in the range [-1,1]. Find the value of PIE.
+2. Given a set of currencies and the exchange rates from each currency to another. Find if there exist any cycle of exchanges after which the original value of the amount increases.
+3. Given a tree find the maximal XOR of any path from root to leaf (simple recursion) 
+4. Given a tree find the maximal subset XOR of any path from root to leaf. (ie the subset XOR may or may not include all elements from root to leaf)
+Third round-
+Some HR questions especially regarding the projects done by you and only one algorithmic question-
+1. Given a set of restaurants (the number being quite large) and its geographical location(x,y) , you are allowed to do an significant amount of pre-processing on it. Now suppose there are x customers located at position (s,t), design an efficient algorithm to find the k nearest restaurants to these customers.
+( This problem is the famous KNN problem- the solution they were expecting were of grid files ) 
+Please do comment in case of doubts and queries.
+

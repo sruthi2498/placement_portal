@@ -1,0 +1,52 @@
+Round 1: (Online Test)
+Time: 1hr 30 mins on HackerEarth Platform
+20 MCQ (Gen Apti, OS, TOC, Networks and DS)
+Coding:
+1. Maximum non adjacent subsequence
+2. Profit sort (Find no. of elements in the given range)
+Round 2: (Problem Solving Round)
+1. Vertical Sum of Binary Tree.
+ Discussion about various data structures that can be used. Finally came up with hash map.
+2. Width of Binary Tree
+3. How map is internally stored in C++?
+4. If N students in a class play a game against each other where each student plays against all other students in the class, find the total number of matches to be conducted.
+Also, if the class leader has to arrange the students in a line where each student would have lost the match with the student in front of him (Remember: student may or may not have won the match with the student front of front of him). Design a suitable data structure for maintaining such an order.
+
+Round 3: (Data Structures and Algorithms Round)
+1. Project Discussion
+2. There are various libraries that a Kindle app may use. All these libraries must be linked appropriately to be included in Kindle. There will be dependencies between the libraries.  Apply a suitable data structure such that a library cannot be added before its dependencies. I discussed a topological sort approach. Finally wrote code and tested the same.
+3. Discussion about second coding question asked in the online test. I was asked to bring up a better solution, given, that I can use extra space.  I proposed an approach based on hashing and counting sort.
+4. Threads vs Process. They were impressed because I explained with a real-time example
+5. How the Program is stored in memory? Stack frame for Program?
+6. When two threads access a code at the same time, what happens. How is it prevented?
+7. Difference between mutex and semaphore.
+8. Priority Inheritance and Priority Inversion.
+
+Round 4: (CS Fundamentals)
+1. Tell me about yourself
+2. Design a music player application
+I was asked to first list out all possible features to be added within 2mins time. I came up with around 30 features. The interviewer selected a few of those features and asked to draw a class diagram for the same.
+3. I have a DB of some size as of now. In future new DB with additional space will be added. How will the DB be modified? What to modify? How to scale it?
+4. Distributed computing concepts
+5. Multiple partitions in OS
+6. MVC design pattern
+7. My costliest mistake in life
+8. Asked something interesting about myself that others don’t have.
+9. Whether I like back-end or front end. Reason out. 
+
+Round 5: (Bar Raiser Round)
+1. Project Discussion
+2. There are k stars in the space and an origin star, find the nearest 100 stars from the origin star.
+I came up with brute force approach first.
+Later devised a max heap solution and coded the same
+3. Virtual Machine
+4. About AWS, S3
+5. Design Patterns. Asked to implement Singleton Design Pattern in Java
+6. Scheduling Algorithms. Which scheduling algorithm does modern operating systems use?
+7. Strength and weakness
+8. Latest technical knowledge that I gained. Recent technical article that I read.
+9. Maximum amount of code that I had ever written in college.
+10. Any Questions from my side?
+I was one among the three to be selected from my college for Full Time SDE at Amazon
+
+

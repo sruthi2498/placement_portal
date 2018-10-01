@@ -1,0 +1,17 @@
+Given a number ‘n’ and a prime ‘p’, find square root of n under modulo p if it exists.
+We have discussed Euler’s criterion to check if square root exists or not. We have also discussed a solution that works only when p is in form of 4*i + 3 
+In this post, Shank Tonelli’s algorithm is discussed that works for all types of inputs.
+Algorithm steps to find modular square root using shank Tonelli’s algorithm :
+1) Calculate  n ^ ((p – 1) / 2)  (mod p), it must be 1 or p-1, if it is p-1, then modular square root is not possible.
+2) Then after write  p-1 as  (s * 2^e)  for some integer s and e, where s must be an odd number and both s and e should be positive.
+3) Then find a number q such that q ^ ((p – 1) / 2) (mod p) = -1 
+4) Initialize variable x, b, g and r by following values  
+5) Now loop until m > 0 and update value of x, which will be our final answer. 
+    so if m becomes 0 or b becomes 1, we terminate and print the result. This loop guarantees to terminate because value of m is decreased each time after updation.
+Following is C++ implementation of above algorithm.
+Run on IDE
+Output : 
+For more detail about above algorithm please visit :
+http://cs.indstate.edu/~sgali1/Shanks_Tonelli.pdf
+For detail of example (2, 113)  see :
+http://www.math.vt.edu/people/brown/class_homepages/shanks_tonelli.pdf

@@ -1,0 +1,27 @@
+This test consisted of two sections MCQ and PROGRAMMING.
+The section MCQ had 30 questions and was supposed to be solved in 30 minutes.It included only quantitative aptitude questions.
+The section PROGRAMMING had in total 4 questions was supposed to be solved in 2 hours and 30 minutes.
+The PROGRAMMING sections had three sub sections: FRESH CODING, API CODING and DEBUGGER.
+1.The subsection FRESH CODING expects you to solve given problem and write you code.
+program given was:
+SERIES ABCD…….XYZAAABACADAE……AXAYAZBABBBCBDBE….BXBYBZCACBCCCD….CXCYCZ…. AND SO ON
+Input(a) is from 0<=a<=9999; Output should be alphabet from the series ,corresponding to the input.
+INPUT:a=30
+OUTPUT:B
+input: a = 27
+output: A
+ 
+2.The subsection API CODING expects you to understand the given code and complete it.
+Program was :from the given subset, find out the two subsets whose sum of elements are equal.
+e.g
+subset:{4,2,1,1,5,3}
+subset1:{4,2,1,1} and sum of elements is 8
+subset2:{5,3} sum =8
+ 
+3.The subsection DEBUGGER expects you to understand the given code and fix the bugs
+Test was of three hours and was continuous.
+HR explained about the online test and gave a pamplet that had the description of coding questions
+Programming languages that could be used were C and JAVA
+No negative marking was there.
+There was no technical mcq question.
+

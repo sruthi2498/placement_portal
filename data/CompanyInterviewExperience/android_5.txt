@@ -1,0 +1,9 @@
+Phone dialer is an activity available with Android operating system to call a number. Usually such activity may or may not have an EditText, for taking number as input, and a Call button. When the user press the Call button, it invokes the dialer app activity. Use of ‘tel:’ prefix is recommended, else java.lang.IllegalStateException will be thrown. Action_Dial doesn’t require any permission.
+MainActivity.java
+Run on IDE
+In order to make a direct call without switching into dialer activity you need to add Intent.ACTION_CALL in place of Intent.ACTION_DIAL.
+activity_main.xml
+Run on IDE
+In AndroidManifest.xml, include the below permission to directly call without opening in a dialer. To make a call through open in a dialer, below permission is not needed.
+Figure 1. Enter Phone no.
+Figure 2. Open the dialer activity.

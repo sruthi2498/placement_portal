@@ -1,0 +1,16 @@
+Given two strings of lowercase alphabets and a value k, the task is to find if two strings are K-anagrams of each other or not.
+Two strings are called k-anagrams if following two conditions are true.
+Examples :
+
+Below is a solution to check if two strings are k-anagrams of each other or not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+We can optimize above solution.  Here we use only one count array to store counts of characters in str1. We traverse str2 and decrement occurrence of every character in count array that is present in str2.  If we find a character that is not there in str1, we increment count of different characters. If count of different character become more than k, we return false.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

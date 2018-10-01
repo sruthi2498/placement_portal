@@ -1,0 +1,24 @@
+Recently Microsoft visited our campus for IDC internship program and following is my interview experience.
+Online MCQ Round: It consist of 15 MCQ Questions on Cocubes.com.This was an easy round and consists of mainly output questions of c++/Java .Apart from this some questions on Virtual functions and Operating Systems.
+Online Coding Round: 
+Two coding problems in one hour,again on Cocobues.com
+1. Save all leaf nodes of a Binary tree in a Doubly Linked List by using Right node as Next node and Left Node as Previous Node.
+https://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/
+2.Given an array,find the maximum j – i such that arr[j] > arr[i] .
+https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/
+It took me 40min to code both the Questions.
+Group Fly Round: 
+Since I was among top 4 student till second round therefore I was selected directly for Interviews. But yeah according to my friends this was a bit tough round.Only 3 students were shortlisted from the remaining students.
+Interview Round I:
+Firstly,Tell me about yourself and some discussion on projects.
+Coding Question on pen & Paper: Convert a String to Integer considering each and every damn corner case.
+Interview Round II:
+Shortest Round among all,One Coding Question on pen & paper:
+Remove Alternate Duplicate characters from a char array you have to do it in Place.Like keeping only the odd occurences of each character.
+Example:
+Input: “you got beautiful eyes”
+Output: ”you gtbeaiful es”
+Allowed Time Complexity was O(n) and Space Complexity was O(1).It took 10min to come up with an algo.The interviewer was satisfied with my algo and said “no need to write the code”.
+Hint : Use two Pointer Method and Bool array of length 256.
+A Big Thanks to GeeksForGeeks.Except the Last question all questions were from GeeksForGeeks
+ 

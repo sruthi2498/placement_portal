@@ -1,0 +1,21 @@
+While solving geometric problems, it is time consuming to define the point class for specifying a point on the 2D Plane or the Euclidean Plane. So, this article specifies a faster and clever way to implement the same using complex class from STL in C++.
+Before implementation, it is essential to understand what are complex numbers and how they can help in representing a point on a 2D Plane.
+What is Complex Number?
+Complex numbers are of the form 
+
+As we can see from the diagram, a complex number can be represented on the 2D Plane. Thus for a point (a, b), we can have a complex number a + bi where a is the X-coordinate and b is the Y-coordinate.
+Important Note: i2 = -1
+reiθ = r(cosθ + isinθ)
+
+How to use Complex numbers?
+Let us consider point P (a, b) on the Euclidean Plane. Now we make a complex number z = a + bi and bring out the equivalence between the two. Some attributes associated with P are:
+Let us consider points P (a, b) and Q (c, d) on the Euclidean Plane. These can be basically considered to be vectors with the length equal to distance from origin and direction as made with the X-Axis. (Many attributes can be better understood if the points are taken as vectors which is one of the key idea in various geometric algorithms).
+Now let us consider that z1 = a + bi and z2 = c + di.
+Some attributes associated with P and Q are:
+Thus, return z1 + z2.
+So, the slope of the line PQ is given by the tangent of the angle of elevation.
+Thus, return tangent of argument of z2 – z1.
+Thus, return the magnitude of the z1 – z2.
+ This is same as the real part of the above construction. Thus, return the real part of z1’z2.
+ This is same as the imaginary part of the above construction. Thus, return the imaginary part of z1’z2.
+The implementation part for the complex class is covered in Set 2

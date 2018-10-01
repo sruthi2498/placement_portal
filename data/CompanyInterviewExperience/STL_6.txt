@@ -1,0 +1,10 @@
+The fma() function takes three arguments a, b and c, and returns a*b+c without losing precision. The fma() function is defined in the cmath header file.
+If any argument passed to fma()  is long double, the return type is long double. If not, the return type is double.
+Syntax:
+Parameters: This function takes three parameters.
+Returns: The fma() function returns a*b+c.
+Below programs illustrate the fma() function in C++:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

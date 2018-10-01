@@ -1,0 +1,10 @@
+Given a singly linked list, with some positive numbers (valid numbers) and zeros (invalid numbers). Convert the linked list in such a way that if next valid number is same as current number, double its value and replace the next number with 0. After the modification, rearrange the linked list such that all 0’s are shifted to the end.
+Examples:
+Source: Microsoft IDC Interview Experience | Set 156.
+
+Approach: First modify the linked list as mentioned, i.e., if next valid number is same as current number, double its value and replace the next number with 0.
+Algorithm for Modification:
+After modifying the list segregate the valid (non-zero) and invalid (zero) elements. It is same as Segregating Even and Odd nodes in a Linked list.
+Run on IDE
+Output:
+Time Complexity: O(n).

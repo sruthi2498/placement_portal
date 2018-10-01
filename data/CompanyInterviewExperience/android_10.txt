@@ -1,0 +1,14 @@
+Android Oreo has brought in a ton of changes. This also includes the way in which a user issue notifications in an app. In this article, we will discuss the changes required to be made in the notification department.
+Following things are to be kept in mind while issuing notifications:
+Before going forward, make sure this line is added in the build.gradle (Module: app) dependencies:
+Let’s start with making a notification channel. The method below creates a notification channel:
+Run on IDE
+Let’s see what this method does in detail.
+Often the IMPORTANCE_DEFAULT parameter is preferred but this produces the notification sound that can be annoying. To silence, add the following line in the makeNotificationChannel() method, just before the last line.
+Now let us issue a notification. We will use NotificationCompat for backwards compatibility.
+Run on IDE
+The execution proceeds in this way:
+
+
+
+

@@ -1,0 +1,12 @@
+Given a n x n strictly sorted matrix and a value x. The problem is to count the elements smaller than or equal to x in the given matrix. Here strictly sorted matrix means that matrix is sorted in a way such that all elements in a row are sorted in increasing order and for row ‘i’, where 1 <= i <= n-1, first element of row 'i' is greater than or equal to the last element of row 'i-1'.
+Examples:
+
+Naive Approach: Traverse the matrix using two nested loops and count the elements smaller than or equal to x. Time Complexity is of O(n^2).
+Efficient Approach: As matrix is strictly sorted, use the concept of binary search technique. First apply the binary search technique on the elements of the first column to find the row index number of the largest element smaller than equal to ‘x’. For duplicates get the last row index no of occurrence of required element ‘x’. Let it be row_no.. If no such row exists then return 0. Else apply the concept of binary search technique to find the column index no of the largest element smaller than or equal to ‘x’ in the row represented by row_no. Let it col_no. Finally return ((row_no) * n) + (col_no + 1). The concept of binary search technique can be understood by the binary_search function of this post.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(Log2n).

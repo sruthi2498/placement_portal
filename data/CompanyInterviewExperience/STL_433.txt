@@ -1,0 +1,14 @@
+std::back_inserter constructs a back-insert iterator that inserts new elements at the end of the container to which it is applied. It is defined inside the header file .
+A back-insert iterator is a special type of output iterator designed to allow algorithms that usually overwrite elements (such as copy) to instead insert new elements automatically at the end of the container.
+Syntax:
+Run on IDE
+Output:
+How is it helpful ?
+Run on IDE
+Output:
+Explanation: Here, we had to copy v1 into v2, but let’s say we are in some scenario where we donot know how many elements will be copied into v2, so we willnot specify its size and later on copy into it using std::back_inserter().
+Why not v2.begin() in place of back_inserter()?? Many of you will be thinking that why haven’t we used v2.begin() in place of std::back_inserter(v2), then you need to rethink that since we have not declared the size of v2, therefore, there are no elements in it, and so there will be no beginning and therefore, v2.begin() will throw an error here.
+
+Points to Remember:
+Run on IDE
+Output:

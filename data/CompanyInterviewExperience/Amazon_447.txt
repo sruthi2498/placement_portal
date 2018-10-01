@@ -1,0 +1,27 @@
+Recently I am interviewed for Amazon SDE-1 position for Bangalore. There are 3 F2F rounds followed by a telephonic round.
+As it was a drive, they asked everyone to write code for these problems
+1. https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+2. https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+1st F2F:
+1. Why do you want to leave your current company?
+2. Why Amazon?
+3. https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/ 
+I told him  min heap & max heap method, then he asked me who can you do it using trees.
+4. There is a mxn matrix which contains only 1 & 0’s. You have to print the unique rows. I solved it using tries, then he asked why cannot I use hash map and asked to write the code using tries.
+2nd F2F (Managerial Round):
+1. Why Amazon?
+2. Why leaving your current company so early?
+3. Areas of Improvement , strengths & weakness
+4. Given a prefix expression , convert into prefix tree and extended the qtsn for infix expression, time complexities etc.
+5. Given a dictionary , and we have to query for anagrams for the word. extended the qstn to while typing the word we have to provide the autotype. Gave him a solun using tries.
+3rd F2F:
+1. In a stack pop fn will return you the value & pop the value and push fn will push the value into stack , so how do you implement top fn. asked for O(1) solun.
+2. Write a fun to check whether a given tree is a BST or not.
+Telephonic Round (Bar Riser):
+1. Why Amazon?
+2. Asked about current projects and college projects.
+3. Asked me which is the best project I have done and asked me how do I improve its functionality, discussion went on this.
+Tips:
+They will help you are struck just think loud.
+Practice writing code on paper.
+I thank GeeksForGeeks for this great work. 🙂

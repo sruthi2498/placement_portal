@@ -1,0 +1,19 @@
+A thief trying to escape from a jail. He has to cross N walls each with varying heights (every height is greater than 0). He climbs X feet every time. But, due to the slippery nature of those walls, every time he slips back by Y feet.  Now the task is to calculate the total number of jumps required to cross all walls and escape from the jail.
+
+Examples :
+
+The solution is quite simple if the height of wall is less than or equal to x, only one jump in that wall is required else we can calculate it by height of wall-(climb up-climb down) and get the jumps required.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+We can optimize above solution by directly computing number of jumps.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

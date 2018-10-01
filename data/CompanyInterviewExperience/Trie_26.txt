@@ -1,0 +1,29 @@
+Given an array of integers. Find the pair in an array which has minimum XOR value.
+Examples :
+
+A Simple Solution is generate all pairs of given array and compute XOR their values. Finally return minimum XOR value. This solution takes O(n2) time.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+An Efficient solution can solve this problem in O(nlogn) time. Below is the algorithm:
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity: O(N*logN)
+Space Complexity: O(1)
+Thanks to Utkarsh Gupta for suggesting above approach.
+A further more Efficient solution can solve the above problem in O(n) time under the assumption that integers take fixed number of bits to store. The idea is to use Trie Data Structure. Below is algorithm.
+
+Below is the implementation of above algorithm.
+Run on IDE
+Run on IDE
+Output :
+Time Complexity O(n)

@@ -1,0 +1,12 @@
+Given three numbers and check weather they adjacent primes are not. Three prime numbers are said to be adjacent primes if there is no prime between them.
+Examples :
+
+Approach:
+We already know what is a prime number. Here we need to check weather given three numbers are adjacent primes or not.  First we check given three numbers are prime or not. After that we will find  next prime of first number and second number. If satisfies the condition of adjacent primes then it is clear that given three numbers are adjacent primes otherwise not.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

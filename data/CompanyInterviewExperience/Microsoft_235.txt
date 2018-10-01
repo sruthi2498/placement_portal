@@ -1,0 +1,48 @@
+Microsoft visited our campus recently.
+
+Round 1: (MCQ) 30min.
+It was an online round with 15 MCQ and time given was 30 min. The round was hosted on cocubes.com Questions were mainly from C,C++,Java,OS.
+Around 60 people were shortlisted in this round.
+
+Round 2 : (Coding) 60 min
+This round was also hosted on cocubes.com and had two programming questions.
+1. Given an array of size n and an integer k we need to return the sum of count of all distinct numbers in a window of size k. The window slides forward.
+e.g. arr[] = {1,2,1,3,4,2,3};
+Let k = 4.
+The first window is {1,2,1,3}, count of distinct numbers is 2….(1 is repeated)
+The second window is {2,1,3,4} count of distinct numbers is 4
+The third window is {1,3,4,2} count of distinct numbers is 4
+The fourth window is {3,4,2,3} count of distinct numbers is 2
+Hence sum is 2+4+4+2 = 12.
+It was also given that the array elements are between 0 to 100. 
+2. Given a binary tree we need to make linked list out of the leaf nodes. Constraints were that it was supposed to be done using O(1) extra space. Also we can use node->right pointer to connect the linked list.
+Around 30 people were shortlisted from this round.
+
+Group Fly Round:
+1. Given a linked list, Reverse it in k-chunks.
+https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+Around 12 students were shortlisted in this round.
+
+Personal Interview Round 1:  (45 min)
+1. Given an infinite stream of binary digits (0,1) and an input number n, determine if at any point the number is divisible by n.
+I found the question actually tough… I first solved for some specific cases like n = 2 and n = 3.  Then by discussions with interviewers I was guided towards DFA Based Division.
+https://www.geeksforgeeks.org/dfa-based-division/
+Complete code was required in this round. To solve this one it took nearly 30 min with discussion.
+2. Assume you are manufacturer of a pen, what all parameters will you check to test a pen.
+3. Continuing above how will you test the address bar in a Browser.
+Both these questions were open ended. He just wanted to see how many cases I can think of.
+
+Personal Interview Round 2: (60 min)
+1. Print a matrix spirally.
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/.
+He then added further constraints such that if I want to print the matrix in a spiral way in clockwise and anti-clockwise sense. Also he added the constraint that he can start at any corner of the matrix. Detailed discussion on my approach was done. He was actually happy with the way I approached the solution.
+
+Personal Interview Round 3: (60 min)
+1. Detailed discussion on my Machine Learning Project which I had done in my internship.
+2. Given an integer write a function to convert it into a string.
+3. Given a string replace all spaces with ‘%20’
+Took some time to solve this one but managed to solve it completely. He wanted me to check all the base cases.
+
+HR Round :
+1. Normal HR questions.
+

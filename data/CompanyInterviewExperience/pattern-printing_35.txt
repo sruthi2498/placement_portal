@@ -1,0 +1,15 @@
+Given a matrix of 2D array of n rows and m coloumns. Print this matrix in ZIG-ZAG fashion as shown in figure.
+
+Example:
+Approach of C++ code
+The approach is simple. Just simply iterate over every diagonal elements one at a time and change the direction according to the previous match. 
+Approach of Python3 code
+This approach is simple. While travelling the matrix in the usual fashion, on basis of parity of the sum of the indices of the element, add that particular element to the list either at the beginning or at the end if sum of i and j is either even or odd respectively. Print the solution list as it is.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n*m)
+Auxiliary space: O(1)

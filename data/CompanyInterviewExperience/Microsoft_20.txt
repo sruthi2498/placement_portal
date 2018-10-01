@@ -1,0 +1,21 @@
+Round 1:
+First round was machine test that comprised 3 questions.
+ 
+Round 2:
+This round was based on HLD (high level design).
+1. Design a search engine. Handle the cases of Auto-Correction and Text-Prediction (like modern search engines). Explain                  (Tries + DFS + String Handling). Then, we discussed about Search Engines and how user experience can be                                          improved.
+ 
+Round 3:
+This round was based on my projects at Delhivery.
+1. Discussion on Green Threads and how are they different from kernel level threads. Explain using multithreading and                        multitasking. Which one performs better. (I used green threads in I/O intensive tasks.)
+2. Design an authentication using AWS services like Api gateway and lambda.
+3. Then, he asked me about my Google Summer of Code project and my contributions to open-source and we had a very                         healthy discussion.
+Round 4:
+This round was taken by a senior manager.
+1. Given an array of integers of size n. An element at index i is called peak element if arr[i – 1] < arr[i] > arr[i + 1] for i in range 1        to n – 1 OR arr[i] > arr[i + 1] for i = 0 OR arr[i] > arr[i – 1] for i = n – 1; Find all peak elements in an array in less than O(n)            time complexity.
+2. You are given many files of 6 GB, each having stream of integers. You have space of 4 GB left in your main memory (mainly to        swap out, swap in). You have to store sorted sequence of integers in all file in a other output file. How will you do that?
+Then we had discussion on Red black trees, sharding, redis internals, concept of single threaded applications and event loop .etc.
+Round 5:
+This round was based on Behavioral Skills taken by HR team.
+They asked several situational based questions like if there is some tussle between you and your manager regarding some implementation, how did you tackle that. Was your manager convinced.
+After 1 month I got a call from HR that I have been selected.

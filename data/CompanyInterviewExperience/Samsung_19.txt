@@ -1,0 +1,32 @@
+Round 1: 3 hours online coding round
+This was a 3 hours coding round in which we had to code 1 problem having 50 test cases.  No STL is allowed. Here is the question:
+There is one spaceship. X and Y co-ordinate of source of spaceship and destination co-ordinates of spaceship is given. There are N number of warmholes and each warmhole has 5 values.
+First 2 values are starting co-ordinate of warmhole and after that value no. 3 and 4 represents ending co-ordinate of warmhole and last 5th value is represents cost to pass through this warmhole. Now these warmholes are bi-directional.
+Also to go from co-ordinate (x1, y1) to (x2, y2), the cost is abs(x1-x2)+abs(y1-y2).
+The main problem here is to find minimum cost to reach spaceship from source to destination co-ordinate using any number of warm-hole. It is ok if you wont use any warmhole.
+Only those students were selected for the next round who passed all the test cases.
+Round 2: Telephonic round (Technical)
+1.) What is volatile keyword ?
+2.) Name and explain storage classes in C .
+3.) Explain whole process when any program in compiled.
+4.) If we have 2 C files in same program lets say a.c and b.c. There is global variable declared in a.c, can the user access that global variable in file b.c.
+5.) Lets suppose we call a function in main and that function is not defined anywhere in the program, will the program show error when runned. If yes, what type of error will it show ?
+6.) Name some of the data structures.
+7.) How to check whether the given linked list contains loop or not ?
+8.) How to find starting point of loop in the linked list.
+9.) How to check whether the given tree is BST or not.
+10.) We have a data stream of integers and whenever an integer comes, it is placed in a sorted order. How to maintain sorted order whenever a next integer is encountered. What is the complexity ?
+11.) What are scheduling algorithms ? Name and explain some.
+12.) What is deadlock and how to prevent deadlock ?
+13.) Explain mutual exclusion  in case of deadlock ?
+14.) What is zombie process ? Give example also.
+15.) Explain producer-consumer problem.
+16.) What is Dining philosophers problem ?
+ 
+Round 3: HR round (Telephonic)
+1.) Introduce yourself .
+2.) What are your hobbies ? (Then some questions related to my hobbies)
+3.) How was your previous rounds ?
+4.) Anything which you would like to ask.
+Verdict : Selected
+ 

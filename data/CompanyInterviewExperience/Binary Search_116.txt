@@ -1,0 +1,20 @@
+Given a sorted array and a value x, the floor of x is the largest element in array smaller than or equal to x. Write efficient functions to find floor of x.
+Examples:
+
+Method 1 (Simple)
+A simple solution is linearly traverse input sorted array and search for the first element greater than x.  The element just before the found element is floor of x.
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+ 
+Method 2 (Efficient)
+The idea is to use Binary Search.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(Log n)

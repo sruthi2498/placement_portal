@@ -1,0 +1,7 @@
+This function is used to negate the given values i.e. to change the sign of the values. It changes the positive values to negative and vice-versa.
+Note: Objects of this class can be used on standard algorithms such as transform.
+Syntax: 
+Parameters: It accepts four parameters which are described below:
+Return values: It returns the same values with the opposite sign.
+Below is the implementation that shows the working of negate() function:
+Run on IDE

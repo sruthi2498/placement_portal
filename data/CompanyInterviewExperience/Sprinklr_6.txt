@@ -1,0 +1,37 @@
+Online Test: 720 points
+The test was conducted on hackerearth platform, consisted of 2 sections.
+Section 1: 120 points.
+30 MCQs. Marking scheme: +4 -1
+Some questions were subject related OS,CNS,DBMS. Some were from C,Java input output, basic concepts.
+Others technical questions related to Trees, Graphs, sorting, etc.
+Section 2: 600 points.
+4 coding questions. 2 of 100 points, 2 of 200 points.
+100 points: The question was similar to this one.  https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+100 points: It was related to Math, modulus arithmetic. There were complicated expressions given to be evaluated, but if solved, they got reduced to a single expression. That was the catch in the problem. Otherwise, the solution would result in TLE.
+200 points: Related to binary search.
+200 points: Data was given. It had to be manipulated following given steps, and the output to be printed. Brute force did not work, gave result TLE.
+Total 40 students were shortlisted for interviews after the online test.
+Interview Round-1: Technical: 45-50 minutes
+There were two interviewers.
+The first interviewer looked at my resume, and asked questions related to my industrial internship.
+He asked me about the course projects – Software Engineering project and Database project. Also asked questions about an App I had developed and written in the resume.
+The second interviewer asked me about my approach to the coding questions in the online round, even about the ones I was not able to attempt.
+Then, questions related to OS. Mainly scheduling and applications.
+Then, 1 probability question. A few questions related to trees and sorting.
+Interview Round-2: Technical: 45-50 minutes
+There were two interviewers.
+First I was asked about my industrial internship. Then, a couple of questions related to Java.
+The first interviewer asked me the following question:
+Given m,n dimensions of a 2D matrix; (i,j) initial co-ordinates; (x,y) final co-ordinates.
+What is the probability of being at (x,y) after at most k steps if we start from (i,j) initially?
+First, I thought about it and explained my approach. I was then asked to write a pseudo code on paper for the same. I explained the code and answered questions related to complexity of code, improvements.
+The second interviewer asked me the following question:
+If a user comes to you with a request to design a mobile for him, what will be your approach?
+I was asked to explain whatever points I was saying, had to answer all the counter questions.
+Interview Round-3: HR round: 25-30 minutes
+This was a typical HR interview.
+First I was asked to introduce myself. Questions related to my hobbies, my areas of interest.
+Why Sprinklr?
+Are you planning for further studies?
+She told me things about the work environment in the company and the compensation policy.
+At the end, total 13 students were selected.

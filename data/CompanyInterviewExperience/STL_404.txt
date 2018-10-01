@@ -1,0 +1,21 @@
+Compute adjacent difference of range
+Assigns to every element in the range starting at result, the difference between its corresponding element in the range [first, last] and the one preceding it (except for *result, which is assigned *first).
+If x represents an element in [first, last] and y represents an element in result, the ys can be calculated as:
+1. Using default version :
+Syntax :
+Template :
+Run on IDE
+Output:
+2. Using custom version, taking function as comp
+Syntax :
+Template :
+By changing the operator to any binary operator in the custom function, we can change the operation that is applied on the STL function. Here the sum of adjacent elements is performed.
+Run on IDE
+Output:
+Practical application : Perform any binary operation between the adjacent elements of the range mentioned (except the first element of the range).
+1. Find product of the adjacent elements in the array.
+For example, array contains : 2 4 5 6
+Result is : 2 8 20 30
+Explanation – First elements remain as it is. Then second element will be first element * second element, then third element will be second element * third element and so on.
+Run on IDE
+OUTPUT :

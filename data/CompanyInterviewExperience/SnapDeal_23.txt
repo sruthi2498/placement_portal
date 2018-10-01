@@ -1,0 +1,62 @@
+Snapdeal conducted placement drive at my campus in January last week for Software Developer. Eligibility- All CSE (no pointer criteria)
+Online Test-
+21 (MCQ) +2 (Coding) in 1 hr. Test conducted on hackerrank
+21 MCQ had almost 10 aptitude and 11 C output based questions.
+Give preference to coding questions. Try to solve both questions ( Pass all test cases for one of the questions and do attempt the other question ( even brute force would pass many test cases )
+Aptitude can’t be solved just within a minute. Solve C o/p based questions first.
+Questions-
+1. Overlapping paintings, find no. of paintings that can be seen distinctly, extreme co-ordinates of paintings are given. Ordering of paintings matter. ( Assume heights of all paintings are same, start and end coordinates are given )
+Simple O(N^2) solution. Starting from rightmost painting, check if it completely hides any painting or not based on start and end coordinates. ( modification of interval selection problem )
+2- Given points of two lines segments A(x1,y1 x2,y2) & B(x3,y3 x4,y4) find whether the 2 segments intersect or not.
+Simpler approach ( short code )-
+http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=geometry2#line_line_intersection
+Length / complicated soln-
+https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/
+Expected cut-off -
+I solved 2nd question and passed 1 test case for first question ( misunderstood the question during online round !! :p ) and solved 4 MCQ's only ( all fluke )
+So my advice, do solve both coding questions for sure and solve C o/p questions in last 15 min
+Round 1 – F2F Technical
+Avg 20-30 mins. 22 shortlisted
+My went on for 1 hr to 1hr 15 mins
+Internship based dicussion (20-30 mins ). Based on Cloud, Virtualization, Networking
+Q1- Given N, find LCM from of all numbers from 2 to N. Give the complexity expressed in the form of Number of prime numbers <= N. Had to be really precise in terms of complexity ( in terms of prime factors, maximum recurrences, each recurrence complexity ). Long dicussion on complexity. Don't say any method whose complexity you cannot prove. (E.g saying that i can use Sieve of Eratosthenes for prime pre-processing will lead to question of complexity of Sieve which is O( Log LogN), that cannot be proved trivally. ) So avoid using any such terms
+
+Q3- Spring / Hibernate in JAVA
+Told him i work in C/C++ only. No experience in JAVA
+
+Q2- Types of SQL- NoSQL and SQL(Relational DBMS ). Why the need of NoSQL- Big Data Analytics
+
+Q3- How would you design DBMS for Snapdeal's website's shoe section.
+ Now if you want to further break it into Sports and Casual Shoe would you break the DB into two or add another entity ? Full justificdation
+I initially answered with a multi-level indexed structure for DBMS storage. Could not answer on the second part of the question. He asked if i knew DBMS and i told him I do not know DBMS. He skipped the question and ended the interview. Told him i had advanced DBMS lab in my course currenlty and would learn it before graduating.
+
+Round 2- Coding Round ( 2 Hrs )
+ 10 shortlisted
+Q1- https://www.geeksforgeeks.org/turn-an-image-by-90-degree/
+Q2- https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/
+Q3- https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+I was the first one to solve all 3 in 45 mins roughly and went for next interview. Shortlisting criteria- 2 questions in 1 hr – 1hr 15 mins even though they said that we had 2 hrs to solve all 3 questions !!
+Round 3- F2F Technical
+4 shortlisted. This round went for almost 1hr 45 min - 2 hrs for me since I solved the Round 2 question earliest. Other 3 had almost 45 mins interview.
+Q1- Variation of
+ https://www.geeksforgeeks.org/find-possible-words-phone-digits/
+Given a dictionary of words and a number n. Find count of all words in dictionary that can be formed by given number n.
+I started by exponential solution and reduced it to polynomial. We discussed various approaches and tried a variety of methods and after 1-1.5 hrs of discussion finally ended up with an O(1) solution with some pre-processing overhead. After achiveing O(1) time complexity, he asked to further optimize the space complexity.
+Usage of Trie / TST. Internal Implementation of Hashing structure and replacing the hashing mechanism using Trie / TST.
+Q2- Given an array of elements. We can perform following operation only- Increase an array element. Cost of operation is the amount of increment made per array element. Now for a given H, we need to make any H ( not necessarily consecutive ) elements of array equal with minimum cost.
+E.g.
+N=6, H=4
+2 3 5 6 4 4
+changes to -> 4 4 5 6 4 4
+Cost is ( 4-2 + 4-3 = 3 )
+N=6, H=3
+2 3 5 6 4 4
+changes to -> 2 4 5 6 4 4
+Cost is ( 4-3 = 1 )
+Optimal complexity- O(N)
+Round 4 -F2F (HR)
+3 shortlisted
+Typical HR round.
+I would like to thank geeksforgeeks for a exhaustive set of interview questions and study material on data structures-algorithms.
+
+

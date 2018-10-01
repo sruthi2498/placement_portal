@@ -1,0 +1,9 @@
+unordered_multimap::equal_range() is a built-in function in C++ STL which returns the range in which all the element’s key is equal to a key. It returns a pair of iterators where the first is an iterator pointing to the lower bound of the range and second is an iterator pointing to the upper bound of the range. If there is no element equal to a given value in the container, then it returns a pair where both lower and upper bound points to the position past the end of the container or unordered_multimap.end().
+Syntax: 
+Parameters:  The function accepts a mandatory parameter k. The range returned will have the elements with key k.
+Return Value: It returns a pair of iterators. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

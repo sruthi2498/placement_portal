@@ -1,0 +1,9 @@
+The unordered_multimap::reserve() is a built-in function in C++ STL which sets the number of buckets in the container (bucket_count) to the most appropriate number so that it contains at least n elements. If n is greater than the current bucket_count multiplied by the max_load_factor, the container’s bucket_count is increased and a rehash is forced. By calling reserve with the size that was expected for the unordered_multimap container, the multiple rehashes can be avoided. The multiple rehashes are those that are produced due to increase in container size which optimizes the size of the hash table. If n is lower than that, the function may have no effect.
+Syntax: 
+Parameters:  The function accepts a single mandatory parameter N which specifies the number of elements requested as the minimum capacity. 
+Return Value: The function does not return anything. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

@@ -1,0 +1,43 @@
+Recently Synopsys ( Bangalore Center ) visited our campus for recruitment for Research and Development profile and Software Integration profile.
+Here is my interview experience.
+Round 1 (Written test)
+It consisted of 36 MCQs to be solved within 1 hour .
+First section consisted of Quantitative, analytical aptitude questions (probability,logical reasoning).
+Second section consisted of coding questions , finding output (mainly pointer related, structure related)
+Third section had Digital electronics (CMOS, power dissipation problem, K-MAP , fllip-flop).
+MCQ were of 1,2 and 3 marks , wrong ans 50% negative, SO ONLY ATTEMPT IF YOU CAN SOLVE IT OR KNOW IT ,wrong guess work may result in low marks.
+Round 2 (Technical Interview )
+14 people selected from 100 for this round.
+Interviewer asked me to introduce myself and this interview was mainly related to OS related stuffs.
+1. What are the stages of compilation , explain how every step works.
+2. She asked me about static and shared library and the differences between them and told to write one library of my own and how static libraries are set up
+3. How many processors and cores and sub processes running how to find out using application (in windows) , using command (in linux)
+Here I answered Ill use Windows task manager to find out 😛 but she said they show us the main processes and she wants to see all the sub processes too 
+4. What are the main environment variables we use and what is ldpath ? 
+5. What debugging tools I have used till now and how debugging works internally?  and asked me few question on gdb
+6. What does loader and linker do and in which part of memory everything is stored
+7. Asked me to write a code of checking string is palindrome or not 😀
+Then some normal questions like
+Why do we do coding? Basic necessities of coding , Asked me to explain my internship project (done in Samsung R&D) .What are the web development works you have done till now
+After the 1st Interview round, 6 candidates were shortlisted for 2nd interview .
+Round 3 (Technical Interview )
+For the first half an hour interviewer asked me different pointer related question , I dont remember all . 
+1. Started with difference between 
+2. Dynamically allocate 2D array , array of strings , array of pointers (all using malloc and new both)
+3. He asked to explain all the question related to pointer that came in written test.
+4. Told me to write push and pop of stack using linked list.
+5. Array of infinite numbers containing 0 and 1 , find out the transition point of 0 becoming 1 in O(logn) time. (code needed)
+6. A path finding question using basic BFS (code needed) 
+7. Detailed discussion on polymorphism (virtual functions, why use, abstract class use , working of virtual table , operator overloading) with example 
+8. BST application and finding the minimum value node in there (code needed)
+9. Difference between Sequential and combinational circuit and some questions regarding that
+10. Function of clk in D-flip flop and some flipflop related question.
+11. Use of NAND gate in real life and XOR using NAND.
+Lastly asked me if i have already any offer and if I am willing to learn some electronics related work in future for Program synthesis (since I am an IT student )
+Again after this round 3 candidates were shortlisted.
+They were supposed to take more interviews but they said they do not need it anymore and these 3 candidates were given the offer 😀
+Tips: Be prepared properly , They can just ask you anything from anywhere , not necessarily from academic topics always .
+Thanks a lot to geeksforgeeks.org , this is the one of the most important reason of my success 🙂
+All the very best! Keep faith in yourself and work hard!
+
+

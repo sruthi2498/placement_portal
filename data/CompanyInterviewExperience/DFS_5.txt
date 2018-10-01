@@ -1,0 +1,12 @@
+Given an undirected graph, print all the vertices that form cycles in it.  
+Pre-requisite: Detect Cycle in a directed graph using colors
+
+In the above diagram, the cycles have been marked with dark green color. The output for the above will be 
+1st cycle: 3 5 4 6
+2nd cycle: 11 12 13
+Approach: Using the graph coloring method,  mark all the vertex of the different cycles with unique numbers. Once the graph traversal is completed, push all the similar marked numbers to an adjacency list and print the adjacency list accordingly. Given below is the algorithm:
+Below is the implementation of the above approach: 
+Run on IDE
+Output: 
+Time Complexity: O(N + M), where N is number of vertex and M is the number of edges.
+Auxiliary Space: O(N + M)

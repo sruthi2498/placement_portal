@@ -1,0 +1,44 @@
+Siemens PLM(Product Lifecycle Management) came for Software Developer profile.
+The whole process was completed in a single day.There was an online Aptitude test followed by 2 technical rounds and finally an HR round.
+Aptitude Test : 
+There were two options to select from in online aptitude test.
+1st : Analytical(Logical reasoning +Quantitative) ,C,C++
+2nd : Analytical(Logical reasoning + Quantitative),Java
+I selected the 1st option.It consisted of 50 questions.The first 20 questions were Analytical section and next 15 were on C language and last 15 were on C++. There was no negative marking.The analytical section was fairly simple.C & C++ sections contained questions from moderate to difficult level.
+Around 180-200 appeared for the test and around 25 were shortlisted for interviews.
+Each round was an elimination round.
+1st Technical Interview : 
+This round lasted longer than the next two and was sort of a stress interview.It tested how well do you perform under stress.It lasted for around 1 hr.There were 2 people interviewing me.
+It started with a standard ‘Tell me something about yourself’ to break the ice.
+Then he asked me to write my name on a paper,I wrote my full name.Then he asked me how would you represent yourself by Object Oriented Paradigm principles.I first replied that I would create a class Human and then instantiate an object of the class Human to represent myself.He then asked how would I represent my father.Then I realized I would not be able to show a father-son relationship by creating object for each human.I then suggested to create class to represent each human and show father-son relationship by inheritance.He then told me that there are 6 billion people on Earth so would you create 6 billion classes ? Then I thought for a few minutes and then came up with a solution.The solution is to create only a single class Human and have as its data members 2 Human classes(1 for mother and 1 for father). Then I realized it was the ‘Tree’ data structure.He was impressed.
+Next question was on trees.Given a tree and a particular level,return the height of the tree and the number of nodes on that level.
+Then he asked me the concept of dangling pointers and write an example code showing how it occurs.I wrote the code in C++.
+Next question was on Linked Lists.Find if there is a circle in a linked list.I showed them the brute force method.Then he told me to optimize the code.I suggested keeping an array of visited nodes.While this will reduce time complexity,it will increase space complexity.But they were impressed.
+Then there were two puzzles.
+1) Given two lines in 3 – dimensional geometry , find if they are intersecting or not .if they are intersecting , find point of intersection.I gave them solution for 2 dimensions and told them  studied 3 -dimensional geometry in school and do not remember it well :p
+2) Given a solid white cube, it in dipped in black colour and then cut into 1000 equal pieces.Find the number of cubes that are completely white.A simple question, solved it in a few minutes.
+2nd Technical Interview : 
+This round was resume based .Again there were two people interviewing.They asked me about various projects done by me.Detailed description of every project was asked 
+He then proceeded and asked me to tell them if I know the solution already to the problems they ask.
+Then he gave me an optimization problem.There are two pipelines and numbers are flowing in continuously in both the pipes.At any instant, the flow will stop and in no time it should find the common numbers in both the streams.I told him I knew the solution to this problem.
+He then proceeded to next question.
+Then he gave me a design problem.The problem was to design a program to represent various shapes ranging from a point to n-sided polygon and it should also have basic features like calculating area for every shape.I gave an object oriented solution.He then asked if I want to delete a line where will I write the code to verify whether that line is a part of a square or not and if it part of a square dont delete it.I told him to put a simple conditional check.He asked me is it possible to write it in destructor.I did not know that.
+He then asked me about my internship projects.
+This round lasted for around 30-45 mins.
+4 people were selected for HR round.
+HR round :
+Basic HR questions :
+1) Tell me something about yourself.
+2) Role model:I told Bill Gates because he is rich 😛
+3) What do your parents do ?
+4) Are you ready for relocation ?
+5) Plans of future studies
+6) Strength/Weakness.
+In strength, I told that I focus  on a problem way more and leave it only when it is solved.
+He then asked me if I visited their website.I said yes.Then he asked me if you focus so much tell me the name of one product of ours.I was not able to answer but I told him that I did see a photo of a vehicle on their website for which they manufacture software.
+7)1 thing you would like to change about yourself.
+3 people were finally selected. 
+Tips for interview :
+1) They will focus on your problem solving skills.So it is not important to arrive to a right answer but the way you think is important.So talk with them while you are thinking.They want to know how you arrive at a particular solution.
+2) Go through your projects and resume very well and prepare yourself for any questions which can be asked based on your resume.
+3) Ask some questions related to technologies used at Siemens PLM at the end of the interview

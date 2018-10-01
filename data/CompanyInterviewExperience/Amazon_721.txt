@@ -1,0 +1,33 @@
+This post is about answers to the questions asked in Amazon Interview | Set 9.  It contains links to some of the solutions available on the geeksforgeeks. I have also written my answers which I replied in the interview. I hope it would help the readers.
+Online Programming Round: (5 methods, 2 hours)
+3)     https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/ 
+5)     https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+ 
+Telephonic Interview 1:
+1)     https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/
+2)     https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/
+3)     https://www.geeksforgeeks.org/array-rotation/
+ 
+Telephonic Interview 2:
+3)     Find the distance of every other point from P. Then use of max-heap of size K. https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+ 
+Face-to-face Interview 1: (Hyderabad, Date: November 08, 2012)
+2)     I gave the following solution (with the help of the interviewer):
+1. For every set, find out the number of sets it has intersection with. Also maintain those set indices.
+2. Remove the set which has maximum number of intersection. And update the remaining numbers.
+3. Repeat step 2 till we have any set which has intersection with any other set. At the end, we will have the solution. (Still not sure about optimality).
+We can relate the solution with graphs: Remove some nodes so that remaining all the nodes are isolated nodes.
+Searching: To make searching efficient, we can build trie data structure using bits for every set. So that we can find the intersections fasters.
+
+Face-to-face Interview 2 (with a manager):
+1)    I tried for some time. Then the interviewer gave me the formula. The number is 1+ceil((N-W)/S) in all the cases.
+For second part of question, simple solution is to find min in every window. But we can optimize so that we can utilize previous results/previous min.
+Bit optimal: I created a min-heap of W elements. But the heap contained indices of the array elements, not the values inside the array itself. The indices were stored in heap as per their values in the array. Then for a new window, search the heap linearly (heap was in form of array), replace the old indices (which are no longer in the new window) with the new indices, and adjust that index in the heap. After adjusting all the new indices, we will have new min for the new window at the root. (Not sure whether the complexity brought in to the solution is worth!)
+ 
+Face-to-face Interview 3:
+2)     I gave a solution based on trie data structure using characters of the string. But he suggested to build trie based on the string itself. However, I was not able to think in that way.
+3)     Linear search. Binary search.
+ 
+Face-to-face Interview 4 (with the manager of the unit of opening):
+2)     I said, we can organize an online coding competition. People would register and we will have the details. He replied, it’s too expensive. Then I said, we can postpone the competition!
+All the Best!

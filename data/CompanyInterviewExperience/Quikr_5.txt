@@ -1,0 +1,21 @@
+Given two sorted arrays, the task is to merge them in a sorted manner.
+Examples:
+
+Method 1 (O(n1 * n2) Time and O(1) Extra Space) 
+We have discussed implementation of above method in Merge two sorted arrays with O(1) extra space
+Method 2 (O(n1 + n2) Time and O(n1 + n2) Extra Space)
+The idea is to use Merge function of Merge sort.  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n1 + n2)
+Auxiliary Space : O(n1 + n2)
+
+Brocade,Goldman-Sachs,Juniper,Linkedin,Microsoft,Quikr,Snapdeal,Synopsys,Zoho
+
+Related Articles : 
+Merge two sorted arrays with O(1) extra space
+Merge k sorted arrays | Set 1

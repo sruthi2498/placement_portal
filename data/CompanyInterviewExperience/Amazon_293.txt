@@ -1,0 +1,6 @@
+Approach: Start from beginning and start traversing the road. If fuel finishes at any point then move the start index backwards and add its gas to the tank. If its still -ve then keep doing it until you have enough to move forward.
+Approach: Brute Force
+Approach:
+Approach: Suggested subset sum dp solution. Couldn’t handle infinite case properly.  2. Add one to a given number represented using a linked list where MSB was at tail and LSB at head.
+ 
+

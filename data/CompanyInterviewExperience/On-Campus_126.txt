@@ -1,0 +1,27 @@
+I was hired for Research Engineer position by Samsung Research Institute Bangalore in December of 2017. We had 2 to 4 rounds of testing.
+Round 1:
+Software Competency Test for 3-4hrs.
+You are not allowed to use any libraries other than stdio and stdlib. Number of submissions are limited to 10 and the code must pass all 20 test cases to be selected for next round.
+Question: Check if a graph is bipartite.
+Important topics in Samsung tests(in decreasing order of importance): Graphs,   Backtracking and Dynamic Programming
+Check out questions from previous Samsung tests online. The questions usually repeat.
+Round 2:
+Technical group discussion for 30min.
+The selected students were split into groups of 5 and a senior member from Samsung led the group. We were given a sheet of paper explaining the problem statement. We were given 5-10 min to come up with a solution. After that, we were asked to discuss our solution one by one.
+Topic: Machine Learning
+Problem: Recovering data from corrupted database
+Consider a database of students in a college. The various fields in the database are roll no, name, gender, age and hobbies(hobby1, hobby2, hobby3…hobbyN). Roll no, name are strings. Gender is Boolean. Age is a real number. Hobbies are Boolean (whether or not you like a certain activity).
+The database is corrupted by virus and certain entries in the database are erased. You are given which entries are corrupted and which ones are intact. Names and roll nos are not corrupted. How do you reconstruct the database back to the best possible approximation?
+I answered the question and was hired as Research Engineer after this round. I did not attend any further interviews.
+Round 3:
+My friends attended atleast 2 more rounds of Technical interview.
+Preparation:
+1.Start early
+2.Learn to code without using libraries. Learn to implement data structures like stacks, queues, trees, graphs etc without using any libraries other than stdio and stdlib
+3.Speak with confidence and articulate your thoughts clearly during group discussion. Your ideas are a lot more important than the jargon you use
+4.You will be asked to criticize your friends’ ideas. Do so respectfully
+5.For interviews, learn how to write down psuedo code and actual code on a piece of paper without making a mess. You can’t hit backspace on a paper. Get it right the first time
+6. For research position, focus on machine learning/probability/linear algebra and related topics
+Thanks to geeks for geeks for being helpful in my preparation.
+<3,
+Bharath

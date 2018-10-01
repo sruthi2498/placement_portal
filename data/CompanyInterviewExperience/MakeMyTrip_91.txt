@@ -1,0 +1,27 @@
+Given two integers x and n, write a function to compute xn.  We may assume that x and n are small and overflow doesn’t happen.
+Examples :
+Below solution divides the problem into subproblems of size y/2 and call the subproblems recursively.
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity: O(n)
+Space Complexity: O(1)
+Algorithmic Paradigm:  Divide and conquer.
+Above function can be optimized to O(logn) by calculating power(x, y/2) only once and storing it. 
+Run on IDE
+Time Complexity of optimized solution: O(logn)
+Let us extend the pow function to work for negative y and float x.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+
+Write an iterative O(Log y) function for pow(x, y)
+Modular Exponentiation (Power in Modular Arithmetic)

@@ -1,0 +1,5 @@
+QUE 1: A given Series could be arithmetic,Geometric,Fibonacci.We will provide you ‘n’ numbers and you have to first check the type of series,then find out the next number .If you are unable to get the output return -999.  
+Input1 : integer value,the length of the array.
+Input2 : Integer Array e.g(0,1,2,3)
+Que 2 : Edward wants to find out maximum number of cake pieces he can get by making exactly n straight vertical cuts on the cake.You need to fill in a function that takes input as integer,which is the no of cuts,and return the maximum number of pieces that can be obtain by making n cuts.
+0<=n<=10^9.

@@ -1,0 +1,30 @@
+Online Round:
+15 MCQ’s and 2 coding questions organized by CoCubes.
+Coding questions – 
+ 1. Given a list of strings separated by space, return the position of the  required string. Return -1 if string not present.
+ex:”at”, “bat”,””,””,”car”,””,””,””,”dog” … find “car” . o/p: 4
+2. Given a list of numbers find the numbers occurring even no. of times.
+Group Fly Round:
+Rotate a 2-d  Matrix clockwise by 90 degree (inplace)
+Round 1:
+What do you understand by polymorphism? What are constructors? When are copy Constructors used? What are virtual Destructors? Why do you need them?
+Detect  whether  a  linked list has a loop. Find the length of the loop.
+Print the values of the Full Nodes in a Binary tree. (A node is said to be full if it has both right and left children).
+Round 2:
+Tell me something about yourself. 
+What does the word  ‘System’  mean in System.out.println in Java?
+Given 2  sorted arrays, find the median element. (without extra space)
+Search for an element in an array. (He just wanted  n comparison i.e. I was using a for loop which has a comparison and another  comparison within the for loop to find the element., he counted them as  2 comparisons. Hence 2n comparison.)
+First Normal Form.  If a schema has a date attribute is the schema in 1NF.
+Round 3:
+Tell me something about your project.
+Find the index of the element which is greater than the given number(the  number may or may not be present in the array). The array is sorted , contains duplicates .
+Delete n elements after m elements in a linked list, continue till the end of the list.
+Round 4:(HR round)
+Why do you want to work for Microsoft?
+He gave a list of functions that can be used in a file. Find the last n lines in the file using those functions only. (Have you heard this question before? Have your friends discussed it with you? If you were in place of your friends would you tell them about your questions?)
+Given a 2-d Matrix sorted row wise and column wise . Find the k-th smallest element.(Not the min heap method, he needed a more optimized method. He guided me through the question.)
+Note: The panellist were quite  experienced they will understand whether you know the question or not. So just own up. Test Cases are very important. 
+Microsoft has an amazing set of panellist. They are only interested in the basics. They won’t ask very difficult questions, because they want to understand whether you can come up with a solution.
+
+

@@ -1,0 +1,35 @@
+Here, I would like to share my interview experience for Microsoft IDC Software Engineering profile. It was On-Campus.
+Primary round:
+There were two test rounds, one was MCQs (15 Qs) on C++ basics and the other was Coding (2 Qs). Test was conducted on cocubes platform.
+First round was easy. It had Qs on C++ o/p, algos, classes, struct and union, DS and one was on Java. All were shortlisted for the coding round. 
+Coding round:
+Q1) find the sum of all cousins of a given key in a binary tree.
+Q2) Reverse a linked list in groups of size k.
+Prepare linked list and trees Qs from geeksforgeeks, that would suffice to crack this round.
+GroupFly Round: 
+120 students were shortlisted for this round. we were divided into groups of 10. Each group was given a coding Q and we had to solve it in 20 mins. They want you to discuss the approach with them and write proper code. List out all the boundary cases clearly. Keep clarifying yourself by asking any query regarding the Q given. 
+Questions: 
+1) Given a sorted array, with some unknown rotation, i.e, the smallest element is shifted circularly. Find the smallest element. 
+2) Swap two given elements in a singly linked list
+3) Design an algorithm for storing Tiny urls mapped to large ones. You are given a pool of tiny urls and you are asked to maintain their record of map against the large urls. 3 functions to be implemented: ASSIGN: it has to assign a tiny url to the large one which is taken as an argument to the function. ACCESS: it has to return the corresponding large url for the tiny url passed as an argument. RECLAIM: It has to remove all the large urls which were not accessed since mentioned time(which is passed as an argument) from the map and make the corresponding tiny urls available. You have design a system to do this and all the operations should take O(1) time complexity.
+Technical Interviews:
+There were 3 rounds of technical interviews, one coding Q in each round.
+Round 1 : Q) Given a sorted array, with some unknown rotation, i.e, the smallest element is shifted circularly. Find the smallest element. 
+Round 2 : Q) Write the code for ‘strtok’ function (it’s a C function)
+Round 3 :
+Q1) It was based on my internship. He asked me to explain the work I was involved in. 
+Q2) Some random Qs on my internship topic.
+Q3) He asked, how would I detect a cycle in a singly linked list, then to mathematically prove that algo.
+Q4) Some random Q on math and programming.
+Q5) How to evaluate an infix expression. Write the code.
+It was great conversing with them. They were very friendly. They encourage you all time giving hints and appreciating your progress. They were very active and generous at the same time. They look for your approach more than the way you write the code. 
+Tips:
+Speak out the way you are thinking and the way you solve it. They want your approach. Clearly understand the Q. Ask for any query you get in mind. In fact you keep clarifying youself, they like that.
+List out all the different boundary cases and handle them. 
+They will ask you to optimize the code, so gain experience by solving more and more Qs 🙂  
+There was nothing like HR round. 
+Just be confident in all the rounds. That will suffice.
+Company is going to see how good your approach is. They wont check how much information you know, they look how well you are able to solve problems. Look for all the various cases possible and try to write error free code.
+Just keep solving Qs from geeksforgeeks and learn the funda. Solve some competitive coding Qs from Hackerrank and other websites. That will suffice. Happy preparation! 🙂 
+Thank you 🙂 
+

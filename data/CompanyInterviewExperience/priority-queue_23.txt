@@ -1,0 +1,7 @@
+A typical Priority Queue requires following operations to be efficient. 
+A Binary Heap supports above operations with following time complexities:
+
+A Self Balancing Binary Search Tree like AVL Tree, Red-Black Tree, etc can also support above operations with same time complexities.
+So why is Binary Heap Preferred for Priority Queue?
+Is Binary Heap always better?
+Although Binary Heap is for Priority Queue, BSTs have their own advantages and the list of advantages is in-fact bigger compared to binary heap.

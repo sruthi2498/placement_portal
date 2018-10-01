@@ -1,0 +1,38 @@
+Online written Round:
+Initially an online written round was conducted consisting of following sections:
+1. General aptitude
+2. Logical Reasoning
+3. Technical (Basic C/C++ questions)
+4. English
+Overall time limit was nearly 2 hrs. It was an easy round.
+Coding Round:
+Then after this a large number of students were selected for the next coding round, where we had just one problem to code and time limit was 30 minutes. Problems were randomly distributed, it’s just that coding interface was not that good so many fellow mates of mine faced problem getting the output to the console in the right manner.
+I got the following program:
+A number x supports a number (x+b) where b is the number of set bits in binary representation of x, like if x = 3 then x supports (3+2)=5 as 3 has 2 1’s in its binary representation. Now you are provided with an array of numbers you have to print SUPPORTED if number is supported by any number if not print BLEAK else if there is an invalid input print 0.
+After this round 77 students were selected for the interview rounds. A big panel of 9 members had arrived to conduct these interviews.
+Interview Round 1:
+1. Code :- A simple C program to reverse the words in a string , like if string is “Oracle @ App Dev”, then it should become “Dev App @ Oracle”
+2. Puzzle: – Two persons X and Y are sitting side by side with a coin in each’s hand. The game is to simultaneously flip the coin till anyone wins. Player X will win if he gets a consecutive HEAD, TAIL however Y will win if he gets a consecutive HEAD, HEAD. Now you have to tell is the game fair or not.
+3. Some DBMS questions like normalization, joins and composite key.
+4. Code: – Given the value of a starting position and an ending position, you have to reach from start to end in a linear way, and you can move either to position immediate right to current position or two step right to the given position. You have the print all the possible path to reach from start to destination. (DP) 
+This round went for like 45 minutes, the interviewer was really nice and was giving certain clues in between to guide me.
+Interview Round 2:
+This was a long and scary round, it lasted for like 2 hours.
+1. You are provided a CSV (Comma Separated Values) in file like E1:12, E2:32 etc. You have to generate a tree with maximum height 3 only with the given values in the following manner :
+E is the root of tree having n nodes to E1, E2, E3 … En. E1, have n nodes E11, E12, E13 … E1n, this is how things go on second level. Similarly for E111 types of element will be modelled.
+Restrictions : You can read file only once , you must take care of the fact that if E1 is not in file but say E11 is there you must not include it.
+2. Provided a string a character and a count, you have to print the string after the specified character has occurred count number of times.
+Ex: String: “This is demo string”
+Character: ‘i’
+Count: 3
+Output: “ng”
+However, solving this one must take care of corner case when character is not in string or its not in string count number of times etc.
+3. Design a website similar to bookmyshow.com for booking cinema tickets but it must be for a single location only which can have multiple theatres in it. In this he wanted me to design a basic rough GUI, relevant database tables and linking GUI to database and also showing the whole data flow in system. Site must also provide features like advance booking, user login, user registration, movie rating option, saving card details etc.
+4. Puzzle: Given 10 coins, arrange them such that we get 4 different rows each containing 4 coins.
+5. Puzzle: Gi1ven 4 coins, arrange then to make maximum numbers of triangle of the figure.
+6. In the end he asked Database Normalization and all the normal forms in detail.
+Interview Round 3:
+It was a technical + HR round, the interviewer asked me about the previous codes that I had made in previous rounds. He was more concerned about the approach than code. Then he start questioning about the site I made in round 3 regarding how I will amend it if it has to go global to all
+type of customers. Then there were some basic HR questions.
+Finally 3 students were selected out of total 77 students (including me 🙂 ).
+

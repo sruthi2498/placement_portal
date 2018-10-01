@@ -1,0 +1,46 @@
+Given two numbers base and exp, we need to compute baseexp under Modulo 10^9+7 
+Examples:
+In competitions, for calculating large powers of a number we are given a modulus value(a large prime number) because as the values of  is being calculated it can get very large so instead we have to calculate   (%modulus value.)
+We can use the modulus in our naive way by using modulus on all the intermediate steps and take modulus at the end,
+but in competitions it will definitely show TLE. So, what we can do.
+The answer is we can try exponentiation by squaring which is a fast method for calculating exponentiation of a number.
+Here we will be discussing two most common/important methods:
+Binary Exponentiation
+As described in this article we will be using following formula to recursively calculate (%modulus value):
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+-ary method:
+In this algorithm we will be expanding the exponent in base (k>=1), which is somehow similar to above method except we are not using recursion this method uses comparatively less memory and time. 
+Run on IDE
+# Python3 program to compute
+# exponential value
+# using (2^k) -ary method.
+# prime modulo value
+N = 1000000007; 
+def exponentiation(bas, exp):
+	t = 1;
+	while(exp > 0): 
+		# for cases where exponent
+		# is not an even value
+		if (exp % 2 != 0):
+			t = (t * bas) % N;
+		bas = (bas * bas) % N;
+		exp = int(exp / 2);
+	return t % N;
+# Driver Code
+bas = 5;
+exp = 100000;
+modulo = exponentiation(bas,exp);
+print(modulo);
+# This code is contributed
+# by mits
+Run on IDE
+Run on IDE
+
+Applications:
+Besides fast calculation of  this method have several other advantages, like it is used in cryptography, in calculating Matrix Exponentiation et cetera.

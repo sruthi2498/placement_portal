@@ -1,0 +1,37 @@
+It was a usual Job Application at Amazon’s Job Site, I got their call few days later. 
+Process:- 1 Written Aptitude(Coding) + 3 Technical Round + 1 HR Round
+1) One Written Test – 8 Problem statement – 1 Hour Time – from Basic to Mid-level difficulty, for which we have to write the Logic/Algorithms
+	Some which I remember were good enough are –
+ 		i) Given a Folder path in a Directory Structure. E.g. “temp/reg”; you need to find all the files with extensions “.c” in this folder as well as in the sub-folders.
+		ii) Finding the Longest Palindrome Sub-String in the given string.
+		iii) From the given string, print the Alphabets which occur more than once in the string.
+		iv) Given two Integers A & B, Print the number of bits to be flipped in order to convert ‘A’ to ‘B’.
+		v) Implement EnQueue() and DeQueue() of Queue DS using Push() and Pop() of Stack DS. Write Steps and Sequence.
+	Possible Solutions:- (Logic)
+		i) Use Linked-List DS to store the Folder Path in a Node. Open the Folder with First Node, filter all the “.c” extension files, and add the sub-folders in the linked-list, until all the nodes in the linked-list are explored.
+		ii) Use ‘frame’ variable with value starting from 2, increasing till size ‘n’, and check by shifting this frame by one position, if the sub-string is a Palindrome or not.
+		iii) Basic Char to ASCII conversion and back to Characters. Create an Array of 26 slots for alphabets. Convert the input string to UpperCase before proceeding.
+		iv) Convert to Binary Representation and Compare as String Characters. If not same, then increment the counter. Remember, we have to only display the Number of bits flipped.
+		v) Use Operational Logic for Priority Queue, and for –
+			     a) EnQueue – Push everything in Stack1.
+			     b) DeQueue – (Check if Stack1 is Not empty)Pop everything from Stack1 and Push them one by one to Stack2. Then Pop top element from Stack2 as Result. For Next DeQueue do reverse, i.e. from Stack2 to Stack1.
+2) 1st Technical Round
+	i) Write Program to Reverse a Linked List.
+	ii) Discussion on a Scenario and Debugging/Troubleshooting the error.
+3) 2nd Technical Round
+	i) The similar Debugging/Troubleshooting scenario.
+	ii) Add the Numbers present in the String and display.
+	     	E.g. “abc123def-567ghi89jk”
+	          Here take ‘-‘ as negative number symbol.
+	iii) Find the Pair of Array elements summing up to value ‘k’, in a Sorted Array. Optimize it from Complexity ‘N^2’ to ‘NlogN’ using Binary Search.
+4) 3rd Technical + Managerial Round
+	i) Some OS Related Questions.
+	ii) UNIX Commands – Which I couldn’t recall!
+	iii) Project Experience and Why want to Join Amazon and similar ones.
+Though I couldn’t clear the 3rd Round, the overall experience was good.
+## Remember:-
+   —————————
+>> Please check their Technical Requirement, and revise your concepts of OS(How Process works, Process Life Cycle, RAM, Virtual Memory, DeadLocks etc.), UNIX(Revise Basic Commands like ‘grep’ etc.).
+>> Practice basic Problems like, Searching, Sorting, Fibonacci, Factorial, Recursion, Stack, Queue, Linked List and their Application.
+Hope it helps for the new Applicants!
+

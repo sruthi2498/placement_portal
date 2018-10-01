@@ -1,0 +1,12 @@
+Heaps are mainly used for implementing priority queue. We have discussed below heaps in previous posts.
+Binary Heap
+Binomial Heap
+In terms of Time Complexity, Fibonacci Heap beats both Binary and Binomial Heaps.
+Below are amortized time complexities of Fibonacci Heap.
+Like Binomial Heap, Fibonacci Heap is a collection of trees with min-heap or max-heap property. In Fibonacci Heap, trees can can have any shape even all trees can be single nodes (This is unlike Binomial Heap where every tree has to be Binomial Tree).
+Below is an example Fibonacci Heap taken from here.
+
+Fibonacci Heap maintains a pointer to minimum value (which is root of a tree). All tree roots are connected using circular doubly linked list, so all of them can be accessed using single ‘min’ pointer.
+The main idea is to execute operations in “lazy” way. For example merge operation simply links two heaps, insert operation simply adds a new tree with single node. The operation extract minimum is the most complicated operation. It does delayed work of consolidating trees. This makes delete also complicated as delete first decreases key to minus infinite, then calls extract minimum.
+Below are some interesting facts about Fibonacci Heap
+We will soon be discussing Fibonacci Heap operations in detail.

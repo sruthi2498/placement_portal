@@ -1,0 +1,35 @@
+Adobe procedure consisted of two online rounds back to back. 
+1) First Online Round- It was Aptitude Test of about 50 minutes and 40-45 Questions were there. The questions were easy and everybody could easily solve that, speed should be good in order to attempt all the questions.
+The questions were of type- some geometry based questions,some easy puzzle type questions (like there are 5 painters, one painter passionate about scenic beauty, 2nd painter has interest in… , and other information was given and 3-4 related questions were there),some simple comparison based questions and some quantitative aptitude questions.
+2) Second Online Round– It was of 2 hours.
+In this round there were about 10 coding questions and 10-12 simple c o/p(pointer related) and data structure related question.
+Coding Questions asked can be easily found in geeksforgeeks, some of the questions that I remember are-
+1) Reversing a linklist.(trivial question which everybody should know).
+2) Given a 2-D binary matrix(nxn)(elements are either 0 or 1) such that in each row,all the 1’s in the array are present before the 0’s.You have to return the row number of the row with max. no of 1’s.You just have to implement the function whose prototype looks like-
+Int max_row(int *arr,int n);//here arr is a pointer to integer and nxn is the size of matrix.
+3) Write a program to check whether the number is palindrome or not.
+4) A recursive program to multiply two numbers with addition such that there should be minimum no. of recursive calls.
+5) Given an array of n integers, find pair of numbers if present whose sum is equal to a given target sum.
+6) Every number with 3 at it’s unit place has a multiple which has all 1’s like for 3,the multiple is 111,for 13 multiple is 111111.The multiple can exceed the integer range i.e,it can be very large number(try storing it in a string).
+7) Given a mathematical expression, check whether the parenthesis used in that expression are balanced or not.Possible parenthesis used can be {},[],() only.Eg.(2+3)/4*[9+{8*5}].
+8) Three processes p1, p2, p3, p4 – each have sizes 1GB, 1.2GB, 2GB, 1GB. And each processes is executed as a time sharing fashion. Will they be executed on an operating system.
+9) One question was from scheduling in OS.
+Technical Interview 1
+In this round,firstly the interviewer asked me about DNS server(full working), ARP protocol etc.
+We had some general talks regarding my achievements, then he gave me a problem- There is a string which may contain repeated words, you need to print unique words only.(I gave a solution using trie but he wanted brute force solution…:( )
+Then he gave a puzzle which I had never heard before(you can search it- “King’s poisonous wine cellars”).
+He was also asking approach for some of the questions asked in written exam.
+Technical Interview 2
+In this round,first of all I was asked some networking questions,then virtual memory concepts,some scheduling questions etc.
+Then he gave me a problem which I had to implement in C.The problem goes like this- There is an application which is again and again fetching data from database and then using that information in further processing,but since the application is again and again accessing the same database so inorder to increase the speed of accessing data we have to implement a cache.(Property of cache-keep the most frequently used data and remove the least frequently used data if cache is full,assume limited size of cache).
+Solution that I first gave was using a linklist (wrote all functions inC)
+He was happy with the solution but wanted me to think about more efficient solution so I told him using Heap and Hashing,implemented it in C again.He was impressed by this solution …:)
+Technical Interview 3
+In this round he asked me about DHCP,DNS working protocols etc.(I wrote these terms in my resume).He asked about unions,bitfields,structures,asked me to write 6-7 complicated declarations,asked me the meaning of some declarations(like int *const *const *i).Then asked C++ Questions about default functions in C++,how would you detect that error has occured inside the constructor and destructor,lots of c/c++ output questions.I was also asked about reimplicit cast etc. but since I never studied so I simply denied(If you don’t have any idea about something or heard the term for the first time,it’s better to simply tell that u don’t know that,rather than fooling around..).
+Output questions were easy if you have done 295C Questions and GeeksForGeeks C/C++ Output Questions.
+HR Interview
+My third technical and HR Round were scheduled on second day and after my third tech. round I got more confident which really counts in HR round.You should be really confident about each and everything you speak and kindly think before speaking something so that he may not be able to trap you.
+First of all he asked my iit rank and AIEEE rank, then why among all the options I chose this college, then tell some unique and different quality that you possess so that i should hire you(he warned me not to say words like honest, hard-working, determined etc., it should be something unique also think of a situation if u could fit in with that quality), why adobe?, what is my weakness and how will I overcome it, then he gave me a puzzle to solve. Also I forgot to add the most common question which you are asked if interviewing in adobe and you are not among the toppers, where do you stand(rank) in your class, what is the reason of your low pointers(prepare a genuine answer to this question). 
+In the end all went well and in my favor and I got recruited for the company. I really want to thank geeksforgeeks because of which I am at this position. It is really a great platform where you could find lots of problems to practice and these are repeated by many of companies in their coding round and interviews.
+I hope that this experience of my interviews might prove helpful to some of you.
+

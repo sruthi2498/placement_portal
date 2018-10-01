@@ -1,0 +1,28 @@
+Recently, VMWare has visited our campus for hiring interns and they have put a CGPA cut off of 7/10. There were 2 rounds in total.  An objective round initially which is then followed by a skype interview round.
+Round 1 : Online objective round
+This round was quite similar to the Set-3 VMWare Experience wherein we had 42 objective questions to be solved in 65min with no negative marking. There were 3 sections in total.
+First section was Logical and Aptitude and there were 15 questions in total.
+Difficulty : High (There was also a time limit of 15min to solve these 15 questions)
+Second section was Technical which included 20 questions on Networking (High level questions on SSH, TelNet, TCP/IP etc)& OS concepts
+(like Memory management and Scheduling algorithms )
+Difficulty : High (There was a time limit of 35min to solve these 20 questions)
+For third section, I was asked to choose between C++/JAVA and there were 7 output based questions
+Difficulty : Medium (There was a time limit of 15min for these 7 questions)
+These were mainly based on concepts of OOPS like polymorphism, Inheritance.
+Round 2 : Skype Interview(Technical)
+This was a bit easier. The interviewer has asked me to code some basic questions like :
+Algorithmic :
+1) Mirror tree : http://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/
+2) Validity of BST : http://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+3) Height of a tree : http://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/
+4)  Cycle in a linked list : http://www.geeksforgeeks.org/write-a-c-function-to-detect-loop-in-a-linked-list/
+5) Middle node in a linked list in one traversal (Use 2 pointers)
+6) kth largest element in an array : http://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+Networking and OS :
+Demand paging, Interpreter vs Compiler, Virtual memory s Real Memory, DHCP vs Static IP.
+Puzzle : 2 eggs, 100 floor puzzle : http://datagenetics.com/blog/july22012/index.html
+Then we had a discussion on my previous interns and my projects. He seemed to be highly focused on my Data Mining and Machine Learning projects as he asked me to dive deep into them.
+A big thank you to GeeksforGeeks for providing such invaluable material for preparation.
+ 
+
+

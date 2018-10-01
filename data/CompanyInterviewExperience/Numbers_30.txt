@@ -1,0 +1,12 @@
+Given a non-negative number num. The problem is to find the smallest number greater than num by performing atmost on swap operation between any two digits in num. If no larger number can be formed then print “Not Possible”.
+The number could be very large and may not even fit into long long int.
+Examples:
+
+Approach: First find the index of the rightmost digit which has a digit larger than it and is on the right side to it. Let its index be ind. Now, find the index of the smallest digit greater than the digit at index ind and is right to it. Let its index be greatSmallDgt. Finally swap the digits at the indexes ind and greatSmallDgt. If the digits of num are in decreasing order then print “Not Possible”.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n), where n is the number of digits in num.

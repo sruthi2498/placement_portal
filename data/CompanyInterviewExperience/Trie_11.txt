@@ -1,0 +1,12 @@
+Given a binary matrix whose elements are only 0 and 1, we need to print the rows which are duplicate of rows which are already present in the matrix.
+Examples:
+This problem is mainly an extension of find unique rows in a binary matrix.
+A Simple Solution is to traverse all rows one by one. For every row, check if it is present anywhere else. If yes print the row. 
+Time complexity : O(ROW^2 x COL)
+Auxiliary Space : O(1)
+Optimal solution using Trie Trie is an efficient data structure used for strong and retrieval of data where character set is small. The searching complexity is optimal as key length.
+The solution approach towards the question is to first insert the matrix in the binary trie and then if the new added row is already present in the trie then we will now  that it is a duplicate row
+Run on IDE
+Output:
+Another approach without using Trie but does not work for large number of columns
+Another approach is be to convert the decimal equivalent of row and check if a new row has the same decimal equivalent then it is a duplicate row. It will not work if the number of columns is large .

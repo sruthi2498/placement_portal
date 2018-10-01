@@ -1,0 +1,24 @@
+Click here for Set 1 of Vectors.
+ 
+Modifiers
+1.1 assign(input_iterator first, input_iterator last) – Assigns new content to vector and resize
+1.2 assign(size_type n, const value_type g) – Assigns new content to vector and resize
+Run on IDE
+The output of the above program is :
+2. push_back(const value_type g) – Adds a new element ‘g’ at the end of the vector and increases the vector container size by 1
+3. pop_back() – Removes the element at the end of the vector, i.e., the last element and decreases the vector container size by 1
+Run on IDE
+The output of the above program is :
+4.1 insert(const_iterator q, const value_type g) – Adds element ‘g’ before the element referenced by iterator ‘q’ and returns an iterator that points to the newly added element
+4.2insert(const_iterator q, size_type n, const value_type g) – Adds ‘n’ elements each with value ‘g’ before the element currently referenced by iterator ‘q’ and returns an iterator that points to the first of the newly added elements
+4.3 insert(const_iterator q, InputIterator first, InputIterator last) – Adds a range of elements starting from first to last, the elements being inserted before the position currently referred by ‘q’
+Run on IDE
+The output of the above program is :
+5.1 erase(const_iterator q) – Deletes the element referred by ‘q’ and returns an iterator to the element followed by the deleted element
+5.2 erase(const_iterator first, const_iterator last) – Deletes the elements in the range first to last, with the first iterator included in the range and the last iterator not included, and returns an iterator to the element followed by the last deleted element
+Run on IDE
+The output of the above program is :
+6. swap(vector q, vector r) – Swaps the contents of ‘q’ and ‘r’
+7. clear() – Removes all elements from the vector
+Run on IDE
+The output of the above program is :

@@ -1,0 +1,17 @@
+You are given input as order of graph n (highest number of edges connected to a node), you have to find number of vertices in a fibonacci cube graph of order n.
+Examples :
+
+A Fibonacci Cube Graph is similar to hypercube graph, but with a fibonacci number of vertices. In fibonacci cube graph only 1 vertex has degree n rest all has degree less than n.
+Fibonacci cube graph of order n has F(n + 2) vertices, where F(n) is a n-th fibonacci number,
+Fibonacii series : 1, 1, 2, 3, 5, 8, 13, 21, 34……………….
+
+For input n as order of graph, find the corresponding fibonacci number at the position n + 2.
+where F(n) = F(n – 1) + F(n – 2)
+Approach : Find the (n + 2)-th fibonacci number.
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Note that the above code can be optimized to work in O(Log n) using efficient implementations discussed in Program for Fibonacci numbers

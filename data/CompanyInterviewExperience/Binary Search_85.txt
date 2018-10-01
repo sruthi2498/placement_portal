@@ -1,0 +1,24 @@
+Given a array of n numbers. Our task is to find out the number of ways to divide the array into three contiguous parts such that the sum of three parts is equal. In other words, we need to find the number of index pairs i and j such that sum of elements from 0 to i-1 is equal to sum of elements from i to j is equal to the sum of elements from j+1 to n-1.
+Examples:
+If the sum of all the elements of array is not divisible by 3 return 0. Else it is obvious that the sum of each part of each contiguous part will be equal to sum of all elements divided by 3.
+Step 1 : Create an array of same size as given array whose i-th index holds the value of sum of elements from indices 0 to i of the given array. Let’s call it prefix array
+Step 2 : Create another array of same size as given array whose i-th index the value of sum of elements from indices i to n-1 of the given array. Let’s call it suffix array.
+Step 3 : The idea is simple, we start traversing the prefix array and suppose at the i-th index of the prefix array the value of prefix array is equal to (sum of all elements of given array)/3.
+Step 4 : For the i found in the above step we  look into the suffix array from (i+2)-th index and  wherever the value of suffix array is equal to (sum of all elements of given array)/3, we increase the counter variable by 1.
+To implement step 4 we  traverse suffix array and wherever the value of suffix array is equal to the sum of all elements of given array/3 we push that index of suffix array into the vector. And we do binary search in the vector to calculate number of values in suffix array which are as according to the step 4.
+We search in suffix array because there should be at least 1 element between the first and third part.
+For more explanation see implementation below
+
+Run on IDE
+Output:
+Time Complexity is O(n log n)
+
+ 
+Efficient Approach [ O(n) solution ] :
+Below is the code for the above approach.
+
+Run on IDE
+Run on IDE
+Output:
+Time Complexity: O(n).
+This approach is contributed by Abhishek Sharma. 

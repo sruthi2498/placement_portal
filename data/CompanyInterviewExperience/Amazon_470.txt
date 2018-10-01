@@ -1,0 +1,40 @@
+Hi, I recently got an offer from Amazon, here is my interview experience:
+Round-1: (Written)
+Q-1: Search element in infinite sorted array.
+Q-2: Fine LCA (lowest common ancestor) of given two nodes in Binary Tree. Handle all corner cases like one element exists and other not.  https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+Q-3: Find next greater number with same digits. Handle corner cases. https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+Round-2: (F2F)
+Q-1 : https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
+Discussed corner cases. Proper code was required.
+Q-2 : https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
+Discussed different approaches.  Proper code was required.
+Round -3 (F2F)
+Q-1: https://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+I don’t have Idea about problem initially then he asked to make some test cases, some tricky one.  I gave recursive algorithm then, after this came on DP solution but time doesn’t permit so moved to second question.   Code was required.
+Q-2: Given inference rules and some input tokens find all tokens which can be possible with given rules. Example :
+Rules :
+AàB
+BàD
+CàE
+DàF
+Input Tokens :
+1.       A,C then all A,B,C,D,E,F are possible.
+2.       A then A,B,D,F are possible.
+Ask me what data structure you will use, how processing will happen. Pseudo code was required.
+Round -4 (F2F)
+Long discussion on my current work. Biggest challenge and how you solve it. Technology challenge.
+Q-1: Suppose you receive 10 million mails in 10 seconds. How will you process them and find whatis problem to receive these many mails. Discussed different approaches.
+Q-2: longest  palindromic substring of given string. I gave DP solution, he ask me don’t use DP. Proper code was required.
+https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+Round-5 ( Telephonic)
+Long discussion on my current work again, Challenges faced. What you did when some mess-up happens and deadline is very strict. Conflict with manager.
+Q-1 : Outlook:
+A server receives meeting objects from multiple senders. Meeting object contains meeting time, sent time, recipient(s), sender id,etc. When recipient comes and checks the server, he/she should get requests based on meeting time and not based on sent time. Many discussions on space complexity and time complexity.
+Eg:
+When C requests the server, C should get ID3 as 1st, ID2 as 2nd and ID1 as 3rd meeting.
+Q-2 : https://www.geeksforgeeks.org/add-greater-values-every-node-given-bst/
+I gave solution using temp array, then he ask me to do in constant space in single traversal. Condition don’t use pointer for sum or call me reference. Proper code was required.
+Tips: Be yourself . Practice writing code on paper.  Never give up.
+ Thanks Geeksforgeeks for providing very good platform to well prepare. A knowledge repository J
+
+

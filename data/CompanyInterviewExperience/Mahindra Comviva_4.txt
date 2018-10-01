@@ -1,0 +1,21 @@
+First Round (Technical Aptitude + Coding): 
+ 
+    The test was conducted on Hackerearth platform. It consisted of 20 technical questions covering all topics of computer science(relatively more number of questions on networking).
+There were two coding questions.
+1.Given an array of n integers. Find the minimum length of the subset with the maximum OR value among all subsets of the given array.
+2.Given two integers n and k. You have to find whether ‘k’ infinite areas can be formed using ‘n’ distinct lines.
+For example with 2 lines we can form 3 infinite areas(if lines are parallel to each other) or 4 infinite areas(if they intersect).
+32 students were shortlisted in this round.
+Technical Round:
+ 
+    The questions asked in the interview were
+ 1. Questions regarding my project and my contribution in it.
+ 2. Foreign key, joins in sql, normal forms in dbms.
+  He asked me to write a query to select last 10 rows form a table with some constraints given.
+3. Client-server communication, connection-oriented and connection-less protocols and their advantages over one another. Some questions related to socket programming.
+4. Process vs thread. Parent process and child processes implementation and their uses. Question on SIGINT signal.
+5. Semaphore vs mutex locks and which is better.
+6. He asked me to write a program for checking whether a binary tree is balanced or not.
+HR Round:
+ 
+ Normal HR questions were asked in this round. They asked questions based on my hobbies and many resume related questions. At last he asked me to give some ideas to improve conditions of zebra crossings in our country.

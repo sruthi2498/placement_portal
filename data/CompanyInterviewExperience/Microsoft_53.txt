@@ -1,0 +1,47 @@
+I had opted for the on campus Internship Interview for Microsoft at almost the beginning of my third year. Here is the interview experience.
+To anyone who is reading this. Thanks a lot for being here and I hope this is going to help!
+Round 0: This round was conducted online on the Cocubes platform. We just had to fill a Google form for participating and i think there was a CGPA cutoff of 7 or so.
+Anyway, talking about the round, there were 3 programming questions and nearly 1500 participants as far as i can remember. The questions were basic. The three questions that i were asked are as follows:
+1>. This was a very basic String related problem where we had to find the longest sequence number of consecutive 1’s in a given Binary.
+2>. This was a tree based question where it was given a tree and a sum and had to find the shortest subtree including the root node of which the sum is equal to the given sum.
+3>. I don’t exactly remember the third question but it was a simple tree based question too.
+The time allotted was 90 minutes.
+40 people were selected from this round and i got through as i had solved all the three questions.
+Round 1: This round was actually conducted by the guys from Microsoft after about a week.
+We were given a question related to a 2 way Linked list and we had to write the code for insertion and deletion in an optimized manner and such that the linked list remains sorted and of minimum height possible.
+It was hard for me write the entire code in 30 minutes of the given time but it didn’t matter. They were just checking your approach.
+There were evaluators who you had to explain the code to and they did try to unnerve me a bit but if you’re confident with your approach, you’ll do fine.
+Nearly 20 people were selected from that round and I got through.
+Round 2: This was the first P2P interview where the interviewer asked me a question related to Binary Tree.
+They had asked me to find the kth largest element in a binary search tree. The common approach is to find the inorder and then pick the kth element from the last but i had solved it using recursion. The Interviewer was pretty impressed.
+After that he had asked me to find an O(n) solution to the famous RGB problem. Initially i couldn’t solve it but with slight help from the interviewer i was able to do it.
+Then he asked me a few basic questions regarding OS and i kind of answered 75% of them.
+Most importantly just tell them that you don’t know if you’re not fluent with the answer to the question. It’s better than just pretending to know the answer.
+All the people were selected for the second P2P round.
+Round 3: In this round I was asked given an IP address and i had to check if it was a valid IPV4.
+I personally code in JAVA. So I had handled all the cases using Exception handling. The interviewer seemed impressed.
+A few people were selected for the third round.
+ 
+Round 4: This was the last round. The interviewer was really friendly with me. He asked me a few questions about pipelining and then he had asked me to write the code for the following problem:
+If there is a log file of the form : A person ‘A’ visits a Page ‘P’ at Time ‘T’, I had to find the number of times any person has visited a page ‘P2’ afer visiting Page ‘P1’
+I had provided an O(n) solution for that namely by hashing the list of all visited logs of a person with the person Id which happens in Linear time. After that in each list we need to find the entries for page ‘P2’ exactly after page ‘P1’.
+Key: Person Id
+Value: ArrayList<Logs> for that person
+I really enjoyed writing that code. 😉
+The Interviewer liked my approach and had congratulated me.
+ 
+That was pretty much it. The next day i got a mail from Microsoft that i had been selected for the Internship along with 3 of my other college mates.
+My takes and suggestions:
+I would firstly like to thank GeeksForGeeks as i owe a lot to them. I used to practice coding questions from GFG a lot pretty much all the time. Seriously, you guys are the best. I used to read some Interview experiences from GFG and that had helped a lot for developing my approach for an Interview.
+They want you to think aloud in an interview. Don’t just code but firstly speak to the interviewer about your approach and then go ahead. Talk to the interviewer at all stages about the code.
+Lastly, practice a lot of questions and keep your concepts clear.
+The most important topics:
+One should pretty much study all the topics but I personally feel that Binary Trees, Dynamic Programming and basic Algorithms are the most important thing to study at first. Then you can go for Graphs.
+Also you must learn recursion which is pretty evident as you can’t solve tree related questions without recursion.
+I am looking forward to the Internship which is due to begin on May 2018. Once I’m done with the internship i’ll write another article on my Internship experience.
+ 
+Lastly, If you want to practice programming for Interviews, GEEKS FOR GEEKS is the guy you wanna talk to. 😉
+ 
+                                         
+
+

@@ -1,0 +1,23 @@
+Given a Perfect Binary Tree, reverse the alternate level nodes of the binary tree. 
+Method 1 (Simple)
+A simple solution is to do following steps.
+1) Access nodes level by level.
+2) If current level is odd, then store nodes of this level in an array.
+3) Reverse the array and store elements back in tree.
+ 
+Method 2 (Using Two Traversals)
+Another is to do two inorder traversals. Following are steps to be followed.
+1) Traverse the given tree in inorder fashion and store all odd level nodes in an auxiliary array. For the above example given tree, contents of array become {h, i, b, j, k, l, m, c, n, o}
+2) Reverse the array. The array now becomes {o, n, c, m, l, k, j, b, i, h}
+3) Traverse the tree again inorder fashion.  While traversing the tree, one by one take elements from array and store elements from array to every odd level traversed node.
+For the above example, we traverse ‘h’ first in above array and replace ‘h’ with ‘o’. Then we traverse ‘i’ and replace it with n. 
+Following is the implementation of the above algorithm.
+Run on IDE
+Run on IDE
+
+Time complexity of the above solution is O(n) as it does two inorder traversals of binary tree.
+ 
+Method 3 (Using One Traversal)
+Run on IDE
+Output : 
+Thanks Soumyajit Bhattacharyay for suggesting above solution.

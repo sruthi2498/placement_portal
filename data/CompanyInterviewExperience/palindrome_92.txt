@@ -1,0 +1,24 @@
+Given a string, find the longest substring which is palindrome. 
+We have already discussed Naïve [O(n3)] and quadratic [O(n2)] approaches at Set 1 and Set 2.
+In this article, we will talk about Manacher’s algorithm which finds Longest Palindromic Substring in linear time.
+One way (Set 2) to find a palindrome is to start from the center of the string and compare characters in both directions one by one. If corresponding characters on both sides (left and right of the center) match, then they will make a palindrome.
+Let’s consider string “abababa”.
+Here center of the string is 4th character (with index 3) b. If we match characters in left and right of the center, all characters match and so string “abababa” is a palindrome.
+Here center position is not only the actual string character position but it could be the position between two characters also.
+Consider string “abaaba” of even length. This string is palindrome around the position between 3rd and 4th characters a and a respectively.
+To find Longest Palindromic Substring of a string of length N, one way is take each possible 2*N + 1 centers (the N character positions, N-1 between two character positions and 2 positions at left and right ends), do the character match in both left and right directions at each 2*N+ 1 centers and keep track of LPS. This approach takes O(N^2) time and that’s what we are doing in Set 2.
+Let’s consider two strings “abababa” and “abaaba” as shown below:
+In these two strings, left and right side of the center positions (position 7 in 1st string and position 6 in 2nd string) are symmetric. Why? Because the whole string is palindrome around the center position.
+If we need to calculate Longest Palindromic Substring at each 2*N+1 positions from left to right, then palindrome’s symmetric property could help to avoid some of the unnecessary computations (i.e. character comparison). If there is a palindrome of some length L cantered at any position P, then we may not need to compare all characters in left and right side at position P+1. We already calculated LPS at positions before P and they can help to avoid some of the comparisons after position P.
+This use of information from previous positions at a later point of time makes the Manacher’s algorithm linear. In Set 2, there is no reuse of previous information and so that is quadratic.
+Manacher’s algorithm is probably considered complex to understand, so here we will discuss it in as detailed way as we can. Some of it’s portions may require multiple reading to understand it properly.
+Let’s look at string “abababa”. In 3rd figure above, 15 center positions are shown. We need to calculate length of longest palindromic string at each of these positions.
+…… and so on
+We store all these palindromic lengths in an array, say L. Then string S and LPS Length L look like below:
+Similarly, LPS Length L of string “abaaba” will look like:
+In LPS Array L:
+Position and index for the string are two different things here. For a given string S of length N, indexes will be from 0 to N-1 (total N indexes) and positions will be from 0 to 2*N (total 2*N+1 positions).
+LPS length value can be interpreted in two ways, one in terms of index and second in terms of position. LPS value d at position I (L[i] = d) tells that:
+e.g. in string “abaaba”, L[3] = 3 means substring from position 0 (3-3) to 6 (3+3) is a palindrome which is “aba” of length 3, it also means that substring from index 0 [(3-3)/2] to 2 [(3+3)/2 – 1] is a palindrome which is “aba” of length 3.
+Now the main task is to compute LPS array efficiently. Once this array is computed, LPS of string S will be centered at position with maximum LPS length value.
+We will see it in Part 2.

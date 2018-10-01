@@ -1,0 +1,31 @@
+I recently had interview with Microsoft and i have been selected.
+I am really thankful to geeksforgeeks site which provides preparation material for technical interviews at one place. And credit of my selection also goes to my friend “Ankit Tripathi” who helped me a lot in my preparation.
+I have attached my interview experience file with this mail.
+Written Test:  30 MCQs based on Algorithms & logical aptitude and 2 coding problems.
+Telephonic Interview:  All questions related to your resume & projects and some behavioral questions.
+Round 1:
+Ques1. Write code for run -length encoding  of a given string in-place (without using any extra memory).
+Sample Input:  aaaaaaaaaabcccccc
+Output: a10bc6
+Ques2. Write code for a function which converts a given integer to a string. (Use only one for-loop).Check for all the boundary cases.
+Ques3. Suppose you are going to organize a party from 9:00 am to 20:00 pm. You have invited ‘n’   number of guests for the party. You are given the arrival time and the departure time of all guests.  Every time a new guest arrives, you give him a glass of wine and when he leaves, you take the glass back. If someone has left and returned the glass, you can give the same glass to a new guest who has just arrived.
+Based on the given schedule for guests, determine the minimum number of glasses required for the party. A guest can come or leave at any time, but you are given the fixed schedule. Write code for the given problem.
+Round 2:
+Some questions related to resume and subjects studied in the curriculum.
+Ques1. How can we do a Tree Traversal without using a stack (not even the stack for recursion). Write code for an in-order traversal without using stack. What would be the changes in the function if we want to do a pre-order or post-order traversal?
+Ques2. Write code for finding loop in the singly linked list and fixing it.
+Ques3. Given a linked list with two pointers, one is next pointer and another is a random pointer which can point to any node in the list (forward, backward or itself), you have to make a copy of this list without tempering the original list. Write the code for the same in O(n) time complexity.
+Round 3:
+Ques1. Give different possible approaches for Checking whether two strings are anagrams (with and without using hash tables). What are the possible advantages and drawbacks of each approach? Write code for the approach which involves first sorting the two strings and then matching character by character (O(nlogn) approach). Which sorting you will use and why? Write test cases also.
+Ques2. Write code for counting the number of inversions in an array in the minimum time possible. What could be different possible approaches?
+Ques3. Given two huge numbers represented as linked list, write a function to add them and return a number in the same format.
+Ex:  950 represented as 9->5->0->NULL
+        150 represented as 1->5->0->NULL
+then, the output should be 1->1->0->0->NULL
+Ques4.  We have ‘n’ people in a party, out of whom only one can be a celebrity. And he may or may not be present in the party. A celebrity is known to everyone but he does not know anyone. All other person may or may not know each other. If a person ‘A’ knows ‘B’, it does not implies that ‘B’ also knows ‘A’. You can ask only one question to someone ‘Do you know this (‘X’) person?’ and he can only reply in YES or NO. Your job is to find the celebrity in minimum number of questions.
+Round 4:
+First he asked general questions from resume.
+Ques1. Write code for finding the least common ancestor of two given nodes in a binary tree. ( both recursive and iterative approach).
+Ques2.  Which data-structure you will use for implementing the ‘malloc’ and ‘free’ functions? (You have been given with a pointer which points to a large chunk of memory).Write full codes for implementing these two functions.
+Each face-to-face round duration was approximately 1 hour. Results were declared after 4 days of interviews. Every interview was an eliminating round. Questions were not very hard but they were very keen on accuracy and efficiency of code (it should run on all possible input cases).
+

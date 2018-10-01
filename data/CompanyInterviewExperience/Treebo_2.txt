@@ -1,0 +1,6 @@
+There were 5 rounds of interview.
+1st round- coding round. Given a elevator system to design and code. working code was expected and design should be scalable to support multiple lift.
+2nd round- problem solving round. Given a binary tree, find number of nodes at k distance from a target node in tree.
+3rd round- database design round. I was asked to design database for JIRA. On top of the design few SQL queries were asked.
+4th round- interviewed on core concepts related to core java, multithreading. questions based on memory leakage, race condition, how to represent a graph in rdbms, how to get thread safety without using synchronization and object lock, dependency injection.
+5th round- (taken by founder) how would you choose between SQL and no SQL DB. Which datastore would you prefer if asked to design Google calander. How do you keep yourself updated with evolving technology.

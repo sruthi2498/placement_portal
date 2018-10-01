@@ -1,0 +1,7 @@
+Given an array containing one digit numbers only, assuming we are standing at first index, we need to reach to end of array using minimum number of steps where in one step, we can jump to neighbor indices or can jump to a position with same value.
+In other words, if we are at index i, then in one step you can reach to, arr[i-1] or arr[i+1] or arr[K] such that arr[K] = arr[i] (value of arr[K] is same as arr[i])
+Examples:
+    This problem can be solved using BFS. We can consider the given array as unweighted graph where every vertex has two edges to next and previous array elements and more edges to array elements with same values.  Now for fast processing of third type of edges, we keep 10 vectors which  store all indices where digits 0 to 9 are present. In above example, vector corresponding to 0 will store [0, 12],  2 indices where 0 has occurred in given array.
+	Another Boolean array is used, so that we don’t visit same index more than once.  As we are using BFS and BFS proceeds level by level, optimal minimum steps are guaranteed.
+Run on IDE
+Output:

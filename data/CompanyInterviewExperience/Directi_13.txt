@@ -1,0 +1,62 @@
+Directi came for the role of DevOps for the first time in our college.
+The selection process had Pen-Paper round followed by a Coding round and the Face 2 Face interviews.
+Pen Paper Round:
+This round had 20 MCQs. They took this round in a unique way. We were given a booklet having the 20 MCQs and an Answer sheet, same as the OMR sheet. We were supposed to mark the respective answers on the OMRs. Each of the booklet were of different set, hence the questions were jumbled for any two booklets.
+The questions were basically from Networking, OS concepts, Basic Programming.
+Some questions as i remember were….
+*Is 172.16.23.1/23 a network address or host address.
+*What does $! do in a linux shell prompt.
+*Which has higher complexity – malloc, calloc, realloc
+*Which part is not shared among the threads of same process. – stack,code,PID
+Coding Round
+Around 20 students were shortlisted from the pen Paper round and we were supposed to do code according to a set of instructions given.
+The Directi team hosted their own Local Sever with the questions. We need to open the Link and accordingly code as required.
+Following operations should be supported:
+PUSH   : copy the file to the remote server.
+DEL    : Delete the file on the remote server.
+LIST             : List all the files/folders on the server in tree manner.
+Q – Write a server-client program to copy files from your device to a remote server.
+Q – Copy multiple files by adding names separated by commas in the PUSH operation.
+Q – Append data in pre-existing file on the server.
+Q – Copy a whole directory preserving the attributes.
+Q – List all the files (including hidden).
+** Any language can be used for the same. Manual of C++ and Python was provided.
+This round was really interesting. All the guys from directi were there and were really very interactive. They helped every-time someone got stuck or had any problem.
+The round went on for 4-5 hrs. Till they were done evaluating the ones who were coding.
+They selected 9 for the next round.
+Face2Face (Interview)
+Round 1:
+The interview started with a short introduction of us both (me and the interviewer). He then asked me about my internship. What were the challenges i faced during that time. What special did i learn from the same.
+He then asked about my project which was based on Wifi Networks.
+This helped me curb the whole interview towards Networking.
+He asked many questions on networking.
+* How does DNS work.
+* What happens when you type a web address and hit enter in a Internet Browser URL field.
+* Why is host file maintained at the clients end? how is it done?
+* How is DNS data maintained by the DNS servers.
+* Why is the Public DNS has the same turn-around time from any part in the world. (if you ping 8.8.8.8 from any place in India and if you do the same lets say from New York, The turn-around time would be the same on an average) Why?
+* What is BGP? How is it realized?
+* Which is the best routing protocol you know of. Explain how it works. ( He asked many things while i explained the same.)
+
+Round 2:
+Only 3 people went to this round.
+This time the interviewer i faced was the most experienced of them all.
+He introduced himself and told me that he has been recruiting for Directi for the past 12 years.
+This really made me tensed a bit.
+He started with a question based on my project – How would you improve the throughput of the wifi routers.(My project was based on this).
+* He then asked me to write the IP packet structure.
+  I couldn’t remember all the headers, but i could tell most of them. He was satisfied with that.
+* He then gave me a real time problem on networking. How would i connect between two devices with the given IPs.
+  I tackled the problem from the very basics. Asked the subnet of the IP of the devices and then added a router to connect two networks and hence proceeded further.
+He then switched to OS.
+* Suppose you have a large file(lets say 100GB) containing some log details of different IP requests. How would you sort top 10 IPs based (a) no. of requests made, (b) type of request made etc.
+He changed constraints and wanted to see how I tackle the problem.
+* Process Vs threads. Which should be used when and why?
+* What would you do to reduce the operation time, if your database has become very large.
+* Which data structure is used to store the data on the Secondary(Permanent) storage.
+Then  HR round, that gradually was to let me know that i did very well but they can’t take me.
+The HR still wanted me apply offline and gave me his contact.
+Though the Interview experience was excellent for me.
+
+
+

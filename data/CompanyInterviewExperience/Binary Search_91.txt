@@ -1,0 +1,22 @@
+In this post search, insert and delete operation in a sorted array is discussed.
+ Search Operation
+In a sorted array, the search operation can be performed by using binary search.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Insert Operation
+In an unsorted array, the insert operation is faster as compared to sorted array because we don’t have to care about the position at which the element to be placed.
+
+Run on IDE
+Run on IDE
+
+Delete Operation
+In delete operation, the element to be deleted is searched using binary search and then delete operation is performed followed by shifting the elements.
+Run on IDE
+Run on IDE
+
+Search: O(Log n) [Using Binary Search]
+Insert: O(n) [In worst case all elements may have to be moved]
+Delete: O(n) [In worst case all elements may have to be moved]

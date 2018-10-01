@@ -1,0 +1,13 @@
+RatingBar is used to allow the users to rate some products. In the below code getRating() function is used to calculate the rating of the products. The getRating() function returns double type value.
+Below steps are involved to create a RatingBar in Android:
+Program to create MainActivity:
+Run on IDE
+Note: For the layout, ConstraintLayout is good to use if you are a beginner because it can adjust the views as per the screens.
+This XML file defines the view of the application.
+Program to create layout for MainActivity:
+Run on IDE
+Here we don’t need to change the manifest file, no permission is required for the ratingBar. By default, all the created new activities are mentioned in the manifest file.
+Below is the code for AndroidManifest.xml
+Run on IDE
+Output:
+

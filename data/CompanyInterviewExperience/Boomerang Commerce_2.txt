@@ -1,0 +1,57 @@
+There were 6 rounds in total.
+1) Online coding – hackerearth
+Three Questions in 1.15hr. Total 50 marks.
+Questions were in increasing order of the difficulty as per the marks. You can code only in Java.
+I remember 2 questions
+1) Two friends friend list were given. You have to find the mutual friends of both the friends.(15marks)
+2) Question was based on Tree.
+For example – input will be no. of nodes and their position and output should be yes or no depending upon whether a valid tree will be formed or not.(-) represents root node
+For Example –
+6
+l
+lr
+r
+–
+ll
+rl
+ans will be yes
+6
+l
+lr
+rl
+–
+ll
+rll
+ans will be no- because rl doesn’t have a parent node (r)
+2) Skype Round
+1) A number was given. You have to make just greater number than that number.
+2) Two strings were given .Print all the strings that can be formed by both the strings and additional constraint was sequence of characters in each string should remain same.
+For example – “abc”  and “xyz”
+axybcz – is a valid string but axyczb is not valid because order of b and c has been changed.
+3) f2f
+1) Given an array count boomerang pairs which means a[i] > a[j] and i < j.
+Implementation of merge sort basically with a slight change.
+
+2) Right view of a Binary tree.
+Discussion on projects. Java Questions.
+
+
+4) Machine Coding Round
+A problem statement will be given and you don’t have to code. They will give you the access of server box.
+Problem statement will check your googling skills and how much time you take to do a new thing.
+In my case I had to install erlang and  a webframework for it.
+1) Then a web service to print hello world.
+2) Web service to put a string in db fetch that string from db and print hello string.
+5) f2f
+1) 3 Sorted Arrays were given. Find a triplet such that maximum – minimum in that triplet is minimum of all the triplets and while selecting a triplet number should be there from each array.
+2) 0 and 1 matrix was given. Flip operation can be done on a matrix. Flip means if we are doing a flip on a particular column all the elements of column will be reversed and flip can be done only on the columns. Flips can be done n number of times.
+Output – Maximum no. of rows that will contain all same elements after flips in a matrix. You can do infinite flips.
+Discussion on last company projects.
+6) F2F
+Write a Complete Class Design and code – 
+General Discussion of company’s work,policies and all.
+7)HR 
+Normal Discussion round
+Important Points –
+1)  Write a complete code, atleast explain your approach completely
+2) Take care of all the test cases and checks( very important).

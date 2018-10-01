@@ -1,0 +1,5 @@
+Given a string str and the task is to count palindrome words present in the string str.
+Examples:
+countPalin() function counts the number of palindrome words by extracting every word of the string and passing it to checkPalin() function. An extra space is added in the original string to extract last word.
+checkPalin() function check the word palindrome. It returns 1 if word is palindrome else returns 0. It makes sure that empty strings are not counted as palindrome as the user may enter more than one spaces in between or at the beginning of the string.
+Run on IDE

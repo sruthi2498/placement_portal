@@ -1,0 +1,51 @@
+I recently had the opportunity to interview with Visa Inc.
+Round 1:
+Online Coding Test:
+Platform: HackerRank
+Questions: There were 4 coding questions to be solved in 90 minutes.
+Question 1: Given ‘n’ Jars filled with ‘m’ number of Jellybeans. ‘T’ represents the number of operations performed on these jars.  Given a range [a-b] and number of jelly beans to be filled in the jars lying in the range [a-b], find the number of jelly beans in each jar after these ‘T’ operations. 
+Question 2: Given a number ‘N’ and an array a[ ], find the number of possibilities of a[i]-a[j]=N such that i>j. (Could be solved in O( n ) using a HashMap).
+Question 3: Given the number of nodes and the number of edges connecting these nodes, arrange these edges such that maximum number of nodes are strongly connected. Return the number of nodes that could be strongly connected. A node is said to be strongly connected if that node is connected to every other node in the graph (Derived a formula for it and solved in O(1) –worked for 10/14 testcases).
+Formula: (No:Of Edges*2)=(x^2-x) where x represents the number of strongly connected nodes. Solve the equation for x. Could be reduced as (1+Math.sqrt(1+(8*edges)))/2. The approximation produced an error of +(-) 1.
+Question 4: https://www.hackerrank.com/contests/w1/challenges/volleyball-match (Solved this using Combinatorics in O(1)).
+50 students were shortlisted. 
+Personal Interview: 
+
+Round 2:  (Technical -I)
+Interviewer asked me to introduce myself.
+He went through my resume and asked me about a few of my projects.
+He asked me to go on explaining without minding him. He was noting down a few points from what I had been explaining ( Not sure what though ).
+Since my project was Android–DBMS based, he asked a few questions on indexing and database archiving. 
+He asked me the problems I faced while developing the application and how I overcame them.
+They also had the compete summary of the Coding round on HackerRank.
+He asked me what went wrong in the graph problem since 10/14 testcases had only passed. This discussion went for some time.
+Around 15 students were shortlisted after this round.
+
+Round 3: (Technical-II)
+It was around 6PM when this round started and so the Interviewer asked me how the previous rounds were and if I was tired.
+She asked me for my Areas of Interest, for which I replied Android app. Dev, DBMS, DataStructures and Algorithmics.
+She started with questions on DBMS.
+What is star schema? Where it is used and its advantages?
+What is normalization? Explain each normal form with examples.
+Given a scenario. Design a schema and it’s E-R diagram.
+She noticed a project in my Resume, using MongoDB. So she started asking the differences between MongoDB and the traditional RDBMS.
+Difference between traditional SQL and NoSQL, it’s advantages and a few basic queries using both SQL and NoSQL.
+Asked how data is formatted in MongoDB? (BSON) and a few basic questions on that.
+A short discussion about RESTful services and GCM(Google Cloud messaging) since it was used in my projects.
+Difference between a Complete and a full binary tree. Given the number of nodes in a full binary tree find the height of the tree in O(1).
+Given a BST and a sum, find 2 nodes in the BST that yield the sum. 
+13 of us were shortlisted for the next round.
+
+Round 4 (HR)
+This was the final round.
+Started with “Tell me about yourself” and the HR started improving the conversation.
+He talked with me about my projects on my Resume.
+He then asked me to explain in detail about a project that was the most interesting.
+He then asked me what I could have done to improve this project.
+I was then asked the programming language in which I was the most comfortable. (Java).
+The HR seemed to be a nice guy and this round went casually.
+I was finally asked if I had any questions for him. 
+Results were then announced around 9PM.
+10 of us were finally selected for a FTE at Visa Inc.
+I thank GeeksForGeeks for helping me through this process.
+

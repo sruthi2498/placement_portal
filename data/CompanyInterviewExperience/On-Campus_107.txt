@@ -1,0 +1,19 @@
+Oyo rooms recently visited our campus and it conducted 3 rounds for Software engineer role. CGPA of 7 is must.
+Round 1: Online test
+First round is an online coding round which contains 25 MCQ and 2 programming questions conducted on hackerearth. Solving one will guarantee a qualification for further rounds. Simple Brute force worked out on first programming question. Second is a tough one. 
+Given a triangle and a number n find how many number of ways you can return to the same vertex where you started with total path distance n. Only a few solved it. 
+38 out of 70 are shortlisted.
+Round 2: Technical round
+First he asked me about my project. My project is on Machine learning and I explained him pretty good.Then
+Given a doubly linked list convert it into a balanced BST and write the code
+I thought of using an AVL tree and wrote the code for it(partially).
+Second, he asked me to sort an array of 0 s, 1 s and 2 s in single traversal. Simple counting won’t work as it requires two traversals.
+Third, given a 2d matrix find the minimum cost path and also an additional constraint is given(extension to normal min cost dp problem). I told him the algo. He seemed pretty much impressed as I have answered all the questions.
+The interview lasted for 90 minutes. Then I got selected for 2nd round
+Round 3:  Technical round
+First of all he asked me to find out pythagorean triplets in an array in o(n^2). I used sorting but he asked me not to use sorting. Then I did it using hashing.
+As I have written java as my programming language, he asked me some basic questions on java. Then again he asked for my project and explained him everything.
+He also asked me about operator overloading.
+He asked me about semaphores and implement them in java. I tried but failed.
+After the interview he said that he is impressed.
+Finally an OYO official came and shook my hand. Hurray! I got selected

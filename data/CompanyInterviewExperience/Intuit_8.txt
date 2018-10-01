@@ -1,0 +1,60 @@
+Intuit came to our college campus for placements. Shortlisted 13 students after written and then selected 4 students for Full Time Job.
+There were 3 coding questions and 21 (apti+puzzles) to be done in 90 minutes. Apti n puzzle questions were 5 marks each and coding questions were 100 marks each.
+Online coding round: 
+1)	There is a text and pattern given. Return true if any part of the pattern exists in the text. Else return false.
+2)	Edges of a tree are given as input. 
+The LHS no represents the parent and RHS no represents the child. A no ‘k’ is also given as input.
+We have to find no of pairs which satisfy these 2 conditions:
+a) the product of both the vertices(nodes) should be less than k.
+b) the RHS node should be ancestor of LHS.
+Hint: Done using graph. 
+3)	No of elements are given which are already popped into the stack along with their reacting time. An order is given as input in which these element will reacts. We had to push these elements in another stack according to the order given. Also had to return the max reacting time.  The tricky part was how to access any random element from the stack)
+(Could be done using 2 arrays, one storing elements and other storing their reacting times.)
+Round 1
+1)	Tell me About yourself
+2)	Tell me about your project – In detail 15 min discussion on project
+3)	A binary tree question with code:
+There is a root folder which has some directories in it, these directories have more directories and files in them (arbitrary number). We know the size of the files, we have to find the sum of all the directories. (if one directory has 2 files of 10mb and 2mb and a directory of size 50mb in it then size of directory is (50+10+2 = 62mb).
+4)	A puzzle:
+3 closed boxes are there. One has orange written on top, other has apple and other has (apple+orange) written. Boxes contain anything other than what is written on top.
+i.e Box with apple written can have either ‘oranges’ or ‘apples+oranges’ written on it.
+We had to find the minimum no of picks in which we can tell which box contains what.
+Round 2
+1)	A (MxM) matrix is given. We have to rotate it by x.
+–	Put all the elements in an array of size MxM and to rotate it by 1, shift last element to the top and again push it in the matrix.
+2)	There is a string eg “101102103105” given we have to find the missing number in it. First we have to find how many digit number is it forming. In the above example, its  101 102 103 105.. so the missing no was 104.
+They were only checking how you proceed with it. There was no right or wrong answer.
+3)	A matrix is given containing 0’s and 1’ only. We had to find no of islands.
+( a island is a ‘1’ which is surrounded by 0 on all its eight sides)
+4)	Tell me about yourself. A simple HR question.  What will you do if in your team your best friend and another member are not going along.
+In all these questions they were judging how you think, checking your thought process.
+Round 3
+This was the most grilling round which continued for one n half hour.
+1)	Tell me about Yourself
+2)	Discussion about project.
+3)	A binary tree question.
+A root has ‘m’ no of children and each child can have any arbitrary no of children. We are just given a function to create this tree. It has two parameters. Address of the parent node and the value to be inserted. No of children can extend to millions as well.
+Hint: Use linked list
+4)	In LINUX, There are two processes P1 and P2. Process P2 is a virus. Can it access P1? Yes/No.If yes how, if no why.
+(I told about segmentation fault, privacy options in LINUX, access rights, memory protection by memory management unit in linux, core dump and boundary around allocated memory of a process but he was looking for something else I guess).
+5)	There are commands
+Fopen(…..)
+Fclose(…..)
+They are executed again and again. What will happen when no file exists and when file exists. How will OS react. Will os communicate and will there be any system call if no file exists.
+6)	A function is given
+Void memLeak(int bytes) { ………..  }
+We have to write the code to leak memory of ‘bytes’ size.
+then discussion on memory structure. Where will bytes variable be stored.  Role of heap and stack in memory allocation.
+7)	Garbage collector in java. Can we implement it in C/C++ other than free/delete. If yes, How.
+8)	Reverse a string.
+9)	Some easy question on multitasking.
+Round 4
+This round was additional which covered only my project related questions.
+1)	Tell me about yourself.
+2)	 Android- Activity, Fragment, Intent, Listener. Explain them.
+3)	Java+SQL
+An e-commerce wishes to extract top 100 products which were sold in last 10 hours. Give a query for that. Now store the retrieved data in Java. (result set is used for that.) He asked me to explain the data structure of result set.  And once the data is retrieved, how to display it sorted on basis of different criterias like cost, model etc.
+4)	A puzzle: 3 Ant Problem. Then extended for a n-equal sided polygon.
+Overall it was a great interview experience. People were very friendly and it as a great learning opportunity.
+I would like to Thank Geeksforgeeks for all the help and guidance.  
+

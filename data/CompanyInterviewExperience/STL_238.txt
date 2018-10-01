@@ -1,0 +1,18 @@
+In STL, containers can change size dynamically.  Allocator is an object that is responsible for dynamic memory allocation/deallocation.  get_allocator() is used to allocate memory chunks of memory. It returns a copy of the allocator object associated with the container.  It is defined in vector, map, list, set libraries.
+Syntax:
+Parameter Used:  
+This member function does not need any parameter to be passed.
+Return Type: 
+It returns a copy of the allocator object associated with the vector.
+Errors and Exceptions:
+Never throws exceptions so we don’t need any try-catch surrounding of it.
+Time-Complexity: 
+Constant O(1).
+Below programs illustrate the working of the function
+1. std::vector::get_allocator() It returns a copy of the allocator object associated with the vector.
+Run on IDE
+2. std::list::get_allocator() It returns a copy of the allocator object associated with the list.
+Run on IDE
+3. std::set::get_allocator() It returns a copy of the allocator object associated with the set.
+Run on IDE
+References: http://www.cplusplus.com/reference/vector/vector/get_allocator/

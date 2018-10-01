@@ -1,0 +1,45 @@
+Recently Arista Networks visited our campus for hiring interns and full timers.
+Minimum CGPA required was 8.5.There were a total of 3 rounds.
+Round 1 : Online coding round conducted on Hacker Rank(1.5 hours)
+There were 4 coding questions and 5 MCQ’s to be solved in 90 minutes.
+Q1 Remove adjacent elements from circular linked list if they are same. 
+     Tricky part was that the last element is adjacent to first element in Circular Linked List
+(Difficulty- Easy)
+Q2 Print n’th (n<=20000) fibonacci number in hexadecimal form.
+    eg- Input –  8
+         Output – 15 since 8th fibonacci no is 21 it's hexadecimal is 15
+      Had to use string addition and divison for solving it.
+  (Difficulty-Medium)
+Q3 Given a string and numbers decrypt it and find pattern for encrypting other strings.
+  Pattern was like 158-a 157-b …. 133-z
+Given – heab (151 154 158 157)
+just observe the pattern 
+Input – abc
+Output- 158 157 156
+(Difficulty- Easy)
+Q4 It was based on DFS and we were supposed to do topological sort.
+Tricky part was to think that the question was to find topological sort.
+(Difficulty-Medium)
+MCQ's were based on C (pointers,dynamic memory allocation,etc)
+Round 2 : FTF Technical Round (45 minutes)
+1 Discussion on the questions solved and not solved in online coding round.
+2 Asked about pointers and dynamic memory allocation in C.
+3 Implement LRU Cache(Used queue)
+4 Implement Web Crawler(Gave him a DFS based approach)
+5 Asked about OOP’s concepts.
+6 Given 6 digit no find duplicates in O(n) time and minimum space(He wanted an approach based on bit array).
+7 Different types of scheduling algorithms in OS
+8 How to implement a dynamic array(vector) in C
+9 Memory layout of program(Stack Heap and other sections)
+
+Round 3 : FTF Techinal and HR Round (30 minutes)
+1 Print elements of BST in sorted order.(Inorder traversal)
+2 Print vertical traversal of binary tree(Both recursive and iterative)
+3 Store phone no in phone directory such that you can retrieve information based on phone numbers
+4 Maintain k most frequently dialed numbers in a phone
+5 Question based on trie trees
+6 Given an array of numbers find no of subarrays that begin with 3 and end with 6
+7 Display all running process in linux (use top command)
+8 Difference between zombie and orphan process
+9 Why do you want to join Arista??
+Thanks GFG for being a perfect platform for practice.

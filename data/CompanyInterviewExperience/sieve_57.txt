@@ -1,0 +1,6 @@
+Given a number N, print all numbers in range from 1 to N having exactly 3 divisors.
+After having  a close look on examples mentioned above, you have noticed that all the required numbers are perfect squares and that too are only of primes numbers. The logic behind this is, such numbers can have only three numbers as their divisor and also that include 1 and that number itself resulting into just a single divisor other than number, so we can easily conclude that required are those numbers which are squares of prime numbers so that they can have only three divisors (1, number itself and sqrt(number)). So all primes i, such that i*i is less than equal to N are three-prime numbers.
+Note:  We can generate all primes within a set using any sieve method efficiently and then we should all primes i, suct that i*i <=N.
+Run on IDE
+Run on IDE
+

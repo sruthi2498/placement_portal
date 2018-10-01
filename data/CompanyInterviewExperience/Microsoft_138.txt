@@ -1,0 +1,20 @@
+Given a number n, check if k-th bit of n is set or not.
+Examples:
+Method 1 (Using Left Shift Operator)
+Below are simple steps to find value of k-th bit
+Example:  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Method 2 (Using Right Shift Operator)
+If we right shift n by k-1, we get last bit as 1 if k-th bit is set else 0.  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+This article is contributed by SAKSHI TIWARI. If you like GeeksforGeeks(We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

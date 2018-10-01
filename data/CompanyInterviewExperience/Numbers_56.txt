@@ -1,0 +1,11 @@
+What could be the maximum value of Y in the following equation given that neither of X, Y, Z is zero?
+5X8 + 3Y4 + 2Z1 = 1103
+(A) 0
+(B) 7
+(C) 8
+(D) 9
+ Answer: (B) Explanation: 
+Clearly, X + Y + Z + 1 = 10
+=> X + Y + Z = 9
+Now, since neither of X, Y, Z can be zero, the value of Y will be maximum when X = Z = 1.
+=> Max Y = 7Quiz of this Question

@@ -1,0 +1,26 @@
+The Fibonnaci triangle or Hosoya’s triangle is a triangular arrangement of numbers based on Fibonacci numbers. Each number is the sum of two numbers above in either the left diagonal or the right diagonal. The first few rows are:
+
+The numbers in this triangle follow the recurrence relations
+
+Relation to Fibonacci numbers
+The entries in the triangle satisfy the identity
+
+Thus, the two outermost diagonals are the Fibonacci numbers, while the numbers on the middle vertical lines are the squares of the Fibonacci numbers. All the other numbers in the triangle are the product of two distinct Fibonacci numbers greater than 1. The row sums are the first convolved Fibonnaci numbers.
+Sources :  Stackoverflow, Wikipedia
+Given a positive integers n. The task is print Hosoya’s triangle of size n.
+Examples:
+
+Below is the implementation of printing Hosoya’s triangle of height n:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Below is the implementation of printing Hosoya’s triangle of height n using Dynamic Programming:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

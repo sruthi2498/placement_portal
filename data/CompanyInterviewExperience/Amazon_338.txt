@@ -1,0 +1,18 @@
+Amazon Bangalore location. Part of weekend interview drive in March 2016.
+Role: SDE1
+3 rounds – all three very similar in pattern. Workout algorithm and write production ready code.
+
+1st round:
+2 questions:
+1. In a BST, replace value of each node with the sum of itself and everything greater than itself.
+2. There are two very large numbers, cant fit in any data type provided, so they are given in a linked list (one digit per node). Sum the two numbers.
+
+2nd Round:
+2 questions:
+1. Clone a linked list with random pointer.
+2. In an integer array, find the window with maximum sum.
+
+3rd Round (Bar raiser):
+Mostly non-technical questions like challenges faced, and conflicts with colleagues etc.
+Tech question: implement Linked hash map using Linked list and hash map.
+

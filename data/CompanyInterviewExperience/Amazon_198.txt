@@ -1,0 +1,35 @@
+Given a string, count number of subsequences of the form aibjck, i.e., it consists of i ’a’ characters, followed by j ’b’ characters, followed by k ’c’ characters where i >= 1, j >=1 and k >= 1. 
+Note: Two subsequences are considered different if the set of array indexes picked for the 2 subsequences are different.
+Expected Time Complexity : O(n)
+Examples:
+Asked in : Amazon 
+
+We traverse given string. For every character encounter, we do following:
+1) Initialize counts of different subsequences caused by different combination of ‘a’. Let this count be aCount.
+2) Initialize counts of different subsequences caused by different combination of ‘b’. Let this count be bCount.
+3) Initialize counts of different subsequences caused by different combination of ‘c’. Let this count be cCount.
+4) Traverse all characters of given string. Do following for current character s[i]
+    If current character is ‘a’, then there are following possibilities :
+    a) Current character begins a new subsequence.
+    b) Current character is part of aCount subsequences.
+    c) Current character is not part of  aCount subsequences.
+    Therefore we do aCount = (1 + 2 * aCount);
+    If current character is ‘b’, then there are following possibilities :
+    a) Current character begins a new subsequence of b’s with aCount subsequences.
+    b) Current character is part of bCount subsequences.
+    c) Current character is not part of bCount subsequences.
+    Therefore we do bCount = (aCount + 2 * bCount);
+    If current character is ‘c’, then there are following possibilities :
+    a) Current character begins a new subsequence of c’s with bCount subsequences.
+    b) Current character is part of cCount subsequences.
+    c) Current character is not part of cCount subsequences.
+    Therefore we do cCount = (bCount + 2 * cCount);
+5) Finally we return cCount;
+Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)

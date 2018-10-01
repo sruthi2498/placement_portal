@@ -1,0 +1,70 @@
+I am 4th year undergrad. Recently Flipkart visited our campus.
+Online Coding Round(on Interview Street)
+There were 2 questions time limit 90mins –
+1. A person wants to go from origin to a particular location, he can move in only 4 directions(i.e East, West, North, South) but his friend gave him a long route, help a person to find minimum Moves so that he can reach to the destination.
+Input – NESNWES
+Output – E
+You need to print the lexicographically sorted string. Assume the string will have only ‘E’ ‘N’ ‘S’ ‘W’ characters.
+E.g – SSSNEEEW
+output – EESS
+2. A sender will send a binary string to a receiver meanwhile he encrypt the digits. You are given a encrypted form of string. Now, the receiver needs to decode the string, and while decoding there were 2 approaches.
+First, receiver will start with first character as 0; S[0] = 0, P[1] = S[1] + S[0], P[2] = S[2] + S[1] + S[0] and so on.
+Second, Receiver will start with first character as 1; S[0] = 1, P[1] = S[1] + S[0], P[2] = S[2] + S[1] + S[0] and so on.
+You need to print both the strings, after evaluation from both first and second technique. Uf any string will contain other that binary numbers you need to print NONE.
+Input1; 0123210
+Output: 0111000
+        NONE
+explanation for NONE – S[0] = 1, P[1] = S[1] + S[0] so S[1] = 0
+P[2] = s[2] + S[1] + S[0] , S[2] = 1
+P[3] = S[3] + S[2] + S[1], S[3] = 2, not a binary character so NONE
+Machine Coding Round (on Interview Street) 
+There was only one question, time limit 45mins
+Q1. Word Wrap problem with few conditions, even i didnt remember much conditions here are some conditions.
+i) there can be maximum of X characters in a single line.
+ii) there can be maximum of Y number of spaces in the end of the each single line.
+iii) if a string length is big enough, so that it cannot be printed in single line, use ‘-‘ in the end of the line and print string further in the different line.
+also there should not be ‘–‘ consecutively in the end, if the string contains already ‘-‘ in the end dont put ‘-‘ character.
+     E.g. flip-kart and if x = 5 so it should be ->
+     flip-
+     kart
+iv) the string should not start with these characters(‘.’ , ‘,’ ‘ ‘)
+v) the cost value should be minimum, there can not be multiple answer for a single string.
+Eg. This is a flipkart online programming test.
+x = 10 Y = 3
+Output
+This is a
+flipkart
+online pr-
+ogramming
+test.
+First Technical Interview (F2F)- 
+They asked me about myself, so i gave my brief intro to them(there were 2 people who were taking the interview)
+and then they asked me about, what coding practices you used to do.As i dont do much coding online so i gave told them truely that only Codeforce and Spoj
+After that they started my interview, that what is the approach that you had used in the Machine Coding Round and how you implemented and why you uses this type of technique.
+My approach was Greedy.
+Further they asked me what Data Structure you Know, how you use it some basic questions.
+Later they asked me to print vertical nodes together in the binary tree, he asked me why you used Recursion in the solution.
+After that they asked me a question, which was – 
+you are given an array(say C) of characters and an array(say M) which contains the indexes of the array of characters.
+We started moving elements of array(C) according to the position of indexes given in the array(M).
+e.g. array A – a b c d e f g
+array M – 1 4 3 5 0 2 6
+so array A will change in first to – e a f c b d g
+again applying same – b e d f a c g
+again applying – a b c d e f g
+so after 3 times we got the same sequence of characters.
+He wants minimum number of times modification on the array (A) so that the we will again reach to the initial order.
+I gave him first recursive solution, then he says optimize it and after that i gave him O(n) solution; the logic for the problem came to me from Inplace Transpose of Matrix
+the question is like -> http://www.codechef.com/JULY14/problems/SGARDEN/
+After this he asked me a question on Next Greater Element, he wants how many ways i can handle this question.
+I told him 3 approaches- 1.O(n^2) 2.O(nlogn) 3.O(n)
+He asked me about AVL tree, how you will implement it and then said you have final interview in early morning 😀
+Technical + HR interview(F2F) – 
+In this round, first they asked me about myself while studying My Resume
+So they started asking some questions on LINUX – like what is gdm but i said sir didnt know much about linux.
+further they asked me how to debug the code, and what is segmentation fault, memory leak and how you will find the segmentation fault in 5000lines of code.
+after that they asked me about my projects, why this project how you did it… they grilled me in every step.. why this why not this and all..
+after that he wants some optimization to be performed on the project.
+After this they asked me some questions on stack while putting pressure of time that you have 2mins for this question.
+
+

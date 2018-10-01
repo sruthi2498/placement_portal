@@ -1,0 +1,14 @@
+The beta(), betaf() and betal() are built-in functions in C++ STL that are used to compute the beta functionof two positive real values. The function takes two variables x and y as input and returns the  beta function of x and y. Beta function (Also known as Euler integral of first kind) of x and y can be defined as: 
+      
+Syntax
+Parameters: The function accepts two mandatory parameters x and y which specifies the values of a floating-point or integral type. The parameters can be of double, double or float, float or long double, long double data-type.
+Return Value: The function returns the value of beta function of x and y. The return type depends on the parameters passed. It is same as that of the parameter. 
+Note: The function runs in and above C++ 17(7.1).  
+Below program illustrates the beta(), betaf() and betal() functions:
+Run on IDE
+Output: 
+Application of Beta function: It is used to compute Binomial Coefficients.The binomial coefficient in terms of beta function can be expressed as:
+      
+The above relation can be used to compute the binomial coeeficient. An illustration has been shown below: 
+Run on IDE
+Output:

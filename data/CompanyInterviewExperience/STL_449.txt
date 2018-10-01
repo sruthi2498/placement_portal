@@ -1,0 +1,10 @@
+For calculating the largest of all the elements in a given list, we have std::max, but what if we want to find the largest element not in the whole list, but in a sub-section of the list. To serve this purpose, we have std::max_element in C++.
+
+std::max_element is defined inside the header file  and it returns an iterator pointing to the element with the largest value in the range [first, last).
+std::max_element can be used in two ways. The comparisons can be performed either usingoperator < (first version), or using a pre-defined function (second version). If more than one element satisfies the condition of being the largest, the iterator returned points to the first of such elements.
+The two versions are defined as given below:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Related Articles:

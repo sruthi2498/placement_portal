@@ -1,0 +1,18 @@
+Round 1: First Round was coding round. One question in 3 hours and maximum 3 attempts to submit the question were allowed.
+Question: Company  A  is discarding product numbers that contain few specific digits a specific number of time or more than that. You are given a range and you need to find product numbers that are possible.
+Example-
+Range: 24 to 12943
+Numbers that should not come: 1, 3, 5
+Number of times these number should not occur: 3 or more
+ 
+In above case all two digit numbers are valid.
+In three digit: 111, 113, 115, 311, 331, 333, 511, 533, 555 are not valid.
+In four digit: All the numbers containing above 3 digit numbers are not valid.
+ 
+Eg: 11223 is not valid, 11222 is valid.
+ 
+Round 2: Second Round was Technical Interview Round (40-45 min). Questions from Data Structures, Computer Network, DBMS, SQL Queries, and Projects were asked.
+Round 3: Third Round was also the Technical Interview Round (25-30 min). Questions from Data Structures, Recursion, Software Engineering and Software Testing were asked.
+Round 4: Fourth Round was HR Round.
+ 
+This was the interview process for Samsung White Box Testing Profile. Elimination after each round was there. Written Test was on Day 1 and Interviews on Day 2.

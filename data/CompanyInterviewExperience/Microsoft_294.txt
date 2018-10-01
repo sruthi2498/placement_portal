@@ -1,0 +1,48 @@
+Round 1: (1 h)
+==============
+Q1. Design a Garbage collector like java. How would you detect depended reference loop? 
+Hist : Class design, Cycle detection algorithms for disjoint graph( List of connected graph)
+Q2. Find an element in a sorted rotated array in O(logn ) complexity.
+Round 2:(1.h 15min)
+===================
+Q1. Given a sorted array having duplicate elements,how would you find first index of a given element in O(logn).
+Write code for it. Change the condition to find out last index of that elements.
+[ Hint Binary search]
+Q2. You have a dictionary of words. Given a word, print all anagram are in dictionary . State the data structure to be used to solve this problem.
+Q3. Design a Chip-Encryption system. Which will do following operation:
+1. Take a word from user
+2. Encrypt the word by some Private or public key cryptography or any other algo.
+3. Transmit the encrypted word by TCP or UDp or SSL.
+Design the class diagram using OOD. Which design pattern you are using to achieve this.
+Round 3:(1.h 15min)
+===================
+Q1. In a plane n points (X and Y) is given. How will you find out maximum co-liner points. Extend this algorithms. it for point(x,y,z) in 3D plane. 
+Q2. Reverse a 32-bit integers. write code for it.
+Q3. What the different issue in multi-threading ? What is the difference between mutex and semaphore.
+Q4. You have a file with million words in it. Find most frequent 10 word in that file. Node that you can store all word in memory.
+(Note : Min-Heap + List )
+Round 4 :
+Skipped … 🙂
+Round 5( 2h 30 min)
+===================
+Q1. You are given a Text, where all space, full stop and all punctuation mark is removed. You want to reconstruct the text by putting spaces between words.
+A dict is given and following API < bool isInDect(word) > is also given.
+a) Decide if the text can be converted a sentence with valid words or NOT.
+b) Find how many way you can do the reconstruction of the text.
+c) Find what is the minimum number of space can be used for this reconstruction.
+d) For case (c)  find out the indexes where you suppose to put a space.
+e) Now recover the text to sentence in place .
+Subsequent Question:
+1. Why Greedy technique will not work for this?
+2. yes ! Backtracking will work, what is the problem of using backtracking ?
+3. Illustrate and explain how the solution is contracted from the Dynamic table ?
+4. Write the correct working code for (c),(d),(e).
+Q2. Given a BST, find out the minimum length form root to leaf with sum S. Note that:
+a) Path from root to leaf node.
+b) Sum of node of the path is S.
+c) if multiple such path exist, print minimum length path.
+d) What is advantage of BST rather than BT used for this algorithm, how it improve the performance. in BST, is it required to explore both side ?
+e) Write working codes for it.
+Status: Selected ! (The interview call was for SDE-I, but they offer me for  SDE -II(L61) position)
+
+

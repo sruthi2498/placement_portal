@@ -1,0 +1,24 @@
+Given a number n, find the product of all factors of n. Since the product can be very large answer it modulo 10^9 + 7.
+Examples :
+
+Method 1(Naive Approach):
+We can run loop for i from 1 to n and if n is divisible by i multiply the numbers. Time complexity for this solution will be O(n).
+But this approach is insufficient for large value of n.
+Method 2(Better Approach):
+A better approach is to run loop for i from 1 to sqrt(n). If number is divisible by i multiply it with i and n/i.
+Time complexity of this solution will be O(sqrt(n)).  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Method 3 (Another Approach):
+Let us observe a thing:
+So we can observe that product of factors will be n^(number of factor/2). But when number of factor is odd (which means the number is perfect square) in that case product will be n^(number of factor/2) * sqrt(n). We can count number of factors similar to approach above. And we can calculate power efficiently using Modular Exponentiation
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

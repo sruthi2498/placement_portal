@@ -1,0 +1,72 @@
+I. Written test : Same question asked in Set 8.(lucky for us)3 hrs were given to solve the question.
+Just keep in mind that dont submit the solution too early.They maintain record of all the submission time
+and they will ask that how you were able to solve the question so quickly.(They asked me)
+They had installed their own software.Only visual studio,eclipse,notepad and calculator was allowed.
+If you tried to open any other tab it was considered as cheating.So keep care.Interface not so friendly.
+And only three submissions were allowed so if you are 100% sure that your code will pass all the test cases
+then only submit.
+Students, who were able to pass all the test cases, shortlisted for next round.
+A total of 41 students were selected.
+Results were announced around 3PM. I got call from my TPC that i have to give my
+interview within 5 mins.I was like “really itni jaldi???”
+
+Technical Round:
+This was longest interview i have given.Lasted for 2.30 hrs.
+The moment i entered the cabin he asked me “Did you eat your lunch”??
+I was confused at that moment but later i realized that why did he asked..
+Asked me to introduce myself…about my family…
+Then asked which language you prefer C/C++ or JAVA
+I said “C/C++ is like Hindi for me and JAVA is like English”
+He smiled.Then he asked which papers i had studied and asked me to rate myself.
+Then he started to ask question.
+
+From C/C++:
+1. Storage Classes in C-asked me almost every thing.(long discussion)
+2. Memory layout of C programs.(he was looking for the details)
+3. structure and union (every minute detail)
+4. Complicated C declaration (asked to write prototype of functions)
+5. Constant pointers and pointers to constant(he asked me to explain through diagram)
+6. Structure padding and alignment.(why padding,how does it helps,how do we force complier not to allow padding)
+7. Dangling pointers,malloc,caloc,realloc,free
+Quite long discussion.Other questions like how does free operator knows how much memory
+to freed.A lot more questions.
+8. Questions on pointers(single pointer,double pointer and a lot)
+9. About MACROS and preprocessor.
+10. Preincrement and postincrement operator(was asked to write output and logic behind it)
+11. Inline functions,dyanamic arrays,enum,
+and a lot
+12. about OOPS
+Plz go through C section on Geeksforgeeks…U will not miss any of these.
+
+From OS:
+1. Scheduling algorithms(long discussion)
+2. Mutex and seamphores(in detail)
+3. Multiprogramming,Multitasking,Multiprogramming etc.
+4. Deadlock(asked to explain deadlock to layman,how will you create a deadlock and a lot)
+5. Schedulers(their working)
+6. states of programms-like ready state,waiting state…was asked to draw digram
+7. Producer-Consumer Problem
+
+Coding:
+1.Implement Stack using link list(only condition was that return type of push and pop should be
+void,solved by using pointer to pointer)
+2.Implement you own strcat() function.Dont use string header.
+3.Swap two numbers without using arithmetic operator.
+Keep care when you write the code.He will go throughly through the code.So take your time and dont be
+in a hurry.
+After that I was called for HR Round immediately. I was the first one for HR.
+1. Asked me to introduce myself.about my family.
+2. About my hobbies,interest.
+3. A small technical question.
+4. Puzzle-i dont remeber..didint solved it comletly
+5. Then asked why samsung.He wanted specific reasons.
+No prainsing answer like samsung has a good brand value etc.
+6. Asked me whether i am already placed or not.
+7. Then in which companies i was rejected and asked why??
+8. Why should we hire you??
+9. Any thing you would like to ask??
+I asked about typical work day and cuurent samsung project ..and then he explained me a lot of things..
+He was very cool and interacted a lot.
+HR round lasted for 35-40 minutes.
+Thanks to GeeksForGeeks team for developing such a wonderful site.It helped me a lot in the preparation.
+

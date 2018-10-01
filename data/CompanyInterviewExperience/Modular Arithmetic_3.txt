@@ -1,0 +1,14 @@
+Given an integer N, the task is to print all the substring of N without doing any conversion i.e converting it into a string or an array.
+Examples:
+
+Input: N = 12345
+Output: Possible Substrings: {1, 12, 123, 1234, 12345, 2, 23, 234, 2345, 3, 34, 345, 4, 45, 5}
+Input: N = 123
+Output: Possible Substrings: {1, 12, 123, 2, 23, 3}
+
+Approach:
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE

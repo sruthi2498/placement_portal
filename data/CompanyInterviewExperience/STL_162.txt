@@ -1,0 +1,5 @@
+The multimap::max_size() is a built-in function in C++ STL which returns the maximum number of elements a multimap container can hold.
+Syntax:
+Parameters: This function does not accept any parameters.
+Return Value: This function returns the maximum number of elements a list container can hold. 
+Run on IDE

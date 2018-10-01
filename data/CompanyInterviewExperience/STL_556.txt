@@ -1,0 +1,9 @@
+Given a list of integers, rearrange the list such that it consists of alternating minimum maximum elements using only list operations. The first element of the list should be minimum and second element should be maximum of all elements present in the list. Similarly, third element will be next minimum element and fourth element is next maximum element and so on. Use of extra space is not permitted.
+Examples:
+
+The idea is to sort the list in ascending order first. Then we start popping elements from the end of the list and insert them into their correct position in the list.
+Below is C++ implementation of above idea –
+
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,44 @@
+Here is how my interview for ORACLE (Profile: App Dev) went about,
+
+Round 1: 
+This included MCQs that covered a lot of topics, such as : Data Structures, OS, Database, English Grammar, General Vocabulary, Basic Math, and a few on basic logic.
+Roughly 150 students out of (~350) were shortlisted for the next round.
+
+Round 2:
+This was a coding round, had 2 questions. Both were math based questions.
+This was not an elimination round, but was to segregate the students into 2 groups, (Server Tech. and App Dev.).
+
+Interviews:
+Round 1:
+Question 1: Write the code to find the 2nd largest number in the array.
+You are expected to write the code and test for all edge cases.
+Question 2: Print all the prime factors of a given number except the number itself.
+Question 3: This was to just check your quick math/logical skills.
+If ABCD*99=ABB551, find the value of A.
+I had a discussion with the interviewer regarding this and I gave him the answer in a way that he did not expect and he seemed quite happy about the new method 😛
+
+Round 2:
+Question 1: Why Oracle? What do you expect Oracle to be like, for you?
+Question 2:  The interviewer gave a set of relations and asked me to write a couple of queries to retrieve certain data.
+I would say, as it is Oracle, you should be thorough with DBMS and MySQL queries.
+Question 3: Write code to group all 1s in K-map.
+I wrote a code using DFS.
+Question 4: Given a roman number as a string input, check if it is valid, if yes, then print its decimal equivalent.
+Question 5: What are data structures?
+Question 6: Explain any sorting algorithm of your choiice.
+I started with quick sort, however he later asked me to explain bubble sort 😛
+He also asked me if I knew why was it named “bubble” sort.
+
+Round 3:
+Had to answer around 5 logical puzzles.
+
+Round 4:
+Question 1: Given a sudoku puzzle, write code to check if it is valid (solved right) by traversing the entire matrix just once.
+
+Round 5:
+HR interview, here I was asked about my background, what was it that I considered unique about myself, my future goals etc.
+On the whole, I would say, with a good grip on database, OS, Java concepts, and of course, data structures and algorithms you will be able to make through easily.
+All the best! 🙂
+
+
+

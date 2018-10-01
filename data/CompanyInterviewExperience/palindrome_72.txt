@@ -1,0 +1,10 @@
+Given a linked list, find length of the longest palindrome list that exist in that linked list. 
+Examples:
+
+A simple solution could be to copy linked list content to array and then find longest palindromic subarray in array, but this solution is not allowed as it requires extra space.
+The idea is based on iterative linked list reverse process.  We iterate through given linked list and one by one reverse every prefix of linked list from left. After reversing a prefix, we find the longest common list beginning from reversed prefix and list after the reversed prefix. 
+Below is C++ implementation of above idea.
+Run on IDE
+Output : 
+Time Complexity : O(n2)
+Note that the above code modifies the given linked list and may not work if modifications to linked list are not allowed. However we can finally do one more reverse to get original list back.

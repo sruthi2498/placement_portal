@@ -1,0 +1,14 @@
+The sinh() is an inbuilt function in C++ STL which returns the hyperbolic sine of an angle given in radians.
+Syntax :
+Parameter :The function accepts one mandatory parameter x which specifies the hyperbolic angle in radian. The parameter can be of double, float or long double datatype. 
+Return Value: The function returns the hyperbolic sine of the argument. If the magnitude of the result is too large to be represented by a value of the return type, the function returns inf.
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Errors and Exceptions: The function returns no matching function for call to error when a string or character is passed as an argument.
+Below programs illustrate the errors and exceptions of sinh() method: 
+Run on IDE
+Output:
+Program 4: 
+Run on IDE

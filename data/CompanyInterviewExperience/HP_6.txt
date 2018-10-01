@@ -1,0 +1,12 @@
+I had an interview recently with HP R&D Lab Bangalore for 2+ years Java Developer position. There were 5 rounds. Anyway I sharing my interview experience so other can prepare themselves accordingly.
+I got call from HR directly and it was big kind of pool drive for 2-10 years experience candidates.
+Round 1 (Technical F2F about 1 hour):
+OOPs concepts with real word examples. Collection hierarchy. HashTable vs ConcurrentHashMap. ConcurrentHashMap internal working. What is Fail Fast and Fail Safe. Concept of Load factor in ArrayList. Generics in Java i.e. Raw type, Bounded and Unbounded wild cards. Some puzzles.
+Round 2 (Technical F2F about 30 minutes):
+When to use Arrays and when to Linked list. How Java equqlsIgnoreCase works. Class loaders i.e. Bootstrap, Application and Extension. Difference between nested class and inner class
+Round 3 (Technical F2F about 45 minutes):
+Write neat and working code for Stack of 20 size having all requires methods i.e. push,pop, isEmpty and all. Given a collection of Employee class object, write code to sort this collection based on salary (I had to write Comparator).
+Round 4 (Manager about 30 minutes):
+Formal Discussion. Discussed about their project and technologies. Discussed about Agile methodology.
+Round 5 (HR about 15 minutes):
+Formal Intro. Directly discussed about notice period and expectation.

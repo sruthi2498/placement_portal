@@ -1,0 +1,51 @@
+Hi, This is Pandu. About 1 month back I had attended Amazon Interview In hyderabad, it was total of 8 rounds which includes  2 telephonic and 6 face to face and the whole process was lasted about 25 days because of unavailability of all the interviewers.  The whole was very painful for me as before and after attending interviews on each interviewing day, I had to spend with some tension & anxiety. I was interviewed for SDE 2 position
+The following are the questions:( For all the algorithmic questions , working code is required, they would take those papers and discuss in their internal meeting after all the rounds)
+Telephonic Round 1(with Lead developer):
+  Q1)Given a snake and ladder game, write a function that returns the minimum number of jumps to take top or destination  position.
+  You can assume the die you throws results in always favor of you.
+ Telephonic Round 2(with SDE 1): ( after 5 days of 1st telephonic)
+  Q1)Given an integer array and an integer value X, return two elements in that array such that sum of them equals to X.
+   – Here he asked about different ways to solve it and pros and cons of each solution.
+   (For Hash map solution , He was looking for getting solution in only one pass)
+  Q2)discussion about my project details and challenging task
+  Q3) suddenly you web application has become very slow on clicking particular URL. How would you debug it and solve the problem
+ Face to Face round 1(with SDE 1): (after 4 days of 2nd telephonic. 3 faces to face rounds were taken on same day and lasted about 5 hours)
+   Q1) Given a sorted array and a number write a method that returns the number of occurances of given number
+   Q2) You have given a dictionary of an alien language in which letters are same as English letters but their order is different.
+   Your task is sort the letters or give relationship b/w letters using that disctionary. note: the dictions may conatain 1 to n words.
+ Face to Face Round 2(with SDE 2):
+   Q1) In our project we are using Java Spring framework. He asked to implement spring container.
+   Q2) Implement LRU caching. After that asked me two different cases (1) required element is already in chase , 2) required element in not in cache and cache is full)
+       Had to explain those two cases by walking through your code.
+   Q3) You are given a faulty binary serach tree in which only 2 nodes are misplaced(swapped their positions with each other). write a method
+    that takes root of that BST and return the root of the corrected binary tree.
+  Face to Face Round 3 (With Lead Developer) : (Design question)
+  Q1) Given an URL you need to analyze all the images( they may be in 1000’s of number) and return the cumulative quality of images present in that url.
+      lets say: you can configure image quality as very good,good, average, poor..etc, so you have to return one value among them. The given URL  may conatain several othe URLs and they also conatain lot of images . you need to consider all of them. lot of questions like how to avoid visiting same url again,
+      how would you determine the quality of an image if you encounter an url that contains only an image..etc.
+  Q2) Design Elevator system. And then write an algorithm for that Design such that, the user request should be completed in logN time in a N story building with M elevators,
+     This round was lasted more than 2 hours.
+ Face to Face Round 4 ( With Hiring Manager): ( after 5 days of last 3 f2f rounds)
+  Q1)Discussion about my project details
+  Q2) Design Question: Design Clustered caching system for an web site like Amazon.com.
+    In which millions of  web servers deployed over the globe and only one inventory  Database system
+  Q3) Design question: Design only Train search functionality of IRCTC
+ Face to Face Round 5 (With Bar Raiser):   ( same day following Hiring manager interview)
+  Q1) Discussion about my project and Challenging task
+  Q2) Design Question: In an online teaching system,there are n number of teachers and each one teaches only one subject to any number of students.
+     And a student can join to any number of teachers to learn those subjects.
+     And each student can give one preference throuch which he can get updates about the subject or class timings etc.
+      Those preferences can be through SMS or twitter/facebook or email..etc.
+      Design above system and draw the diagram for above.
+  Q3) coding and algorithm: There is a N-ary tree in the 3d Space. and you are standing on right side of that tree .  Print the only
+  those nodes when you looked at that tree.
+  ( which is like printing rightmost node in each level of that tree. He would not tell this, you have to conclude this by drawing a tree like that).
+    After writing the code for above one, he was asked me to print them in an order in which 1st one followed be last one followed by 2nd first one followed by snd last one..etc.) 
+Face to Face Round 6(some one who is in very high level, guess director to a technology):
+(After 1 week of last interview)
+  Q1) Lots of discussion on my current project. Different behavioral  questions were asked during the discussion.( about half n hour discussion)
+  Q2) Given a cube of size N. which was constructed by N^3 number of 1 unit smaller white cubes. Now you dipped that cube in a black color paint and taken out.
+      after that how many cubes are still in white color. Prove your answer( by writing mathematical equations)
+  Q3) There are N bolts each of which different size and N nuts, they are also with different sizes. and each bolt fits with exactly 1 nut.
+   Give an algorithm that combines those N bolts and nuts into N pairs of Matched bolt and nut.
+HR told me on last interview day that I would be notified by the result within two working days as already the whole process was delayed for so many days. I had waited for almost 1 week and send them mails & called them about my candidature but did not get any response. I was almost lost hope. But, Finally after 8 days of last interview, got a call that  I was offered SDE1..( I guess, They were not completely satisfied by in design part but I did better in algos, problem solving and coding part and as a result I was offered SDE 1). In the end I rejected to join at Amazon as I got another competitive offer.

@@ -1,0 +1,9 @@
+Given an array of N integers, You have to find the probability of choosing a random pair(i, j), i < j such that A[i] + A[j] is maximum.
+Examples :
+
+Naive approach :  We can solve this problem using brute force solution overall pair (i, j), i < j to get the maximum value possible and then again do a brute force to calculate the number of times the maximum is attained.
+Efficient Approach :  Observe that we get maximum pair sum only when the pairs consists of first and second maximum elements of the array. So, the problem is to calculate the number of occurrences of those elements and calculate the favorable outcomes using a formula.
+Run on IDE
+Run on IDE
+Run on IDE
+

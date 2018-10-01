@@ -1,0 +1,38 @@
+I got mail one day that I have an Interview scheduled on next day in Bangalore. 
+Round 1 onsite:
+I think this round was just to check whether I take care of all boundary cases for problems and also my speed?  Problems were quite easy then what I expected but they made it very lengthy to check my speed
+General questions 1 :Tell me about yourself?
+GQ 2 : Tell me about your work in your current Organization ?
+Q1:  You have given an array of 0’s and 1’s. Write the code to swap only two elements in the array so the number formed by this array keeping all the elements in same order should be largest one.
+I/P: 11000101 O/P: 11100100
+Now he modified the question: Let’s say instead of array, a number is given.  Swap two bits of this number find out the maximum number formed after swapping thse two bits
+Again he modified that Lets the array elements are decimal numbers (Not 0s and 1s). Swap two elements and find out maximum no formed. Write the code.
+Again he modified the same questions that lets say a number is given, swap two digits of the number and find the maximum number formed by it.
+He was just checking my coding speed and making sure whether I check all boundary cases.
+Q2: Pairwise swap elements of a given linked list (of course by changing links). After looking at my code he said that I have made a segmentation fault but I try to convince him that I wrote the code correctly and he was convinced.
+After this round HR got a mixed feedback so he decided to go ahead with my next round.
+Round 2:
+This round was basically focusing on my problem solving abilities. Coding was not tough but thinking and approach was critical.
+Q1:  A directed graph was given. I had to make a function which take a value of node as input and print all the nodes which had incident edge on the input node and also print all nodes to which input node has a direct edge. He kept ignoring the solutions I told because he wanted it to solve in a particular way.
+Q2 : Find the largest rectangular area in a Histogram. I read this question long before but couldn’t remember it but fortunately I was able to solve it with few  difficulties.   
+Round 3:
+ Q1: basics of computer science: Multithreading, long discussion on dynamic memory allocations, memory leak, some OS fundamentals. Some compiler design questions where he helped me and finally we reached to the solution.
+Q2: You have a stream with millions of words in it. Find most frequent 10 words in that stream at every instance
+Q3: How will you store a very big number if it can’t be store in any data type?
+Round 4:
+This was a designed round and interviewer was principal development manager.
+Again round started with ‘tell me about yourself and the work in the current Organization’.
+Question 1: He opened the site msn.com and asked me to design a part of ‘stockscreener’ hierarchy using my OOPs and MVC understanding. And asked me write a class which will show the user that if stock market is open or closed. If it is closed then I have to print when the market is going to open in future.  To find the future date he gave me a list of Holidays, Half days and obviously market will be closed on Weekends. So store this information in a proper Data structure and use it in finding future date.
+This question took around 35-40 minutes of time
+Q2: For a Sudoku game, I had to design a screen using OOPs and MVC understanding. Where a column can be empty where you can put a editable number in future or an editable number which you can change as per your requirement or a fixed number(inserted by system only and user can’t change them). This question was an easy one so hardly took 15 minutes.
+Q3: Simplest of all, for a given BST I had to print all the number in ascending order which lies in a given range in best possible optimum way.    
+Round 5:
+This was the last round and the interviewer was ‘Partner Development Manager’. I knew he has veto power and today he is the one who will decide my fate, so I was more nervous and conscious but he made me so comfortable and welcomed. For first 10 minutes or so we were just chatting about our views on movies and asked me who do I think most underrated actor in Bollywood? I said Jimmy Shergill and he said he also think the same.
+Asked about my college life and achievements?  What is the biggest achievement so far? Why do I have less percentage in 10th class?  Why are you changing the company?
+Then he moved to puzzles.
+Q1: There are N people in a room and one of them is a celebrity. In the room everyone knows the celebrity and celebrity doesn’t know anyone in the room. You have 1 question ‘do you know him?’ and you can ask this question N times to anyone in the room. The person to whom you are asking question will reply ‘Yes, I know this guy’ or ‘No, I don’t know this guy’. By asking the same question N times to whoever you want to ask you have to figure out who is celebrity in the room. If A knows B doesn’t mean B knows A.
+After that He asked my 2-3 more puzzles which I knew already and I told him so he asked the solution and moved on.
+Q2: A Matrix of 1s and 0s is given, all zeros are water and 1s are land, first find out the number of ponds in the array (Reverse of islands problem). If one change can convert 1s in to zero then find out minimum number of changes that we need to make so that there will be only one pond in matrix.
+In the end, he asked me whether I am preparing for other interviews or higher study so I knew all the puzzles. I said No but I like puzzles and I am good in them.
+This was all. A big thanks to GEEKSFORGEEKS, you guys made our life so easy. You are Google for me as far as an interview preparation is concerned.?
+

@@ -1,0 +1,10 @@
+The array::get() is a built-in function in C++ STL which returns a reference to the i-th element of the array container.
+Syntax:
+Parameters: The function accepts two mandatory parameters which are described below. 
+Return Value: The function returns a reference to the element at the specified position in the array
+Time complexity: O(1)
+Below programs illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

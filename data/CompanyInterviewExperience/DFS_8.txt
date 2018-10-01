@@ -1,0 +1,61 @@
+Graphs can be used for seemingly unconnected problems. Say the problem of cards which have numbers on both side and you try to create a continuous sequence of numbers using one side. This problem leads to problems in how to split a graph into connected subsets with cycles and connected subsets without cycles. 
+There are known algorithms to detect if the graph contains a circle. Here we modify it to find all nodes not-connected to circles. We add a Boolean array cyclic initiated as all false, meaning that no node is known to be connected to a circle.
+Then we loop through nodes applied a usual algorithm to determine a circle skipping on nodes that are already known to be connected to a circle. Whenever we find a new node connected to a circle we propagate the property to all connected nodes skipping already designated as connected again.
+Main function is a modification of DFS algorithm from article “Detect cycles in undirected graph“:
+All nodes connected to a cycle are designated as such in a linear time.
+The algorithm was applied to the following problem from the recent challenge “Germanium”, which was solved by about 3.5% of participants.
+Suppose we have N cards (100000 >= N >= 1) and on both sides of the cards there is a number (  N are useless and can be discarded. In the same spirit, every car (n, m): n  N allows us to put n upwards and ensured its presence in the sequence, while m is useless anyway.
+If we have a card (n.n): n < N, it ensures that n can always be added to a continuous sequence that arrived to n-1.
+If we have two identical cards (n, m) both n, m can be always added to a sequence if needed, just to put it on the opposite side.
+Now we encode cards into a graph in the following way. The graph nodes are supposed to be numbered from 0 to N-1. Every node has a set of edges leading to is represented as a vector, initiated as an empty and overall set of edges is a vector of vectors of integers – edges (N).
+(n, m) : n, m  N – discarded.
+(n, m): n  N – add to the graph edge (n-1, n-1)
+Now it is easy to understand that every cycle in the graph can be used for all nodes od the graph. A sample: (1, 2) (2, 5), (5, 1) – every number appears on two cards, just pass along the cycle and put any number once up and another time down:
+(1, 2) – 1 up, 2 down
+(2, 5) – 2 up, 5 down
+(5, 1) – 5 up, 1 down
+If any number already put on the upper side, every subsequent card that has the number must be out this number down, so another number can be shown on the upper side. In the graph, it means that any number connected by an edge to a number of cycles is free to be shown. The same is true for a card connected to the card connected to the cycle. So, any number/node that connected somehow to any cycle cannot provide any problem. Pairs of identical cards like (1, 2), (1, 2) also produce a small circle in the graph, the same is true for double cards, like 3, 3 it is a cycle of a node connected to itself.
+All parts of the graph that are not connected to any cycle can be split in not connected smaller graphs. It is more or less obvious that any such fragment has a problematic number – the biggest in the fragment. We use a similar but much easier algorithm to find such fragments and all maximums in fragments. The least of it is Q – the smallest number that cannot be the end of the continuous coverage from the least numbers, the Q above.
+In addition to the cyclic array, we add another array: visitedNonCyclic, meaning that this number already met while passing through a non-cycle fragment.
+The maximum in the non-cycle fragment is extracted by recurrent calls to a function:
+Please refer findMax() in below code. The graph creation is done in solution() of below code.
+After the graph is created the solution just calls to isCyclic and then to:
+The solution, which was inspired by the rather hard recent “Germanium 2018 Codility Challenge” and brought the gold medal.
+Main Idea: 
+1. Numbers are big, but we demand a continuous sequence from 1 to the last number,
+but there are no more than 100 000 numbers. So, the biggest possible is really 100 000, take it as the first hypothesis
+2. Due to the same considerations, the biggest number cannot be bigger than N (amount of numbers)
+3. We can also pass overall numbers and take the biggest which is  NN. The result cannot be bigger than N or NN
+4.  Taking this into account we can replace all cards like (x, 200 000) into (x, x). Both allow setting x upwards, x is not a problem thus.
+5. Cards with both numbers bigger that N or NN just ignored or disposed
+6. If there are cards with the same number on both sides it means that the number is always OK, cannot be the smallest problematic, so never the answer.
+7. If there are two identical cards like (x, y) and (y, x) it means that both x and y are not problematic and cannot be the answer
+8. Now we introduce the main BIG idea that we translate the set of cards into a graph. Vortices of the graph are numbered from 0 to M-1, where M is the last possible number (least of N, NN). Every node has some adjacent nodes, so the set of all edges is a vector of vectors of integers
+8. Every card like (x, y) with both numbers less or equal to M into edge x-1, y-1, so the first node gets an additional adjacent node and vice versa
+9. Some vortices will be connected to themselves due to cards like (3, 3). It is a loop case of size 1.
+10. Some vortices will be connected by two edges or more if there are identical cards. It is a loop of size 2.
+11. Loops of sizes 1 and 2 have numbers that cannot be of any problem. But now we realize that the same is the case of a cycle of any length. For example, cards are 2, 3; 3, 4; 4, 10; 10, 2;  All their numbers have no problem, just put 2, 3, 4, 10 to the upper side. The downside will have 3, 4, 10, 2.
+12. Now if we have a card x, y and we know that x is guaranteed already in another place, we can put this card x down, y up and ensure that the y is in the resulting sequence.
+12. So, if any card is connected to a cycle by an edge, it cannot present a problem since the cycle is all OK, so this number is also OK.
+13. Thus if there is an interconnected subset of nodes of a graph which contains a cycle, all vortices cannot present any problem.
+So, we can apply one of the known algorithms to find loops like in the article “Detect cycle in an undirected graph” with an addition of propagation
+14. We can also designate all nodes in the graph that are connected to a cycle, cycled[]. And we can propagate the property
+Just start with some in a cycle, set it as a cycled, then pass over it’s adjacent skipping the cycled and calling the same function on the adjacent.
+15. Using a combination of the known algorithm to detect cycles in an undirected graph with skipping on cycled already and propagating the property “connected to a cycle”, we find all nodes connected to cycles. All such nodes are safe, they cannot be a problem
+16. But remain nodes not connected to any cycle, their problem can be simplified but cutting into separated graphs which have no common edges or nodes.
+17. But what to do with them? It can be a linear branch or branches that cross one another. All nodes are different.
+18. With some last effort, one can understand that any such set has only one problematic number – maximum of the set. It can be proven, paying attention that crosses only makes thing better, but the maximum stays still.
+19. So we cut all non-cycled into connected separated entities and find the maximum in every one.
+20. Then we find the minimum of them and this is the final answer!
+Examples:
+Input : A = [1, 2, 4, 3] B = [1, 3, 2, 3]
+Output : 5.
+Because the cards as they are provide 1, 2, 3, 4 but not 5.
+Input : A = [4, 2, 1, 6, 5] B = [3, 2, 1, 7, 7],
+Output: 4.
+Because you can show 3 or 4 by the first card but not both 3 and 4. So, put 3, while 1 and 2 are by the following cards.
+Input : A = [2, 3], B = [2, 3]
+Output : 1. Because 1 is missing at all.
+Complexity:
+The final implementation
+Run on IDE

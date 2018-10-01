@@ -1,0 +1,52 @@
+Type : Off campus (Bangalore) (0-1 yr experience)
+Role : Software Developer @ Hyderabad campus
+Duration : 2 Days
+Total Candidates : ~200
+Split Up of Rounds 
+1) Online test (40 mins & 40 questions) | MCQ’S | .25 negative per question 
+   Difficulty Level – Intermediate -> hard
+      20 Aptitude – Basic Quantitative Apt questions which they ask in CAT
+      20 Technical – C,C++ & JAVA related | Finding output | Basic Concepts | Finding bugs in the code
+   Approach – Need to be quick , if u have an idea make a guess , try to answer as many as possible
+   Number Remaining – ~100 students
+2) Coding Round – 1 question | Give Algo/Code
+   Question – Find the next largest int of a given int such that it has same number of 1’s in binary
+   Answer – google it
+   Question which my friend got – Find max product subarray
+   Number Remaining – ~60 students
+3) Interview with 2 from DeShaw ~45 mins
+   Very Cool guys , should have no issues
+   Questions – 
+   1) Basic Explanation of a few important projects
+   2)Please go through your resume thoroughly , get all minute details of your projets right as most
+     of the questions wil be based out of ur projct concepts
+   3) Define Normalisation , explain advantages/disadvantages / Clustered Index /Non Clustered Indexing
+   4) Balancing of Btrees / AVL trees
+   5) Write algo to mirror a given Binary Tree
+   6) String Matching Algos | Write pseudocode for KMP algo etc
+   7) Puzzle : Given a 7mt long gld bar , need to cut and give to worker for 7 days (1 meter long)
+      |Max num of cut allowed =3 | This is a standard puzzle
+4) Interview with a different guy ~ 30 mins | I had not studied | Screwed this up 
+   Questions – 
+   1) Intro about me
+   2) Why leaving existing job n stuff ?
+   3) Puzzles (3) – Solving the standard Hourglass puzzle | Count 7 mins
+				  –	The Hat puzzle ? who is wearing the black hat
+                  – Tower of Hanoi Modification
+   4) OS concepts – Threading | Deadlocks | Paging | etc
+   5) Databases Questions – Transactions | ACID | etc
+   6) Code the Algorithm – LIS modified ,
+						   Get the peak point in stock market data ,
+						   Max sub array sum in circular array
+						   Few more basic algos
+   7) C++ /JAVA questions					   
+5) HR round	– I did not make this round
+Total Candidates selcted – I think 1 or 0
+Tips :1) Get all project details in your resume
+	  2) Go through all concepts used in yur projects (they will ask how to improve | why u used that method etc)
+	  3) Learn basic concepts of C++ /JAVA /OS /DB /Algos
+	  4) Questions wont be of any complicated topics
+	  5) Even if you dont get the complete solution | Ur approach is valued 
+Hope this Helps !!!	  
+Run on IDE
+

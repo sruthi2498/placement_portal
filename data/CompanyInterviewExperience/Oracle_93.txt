@@ -1,0 +1,34 @@
+Company Name : Oracle (Server Technology)
+Oracle procedure consists of
+1) Written Round
+2) Coding Round
+3) 2-3 Technical Rounds and 1 HR Round
+1) Written Round (90 minutes)
+The written round was common for Server Tech, App Dev & OFSS profiles. It was an online
+round having the following sections:
+a) Quantitative Aptitude
+b) Data Interpretation
+c) English & Vocabulary
+d) Technical (C/C++, Java, DS, Algo, OS, DBMS, Networking)
+The questions were of moderate difficulty. Each section had a separate cut-off.
+2) Coding Round (30 minutes)
+The next round was an online coding round. One question was given and we were required to solve that question in 30 minutes. The languages allowed were C, C++ and Java.
+There was no elimination in this round.
+Based upon the performance in the above two online tests people were shortlisted for the interview process for different profiles.
+Interview Round 1 (Tech + Project – 45 minutes)
+This round began with my introduction. After that he gave me the following problem to solve:
+You are given a two dimension matrix of characters. You are also given a String (character pointer). You have to find whether that string could be formed in that grid. You can move in the following directions: namely right, left, up, down & diagonal (forward and backward). But you can search the word by moving in only one direction at a time (i.e. if after the first letter, the second letter has been found by moving right then the subsequent letters also must
+be matched by moving right only. You cannot change the direction.). I gave him my approach using the Backtracking algorithm. He said that he liked my approach and asked me to write the full working code. He was very helpful and gave me hints whenever I was stuck. After a few minutes I wrote the code in C++.
+It is very important that you take into account all the corner cases and write the code as efficient as possible.
+Then he asked me the different sorting algorithms that I knew and asked the space and time complexities of each.
+Then he shifted his focus towards my projects. He asked me every minute details of my project. He asked the technologies that I used the shortcomings and asked me how I plan to overcome them.
+After about 2 hours I was called for the next round.
+Interview Round 2 (Tech – 30 minutes)
+This round also started with my introduction. Next he asked me that how would I explain Quick Sort and Merge Sort algorithms to a layman. He asked me the differences between Merge Sort and Quick Sort and which algorithm fits better in which situation.
+Then he gave me a design question. You have to design a lift system with 3 lifts which can either be moving (up or down) or stationary. Whenever anyone presses the lift button then that lift should be chosen to move which reaches the floor in minimum time. He then extended the question to multiple lift requests and asked me to write an efficient code for the same. He gave me a hint to utilise the threading concept.
+After that he asked some basic questions on OS and Networking like the difference between semaphores and mutex, process state diagram, difference between threads and processes, TCP, DNS etc.
+After about 10 minutes I was called for the next round.
+Interview Round 3 (HR – 10 minutes)
+This round was mainly conducted to know about my interest in their offer and in my field (Computer Science). She read my resume completely and asked me about almost everything in it- my hometown, the details about my summer internship, my current rank (in my branch), my hobbies etc. Then she asked me whether I would try for other companies even after getting the offer from Oracle. I obviously said no with decent explanation.
+Finally she told me about some formalities about joining and location and if I have any problems with it, again and obviously I said no 🙁
+After about half an hour, one of the interviewers came out and formally announced “YOU ARE SELECTED” 🙂 🙂

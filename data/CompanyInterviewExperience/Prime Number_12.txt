@@ -1,0 +1,12 @@
+Given a number ‘n’, generate the first ‘n’ terms of the Smarandache-Wellin Sequence.
+The Smarandache-Wellin Sequence is a sequence formed by the Smarandache-Wellin numbers. Each Smarandache-Wellin number that make up the sequence is obtained by concatenating the consecutive prime numbers beginning from the first prime number i.e, 2. Thus, the first term of the sequence is 2, second term is 23, third term is 235, …. Similarly, the ‘n’th term is made up by concatenating the first ‘n’ prime numbers beginning from the first prime number i.e, 2. 
+Examples:
+Approach: 
+1) Initially find the first ‘n’ prime numbers and store them in a list.
+2) Next, concatenate each term of the list beginning from the first term and increasing the length of the concatenated term each time by one.
+3) Keep printing the concatenated terms so formed, each time, to generate the sequence.
+Below is the implementation in Python.
+
+Run on IDE
+Run on IDE
+

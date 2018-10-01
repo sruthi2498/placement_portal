@@ -1,0 +1,9 @@
+A number p greater than one is prime if and only if the only divisors of p are 1 and p. First few prime numbers are 2, 3, 5, 7, 11, 13, …
+The Lucas test is a primality test for a natural number n, it can test primality of any kind of number.
+It follows from Fermat’s Little Theorem: If p is prime and a is an integer, then a^p is congruent to a (mod p )
+Examples :
+Problems Associated with Lucas’s test are :
+Run on IDE
+Output:
+This method is quite complicated and inefficient as compared to other primality tests. And the main problems are factors of ‘n-1’ and choosing appropriate ‘a’. 
+Other Primality tests:

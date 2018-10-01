@@ -1,0 +1,8 @@
+Given a Binary Tree and a Level. The task is to find the node with the maximum value at that given level.
+
+The idea is to traverse the tree along depth recursively and return the nodes once the required level is reached and then return the maximum of left and right subtrees for each subsequent call. So that the last call will return the node with maximum value among all nodes at the given level.
+Below is the step by step algorithm:
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE

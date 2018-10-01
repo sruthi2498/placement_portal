@@ -1,0 +1,14 @@
+Given N, check if the number is Fibbinary Number or not. Fibbinary numbers are integers whose binary representation contains no consecutive ones.
+
+Examples :
+
+The idea to do this is to right shift the number, till n!=0. For every binary representation of 1, check if the last bit found was 1 or not. Get the last bit of binary representation of the integer by doing a (n&1). If the last bit of the binary representation is 1 and the previous bit before doing a right shift was also one, we encounter consecutive 1’s. So we come to the conclusion that it is not a fibonnary number. 
+Some of the first few Fibonnary numbers are:  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O( log(n) )
+Fibbinary Numbers (No consecutive 1s in binary) – O(1) Approach

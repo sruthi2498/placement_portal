@@ -1,0 +1,9 @@
+Non-modifying sequence operations 
+Modifying sequence operations
+Partition Operations
+Sorting
+Binary search (operating on partitioned/sorted ranges)
+Merge (operating on sorted ranges)
+Heap Operations
+Other Operations
+All STL articles of C++

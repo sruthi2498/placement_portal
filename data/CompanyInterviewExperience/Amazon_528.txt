@@ -1,0 +1,38 @@
+I was interviewed for the position of SDET-1 few days back at Chennai. Here is my interview experience: 
+Coding  round (Full code required):
+1) Given a linked list. Check whether it is a palindrome (without using  any extra space).
+2) Write a program to return the mirror tree of a given binary tree.
+3) Given a 2-D array, Rotate it by 90 degrees.
+F2F-I:
+1) Given a phone number. Check whether it is unique or not(ie no duplicates)
+I gave a o(n^2) TC algo first which he wanted to optimize. After 3 series of optimization ,I came up with a  o(n) solution with o(1) space complexity.
+2) The interviewer told me to code a level order traversal in a binary tree.
+3) An array of numbers are given such that the absolute difference between adjacent elements is 1.Given a value…Return the index of the 1st occurrence of that element.
+I gave an solution where in the 1st value is subtracted from the search value and hops in the array by that difference. if the reached value is the search value ,then return the index or just continue this process. The interviewer was impressed by my solution and told me to code it.
+
+F2F-2:
+1) Brief discussion of work in current company
+2) A given  array represents a tree in such a way that the array value gives the parent node of that particular index.The value of the root node index would always be -1.Find the height of the tree.
+        I gave a iterative solution which was told to be optimized. I did optimize it using memorization concept. I had to code it too.
+3) Write a program to find the median of 2 sorted arrays when merged.
+This problem is there in geeksforgeeks.
+4)Write an optimised  program to find the number of factors for a particular number
+This was a very simple qn.
+F2F-3:
+1) Brief discussion of work in current company. Why Amazon?
+2) Why do you want to leave current company? What do you like most and dislike most about your current company?
+3) Design a automation framework to test a simple site with a login page .Give the various test cases also that should be considered. Later they told me to give some  enhancements to the code too.
+4) Design a automation framework to test twitter api’s that is used in a particular site .
+5)Give the various automation scripts and tools that I implemented in my current project.
+F2F-4(Hiring Manager):
+1) Lots of HR, behavioral and team fit questions
+2) Describe the most challenging project I have worked on…and why is it challenging.
+3) An e-commerce site has a particular functionality created by a group A and another functionality created by group B. Design a testing framework that could test the work by A as well as A/\B(intersection).
+4) I was working  as a security Analyst.So I was asked about 5 critical hacking techniques that can be used to a e-commerce site and describe each.
+F2F-5(Bar raiser):
+ 1)Again behavioral and team fit questions.
+2)Write a program to check the validity  of  sorting algorithms used to sort Linked lists.Consider the case where 2 nodes have equal values too.
+I gave a optimized code using hash table concept. The interviewer was pretty satisfied with my coding ability and started asking me about my projects.
+3)More questions on my projects
+Thank you geeksforgeeks for helping me out during my preparation.
+

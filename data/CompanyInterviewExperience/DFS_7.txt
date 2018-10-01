@@ -1,0 +1,8 @@
+Given an array of words, find any alphabetical order in the English alphabet such that the given words can be considered sorted (increasing), if there exists such an order, otherwise output impossible.
+Examples:
+Naive approach:  The brute-force approach would be to check all the possible orders, and check if any of them satisfy the given order of words. Considering there are 26 alphabets in the English language, there are 26! number of permutations that can be valid orders. Considering we check every pair for verifying an order, the complexity of this approach goes to O(26!*N^2), which is well beyond practically preferred time complexity.
+Using topological sort:  This solution requires knowledge of Graphs and its representation as adjacency lists, DFS and Topological sorting.
+In our required order, it is required to print letters such that each letter must be followed by the letters that are placed in lower priority than them. It seems somewhat similar to what topological sort is defined as – In topological sorting, we need to print a vertex before its adjacent vertices. Let’s define each letter in the alphabet as nodes in a standard directed graph. A is said to be connected to B (A—>B) if A precedes B in the order. The algorithm can be formulated as follows:  
+Run on IDE
+Output : 
+The complexity of this approach is O(N*|S|) + O(V+E), where |V|=26 (number of nodes is the same as number of alphabets) and |E|<N (since at most 1 edge is created for each word as input). Hence overall complexity is O(N*|S|+N). |S| represents the length of each word.

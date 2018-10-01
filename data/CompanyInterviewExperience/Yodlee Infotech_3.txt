@@ -1,0 +1,33 @@
+It was a joint campus drive of 4 NITs (NIT Kurukshetra, NIT Jalandhar, NIT Delhi, NIT Srinagar J&K).
+
+Round 1: It was on online objective test consisting of 4 sections: Aptitude, Technical MCQs, Code snippet based MCQs and Coding part.
+Coding part had questions like balanced parenthesis check, etc.
+
+Round 2: It was Group Discussion on general topics.
+
+Round 3: Technical Interview. First question was to write a program for snake traversal of binary tree.
+Second, asked me to write code to check linked list is palindrome or not, in a single traversal and without using any other data structure.
+Then he asked about OOPS concepts like abstraction, encapsulation, inheritance and polymorphism in detail and how they are implemented while programming.
+
+Round 4: Technical and managerial. Gave me a situation where I am in testing team and I found that customer requirement was drop down list at a place but developer has used bullet selection, and is not ready to change it. How will you manage? I gave some good replies and he was convinced.
+Then he asked 25 horses puzzle (http://www.programmerinterview.com/index.php/puzzles/25-horses-3-fastest-5-races-puzzle/). I solved it.
+He then asked me to code it. I wrote an algorithm first and then the code. He was very impressed.
+He asked about virtual functions, abstract classes, pure virtual functions.
+
+Round 5: HR interview. There were normal HR questions like where do you see yourself 3 years from now, why yodlee, etc.
+
+Round 6: HR interview. It was again HR round with questions like why do you want to come  to Bangalore not Delhi, Introduction about family etc.
+
+Round 7: Next it was a telephonic round. He asked to optimize the code I wrote in coding round.
+Then he asked me candle puzzle on how to measure 30 min and 45 min.
+Then he asked me the chocolate puzzle (http://malini-math.blogspot.in/2010/11/chocolate-puzzle.html).
+What is paging and segmentation?
+What are ACID properties in DBMS?
+What is transaction and how is concurrency control done?
+What is the difference between string builder and string buffer?
+What is string pool in java?
+What is JVM, JRE, JDK?
+Differentiate between mutex and semaphore?
+Can you override private and static members?
+Contiguous and non-contiguous memory allocation?
+What are Smart pointers?

@@ -1,0 +1,33 @@
+Deque or Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+empty() function is used to check if the deque container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if parameter is passed
+2. Shows no exception throw guarantee.
+Run on IDE
+Output:
+Application :
+Given a deque of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the deque is empty, if not add the front element to a variable initialised as 0, and pop the front element.
+2. Repeat this step until the deque is empty.
+3. Print the final value of the variable.
+Run on IDE
+Output:
+size() function is used to return the size of the deque container or the number of elements in the deque container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if a parameter is passed.
+2. Shows no exception throw guarantee.
+Run on IDE
+Output:
+Application :
+Given a deque of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the size of the deque is zero, if not add the front element to a variable initialised as 0, and pop the front element.
+2. Repeat this step until the deque size becomes 0.
+3. Print the final value of the variable.
+Run on IDE
+Output:

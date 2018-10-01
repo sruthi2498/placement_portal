@@ -1,0 +1,11 @@
+Given Binary matrix. Task is count all zeros which are surrounded by one (may not be immediate neighbor).
+Note: here we are only taking four direction up, left, down, right.
+Examples:
+
+Idea is based on the DFS.
+First we remove all the zero value cells in the matrix which are reachable from boundary of Matrix using DFS. Note that any cell which is reachable from a boundary 0 cell is not surrounded by ones. 
+After that we count all zeros which are left in binary matrix.
+Below c++ implementation of above idea. 
+Run on IDE
+Output:
+Time Complexity: O(Row*Col)

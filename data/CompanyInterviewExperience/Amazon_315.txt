@@ -1,0 +1,19 @@
+Given an array of distinct elements and a number x, find if there is a pair with product equal to x. 
+Examples : 
+Naive approach ( O(n2) ) is to run two loops to consider all possible pairs.  For every pair, check if product is equal to  x or not.  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Better Solution (O(n Log n) : We sort the given array. After sorting, we traverse the array and for every element arr[i], we do binary search for x/arr[i] in the subarry on right of arr[i], i.e., in subarray arr[i+1..n-1]
+ 
+Efficient Solution ( O(n) ):  We can improve time complexity to O(n) using hashing.  Below are steps.
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+
+In the next set, we will be discussing approach to print all pairs with product equal to 0.

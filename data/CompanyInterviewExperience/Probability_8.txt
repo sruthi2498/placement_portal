@@ -1,0 +1,18 @@
+Given an array of 1 and 0’s, where Ai = 1 denotes that ith day was a rainy day and Ai = 0 denotes it was not a rainy day. The task is to find the probability that the N+1th was a rainy day. 
+Examples: 
+Input: a[] = {0, 0, 1, 0}
+Output: .25
+Since one day was rainy out of 4 days, hence the probability on
+5th day will be 0.25
+Input: a[] = {1, 0, 1, 0, 1, 1, 1}
+Output: 0.71 
+ The probability of rain on N+1th day can be found out using the below formula:
+First, count the number of 1’s and then the probability will be the number of 1’s divided by N i.e. count / N.
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N)

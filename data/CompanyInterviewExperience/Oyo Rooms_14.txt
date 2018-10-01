@@ -1,0 +1,79 @@
+Round-1(Online Round):  This round was conducted on Hackerearth which comprised of 2 coding questions and 15 MCQ’s (from OS, DBMS, C++, C, Networking).
+1. Given a string of parentheses.Find if the string is balanced or not.
+Example:
+{(}(}
+{{([])}}
+Output:
+NO
+YES 
+2.Given a string s.Count no of subsequences which is starting with x and ending with y.
+Example:
+s=”abc”
+x=a
+y=c
+Output:
+2
+Around 45 were selected for technical interview.
+Round-2(Technical Interview):
+Firstly he asked me to introduce myself.After that he asked me two coding questions .
+1.He started telling me the question with some story of Web Browser.After telling me all the things the question summed up to Transform a tree to its greater sum tree.
+https://www.geeksforgeeks.org/transform-bst-sum-tree/ 
+I gave him reverse inorder traversal approach using recursion.After explaining the answer he asked me to write the code which i did in 2-3 minutes.He asked me to do a dry run of code against a test case.He was satisfied with my answer.Before he moved to second question I told him i can do this without taking any recursive space or stack .I gave him reverse morris inorder traversal approach.He was pretty impressed by my approach and after he moved to next question.
+2.Rearrange a given Linked list.
+https://www.geeksforgeeks.org/rearrange-a-given-linked-list-in-place/
+ This question was so simple I did that in a few minutes.He asked me to write the code for the same.
+ After 30 minutes results came out and i was selected for the next technical round.
+ 
+Round-3:
+The interview started with tell me about yourself.She asked me about how was my previous technical round.
+ She asked my what is my weakness .I told her i am not good at DP.Then she asked me some dp questions. ?
+1.Minimum Cost Path
+https://www.geeksforgeeks.org/min-cost-path-dp-6/
+Firstly She gave me a test case and I had to find the min cost path .After that she asked me to write down the code .I did that in 5 minutes.She asked me to write test case and do a dry run for the test cases which i had written.
+2.Coin Change Problem
+https://www.geeksforgeeks.org/coin-change-dp-7/
+Firstly I told her approach and explained the logic behind this question.After that she asked me to code Which I did easily.
+After that She gave me a question which i really don’t remember.But the question can be solved using HashMap.So She asked me about Internal Implementation of HashMap.I told her I can give you approach but i don’t know the exact implementation.
+Then She asked me some questions from AVl Tree. I told her how avl tree works and its implementation.
+Then she asked me if i had given any interview before. I told her about Microsoft.She asked me what happened in Microsoft Interview.
+Then She started asking me some System Design Questions.  Design a parking lot system.
+She told me she was not expecting any perfect answer .She just wanted to know my approach.So i told her how will i handle a large database using Horizontal partitioning and indexing.
+I gave her whatever was coming in my mind in that moment.
+So she was quite impressed with my approach.Then She asked me to how will you approach this one using OOP concepts.I answered this question using polymorphism, inheritance.
+After that  she told me that You are really good at designing.
+Then she gave me some coding questions.
+1.Find next greater number using same set of digits.
+ https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+She just asked me how will you approach this question.I told her the logic but she didn’t ask me to  code .
+2. Then she gave me some tree and linked List questions which were pretty simple.
+3. This question was similar to minimum time required to rot all oranges.
+https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
+I gave her BFS approach.
+4.Print all permutations of a given Stringhttps://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+I gave her recursive approach and after that she asked me to code and calculate the running time complexity.
+5.Sort an array of 0’s, 1’s and 2’s. https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+Then she asked me some basic concepts from DBMS, OS, OOP.
+After that she asked me one more coding questions.
+Implement Queue using Stack.
+https://www.geeksforgeeks.org/queue-using-stacks/
+I gave her two methods.One was by making enqueue operation costly and another was by making dequeue operation costly. She asked me to write down the code for both .
+After all of these she was so impressed that she asked me to wait for my 3rd technical round.
+
+Round-4:
+The interview started with how was your day, How was your previous round, Tell me something about yourself. This round was more theoretical. We had a detailed discussion on semaphore, mutex, deadlock, virtual memory .
+Then he asked me what is process, thread.
+What are the difference between them.
+He gave me scenario suppose one mutex lock is given to particular thread called T1.And if the T1 is again requesting the same mutex lock, what will happen.
+I told him about deadlock and he asked me how will you tackle this problem.
+I answered all the questions correctly and he was satisfied with my answer .
+So he moved to DBMS.
+Firstly he asked me What is indexing.
+What are the advantages of indexing .
+Then he asked me a coding question.
+He asked me if i know about inorder traversal or not.I said Yes.Then he asked me can you do inorder traversal without using recursion.
+I told him i can do it without recursion and stack also(again the morris one).
+Then i explained him how will i do it .He asked me to code it.
+After that he said “that’s all from my side”.Do you have any questions?
+I asked him some questions.He answered my each question with explanation.
+So after 1 hour i got the news that i got selected .
+It certainly was the best day of my life. 🙂

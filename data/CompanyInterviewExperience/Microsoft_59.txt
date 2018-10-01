@@ -1,0 +1,10 @@
+Round 1:
+The first round consisted of two coding questions to be solved in 1 hr –
+The selection criterion was to complete at least one complete running code, with sample cases. It was a pen and paper round, and the mentors were around in case any sort of help was required. This was a fairly easy round. 13 candidates were shortlisted after this round.
+Round 2:
+The interview began with a little conversation about college and subjects being taught. Then the interviewer asked me if I can code a question in graphs, I said yes. So he asked me to code the following problem-
+Given a directed graph and a start node, find whether it is possible to reach out to all the other nodes in the graph. After I wrote the code, he asked me to extend it to all nodes, i.e. instead of a single source, the code should output YES if all the nodes are connected to one another, else answer NO.
+While I was writing the code on paper, the interviewer was scanning each and every word on my resume and was asking me questions in between. He checked my all online programming handles like codechef, hackerrank etc.
+Suggestion: Do not lie on your resume, mine was verified thoroughly.
+Then he gave me the next problem related to trees. It was a situation based question, which on decoding was equivalent to this problem- Given a BST, delete the smallest element from the tree.
+The next question was an easier one. Given an array of pairs (height,coins), I was asked to find the sum of coins for a particular height.

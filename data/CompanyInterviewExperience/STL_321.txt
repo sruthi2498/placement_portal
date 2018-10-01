@@ -1,0 +1,11 @@
+
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.
+This function is used to swap the contents of one list with another list of same type and size.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It throws an error if the lists are not of the same type.
+2. It throws an error if the lists are not of the same size.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:

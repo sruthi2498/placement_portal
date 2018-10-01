@@ -1,0 +1,17 @@
+Telephonic round:
+https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/
+Round 1:
+You have two lane road and there are two sensors,
+Input of the function is two arrays filled with 24 hours of data and value/item of array is tuple having direction and time. find following things,
+Finding no 1 is easy.
+Only issue is with 2,3 as we don’t have any unit of distance given anywhere. I asked him he told that’s a problem ?
+This what we can do without distance we can at-least find the minimum and maximum time for sensor A and B just traversing an array but after that finding a distance that’s still a mystery to me ? in last few minutes he told me take a guess and do it but no enough time.
+Round 2:
+Build an UBER platform no code discussion about how will you do it,
+Round 3:
+Build Eclipse IDE. Told me to write down class diagram of all components.
+Round 4:
+https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
+No offer by the way.
+In SDE-I two designing questions. I didn’t expected that. Even though i have done some designing over past 2 years but never attempted problem as big as an IDE.
+Hope this helps and PEACE.

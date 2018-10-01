@@ -1,0 +1,13 @@
+M items are to be delivered in a circle of size M. Find the position where the M-th item will be delivered if we start from a given position K.  Note that items are distributed at adjacent positions starting from K.
+Examples :
+
+We check if the number of items to be distributed is greater than our remaining positions in current cycle of circle or not. If yes, then we simply return m + k – 1 (We distribute items in same cycle starting from k). Else we compute number of remaining items after completing current cycle and return mod of remaining items.
+Below is the implementation of the above idea
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(1)

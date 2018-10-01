@@ -1,0 +1,5 @@
+I attended interview for Ola high availability team. Below are the questions.
+1) Find k distant nodes in given tree. The paths going through parent should also be printed.
+2) Find the first non repeating character in given string.
+3) Give design for leader board implementation. 1000 customers with maximum points should be displayed on the leader dashboard. UI should handle real time changes. A customer’s points are updated after each ride/order.
+

@@ -1,0 +1,54 @@
+There are N fishing spots and 3 gates. At each gate there are some fishermen waiting to reach the nearest unoccupied fishing spot. (Total no of fisherman <=N)
+Distance between consecutive spots = distance between gate and nearest spot = 1 m
+Only 1 gate can be opened at a time and all fishermen of that gate must occupy the spots before the next gate is opened.
+Distance is calculated as gate to nearest spot + nearest spot to closest vacant spot.
+Find the total sum of minimum distances need to walk for all the fishermen.
+Inputs to be taken:
+Number of fishing spots
+Position of the gates
+Number of fishermen at each gates 
+Follow this example:
+
+Total number of fishing spots= 10
+5 fisherman at gate 1 located at position 4,
+2 fishermen at gate 2 located at position 6,
+2 fishermen at gate 3 located at position 10,
+If gates are opened in order G1->G2->G3
+The arrangement will be:
+
+Distance is calculated as gate to nearest spot + nearest spot to closest vacant spot.
+After G1 gate is opened, fishermen are placed at spots marked with 1.
+Distance = 11m
+After G2 gate is opened, fishermen are placed at spots marked with 2.
+Distance = 5m
+After G3 gate is opened, fishermen are placed at spots marked with 3.
+Distance = 3m
+Total distance in this order : 11 + 5 + 3 = 19
+If gates are opened in order G2->G1->G3
+Case1 – Last fisherman of gate 2 is placed at position 7
+the final arrangement will be:
+
+After G2 gate is opened, fishermen are placed at spots marked with 2.
+Distance = 3m
+After G1 gate is opened, fishermen are placed at spots marked with 1.
+Distance = 12m
+After G3 gate is opened, fishermen are placed at spots marked with 3.
+Distance = 3m
+Total distance in this order : 3+12+3 = 18
+Case2 – Last fisherman of gate 2 is placed at position 5
+the final arrangement will be:
+
+After G2 gate is opened, fishermen are placed at spots marked with 2.
+Distance = 3m
+After G1 gate is opened, fishermen are placed at spots marked with 1.
+Distance = 14m
+After G3 gate is opened, fishermen are placed at spots marked with 3.
+Distance = 3m
+Total distance in this order : 3+14+3 = 20
+Other cases are redundant
+so minimum distance is 18 
+Solution:
+Generate all combinations and assigns fishermen in all gate combinations to calculate minimum walking distance.
+Generating combination can be done in both recursive and iterative way. Now to eliminate unnecessary permutations we can conclude that, for minimum walking distances, fishermen from a particular gate must stay together i.e they should occupy consecutive fishing spots. Thus we can visualise the problem as 3 blocks(group of fisherman) sliding through the entire fishing range. The minimum of which is the answer.
+Run on IDE
+

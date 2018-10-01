@@ -1,0 +1,22 @@
+I was recently interviewed by housing.com and received the offer. Following is my experience.
+Applied through Career page
+1st Round : Online Written Round
+Coding Round on Hackerrank . 4 Coding questions. 2 were easy , 1 medium and 1 difficult.
+In each interview , a link was shared where a full running code was required.
+
+2nd Round : 1st Technical Interview
+Longest Palindromic substring (Full running code)
+Length of longest substring with no repeating character (Full running code)
+Discussion on projects
+
+3rd Round : 2nd Technical Interview
+Minimum number of jumps to reach the end
+All root to leaf paths with sum k
+We have n apple tree in a garden(number of apple in each tree is given) and we can choose to take apple from those 3 times (must take apple from all trees). the number apples taken in 1st round should be greater than number of apple in taken in 2nd , similarly for 2nd and 3rd time. In how many ways we can take apples from tree.
+4th Round : 3rd Technical Interview
+LCA of n-ary tree (Full running code)
+Lots of discussion on each and every project.
+Few basic Questions on DBMS like indexing and OS
+5th Round : 4th Technical Interview
+A web crawler is crawling is wiki pages, how to store each page and apply phrase search in all the pages. Lots of discussion on Database schema and search algorithms that can be applied
+A Question based on Artificial Intelligence.

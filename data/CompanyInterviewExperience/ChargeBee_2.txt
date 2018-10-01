@@ -1,0 +1,32 @@
+Chargebee the Hot Startup came to our campus recently.. Here is my Interview Experience
+Round 1 : (1.5 hrs)
+*there were few c based output questions.
+*programs with blanks were given and we were asked to fill .
+*Error identification in a program .
+
+Round 2 :(Written code)
+1)To check whether a hour glass is fully filled or not. Function must return 1 if full and 0 if not where n >=5 (n is the number of lines)
+* – – – *
+  * – *
+    *
+  * * *
+* * * * *
+Fully filled in bottom half.. So return True .
+2)Given a Word
+To find all the anagrams of the word in a given sentence .
+3)Given a sentence . To increment the count for each character , if that character is coming in a word (from the given sentence) more than once .
+Eg:
+Given sentence : mississippi River
+result : the counter array
+i=1;
+p-1;
+r=1;
+s=1;
+
+Round 3:(coding)
+Was asked to code all questions from the previous round(r2)
+–was eliminated from this round
+followed by a long coding round and then 3 rounds of  technical interviews .
+4 people were selected finally as ChargeBeEs :P:P
+Though got eliminated pretty early.. This was a great interview experience..
+Thanks to geeksforgeeks..:) 🙂 🙂

@@ -1,0 +1,22 @@
+Forward List in C++ | Set 1 (Introduction and Important Functions)
+More functions are discussed in this article
+Some of the operations other than insertions and deletions that can be used in forward lists are as follows :
+1. merge() :- This function is used to merge one forward list with other. If both the lists are sorted then the resulted list returned is also sorted.
+2. operator “=”  :- This operator copies one forward list into other. The copy made in this case is deep copy.
+Run on IDE
+Output:
+
+3. sort() :- This function is used to sort the forward list. 
+4. unique() :- This function deletes the multiple occurrences of a number and returns a forward list with unique elements. The forward list should be sorted for this function to execute successfully.
+Run on IDE
+Output:
+
+5. reverse() :- This function is used to reverse the forward list.
+6. swap() :- This function swaps the content of one forward list with other.
+Run on IDE
+Output:
+
+7. clear() :- This function clears the contents of forward list. After this function, the forward list becomes empty.
+8. empty() :- This function returns true if the list is empty otherwise false.
+Run on IDE
+Output:

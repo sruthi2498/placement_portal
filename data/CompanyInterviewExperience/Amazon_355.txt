@@ -1,0 +1,16 @@
+Given a matrix of size M x N, there are large number of queries to find submatrix sums.  Inputs to queries are left top and right bottom indexes of submatrix whose sum is to find out. 
+How to preprocess the matrix so that submatrix sum queries can be performed in O(1) time.
+Example : 
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to first create an auxiliary matrix aux[M][N] such that aux[i][j] stores sum of elements in submatrix from (0,0) to (i,j). Once aux[][] is constructed, we can compute sum of submatrix between (tli, tlj) and (rbi, rbj) in O(1) time. We need to consider aux[rbi][rbj] and subtract all unncessary elements. Below is complete expression to compute submatrix sum in O(1) time.
+Illustration:
+How to build aux[M][N]?
+1. Copy first row of mat[][] to aux[][]
+2. Do column wise sum of the matrix and store it.
+3. Do the row wise sum of updated matrix aux[][] in step 2.
+Below is the program based on above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Source: https://www.geeksforgeeks.org/amazon-interview-experience-set-241-1-5-years-experience/

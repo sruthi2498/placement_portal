@@ -1,0 +1,34 @@
+I recently appeared for amazon which came to our campus. Here is my experience. 
+Shortlisting Round.
+There were 20 MCQ and 2 programming questions. Each correct answer carried 1 mark and -0.25 for a wrong answer. Programming questions were:
+a.  Given a number with the number of digits in the range of 10-50, find the next higher permutation of the number. If such a number doesn’t exist, return -1.
+b. Given an array of strings, you need to find the longest running sequence of a character among all possible permutations of the strings in the array.
+INPUT:
+ab
+ba
+aac
+OUTPUT:
+a,3
+Then there were 4 rounds of interview.
+T1
+a. Given link list segregate odd elements first and even elements afterwards.
+b. Given a BST of memory sizes. Find best fit for a memory block of size M.
+T2.
+a. Given 2 sorted arrays of size m and n+m(with n elements) , merge
+them into the latter..
+b. Given a character array find the first element that repeats itself.
+T3.
+a. Given a binary tree connect all nodes in a level through link list.
+b. Some question related to share market which boiled down to find maximum difference between two elements such that second element appears after the first one.
+c. What is thrashing ?
+d. Real world application of heaps?
+e. Minimum spanning tree and topological sort .
+T4.
+Around half an hour HR then
+Given a function node* inplacemergesort(node* n1, node* n2) which takes 2 linked lists as input and performs in-place merge sort and returns the final list.  How will you test it and make sure it does what it claims.
+I was hired 🙂 .
+The interviewers were very friendly, patient and looked for optimal solution to each question .
+I am very thankful to geeksforgeeks for such a great site and the way its maintained.It really helped me a lot for my preparation. Keep up the good work guys 🙂
+Thanks.
+Run on IDE
+

@@ -1,0 +1,29 @@
+Round 1: 
+It was a coding round hosted on cocubes.com. There were one 3 marks question and two 5 marks question which were needed to be solved within an hour. Cutoff was 5 out of thirteen. There was no partial marking. If all the hidden test cases are passed, only then you will be awarded full marks otherwise zero. Please write the most optimised solution even for the 3 mark question. The hidden test cases are exhaustive so write the most efficient code(brute force solutions are not accepted ). TLE will result in a zero. And also look out for all the corner cases. You wouldn’t know whether your code is correct or not until the final results.
+Note: all the main codes are given , you only have to complete the function. You can include a header file between functions. The white space given to you for writing the code is all yours, you can manipulate it anyway you want.
+Questions :
+My set was:
+3 marks questions were mainly based upon arrays and strings (manipulation, greedy, dynamic programming)
+All of the 5 marks questions were from trees, except one which was from graphs(DFS)
+Practice trees thoroughly.
+54 students out of 150 were selected in this round.
+Round 2:
+It was a written round. 54 students were divided into groups of 7-8. Each group was called one by one. The interviewer gave 20 mins to write one code. All the codes that were asked to different groups were DFS /BFS based .
+Our group was asked: Write a code to determine the number of islands(cluster of 1s) in a binary matrix.
+other questions were-
+1.Write a code to determine the shortest path( 1 is path 0 means blockage) in a binary matrix.
+2.  Write a code to determine the size of the largest  island(cluster of 1s) in a binary matrix.
+3.Improvised version of the rotten oranges problem.
+4. Check whether 2 nodes  lie in the same root to leaf path in a binary tree.
+Write legible codes. Corrections and scratchings are important. Show that you worked on the problem. Even if you faced the question before do not just blatantly write the code. The interviewer will think you mugged up the question before. 2 people in our group were rejected for this. Take your time and show your working.
+while submitting the code to the interviewer, you need to explain your approach. This is very crucial. Lucidly explain your code line by line. The key concepts used and the purpose of various variables you initialized. For example in a DFS a visited matrix is very important to avoid repeated cycles , explain and point out that matrix and why you used it. Do not indulge in a new method if you can’t explain it clearly to the interviewer. Even if he nods, he may not be fully convinced since you deviated from general methods (this is a cautionary). A guy was rejected from this round because he gave a dp solution instead of a DFS solution. Although his method was absolutely correct, He failed to explain it to the interviewer. So stick to general solutions from GeeksforGeeks. The paper was submitted to the interviewer for further evaluation. Then the interviewer asked some basic questions related to the code. Why we preferred DFS over BFS. Whether the problem can e solved using BFS. Basic differences between the two methods. When is BFS preferred over DFS. Speak up, he is marking you constantly.
+Evaluation was based on- Speaking skills, Technical knowledge, Logical and thinking ability, Code, Overall impression.
+After this round 35 students were selected.
+Note: Scores are cumulative of round 1 and round 2. Although Maximum marks of round 2 was not known. But it had greater preference over round 1.
+Round 3:
+This was group interview round. Puzzles and codes were asked. 4-5 students were called at once. And the interviewer gave one problem. We were asked the following puzzle : There are 15 wine bottles one of them is poisoned. There are four glasses and 4 people. How would you mix the wines and give it to them and detect the poisoned bottle. 1 drop of poisoned wine can kill a person. The interviewer hinted us that it is a digital logic question.We were given a sheet of paper to write our logic. I couldn’t figure out the solution using binary codes instead gave a different solution. the solution was similar to the egg dropping problem. I wrote my solution on the paper with proper explanation and recursive tree. Calculating the worst case scenario with maxims casualties. I explained the solution the interviewer. He was impressed. He then took the sheet of paper and stapled it with the paper from the previous round. Do not copy solutions from others. Try to be innovative and interactive. Those who could not solve the problem were given extra time while others were asked to leave. Don’t go blank in this round, because chances of elimination is high.Because they are looking to eliminate in this round.
+Evaluation was based on- Speaking skills, Technical knowledge, Logical and thinking ability, Code, Overall impression.
+Note: Final selection scores were calculated cumulative of all the previous rounds (1,2 & 3)
+Other groups were given the following problems:
+Minor mistakes in your code is acceptable. Interact with the interviewer and get it corrected.
+Since there was no time we didn’t have the HR round and the final results were declared after all the written sheets were evaluated and checked by the panel. 29 students were selected. I was one of them :))

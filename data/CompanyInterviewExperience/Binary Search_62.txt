@@ -1,0 +1,15 @@
+Given an array arr[0 … n-1] containing n positive integers, a subsequence of arr[] is called Bitonic if it is first increasing, then decreasing. Write a function that takes an array as argument and returns the length of the longest bitonic subsequence.
+A sequence, sorted in increasing order is considered Bitonic with the decreasing part as empty. Similarly, decreasing order sequence is considered Bitonic with the increasing part as empty.
+Expected Time Complexity: O(n Log n)
+Examples:
+
+We have discussed O(n2) solution in Dynamic Programming | Set 15 (Longest Bitonic Subsequence)
+The idea is to follow Longest Increasing Subsequence Size (n log n) to see the way length of Longest Increasing subsequence (LIS) is calculated.
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(nLogn)
+Auxiliary Space: O(n)

@@ -1,0 +1,41 @@
+TCS conducts codevita(online coding contest) every year and consider it as a major recruiting process. But this year the structure of contest was modified slightly than previous years. Earlier codevita is used to be a team contest of 2 members in each team, and top 1000 teams will get a chance to interview at TCS. But unlike previous year, this year it was an individual contest and top 2000 coders are called for an interview at TCS offices in different regions.
+Interview Day
+First, we were taken to a seminar hall and an experienced employee briefed us about TCS and the interview process and schedule of the day.
+So we were told that there will be three rounds of interviews first will be Technical Round followed by a Managerial and HR round. Food and coffee will be taken care of :p and they also told us that it may took them around a month to deliver the results of today’s interview.
+The interview process started at 11 AM and I was called around 2 PM for the interview. There were three interviewers, namely Technical, Managerial and HR.My interview was of around an hour and I was asked questions back to back repeatedly from the three interviewers.
+Interview
+First Question : Would you like to introduce yourself?
+Me : As I was sitting in front of both Technical interviewer and HR, so I focused on both of my Technical as well as interpersonal skills while answering this question. The interviewer seems to be impressed by my answer.
+Second Question : Please explain the problem statements of all of the problems solved by you in codevita.
+Me : I explained him the problem statements of all the questions attempted by me. 
+Third Question : He picked up a question solved by me in codevita. The question was, given a palindromic string your task is to generate all permutations of this string which are palindromes and print all of them in lexicographically sorted order. He told me to explain my approach which I used in codevita.
+Me : I had solved this in codevita using next_permutation() available in C++ because of shortage of time. He told me to explain the working of this function, how does it works. I explained.
+Fourth Question : He asked me that can I solve the above question without using any predefined functions.
+Me : I gave him my approach. He was impressed.
+Fifth Question : Write a program to reverse a string.
+Me : Given an approach in linear time, by swapping characters from last and first.
+Sixth Question : Which data structure will you use to calculate maximum element in a list efficiently?
+Me : Max Heap   
+Seventh Question : Explain the internal implementation of Max Heap.
+Me : Told him about the construction of max heap.
+The Technical Interviewer seems to be impressed. But doing good in technical interviews only will not guarantee you a job at TCS. Now, the HR and Managerial questions began.
+Note: For HR interviews, keep yourself calm and have a good presence of mind.
+First question : Why don’t you code in Java?
+Me : I told him that, I know Java but I am more comfortable with C++.
+Second Question : Difference between Java and C.
+Me : Told him the basic OOP difference.
+Third Question : Why don’t you like Java?
+Me : Sir, I never told that I don’t like Java. I told that I am more comfortable with C++. (Here is where your presence of mind is needed, they might try to confuse you).
+Fourth Question : Do you code on other websites also? What is the difference between those and codevita?
+Me : I told him about codechef and codeforces and explained to him the format of contests hosted there and codevita.
+Fifth Question : You are good at programming. But you need to solve business problems here. Why should we hire you?
+Me : This is where your research on TCS will help you. I answered this question by telling him about my management skills along with coding skills and also explained to him a few business ideas to show my interest in interest and how can use programming to implement them. I also told him that along with programming I have worked in other domains also like web development, content writing etc. so I am not restricted to programming and always eager to learn new things. (“He was impressed from my answer”).
+Sixth Question : Why TCS?
+Me : I started by telling him some achievements of TCS and the things I will get to learn at TCS which I won’t at other companies. I ended my answer to this question by reminding him my interest in solving business problems and telling that TCS  provides study leave for 2 years between your JOB to go for MBA or other higher education. So it is the best suited place for me to work. (He seems to be impressed)
+Seventh Question : Do you have any questions for me?
+Me : I have asked him about the work culture and projects I will be working on.
+Eighth Question : Are you sure you want to join TCS? (*Smile on his face*).
+Me : Yes Sir, (Confidently) :p
+P.S. I am writing this experience after around a month, so I might have forgotten some questions in between.
+Results were announced after a month, and two students from my college were selected including me.
+Suggestions:

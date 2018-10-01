@@ -1,0 +1,23 @@
+Given three numbers n, r and p, compute value of nCr mod p.
+Examples:
+We strongly recommend to refer below post as a prerequisite of this.
+Compute nCr % p | Set 1 (Introduction and Dynamic Programming Solution)
+We have introduced overflow problem and discussed Dynamic Programming based solution in above set 1. The time complexity of the DP based solution is O(n*r) and it required O(n) space.  The time taken and extra space become very high for large values of n, especially values close to 109.
+In this post, Lucas Theorem based solution is discussed.  Time complexity of this solution is O(p2 * Logp n) and it requires only O(p) space.
+Lucas Theorem:
+For non negative integers n and r and a prime p, the following congruence relation holds:
+
+where
+
+and
+
+Using Lucas Theorem for nCr % p:
+Lucas theorem basically suggests that the value of nCr can be computed by multiplying results of niCri where ni and ri are individual same-positioned digits in base p representations of n and r respectively..
+The idea is to one by one compute niCri for individual digits ni and ri in base p.  We can compute these values DP based solution discussed in previous post.  Since these digits are in base p, we would never need more than O(p) space and time complexity of these individual computations would be bounded by O(p2).
+Below is implementation of above idea
+Run on IDE
+Run on IDE
+
+Time Complexity: Time complexity of this solution is O(p2 * Logp n).  There are O(Logp n) digits in base p representation of n. Each of these digits is smaller than p, therefore, computations for individual digits take O(p2). Note that these computations are done using DP method which takes O(n*r) time.
+Alternate Implementation with O(p2 + Logp n) time and O(p2) space:
+The idea is to precompute Pascal triangle for size p x p and store it in 2D array.  All values needed would now take O(1) time.  Therefore overall time complexity becomes O(p2 + Logp n).

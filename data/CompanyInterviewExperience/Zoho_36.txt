@@ -1,0 +1,15 @@
+Round-1 (aptitude test)
+This was unlike other aptitude tests. It contained output based questions. Questions were mainly based on logic and loops.
+Round-2(coding)
+They gave questions one after the other. Initially it was easy, then ,the difficulty level increased. The first one was to check whether a year is leap year and the last one was to sort numbers based on digits starting from most significant numbers. Eg: input-100 1 11 21 2 3.   Output-1 100 11 2 21 3
+Each question was a continuation of the previous one, so its good if  code is written as function.
+Round-3
+This was also coding round. They asked us to develop a train reservation system. Here also each question was continuation to the previous one(better to write code as function).The task was to write a program to book a ticket, cancel, add to waitlist…. Some constraints were also given.
+Round-4(personal interview)
+They Asked about  classes, private constructors, garbage collections, sql , puzzle(1,7,26,?)
+
+Round-5
+In this round, they asked about kernel, some puzzles , print letter ‘X’ using ‘*’.
+An array contains values between 0 to n-1. Task is to find the duplicate numbers with time complexity o(n) and space complexity o(1). (Use hashing on the same array- add n to a value if the index has already been visited).
+Thank a lot  geeksforgeeks .
+

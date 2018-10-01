@@ -1,0 +1,9 @@
+Samsung Noida R & D came to our campus for internships.
+Round 1: Coding Round
+The online round had 1 question and 3 hours to solve it. It was a simple implementation question: You are given the positions of a horse and other pieces in a chess board. Find out the number of situations where the horse takes out a chess piece in one move provided that no piece is blocking its path. You can compile as many times as you want but the number of submissions was only 3 hence corner cases must be dealt with carefully.
+Round 2: Technical Interview
+This round lasted for about 20 minutes. I was asked to write the code to delete a given node in a doubly linked list.
+Next I was given the following question: https://www.geeksforgeeks.org/collect-maximum-points-in-a-grid-using-two-traversals/ with DP and DFS variations.
+I was asked about Copy constructor and why we use Copy constructor instead of memcpy. I was also asked about virtual functions and their use. The interviewer made me write the code to explain my examples clearly. Lastly he asked about virtual memory – What is virtual memory and how it works in detail.
+Round 3: HR Round
+This was a quick one. He asked me about my family and other stuff. Lastly he asked me if I got selected in which area I would like to work in Samsung mobile.

@@ -1,0 +1,36 @@
+Online assessment- MCQ Round: (Duration ~ 2hrs)
+There were around 4 sections each of which were further divided into subsections:-
+Time management is key. Accuracy and speed both are important to crack this round. The questions weren’t the regular question  you would find for any other aptitude test. Y After this round 53 students were shortlisted.
+Online Coding Round        (1 hr)
+Output: 0        (since input is non-decreasing)
+Input:  5
+14732
+Output: 3
+We have to print the maximum achievable profit. 
+Note: The values of T[i], A, B may be negative. And the range of C[i] is 1 to n.
+This was not an elimination round. However a few students were asked about their code during the first interview (I was not one of them and I am glad, since I did not perform very well on the test)
+Interview Round 1 (30 min)
+My interviewer was extremely sweet. He told me that he was going to ask the same questions that were asked to him during his placement:
+Output: (1,7),(3,5)
+Expected Complexity : O(n) 
+Note that he was extremely particular about how the output must be stored in an array and then printed later rather than the practise that we generally follow, that is to print the output directly.
+Eg: n=6                Array:  {2,1,4,6,3}
+Output: 5
+        Assume that we have a bag of marbles and there is a 100 storey building. When we drop the marble from the kth floor it breaks such that from 0 to k-1th floor the marble does not break and from k to 100th floor, the marble will break. Once a marble has been dropped, it can’t be retrieved. What will the maximum number of marbles required to identify that floor.
+I took 2 minutes to ponder about it and suggested a solution on the lines of binary search and answered 7 (log2 100 = 7)
+He was happy with my approach. I asked if there was a better approach, he said that he likes my approach. 
+ At last, he asked if I had any questions for him to which i asked, how is it to work at Oracle to which he replied, “I feel at college!”
+Interview Round 2 (45 min)
+First of all the panelist that I was assigned had interviewed the previous candidate for over 1hr 45 mins and I was extremely intimidated. I was called for the interview and we exchanged greetings. He said he did not get them time to go through my resume and if I could brief him about it. I  mentioned that one of my projects is hosted on the web and asked me the URL and checked it out.
+Then he flipped through my previous scratch sheets and asked about the questions I was asked in the previous round. Then we proceeded with questions :
+        S = ……….(…(…(..)(…))….)(…)
+                  *                *
+        The output must be the data i have indicated within the asterix
+I wrote a function for this and he was satisfied with my approach. I asked him if he has any feedback on my code to which he suggested one or two points
+There are n birds and m trees. If 2 birds sit on each tree, there remains one tree with no birds. If      1 bird sits on each tree, there remains a bird with no tree to sit on. Form the equations to find m and n.
+Interview Round 3 (45 mins)
+The interviewer made me comfortable and asked if I was tired, etc. Then a few ice breaker questions like tell me about yourself.
+Though I was not very happy about my performance in this round but the interviewer made sure I felt comfortable and also told that he liked how I was vocal during the process and moved in the right direction with subtle hints.
+Interview Round 4 – HR (10mins)
+The questions were pretty generic :
+At last, while signing off, I gave her a firm handshake and said, hope to see you soon at the Oracle office, to which she gave me big smile! 

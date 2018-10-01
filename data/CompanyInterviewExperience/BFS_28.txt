@@ -1,0 +1,9 @@
+In previous post, BFS only with a particular vertex is performed i.e. it is assumed that all vertices are reachable from the starting vertex. But in the case of disconnected graph or any vertex that is unreachable from all vertex, the previous implementation will not give the desired output, so in this post, a modification is done in BFS.
+
+All vertices are reachable. So, for above graph simple BFS will work.
+
+As in above graph a vertex 1 is unreachable from all vertex, so simple BFS wouldn’t work for it.
+
+Run on IDE
+Output:
+

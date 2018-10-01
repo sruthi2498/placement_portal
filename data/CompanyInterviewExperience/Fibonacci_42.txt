@@ -1,0 +1,12 @@
+Given an array with positive number the task is that we find largest subset from array that contain elements which are Fibonacci numbers.
+Asked in Facebook 
+Examples :
+
+A simple solution is to iterate through all elements of given array. For every number, check if it is Fibonacci or not. If yes, add it to the result.
+Below is an efficient solution based on hashing.
+Run on IDE
+Run on IDE
+
+
+Reference : 
+https://www.careercup.com/question?id=5154130839470080

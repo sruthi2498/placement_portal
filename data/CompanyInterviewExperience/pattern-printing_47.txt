@@ -1,0 +1,9 @@
+Since Christmas is right at the door, its time to celebrate it in the programmer’s way. Lets build a decorative Christmas tree in C.
+To print a Christmas tree, we are printing pyramids of various sizes just one beneath the other.
+For the decoration, a random character is printed at each position.
+Height and randomness can be adjusted. This is been repeated frame after frame to give the illusion of a true event.
+Example:
+
+Lets see the code.
+
+Run on IDE

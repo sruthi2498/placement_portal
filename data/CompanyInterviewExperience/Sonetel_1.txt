@@ -1,0 +1,20 @@
+Round 1 : Telephonic Round 
+1.  SIP registration
+2.  SIP call b/w user-agent A to user-agent B
+3.  What is dialogue, transaction, session
+4. What does dialogue contain ?
+5. SIP call b/w user-agent A to user-agent B what if ACK is not sent
+6. SIP call b/w user-agent A to user-agent B, what is 100 trying is not sent?
+7. What is TCP/UDP ?
+8. If invite is sent using UDP what if invite not sent to otherside due to some n/w issue ?
+9. What is makefile ? how we use it ? how to write a make file ? commands
+10. What is GDB ? how to use it ? if program crashed in some thread, how do we know it using gdb ? debug a multi threaded application ?
+11. What is valgrind ? how it will find memory leaks ? how do we know to free a particular memory using valgrind ?
+12. Memory layers of c ?
+13. Copy constructors ? what is use of it ?
+14. What is shallow copy and deep copy ?
+15. What is virtual destructor ?
+16. What explict keyword, mutable, ?
+17. What is smart pointer ?
+18. What is structure padding ?
+19. What is friend function ? are private members accessible in friend function ?

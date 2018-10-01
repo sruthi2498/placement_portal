@@ -1,0 +1,7 @@
+Given an integer ‘n’, write a Python function that returns true if binary representation of x is palindrome else return false.
+Examples:
+
+We have existing solution for this problem please refer Check if binary representation of a number is palindrome link. We can solve this problem in python very quickly. Approach is very simple,
+Note : We can use other approach of checking a string is palindrome or not.
+Run on IDE
+Output:

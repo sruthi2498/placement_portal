@@ -1,0 +1,35 @@
+Informatica recently visited our campus for Full Time hiring. Here is my experience.
+The eligibility criterion was a CGPA of >= 6.5 and the stream should be CSE.
+Round 1(45 minutes)
+ MCQ based questions covering the following topics:
+– Data Structures
+– Operating Systems
+– Database Management System
+After this round, a shortlist was published that contained only 19 students.
+I could not solve all the questions, but was selected for the next round.
+Round 2(90 minutes)
+This was a an online coding round and had 4 questions:
+– Given a string in encoded form, decode it. Some rules were explained in the question based on which we had to come up with an algorithm.(Cannot use temporary string)
+– Find ceil value in a BST.
+– Given a graph in the form of a matrix having either 0s or 1s, find the number of islands of 1s.
+– Given two sorted arrays, find the median of the elements of the two arrays combined. (Can use temporary array)
+All those who could solve two or more questions were selected for the next round(8 students were sleected).
+I solved all of them 🙂
+Round 3(45 minutes)
+This was a technical interview. Questions asked:
+1) Given a stack, sort it.
+2) Given two strings, check if they both are anagrams of each other. I began with O(n^2) approach, optimised with O(nlogn) and finally came to O(n) approach(with two temp arrays). He asked me to do it in just 1 temp array.
+3) Merge two sorted arrays without using a temporary array. He wanted a solution of less than O(m*n) complexity. I gave a solution using binary search.
+Round 4(45 minutes)
+This was also a technical interview.
+1) He began with asking me about the courses that I had taken up. He was pretty impressed by seeing Distributed Systems in my resume and asked questions about the CAP theorem and so on.
+2) Which method helps us in dividing the actual problem and solving it. I said, Divide and Conquer and Dynamic Programming. He then asked me what is Dynamic Programming and what is memoization.
+3) He asked me to write code for LRU cache implementation.
+4) A small discussion on AVL trees.
+5) Talked about Software Defined Networks, a course I had taken up the previous semester.
+Round 5(30 minutes) Technical Interview
+1) Given a matrix with 0s and 1s, find the shorted path to reach m,n starting at 0,0. You can only walk on 1 tiles.
+2) There is a stream of data coming, and you need to perform searching and sorting on them. You have only 20 MB of RAM.
+Round 6(30 minutes) HR interview
+General questions on where do I see myself in 5 years, my family background, some intensive discussion about my organisational skills etc.
+Thanks a  lot GeeksforGeeks for helping me clear up my concepts! You guys are doing a great job 😀

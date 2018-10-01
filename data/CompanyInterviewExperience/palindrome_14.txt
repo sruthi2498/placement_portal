@@ -1,0 +1,19 @@
+Given a string s of length n, count the number of substrings having different types of palindromic characteristics.
+Palindromic Characteristic is the number of k-palindromes in a string where k lies in range [0, n).
+A string is 1-palindrome(or simply palindrome) if and only if it reads same the backward as it reads forward.
+A string is k-palindrome (k > 1) if and only if :
+1. Its left half is equal to its right half.
+2. Its left half and right half should be non-empty (k – 1)-palindrome.  The left half of a string of length ‘t’ is its prefix of length ⌊t/2⌋, and right half is the suffix of the same length.
+Note :  Each substring is counted as many times as it appears in the string. For example, in the string “aaa” the substring “a” appears 3 times.
+Examples :
+Approach : Take a string s and say it is a 1-palindrome and checking its left half also turns out to be a 1-palindrome then, obviously its right part will always be equal to left part (as the string is also a 1-palindrome) making the original string to be 2-palindrome. Now, similarly, checking the left half of the string, it also turns out to be a 1-palindrome then it will make left half to be 2-palindrome and hence, making original string to be 3-palindrome and so on checking it till only 1 alphabet is left or the part is not a 1-palindrome.
+Lets take string = “abacaba”. As known “abacaba” is 1-palindrome. So, when checking for its left half “aba”, which is also a 1-palindrome, it makes “abacaba” a 2-palindrome. Then, check for “aba”‘s left half “a” which is also a 1-palindrome. So it makes “aba” a 2-palindrome and “aba” makes “abacaba” a 3-palindrome. So in other words, if a string is a k-palindrome then it is also a (k-1)-palindrome, (k-2)-palindrome and so on till 1-palindrome. Code for the same is given below which firsts check each and every substring if it is a palindrome or not and then counts the number of k-palindromic substrings recursively in logarithmic time.   
+Below is the implementation of above approach  :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity :  O()
+Auxiliary Space :  O()

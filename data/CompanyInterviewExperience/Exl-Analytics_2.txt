@@ -1,0 +1,15 @@
+Question 1: Balance the equation 101 – 102 = 1 by putting some operators in it.
+Solution :
+101 – 10 ^ 2 = 101 – 10 * 10 = 1
+Question 2:
+You have been given six time 2s like (222222), perform any mathematical operation to find result as 31.
+Solution :
+( 2 + 2 ) ^ 2 * 2 – 2 / 2 = 31 
+Question 3:
+You have been given five time 2s like (22222), perform any mathematical operation to find result as 30.
+Solution :
+( 2 + 2 ) ^ 2 * 2 – 2  = 30 
+Question 4:
+You have been given five time 3s like (33333), perform any mathematical operation to find result as 30.
+Solution :
+( 3 + 3 + 3 ) * 3 + 3  = 30

@@ -1,0 +1,52 @@
+Hi All. Here is my interview experience for internship at Amazon.
+Position: 2-Month Intern
+No. of Rounds: 1 Online + 2 PI (2 F2F)
+Round 1: (90 minutes)
+20 MCQs and 2 coding questions
+There were 20 MCQs based on C output, probability, basic maths, OOPS, algorithm analysis and Operating Systems.
+Question 1: Given a linked list, write a function to reverse every k nodes (where k is an input to the function).
+Example:
+Inputs: 1->2->3->4->5->6->7->8->NULL and k = 3
+Output: 3->2->1->6->5->4->8->7->NULL.
+Inputs: 1->2->3->4->5->6->7->8->NULL and k = 5
+Output: 5->4->3->2->1->8->7->6->NULL.
+Question 2:  Given a string containing words separated by arbitrary number of spaces. Write a function that returns a string consisting of the first letter of each word. (Note: there may be any number of spaces at the starting of the given string, at the end of the given string or in between words of the string.)
+Example:
+Input: ” this is a test case ”
+Output: tiatc
+(Function prototypes and main was given for both the questions. Although many solutions passed the initial test cases, they were rejected later as they did not satisfy boundary cases.)
+Round 2: (face to face) (1 hour 20 min)
+Question 1:  Given two numbers represented by two linked lists, write a function that returns sum list. The sum list is linked list representation of addition of two input numbers.
+Example
+I reversed the linked lists and simply added the corresponding nodes along with the carry. Then he asked me to solve the question without reversing the list. Then I solved the question iteratively without reversing the lists.
+The interviewer then asked me to write a recursive code for the same problem.
+After that he asked me to modify the code so that the carry at each place is passed by value instead of using pointers(which I had used in my code).
+Question 2: iterative and recursive code to reverse a linked list(Take Care of corner cases: when list has no nodes or contains a single node)
+Question 3: Write a function to check whether a binary tree is a sub-tree of another binary tree (Check for all corner cases).
+I solved it in O(n^2) time complexity. He did not ask me to optimize my code.
+Question 4: Which data structure would you use to keep records of stock market?
+I asked him to clarify the problem statement.
+He then asked me : Suppose you have to maintain the stock values of various companies during various periods and return minimum stock value of a particular company over a given period of time.
+I answered segment tree (Probably the correct answer was queue data structure).
+However the interviewer proceeded with questions on segment tree.
+He asked me to write a code for
+a)  Creating a segment tree
+b) Performing range minimum query in a segment tree
+c)  Updating the segment tree
+He asked me to analyze the time complexity for building the segment tree and performing the range minimum query in the segment tree.
+He then asked me: If you are to maintain the stock value of a company for the past 6 months..then you have to update the segment tree every day by deleting a stock value and inserting a new stock value. How would you do that?
+Here I got stuck and could not perform the updation in better than O(n) time.(However using queue it can be performed in O(1) time) .
+He finally asked me if I had any questions.
+Round 3: (face to face) (20 min)
+Only one technical question was asked to me in this round.
+a)  He asked me to speak something about myself and my technical achievements..
+b)  How to store a binary tree in a file & then read back.(It is not necessarily a BST)
+First I answered that I would store level-order traversal of the tree.
+He then asked me how I would maintain the nodes at various levels (which I was unable to answer). So, I changed my approach and told that: I would store in-order and pre-order traversals of the tree from which the original tree can be easily retrieved.
+But then he told me to optimize my approach (As this approach would require twice the original space to store the data in the nodes). I could not further optimize my approach (However the better approach was to use parenthesization.
+If this is the binary tree then it can be stored as (A(B(D),(E)),(C)) in the file.)
+c) Then there was a 10 min discussion my project , the problems I encountered and how I solved them.
+d) Finally he asked me if I had any questions.
+I asked about the intern projects at Amazon and the use of DBMS and NETWORKING in it.
+He started elaborating the entire work-process at Amazon and his work-experience……..most of which I could hardly understand. He also told me to have a good knowledge of JAVA as it will be required at some stage during the projects.
+Finally I got selected.

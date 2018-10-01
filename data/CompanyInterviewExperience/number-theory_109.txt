@@ -1,0 +1,29 @@
+The positive odd numbers in ascending order as 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, …. and grouped as (1), (3, 5), (7, 9, 11), (13, 15, 17, 19), …. and so on.
+Thus, the first group is (1), the second group is (3, 5) and the third group is (7, 9, 11), etc. in general, the kth group contains the next k elements of the sequence.
+Given k, find the sum of the kth group.
+
+Examples :
+
+Method 1: O(n)
+The idea is to find the first element of the kth group.
+For example:
+In general, the kth group’s first element is the nth odd number, where
+n = (1 + 2 + 3 +……+ (k – 1)) + 1.
+Now, as we know, the nth odd number is 2n – 1. This gives us the first element of the kth group. We also know that there are k elements in the group, so we can find their sum by simply counting upwards from 2n – 1, by two, k times and adding them all. This gives us a linear time solution.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2 : O(1)
+An tricky solution is to find k3. One can easily observe, the sum of kth group will be k3.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

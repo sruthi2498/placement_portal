@@ -1,0 +1,13 @@
+Sets are containers that store unique elements following a specific order. Internally, the elements in a set are always sorted. Sets are typically implemented as binary search trees.
+set::size()
+size() function is used to return the size of the set container or the number of elements in the set container.
+Syntax:
+Return Value: It returns the number of elements in the set container.
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+
+Run on IDE
+Output:
+Time complexity: Constant

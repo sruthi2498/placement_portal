@@ -1,0 +1,22 @@
+Informatica recently visited our campus to hire full time employees and interns. About 70 students appeared out of which 4 were given internship and two were given both internship and full time job offer. I was lucky to get an internship. Here is my interview experience.
+Round 1:(online MCQs)
+MCQs on Data structures, C/C++, DBMS, OS and networking
+Round 2:(online subjective)
+20 questions of easy level. Time constraint exists. No one was able to solve all 20 questions. We had to write codes, algos, point out mistakes in given code etc
+Round 3:(Interview)
+1. Discussion on ethical hacking
+2. Discussion on my projects at Microsoft IDC(I was an intern there)
+3. Print all nodes at same vertical in a tree.(very tough)
+4. Remove all occurrences of a particular value from a linked list
+5. Find all root to leaf paths with a given sum
+Round 5:
+1. Implement insertion sort using stacks. Temporary memory, input, ouput etc, everything is in stacks.
+2. Implement 2-D array in heap segment. This has to be used for page faults and related OS tasks. What modifications will you make?
+3. Polymorphism, run time polymorphism and implementational details
+4. Find a magic index ‘i’ in an array in o(1) time, such that a[i] = i. The array is already sorted
+Round 6:
+1. Flatten a multi level linked list
+2. Find Next greater element in an array.
+3. Check whether an array of strings can form a cycle, i.e., last element of one node can occur anywhere in the first of other
+Round 7:(HR)
+Basic HR questions, relocation questions, family background etc.

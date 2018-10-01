@@ -1,0 +1,22 @@
+The process consisted of following round:
+1) ROUND-1 : It was a 3 hours coding round and the maximum number of submissions allowed was 10 , but we could compile it as much as we want.
+NOTE:
+1) There were 50 test cases and to qualify for the interview round, all 50 test cases had to be passed (Even passing 49 Test Cases was not accepted).
+2) Those who couldn’t make it to the first attempt of coding round, they were given a second attempt having a different question with same constraints as mentioned above.
+Qn-1 (First attempt) : A Research team want to establish a research center in a region where they found some rare-elements. They want to make it closest to all the rare-elements as close as possible so that they can reduce overall cost of research over there. It is given that all the rare-element’s location is connected by roads. It is also given that Research Center can only be build on road. Team decided to assign this task to a coder. If you feel you have that much potential..
+Here is the Task :- Find the shortest of the longest distance of research center from given locations of rare-elements.
+Locations are given in the matrix cell form where 1 represents roads and 0 no road..
+Number of rare-element and their location was also given(number<=5)
+and order of square matrix was less than equal to (20).
+Qn-2 (Second attempt): There is a source (S) and destination (D) and a spacecraft has to go from S to D. There are N number of wormholes in between
+which has following properties:
+The co-ordinates of S and D are given and we have to find the minimum time to reach D from S.
+Note: It’s not mandatory to consider all the wormholes
+sample input: source=(0,0), destination(100,100), warmholes=3 .
+coordinates are: (1,2),(120,120)
+                  (4,5),(120,100)
+                   (6,8),(150,180)
+Sample output=48
+After the coding round , 3 students were selected for interview round:
+ROUND-2 (Technical Interview) :
+This interview experience is of my friend Avinash Aman (IIEST, Shibpur). All the questions above were previously asked in Samsung. So, it’s a suggestion to all the juniors from Avinash to practice the previously asked questions and play games at the same time. 🙂

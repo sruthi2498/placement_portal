@@ -1,0 +1,13 @@
+I got a call from amazon for F2F discussion for SDE1 at hyderabad. There were totally four rounds and asked to leave for the day.
+First round:
+Second Round:
+Third Round:
+It was a discussion on my current project and the challenges I faced and how I managed when I am unable to meet the deadlines.
+Fourth Round:
+It was again discussion on my current project.
+Final question of my interview: Add 1 to the integer represented by a linked list with O(n) time and O(1) space.
+First I start with the recursion and he suggested me without stack space too. Then I suggested for the reversing of linked list and then adding the number. He was again asked me without reversing of linked list. Then I came up with the solution with linear search.
+Thanks GeeksforGeeks for your work in helping so many programmers!!
+ 
+ 
+

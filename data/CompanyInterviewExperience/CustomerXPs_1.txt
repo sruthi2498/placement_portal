@@ -1,0 +1,19 @@
+1st round: The first round is a written test conducted for all the applicants.  The written test consists of two sections. Section I consists of 30 MCQs out of which 10 were from Mathematics and Aptitude and 20 were Technical Questions. The technical Questions are from C (mostly on functions, pointers – very deep but easy), C++ and Java. Section II is a Programming section in which three questions were given (Sheets were provided and we were asked to code those questions). The questions were as follows:
+1. Use a single array and initialise two stacks with it. Demonstrate all the stack operations for both the stacks. Your code should be space efficient.
+2. Print any ten numbers each greater than 10 which follows the following logic.
+Logic – The sum of the factorials of the digits of a number should be equal to the number itself.
+For example, 145 – 1! + 4! + 5! = 145 can be one of your answers but 123 where 1!+2!+3! is not equal to 123 cannot be among your answers.
+3. Given a linked list, return the middle most element of the linked list and if there are two middle elements, return the second one.
+Out of 800 people, they shortlisted 40 for the interview rounds.
+1st Technical Round: It was a face to face interview based on my resume, few questions on Javascript, C and questions in the fields of my interests. After this round, they shortlisted 20 for the second technical face to face interview.
+2nd Technical Round: This was purely a technical rather be termed as a programming face to face round. I was asked to code for complicated questions in an optimized way. This round lasted for around one and a half hour. Don’t remember all of them but few were:
+1. Given a stack which contains integers, a second stack which is empty, a function isempty which returns whether a stack is empty or not, functions push and pop for both the stacks and a temporary variable, sort the first stack.
+Note: Except the given variables, arrays etc. no other entities must be used. The push function takes one parameter which is the element to be pushed in. The pop and the isempty functions take no parameters.
+2. Given a tree and a function getchild(node) which returns all the immediate children of the node in the form of a list, find out the height of the tree.
+3. Given a tree, perform a level order traversal.
+4. Given an array of numbers, find the nth most repeated element and the number of times the element is repeated in O(nlogn) time complexity.
+After this round 8 were shortlisted for the 3rd Technical round.
+3rd Technical Round: This was the last technical face to face interview. The interviewer asked few questions from the written test as in how I have solved few questions etc. He later asked questions on linked lists, pointers very deeply. The interview lasted for around 1 hr 45 min.
+This round was followed by the HR round which was normal.
+5 people were selected by the Company from our university.
+

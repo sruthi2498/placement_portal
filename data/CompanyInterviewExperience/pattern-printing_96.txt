@@ -1,0 +1,18 @@
+Given a number n, print a n x n spiral matrix (of numbers from 1 to n x n) in clockwise direction using O(1) space.
+Example :
+We strongly recommend you to minimize your browser and try this yourself first.
+The solution becomes simple if extra space is allowed. We allocate memory for n x n matrix and for every element starting from n*n to 1, we start filling out matrix in spiral order. To maintain the spiral order four loops are used, each for top, right, bottom and left corner of the matrix.
+But how to solve it in O(1) space? 
+An n x n matrix has ceil(n/2) square cycles. A cycle is formed by ith row, (n-i+1)th column, (n-i+1)th row and ith column where i varies from 1 to ceil(n/2).
+The idea is for each square cycle, we associate a marker to it. For outer cycle, the marker will have value 0, for second cycle, it will have value 1 and for third cycle it has value 2. In general for a n x n matrix, i’th cycle will have marker value of i – 1.
+If we divide the matrix into two parts, upper right triangle(marked by orange) and lower left triangle(marked by green), then using the marker x, we can easily calculate the value that will be present at the index(i, j) in any n x n spiral matrix using the below formula –
+Below is the implementation of the idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Exercise
+For a given number n, print a n x n spiral matrix in counter clockwise direction using O(1) space.

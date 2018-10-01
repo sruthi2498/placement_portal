@@ -1,0 +1,8 @@
+Given a set of positive integers, find all its subsets. The set can contain duplicate elements, so any repeated subset should be considered only once in the output.
+Examples:
+
+Prerequisite: Power Set
+The idea is to use a bit-mask pattern to generate all the combinations as discussed in previous post. But previous post will print duplicate subsets if the elements are repeated in the given set. To handle duplicate elements, we construct a string out of given subset such that subsets having similar elements will result in same string. We maintain a list of such unique strings and finally we decode all such string to print its individual elements.
+Below is its C++ implementation – 
+Run on IDE
+Output:

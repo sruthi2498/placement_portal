@@ -1,0 +1,38 @@
+Hey Guys, I am sharing my experience with Groupon.
+First Round (Skype Interview)(one to one)(55 Mins)
+They gave me a simple problem just to check my coding skills and my approach. You have a robot in a grid, it can move in forward direction and can change its facing towards north, south, east n west and you are given a command sequence. So what will be the final position of the robot
+Example
+Grid(100*500)
+Robot Position – (5,3)
+Sequence —      {N,S,M,M,E,W,E,S,M,S,M}    North, East, West, South, Move forward
+Problem is easy, but they want it on shared editor which will give them chance to ask so many questions whatever you are writing or if u r doing undo operation. They asked me for the perfect code for all boundary cases. I did it well. 
+So that’s all in first round then they ask me some HR question.
+
+Second Round (Again Skype Interview) (Two to one)(48 Mins)
+Again they asked a single problem which is very popular level order traversal, but again the major part is shared editor,
+I quickly told them my approach, they said ok. Now they make changes in the question. You will have to print it level by level with line break. So I gave them one another method which works in O(n) but they told me to make changes to the first approach. I made changes to the solution, they were satisfied with it, then told me to code it. Again they asked me questions in the code. At last they were very satisfied with the code, I was able to make quick changes according to them or if I have missed something
+
+Face to Face interview
+Third Round(45 Mins)
+He started with general discussion then HR, Then he gave me a problem.
+1) You have a binary tree on client machine, how will u send this info to server and how will you again maintain the tree over the server. I thought few mins, tell him my approach, he was asking for easier way. Then finally I told him my approach. He was satisfied and told me to write the code how and what info will u send and how will u again maintain it on the server, I write both the codes and He was very satisfied with my code.
+
+Fourth Round (40 Mins)
+1) Find the min and max in an array in minimum no of operations with complexity. I told him approach, he told me to code it and he was satisfied with it
+2) You are given a graph and an algorithm that can find the shortest path b/w any two nodes
+Now you have to find the second shortest path between same two nodes. I thought few mins and tell him my approach, he was satisfied and told me to code it.
+Now I was not expecting any tech round but….
+
+Fifth Round (1.15 Hour)
+She asked me lots of question from OS, DS, OOPS
+1) Project description and what was my role
+2) Threading, semaphore, Process, Locking Unlocking
+3) OOPs basic questions- Polymorphism(runtime, compile time) virtual, vtable, some more questions.
+DS questions:
+4) Connect nodes at same level, then code for that, then test cases
+5) Some questions based on complexity and which will be the better
+6) Which sort will u prefer for linked list and why?
+7) In a grid, you are given a position, and every location has some value. find the shortest length so that you can touch to any boundary of the grid. I code it then she asked me to optimize it, I did that also.
+8) Some other questions but I don’t remember now.
+Finally hired by Groupon. Special thanks to GeeksForGeeks team, really amazing site for DS questions. That’s all for the Groupon. Overall it’s not difficult if you are good in DS. Most of the questions are very popular and you had already prepared. They are focusing on your approach and your coding skills.
+ALL THE VERY BEST……..:)

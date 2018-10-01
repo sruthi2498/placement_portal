@@ -1,0 +1,32 @@
+Click here to see the documentation of the video conference. 
+Before proceeding to reading this, make sure you read a little about bloomberg, and most importantly its R&D center in London, you will be given a good portion of time to tell the interviewer what you know about bloomberg, the interviewer said he worked for more than 11 years in bloomberg, so it won’t be good if you just made up some answers, just have a little read about it.
+The interview, Ian, started an hour earlier, and the interviewer gave me some time to prepare my machine, if it happened to you, just don’t panic, and of course you can tell him you prefer to have the interview on time.
+The interviewer started by introducing himself, and the technology he has been using in bloomberg.
+Next, I was asked to introduce myself, and we had a talk about my resume, my education and projects.
+The interviewer then jumped to the technical question, by pasting the body of the code, in order to fill in the functions:
+Run on IDE
+//This was a part of bloomberg’s first phone interview
+The question was rather easy, I was asked to implement a function that given an integer number num, it returns the a string representation of the number, comma separated.
+i.e. f(1234) = “1,234”
+My implementation was as follows:
+Run on IDE
+The interviewer then asked that the function should support different comma styles, i.e. the US vs Indian style
+//Indian 1000000 -> 10,00,000
+//US      1000000 -> 1,000,000
+I suggested that a certain style should be passed to the function, either as an integer mask or a vector of integers, representing the positions at which a comma is needed.
+He asked if only a string abbreviation can be sent to the function instead of a vector, so I suggested using a map, which stores for each style code the corresponding vector of integers.
+My implementation was as follows:
+Run on IDE
+We then moved to another question, that’s concerned about the OOP.
+The interviewer asked what class would I create in order to make this code more usable.
+I suggested that I should create a class for the represented integer, to encapsulate its numerical value, its string value, its style, and the functions associated to it.
+The code went as follows:
+Run on IDE
+The interviewer then asked me to elaborate the inheritance principle.
+I illustrated it using the example of the vehicles (cars, vans, trucks, buses ….etc)
+and then we discussed my design preferences, concerning classes inheritance and polymorphism, and what to do: more inheritance vs more coding.
+My answer covered code maintenance and reusability.
+I was then given the chance to ask the interviewer whatever I like about the company and his work in bloomberg.
+Result: I moved to video conference with the other interviewers.
+Summary: The interview is easy, you just have to stay cool, and try to give the answers to the point without any exaggerations, Good Luck!
+You can check the documentation of the video conference here.

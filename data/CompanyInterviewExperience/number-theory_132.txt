@@ -1,0 +1,27 @@
+Given a number n, find sum of first natural numbers.
+Examples :
+
+A simple solution is to do following. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+An efficient solution is to use below formula.
+
+How does this work?
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+The above program causes overflow, even if result is not beyond integer limit.  We can avoid overflow upto some extent by doing division first.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

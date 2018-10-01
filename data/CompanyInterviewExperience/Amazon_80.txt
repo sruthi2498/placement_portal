@@ -1,0 +1,33 @@
+Online Coding Round:-
+There were 2 coding questions and 20 MCQ’s.
+1. Given an array find all the triplets having their sum of elements less than a given number k.
+2. Find The N-th Magic Number.
+1st Interview Round(Face To Face) :-
+The interviewer was very friendly. He went through my CV and asked me if I had any project. To which I replied no and told him that I am currently on a project and later I gave him a brief explanation of it. For those who didn’t do any project don’t worry much. 
+He asked me 2 questions
+1) Generating All the Possible Subsets(Subset Iteration).
+2) Slight Modification of BFS on a grid. I told him my approach and he was satisfied wth that.
+   After I told my approach for the 2nd question he told me to write a Pseudo Code for BFS in a graph.
+He was the best interviewer I faced till now.
+The interview lasted for around 45 mins.
+Other people were given questions like 
+1) The middle element in a linked list.
+2) Merge Sort in a Double Linked List.
+3) Merge Two Sorted Arrays.
+4) Given A Binary Tree, For every Leaf Node print sum of the values from the root node to the leaf node.
+5) Quick Sort
+6) LCA in Binary Tree and Binary Search Tree.
+2nd Interview Round(Face To Face):- 
+This interviewer was also very friendly. He also had a good knowledge of Coding. He asked me how was my previous round, I replied that it went well. And later he asked me what questions I was asked in the previous round. I told him the questions which I was asked in the previous round and  also I explained their solutions. 
+He asked me 2 questions.
+1) Print the Binary Tree in A Spiral Order.
+2) lli stands for long long int in this question.
+He gave me a question in the form of a function. And here goes the question.
+Run on IDE
+Simple But Wrong Solution
+Run on IDE
+I told him that the above code actually fails. He asked me why it fails. I answered him this way.The array a is actually in the function Append and once you leave the function the scope of this array ends. He asked me how to do it then. I had no idea. Later he told me that we have to allocate memory for the array using malloc.Later on he explained me how it works using heap memory.
+For my friends, he asked the question in a different way(Merge Two Sorted Arrays).
+Thanks to GeeksForGeeks For my interview preparation.
+
+

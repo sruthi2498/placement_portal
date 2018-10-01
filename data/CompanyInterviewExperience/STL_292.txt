@@ -1,0 +1,22 @@
+Queue is also an abstract data type or a linear data structure, which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). In a FIFO data structure, the first element added to the queue will be the first one to be removed.
+This function is used to insert a new element into the queue container, the new element is added to the end of the queue.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. The parameter should be of the same type as that of the container otherwise, an error is thrown.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)
+Application : Input an empty queue and find the sum of the elements of the queue.
+Algorithm
+1. Insert elements into the queue using emplace() function.
+2. Check if a queue is empty, if not add the front element to the sum variable and pop it.
+3. Keep repeating this step until the queue becomes empty
+4. Print the sum variable.
+Run on IDE
+Output

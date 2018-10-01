@@ -1,0 +1,38 @@
+First round (Written) : 
+1. 4 Android questions:
+a) What’s Recyclerview? Describe all components of Recyclerview with all callbacks and the benefits of Recyclerview.
+b) Difference between thread, async task and service (in tabular format).
+c) Callbacks invoked during addition of a fragment to back stack and while popping back from back stack.
+d) Scenario in which only onDestroy is called for an activity without onPause() and onStop()
+2. Describe a scenario in which deadlock occurs and a solution to overcome it.
+3. Given an array, find the maximum difference between two array elements A[m] and A[n], such that n>m.
+4. The relation between group of friends is transitive. So if student A is friends with student B, and B is friends with C, A becomes friends with C. They form a circle of friends. Given a matrix N*N and N students, each matrix entry indicating ‘Y’ or ‘N’ if they’re friends or if they’re not friends. We need to determine the number of circles.
+Eg – 6 students, A,B,C,D,E,F.
+A is friends with B, B with C. D is friends with E. F is friends with none.
+Output : 3 circles.
+F2F Round 1:
+Starting with Java basics :
+1. Uses of final, string pool concept, serialization, synchronization (how it can be done)
+2. How can you implement thread pool executor.
+3. Is it possible to declare final variable in abstract class.
+4. What is externalization. 
+Android :
+Lots of basic questions:
+You need to provide more area for checking/unchecking checkbox than the default area of checkbox. How would you do it.
+How would you implement zoom in zoom out functionality in Android.
+How do you implement GCM push notifications.
+What things would you do in each lifecycle method of activity?
+What is IllegalStateException in Android? Any scenario when you encounter it and how to solve it?
+Advantages and disadvantages of using fragment.
+How would you implement swipe animation in Android.
+How do you detect whether keyboard is open in an Android app.
+And some more. But I don’t exactly remember.
+DS:
+Implement queue using 2 stacks.
+After this, the interviewer seemed satisfied with my responses.
+F2F Round 2 : 
+Android design questions:
+1. You have a textview(3 lines) and a button below it. On clicking the button textview whole content should show. (Content is very large but due to 3 lines initially its not shown completely). You need to add animation while showing the full text of textview. How would you design this.
+2. Some question related to showing images (for adult and child, like in flight booking system, we have 2 buttons for adding and removing adults/child). When there is 1 adult and 1 child, it should show as AC where A and C are icons for adult and child. On adding 1 more adult, it should show as AAC instead of ACA. How would you design such a system.
+Got stuck in this round, and was rejected. 🙁
+

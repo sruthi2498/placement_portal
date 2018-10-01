@@ -1,0 +1,40 @@
+Hello guys, recently FactSet visited our college for campus recruitment. I Would like to thank GeeksforGeeks team for such an amazing platform. It helped me a lot during my preparation. Hope it might help you too :-). Following is my interview experience.
+
+Round 1 -(pen-paper coding round-1:30hr) :
+Around 150 students appeared for the first round out of which 35 were shortlisted.It consist of 3 coding questions(50 MARKS),
+all of them were compulsory.pseudeo code was allowed too.
+1>.Concatenate the given n strings to make a single string such that on combining two strings the last character of
+first string should be same as the first character of next string.(25 marks)
+For example:
+Input: ab2c,h23f2,c4dsh
+Output: ab2cc4dshh23f2
+2>.Print the covered and uncovered nodes of binary search tree.covered nodes are boundary elements of tree whereas rest are the uncovered elements.
+(order of printing is not important).(15 marks)
+3>.Find the next smallest palindrome number.(10 marks)
+ For example: 
+NOTE: APPROACH MUST BE EFFICIENT IN TERMS OF TIME AND SPACE COMPLEXITY TO QUALIFY FOR THE NEXT ROUND.
+Round 2(Technical Inteview-1 hr):
+It Was quite easy.IF You are good with the data structures and algorithm,You can easily crack it.
+1>.I was asked to search element in a rowwise and columnwise sorted matrix.since i was already knowing the solution, I asked him if should I answer him all the approaches (with increasing time complexity)
+   or the best one. He told me to give the best approach and write code for it.I coded it :-). Further he  kept asking many modified versions for the same problem. 
+2> Given a file,consisting of positive integers only.find the first non repeating element.I approached “hashing”. He agreed and applied the constraint on same problem for not having enough space.
+I answered him using bitmap.He was quite impressed.
+3>. Assume a finite stream of integers .The range of integers will be strictly between 1 to 16.Any number can occur any number of times.Again you don’t have enough memory. You are allowed to use only 2 byte space.Task is to print the integers which are present in the stream in sorted form.
+  hint: 2 bytes leads to 16 bits.Hence we can use each bit to mark the presence of each element.Remember the range of elements is 0 to 15.It sounds easy 🙂
+4>. Find the two elements in an array with sum equal to k.I answered him easily. He further extended the question to four elements.Approach must be efficient.
+   Finally i was told to write the code. 🙂     
+Round 3(Technical Interview-2):I felt this round was difficult as compared to previous one as it lasted for 2 hrs 15 min.It was hectic too .:p
+1>. Firstly, Interviewer asked “tell me about yourself”. He discussed on one of my project (based on machine learning) for around 30 min.Then He asked me about ms office and its
+   justification feature.He was very straight forward ,just gave the input output pattern and asked to code.
+     HINT:At first glance, I was completely blank. However,I answered him by assuming input paragraph as 2D matrix and traversing it from right upper corner of matrix keeping the trace of spaces and moving the characters towards right if required ,for each row.
+   Finally he agreed and asked to minimize number of spaces between characters for the above justification.Did it quickly 🙂
+2>. You are given continuous stream of ages of employee.your task is to divide employees acc. to their ages in two different groups.your manager may ask you to calculate cumulative sum(avg) of each group at any instant of time.Task Is to answer the manager.Note that no age will be repeated again in the continuous stream.
+  CONSTRAINT: 1>. The number of employees in the first group can either be equal to or one more greater than the second group.
+              2>. Following property should be maintained.
+ HINT: USE HEAP.TRY TO MAINTAIN MAX HEAP FOR FIRST GRP AND MIN HEAP FOR THE SECOND.:-)
+3>. This time interviewer told me, I am completely satisfied with your performance and next question is just for his own fun :p.you are given a sequence of red and green bricks.cost of painting one brick is one unit.constraint was – atmost 1 turn is allowed in the sequence.you have to find the minimum cost to paint the  given sequence of brick.Exp. time complexity o(n) and space complexity o(1). 
+HINT: atmost 1 turn refers to sequence of R followed by sequence of G(RRGGG)i.e 1 turn  or G followed by R(GGRRR) or RRRR(0 Turn) or (GGGG).
+**I Was told to wait for the results and there will be no HR ROUND for me.:-). 
+ALL THE BEST GUYS 🙂
+
+

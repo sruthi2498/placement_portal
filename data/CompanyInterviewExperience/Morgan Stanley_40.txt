@@ -1,0 +1,32 @@
+First Round:: apti + technical + coding (1hr 45mins)
+1) Multiple choice questions round : (45mins)
+It consists of 2 sections. One was aptitude (10 ques). Level of difficulty was difficult. I was able to solve only 3 questions.
+Other was technical (20 ques). Level of difficulty was moderate. I did 15 questions.
+2) Coding round : (1 hr)
+1. There are N stops and each stop had a gas station. You need to travel from stop 1 to Nth stop such that you should make minimum number of stops. Constraints: Your car has a capacity of M units to travel and you can fill only M units in your car from any gas station.
+Input: N and M where N is the number of stops and each stop value is the distance from the source stop. e.g: 0 1 3 5 7 8 (so it was in increasing order). M is the capacity of the fuel tank. (8 marks)
+2. Given a month and a year. You need to find the date of first Monday of given month and year. (12 marks)
+3. Given an n X m matrix ‘M’ of alphabets and a string ‘S’. You need to find the starting index of ‘S’ in ‘M’. The string can be found horizontally or vertically. (Alphabets are case insensitive). (10 marks)
+eg: 4 X 5 matrix 
+I was able to solve only 2nd question completely and tried 3rd one (but it was giving wrong answer).
+After this round 18 students were shortlisted.
+Second Round :: Technical interview (45mins)
+He asked me about my C++ project then some OOPs concepts like polymorphism, function overloading and overriding, type casting, virtual function, vtable and vptr and some more questions related to virtual functions.
+OS: Paging, process and thread, thread synchronization, semaphore, paging algorithms.
+DS: Why we use linked list. Given a linked list, print the elements of linked list in reverse order. I solved it through recursion, then he asked me to use iterative method without using extra space and in one traverse. Lowest common ancestor of 2 given nodes of BST, and some more.
+Puzzle: There are 5 switches in a room and there are 5 bulbs (not in that room but on different floors). Find the minimum number of trips you will make to find which switch is associated to which bulb.
+After this round 7 people were shortlisted.
+Third Round :: Group Activity (50mins)
+We were divided into two groups of 3 and 4. There were some papers with the instructions for each group and two boxes of LEGO blocks. We had to build up a functional unit for Morgan Stanley for which we were given 40mins. Then in the next 10mins we had to present our prototype. It includes Logo, benefits, and some other factors which we had to consider in our prototype.
+In between another letter came from Board of Directors and we (both groups) had to merge and build the prototype together now. So we had to come up with something that includes both the groups’ ideas.
+All the panel members were standing around us to judge us throughout the activity. And we were judged on the basis of our team work, how well we can communicate with other team members, our planning, our execution, and many such factors. Throughout the discussion we had to discuss loudly so that the judges could hear our thought process.
+At the end there was a session in which all the judges asked us questions about our approach, our individual contribution, what we thought of other members during the whole activity and all. This round was very interesting for me.
+Fourth Round :: HR interview (45-50mins)
+Started with my intro. Then he asked me about my another project which I made in VB.net. Then he asked me many questions, I remember now some of them like given some revenue and some technologies, how would you solve any particular issue in your home town using that. Asked about my achievements, any moment in my life which made me feel proud, what all things I have learnt and brought a change in me after coming to this college. How do you react to the situation when you are given a deadline for some work which is important but not able to meet that deadline. He asked about my hobbies and many more things.
+Fifth Round :: Technical interview (almost 1hr)
+This was the last round. Again he started with my project. And then came to some technical stuff:
+1) What data structure will you use to find the unique words and the number of times the word appear in a novel. Then he kept on asking more questions related to this like print a word which is appearing maximum number of times. Print 10 words which are appearing maximum number of times. And many more.
+2) Given a binary tree and a number n, find the root to leaf branch whose sum equals to n.
+Now find maximum length branch whose sum equals to n (that means ofcourse now there are more than 1 branch whose sum equals to n)
+3) Design the database for an online shopping website like flipkart. Now how will you modify your database if you want to give some discount on those product which are going to expire after 6 months. And many questions like these.
+

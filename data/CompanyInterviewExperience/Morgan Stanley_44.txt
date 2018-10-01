@@ -1,0 +1,14 @@
+Given a binary tree, print level order traversal in a way that nodes of all levels are printed in separate lines.
+For example consider the following tree
+Note that this is different from simple level order traversal where we need to print all nodes together. Here we need to print nodes of different levels in different lines.
+A simple solution is to print use the recursive function discussed in the level order traversal post and print a new line after every call to printGivenLevel().
+Run on IDE
+Run on IDE
+The time complexity of the above solution is O(n2)
+How to modify the iterative level order traversal (Method 2 of this) to levels line by line?
+The idea is similar to this post. We count the nodes at current level. And for every node, we enqueue its children to queue.  
+Run on IDE
+Run on IDE
+
+Time complexity of this method is O(n) where n is number of nodes in given binary tree.
+Level order traversal line by line | Set 2 (Using Two Queues)

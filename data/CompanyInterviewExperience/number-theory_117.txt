@@ -1,0 +1,14 @@
+Given a positive number N. We need to find number(s) such that sum of digits of those numbers to themselves is equal to N. If no such number is possible print -1. Here N 
+Examples:
+
+Method 1 : (Naive Approach) We have already discussed the approach here. The approach might not work for N as large as .
+Method 2 : (Efficient)It is a fact that for a number X < = 1000000000, the sum of digits never exceeds 100. Using this piece of information, we can iterate over all possibilities in the range 0 to 100 on both the sides of the number and check if the number X is eqaul to N - sum of digits of X. All the possibilities will be covered in this range.
+
+[tabby title="C++"]
+
+
+
+Run on IDE
+Run on IDE
+
+The maximum complexity of this approach can be  where len is the number of digits in the number max(len) = 9. Thus the complexity can almost be said to be 

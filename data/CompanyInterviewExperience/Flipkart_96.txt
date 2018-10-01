@@ -1,0 +1,57 @@
+Company: Flipkart
+Profile: SDE 1
+Experience: 7 months
+Round 1: Online Coding Exam (2 hour on interviewstreet) 
+(Need to pass 4 test cases + if time permits 4 hidden test cases)
+Q.) There are two strings s1 and s2. Find the maximum of percentage word matching from s1 to s2 and s2 to s1.
+Where, percentage word matching= (Total words matched in s2/total number of words in s1) *100
+Round 2: 1st Telephonic interview
+Q1) Generate all numbers in ascending order which are having factors as 2,3 and 5. Discuss various approaches.
+Q2) Check whether given Binary Tree is a Binary Search Tree. Discuss various approaches.
+Q3) I don’t remember
+Round 3: 2nd Telephonic interview
+Q1) some scenario interviewer described on phone had to identify data structure to model it and algorithm to solve. Data structure used: Graph and algorithm used: Topological sort
+Q2) Given N meeting with their start time s1, s2 ….sn and end time e1, e2 ….en and K rooms. How to schedule maximum of N meetings in k rooms. (Concept: Interval partitioning using greedy approach).
+Called for onsite interview. All expenses flight, hotel, cab etc..were taken care by company.
+Round 4: 1st f2f interview (Machine Coding round) (1hour 10 min)
+Given a string regex and another string pat find whether the pattern is acceptable against given regex string.
+Regex string contains following characters and special characters:
+1. Normal alphabets – a to z and A to Z
+2. ‘$’ – all string should end with all characters preceding $
+Example:
+ Regex :abc$  ,
+Pattern: abcd(Not acceptable) , abc(acceptable), ab(Not acceptable), dhfusdhabc(acceptable) etc..
+3. ‘^’ – all string should start with all characters exceeding ^
+Example:  Regex :  ^abc
+Pattern: abcd(acceptable) , abc(acceptable), ab(Not acceptable), dhfusdhabc(NOT acceptable) etc..
+Regex: ^ then only pattern acceptable is null.
+4. ‘.’ – any character can be mapped to dot except null
+Example 1:  Regex :  .abc
+Pattern: Zabc(acceptable) , abc(NOT acceptable), ab(Not acceptable), habc(acceptable) etc..
+Example 2:  Regex :a.bc
+Pattern: abc(NOT acceptable) , aXbc(acceptable), ab(Not acceptable), habc(NOT acceptable) etc..
+5. ‘*’-the character just preceding * can be repeated n time where (n>=0)
+Example 1:  Regex :abc*de
+Pattern: abccccccccccde (acceptable), abcde(acceptable), abcccd(not acceptable)
+ Code should follow OOPs principle such as modularity (make each function for each special character), encapsulation etc.
+Further discussion on improving the code and how would other person can see the code and add other functions to it.
+Round 5: 2nd f2f interview (Problem solving and data structure round) (1 – 1.5 hr)
+Q1). Generate n numbers in ascending order which are having given k factors. Discuss various approaches. Discussed on various approaches.
+I told 3 approaches:
+Naïve approach—O(nk)
+ Heap approach — O(nlogk),
+Linear time — O(n)
+Q2).   Given set of words which I have to treat as dictionary as new lexicographic order. I have to learn from set of string as print lexicographic order of each character. (Topological sort) (https://www.geeksforgeeks.org/topological-sorting/)
+Q3) .https://www.geeksforgeeks.org/flipkart-interview-set-3/—  > Round 1 , Question 3(https://www.geeksforgeeks.org/topological-sorting/)
+Round 6: 3rdf2f interview (Hiring Manager Round) (1 – 1.5 hr)
+Tell me about yourself.
+About your hobbies, your ideal
+Discussed every minute details about my one published research IEEE paper.
+Why you want to join Flipkart?
+Why you are leaving your previous company within just 7 months?
+etc. etc……
+Round 7: 3rdTelephonic interview (Reporting Manager Round) (1.5 hr)
+Discussed about product life cycle in a product based company and consultancy based company.
+Work flow, Flipkart hierarchy.
+Compensation details. 
+

@@ -1,0 +1,15 @@
+We have introduced Graph basics in Graph and its representations.  In this post, a different STL based representation is used that can be helpful to quickly implement graph using vectors. The implementation is for adjacency list representation of graph. 
+Following is an example undirected and unweighted graph with 5 vertices.
+
+Below is adjacency list representation of the graph.
+
+We use vector in STL to implement graph using adjacency list representation.
+The idea is to to represent graph as an array of vectors such that every vector represents adjacency list of a vertex. Below is complete STL based C++ program for DFS Traversal. 
+Run on IDE
+Output : 
+Below are related articles:
+Graph implementation using STL for competitive programming | Set 2 (Weighted graph)
+Dijkstra’s Shortest Path Algorithm using priority_queue of STL
+Dijkstra’s shortest path algorithm using set in STL
+Kruskal’s Minimum Spanning Tree using STL in C++
+Prim’s algorithm using priority_queue in STL

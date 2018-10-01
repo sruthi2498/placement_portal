@@ -1,0 +1,34 @@
+First Round Written Test(75 minutes)
+ 
+F2F Interviews 
+Round 1 🙁 45-50 minutes)
+1.	Asked my approach of written coding questions and asked to optimize if possible.
+2.	Given k lists of different sizes having some integers, find the minimum range [l, r] such that atleast one integer from each list should come in that range.
+Round 2(Pen & Paper) : (30 minutes)
+1.	Write an algorithm for converting bst to sorted doubly link list.
+Round 3 : (1 hour)
+1.	About my Summer Intern project and semester  projects.
+2.	About distributed storage and parallel processing and basics of hadoop.
+3.	Some questions on Data base querying like caching and in disk querying and asked me to design a query solving system for the use case when millions of queries are coming per second.
+4.	One puzzle of red and blue balls , I told him that I know the solution.
+5.	One simple dp question to find the number of ways to reach n if 1 or 2 steps are allowed, I said I have already solved a good version of this question if 1 to m steps are allowed using simple dp. He smiled and said I am not going to ask any questions  you are going to the next round. And admired me about my honesty.
+Round 4 : (1:30 hour)
+1.	Implement a queue using stacks with O(1) enqueue as well as O(1) dequeue.
+2.	Implemet URL shortener.
+3.	Nut bolt problem , I said I have already solved this earlier. But he still asked me the approach and I had given O(nlogn) approach.
+4.	Multiple Threads are updating a stack concurrently then what is the problem and how to deal with it.
+5.	 Semaphore and its uses in real life scenarios.
+6.	Egg floor puzzle. I told him that I know the solution.
+7.	About distributed processing and hadoop
+8.	Hashing and B tree and which is better and why and asked for the use cases also when the particular is better.
+ 
+Telephonic :
+Round 5: (CTO round) (15 minutes)
+1.	Why do you want to work at hike ?
+2.	About my Summer Intern  project.
+3.	One data base design question and asked me about the data structures that I would use for the particular use case and why and then optimize.
+Round 6: (CEO round) : (10 minutes)Proper HR questions.
+Round 7 (HR) :  (6 minutes)
+1.	About my Summer Intern project (general overview).
+2.	Discussion about the full time + intern offer and about the new office and work culture stuff.
+

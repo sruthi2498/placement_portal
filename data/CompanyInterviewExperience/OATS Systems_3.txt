@@ -1,0 +1,17 @@
+Given two rectangles, find if the given two rectangles overlap or not.
+Note that a rectangle can be represented by two coordinates, top left and bottom right.  So mainly we are given following four coordinates.
+l1: Top Left coordinate of first rectangle.
+r1: Bottom Right coordinate of first rectangle.
+l2: Top Left coordinate of second rectangle.
+r2: Bottom Right coordinate of second rectangle.
+
+We need to write a function bool doOverlap(l1, r1, l2, r2) that returns true if the two given rectangles overlap.
+Note :  It may be assumed that the rectangles are parallel to the coordinate axis.
+One solution is to one by one pick all points of one rectangle and see if the point lies inside the other rectangle or not.  This can be done using the algorithm discussed here.
+Following is a simpler approach. Two rectangles do not overlap if one of the following conditions is true.
+1) One rectangle is above top edge of other rectangle.
+2) One rectangle is on left side of left edge of other rectangle.
+We need to check above cases to find out if given rectangles overlap or not. Following is C++ implementation of the above approach.
+Run on IDE
+Output: 
+Time Complexity of above code is O(1) as the code doesn’t have any loop or recursion.

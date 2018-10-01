@@ -1,0 +1,7 @@
+Given two strings s1 and s2, check if both the strings are anagrams of each other.
+Examples:
+ 
+Python provides a inbuilt function sorted() which does not modify the original string, but returns sorted string.
+Below is the Python implementation of the above approach:
+Run on IDE
+Output:

@@ -1,0 +1,10 @@
+Travel Triangle links customer and agents across the globe in he most friction less way where customer can customize his package and select competitive packages provided by some agents. Very cool place to work and everything is planned. I went through following process.
+Round 1: Discussion with CTO
+Ques 1: Tell me about your projects? Why you want to switch so soon?
+Ques 2:  Asked questions on web optimization like how to reduce server load, processing time, how to handle multiple requests etc. Caching , forward and reverse proxy, CDN, EC2 and scripting language always helps in answering these questions although there are many more awesome methods.
+Ques 3: Asked me to complete a task. First discussed approach by searching on internet then completed the task using Java. Task was related to fetching mails (sent via offline chat client) from IMAP or POP3 mail box and develop an admin UI to view customers who used chat client and their messages with some more functionalities. I used JavaMail API.
+Round 2: Tech round
+Ques 1: What is RSA and how does it avoid man in the middle attack.
+Ques 2: Find kth largest from two sorted arrays having integer elements. Used merge procedure of merge sort k times (O(k) time complexity). Interviewer asked to develop an algorithm in log(n) time.
+Ques 3: Sort array of 0’s 1’s ad 2’s in O(n) time complexity.
+This was the best interview process I have gone so far which examine a candidate by his ability to complete a task within specified amount of time.

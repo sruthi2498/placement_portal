@@ -1,0 +1,62 @@
+Microsoft Interview Experience(On Campus)
+1st Round :
+Online test was taken in the morning by cocube with 15 MCQ. Time was given for this 30min.
+        I had some problem (can’t write here) so I did in 10 min and rush back to room. (I think u understand why I came back to room.)
+       After 2 hour result announced and was in the shortlisted of 78 students.
+2nd round Begin : (time 70min.)
+Again an online coding round begin with 2 question given.
+Q.1: An array of string is given in sorted order but it can have any no of null sting in between. One another string you have to search in that array of string. If string found then return the index of that, otherwise return -1.
+Q.2: An integer array is given which consisting integer no’s, But in that array 3 unique no are there whose no of occurrence is even.
+Print those three no and the sequence in which the appear in the array.
+		I did both of the question one I did myself and another one with the help of my friend. 
+Result Declared after two day on Friday. My name also were there with 28 students.
+Round 3 Begin: (Group Fly Round):
+They assembled us in a room and gave same problem to everyone and ask to right the algorithm for that.
+Question: word reversing of the string.
+Eg. “Microsoft visited your campus”.
+Expected Output: “campus your visited Microsoft”.
+Question was pretty simple everyone knows how to do it.
+I don’t know on which base the selected only 12 out of 28 students, and I was one of them who selected.
+
+Round 4 (F2F) : (Time 1hr.)
+It was technical round.
+Firstly he went through my resume and asked about my project (Done in c++) which I mentioned in my Resume.
+		They ask which oops concept you used in your project. I told and explained everything whatever I had used…
+		Then he asked me by which oops concept you can improve your project…I told about STL and explained how I’ll do.
+Then he came to data structure and ask very few simple questions….
+Q.1 : an array of 1…N  no is given to you, but one no is missing, how will you find that.
+		I think everyone knows how to do it..
+Q.2 : A string is given to you, and you have to find out first non-repeating char.
+	I had done before this question from geeksforgeek. So no problem at all.
+Then some optimization discussion on different assumption’s like…if you string consisting Bytecode char and all.
+       After one hour they announced the result of Round 4, I was the one of 7 students out of 12.
+
+Round 5 (F2F) : (Time 1hr.)
+It was another technical Round.
+Firstly he gave me his intro then I…..
+Then he gave me my page on which I had written algorithm in Group Fly Round.  And asked me to code it.
+I did and explained.
+Then he asked me…. For implementing a dictionary which data structure you will use..???
+I answered I’ll use Trie .
+He spelled ‘T’’R’ ’E’ ’E’…
+Then I said no sir ‘T’ ‘R’ ‘I’ ‘E’…
+I explained with structure of trie how it is useful, beneficial and efficient.
+		He told me to implement it in Tree.
+I did that…By BST
+		Then he made a loop in my BST by connecting two child node. And asked me to remove it..
+     I loop is not possible in a BST.
+He asked me to proof it…and I proved.
+Then he came to Puzzles……
+He gave a puzzle of  “8 coins and a balance scale”
+I knew it because I had done already.
+But don’t know why I couldn’t solve there.
+He gave me some hint after some time he told me the ans and how to do…
+It can be done by using balance scale two time.
+Mine answer was 3.
+……
+…….
+After some time result came out….
+5 students were selected out of 7 for final HR round…But this time I was in those 2 who went out..
+……………Thanks a lot to GeeksforGeeks for helping me.
+
+

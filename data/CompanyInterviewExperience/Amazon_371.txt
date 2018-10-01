@@ -1,0 +1,16 @@
+Given an array, find an element before which all  elements are smaller than it, and after which all are greater than it.  Return index of the element if there is such an element, otherwise return -1.
+Examples:
+Expected time complexity is O(n).
+A Simple Solution is to consider every element one by one.  For every element, compare it with all elements on left and all elements on right. Time complexity of this solution is O(n2). 
+An Efficient Solution can solve this problem in O(n) time using O(n) extra space.  Below is detailed solution.
+1) Create two arrays leftMax[] and rightMin[].
+2) Traverse input array from left to right and fill leftMax[] such that leftMax[i] contains maximum element from 0 to i-1 in input array.
+3) Traverse input array from right to left and fill rightMin[] such that rightMin[i] contains minimum element from to n-1 to i+1 in input array.
+4) Traverse input array. For every element arr[i], check if arr[i] is greater than leftMax[i] and smaller than rightMin[i].  If yes, return i.
+Further Optimization to above approach is to use only one extra array and traverse input array only twice. First traversal is same as above and fills leftMax[].  Next traversal traverses from right and keeps track of minimum.  The second traversal also finds the required element.
+Below is C++ implementation of above approach.
+Run on IDE
+Index of the element is 4.
+Time Complexity:  O(n)
+Auxiliary Space:  O(n)
+Thanks to Gaurav Ahirwar for suggesting above solution.

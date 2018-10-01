@@ -1,0 +1,32 @@
+Recently OYO Rooms came to our campus to hire full-time for role of software engineer.
+Round 1: Online Test
+20 MCQs on data structures, OS, DBMS, C output questions. No negative marking.
+2 coding questions –
+1. There is a circular track and N runners. You’re given an array of minutes taken by each runner to complete one round of the track. The time is a factor of integer K. Each runner has a gem and whenever runners running at different speeds cross, they exchange gems. You have to print the total number of exchanges done after K minutes had passed.
+Solution based on the examples was to create new array of the number of rounds completed by each runner and then finding sum of differences of all pairs.
+2. Given an array of movie ratings where -10<= Rating <= 10, and 'K' such that exactly K ratings in array can be flipped (positive to negative and vice-versa, any number of times), give the maximum sum of movie ratings possible.
+Approach: Think in terms of all ratings positive, number of negative ratings > K and if number of negative ratings < K 
+They shortlisted 35 students out of roughly 100 students after this round.
+Round 2: Technical Interview – I
+1. What is a Semaphore? Real life, practical example ?
+Asked questions on whatever I explained like what is a critical section, counting and binary semaphores and so on.
+2. Advantage of doubly linked list over singly linked list. Which operation is better in the former, why ?
+This was a pressure test. The interviewer constantly kept asking “Are you sure? Is that the only reason why ?” although i had given the right answer. 
+3. Brief intro of the client side web app that i had made.
+4. Search in a sorted, rotated array.
+Around 15-20 students were shortlisted.
+Round 3: Technical Interview – II
+1. Briefly introduce yourself.
+2. Given a linked list with 2 pointers associated with each node; one which points to next node and one which points to a random node in the linked list. Duplicate this linked list.
+I didn’t have the slightest idea of how to do this and the answer was all thought of on-the-spot. I first started with an O(n^2) time complexity approach, he then asked for a solution in linear time. I gave a solution in linear time but it required O(n) extra space. He further asked me to optimise this, here i was stuck and he hinted that i could modify the original list and i gave a solution but was not able to figure out how to restore the modified linked list to its original structure. But he was satisfied with my solution, he said “You’re very close, if you think a little more, you’ll get it” but moved on anyway.
+3. If i want to print “1” a 100 times i can run a for loop once or run 10 threads printing 10 1s in each thread. Which approach is better in which case. 
+I said in a single processor system, single process is better since thread switching will take time and concurrent execution of threads is only possible on a multi-processor system and also the resources that will be allocated to the 10 threads, separately for performing the same operation, which in a way is a waste. He was satisfied with my answer.
+(CV based)
+4. Describe MVC pattern. Any design pattern other than MVC.
+5. What is socket programming and a short discussion on the events and fall-backs in case sockets are not supported in browser.
+6. (Based on what i answered previously) What is meant by HTTP being stateless? Can we store data on client side ? (cookies and local storage)
+7. Any questions for him. I asked a few about the training process, which team we will work with, work-life balance etc.
+I was one of the 10 students that they selected. They had kept the third round as optional, based on the interviewer’s feedback. 
+All in all the interviewers were very very helpful, polite and supportive. The whole team gave a good vibe and had a positive approach.
+My sincere gratitude to geeksforgeeks for providing a wonderful platform to study and practice for placements. Thank you !
+

@@ -1,0 +1,14 @@
+Given an sorted array of size n. Find number of elements which are less than or equal to given element.
+Examples:
+Naive approach: Search whole array linearly and count elements which are less then or equal to key. 
+Efficient approach: As the whole array is sorted we can use binary search to find result. 
+Case 1: When key is present in array, the last position of key is the result.
+Case 2: When key is not present in array, we ignore right half if key is greater than mid. If key is smaller than mid, we ignore left half. We always end up with case where key is present before middle element.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Although this solution performs better on average, the worst case time complexity of this solution is also O(n). 

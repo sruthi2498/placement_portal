@@ -1,0 +1,55 @@
+VMWare interview for MTS-2 position.
+I Telephonic round
+	1. Given an array of strings. Find the maximum prefix among all the strings.
+	Ans: First told about tries. Then went for trivial answer saying compare all the zeroth indices then first indices.
+	2. Similar to kadane’s algorithm
+	3. I forgot this Q.
+	4. Monty Hall puzzle.
+	Ans: Told the ans as 1/2 after taking 5 mins. Tried to prove using probabilites but could not able to.
+I F2F round
+	1. Given an unsorted array, find the max j-i such that j > i and a[j] > a[i] in O(N).
+	Ans: Told trivial solution in O(n2). Then used DP but still O(n2). Then told using sorting approach in O(n2).
+		Could not able to solve even after giving 45 mins of time as it is not trivial answer.
+	2. Given a rectangular cake and 3 persons have to share it. First person took  a rectangular cut. How will you cut such that remaining two people
+		will get the same amount?
+	Ans: First told horizontal cut where interviewer surprised with the answer and asked for different solution.
+		Then told cut along a line such that it touches center of mass of both the rectangles.
+	3. Asusual about current work and why VMWare.
+II F2F round
+	1. Given k-sorted lists. How will you sort the list in to the new whole array?
+	Ans: Standard Q. Then asked about time complexity. 
+	2. What if they are not sorted lists.
+	Ans: Sort the individual arrays first. Then told about heap solution which is not effective. But he is happy with the approaches
+	3. Lots of questions on C++. As I worked on C++ in current company.
+…………a. What is the use of friend functions and classes? What are the advantages and disadvantages? Where do we use them?
+…………b. What is virtual destructor?
+…………c. Why virtual constructors do not exist ?
+		Forgot the remaining.
+	4. He is the same person who interviewed me for telephonic. So asked once again about Monty Hall Puzzle.
+	Ans: Proved this time with probabilites.
+	5. http://www.allinterview.com/showanswers/15001.html
+	Ans: Simple Question
+III F2F round
+	1. About routing protocols.
+	2. How to counter count to infinity problem?
+	Ans: Told several approaches and he is expecting poission reverse which I could not tell.
+IV F2F round
+	This is with the manager. This is like rapid fire where interviewer keeps on asking me questions which has either one or two line answers.
+	1. What are the protocols that you know in transport layer?
+	2. What is the difference between UDP and TCP?
+	3. What is the connection end point in TCP ?
+	4. What is the systemcall which creates a seperate connection? (Indirect question about Accept system call)
+	5. Which system call is used to poll among fds? (select or epoll_wait)
+	6. Why virtual functions?
+	7. If you already have a memory, how will use that memory to allocate a new buffer? (placement new)
+	8. 2-D dynamic array allocation syntax?
+	9. Arp protocol and why it is used?
+	10. Why ICMP is used?
+	11. What are the protocols that you know at MAC layer ?
+	12. Virtual base classes and why it is used?
+	Some other questions which I forgot. 
+After one day HR interview was scheduled.
+	Typical HR questions. At that time only he told that they are going to give offer. Did not negotiate at all as they offered me decent.
+Run on IDE
+
+

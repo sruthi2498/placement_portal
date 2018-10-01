@@ -1,0 +1,23 @@
+A vertex cover of an undirected graph is a subset of its vertices such that for every edge (u, v) of the graph, either ‘u’ or ‘v’ is in vertex cover. There may be a lot of vertex covers possible for a graph.
+Problem Find the size of the minimum size vertex cover, that is, cardinality of a vertex cover with minimum cardinality, for an undirected connected graph with V vertices and m edges.
+Examples:
+
+An upper bound on time complexity of this solution is O((E + V) * 2V)
+ 
+
+Now let’s imagine a boolean array of size n and call it isCover[]. So if the answer of the question; “Does a vertex cover of size x exist?” is yes, we put a ‘1’ at xth position, otherwise ‘0’.
+The array isCover[] will look like:
+The array is sorted and hence binary searchable, as no index before k will have a ‘1’, and every index after k(inclusive) will have a ‘1’, so k is the answer.
+So we can apply Binary Search to find the minimum size vertex set that covers all edges (this problem is equivalent to finding last 1 in isCover[]).   Now the problem is how to generate all subsets of a given size.  The idea is to use Gosper’s hack.  
+What is Gosper’s Hack?
+Gosper’s hack is a technique to get the next number with same number of bits set. So we set the first x bits from right and generate next number with x bits set until the number is less than 2V. In this way, we can generate all VCx numbers with x bits set.
+Run on IDE
+Source : StackExchange
+We use gosper’s hack to generate all subsets of size x(0 < x <= V), that is, to check whether we have a '1' or '0' at any index x in isCover[] array.
+Run on IDE
+Output:
+Conclusion:
+Time Complexity : O (E * ( VCV/2 + VCV/4 + VCV/8 +…upto VCk ) )
+
+These terms are not more than log(V) in worst case. 
+Note: Gosper’s hack works for upto V = 31 only, if we take ‘long long int’ instead of ‘int’ it can work upto V = 63.

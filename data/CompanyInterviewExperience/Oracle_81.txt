@@ -1,0 +1,51 @@
+———-
+1st round
+apti questions
+coding questions
+logical questions
+analytical questions
+————————–
+2nd round on paper coding everyone got diff question. these questions i collected from my friends
+1. sort the array such that even numbers in ascending order and odd numbers in descending order
+2. n number of cards will be given out of 52 playing cards sort them according to colour and value
+3. 4X4 matrix given which contains characters. one word will be given check all character of given word are present in array or not
+4. a long string of numbers will be given like 99100102103104016 find the missing number here 105
+  it can be of 1/2/3 or any length numbers ex 1234568 or 1112131416 or 9101113 or anything
+others are also there
+—————————
+3rd round TR
+2nd round is not a elimination round
+total 60 people were selected for 3rd round
+interviewers are friendly
+my interview:
+1. mine was sorting array problem (2nd 1st one) he asked me to explain my logic
+2. told me to write test cases of all cases and to execute them
+3. mine was O(n2). he told me to optimize
+4 i used insertion i told him it will take less time in best case
+5. then he told me to use merge sort. i didn’t got the idea how to implement merge sort with two different logics he gave me idea then i understood and written the logic while writing i observed one more error and i told him that and i corrected it. then he changed the logic i have to sort the array in zig zag fashion. i did it (thanks to gfg http://geeksquiz.com/converting-an-array-of-integers-into-zig-zag-fashion/
+6. he read my complete resume each and every line in between he was asking simple questions about my resume.
+7. then he asked me “tell me about yourself that is not in resume”.
+8. some management questions like i have convince my client to purchase a recently designed product,
+   i am a shopkeeper in a footware shop i have to sell a shoe which is available in all other stores, but he has to buy it in my shop only
+9. puzzles:  two ropes which burn in 1hr measure 45 mint… problem
+   12 balls, 11 are same weight one is faulty weight (we don’t know it is less or more) classical balance given min number of turns needed
+10. my project was on php and mysql so he asked so many questions about that he asked database design of the project i explained him completely he was impressed
+11. then he asked me questions in databases with increasing difficulty about 12-15 questions i answered then he asked me some indexes in databases which i don’t know i told him the i don’t know then he stopped asking about database
+12. questions about java, c++,, php. all are difficult ones. i answered 85% of them
+13. i written sql in resume so he started asking queries normal ones only
+        how to delete duplicate records
+        one coln contains IDs from 1 to n one is missing in between them how to find it using sql
+        view points what are they, why, how to create.. etc
+        given 4 tables with sample data asked me to select some rows from one table based on joint of two tables which are results of one sub query with one condition. (it includes aliasing, join operation, sorting, and mainly logic. i thought for about 5 mints then i got the logic)
+14. its been more than 90 mints so he thought to stop the interview he skipped to basic questions about me, my background, why oracle.. etc
+and stopped the interview he told me that im selected for 4th round.
+——————————————————————-
+4th round
+after 5 hrs after 3rd round i was called for 4th round
+all are programming questions:
+1. 4X4 matrix containing 1,0. 1-path 0- no path. starting point is given different exit points will be given find the sortest path
+3. agian about my 2nd round question and optimization techniques and another method to do it
+4. coding round 2nd round 4 th question : input stream given find the missing number 99100102103104016 find the missing number here 10. i had already discussed it with my friend so i explained the logic he said ok
+5. 5 numbers 4 operators are given  find the max value possible
+
+

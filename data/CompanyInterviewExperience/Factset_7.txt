@@ -1,0 +1,31 @@
+First Round(Pen and Paper based coding round)- 60 min
+1. You are given a NxN matrix.You have to rotate same coloured rectangle clockwise or anticlockwise alternatively by a ‘k’ value. K value keeps on increasing by one as we move from outer to inner loop.Suppose in the given figure outermost loop is rotated by 1 place clockwise followed by next loop rotated by 2 places anticlockwise and so on. [Give only Inplace solution].
+
+2. You are given a binary tree.You have to calculate sum of all nodes of a given tree without        using recursion and extra space(e.g. no Queue/Stack).
+3. You are given time in 24-hour format.You have to print next plindromic time .
+Example: 11:53   Output: 1221
+24 students out of 170 were selected after coding round.
+Technical Interview – I (35 min Approx.)
+1. When you access any website through web browser,it automatically converts web content to default language to that country to which IP address of url belong.Use efficient data structure to implement above process.You have given country name,language and IP range of that country.
+2. A string is given in encoded form(e.g. [2a[2b[2c]]] ) You have to decode given string (O/P – abccbccabccbcc ).
+3. A NxN matrix is given .You have to print matrix in given zigzag format.
+
+
+Technical Interview – II ( 1 hr 15 min approx.)
+1. i) Do you have any idea about justification in MS word?? .Give the logic how MS word implements Center justification.Write code for tha logic that you have given.
+   ii) You have to implement center justification such that all left and right words of each     row(line ) are aligned and lie on same column.You have to adjust extra spaces between the words.Give logic and also write the code .He also gave some test cases to run.
+2. Give all aproaches to find majority element in array.(From naïve to Moore voting algorithm approach)
+3.     i) You have to find path from one leaf node to other leaf node which have maximum sum in a given binary tree(Note :Without using recursion and extra space).
+ii)Also you have to print that path which have maximum sum without using stack/Queue in O(1) space .(Note : You can change structure of a node ).
+4.You are given a perfect binary tree .You have to print kth level form leaf node without calculating the height of tree.
+
+5. Brief discussion on projects
+8 students were selected for HR interview.
+HR Interview ( 20 min ) –
+1. Tell something about yourself.
+2. Why do you want to join Factset??
+3. Tell me about your family background.
+4. Which language you preferred to write code??
+5. Hobbies and area of interest.
+
+

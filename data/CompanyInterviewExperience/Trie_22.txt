@@ -1,0 +1,10 @@
+Given a dictionary and a character array, print all valid words that are possible using characters from the array. 
+Examples:
+Asked In : Microsoft Interview
+
+The idea is to use Trie data structure to store dictionary, then search words in Trie using characters of given array. 
+Below is c++ implementation of above idea
+
+Run on IDE
+Run on IDE
+

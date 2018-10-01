@@ -1,0 +1,45 @@
+Online Round
+1.	Convert Binary tree to linked list.
+2.	Rotate a matrix by 90 degree.
+There were 2 more questions. But I forgot what were they?
+Telephonic Interview
+Overview of my resume, current role responsibilities and asked to explain internship project in brief.
+1. What is the definition of tree ?
+2. What are the differences between graph and tree?
+3. When can you say a graph to be a tree?
+4. Write a program to show whether a graph is a tree or not using adjacency matrix.
+Its always good to ask questions at the end. It shows our interest towards the company.
+F2F 1
+Overview of current job responsibilities and internship project.
+1.	Convert a tree to a sum tree. 
+Always take care of all the corner cases
+2.	Print a pascal tree .
+3.	Given a 2D matrix sorted row wise and column wise . Print the matrix in sorted way. (Can be done using Min Heap).
+For all the questions, complexity of the program was asked and was being asked to improve both time and space complexity.
+F2F 2
+Many questions regarding my current project, tools and technology I am working on.
+1.	Convert a binary tree to a sum tree . Here he had a new meaning of sum tree.
+Example :
+(I did it with Level Order Traversal) (Complete working code was required)
+2.	Given an array of integers. Find the largest 3 element. (Can be done using Max Heap in less time complexity)
+F2F 3 
+Lots of questions on my current work and tools which I was using.
+Why do I want to leave my current company on such a short interval of 5 months.
+Why Amazon ?
+What inspires you to join Amazon? Why dream company ?
+1.	Connect Sibling pointers. I gave a Level Order Traversal solution. He asked to do it in O(1) space complexity. I explained the approach but messed up In writing the working code for that.
+2.	Explain the approach of LRU cache and implement using object oriented language.
+F2F 4
+Why Amazon?
+Why do you want to leave your current company in such a short interval?
+Did u ask your current company to provide that type of work as u r looking in Amazon?
+1.	Design a system for finding the costliest element always whenever we pick up an element from a box.(concept of Max Heap)
+2.	A stream of data is coming. Maintain records in a page and mechanism to see  previous and next page. (Concept of Doubly Linked List)
+(It is always advisable to ask questions in design questions. The interviewers expect that we will be asking questions for clarification)
+What is thread?
+What is the meaning of memory leakage?
+Followed by many OS questions but I forgot.
+In every round , after each question , complexity of the algorithm was asked. Its good to ask questions to get more clarification about the question.
+I want to thank the entire team of geeksforgeeks. It is a great portal and it helped me a lot in preparing for Amazon interview. 
+Reference – GeeksForGeeks and Cracking The Coding Interview
+

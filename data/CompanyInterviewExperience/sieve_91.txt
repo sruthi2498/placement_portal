@@ -1,0 +1,6 @@
+You are given two numbers a and b (1 <= a,b <= 10^8 ) and n. The task is to find all numbers between a and b inclusively having exactly n distinct prime factors.  The solution should be designed in a way that it efficiently handles multiple queries for different values of a and b like in Competitive Programming.
+Examples:
+This problem is basically application of segmented sieve. As we know that all prime factors of a number are always less than or equal to square root of number i.e; sqrt(n). So we generate all prime numbers less than or equals to 10^8 and store them in an array. Now using this segmented sieve we check each number from a to b to have exactly n prime factors.
+Run on IDE
+Output:
+If you have another approach to solve this problem then please share in comments.

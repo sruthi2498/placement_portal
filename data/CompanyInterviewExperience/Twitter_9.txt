@@ -1,0 +1,23 @@
+Phone screen – I
+1. Fibonacci series without using an array – this is a typical favorite question w.r.t. Dynamic Programming where you will asked not to use Memoization or any extra storage to store the values of the previous iterations.
+(More complicated version of the same problem: Generate Nth row of pascal’s triangle w/o using a 2D array of dimention N x N)
+2. N-ary tree : find if a node exists in the tree with value = x. If yes, return true, else, return false.
+Phone screen – II
+1. Find the lowest common ancestor of Binary Tree
+Answer: Done it a 10 times 🙂 Explained how to do it !
+2.  Clone a graph and analyze the time and space complexity (since DFS based approaches leverages smaller time at the cost higher memory)
+Phone Screen III
+Design a bloom filter to remove the duplicates from an unsorted array !
+On-site
+1. (Boggle – like question) In a 2D array (M x N, in the given ex. 3×3) of numbers, find the strictly increasing path from the specified origin cell (1,0) to the specified destination cell (0, 2). Array may contain duplicates, and solution should work with the dups.
+2.a. Design a unique hash function for every tweet in Twitter which will be used as part of a service.
+2.b. Find if a directed graph has cycles or not. Write a function with boolean return type for the same.
+3. Casual Lunch interview.
+4. Pattern matching using patterns containing chars (a to z) and ‘*’ , ‘?’ and ‘.’
+5.a. Describe how would you do external sort -> come to a map-reduce kind of solution. Each machine has 10M numbers (total 100M), 10 total machines. Each m/c has 20MB RAM and 50GB memory.
+5.b. N-Queens problem: find and print all possible non-conflicting positions for the Queen.
+6.a. Given an input binary tree and reference to a Node in the tree, find next in-order successor for the input node. Output null if none.
+6.b. What is the best way to sort a k-sorted array ? Optimize for time complexity.
+(My hint: use a priority queue of size k)
+7.a. Hiring manager: Design a service for a. Durability b. Consistency
+7.b. Explain C++’s problem with multiple inheritance.

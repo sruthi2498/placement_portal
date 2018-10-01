@@ -1,0 +1,56 @@
+Adobe came to my campus in April 2016 for Software Engineer(White Box Testing) profile.
+ 
+ONLINE ASSESSMENT ON HACKERRANK:
+First, they took 2 online tests.An aptitude test having 50 questions to be done in 45 minutes. It was pretty easy .Mostly questions were on logical reasoning based on seating arrangements,data interpretation,test cases ,find the area of some given figure,inferences based,speed ,simple interest,discount,shares type questions etc.There were no questions which required much calculation like pipe cisterns,work and time,trains etc
+TRICK : Start from last.Do data interpretations questions in end.Most importantly, Be quick.
+ 
+ Second was online technical assessment.It was of 35 minutes and had 18 questions.14 questions were  C/C++ MCQ.and last 4 questions were subjective coding questions.You can’t run and test the code there.
+Coding questions were:
+1) Draw a pattern of starts having inverted triangle.
+2) Write code in C to multiply two matrices.
+3) Write code in C to find the decimal number if its binary conversion is given as a string.
+4) How will you  generate a stream of random numbers using rand() function and ensure that every time it generates unique numbers.
+Codes were easy .Basically they wanted to evaluate whether you include all test cases or not.
+ 13 students were shortlisted on the basis of these 2 online tests and were invited to Adobe Office at Noida.
+ 
+ASSESSMENT 2:
+It was pen and paper round. 3 coding questions were asked.Out of which ,we had to write two codes in 20 minutes.
+1) Find the nth node from back of the linked list.
+2) Find the maximum sum subarray from a given array.Array can have negative elements too.We have to print initial and final position of the subarray. Hint: Kadane’s Algorithm
+3) Find the factorial of 100. Hint: Use an array to store results.
+PS: Hints were not given there.
+ 
+TECHNICAL ROUND 1:
+Interviewer was pretty cool and nice to me. She asked to give my intro to her and brief description of my projects.She asked me what approach I used in the previous round to answer the questions and what other method I could have used to improve complexity.She also asked the technical questions which I did wrong in online test.She asked me what are binary trees and  to write the code to make a binary tree.Given Inorder and Preorder in the form of arrays.
+She asked me a lot of questions from operating systems like Virtual Memory, Context Switching, Assigning priorities to processes and detailed discussion on it.
+She asked me the difference between static and auto in C.
+What are dangling pointers and memory leak .How you can avoid them.
+She asked me all  types of testing.Automation testing,Memory leak testing,Loop testing,Performance testing etc
+7/13 were rejected after this round.
+ 
+TECHNICAL ROUND 2:
+Interviewer was very friendly.He first introduced himself and what work he and his Core Technologies team do at Adobe.Then he asked my introduction.He asked me various well known puzzles like gold bar puzzle ,socks puzzles.One question was if I have Sunday on 1st Jan 2000. Then in which year ,we will have Sunday on 1st Jan again.(I used the odd days trick and answered him quickly). He asked me some questions on virtual memory,priorities of various processes.How OS assigns the priorities to various processes. What will happen if 2 processes having same priorities come?LRU ,MRU,techniques etc.
+He asked the test cases that I will try if a system is running slow.
+He asked me test cases on Like button of facebook,test cases on if someone uploads a picture on fb, test cases that I will run on login page of a website.
+I gave him many and he was impressed.
+PS: If an interviewer asks a puzzle and says whether you have done it before or not.Never say yes in any case.
+ 
+MANAGERIAL ROUND:
+Interviewer was very polite and nice.She asked me about my major project and we had detailed discussion on it.She asked me 1-2 questions that I was not able
+in Tech round 1.I explained her very well this time. She asked me whether I am placed or not. If yes, then in which company I am placed and what they are offering to me.What is the location of that company. What profile I have been offered here. Why you want to join Adobe instead of that company(Azcom Technologies).
+Do you use Adobe products.Which one you like most and what feature of that product fascinates you most?She asked me how I use paid products of Adobe.
+I frankly told her I use cracked versions and she smiled.(I thought I did a blunder but later I got to know that she was impressed with my truthfulness).She also asked me to write the code to find a given word in the given string.I wrote the code and included all the test cases which was important for this role irrespective of time & space complexity.
+1 person was rejected.
+ 
+HR ROUND:
+I got a call for this round just after the previous round.HR was coolest lady at Adobe.(Later she clicked our pics too :P) At first,She offered me tea/coffee.She asked me typical HR questions .
+What are your strengths and weaknesses.
+What you want to join Adobe.
+What do you see yourself 2 years down the line.
+What position you have in your class.
+Our college which was part of IPU before has changed to a state university .We discussed about it also.She asked me what changes I have seen after this conversion to state university.
+She asked me how ppl know me at my college apart from my academics performance.How my previous interview rounds went?
+It was very short and nice interaction with her.
+ 
+Thanks a lot to geeksforgeeks for providing us a great platform to learn  and all ppl who contribute here.
+

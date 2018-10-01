@@ -1,0 +1,23 @@
+First round was technical aptitude. Around 120 students sat for it. 15 MCQs were asked- Everyone had different sets. All sorts of questions were asked, I had each question on C, STL, sorting, Java, Computer Architecture and OS.
+Second round- Coding.
+Around 60 students were shortlisted and coding round was conducted the same day. Everyone had different questions. Two problems were given and I had-
+1. Find sum of data of all leaves of a binary tree on same level and then multiply sums obtained of all levels.
+2. Two linked lists are given each containing a positive number find the difference of the two number and store it in a linked list and return reference to the head of the resulting linked list.
+Eg: LinkedList1: 6 -> 5 -> 3 -> 0
+LinkedList2: 4 -> 5 -> 2 -> 0
+Output -> 2 -> 0 -> 1 -> 0
+People who solved both and some with one were shortlisted. Results were announced after a month.
+25 people were shortlisted after second round and were called to Bangalore.
+Many students from different colleges were present for process there.
+Third round- Group fly.
+This was elimination round. Two questions were to be solved in one hour. A mentor was assigned to each group of 8-9 students. We had to discuss our approach and then code it and submit.
+1. Remove duplicates from string in place in O(n).
+2. Check whether given binary tree is balanced or not. Definition was no two leaves should have height difference of greater than one.
+People who solved both were shortlisted.
+Fourth round – Technical interview (45 min to 1 hour)
+Interviewer was responsive and very co-operative.
+First 15 min discussion on my projects. Then he asked me a question on arrays.
+Given three arrays(arr1, arr2, arr3) each containing distinct positive numbers find three numbers a,b,c each from arr1, arr2, arr3 respectively such that (abs(a-b) + abs(b-c) + abs(c-a)) is minimum. I gave an nlogn approach for it and then I was to write the code on paper.
+Final round was HR
+Apart from the HR questions I was asked about to explain Overflow and Underflow Arithmetic Exception and write code to detect it.
+Overall experience was very good. The final results were declared 10 days after the interviews got over.

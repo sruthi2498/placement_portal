@@ -1,0 +1,7 @@
+Given a Binary Tree, extract all leaves of it in a Doubly Linked List (DLL).   Note that the DLL need to be created in-place. Assume that the node structure of DLL and Binary Tree is same, only the meaning of left and right pointers are different.  In DLL, left means previous pointer and right means next pointer. 
+We need to traverse all leaves and connect them by changing their left and right pointers.  We also need to remove them from Binary Tree by changing left or right pointers in parent nodes. There can be many ways to solve this.  In the following implementation, we add leaves at the beginning of current linked list and update head of the list using pointer to head pointer.  Since we insert at the beginning, we need to process leaves in reverse order.  For reverse order, we first traverse the right subtree then the left subtree. We use return values to update left or right pointers in parent nodes.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n), the solution does a single traversal of given Binary Tree.

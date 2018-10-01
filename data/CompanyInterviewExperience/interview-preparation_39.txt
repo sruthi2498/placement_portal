@@ -1,0 +1,60 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the TCS interview.
+Solution: 
+Let the number added to 5678 be x to give a remainder 35 and quotient k when divided by 460.
+So, 5678 + x = 460k + 35
+or, 5643 + x = 460k
+So 5643 + x must be divisible by 460
+Ananysing from the options, we get on adding 797 to 5643, the number 6440 is divisible by 460.
+Solution:
+The best way is to analyse from the mentions.
+Let’s take option b in which 10 pencils are bought at Rs.6 each. So total cost of grey pencils = 6 * 10 = Rs.60. So Rahaman is left with 40 rupees. He buys 8 black pencils at Rs 5 each which is 1 rupee less than what he had spent in buying the grey ones. Thus satisfying the conditions.
+Solution:
+Total possible outcomes =  = 1296
+Number of ways in which no two people get same number = 6*5*4*3 = 360 ways
+The probability of no two people getting the same number = 360 / 1296 ways = 5/18 ways
+So the probability of at least two people getting the same number = 1 – 5/18 = 13/18 ways
+Solution: Let Ram and Shyam be denoted by ‘R’ and ‘S’ respectively
+According to the question,
+Eqn 1. R + S/2 = 75
+Eqn 2. R/3 + S = 75
+Therefore, solving both the equations we get, R = 45 and S = 60.
+Solution: Let the price per orange be Rs. x.
+So total money Ram has in buying at original price = 20x.
+On reducing the price by 2 rupees each the total money must be (x-2)*30
+According to the question,
+20x = (x-2)*30
+On solving this we get x = 6 or the total money = Rs. 120
+
+Solution:
+Single digit numbers can be formed in 4 ways.
+2 digit number can be formed in 4 * 3 = 12 ways
+3 digit number less than 500 can be formed in 3 * 3 * 2 = 18 ways.
+Total number of ways = 18 + 12 + 4 = 34 ways
+Solution:
+x number of books cost him y rupees.
+So, 1 book will cost him y/x rupees.
+12 books will cost him rupees 12 y/x.
+The shopkeeper says,
+x + 10 books cost him 12 rupees
+1 book will cost him 12/(x+10) rupees
+12 books will cost him 24/(x+10) rupees
+We know that 80 cents = 4/5 of a dollar,
+So, 12y/x – 24/(10+x) = 4/5
+Analysing the given choices, we get (5, 1) satisfies the equation.
+Solution:Let the side of the equilateral triangle be a unit and that of the regular hexagon be b unit.
+So perimeter of the triangle = 3a and perimeter of the hexagon is 6b unit.
+or, 3a = 6b
+or a/b = 2/1
+The area of the equilateral tr
+iangle = 
+The area of the regular hexagon = 
+or,  : 
+Solving this and subsituting a/b we get the answer as 2 : 3
+Solution:The series goes like:
+70 – 54 = 16 (4^2)
+54 – 45 = 9 (3^2)
+45 – 41 = 4 (2^2)
+41 – 40 = 1 (1^1)
+Solution:We get the series of publications as n, n+7, n+14, n+21, n+28, n+35, n+42.
+Sum of publications = 13524 = 7/2[2n + (7-1)*7] (Using the sum of AP formula)
+We get, n = 1911 (answer)

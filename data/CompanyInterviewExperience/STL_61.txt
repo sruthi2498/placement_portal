@@ -1,0 +1,9 @@
+The unordered_multimap::count() is a built-in function in C++ STL which returns the number of elements in the container whose key is equal to the key passed in the parameter.
+Syntax: 
+Parameters:  The function accepts a single mandatory parameter key which specifies the key whose count in the unordered_multimap container is to be returned. 
+Return Value: It returns an unsigned integral type which denotes the number of times a key occurs in the container. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

@@ -1,0 +1,26 @@
+20 mcqs – OS, Apti, Puzzles, C, DSA
+2 coding –
+1. Merge intervals given in array
+2. Variation of josephus problem with k=2
+Interview round 1
+1. Find Largest Sub-Matrix With All 1s (Not Necessarily Square)
+2. Search element in a sorted rotated array in only one (logn).
+Some of my friends were asked –
+1. Merge 2 BSTs
+2. Diameter of Binary Tree
+3. first positive element not in array(unsorted)
+4. check binary tree is BST
+5. search an element in a very large array, you don’t know it’s size
+6. Decreasing sorted array given , make a balanced BST.
+7. Generate all permutations of string.
+8. 2 unsorted arrays given, find if there BSTs will be same.
+9. Find a triplet a, b, c such that a2 = b2 + c2.
+10. Convert a BST into a DLL and DLL to BST in place.
+Interview Round 2
+1. Delete half nodes from binary tree
+2. kth largest element in large array
+3. All strings possible from a no. for example 26, Ans – “B”,”Z”,”BF”
+4. Implement a stack with push(), pop() and min() in O(1) time, using Class concept.
+Tips – 
+Only Hardwork and practice helps. And of course your luck on interview day 🙂
+

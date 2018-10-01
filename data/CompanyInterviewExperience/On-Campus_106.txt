@@ -1,0 +1,16 @@
+Morgan Stanley visited our campus for hiring FTE and interns for the position of Technology Analyst. It expected a decent GPA and only those students who had a GPA of at least 7.0/10.0 were allowed to participate in the interview process.
+Round 1: There were 3 separately timed sections. 
+After this round, 23 students were shortlisted. Most of the selected had done well in the first 2 sections and had solved at least 2 coding questions completely.
+Round 2: DSA, OS, DBMS, OOPS (Approx 1 hour)
+
+This round tested basics of all the core CS subjects. The interviewer started with few basic OOPs terminology (abstract classes, interface, difference between the two, when to use which, and so on), and then moved on to DBMS queries. I was asked to write a few queries. One of the queries was to find the employee having 10th highest salary. Others queries were quite simple. Then, he moved on to datastructure questions, wherin the questions were very easy and he asked me to write a proper code (not pseudo code) for them. Lastly, a few questions on threading and my OS project.
+This was an elimination round and after this round, 13 students got shortlisted.
+Round 3: Projects and Designing (Approx 1.5 hours)
+
+The interviewer started by asking few questions related to the projects that I had mentioned in my resume. After that, he moved to a design question wherein I was asked to draw an ER diagram, class diagram, corresponding tables, write a few queries, handle few edge cases (and few more such tasks) for a banking system. The interviewer used to provide hints at appropiate steps.
+Round 4: Professional Fit round (HR round, Approx 1 hour) 
+The interviewer asked me a lot of classic HR type questions, especially related to team work and leadership. Then we had a long discussion about my role in the company as well as about the working of the company. He did not go into any technical details. He was noting down a few things along with each question that he asked. Mostly, this round was to see how well you would be able to fit in the company if you get hired.
+Round 5: Group Activity (30 mins)
+We were divided into 2 groups and each group was given lego blocks and chart paper, and was asked to design a logo and make a prototype of a product that we want them (people from Morgan Stanley) to invest in. We were given about 20 minutes for the same after which we were asked to present our product. Each group was observed by 4-5 interviewers when they were building their product and the presentation was in front of the entire Morgan Stanley team.
+Finally, after 3 hours of waiting, the results were announced and 2 students (including me) were selected as FTEs and 3 students were offered 6 month Intern.
+Always remember: The interviewer is there to help you, so while solving a problem THINK OUT LOUD, so that the interviewer can understand your approach towards the problem and can provide you necessary hints to arrive at the optimal solution. Also, all the interviewers that I had faced were very friendly and overall it was a very wonderful, but exhausting, experience.

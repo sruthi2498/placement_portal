@@ -1,0 +1,33 @@
+A translation needs to relate the static source text of a program to the dynamic actions that must occur at runtime to implement the program. The program consists of names for procedures, identifiers etc., that require mapping with the actual memory location at runtime.
+Runtime environment is a state of the target machine, which may include software libraries, environment variables, etc., to provide services to the processes running in the system.
+SOURCE LANGUAGE ISSUES
+Activation Tree
+A program consist of procedures, a procedure definition is a declaration that, in its simplest form, associates an identifier (procedure name) with a statement (body of the procedure).  Each execution of procedure is referred to as an activation of the procedure. Lifetime of an activation is the sequence of steps present in the execution of the procedure. If ‘a’ and ‘b’ be two procedures then their activations will be non-overlapping (when one is called after other) or nested (nested procedures). A procedure is recursive if a new activation begins before an earlier activation of the same procedure has ended. An activation tree shows the way control enters and leaves activations.
+Properties of activation trees are :-
+Example – Consider the following program of Quicksort
+The activation tree for this program will be:
+
+First main function as root then main calls readarray and quicksort. Quicksort in turn calls partition and quicksort again. The flow of control in a program corresponds to the depth first traversal of activation tree which starts at the root.
+CONTROL STACK AND ACTIVATION RECORDS
+Control stack or runtime stack is used to keep track of the live procedure activations i.e the procedures whose execution have not been completed. A procedure name is pushed on to the stack when it is called (activation begins) and it is popped when it returns (activation ends). Information needed by a single execution of a procedure is managed using an activation record or frame. When a procedure is called, an activation record is pushed into the stack and as soon as the control returns to the caller function the activation record is popped.
+
+A general activation record consist of the following things:
+Control stack for the above quicksort example:
+
+
+SUBDIVISION OF RUNTIME MEMORY
+Runtime storage can be subdivide to hold :
+
+STORAGE ALLOCATION TECHNIQUES
+I. Static Storage Allocation
+Eg- FORTRAN was designed to permit static storage allocation.
+II. Stack Storage Allocation
+III. Heap Storage Allocation
+
+PARAMETER PASSING
+The communication medium among procedures is known as parameter passing. The values of the variables from a calling procedure are transferred to the called procedure by some mechanism.
+Basic terminology :
+i.Formal Parameter: Variables that take the information passed by the caller procedure are called formal parameters. These variables are declared in the definition of the called function.
+ii.Actual Parameter: Variables whose values and functions are passed to the called function are called actual parameters. These variables are specified in the function call as arguments.
+Different ways of passing the parameters to the procedure
+

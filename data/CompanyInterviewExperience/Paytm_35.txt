@@ -1,0 +1,24 @@
+1st Round : Machine Coding Round 
+It was machine coding round having two coding questions.
+1) Based on tree . (Solved using Brute force , didn’t pass all test case.)
+2) Array and HashMap related problem. Solved in O(n) passed all test case.
+2nd Round : Tech Interview
+1) Reverse linked list and some basic algorithms questions.
+2) Write a program to convert decimal Number to Hexa-decimal.
+3) Some Database design related problems.
+4) Some sql queries.
+I answered almost all questions of 2nd Round.
+3nd Round : Tech Interview
+1) re-arrange array element in such a way so combining all array element  will result in maximum number.
+2) 2 Puzzles
+3) Some API related questions
+Didn’t solved puzzle (Non-technical).
+4th Round : Tech Interview 
+interviewer was VP of the company.
+1) implement function which add n days to given date without using inbuilt library. (Production level code was required.)
+2) There are n Thread , n/2 thread are producer and n/2 are consumer, number produced by producer-1 thread must be consumed by consumer-1 thread. Thread must also run in order, producer 1, then consumer 1, again producer 2 and then consumer 2…so on…..
+(Production level code was required.)
+wrote both of code with zero errors.
+5th Round : HR
+HR just told me you are selected and asked me about salary expectation.
+ 

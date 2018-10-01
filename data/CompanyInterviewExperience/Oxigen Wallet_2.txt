@@ -1,0 +1,16 @@
+Given an integer array with repeated elements, the task is to find sum of all distinct elements in array.
+Examples:
+
+A Simple Solution is to use two nested loops. The outer loop picks an element one by one starting from the leftmost element. The inner loop checks if the element is present on left side of it. If present, then ignores the element.
+Time Complexity : O(n2)
+Auxiliary Space : O(1)
+A Better Solution of this problem is that using sorting technique we firstly sort all elements of array in ascending order and and find one by one distinct elements in array.
+Run on IDE
+Output:
+Time Complexity : O(n log n)
+Space Complexity : O(1)
+An Efficient solution of this problem is that using unordered_set we run a single for loop and which value comes first time its add in sum variable and store in hash table that for next time we not use this value.
+Run on IDE
+Output:
+Time Complexity : O(n)
+Auxiliary Space : O(n)

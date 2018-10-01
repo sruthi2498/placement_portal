@@ -1,0 +1,24 @@
+Factset visited our college in August, 2018 and allowed “C.S.E”, “IT”, “ECE” to sit in their recruitment test.
+Round 1: The first round was a pen-paper coding round. It consisted of three questions. Whole code was not required and pseudocode was enough. First ques was a simple question based on greedy algorithm. I don’t exactly remember the question but the other two are as follows:
+Ques1: Given a post order traversal of a binary tree and an array which tells whether it is a leaf node or a non-leaf node. Construct the binary tree out of it. There are multiple ways possible. We need to give one. No extra space was allowed but we could use recursion.
+Ques2: Given an array consisting of integers. Print all the subsequences  based on 132 pattern that is for i<j<k print all the subsequences such that arr[i]<arr[k]<arr[j].Time Complexity: O(n).Space Complexity: O(n).
+29 students were selected for first technical interview round. Students who solved two solutions correctly could make it to the next round.
+Round 2: He asked me three questions. They are as follows:
+Ques1: Print the next rank string of the given string. For example: for “abc” it will be “acb” . This was a simple question based on next highest permutation. We needed to write a complete code.
+Ques 2: Find the smallest substring containing all the characters of the given string.
+https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+Ques3:  The third ques was a variation of stock and span problem. First he asked me what is stock and span problem and then introduced the variation. The variation added was: for each day there was error rate given and it can be positive or negative. Find the maximum guaranteed profit if only one transaction was allowed.
+17 students were selected for second technical interview round.
+Round 3: There were two interviewers and they were very supportive. First they started with my project asking basic questions and then moved to data structures and algorithms.  They asked me three questions which are as follows:
+Ques1: Implement find and replace algorithm of Notepad.
+Ques2: Find the minimum number of operations to convert a 2-d matrix to a beautiful matrix.  A beautiful matrix is defined as the matrix in which the sum of each row and column is same. The operation allowed was: Increment the matrix element by 1.
+Ques 3: Smiley problem: Given a string which consists of characters, round braces'(‘ and ‘)’, two emojis “:(” or “:)” and colons “:”.
+Find if there exists any valid parenthesis string.
+Example: “(abc:)”   valid
+                  “(abc:))” valid
+                  “(abc:):(c) valid
+                 “(abs:(( invalid
+ 
+7 students were selected and I was one of them. 🙂
+    
+ 

@@ -1,0 +1,5 @@
+Given an array arr[0..n-1] of positive element. The task is to print remaining elements of arr[] after repeated deletion of LIS (of size greater than 1). If there are multiple LIS with same length, we need to choose the LIS that ends first.
+Examples:
+We repeatedly find LIS and remove its elements from array.
+Run on IDE
+Output:

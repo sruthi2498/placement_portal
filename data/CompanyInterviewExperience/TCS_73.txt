@@ -1,0 +1,46 @@
+I was selected for direct Technical Interview by qualifying CodeVita (Round 1)  2017.
+This year CodeVita was held for individual participants. We were called at TCS office Kolkata.
+Panel had 2 members .One among them asked questions only related to code i had done in codevita contest and the other interviewer asked questions from every other topics.
+INTERVIEW
+Me: Good Morning Sir
+Interviewer: Good Morning shashank
+Interviewer: How are u feeling today
+Me; fine and excited sir
+Interviewer1 :as u have mentioned about Maths Olympiad in your cv tell me  one maths trick
+Me : Listening to the first question i was a little bit nervous but suddenly i remembered Sieve of Eratosthenes algorithm to generate prime numbers which is very often used in competitive coding.I explained him the algorithm
+Interviewer1 : Giving pen and paper he asked ….okay ,so find a general formula to add all odd numbers divided by 3 .
+Me; after thinking  a little bit i figured out that starting from 3 every 6th number is odd and divided by 3 . so i wrote the generalised formula summation( 6x +3 )
+Interviewer1 : What was your role in your project
+Me : sir, i was the team leader
+Interviewer1 : Can i conclude that you didn’t do any coding work
+Me: no, sir there was some coding work i did and summing the whole project for proper running was done by me.
+Interviewer1 : okay, explain the whole project
+Me: i explained the whole project (my project was Flight Reservation System done on java platform using swing and data about flights were provided by our mentor )
+Interviewer1 : did you do only one project .
+Me : sir, i did one more project (Library Management System) in Visual Basics but i thought that was not significant so i didn’t mention in cv
+Interviewer2 : okay ,so u took 7 attempts to make first code accepted and did second in one go .why is it so ?
+Me: i explained him my logic for first code and he was satisfied .but may be there was problem with the test cases so the code didn’t work
+He asked me more questions about code
+I answered him my logic and the stl (standard template library) i used in my code
+I did code in c++.
+He asked if i can do same code in java or not to which I replied yes but i don’t know the predefined function for next_permutation() in java otherwise the logic is same
+Interviewer1 : looking in cv he asked have u studied Data structure
+Me:Yes,sir
+Interviewer1 : what is data Structure
+me ; I  explained him with definition and example
+Interviewer1 : what is the difference between error and exception
+me ; I answered with example as this question is famous in java
+Interviewer1 : explain left outer join and right outer join
+me ; I  explained it
+Interviewer1: have you worked with any databases
+me; I wasn’t sure about the question ,i replied yes i have worked using sql.
+Interviewer1: what changes u want to bring in Purnea (your home town)
+me;  i will change the education system and will make computer education compulsory in every school including government school
+Finally he asked ..Ready to join TCS ?
+me : yes sir 
+Interviewer1: Do you have any questions for us ?
+me; yes sir in what kind of projects i will be working on ?
+To which he replied even we don’t know.
+He asked me to go for Hr round ..Ma’m was sitting in that room only
+so formal hr round for 5 minutes was there ..which was easiest part . 
+Results were announced  after almost 15 days and around 20 students were selected from my college including me.

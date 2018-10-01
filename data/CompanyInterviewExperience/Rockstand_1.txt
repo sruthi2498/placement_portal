@@ -1,0 +1,65 @@
+Given two unsorted arrays that represent two sets (elements in every array are distinct), find union and intersection of two arrays.
+For example, if the input arrays are:
+arr1[] = {7, 1, 5, 2, 3, 6}
+arr2[] = {3, 8, 6, 20, 7}
+Then your program should print Union as {1, 2, 3, 5, 6, 7, 8, 20} and Intersection as {3, 6}.  Note that the elements of union and intersection can be printed in any order.
+Method 1 (Naive)
+Union: 
+1) Initialize union U as empty.
+2) Copy all elements of first array to U.
+3) Do following for every element x of second array:
+…..a) If x is not present in first array, then copy x to U.
+4) Return U.
+Intersection: 
+1) Initialize intersection I as empty.
+2) Do following for every element x of first array
+…..a) If x is present in second array, then copy x to I.
+4) Return I.
+Time complexity of this method is O(mn) for both operations. Here m and n are number of elements in arr1[] and arr2[] respectively.
+Method 2 (Use Sorting)
+1) Sort arr1[] and arr2[]. This step takes O(mLogm + nLogn) time.
+2) Use O(m + n) algorithms to find union and intersection of two sorted arrays.
+Overall time complexity of this method is O(mLogm + nLogn).
+Method 3 (Use Sorting and Searching)
+Union:
+1) Initialize union U as empty.
+2) Find smaller of m and n and sort the smaller array.
+3) Copy the smaller array to U.
+4) For every element x of larger array, do following
+…….b) Binary Search x in smaller array. If x is not present, then copy it to U.
+5) Return U.
+Intersection:
+1) Initialize intersection I as empty.
+2) Find smaller of m and n and sort the smaller array.
+3) For every element x of larger array, do following
+…….b) Binary Search x in smaller array. If x is present, then copy it to I.
+4) Return I.
+Time complexity of this method is min(mLogm + nLogm,  mLogn + nLogn) which can also be written as O((m+n)Logm, (m+n)Logn).  This approach works much better than the previous approach when difference between sizes of two arrays is significant.
+Thanks to use_the_force for suggesting this method in a comment here. 
+Below is the implementation of this method.
+Run on IDE
+Run on IDE
+
+Another Approach (When elements in the array may not be distinct) :
+Run on IDE
+Output :
+Thanks Sanny Kumar for suggesting the above method.
+Method 4 (Use Hashing)
+Union:
+Union
+1. Initialize an empty hash set hs.
+2. Iterate through the first array and put every element of the first array in the set S.
+3. Repeat the process for the second array.
+4. Print the set hs.
+Intersection
+1. Initialize an empty set hs.
+2. Iterate through the first array and put every element of the first array in the set S.
+3. For every element x of the second array, do the following :
+   Search x in the set hs. If x is present, then print it.
+Time complexity of this method is Θ(m+n) under the assumption that hash table search and insert operations take Θ(1) time.
+Run on IDE
+Run on IDE
+
+See following post for sorted arrays.
+Find Union and Intersection of two sorted arrays
+Please write comments if you find any bug in above codes/algorithms, or find other ways to solve the same problem.

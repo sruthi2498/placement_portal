@@ -1,0 +1,49 @@
+Given two positive numbers x and y, check if y is a power of x or not.
+Examples :
+A simple solution is to repeatedly compute powers of x.  If a power becomes equal to y, then y is a power, else not.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Time complexity of above solution is O(Logxy)
+Optimization:
+We can optimize above solution to work in O(Log Log y).  The idea is to do squaring of power instead of multiplying it with x, i.e., compare y with x^2, x^4, x^8, …etc. If x becomes equal to y, return true. If x becomes more than y, then we do binary search for power of x between previous power and current power, i.e., between x^i and x^(i/2).
+Following are detailed step. 
+Alternate Solution : 
+The idea is to take log of y in base x. If it turns out to be an integer, we return true. Else false.
+
+Run on IDE
+Run on IDE
+// C# program to check given
+// number y is power of x
+using System;
+class GFG
+{
+static bool isPower(int x, int y)
+{
+	// logarithm function to
+	// calculate value
+	int res1 = (int)Math.Log(y) /
+	           (int)Math.Log(x);
+	// Note : this is double
+	double res2 = Math.Log(y) /
+	              Math.Log(x); 
+	// compare to the result1 or
+	// result2 both are equal
+	return (res1 == res2);
+}
+// Driver Code
+static void Main()
+{
+	if(isPower(27, 729))
+		Console.WriteLine(“1”);
+	else
+		Console.WriteLine(“0”);
+}
+}
+// This code is contributed by mits
+Run on IDE
+
+Thanks to Gyayak Jain for suggesting this solution.

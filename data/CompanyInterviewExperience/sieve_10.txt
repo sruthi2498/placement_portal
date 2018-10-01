@@ -1,0 +1,5 @@
+Generate all prime numbers between two given numbers. The task is to print prime numbers in that range. The Sieve of Eratosthenes is one of the most efficient ways to find all primes smaller than n where n is smaller than 10 million or so.
+Examples:
+Idea is to use Sieve of Eratosthenes as a subroutine.  We have discussed one implementation in Prime numbers in a given range using STL | Set 1
+Viola! The vector contains primes ranging from start to end.
+Run on IDE

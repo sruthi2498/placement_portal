@@ -1,0 +1,21 @@
+Given two numbers  and . The task is to find the sum of the sequence given below.
+(1*2*3*…*k) + (2*3*…*k*(k+1)) + (3*4*..*(k+1)*(k+2)) +…..+((n-k+1)*(n-k+2)*…*(n-k+k)).
+Since the output can be large, print the answer under modulo 10^9+7.
+Examples:
+Let us take the given example and try to reduce it to a general formula.
+In the given example for n = 3 and k=2,
+We know that:
+
+So each term is of the form: 
+      
+If we multiply and divide by , it becomes 
+      
+Which is nothing but,
+
+Therefore,
+
+But since n is so large we can not calculate it directly, we have to simplify the above expression.
+On Simplifying we get,
+      
+Below is the implementation of the above idea:
+Run on IDE

@@ -1,0 +1,6 @@
+We have discussed Merge sort. How to modify the algorithm so that merge works in O(1) extra space and algorithm still works in O(n Log n) time. We may assume that the input values are integers only.
+Examples:
+For integer types, merge sort can be made inplace using some mathematics trick of modulus and division. That means storing two elements value at one index and can be extracted using modulus and division.
+First we have to find a value greater than all the elements of the array. Now we can store the original value as modulus and the second value as division. Suppose we want to store arr[i] and arr[j] both at index i(means in arr[i]). First we have to find a ‘maxval’ greater than both arr[i] and arr[j]. Now we can store as arr[i] = arr[i] + arr[j]*maxval. Now arr[i]%maxval will give the original value of arr[i] and arr[i]/maxval will give the value of arr[j]. So below is the implementation on merge sort.
+Run on IDE
+Run on IDE

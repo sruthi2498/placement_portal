@@ -1,0 +1,57 @@
+I interviewed with Compro Technologies, New Delhi for the role of Associate Software Developer.
+There were a total of 4 rounds –
+1) Online Aptitude and Technical test by Talentgrids
+This was a test conducted by talentgrids on meaZr.com. There were about 60 questions filled with aptitude, logical, reasoning, C/C++ output questions, DS, Algo etc. The time limit was 60 minutes. Output questions were very tricky so practice C/C++/Java output questions.So, the best thing to do is to attempt easy ones first, like output questions and other knowledge based questions. Do the difficult analytical/reasoning questions later on when you have time.
+2) Skype interview
+There was a Skype interview 3-4 days after students were shortlisted. Basic questions were asked by interviewer like C++/Java difference, the meaning of various keywords in Java, OOPS concepts and what all you have done in programming/projects.
+3) Face to face screening interview
+There were about 130 students till this round and interviews were taken at some college in Ghaziabad. Questions asked were about DS and also some puzzles were asked. Questions were –
+3.0 Tell me about yourself
+3.1 Reversing a linked list
+3.2 Deleting elements in linked list
+3.3 Sorting array of 0s and 1s
+3.4 Pattern making questions
+3.5 Puzzle – A man has 3 daughters and the sum of their ages is 13 and product are 36. The eldest daughter has blue eyes. Find the ages of daughters.
+3.6 What is the internal DS used in Git. (as I had mentioned in my resume that I have knowledge of Git)
+3.7 One line code to reverse a string in JavaScript by words. Ex – “I am bat” -> “bat am I”
+Last 2 questions were from my resume as I knew JavaScript and Git. There were also some questions about how I implemented my projects mentioned in the resume. Except for Data Structures, they will ask you only the things you have written in your resume like the languages, projects, internships etc.
+4) Final F2F interview
+About 30 students were left for round 4. This was final round and was conducted at some college in New Delhi. It consisted of 3 rounds, each being an elimination round. If you performed well in the first round, only then they will call you for the next one which would be taken by another panel from the same company and so on. I had a total of 3 rounds here and then was told to leave. Questions asked were –
+Round 4.1
+4.1.1 Tell me about yourself
+4.1.2 Some questions about how I implemented my project and what it is about
+4.1.3 Puzzle – Angle between minute hand and hour hand at 3:20 and 3:15
+4.1.4 Puzzle – http://www.geeksforgeeks.org/puzzle-12-maximize-probability-of-white-ball/
+4.1.5 https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+4.1.6 http://www.geeksforgeeks.org/implement-two-stacks-in-an-array/
+4.1.7 Code for linked list removal of an element.
+4.1.8 Some resume specific questions related to JavaScript and my hobbies.
+Round 4.2
+4.2.1 Tell me about yourself
+4.2.2 Puzzle – Mr. and Mrs. Birla and Mr. and Mrs. Tata played chess tournament of 3 matches with following hints – 1. Birlas won more matches than Tatas. 2. Men won 2 matches and women won exactly 1 match. 3. Only the first match had players who were married to each other. 4. Anyone who lost the match did not play in the subsequent match. Who did not lose a game?
+4.2.3 Puzzle – In a village there are Knights and Knaves. Knights always speak truth and Knaves always lie. You see 4 people in the village and you don’t know which one is which. They tell you following things – the First one says that second is a knave. The second one says that third is a knave. The third one says that fourth is a knave. You ask the fourth one, “What would first say if I ask him about the third ?”. To this fourth one replies, “Knave”. Is fourth person knight or knave?
+4.2.4 Puzzle – There are 5 numbers which add to 146. m is the largest among the numbers. What is the smallest possible value of m for such a combination of numbers to exist?
+4.2.5 SQL query to find 2nd highest salary
+4.2.6 Code – In an array find the numbers which occur an odd number of times.
+4.2.7 What is variable hoisting in JavaScript?
+4.2.8 What is the difference between let and var in JavaScript?
+4.2.9 What are request and response objects in Node.js?
+Round 4.3
+4.3.1 Puzzle – In a park, flowers double up every day. In 20 days the park is completely filled with flowers. When is it 1/4th filled?
+4.3.2 Puzzle – In a necklace there are 33 stones which centermost being most precious one. From left, every stone is $150 costlier than the previous stone and from right every stone is $100 costlier than the previous one. The cost of the complete necklace is $65000. What is the cost of centermost stone?
+4.3.3 Puzzle – 2 cryptarithmetic problems
+4.3.4 Puzzle – 2 problems in which different size squares are stacked one on top of another and you have put numbers on the squares by seeing the figure as it looks from the top.
+4.3.5 Questions about new JavaScript standard ES6. Do you know about classes in JavaScript?
+4.3.6 What are JavaScript objects?
+4.3.7 What is middleware in Express?
+4.3.8 Why do you use React.js and not Angular.js?
+4.3.9 Questions about hobbies, family and your overall personality.
+4.3.10 Why do you wanna join Compro?
+4.3.11 Where else have you been placed and at what package? Why are you not joining that company?
+4.3.12 What are your future career plans?
+After this, all rounds were over. Keep these 3 things in mind when you go for an interview at Compro –
+1. Practice as many puzzles as you can from the internet. They have a booklet and from that, they will ask you puzzles of various difficulties.
+2. Be specific on what you mention in your resume. Don’t put anything you don’t know about as they will ask you whatever you have on your resume. They asked me questions on JavaScript as most of my projects involved MERN stack. If you mention anything else like PHP, ASP etc then they will ask you from that as this company works on many technologies.
+3. Practice DS questions and some algorithmic concepts. Practice LinkedList, Arrays, Stack, Queues, Trees. They won’t ask in depth but at least make sure you are aware of all the common interview questions on DS Algo.
+GeeksForGeeks was a great help in preparing puzzles and DS concepts. All the best for your interview!
+ 

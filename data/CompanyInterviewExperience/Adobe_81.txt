@@ -1,0 +1,35 @@
+Round 1(aptitude and coding) Two tests:
+Test 1 (50 mins)
+45 questions on analytical reasoning, quantitative and geometry.
+Analytical Reasoning Questions were tough, with lengthy and confusing statements.
+Test 2- (2 hrs 50 mins)
+13 MCQs on OS, C, DS, OOP, Computer Architecture
+7 coding questions, few of them i remember are:
+a) Reversing a linked list
+b) Check if the given sum is available in an array
+c) Row with a maximum number of ones in a matrix of 0s and 1s
+d) Balanced parenthesis
+e) Multiply two numbers without using * operator, and minimum number of additions
+f) Check if a number is a palindrome
+About 18 people were shortlisted.
+Tech Interview Round 1:
+Tech Interview Round 1:
+a) Asked me to implement a 2d bit-matrix representing  monochrome pixels which will have only OFF/ON values and will take on an average only one bit of memory for each stored bit (Don’t declare an int matrix!), and how to perform various operations on it.
+b) Some problems on basic geometry – circles and tangents were given.
+c) C programs were given and various OS related issues were discussed regarding them, mainly addressing issues, address space, paging etc.
+d) If F() generates 0 or 1 with probability .5 each, generate 0-7 with equal probability.
+e)Some in-depth questions on pointers, dynamic memory allocation etc were asked..
+Tech Interview Round 2:
+a) Convex Hull problem
+b) given a set of points in a plane, how would you make the most optimized triangular mesh-each point is a vertex of a triangle.
+c) Intersection of two lines in a plane, if they intersect- determine the point of intersection.
+d) Design problem: without knowing the underlying data structure to store various entities, how would you extend the stl library of c++, which will support any type of queries. Basically he was interested in methods of indexing upon the data and retrieval of relevant information.
+Tech Interview Round 3:
+This round was mostly a design round.
+a) Given two machines with different architectures and different endianness, how would you as a programmer make sure that user gets a uniform view of the various files stored. Now if one the files is transferred from one to another, how you’re going to maintain that view to the user?
+b) Implement the qsort() in c/sort() in c++ library or your own custom sort which will sort any type of data on user defined criteria. write the function prototype, definition and another requirements.
+c) How much memory is made available to a user program by the kernel, is there  any limit to it? What is the range of addresses a user program can have at max, what determines it?What happens if excess memory is allocated to a user program, say malloc in an infinite loop?
+d) What is the difference between mutex and a semaphore. Write down a crude implementation of both. How would you solve the mutual exclusion problem using semaphore. Propose a solution to the readers-writer problem.
+e) Other OS related problems.
+Last round was the HR round.  
+

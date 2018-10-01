@@ -1,0 +1,11 @@
+Given a large number N and the task is to check if any permutation of a large number is divisible by 8.
+Examples:
+A naive approach is to generate all permutations of the number N and check if(N % 8 == 0) and return true if any of the permutations is divisible by 8. 
+An efficient approach is to use the fact that if the last three digits of a number are divisible by 8, then the number is also divisible by 8. Below are the required steps:
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(L), where L is the number of digits in the number.

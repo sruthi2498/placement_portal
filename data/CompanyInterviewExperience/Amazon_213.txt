@@ -1,0 +1,21 @@
+1st
+1. reverse the linklist in pair manner
+Q: 1->2->3->4->5
+A: 2->1->4->3->5
+2. third highest value in tree
+Full code required.
+2nd
+put the given random pointers in linklist to point to next greater node such that if u transverse list in using random pointer, list become sorted. duplicates are allowed.
+Full code required
+3rd
+Design a solution to search the given value in system. You are given a value which need to be searched. The system will respond basis of type.
+If its app based it will return app names. if it is web based it will return web pages hitsetc. A detailed discussion design and development.
+No actual coding
+4th
+Get the local maxima or minima in array.
+Bar raiser:
+distance between two nodes in binary tree.
+Hiring manager 1
+Design chess game 
+Hiring manager 2 
+Design inventory system. (eg: library)

@@ -1,0 +1,37 @@
+Though I didn’t clear google but I want to share my Google interview experience , so it can help other’s . Please find my interview experience below:
+My Google Interview Experience for Software Developer Position [Android Core Team], London, United Kingdom
+Like many other enthusiastic engineers, I too applied for a job at Google. I know that its very difficult that a resume gets noticed by google.
+Suddenly, one fine day I received a Mail( “Hello from Google !”) from Google’s HR saying that they are interested in my profile and asked me if I was ready to go ahead with the interview process[Come on! you cant say no to Google].
+Round1(Phone interview) :
+By:Talent Scout @Google:
+* Questions from Project :
+ Spell Corrector:
+How it works , Bigram and ngram model approach, etc.
+* Why should one use merge sort over quick sort and vice-versa.
+* You have a very large array of ‘Person’ objects .Sort the people in increasing order of age .
+General :
+Then came the exciting part when he asked me to choose location b/w Google Paris(Text-Speech Team) or Google London(Android Core Team).
+He explained how Google work’s on their projects !
+About Google interview process ( 2-3 phone interview + 4-5 onsite interview in London ).
+Round2:(Phone interview + coding on shared google doc)
+By:Software Developer @Google :
+* Questions from Project:
+Bi-directional Sync b/w mysql and sqilte db.
+* Given a number , check if it can be represented in 5^n form , where n is positive integer .
+* Given a string of words with lots of spaces between the words , remove all the unnecessary spaces like 
+Round3:(Phone interview + coding on shared google doc)
+By:Software developer @Google :
+* Optimize a^b
+* How would you split a search query across multiple machines?
+* You need to develop the game Snake. What data structures will you use? Code your solution.
+Some additional hints for the interview:
+Clarify the question – make sure you understand everything.
+Try to find the most efficient solution.
+Come up with solutions quickly: even if its a brute force solution. Always iterate away from the original solution.
+Before you start coding explain why you’re approaching it that way ,its ok to start off with a naive solution and try to make it more efficient.
+Explain the rationale behind the steps you are doing.
+Think out loud, keep things technical. The engineers will give you hints: take a hint! They are there to help you!
+Always write “compilable” code.
+Mind edge cases. Find bugs in your code.
+Note: You can know more about me at www.codedoctor.in 
+ 

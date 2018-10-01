@@ -1,0 +1,38 @@
+1st Round :- (1 hr)
+1. There is a graph where each node represents a city and it contains specific no. of people. A tournament is going on and each match is playing in one city. All city’s people gather to watch match. Traffic department wants to manage how many people travel through city x if match is playing in city y for each x. City x and y can be any city.
+Code & edge case
+Soln :- DFS with optimization O(n)
+2. Torch problem : There is a bridge and N no. people takes (a1,a2,—an) time to cross it and there are K torch and at any time x no of people can pass the bridge and it takes maximum of x people to cross it. Minimum time required to cross it.
+Devise algo and write down code
+Solution :- Sort array take x min pass it from one end to another. Bring min among them to one side send x maximum to other side and again bring 2nd min from other side again send x max follow it in cyclic way If all x min reached to one end again send x min to another side. DS used Dequeue.
+2nd Round :- (1hr)
+1. Program to calculate x^y in log(y) .
+There focus is on all edge case he want me to write down all test case and validate my code.
+2. Design bus booking system:- Each row has x seat. If customer wants K seats if you have K consecutive seats available, reserve them. Otherwise give seats from any row.
+Focus on DS & code
+Solution :- Create adjacency list like 1 seat available in which row.  2 seats available in which row and so on and do the operation for each reserve call
+3rd Round :- (1.5hr )
+1. Change characters of strings to another set of characters in place. You can increase length of string one time.
+ab->bc
+cd->ki
+Focus on Code & Edge case
+2. An array is increasing upto a number and then decreasing find the the pivot number.
+All edge case & program. Your program should handle all edge case.
+I propose if it contain duplicate Or if whole array is large it can’t fit into memory and their solution.
+They wanted to see about edge case being handled.
+3. E-commerce architecture related to my past experience. I had taken marker and explained it on white board. It will give you more advantage .
+4th Round :-(1hr)
+1. String matching problem one string contains wildcard characters. Code & edge case & recursive diagram. All test case and validate it .
+2. Maximum length of Sub-array contain increasing then decreasing . Code & Edge case 
+5th Round :- Engineering Manager (45 min)
+Design a crawler to fetch code from n system and merge it .
+Speak aloud what are you thinking about.
+Class design, Operation, Entity
+Solution : Like Github with version & Conflict & Backup & Job
+Engineering Manager really impressed with my Scalable design approach .
+6th Round :- Hiring Manager (1hr)
+There are n no of pages and when a user visits page x it is writing in a log file. Recommend each user a page from his past experience .
+Solution : Treat page as a node and weight is how many times he visited from page x to page y. Maintain map of user and adjacency list and do the operation.
+Code & edge case & Most important they try to create some hostile environment to judge you how much you are fit for any environment & But if you tackle it they are very friendly.
+Tips : Ask questions if you have any confusion .
+Thanks to GeeksForGeeks. Whole process took around 1 month .

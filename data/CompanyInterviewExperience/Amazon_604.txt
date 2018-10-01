@@ -1,0 +1,41 @@
+I have been interviewed for SDE1 by amazon. Here are the questions.
+1st Round – Online Coding
+1. Contiguous elements in an array whose sum is k.
+2. Convert sorted array to binary search tree.
+2nd Round – Telephonic
+1. Implement stack with Push, Pop, GetMin and GetMax in constant time. Algo + Code
+2. Given a matrix, sorted both horizontally and vertically, algo and code for finding an element in it. Algo
+3. Given a stream of characters, convert it to a sentence with valid words. Assume you have a function IsWord which returns true if the passed string is a word. He asked me to write code and mail him. Algo + Code
+Ex: Iamgoodboy – I am good boy
+3rd Round – Telephonic
+1. Given an array of characters, find the longest continuous non-repeating sequence of characters. Algo + Code
+Ex: aabcdefdghiajk – efdghiajk
+I have given a hash based solution, so he asked me to write a custom hashfunction and how to handle collisions.
+2. Find the next largest palindrome number of the given number. Algo + Code
+Ex: 120 -121, 123 – 131
+4th Round – InHouse technical round
+1. Find the mirror image of a binary tree. Algo + Code
+2. Given a string, find the largest repetitive sequence. Algo + Code
+Ex: abcdefbcd – bcd, banana – ana
+5th Round – InHouse technical round
+1. Given a string, remove ‘a’, ‘bc’ from the string and print the
+result. Algo + Code
+Ex: asdbc – sd
+2. You will be receiving an infinite sequence of numbers continuously
+and at any particular moment find the 10 largest ten numbers received
+till now. Algo
+6th Round – Bar raiser round
+1. Given a graph, find the nodes which are at less than k distance
+from the given node.
+Continuation: find all the nodes which are less than k distance from m
+nodes. Algo + Code
+2. Implement a queue using an array. All base conditions. Code
+3. Given a very big array of millions of integers, find sum of all the elements.
+Parallel processing and threads is the answer. Threads concept,
+synchronisation and so many of it.
+4. OS concepts – virtual memory, paging, process states, paging algos.
+5. In detailed explanation of projects done till date.
+7th Round – Manager Round
+Asked dilemma situation. Any process development work, work experience and all.
+geeksforgeeks helped me to refresh all kinds of topics. Thank you.
+

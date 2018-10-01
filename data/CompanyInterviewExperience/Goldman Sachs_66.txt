@@ -1,0 +1,39 @@
+Goldman Sachs recently came to our college for Full-time and intern hiring for analyst
+position. I appeared for FTE position, here’s my experience.
+
+Round 1:
+15 MCQ questions of moderate level hosted on hackerrank.
+1 coding question : given an array of strings and characters, make the largest string possible.
+The resultant string should be a combination of the strings given in the array. The given array
+of characters may contain repeated elements.
+Example – Given char array – {a,a,b,c,d,d,e,c} and given strings – {abba, aabc, de, cde} the
+ans is aabccde .
+Around 20 students were shortlisted from this round out of 120 students.
+Round 2 (F2F 1hr):
+Discussions on my summer internship project that I did at Samsung R&D, incidentally he did
+the same project as a full-timer at his time in Goldman Sachs. He asked me about my life-
+goals and some discussions on my CV.
+Then followed lots of questions on OOP, including virtual functions, virtual function pointers
+and tables, inheritance, data encapsulation and abstraction.
+Asked me to explain counting sort. Then gave me a question that contained only 0’s and 1’s.
+Asked me to give the most optimized solution for putting all 1’s to the end of the array.
+Round 3 (HR Round):
+Standard HR Questions like
+Why Goldman Sachs
+What’s your preferred position in GS
+What’s the most challenging task that you’ve faced during your projects
+Any questions for us about Goldman Sachs
+
+Round 4 (F2F):
+5 pirates puzzles – http://www.mathsisfun.com/puzzles/5-pirates.html
+A young man lives in Manhattan near a subway express station. He has two girlfriends, one
+in Brooklyn, one in the Bronx. To visit the girl in Brooklyn, he takes a train on the downtown
+side of the platform; to visit the girl in the Bronx, he takes a train on the uptown side of the same platform. Since he likes both girls equally well, he simply takes the first train that
+comes along. In this way, he lets chance determine whether he rides to the Bronx or to
+Brooklyn. The young man reaches the subway platform at a random moment each Saturday
+afternoon. Brooklyn and Bronx trains arrive at the station equally often – every 10 minutes.Yet for some obscure reason he finds himself spending most of his time with the girl in
+Brooklyn: in fact on the average he goes there 9 times out of 10. Can you think of a good
+reason why the odds so heavily favour Brooklyn?
+(http://tierneylab.blogs.nytimes.com/2009/10/26/monday-puzzle-more-martin-gardner-let-the-celebrations-continue/?_r=0 )
+Thanks GeeksforGeeks :).
+

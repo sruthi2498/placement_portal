@@ -1,0 +1,10 @@
+std::string::at can be used to extract characters by characters from a given string. 
+It supports two different syntaxes both having similar parameters:
+Syntax 1: 
+Syntax 2: 
+Run on IDE
+Output:
+Application
+std::string::at can be used for extracting characters from string. Here is the simple code for the same.
+Run on IDE
+Output:

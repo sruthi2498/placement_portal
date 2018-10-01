@@ -1,0 +1,17 @@
+I was interviewed by housing.com through campus placements. Here is my interview experience.
+Round 1:
+Resume based and 1 coding question. Briefly discussed about projects in resume and questions were completely related to projects mentioned.
+Coding question:  How will you determine the repetition element in the array? How can you do with least space complexity?  
+Round 2:
+This round was completely pen and paper coding round. 3 coding questions were asked.
+Question 1:   Root to a node path sum equals give number. With least space complexity. Problem similar to this    https://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/
+Question 2: There are buildings near a beach, which were of different height and placed one beyond the other. How many buildings can see the beach.
+Input will be the height of the buildings.
+Example: Input:  3, 1, 4.      output: 2       
+                 Input:    4, 5,2,3,6.      output: 3
+Question 3:  Given a stream of bits which are 1’s and 0’s . Find the contiguous subsequences where number of 0’s equals the number of 1’s
+Round 3:
+ Only one coding question was asked with time limit of 10 minutes.
+There is a function getWord() which takes word as input and  checks whether word is present in the dictionary.  Given  a long word as input   find all the meaning full  ( i.e getWord()  is true  ) that can be made from the given input .
+Example :  Input : antin
+                      output :  a , an , ant, tin, in.

@@ -1,0 +1,23 @@
+BlackRock visited our campus and a total of 600 students applied for it.
+Round 1:
+This was the online shortlisting round. There were 3 Sections and test was conducted on their proprietary software. These 3 Sections were 2 Technical aptitudes (Language-based, output questions and SQL, database questions) and 1 normal aptitude round including Logical reasoning, attention to detail and other mathematical questions. This round was pretty difficult and the key was to not waste time on any particular question and just answer what might feel the most appropriate one. PS. You were not allowed to go back or change any submitted answer once you have attempted any question.
+After this round, 132 students were shortlisted for personal interviews.
+Round 2:
+There was only one or two technical round based on how you will perform in your first one. Mine was a bit difficult as compared to others. Others were asked questions on OOPs and projects. The question asked of me were
+– Describe yourself
+– How does garbage collector work?
+– What does free/delete keyword do?
+– Write a program that creates a dangling pointer
+– Given three classes (A, B, C), write a code such that class C’s object is only initiated once and others should have the same initiated object. (Ans. Singleton class)
+Then the interviewer asked me about my project and how did I come up with the idea.
+After that, she asked me whether I was comfortable with Data structures. I said yes and she asked the following questions.
+– Write a program that returns the maximum area of rectangle enclosed in a histogram. I gave an O(n) solution using stacks.
+– Write a program that returns the maximum length of substring with no duplicate characters. (Ans. Use set or map for a O(n) solution)
+After this round, a total of 50 students were shortlisted for the HR round.
+Round 3:
+This round was pretty easy, they were very frank and asked straightforward questions.
+– How was my day?
+– How was my college life?
+– Any suggestions on the interview process?
+– Do you have any questions for me?
+After this 25 students were given internship offers.

@@ -1,0 +1,20 @@
+Given a string, the task is to find maximum consecutive repeating character in string.
+Note : We do not need to consider overall count, but the count of repeating that appear at one place.
+Examples:
+Asked in Amazon
+
+The Simple solution of this problem is to use two for loops. The outer loop considers current character, the inner loop counts occurrences of current character. If the count goes beyond current maximum count, we update the result.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n^2)
+Space Complexity : O(1)
+An efficient solution is to run only one loop. The idea is to reset the count as 1 as soon as we find a character not matching with previous.
+
+Run on IDE
+Run on IDE
+Output:
+Time Complexity : O(n)
+Space Complexity : O(1)

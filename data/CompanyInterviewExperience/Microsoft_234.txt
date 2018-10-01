@@ -1,0 +1,30 @@
+Given an array of size n and an integer k, return the of count of distinct numbers in all windows of size k. 
+Example:
+Source: Microsoft Interview Question 
+A Simple Solution is to traverse the given array, consider every window in it and count distinct elements in the window. Below is implementation of simple solution.
+
+Run on IDE
+Run on IDE
+
+Time complexity of the above solution is O(nk2). We can improve time complexity to O(nkLok) by modifying countWindowDistinct() to use sorting. The function can further be optimized to use hashing to find distinct elements in a window. With hashing the time complexity becomes O(nk). Below is a different approach that works in O(n) time.
+An Efficient Solution is to use the count of the previous window while sliding the window. The idea is to create a hash map that stores elements of the current window. When we slide the window, we remove an element from the hash and add an element. We also keep track of distinct elements. Below is the algorithm.
+1) Create an empty hash map. Let hash map be hM
+2) Initialize distinct element count ‘dist_count’ as 0.
+3) Traverse through the first window and insert elements of the first window to hM. The elements are used as key and their counts as the value in hM. Also, keep updating ‘dist_count’
+4) Print ‘dist_count’ for the first window.
+3) Traverse through the remaining array (or other windows).
+….a) Remove the first element of the previous window.
+…….If the removed element appeared only once
+…………..remove it from hM and do “dist_count–”
+…….Else (appeared multiple times in hM)
+…………..decrement its count in hM
+….a) Add the current element (last element of the new window)
+…….If the added element is not present in hM
+…………..add it to hM and do “dist_count++”
+…….Else (the added element appeared multiple times)
+…………..increment its count in hM
+Below is an implementation of above approach.
+Run on IDE
+Run on IDE
+Output:
+Time complexity of the above solution is O(n).

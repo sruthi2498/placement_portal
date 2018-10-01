@@ -1,0 +1,20 @@
+Given an integer array of which both first half and second half are sorted. Task is to merge two sorted halves of array into single sorted array.
+Examples:
+
+A Simple Solution  is to sort the array.
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity O(nlogn) || Sort Given array using quick sort or merge sort 
+An efficient solution  is to use an auxiliary array one half. Now whole process is same as the Merge Function of Marge sort .
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Reference : https://www.careercup.com/question?id=8412257

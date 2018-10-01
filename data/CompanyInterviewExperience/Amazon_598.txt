@@ -1,0 +1,28 @@
+The first round was an online test hosted on Interviewstreet.com. Around 350 students appeared in the online test. The duration was 90 minutes. It consisted of 20 MCQs based primarily on Predicting The Output, OS, CN and Data Structures.
+These questions were pretty basic and easily solvable.
+Apart from that, there were 2 coding questions.
+1. Given a string, find the first element which is non -repetitive  i.e that element must not be present anywhere else in the string.
+2.  Given a string of digits,find the next smallest number using the same digits.If its not possible to  get such a number print -1; 
+After a week, the results came out and 25 students were shortlisted.
+Personal Interviews: 
+Technical Interview 1 :
+1. Given an array of 1s followed by 0s,find the number of 0s.
+I solved it by using Binary Search to find the first and last occurrence of 0 in the array and subtracting the results.
+2. Given an array of positive and negative numbers, find the pair of elements whose sum is closest to 0. 
+The brute force solution would be O(n^2) by comparing each pair of elements.As expected, he asked me to optimize my solution.
+So I sorted the array using merge sort. (I know its not in-place but it did not strike me at the time)
+Then used two indexes at the beginning and end of the the array and incremented/decremented the indexes as needed.
+3. Given a Binary Tree , print all the root to leaf paths.
+I started by telling him my approach and the logic behind the recursive solution that I had in mind. Then he asked me to write test cases for the function that I had written.
+6 students were selected after this round.
+Technical Interview 2
+1. Given a binary tree convert it to a double linked list.
+2. Given an array of integers , replace each element with the product of the remaining elements.
+First, i gave the obvious solution. I  computed the product of the whole array and then divided it by each element to get the resultant array.
+But he asked me to do it without using the division operation. After some cross questioning I gave the following solution.
+Store the product of the left side elements for each integer in an array L[].
+Finally 2 people were selected.
+Result: Selected for a 6 month long internship as SDE-T (Testing)
+GeeksForGeeks has been instrumental in my preparation for the interviews and I am really glad that I discovered this website at the right time.
+PS : Could you guys tell me if the SDE-T position is inferior to the SDE-1 position or are they of the same level?
+

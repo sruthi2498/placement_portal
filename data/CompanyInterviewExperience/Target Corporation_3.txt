@@ -1,0 +1,30 @@
+Online test in the Campus:
+It Includes 31 questions,out of which 30 were Multiple choice questions and 1 coding question.
+Multiple choice questions includes aptitude, expected output for given code snippet,expected error whether segmentation fault or compile time error,etc.It is better to learn the operator precedence and order of Associativity.
+Coding question: You are having a playlist in which there are n songs each of duration ‘song_duration’ and there will be a gap of 5 seconds of silence between every song.your first song will be start playing at 0 sec.Simultaneously your phone starts beeping at 0 sec and it will beep for that 1 complete second only and repeats beeping for every given ‘call_delay’.If the mobile beeps when the song is playing you can’t hear to the beep.Now you have to find the second at which you can listen to that beep.
+Example: n=3 song_duration=7 sec call_delay=5 sec
+song start—end | beeps at
+1) 0——-6 0,5 you cannot listen to beep since song is playing simultaneously
+      7——11 10, Song don’t play in this time but beeps at 10 so you can listen to it
+2) 12—–18 15
+      19—23 silence and beeps at 20 you can listen again
+Technical interview 1:
+After the test around 30 people were shortlisted
+Started with Tell me about yourself
+qn1 : Given a binary tree,you should do level order traversal from bottom,done using a queue and a stack,Asked to write code.
+qn2 : Given sting1 and string2 you should find whether string2 is a sub string of string1 or not.Asked to write code
+ended with Why this field?
+Interviewer was very cool,just don’t panic
+Technical Interview 2:
+Initially asked to write code for any sorting algo may be to make me relax
+Then we discussed a lot about my technical intern
+Little hr kind qns..
+He is very friendly and used to maintain smile 😀
+HR Interview:
+This was Awesome I enjoyed it
+He asked me around 12-15 qns in the span of around 30 minutes
+He asked to give an instances for every situation he asked where i have showcased certain skills,did something efficiently,etc..
+He was pretty fast and used to write keywords for everything i say
+Ended with whether I had any interviews that day before and their status
+That’s it ..!!
+Good Luck..

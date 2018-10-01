@@ -1,0 +1,13 @@
+Round 1: There were 20 Aptitude Questions and 10 Java MCQ.No C or C++ questions.
+Round 2: This time it was quite easy ..
+1.Given a String with or without special characters find if it is Palindrome or Not.. No splitting of array must be done or No additional spaces must be used for storing the array..
+Eg: RACE CAR
+Eg: I DID, DID I ?
+2. Given an array of integers of size n. Convert the array in such a way that if next valid number is same as current number, double its value and replace the next number with 0. After the modification, rearrange the array such that all 0’s are shifted to the end.
+Input : arr[] = {2, 2, 0, 4, 0, 8}
+Output : 4 4 8 0 0 0
+Input : arr[] = {0, 2, 2, 2, 0, 6, 6, 0, 0, 8}
+Output : 4 2 12 8 0 0 0 0 0 0
+3 . TWISTED PRIME NUMBER
+A number is said to be twisted prime if it is a prime number and reverse of the number is also a prime number.
+

@@ -1,0 +1,26 @@
+Round-1 (Telephonic)
+The first round comprised of 3 questions:
+For example if we are given 4 balls of weights 4, 3, 2 and 6. We can melt the balls in following ways.
+1) First melt balls of weight 2 and 3. Now we have three balls of weight 4, 6 and 5.
+2) Now melt balls of weight 4 and 5. Now we have two balls of weight 6 and 9.
+3) Finally melt the two balls and all balls have melted to a big ball.
+Total cost for melting all balls is 5 + 9 + 15 = 29
+This is a variation of connecting ropes question on geeks: https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
+Round-2 (F2F Round-1)
+Tips :- Take your time and thought through the code you are about to write. THINK ALOUD!! Write a rough pseudo code before the actual code so that you get an idea of all the variables you will be needing and maintain modularity of the code. Do dry run the code with the edge cases.
+Round-3 (F2F Round-2)
+1) LLD of a system in which players can play in a tournament of matches. A match is played between 2 players. Assume you have sufficient 2^k registered players ready for a tournament. Match Flow:
+Player 1 and 2 rolls a dice one by one and a single chance is given to each player. There is an umpire who also rolls dice after the two players and he calculates the absolute difference between the number on the dice with the two players. The player having minimum diff with the umpire score wins the game. If there is a tie, then umpire chooses to throw a coin and the two players get to choose a face, and decides the winner.
+2-3 behavioural questions.
+I screwed up this interview. I created an average design. He didn’t seem happy about it.
+Tips: Don’t get disheartened. You will get two more design rounds to ace the process.
+Round-4 (F2F Round-3)
+1) There were two interviews in this round. They asked me to design a movies reviews aggregator system. Data should be fetched from movie rating providers like imdb, rotten tomatoes, etc
+We had a lot of discussions regarding the issues you might face if the reliability of the movie rating providers goes down/up or you remove a provider or you add a new provider. eg you consider imdb to be more reliable(some factor) than rotten tomatoes in your rating calculations. How you will keep the data. How you will perform search. Is it a NRT data or you will do the data processing offline. How do you rank your listing of movies. Lot of factors were discussed and we end up with a good design. Both of the interviews seemed happy.
+Tips: Don’t lose your calm if any of the round goes average or even below average. They will tell you very genuine drawbacks in your design and you need to evolve your design. This is what they are looking for.
+Round-5 (F2F Round-4) Hiring Manager
+1)  All together there were 10-15 behavioural questions to check the candidate’s alignment towards the amazon leadership principles. It’s a must to enter into Amazon.
+Use STAR( Situation, Task, Actions, and Results) approach to answer each of these questions.
+eg. xxx was the situation. yyy are the tasks you identified. you executed the tasks. zzz was the result.
+2) There is a device like kindle where you can buy books and read them. You can read the same content using kindle app on other devices as well like on your phone, tab etc. There was a problem in that and he need a design to solve this. The problem is suppose I was reading an xyz book and I was on a specific page let’s say at 60. Now I closed the app on the device and I opened the same book on other device. The same page should open where I left on the other device. How will you handle the actions user take when he is offline. Lot of discussion around this.
+He was very happy about the design. I solved it using operational transformation being used by the websites for online collaboration like google doc, collabedit etc.

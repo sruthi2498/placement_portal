@@ -1,0 +1,25 @@
+CRC or Cyclic Redundancy Check is a method of detecting accidental changes/errors in communication channel. 
+CRC uses Generator Polynomial which is available on both sender and receiver side.   An example generator polynomial is of the form like x3 + x + 1.  This generator polynomial represents key 1011.  Another example is x2 + 1 that represents key 101.  
+
+Sender Side (Generation of Encoded Data from Data and Generator Polynomial (or Key)): 
+.
+Receiver Side (Check if there are errors introduced in transmission)
+Perform modulo-2 division again and if remainder is 0, then there are no errors. 
+In this article we will focus only on finding the remainder i.e. check word and the code word.
+
+
+Example 1 (No error in transmission):  
+ 
+Example 2: (Error in transmission) 
+
+
+Since the remainder is not all zeroes, the error
+is detected at the receiver side.
+ 
+
+Below is Python implementation for generating code word from given binary data and key.
+Run on IDE
+Output:
+Note that CRC is mainly designed and used to protect against common of errors on communication channels and NOT suitable protection against intentional alteration of data (See reasons here)
+References:
+https://en.wikipedia.org/wiki/Cyclic_redundancy_check

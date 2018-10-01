@@ -1,0 +1,33 @@
+1st Round (Online)
+15mcq 30mins – Most from C/C++. Few from OS
+2nd Round: Coding Online (1 hour)
+1st quest: https://www.geeksforgeeks.org/intersection-of-two-sorted-linked-lists/
+2nd quest: https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+13th august:
+Top 20 students were selected for the next round. 8 had direct interviews while the rest 12 of us had another elimination round. The selection was done using the total score of both the online rounds
+Elimination Round: Pen and Paper (20 mins)
+Write the code implementing a queue using stacks.
+Interview 1: Technical (1 hour 15 mins)
+The interviews were on in parallel and when I went for my 1st interviews some were already rejected while some even had their 2nd and 3rd interview rounds.
+Asked about myself and my history followed by technical questions.
+I started to make the logic for O (n) but he said it might not be possible to do it in 1 iteration so not an issue. But I gave him the logic of O (n) and 1 iteration.
+–       There are 25 horses. Only 5 can run together at most. You have no timer. Min no. of runs reqd. to find the fastest horse.
+–       There are 4 people who want to cross a bridge. Minimum time they take to cross a bridge is 1, 2, 7 and 11 respectively. There is only 1 torch and at most 2 people can cross a bridge at a time. But no one can cross the bridge without torch (Someone has to come back to give the torch). Find minimum time in which all 4 cross the bridge.
+2nd puzzle I 1st answered 22 but then corrected myself and answered 18 (1 and 2 cross. 1 comes back. 7 and 11 cross. 2 comes back. 1 and 2 cross – total time 2 + 1 + 11 + 2 + 2 = 18).
+I was informed 5 minutes after my interview to be ready for the 2nd Round.
+ 
+Interview 2: Technical (20 mins)
+Was asked about self, my project on cloud computing and questions related to it.
+1 technical question.
+Write a code to delete x elements after 1st n elements.
+I wrote the code but missed the case where n = 0. So as he was checking the code I told him the case I had missed. He was confused if the code would work if there were less than n + x elements but I showed him that it would.
+Was a short interview compared to others and was scared of being rejected but finally was called for the hr interview in sometime.
+Interview 3: HR (20 mins)
+He first told me about the code I had written in the elimination round that it was the best code he got in the day. Following it were typical hr questions.
+Tell about myself, my strengths and weaknesses. Why do I want to join Microsoft?
+Why should Microsoft hire me?
+About my college project and my summer internship project.
+What would you like to improve in yourself 3 years from now (other than knowledge)?
+Finally after the whole day of interview I was selected with 1 more guy from our college. Thanks to geeksforgeeks.org and geeksquiz.com for helping me prepare and crack the interview.
+Important Points:
+

@@ -1,0 +1,76 @@
+Given two matrices, the task to to multiply them. Matrices can either be square or rectangular.
+Examples:
+ 
+Multiplication of Square Matrices : 
+The below program multiplies two square matrices of size 4*4, we can change N for different dimension. 
+// C++ program to multiply
+// two square matrices.
+#include 
+using namespace std;
+#define N 4
+// This function multiplies
+// mat1[][] and mat2[][], and
+// stores the result in res[][]
+void multiply(int mat1[][N],
+              int mat2[][N],
+              int res[][N])
+{
+	int i, j, k;
+	for (i = 0; i < N; i++)
+	{
+		for (j = 0; j < N; j++)
+		{
+			res[i][j] = 0;
+			for (k = 0; k < N; k++)
+				res[i][j] += mat1[i][k] * 
+				             mat2[k][j];
+		}
+	}
+}
+
+// Driver Code
+int main()
+{
+	int i, j;
+	int res[N][N]; // To store result
+	int mat1[N][N] = {{1, 1, 1, 1},
+					  {2, 2, 2, 2},
+					  {3, 3, 3, 3},
+					  {4, 4, 4, 4}};
+
+	int mat2[N][N] = {{1, 1, 1, 1},
+					  {2, 2, 2, 2},
+					  {3, 3, 3, 3},
+					  {4, 4, 4, 4}};
+
+	multiply(mat1, mat2, res);
+
+	cout << "Result matrix is \n";
+	for (i = 0; i < N; i++)
+	{
+		for (j = 0; j < N; j++)
+		cout << res[i][j] << " ";
+		cout << "\n";
+	}
+
+	return 0;
+}
+
+// This code is contributed
+// by Soumik Mondal
+
+[tabby title="C"]
+
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Multiplication of Rectangular Matrices : 
+We use pointers in C to multiply to matrices.  Please refer the following post as a prerequisite of the code.
+How to pass a 2D array as a parameter in C?
+
+Run on IDE
+
+The time complexity of the above program is O(n3). It can be optimized using Strassen’s Matrix Multiplication

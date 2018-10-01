@@ -1,0 +1,29 @@
+Hi my name is Anandhakumar. P. I am a 2012 pass out from college of engineering guindy. I recently underwent offcampus interview with Amazon, Chennai, India for the post of SDE. I love geeksforgeeks and i will call it as the best site to prepare for coding interviews. Here goes my interview experience. Hope this is useful to someone and someone gets benefitted by it.
+Written test  [1 hr 15 min duration]
+Three questions were asked.
+1)  Check whether a tree is balanced.
+2)  Reverse  k nodes in a linked list.
+eg  1->2->3->4->5->6->7->8->9->10->11   [k=3]
+answer must be [3->2->1->6->5->4->9->8->7->11->10]
+3) arr1 –  4, 5, 6, _, _, _
+                    arr2 – 1, 2, 3
+arr1 has enough free space to hold elements of arr2. Merge array 2 with arr1 in a sorted manner.
+Cleared this round. I felt it easy as i was preparing for it for more than 2  months and geeksforgeeks helped me greatly.
+1st face-to-face interview [1 hr 15 min ]
+Short description about myself
+[2 min alone. Just told my name and my most important project for which i won ipad 2]
+1)  An array of size n is given. The array contains digits from 0 to 9.  I had to generate the maximum number using the digits in the array  such that it is divisible by 2, 3 and 5
+eg: 1  array = 18760, output must be:  8160
+eg: 2  array = 7776, output must be: “no number can be formed”
+[discussion went for more than 35 minutes. Every time i gave a solution, he was adding the constraints and finally i did it. he was ok with it.]
+2)  least common ancestor in a binary tree [Note :  not binary search tree ] [30+ minutes]
+I explained him with several methods and finally he was ok with and asked me to write the code for and i did it. he checked my code for different test cases and finally he was ok with it ..
+Not even 5 minutes break i was asked to get ready for next face to face  interview .
+2nd face to face interview [1 hr 20 min ]
+Short description about myself [2 min alone. just told mmy name and my most important project for which i won ipad 2. dont tell too much. they just wanted to know a little about u . inshort ur name and college. ]
+1)  zig zag traversal of a  binary tree. [35+ min ].
+Man i have studied this in geeksforgeeks and wrote him the code using recursion, which was working perfectly. But he told me to use reduce the complexity by using any data structures. I told him a logic using a stack and a queue. Another logic using 2 stacks . But he wanted me to use only one data structures. I tried using a single queue and he to helped me a little and finally he was ok with it .
+2) A  n*n  matrix  is given which is containing elements in which each row alone is sorted. column is not sorted. I have to convert it into a single dimensional array which will hold all the elements  of the array in a sorted manner.
+I told him many logics . actually he kept on adding constraints with whatever logic i  told him. Finally he gave me a hint and asked to use minheap property and finally he was ok with it. I solved this question using lots of help with him. man i was in interview for continuously more than 3 hours.
+I am waiting for my result for next round. I will update if i go through the next rounds. Overall it was a great experience with amazon and people in amazon are very smart minded.
+Hope this is helpful to someone!

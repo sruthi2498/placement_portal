@@ -1,0 +1,23 @@
+Given Q queries which consist of two integers, one is number(1 <= number <= 106) and the other is N., the task is to find the N-th prime factor of the given number.   
+Examples:
+Input: Number of Queries, Q = 4
+number = 6, N = 1
+number = 210, N = 3
+number = 210, N = 2
+number = 60, N = 2
+Output:
+2
+5
+3
+3
+6 has prime factors 2 and 3.
+210 has prime factors 2, 3 and 6.
+60 has prime factors 2 and 3.
+
+A naive approach is to factorize every number and store the prime factors. Print the N-th prime factors thus stored.
+Time Complexity: O(log(n)) per query. 
+An efficient approach is to pre-calculate all the prime factors of the number and store the numbers in a sorted order in a 2-D vector. Since the number will not be more than 106, the number of unique prime factors will be around 7-8 at max(because of 2 * 3 * 5 * 7 * 11 * 13 * 17 * 19 >= 106). Once the numbers are stored, the query can be answered in O(1) as the n-1th index will have the answer in numberth row. 
+Below is the implementation of the above approach: 
+Run on IDE
+Time Complexity: O(1) per query and O(maxN * log(maxN)) for pre-processing, where maxN = 106.
+Auxiliary Space: O(N * 8) in worst case

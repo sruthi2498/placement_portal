@@ -1,0 +1,13 @@
+A Right-truncatable prime is a prime which remains prime when the last (“right”) digit is successively removed. For example, 239 is right-truncatable prime since 239, 23 and 2 are all prime. There are 83 right-truncatable primes.
+The task is to check whether the given number (N > 0) is right-truncatable prime or not. 
+Examples:
+
+The idea is to generate all the primes less than or equal to the given number N using Sieve of Eratosthenes. Once we have generated all such primes, then we check whether the number remains prime when the last (“right”) digit is successively removed.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Related Article:Left-Truncatable Prime
+References:
+https://en.wikipedia.org/wiki/Truncatable_prime

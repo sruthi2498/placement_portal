@@ -1,0 +1,41 @@
+Amazon Interview Experience (Off Campus)
+
+Round 1: Online Test
+1. Circular tour that visit all petrol pumps.
+2. Find a sub-array in an array of 0 and 1 such that flipping bits maximizes no. of 1s.
+
+Round 2: Telephonic Interview 1
+1. Mirror Image of binary tree (Recursive Solution Required)
+2. Mirror image of binary tree (Iterative Solution Required)
+3. Mirror of n-ary tree.
+4. Generate all k length combination from n length string, characters can appear multiple times, print unique combinations only.
+
+Round 3: Telephonic Interview 2
+1. Sqrt of an integer till given decimal places. (Expected complexity – logn and only a single function can be made which has to deal with all the cases)
+2. Merge two balanced binary search tree.
+
+Round 4: F2F
+1. Isomorphic binary tree check.
+2. Count all possible decodings of a string of digit.
+3. Given log files consisting of product bought and customer id, print top k purchased items at any time. If billions of items are there and it is not possible for a single machine to handle them then how will you handle this condition. Discussed several approaches.
+
+Round 5: F2F
+1. Top view of binary tree.
+2. Given an expression number of different ways to evaluate the expression.
+    Exp. 1+2*3, can be evaluated as (1+2)*3 or 1+(2*3)
+    Later he asked me to find out all the possible answers as well.
+
+Round 6: F2F (Technical + hr)
+Discussion about project I completed during internship.
+Technical Questions asked were –
+1. K-th largest element in bst.
+2. Array vs Linked list.
+Several behavioral questions.
+
+Round 7: F2F 
+1. Hotel booking problem.
+2. Next greater number with same set of digits. O(n) solution was required.
+3. Discussion on TRIE.
+I would like to thank GeeksForGeeks for providing a variety of questions of all topics.
+
+

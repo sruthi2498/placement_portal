@@ -1,0 +1,35 @@
+FactSet visited our campus in the first week of august. I got job offer from FactSet. So, I think I am eligible to write interview experience.
+Profile : Software Engineer
+type : only Job
+Total rounds : 3/4
+There was presentation given by FactSet officials. It followed by first round – written technical test.
+Technical Test :
+First Test was written coding test. It had 3 questions and 75 min. We were supposed to write the main logic function in each question.
+[solution approach : use HashMap and don’t forget to check “AB” and “BA” will be the same key.]
+Example:
+[solution approach : sliding window approach and use queue to store indices. Here is similar problem link : https://www.geeksforgeeks.org/first-negative-integer-every-window-size-k/]
+[solution approach – 1 : Use String builder and append/trim string accordingly and compare strings]
+[solution approach – 2 : Use 2 stack one for each path, First push current directory in both the stack. Now iterate for each path and do the following: if ‘.’ – do nothing, If ‘..’ then pop, else push. Then compare both the paths.]
+[solution approach – 3 : Use doubly linked list. First create two doubly linked list for each path with the nodes of current directory. Then iterate through each path and add/traverse nodes accordingly and at last compare.]
+-> Total 29 students were selected after first test.
+Technical Interview – 1 :
+There where 5-6 interviews going on simultaneously. Some had only one interviewer and some had 2. Interview questions were totally based on data structure and algorithm skills. They were looking at how you approach towards solution and how efficient you can make it. Each candidate was asked 2-3 questions and it lasted almost an hour for all.
+My interview lasted almost 1hr and 15min. It started with some simple questions on resumes like I mentioned react.js and node.js, So he asked where did you use these technologies, how much knowledge I have of these technologies, what do you like more backend or frontend? He also asked about the test. Then he asked me the following 2 questions.
+-> Other questions asked in the same round : 
+-> 16 students were selected for second round.
+Technical Interview – 2 :
+My second technical round was divided in 2 parts, technical and HR. It lasted almost 1 hr and 45 min. But most candidates had only technical and lasted almost 1hr. Technical questions were asked to check knowledge of data structures. Only 2-3 interviewer asked the candidate asked about projects mentioned in resume. Some candidate were asked questions on pointers.
+Technical questions:
+Input : [king, gear, rat, tap, pot, talk]
+Output : true
+Input : [king, gear, rat, tap, talk]
+Output : false
+Then Interviewer went through my resume again and asked general questions as mentioned above, then asked questions about my achievements.
+Then he started HR Interview.
+HR Interview Questions:
+Then asked me if I have any query.
+Some of the candidates who were asked only technical questions in second round had one more round which was purely HR round and lasted minimum 30 mins.
+Then 8 candidates were offered job.
+Tips: Work on your data structure and algorithm skills more. Be confidant and honest.
+Hope it helps!
+All the best for interview 🙂

@@ -1,0 +1,35 @@
+Round 1: OnScreen Test (75 questions and 90 mins)
+There were three sections in the test.
+Aptitude: It consists of 30 questions covering Quantitative aptitude, data interpretation, data visualization and reasoning.
+Verbal Ability: It consists of 25 questions covering Normal English passages, synonyms, fill in the blanks, sentence rearrangements and correct the errors
+Technical Aptitude: It covers questions from Operating System, DBMS, c++/java and some output based question with snippets of jQuery codes.
+
+Round 2: Coding Round (30 mins)
+There were 2 questions the First one was pretty easy and the second was just easy.
+My first question was:
+Problem 1: Given a range (eg:- 1000-3000) find all the numbers which are a divisor of the number N.
+Problem 2: Given a matrix of dimension m*n where each cell in the matrix can have values 0(empty cell), 1(cell have fresh oranges) or 2(cell have rotten oranges).
+So we have to determine what is the minimum time required so that all the oranges become rotten. A rotten orange at index [i, j] can rot other fresh orange at indexes [i-1, j], [i+1, j], [i, j-1], [i, j+1] (up, down, left and right). If it is impossible to rot every orange then simply return -1.
+Note: First two sections of the round were very easy, you might wanna brush up your os, DBMS and java a bit for round three.
+For round two make sure you submit at least one problem.because
+Every Individual section has its cutoff.
+Both round 1 and round 2 was back to back and organised by CoCubes.
+
+Technical Interview:
+As they were hiring for two profile ACERs: one who will work on new technologies and
+STRIKERs on legacy technologies.
+For ACERs 2 Technical Round + HR round
+For legacy 1 Technical + HR round
+1 Technical Interview
+(Note: If you have a project related to web or App development it’s gonna pay off here
+because the interviewer was so obsessed with the web, App development and java).
+It started off with the usual question “Tell me about your self”(explain yourself with your technical skills). RESUME RESUME RESUME is through with your resume. (if it has something even remotely connected with java or web development then now your whole interview will be directed towards java so before mentioning java think about a little bit).If he is finished with your resume then simple coding questions.
+Algo to remove duplicates.
+quicksort
+print patterns
+and whether you have written Java in your resume or not, he is going to ask the question from java.
+
+HR INTERVIEW:
+Traditional HR questions, explain resume(with less technicality), What technology would like to HSBC as a bank should add and why.
+Final note: For first two rounds prepare from geeksforgeeks its more than enough.
+for Technical round prepare java then DBMS and whatever mentioned in your cv.

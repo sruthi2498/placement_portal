@@ -1,0 +1,12 @@
+Given a 2D grid of characters and a word, find all occurrences of given word in  grid.  A word can be matched in all 8 directions at any point. Word is said be found in a direction if all characters match in this direction (not in zig-zag form).
+The 8 directions are, Horizontally Left, Horizontally Right, Vertically Up and 4 Diagonal directions.
+Example:
+Below diagram shows a bigger grid and presence of different words in it.
+
+Source: Microsoft Interview Question
+The idea used here is simple, we check every cell. If cell has first character, then we one by one try all 8 directions from that cell for a match.  Implementation is interesting though.  We use two arrays x[] and y[] to find next move in all 8 directions.
+Below is C++ implementation of the same.
+Run on IDE
+Output: 
+Exercise: The above solution only print locations of word.  Extend it to print the direction where word is present.
+See this for solution of exercise.

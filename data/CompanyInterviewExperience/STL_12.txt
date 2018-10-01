@@ -1,0 +1,9 @@
+bit_and is a builtin function in C++ which is used to return the values after applying the bitwise_and on its arguments(as returned by operator &).
+T is the type of all the arguments.
+Note:
+We must include the library ‘functional’ and ‘algorithm’ to use bit_and and transform respectively otherwise they will not work.
+Below are the programs to show the working of bit_and function:
+Program-1:
+Run on IDE
+Program-2:
+Run on IDE

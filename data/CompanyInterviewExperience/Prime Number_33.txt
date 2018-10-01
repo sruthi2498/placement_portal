@@ -1,0 +1,17 @@
+Given a number n, we need to find the product of all of its unique prime factors. Prime factors: It is basically a factor of the number that is a prime number itself.
+
+Examples :
+Method 1 (Simple)
+Using a loop from i = 2 to n and check if i is a factor of n  then check if i  is prime number itself if yes then store product in product variable and continue this process till i = n.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Method 2 (Efficient)
+The idea is based on Efficient program to print all prime factors of a given number
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

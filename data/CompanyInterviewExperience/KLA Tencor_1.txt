@@ -1,0 +1,102 @@
+Round 1
+Online test on HackerRank contains 2 Coding Questions
+ 1. Given a image represented as 2d array of 0 and 1, find the size of the biggest cluster in the image.
+ Cluster one or more adjunct cell with 1 is cluster. Even in a single cell which surrounded by all 0 will be clustered.
+ Adjacent cell : cell on left, right, top and bottom diagonal cells are not considered for cluster.
+ Size-of-Cluster: number of 1 in the cluster
+ input:
+ 4
+    5
+    10001
+    00110
+    10000
+    11110
+    output:
+    5
+ 2. Given a 2D char array[m][n] and a word w[k], you need to find all the occurrences of w in array could be appeared in row(left, right) col(top, bottom) and in any diagonals.
+    Input:
+    5
+    6
+    abcdef
+    ahijkl
+    abccde
+    bbcuvx
+    cddwww
+    abc
+    output:
+    (0, 0, horizontal)
+    (2, 0, horizontal)
+    (2, 0, vertical)
+    (1, 0, diagonal)
+Round 2
+This is a 1-hour telephonic interview.
+    1. Tell me about yourself.
+    2. Discussion on constructor/instructor
+    3. Memory leak.
+    4. Virtual function some more cpp questions.
+    5. Discussion on core dump, corruption, how handle all these scenarios.
+    6. Discussion on mallow(), new().
+    7. Find the k most frequent words from a file.
+https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
+Round 3
+This is a 1-hour telephonic interview.
+    1. Discussion on my current project in depth.
+    2. Leaders in an array
+    https://www.geeksforgeeks.org/leaders-in-an-array/
+    3. Find the Number Occurring Odd Number of Times
+    https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
+    4. Design a contact app for android.(mostly focus on efficient algorithm).
+
+Round 4
+Face To Face Interview on Programming Questions Explain on Paper (1-hour)
+    1. Discussion on my current project in depth.
+    2. Clone a linked list with next and random pointer (all possible approach).
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+    3. Find the middle of a given linked list
+https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
+    4. Reverse a linked list
+https://www.geeksforgeeks.org/reverse-a-linked-list/
+    5. Given a number N you need make it to 0 by subtracting K or 1 from N, but condition is you need select K in such a way that after subtracting K the result should be
+    factored of N.
+    example N = 10 that first K=5 after subtracting K from N 10-5=5 hence 5 is factors of 10.
+    Find minimum number of substation operation to make it 0.
+    6. Some more questions on array and linked list.
+Round 5
+Face To Face Interview on Programming Questions Explain on Paper (1-hour)
+This round was taken by a senior folk.
+    1. Given a image in the form of 2D array of numbers. You need to corrupt that images and return.
+    Condition for corruption is the element at index [x][y] should contain average of surrounding numbers.
+    Example.
+    1234
+    6789 –here in place of 7 –> 4
+    2345
+    2. Next Greater Element
+https://www.geeksforgeeks.org/next-greater-element/
+
+Round 6
+Face To Face Interview on Design and OOPS(1- hour).
+This round was taken by a manager.
+    1. Design class diagram for coffee machine.(with all possible classes object, functions and type of data)
+    Most focus on object interaction.
+
+Round 7
+This round was taken by a senior manager.
+    1. Tell me about your self, your family and all?.
+    2. What is the one thing that can make you stay with KLA Tencor?
+    3. Design ola/uber cost estimation functionality Focus on Factory design pattern.
+    4. More HR related questions.
+
+Round 8
+This round was based on Behavioral Skills taken by senior HR Manager.
+    1. Tell me about your self.
+    2. Why KLA Tencor.
+    3. More HR related questions.
+I prepared mostly from GeeksforGeeks and I want to say thanks to the content writers of Geeks for providing the best solutions. This is one of the best sites.
+Note-
+    1. Mostly Focus on algorithm, How efficient you can write algorithm.
+    2. Also Focus on system design questions. For getting some Idea or to start with system design question refer to below given link.
+https://www.youtube.com/watch?v=UzLMhqg3_Wc&list=PLrmLmBdmIlps7GJJWW9I7N0P0rB0C3eY2
+    3. To begin with design pattern refer below given link to start with.
+https://www.youtube.com/watch?v=rI4kdGLaUiQ&list=PL6n9fhu94yhUbctIoxoVTrklN3LMwTCmd
+    4. Ask questions at the end of your interview to the interviewers.
+    5. Before start writing the code try to explain your algorithm.

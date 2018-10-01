@@ -1,0 +1,9 @@
+Given a stream of characters, find the first non-repeating character from stream. You need to tell the first non-repeating character in O(1) time at any moment.
+If we follow the first approach discussed here, then we need to store the stream so that we can traverse it one more time to find the first non-repeating character at any moment.  If we use extended approach discussed in the same post, we need to go through the count array every time first non-repeating element is queried. We can find the first non-repeating character from stream at any moment without traversing any array.  
+The idea is to use a DLL (Doubly Linked List) to efficiently get the first non-repeating character from a stream. The DLL contains all non-repeating characters in order, i.e., the head of DLL contains first non-repeating character, the second node contains the second non-repeating and so on.
+We also maintain two arrays: one array is to maintain characters that are already visited two or more times, we call it repeated[], the other array is array of pointers to linked list nodes, we call it inDLL[].  The size of both arrays is equal to alphabet size which is typically 256.
+Note that appending a new node to DLL is O(1) operation if we maintain tail pointer. Removing a node from DLL is also O(1).  So both operations, addition of new character and finding first non-repeating character take O(1) time.
+Run on IDE
+Run on IDE
+Run on IDE
+

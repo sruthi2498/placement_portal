@@ -1,0 +1,39 @@
+Round 1: Coding Sample
+In this coding sample, I was given 90 minutes to answer 2 coding questions.
+Question 1: Given a string A consisting of n characters and a string B consisting of m characters, write a function that will return the number of times A must be stated such that B is a substring of the repeated A. If B can never be a substring, return -1.
+Example:
+A = ‘abcd’
+B = ‘cdabcdab’
+The function should return 3 because after stating A 3 times, getting ‘abcdabcdabcd’, B is now a substring of A.
+You can assume that n and m are integers in the range [1, 1000].
+ 
+Question 2: Consider an undirected tree with N nodes, numbered from 1 to N. Each node has a label associated with it, which is an integer value. Different nodes can have the same label. Write a function that, given a zero indexed array A of length N, where A[j] is the label value of the (j + 1)-th node in the tree and a zero-indexed array E of length K = (N – 1) * 2 in which the edges of the tree are described, returns the length of the longest path such that all the nodes on that path have the same label. The length is the number of edges in that path.
+Example:
+A = [1, 1, 1, 2, 2]
+E = [1, 2, 1, 3, 2, 4, 2, 5]
+This tree is shown below. A node follows the form label, value.
+The function should return 2, because the longest path is 2->1->3, and there are 2 edges in this path.
+Assume that 1 <= N <= 1000 and each element of the array A is an integer in the range [1, 1000000000].
+ 
+Round 2: Phone Interview
+In this phone interview I was given one question.
+Question: Write a function that takes a list L and returns a random sublist of size N of that list. Assume that the indexes must be in increasing order. That is, you cannot go backwards.
+Example:
+L = [1, 2, 3, 4, 5]
+N = 3
+The function should return one of these lists:
+ 
+Round 3: Phone Interview
+I was again asked only one question.
+Question: Given a list L of video names and their watch rates, write a function that will return the videos with the top 10 watch rates. Video names may appear more than once.
+Example:
+L = [(‘abc’, 10), (‘def’, 15), (‘ghi’, 10), (‘abc’, 12), …, (‘xyz’, 100)]
+The function should return [‘xyz’, ‘abc’, …, ‘def’, ‘ghi’]
+Experience:
+I solved all the questions but, unfortunately, I was not selected. Though I was not selected, I had a very positive experience. My interviewers and recruiters were all pleasant to work with. I will definitely try again next year and hopefully, I will clear it and get selected for a full time job.
+ 
+Tips for Interview:
+Ask questions. The interviewer will purposely give you a vague question in hopes of you asking the necessary questions to clarify it for yourself.
+Don’t panic. I know it can be nerve racking to go on an interview, especially if it’s your first. But, nerves are only going to make it worse. Collect yourself, and if you don’t know the answer, it’s okay. Think through it for a few minutes and I’m sure anyone can come up with a solution. These questions are designed for you to be able to solve in the allocated time for an interview.
+THINK OUT LOUD! I can’t stress this one enough. You are also being judged on your thought process. If your interviewer doesn’t know what you are thinking, they can’t throw you hints or correct you in any way. And believe me, they want to see you succeed. They are there to help you and guide you through the problem.
+Other than that, study, study, study. Do as many algorithmically challenging problems as you can. Cracking the Coding Interview and Geeks for Geeks will be your best friends through the study process. Take advantage of these resources.

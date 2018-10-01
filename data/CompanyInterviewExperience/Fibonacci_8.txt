@@ -1,0 +1,18 @@
+Given two numbers M and N, the task is to check if the M-th and N-th Fibonacci numbers perfectly divide each other or not.
+Examples: 
+Input: M = 3, N = 6
+Output: Yes
+F(3) = 2, F(6) = 8 and F(6) % F(3) = 0 
+Input: M = 2, N = 9
+Output: No
+A naive approach will be to find the N-th and M-th Fibonacci numbers and check if they are perfectly divisible or not. 
+An efficient approach is to use the Fibonacci property to determine the result. If m perfectly divides n, then Fm also perfectly divides  Fn, else it does not.
+Exception: When N is 2, it is always possible as Fibo2 is 1, which divides every other Fibonacci number. 
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(1).

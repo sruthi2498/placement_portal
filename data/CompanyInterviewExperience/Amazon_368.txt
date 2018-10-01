@@ -1,0 +1,16 @@
+A number is Sparse if there are no two adjacent 1s in its binary representation.  For example 5 (binary representation: 101) is sparse, but 6 (binary representation: 110) is not sparse.
+Given a number x, find the smallest Sparse number which greater than or equal to x.
+Examples: 
+
+
+A Simple Solution is to do following:
+Time complexity of isSparse() is O(Log x). Time complexity of this solution is O(x Log x).  The next sparse number can be at most O(x) distance away.
+Thanks to kk_angel for suggesting above solution.
+An Efficient Solution can solve this problem without checking all numbers on by one.  Below are steps. 
+For example, let binary representation be 01010001011101, we change it to  01010001100000 (all bits after highlighted 11 are set to 0). Again two 1’s are adjacent, so change binary representation to 01010010000000.  This is our final answer.
+Below is C++ implementation of above solution.
+Run on IDE
+Output: 
+Time complexity of this solution is O(Log x).
+Thanks to gccode for suggesting above solution.
+

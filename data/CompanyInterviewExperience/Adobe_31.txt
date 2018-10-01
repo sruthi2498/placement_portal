@@ -1,0 +1,16 @@
+Given an array of n distinct integers and an element x. Search the element x in the array using minimum number of comparisons. Any sort of comparison will contribute 1 to the count of comparisons. For example, the condition used to terminate a loop, will also contribute 1 to the count of comparisons each time it gets executed. Expressions like while (n) {n–;} also contribute to the count of comparisons as value of n is being compared internally so as to decide whether or not to terminate the loop. 
+Examples:
+Asked in Adobe Interview
+
+Below simple method to search requires 2n + 1 comparisons in worst case.
+How to reduce number of comparisons?
+The idea is to copy x (element to be searched) to last location so that one last comparison when x is not present in arr[] is saved.
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Number of Comparisons: Atmost (n+2) comparisons

@@ -1,0 +1,26 @@
+Given a number s (1 <= s <= 1000000000). If this number is the sum of first n natural number then print, otherwise print -1.
+
+Examples :
+
+
+Method 1 (Simple):
+Start adding numbers from i = 1 to n.
+  a) Check if sum is equal to n, return i.
+  b) Else if sum > n, return -1.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(s)
+where s are the no. of consecutive numbers from 1 to s
+Method 2 (Binary Search):
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(log n)

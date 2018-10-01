@@ -1,0 +1,69 @@
+Hi all, SAP came for on-campus recruitment for full time employment and also offered six month internship to selected candidates. All eligible candidates of CSE, IT and ECE were allowed to appear in online test. 
+Online round was conducted on August 8,2017. It was conducted on mettl platform.
+Time duration : 70 minutes
+No of questions : 35 (15 Technical , 18 logical reasoning and aptitude , 2 coding )
+Coding questions were :
+Output: 2
+Input: {{{[]}}}
+Output: 4
+
+23 candidates were shortlisted for the interview process which was scheduled on august 18,2017.
+Interview process consisted of 4 rounds ,each being an eliminating round.
+Run on IDE
+Then he asked , in what situation does this fails ?
+I answered – in case of multithreading when multiple threads are executing same method getInstance() simultaneously. Hence we need to use synchronized keyword. Again this method fails if we clone an object.  Hence we need to override clone() method of Object class and return an exception when this method called. We could prevent any object creation through serialization and deserialization through transient keyword.
+Then he asked do you know what is factory method? Write an example and illustrate.
+what is inheritance?
+Differentiate abstract class and interface.
+What is polymorphism ?
+Differentiate runtime and compile time polymorphism with example.
+can a static method be overloaded ?
+can a static method be overriden ? (its not actually overriding.)
+Can you guess why inner class can be static but not outer class ?
+Given Two classes A and B. A has a method m1() and B has a method m2() . Method m1() is called within method m2(). Now m1() throws an exception.  Write a code to handle exception thrown by calling m1() in m2() and throw a new relevant exception from m2().
+Run on IDE
+What is the difference between calloc and malloc?
+What is macro in C?
+How does macro work and in what phase is it handled by compiler ?
+He asked what is your view – is using Macro good or bad style of programming ?
+Then he switched to dbms.
+What is normalization and all its forms.?
+Write a sql query to find the top 3 areas of each city having maximum traffic. Query should also print rank of the cities in the output based on the traffic. 
+Then he switched to Data Structure and Algorithms :
+1. Graphically illustrate Merge Sort and Quick sort and differentiate.
+2. Loop detection and correction in a linked list.
+3. Given a string , print the character and its frequency in order of its occurence.
+Example :
+geeks for geeks
+Output :
+g2 e4 k2 s2 f1 o1 r1
+I used hashmap and queue.
+Do you have any question ? (Never say NO).
+Interview went for over 90 minutes and 12 were eliminated after this round.
+
+6 candidates cleared this round.
+
+Round 3 : Managerial–
+Introduce Yourself.
+How was your day ?
+How was the recruitment process ?
+Why SAP ?
+What did you know about sap earlier and what you knew today ?
+Puzzle : there are 100 persons in a circle. 1 is given a gun. 1 kills 2, 3 kills 4 , 5 kills 6 .. and so on. At last which person survives ?
+What is Big Data and what is its application ?
+What is cloud?
+What is locality of reference ?
+Rate yourself on scale of 10 in programming.
+What do you do at evening?
+What you do when you are sad?
+What would you do if you are not selected ? (I said I’ve done good enough to be NOT in the rejected list)
+What would you say if I say that we need only one candidate. ? (I said – I would be the one.)
+He offered a handshake and said have a good day.
+Some Questions asked to other candidates:
+If you have to become an animal – what would you be ? (they just want to check your qualities, tiger – fast,  fox – clever, spider – Never giving up…)
+Naming another candidate –  he said Mr. “X” has done very good in the interview , where you beat him ?
+..
+Only 3 proceeded to HR round.
+
+At last, 1 candidate out of the 3 was eliminated and 2 candidates got the tag “I am SAP”.
+Thanks,

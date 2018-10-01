@@ -1,0 +1,31 @@
+Recently, I have been through the interview experience of Amazon India and I would like to share my experience with everyone. 
+Number of interviews: 1 online exam (will be completely evaluated by the compiler itself, then code of those who will clear the cut-off will be analysed by the hiring team) + 3 Face to face technical + 1 Telephonic (Technical again)
+Online exam:
+20 MCQ: Aptitude questions, if you are good in logical reasoning then don’t worry about it (basic permutation and combination), C output questions, and most of them were pretty simple.
+2 Online coding questions: 1. Print the first non-repeated character in a string.
+2. Print the left view of a binary tree.
+1st Face to face:
+A skeleton of a binary tree with nodes having garbage values is given and an array is given. Had to fill up the binary tree skeleton with the values in array such that the resulting tree is a BST.
+Solution: sort the array, enter the values in an in-order fashion (A long discussion on which sorting algorithm is the best and why? We ended up discussing how merge sort can be optimized, just “optimized”, not like reducing the order of time or space complexity). Then told me to write the merge-sort function for the discussed solution for merge-sort such that say I am a developer, I can’t test on a machine, and this class will be used by a million number of users.
+2nd Face to face: 
+Was asked 4 questions: Print all string permutation (String might have repeated characters).
+Least distance between two values in a very big binary tree (Binary tree may contain same value in many nodes). 
+    	  		{Least distance is 3 between 1 and 2 (not 5).  }
+Vertically print the value in a binary tree. Like in the previous example:
+4, 7
+1
+5, 3, 8
+7
+2
+Next, I was asked to design an efficient data structure for two lifts in a building of n floors.
+Round 3 Face to face:
+Had to find maximum profit in an array of stocks prices for consecutive days in two cases, one I can sell and buy any number of times I want, second, I can only buy and sell one time.
+Another question was to define a function “inorder_it(Node A, Node root)” which will return the next node in a binary tree to a particular node A. Was asked to write code for both of them. 
+Round 4: telephonic: 
+Kind of HR + Technical, asked a lot about my internship project and other academic projects. Then we discussed the problem of sorting rows of a file based on a particular column. Like as in Excel file, you can sort file based on roll_no, first name, last name, any column you want.
+File is very large, so you can’t just store the whole file into memory.
+Solution: sort it out yourselves.
+All the best everyone.
+And yes, I got through along with 5 other mates from my college.
+
+

@@ -1,0 +1,66 @@
+Accolite visited our campus for the position of Software Engineer.
+Day-1:
+Round-1 : Online Test
+The test consisted of 20 MCQs and the test duration was 30 minutes. The question mapped concepts from Data Structures, Algorithms, OS, Networking, DBMS, Quantitative and C++ output questions.
+Marking scheme : +1 for correct, -0.25 for wrong
+Number of students giving test : 106
+Shortlisted : 39
+Tips : Keep core concepts of CS fundamentals (Data Structures, Algorithms,OS, DBMS,Networks) absolutely clear and have deep understanding of them. Only attempt if you are sure about the answer. 
+Day-2 :
+Round-1 : Written (Pen-Paper) Coding Test (1 hr)
+2 questions have to be coded. Complete code was to be written.
+1. Swapping Nibbles : Given a decimal number represented as a byte (8 bits) swap left most 4 bits (nibble) with rightmost 4 bits.
+E.g. 100 (01100100)
+Output : 70 (01000110)
+2. Maximum profit by buying and sharing a share at most twice
+In a daily share trading, a buyer buys shares in the morning and sells it on same day. If the trader is allowed to make at most 2 transactions in a day, where second transaction can only start after first one is complete (sell->buy->sell->buy). Given stock prices throughout the day, find out maximum profit that a share trader could have made.
+E.g. price[] = {10, 22, 5, 75, 65, 80}
+Output: 87
+price[] = {90, 80, 70, 60, 50}
+Output : 0
+https://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-twice/ 
+A better solution which holds for any number of times using Dynamic Programminghttps://www.geeksforgeeks.org/maximum-profit-by-buying-and-selling-a-share-at-most-k-times/
+Number of students giving test : 39
+Shortlisted : 9
+Tips : Solve all questions with optimized code passing all test cases. This gives a positive first impression. At least 1 problem is related to Dynamic Programming. Solving that problem using DP approach is an upper hand.
+Round-2 : Technical Round-1 (2 hrs)
+A little discussion about one of the projects listed in my resume
+1. Given a BST and a range (min-max) remove all nodes of the tree that do not satisfy the given range maintaining BST property.
+Give O(n) approach and code the solution.
+2. Given an array of large number of positive integers where the range is unknown, any element can be repeated any number of times. Find the element which is repeated   maximum times. If no such element exists or multiple maximum elements repeat return -1.
+Give an in-place (no hashmap or auxiliary count array) approach and code the solution.
+3. Given an array of numbers find number of pairings.
+E.g. {1,2}
+Output : 2 [{1,2} , {(1,2)}]
+E.g. {1,2,3}
+Output :  4 [{1,2,3} , {(1,2),3} , {(1,3),2} , {(2,3),1}]
+A number cannot be present in 2 pairs. If a number cannot be paired it is left as it is.
+4. Given an array find the second largest number.
+Give O(n) time complexity and O(1) auxiliary space approach.https://www.geeksforgeeks.org/find-second-largest-element-array/
+5. Algorithmic approach
+There are five boxes numbered 1 to 5. There is one cat. Every night the cat can move from one box to another box but you are asleep during night so you do not know which box the cat is in. In the morning you have to tell which box the cat is in.
+Only the approach to solve the problem was expected.
+6. How to build an AVL tree from an input of elements.
+Any questions from my side. Asked 2-3 questions.
+After this round, 7 were shortlisted for next round.
+Round-3 : Technical Round-2 (1.5 hrs)
+1. If you were to maintain the AVL tree balancing property which are maintained using left and right rotation how would you implement the same without using rotation.
+2. Given an input string e.g. aaaacacacaac and a pattern (a*c) where * means any number of any characters print all such patterns in the given string in O(n) time.
+3. Explain Objected Oriented Programming concepts (inheritance, polymorphism, abstraction, encapsulation, data binding, overriding, overloading) using an example with class code.
+4. A large stream of only small case alphabets is given. Find and print all possible valid English words.
+5. Identify whether a given binary tree is a binary search tree or not.https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+Any questions from my side. Asked 2-3 questions.
+After this round, 5 were selected for next round.
+Round-4 : Technical Round-3 (1.5 hrs)
+They took this round for other 4 candidates. I was directly called for the HR after 2nd technical round.
+After this round, 1 out of 4 was selected for HR.
+Round-5 : HR (10-15 min)
+For the HR interview only 2 were selected, me and the one who was selected after technical round 3.
+1. How was your day…
+2. Tell me about yourself…
+3. Family background…
+4. Why do you not want to go for MS…
+5. What do you know about Accolite…
+The HR said that I have been selected and congratulated me with a handshake. This was the only moment I was waiting for since I got admitted to VJTI :).
+Any questions from my side. Again asked 2-3 questions like work culture, hierarchy, training,etc.
+I and my friend (the other guy from I.T.), we both nailed the interview process and got the offer.

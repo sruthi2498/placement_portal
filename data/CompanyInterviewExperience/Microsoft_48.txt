@@ -1,0 +1,7 @@
+Given a linked list with some two adjacent repeating nodes before a zero, task is to double the first and make next 0. After this, append all the zeros to tail.
+Prerequisite: Basics of implementation of Singly Linked List
+Examples :
+Traverse through the linked list, and wherever there are two adjacent same data of nodes before a 0 (e.g. 4 -> 4 -> 0), then, double first element and make another as 0 (e.g. 8 -> 0 -> 0 ->). Finally, traverse the linked list and linearly point all the zeros to tail.
+Run on IDE
+Output :
+Time complexity : O(n), where n is the number of nodes of linked list.

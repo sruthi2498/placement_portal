@@ -1,0 +1,24 @@
+Round 1:Written Round had 3 questions:-
+1- Sum of two linked lists https://www.geeksforgeeks.org/sum-of-two-linked-lists/
+Don’t remember the other 2.
+Round 2: DS algo 
+1-Find pair with given sum in bst
+2-Transpose of the matrix
+Round 3: problem solving
+1-Find top view of binary tree (Iterative approach)
+2nd question was on matrix don’t remember exactly
+Round 4: HR round
+Question on Amazon leadership principle. Why leaving current company. Question on tasks handled. Behavior based questions around amazon leadership principle
+Round 5 : Designing round
+1- Design a chess game. Form a structure of gamePlan.
+2-There is a room with guard sitting there, he is noting the booking time. For eg:-
+a) 0200 hrs to 0430 hrs
+b)0315 hrs to 0545 hrs
+c)0600 hrs to 0800 hrs
+You have to check how many are valid bookings with no conflict.
+(Invalid booking are those which are having conflict with any booking)
+In above example a) & b) are having conflicts so no valid booking. c) is valid booking.
+                                         
+
+
+

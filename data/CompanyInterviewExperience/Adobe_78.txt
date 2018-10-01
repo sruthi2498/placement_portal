@@ -1,0 +1,44 @@
+Recently I got the opportunity to be interviewed for the position of MTS-1 at Adobe. Here is my Interview Experience: 
+Written Round:
+Part A (50 mins):
+45 questions based on logical reasoning, DI, quant and geometry. The questions were easy but the real issue was time in this round.
+Part B(2 hrs):
+13 MCQs on C,C++ basics (referencing and de-referencing of string pointers ,size of union etc.), OS basics
+Coding Questions were:-
+a) Reverse a linked list.
+b) Check if a number is a Palindrome or not.
+c) Multiply two numbers without using * operator and using minimum number of additions.
+d) Balancing of parenthesis.
+e) Find the row with maximum ones in a 2D array where in each row all 1s occur before all 0s
+f) Check if a given sum is availabe in an array.
+I think it is same from last 3 years and also same for Post Member of technical staff
+F2F Round 1:
+a) About my projects. Simple Questions.
+b) How a program compiler and run. He wanted answer from scratch.
+c) C++ Questions for what is cout, Object orientation.
+d) Design a ladder and Snake Problem with TWO Player and Code it. I did not have played earlier. 🙁
+e) Code for Directory Structure.
+F2F Round 2:
+a) Discussion on Projects. A person can have 1 step, 2 step, or 3 steps. How much combination he can have to climb on a ladder of n and code.
+b) Min, push, pop in Stack.
+c) C++ Question. VIRTUAL CONSTRUCTOR, virtual destructor significance. Design Pattern related Questions.
+F2F Round 3:
+a) Basic Projects into.
+b) In array only 1 element is unique rest are 2 times. How to find that? He further extend if one unique and rest are multiple of 3.
+c) Design rate Maze Problem.
+d) Loop in a list and how to find out. I said it is a standard question and answer. he asked me. Okk,  now tell me why are you increasing fast pointer by 2 only. find the value that should be best match for this.
+e) Some of two elements in an Array. Code it.
+d) Random Pointer in Linked list. Clone it.
+F2F Round 4: with VP :(:(
+a) A lot of questions about my college. So please be prepare for that too. :P:P:P
+b) He showed me my resume and pointed out grammatical mistakes. Project Questions. He asked me every question with deep. What everything mean to regarding project knowledge.
+c) Asked my computer science topic which i proud of. By Mistake i said MAPREDUCE. :(:(:(.  I gave him everything by myself.
+He asked me to tell what is it. I explained. He was like you understand that but being a IIT product you should know some mathematical form, and  should explain in terms of that.
+d) Write code for inverted index for MapReduce. Mapper and Reducer Functions.
+e) Page-Rank Algorithm, a lot of discussion, asked me to code it. After making a lot of mistake i was successful with his help. He asked me why after running page rank algo, why page rank stabilize after 7-8 turn. (After running page rank algo, page rank of each page become nearly constant, no big change. Why it happens.)
+f) My B.tech project, after explaining everything he asked me for mathematical terms, i explained him.
+This was the best interview, i have ever had. I learned a lot.
+Fourth Round : HR Round (30 Minutes)
+It was scheduled next to next day.
+Thanks geeksforgeeks.
+

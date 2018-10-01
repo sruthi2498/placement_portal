@@ -1,0 +1,12 @@
+A decimal number is called binary digit number if its digits are binary. For example, 102 is not a binary digit number and 101 is.
+We are given a decimal number N, we need to find the smallest multiple of N which is binary digit number,
+Examples:
+
+    We can solve this problem using BFS, every node of implicit graph will be a binary digit number and if number is x, then its next level node will be x0 and x1 (x concatenated with 0 and 1).
+    In starting we will push 1 into our queue, which will push 10 and 11 into queue later and so on, after taking number from queue we’ll check whether this number is multiple of given number or not, if yes then return this number as result, this will be our final result because BFS proceeds level by level so first answer we got will be our smallest answer also.
+    In below code binary digit number is treated as string, because for some number it can be very large and can outside the limit of even long long, mod operation on number stored as string is also implemented.
+    Main optimization tweak of code is using a set for modular value, if a string with same mod value is previously occurred we won’t push this new string into our queue. Reason for not pushing new string is explained below,
+    Let x and y be strings, which gives same modular value. Let x be the smaller one. let z be another string which when appended to y gives us a number divisible by N. If so, then we can also append this string to x, which is smaller than y, and still get a number divisible by n. So we can safely ignore y, as the smallest result will be obtained via x only.
+Run on IDE
+Run on IDE
+

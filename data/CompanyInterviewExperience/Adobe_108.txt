@@ -1,0 +1,38 @@
+I have recently been through the recruitment process of ADOBE. I didn’t get through (I got the reply today), but I sincerely hope that my experience will help some of you in your endeavors. 
+Round 0: Written Test – I was called for a written test. The test was 3 hours long. It had four sections – Quantitative, Analytic, Data Structures and Algorithms, and Core Java & J2EE fundamentals
+The questions were simple. The paper had a time limit for each of the individual sections but somehow the HR collected the answer sheets (and the question papers) all together at the end of 3 hours.
+There was no negative marking but they had a different weight-age for questions in each section
+Quantitative: 30 multiple choice questions. Time limit: 45 minutes
+Analytical: 3-4 Analytical Puzzles followed by 4-5 follow up questions (multiple choice). Time limit: 15 minutes
+Data Structures & Algorithm: 10 questions (not multiple choice) to be answered with a brief explanation. Questions like 24ABC in base 6 would be what in a base 7 system. Write a program to find the missing number in an array of size N-1 which had jumbled up numbers ranging from 1 to N. I hope you get the idea.
+Core JAVA & J2EE – The Core JAVA section had general questions on JAVA. They stressed a lot on threads.
+I dint know much about J2EE but the whole paper had just 6 questions on it, so missing them didn’t cost me much.
+Almost a week later the HR informed me that I had done really well in the test and that I have to come to the ADOBE office for the first set of interviews.
+Interview 1
+1)    He gave me a custom PERSON object. This object had some properties like name, surname, age etc. He asked me to write a function which can return the size of this object. He asked me to write a generic code that will work with any object. The object may have inbuilt data types like in the PERSON object or it may have another custom object inside it such as a FAMILYBACKGROUND object. He gave me a few functions from the JAVA API which can tell you about the contents of an object. He asked me to write a helper function that can return the size of default data types like int, float etc.
+2)    He gave me a sorted but rotated array and asked me to find the pivot.
+Interview 2
+1)    He gave me a sorted but rotated array and asked me to search an element inside it without finding the pivot. Complexity of the solution should still remain O(Log n)
+2)    Find the mean and median of the elements which are dynamically added at runtime.
+3)    I have a list of N teams T1, T2, T3 … Tn. Each of these teams has played a match against every other team. I have a function displayResult(Team T1, Team T2), it returns the team which won the match between any two given teams T1 and T2.
+I have to write the teams in an order such the (n-1)th team (in the order) had lost to the nth team which in turn had lost to (n+1)th team..
+For example if in a particular order, the teams appeared as T1, T2, T3, T4 … then team T1 had lost to T2, T2 had lost to T3, and T3 had lost to T4… It may be possible that T3 lost to T1 .. but that need not be taken into consideration while writing the order. Only the neighboring elements should be such that the element on the left has lost to the element on the right.
+How will you write the teams in this order? Write a code for it
+Make all the necessary assumptions you need to solve the problem.
+4)    Print an order of all the knight moves such that it fills up an 8 by 8 chess board. The moves should be such that no block that has been stepped on is visited again.
+After a few days, the HR informs me that I have qualified for the next round. Only this time my interview will be taken by some of the senior executives at ADOBE.
+Interview 3
+1)    General discussion about the work done in projects, internships etc.
+2)    What is reflection? How does JVM find the right class to instantiate an object?
+3)    Draw a Pascal triangle. Write a code to print the elements of an N level Pascal triangle using a 1 dimensional array.
+Interview 4
+1)    Generate all possible combinations (of r elements) inside an array of size N
+E.g. arr [] = {2,8,14} All possible combinations of r=2 will be {2,8}, {8,14}, {14,2}
+2)    Why are string objects immutable in java? How are Strings structurally designed in java?
+3)    When should one use merge sort and when should one use quick sort?
+HR
+General questions like if selected which office would I like to work for? Where do I see myself 5 years from now? etc etc…
+I stumbled on the interview questions in the fourth round (Probably why I wasn’t selected).
+Please post if someone has answers to them.
+Best of luck.
+

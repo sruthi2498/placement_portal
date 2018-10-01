@@ -1,0 +1,15 @@
+Prime Triplet is a set of three prime numbers of the form (p, p+2, p+6) or (p, p+4, p+6). This is the closest possible grouping of three prime numbers, since one of every three sequential odd numbers is a multiple of three, and hence not prime (except for 3 itself) except (2, 3, 5) and (3, 5, 7) .
+Examples : 
+
+A simple solution is to traverse through all numbers from 1 to n-6. For every number i check if i, i+2, i+6 or i, i+4, i+6 are primes. If yes, print triplet.
+An efficient solution is to use Sieve of Eratosthenes to first find all prime numbers so that we can quickly check if a number is prime or not.
+Below is the implementation of the approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+References :
+Wiki

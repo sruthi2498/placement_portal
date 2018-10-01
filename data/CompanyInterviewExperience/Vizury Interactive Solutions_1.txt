@@ -1,0 +1,16 @@
+Vizury
+I got contacted by a recruiter on LinkedIn for Bangalore location.
+Telephonic round (DS and Algorithms) (1 Hour):
+1) Print the level order traversal in reverse.
+https://www.geeksforgeeks.org/reverse-level-order-traversal/
+I gave Stack and Queue Solution. Then he asked if I can think in terms of recursion, which I was unable to.
+2) Create the ancestor matrix of a tree.https://www.geeksforgeeks.org/construct-ancestor-matrix-from-a-given-binary-tree/
+3) Find k largest elements in an unsorted integer array.https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+It was an easy interview and I got the call that day itself that I will have to go for F2F round at Vizury office.
+F2F round (DS and Algorithms) (1 Hour):
+1) https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/
+I struggled at first to formalize the approach, and finally, Graph + DFS solution. Took about 40-45 mins to explain the approach and code half the solution.
+2) https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+I could not give the most optimal solution although I gave various other algorithms.
+Could not clear rounds further.
+Note: Both of the interviewers were very bad at giving hints as opposed to general coding interviews.

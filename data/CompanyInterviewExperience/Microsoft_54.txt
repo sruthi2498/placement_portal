@@ -1,0 +1,45 @@
+I had got a call through Naukri Portal . I got interview invite for a weekend drive. 
+Round 1 
+Hacker rank test :
+Q1 : Given relationship of child-parent for a tree for all nodes. Find the diameter of that tree.
+Q2 :  https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+3 more MCQs in test. 
+Round: 2
+Q1: Given a n-ary tree. Find the longest path (top to down) with consecutive integers in increasing order
+Q2: Design a RangeSet class where you can Add, Delete and search in a optimized way
+E.g. add 10-20
+Delete 13-27
+Add – 23-28
+Search (3)- output false
+Search (22) –  output false
+Search (24) – output true
+Round: 3 
+Q1: https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+Q2: Given a tree find the next right element towards any given element in input (Level order traversal)
+Q3: Count all possible distinct sums (top-down) in a binary tree.
+Round 4: 
+Q1: https://www.geeksforgeeks.org/nuts-bolts-problem-lock-key-problem/
+Q2: https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/
+Q3: Given 2 trees, check whether Tree A contains Tree B. (Contains mean all nodes and orientation of their children should match)
+Round 5: 
+Q1: Given a string like below, it has words embedded for zero to nine, You need to calculate the sum as per the string 
+onehhhtwominusthreehhkkseveneightjnine
+should be equivalent to
+1+2-3+78+9
+output: 87
+twothreekkkminuspponeksevenoeightllninenine
+should be equivalent to
+23-1+7+8+99
+Output : 136
+onetwothreefour
+output: 1234
+Q2: Design a tiny URL service like bit.ly
+Q3: one puzzle :
+Given 1 Box with 2 latches
+A and B stay in different states.
+A has 2 keys of latch 1
+B has 2 keys of latch 2
+Now user A has to send a message in a box to User B.
+while sending the message A has to make sure that no one on the way reads the message. If A sends the Key along, anyone can open it and check .
+How would you make sure that this threat to read the message in between, is removed. 
+It was a good experience, although i got reject after a few days

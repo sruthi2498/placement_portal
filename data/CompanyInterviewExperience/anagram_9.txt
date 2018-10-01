@@ -1,0 +1,10 @@
+Given an array of n string containing lowercase letters. Find the size of largest subset of string  which are anagram of each others. An anagram of a string is another string that contains same characters, only the order of characters can be different. For example, “abcd” and “dabc” are anagram of each other.
+Naive appraoch is to generate all possible subset and iterate from largest size of subset containing all string having same size and anagram of each others. Time complexity of this appraoch is O() where n and m are the size of array and length of string respectively.
+Efficient approach is to use hashing and sorting. Sort all characters of string and store the hash value(sorted string) in map(unordered_map in C++ and HashMap in java). At last check which one is the frequency sorted word with the highest number of occurrence.
+Run on IDE
+Time complexity: O() where m is maximum size among all of the strings
+Auxiliary space: O(n + m)
+Best approach is to store the frequency array of each word. In this, we just need to iterate over the characters of the words and increment the frequency of current letter. At last, increment the count of only identical frequency array[] and take the maximum among them. This approach is best only when length of strings are maximum in comparison to the array size.
+Run on IDE
+Time complexity: O() where m is maximum size among all of the strings
+Auxiliary space: O(n + m)

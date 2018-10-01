@@ -1,0 +1,22 @@
+ONLINE ROUND:
+3 coding Questions in 1 hour :
+1) Given a binary search tree and a key, if found return 1 else -1.
+2) Given a string find the number of distinct substrings (should optimise time and space complexity)
+3) Given a string finf the number of distinct palindromic substrings(should optimise time complexity)
+INTERVIEW ROUNDS:
+Interview 1:
+1)  Given a boolean expression find the number of ways to paranthasise it so that it evaluates to true
+2)  https://www.geeksforgeeks.org/dynamic-programming-set-31-optimal-strategy-for-a-game/
+3)  Given n stairs , you climb 1 , 2 or 3 stairs at a time . Find the number of ways to reach the nth step
+Interview 2:
+1)  Given the pointer to the root of the tree and two values val1 and val2 . Find the length of path between the values val1 and val2 in the binary tree. { handle corner cases  where both the values are on the same path}
+2) Given a mapping between numbers and alphabets . Find the number of ways to decode a sequence of numbers 
+Interview 3:
+1) Given a matrix of 0 s and 1 s Find the number of connected components having 1s 
+     The above matrix has 2 components
+ constraints: Time complexity O(N) space complexity O(1)
+2) Given a tree check if it is a binary search tree or not constraints: space complexity O(1)
+Interview 4: (HR+Technical)
+1) Asked questions on my resume and challenges  faced in my project
+2) Showed me wwww.amazon.com page and asked me how to design the backend database so that it supports functions like displaying entire information about a product , its average rating and number of customers who gave each rating etc.
+    Overall the experience was good and the interviewers were friendly. I would like to thank geeksforgeeks.org which helped me throughout my preparation.

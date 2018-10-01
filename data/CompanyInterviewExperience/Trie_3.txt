@@ -1,0 +1,7 @@
+Tries is a tree that stores strings. Maximum number of children of a node is equal to size of alphabet.  Trie supports search, insert and delete operations in O(L) time where L is length of key.
+Hashing:-  In hashing, we convert key to a small value and the value is used to index data. Hashing supports search, insert and delete operations in O(L) time on average. 
+Self Balancing BST :  The time complexity of search, insert and delete operations in a self-balancing Binary Search Tree (BST) (like Red-Black Tree, AVL Tree, Splay Tree, etc) is O(L Log n) where n is total number words and L is length of word. The advantage of Self balancing BSTs is that they maintain order which makes operations like minimum, maximum, closest (floor or ceiling) and k-th largest faster. Please refer Advantages of BST over Hash Table for details.
+Why Trie? :-
+Issues with Trie :-
+The main disadvantage of tries is that they need lot of memory for storing the strings. For each node we have too many node pointers(equal to number of characters of the alphabet), If space is concern, then Ternary Search Tree can be preferred for dictionary implementations. In Ternary Search Tree, time complexity of search operation is O(h) where h is height of the tree.  Ternary Search Trees also supports other operations supported by Trie like prefix search, alphabetical order printing and nearest neighbor search.
+The final conclusion is regarding tries data structure is that they are faster but require huge memory for storing the strings.

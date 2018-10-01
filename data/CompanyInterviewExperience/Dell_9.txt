@@ -1,0 +1,46 @@
+Interview experience for Dell International (R&D) – On Campus Software Development Associate Engineer (II)
+Selection Procedure :
+1 MCQ Test
+2 Technical Rounds
+1 HR Round
+Note: Each round was an elimination round
+Written Test : 
+-50 MCQ to be solved in 75 min
+-Difficulty level was similar to GATE questions
+-Questions were from C/C++ programs, Networks, Operating System, DBMS, S/W Engg, General Aptitude etc.
+Round I (Technical – F2F) :
+-All the interviews were 2 on 1 (2 interviewers)
+-Interview began with discussion on current project and questions based on that.
+-Then interviewer asked me questions based on my network related project.
+-He asked questions about OSI layer, working of switches and router.
+-Routing protocols, working of OSPF, how routing table gets updated step by step, Spanning tree protocol etc.
+-Implementation of Dijkstra’s Algorithm.
+-Code for reversing a linked list
+-Problem Solving
+         -You are given a random no. generator, it is generating random numbers continuously.
+         -Another application consumer is given, which is taking random no. as input but the frequency of consumption of no. is not fixed suppose consumer at some time may access 0 or 1 or n no. generated, constraint is that no. consumed by consumer should be last generated maximum no.
+                  ex:
+                  generator = 2, 150, 20, 100, 200, 1000, 1080
+                  for n=2
+                  consumer = 1080, 1000
+                  for n=4
+                  consumer = 1080, 1000, 200, 150
+-Basic questions related to data structures (heaps,stacks etc).
+Round II (HR – F2F) :
+-Introduction
+-Discussion based on project
+-Android related questions (as one of my project was in android)
+-CV based questions
+-Why dell?
+-Some situational questions
+Round III (Technical – F2F) :
+-This round was based on Operating System questions
+-What is kernel?
+-What is system calls, how they are executed?
+-Questions based on process synchronization, mutex, semaphores (binary and counting)
+-Linux file system, inode
+-Virtual memory, addressing, paging, segmentation, fragmentation
+-Page fault, thrashing
+-Busy wait, spin lock, deadlocks etc.
+-Process schedulers, dispatcher
+I would like to thank G4G for such great forum, surely G4G is the best source for preparation.

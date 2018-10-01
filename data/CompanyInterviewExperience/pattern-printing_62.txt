@@ -1,0 +1,12 @@
+Given a string, print it inside a matrix in such a way that a ‘plus’ is formed.
+Examples:
+Approach:
+The idea is simple. First we can access every element of the matrix and make it ‘X’. Then we will insert the characters of the string in the middle row as well as in the middle column of the matrix. For example, we have string of length 5. So we will need a (5X5) matrix for it.
+
+To access the middle column of the matrix, column index is made constant and is equal to (n/2), where n is the length of the string. Row index will go from 0 to (n-1) for it.
+To access the middle row, the row index will be made constant and equal to (n/2) and the column index will go from 0 to (n-1).
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+

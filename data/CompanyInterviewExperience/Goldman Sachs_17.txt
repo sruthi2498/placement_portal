@@ -1,0 +1,42 @@
+Interview Experience- Goldman Sachs
+Hi, I am Ashish Gupta, student of Mathematics and Computing branch, Delhi Technological University. I recently gave interview for Goldman Sachs (on-campus) for internships, and got selected. I want to share my interview experience so that others can learn.
+Round 1: Online Round
+1 hour
+There were 9 questions. 1 coding question of 20 marks and 8 MCQs for 10 marks each with –ve 2 marking for incorrect answers. All were technical and analytical based. 2 were of Dynamic Programming MCQs.
+Coding Question: Given 4 points, find the number of quadrilaterals formed by 4 points, having exactly 4 sides. (Find it on geeks for geeks).
+Others: Analytical based. They took time, but you can do them, if you don’t loose cool. A question was to complete an incomplete code with blanks! DP question was of size 5(array of size 5), so use memorization and get 20 marks in 6-7 minutes. The rest of the paper is to check your analytical skills. (That is what I was tested again and again in the interview)
+26 got shortlisted. From my branch 4 people got selected. Others were from COE and IT.
+Round 2:
+Technical Round 1:
+TNP cell took our CV. Then sir called me. He asked me to give a brief introduction. I was asked to explain 1 of my projects. I explained a replica of Photoshop I had created. Then I was asked a very basic question, How will you check that a number is a power of 10 to get interview going. He ensured, I relaxed before some good questions. I gave a recursive solution. He asked for the complexity. I explained it was O(Log 10 (N)) space as well as time. I was asked an O(1) time solution. I gave hash map answer. In the context, it was really a good jump. Then sir asked me how a hash map works? Then he asked how is it O(1), why not O(Log(n)) for 1 million keys? (Ans is fill ratio/ Load factor -> answered correctly). Then came a really good question. To support load factor, we have to rehash the key, value pairs, how to implement hashmaps without that. I told him, that doing a multi hashmap system of vector will do, when one hashmap is filled to correct fill ratio, create a new hashmap. Search time increased, but we get the result 😀 (after a brain storming minute)
+Then I was given a puzzle of Apple, Orange, Apple/Orange. (Look it up) ( I was asked if I had any questions)
+They selected 14 including me. 3 were from MCE.
+Technical Round 2:
+This time, Mam took the round. She had a lot of experience. She asked me to introduce myself. Then I was asked about my previous interview experience. I told her, how sir who interviewed me last had same interests in exploring stuff and how thorough the interview was. Straight away, mam gave me a puzzle, (https://medium.com/i-math/a-king-1000-bottles-of-wine-10-prisoners-and-a-drop-of-poison-2dd1959a8dd2)
+I thought out loud. It was a conversation to the correct path, what to do, what not to do. What if we do this and that. Did not get it, though she was very impressed that I came that close to the solution, when I related the problem with ( https://www.quora.com/There-are-100-jars-each-with-infinite-marbles-All-are-10-grams-except-one-jar-which-has-all-9-gram-marbles-How-would-you-find-which-jar-by-weighing-only-once). She said that this was her next question, if I failed to answer the 10 prisoners one 😀
+Mam got one step ahead. We left the question unsolved (to come back at the end). Then I was asked questions on heaps, maps, arrays, tournament trees. (Obviously these topics were to be guessed while solving, making them harder). Questions were:
+1) How will you find k maximum number in a stream of 1 trillion numbers. The catch is, k is some value 1 billion entries. This was not told, I had to ask it! The answer is a max heap! I explained in detail how it worked. First I answered for constant k. Then I answered based on big data, where you can store 1 trillion entries in 1000 1 billion entry files, sorting(Dec order) each file and then playing a tournament amongst the top elements . Finally I called out heap answer. ( Laughed at complexity of answers generated for a simple solution)
+2) Find diameter of A tree (any number of children). How many times do you iterate through a tree. Optimize it( I answered it by returning pairs). Though I wrote the time complexity as a maths equation, we came to a disagreement on whether the time taken should be (O(N) or O(N*k)). I said (O(n)) and she said the latter. After running a lot of brain, both were convinced. ( It was literally fun, I see how team work helps)
+3) Find median of a running stream of numbers.( Storable large dataset). I was asked to then show the “Optimised solution” ( See geeks for geeks for answer using min heap and max heap) or (AVL). I answered.
+4) More questions, I can’t recall, but one was to find max 2 elements in array in O(1) space — extra space that is.
+Then we re looked at puzzle and came very close again. Finally I realized my interview was very long, I told her that I would not want to waste her time. Then my interviewer in a very happy voice replied, that I was soo close. Then told me the binary solution (101010001 ) and I was like OOOOHHHHHH ACHAA! I think, I was the only one who was shortlisted by her.
+Then there were 4!
+3rd Round:
+Technical, I was asked a simple greedy question, followed by a tricky question that the 2 interviewers came up with.
+Say you have
+1
+3 7
+4 9 6
+8 4 1 10
+2 0 9 1 11
+Find the shortest path from 1 to last level, using 1 element at each level. (Greedy, just select min element in each row)
+Now, You can go only down or down right or down left, Find Optimal path( DP, See all steps)
+Funny things happen! I also thought of a question where branch and bound and backtracking would occur in the same question and told them that if numbers were INFINITE in between and had we to reach the end, then question was of BACKTRACKING! He said this was his next question, and did not even ask me to code.
+Finally all 4 were called for GD and all were selected. The interview were from 10 am to 7.30 pm.
+What I learned?
+The companies don’t want the best, they need the best. They explained how challenging problems come day in day out and why they need the best? The extreme environment will break people and they wanted people who were ready for it!
+Approach is more important.
+If you freeze in the interview or feel shy or be very modest and say “Yes” to everything, probably it is hard to get in!(I am not sure, that is what I felt)
+Somehow crack the online round. Rest, a good company’s teams will make you feel very comfortable( Experience of friends + mine). I was amazed when someone came in to ask a tea and she asked me whether I would take tea in the most natural way you can imagine! Get Through the online round!
+Interview is an interaction; it is not possible to solve every question.
+Peace.

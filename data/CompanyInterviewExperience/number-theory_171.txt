@@ -1,0 +1,17 @@
+Given an n x n grid, count squares in it.
+
+Examples :
+We strongly recommend you to minimize your browser and try this yourself first.
+For a grid of size n*n the total number of squares formed are
+1^2 + 2^2 + 3^2 + … + n^2 = n(n+1)(2n+1) / 6 
+Below is the implementation of above formula.  Since the value of n*(n+1)*(2n+1) can cause overflow for large values of n, below are some interesting tricks used in the program.
+1) long int is used in return.
+2) n * (n + 1) / 2 is evaluated first as the value n*(n+1) will always be a multiple of 2.
+Note that overflow may still happen, but above tricks just reduce chances of overflow.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

@@ -1,0 +1,15 @@
+A number leaves remainders 1, 4 and 7 on being divided successively by 3, 5 and 8 respectively. What is the product of the remainders when the order of divisors is reversed ?
+(A) 28
+(B) 48
+(C) 24
+(D) 36
+ Answer: (B) Explanation: 8 x 1 + 7 = 15
+5 x 15 + 4 = 79
+3 x 79 + 1 = 238
+Thus, 238 is the number.
+ 
+Now, we divide 238 successively by 8, 5, 3 in that particular order.
+238 / 8 => Q = 29, R = 6
+29 / 5 => Q = 5, R = 4
+5 / 3 => Q = 1, R = 2
+Therefore, product of remainders = 6 x 4 x 2 = 48Quiz of this Question

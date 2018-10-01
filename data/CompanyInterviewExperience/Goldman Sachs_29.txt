@@ -1,0 +1,61 @@
+Round 1: Hackerrank Round
+1: Find the total number of common digits in some range of numbers.
+2: Knapsack problem variation, and expected output was the the array of items and not the maximum value.
+Round 2:  Coderpad Round
+1: The rain water tapping problem.
+https://www.geeksforgeeks.org/trapping-rain-water/
+2: given array of students and their marks in different subjects. Find maximum average of the student.
+{“James”, “70”}, {“Fernando”, “90”}, {“Nick”, “60”}, {“James”, “10”}
+Ans should be name = Fernando, max avg =90
+Round 3: Telephonic Round
+Java Questions:
+1: Java runtime and compile polymorphism
+2: Overloading vs overriding
+3: Basic Thread questions.
+4: Hashmap and Hashset.
+6: Equals and hashcode.
+7: Few try catch problems.
+8: Comparator vs comparable java.
+Algo Round:
+1: Loop in the linked List problem.
+2: Find the smallest window in a string containing all characters of another string.https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+Round 4: F2F 1
+1: Questions on Hashmap and various scenarios on how its equals and Hashcode will be useful.
+2: Given some code piece, make the class purely immutable.
+3: Given a method which returns a random number from 0-9 with equal probability.
+Write a method which uses this method and returns number between 0-100 with equal probability.
+Follow up: to generate numbers in other ranges.
+4: Knight tour problem
+https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/
+Round 5: F2F 2
+1: Deadlocks in java.
+2: Singleton design pattern.
+3: Various design patterns used and explain few of them.
+6: Data structures used.
+7: How Arrays.sort() works internally.
+8: Various sorting techniques and their comparisons and applications.
+Algos asked:
+1. BST deletion
+2: Given list of numbers return least 10 numbers.
+Follow up: return least k numbers.
+3. Implement queue using stacks and vice versa.
+Round 6: F2F 3
+1. 25 horses race puzzle.
+2. Design Problem: Design tinyUrl
+3. Whats new in Java8
+4. ORMs vs Sql
+5. Annotation processing and reflection.
+6. A question related to closure in Java-8.
+Round 7: F2F 4
+1. Memory allocation in java.
+2. Print even and odd numbers using 2 different threads.
+3. Multi-threading concepts (Theoretically).
+4. Database conceptual problems.
+5. Algorithm problem related to candy-crush game. (Was easy level)
+Round 8: F2F 5 – Behavioral questions only
+1. Resume based questions in detail.
+2. Dependency collision during build phase.
+3. SDLC cycle and my role in it in current company.
+4. Problems faced in old project.
+5. Why you want to change.
+6. Situation based questions.

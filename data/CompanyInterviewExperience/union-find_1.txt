@@ -1,0 +1,10 @@
+Below are the steps for finding MST using Kruskal’s algorithm
+
+1. Sort all the edges in non-decreasing order of their weight.
+2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far. If cycle is not formed, include this edge. Else, discard it.
+3. Repeat step#2 until there are (V-1) edges in the spanning tree.
+We have discussed one implementation of Kruskal’s algorithm in previous post. In this post, a simpler implementation for adjacency matrix is discussed. 
+Run on IDE
+Note that the above solution is not efficient. The idea is to provide a simple implementation for adjacency matrix representations. Please see below for efficient implementations.
+Kruskal’s Minimum Spanning Tree Algorithm | Greedy Algo-2
+Kruskal’s Minimum Spanning Tree using STL in C++

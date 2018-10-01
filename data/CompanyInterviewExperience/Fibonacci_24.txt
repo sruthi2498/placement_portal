@@ -1,0 +1,15 @@
+Given the value of n(n < 10), i.e, number of lines, print the Fibonacci triangle.
+Examples:
+
+The Fibonacci numbers are the numbers in the following integer sequence.
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ……..
+In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation
+with seed values F1 = 1 and F2 = 1.
+Below is the implementation of the above pattern :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

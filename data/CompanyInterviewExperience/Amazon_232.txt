@@ -1,0 +1,8 @@
+Given a binary tree and a integer value K, the task is to find all nodes in given binary tree having K leaves in subtree rooted with them.
+
+Examples :
+
+Here any node having K leaves means sum of leaves in left subtree and in right subtree must be equal to K. So to solve this problem we use Postorder traversal of tree. First we calculate leaves in left subtree then in right subtree and if sum is equal to K, then print current node. In each recursive call we return sum of leaves of left subtree and right subtree to it’s ancestor.
+Run on IDE
+Output:
+Time complexity : O(n)

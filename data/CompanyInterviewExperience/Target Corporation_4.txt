@@ -1,0 +1,25 @@
+Round 1: There were 31 questions 30 of them was from c/c++ and apti . 31th question was  a code that you need to submit It online with all test cases. Online platform was  hackerrank.
+Round 2:(TEHCNICAL)
+Q 1. Initially they asked me to  tell about your self.
+Q 2. Then  they moved to my projects . They want deep explanations of  your projects .
+Q 3. Tell me about surrogate key , primary key , foreign key in details with differences and relate it to real time situations.
+Q 4. Tell me about fragmentation  in OS and its types reasons .
+Q 5.He asked me to write a code for finding a number in a matrix with is both row and column wise sorted give best algorithm for that and trace it . I gave them O(row+column) algo. He see my code and told me that it will not work then again I traced it but it was working fine , He just want to test  that I will make changes or not.
+Q 6. He asked me to write a code for finding all permutations of a given string say Your string is “abc” then O/P  a , b , c , ab , ba , bc , cb , ac , ca , abc,… I did it using recursion and he told me can u do it using iterative way  I said no.
+Q 7.   He asked me to write a code for finding  grand parent of a given Node . I did it using storing the all ancestors . Then he told me to do it recursive approach . I just explain how I will do it.
+Q 8. Then he asked me to write a code for converting a tree into mirror tree.
+I gave him recursion solution . told me can u do it iterative I said I need to take array to store data of  levels and I will reverse the array and during traversal I will overwrite data.
+Q 9. How to servers communicate each other. I ans this ques using distributed technology concepts.
+Q 10. What is the DBMS and RDBMS with difference .
+Q 11. How you are able to access the SQL services from netbeans IDE  since you have not launched  MY SQL server  .(I was having project which was in java using mysql  as backend ) Means they want how actually q query from your netbeans IDE is transferred to MYSQL server.
+ Q 12 . Difference between DATA WareHouse and DataBase? And need of data warehouse.
+Q 13.What is Trigger what is the need of it . 
+ROUND 3: (HR + Behavioural )
+Q 1. Tell me when you have worked in team . Do u have conflicts then u came up with it.
+Q 2. What is your most embarrassing moment and why it is.
+Q 3. Which project you like most in your CV (I was having two projects in my CV) and why.
+Q 4.   I was having year gap between UG and PG so why It is.(I explained with reasons and they were quit setisfied)
+Q 5. What is your GOAL in your Life.
+Q 6. Where you want to see yourself after  5 years.
+and some basic HR questions that I can’t remember.
+TIPS: Be definite and confident with your answers and keep calm. And  very important thing always give  respond of question not give response .

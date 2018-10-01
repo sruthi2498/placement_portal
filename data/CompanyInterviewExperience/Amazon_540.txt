@@ -1,0 +1,26 @@
+Recently Amazon visited our college and details are as follows. 
+Online Round:
+There were two questions.
+1. N strings are given.Convert all string to corresponding decimal value typed in an Alphanumeric Keypad (e.g. “bdg” -> 234). Then print all strings in decreasing order of their decimal value. If they have same decimal value then print lexicographically smaller first.
+Input:
+2. Write a code to print all possible combinations(order matters) of characters of string in lexicographical order.
+Input: “ABC”
+Output: A, AB, ABC, AC, ACB, B, BA, BAC, BC, BCA, C, CA, CAB, CB, CBA
+Interview:
+Round 1: 45 minutes
+This started with a brief discussion on project. She quickly moved on to Coding questions.
+She made me write an error free code for “Count all pairs which sum to k in a BST”. Also she added that duplicates may be present but on left side only.
+First she discussed for approach and then constrained the space complexity to be O(1). She checked the code rigorously.
+Then there were 3-4 coding questions. She just discussed approach.
+-Update all nodes in a bst to be sum of all elements greater than or equal to it.
+– Stock problem/ Given an array ‘arr’ find maximum difference between two elements (max(arr[i]-arr[j]) where i>=j).
+-Then there was this awesome question… Given a perfect binary tree.
+print nodes in a specific manner. e.g-
+I told her approaches having some space complexity. Again she restricted space complexity, and I got an efficient solution by recognizing some pattern 😉 .
+Round 2: 25 minutes
+There were just two questions.
+1- Given a string having no spaces, and a dictionary.Problem was to find if that string can be splitted in multiple strings such that all the splitted
+strings are in dictionary. I was provided a function search(string str) which will tell if a particular string str is in the dictionary or not.
+I quickly gave a recursive approach.
+2- The second question was well known vertical order traversal of a binary tree. She just discussed how to implement various approaches in C++.
+Then there was discussion on types of projects assigned to Interns and blah blah.

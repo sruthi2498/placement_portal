@@ -1,0 +1,17 @@
+One should be careful while using iterators in C++. When we iterate over our container using iterators then it may happen that iterator gets invalidated. This may be due to change in the shape and size of the container while iterating. Let us take an example to understand this-
+Run on IDE
+In the above example code, it may happen that when we add an element -1 while iterating the vector, the size of the vector can get more than the maximum size due to which a new memory is allocated to the vector and all elements are copied there. But, our iterator still points to the previous old memory address. So, now we can say that iterator gets invalidated. This is one example of invalidation. Given below are some rules for iterator invalidation.
+Iterator invalidation rules [Source : StackOverflow]
+1. Insertion
+a. Vector- All iterators which point to an element before the point of insertion are unaffected but all others are invalidated. But, in case if due to insertion the size of the vector becomes more than the previous capacity then all iterators get invalidated as discussed in the above example.
+b. deque- All iterators and references are invalidated, unless the inserted member is at an end (front or back) of the deque (in which case all iterators are invalidated, but references to elements are unaffected).
+c. List- All iterators and references unaffected.
+d. set, map, multiset, multimap- All iterators and references unaffected.
+2. Erasure
+a. vector- Every iterator and reference after the point of erasing is invalidated.
+b. deque- All iterators and references are invalidated unless the erased members are at an end (front or back) of the deque (in which case only iterators and references to the erased members are invalidated)
+c. list- Only the iterators and references to the erased element is invalidated.
+d. set, map, multiset, multimap- Only iterators and references to the erased elements are invalidated.
+3. Resizing
+a. vector, deque, and list- As per insert/erase.
+Notes- Invalidation of iterator does not always mean that dereferencing such an iterator causes a program to crash. It also includes the possibility that iterator does not point to an element which it is supposed to point.

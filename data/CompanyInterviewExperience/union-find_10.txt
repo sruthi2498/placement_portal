@@ -1,0 +1,24 @@
+Consider a situation with a number of persons and following tasks to be performed on them.
+Example: 
+Problem : To find whether x and y belong to same group or not, i.e., to find if x and y are direct/indirect friends.
+Solution : Partitioning the individuals into different sets according to the groups in which they fall. This method is known as disjoint set data structure which maintains collection of disjoint sets and each set is represented by its representative which is one of its members.
+Approach:
+ 
+
+ Tree : It is a disjoint set. If two elements are in the same tree, then they are in the same disjoint set. The root node (or the topmost node) of each tree is called the representative of the set. There is always a single unique representative of each set. A simple rule to identify representative is, if i is the representative of a set, then parent[i] = i. If i is not the representative of his set, then it can be found by traveling up the tree until we find the representative.
+ 
+
+
+Find : Can be implemented by recursively traversing the parent array until we hit a node who is parent of itself.
+Union: It takes, as input, two elements. And finds the representatives of their sets using the find operation, and finally puts either one of the trees (representing the set) under the root node of the other tree, effectively merging the trees and the sets.
+
+Path Compression (Modifications to find()) : It speeds up the data structure by compressing the height of the trees. It can be achieved by inserting a small caching mechanism into the Find operation. Take a look at the code for more details:
+Union by Rank: First of all, we need a new array of integers called rank[]. Size of this array is same as the parent array. If i is a representative of a set, rank[i] is the height of the tree representing the set.
+Now recall that, in the Union operation, it doesn’t matter which of the two trees is moved under the other (see last two image examples above). Now what we want to do is minimize the height of the resulting tree. If we are uniting two trees (or sets), let’s call them left and right, then it all depends on the rank of left and the rank of right.
+
+Run on IDE
+Output:
+Related Articles:
+Union-Find Algorithm | Set 1 (Detect Cycle in a an Undirected Graph)
+Union-Find Algorithm | Set 2 (Union By Rank and Path Compression)
+Try to solve this problem  and check how much you learnt and do comment on the complexity of the given question.

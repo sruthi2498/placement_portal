@@ -1,0 +1,22 @@
+Coding questions:
+1) Given two words, find if second word is the round rotation of first word.
+For example: abc, cab
+return 1
+since cab is round rotation of abc
+Example2: ab, aa
+return -1
+since aa is not round rotation for aa
+2) Given two hexadecimal numbers find if they can be consecutive in gray code
+For example: 10001000, 10001001
+return 1
+since they are successive in gray code
+Example2: 10001000, 10011001
+return -1
+since they are not successive in gray code.
+Aptitude questions:
+1) Some based on finding relationships between given number/strings and find the missing one
+Example: VTS: RPO :: AYX: ____
+2) Paragraph reading and inferring information from it.
+3) Facts provided and making a decision based on it.
+4) Combinations possible based on facts provided.
+

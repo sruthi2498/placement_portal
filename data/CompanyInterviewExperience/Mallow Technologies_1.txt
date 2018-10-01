@@ -1,0 +1,49 @@
+Recently Mallow Technologies visited our campus for recruiting Web developer, IOS and Android app developers.
+No. of Rounds: 3
+Round 1:
+It was online coding round at Hackerrank which consists of 3 programs and 3Hrs time.
+Program 1:
+          Given an array with n distinct integers d[0], d[1], … d[n – 1] and a threshold t, how many triplets (i, j, k) exist such that d[i] < d[j] < d[k], and d[i] + d[j] + d[k] <= t.
+
+
+
+
+Program 2:
+Louise and Richard decided to stay in on Friday night to play a game. They have a counter set to N. Louise gets the first turn and they alternate turns thereafter.
+In the game, they perform one of the following two operations.
+If N is not a power of 2, they reduce the counter by the largest power of 2 less than N.If N is a power of 2, they reduce the counter by half of N. The resultant value is the new N which is by the next player for her or his turn. The game ends when the counter reduces to 1, i.e. N = 1. The player who makes the last valid move (i.e. who gets to 1) wins. Given N, your task is to find the winner of the game.
+Note: If the counter is set to 1 at the start, Richard wins, because its Louise’s turn and she
+cannot make a move.
+Input Format:
+The first line contains an integer T, the number of test cases. T lines follow. Each line contains N, the initial number set in the counter.
+Output Format:
+For each test case, print the winner’s name in a new line. So if Louise wins the game, print “Louise”. Otherwise, print “Richard” (minus the quotation marks.)
+Explanation
+6 is not a power of 2, so Louise subtracts the largest power of 2 less than 6, i.e. 4, and the counter goes down to 2. 2 is a power of 2, so Richard reduces the counter by half of 2, i.e. 1, and the counter goes down to 1. Since N = 1, Louise has no more moves, so Richard wins the game
+Program 3:
+You are given a 14 digit date time value as input (D), whose format is YYYYMMDDHHMISS.
+YYYY – represents year (Examples: 1947, 2000, 2015)
+MM – represents month (Examples: 12, 01, 03)
+DD – represents day (Examples: 31, 01, 15)
+HH – represents hour (Examples: 00, 01, 12, 23)
+MI – represents minute (Examples: 59, 50, 00, 05)
+SS – represents second (Examples: 59, 50, 00 06)
+You will also be given another integer, called the offset value (O), in seconds. You are required
+to print a 14 digit output date in the format YYYYMMDDHHMISS which is adjusted for the offset from the input date.
+Proper conditions to check for leap year:
+1. https://en.wikipedia.org/wiki/Leap_year#Algorithm
+2. http://www.wwu.edu/skywise/leapyear.html
+
+Special condition for the year 1752:
+1. https://en.wikipedia.org/wiki/1752
+Please note that, the conditions for a leap year is different for Julian (Used until September 2, 1752) and Gregorian calendars (Used from September 14, 1752).
+Explanation:
+The input 19470815000008 represents August 15, 1947 00:00:08. If you adjust the input date with 17 seconds, you will get the date August 15, 1947 00:0025. Hence the output is 19470815000025.
+
+Round 2:
+It was also conducted online at hackerrank 2 Hrs time which consists of following:
+1. Program with errors (Both logic & syntax) – We need to debug it and pass all test cases.
+2. There was two database questions for which we need to write query and pass the test cases.
+
+Technical and HR:
+Questions related to the problems given in Round 1 and Round 2 how we solved. Someconcept in data structures and basic CS questions. Thanks GeeksforGeeks for providing this wonderful resources.

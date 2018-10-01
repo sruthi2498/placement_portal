@@ -1,0 +1,20 @@
+Round 1:-
+Design JProfiler. How will you design datastructure and why, function stacktrace. HLD+LLD
+Design Cricket Score Board HLD+LLD
+Round 2:-
+Design DataStructure Insert, Delete, Search, findMin, findMax, DeleteMin, DeleteMax with minimal complexity. How will you tradeoff multiple operation to support mutiple operation. Classes should be extensible , if you are using some data structure to support these operation.
+Design Multiplayer Chess Board Game LLD only, without drawing HLD.
+Round 3
+Algo+Problem Solving
+1) WildCard Matching, slight change * is replaced by +. Cover all corner cases. Write Code.They checked line by line.
+2) Copy linked list with random pointer with using O(1) space. Approach only
+3) Calculate Top K frequent number from the running stream of data.
+Round 4
+Lots of behavioral question.
+1) Design a Fresh Grocery System. Means Daily usable Items, you cannot store them in inventory like bread, milk etc.
+HLD+ DB Schema + Concurrency issues + Scalable architecture. How will you scale to multiple countries
+2) Design an Online tracking system, similar to how you can track your order on swiggy after you place it on maps.
+Round 5
+Behavioral Questions
+Full Project Discussion
+Design Recommendation system. How will you generate generate recommendations for millions of users. DB Schema, How will you improve latency? if the user is searching a item, when will you show next recommendations. How will you update, latency basically and consistency.

@@ -1,0 +1,24 @@
+First Round:
+It was an online round conducted on mettl.There were total 56 questions to be solved in around 75min(I don’t remember that exactly).25 out of 56 were quant question including two comprehensions, 6-7 questions from each topic such as DS, OS, DBMS, Networking and 1 coding questions(easy level).
+Around 150 students appeared for this round and out of these 51 got selected for next round.
+First Technical Interview:
+My interview started with tell me about yourself.As I am good in competitive coding and I also mentioned the same in my resume he asked me which is your favourite data structure.I answered linked list, upon which he asked me singly linked list or doubly linked list, I answered singly.But he didn’t ask me any question related to linked list, he started with you are given a BST you need to find out the second largest element in that.First I explained him the O(n) approach but he asked me to optimize it, then I explained him O(logn) approach by which he seems to be satisfied and he asked to write the code for the same.I started writing code but after 2 min he said lets move on to next question, then he asked me how we can implement priority queues, I explained him about the heaps completely(different types and time complexities of different operations performed in heaps), next he asked me how to evaluate postfix expression, he want complete algorithm with the help of an example and I explained that algorithm properly and lastly he asked me have you heard of race condition, I explanied him that properly and also asked me what is its solution, I explained completely the working of semaphores, with this first technical was over.
+This round lasted for around 25-30 mins.
+As this round went very well for me so immediately I called for the second technical in other panel.
+Second Technical Interview:
+First of all he asked me how was your first interview.I said it was good, then he asked me many questions like:
+1.What is the difference between http and https?
+2.port nos for telnet and all(as I dont know these so I simply said no idea)
+3.Interprocess communication
+4.Virtual class
+5.differene between callbyaddress and callbyreference
+6.dangling pointer
+7.difference between NoSQL and SQL(as I did my project in mongodb)
+8.Indexing in database
+9.difference between C and C++ and few others(I don’t remember)
+This round lasted for around 30-45 mins.
+As this round also went well I will be called for the HR round.
+ 
+HR Round:
+In this round he asked me about my family details and my passion other than coding and general discussion.
+Out of 51, 4 got selected I am lucky to be one of them.

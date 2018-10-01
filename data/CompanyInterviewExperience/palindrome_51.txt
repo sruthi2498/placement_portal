@@ -1,0 +1,11 @@
+Given a string, the task is to count all palindrome substring in a given string. Length of palindrome substring is greater then or equal to 2.
+
+We have discussed a dynamic programming based solution in below post.
+Count All Palindrome Sub-Strings in a String | Set 1
+The solution discussed here is extension of Longest Palindromic Substring problem. The idea is for each character in the given input string, we consider it as midpoint of a palindrome and expand it in both directions to find all palindromes of even and odd lengths. We use hashmap to keep track of all the distinct palindromes of length greater than 1 and return map size which have count of all possible palindrome substrings.
+The C++ implementation is given below.
+Run on IDE
+Output:
+Time complexity O(n2)
+Auxiliary Space O(n)
+We can easily extend this solution to print all palindromic substrings also. We need to simply traverse the map m and print its content.

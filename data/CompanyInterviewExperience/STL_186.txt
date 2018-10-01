@@ -1,0 +1,6 @@
+The list::resize() is a built-in function in C++ STL which is used to resize a list container. It takes a number n as parameter and resizes the list container to contain exactly n elements.
+Syntax:
+Parameters: This function accepts two parameters as described below.
+Return Value: This function does not return any value.
+Below program illustrate the list::resize() function in C++ STL:
+Run on IDE

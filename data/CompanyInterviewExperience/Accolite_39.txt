@@ -1,0 +1,46 @@
+Round 1 (Written)
+Around 140 students appeared for the offline test.
+There were 20 MCQs that to be done in (30 minutes), questions were from OS,DBMS,Datastructures.
+After that coding round was there (paper coding) in which 3 questions were given and we have to attempt any 2 (1 hour)
+1. Write your own sqrt() function. the function should return square root if  it is a perfect square else return floor(sqrt(x))
+2. Given an array containg positive and negetive integers. you have to find the smallest missing positive number. your code should run in O(n) time  and O(1) space.
+3. Given an array of strings, find whether the strings can be chained or not to form a circle. A string x can be put before another string y if last character of x is same as first character of y.
+After round-1 , 19 people were shortlisted for the interviews.
+
+Round 2 (Technical) (1:30 hr)
+1. Tell me about yourself. Meanwhile he(interviewer) looked into my CV and asked about my projects.
+I have done 3 projects so he started disscusion CUDA and parallel programming and how you implemented over images to detect edges and how much gain factor achived.
+secondly,I have made an project on online voting system so he asked me to draw E-R diagram, schemas and the relationship between them and their functionalities.About (25-30) minutes discussion.
+2. Given a BST, you have to find the kth smallest element in it in O(n) time and O(1) space.
+3. Suppose you have server where multiple requests are coming at time to,t1,t2…Now suppose a user hits at any particular time t on the server then server should return the last request. you have to design the datastructure for the same.
+I suggested that we can use stack that will return the last request, he then asked me to do for last 10 requests then I suggested to use array of structures which will store request no. and timestamp along with them.Now at any time t we can move 10 elements back but he said that suppose user hits frequently then every time i will have to traverse back again and again so time complexity will be much high, I agreed and suggested another solution similar to LRU implementation so that the requests which are coming frequently can be processed faster. then he modified question that user wants requests of last 1 minute and he gave a hint that is it necessary to store all requests can we not just store requests of every 1 min only,then suddenly it clicked to me, I suggested to use deque for 60 secs now suppose request arrives at 61st sec then we can just add that at rear and remove one from front maintaining a window of 60 seconds.He was satisfied but he want that no deletion should be there so I told him to use circular deque so that we can replace previous elements.He was completely satisfied now with the approach.(About 35 min. discussion)
+4. Given an array containing prices of a share of 30 days.A person has 1 share which he can buy and sell any number of times, you have to find the maximum profit which can be earned.
+I suggested one approach to create two auxiliary array MIN from left and MAX from right and traverse both simultaneously if difference between MAX[i] and MIN[i] is greater than maxDiff then update maxDIff and store current index and add to sum if index+1 is not equal to current iteration index and finally return sum.He tried some test cases over my code and found that for some cases it was giving wrong answer,then he asked me that how is my command over dynamic programming,I told I know only the standard ones and no other experience,then he said this question is of DP but he was happy to see my approach.(About 20-25 min.)
+
+Round 3 (Technical) (1:30 hr)
+1. She(interviewer) asked me if I attempted 3rd question in written test, I said I attempted only 1st and 2nd, then she gave me paper and told to implement the 3rd question.
+I suggested an approach to use two arrays of structures(for first characters and last characters) which will contain boolean value to mark presence of character in string and also its index. Now compare two arrays and see that if both arrays have same boolean value and different indices for all fisrt and last characters. If so then strings can form a chain else not.She was in doubt for my solution so she found a testcase where my code was giving wrong answer,so she told me to look for another solution,I came up with another approach and told her that we can make a directed graph from first and last characters and then traverse it in DFS, now suppose if the visited node is visited again and count of total visited nodes is same as total nodes then we can say that strings will form a chain, now she was satisfied with approach and asked me to write code, now as my graph was weak i was in shock,so she said to just wite the pseudocode.
+2. Given a BST, you have to find the kth largest element in it in O(n) time and O(1) space.
+I suggested to declare a static variable count which will increment count if node visited in inorder and if count becomes k, I will print that node’s data and return. Then she asked me how static works and difference between global and static.
+3. Given a mobile keypad of say nokia phone and a dictionary which has all the meaningful words which can be formed, suppose now user types some number(input) then your program must suggest all the meaningful words which are present in dictionary.Before implementing this she asked me the datastructure to store the dictionary efficiently and then how will you use this datastructure to make code.
+At first, I suggested I will store dictionary in 2-D array and lexicograpphically sort it, now suppose user types a number the string starting with that character is searched in the array. she said to reduce complexity because dictionary may contain 1000s of words,then I suggested to use trie datastructure to store and search the string, she was satisfied now and asked me to explain the concept.
+4.Given preorder and postorder of a graph, how can you construct the graph.
+As I heard this question, i was stuck for 2 minutes but then I said as far as graph is concerned I dont know about it but a unique tree cannot be constructed with preorder and postorder so as graph,so inorder is needed, she was happy and agreed on answer.
+
+Round 4 (Technical) (2:30 hr)
+1. Suppose a linked list is given and  there is a loop, you have to find orphan nodes in O(n) time. orphan nodes are the nodes outside the loop.
+2. Design a BRTS traffic signalling system such that no two vehicle clashes. Note that BRTS bus will follow the BRTS traffic lights B1,B2,B3,B4 in 4 directions and regular traffic will follow regular traffic lights R1,R2,R3,R4 only. In input only maximum cycle time was given(time after which the process repeates) check for all corner cases (traffic lights have two states only (RED and GREEN)).you have to tell any one possible combination of traffic lights under maximum cycle time.        (About 1hr discussion).
+3. Suppose a linked list is given but we dont know the count of nodes, you have to find the kth node from last without counting the nodes.
+4. Given an array of n integers such some elements are in the range 0 to n-1 and some out of range may be negetive.You have to reaarange array such that all elements which are in range appear on their index and rest appear in sorted manner for indexes not present.This should be done in O(n) time and O(1) space.
+Eg- suppose n=6 ,4 5 2 3 6 -3    output= -3,6,2,3,4,5
+5. How can you implement stack using queue/queues.
+6. How can you sort the elements with the help of queue.
+I suggested one O(n) time solution along with O(n) extra space.He asked to do in O(1) space so I suggested deque, he seemed satisfied.
+only 4 were selected till this round (I was one of them)
+Round 5 (Bar Raiser) (30  minutes)
+1. find the length of longest palindrome in a string stasting from index 0.
+2. find if a string A is present in string B or not.
+3. find the length of longest prefix in a string  
+After this 2 were selected finally and unfortunately I was not amongst them as they might have thought i was little stress out.  At last I would suggest that your approach and concepts must be strong as they always give questions with some variations.
+
+

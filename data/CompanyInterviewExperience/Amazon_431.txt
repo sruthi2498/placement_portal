@@ -1,0 +1,79 @@
+Hi folks, Amazon recently visited our campus hiring for SDE. They are usually the first or second company to visit our campus, but this time, they came in much later, which gave me lots of time to prepare (by prepare I mean go through g4g)
+I had great fun preparing for the Amazon visit, and really enjoyed myself through the interview process. The process spanned across two days, and was definitely among the most comprehensive interview sets one could ever have. The interviewers were really chill and I really felt really comfortable throughout the interview.
+Let me share my experience with you.
+First round (1 hour 30 mins) (Apti + coding)
+this was the standard Amazon first round contest.
+20 apti questions from C/C++/Java outputs, OS, DS, Algorithms, Time and speed, mixtures, etc.:-
+As long as you are able to solve the coding questions you should be fine.
+Q1) Given a set of time intervals in any order, merge all overlapping intervals into one and output the result which should have only mutually exclusive intervals. Let the intervals be represented as pairs of integers for simplicity.
+Q2) Josephus problem with k = 2
+The use of IDEs were disallowed, so be comfortable with coding on the HackerRank editor. The error reports there are a little difficult to comprehend, and so make sure you are comfortable with that.
+Quite a few people were selected in 4 categories based on the scores.
+Round2: (1 hour 15 mins) Hand/paper coding round.
+1) Find the largest rectangular area possible in a given histogram where the largest rectangle can be made of a number of contiguous bars. For simplicity, assume that all bars have same width and the width is 1 unit.
+They wanted a solution better than n^2
+2) Border traversal of a complete binary tree.
+They wanted an efficient code, which traverses the tree only once.
+They got the algos from us, and if they were satisfied, asked us to write code on the paper.
+A lot of my friends who came up with efficient algos didn’t make it through this round, as I believe they didn’t get noticed enough 🙁
+Amazon’s hiring policy was to rather miss out a good candidate than hire a bad one, which was evident here. Around 20 people made it through this round (They also considered the previous round score (to an extent) for this round)
+This is where the real challenge began.
+
+F2F 1: ( 1 hour 30 mins)
+we began with a little bit of chatting introductions etc.
+We then directly moved on to the only technical question I was asked this round, which was not particularly an easy one.
+Given a 2D array, find the maximum sum sub-matrix in it, also display it.
+Working code was required, which was then tested with a couple of inputs, so there is no getting away.
+F2F 2(Manager round ~1 hour 45 mins)
+We started with a discussion about my projects. He wanted a detailed description along with all the technical problems faced and solutions used to counter them.
+This went on for more than half an hour.
+Then he gave me a couple of question on trees, one of them was finding the vertical sum of nodes, given a tree, and working code for the same.
+Questions on database management systems, and some other technical questions from my projects.
+Then more questions, which I don’t remember now.
+Then it was my turn to ask him questions. He really liked the questions I asked him.
+F2F 3: Advanced Data structures and algorithms round. (~1 hour 30 mins)
+This was easily the most enjoyable interviews I have ever had for a variety of reasons.
+It started off with a small discussion, and a “Tell me about yourself”.
+1) The first question was, “What are trees?” I said, “When people think of trees, they only conceive of binary trees, but trees can have more than 2 children… and so on”
+So then he tells me that all his questions were going to from whatever hints I give him from my answers to his previous questions.
+So the next half an hour was spent on n-ary trees.
+Serialization of n-ary trees.
+Serialization of n-ary trees, where n is not known beforehand.
+2) Some question, which reduced to finding the smallest element in a sorted-rotated array.
+Code for the same, along with all corner cases. Make sure you write all the corner cases, in your first attempt itself.
+3) Examples where trees are used in Real life, and in computers. This was a very lively discussion. He didn’t accept “Family trees” as an answer, claiming that families these days do not follow tree structures any more.
+One question lead to another, and some where I said graphs.
+4) So next few questions were on graphs.
+5) Given three strings A, B and C. Write a function that checks whether C is an interleaving of A and B. C is said to be interleaving A and B, if it contains all characters of A and B and order of all characters in individual strings is preserved.
+6) So, after all that, He wanted an ELI5 (explain like how you would to a kid) version for all my projects, and the technology stacks I had used for them.
+This meant that whatever answer I gave was ‘too complicated’ for him, and I had to simplify it, without using synonyms of “Somehow”. Again, super fun.
+I gave him a solution for a case where letters aren’t repeated.
+Then gave a solution by cloning and checking the strings as and when necessary, he wanted a better approach, and gave me quite a bit of time.
+I then gave a DP solution, and he was happy with it.
+After this, it was my turn to ask him questions. Again, a bunch of questions, to which I got some really great answers.
+And finally, we concluded the interview with a nice talk about Snooker, and how the Chennai centre has a new brand new table 🙂
+Final Round (Telephonic) ~2 hours. 
+Other than the telephonic conversation, we also used an online collaborator, which let him see what ever code I wrote on my laptop.
+We started with a bit of introductions, (turned out that, we were from the same school), and general introductions, “Tell me about yourself”.
+He didn’t have a copy of my resume, and he wanted me to make sure that didn’t affect anything.
+Lots of questions, like “Give me an instance where you and your teammate had a disagreement during a project, and how you resolved it”
+“Give me a place where you showed some leadership quality to resolve conflicts”, many other similar questions.
+We then moved on to the technical questions.
+1) Given a huge array which is stored across 100 computers, with no way to bring them all together, find the median of the above array.
+I had already seen the problem with 2 instead of 100, and when I told him the answer immediately, it was evident, and so we moved on to the next question.
+2) Given a chess board, and a starting position, and a set number of moves, find the probability that the knight will remain on the board after the moves are done.
+Handle all the corner cases, like when if during the first move, the knight goes outside the board, that traversal ends there.
+I had to code the entire thing, on the collaborator, and by habit I kept pressing ctrl+s, and hence, it kept disconnecting. *facepalm*
+He was in a real hurry, but he still made sure he answered all the questions I had for him.
+But he was not too satisfied my solution, and gave me time to improve and said he’d come back in 5 mins, but he didn’t 🙁
+General tips:
+1) Prepare well, and concentrate on DBMS and OS as well.
+2) Be confident, and be interactive.
+3) Ask a lot of questions when you are asked to. This is a good time to show them you are interested in the company, and that you think beyond the coding aspects of the company.
+Some of my questions were:
+a) What makes Amazon any more customer centric than the other similar e-commerce websites?
+b) How do programmers contribute to how the customer actually feels about the company? because coders do after all only implement what their managers tell them.
+c) Given that this is such a tough interview, how many of such tough questions do you actually see in production?
+4) Having a good resume’ can help you guide your interviews.
+Try to be original with your questions
+And, all the best 😀

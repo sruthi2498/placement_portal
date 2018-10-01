@@ -1,0 +1,29 @@
+Hi, Recently I was interviewed for the SDE-I for Amazon, Chennai.
+Round 1(Online Round):
+1. Given two linked lists. Add them. 
+e.g 1–>2–>3
+3–>4
+Output: 1–>5–>7
+2. Find if the binary tree has the given sum.
+I cleared the online coding round and I was asked to come down for the face to face discussions.
+ 
+Round 2(F2F):
+1. Find if the given binary tree is height balanced.
+ 
+Round 3(F2F):
+1. Find if the given tree is the subtree of the big tree.
+2. Given a sorted matrix (row-wise and column wise) , find kth smallest element.
+3. Given an array. Pop min element in O(1) time.
+4. Implement increment operator for the array.
+ 
+Round 4(F2F):
+1. Print the level-order traversal from bottom to up in a given binary tree.
+2. What is process and thread?
+3. What is copy constructor?
+4. Design parking lot.
+ 
+Round 5(F2F) (Hiring manager round):
+1. Questions on achievements, challenges faced, area of improvement.,etc.
+2. Given a file with millions of URLs. Some URLs repeating , some unique. Find the first unique URL.
+Coding was required in each and every round. Think loud. Tell the interviewers what you think. Give them different approaches. Be confident about your solution.
+

@@ -1,0 +1,79 @@
+My interview experience was as follows:
+Round 1 (online written test) approx. 120 candidates including MCA, B.Tech and M.Tech
+Total 103 question in 105 minutes
+Objective question on-
+1) Personality test
+2) Verbal Reasoning
+3) Design aptitude
+4) Testing
+      And 1 essay writing and 2 coding questions. Coding question were easy but the platform was a bit tricky.  23 candidates short listed for interviews.   Try to Attempt all questions
+Round 2 (Technical round) about 45 minutes
+1) Suppose There is a bottle. consider it as empty. now we are filling that bottle manually.
+       Now we have a large number of bottle to be filled. Automate this system. Design the system for this and draw a  class diagram for this with attributes and functions.
+2) Question on virtual table, virtual pointer, runtime polymorphism.
+3) When does the virtual table gets created and how can we know this.
+4) Question on copy constructor. Syntax and explanation.
+5) If do not put const in copy constructor what will happen. Program will work or not.
+6) What is the use of & in copy constructor.
+7) When do we define copy constructor explicitly. Is it necessary.
+8) From DS, doubly ended queue and quick sort.
+Round 3 (Technical round) about 45 minutes
+1) Introduce yourself.
+2) What are you good in?
+3) What is MVD?
+       I misunderstood it as MVC and said I don’t know.
+       then he said Multivalued dependency and i said yes ofcourse sir i know.
+       difference between functional and multivalued dependency.
+4) primary key, foreign key, candidate key, super key.
+5) what is referential integrity
+       I explained these using my project because i used these things in my project
+6) He asked about my family background in between.
+7) white box testing and blackbox testing.
+8) SDLC
+9) In which type of testing you have interest.
+10) Then he asked me what is MVC. I again told him sir i don’t know and i just know that it is “MODEL VIEW CONTROLLER”
+11) what is cyclomatic complexity. how do we measure it.
+12) what is flow graph. Explain with an example.
+13) Normal forms. what is the difference between 2NF and 3NF.
+14) Equivalence class testing.
+15) Coding question on matrix.(easy one)
+16) Type of relationships between entities in e-r. Explain how will you handle all of them.(1-1, 1-many, many-1, many-many)
+Round 4 (Managerial Round) about 45min-1hour
+1) Introduce yourself
+2) while designing a system, what will be your software development strategy (SDLC)?
+3) Explain every phase of it.
+4) If you have a BATA footwear retail shop. Design a backend system of it.
+       I was confused in E-R and class diagram. Exactly what to design.
+       So i did both of them applying SDLC.
+5) What should be qualities of a good software.
+6) What is a cloud.
+7) Anything you know about SAP Hana.
+       In between i asked him a question “I researched very much about SAP but did’nt get the exact difference between the SAP cloud and SAP Hana.
+8) If you have some work to do. But you want someone else to do this for you because you are a bit busy. So how you will get that work done.
+9) What are the problem you face during any teamwork.
+10) What is market analytics.
+        Explain with an example.
+11) What SAP exactly do.
+        I said ERP, SRM, CRM.
+12) Explain these terms.
+13) what is hybrid and private cloud.
+14) what are strength and weaknesses.
+15) What motivates you to do good work.
+        He was trying to make the interview informal but i kept the whole interview very formal.
+16) Can you name some of the customers of SAP.
+Round 5 (HR) about 30 minutes
+It was having the questions related to your personality.
+Have you been selected in any company yet?
+how many companies interviews have you faced till now?
+Why you were not selected in last company?
+Why SAP?
+General questions were asked and question related to teamwork and personal behavior and scenarios.
+Do you have any location preference?
+Your interest in: Development, Testing or Support?
+I did’nt know what exactly “support” is? So I asked him, what it is?
+At last 6 candidates were left after HR round. 2 MCA and 4 B.Tech and M.Tech
+They selected two of us.
+One from B.Tech and myself from MCA.
+Be clear with your basics and be a bit confident.
+Try to be interactive with the interviewer.
+And most important, Have a good knowlegde about the company.   

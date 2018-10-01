@@ -1,0 +1,18 @@
+Given a string that contains ternary expressions. The expressions may be nested, task is convert the given ternary expression to a binary Tree. 
+Examples:
+Asked In : Facebook Interview
+
+Idea is that we traverse a string make first character as root and do following step recursively .
+ 1. If we see Symbol ‘?’
+…….. then we add next character as the left child of root.
+ 2. If we see Symbol ‘:’
+…….. then we add it as the right child of current root.
+do this process until we traverse all element of “String”. 
+Below c++ implementation of above idea
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Time Complexity : O(n) [ here n is length of String ]

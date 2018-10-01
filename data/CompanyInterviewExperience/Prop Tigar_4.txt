@@ -1,0 +1,8 @@
+Written: 
+Question 1. Suppose u have given a string like 123456342184321 and second string like 1234. Find all permutations of second string (1234) in first string. You have to give count of all the permutations. So for above example, first is:1234 second is 3421 third is 4321, hence output shud be 3.
+Qestion 2. MS Excel columns has a pattern like A, B, C, … ,Z, AA, AB, AC,…. ,AZ, BA, BB, … ZZ, AAA, AAB ….. etc. In other words, column 1 is named as “A”, column 2 as “B”, column 27 as “AA”.  Find Excel column name from a given column number like 705 AAC.
+Interview.
+Questions on Redblack tree , binary search tree,maximum continuous subarray, maximum subarray with alternative index, more questions on array.
+You have given number of notes like 1,5,10,20..make some amount using minimum number of notes(write code for it), questions on linked list, tree, mirror image of binary tree, Trie data structure, ancestor of a given node in binary search tree,how tcp ip network works complete working ,comparison of tcp and udp where they can be used etc.
+If  you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+

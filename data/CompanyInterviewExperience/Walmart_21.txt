@@ -1,0 +1,8 @@
+Given a range L to R, the task is to find the highest occurring digit in prime numbers lie between L and R (both inclusive). If multiple digits have same highest frequency print the largest of them. If no prime number occurs between L and R, output -1.
+Examples:
+The idea is to start from L to R, check if the number is prime or not. If prime then increment the frequency of digits (using array) present in the prime number. To check if number is prime or not we can use Sieve of Eratosthenes.
+Below is the implementation of this approach:
+Run on IDE
+Run on IDE
+Run on IDE
+

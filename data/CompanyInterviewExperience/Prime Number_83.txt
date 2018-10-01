@@ -1,0 +1,26 @@
+Introduction
+The Ulam spiral is a graphical depiction of the set of prime numbers, devised by mathematician Stanislaw Ulam. It is constructed by writing the positive integers in a square spiral and specially marking the prime numbers.You can read more about it here.
+But we are going to compute on the alternate version of this spiral where the prime numbers are lined up in the spiral rather than natural numbers as in the original Ulam’s spiral.
+
+The prime numbers are written in a spiral form starting from the origin (0, 0) and moving as shown in the diagram above. The numbers shown in the right column and the bottom row are the column numbers and row numbers respectively ( i.e. y and x coordinates)
+The objective is to find the position (x and y coordinates) of a given prime number.
+Examples:
+
+Approach: The general solution to the problem would be to create an algorithm to predict the position of the moving spiral point at every step and reference each step in the spiral to a prime number (e.g. step 0 –> 2; step 1 –> 3 ; step 2 –> 5 and so on). Using this prime number we can trace back to the co-ordinates which is our solution (2 –> [0, 0], 3 –> [1, 0], 5 –> [1, 1]).
+We begin by keeping count of x and y, for step k = 1 : x = y = 0. k = 2 leads to increase in x by 1 (x = 1) next comes k = 3 providing y = 1. Now as the spiral rotates we are to decrease the values now by 2. The consecutive movements are shown below:
+ 
+From the above computations, we observe that the operations are same for a batch of steps, e.g. at first K = 2 & 3 follow one where x is increased by 1 and then y by 1. Next in K= 4, 5, 6, 7 for 4 and 5, x is decreased and y is decreased in K = 6 and 7. Again From K = 8, 9 and 10, x is increased in repeated steps and 11, 12, 13 consists of decreasing y.
+Each step can be classified into a batch and the size of batch increases by 1 after two runs. After a run, the operation is switched from y to x or vice versa and after every two batch runs the addition operation is switched to subtraction and vice versa. The following table explains it.
+
+Lastly, we also need to create a prime number generator that will keep on feeding the above algorithm with a prime number that will be referenced to a corresponding step and it will give us the required coordinates.
+
+Here is the implementation of above idea :
+Input Limits : 2 < N < 1000000
+Assumption : Prime numbers are the only inputs to the program.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

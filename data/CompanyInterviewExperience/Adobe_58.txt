@@ -1,0 +1,66 @@
+I was recently interviewed for MTS-1 at Adobe. Here is my interview experience:
+1) Online written round
+1. Aptitude test, time = 45 min, questions = 60. (Tip: Start from last question.)
+2. Coding test, time = 2hrs, questions = 7 coding, 13 technical multiple choice.
+Multiple choice questions contained maximum questions related pointers.
+7 coding questions:
+1. To check if the parenthesis are balanced.
+2. Matrix has rows in the form of 1’s followed by 0’s. Find the row with maximum number of 1’s.
+3. Reverse a linked list.
+4. Multiply two numbers using minimum number of additions.
+5. Find if the number if palindrome or not?
+6. Find the number of pairs which sum up to a particular sum ‘K’. Numbers may be positive or negative
+7. Every number ending with 3, has at least one multiple of all 1’s.
+2) Telephonic round
+Q1: Find the smallest K elements in a continuous stream of integers.
+Q2: Find the intersection point of two linked lists.
+Follow up – You can’t compare node’s data as well as address.
+Q3: Write code for merge sort. 
+3) F2F
+Q1: WAP to clone a linked list.
+Be sure to cover all the edge cases.
+Q2: There are n players in a tournament. Players hold transitive property i.e. if A beats B and B beats C then A automatically beats C. Find the minimum number of matches required for finding the winner.
+Follow up – Minimum matches for finding the first runner up. Which data structure will you use for this question?
+Q3: In memory layout of a process.
+4) F2F
+Q1: You developed your own image editor let’s say Picedit. An update of Picedit is delivered to customers. After updating, the customers report an inconsistent problem of Picedit crashing but the same cannot be reproduced at your end even by using the same image file.
+You are provided the window crash call stack by customer. How will you approach this problem? What are the probable causes?
+How will you use call stack to find out the erroneous line of code? 
+A lot of discussion on reasons for heap corruption.
+Q2: Design a garbage collector in c.
+Q3: Suppose you have a repository of a million records of mobile numbers. A lot of discussion on how will you store these numbers so that you can check whether a given number already exists in minimum space and time complexity?
+Q4: Discussion on stack frames, Printf, signed int and unsigned int memory representation.
+5) F2F
+Q1: Find output of a program related to pointers. (It was simple although I got it wrong first 😛 )
+Q2: You are given a function let’s say bin() which will generate 0 or 1 with equal probability. Now you are given a range of contiguous integers say [a,b] (a and b inclusive).
+Write a function say rand() using bin() to generate numbers within range [a,b] with equal probability.
+Q3: Consider a regular telephone dial up. It has generally three alphabets for each digit. For example, ABC for 2 and so on.
+Given a number. Print all the possible strings by taking one alphabet corresponding to each digit in number.
+Input: 254
+Output: AKH, AJG etc. 
+Q4: WAP to tokenize a string.
+6) F2F
+Q1: Given a number say N. WAP to print the next greater number by using the same set of digits of N. For example: 
+Input: 123
+Output: 132
+Q2: You have a continuous stream of strings. At any point of time, you have to print the strings such that those which are permutations of one another are printed together.
+WAP for the same. 
+For example:
+Input: {‘act’,’cat’,dog’,’tac’,’abc’,’god’,’bac’}
+Output: {‘act’,’cat’ ,’tac’,dog’,’god’,’abc’,’bac’}
+7) Director round
+Q1: Discussion on a piece of work that you have done in your past and you are proud of.
+Q2: Design a mobile application that gives user a set of nearest restaurants available.
+Discussion on what will be your approach for densely populated areas and sparsely populated areas.
+How will you identify whether user is in densely populated area or sparsely populated area.
+You have (x,y) coordinates of user as well as all the restaurants with you.
+8) HR round
+Q1: What do you know about Adobe? Its headquarters etc.
+Q2: Why Adobe?
+Q3: Why should we hire you?
+Q4: PDF full form.
+Few Tips:
+ 
+ 
+
+

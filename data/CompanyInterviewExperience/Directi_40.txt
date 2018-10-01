@@ -1,0 +1,330 @@
+An article containing recent Directi programming round questions in my campus placements and also those in my friends’ colleges. 
+1) You are given a string S. Each character of S is either ‘a’, or ‘b’. You wish to reverse exactly one sub-string of S such that the new string is lexicographically smaller than all the other strings that you can get by reversing exactly one sub-string.
+For example, given ‘abab’, you may choose to reverse the substring ‘ab’ that starts from index 2 (0-based). This gives you the string ‘abba’. But, if you choose the reverse the substring ‘ba’ starting from index 1, you will get ‘aabb’. There is no way of getting a smaller string, hence reversing the substring in the range [1, 2] is optimal.
+Input
+First line contains a number T, the number of test cases.
+Each test case contains a single string S. The characters of the string will be from the set { a, b }.
+Output
+For each test case, print two numbers separated by comma; for example “x,y” (without the quotes and without any additional whitespace). “x,y” describe the starting index (0-based) and ending index respectively of the substring that must be reversed in order to acheive the smallest lexicographical string. If there are multiple possible answers, print the one with the smallest ‘x’. If there are still multiple answers possible, print the one with the smallest ‘y’.
+Constraints
+1 <= T <= 100
+1 <= length of S <= 1000
+Sample Input
+5
+abab
+abba
+bbaa
+aaaa
+babaabba
+Sample Output
+1,2
+1,3
+0,3
+0,0
+0,4
+2) Given two strings I and F, where I is the initial state and F is the final state. Each state will contain ‘a’,’b’ and only one empty slot represented by ‘_’. Your task is to move from the initial state to final state with minimum number of operation.
+Allowed operations are
+1. You can swap empty character with any adjacent character. (For example ‘aba_ab’ can be converted into ‘ab_aab’ or ‘abaa_b’).
+2. You can swap empty character with next to adjacent character only if adjacent character is different from next to adjacent character. (For example ‘aba_ab’ can be converted into ‘a_abab’ or ‘ababa_’, but ‘ab_aab’ cannot be converted to ‘abaa_b’, because ‘a’ cannot jump over ‘a’).
+Input
+The first line contains single integer T – the number of test cases (less than 25). T test cases follow.
+Each test case contains two string I and F in two different lines, where I is the initial state and F is the final state. I and F may be equal. Their length will always be equal. Their length will be at least 2. Their length will never be more than 20.
+Output
+For each test case output a single line containing the minimum number of steps required to reach the final state from the initial state. You can assume it is always possible to reach the final state from the initial state. You can assume that no answer is more than 30.
+Example
+ Input:
+2
+a_b
+ab_
+aba_a
+_baaa
+Output:
+1
+2
+3) A probabilitic preorder traversal is generated for a binary search tree from the following pseudo-code
+Given the preorder traversals of a binary search tree you can always uniquely construct the binary search tree. Since, the inorder traversal of a binary search tree is of course, the sorted list of labels.
+Given one of the probabilistic preorder traversals of some binary search tree, print the number of different probabilitic preorder traversals that the above algorithm might generate. See the explanation section for clarity.
+Input
+The fist line in input is equal to N, the number of test cases. Then follows the description of N test cases. The first line in each test case is the integer N, the number of nodes in the binary search tree. On the next line there are N integers – a probabilistic preorder traversal of the binary search tree. All the labels of the nodes in a test case will be distinct. The value of each label in a test case will be between 1 and N, inclusive. You may assume that the input will be a valid probabilistic preorder traversal of some binary search tree.
+Output
+For each test case, print a single number on a line by itself. This number should be the number of different probabilistic preorder traversals that exist for the binary search tee – including the one given in the test case. You may assume that the answer will always be less than or equal to 1,000,000,000. In fact, it is easy to see that the answer can never be more than 2^30 (read to-the-power).
+Constraints
+1 < T <= 10000
+1 <= N <= 30
+Sample Input
+3
+3
+2 1 3
+3
+1 2 3
+5
+2 4 3 5 1
+Sample Output
+2
+1
+4
+4) You are given a large array of 10,000,000 bits. Each bit is initially 0. You perform several operations of the type “Flip all the bits between start_index and end_index, inclusive”. Given a sequence of several such operations, perform all the operations on the array. Finally, split the array into sets of 4 bits – first four, next four, then next four and so on. Each set can represent a hexadecimal integer. There will be exactly 2,500,000 hexadecimal integers. Calculate the frequency of each of the hexadecimal integers from ‘0’ to ‘f’ among the 2,500,000 integers, and print it. See Input / Output and explanation of Sample Input / Output for clarity.
+Input
+The first line of input contains an integer T (1 ? T ? 10), the number of test cases. Then follows the description of T test cases. You should assume that the array has exactly 10,000,000 bits and that the bits are all unset at the start of each test case. The first line of each test case contains an integer N (1 ? N ? 10,000), the number of operations performed. The next N lines contain two integers separated by a space, the start_index and end_index for the respective operation. Note that the flip operation is performed from start_index to end_index, inclusive. Also, the array is 1-indexed – meaning, the smallest index is 1 and the largest index is 10,000,000.
+Output
+For each test case, output 16 integers on a single line, separated by single space characters. The first integer should represent the number of times 0 occurs among the 2,500,000 hexadecimal integers created according to the problem statement. The second integer should represent the number of times 1 occurs among the 2,500,000 hexadecimal integers created according to the problem statement, and so on.
+Constraints
+1 <= start_index <= end_index
+start_index <= end_index <= 10,000,000
+Sample Input
+2
+2
+1 4
+9999997 10000000
+2
+3 6
+5 8
+Sample Output
+2499998 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+2499998 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0
+5) You are given two strings, say A and B, of the same length, say N. You can swap A[i] and B[i] for all i between 1 and N, inclusive. You cannot swap two characters within A, or within B. Also, you can only swap a character in A with the character at the same index in B, and with no other character. You can perform this operation zero or more times.
+You wish to modify the strings through the operations in such a way that the number of unique characters in the strings is small. In fact if n(A) is the number of unique characters in A and n(B) is the number of unique characters in B; you wish to perform the operations such that max(n(A),n(B)) is as small as possible.
+Print the value of max(n(A),n(B)) after all the operations.
+Input
+The first line of input contains T, the number of test cases. Then follows the description of T test cases. Each test case contains the number N on the first line. The next two lines of the test case contain two N letter strings, A and B respectively. The letters are lowercase engilish letters.
+Output
+Print a single line for each test case. Print the value of max(n(A),n(B)) after all the operations are performed such that the value is as small as possible.
+Constraints
+1 <= T <= 100
+1 <= length(A) <= 16
+length(B) = length(A)
+Sample Input
+3
+7
+directi
+itcerid
+5
+ababa
+babab
+5
+abaaa
+baabb
+Sample Output
+4
+1
+2
+6) Let’s define a string as an opening tag, where x is any small letter of the Latin alphabet.
+Each opening tag matches a closing tag of the type , where x is the same letter.
+Tags can be nested into each other i.e., one opening and closing tag pair can be located inside another pair.
+Let’s define the notion of a XML-text:
+1) An empty string is a XML-text
+2) If S is a XML-text, then “ S ” (quotes and spaces are for clarity) also is a XML-text,
+where a is any small Latin letter
+3) If S1, S2 are XML-texts, then “S1 S2” (quotes and spaces are for clarity) also is a XML-text
+You are given a string. You have to verify if the given string is a valid xml or not.
+Input
+First line contain T number of test cases
+For each test case:
+Only one line containing xml tagged string S.
+Output
+Print in one line a string TRUE if s is a valid xml FALSE if it is not.
+Constraints
+0 < T <= 10
+0 < length of S <= 10^5
+Example
+Input:
+2
+
+Output:
+TRUE
+FALSE
+7) In this problem we consider two stairways, A and B, which are parallel to each other. Both stairways, A and B, have N steps each where A[i], B[i] represent i-th step of A and B respectively.
+Each step has some amount of penalty associated and if you use that step you will be penalized by the same amount. After taking few steps you will accumulate penalty of all of the steps you visited.
+You have a maximum jump length of K i.e., from A[i] you can jump forward to A[i+1] or A[i+2] … or A[i+K] without using any steps in between.
+You can also jump across the stairways with an extra penalty P for changing stairways. For example from A[i] you can jump to B[i+1] or B[i+2] … or B[i+K] with an additional penalty P along with the penalty of the step you visit. You can also jump from stairway B to stairway A and that too incurs an additional penalty P along with the penalty of the step you visit.
+Observe that from each step you can jump forward only. Your final penalty will be penalty of all the steps you visited plus P times the number of times you crossed the stairways.
+You can start from A[1] or B[1] and should reach A[N] or B[N] minimizing the penalty accumulated on the way. Find the minimum penalty you will accumulate.
+Input
+The fist line in input is equal to T, the number of test cases. Then follows the description of T test cases. The first line in each test case has three integers N, the number of steps in both stairways, K, maximum jump length, P, penalty for crossing the stairs. On the second line of each test case there are N integers where ith integer represents penalty of step A[i]. On the third line of each test there are N integers where ith integer represents penalty of step B[i].
+Output
+For each test case, output a single line containing the minimum penalty you can accumulate on your path starting from { A[1] or B[1] } and ending on { A[N] or B[N] }.
+Constraints
+1 <= T <= 10
+1 <= N <= 1000
+0 <= P <= 1000
+1 <= K <= N
+0 <= A[i], B[i] <= 1000
+Example
+ Input:
+6
+4 1 0
+1 2 3 4
+1 2 3 4
+4 1 0
+1 2 3 4
+4 3 2 1
+4 2 0
+1 2 3 4
+4 3 2 1
+4 1 10
+1 2 3 4
+4 3 2 1
+4 2 10
+1 2 3 4
+4 3 2 1
+5 1 50
+0 0 102 104 0
+101 103 0 0 105
+Output:
+10
+6
+4
+10
+7
+100
+8) In this problem we consider a rooted tree Tr with root r (not necessarily a binary tree). A dfs – depth first search – traversal of the tree Tr starting from root r , visits the nodes of Tr in a particular order. Let us call that order as dfs ordering.
+Observe that during a dfs traversal , from each node we have choices between which child to traverse first.
+These different choices lead to different dfs ordering. You have to find different ways a dfs can visit the nodes i.e., number of different ordering of nodes possible by a dfs on Tr starting from root r.
+Consider an example Tr with 3 nodes labelled 1, 2, 3 with 1 as root and with 2 and 3 as children of 1.
+A dfs on this Tr can visit nodes in ordering (1, 2, 3) or (1, 3, 2). Hence there are 2 ways of dfs ordering.
+See sample test cases for more examples
+Input
+The fist line in input is equal to T, the number of test cases. Then follows the description of T test cases. The first line in each test case is the integer N, the number of nodes in the tree Tr. Each node is labelled with a distinct integer between 1 and N inclusive. On the next line there are N integers where ith interger represents parent label of node labelled i in rooted tree Tr. The value of each label in a test case will be between 1 and N, inclusive. Parent node of node labelled i will have label less than i. Node with label 1 is the root node r. Parent node of root node will be given as 0 in test cases.
+Output
+For each test case, output a single line containing number of different orderings possible by dfs on Tree Tr. Since this number can be huge output the value modulo 1,000,000,007.
+Constraints
+1 <= T <= 100
+1 <= N <= 1000
+0  <= A[i] < i
+Example
+Input:
+6
+2
+0 1
+3
+0 1 1
+4
+0 1 1 1
+3
+0 1 2
+4
+0 1 1 2
+5
+0 1 1 2 2
+Output:
+1
+2
+6
+1
+2
+4
+9) Katrina is a super geek. She likes to optimize things. Suppose she is at position (0,0) of a two dimensional grid containing ‘m’ rows and ‘n’ columns. She wants to reach the bottom right point of this grid traveling through as minimum number of cells as possible.
+Each cell of the grid contains a positive integer, the positive integer defines the number of cells katrina can jump either in the right or the downward direction when she reaches that cell. She cannot move left or up.
+You need to find the optimal path for katrina so that starting from top left position in the grid she reaches bottom right position in minimum number of hops.
+Input
+You are provided a template in which you have to implement one function minHops. The declaration of minHops looks like
+C / C++
+int minHops(int matrix[64][64], int m, int n)
+Java
+statuc int minHops(int[][] matrix, int m, int n)
+Output
+The function should return the minimum number of cells that should be touched to reach from top left corner of the grid to the bottom right corner (including touching both top left and the bottom right cells). Return 0 in case no path exists.
+Example
+Suppose the grid looks like this
+2 4 2
+5 3 8
+1 1 1
+Starting at A(0,0) contains ‘2’ so you can either go to (0,2) or (2,0).
+So following two paths exist to reach (2,2) from (0,0)
+(0,0) => (0,2) => (2,2)
+(0,0) => (2,0) => (2,1) => (2,2)
+Hence the output for this test case should be 3
+Example 2
+5 3 8 2
+6 4 2 1
+There is no path from (0,0) to (1,3) , so the output for this case should be 0
+Example 3
+2 3 2 1 4
+3 2 5 8 2
+1 1 2 2 1
+Various paths in this case are
+(0,0) => (0,2) => (2,2) => (2,4)
+(0,0) => (2,0) => (2,1) => (2,2) => (2,4)
+So output in this case should be 4
+10) Consider NewYork city which has grid like structure of houses. You are provided the city map in the form of a matrix. Each cell represents a building. From each building you can go to adjacent four buildings in four directions : east, west, north, south. Spiderman wants to rescue a victim which is on some building. You will be provided with the location of victim and spiderman is situated at (1,1) building. But, there is a condition that spiderman can not jump between buildings if the difference in their heights is greater than some particular value. Find a way for spiderman to reach the victim by crossing the minimum number of buildings.
+Input
+Input contains multiple test cases. First Line is a integer T, representing the number of test cases to follow.
+First line of each test case has 4 numbers – M, N, X, Y, D. Here MxN is the dimension of the city grid. (X,Y) is location of victim.
+This is followed by M lines. Each line consist of N space separated positive integers corresponding to building heights. D is the maximum difference between heights of buildings that spiderman can cross.
+Output
+One line for each test case containing a single integer, denoting the minimum number of buildings spiderman needs to cross. Return -1 if its not not possible.
+Constraints
+Should contain all the constraints on the input data that you may have. Format it like:
+1 <= T, M, N, X, Y <= 100
+1 <= D <= 100000
+Each building height will be less than 100000
+Example
+Input:
+3
+3 3 3 3 2
+1 2 3
+6 9 4
+7 8 5
+3 3 3 3 1
+1 8 3
+9 5 6
+7 2 4
+3 3 3 3 1
+1 6 7
+2 5 8
+3 4 9
+Output:
+3
+-1
+7
+12) You are given a tree of N nodes. Each of the nodes will be numbered from 0 to N-1 and each node i is associated with a value vi.
+Assume the tree is rooted at node 0.
+A node y is said to be descendant of node x if x occurs in the path from node 0 to node y. A subtree rooted at node x is defined as set of all nodes which are descendants of x (including x).
+A subtree is called univalued if the values of all the nodes in the subtree are equal.
+Given the tree and values associated with nodes in the tree, you are required to find the number of univalued subtrees in the tree.
+Input
+The first line contains an integer N which is the number of nodes in the tree. The next N lines contain N integers representing the values associated with each node i.e ith line contains the value associated with node i-1. The next N-1 lines give the information of edges in the tree. Each line contains two space separated integers x and y denoting an edge between node x and node y.
+Output
+You have to print the number of univalued subtrees that are contained in the given tree.
+Constraints
+N<=30000
+Example
+ Input:
+5
+0
+0
+1
+1
+1
+0 1
+0 2
+2 3
+2 4
+ Output:
+4
+ 
+12) Directi organizes FNCS (Friday Night Chill Session) every once in a while (lots of FUN!). Directians comes and enjoy various events and then go out when they get tired and come back again when they are refreshed. For convinience, in/out of any person is recoreded. At the end of the day, The organizer wonders what the maximum number of persons was during the event. So he ask for your help. He gives you the entry and exit time of each person like this:
+The identity of the person does not matter. #1 and #4 may be the same person. In this case, maximum number of persons present during the event at any time is 3.
+Your task is to read the entries and compute the max number of persons present during the course of event.
+Input
+Input contains multiple test cases. First Line is a integer T, representing the number of test cases to follow. First line of each test case is a number N, number of entry-exit records. This is followed by N lines. Each line consist of two space separated integers corresponding to entry time and exit time of a person.
+Output
+One line for each test case containing a single integer, denoting the maximum number of persons present at the party at any time.
+Constraints
+1 <= T <= 100
+1 <= N <= 100
+1 <= ENTRY_TIME < EXIT_TIME <= 10000000
+The entry and exit time of the persons are guaranteed to be distinct
+Example
+Input:
+1
+6
+7 8
+4 9
+6 9
+8 17
+2 14
+2 10
+Output:
+5
+ 

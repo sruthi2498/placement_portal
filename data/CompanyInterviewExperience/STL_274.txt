@@ -1,0 +1,18 @@
+
+Maps are the container in STL which is used to store the elements in the form of key-value pair. Internally, the elements in a map are always sorted by its key. Maps are mainly implemented as binary search trees.
+map::at()
+at() function is used to return the reference to the element associated with the key k.
+Syntax:
+Return: It return a reference to the associated value of the element whose key value is equivalent to k.
+Examples:
+
+Run on IDE
+Output:
+map::swap()
+swap() function is used to exchange the contents of two maps but the maps must be of same type, although sizes may differ.
+Syntax:
+Return value: None
+Examples:
+
+Run on IDE
+Output:

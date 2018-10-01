@@ -1,0 +1,27 @@
+ Round 1  
+It was an online test of 90 mins duration. It consisted 35 aptitude and technical Multiple choice Quizzes and 3 Coding Questions. All questions were of moderate level. Out of 270 participants 18 were shortlisted.
+ Round 2  
+The interviewer asked about my projects.
+1) Explain about socket programming and asked me code it.
+2) Explain about TCP three way hand shake and the TCP segment structure.
+3) Many other basic networking questions were asked.
+4) He asked how paging works and why is it required, how virtual memory works. Then difference between threads and processes.
+5) He gave a question to code using multi threading  concepts to print numbers in order 1,2,3…. ,Where one process prints even number and another prints odd number. Initially I did using Lock and acquire concept. But the problem was it suffers from spin locks so I used semaphores.
+6) Given a link list divide the link list equally, divide the list at a given value.
+7) Write quick sort algorithm, implement for a link list.
+ Round 3 
+The interviewer asked about my projects.
+1) He asked about ping and trace route.
+2) Routing algorithms- I said I don’t remember.
+3) Asked some basic OOP concepts and how to resolve the ambiguity when there is multiple inheritance.
+4) Questions on regular language and context free grammars.
+5) Write a regular expression to detect an e-mail address.
+6) Draw and explain memory layout of a c program, he asked about static variables. Why and how function pointer is used.
+7) He gave a very simple puzzle and I solved it.
+ Round 4: HR 
+1)    Tell me about yourself and family.
+2)    Why do want to work at Juniper Networks.
+3)    What is your aspiration?
+4)    When do you get angry and what do you do when you get angry?
+5)    How long will you work at juniper?
+8 of us were selected.

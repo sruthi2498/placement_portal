@@ -1,0 +1,55 @@
+ROUND 1: ONLINE TEST
+It had five sections, each had its own section time which can’t be carried on. The test was organized by HirePro and had no negative marking scheme.
+Section 1(Quant, logical and verbal)-
+It had 25 questions and time was 30 minutes in quant questions were from ratios, work and time, percentages and profit and loss. In verbal, there were two passages of 2 questions each. In logical the character encoding decoding and a linked question.
+Level of the quantitative question was moderate somewhere between Arun Sharma LOD 1 and IndiaBix.
+Practice the character encoding and decoding from IndiaBix.
+Section 2(Technical, Java and OOPS concepts)-
+It had 20-25 questions and allotted time was 35 minutes. In technical questions were asked from hashing, heaps, Bst, AVL tree rotations. In java code snippets were given and we need to choose the output questions were typically based on syntax and semantics knowledge one was from the run method for the thread,  two from exception handling and some OOPS concepts.
+Have a quick walk through the entire section first to score as much as you can as time is the key.
+Section 3 (Cloud)-
+Cloud computing had the largest number of questions ie 30 and 30 minutes time. It also had questions on Jenkins, git hub, and javascript functions.
+Section 4(Coding round)-
+One coding question allocated time was 25 minutes.
+You are given an integer find all permutations of the integer by arranging its digits and pick up the first k smallest integers. Find their average and divide them(k integers) into two groups based on the average value, one with values larger than average and one with values smaller than average the return the largest and smallest values of the smaller and larger group respectively.
+As the time was only 25 minutes it was very hard to complete the code.
+I first converted the integer into a string and sorted it and on that sorted string through backtracking obtained the first k permutations but due to less time just returned the two integer at k/2 and k/2+1th index in the obtained permutations.
+And I was not sure even if it was a partial submit or not because time was very less and question description was very long and ambiguous.
+Section 5(PHP/ Python)
+Python and Php were two optional tracks. I choose python it had only 5 questions and most were based on basis syntax of the functions and typecast in python.
+After the online test 17 were shortlisted out of 148 for the interview.
+ROUND 2: TECHNICAL INTERVIEW
+I was the last one and the interviewer was almost saturated. We had a quick conversation on the resume and as I was from mtech he asked me about my ongoing project. I told him that it’s on Spiking Neural Networks for epilepsy data. And he knew about AI, so he asked how SNN are different from  BPN which activation function to use and a deep discussion on the hidden layer and weights, he also gave a input and weight matrices and asked to demonstrate the simple model how snn mimics the biological brain.
+Q)With how many languages and technology you are familiar with?
+I told c, c++, Java, PHP, R, Python, and Matlab. Then he asked the experience with Matlab. I told him about my work with image processing and it’s basic task like finding the negative of image and image rotation.
+Q)What are garbage collectors?
+I started off with the problem of memory leak with C and we had a discussion till JVM and JRE.
+Now he was interested.
+Q)Can one program in C access the memory of another program?
+I told him about the NULL pointer assignment error(int * ptr=NULL; *ptr=5;) as this points to the base address which has the copyright data stored. He asked to tell me with reference to access some variable then I told him about the extern storage class and gave an example of enviorn variable which stores the pointers to the string of the environment paths(extern char **environ;)
+Q) How will you solve the problem of memory leak in c without restarting pc try to implement a garbage collector for c?
+I was clueless I asked for time to think and he was very cooperative. After 2 min I told him I won’t change the regular syntax of malloc and realloc but instead of calling the   sbrk() and  brk() system calls directly I will have a table for the memory information of each process and at the end when I will get return 0; if any entry for memory is present for process and the memory is not released I will release that memory first.
+Q) Do R have its own garbage collector?
+I said no but I was wrong, R also garbage collector gc() which can be called explicitly.
+Q) Tell me about your project in java quickly?
+I told with about the messaging application and how it used RMI and multithreading.
+Q) Question on a modified Travelling salesman problem where each city have the weather condition and working days how will you incorporate these two measures in your conventional tsp with help of ml?
+I said at each node I can have any classifier which will classify the weather condition on that day as good or bad  based on the meteorological data and first we will have a conventional path and then at each node we examine the weather condition and working day and can come up with a weighted formula, to incorporate distances, weather condition and working days.
+Q) Which algorithms did you use for your E-commerce project as similarity models and how you got the dataset??
+I told him about the AWS’s product advertising API through which I got the JSON file and then a discussion on the bag of words model and TF-IDF model.
+Q) Design a data structure for LinkedIn where we want to access the number of connections of a user frequently?
+First I told about representing the entire connections of users as the graph by the adjacency matrix but it fails for the case in the sparse graph so finally, I told about the adjacency list where for each user in his table we will have a connections counts. So to get the count of connection takes O(1) time and showing all connections takes O(n) time.
+Q) Some basic SQL queries and question on having and group by clause
+Q) Tell me some project that is not on your resume?
+I told him about a partially completed project of whats app chat interest calculator based on NLP and we had a discussion on it which corpus we can use which measures we can have to say how a person is more or less interested in you.
+Q) Any questions?
+I asked if they serve free food and about the work culture
+The interview lasted for 50-60 minutes and surprisingly they didn’t ask any puzzles for which sapient is famous but I feel it depends upon the profile for which they are recruiting.
+ROUND 3:ATTRIBUTE   / HR INTERVIEW
+Q) Tell me about your family?
+Q) 3 reason to join sapient?
+Q) Hobbies and how quora is your hobby?
+Q) Give me an example where you have applied your theoretical knowledge to solve a real-life problem?
+Q)Job location
+As I was the last one the result was out just after 5 min and my name was in the list.
+ 

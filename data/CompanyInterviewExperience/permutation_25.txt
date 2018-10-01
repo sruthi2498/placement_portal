@@ -1,0 +1,19 @@
+Given a linear equation of n variables, find number of non-negative integer solutions of it. For example,let the given equation be “x + 2y = 5”,  solutions of this equation are “x = 1, y = 2”, “x = 5, y = 0” and “x = 1.  It may be assumed that all coefficients in given equation are positive integers.
+Example : 
+We strongly recommend you to minimize your browser and try this yourself first.
+We can solve this problem recursively.  The idea is to subtract first coefficient from rhs and then recur for remaining value of rhs.
+Below is recursive implementation of above solution.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of above solution is exponential.  We can solve this problem in Pseudo Polynomial Time (time complexity is dependent on numeric value of input) using Dynamic Programming.  The idea is similar to Dynamic Programming solution Subset Sum problem. Below is Dynamic Programming based implementation.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity of above solution is O(n * rhs)

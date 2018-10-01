@@ -1,0 +1,40 @@
+Amazon visited our campus for SDE-1. Interview process started with an online coding round followed by 4 face to face interviews.  All interview rounds started with brief introduction about me.
+Online Round :
+A hackerank contest  with 22 questions consisting of 2 coding problems and 20 MCQ’s on C, OS, DBMS, Networking.
+Coding Questions :
+1. Given a 2d array with only two elements ‘#’ & ‘.’  . ‘#’ represents cherry and ‘.’ represents nothing. Can you divide the array into 2 halves with equal cherries. You can only make a single cut either horizontally or vertically.
+2. Sliding Window of size k . Find max in each window.
+No need of optimization, brute force was accepted.
+F2F 1 (30 minutes  , Director + Technical)
+1.You have a 2-d matrix , you have to print matrix in Spiral Order Form.  Production code was required.
+2. What is the most funniest and craziest data structure you have ever used.
+I said Segment Trees. He asked me to explain it. Why to use it, explain it through some example, prove its complexity.
+F2F 2 (40 minutes, Technical )
+1.       You have a 2-d array (m*n) , where every row and column is sorted in increasing order. You have to return an array which is sorted (basically have to sort given 2d array)
+Approach 1- insert all elements in map/set . ( O(mnlog(mn))  ) .
+Approach 2- insert first element of each row in a heap (same as sort k sorted list of equal length), then call extract-min and insert next element  from the required row.
+Complexity-   O(mnlog(m) )
+Follow up question- what if m>>n ? 
+Solution- Transpose the given matrix and follow the same procedure as above.
+2.       Given a binary tree containing positive and negative values, you have to find maximum sum that passes through parent.  ( O(n) solution was required ).
+Proper code was required for both the questions.
+
+F2F -3 (1 hour ,Technical )
+Several questions on Operating Systems  and Computer Networking.
+Operating Systems-   Difference  between multi -tasking, multi-processing and multiprogramming,  Virtual Memory, why to use Virtual memory, issues related to virtual memory , paging, segmentation , multithreading, difference between process and thread.
+Computer Networking- What happens when you type www.amazon.com in Web Browser,  how server handle requests, how routing works, difference between HTTP and HTTPS, how TCP works.
+Coding Question-  Given an array, find min element in the range (xi,yi)  . Queries can be very large.
+First i gave brute force approach (0(n) for each query ) and after that I gave a segment Tree solution to him. He told me to prove  time and space complexity.
+Follow up question- What if we delete some element from segment tree. How do you augment       your data structure.
+I said that instead of deleting we can update it to INT_MAX value.
+F2F-4 (1 hour, Technical)
+Given a string consisting of 3 types of brackets (  ‘(‘, ‘{‘, ‘[‘ ) , there are priorities assigned to each bracket. You have to check if given string is balanced and valid.
+Definition of valid- Higher priority bracket can’t be inside lower priority bracket.
+I solved it by a single Stack .
+Follow up question-
+Find the length of longest valid substring which is balanced and valid.
+Then he asked if you have any questions.
+ Interview tips-
+Interviewers don’t want most optimized solution. They see how you approach a question , Interact with interviewer if you get stuck ,don’t jump directly to code, think loud and be confident.
+A big thanks to geeksforgeeks and other online judges.
+

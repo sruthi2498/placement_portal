@@ -1,0 +1,13 @@
+is_permutations() is used to check if two containers like string and vector are permutation of each other.  It accepts three parameters, the first two parameters are begin and end positions of first object and third parameter begin position of second object.
+Run on IDE
+Output : 
+ 
+
+Given a pattern and a text, find all occurrences of pattern and its anagrams in text.
+Examples:
+
+We have discussed a (n) solution  her. But in this post it is done using is_permutation(). Although the complexity is higher than previously discussed method, but the purpose is to explain application of is_permutation().
+Let size of pattern to be searched be pat_len. The idea is to traverse given text and for every window of size pat_len, check if it is a permutation of given pattern or not.
+Run on IDE
+Output:
+

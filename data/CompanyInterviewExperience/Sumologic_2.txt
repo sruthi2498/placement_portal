@@ -1,0 +1,10 @@
+Given length of wall w and shelves of two lengths m and n, find the number of each type of shelf to be used and the remaining empty space in the optimal solution so that the empty space is minimum. The larger of the two shelves is cheaper so it is preferred. However cost is secondary and first priority is to minimize empty space on wall.
+Examples:
+
+A simple and efficient approach will be to try all possible combinations of shelves that fit within the length of the wall.
+To implement this approach along with the constraint that larger shelf costs less than the smaller one, starting from 0, we increase no of larger type shelves till they can be fit. For each case we calculate the empty space and finally store that value which minimizes the empty space. if empty space is same in two cases we prefer the one with more no of larger shelves. Below is its implementation. 
+Run on IDE
+Run on IDE
+Run on IDE
+
+References: Sumologic Internship question

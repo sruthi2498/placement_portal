@@ -1,0 +1,20 @@
+Sets are a type of associative containers in which each element has to be unique, because the value of the element identifies it. The value of the element cannot be modified once it is added to the set, though it is possible to remove and add the modified value of that element.
+This function is used to insert a new element into the set container, only if the element to be inserted is unique and does not already exists in the set.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown
+2. Parameter should be of the same type as that of the container otherwise, an error is thrown
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(logn)
+Application
+Input an empty multi set with the following numbers and order using emplace() function and find sum of elements.
+Run on IDE
+Output :
+emplace() vs insert
+When we use insert, we create an object and then insert it into the multiset. With emplace(), the object is constructed in-place.
+Run on IDE
+Output : 

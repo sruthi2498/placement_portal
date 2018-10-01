@@ -1,0 +1,24 @@
+Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
+
+Examples:
+
+METHOD 1 (Use Sorting)
+Example:
+How to maintain order of elements if frequency is same?
+The above approach doesn’t make sure order of elements if frequency is same. To handle this, we should use indexes in step 3, if two counts are same then we should first process(or print) the element with lower index.  In step 1, we should store the indexes instead of elements.
+Below is C++ implementation of above approach.
+Run on IDE
+Output: 
+Thanks to Gaurav Ahirwar for providing above implementation.
+
+METHOD 2(Use BST and Sorting)
+1. Insert elements in BST one by one and if an element is already present then increment the count of the node. Node of the Binary Search Tree (used in this approach) will be as follows.
+Run on IDE
+2.Store the first indexes and corresponding counts of BST in a 2D array.
+3 Sort the 2D array according to counts (and use indexes in case of tie).
+Time Complexity: O(nlogn) if a Self Balancing Binary Search Tree is used.  This is implemented in Set 2.
+
+METHOD 3(Use Hashing and Sorting)
+Using a hashing mechanism, we can store the elements (also first index) and their counts in a hash. Finally, sort the hash elements according to their counts.
+Set 2:
+Sort elements by frequency | Set 2

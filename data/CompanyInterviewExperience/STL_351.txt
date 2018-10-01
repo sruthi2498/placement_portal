@@ -1,0 +1,17 @@
+Stacks are a type of container adaptors with LIFO(Last In First Out) type of working, where a new element is added at one end and (top) an element is removed from that end only.
+top() function is used to reference the top(or the newest) element of the stack.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the stack container is empty, it causes undefined behaviour
+2. It has a no exception throw guarantee if the stack is not empty
+Run on IDE
+Output:
+Application :
+Given a stack of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the stack is empty, if not add the top element to a variable initialised as 0, and pop the top element.
+2. Repeat this step until the stack is empty.
+3. Print the final value of the variable.
+Run on IDE
+Output:

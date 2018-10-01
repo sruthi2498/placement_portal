@@ -1,0 +1,28 @@
+Given an Array of positive numbers, calculate the number of possible subarrays having product greater than a given number K.
+Examples :
+One naive approach to this problem is to generate all subarrays of the array and then count the number of arrays having product greater than K.
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(n^2).
+We can optimized approach is based on sliding window technique (Not that we need to find contiguous parts)
+    Firstly, according to the description, all elements in the array are strictly positive. Also let’s assume that the product of all array elements always fits in 64-bit integer type. Taking these two points into consideration, we are able to multiply and divide array’s elements safety (no division by zero, no overflows).
+    Let’s see how to count the desired amount. Assume, we have a window between start and end, and the product of all elements of it is p < k. Now, let's try to add a new element x. There are two possible cases.
+ Case 1. p*x < k
+    This means we can move the window’s right bound one step further. How many contiguous arrays does this step produce? It is: 1 + (end-start).
+    Indeed, the element itself comprises an array, and also we can add x to all contiguous arrays which have right border at end. There are as many such arrays as the length of the window.
+ Case 2. p*x >= k
+    This means we must first adjust the window’s left border so that the product is again less than k. After that, we can apply the formula from Case 1.
+ Example :
+Run on IDE
+Run on IDE
+Run on IDE
+
+ Complexities:    Every element in the array is accessed at most two times, therefore, it is O(n) time complexity.     A few scalar variables are used, therefore, it is O(1) extra space.
+Exercise 1: Update the solution so that it could handle nils in the input array.
+Exercise 2: Update the solution so that it could handle multiplication overflow when computing products.

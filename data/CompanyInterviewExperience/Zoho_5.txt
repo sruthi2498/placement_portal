@@ -1,0 +1,47 @@
+Around 1400 students appeared for 1st round. Two teams came to our campus.If one team rejected a candidate they were made to sit for the next team for the same round.
+Round 1:
+10 very simple C question(find the output)  and 20 Aptitude was asked in first round. It was much similar service based company questions.C questions very basic like string reverse, add all digits, etc. Aptitude was similar to service based company level(puzzles, distance & speed, probability, average, combinations).
+Students who solved all C questions and Aptitude were taken to round2.
+Round 2:
+Problem 1:
+Many students will able to solve 3 problems in this round. So make sure you stand apart from the crowd.Their vacancy is going to be 5 for a team. The performance in this round could be taken as a tie breaker for round 3.
+input : aaabbcc
+output : abc
+Problem 2:
+Evaluate the expression and sort and print the output. Getting the input is the tricky part
+Input:
+Number of input : 4
+2*3
+2^2^2
+35
+3*1
+Output:
+3*1
+2*3
+2^2^2
+35
+Problem 3:
+Given a 6 blocks, of different height h1, …, h6 . Make 2 towers using 3 Blocks for each tower in desired height h1, h2. Print the blocks to be used in ascending order
+Input:
+1 2 5 4 3  6
+height of tower: 6 15
+Output :
+1 2 3 & 4 5 6
+Problem 4:
+Given a 5X5 chess board as input. 9 knights are placed in the board. Print whether the configuration valid or Invalid.
+Problem 5:
+Given a number, print all the code that can be formed with z={a=1, .., z=26}.
+1123
+{1, 1, 2, 3} = aabc
+{11, 2, 3} = kbc
+{1, 1, 23} = aaw
+{11, 23} = kw
+Many students will be able to solve this round. So try to perform best in round 2.
+You will be asked to explain before starting.Try to figure out the boundary testcases .They asked us to implement a gift card system with a existing bank.
+The bank has many customers . Each customer can create many gift card. Balance should detected from bank balance when a gift card is created.A gift card has a id, pin.You can Top-up any gift card, close gift card and buy item using gift card(they are called transactions), etc.
+Write clean code and use object oriented language.
+Boundary case are :
+Round 4(Technical Hr):
+They ask questions from dbms, os, etc and some puzzles.
+ 
+13 students were given full time offer and 3 students were given internship.

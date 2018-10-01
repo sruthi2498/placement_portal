@@ -1,0 +1,10 @@
+Syntax:
+Parameters: The function does not accept any parameters.
+Return value: The function returns a constant iterator pointing to the first element in the container. 
+Below programs illustrate the multiset::cbegin() method.
+Run on IDE
+Syntax:
+Parameters: The function does not accept any parameters.
+Return value: The function returns a constant iterator pointing to the position past the last element in the container in the container. 
+Below programs illustrate the multiset::cend() method.
+Run on IDE

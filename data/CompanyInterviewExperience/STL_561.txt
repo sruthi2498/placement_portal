@@ -1,0 +1,18 @@
+
+numeric header in C++ STL | Set 1
+adjacent_difference
+This functions assigns the difference between the corresponding elements of an array to another array. It returns the adjacent difference of all the set of values lying between [ First, last ). 
+For Example: If a[] represents an element in provided range [first, last) and b[] represents the result.
+Syntax:
+Run on IDE
+Output:
+inner_product
+This function returns the result of addition of var with the inner products of the pairs formed by the elements of two ranges starting at first1 and first2.
+Syntax:
+Run on IDE
+Output:
+iota
+This function assigns a value to the elements in the range [first,last ) of the array which is incremented at each step by val++ .
+Syntax  –
+Run on IDE
+Output :

@@ -1,0 +1,11 @@
+Given an array of integers, find the length of the longest sub-sequence such that elements in the subsequence are consecutive integers, the consecutive numbers can be in any order. 
+Examples
+One Solution is to first sort the array and find the longest subarray with consecutive elements.  Time complexity of this solution is O(nLogn).  Thanks to Hao.W for suggesting this solution.
+We can solve this problem in O(n) time using an Efficient Solution.  The idea is to use Hashing.  We first insert all elements in a Hash. Then check all the possible starts of consecutive subsequences. Below is complete algorithm.
+Below is C++ implementation of above algorithm.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity:  At first look, time complexity looks more than O(n).  If we take a closer look, we can notice that it is O(n) under the assumption that hash insert and search take O(1) time. The function S.find() inside the while loop is called at most twice for every element.  For example, consider the case when all array elements are consecutive. In this case, the outer find is called for every element, but we go inside the if condition only for the smallest element.  Once we are inside the if condition, we call find() one more time for every other element.
+Thanks to Gaurav Ahirwar for above solution.

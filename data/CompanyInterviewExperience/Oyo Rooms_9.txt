@@ -1,0 +1,28 @@
+Coding Round:  It had 20 MCQ’s and 2 coding questions. Total marks were 161 out of which 130 were of 2 coding problems and rest of 20 MCQ’s.
+
+Coding question 1:
+Given a source and destination in a NxN maze find the shortest path between them, some of the cells are occupied and one cannot find path through them.
+https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path/0
+Coding question 2:
+Given d, a, b and an array of integers. You can add/subtract a and b to d any number of times. You have to find the count of numbers which can be formed by applying these operations to d and are present in the given array.
+30 students were selected for the F2F interviews out of 150.
+Round 1: The interviewer was very friendly. The round begin with usual introduction and then he asked me 3 DS/Algo questions.
+Ques1: Given an array A[] consisting 0s, 1s and 2s, write a function that sorts A[] using single traversal ie you can only traverse given array once.
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+Ques2: Given values of two values n1 and n2 in a Binary Search Tree, find the Lowest Common Ancestor (LCA).
+https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
+Ques3: Given a Binary Tree, print left view of it. Left view of a Binary Tree is set of nodes visible when tree is visited from left side.
+https://www.geeksforgeeks.org/print-left-view-binary-tree/
+He asked me to write the code of all three questions and check the approach with some edge cases. After these 3 questions he asked me some basic questions about Paging, Deadlocks and Indexing.
+This round lasted around an hour. 21 students were selected for the second round.
+Round 2: After the introduction part he asked me a DS question.
+Given a binary tree, you have to implement three functions:
+A node can only be painted if all its parent’s and children’s are not painted.A node can only be unpainted if all its parent’s and children’s are not painted.
+After this he asked me this puzzle.I was able to explain him my approach and he was happy with that.
+After this he asked me about my projects.Then he asked me whether i am comfortable with OS and DBMS to which i replied yes then he asked basic concepts of OS like difference between Process and threads, what are deadlocks and semaphores etc. He then asked different type of Indexing and differences between them.
+After this round many students where told ‘no further rounds’. The rest around 10-12 including me were asked to wait for further round.
+Round 3:
+It had only 1 question which was a Real Time Problem.
+I was given a matrix representing the number of rooms and days.Matrix contained the values indicating the number of days left for that customer in that room.I was asked to come up with an algorithm to provide the customers the same room for all the days they had booked the room in such a way that i can accommodate maximum number of customers.
+He was impressed with my approach and asked me to code it.Then he checked that with some corner cases and was satisfied with it.
+Finally, they selected 13 students from my college and thankfully I was one of them.

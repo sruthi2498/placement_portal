@@ -1,0 +1,12 @@
+A box contains 5 green, 4 yellow and 3 white balls. Three balls are drawn at random. What is the probability that they are not of the same color?
+(A) 3/44
+(B) 3/55
+(C) 52/55
+(D) 41/44
+ Answer: (D) Explanation: Let S be the event of drawing 3 balls out of 12. Then,
+n(S) = 12C3 = 220.
+Let E be the event of drawing 3 balls of the same colour. Then,
+n(E) = 5C3 + 4C3 + 3C3 = 10 + 4 + 1 = 15. And,
+P(E) = n(E)/n(S) = 15/220 = 3/44.
+Therefore, required probability = 1 – 3/44 = 41/44.
+Quiz of this QuestionPlease comment below if you find anything wrong in the above post

@@ -1,0 +1,27 @@
+Oyo came to our campus(Punjab Engineering College) for placements.The CGPA cutoff was 6.45 and it was open for circuital branches(CSE/ECE/EE)  I was from EE.
+Round 1
+The round 1 was an online test on hackerearth and the test duration was 90 mins.It had some objective  questions based on aptitide, data structures, operating systems and dbms.There were 2 coding questions which were a piece of cake which you could solve in 30 mins. The coding  questions were
+1 Rotate a matrix towards right K times-Simple brute force was passing all test cases for this question
+2 Is the expression consisting of (, ), [, ], {, } balanced-This was a standard stack problem
+17 students were shortlisted after the online test
+2 Technical Interview Round 1( F to F)
+The interviewer was very friendly and he told me that I can speak in any language English/Hindi/Punjabi. 2 coding questions and 1 system design question was asked in this round. The coding question was
+1) Given n digits and sum find the minimum number possible. 
+For eg if  sum is 6 and n is 3 then min number is 123 – I gave him the brute force approach but he told me to further optimise it
+2) Given a m×n 2d array filled with the cost of each block.You are standing anywhere on the first row and you have to reach the last row so what is the max cost path. You can either go straight down, diagonaly left in the downward direction and diagonally right in the downward direction. – So I gave him the normal recursive solution  and then told me how it can be optimised using DP. I wrote the code  in C++, for this question in 15 – 20 min with recursion and memoization. He was satisfied with the code
+3) System Design Question-There are lot of interviews going today and the HR manges these interviews. Design a dashboard software for the HR which answers the following questions
+a) Who all took a candidate’s interview?
+b) Was that candidate rejected?
+c) How many candidates did a particular interviewer interviewed?
+Tell the appropriate data structure or data structures which answer all these questions correctly. I told him 3 data structures but he told me to combine them so I told him we can make a person class and add type attribute for that class, if value of type is 0 then its a candidate otherwise its an interviewer and use this class as an argument for unordered_map  in c++. This combines the data structures
+Then he said you are done. The interview lasted for 45 min.Very less students were shortlisted after this round
+3) Technical Round 2(F to F)
+This round was based on standard tree questions
+ 
+1)Print the top view of a binary  tree- I did this using a unordered_map using horizontal distance approach
+2) How will the code change if you have to print the botton view. So i did the changes in code
+3)Print the inorder traversal of tree iteratively-I wasn’t able to do this using a stack.
+This round lasted for 30 – 40 mins. As I was not able to do one question so I got rejected after this round. 3 students were shortlisted for Technical round 3.There were 4 rounds 3 technical and 1 HR. Only 1 student was finally selected. Some question which I heard were asked in round 3 were.
+1)Given an array and sum print all possible subsets satisfying the condition – This was a basic backtracking problem
+And some questions on OS were asked in round 3.I think if you can solve most of the  problems on geeksforgeeks then you can crack this interview.
+This article was contributed by Priyam Chhabra

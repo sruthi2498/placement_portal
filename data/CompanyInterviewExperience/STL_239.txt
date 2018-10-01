@@ -1,0 +1,15 @@
+remove_copy()
+It is an STL function in c++ which is defined in algorithm library. It copies the elements in the range [first, last) to the range beginning at result, except those elements that compare equal to given elements.
+Function Template
+Examples:
+
+Run on IDE
+Complexity:  Linear O(n)
+remove_copy_if
+It is a STL function in c++ which is defined in algorithm library. It copies the elements in the range [first, last) to the range beginning at result, except those elements that meets to a given condition (like odd number, even number, prime number, non-prime number etc ).
+Function Template
+Examples:
+Run on IDE
+Complexity:  Linear O(n)
+List of <algorithms> library in C++ STL
+All STL articles of C++

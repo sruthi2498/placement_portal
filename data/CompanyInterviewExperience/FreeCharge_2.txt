@@ -1,0 +1,25 @@
+Telephone screening
+Questions about project and technologies used
+F2F:
+Round1:
+1) Design, develop and implement an elevator problem (only 20 minutes)
+ Lots of discussion on why the approach is chosen.
+Advantages and trade-offs discussed.(For almost an hour)
+Round2:
+1) All possible permutations of a string.
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+2) Design,develop and implement Phone directory.
+Implement a search algorithm on top of it ..so that it does autocomplete
+Eg :
+ %95% ( Result : 98769512345,9545654312 etc having 95 sequence anywhere)
+(Note : Not to use TRIE)
+3) Design,develop and implement an OrderGenerating System in distributed servers.
+Conditions:
+1) No database should be used.
+2) The orderID generated should be unique among all servers.
+Lots of discussion on various approaches.
+4) Difference between equals and hashcode in JAVA
+Round3:(Hiring Manager Round)
+1) Details about projects in CV.Explanation in detail
+2) Check if Binary Tree is BST or not?
+https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/

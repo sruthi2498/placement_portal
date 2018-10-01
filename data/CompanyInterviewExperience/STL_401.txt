@@ -1,0 +1,13 @@
+C++ defines a function which can be used to recognise if all the numbers in a container, also exists in other container. This task can be achieved by using “includes()” which is defined in “algorithm” header. The implementations are explained below.
+Syntax 1 : Using operator “<"  
+
+Run on IDE
+Output :
+
+Syntax 2 : Using Comparator  
+
+Run on IDE
+Output:
+
+Possible application :  This function can be potentially used to find if a set is subset of another or can be used to determine lottery winner , in a system in which person who has all the lottery numbers in his card wins the lottery. Latter one is explained below through code.
+Run on IDE

@@ -1,0 +1,20 @@
+Given an integer n, print m increasing numbers such that the sum of m numbers is equal to n and the GCD of m numbers is maximum among all series possible. If no series is possible then print “-1”.
+Examples :
+
+Approach:
+The most common observation is that the gcd of the series will always be a divisor of n. The maximum gcd possible (say b) will be n/sum, where sum is the sum of 1+2+..m.
+If b turns out to be 0, then the sum of 1+2+3..+k exceeds n which is invalid, hence output “-1”.
+Traverse to find out all the divisors possible, a loop till sqrt(n). If the current divisor is i, the best possible way to take the series will be to consider i, 2*i, 3*i, …(m-1)*i, and their sum is s which is equal to i * (m*(m-1))/2 . The last number will be n-s.
+Along with i being the divisor, n/i will be the other divisor so check for that also.
+Take maximum of possible divisor possible (say r) which should be less then or equals to b and print the sequence as r, 2*r, … (m-1)*r, n—s.
+If no such divisors are found simply output “-1”.
+
+Run on IDE
+Run on IDE
+[
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O( sqrt (n) )
+Auxiliary Space: O(1)

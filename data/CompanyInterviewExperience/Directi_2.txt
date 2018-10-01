@@ -1,0 +1,9 @@
+Given a binary tree and 3 nodes a, b and c, the task is to find a node in the tree such that after removing all the edge connected to that node, a, b and c are in three different trees.
+Given below is a tree with input nodes as c, j and o.
+
+In the above tree, if node i gets disconnected from the tree, then the given nodes c, j, and o will be in three different trees which have been shown below.  
+A simple approach is to find LCA of all possible pairs of nodes given.
+Let, 
+In any case, either of  (x, y), (y, z), (z, x) or (x, y, z) will always be the same. In the first three cases, return the node which is not the same. In the last case returning any node of x, y or z will give the answer. 
+Below is the implementation of the above approach: 
+Run on IDE

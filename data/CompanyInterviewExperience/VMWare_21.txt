@@ -1,0 +1,19 @@
+Given a set of strings, find the longest common prefix.
+We have discussed word by word matching algorithm in previous post.
+In this algorithm, instead of going through the strings one by one, we will go through the characters one by one. 
+We consider our strings as –  “geeksforgeeks”, “geeks”, “geek”, “geezer”.
+
+
+
+
+Below is C++ implementation of this approach.
+Run on IDE
+Output : 
+
+How is this algorithm better than the “Word by Word Matching” algorithm ?-
+In Set 1 we discussed about the “Word by Word Matching” Algorithm. 
+Suppose you have the input strings as- “geeksforgeeks”, “geeks”, “geek”, “geezer”, “x”.
+Now there is no common prefix string of the above strings. By the “Word by Word Matching” algorithm discussed in Set 1, we come to the conclusion that there is no common prefix string by traversing all the strings. But if we use this algorithm, then in the first iteration itself we will come to know that there is no common prefix string, as we don’t go further to look for the second character of each strings. 
+This algorithm has a huge advantage when there are too many strings. 
+Time Complexity : Since we are iterating through all the characters of all the strings, so we can say that the time complexity is O(N M) where, 
+Auxiliary Space : To store the longest prefix string we are allocating space which is O(M).

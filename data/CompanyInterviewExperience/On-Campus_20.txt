@@ -1,0 +1,39 @@
+Recently, GS visited our college during internships to recruit ‘Summer Analysts’ for 2019.
+Round 1 was an online test hosted on HackerRank. It was composed of 3 questions –
+1. Coding Question (20 marks, partial marking for testcases) : Was based on bit manipulation, where we had to create ‘super-bitstrings’ for a sequence of numbers based on a given set of rules. I implemented a simple BFS for all possible super-bitstrings and was able to pass all test-cases.
+2. 8 CS MCQs (10 marks each, -2 for incorrect) : Questions were based on Graphs, Dynamic Programming, Complexity Analysis, Grammar Parsing, etc. I was able to do solve most of these.
+3. 10 Quant MCQs (10 marks each, -2 for incorrect) : These were based on Probability, Statistics, Combinatorics, ML fundamentals, Differential Equations, etc. I couldn’t do many questions here, but that was the case for most people.
+40 students were shortlisted for F2F interviews wherein different candidates faced different number of rounds of interviewing by a number of panels. I, personally, had 6 rounds.
+1st Interview – (40 mins)
+1. Maximum and minimum regions that can be formed by making ‘n’ cuts on a cake in either 2D or 3D. He first made me tell him my approach and then asked me to derive the general case formula by either observing the pattern or by solving the recursion that I had come up with.
+2. n ropes are given and the cost of joining 2 ropes is proportional to the sum of their lengths. I had to find the minimum total cost incurred in order to create 1 single rope from them. I suggested a greedy approach, wherein I used a Min-Heap for my implementation.
+3. Since I had mentioned Min-Heap in the previous question, he asked me about the Time Complexities of different operations on the heap. He then gave me an unsorted array and asked me to sort it using Heap-Sort. Basically, he wanted me to write the entire code for insertion, deletion and retrieval from a heap on paper, which I did. After which, he asked me to do the heap operations in-place, i.e., use O(1) space. Then he asked me to compare MergeSort, QuickSort and HeapSort. He asked me why heaps aren’t used as abundantly as BSTs for which I answered that the Invariant in a heap for the comparison of two elements is very weak as compared to BSTs (Thanks, MIT OCW!).
+2nd Interview – (20 mins)
+This round was a bit more focused on my Resume and my interests in Computer Science.He asked me 3 questions, one based on Binary Search and another based on basic Array Manipulation. Third one was the following and had to be solved in logarithmic time.
+https://stackoverflow.com/questions/12238241/find-local-minima-in-an-array
+He told me a few things about the work culture at GS, his experience there, and what projects do interns generally work on.
+3rd Interview – This was the HARDEST OF THEM ALL and went on for 2 hours. The panel consisted of 2 guys.
+(a) I was asked 4 questions and they wanted me to communicate whatever was going on my mind to them and then code the entire thing on paper(literally, the entire thing!).
+1. Currency Arbitrage – Solved it by taking negative logs of exchange ratios and treating them as weights of edges between nodes(currencies) in my graph and finding a negative cycle using Bellman-Ford.
+2. A question on string concatenation following a given set of complex rules. It took me quite some time to come up with a naive, recursive solution and after writing in down, he asked me to optimize. I drew the recursion tree and observed Overlapping Subproblems and hence, used tabulation to improve the Time Complexity. He was happy with my approach. We then discussed the approaches to some common DP problems such as Edit Distance, Knapsack etc.
+3. He asked me how does a compiler determine the order of compilation tasks to perform in makefiles and I immediately answered Topological Sorting. He then made me write the code on paper and a few questions on why does the method work and its complexity.
+4. An easy question on Binary Search. I had to find the frequency of a certain element in a sorted array in worst case O(lgN) time.
+(b) The second Panelist then looked at my resume and since I had mentioned an ongoing project on Server Architectures and Cloud Computing, he made me explain the approach I was going to use to simulate Network Traffic and then delved into the advantages and disadvantages of the transformation from Traditional Architectures -> Virtualization -> Containerization -> Serverless Architectures(FaaS). He wanted me to compare & contrast them and give examples after which he asked me to draw roughly – the layering of hardware, host OS, applications in each of the technologies.
+4th Interview – (45 mins)
+The interviewer was an alumni and so we had a brief chat on the clubs/departments I had joined and other extra-curriculars. After that, she asked me a few questions, all of which I was able to answer.
+1. Was based on Strategy : We have a stack of n coins and 2 players. In each turn, a player can remove either 1, 2 or 3 coins from the stack. Assuming that both players play optimally and the player to empty the stack wins, what constraints should be put on n such that the player who plays first always wins.
+2. https://stackoverflow.com/questions/4325200/find-the-majority-element-in-array.
+O(n) time and O(1) space solution expected.
+3. https://www.geeksforgeeks.org/closest-palindrome-number-whose-absolute-difference-min/
+4. https://www.hackerrank.com/challenges/find-the-running-median/
+5th Interview – (40 mins)
+I was asked what language am I proficient in and I said Java. Then, he asked me what all Data Structures I had used in Java, and I mentioned ArrayLists, Stacks, Priority Queues, HashMaps, TreeMaps, HashSets.
+1. Given a List of Objects, wherein each object may or may not be another list of objects, which may or may not be another list of objects and so on, write code to print the contents of all non-list objects.
+2. There is a dynamic stream of tuples consisting of transaction data(transaction id, value, names, etc.). After every tuple comes in, I need to print the ‘k’ Maximum transactions based on their values existing in the stream currently and the Amortized Cost should be O(1). I used a priority queue. After this, variations were asked.
+(a) What if ‘k’ is changing?
+Repopulate the priority queue every single time k changes and store all existing tuples in a HashMap from which they can be referred.
+(b) If transaction values are same, we want to compare according to ids. How do you implement that?
+Override default compareTo() logic by making the tuple(class in Java) implement Comparable Interface.
+6th Interview – (45 mins)
+No coding questions were asked in this round. I was asked to explain each and every major point that I had mentioned on my resume and we had a discussion on every one of those points for 10-15 min. For the projects, I was asked for their detailed implementation and use-cases.
+Finally, I was selected for the Internship!

@@ -1,0 +1,18 @@
+Let S be a finite partially ordered set. The size of a maximal antichain equals the size of a minimal chain cover of S. This is called the Dilworth’s theorem. It is named after the mathematician Robert P. Dilworth(1950).
+The width of a finite partially ordered set S is the maximum size of an antichain in S. In other words, the width of a finite partially ordered set S is the minimum number of chains needed to cover S, i.e. the minimum number of chains such that any element of S is in at least one of the chains. 
+Definition of chain : A chain in a partially ordered set is a subset of elements which are all comparable to each other.
+Definition of antichain : An antichain is a subset of elements, no two of which are comparable to each other.
+Illustrative examples : 
+Proof of Dilworth’s Theorem :
+The easiest proof is by induction on the size of the set. Let d be the size of the largest antichain of S. The proof will show that S can be covered by d chains. The base case is trivial. So suppose the result has been proven for all sets smaller than S.
+First, if no two elements of S are comparable, then S itself is an antichain and it can be covered by d = |S| chains each of length 1, so the result holds. Otherwise, let m be a minimal element (m <= z for all comparable z) and M be a maximal element (z <= M for all comparable z). Let T = S – {m, M}. If the largest antichain in T has size <= d – 1, then T can be covered by d – 1 chains, and so S can be covered by those plus the chain {m, M}, and the result will be proven for S.
+Now, suppose that the largest antichain in T has size d(it can't be larger because T is a subset of S). Call this antichain A.
+The idea of the rest of the proof is : picture the Hasse diagram for S where the largest antichain consists of a horizontal strip. Take everything below the strip and everything above the strip, use induction to cover these by chains, and then link the chains together by connecting them across the strip.
+That is, construct the two sets 
+                   S+ = {x belongs to S:x >= a for some a belongs to A}
+                   S– = {x belongs to S:x <= a for some a belongs to A}
+Then S+ U S– must be all of S, because if it weren’t then A would not be a maximal antichain in S. And S+ U S– = A, because if x is in the intersection, then a <= x <= b for some elements a, b belongs to A, so a and b are comparable by transitivity, so the only possibility is that a = b and they both equal x.
+Since m and M are not in A, it must be the case that and m does not belong to S+,  and m does not belong to S- so both sets ), and the are strictly smaller than S. The inductive hypothesis applies to both S– and S+, so they are both covered by d chains, each of which must contain exactly one element of A. Call them Ca– and Ca+. Now we can stitch together these covers to get a cover of all of S, by the chains Ca– U {a} U Ca+. This cover has d chains, so the result follows by induction. 
+Code to illustrate the above example :
+The classical O(N lg N) algorithm for longest increasing subsequence (LIS) can be seen as an application of Dilworth’s Theorem. See here.
+References : Youtube Video

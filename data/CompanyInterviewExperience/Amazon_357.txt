@@ -1,0 +1,17 @@
+Round-1 (World Trade Centre, Bangalore) – Technical
+1. Given an array that is first increasing then decreasing, find an element in it.
+ Example:  arr[] = { 2,6,8,9,15,20,18,16,12,7,1}; x = 12, Find x.
+2. Print left view of a binary tree.
+3. Given an array that contains only 1, 2 and 3. Sort the array. He asked me to write code for two methods – counting method and Dutch National Flag algorithm.
+4. There is a irregular, haphazard, shapeless cake that needs to be divided equally among n people.  Say you are one among them. How do you achieve consensus?
+Round -2 (Q-city, Hyderabad) – Bar raiser
+1. About projects, your contribution, your roles and responsibility, challenges faced etc.
+2. Why amazon?
+3. Given a pattern containing only Is and Ds. I for increasing and D for decreasing.  Devise an algorithm to print the MINIMUM number following that pattern. Digits from 1-9 and digits can’t repeat. 
+Round – 3 (Q-city, Hyderabad) – Technical
+1. Given pre-order traversal of a BST. Construct the BST.
+2. Given a m*n matrix. m and n can be huge. We need to query the matrix for sum of submatrices. Input will be the top-left and bottom-right co-ordinates. We need to return the sum of submatrix in O(1) time.
+Solution: Do column wise sum of the matrix and store it. Again, do the row wise sum and store it.
+Round – 4 (Q-city, Hyderabad) – Managerial
+1. About projects, your contribution, your roles and responsibility, challenges faced etc.
+2. Given m sorted arrays, merge it into one array.

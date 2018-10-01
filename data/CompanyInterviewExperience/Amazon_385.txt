@@ -1,0 +1,31 @@
+Recently Amazon visited our campus and take three rounds for final selection.
+First Round: 20 MCQs, 2 Coding questions. Platform – HackerRank.
+Coding Questions:
+1.Print all possible words from phone digits
+Find possible words phone digits
+2.A question involving optimization using modified binary search(I do not remember the entire question).
+A total of 10 students were selected after this round.The aptitude were simple but coding questions were time-consuming.
+Second Round(technical):
+The interviewer asked me three questions one after another.
+First question:
+1.print all permutations of a given string.
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+The interviewer asked me the approach only.
+2.print a matrix in spiral order.
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+The interviewer asked me directly to code.
+3.print the left and right view of a binary tree.
+https://www.geeksforgeeks.org/print-left-view-binary-tree/
+https://www.geeksforgeeks.org/print-right-view-binary-tree-2/
+The interviewer asked me the approach but did not tell me  to code.
+It was an easy round and 5 students were selected for Third round.
+
+Third Round(Technical):
+1.Write a program to remove the whitespaces from a given string.
+First i told him in o(n) time complexity and o(n) space complexity approach but he wanted o(n) time complexity with constant space complexity. I was unable to do it so he asked me second question.
+https://www.geeksforgeeks.org/remove-spaces-from-a-given-string/ 
+2.Write a program to find the element which is common in all the rows in a two-dimensional array. I told him using binary search but he wanted more optimized approach but i was unable to do so.
+I did not get selected but Overall it was a good interview experience.
+I want to thank geeksforgeeks for such a good and amazing solutions to the back-breaking problems which helped me in the interview .
+
+

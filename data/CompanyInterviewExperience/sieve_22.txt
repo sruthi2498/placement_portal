@@ -1,0 +1,13 @@
+Given an integer n. we need to print all twin prime number pairs between 1 to n. A Twin prime are those numbers which are prime and having a difference of two ( 2 ) between the two prime numbers. In other words, a twin prime is a prime that has a prime gap of two. 
+Sometimes the term twin prime is used for a pair of twin primes; an alternative name for this is prime twin or prime pair. Usually, the pair (2, 3) is not considered to be a pair of twin primes. Since 2 is the only even prime, this pair is the only pair of prime numbers that differ by one; thus twin primes are as closely spaced as possible for any other two primes.
+The first few twin prime pairs are :
+FACT : There are 409 Twin primes below 10, 000.
+Examples:
+Approach:
+Using Sieve of Eratosthenes find the list of all primes smaller than or equal to n and then iterate list again  till n and just checks the ith number and heck its (i+2)th number if both are prime then print both the numbers else proceed to next number to find Twin prime.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

@@ -1,0 +1,15 @@
+Skype Round
+1. Discussion on projects and the current work.
+1. Print all the subsequences of string.
+Face to Face Interview
+Round 1
+1. Check whether two strings are anagram of each other
+2. Given millions of words, return all groups of strings that are anagrams.(full implementation of solution using trie)
+Round 2
+1.Add two linked list of different size.(using recursion)
+2.You are given two string str1 and str2 of the same length.You can rotate str2 by 1. You have to find the minimum shift operation required to get common prefix of maximum length from str1 and str2.(full implementation of solution using KMP Algorithm)
+Round 3
+1.How to sync 2 databases after every write operation(system design)
+2.Design extensible calculator (object-oriented design/ class diagram).
+Round 4
+Deep discussion on current work in a team (about challenges faced, tech used, block diagram, etc)

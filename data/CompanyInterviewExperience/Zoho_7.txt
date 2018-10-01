@@ -1,0 +1,10 @@
+Round 1:There were 10 C programming questions and 15 Aptitude questions.
+Round 2: 
+1. Given a text and a wildcard pattern, implement wildcard pattern matching algorithm that finds if wildcard pattern is matched with text. The matching should cover the entire text (not partial text).
+The wildcard pattern can include the characters ‘?’ and ‘*’
+‘?’ – matches any single character
+‘*’ – Matches any sequence of characters (including the empty sequence)
+2. Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words. See following examples for more details.
+3.Print the following pattern
+4.Given an array as input, The condition is if the number is repeated you must add the number and put the next index value to 0. If the number is 0 print it at the last.
+

@@ -1,0 +1,19 @@
+Given an array with N elements, task is to find the count of factors of a number X which is product of all array elements.
+Examples:
+ Method 1 (Simple but causes overflow) 
+1. Multiply all the elements of the array.
+2. Count divisors in the number obtained after multiplication.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Method 2 (Avoids overflow)
+1. Find maximum element in array
+1. Find prime numbers smaller than the maximum element
+3. Find the number of overall occurrences of each prime factor in whole array by traversing all array elements and finding their prime factors. We use hashing to count occurrences.
+4. Let the counts of occurrences of prime factors be a1, a2, …aK, if we have K distinct prime factors, then the answer will be: (a1+1)(a2+1)(…)*(aK+1).
+Run on IDE
+Output:

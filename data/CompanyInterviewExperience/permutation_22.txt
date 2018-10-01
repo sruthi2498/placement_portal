@@ -1,0 +1,7 @@
+Given a string, we need to print all possible palindromes that can be generated using letters of that string. 
+Examples: 
+Generation of palindrome can be done by following steps,
+Below is C++ implementation.
+Run on IDE
+Output:
+Illustration :

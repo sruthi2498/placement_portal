@@ -1,0 +1,23 @@
+Commvault had recently visited our college. They were looking for both software developers as well as people for QA. Both had similar packages. Coming to the selection process, we were given a choice of opting for any one profile, days before the online test. I opted for the DEV profile. Everyone who applied were eligible for the test provided their cgpa was more than 8. There were 3 rounds in total. My description covers only the process for dev profile. QA had a completely separate process.
+
+Online test (2 hrs) :
+The online test had 6 programs to be solved,  3 in c/ c++ and 3 in java. The 6 questions had a total weightage of around 100 marks. They were pretty easy and had to be solved in 90 mins. Questions:
+One was direct sorting
+One was resizing an array dynamically
+One was making a circular linked list into 2 halves
+Coming to java, one was replacing all duplicate characters in a string with its next character and final string should not hav any duplicates.
+One was finding kth item in a BST
+One was finding no of even, odd, and prime numbers in an array
+Partial outputs were considered. Then there were 16 aptitude questions with 1 mark each. But only 20 mins. Aptitude was time taking but its weightage was less so it wasn’t a problem. We can’t rely on aptitude to get past the online test.
+21 were selected from the 450 members who applied for dev profile.
+I got through the first round by getting outputs for 5 programs both full outputs and partial outputs together. People who had similar score in c and java were only selected.
+
+Massive Coding round(9 hrs) :
+This is a massive coding round for the 21 of us who were shortlisted. They wanted us to create a de-duplication engine that acts as a file storage, retrieval, and handling system. It must take some files as inputs, take data from it in chunks of 8 byte size and store it in some efficient data structure of our choice. The data structure should be robust and must not store duplicate chunks. Instead, it has to make a reference to the original chunk that is repeated.
+They gave us 1 and half hr to come up with the most efficient design. Every 1 hour or so they kept sending off people whose design is not so good. They gave us some helper functions and header files as well. They kept helping us with the code and helped solving minor issues as well. They kept monitoring our performance throughout the round. I stayed till 8 hours and by the time i was sent away, there were only 7 people left.
+By the end of 9 hours only 4 people made it.
+
+Personal interview(final round) :
+The 4 people who made it, gave a personal interview which was technical stress test, immediately after the second round. It was to test their limits of confidence in the subject and how they can handle extreme pressure. 
+On the whole, it was an amazing experience,(especially the second round) and it was not easy. Honestly speaking it was a bit of an extreme process of selection. I have never faced or even heard of such a selection process before. Only people with past experience in such type of projects, very strong determination and patience can make it through. I loved the whole process and i am glad i was able to experience it. 
+A big thanks to geeksforgeeks without which i wouldn’t be able to prepare for placements. 

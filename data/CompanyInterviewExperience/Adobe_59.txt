@@ -1,0 +1,19 @@
+I was interviewed by Adobe at hyderbad following is the experience
+F2F Round 1:-
+1. What is MVC in angularjs ?(Angularjs was mentioned on my Resume so he asked me)
+2. Write programme to find first repeating element in an array
+sol :- https://www.geeksforgeeks.org/find-first-repeating-element-array-integers/
+3. https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+4. Given a node in directory structure(folder). 	Print all the sub node of the folder with its path. Structure of node is 
+
+F2F round 2:-
+1. In UI given a dropdown with name of employee and a entry as “all”
+   on clicking any entry it should show details about that employee
+   on selecting all it should show detail of all employee
+   He asked me to write sql query for it
+   Ans : select * from emp_table where emp_name=selected_emp or selected_emp=all;
+2. He asked me to implement “AND” (if input is bool1 and bool2 return (bool1 && bool2) ) gate and “NOT”( if input is A return !A ) using abstract class GATE.
+Then he asked me to implement child class “NAND” using “AND” and “NOT” as parent(base) class
+3. Asked me to search a word (string) cross word
+      	http://www.careercup.com/question?id=14560771
+4. Give an array of integer find all repeated element (non uniq) in it.

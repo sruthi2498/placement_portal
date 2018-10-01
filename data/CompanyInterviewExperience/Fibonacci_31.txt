@@ -1,0 +1,17 @@
+Given n stairs and we have 2 colour yellow and green the task is that we have to paint given stairs by given colour with condition is that we cannot paints two yellow steps directly after each other.
+Examples :
+
+Case 1: When we have 1 stair, we can paint either yellow or green.
+Case 2: When we have 2 stairs, we can paint first stair by either yellow or green but for next stair we can only paint by green because we cannot paint two yellow steps directly after each other. So total cases are three YG, GG, GY.
+Case 3: When we have 3 stairs then we can paint it by in 5 ways.
+If we take a closer look, we can notice that it follows Fibonacci Series.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Extra Space : O(n)
+We can solve this problem in O(Log n) time also using matrix exponentiation solution for n-th Fibonacci Number. 

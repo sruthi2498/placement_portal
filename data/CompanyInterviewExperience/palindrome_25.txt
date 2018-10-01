@@ -1,0 +1,9 @@
+Given a string, convert the string to palindrome without any modifications like adding a character, removing a character, replacing a character etc.
+Examples:
+
+1. Count occurrences of all characters.
+2. Count odd occurrences. If this count is greater than 1 or is equal to 1 and length of the string is even then obviously palindrome cannot be formed from the given string.
+3. Initialize two empty strings firstHalf and secondHalf.
+4. Traverse the map. For every character with count as count, attach count/2 characters to end of firstHalf and beginning of secondHalf.
+5. Finally return the result by appending firstHalf and secondHalf
+Run on IDE

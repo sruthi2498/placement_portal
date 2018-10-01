@@ -1,0 +1,7 @@
+Given a set of strings, find the longest common prefix.
+Examples:
+Previous Approaches: Set1 | Set2 | Set3 | Set4 | Set5 
+Approach: 
+Below is the implementation of the above approach:
+Run on IDE
+Time Complexity: O(N * log N)

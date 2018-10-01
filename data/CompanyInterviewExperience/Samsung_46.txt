@@ -1,0 +1,26 @@
+Round 1: Online coding round
+There is dedicated Samsung software for coding test the question is given below:
+There is one spaceship. X and Y co-odinate of source of spaceship and destination spaceship is given. There are N number of warmholes each warmhole has 5 values.
+First 2 values are starting co-ordinate of warmhole and after that value no. 3 and 4 represents ending co-ordinate of warmhole and last 5th value is represents cost to pass through this warmhole. Now these warmholes are bi-direction.
+Now the to go from (x1,y1) to (x2,y2) is abs(x1-x2)+abs(y1-y2).
+The main problem here is to find minimum distance to reach spaceship from source to destination co-ordinate using any number of warm-hole. It is ok if you wont use any warmhole.
+Solution:
+You can make graph which contain edge between all points and put cost of that edge. Now apply dijstra algorithm to find minimum distace between source to destination co-ordinate of spaceship.
+Here the main catch is that the cost to pass through warmhole can be zero so you have to take care while making graph matrix.
+After this round 3 are shortlisted out of 60.
+Round 2:Technical Round on SkyPe.
+-Tell me about yourself.
+-I have done project in Android so he asked me the difference between activity and fragment.
+-what is the difference between process and thread and some detain question about thread.
+-what process scheduler do,type of scheduler and its algorithm.
+-find path in matrix with min. cost staring from left upper corner to right bottom corner.
+https://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/
+-topological sorting of graph
+https://www.geeksforgeeks.org/topological-sorting/
+-You have 1 TB of big file containing numbers and you have to find to N smallest number.
+Round 3:HR Round
+-Tell me about yourself.
+-Tell me about your final year project.
+-why you want ot join samsung.
+-strength and weakness. 
+

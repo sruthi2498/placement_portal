@@ -1,0 +1,5 @@
+multimap::find() is a built-in function in C++ STL which returns an iterator or a constant iterator that refers to the position where the key is present in the multimap. If the key is not present in the multimap container, it returns an iterator or a constant iterator which refers to multimap.end(). 
+Syntax:  
+Parameters: The function accepts one mandatory parameter key which specifies the key to be searched in the multimap container. 
+Return Value: The function returns an iterator or a constant iterator which refers to the position where the key is present in the multimap. If the key is not present in the multimap container, it returns an iterator or a constant iterator which refers to multimap.end().  
+Run on IDE

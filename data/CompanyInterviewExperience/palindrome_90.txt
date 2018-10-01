@@ -1,0 +1,13 @@
+In Manacher’s Algorithm Part 1 and Part 2, we gone through some of the basics, understood LPS length array and how to calculate it efficiently based on four cases. Here we will implement the same.
+We have seen that there are no new character comparison needed in case 1 and case 2. In case 3 and case 4, necessary new comparison are needed.
+In following figure,
+
+If at all we need a comparison, we will only compare actual characters, which are at “odd” positions like 1, 3, 5, 7, etc.
+Even positions do not represent a character in string, so no comparison will be preformed for even positions.
+If two characters at different odd positions match, then they will increase LPS length by 2.
+There are many ways to implement this depending on how even and odd positions are handled. One way would be to create a new string 1st where we insert some unique character (say #, $ etc) in all even positions and then run algorithm on that (to avoid different way of even and odd position handling). Other way could be to work on given string itself but here even and odd positions should be handled appropriately.
+Here we will start with given string itself. When there is a need of expansion and character comparison required, we will expand in left and right positions one by one. When odd position is found, comparison will be done and LPS Length will be incremented by ONE. When even position is found, no comparison done and LPS Length will be incremented by ONE (So overall, one odd and one even positions on both left and right side will increase LPS Length by TWO).
+Run on IDE
+Run on IDE
+Output:
+This is the implementation based on the four cases discussed in Part 2. In Part 4, we have discussed a different way to look at these four cases and few other approaches. 

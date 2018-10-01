@@ -1,0 +1,12 @@
+External sorting is a term for a class of sorting algorithms that can handle massive amounts of data. External sorting is required when the data being sorted do not fit into the main memory of a computing device (usually RAM) and instead they must reside in the slower external memory (usually a hard drive). External sorting typically uses a hybrid sort-merge strategy. In the sorting phase, chunks of data small enough to fit in main memory are read, sorted, and written out to a temporary file. In the merge phase, the sorted sub-files are combined into a single larger file.
+One example of external sorting is the external merge sort algorithm, which sorts chunks that each fit in RAM, then merges the sorted chunks together. We first divide the file into runs such that the size of a run is small enough to fit into main memory. Then sort each run in main memory using merge sort sorting algorithm. Finally merge the resulting runs together into successively bigger runs, until the file is sorted.
+Prerequisite for the algorithm/code:
+MergeSort : Used for sort individual runs (a run is part of file that is small enough to fit in main memory)
+Merge K Sorted Arrays : Used to merge sorted runs.
+Below are the steps used in C++ implementation.
+Following is C++ implementation of above steps.
+Run on IDE
+This code won’t work on online compiler as it requires file creation permissions.  When run local machine, it produces sample input file “input.txt” with 10000 random numbers. It sorts the numbers and puts the sorted numbers in a file “output.txt”.  It also generates files with names 1, 2, .. to store sorted runs.
+References :
+https://en.wikipedia.org/wiki/External_sorting
+http://web.eecs.utk.edu/~leparker/Courses/CS302-Fall06/Notes/external-sorting2.html

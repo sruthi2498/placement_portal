@@ -1,0 +1,97 @@
+Round 1: 1.5 hours
+==================
+This was a preliminary round held on Hackerrank. It included 20 MCQs for 50 marks
+and 2 coding question for 75 marks each. We had 1.5 hours to solve all the questions.
+The questions in this round were from a range of subjects – Data Structures, Computer Networks, OS and a few Quantitative Aptitude questions. Some of them were related to finding no of articulation points, scheduler vs dispatcher, class A,B… IP addresses, linkage, Interrupt handler, union compatible tables etc
+These are the coding questions:
+1)There is network of servers which are connected by bidirectional cables.
+And we have to find the shortest path between two servers.
+Input format:
+First line: N (number of servers) E (number of cables) L (Latency of each cable, all
+cables are of same latency)
+E lines each contain: S (source server) D (destination server) [there is a cable
+between server S to server D]
+E+1 line: K (Number of test cases)
+K lines each contain: S(source server) D(destination server)
+Output format:
+2) Given that the numbers can only contain digits 0,1,2,3,4,5 find Nth such number.
+After this round 25 people were shortlisted for Technical Round 1
+========================================
+Technical Round 1: (Round 1) (45-60 mins)
+========================================
+The interviewer was pretty convivial. He started off with asking me about myself and then technical questions followed.
+Q.1 What are the technologies you have explored? What kind of problems you have solved with them? (since I mentioned I like exploring new stuff)
+Q.2 He skimmed through my resume and noticed that I had mentioned many languages but not C++ & he inadvertently asked me "what are vtables". I had absolutely no idea and he said it was a very obvious thing for a CS guy to know, for a CS guy. Later I realized vtables are used in c++ & the guy was probably shake up my confidence :/
+Q.3 Find a missing element in a sorted array of numbers from 1...N ( I have no idea why did he asked this :p)
+Q.4 REST vs SOAP (as I had good web dev experience)
+Q.4 Some basic OOPs concept and how they are actually implemented in Java ie how JVM does things at runtime (how runtime polymorphism actually works). I told him that I have never read Language Specifications but also told him how I'd do it if I were to implement it. He seemed quite satisfied.
+Q.5 You're given a dictionary of words, ex {'My','name','is','XYZ'} and also a sentence like XYZisMyname. You have to find whether this sentenance is only made up of words from the dictionary. I explained him a TRIE based approach, he pointed some pitfalls and I later improved it.
+Q.6 This was a tough one as it had appeared in Fourth Round of many candidates' experience that I read on GfG. There is a big warehouse and there are many forklifts used to carry around things from place to place. Now you're to design a COMPLETE system to manage them such that forklifts never collide and they always find
+optimal paths for their destination. You have to design the algorithms, data structures(to keep track of coordinates, positions etc), classes etc. I put forth
+many approaches but he wasn't satisfied with anyone of them and kept on guiding me to finally arrive on a decent enough solution.
+Q.7 Why Morgan Stanley? I gave him a staid and banal answer to which he facetiously replied that it wasn't at all honest :p
+For a first round,it was pretty tough one as I didn't get few questions but I think it was my approach and strong grasp on basics that made the difference.
+After this 8 people were selected for the next round.
+======================================
+Group Activity: (Round 2) (30-45 mins)
+======================================
+We were divided in to two groups and were handed out a chart paper, lego blocks, clay. We were given 30 mins and had to come up with a startup idea and its key features,
+business model, logo, name, funding plan etc. Then midway through the round we were asked to abandon our idea and pick a new one. So it was a pretty grilling and intensive round and at times it felt like roadies interview but it was absolute fun!
+=========================================
+Technical Round 2: (Round 3) (60-80 mins)
+=========================================
+I shall say this was my best and worst round. Almost every interviewer had a speciality and this one had OS. He asked me to introduce myslef and then asked me what
+my favorite subject is. I mentioned "OS and DS" and this put a big smile on his face :/
+Q.1 What is paging, page table, virtual memory, why it is needed, what can be the maximum size of page table and the virtual address space.
+Q.2 What are other things in OS that I like, I told him IPC, Threads etc and the next question followed.
+Q.3 This was a fantastic question and the way he built it - layer by layer was amazing! He asked me about browsers(which one you use and why?) and the difference between them. Obviously he
+was looking for an answer from OS perspective. So I told him how mozilla is very fast and how pathetic chrome becomes after opening few tabs. Then he asked me about
+the reasons. After getting a little guidance, I told him how mozilla uses threads and chrome uses processes for every new tab that you open and then he asked me
+how chrome shares cookies across tabs and thats when questions on IPC followed. I was then asked about synchronization etc.
+Q.4 Design a "playlist" feature (with all the classes and data structures) and how I would implement it and which Data Structures I'd use.
+        He asked me to implement a "Shuffle" feature also, where every "next song" is played randomly and you can also travel back and forth in the list(previous and next)
+        Precisely you should be able to -
+        (1) create a playlist
+        (2) add a song
+        (3) delete a song
+        (4) shuffle
+        (5) play previous or next song
+Q.5 You have to design a football game where in teams, players etc will be the classes and he asked me to list down all the entities involved and mention there
+attributes. I told him how I'll create various classes and defined inheritance among them (like player->mid,def,attacker etc). Just when it seemed easy, he told me
+how I'd design algorithm to pass the ball, score goal etc. So I told him how I'll rate players based on their roles and how there skills will decide their movements,
+passes, shots. How we can create a graph to find paths between players to ultimately reach the goal and how opponents can be given high weights on the edges to favor a long pass
+instead of short one with many opponents, how their ability will determine the feasibility of doing something. The entire thing was fun and I wish we had more time
+to discuss 🙂
+I'd say I answered only 80% of the questions but I showed him that I was very well verse with concepts. Be confident, its not necessary to answer all the questions
+but very important to think & iteratively improve your approach.
+===========================================================
+Professional Fitness Round/Tech+HR: (Round 4) (45-60 mins)
+===========================================================
+This was a mix of HR and tech. I was basically asked the same old question "Why Morgan?", but this time I gave him a very genuine answer and questions followed:
+Q.1 Why Morgan?
+Q.2 One instance where you helped people? (since I had mentioned it)
+Q.3 Family, background etc
+Q.4 What is AJAX and how would you use it with NodeJS (Since I had worked on NodeJS in my previous intern).
+Q.5 Implement a system where in you have to display stock prices in real time. I told him how I'd design my front end and backend. I mentioned two approaches-a long polling
+method and another using sockets. I told him how I'd maintain different versions of the stock table and how the second approach will be benefecial. This is where my
+intern helped as I had to build scalable backend to maintain millions of open connections and use session-reuse etc. I gave him a rough architecture and explained
+its working and he seemed quite impressed.
+Q.6 What are my plans for higher studies?
+Q.7 X = abcd, Y = a*b*c*d ( has to be 4 digit no)
+Find a,b,c,d such that X+Y is minimum.
+I fumbled a lot as I was very tired but he guided me very generously 🙂
+================================
+HR Round: (Round 5) (15-20 mins)
+================================
+Q.1 Why Morgan? Why only Morgan and why not X,Y,Z?
+Q.2 What do you dont like? How you deal with it?
+Q.3 Do you plan to do MS?
+Q.4 Any questions? - Yes, definitely :p
+TIPS:
+1. Morgan Stanley interviews are way different than others. Not only you have to be a good coder, but you also need good communication skills, body language and confidence.
+2. OS, CN, DBMS and DS are very very important! To make it through this grueling 5 Round process, you need to have good understanding of them.
+3. Talk about your projects as much as you can, time spent on talking about projects saves you from some questions which you may not like!
+4. Be loud and clear about your favorite subjects. Its highly probable you'll be asked questions on them.
+5. Ask for help whenever you're stuck on something.These folks are very friendly and they'll happily guide you till CERTAIN POINT.
+6. As you can see, a lots of problems involved picking up right data structures, algos to solve real life problems. It only comes with practice and experience 😉
+6. Keep coding and do MCQs from Gfg 🙂

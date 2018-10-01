@@ -1,0 +1,48 @@
+Round 1 (Coding Test (2 Questions))
+    1. Given 3 unsorted arrays A, B and C you need to find all possible combinations such that A[i] + B[j] = B[k] + C[l].
+    2. A string is beautiful if the string `S = T + T`. Given a string, find longest beautiful subsequence.
+
+Round 2 (Telephonic Round)
+    1. What is difference in `where` and `having` clause.
+    2. What is difference in `unique` and `unique all`.
+    3. What is partition in context to Databases?
+    4. Explain one of your recent projects.
+    5. What is NULL pointer.
+    6. What is dangling pointer.
+    7. What is static and dynamic binding? Give example.
+    8. Explain any 2 concepts of OOPS.
+    9. What are `join` in SQL and explain all its types. (Here I only knew 4 types, inner, outer, left, right but she asked me to explain cross join, I guessed it would be Cartesian product for sure.)
+    10. What databases you have worked with.
+    11. Difference in SQL and No-SQL Databases.
+    12. Difference between process and thread (I also explained thread in single and multi-core CPU).
+    13. What is deadlock? Given a situation that 5 men are sitting in a round table and they have food plate in front of them and between 2 men there is a spoon, make a situation that will cause deadlock.
+    14. She asked what data structures are you comfortable with, I said stacks, queues, trees. How would you implement stack? I told her array based implementation. Then she asked if you don’t know the capacity of stack than how you’ll implement I told her doubly linked list method. She said without back pointer, how? I was thinking like how it is possible without sacrificing time complexities. But later she told me just store those back pointers separately, she just wanted to check if I was thinking that way too, nothing bad, we were cool.
+    15. Given a row wise and column wise sorted arrays find an element in it. First I was thing binary search but it was hard to explain on phone later I told an approach to start from first row last element (we can also start from last row first element).
+Maybe a few more questions, I don’t remember. I was informed next day that I had cleared telephonic round and they wanted me to come to Bangalore office next week. I said yes to that.
+
+Round 3 (Technical Team Member)
+    1. https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
+    2. https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+    3. Find 3rd highest salary from a typical employee table (I did using `top` clause).
+    4. Given a table of employee ID’s with their manager ID’s print Employee Name with its ID and its Manager ID as the output. (I kind of messed it, not been in touch with this stuff for quite a time).
+    5. Explain any one internship project.
+
+Round 4 (Hiring Manager)
+    1. What is Thread? Difference between process and thread.
+    2. How processes are allotted CPU time? Answer is to explain CPU Scheduling and algorithms.
+    3. What is deadlock?
+    4. Little bit discussion on synchronized keyword of java and that how to implement it in C++, with code? I explained using 2 flags for 2 processes. It was kind of busy waiting code.
+    5. Asked about LRU (Least Recently Used) scheduling algorithm. I had used that kind of approach in one of my project.
+    6. When will you use No-SQL database and when RDBMS?
+    7. How to design Facebook chat messenger?
+    8. Explain any one internship project.
+    9. Modify linked list. Ex. 1->2->3->4->5->6->7->8 will be 1->8->3->6->5->4->7->2
+
+Round 5 (HR)
+    1. This was just a casual discussion with HR. He explained about the type of work and team.
+    2. Am I comfortable in technologies I might be working in?
+Round 6 (HR)
+    1. Tell me about yourself.
+    2. Some basic HR Round Questions and about if I had another offer and little bit about my internship details.
+After 11 days I got call that I have been selected for Walmart Labs.
+Thanks to Geeksforgeeks and InterviewBit.

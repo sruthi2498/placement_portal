@@ -1,0 +1,16 @@
+std::prev returns an iterator pointing to the element after being advanced by certain no. of positions in the reverse direction. It is defined inside the header file .
+It returns a copy of the argument advanced by the specified amount in the backward direction. If it is a random-access iterator, the function uses just once operator + or operator – for advancing. Otherwise, the function uses repeatedly the increase or decrease operator (operator ++ or operator – -) on the copied iterator until n elements have been advanced.
+Syntax:
+Run on IDE
+Output:
+How can it be helpful ?
+Run on IDE
+Output:
+Explanation: Here, just look how if we want copy only a selected portion of the list, then we can make use of std::prev, as otherwise we cannot use any +=, -= operators with bidirectional iterators supported by lists. So, we used std::prev and directly moved the iterator backwards by three positions from the end.
+
+Can we use std::next in place of std::prev ? 
+One common query that may arise with std::prev is that can std::next be also used with a negative argument to move the iterator in backward direction. Well, the answer is yes. 
+Run on IDE
+Output:
+Explanation: So, we have just used std::next in place of std::prev and changed the second argument from 3 to -3 here and it still serves the same purpose.
+We can use std::next also, but there are two things that needs to be kept in mind:

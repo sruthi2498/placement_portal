@@ -1,0 +1,11 @@
+Given an array, find elements which appears prime number of times in the array with minimum k frequency (frequency >= k).
+Examples :
+Approach :
+1. Create a Map which holds the number as Key and value as its occurrences in the input array.
+2. Iterate the Map keys and look for the values corresponding to their keys, return the key which
+   has minimum value fulfilling condition key’s value is a prime number and >= min occurrence provided
+   as input. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

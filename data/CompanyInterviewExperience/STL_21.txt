@@ -1,0 +1,12 @@
+The deque::resize() is an inbuilt function in C++ STL which changes the size of the deque.
+If the given size is greater than the current size, then new elements are inserted at the end of the deque.
+If the given size is smaller than the current size, then extra elements are destroyed.
+Syntax:
+Parameter: The function accepts only one mandatory parameter n which specifies the size of the deque. 
+Return value: The function does not return anything.
+Below program illustrates the above function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Time Complexity: O(N)

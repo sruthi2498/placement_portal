@@ -1,0 +1,6 @@
+The list:push_back() function in C++ STL is used to add a new element to an existing list container. It takes the element to be added as a parameter and adds it to the list container.
+Syntax: 
+Parameters: This function accepts a single parameter which is mandatory value. This refers to the element needed to be added to the list, list_name.
+Return Value: The return type of this function is void and it does not returns any value. 
+Below program illustrates the list::push_back() function. 
+Run on IDE

@@ -1,0 +1,25 @@
+Microsoft visited Thapar Institute of Engineering and Technology for hiring. The first round was on cocubes. There were different sets and the questions that I had in my set were:-
+Questions from other sets: Trim BST, Evaluate Infix Expression, average of Ascii characters, some question related to date (sorry, I don’t remember), and reordering the linked list nodes.
+I did the first two efficiently and did the last question with brute force (checking all combinations and selecting the smallest one) as I was not able to come up with the efficient approach.
+From about 200 students, 68 students were selected for group fly round.
+Group Fly Round
+2 questions were given to be solved in 2 hours. Both were pretty standard dynamic programming questions.
+28 students were selected for next round.
+F2F Interview Round 1
+I was interviewed by the senior most engineer from Microsoft. He greeted me and then became serious afterwards. He gave me the problem gas stations. First he asked whether I had solved it before, to which I said no, as I had not solved it before.
+I gave him two approaches, the O(n^2) one where I would check every pump for a circular tour. Then he asked me to improve the solution to linear time, and I did it.
+Then he gave me another problem, Alien Dictionary. I was discussing my approach but said me to move on as I was taking too much time. He then asked me if I had any questions for him. I asked him what he does on daily basis at Microsoft. He replied to my question happily. And asked me to wait.
+I thought I will be rejected as I did not solve the second question completely, but by the grace of God, I was allowed to sit for further rounds.
+F2F Interview Round 2
+This round was good. The interviewer was very friendly and calm. He first introduced himself and asked my to give a quick introduction. Then he also asked me about my interests. Then he asked me a few questions.
+This round went well, he asked if he had any questions for him, I asked him a few and replied them happily. I asked,
+F2F Interview Round 3
+Again a friendly interviewer. He asked me to introduce myself and took a look at my resume. He asked me to describe one of my projects. I described my project. He asked how I implemented a certain feature, and I gave him the answer.
+Then he asked me few questions of which few I had done before, so I told him that I had done that questions before.
+He asked me what were the other subjects I liked from computer science. I replied OS, but he did not ask any questions on OS.
+This interview went well too. He asked me if I had any questions for him and I again asked the same questions that I asked in the previous round.
+I was asked to wait outside. Then the HR told me that there are no further rounds for me and I can leave for the hostel. The result came the next morning and I was selected as a Software Engineer. I got a feeling which I had never experienced before. All the hard work paid off finally. The entire process took more than 12 hours.
+Total 5 students were selected for full-time role and 5 students were selected for the internship.
+Number 1 tip: Be confident and discuss all approaches before discussing the most optimal approach.
+Number 2 tip: Keep talking, interviewers will give hints if you go wrong.
+I would like to thank geeksforgeeks as it was a crucial resource during my preparation.

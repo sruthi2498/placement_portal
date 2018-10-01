@@ -1,0 +1,23 @@
+Amazon Banglore/Chennai Interview for SDE 1 role
+Round 1 – Pen Paper Test
+1) Root to leaf path sum equal to a given number, number can be positive or negative
+2) Reverse a Linked List in groups of given size
+Round 2
+1) Two nodes of a BST are swapped, correct the BST
+2) Given two (binary) trees, return the first pair of non-matching leaves 
+Round 3
+1) Print distinct elements in every window of size k
+2) Diagonal Traversal of Binary Tree
+Round 4
+1) Design Pizza Class, mostly OOPs concepts.
+2) Print top 500 words in a dictionary on the basis of frequency
+Round 5 – Hiring Manager Round
+1) Behavioural questions: Why to leave present company, Anything you want to change in yourself
+2) How files are stored in memory? Is it compulsory to save each character in 8-bit? Can we have a variable length of bit representation? Why ASCII has 8 bit only?
+For variable length I have said the Huffman Coding.
+Round 6 – Bar Raiser Round
+1) Behavioural questions : Anything that you have suggested apart from work, an instance where you have an argument with your manager, biggest accomplishment, biggest failure, anything that you have implemented apart from your day-to-day work.
+2) What is semaphore?
+3) What is design pattern? Explain Factory Design Pattern.
+4) Length of the longest substring without repeating characters
+

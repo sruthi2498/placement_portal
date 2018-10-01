@@ -1,0 +1,16 @@
+Given a matrix where every cell has some number of coins. Count number of ways to reach bottom right from top left with exactly k coins.  We can move to (i+1, j) and (i, j+1) from a cell (i, j).
+Example:
+
+
+The above problem can be recursively defined as below:
+Below is the implementation of above recursive algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of above solution recursive is exponential.  We can solve this problem in Pseudo Polynomial Time (time complexity is dependent on numeric value of input) using Dynamic Programming.  The idea is to use a 3 dimensional table dp[m][n][k] where m is row number, n is column number and k is number of coins.  Below is Dynamic Programming based C++ implementation.
+Run on IDE
+Output: 
+Time complexity of this solution is O(m*n*k).  
+Thanks to Gaurav Ahirwar for suggesting above solution.

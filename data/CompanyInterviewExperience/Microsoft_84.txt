@@ -1,0 +1,37 @@
+    Around 100 applied for the first round of Microsoft Internship offer. Basic Criteria was to have a CGPA of greater than 7.00. 
+Round 1:
+Three questions were given to everyone. First had a weightage of five marks and remaining two were ten marks. Cocubes conducted this round. Results were announced after 5 days.
+Question 1 :
+    Given an array of integers you have to find the farthest co-prime for all the elements in the array, in the range [2-250].
+    Example : [2,5,6] answer should be [ 249,249,247]
+             [5,57,8] answer should be [ 249,2,249] //because farthest
+Question 2:
+    Given a linked list where each node has two data values and a next pointer. You have to find  number of trends. A trend is said to arise when slope of adjacent nodes do not match.
+Also slope formula is given : (y2-y1)/ (x2-x1)
+Example :    1,2 -> 2,3 -> 3,2 -> 4,1 ->
+        Now slope of first two nodes is (3-2)/(2-1) i.e first and second node
+        Now slope of second node and third nodes is (2-3)/(3-2) which is not equal so there occurs a trend.
+        Continuing like this slope between third and fourth node is (1-2)/(4-3) which is equal to the previous slope so there is no trend. Continue for the remaining lists.
+        Finally number of trends for the given linked list is the answer.
+Question 3 :
+    Given two binary trees, find second tree is sub tree of first tree if so return the number of nodes in second tree else return -1.
+    The selection to next round is based on the cgpa and number of questions solved.
+Around 40 were selected for the second round. Luckily I cleared this round as I did only one question(10 mark) fully correct and remaining two partially, but I had a good CGPA(9.33).
+Round 2 (Group Fly) :
+    Given two linked lists each representing a number, you have to add the two linked list and return the third list as the result. They actually saw how we approached the problem and how we handle all the test cases and also the way in which we write code.
+    12 were selected for the next round.
+Round 3 (Technical F2F) :
+    The interviewer was a cool guy. I formally introduced myself. First one was a technical question. He drew a tree and asked me how will you do level order traversal. I said I will use queue. Then he gave the question “Zig-Zag level order traversal” which is similar to this
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+I told my approach first then he asked me to write code for my approach. It took me around five minutes to complete the code. Then he asked me to do some test runs for all the edge cases. He is satisfied with my approach.
+He then moved to OS. Something around how paging is implemented and what are the disadvantages of paging. The interview lasted more than 1 hour.(More about OS) 
+Within five minutes result was announced and I have to attend second F2F in another 5 minutes.
+
+Round 4 (Technical F2F) :
+    As usual I introduced myself to the interviewer. First question was given a tree print the leftmost node in the last level of the tree. I said that I will find the height of the tree, and then do level order traversal to print the first node in the tree. He said he want the answer in single traversal. After pondering for a while I came up with a solution. He was satisfied with that.
+    Second question was reverse every k nodes in a linked list. He asked me to write the code. I wrote the code in five minutes with test cases. I ran few test cases on the code I wrote. Then he asked me how will implement newsfeed of facebook? Then we were talking about this topic for around 20 minutes.
+    After this interview is over, I was asked to wait outside. I was informed that I have final round tomorrow.
+Final Round(F2F) :
+    He is really cool(I met him during my internship period). First, he was speaking about my project. He asked me if you were given chance to improve your project what will you do? We were speaking about the project for about 25 minutes. Then he gave a ‘C’ code and asked me to write test cases for it. He gave me implementation of itoa() function in C. I said this function won’t work for n=0 and it will return null. Also the resultant character buffer which stores and returns the answer is declared local to the function. I pointed those two errors. After this he asked do you have any questions?  I asked him what and where should I improve? He said you should concentrate on design part and everything else is okay.
+Tips for preparation :
+    Really I would like to thank geeks for geeks for keeping the content in such an organized manner. Do regularly participate in competitive programming.(spoj,codechef,codeforces). Be confident at any stage of interview. Just enjoy the interview process.

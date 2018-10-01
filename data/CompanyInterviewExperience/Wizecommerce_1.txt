@@ -1,0 +1,48 @@
+Round 1 : Written (Aptitude and Logics)
+There were around 30 mcq questions. The questions were based on aptitude and logics.
+There were puzzles also, for example given a 8×8 chessboard find the probablity that 2 queens are together.
+Questions based on time and distance, pipes and cisterns etc. Given a paragraph you have to answer the questions.
+This paper was quite difficult.
+Round 2: Written (Data Structures)
+There were 5 questions out of which first three were of 10 marks each and last 2 consists of 5 mark each.
+You have to create a data structure that can do insertion deletion and getrandomelement in O(1) time.
+Given linked lists like 4->3->5 and 3->2->6 the third list formed should be 7->5->1->1 and you were not allowed to modify
+the given lists and you cannot use extra space.
+There was a puzzle question based on akbar and birbal and you need to give a subjective answer that was paradox.
+Then last question was what is the probability of choosing correct answer from the options given below:
+1) 1/4
+2) 1/2
+3) 1
+4) 1/4
+Round 3: Technical Interview 1
+There was only one interviewer. He first asked me to introduce myself. Then he asked me about my projects,
+he asked me a to write a function to check for a prime number in an efficient manner. Then he asked me to reverse
+a singly linked list using 2 pointers only. He then discussed a puzzle that was asked in written aptitude paper, I answered that.
+Then he asked me a question that given a(a+b)=c+120, where a!=b!=c and a,b and c are all prime numbers find a, b and c. He asked me
+to find the values in 2 minutes. I was not able to do it. He then asked me questions from operating systems. He asked me about processes
+and threads, difference between them, why are threads preferred over processes. If an empty file is created in unix it’s file size is still
+4 kb why is that? Then he asked if file block size is 1 mb how the performance of the system is affected?
+That was for the first round.
+Round 4: Technical Interview 2
+There were two interviewers this time. Firstly one of them asked me to introduce myself. Then he asked that given a string and a number k and
+we need to perform left circular shift on that string in an efficient way. I did that in O(n) he asked me how’s the algorithm is working.
+Then other interviewer asked me that given a tree find the largest distance between two nodes. Then they asked me about least common ancestor
+and asked me to write proper code for that and then he did the dry run and asked me to explain him the code.
+I cleared both the technical interviews and then they called me to their office for other rounds.
+Round 5: HR Round
+The HR was good. She first asked me to introduce myself. What projects I have worked upon. Why I want to join them?
+Do I have any offers? What do you do in your spare time? Your interests? Do you take tuitions? How you enjoyed your life in your college?
+What will you do if given a very very large amount of money? What is your family background? Who all are in your family? Where do you
+see yourself in 5 years and what do you expect from life?
+Round 6: Written (Coding)
+There were two questions to be done in 45 minutes. Given two arrays arr1[] and arr2[], you have to find the largest common subset among the two.
+I done it with two approaches. Another question was that given two strings containing characters of the same superset. You are allowed to perform
+two operations swap adjacent characters and swap first and last characters and operations can be performed on either of the strings. Find the minimum
+number of swaps to make two strings equal. This question was quite difficult.
+Round 7: General Manager Round
+I had a meeting with GM. I was the first one called for it. When I went in no one was there and HR asked me to wait there. Then after that he came.
+Earlier he was busy in setting up his laptop and putting his things out of the bag. Then he asked me for my resume which was on his table.
+He then asked me all the questions that HR discussed with me but he was busy texting someone. Then he was busy on his laptop. He then discussed the
+two questions I did in last round. I told him what I did and what all approaches that I managed to think off post exam. He then asked me to tell differences
+between linked list and arraylist, then he asked me to tell difference between hash table and hashmap.
+That was the whole process. But the GM didn’t selected me, I don’t know the reason for not being selected. What I can think off is that he was too busy texting and calling others which might be more important for him than taking interviews. 

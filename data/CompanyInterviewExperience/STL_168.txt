@@ -1,0 +1,5 @@
+The multimap::size() is a built-in function in C++ STL which returns the number of elements in the multimap container. 
+Syntax:
+Parameters: The function does not accept any parameter.
+Return Value: This function returns the number of elements a multimap container has. 
+Run on IDE

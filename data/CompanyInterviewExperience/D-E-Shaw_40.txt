@@ -1,0 +1,24 @@
+Off-Campus recruitment process. I was contacted by a recruitment consultancy.
+Round 1:
+There were 3 sections – Apti, MCQ based on Java question + C++, coding each for 20 min.
+Aptitude exam too difficult at least as student I had never prepared for aptitude round even in college as I was not interested in preparing for CAT therefore I found it too difficult. However, students who have prepared for CAT exam may find it easy.
+Even more important point to note is that they don’t even evaluate Aptitude round as I have made it through the written round twice without marking a single answer on MCQ. Though I used to do some random rough work on the question paper . Because of my experience I am inclined to believe that the aptitude round is just to make a candidates feel stressed. Difficulty level was 6 out 5. 5 being the highest difficulty level.
+Section B was the technical MCQ round in which question were asked from various topics like C-enum, recursion, stack and queues, Least Recently Used memory allocation, nested union. Java – Overriding, abstract functions, serialization, one networking question based on TCP protocol something based on congestion window. I was able to solve 17-18 questions. Difficulty level was 3.4 out of 5. 5 being the highest difficulty level.
+Section C :- You are given the data of reported and manager. There is a company which wants to reduce the hierarchy level. To do the same, the manager who has only one reportee , the manager will be moved to another department and that single reportee will be moved under the manager of reportee’s manager.
+In the example above since B has only one reportee A, then B will be moved to another department and A’s reporting will be moved under C.
+Round 2: Re-evaluation of Section C
+Round 3: Started with the discussion why do you want to join DE shaw. Since prior to my current company, I was working with a finance based company so they asked why do you want to come back to finance base company.So they asked my about debentures, bonds, mortgages and other financial jargons.
+Algorithm based questions :
+1.)    How will you find 3 numbers in an array which sum to a given number
+2.)    You are given in and out time of trains, how many minimum number of tracks are required.
+Discussion about my projects.
+Internal fragmentation v/s external fragmentation.
+Write a SQL query to find employee with third highest salary, without using TOP or inner query.
+Another query to find the department which has maximum number of employees.
+Discussion of Abstract classes V/s Interfaces and why multiple inheritance cann’t be done in Java but can be done in c++.
+Can a main function return Boolean rather than an int in main function.
+What makes Java platform independent.
+Round 4: I am not sure whether it was HR or another F2F, may be it was their call depending on a particular candidate.
+Though I would like to add a few questions which other candidates were asked like how will you divide a triangle into equal area triangles. What are register variables . Keep a track of minimum element in a stack.
+For more details or questions, please comment below.
+

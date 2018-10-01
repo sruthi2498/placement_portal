@@ -1,0 +1,17 @@
+Given a integer n, we need to find how many digits remove from the number to make it a perfect square.
+Examples :
+Input : 8314
+Output: 81 2
+Explanation: If we remove 3 and 4 number becomes 81 which is a perfect square.
+Input : 57
+Output : -1
+The idea is to generate all possible subsequences and return optimal string using  set bits. Let’s suppose we have a string 8314. And using set bits we form all possible subsequences i.e.,
+8, 3, 83, 1, 81, 31, 831, 4, 84, 34, 834, 14, 814, 314, 8314.
+After forming all possible subsequences, we check which one is the perfect square. And we return a perfect square number which has the minimum length.
+In above example, three perfect squares are  1 4 and 81, so answer would be 81 because 81 has the max length 2.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

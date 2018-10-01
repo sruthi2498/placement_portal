@@ -1,0 +1,6 @@
+Euler Totient Function (ETF)  Φ(n) for an input n is count of numbers in {1, 2, 3, …, n} that are relatively prime to n, i.e., the numbers whose GCD (Greatest Common Divisor) with n is 1.
+We have discussed different methods to compute Euler Totient function that work well for single input. In problems where we have to call Euler’s Totient Function many times like 10^5 times, simple solution will result in TLE(Time limit Exceeded). The idea is to use Sieve of Eratosthenes.
+Find all prime numbers upto maximum limit say 10^5 using Sieve of Eratosthenes.
+To compute Φ(n), we do following.
+Run on IDE
+Output:

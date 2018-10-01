@@ -1,0 +1,20 @@
+Given Q queries and P where P is a prime number, each query has two numbers N and R and the task is to calculate nCr mod p. 
+Constraints: 
+Examples:
+Input: 
+Q = 2 p = 1000000007
+1st query: N = 15, R = 4
+2nd query: N = 20, R = 3
+Output:
+1st query: 1365
+2nd query: 1140 
+15!/(4!*(15-4)!)%1000000007 = 1365
+20!/(20!*(20-3)!)%1000000007 = 1140
+
+A naive approach is to calculate nCr using formulae by applying modular operations at any time. Hence time complexity will be O(q*n).
+A better approach is to use fermat little theorem. According to it nCr can also be written as (n!/(r!*(n-r)!) ) mod which is equivalent to (n!*inverse(r!)*inverse((n-r)!) ) mod p. So, precomputing factorial of numbers from 1 to n will allow queries to be answered in O(log n). The only calculation that needs to be done is calculating inverse of r! and (n-r)!. Hence overall complexity will be  q*( log(n)) .
+A efficient approach will be to reduce the better approach to an efficient one by precomputing the inverse of factorials. Precompute inverse of factorial in O(n) time and then quereies can be answered in O(1) time. Inverse of 1 to N natural number can be computed in O(n) time using Modular multiplicative inverse. Using recursive definition of factorial, the following can be written:  
+Since N’s maximum value is 106, precomputing values till 106 will do.
+Below is the implementation of the above approach: 
+Run on IDE
+Time Complexity: O(106) for precomputing and O(1) for every query.

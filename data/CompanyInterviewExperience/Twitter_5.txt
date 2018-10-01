@@ -1,0 +1,22 @@
+This article covers the sentiment analysis of any topic by parsing the tweets fetched from Twitter using Python.
+
+What is sentiment analysis?
+Sentiment Analysis is the process of ‘computationally’ determining whether a piece of writing is positive, negative or neutral. It’s also known as opinion mining, deriving the opinion or attitude of a speaker.
+Why sentiment analysis?
+Installation:
+Also, we need to install some NLTK corpora using following command:
+(Corpora is nothing but a large and structured set of texts.)
+Authentication:
+In order to fetch tweets through Twitter API, one needs to register an App through their twitter account. Follow these steps for the same:
+Implementation:
+Run on IDE
+Here is how a sample output looks like when above program is run:
+We follow these 3 major steps in our program:
+Now, let us try to understand the above piece of code:
+to call the Twitter API to fetch tweets.
+TextBlob is actually a high level library built over top of NLTK library. First we call clean_tweet method to remove links, special characters, etc. from the tweet using some simple regex.
+Then, as we pass tweet to create a TextBlob object, following processing is done over text by textblob library:
+Here is how sentiment classifier is created:
+Then, we use sentiment.polarity method of TextBlob class to get the polarity of tweet between -1 to 1.
+Then, we classify polarity as:
+References:

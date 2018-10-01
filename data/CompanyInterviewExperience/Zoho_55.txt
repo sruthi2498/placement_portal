@@ -1,0 +1,33 @@
+Recently Zoho visited for the campus placement. I would like to share my experience to geeksforgeeks because of which I got this offer. Thank you geekforgeeks 🙂
+Zoho On Campus Placement Process
+1) First Round : Written 
+  40 C output questions. 2 Hours.
+  30 1Mark and 10 2Mark questions. IT WAS NOT MCQ. The questions were challenging and covered all C concepts. 
+2) Second Round : Coding
+  Around 150 students shortlisted for this round. It was a local machine coding round. A staff will be assigned to a group of 5 students. He made note of the time took for solving each question. There was totally 7 questions and I solved 4 questions and did not complete the 5th question. 
+  1) Alternate sorting: Given an array of integers, rearrange the array in such a way that the first element is first maximum and second element is first minimum. 
+  2) Remove unbalanced parentheses in a given expression. 
+  3) Form a number system with only 3 and 4. Find the nth number of the number system.
+    Eg.) The numbers are: 3, 4, 33, 34, 43, 44, 333, 334, 343, 344, 433, 434, 443, 444, 3333, 3334, 3343, 3344, 3433, 3434, 3443, 3444 ….
+  4) Check whether a given mathematical expression is valid. 
+I don’t remember the 5th question.
+3) Third Round : Advanced Coding
+  A matrix game was given with 5 rules. We were asked to implement each of the rules separately. 
+  Each of the 9 cells can either be empty or filled with an atom. R3, R2, R1 are the rays that originate from the left. C1, C2, C3 are the rays that originate from the bottom of the box.
+Input  : Position of the atoms and the rays that gets originated from the outside of the box. 
+Rule 1:
+A ray that has an atom in its path should print ‘H’ (Hit) If it does not have any atoms in its path, the ray should pass to the other side.
+Rule 2 & 3:
+A ray that has an atom in its diagonal adjacent position should refract. 
+Rule 4:
+A ray that has atoms in both of the diagonal adjacent positions should reflect back. 
+Rule 5:
+The deflection of rays should happen in the order of the input rays. 
+The final task was to implement these rules for dynamic matrix size. 
+The final task was very confusing and it had to handle all the cases. There are chances for a ray to end at the starting position if the number of rows and columns are more than 5. 
+4) Fourth Round : Technical Interview
+  Basic questions from hashing, searching, sorting, JVM, OS, Threads. In-depth questions from the projects that I mentioned in my resume. So don’t just add projects that you are not thorough enough to answer all questions.
+  And a simple puzzle : (x-a)(x-b)(x-c)….(x-z) = ? 😀 
+5) Fifth Round : HR 
+  General HR questions like why zoho, how do you see yourself after 5 years, why did you choose CS/IT stream, tell me about your leadership skills etc.
+

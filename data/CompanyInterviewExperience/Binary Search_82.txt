@@ -1,0 +1,9 @@
+We are given an array of size n containing positive integers. The absolute difference between values at indices i and j is |a[i] – a[j]|. There are n*(n-1)/2 such pairs and we are asked to print the kth (1 <= k <= n*(n-1)/2) smallest absolute difference among all these pairs.
+Naive Method is to find all the n*(n-1)/2 possible absolute differences in O(n^2) and store them in an array. Then sort this array and print the k-th minimum value from this array. This will take time O(n^2 + n^2 * log(n^2)) = O(n^2 + 2*n^2*log(n)).
+The naive method won't be efficient for large values of n, say n = 10^5.
+An Efficient Solution is based on Binary Search.
+We need a function that will tell us number of pairs with difference <= mid efficiently.
+Since our array is sorted, this part can be done like this:
+Here upper_bound is a variant of binary search which returns a pointer to the first element from a[i] to a[n-1] which is greater than a[i] + mid. Let the pointer returned be j. Then    a[i] + mid < a[j]. Thus, subtracting (a+i+1) from this will give us the number of values whose difference with a[i] is <= mid. We sum this up for all indices from 0 to n-1 and get the answer for current mid.
+Run on IDE
+The time complexity of the algorithm is O( n*logn + n*logn*logn). Sorting takes O(n*logn). After that the main binary search over low and high takes O(n*logn*logn) time because each call to the function int f(int c, int n, int* a) takes time O(n*logn).

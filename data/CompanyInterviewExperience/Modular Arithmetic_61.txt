@@ -1,0 +1,16 @@
+Given a string consisting of integers 0 to 9. The task is to count the number of substrings which when convert into integer are divisible by 6. Substring does not contain leading zeroes.
+Examples:
+
+Method 1: (Brute Force) The idea is to find all the substrings of the given string and check if substring is divisible by 6 or not.
+Time Complexity: O(n2).
+Method 2:(Dynamic Programming) As discussed in Check if a large number is divisible by 6 or not. A number is divisible by 6 if last digit is divisible by 2 and sum of digits is divisible by 3.
+The idea is to use Dynamic Programming, which enables us to compute answer quickly and efficiently by tracking previously computed answers and using these stored answer instead of recomputing values.
+Let f(i, m) be the number of strings starting at index i and sum of their digits modulo 3 (so far) is m and number it represents is even. So, our answer would be
+
+Let x be the ith digit in the string. From f(i, m) we need to find all the even substrings that start in i + 1.
+Also, we will get an extra substring if (x + m) itself is divisible by 3 and x is even. So, we get recurrence relation 
+By memorizing the states, we get O(n) solution.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:
+Time Complexity: O(n).

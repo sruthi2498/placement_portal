@@ -1,0 +1,65 @@
+I recently got an internship offer from Microsoft IDC and would like to share my interview experience. It’s a little long because I’m sharing my experience, not just the questions.
+First round (Online): This was common for both Microsoft IT and IDC. There were 2 coding questions (1 hour) and 20 MCQs (30 minutes). MCQs were mostly based on data structures, C/C++ and a few on OS. In the coding questions we were given the main function, we just had to fill in the code for the functions.
+Coding Question 1: Find the point of intersection of two linked lists. (Bonus points for checking if the given linked lists are circular)
+Coding Question 2: Given a matrix which consists of 1’s and 0’s, a pool is defined as a collection of 0’s completely surrounded by 1’s. Example,
+1 1 1 1 1 1 0 0 0 0 1 1 1
+1 1 1 0 0 1 1 0 0 1 1 1 1
+1 1 0 0 0 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 0 0 0 0
+This matrix contains only one pool since only one group of 0’s is completely surrounded with 1’s
+Find the number of pools in a given matrix
+I solved both the questions but could not pass all the test cases for the second question. But I solved the bonus problem in the first question and my overall score became high. So if you get any bonus questions, do not ignore them. They may help you score really well.
+
+Second Round (Telephonic): The interviewer started with talking about Indore (my hometown), my weaknesses, my hobbies etc. So basically he was trying to calm me down (Tough I wasn’t panicking. I’ve no idea why he thought I was :-P). Then he began with the questions.
+Question 1: Suppose you are the in-charge of a project in which you need to develop an online railway ticket reservation system. What are the things that you would consider while planning out the project and why?
+I was excited since I had prepared this answer already. Basically it’s the kind of question where they wish to check the scale at which you think and how much you keep yourself updated with the latest technology. Firstly I talked about how our requirements would help in determining which technology to use. I told him about my projects in php & ASP.NET and then compared the two in terms of cost, scalability, support, ease of use etc. Then I told him a little bit about UI/UX and then finally about the factors that could cause our website to crash. We talked about database backup, restore etc. in short. There is no perfect answer to this question, you just need to show them that you think about the “Big Picture” while designing the system. When he was fully convinced, we moved on to the next problem
+Question 2: You are given a pointer to a node in a linked list (Not the pointer to the Linked List!). How will you delete this node?
+Frankly, I never heard this question before. It came to me as a big surprise that this question was quiet common but I missed it during my preparation! I got nervous at this point. But I remembered that I should let the interviewer know what’s going on in my mind, so I kept talking. But after 5 minutes he moved on to the next question and told that we would come back to this question again.
+Question 3: You are a project manager & you have 100 hours to complete a project. How much time will you give to planning, coding and testing?
+At this point I regretted sleeping during the Software Engineering Lectures. I thought making wild guesses would give a very bad impression. So instead of giving him numbers I told him that according to my experience coding would take maximum time, followed by planning and then testing. He laughed at my answer (Ohh yeah… they do that -_-). But maybe he thought of me as a kid who hardly has any experience and was kind enough to tell me that it’s not how projects in industry work. They give maximum time to planning because if the planning is done properly then coding hardly takes any time! (I know most of you are with me on this :-P)
+But while he was telling me all this, I got the time to think about the second question. But the problem was that my answer wouldn’t work when the node was the last node in the list. And this is exactly what I told him before answering the question. Surprisingly my answer was correct. He asked me what I will do in case the node was at the end? I said I had no idea. Then he told me about “dummy node” but he told me that he was satisfied with my answer.
+So my interview took more than 45 minutes (unlike my friends’ which went for 20-30 minutes! :-O). I thought I messed up a lot & won’t be selected for the next round. But I was (I guess others messed up more than I did ;-))
+
+Round 3 (Face-to-face in Microsoft IDC, Hyderabad Campus): So the campus is huge, great interior, facilities etc. Within half an hour, I was called for my first round.
+F2F 1: The interviewer himself came in the waiting area and took me to the interview room. Well it was a big hall with 8 interviewers sitting far away from each other. They all had their laptops, pens and few blank sheets with them.
+Interviewer: Why don’t you tell me something about youself?
+I gave him a breif introduction about myself (laid special emphasis on the fact that I am a Microsoft Student Associate ;-))
+Interviewer: Okay so let’s jump on to the questions… You are given a string that consists of Rs, Gs and Bs. You need to sort the string so that all the Rs come towards the front, Gs in the middle and Bs towards the end.
+Approach 1: Brute force i.e. simple selection sort
+Approach 2: Use 3 counters r, g, b and count the number of Rs, Gs and Bs in the first parse and put those many Rs, Gs and Bs in the second parse. (he smiled and said it’s a good solution but he wants a different answer)
+Approach 3: In the first parse, bring all the Rs towards the front. The remaining string would have only Gs and Bs. Similarly, in the second parse, collect all the Bs at the end (he said I can do better)
+Approach 4: It took me a little time to think about this but he gave me hints and I finally came up with an algorithm. He asked me to code it and started doing his own work. I walked him through the code (and tried highlighting how I took care of the invalid inputs, corner cases etc. :-P)
+Interviewer: Well… that’s all from my side. Do you want to ask me any questions?
+Well I didn’t mind a bit of chit chat 😛 So I started asking him about the most challenging project he did in MS and about the development strategy that they follow for development of cross platform apps. He was nice and told me everything with a lot of interest.
+
+F2F 2: 2 of my friends were rejected in the first round itself, while the rest 3 of us went to the next round. This interviewer looked very serious.
+Interviewer: Tell me something about yourself…
+With his expressions he didn’t seem to be interested in my answer at all and quickly gave me a question.
+Interviewer: Okay so you are given a string that consists of vowels, consonants and other chars. You need to sort the string so that all the vowels come towards the front, consonants in the middle and other chars towards the end.
+I couldn’t be more happier at that moment 😀 I didn’t tell him that I had been asked this question in the previous interview & told him my approach (Approach 4 from last interview). But he understood that I knew the answer and so he changed the question 😛
+Interviewer: You are given a matrix that consist of chars and you need to search for a string in that matrix. Now the string can be formed by going into any direction from a particular matrix position. So the only constraint is that the cells’ corners must touch.
+This was an easy problem and I told him my method
+Interviewer: Now I’m putting one more constraint over this. You can not traverse an element more than once.
+This was again easy. I just used a dummy character (*) in place of the chars that had already been visited and restored the char back after the recursive step. He got a little confused by this dummy char concept but then I explained him why it would work and he was satisfied with my answer. He asked me to code it then. I made a few mistakes which I corrected later but overall this round was good 🙂
+F2F 3: This was the final round & was supposed to be an HR round. But since they had to finish off the interviews they sent me to a technical person! (I peeked into his laptop and saw that he had the feedback of my previous rounds and also the questions which were asked to me!)
+Interviewer: Tell me something about yourself
+I again gave the same answer (ofcourse with emphasis on MSA thing :-P)
+Interviewer: What could you have done better in any of your previous interviews?
+I told him about a small bug in my code. I forgot to increment a variable and the interviewer ignored it.
+Interviewer: So I see you have worked on Hadoop. Can you tell me what you did in your project?
+I was expecting this question and gave him a good explanation on this. My project was on network intrusion detection systems using big data.
+Interviewer: Since you’ve worked on IPs, let me give you a small problem. Convert the following number into IPv4 format.
+It was fairly easy and I wrote the code. I made a few mistakes in my code (I was really nervous this time) but corrected them later
+Interviewer: Okay so tell me something about garbage collection…
+Told the definition
+Interviewer: In which language do we have garbage collection?
+I told C++ (yes… that’s what you do when you are under so much of pressure -_-) He gave me a strange look and then I realized what I told him! But I guess he understood that I was panicking
+Interviewer: Okay… what are unicode strings?
+I never expected this question in an interview and I gave a very bad definition. He didn’t looked impressed at all.
+Interviewer: Umm… let me give you a coding problem. You are given a canvas and you have to draw a line from point A to B. How would you go about doing this problem?
+Phew… this question would save me (atleast that’s what I thought). But I didn’t consider the corner cases. He gave me a hint and luckily I could solve the problem successfully.
+Interviewer: That’s it from my side. Do you have any questions for me?
+Yes ofcourse! I asked him about the most challenging project that he did but he seemed to be a bit confused about what to answer. So I explained him my question again and gave him a few examples of what other interviewers answered (It felt awesome at that moment because he was in the same position as I was 10 minutes back then :-P)
+The experience was good because they focused only on technical stuff & the questions were also good. I really liked the helping attitude of people there.
+I would like to thank geeksforgeeks for helping me out in the preparation for this interview. I think you guys are doing a great job helping out students 😀
+

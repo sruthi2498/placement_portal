@@ -1,0 +1,26 @@
+Each of the rounds were of more than 1 hour and they mainly focused on logical thinking and approach. DS and algorithms were the topics asked. 
+First round – 
+At first round, there were two interviewers. First, they asked about me. Why do you want to leave your present company and join Amazon?
+Then after brief discussion, he went on to questions.
+There is a 2-d matrix with rows sorted. Convert it into 1-d sorted array. Also specify space and time complexity.
+Given two binary trees, check whether two trees are identical or not. Write working code for it.
+Using the previous solution, check whether one tree is subtree of another or not. Also specify time complexity (Average and worst case) with proper code.
+Second round –
+General discussion about present company’s work.
+Given a number of friends who has to give or take some amount of money from one another. Design an algorithm by which the total cash flow among all the friends is minimized. Specify the data structure which you will use and write the code for it.
+Given an array, find the index of first occurrence of a number ‘x’. First, I gave O(n) solution, after that he asked to optimize it and find it in less than O(n). There was long discussion in this question.
+Third Round – 
+General questions like – tell me about yourself.
+What are your strengths?
+Why Amazon?
+Why do you want to leave your current company so soon?
+Did you ever been in any kind of disagreement with your management?
+Work in current company ? 
+Design snake and ladder game. What data structure would you use, with design was needed. He then asked to optimize it further.
+Given two linked list , find the sum of those linked list . With recursion and without recursion. Lists may be same or different lengths. Complete code was needed with space and time complexity.
+Fourth round –
+General discussion and Introduction. Work about current company?  
+What is the major challenging task that you have faced till date? Then more discussions and questions on the task.
+Any disagreement with manager and any good or innovative idea that you have come up with and worked on it? 
+One technical question – Given a word and the dictionary, find all the anagrams of the particular word present in dictionary (That are valid words). Propose the data structure you have used and time complexity of the solution.
+

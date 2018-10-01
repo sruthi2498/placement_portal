@@ -1,0 +1,13 @@
+Given two Binary Trees, write a function that returns true if two trees are mirror of each other, else false.  For example, the function should return true for following input trees.
+
+This problem is different from the problem discussed here.
+For two trees ‘a’ and ‘b’ to be mirror images, the following three conditions must be true:
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+
+Iterative method to check if two trees are mirror of each other

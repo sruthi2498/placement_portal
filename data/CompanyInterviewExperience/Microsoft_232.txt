@@ -1,0 +1,37 @@
+This is my first time writing an article so here goes. Microsoft came to our campus yesterday. I sat for both the IDC and IT process. 
+Round 1:
+It was an MCQ round, 15-20 requestions. Mostly recursive questions, some aptitude and I/O.
+Round 2:
+Online coding i got two questions.
+1. Window of k size in arr of size n, find all distinct element counts in those windows.
+2. Connect all leaf nodes of a binary tree to make a LL. ( Don’t allocate any memory just set the right child pointer as next node)
+Round 3:
+Group Fly round.
+We got two questions:
+1. Length of longest palindromic substring in a string. I got an O(n^2) solution. Mentor asked me to optimize i tried but i couldn’t.
+2. Merge two sorted arrays. Optimized from O(n) extra space to O(1) to no extra space.
+Write all your approaches on the sheet even the pseudo code towards the end. Write comments.
+Discuss with mentor. He should know who you are. Indent and write neatly.
+Round 4:
+Technical Interview.
+OS questions.
+1. Insert in a BST.
+2. Find element in BST closest to k.
+Some threading and java questions.
+Be confident. Interviewer wasn’t responsive.
+Round 5:
+Technical Interview.
+Basic DS questions, asked me what has been taught what has not been taught, what you know and what not. I told him i have done heaps also so he asked me basics of heap.
+Next question proper code he wanted for finding 2nd largest element in array was helpful and wanted me to check edge cases and fix. I missed one and i thought i wouldn’t get through.
+They understand your code easily so don’t think they will miss anything.
+PLEASE INDENT. I wasn’t doing it initially so he was confused.
+Asked about OOP and basics and stuff. I answered explained everything with examples. Run time polymorphism, Inheritance, encapsulation and stuff.
+Round 6:
+HR Interview.
+Best round ever. The person was really very very nice and frank. Loved every bit of interaction. Gave puzzles like hour minute angle difference, some tricky ones like how many points lie west of north pole (Answer is none) since there is nothing there.
+Asked me to implement a scalable device which can incorporate additional shapes later on. The device would output a shape on a matrix if input is shape name. He pushed me towards a hash table approach with O(1) lookup and the table containing the coordinates for matrix traversal.
+Ultimately he offered me an internship in MS IDC.
+I was offered an internship along with 4 others.
+I sat through the MS IT procedure before IDC, the interviewer wasn’t very nice and made me feel demotivated. When i found an error in the solution he was trying to give me he was impressed. So be on your toes. Try and solve both questions in 2nd round as i was offered a bypass in IT. I skipped round 3 with 7 others.
+I want to thanks Geeksforgeeks for everything. Every minute of my last few weeks was just GFG. It was an amazing feeling to get an internship.
+Thanks a lot GFG! Amazing platform. Amazing articles.

@@ -1,0 +1,40 @@
+Pattern:
+1. Online Test (70 appeared, 43 shortlisted)
+2. Analytical reasoning, coding round (Written) (30 shortlisted)
+3. Technical interview I (16 shortlisted)
+4. Technical interview II (finally 6 got selected)
+– Global Business Unit (GBU) Developer profile
+Online round: 2 Hours
+4 broad sections containing subsections:
+– Aptitude
+– Verbal
+– Reasoning
+– Technical
+Paper pen round : 1 hour
+Puzzle: 2 questions
+Code: 1 question
+Technical interview 1: 1 hour
+by Senior Application Developer.
+Interviewer went through my resume and asked what you did as Tech Head and Maths sec.
+1. Third year project. Challenges and future scope. (15 min discussion)
+2. Insertion sort, How will you optimize it? which sort is better for arrays and which for  SLL.
+3. Explain various search techniques. He was looking for hash table ans Trie not for binary search.
+4. Difference between C and CPP, overloading and over riding.
+5. Explain containers: Hash Tables, map, multimap, set, multiset, Hashmap and hashset.
+6. some basic questions were on os, networking and web development.
+7. sql queries, Joins with ven diagrams. Difference between 3NF and BCNF.
+8. OOP concepts like polymorphism, Inheritance, virtual functions, RTTI, virtual Destructor with real life examples.
+
+Technical interview 2: 45 mins
+By senior manager.
+Again Interviewer went through my resume and asked If I’ll give you free time and all power what will you do.
+1. Asked for dry run of written round code.
+2. How you will store mobile no. of all the citizens of pune? I explained it using Trie DS, He asked me to write down code for it.
+3. How will you search a man who died 500 years ago in Family tree, Root node was created 7000 years ago?
+4. How will you implement queue using stack.
+5. How you will check whether path shown by google map is correct or not, u can’t use dijkstra’s,
+6. What you did as Tech Branch Head, Maths sec and House captain.
+7. Which profile and city you will prefer for joining.
+8. Anything you would want to know from us?
+
+

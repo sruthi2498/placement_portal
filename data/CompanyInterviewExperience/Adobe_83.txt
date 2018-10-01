@@ -1,0 +1,38 @@
+1.	Online Technical Round (2 hrs)
+7 coding problems were given along with 13 mcqs. Coding Problems were very easy.
+2.	Online Aptitude Round(50 minutes)
+45 questions were there. Time was the only limit in this round. Two LR passages, 1 DI problem and rest were quant questions.
+16 were selected after the online rounds.
+3.	Round 1 PI
+This round was all about concepts of C, C++, Compiler, Debugging, Design patterns
+a.	Tell about different sorting algorithms and their complexities. Why so many sorting algorithms present where only one can serve the purpose. Advantages and disadvantages of quick sort and merge sort.
+b.	What happens when a C program is compiled and executed in details.
+c.	Where are local variables, dynamic allocated variables, global variables stored?
+d.	Where are static variables stored?
+e.	Tell me about the design patterns which you know. Which design pattern have you followed in your project.
+f.	Write a pseudo code for Singleton Pattern.
+g.	Consider the code snippet 
+Without touching the above code snippet print
+Hi
+Hello
+Bye
+h.	Do you want to work for Adobe? Why?
+4.	Round 2 PI
+a.	Tell me about yourself.
+b.	Difference between process and thread. Give me a real life example where thread can be used.
+c.	Consider a recursive function with no end condition and architecture of your own laptop. What will happen? After how much time will the program crash.(Calculations and perfect answer was required)
+d.	Write a client server simple code. How will you handle multiple requests? Will increasing number of threads solve the problem. What should be the optimal number of threads depending upon your computer architecture if you are receiving many requests in 10milliseconds time.
+e.	How google handles 1 billion request in 1msec.
+f.	What is Load Balancer?
+g.	Real life example where hashmap can be used. Real life example where array can be used.
+h.	Why do you want to join Adobe?
+i.	What happened in Microsoft last round?(I was rejected in Microsoft last round)
+5.	Round 3 PI(HR Round)
+Basic HR questions were asked. A puzzle was given where three tires are given which can travel 14, 20, 26 kms . Two tires are required for travelling. Find the maximum distance which can be travelled. My advice will be try to be honest because these people are very much experienced. And if you lie you better be a good liar. :p
+6.	Round 4 PI
+a.	Find the number of occurrences of a key in a sorted array. Handle the base case. Write some test cases for it.
+b.	Implement a stack where you can search an element in the data structure. He asked me to optimize the solution.
+c.	Two strings were given. You have to find whether they are permutations of each other. I gave the hashing technique. He then asked me to optimize it.
+I thank geeksforgeeks for maintaining such a great site. It helped me a lot while preparing for the interviews.
+
+

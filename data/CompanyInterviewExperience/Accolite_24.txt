@@ -1,0 +1,10 @@
+Given a screen containing alphabets from A-Z, we can go from one character to another characters using a remote. The remote contains left, right, top and bottom keys.
+Find shortest possible path to type all characters of given string using the remote.  Initial position is top left and all characters of input string should be printed in order.
+Screen:
+For example,
+The idea is to consider screen as 2D-matrix of characters. Then we consider all characters of given string one by one and print out the shortest path between current character and next character in the matrix. In order to find shortest path, we consider the coordinates of current character and next character in the matrix. Based on the difference between x and y values of current and next character’s coordinates, we move left, right, top or bottom. i.e.
+Below is implementation of above idea
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,24 @@
+Round 1: Aptitude
+Round 2: 2 questions from data structure
+Round 3: Group fly round
+Find the least common ancestor of two nodes in a binary tree
+Determine if the current root value matches one of the key values. If so, this root is returned. Else the procedure is recurred for left and right subtrees. The node which has one key in left subtree and the other key in its right subtree is the LCA.  If both keys lie in left subtree, the first node whose value matches one of the key values is LCA. Similarly for right subtree. Time complexity is O(n).  The interviewer asked for optimization. I suggested a better approach for BST.
+Given two sorted arrays (with repetitive elements) find the kth minimum number from both arrays
+Maintain an index for each array, both initialized to the first element of their respective array. Loop k times and in each iteration find the minimum element among the current indices and increment the index of the array containing the minimum. If the elements are equal, increment both indices. Time complexityis O(k).
+Round 4:
+Given a node in a BST, delete it. Parent link is not a part of the node structure.
+If the node is a leaf node, delete the node.
+If the node has one child replace the value of the node with the child’s value and recursively delete the child.
+If the node has two children, find the inorder successor, replace the current node’s value with the inorder succesor’s value and recursively delete the inorder successor.
+Time complexity is O(h). Interviewer suggested a possible optimization for one child case, that recursive deletion is not needed for one child. We only have to copy its left and right child pointers to the node which we are trying to delete.
+Puzzle – there are nine coins, out of which one is defective (differing in weight from the others). Find the maximum number of iterations to find the defective one.
+I suggested a divide and conquer approach, with maximum of 5 iterations. 
+Round 5:
+Discussion of project
+A program is running in an infinite loop in the system. If we try to run another good program while this infinite loop is executing, will the good program run?
+I answered that the program will run, but the CPU utilization will be reduced.
+Write a code to implement the strtok() function in C.
+Maintain an index to represent start of next token, initialized to 0. Search the string linearly, if a match for the pattern is found, store the substring from the start index to the previous position of the pattern in a string array and update the start index for next token. Time complexity is O(n). 
+Interviewer wanted to know why I had used malloc() instead of static allocation.
+
+

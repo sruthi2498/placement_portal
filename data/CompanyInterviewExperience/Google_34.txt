@@ -1,0 +1,18 @@
+A number is called as a Jumping Number if all adjacent digits in it differ by 1. The difference between ‘9’ and ‘0’ is not considered as 1.
+All single digit numbers are considered as Jumping Numbers.  For example 7, 8987 and 4343456  are Jumping numbers but 796 and 89098 are not. 
+Given a positive number x, print all Jumping Numbers smaller than or equal to x.  The numbers can be printed in any order.
+Example: 
+
+
+One Simple Solution is to traverse all numbers from 0 to x. For every traversed number, check if it is a Jumping number. If yes, then print it. Otherwise ignore it.  Time Complexity of this solution is O(x).
+An Efficient Solution can solve this problem in O(k) time where k is number of Jumping Numbers smaller than or equal to x.  The idea is use BFS or DFS. 
+Assume that we have a graph where the starting node is 0 and we need to traverse it from the start node to all the reachable nodes.
+With the restrictions given in the graph about the jumping numbers, what do you think should be the restrictions defining the next transitions in the graph.
+Below is BFS based C++ implementation of above idea.
+
+Run on IDE
+Run on IDE
+Output: 
+Thanks to Gaurav Ahirwar for above solution.
+
+Exercise:

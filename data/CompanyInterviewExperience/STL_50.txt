@@ -1,0 +1,6 @@
+list::unique() is an inbulit function in C++ STL which removes all duplicate consecutive elements from the list.
+Syntax:
+Parameters:The function accepts a single and optional parameter which is a binary predicate that returns true if the elements should be treated as equal. It has following syntax:
+Return value: This function does not return anything.
+Below is the implementation of above function:
+Run on IDE

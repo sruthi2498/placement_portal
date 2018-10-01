@@ -1,0 +1,13 @@
+Given an array, the task is to find to LIS (Longest Increasing Subsequence) in a circular way.
+Examples :
+
+As in the last window we will have the same elements as in the given array which we don’t need to compute again, so we can append only n-1 elements to reduce the number of operations.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of above solution is O(n3). It can be reduced O(n2 Log n) using O(n Log n) algorithm to find LIS.
+Reference : 
+https://www.careercup.com/question?id=5942735794077696

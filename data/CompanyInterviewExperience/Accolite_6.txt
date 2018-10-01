@@ -1,0 +1,40 @@
+The selection process for Accolite consisted of 5 rounds.
+
+1) Online Test: 
+Around 150 students appeared for the online test. The scoring for this round was +1 for every right answer & -0.25 for every wrong one. 
+There were 20 MCQs that had to be done in 30 minutes, questions were from OS, DBMS, Data structures, C  Programming, Algorithms & few general aptitude questions. The questions were a little tricky and tested the in-depth knowledge of the subject. I strongly recommend you to polish your algorithm design & analysis skills. 
+General tips for clearing this round: Always read the questions twice as some questions can be a little tricky & are not always as straightforward as they seem. This online test, unlike many others, has a negative scoring system as well, so it is always advisable to only mark the answers which you’re completely sure about.
+After round 1, 10 students were shortlisted for the interviews.
+
+2) Interview Round 1 (technical):
+All the interviewers throughout the process were extremely friendly. 
+He glanced through my resume & asked about my projects. He started dissecting every project that I had done. Questions ranged from broad technology talks about optimization in my projects to the real nitty gritty aspects of it like OAuth authentication. 
+Several questions were asked about sorting algorithms & their efficiency analysis. Several lesser known sorts like shell sort were also discussed. Several concepts regarding the OOPS methodology were discussed. He then gave me few tree problems to solve like printing the binary tree in a vertical manner, max. width of a binary tree. Some questions related to pointer & references were asked.
+Few questions in DBMS were also discussed like ACID properties of a database, the difference between RDBMS & NoSQL, finding the nth largest entry in a database.
+I can’t stress the importance of Data Structures & Algorithms for this company enough. The approach, elegance & efficiency of the solution matters more the correctness itself.
+This round lasted for 1 Hr 30 Mins.
+
+3) Interview Round 2 (technical):
+This was a hardcore coding round where the knowledge of DS, Algorithms was tested immensely.
+Every solution had to be coded on the paper.
+This interview began with several tree questions like finding the left view of the tree. I mentioned the level order traversal & the DFS approach. The complexity of both the solutions had to be determined & coded on the paper. He also asked about Binary tree to BST conversion.
+There were a lot of questions on Hashing after that. He gave me a consecutive integer array with 1 missing number & 1 repeating number & told me to find that. I initially solved it in O(n^2) with presorting, but he told me to bring it down to O(n). That is when the Hashing approach struck my head. He asked about the number of pairs for a given sum in the array (Hashing again). 
+He then asked some SQL queries on recursive relationships in the table (finding the employee name and the manager name).
+Some Greedy & DP questions also came up like finding the minimum number of coins for obtaining a particular sum using the denominations provided & Minimum number of platforms required for a railway station.
+I really recommend spending time on refining your coding skills & try to write the code on paper also. You will notice that the pen & paper coding is very different from coding in an editor. It’s is a normal tendency to code an algorithm using brute force, but the efficiency of the code is tested here, hence be thorough with efficient coding methods like Hashing, Divide & Conquer, Dynamic Programming etc.
+The interviewer always wanted the most optimized solution to any given problem, hence every problem had to be brought down to the required constraints. 
+This round lasted for 2 Hrs.
+
+4) Interview Round 3 (technical + puzzle):
+This was meant to be a combination of technical + puzzle based interview round. 
+She gave me a pattern initially ( 5, 5^2, 5^2 + 5, 5^3, 5^3 + 5, 5^3 + 5^2, 5^3 + 5^2 + 5, 5^4…), this was called the magic number 5 problem. I had to write the code for the nth number in this series. If you look closely, this series is similar to binary representation format & has to be solved similarly. She then asked the converse of this question where any number in the series is given & the location of that number in the series has to be given.
+She then asked me to make 2 tables and make a relationship between them & later form a join query between those 2. This was a fairly simple question.
+She then asked several game design questions like rock paper scissor, tic tac toe. I didn’t have code the algorithm as she only wanted an efficient data structure implementation logic for this.
+She then asked me about my Internship from the resume, difficulties faced there & debugging approaches.
+This round lasted about 1 Hr 15 Mins.
+
+5) HR Round:
+This round was a total breather after a lot of grilling prior to this.
+This round had those standard HR questions like Tell me about yourself, Where do you see yourself in this company in the future if recruited, Why am I not keen on higher education, Tell me something which isn’t there in your resume, your passions & interests.
+This was a fairly short interview & lasted not more than 15 mins.
+The 2 of us remained until the end. The HR of the company suddenly approached us and told us that there is another round of group discussion left for the 2 of us. We were later told by the recruiters that there was only a single vacancy for the company and that they were in a dilemma as to whom to choose for the job. We were made to sit next to each other and explain to the recruiters as to why one is the best fit for the job instead of the other. This went on for a few minutes until the HR told us that this was a part of a prank and both of us were actually recruited! 🙂

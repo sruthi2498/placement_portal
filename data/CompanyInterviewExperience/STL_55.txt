@@ -1,0 +1,9 @@
+The unordered_multimap::bucket() is a built-in function in C++ STL which returns the bucket number in which a given key is. Bucket size varies from 0 to bucket_count-1. 
+Syntax: 
+Parameters:  The function accepts a single mandatory parameter key which specifies the key whose bucket number is to be returned. 
+Return Value: It returns an unsigned integral type which signifies the bucket number in which the key is. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

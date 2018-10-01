@@ -1,0 +1,15 @@
+Given an integer a, b, m. Find (a * b ) mod m, where a, b may be large and their direct multiplication may cause overflow. However they are smaller than half of the maximum allowed long long int value.
+A naive approach is to use arbitrary precision data type such as int in python or Biginteger class in Java. But that approach will not be fruitful because internal conversion of string to int and then perform operation will lead to slow down the calculations of addition and multiplications in binary number system.
+Efficient solution :  Since a and b may be very large numbers, if we try to multiply directly then it will definitely overflow. Therefore we use the basic approach of multiplication i.e.,
+a * b = a + a + … + a (b times)
+So we can easily compute the value of addition (under modulo m) without any
+overflow in the calculation. But if we try to add the value of a repeatedly up to b times then it will definitely timeout for the large value of b, since the time complexity of this approach would become O(b).
+So we divide the above repeated steps of a in simpler way i.e., 
+Below is the approach describing above explanation :
+
+Run on IDE
+Run on IDE
+
+Time complexity: O(log b)
+Auxiliary space: O(1)
+Note: Above approach will only work if 2 * m can be represent in standard data type otherwise it will lead to overflow. 

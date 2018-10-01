@@ -1,0 +1,13 @@
+The deque::insert() function is a built-in function in C++ which is used to insert elements in the deque.
+The insert() function can be used in three ways:
+Syntax:
+Parameters: The function accepts four parameters which are specified as below:
+ 
+Return value: The function returns an iterator that points to the first of the newly inserted elements.
+Below programs illustrate the above function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Program 3:
+Run on IDE

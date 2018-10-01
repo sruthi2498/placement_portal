@@ -1,0 +1,19 @@
+Round 1:
+Round 1 was conducted on hackerearth and consisted of 50 MCQ questions mostly on machine learning and probability and three coding questions. While shortlisting candidates they haven’t at all considered these MCQ questions and shortlisting was made purely based on coding questions. The three questions are
+Around 1200 people gave this test and they had shortlisted 50
+Round 2:
+The interviewer first asked me to write down my favorite subjects and I wrote data structures and algorithms. He started asking me questions
+First one is sorting a linked list. I told him that sorting algorithms like selection sort or insertion sort can be implemented easily whereas O(nlogn) algorithms like merge sort and quick sort are difficult to implement and gave the reasons for that.
+You will be given a stack and you have to sort the stack. You could use another stack if needed. I gave the solution after a bit of thinking.
+You will be given an array and you have to find the number of subarrays whose sum is zero. If there are any you have to print the starting and ending index of each of the sub-array. I gave him an O(n ^ 2) approach and he asked me to optimize it. Later with a little bit of thinking I gave him an O(n) solution.
+You will be given a binary search tree and you have to print the elements in sorted order. This is just the inorder traversal. So he asked me to print the elements in descending order without using inorder traversal. This is just Right, Root, Left or reverse inorder traversal.
+After this, he asked me how do I find the kth largest element in a binary search tree. He gave me a hint that the answer comes from the previous question. The solution is simple to recur the reverse in order traversal k times to get the kth largest element :p
+You will be given a binary search tree and a number n. You have to tell if there is a pair in this BST such that the sum of this pair is n. I gave him the conventional O(nlogn) approach with extra space. Then he asked me whether I could do it without extra space. Then it would be an O(n ^ 2) solution.
+The next question is removing duplicates from a linked list. I gave him the approach with a set. He asked me to solve this without using extra space. I told him that we can sort the linked list and we can easily remove the duplicates with O(1) space.
+The interviewer told me that he is sending me to the second round :p
+This round lasted for about 1hr 15 mins.
+Round 3:
+This time the interview was with the Technical head. He scanned my resume and asked tons of questions on android. How I did my projects and the technologies that I had used in my apps. I answered almost all of them except some 2 or 3 questions. He started asking me questions on algorithms like bfs dfs etc and what’s the difference between them. This round lasted for 30 mins.
+Round 4:
+This is a kind of HR + Technical round where he asked me why I had used NoSql everywhere and what’s the main difference between NoSql and SQL. I gave him a clear picture of this. Then he asked some hr questions like every day at least 2 or 3 companies come to your college, why did you choose our company? I told him that since this is a product based company I’m very much interested in this. He asked some more questions like what are your future plans and mainly he asked me why is your cgpa very less. Its just 7.5 :p He asked me about my hometown etc. He asked me why I’m opting for a software company as I’m from electronics and I told that I love coding very much. He told me that the feedback is positive and you are selected :p
+I felt very happy about the offer.

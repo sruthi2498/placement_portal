@@ -1,0 +1,72 @@
+Senior Android developer(4-8 years)
+Qualification & Experience-
+·         4-8 years of experience in software development
+·         Experience in Mobile App development in Android is a must.
+·         Experience with a start-up would be added advantage.
+Functional Competencies-
+·         Data Structures and algorithm, ORM
+·         Hands on working for J2EE in a professional environment
+·         Experience with the Android is must.
+·         Experience on web service integration (SOAP, REST, JSON, XML)
+·         Good understanding of OO programming and design patterns
+·         Experience with Android Platform (intents, services, threading, activity, fragments, etc.)
+·         Strong understanding of mobile application development
+Around 70 people reached MMT Gurgaon office in the morning.
+1st Round:
+– Project related question
+– Basic question of android like content provider, intent filter, broadcast receiver etc
+– Internal implementation of HashMap
+– Deep question of service / intent service and broadcast register.
+– Internal working of recycler view.
+– Given an array A[], write a function that segregates even and odd numbers. The functions should put all even numbers first, and then odd numbers.
+https://www.geeksforgeeks.org/segregate-even-and-odd-numbers/
+2nd Round : 
+– Given an array of size N that contains values in the range [1 N-1], find All missing numbers Do each in O(n). with Working code.
+  HINT :  By making it negative.
+– How to implement LRU caching scheme? What data structures should be used?
+https://www.geeksforgeeks.org/implement-lru-cache/
+Was able to answer the LRU cache with discussion, but when i was writing its code, he got confused, told me to give only algo/ steps. Not seems to be convinced.
+HR told me that review is Good for everything but not that LRU code. I told her Interviewer got confused. So she arranged another round of interview.
+3rd Round :
+Very Nice Guys, Good knowledge give you a lot of confidence.
+– How will trigger notification at exact time/date. Not using Alarm api.
+– String buffer String builder, How to make class immutable.
+– Suppose One Class A, which has a member variable Class B. You have to make class variable immutable.
+  Hint : Return clone of B object when user call getB().
+– M permission , dangerous permission etc.
+– Reverse a Linked List in groups of given size
+https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+4th Round : 
+Mobile Architect head
+– Internal data structure used for showing /storing contacts in Phone
+  Hint : Tries
+– Implement new language with condition like if a > b do this else do this
+   if else, boolean , ternary etc are not giving in this new language.
+   Solution : switch case with bit-wise operator
+c = a – b;
+            case 0 :
+   both are equal, break;
+default:
+ case c << 32:
+     negative
+     default : positive
+– Pre post order of tree traversal
+other questions asked to others:
+ left/right face of tree
+ Max/min of stack
+ They select 2 people only.
+ After that i was told i got selected, they will ask for required document once approval done by CEO.
+ After waiting for 4 days i was told that experience needed is 4 years but you have only 3 years 8 months excluding 6 month intern.
+ When i argued that why you short-list me at the first place. They conducted one more round of interview.
+ 5th round:
+ Basic android question
+ Find random number in a array(suppose 1-10), like every time to get a number (suppose 6) , next random will be anything other then 6.
+ Sol:  when you get any number, swap that position with list index of array
+        ex : 1 2 3 4 5 6 7 8 9 10 => rand(1,10) => 6
+   next time
+remove 6 and put last index value 10
+1 2 3 4 5 10 7 8 9 => rand(1,9) =>  9 so on till array empty
+Round went perfect, then HR told me that this round review is average and 2nd round review is negative. So we cannot proceed further.
+Had very bad experience.
+ 
+

@@ -1,0 +1,19 @@
+Qualification Round: The qualification round comprised of several MCQs and four coding questions. The first is on SQL queries.
+To practice SQL queries you can take a look at here and SQL quiz.
+The second one is to find bugs in python code. The question itself is on binary trees. You can practice coding in python from here and here.
+The third one is an Input-Output question in which we are required to parse input and print formatted output. The last one is an algorithmic question.
+Personal Interview Round:
+There was only a single round for me. The number of rounds varied between people. We were asked to choose topics in which I was comfortable in. We had a brief discussion of projects on my resume, primarily about my B.Tech project and Internship experience. Questions to me were mostly asked from operating systems and computer architecture. Here is a list of some of them
+1. What is TLB? Why is it used? What are huge pages and their advantages? Which is accessed first TLB or cache? Can we access TLB and cache in parallel?
+Ans:- Huge pages are larger in size and require less number of TLB entries for the same amount of memory. This leads to larger virtual address space being cached and hence better performance. Out of TLB and cache, TLB is accessed first because virtual memory address must first be translated to the physical memory address and then this address is used to access data from the cache. TLB and cache can be accessed in parallel if the cache is flushed everytime TLB is flushed.
+2. Distinguish between RISC and CISC architectures.
+Ans:- You might want to take a look at this https://superuser.com/questions/883330/what-is-the-difference-between-intel-cisc-and-arm-risc-architecture.
+3. What is shared and static library?
+Ans:- Take a look at this link https://www.geeksforgeeks.org/static-vs-dynamic-libraries/ and understand the tradeoffs in using each approach.
+4. How are system calls made at assembly level? How are IO operations like cout translated at low level?
+Ans:- System calls are made through software interrupts (int 0x40 in x86 architecture) and system call number and system call parameters are given as parameters to the software interrupt handler. IO operations like cout internally make system calls (write system call in this case to stdout) to a file descriptor.
+5. Discussion about how the file system is stored on disk and how ls works.
+Ans:- Explained him about xv6 file system. Explained mainly directory inodes, file inodes and data blocks. Explained how ls accesses this hierarchical structure to retrieve all the files and directories in the directory.
+6. What is pipelining? Discuss branch prediction schemes. Which of the two situations is better a. no pipelining b. pipeline flushed after every cycle?
+7. Lastly, a probability question was asked. There is a standard deck of cards and two of the cards are chosen at random. Compute the probability of choosing a third card at random whose number is in between the numbers of initially chosen cards.
+Pro Tip:- Even if you do not know the answer, try to give some workable answer based on your intuition. For example, I was asked how I would check if a port is open or not. For which I said, I will try to open the port and check for an error.

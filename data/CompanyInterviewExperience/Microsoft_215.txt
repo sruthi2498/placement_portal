@@ -1,0 +1,22 @@
+MSIT visited our campus. 5 days before the visit, there was an online assessment which included two processes both hosted by cocubes:
+1. MCQ round:  It had 15 questions from c,c++ and java to be done in 30 minutes.
+Mcq were easy but long so time consuming.There was no negative marking. I solved around 8-9.
+After half an hour results were announced.54 students got selected out of 110 almost.
+2. Coding round:  54 students wrote online coding questions. Everybody had different questions, some had same. two questions to be solved in 60 minutes.
+Compiler: you cannot use standard template library.You can only write functions.So if you need push or pop functions you have to write it from scratch. They gave you prototype of function. And you write its body.
+1st question:  Given two linked lists represent two no. Subtract the second one from first one. No memory should be allocated. You can alter the given linked lists. Head node of answer linked list needed to return.
+https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+this question’s approach can be useful to solve this question.
+2nd question: Sum of the boundary nodes. It was solved by using boundary traversal approach. https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+Microsoft team came with the result. They selected almost 25 for group fly and 6 (who performed well in coding round) for direct technical interviews.
+Group fly:
+I was among the direct ones. So I don’t know the question.
+Technical interview: 
+Interviewer was amazing and supportive. My interview is of 80-85 minutes.
+He asked me about coding round questions. Asked how many I solved. Which approach I used. How could I make it better.
+Then he asked me to find no of palindrome in the a paragraph. I did it. He helped me while writing the code. He asked some questions on hash map, sql and arrays.Then he started discussing my projects and interview ended up in the discussion.
+HR:
+Normal hr round. Interviewer was serious but not demoralizing. Asked to implement library management system. Discussed my projects. one Idea to innovate at Microsoft. This went well.
+ I really want to thank geeksforgeeks for its amazing collection.
+
+

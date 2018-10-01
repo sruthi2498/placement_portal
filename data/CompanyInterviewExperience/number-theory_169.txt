@@ -1,0 +1,31 @@
+Given a positive integer, check if the number is prime or not.  A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself.  Examples of first few prime numbers are {2, 3, 5,
+
+Examples :
+ School Method 
+A simple solution is to iterate through all numbers from 2 to n-1 and for every number check if it divides n.  If we find any number that divides, we return false. 
+Below is the implementation of this method.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of this solution is O(n)
+
+ Optimized School Method 
+We can do following optimizations: 
+Below is the implementation of this solution.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of this solution is O(√n)
+Primality Test | Set 2 (Fermat Method)
+References:
+https://en.wikipedia.org/wiki/Prime_number
+http://www.cse.iitk.ac.in/users/manindra/presentations/FLTBasedTests.pdf
+https://en.wikipedia.org/wiki/Primality_test

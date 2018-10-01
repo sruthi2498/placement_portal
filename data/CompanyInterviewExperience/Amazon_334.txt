@@ -1,0 +1,12 @@
+Rearrange a linked list in such a way that all odd position nodes are together and all even positions node are together, 
+Examples: 
+The important thing in this question is to make sure that all below cases are handled
+1) Empty linked list
+2) A linked list with only one node
+3) A linked list with only two nodes
+4) A linked list with odd number of nodes
+5) A linked list with even number of nodes
+The below program maintains two pointers ‘odd’ and ‘even’ for current nodes at odd an even positions respectively.  We also store first node of even linked list so that we can attach the even list at the end of odd list after all odd and even nodes are connected together in two different lists.
+Run on IDE
+Output: 
+

@@ -1,0 +1,18 @@
+Given an array arr[] of n integers, construct a Product Array prod[] (of same size) such that prod[i] is equal to the product of all the elements of arr[] except arr[i]. Solve it without division operator and in O(n).
+Example:
+
+We have already discussed O(n) approach in A product array puzzle | set 1. The previous approach uses extra O(n) space for constructing product array.
+In this post, a better approach has been discussed which uses log property to find the product of all elements of array except at particular index. This approach uses no extra space.
+Use property of log to multiply large numbers
+x = a * b * c * d
+log(x) = log(a * b * c * d)
+log(x) = log(a) + log(b) + log(c) + log(d)
+x = antilog(log(a) + log(b) + log(c) + log(d))
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Time complexity : O(n)
+Space complexity: O(1) 

@@ -1,0 +1,18 @@
+Hello everyone! Recently I sat for an on-campus internship recruiting process of Amazon. The process consisted of a written round followed by two face to face interviews.
+Written Round:
+This round consisted of 20 MCQs and two coding questions. We had to complete the test in 90 minutes. The MCQs mainly focused on C and general aptitude. They were easy to solve. The students having faster question solving skills were in advantage! The two coding questions were:
+1. We were given the edges of the graph and we had to find if a cycle exist in the graph or not.
+2. Given a binary tree, we had to print all the nodes in the Zigzag order.
+
+For the given tree, we should print: 1324567
+A total of 18 students were selected for the next round from around 150+ students.
+Face to Face Interview:
+The interviewer started with the question about what projects I have done. I explained the two recent projects which I did. Then he started asking technical questions. He asked about:
+1. Given a sorted array which has been rotated, we have to find the point of rotation.
+I did it in O(n). Then he asked me to write a more optimized code. I then did it in O(log n) using modified binary search.
+2. About heaps, maps.
+3. About Job Scheduling.
+4. Scaling of websites as one of project was an online portal.
+Then he asked me if I have any questions. I asked about how to improve. He said that I should blue practice the problems more and more. I should work more on algorithms rather than solving the problems relating to the limitations of any language. He even emphasized on the fact that companies like Amazon are looking for the students having good knowledge of algorithms. He even mentioned that GeeksforGeeks is a perfect site for preparing for companies like Amazon.
+I was not lucky enough to be selected in the 2nd round of the interview but it was a motivating experience. 🙂
+ 

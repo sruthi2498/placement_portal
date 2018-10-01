@@ -1,0 +1,16 @@
+1st round 
+Totally based on current work.
+NAND In SSD how it work. how it hold the voltage?
+how request will come from host how it will be process by host layer / protocol layer/ application layer of SCSI.
+how error handling will be done in Firmware of SSD ?
+N to N flow of SSD firmware
+How PCIe /SAS work?
+
+2nd round-
+based on C – static / global variable .
+register / volatile,
+bit operation along with how your solution will work.
+bit set ?count no of bit set in a INT
+MACRO,
+write code for given problem — HackerRank Problem
+normal logical puzzle 

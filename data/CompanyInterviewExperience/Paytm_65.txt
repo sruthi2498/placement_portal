@@ -1,0 +1,21 @@
+The problem is to count all the possible paths from top left to bottom right of a mXn matrix with the constraints that from each cell you can either move only to right or down
+Examples : 
+We have discussed a solution to print all possible paths, counting all paths is easier. Let NumberOfPaths(m, n) be the count of paths to reach row number m and column number n in the matrix, NumberOfPaths(m, n) can be recursively written as following.
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of above recursive solution is exponential. There are many overlapping subproblems. We can draw a recursion tree for numberOfPaths(3, 3) and see many overlapping subproblems. The recursion tree would be similar to  Recursion tree for Longest Common Subsequence problem.
+So this problem has both properties (see this and this) of a dynamic programming problem. Like other typical Dynamic Programming(DP) problems, recomputations of same subproblems can be avoided by constructing a temporary array count[][] in bottom up manner using the above recursive formula.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of the above dynamic programming solution is O(mn).
+The space complexity of the above solution is O(mn).
+Space Optimization of DP solution.
+Above solution is more intuitive but we can also reduce the space by O(n); where n is column size.
+Run on IDE
+
+This code is contributed by Vivek Singh
+Note the count can also be calculated using the formula (m-1 + n-1)!/(m-1)!(n-1)!. 

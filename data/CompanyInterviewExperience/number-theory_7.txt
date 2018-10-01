@@ -1,0 +1,15 @@
+In number theory, a semiperfect number or pseudoperfect number is a natural number n that is equal to the sum of all or some of its proper divisors. A semiperfect number that is equal to the sum of all its proper divisors is a perfect number. 
+Given a number, the task is to check if the number is a semi-perfect number or not. 
+Examples:
+Input: 40
+Output: The number is Semiperfect
+1+4+5+10+20=40
+Input: 70
+Output: The number is not Semiperfect
+The first few semiperfect numbers are
+6, 12, 18, 20, 24, 28, 30, 36, 40
+Approach: Store all th factors of the number in a data-structure(Vector or Arrays). Sort them in increasing order. Once the factors are stored, Dynamic programming can be used to check if any combination forms N or not. The problem becomes similar to the Subset Sum Problem. We can use the same approach and check if the number is a semi-perfect number or not. 
+Below is the implementation of the above approach. 
+Run on IDE
+Time Complexity: O(number of factors * N)
+Auxiliary Space: O(number of factors * N)

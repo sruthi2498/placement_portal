@@ -1,0 +1,8 @@
+std::basic_string::at, std::basic_string::operator[]
+Both at() and operator[] can be used to access an element in the string. But there exists one difference between them on how to hadle exceptional condition when pos>=size. 
+Below is the C++ implementation showing exception handling property of std::basic_string::at –
+Run on IDE
+Output:
+Below is the C++ implementation showing no bounds checking in std::basic_string::operator[] –
+Run on IDE
+Output:

@@ -1,0 +1,34 @@
+Recently I attended Microsoft Campus Interview and got selected. Below is my Interview Experience and I just wanna share it to GeeksforGeeks viewers. 
+1st Round:
+Online Aptitude test:
+Aptitude, logical questions and subjective Questions 
+2nd Round:
+Online test
+In this round we are asked to type the code in notepad and send (no compilers)
+3rd Round:
+It started wih introduce yourself and he introduced himself to me. Then he asked me about my project and it gone to some stuffs related wih memory. He asked me how a program is stored in memory
+1) Write a program for beautificaion (proper indentation) of a program file in an IDE.
+ex:
+You are provided with getToken() which returns a token
+ex: if(i>10) is a token
+int main() is a token
+{,} are tokens
+so output should be
+void beautify(char* inputfile,char* outputfile)
+Give some testcases for the above program
+2) Write a program to find the diameter of a binary tree and then he wanted to extend it for m-ary tree.
+4th Round:
+1) You are provided with a string which contains single byte as well as two byte characters. If a character is single byte char, it’s MSB is 0, if it’s a 2 byte char, it’s MSB is 1. Write a program to check whether the given string is palindrome or not.
+Test cases for above program.
+2) Write a program to print the n-nodes from tail of the linked list.
+Test cases for above program.
+5th Round:
+1) Write a program to Validate an IPv4 Address.
+Write test cases for above program.
+2) Write a program to find all the possible paths from a starting point to dest point in a maze(2-D array).
+If there is a block it’s represented by 0.
+If there is a path it’s represented by 1.
+6th Round:(Final Round)
+Write a code for printing last n lines in a file (refer man page of tail command in linux). The file size may vary, it may be 1MB or it may be 100 GB.
+Give top 10 test cases for the above program
+

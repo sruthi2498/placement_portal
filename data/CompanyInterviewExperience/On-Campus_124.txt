@@ -1,0 +1,35 @@
+Round 1: Coding Test, Hackerrank Platform, 3 questions, 1.5 hr
+1. In a given array of length n, find max(A[j] – A[i]) such that i < j.
+2. A person can create a flower bouquet with either 3 roses (cost of bouquet = p) or 1 rose and 1 lily (cost = q)
+In an array of flowers, the person has to select contiguous set of flowers i.e. 2 or 3 to gain maximum cost.
+Input format: A string of 0(denotes rose) and 1(denotes lily).
+Output : Maximum cost.
+Examples:
+Solution: Dynamic programming
+Note: Handle the boundary values to avoid array index out of bound errors.
+3. A graph is given in which nodes represent children and weighted edges join two children sharing a common hobby.
+Example: If two nodes ‘i’ and ‘j’ are joined by an edge having value ‘k’, it means both ‘i’ and ‘j’ have a common interest ‘k’.
+Find the maximal product of ‘i’, ‘j’, where ‘i’, ‘j’ are the children sharing maximum number of common hobbies.
+Solution: Create a hash table storing the number of edges between a pair ‘i’, ‘j’. Find the max product of ‘i’ and ‘j’ if they have maximum number of edges between them.
+Those who solved all three were selected for next round(27 students).
+Round 1: Technical
+1. In a given tree, find the maximum possible sum such that if a node is selected, it’s children can’t be selected i.e. if the value of node is added to the sum, it’s children can’t be present in the sum. I was asked to write the pseudocode in 5 mins(a timer was running).
+Solution: Dynamic Programming on Trees
+2. In a given array, find the longest subarray such that adjacent elements differ by one.
+3. In a given array, find the longest subsequence such that adjacent elements differ by one.
+Solution: Longest subsequence such that adjacent elements differ by one
+4. Given a function f, such that f(x) = y such that 1 <= y <= x, create a random permutation of a given string. It should create random permutations every time.
+Solution: Swap str[n-i] and str[f(n-i)] where i varies from 1 to n.
+Round 2: Technical
+1. Create a chain with given set of strings such that in adjacent strings, last letter of first string = first letter of second string.
+Example:
+It is known that it will form a cycle i.e. first letter of first string of the chain = last letter of last string of the chain.
+Solution: Chain array of strings to form a circle
+I gave a solution using one hash table and one array, which was basically a DFS traversal. The interviewer hadn’t seen this approach and gave a lot of test cases, which passed.
+2. Given n players and result of the matches held them, create a string such that, if A defeated B and B defeated C, then they should be placed as ABC. It is possible that C has defeated A.
+Similar to the previous question. He wanted the solution involving directed graph and backtracking, so he asked this question.
+3. Puzzle: Player 1 and Player 2 take turns and place a coin on a circular disc. The last person who is able to place a coin on the disc wins. Devise a strategy such that Player 1(first person to place a coin) always wins.
+Solution: Round Table Coin Game
+4. Given a binary tree, print it’s left view. Write the pseudocode.
+Example:
+Solution: Left view of Binary Tree 

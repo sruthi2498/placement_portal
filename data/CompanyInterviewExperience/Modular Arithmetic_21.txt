@@ -1,0 +1,7 @@
+Given two large numbers ‘a’ and ‘b’ such that(10^20<=a, b<=10^300). Find the LCM of two large numbers given.
+Examples:
+Solution: In the given problem, we can see that the number are very large which is outside the limit of all available primitive data types, so we have to use the concept of BigInteger Class in Java. So we convert the given strings into biginteger and then we use java.math.BigInteger.gcd(BigInteger val) method to compute gcd of large numbers and then we calculate lcm using following formula:
+                                          LCM * HCF = x * y, where x and y are two numbers
+Below is implementation of the above idea.
+Run on IDE
+Output:

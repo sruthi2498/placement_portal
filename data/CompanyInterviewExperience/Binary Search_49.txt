@@ -1,0 +1,9 @@
+Given an array and two numbers x and k. Find the number of different ordered pairs of indexes (i, j) such that a[j] >= a[i] and there are exactly k integers num such that num is divisible by x and num is in range a[i]-a[j].
+Examples:
+
+A naive approach is to traverse through all pairs possible and count the number of pairs that have k integers in between them which are divisible by x.
+Time complexity: O(n^2) 
+An efficient approach is to sort the array and use binary search to find out the right and left boundaries of numbers(use lower_bound function inbuilt function to do it) which satisfy the condition and which do not. We have to sort the array as it is given every pair should be a[j] >= a[i] irrespective of value of i and j. After sorting we traverse through n elements, and find the number with whose multiplication with x gives a[i]-1, so that we can find k number by adding k to d = a[i]-1/x. So we binary search for the value (d+k)*x to get the multiple with which we can make a pair of a[i] as it will have exactly k integers in between a[i] and a[j]. In this way we get the left boundary for a[j] using binary search in O(log n), and for all other pairs possible with a[i], we need to find out the right-most boundary by searching the the number equal to or greater then (d+k+1)*x where we will get k+1 multiples and we get the no of pairs as (right-left) boundary [index-wise].  
+Run on IDE
+Output:
+Time complexity: O(n log n)

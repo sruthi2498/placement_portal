@@ -1,0 +1,54 @@
+Company : commonfloor.com (MaxHeap Technologies)
+Criteria : Open to CSE , EE , EC , MA ; No CGPA Criteria
+Qualifier Round: on hackerearth.com
+1 hr 30 min : 5 Objective Questions and 1 Coding Question.
+1) Definition of Foreign Key (DBMS).
+2) No. of colors needed to colour any Planar Graph
+3) Minimum Hamming Distance to detect error ….
+4) No of nodes in a complete binary tree of height h
+5) Equality of two regular expressions (Identity based).
+Coding Question :
+You are given the vertices , edges , start vertex and end vertex of a
+graph .The graph is directed and can have loops .Each edge is of length 1 . You task is to find the min distance b/w start and end vertex if it is reachable , else print (-1)*(#Vertices reacheable from start vertex) 
+BFS is obvious .Only thing is that Graph must be implemented as Adjacency List rather than Adj Matrix else it causes Memory Limit Exceeded error.
+Tech Interview Round 1: (Approx 1 hr) 
+1) Problem Statements of N Queens Problem , Sudoku Problem and strategies for solving them
+2) Problem Statement of Tower of Hanoi , Write Code to solve it and extended it to 4 towers
+3) Sort an array of zeros and ones
+4) Find the first non repeating element in an array and Various Approaches (Like No additional
+mem , one traversal)
+5) 25 horses - Minimum Races Puzzle
+6) Find all the triplets from an array that sum to a given number.Report their indices.
+Discuss various approaches like naive , sorting etc..
+7) Problem which can be mapped to Finding maximum Lexicographical subsequence from a string.
+Tech Interview 2: (Approx 1 hr)
+OS Funda :
+1) Def of Process , Threads , their diff ,Multi Threading and a discussion about them
+2) What is Virtual Memory and discussion on Memory Management techniques
+3) What is Race Condition? What is Shared memory ?
+4) What is Critical Section ? Peterson sol?
+5) 2 Processes and their codes are given . (Indirect )Find the Critical Section
+Android (I had my intern and BTP on Android ):
+1) General discussion abt Android app that I did and my project
+2) Activity Life Cycle and diff methods
+DBMS :
+1) Indexing and types
+2) Primary Index and Composite Index
+3) Discussion about SQL
+ALGO :
+1) Find whether a string is a substring of another .[I tried KMP but ended up explaining the Naive Approach].
+2) Discussion on why my code didnt pass all test cases ==> Ways of representing a graph , pros and cons of diff ways, Several situations and suitable rep of graphs.
+3) Question which can be mapped to finding Longest Common Subsequence. Write Complete working Code.
+4) Basics of Binary Search Trees , Defined a new bst with an additional attribute size (sum of nodes of left child , right child + 1). Find the Kth smallest node . Explain and write working code {Time Constraint : 2 min }
+HR Interview : (2 HR ppl , Appprox 1/2 hr )
+1. Introduce yourself , What do you know abt Commonfloor , Why do you want to join?
+2. Suggest Some changes and also new features to add to Commonfloor website .
+3. Detailed Discussion about my internship
+# How did I develop the ecommerce application ?(Like division of work , Coordination of work, Asked me to show the app live on my Phone !!!!)
+# Discussion abt Apache Cordova vs Android { Basically it was like my talk }
+4. Discussion about my B Tech Project (about Power Consumption by Android Applications) and basic questions about Gantt Chart and Gantt Project (Part of my BTP)
+5. Questions about my DBMS Academic Project "Carpooling" .Enhance it into a business model leading to maximum profits (I told features to make it better and the other business that can be created from Carpooling data)
+6. Personality Questions like "Tell me one quality why I should hire you ?" , "Your quality which you dont like the most"
+My Turn: I asked about work culture , timings , etc..
+ 
+ 

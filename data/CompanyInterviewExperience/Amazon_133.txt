@@ -1,0 +1,13 @@
+Create a customized data structure such that it has functions :-
+GetLastElement();
+RemoveLastElement();
+AddElement()
+GetMin()
+All the functions should be of O(1)
+Question Source : amazon interview questions
+Approach :
+1) create a custom stack of type structure with two elements, (element, min_till_now)
+2) implement the functions on this custom data type
+Run on IDE
+Output:
+Time complexity : Each function runs in O(1)

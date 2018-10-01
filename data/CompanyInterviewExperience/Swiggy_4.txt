@@ -1,0 +1,23 @@
+Swiggy is a fast growing startup, based out of Bangalore. I recently interviewed there for the post of SDE-1 and would love to share my interview experience.
+
+First Round: Machine Coding
+(One question, 60 min I guess)
+Had to write ‘complete, bug-free’ code on our laptops, language of our choice
+Given multiple tuples in the form of (A,B) where A is the parent and B is the child in a binary tree, find if the input is valid or not. 4 error conditions were provided:
+1. If a parent has more than 2 children,
+2. If duplicate tuples entered,
+3. If the tree has a cycle,
+4. If more than one root possible.
+For violation of multiple validity conditions, print the condition coming first in the above order.
+If the input is valid, print the tree in a serial representation. For eg: If input is (A,B), (B,C), (A,D), (C,E) , output: (A(B(C(E)))(D))
+Second Round: F2F Interview
+1. Explain the code from the machine coding round. The guy made me run the code on an online compiler to have a look at the errors, and then ran some test cases as well.
+2. Detailed discussion about previous experience. Had to explain my work in the current company end-to-end.
+3. A question on arrays: Given an array, print all possible contiguous subsequences whose sum is divisible by a given number x.
+Third Round: F2F Interview
+1. Detailed discussion about current company, work, etc.
+2. Implement LRU cache. Didn’t make me write the code, but discussed in detail about all possible data structures that could be used, complexities of different operations in different implementations.
+3. Given a server that has a 900 MB file and a client that has a maximum available space of 100MB, sort the file on the client.
+Fourth Round: Discussion with the co-founder
+Had a nice little chat with the co-founder about the work, culture, their vision, etc. Seemed quite impressive.
+

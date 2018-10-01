@@ -1,0 +1,62 @@
+I interviewed with adobe for MTS profile. There were total of 4 rounds
+Round 1: Online coding round
+comprised of aptitude, output based questions and 2 coding questions. One was simple hash-map based and other was based on suffix tree.
+Round 2: F2F interview 
+Interviewer asked me about my projects. I told him that i didn’t had deep c++ knowledge as I have worked on android only, but he still asked me questions. Interviewer was very helping and cool, but he was smiling a lot on my answers which affected my morale a lot in bad way.
+1)
+int a = 10;
+void * b = &a;
+printf("%d", *b);
+ans: you cannot print void pointer without typecasting. Sadly i didn’t know that.
+2. Where are functions stored in memory? how parameters are resolved at Runtime.
+ans: read about symbol table.
+3. Struct and Union. difference between them. how they are stored in memory. Then conversation went to little endia / big endian.
+4. Virtual Inheritance, diamond problem in multiple inheritance.
+5. How to make class final in C
+https://www.geeksforgeeks.org/simulating-final-class-in-c/
+6. lets say you have a structure with root directory with sub folders and files inside. Print all files in the structure.
+I gave normal recursive DFS solution. He asked me about problems that could arise. I told him if file structure is too large than StackOverflow could occur. He gave me hint that max file path is limited in windows. I took a hint from it and designed the solution which used single stack to make traversal.
+He further asked me that I could store some data in each node of this structure. How will I train my algorithm to make smart decisions based on past failure and success.I suggested maybe number of file and sub folders under a folder could be used in some way. He was not satisfied. I couldn’t think of anything. He dropped the question after this.
+7.
+void fun(int x)
+void fun(int x, int y=10)
+fun(5); 
+which function will be called?
+https://www.geeksforgeeks.org/default-arguments-c/
+8. asked me about vTables and vPtr.
+Round 3(Managerial Round):
+Introduction and he asked me about project.
+1- Explain about Inter Process Communication
+https://www.geeksforgeeks.org/inter-process-communication/
+2- Explain how synchronization is acheived in thread.
+Read mutex and semaphores. I explained everything with underlying implementation as well. He was impressed.
+3- Generate a mirror Image of tree.
+https://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/
+4- Implement dictionary
+I used Trie data structure to implement it. I was ready with ternary search tree but he didn’t ask further.
+5- Explain how a process at client interacts with a process with server.
+I took example of web project i implemented in college and explained him, how REST API’s are used along with GET/POST method to send data and how it is received and processed at server end.
+Interviewer was very friendly and he was constantly motivating me. Once I started with explanation, he kept listening without cross questions. This raised my confidence a lot.
+Round 4(DS round):
+Again Interviewer was very friendly.
+1- Explain difference between Greedy and Dynamic programming algorithm paradigms.
+I explained him about paradigms with one algorithm of both. Fibonacci for DP and Splitwise algorithm for Greedy.
+2- Convert a tree to doubly linked list.
+I said I have various solutions in mind to which he replied, ” start with lowest one. you know the drill :p”. We discussed on 2-3 solutions. In one of those solutions, I used a static variable.
+3- Where are static variables stored. What is there life cycle in a program.
+4- Largest increasing Sub sequence. and explain it with dynamic programming.
+https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+he didn’t ask the nlogn solutions further. but for people who don’t know about nlogn solution.
+https://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/
+He was done after this question and it was awesome round to say at least.
+Round 5(Director round):
+I was very nervous and he saw that. He asked me to relax and brought a cup of coffee for me. He insisted me to have it. He asked me about college days, not the studying part but masti part.
+Then he asked me why i want to switch and other question based on my CV. He asked me one design based question.
+Suppose we have are on a trip and we have clicked lot of photos. now photos are categorized based on date in different folder. what if I want them to be categorized on basis of events.
+I suggested that we can use various parameters based on social media data, location, Image processing of background etc. He then modified the question and said that I will only be provided with timestamp. I suggested that based on frequency(gap) between 2 photos we can categorized. He asked me to think this problem in terms of algorithm and present a solution. He said he will not ask further question if I answer this correctly and left the office as he had a small meeting with someone. This move put immense pressure on me, maybe he was checking that only. He returned after 5 min. I was ready with a solution. I told him that based on time stamp, i will assign an ID to each photo which will be strictly increasing in nature and the gap between ID’s of subsequent photos will be based on gap between their timestamp, I will also provide a slider which will help user to group photos, if it is in extreme left then each photo will be placed in different group and if it is in extreme left than all photos will be included. He seemed satisfied. He further asked me what will be default value of slider, On this thing we had a long discussion. We discussed pros and cons. He was satisfied and told me he was done.
+I got call from HR after 2 days.
+Tips:
+1) Adobe doesn’t want to hear GFG answers in particular. they will definitely ask you about internal details or alternative solutions to evaluate your thinking. be prepared.
+2) Do read OS and basic C++ in depth.
+3) Interviewers are very friendly and they will push you towards solution by giving you hints. DO NOT give up and keep thinking. Also keep sharing what you are thinking, it is critically important.
+Thank you geeksforgeeks for providing awesome platform.

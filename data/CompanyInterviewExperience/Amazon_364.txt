@@ -1,0 +1,22 @@
+Given a set of integers, the task is to divide it into two sets S1 and S2 such that the absolute difference between their sums is minimum. 
+If there is a set S with n elements, then if we assume Subset1 has m elements, Subset2 must have n-m elements and the value of abs(sum(Subset1) – sum(Subset2)) should be minimum.
+Example: 
+This problem is mainly an extension to the Dynamic Programming| Set 18 (Partition Problem). 
+Recursive Solution
+The recursive approach is to generate all possible sums from all the values of array and to check which solution is the most optimal one.
+To generate sums we either include the i’th item in set 1 or don’t include, i.e., include in set 2.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: 
+Dynamic Programming
+The problem can be solved using dynamic programming when the sum of the elements is not too big. We can create a 2D array dp[n+1][sum+1] where n is number of elements in given set and sum is sum of all elements. We can construct the solution in bottom up manner.
+Below is the implementation of above code.
+
+Run on IDE
+Run on IDE
+Output: 
+Time Complexity = O(n*sum) where n is number of elements and sum is sum of all elements.
+Note that the above solution is in Pseudo Polynomial Time (time complexity is dependent on numeric value of input).

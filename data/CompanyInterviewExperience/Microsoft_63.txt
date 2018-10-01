@@ -1,0 +1,38 @@
+Microsoft visited our campus. Prior to that, about a month ago they had conducted an online coding test. The interview consisted of 3 f2f rounds.
+Online test: 
+The test comprised of 3 coding questions. The questions were not same for everyone.
+Q1. Find the missing number in an AP series.
+Q2. Find max sum path(sum of values of nodes) in a binary tree. The nodes may have negative values too.
+Q3. Given a binary tree, find the number of subtrees that sum up to a particular value.
+Round 1:
+General introduction. Project description.
+Serialize and deserialize a binary tree.
+Full code was expected.
+Round 2:
+General introduction.
+How would you make loading of webpages faster?
+Said something about cache, server-side loadbalancer etc. The interviewer went into details of caching, asked about several situations like, what if power failure occurs while writing to database, leading to a brief discussion on checkpoints, log files etc.
+Finally he asked me to design LRU cache. Was expecting only code snippets and proper data structure usage.
+Round 3:
+General introduction.
+Q1.
+Connect all the nodes in the same level of a binary tree.
+I proposed a basic level order traversal using queue.
+https://www.geeksforgeeks.org/connect-nodes-level-level-order-traversal/
+But he came up with a bunch of constraints, so I gave this solution instead.
+https://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/
+He didn’t look very pleased, but moved on.
+Q2.
+Given a circular array that has been rotated, find a particular element in it.
+Gave the basic O(logn) approach for finding element in sorted rotated array by finding pivot first.
+He asked me to do it in one go without separately finding pivot.
+Wasn’t too hard to figure out.
+He seemed happy. Asked me if I had any questions. Explained about his work at Microsoft.
+ 
+ 
+ 
+About 1.5 hrs later they declared the results. They had selected 4 students for Microsoft Redmond and around 8-9 for MSIDC, myself included 🙂
+ 
+ 
+ 
+ 

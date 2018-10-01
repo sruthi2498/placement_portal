@@ -1,0 +1,15 @@
+Given a number ‘n’, write a function that prints the last two digits of n-th (‘n’ can also be a large number) Fibonacci number.
+Examples:
+
+
+A simple solution is to find n-th Fibonacci number and print its last two digit. But N can be very large, so it wouldn’t work. 
+A better solution is to use the fact that after 300-th Fibonacci number last two digits starts repeating.
+1) Find m = n % 300.
+2) Return m-th Fibonacci number.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

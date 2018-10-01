@@ -1,0 +1,7 @@
+Binary function object class whose call returns the result of subtracting its second argument from its first argument (as returned by the binary operator -).
+Syntax :
+Run on IDE
+Output:
+Another Example:
+Run on IDE
+Output:

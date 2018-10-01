@@ -1,0 +1,19 @@
+compare() is a public member function of string class. It compares the value of the string object (or a substring) to the sequence of characters specified by its arguments.
+The compare() can process more than one argument for each string so that one can specify a substring by its index and by its length.
+Return type : compare() returns an integer value rather than a Boolean value.
+Different Syntaxes for string::compare() :
+Run on IDE
+Output:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Note that cstr may not be a null pointer (NULL).
+Run on IDE
+Output:
+Note that chars must have at least chars_len characters. The characters may have arbitrary values. Thus, ‘\0’ has    no special meaning.
+Run on IDE
+Output:
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks (We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

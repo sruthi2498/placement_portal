@@ -1,0 +1,67 @@
+I recently interviewed with amazon for the position of SDE1 in their TRMS team. The interview procedure was unimaginable rigorous.
+Here are the details
+Round 0: Written Round 
+Interviewstreet Test – 2 questions to be done in 2 hours
+Q1: Calculate the expression (2+3)*5 .. The question just said this .. I guess we had to make our own assumptions to solve the problem
+Q2: Two trees can be called isomorphic if they have similar structure and the only difference amongst them can be is, that their child nodes may or may not be swaped..
+for example
+——4
+—-2—6
+–1–3–5–7
+and
+——4
+—-6—2
+–1–3–7–5
+are isomorphic .. the trees are similar and a few nodes have their left and right child swapped…
+Given two trees determine if they are isomorphic…
+The interviewstreet people marked the solution to my first question wrong even when it worked fine.. When I told the HR about the situation, she got it checked with some of the amazon guys and they were ok with it.
+I cleared the written test.
+Telephonic Interview 1
+Q1: Find the Kth largest integer in a Binary Search Tree. When I told her the solution like the one given on geeks for geeks, she asked me to do it using recursion.
+Q2: Given an array of positive integers, find the max no that can be formed by any permutation of the arrangement. I told her a logic. She then asked me to write just the comparison function to choose one number to put before the other.
+When I gave the interviewer straight answers, she twisted the question more.. Probably they wanted to see how i think and approach a problem.
+Telephonic Interview 2
+Q1: A binary search tree is given with its two nodes interchanged. I had to find both the nodes.
+Q2: Identify all the pythagorian triplets in the given array.
+I cleared this round. The HR told me I had to come over to Bangalore for in-person interviews. (all the travel arrangements were made by amazon itself)
+Personal Interview 1
+Q1: Find the sum of continuous subarray within a one-dimensional array of numbers which has the largest sum .. I didnt know a solution (kadane’s algorithm), but somehow I was able to work it out in the interviews ..the interviewer liked my way of approaching and did help a little
+Q2: How can you best implement queues using stacks. What would be the time complexity?
+was able to do this one quickly.
+Personal Interview 2
+Q1: Find non-unique characters in a given string. I told her one O(n^2) [brute force], one O(n logn) [sort and then compare adjacent elements], and one O(n) [store the character count in an array] approach. She then asked me to do it in O(n) without using array.
+Clueless, she finally told me she wanted me to use BIT Vector. I wasnt well converse with Bit Vectors and I told her so.. She still asked me think more. Finally she told me a solution using the same which was impossible to think in the interview alone, especially when one didnt know what BIT Vectors were. She agreed when I stated the point and accepted my previous O(n) solution and we proceeded to the next question.
+Q2: Given an array of integers, populate another array with the product of the  elements of the first array except for the current index element.
+Here when I gave her a O(n) solution [find product and divide it with current element to get the number for this index position], she asked me to do it without the divide operator. Gave her a O(n^2) solution. But I couldn’t think better. Finally just when she began to tell me an O(n) approach, I remembered the geeksforgeeks solution to the problem  and gave it to her. Probably she didn’t consider it. (don’t know for sure)
+Personal Interview 3
+This interview was with the hiring manager at Amazon. He first asked me a couple of HR questions like Why Amazon? Why should we hire you? Projects, internships etc ..? How would you handle a disagreement with your team mates? Etcetc …
+Then he asked me a programming question.
+Q: He drew a circle on the board and marked a few points on it. Named them X1, X2, X3 ..
+Then he said these are gas stations, and you have to find the correct gas station from where a car should begin to loop in the circle such that it never runs out of gas before completing a round. He then sat on the table.
+(Sorry, but I will have to describe it in detail to tell you how it was put out to me.. and off-course to bring in more clarity to the question itself.. )
+Unclear about what I had to do exactly and what information was available, I asked him back a few questions.
+Why will car run out of gas after fuelling from lets say the first gas station?
+He said each gas station has limited amount of gas (lets say X1) and after fueling from this station it can run out of gas even before reaching the next station (anything could happen, it may be able to cross the next gas station but run out later before completing the round..).   So I have to find a gas station the car should start the loop from such that it never runs out of gas before completing the loop.
+So can the car refuel at the next available gas station, if its able to make up to it?
+Yes
+Do we have the information about the amount of gas required to reach from one petrol pump to another?
+Yes
+I made an assumption that the car tank was huge enough to fill as much gas as possible.
+And then I drew two arrays, one holding the amount of gas each station had, and other the amount of gas needed to go from this station to the next station..
+Fuel Available: X1, X2, X3, X4, X5
+Fuel Required to reach next station: Y1, Y2, Y3, Y4, Y5
+He said ok, and asked me to go ahead.
+I then took the difference (Y1-X1), (Y2-X2) ..and stored it in an array.. and then suddenly  it hit me that this became a simple problem of finding the maximum sum of a continuous subarray within an array (circular). He liked my approach and asked me to program it. Did it and showed him a dry run of the code I had written.  He was ok with it.
+(I felt good after the interview because in there I didn’t stumble at all ..)
+Personal Interview 4
+Q1: We have a huge file with braces ‘()’ [just one type..] Find if they are balanced ..  (stacks wouldn’t work here because you will probably run out of memory storing the stack ..) When I gave him another solution, he asked me to do it using parallel processes. I told him to elaborate more.. (to be honest I wasn’t familiar with parallel processes) .. Finally I told him so ..and he asked me to think about it still ..
+We discussed it for about 20 minutes. Not reaching anywhere he moved on to ask me the next question.
+Q2: Find the smallest substring which contains all the characters of the main string. Again I dint have a solution to this. I gave him a O(n^2) approach. He asked me to think further because the way I was approaching it was the way to go about it and I can make use of the last sub-solution obtained to improve my complexity. Couldn’t think of anything, we finally moved on to the third question.
+Q3: given the numerator and denominator of a fraction, find the quotient and the remainder without using divide and mod (‘/’, ’%’ )operators. This was simple. I did it. He then asked to write the invariant of my solution which was denominator*quotient + remainder = numerator.
+He then asked me to think about the cases when either or both of numerator and denominator were negative. We were almost out of time so he didn’t give me time to think and concluded the interview. He wanted me write an invariant that was true regardless of the input. Now that I think of it, I should have said |denominator|*quotient + remainder = |numerator|
+Flew back home in the night.
+2 Days later the HR informed me that I didn’t make it in.  🙁
+This was probably the most difficult of all the interviews I have ever had.
+Hope it helps some of you ..
+
+

@@ -1,0 +1,17 @@
+Given a string containing of ‘0’, ‘1’ and ‘?’ wildcard characters, generate all binary strings that can be formed by replacing each wildcard character by ‘0’ or ‘1’.
+Example :
+Method 1 (Using Recursion)
+We pass index of next character to the recursive function. If the current character is a wildcard character ‘?’, we replace it by ‘0’ or ‘1’ and recurse for remaining characters. We print the string if we reaches its end. 
+Below is recursive the implementation.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Method 2 (Using Queue)
+We can also achieve this by using iteration. The idea is to use queue. We find position of first occurrence of wildcard character in the input string and replace it by ‘0’ , then ‘1’ and push both strings into the queue. Then we pop next string from the queue, and repeat the process till queue is empty. If no wildcard characters are left, we simply print the string.
+Iterative C++ implementation using queue.
+
+Run on IDE
+

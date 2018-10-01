@@ -1,0 +1,71 @@
+What is a shell?
+It’s the visible part of an operating system that users interact with, users interact with the operating system by providing commands to the shell, which in turn interprets these commands and executes them.
+The following image shows the simplified execution process, in which the shell receives input,
+passes it to the lexical analyzer(will be discussed in detail) which will create tokens, then the output of the lexical analyzer will be passed to a parser which checks it for syntax errors and executes the assigned semantic actions(this builds the command table), and finally when the parser reaches a certain point the table will be executed.
+The shell will be implemented in 3 components as shown in the architecture diagram below:
+
+1. Lexical Analyzer
+The first part in input parsing is the lexical analysis stage where the input is read character by character to form tokens, we will be using a command called lex to build our file, in this file we will define our pattern followed by the:  token name the lexical analyzer will read the input character by character and when the pattern matches the string on the left it will be converted to the string on the right.
+ex:
+The parser will read l then s form a token called WORD then it will read – and characters (al) and form an OPTION the output will be WORD OPTION, this output will be passed to the parser to check if there is a syntax error.
+
+1.       “#” :  IO
+2.       [ 1 ]?”>” : IO
+3.       “” : IO
+5.       [ 1]?”>>” : IO
+6.       [ 1-2]”>&”[1-2 ] : IOR
+7.       “|” : PIPE
+8.       “&” : AMPERSAND
+9.       [ ]”-“[a-zA-Z0-9]* : OPTION
+10.       [ ]”–“[a-zA-Z=a-zA-Z]* : OPTION2
+11.       \%\=\+\’\”\(\)\$\/\_\-\.\?\*\~a-zA-Z0-9]+ : WORD
+The grammar above consists of 11 tokens these tokens form when the input meets the token description.
+The IO token is either formed by a # character or a  ‘>’ which could be preceded by number one (maximum one time) or ‘ which we introduced as a new token replacing the error redirection token, another form of IO is using ‘>>’ which could be preceded by number one (maximum one time) and finally ‘>&’ which is an IOR and could be preceded and/or followed by either one or two.
+The pipe and ampersand tokens are formed at ‘|’ and ‘&’ respectively, the option token is formed when there’s a hyphen preceded by space and followed by any alphabetic character or number.
+The option2 token is formed when there are two hyphens preceded by space and followed by any alphabetic character.
+The WORD Token could be formed by alphabetic characters, numbers and the following characters %, =, +, ‘, “, (, ), $, /, _, -, ., ?, *, ~
+2. Parser
+After the tokens have been formed from the input, tokens pass as a stream to the parser which parses the input to detect syntax error and execute the assigned semantic actions. A parser can be thought of as the Grammar and syntax of the language (which defines how our commands will look like whats acceptable), we will use a command called yacc to compile the grammar, we will construct the grammar as a form of states which makes the grammar construction and deployment easier.
+Below is our grammar definition:
+
+1.    q00: NEWLINE {return 0;} | cmd q1 q0 | error;
+2.    q0: NEWLINE {return 1;} | PIPE q00 {clrcont;};
+3.    q1: option q2 | option option q2 | arg_list q3 | io_modifier q4 | background q5 | io_descr q3 | /*empty*/ {InsertNode(); clrcont();};
+4.    q2: arg_list q3 | io_modifier q4 | io_descr q3 | background q5 | /*empty*/ {InsertNode(); clrcont();};
+5.    q3: io_modifier q4 | io_descr q3 | background q5 | /*empty*/ {InsertNode(); clrcont();};
+6.    q4: file q3 ;
+7.    cmd: WORD {cmad.cmd = yylval.str;};
+8.    arg_list: arg | arg arg_list;
+9.    arg: WORD {insertArgNode(yylval.str);};
+10.    file: WORD {io_red(yylval.str);};
+11.    io_modifier: IO {cmad.op=yylval.str;};
+12.    io_descr: IOR {cmad.op=yylval.str;};
+13.    option: OPTION {cmad.opt = yylval.str;} | OPTION2 {cmad.opt2 = yylval.str;};
+14.    background: AMPERSAND {bg = ‘1’;};
+15.    q5: /*empty*/{InsertNode(); clrcont();};
+
+The above grammar specifies the different states of the parsing process,
+The parser starts from state q00 and parses until reaching one of the states q5, q3, q1 which happens in a reverse manner because of the parsing technique in use (Bottom up parsing), the grammar reduces the tokens based on their location, Word can be reduced to cmd if it appears at the beginning, arg_list if it appears after a command, file if it appears after a redirection, then the sentence is parsed according to the grammar, starting from state q00 parser moves to state q1 by reading a cmd, at state q1 if the parser reads an option the sentence can have one of the following arguments, IO or background after, or have nothing, if the parser reads arguments the sentence can only have redirection after, if the parser reads an  ampersand there should be nothing after.
+Then the process starts again when the parser reads a pipe, this allows multiple simple commands to be connected by pipes to form a complex command.
+We define a Simple command as any command which consists of a command, options, arguments and/or IO redirection.
+Combining multiple simple commands using pipes results in a structure we call complex command.
+The semantic actions associated with the grammar builds the parsing table and assigns the command values to the data structure which after building the command table its sent to the executor.
+The command table consists of rows of simple commands and these rows are formed from a complex command connected by pipes, a simple Command entry which holds the command name to be executed, options which is the options to be executed with the command, arguments which holds the arguments that should be passed to the command, standard-in (stdIn) which specifies the location the command will get his input from by default it’s the terminal unless specified in the command otherwise, standard-out (stdOut) specifies the place the command will print the output of execution and by default it’s the terminal, standard-error (stdError) specifies the place the command will print the error messages of execution and by default it’s the terminal unless the user redirects it.
+The grammar built allows the following syntax:
+
+Which allows a command with options, arguments, IO redirection and to be a background process(&). a command with any of the previous is a simple command when we connect multiple simple commands we form a complex command.
+While parsing the command our parser saves the command details in our table to be passed to the executor.
+We picked a table to be our data structure, we need to store the following information about each command, the Command, Option, Option2, Arguments, StdIn, StdOut, StdError.
+For example:
+This command will result in the following table(each row is a simple command, The table itself is a complex command).
+
+3.Executor
+After the command table has been built, the executor is responsible for creating a process for every command in the table and handle any redirection if needed.
+The executor iterates over the table to execute every simple command and connect it to the next one at every entry in the table (simple command) the executor orders the command, option and arguments to be passed into the execvp function which replaces the current invoking process with the called one, the execvp function as a first parameter receives the name of the file to be executed and a null-terminated array containing the options (if any) followed by arguments.
+But before the execvp is called the Executor handles the redirection in the shell, if the command is preceded by a command this means there’s a pipe before and thus the command’s input is set to be received from the previous pipe, then the command is checked for any input redirection which if exists overwrites the input from the previous pipe, if the command is not preceded by a command then there’s no piping (simple command), otherwise (more than one simple command) the output of the command is sent to the next command in the table, the command is then checked for output redirection if there’s input redirection the input from the assigned file overwrites the input from the previous command.
+After the redirection has been handled the command is checked for the background flag which indicates if the shell should wait the command to finish execution or send the process to get executed in the background, now in order for the executor to execute the command it has to create an image of the shell to get executed, the executor forks the current process (shell) and executes the command on the child of this fork.
+The executor starts by executing the first row, by setting the output of the command to standard output, then overwriting the output to the pipe in order to be received by the second command, after the first command (ls –al) executes the second command starts executing by assigning the input to be read from standard input at first, then because the command is preceded with another one the input is set to be received from the pipe, and since the command doesn’t contain any input redirection (from file) the standard input for the command will remain from the pipe, the standard output of the command will be to the screen, then the command is checked if it should  send its output to the following command, in this case, this is the last command so the output will not be overwritten by piping, but since the command has an output redirection to a file the file will overwrite the standard output.
+Executing the following command
+The table that is built by the parser will look like this:
+
+The executor code will iterate over this table and do the steps mentioned above and will clear everything when the command finishes, to be ready to receive the next command.

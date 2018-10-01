@@ -1,0 +1,34 @@
+Round 1: Onsite, Design
+– Design an online file repository system
+– What are the use cases
+– Features
+– Security
+– HLD
+– LLD
+
+Round 2: Onsite, Algo
+– Detailed discussion on projects. My contributions to project.
+– nth Fibonacci number  in O(n)
+– Data Structure with O(1) time for:
+   get(key) :value
+   set(key, value)
+   delete(key)
+   getRandom() :key
+
+Round 3: Onsite, Algo
+– Merge two balanced binary search trees into one balanced binary search tree.
+– Given an array of 0 and 1, in how many iterations the whole array be filled with 1s if in a single iteration immediate neighbor of 1 can be filled.
+– Given a binary matrix, fill the row and column of any cell containing 1 with 1’s in O(n^2) time without extra space
+
+Round 4: Telephonic, Hiring Manager
+– Detailed discussion on projects.
+– Interviewer was trying to find a fit with amazon leadership principles(https://www.amazon.jobs/principles) with several behavioral questions.
+– What was the most challenging project.
+– What did you do in case of immediate deadline.
+– What did you do in case of disagreement with your manager.
+
+Round 5: Telephonic, Bar raiser
+– Very detailed discussion on my projects
+– Give an example in your work where you exceeded expectations
+– Design an analytics system
+

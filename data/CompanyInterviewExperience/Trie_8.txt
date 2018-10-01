@@ -1,0 +1,7 @@
+We introduced and discussed an implementation in below post.
+Trie | (Insert and Search) – GeeksforGeeks
+The implementation used in above post uses an array of alphabet size with every node.  It can be made memory efficient. One way to implementing  Trie is linked set of nodes, where each node contains an array of child pointers, one for each symbol in the alphabet. This is not efficient in terms of time as we can’t quickly find a particular child.
+The efficient way is  an implementation where we use hash map to store children of a node. Now we allocate memory only for alphabets in use, and don’t waste space storing null pointers.
+Run on IDE
+Output:
+Space used here with every node here is proportional to number of children which is much better than proportional to alphabet size, especially if alphabet is large.

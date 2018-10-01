@@ -1,0 +1,8 @@
+Inversion Count for an array indicates – how far (or close) the array is from being sorted. If array is already sorted then inversion count is 0. If array is sorted in reverse order that inversion count is the maximum.  
+We have already discussed below approaches.
+1) Naive and Merge Sort based approaches.
+2) AVL Tree based approach.
+In this post an easy implementation of approach 2 using Set in C++ STL is discussed.
+Run on IDE
+Output: 
+Note that the worst case time complexity of above implementation is O(n2) as distance function in STL takes O(n) time worst case, but this implementation is much simpler than other implementations and would take much less time than Niave method on average.

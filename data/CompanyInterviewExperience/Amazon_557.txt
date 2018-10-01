@@ -1,0 +1,25 @@
+Written Round:
+20Q questions  on  C, data structures  , some aptitude questions and  other  related concepts.
+2 coding questions :
+Eg             5 -> 4->3->2 ->1
+Output :  4->2->3->2->1.
+First PI:
+1. A brief discussion on my projects that I have done .
+2.  One thing that I am most proud of , a discussion on this .
+3.  Given an array you have to write two functions:
+a.)  getMinimum();
+b.)   upate(index, value);
+A detailed description on my approach , I gave him 2-3 approaches which were  not satisfactory , He told me to give it a fresh thought , then I have him a solution . He was satisfied and then he asked me to code it.
+4.  Some basic questions on operating system concepts like CPU scheduling, why CPU scheduling , advantages , types.  Questions on deadlock.
+Second PI :
+A detailed discussion on its complexity and the code I wrote.
+Third Round :
+Fourth Round( Bar Raiser /BR Round):
+It  was a telephonic round . I was given a design problem . We have  a customer  using  amazon Kindle , suppose he wants to borrow a book for some days , lets say x and  wants to finish reading the book within the days limit. The book contains ,lets say y chapters ,once he starts reading a chapter he has to finish that on the same day . He can read the book only in a sequential manner , you have to tell how many chapters should he read on each day so that he can finish reading the book .
+A discussion on my approach and
+Then he asked me to write a code for it.
+Then he asked me some HR related questions .
+And some others,  I don’t remember.
+It was an amazing experience,  I learned a lot from it.  Thanx a lot to GeeksForGeeks,  you have helped me a lot.
+Suggestions / Tips :
+They need a code for whatever algorithm you are telling them, so be specific, take your time to jump to a conclusion .Discuss whatever you have in your mind , everything you discuss matters and creates an impact , they will also guide you at times, and stay cool and relaxed, clear any doubts you have. And an important thing is to  try to justify each and every thing you say, that matters a lot.

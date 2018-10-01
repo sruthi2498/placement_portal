@@ -1,0 +1,11 @@
+Given a palindromic number num having n number of digits. The problem is to find the smallest palindromic number greater than num using the same set of digits as in num. If no such number can be formed then print “Not Possible”.
+The number could be very large and may or may not even fit into long long int.
+Examples:
+
+Approach: Following are the steps:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)

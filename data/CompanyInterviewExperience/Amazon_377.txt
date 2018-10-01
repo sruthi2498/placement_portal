@@ -1,0 +1,17 @@
+Given an array of distinct integers, find if there are two pairs (a, b) and (c, d) such that a+b = c+d, and a, b, c and d are distinct elements.  If there are multiple answers, then print any of them.
+Example:
+Expected Time Complexity: O(n2)
+A Simple Solution is to run four loops to generate all possible quadruples of array element. For every quadruple (a, b, c, d), check if (a+b) = (c+d). Time complexity of this solution is O(n4).
+An Efficient Solution can solve this problem in  O(n2) time.  The idea is to use hashing.  We use sum as key and pair as value in hash table.
+Below are implementations of above idea. In below implementation, map is used instead of hash.  Time complexity of map insert and search is actually O(Log n) instead of O(1).  So below implementation is O(n2 Log n).
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Gaurav Ahirwar for suggesting above solutions.
+Exercise:
+1) Extend the above solution with duplicates allowed in array.
+2) Further extend the solution to print all  quadruples in output instead of just one. And all quadruples should be printed printed in lexicographical order (smaller values before greater ones).   Assume we have two solutions S1 and S2.
+See this for solution of exercise.
+Related Article :
+Find all pairs (a,b) and (c,d) in array which satisfy ab = cd

@@ -1,0 +1,20 @@
+Experience : 8 months
+First Round :
+Held on interview street .Aptitude + technical (standard pattern and questions)
+Second Round (f2f):  
+Started of with the discussion of trees. Like what is a tree/BST ?
+Implement insertion in tree (Java).
+Discussion on projects.
+Search time complexity in BST/ ternary tree.
+Link List v/s BST
+Third Round (f2f):
+Implement a generic binary search algorithm i.e. the input array may contain int, double or structure values.
+How does strtok() works. How can you make it thread safe.
+Given an array, find number of pairs which equal to a given sum.
+Question on singleton pattern.
+Fourth Round(f2f) :
+A building has n steps. Aperson can take 1,2 or 3 steps. In how many ways can a person reach top of building.
+General discussion on cache.
+You have a stream of incoming integers. How will you store these numbers and implement following functions : GiveMax(), GiveSecond Max(), Delete Max(), DeleteSecondMax (), Add , Remove an element. 
+I couldn’t make it beyond this round.However, this was my interview experience.
+

@@ -1,0 +1,35 @@
+Cvent visited our campus. The whole process took 1 day. There are 5 levels to be cleared for getting into cvent.
+First Level
+Its a shorlisting of candidates on CGPA basis. For us this criteria is 7 out of 10.
+Second Level
+Its a Online MCQ based round. There are 30 questions to be solved in 45 minutes based on (Apti + CS Fundamentals + Code Snippets). There are very few questions which were hard. Most of them belongs to the easy and average category. They shortlisted 25 around candidates for the next level.
+
+Third Level
+It is a online coding round on ‘Codility’ platform. There is one coding task to be solved in 60 minutes. ‘Correctness’ of the code was major concern for them not ‘Time Complexity’. Code needs to be tested for ‘ALL’ edge cases. STATEMENT: Complete definition of a function which returns true or false and takes array as an input, If it is possible to sort the array in atmost one swap return true. They selected 11 for the F2F interviews.
+Fourth Level (F2F Interview I)
+This round sounds HR cum Technical round to me. It was a 1 hour 30 minutes long interview with average difficulty level.
+1)My Interviewer kicks of the interview asking about my internship experience as an ice breaking session. Then he asked me about my projects and technology I worked upon. He seems to be satisfied and happy.
+2) Complete story after we enter certain URL on a browser to the point we recieve a HTTP response.
+(Cache checking+DNS name resolving+Proxy server check+IP routing of request to server and then response back to user.)
+There were many cross questioning like-
+-Disscuss both the cases when the result is there in browser cache and if it is not. Same for proxy server.
+-if all browser have same cache or different.
+-why do there is a need of DNS name resolving to IP.
+-Where DNS resides?
+-some things about ISP and local campus and home networks.
+-How routing works.
+3) He then asked all the front end and back end work to be done at developer level, if you were to develop the gmail.com Login page to the page where we see mails.
+(I responded with front end validation,cryptography and authentication/authorisation process)
+4) He then given me a puzzle suppose you have a cube of side n units made up of 1 unit cubes. How many 1 unit cubes are there whose (3,2,1,no) faces are visible. I need to code for te same as well.
+5) He then jumped to DBMS and given me as situation of Employee and Department and asked me to form a real time relation between them. He also asked me about anomalies that can arise in this case. (I proposed am ER Diagram with proper relationship and Anomalies).
+6) Why Cvent? What do i know about the company?
+At the end i asked him few questions about work culture and his own work life balance at cvent.
+He was very friendly and helpful. Overall the interviewer seems to be happy and satisfied. 4 candidates were shortlisted for the next interview.
+Fifth Level (F2F Interview II)
+This round was more into technical as cmpared to previous one. It was a complete 1 hour interactive session + testing of my coding and problem solving skills. He first introduces himself to me and then asked for my introduction in the same manner. He also asked about my previous interview experience.
+1) First question is to write a code to reverse a line without reversing its words. For eg: “GEEKS FOR GEEKS PLATFORM !!”–> “!! PLATFORM GEEKS FOR GEEKS”. I proposed an O(n) solution and he seems to be satisfied. He then proposed another solution from his side and ask me to compare both on my own parameters.(I used space and time complexity)
+https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+2) He then asked me to find all intersections between two unsorted arrays. I proposed brute force first O(n^2) and then optimized it to O(NlogN).
+3) He asked me a puzzle. Suppose A & B are running on a track with S as a source and D as destination. spped of A, B (Sa<Sb) and distance between D and S is given. If both started from S. B has unusual behaviour that he first runs from S to D and then runs back towards S until he meets A on the way. When he meet A he runs back to D, and keep doing so until A reaches D. I need to calculate the distance traveled by B in this scenario when A reaches D. (I already knew the answer so i asked him for some another question)
+4) He then asked me to to solve a puzzle of three Jars filled with Red and blue colored balls with ‘wrongly’ Labelled as RED, BLUE, RED+BLUE. I need to correct the labels with minimum number of picks. The interviewer that i faced this time was also very helpful and interactive. They finally selected 2 students and wind up the whole process.
+I am glad and would like to thank GeeksforGeeks which proves to best study material for me to achieve success through the interviews.

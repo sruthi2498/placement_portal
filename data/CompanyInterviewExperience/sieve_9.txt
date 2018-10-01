@@ -1,0 +1,17 @@
+Given an array arr[] of n elements and a number K. The task is to determine if it is possible to reach the end of the array by doing the below operations:
+Traverse the given array and,
+If it is possible to reach the end of array with (K > 0), then print YES otherwise print NO.
+Examples:
+
+
+Simple Approach:
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(N(sqrt N))
+Efficient Approach: The above approach can be optimized by using Sieve of Eratosthenes to check if a number is prime or not.
+Below is the implementation of the efficient approach: 
+Run on IDE
+Time complexity: O(?Max * loglog(Max)) + O(n) 

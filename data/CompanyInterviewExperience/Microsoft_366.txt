@@ -1,0 +1,36 @@
+Following are the details of my Microsoft interviews. 
+Date of Interviews: 30th July, 31st July and 3rd August, 2012
+No of Rounds: 1 aptitude test, 1 coding round and 4 PIs
+Type of Interviews: Campus Interview for freshers
+Aptitude Test(60 mins) (30-7-12)
+It was an online test. It consisted of 50 questions, of which 30 were aptitude based and 20 were technical.
+30 aptitude based questions consisted of speed-time based, probability, etc.
+20 technical question included C outputs, flowchart, finding correct code for prime no, Fibonacci no, etc.
+Coding Round(60 mins)(31-7-12)
+Three questions were there
+Question 1: You have to rotate an n*n array right by 90 degree.
+Question 2: Given a linked list containing 0s,1s or 2s. Sort it.
+Question 3: Two elements of BST are swapped by mistake. You have to restore the tree without changing its structure.
+Note that you don’t have to write a function only, as happens in Amazon. Instead you are expected to write it from scratch along with main function and all the helping functions.
+My advice: Screw the instruction, write the function you are expected to write for all the three questions, then go for helping functions and main function.
+Personal Interview(3-8-12)
+Round 1(40 mins):
+A binary tree is given. You have to check whether left node data is greater than right node data for all nodes.
+My Query: What if either one of the left or right subtree is not present.
+Clarification: You can then assume max possible value for left data, if absent and min value for right node data.
+I was asked to dry run my code for a tree. Also test cases were asked to check my code.
+Round 2(80 mins):
+Question 1: To find Inorder successor of a node in a binary tree, provided you have parent pointer.
+Question 2: To find Inorder successor of a node in a binary tree,provided you do not have parent pointer. Test cases for both of them were asked.
+Question 3: Given a linked list a random ptr also exists. Clone the original linked list. Also give the test cases.
+Question 4: Construct a data structure which can push, pop and find minimum in O(1) time. Was asked to code it. Test cases were also asked and was asked to ensure that it works for duplicate elements also.
+Round 3(80 mins):
+Question 1: A file consists of numerous words in it. You have to print the 10 most frequent words. Data structures to be used were asked and was asked to finally code it.
+Question 2: Test cases were asked for a railway portal.
+Question 3: A function was there which accepts a number k and a linked list and deletes every kth node of that list. A function to test the correctness of the above function was expected to be coded.
+Question 4: An extension of Question 3. What if function accepted an array of numbers instead of just one number and deleted multiples of array elements.
+Round 4(40 mins):
+This round was easiest of all.
+Question 1: Write a modified strcmp function which ignores cases and returns -1 if s1 < s2, 0 if s1 = s2, else returns 1. Test cases were asked, as usual.
+Question 2: Write a function which checks whether the tree is height balanced or not. Give test cases also.
+

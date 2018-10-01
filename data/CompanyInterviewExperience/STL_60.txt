@@ -1,0 +1,9 @@
+The unordered_multimap::cend() is a built-in function in C++ STL which returns a constant iterator pointing to the position after the last element in the container or to the position after the last element in one of its bucket.  
+Syntax: 
+Parameters:  The function accepts one parameter. If a parameter is passed, it returns a constant iterator pointing to the position after the last element in one of its bucket. If no parameter is passed, then it returns a constant iterator pointing to the position after the last element in the unordered_multimap container.  
+Return Value:  It returns a constant iterator. It cannot be used to modify the key and element of the unordered_multimap element.   
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

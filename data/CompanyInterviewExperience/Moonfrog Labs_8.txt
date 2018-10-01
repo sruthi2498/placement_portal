@@ -1,0 +1,12 @@
+Round 1:
+1> given a number, and an encoding technique like 1-> A, 2-> C…. 26->Z, How may different valid encryption can be done. Like 123 can be decoded as ABC or LC or AW. so the count is 3
+2>  given an array of -1, 0, 1 in an unsorted matter. sort it in order of n time conplexity
+3> How to get the top 10 occurring words from a file which is dynamically changing
+Round 2:
+1> traverse a tree in spiral order.
+2> traverse a tree in spiral order using a stack and a queue
+3> given a string in form of a linked link. check if it is palindrome or not .
+Round 3:
+1> Given an array which contains value in range 0 to N^2. sort it in order of N time complexity.
+2> Find the largest monotonically increasing subsequence.
+3> Given a binary tree, check if it is a binary search tree or not.

@@ -1,0 +1,24 @@
+Paytm Noida visited our campus on 8 September 2018 for hiring software engineers.
+There were total 5 rounds in total but some of participant has to go through 4 only.
+1 round: online coding round
+2nd, 3rd and 4th round: Technical Interview
+<strong>5th round</strong> HR interview
+Round 1:It was a complete coding round on cocubes.com in which 3 questions were given to be solved in 75 minutes. The person who solved 2 completely and 1 partially was selected for further rounds. Different questions for different persons were there. Two questions were very easy but one was tricky.
+1st question: https://www.geeksforgeeks.org/print-characters-frequencies-order-occurrence/
+2nd question: https://www.geeksforgeeks.org/print-bst-keys-in-the-given-range
+3rd question: I don’t remember exactly(tricky one)
+i solved all three questions and was selected for further rounds. Total 27 students for selected for further rounds out of 76 students.
+Round 2: It was complete technical interview. Interviewer was very friendly. There was no intro part in this interview. Firstly he asked me about my projects and asked to rate myself in data structure and algorithm on scale of 10. I rated myself above 8. Then he asked me some basic data structure questions and one coding question and one puzzle.
+Coding question: https://www.geeksforgeeks.org/reverse-a-linked-list/
+Puzzle: https://www.geeksforgeeks.org/puzzle-14-strategy-for-a-2-player-coin-game/
+on puzzle he asked my approach, he told me that he is not expecting a solution but approach as no one was able to answer this puzzle he interviewed till date. I had solved this puzzle on geeksforgeeks but pretended that i didn’t know the solution. First of all I gave him a solution when coin were in sorted order then he asked me to give another approach for random order. I came to exact solution after 10 minutes( but don’t stop in this 10 minutes give him another solutions). He was so happy with my answer that he declared that u r selected in paytm and no further interview except HR would be held for me. I was very happy but called for 2nd technical interview unexpectedly.
+Round 3:
+It was also a technical interview. The interviewer was very friendly and asked about my projects. My project was in machine learning so he asked some questions from machine learning.
+After this he directly came to one coding question, that is
+https://www.geeksforgeeks.org/level-order-tree-traversal/
+I gave him a solution that was using queue that is very simple answer for anyone then he asked me to optimize it in space complexity, I took a local variable within structure of node that will store level and print accordingly, interviewer was not completely satisfied and asked me to again optimize, he gave me some hints that u could use loops and recursion then i gave him this solution https://www.geeksforgeeks.org/print-level-order-traversal-line-line/ now he was satisfied and moved to other subjects like OS and DBMS.
+In OS he asked about virtual memory concept and in DBMS he asked about normalization.
+Round 4: I didn’t go through this interview but most of the participants had to clear this round also to make it to Paytm. According to some participants this was also complete technical interview and interviewer asked from algorithms, os, dbms and networking mainly.
+Round 5: This was an HR interview, btw there was nothing like interview in this round. A lady interviewer was there and asked some very basic questions about family and job location and salary expectations. This round was formality because all the candidates made to this were selected.
+Finally day was over and paytm selected total 11 person from my college. I was also selected and now enjoying!!!!
+A big thank to GeeksForGeeks for helping me out through out this complete journey…..

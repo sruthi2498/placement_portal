@@ -1,0 +1,13 @@
+Deutsche Bank visited the campus and coding round included 10 MCQs based on Sorting and Data Structures.
+2 coding questions:
+1. String is given and left and right integer is given. Left means number of character to be rotated left, and right means number of characters to be rotated right. Find the resultant string.
+Solution: O(1) possible. Take the difference of left and right. Extract the sub strings, and concatenate them accordingly.
+2. Queries problem. Repetitive updation of the array.
+Solution: Lazy propagation.
+Round 1:
+It was technical as well as HR round. 2 people in the panel. Some of the questions asked were:
+Round 2:
+It was around 1 hr 30 mins long interview. There were 2 people in the panel. They kept on asking questions back to back.
+Round 3:
+It was HR round. 4 people in the panel.
+Thanks to GeeksForGeeks for helping an electrical student cracking CS interviews. 🙂

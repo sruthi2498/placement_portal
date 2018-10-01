@@ -1,0 +1,13 @@
+I went through some interview rounds for SDE-2 in amazon. Below is the format.
+Round1:
+1. LCA of Binary tree
+2. Finding minimum cost to combine n pipes of different size.
+Round2:
+1. Behavioural question.
+2. Design Dating application. HLD, then specific discussion of profile search and ranking based on the users’ interest. Discussion on making it scalable.
+Round3:
+1. Design cricket score board.
+Round4:
+1. Architecture of current project.
+2. Design an aggregator service that would be serving various services to a lot of clients. Discussion on how this service can hand billions of data in a request. Code for the service.
+

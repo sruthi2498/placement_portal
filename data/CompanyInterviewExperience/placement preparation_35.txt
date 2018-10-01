@@ -1,0 +1,67 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the TCS interview.
+Solution:
+Looking at the series closely we find that the 3rd number is oddly placed.
+The series is in the form:
+5 * 3 = 15
+15 * 3 = 45
+45 * 3 = 135
+135 * 3 = 405 and so on
+Solution:
+We need to use f(1) to calculate the value of f(17)
+f(17) can be written as f(1+16)
+f(16) can be written as f(8+8)
+f(8) can be written as f(4+4)
+f(4) can be written as f(2+2)
+f(2) can be written as f(1+1)
+f(1) = 0, so f(2) = f(1+1) = f(1)+f(1)+4(9*1*1-1) = 32.
+or, f(4) = f(2+2) = f(2)+f(2)+4(9×2×2 – 1) = 32+32+4×35 = 204.
+or, f(8) = f(4+4) = f(4)+f(4)+4(9×4×4 – 1) = 204+204+4×143 = 980
+or, f(16) = f(8+8) = f(8)+f(8)+4(9×8×8 – 1) = 980+980+4×575 = 4260
+or, f(17) = f(1+16) = f(16)+f(1)+4(9×16×1 –1) = 4260+0+ 4×143 = 4832 
+Solution:
+According to the question,
+case 1: P = 2(Q + R)/3
+        or, (Q+R)/P = 3/2
+case 2: Also, R = (P+Q)/3
+        or, (P+Q)/R = 3/1
+Simply using componendo-dividendo, we get,
+for case 1, (P+Q+R)/P = 3+2/2 = 5/2 = 20/8
+for case 2, (P+Q+R)/R = 3+1/1 = 4/1 = 20/5
+On solving we get, P = 8, Q = 7, R = 5
+or R’s share = 5/(8+7+5) * 3000 = 750
+Solution:
+The given series follows the order of multiple of 12
+23 – 11 = 12
+47 – 23 = 24
+83 – 47 = 36
+131 – 83 = 48
+x – 131 = 60
+or x = 191
+Solution:
+Let the number be N when divided by 357 leaves remainder 5 and quotient q.
+So, N = 357k + 5 = 17 * 21 * k + 5
+So, 357 is exactly divisible by 17 so remainder is 5
+Solution:
+Let the point at which the pole broke be ‘x’ from the ground, so the length of the broken piece be (36-x).
+So applying Pythagoras theorem we get, 
+=> 
+=> 72x = 1296 – 144
+=> x = 16
+Solution:
+Since there are 23 people, number of handshakes possible = 23C2 = 253 handshakes.
+Solution:
+This is a very ambiguous question and must be calculated using the options.
+If there are 20 bicycles, there must be 20*2 = 40 wheels
+Remaining wheels = 182-40 = 142 wheels = 142/4 is not an integer so there cannot be 20 bicycles.
+Similarly checking for 19 bicycles = 19*2 = 38 wheels
+Remaining wheels = 182 – 38 = 144 = 144/4 = 36 cars hence this is the answer.
+Solution:
+Area of the inner rectangle = 17 * 8 = 136 meter-square
+Area of the outer rectangle = (17 + 2*1.5) * (8 * 2*1.5) = 220 meter-square
+So area of the remaining path = 220 – 136 = 84 meter-square
+So sand required to fill the path = 84 * (12/100) = 10.08 meter-square
+Solution:
+So according to the question, (272738 – 13) and (232342 – 17) are exactly divisible by n.
+So if we find the HCF of these two numbers, we get n,
+The HCF of 272725 and 232325 is 25
+So the sum of the digits = 7.

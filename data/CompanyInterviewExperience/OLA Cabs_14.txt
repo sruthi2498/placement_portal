@@ -1,0 +1,13 @@
+Design Round:
+1. Design LRU cache and implement
+2. Solving sudoko
+3. Design to replace the existing Support tab navigation based to search based in OLA app.
+Machine round:
+Design and implement a sender and receiver system where there can be multiple senders and receivers subscribed to Topics. Each event generated at sender should be received by all receivers subscribed to that topic. Bonus if you can implement group mechanism at receiver side where event is received by one of the receiver in group and received by all groups subscribed to that Topic.
+(like kafka)
+Managerial Round:
+1. In Depth discussion on projects worked on, flow of entire system of my component. Be confident as u r the boss of ur work.
+2. Briefed about the job role and team.
+3. Few personal questions like hobbies 🙂 
+
+

@@ -1,0 +1,21 @@
+Given a sorted array, the task is to remove the duplicate elements from the array.
+Examples:
+
+Method 1: (Using extra space)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+Method 2: (Constant extra space)
+Just maintain a separate index for same array as maintained for different array in Method 1.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+

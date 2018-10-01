@@ -1,0 +1,10 @@
+Given a dictionary, and two words ‘start’ and ‘target’ (both of same length). Find length of the smallest chain from ‘start’ to ‘target’ if it exists, such that adjacent words in the chain only differ by one character and each word in the chain is a valid word i.e., it exists in the dictionary. It may be assumed that the ‘target’ word exists in dictionary and length of all dictionary words is same.
+Example:
+The idea is to use BFS. We start from the given start word, traverse all words that adjacent (differ by one character) to it and keep doing so until we find the target word or we have traversed all words.
+Below is C++ implementation of above idea.
+Run on IDE
+Run on IDE
+
+Time Complexity of the above code is O(n²m) where n is the number of entries originally in the dictionary and m is the size of the string
+
+Thanks to Gaurav Ahirwar and Rajnish Kumar Jha for above solution.

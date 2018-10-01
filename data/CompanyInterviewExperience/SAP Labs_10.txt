@@ -1,0 +1,14 @@
+Given an array of N integers. You are allowed to rearrange the element of the array. The task is to find the maximum value of Σarr[i]*i, where i = 0, 1, 2,…., n – 1.
+Examples:
+
+A simple solution is to generate all permutations of given array. For every permutation, compute the value of Σarr[i]*i and finally return the maximum value.
+An efficient solution is based on the fact that the largest value should be scaled maximum and smallest value should be scaled minimum. So we multiply minimum value of i with minimum value of arr[i]. So, sort the given array in increasing order and compute the sum of ari]*i, where i = 0 to n-1.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n Log n)

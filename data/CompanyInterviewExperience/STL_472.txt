@@ -1,0 +1,12 @@
+This article focus on : Compare and contrast Hash table and an STL Map. How is the hash table implemented? If the number of inputs is small, which data structure options can be used instead of a hash table?
+Hash table
+In a hash table, a value is stored by calling a hash function on a key. 
+Implementation  of Hash Table : A hash table is traditionally implemented with an array of linked lists. When we want to insert a key/Value pair, we map the key to  an index in the array using the hash function. The value is then inserted into the linked list at that position.
+Note: The elements in the linked list at a particular index of the array do not have the same key. Rather, hash function(key) is the same for these values. Therefore, in order to retrieve the value for a specific key,we need to store in each node both the exact key and the value.
+To summarize, a hash table will be implemented with an array of linked lists, where each node in the linked list holds two pieces of data: the value and the original key. In addition, we will want to note the following design criteria:
+STL Map
+The container map is an associative container included in the standard library of C++. The definition of this class is in the header file “map” of the namespace std.
+STL Map Internal Implementation: 
+It’s implemented as a self-balancing red-black tree. Probably the two most common self balancing trees are red-black tree and AVL trees. To balance the tree after an insertion/update both algorithms use the notion of rotations where the nodes of the tree are rotated to perform the re-balancing. While in both algorithms the insert/delete operations are O(log n), in the case of Red-Black tree re-balancing rotation is an O(1) operation while with AVL this is a O(log n) operation, making the RB tree more efficient in this aspect of the re-balancing sage and one of the possible reasons that is more commonly used.
+Differences between hash table and STL map
+Related articles 

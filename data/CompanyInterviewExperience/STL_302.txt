@@ -1,0 +1,19 @@
+These functions return useful iterators to access vector elements in reverse order (from end to beginning)
+Using vector::crend()
+It’s a public member function that returns a const_reverse_iterator pointing to the element preceding the first element.
+Return Value
+Syntax:
+
+Using vector::crbegin()
+It returns a const_reverse_iterator pointing to the last element in the container (i.e., its reverse beginning)..
+Return Value
+Syntax:
+Run on IDE
+Output:
+Applications
+crend :
+Returns a reverse iterator to the element following the last element of the reversed container. It corresponds to the element preceding the first element of the non-reversed container. This element acts as a placeholder, attempting to access it results in undefined behavior
+crbegin :
+Returns a reverse iterator to the first element of the reversed container. It corresponds to the last element of the non-reversed container.
+Both are used in deque operations, concurrently accessing or modifying different elements is safe.
+The copy construction or assignment of the returned iterator is also guaranteed to never throw exception.

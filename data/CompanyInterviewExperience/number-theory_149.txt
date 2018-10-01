@@ -1,0 +1,12 @@
+Given a number n, we need to calculate the sum of divisors of factorial of the number.
+Examples:
+A Simple Solution is to first compute factorial of given number, then count number divisors of the factorial. This solution is not efficient and may cause overflow due to factorial computation.
+Run on IDE
+Run on IDE
+
+An efficient solution is based on Legendre’s formula. Below are the steps.
+The value of largest power that divides p is floor value of each term n/p + n/(p2) + n/(p3) + ……
+Let these values be exp1, exp2, exp3, .. Using the above formula, we get below values for n = 6.
+Run on IDE
+Output:
+

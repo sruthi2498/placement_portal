@@ -1,0 +1,36 @@
+Recently Mahindra Comviva visited our campus for hiring students for the profile of “Product Development Engineer”. It was a 2-day long process.
+
+DAY 1:
+Round 1: Online Coding Round
+There were 3 questions to be done in 120 minutes on HackerEarth.
+Out of a total 150 students (MCA,ECE,CSE students) 80 made it to the next round. Those who could do 2 out of 3 cleared this round.
+
+Round 2: Online Aptitude+Technical Round
+This round had 4 sections each consisting of 25 questions. Quantitative, logical reasoning, verbal ability and technical were the 4 sections. 100 minutes was the maximum time allotted for this round. Technical section had mainly questions from C, data structures, Java. Quantitative and logical reasoning were fairly tough. Mettl conducted this round.
+28 students were shortlisted after this round.
+
+DAY 2:
+
+Round 3: Technical Interview-1
+After the usual “Tell me about yourself?” the interviewer wanted to know about my projects.
+(1) My first project was on DBMS.
+He asked me to draw ER diagram for the same. Also what all tables I created in implementing it. He asked me how could I improve by minimising the number of tables I had created (he wanted to know about normalisation and foreign key concepts). After 10-15 discussion on the same he asked me about 3NF and BCNF.
+Next he asked me to tell him about all kinds of joins. Difference between primary key, candidate key and foreign key.
+(2) Second project was on Networking (Socket programming).
+He asked me to write down the code for client and server. He wanted it at first to be one way communication and then a 2-way communication program. Next he asked about the client server architecture. Asked about the differences between TCP and UDP. Since I had also mentioned my favourite subject to be Computer Network (along with Operating System) the discussion went on for quite some time. He made me explain all the layers of OSI model.
+(3) Next, he asked questions about Operating System.
+What is thread? Draw the life cycle of a process. What is a deadlock? Avoidance and prevention of deadlock? What is paging? All the types of paging and their explanation. What is segmentation?
+(4) OOPS and Algorithm
+What is Inheritance and write the code implementation of the same? Kinds of inheritance?
+Write the code for quicksort. Implement doubly linked list.
+This round lasted for around 80-90 minutes.
+Round 4: Technical Interview-2
+This round was with the team lead engineer. The guy was quite friendly and made you comfortable at first before proceeding to any discussion.
+Asked me to explain 3-way handshaking protocol. Asked about deadlock and it’s prevention and recovery techniques. Asked about the software development life cycle. Told me to write the code to insert a node with some data in the middle of a double linked list.
+This round lasted for just 20-25 minutes.
+
+Round 5: HR Interview
+This round had regular questions including your hobbies, strengths, weaknesses, where do you see yourself in 5 years, Why Mahindra Comviva? Why don’t you go for higher studies? and some random puzzles.
+The round lasted for about 25-30 minutes.
+A total of 9 students were selected. (5 from CSE, 3 from MCA, 1 from ECE)
+I would like to thank geeksforgeeks for helping me in my placement preparation. 

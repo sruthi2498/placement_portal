@@ -1,0 +1,15 @@
+Question:
+Ticket Scalpers:
+Given an array of tickets held by n scalpers.
+The cost of a ticket at the scalper is equal to the number of tickets at a scalper at that particular moment. i.e if a 1st Scalper  has 4 tickets at present then the cost of a ticket will be $4. After he sells that ticket he has 3 tickets, so the next ticket will cost $3 and so on.
+If N number of tickets scalpers are seated outside a hockey stadium what is the maximum amount they can earn for the first ‘k’ tickets sold:
+Input: Given n (Number of scalpers), given an array which has number of tickets held by  each ticket scalper, the value of k.
+Output: the max amount that can be earned by them by selling k tickets.
+Eg:
+Input:
+2
+2
+5
+4
+Output: 14
+Solution: 5+4+3+2 =14

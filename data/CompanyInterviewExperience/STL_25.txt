@@ -1,0 +1,9 @@
+The array::at() is a built-in function in C++ STL which returns a reference to the element present at location i in given array.
+Syntax:
+Parameters: The function accepts a single mandatory parameter i which specifies the location.
+Return value: The function returns an element present at index i in given array if i is valid index otherwise it throws out_of_range exception.
+Time Complexity: O(1)
+Below programs demonstrate the array::at() function: 
+Program 1:
+Run on IDE
+Run on IDE

@@ -1,0 +1,31 @@
+Round 1:-
+Hacker Rank [online test]
+Question 1 :- count the path in the 2d Matrix, only right and down move is allowed.
+https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+Slight change is 1, 0 is there in the matrix. 0 means no path and 1 means path.
+Question 2 :- Count the number of the cavity in the 2d matrix and mark it to X, a cavity is defined as all the surrounding number are greater than the mid number.
+For e.g.  4 5 6
+          7 1 5
+          4 5 6 here 1 is the cavity.
+
+Round 2:-
+Algorithm and Data Structure and problem solving
+Q1 Median from the running stream of numbers
+Q2 https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/ 
+Code is asked and they checked line by line.
+Q3 https://www.programcreek.com/2014/03/leetcode-fraction-to-recurring-decimal-java/
+
+Round 3 Problem Solving and System design
+Q1 Given a node in a binary tree, print the in order successor of the node
+Q2 Given a variable, multiple concurrent threads are accessing , how will you achieve
+   performance, strict consistency. if not able how will you trade off.
+Q3 What are the problems in elastic search. related to my projects.
+Q4 Apache Spark related questions.
+
+Round 4
+Q1 Discussion on the projects in depths.
+Q2 Design online transaction payment system. Discussion on the nitty grits of the system, fail over mechanism.
+
+Round 5
+Hiring Manager, discussion on the OLA features.
+Very General behavioral question.

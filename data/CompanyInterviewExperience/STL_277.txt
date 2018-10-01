@@ -1,0 +1,27 @@
+Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled automatically by the container.
+This function is used to insert a new element into the vector container, the new element is added to the end of the vector.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. Parameter should be of same type as that of the container, otherwise an error is thrown.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)
+Application
+Given an empty vector, add integers to it using emplace_back function and then calculate its size.
+Algorithm
+1. Add elements to the vector using emplace_back function
+2. Check if the size of the vector is 0, if not, increment the counter variable initialised as 0, and pop the back element.
+3. Repeat this step until the size of the vector becomes 0.
+4. Print the final value of the variable.
+Run on IDE
+Output:
+emplace_back() vs push_back()
+When we use push_back(), we create an object and then insert it into the vector. With emplace_back(), the object is constructed in-place and saves an unnecessary copy. Please see emplace vs insert in C++ STL for details.
+Run on IDE
+Output :

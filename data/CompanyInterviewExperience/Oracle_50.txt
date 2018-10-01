@@ -1,0 +1,23 @@
+Round 1:
+	– Group anagrams from list of strings
+	– Right view of binary tree
+Round 2:
+	– Given Binary tree. Find whether its BST
+	– Singleton & Observer design patterns
+	– Sorted array to balanced BST
+	– Get frequency count of elements of sorted array
+	– Sort strings by length
+Round 3:
+	– Print LinkedList elements in reverse order
+	– Log file is given with some function start and ending statements. Determine whether its valid log file i.e. all statements properly logged or not ?
+	– XML file validation
+	– Managerial Questions
+Round 4:
+	– Questions on Threads, HashMap, etc
+	– find a number between 1 and 100, that generates longest series using following rules:
+		if n is odd, next n = 3n + 1
+		if n is even, next n = n/2
+		if n == 1, terminate
+Round 5:
+	– Managerial questions
+

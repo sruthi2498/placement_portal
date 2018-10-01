@@ -1,0 +1,36 @@
+I had an telephonic interview with Arista Networks couple of days ago.  To apply for Arista Networks (Internship) CGPA >=8.5, luckily i had. Here are the details of the company’s interview.
+Interviews were done using Shared editor and phone .
+Round 1 
+1. Tell me something about yourself ?
+2. what do you know about arista networks ?
+3. output of given program 
+4. How you can check whether a machine is 64 bit or 32 bit ?
+5. Print number in reverse (descending) order in BST .
+6. Delete a node in DLL .
+7. struct hack , struct size .
+8. Do know backtracking algorithm ?
+9. What is DFS , BFS  ,which datastructures are used to implement this  then he asked me to print BFS,DFS of a tree(t) i don’t remember tree(t) .
+10.Define OOP in 4 sentences .
+11.Define Polymorphism .
+12.Merging of list or array is good for if they are sorted , algorithm for merging of two lists time complexity of this algorithm
+13.Following same question for array .
+14.Following same question for array having the property as one array have enough empty space such that one array can accommodate another one ,  as like we have a[100] and b[40]; now we can accomodate b in a, assume we have 40 empty spaces in a.
+15.sorting time of merge sort , heap sort , quick sort .
+16.Define max and min heap , search time of heap .
+17.Define Normalization in database .
+18.Difference b/w C and Java
+19.Do you have any questions ?
+Questions are not in correct order  and some question may be from 2nd round sorry for that.
+Interviewer was very helpful . 
+Round 2
+1. Tell me your interest subjects and grade .
+2. How will you implement phonebook such that we can search using first name?
+3. Following same question , How you will do if you have one more requirement as search with last name also ?
+4. Following same question if you have to search using phone number ?
+5. How can you show frequent calls list (list can have at most k items) for a phonebook ?
+6. Following same question , how you can solve if two or more calls have same count(and still maintaining k items only) ?
+7. Find duplicates in a file containing 6 digit number(like uid) in O(n) time .
+8. Implement bitArray in C  .
+9. Why do you want to join our company ?
+10. do you have any questions ?
+I would like to thank GeeksforGeeks team for building such an awesome site and platform for interview preparation. After 4 days i got confirmation that you are selected for Arista Networks, feeling awesome .

@@ -1,0 +1,19 @@
+1)  Started with telephonic interview –
+    a)    Find the occurrence of first 1 in an array and the array contains only 0s and 1s in sorted manner.
+    b)    Design a datastructure to get minimum path between computers and printers in a network. Printers are getting dynamically added to our model.
+2) Onsite 2st round of interview
+    a) Given numbers from 1 to n , find a and b such that a <= b*10 and b <= a*10. The set should contain numbers which are violating these conditions with each other. This was a nice question(Hint: Complexity of the answer is 0(log n to the base 10)
+    b) Given an array such that the number next to a number is either +1 or -1. Given such a condition, find a given number is less than linear time. He told me to write the complete code.
+    c) Given a function Know(A,B) If A knows B then the function returns true then false. Now in a given set of people a celebrity is one who is known by other people and he doesnt know any one. Given an array, find the number of celebrities and the celebrity in less than linear time.
+
+Other questions were on my previous work. I really enjoyed this interview, because I hadn't heard even a single question in this set
+
+3) Onsite 3nd round HR
+     Prepare thoroughly on why do you want to join Fab ? Who are the founders and what is the problem that fab.com is solving and how is it different from ebay etc Also, the acquisition of truesparrow by fab.
+4) Onsite 4th round HR
+    a)  Discussed on design of NLQ Parser because that was my project and then design of callbacks in design of a generic tree data structure
+      b)  Given an algorithm print numbers divisible by 3,5 and 3&5. If I keep adding more prime numbers, how will you make your code maintainable ? Please write the complete code
+      c) Given a circle with radius (r). Find all the points that lie in a circle and which are integers(Hint: x^2 + y^2 = r^2 and also use the property of x-symmetry, y-symmetry and mirror )
+5) Final round by the co-founder(Nishith Shah)
+        a) Model an elevator – Very interesting and subjective question. Will give you 1 hour and will make u write the complete pseudo code.
+I really liked their interview process because it was very much different from other big companies like Amazon, Adobe or Microsoft who actually tests your mugging skills. If you go without any preparation, still your logic will make you clear their interview. I did get an offer from fab.com.

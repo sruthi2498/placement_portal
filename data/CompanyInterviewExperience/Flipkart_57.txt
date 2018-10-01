@@ -1,0 +1,85 @@
+PROCESS
+Test–> Test–> Technical Interview–> Technical Interview.
+OWN EXPERIENCE
+TEST [ Duration: 90 mins | Questions: 2 ] (ROUND 1)
+2 coding questions on Hackerrank platform
+Experience
+1) A Diamond is present on the nth step. A Boy wants to get it. He can jump either j steps or 1 step at a time. In how many steps will he get the Diamond(Very Easy)
+2) This question can be solved either by DP or memoization. (Hard)
+Run on IDE
+Given above program you have to print the value of one and zero.
+** you can solve it directly by recursion but try doing that for 100 (1<=n<=100) the test case will take more than 10 sec ---meaning TIMEOUT
+
+you need to optimize the code so to run it in time.
+
+That's when memoization comes into play.
+
+similar problem
+https://www.codechef.com/problems/SUMTRIAN
+if u have trouble solving the codechef problem then try editorial or search online how to solve it.
+Tips
+The programs asked in this round are not lengthy, but takes a lot of time to thing, after that debugging is another issue.
+So, choose your language wisely and learn its Standard library
+C++ programmers learn how to use STL
+Java also has standard library check it out.
+practice easy level in hackerrank for few days and later shift to medium and hard
+TEST [ Duration: 20+10 mins | Questions: 1 ] (ROUND 2)
+1 coding questions on Hackerrank platform
+Experience
+You are provided with n and m values which denote the rows and columns 
+Rajesh starts from top most node(0,0) 
+1-He moves towards the point towards his right.
+2-if he cannot move one point to the right, he rotates right and then takes the path to the right
+3-if after performing 4 rotate operations , if he cannot move then he would stop.
+print the number of nodes reached by him
+//The above question is written in own words 
+sample 1:
+3 3 
+output : 9
+explanation:
+rajesh faces -> direction first
+the traversal is 
+1 2 9
+4 3 8 
+5 6 7
+Tips
+If u look at the problem  and test case u feel like it involves a lot of graphs. But you are provided with only 20 minutes, I cant solve it by approaching the problem that way. 
+So, I tried few own test cases and the logic is very simple
+Don’t look at the problem only one way. Trust your instincts
+TECHNICAL INTERVIEW (ROUND 3)
+1-Given an array, how do you get the count of pairs that sum to even
+2-Given an array, how do you get the count of pairs that sum to odd
+3-You are getting requests for room allotment, each request will have the start time and end time of the request. Print the minimum number of room required to support all requests
+Experience
+For Question 1 and 2, I gave a solution that is of O(N^2)  and O(N).
+Try solving it yourself. (just have to explain on paper and they might ask u to write the sample code on paper)
+Third question: This problem I felt it tough.
+I explained to the interviewer but the implementation of that is very tough.
+Finally, He suggested me to use the sorting technique after the meeting is done.
+Complexities of the system will be asked for your code
+TECHNICAL INTERVIEW (ROUND 4)
+1-minValue in stack in O(1)
+2-Queue implementation using stacks
+Experience
+This is basically a DS round. 
+I explained the interviewer both the questions nicely with time and space complexities.
+Tips
+geeksforgeeks.org
+previous experiences of others 🙂
+All the best 🙂
+KEY SKILLS TESTED
+Mostly Logical Questions
+TIPS TO BUILD YOUR SKILLS
+Don’t try to type the very moment you read the question, try to solve it on paper first.
+Make your own testcases 
+BLOGS/ARTICLES
+Notes | HackerEarth
+http://https://www.codechef.com/wiki/recursion-sums-triangle (Read this only after trying the problem) 
+VIDEOS TO WATCH
+DS and sorting are best explained by Robert Sidgewick in Java (coursera)
+WEBSITE TO REFER
+https://www.geeksforgeeks.org 
+GENERAL TIPS/ADVICE
+Don’t tell the complexities with out analyzing the problem correctly. 
+Learn the Syntax of the language perfectly( we should not focus on the syntax when we are working on problem with  time constraints)
+

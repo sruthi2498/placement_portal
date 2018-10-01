@@ -1,0 +1,34 @@
+Round 1
+It was an online coding round conducted on cocubes.com. It was a 75 minutes round consisting of 3 coding questions only.
+Questions were:
+1:An array of integers is given which represents the heights of n buildings.Sun start falling from the left side. If there is a building of certain Height, all the buildings right of it having lesser heights cannot see the sun. Find the no. of buildings which can see the sun.
+2: Rearrange a given array in-place such that all the negative numbers occurs before positive numbers.(Maintain the order of all -ve and +ve numbers as given in the original array)
+3: Find the sum of leaf nodes at minimum depth of a tree. Return -1 if root is NULL.
+Students doing all the questions correctly and some students doing 2 questions correctly cleared this round. Total 16 students out of around 150 were selected for further rounds which were conducted at NSIT Delhi.
+Round 2: Group Fly Round
+In this round only 1 question was given and 30 minutes was the allotted time. It was a paper based coding round.
+Ques: Write a string comparison function.(Return 0 -if strings are equal, 1 -if string 1 is greater else -1). The increasing order of priority of characters was given:
+a,b,c,d,e,k,f,g,h,I,j,l,m,n,’ng’,o,p,q,r,s,t,u,v,w,x,y,z (‘ng’ combination has to be considered as a single character).
+According to me, in this round apart from writing correct & working code one should try to communicate with the mentor a lot and make him understand your code.
+From a group of 12 students, 6 were selected for further rounds.
+Round 3: Technical Interview
+Firstly there was a 15 min discussion on my project. He asked me about the project details like implementation, technologies used and time spend on the project etc. Then he gave me only one coding question–
+Ques – Given k sorted arrays. Merge them into a single sorted array.
+I directly gave him the min. heap solution so he asked me about other methods also.Then he asked me to derive the time and space complexity for the min. heap solution. Then he told me to write code for the same.
+The interviewer was not at all cooperative. He kept asking questions when I was writing the code.
+ Round 4: Technical Interview
+The interviewer was cool and asked me some direct questions after the discussion about my project.
+Ques 1: Find intersection point of 2 linked list.
+Ques 2:Detection of loop in a linked list.
+He asked me to write the code of the above 2 questions. He told me that the evaluation of the code would be according to the code correctness, proper indentation, time taken etc.
+Then he asked me about the knapsack problem(fractional as well as 0-1)and some graph related problem. I told him that I was not comfortable in writing graph codes so he asked only the implementation of these problems.
+Round 5: Technical Interview
+It was meant to be an HR interview but the interviewer asked me some technical questions also. Firstly she asked me about the project and then some basic HR questions and then gave me 2 coding questions and told me to code them.(correctly and neatly)
+Ques 1: Given pre-order and in-order traversal of a BST. Construct the BST.
+Ques 2: Given a string. Encode it.
+Ex: input = wwwwaaabcccdd
+Output = w4a3bc3d2
+I gave her the best solutions for both the questions.
+Then she asked if I have any questions for them, so I did asked some questions.
+Thanks to GeeksForGeeks for providing such a vast content to study and practice.
+

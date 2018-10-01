@@ -1,0 +1,25 @@
+Given integers x1, x2, x3……xn, b and m, we are supposed to find the result of ((x1*x2….xn)/b)mod(m).
+
+Example 1 : Suppose that we are required to find (55C5)%(1000000007) i.e ((55*54*53*52*51)/120)%1000000007  
+Naive Method :
+Using Modular Multiplicative Inverse : 
+Above method will work only when x1, x2, x3….xn have small values.
+Suppose we are required to find the result where x1, x2, ….xn fall in the range of ~1000000(10^6). So we will have to exploit the rule of modular mathematics which says :
+        (a*b)mod(m)=(a(mod(m))*b(mod(m)))mod(m)
+Note that the above formula is valid for modular multiplication. Similar formula for division does not exist.
+    i.e (a/b)mod(m) != a(mod(m))/b(mod(m))
+Note : To find modular multiplicative inverse we can use Extended Eucledian algorithm or Fermat’s Little Theorem. 
+Example 2 : Let us suppose that we have to find (55555C5)%(1000000007) i.e ((55555*55554*55553*55552*55551)/120)%1000000007.    
+Run on IDE
+It is clear from the above example that the naive method will lead to overflow of data resulting in incorrect answer. Moreover, using modular inverse will give us the correct answer.
+Without Using Modular Multiplicative Inverse : 
+But it is interesting to note that a slight change in code will discard the use of finding modular multiplicative inverse.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Why did it work?
+Let us consider a = x1*x2*x3…….xn
+We have to find ans = (a/b)%1000000007

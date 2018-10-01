@@ -1,0 +1,24 @@
+I had a total of 5 rounds.Initially I thought there will be only 3 rounds. 
+Round 1:
+1. Rotate a matrix by 90 degrees clockwise.( He asked me have you heard of question.I said Yes.Then he asked me to code)
+2. Find vertical sum of nodes present in same vertical line in binary tree. ( He again asked me have you heard of question. I have heard it but didn’t remember the approach. It took some time and then I started telling my approach.He aasked me to write code and question regarding get sums from left to right , for which I made use of linked hashmap)
+Overall It was very cool for me
+Round 2:
+1.Reverse K blocks of nodes in linked list.
+There are two interviewers this time, probably, guy was senior he was asking me question.He was very particular in coding. Checked every edge case.and asked me evrything.Initially I told the approach and then started coding.
+2.Find min in stack in O(1)
+Pretty straightforward written code.Again he checked all edge cases with my code.
+3. Then asked about counting sort and its code.
+4. And a simple question on array sorting.
+Round 3 (Manager round):
+I thought this was last round as they have said like.She asked me about my strengths and challenges I faced.How I overcame through it
+1.Basic question on oops concepts.(runtime polymorphism).
+2.Design tables for getting all employees under manager. I screwed it little bit.But some how I got answer which I was not satisfied as well.
+I was expecting result either yes/no.But they called me for another round of interview may be because of my expected salary which was high compared to my previous.
+Round 4 (Technical):
+1.Given “aaabbbccc” it should return “a3b3c3” in place. Initially I explained brute force approach then he said array has 2n space.I was able to remember approach for quicksort and started explaining after which I grew confident on it.He was satisfied.Questions on time complexity of algo and space complexity discussions.
+2.Again a question on OOPs.This time I was completely wrong in answering it.I thought interview with yatra was closing for me.He was not satisified much with this.
+Luckily, there was another round with manager.
+Round 5( Manger)
+1.He asked me to find words which are having particular pattern.Then I said it was KMP algo. Can I explain it ?? I started explaining approach, may be he was busy with something, he asked me to write pseudo code.He left the room for 15 mins then he came back I had almost completed the code, which he was satisified.
+Some basic questions on spring ( my previous work was related to it). Then my expected salary and my position If I got selected in yatra were discussed.

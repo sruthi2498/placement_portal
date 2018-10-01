@@ -1,0 +1,15 @@
+Set is a container implemented in C++ language in STL and has a concept similar to how set is defined in mathematics. The facts that separates set from the other containers is that is it contains only the distinct elements and elements can be traversed in sorted order. Having the strong hold on sets is useful in competitive programming and solving algorithmic problems. The insertion and deletion in STL sets are discussed in this article.
+Using insert() : Insert function is used to insert the elements in the set. After insertion, the reordering of elements takes place and the the set is sorted. This function is implemented in 3 ways.
+
+
+Run on IDE
+Output:
+
+Using emplace : emplace is also used to insert the element into the Set. This function is similar to “insert()” discussed above, the only difference being that “in-place” construction of element takes place at the position of element insertion contrary to insert() which copies or movies existing object.
+Run on IDE
+Output:
+
+Using erase() : erase() is used to erase the element in set mentioned in argument, either its position, its value or a range of number.
+Run on IDE
+Output:
+

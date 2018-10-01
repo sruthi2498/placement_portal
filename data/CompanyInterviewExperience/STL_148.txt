@@ -1,0 +1,6 @@
+The vector::shrink_to_fit() is a built-in function in C++ STL which reduces the capacity of the container to fit its size and destorys all elements beyond the capacity.
+Syntax:
+Parameters: The function does not accept any parameters.
+Return value: The function does not returns anything. 
+Below program illustrate the above function:
+Run on IDE

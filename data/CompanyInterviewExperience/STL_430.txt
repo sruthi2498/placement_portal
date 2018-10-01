@@ -1,0 +1,23 @@
+After going through the template definition of various STL algorithms like std::copy, std::move, std::transform, you must have found their template definition consisting of objects of type Output Iterator. So what are they and why are they used ?
+Output iterators are one of the five main types of iterators present in C++ Standard Library, others being Input iterators, Forward iterator, Bidirectional iterator and Random – access iterators.
+Output iterators are considered to be the exact opposite of input iterators, as they perform opposite function of input iterators. They can be assigned values in a sequence, but cannot be used to access values, unlike input iterators which do the reverse of accessing values and cannot be assigned values. So, we can say that input and output iterators are complementary to each other. 
+
+One important thing to be kept in mind is that forward, bidirectional and random-access iterators are also valid output iterators,  as shown in the iterator hierarchy above.
+Salient Features
+So, the following two expressions are invalid if A and B are output iterators:
+So, the following two expressions are valid if A is an output iterator:
+So, the following two expressions are valid if A is an output iterator:
+Practical implementation
+After understanding its features and deficiences, it is very important to learn about its practical implementation as well. As told earlier, output iterators are used only when we want to assign elements and not when we have to access elements. The following two STL algorithms can show this fact:
+Here, since result is the iterator to the resultant container, to which elements are assigned, so for this, we cannot use input iterators, and have made use of output iterators at their place, whereas for accessing elements, input iterators are used which only needs to be incremented and accessed.
+
+So, since here, there was no need for assigning values to iterators and only we needed to access and compare the iterators, so there was no need of output iterator and we have therefore, used only the input iterators only.
+
+So, the two above examples very well show when, where, why and how output iterators are used practically.
+Limitations
+After studying about the salient features, one must also know the deficiencies of output iterators as well, which are mentioned in the following points:
+Run on IDE
+The above is an example of assigning elements using output iterator, however, if we do something like:
+So, this is not allowed for output iterator, as they can only be the target in assignment. However, if you try this for above code, it will work, because vectors return iterators higher in hierarchy than output iterators.
+This big deficiency is the reason why many algorithms like std::find, which requires to access the elements in a range and check for equality cannot use output iterators for doing so, because we can’t access values using it, so instead we make use of input iterators.
+

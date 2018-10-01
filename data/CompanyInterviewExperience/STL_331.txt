@@ -1,0 +1,14 @@
+Given a string str, we need to print reverse of individual words.
+Examples:
+
+Method 1 (Simple): Generate all words separated by space. One by one reverse words and print them separated by space. 
+Method 2 (Space Efficient): We use a stack to push all words before space. As soon as we encounter a space, we empty the stack.
+
+Run on IDE
+Run on IDE
+
+Python | Reverse each word in a sentence
+Using stringstream in C++ : 
+Run on IDE
+Time complexity : O(n)
+Space complexity : O(n)

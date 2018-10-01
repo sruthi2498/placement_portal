@@ -1,0 +1,8 @@
+Input is a expression containing parent child relations. output is Error codes or success.
+Sample test cases
+Solution
+Code is written in node.js javascript. Tests are using mocha. Major trick in this question is that the data structure need to hold such data is not a binary tree but a graph. Or a graph with two sets of edges children and parents.
+I used this DS in javascript to solve:
+ 
+ 
+ 

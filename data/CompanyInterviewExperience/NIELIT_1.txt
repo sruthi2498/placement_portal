@@ -1,0 +1,314 @@
+National Institute of Electronics & Information Technology (NIELIT), erstwhile known as the DOEACC Society, is an autonomous scientific society under the administrative control of Ministry of Electronics and Information Technology of the government of India.
+Following questions are asked in exam conducted on 4th December 2016 for “Recruitment to vacant posts for Scientist ‘B’ in MeitY, its attached offices and statutory organizations on Direct Recruitment Basis”
+SET-C
+1. Which one of the following is NOT necessarily a property of a Group?
+A. Commutativity
+B. Associativity
+C. Existence of inverse for every element
+D. Existence of identity
+2. Exteral Interrupt may not arise because of:
+A. Illegal or erroneous use of an instruction
+B. a timing device
+C. external source
+D. I/O devices
+3. Wich of the following need not to be a binary tree?
+A. Search tree
+B. Heap
+C. AVL tree
+D. B tree
+4. A top down parser generates:
+A. Left most derivation
+B. Right most derivation
+C. Left most derivation in reverse
+D. Right most derivation in reverse
+5. What will be the Excess-3 code for 1001?
+A. 1001
+B. 1010
+C. 1011
+D. 1100
+6. Syntax direceted translation scheme is desirable because:
+A. It is based on the syntax
+B. It is easy to modify
+C. Its description is independent of any implementation
+D. All of these
+7. The output of lexical analyzer is:
+A. A set of regular expressions
+B. Strings of characters
+C. Syntax tree
+D. Set of tokens
+8. Which of the following is not defined in a good SRS document?
+A. Functional requirement
+B. Goals of implementation
+C. Nonfunctional requirement
+D. Algorithm for software implementation
+9. TI carrier system is used:
+A. For delta modulation
+B. Industrial noise
+C. For frequency modulated signals
+D. None of the above
+10. What is described by means og DFDs as studied earlier and represented in algebraic form?
+A. Data flow
+B. Data Storage
+C. Data Structures
+D. Data elements
+11. The IOS class member function used for formatting IO is:
+A. width(), precision(), read()
+B. width(), precision, setf()
+C. getch(), widht(), Io()
+D. unsetf(), setf(), write()
+12. The Knapsack problem belongs to which domain of problems?
+A. Optimization
+B. NP Complete
+C. Linear Solution
+D. Sorting
+13 The sturcture or format of data is called:
+A. Syntax
+B. Struct
+C. Semantic
+D. none of the above
+14. What is the solution of recurrence T(n) = T(n/2) + n?
+A. O(log n)
+B. O(n)
+C. O(n log n)
+D. None of these
+15. Let A,B,C,D be n*n matices, each with non-zero determinant. If ABCD = 1 then B(-1) is:
+A. D(-1)C(-1)A(-1)
+B. CDA
+C. ADC
+D. Does not neessarily exist
+16. Rule which states that addition of same attributes to right side and left sie will result in other valid dependency is classified as:
+A. referential rule
+B. inferential rule
+C. augmentation rule
+D. reflexive rule
+17. If L1 is CFL and L2 is regular language which of the following is false?
+A. L1-L2 is not context free
+B. L1 intersection L2 is context free
+C. ~L1 is context free
+D. Both (A) and (C)
+18. The sequence of operation in which PCM is done is:
+A. Sampling, quantizing, encoding
+B. quantizing, sampling, encoding
+C. quantizing, encoding, sampling,
+D. None of the above
+19. What will be output if you will compile and execute the following C code?
+void main() {
+printf(“%d”, sizeof(5.2))
+}
+A. 4
+B. 8
+C. 2
+D. 16
+20. The graph that shows basic block and their successor relationship is called:
+A. DAG
+B. Control graph
+C. Flow graph
+D. Hamiltonian graph
+21. Where does the swap space reside?
+A. RAM
+B. ROM
+C. DISK
+D. On chip cache
+22. How many onto (or surjective) functions are there from an n-element (n>=2) set to a 2-element set?
+A. 2(n)
+B. 2(n)-1
+C. 2(n)-2
+D. 2*(2(n)-2)
+23. Let G be a simple undirected planer graph on 10 vertices with 15 edges. If G is a connected graph, then the number of bounded faces in ay embedding of G on the plane is equal to:
+A. 3
+B. 4
+C. 5
+D. 6
+24. A non-pipeline system takes 50ns to process a task. The same task can be processes in a six-segment pipeline with s clock cycle of 10ns. Determine the speedup ration of the pipeline for 100 tasks. What is the maximum speedup that can be achieved?
+A. 4.90, 5
+B. 4.76, 5
+C. 3.90, 5
+D. 4.30, 5
+25. Consider the function f(x) = sin(x) in the interval [pi/4, 7*(pi/4)]. The number and location(s) of the local minima of this function are;
+A. One, at pi/2
+B. One, at 3*pi/2
+C. Two, at pi/2 and 3*pi/2
+D. Two, at pi/4 and 3*pi/2
+26. If every functional dependency in set E is also in closure of F then this is classified as :
+A. FD is covered by E
+B. E is covered by F
+C. F is covered b E
+D. F plus is covered by E
+27. Communication between a computer and a keyboard involves ——- transmission.
+A. Simplex
+B. Half duplex
+C. automatic
+D. Full duplex
+28. A low pass filter is:
+A. Passes the frequencies lower than the specified cut off frequency
+B. Used to recover signal from sampled signal
+C. Rejects higher frequencies
+D. All of the above 
+29. Consider a system with m resources of same type being shared by n process. Resources can be requested and rleased by processes only one at a time. The system is deadlock free iff:
+A. The sum of all max need is < m+n
+B. Both of the above
+C. The sum of all the max need is > m+n
+D. None
+30. What will be the final output of D F/F, if the input setting is 11010011?
+A. 1
+B. 0
+C. Dont care
+D. Non of the above
+31. The IETF standard documents are called:
+A. RFC
+B. RCF
+C. ID
+D. one of the above
+32. Process that periodically checks status of an I/O devices, is known as:
+A. Cold swapping
+B. I/O instruction
+C. Polling
+D. Dealing
+33. THe Decimal equivalent of the hex number (A09D)16 is:
+A. 31845
+B. 41117
+C. 41052
+D. 32546
+34. The first network:
+A. ARPANET
+B. NFSNET
+C. CNNET
+D. ASAPNET
+35. (00+01+10)(0+1)* represents:
+A. Strings not starting with 11
+B. Strings of odd length
+C. Strings starting with 00
+D. Strings of even length
+36. Which of the following is wrong:
+A. Turing machine is a simple mathematical model of general purpose computer
+B. Turing machine is more powerful than finite automata
+C. Turing machine can be simulated by a general purpose computer
+D. All of the above
+37. Two main measures for the efficiency of an algorithm are:
+A. Processor and Memory
+B. Complexity and Capacity
+C. Time and Space
+D. Data and Space
+38. The noise due to random behavior of charge carrier is:
+A. Partition noise
+B. Industrial noise
+C. Shot noise
+D. Flicker noise
+39. The running time of quick sort algorithm depends heavily on the selection of:
+A. No. of inputs
+B. Arrangement of elements in an array
+C. Sizes of elements
+D. Pivot Element
+40. Palindromes cant be recognized by any Finite State Automata because:
+A. FSA cant remember arbitrarily large amount of information
+B. FSA cant deterministically fix the midpoint
+C. Even if the mid-point is know an FSA cannot find whether the second half of the string matches the first half
+D. All of te above
+41. A sinusoidal signal is analog signal because:
+A. It can have a number of values between the negative and positive peaks
+B. It is negative for one half cycle
+C. It is positive for one half cycle
+D. It has positive as well as negative values
+42. The principal of locality or reference justifies the use of:
+A. Non reusable
+B. Cache memory
+C. Virtual memory
+D. None of the above
+43. Considering relational database, functional dependency between two attributes A and B is denoted by:
+A. A->B
+B. BR
+D. R<-AB
+44. The concept of order Big O is important because:
+A. It can be used to decide the best algorithm that solves a given problem
+B. It is the lower bound of the growth rate of algorithm
+C. It determines the maximum size of a problem that can be solved in a given amount of time
+D. Both (A) and (B)
+45. CPU consist of —–
+A. ALU and control unit
+B. ALU, control unit and monitor
+C. ALU, control unit and Hard disk
+D. ALU, control unit and register
+46. What is the output:
+void main() {
+char c = 125;
+c = c+10;
+printf(“%d”,c);
+}
+A. 135
+B. 115
+C. -121
+D. -8
+47. The addressing mode used in an instruction of the form ADD X Y, is
+A. Direct
+B. Absolute
+C. Indirect
+D. Indexed
+48. If there is more than one key for relation schema in DBMS then each key in relation schemea is classified as:
+A. prime key
+B. super key
+C. candidate key
+D. prime key
+49. In which one of the following pages replacement policies, Belady’s anomaly may occur?
+A. FIFO
+B. LRU
+C. Optimal
+D. MRU
+50. Bluetooth is an example of:
+A. personal area network
+B. VPN
+C. LAN
+D> one of the above
+51. SRS is also known as specification of;
+A. White box testing
+B. Integrated testing
+C. Acceptance testing
+D. Black box testing
+52. A process that is based on IPC mechanism which executes on different systems and can communicate with other processes using message based communication is called;
+A. Local procedure call
+B. RPC
+C. IPC
+D. RMI
+53. What is the testing to ensure the WebApp properly interfaces with other application or databases:
+A. Compatibility
+B. Interoperability
+C. Performance
+D. Security
+54. The maximum number of nodes in a binary tree of level k, k>=1 is:
+A. 2(k)+1
+B. 2(k-1)
+C. 2(k)-1
+D. 2(k-1)-1
+55. The identification of common sub-expression and replacement of runtime computations by compile-time computations is:
+A. Local optimization
+B. Constant folding
+C. Loop optimization
+D. Data flow analysis
+56. Process of analyzing relation schema to achieve minimal redundancy and insertion or update anomalies is classified as:
+A. normalization of data
+B. denomination of data
+C. isolation of data
+D. de-normalization of data
+57. Line of code (LOC) of te product comes under which type of measures?
+A. Indirect measure
+B. Coding
+C. Direct measure
+D. None of the above
+58. The circuit equvalent to:
+A. OR
+B. NOR
+C. AND
+D. EX-OR
+59. Given two DFA’s M1 and M2. They are equivalent if:
+A. M1 and M2 has the same number of states
+B. M1 and M2 accepts the same language i.e. L(M1)=L(M2)
+C. M1 and M2 has the same number of final states
+D. None of the above
+60. K-map
+x x – 1
+– 1 – –
+– x – –
+x 1 – x
+A. A’B’D’ + C’D + AB’C’
+B. B’CD’ + AB’C’+ A’C’
+C. B’D’ + C’D
+D. C’D + B’CD’

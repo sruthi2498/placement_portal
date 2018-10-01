@@ -1,0 +1,46 @@
+1st round  consists of 4 sections- general aptitude, logical, verbal, and technical (OS, DS, DBMS, big O notations, codd rules, ooad). total 90 mins duration. 
+First technical interview
+Tell me about yourself?
+Which language are you comfortable in for coding?
+Given a large array, program to count frequency of each number in an optimized way? 
+Program for multiplication of two numbers consists of 20 digits each?
+Given almost a postfix expression,program to get the result?
+Given a excel sheet,get the column number of ABCD and column name of 6532?
+When all the numbers of different combinations consisting of 1,2,3,4,5 are arranged in increasing order, give the rank of number 35421 ?
+Given an array of positive and negative numbers,arrange them in such a way that all positive numbers at one end and negative numbers at other end(size of array is large and unknown)
+about projects 
+All solutions should be optimized
+Second technical interview
+Tell me about yourself
+Explain about the questions asked in first interview and your approaches.
+Given a number 4
+1,1,1,1
+1,1,2
+1,3
+2,2
+all the sets of this format without repetitions (code should be a generic one)
+Given a number and string find whether palindrome or not
+Given a string,find all possible palindromes (string of length 1,2,3…..)
+Given a set of strings, strings which are unique (not repeated) should be printed in sorted order, repeated strings along with their frequencies if any string is concatination of two strings from given set of strings.
+About projects and currently working project
+All solutions should be optimized
+Third technical interview
+Tell me about yourself
+Currently working project
+What subjects are you good at
+OS-swapping, thrashing, semaphores, paging, scheduling algorithms
+DBMS-given tables, some queries on that, normalization and its forms with examples, primary key, super key, composite primary key, joins.
+C-difference between call by value and call by reference
+Java-interface, inheritance, super keyword, final keyword, extends, implements keywords, exception handling
+Data Structures-queues, stacks, linked list, binary trees
+Given an array from 1-100,find the missing number
+Inserting a node in the middle of linked list
+Given a array of repeated numbers,print the numbers in such a way that numbers are printed in increasing order of their frequencies and print the numbers in increasing order if frequencies are same and codes from data structures
+HR Interview : 
+Tell me about yourself
+Family background in particular
+3 strengths and 3 weakness
+About preferred location
+Some general HR questions
+Throughout the interviews, your way of approach to a problem is observed
+

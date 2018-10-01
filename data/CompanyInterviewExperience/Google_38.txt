@@ -1,0 +1,7 @@
+Given a Binary Search Tree (BST) and a positive integer k, find the k’th smallest element in the Binary Search Tree.  
+For example, in the following BST, if k = 3, then output should be 10, and if k = 5, then output should be 14.  
+We have discussed two methods in this post and one method in this post. All of the previous methods require extra space.  How to find the k’th largest element without extra space?
+The idea is to use Morris Traversal.  In this traversal, we first create links to Inorder successor and print the data using these links, and finally revert the changes to restore original tree. See this for more details.
+Below is C++ implementation of the idea.
+Run on IDE
+Output: 

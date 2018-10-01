@@ -1,0 +1,23 @@
+Coding Round :
+Binary tree was given. Return a tree such that each internal node stores sum of all its child nodes. Each leaf node stores zero.
+One DP question : https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/
+ 
+GD Round for MSIDC :
+Reversal of Linked List in groups of K.  https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+Peripheral Traversal of Binary tree. https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+ 
+GD Round for MS-IT :
+Given numbers from 1 to 1000. Given a specific number, make guesses to reach to that specific number. In each guess, person will tell you specific number is less or more with the guess made. Find the minimum number of guesses.
+Each day, Microsoft search engine bing posts some informative image. How will you ensure each day image is different from the beginning of posting? ( Note the word – informative). —–> Do not distinguish on basis of color, texture, background etc. Think in terms of text. Even if orientation is different but text is same then image is same. Don’t think for RGB value either.
+ 
+F2F Interview :
+How will you implement linked list with 1 million nodes? How will you access 999999 th node? Give some optimal design strategy and implementation.
+A graph with 1 million nodes. How to handle?  http://www.graphviz.org/Documentation/GH10.pdf
+Design the technology architecture for bookmyshow application.
+Explain your MTP Project.
+Asked CSP projects. Thread Library, DOTA Game and Chord implementation.
+Round Robin Scheduler Working.
+ 
+ 
+
+

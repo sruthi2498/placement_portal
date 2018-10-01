@@ -1,0 +1,45 @@
+Online Coding round-
+Platform-Cocubes.com
+Time-70 minutes:3 Questions
+1st (2 marks): Merge two sorted linked lists such that merged list is in reverse order.   https://www.geeksforgeeks.org/merge-two-sorted-linked-lists-such-that-merged-list-is-in-reverse-order/
+2nd(3 marks): Find sum of non-repeating (distinct) elements in an array .https://www.geeksforgeeks.org/find-sum-non-repeating-distinct-elements-array/
+3rd(5 marks): Given an array. A bad pair is a pair such that x%y=k and x occurs towards the left of y.Count all the subarrays which consist at least one bad pair.
+U can refer  https://www.codechef.com/problems/CHINSM  which count number of  subarrays having no bad pair and subtract this number from total number of subsets.
+Other questions were:
+https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+https://www.geeksforgeeks.org/compare-two-strings-represented-as-linked-lists/
+https://www.geeksforgeeks.org/count-bst-subtrees-that-lie-in-given-range/
+https://www.geeksforgeeks.org/transform-one-string-to-another-using-minimum-number-of-given-operation/
+Those who did two or more questions completely were selected for further interview rounds.
+Tip: See previous experiences.
+Interview round 1: Technical Round
+This was purely technical round and continued for 1 hour and 40 minutes. Here are the details-
+Tell me about yourself in brief.
+Sort an array of 0’s 1’s and 2’s .First i told him https://www.geeksforgeeks.org/sort-array-0s-1s-2s-simple-counting/ Then he asked me another approach, i gave him https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/ and asked me to write whole code.
+Count rotations in sorted and rotated link list https://www.geeksforgeeks.org/count-rotations-sorted-rotated-linked-list/
+Check if two trees are mirror, https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/  . Just approach.
+Diameter of Binary tree. https://www.geeksforgeeks.org/diameter-of-a-binary-tree/ . Explain approach first and then write code.
+Project:Detailed discussion on all projects and database design of each project, Problems and issues faced in project. Like i have made an online shopping site,he asked me if many people were accessing the same product and it is last product , how will you handle it.
+OOPS concepts- virtual functions, polymorphism and its types,inheritance along with their real life examples, method overloading and overriding, basics on exception handling.
+DBMS Questions- Questions on joins, group by,limit ,where vs having clause.
+Write query to find Nth maximum salary in given table and another query was based on joins.
+OS Questions- Mutex vs Semaphore, Paging, fragmentation types
+Interview round 2: Technical round
+This was again technical round and went for around 1 hour 45 minutes.
+This round started with tell me about yourself.
+Then he asked me about my technical interests apart from curriculum, i told him about blockchain and hacking, so he asked me some questions related to blockchain like why do we need blockchain? How it works? Have u heard of cryptocurrency and bitcoins and other simple questions.
+What is the need of linked list and trees when we have arrays? Then comparison of complexities between them.
+U are given address of a node of a linked list and there is a function which takes this address as parameter.Without knowing anything else u have to delete this node whose address is given. I told him the approach and he was satisfied so moved to next question.
+Clone a linked list with a random pointer https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+Write code to print Left view of a binary tree https://www.geeksforgeeks.org/print-left-view-binary-tree/
+Approach to find bottom and top views of binary tree .
+A stream of inputs is coming and at a given instant of time u have to find maximum 5 elements. I told him to use max heap. Why and how heap and then asked me to show heapify operations on a given example and write code for it.
+Find pattern in given string. Gave him this approach https://www.geeksforgeeks.org/searching-for-patterns-set-1-naive-pattern-searching/ but he asked for optimised approach i told him https://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/ , he helped me in writing the code.
+Partition a set into two subsets such that the difference of subset sums is minimum. https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/
+Discussed about every project.
+Asked some basic questions on PHP since i have done a project using it .
+DBMS:Questions about joins, and then he gave me two tables T1 and T2 ,and asked me to write a query for T1-T2(T1 minus T2) using joins and subquery. Then basic questions on indexing and normalisation .
+Java and OOPS questions:Difference between abstract class and interface,why do we need interfaces, when to use abstract class and when to use interface,give real life examples ..then he gave me scenarios and asked what will you use in this scenario, polymorphism and inheritance and other java basics.
+Some people had another technical round and some were sent to HR directly.
+HR Round:
+Tell me about yourself ,why paytm, and other general questions.

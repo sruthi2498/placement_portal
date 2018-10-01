@@ -1,0 +1,19 @@
+Question 1 :  Write a program to determine whether a given number can be expressed as sum of two prime numbers or not.
+For example 34 can be expressed as sum of two prime numbers but 23 cannot be.
+Question 2 :  Take a 2 or 3 digit input number, reverse it and add it to the original number until the obtained number is a palindrome or 5 iterations are completed.
+Input : n = 32
+Output : 55
+23 + 32 = 55 which is a palindrome.
+Input : 39
+Output : 363
+Question 3 :  Given a string, reverse only vowels in it; leaving rest of the string as it is.
+Input : abcdef
+Output : ebcdaf
+Question 4 : Write a program to check if the given words are present in matrix given below. The words can be left to right, top to bottom and the diagonals (in top to bottom direction)
+
+Question 5 :  Write a program to form lines using given set of words. The line formation should follow below rules.
+i) Total characters in a single line excluding the space between the words and the favorite character should not exceed the given number.
+ii) Favorite character is case insensitive.
+iii) Words should not be broken up. Complete words alone should be used in a single line. A word should be used in one line only.
+
+

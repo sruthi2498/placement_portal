@@ -1,0 +1,7 @@
+std :: move
+Moves the elements in the range [first,last] into the range beginning at result.
+The value of the elements in the [first,last] is transferred to the elements pointed by result. After the call, the elements in the range [first,last] are left in an unspecified but valid state.
+Template :
+Examples:
+Run on IDE
+Output:

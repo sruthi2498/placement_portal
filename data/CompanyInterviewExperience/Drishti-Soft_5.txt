@@ -1,0 +1,30 @@
+Drishti-soft solutions came in our college.here is my interview experience. There were total 5  rounds
+1. First round
+It was an online round. It comprised of two sections.
+In first section, there were 30 MCQs and were supposed to be solved in 30 minutes. It included only quantitative aptitude questions.
+Second section was PROGRAMMING section. It consisted of 4 coding questions.
+The PROGRAMMING sections had three sub sections: FRESH CODING(2 questions), API CODING and DEBUGGER.
+1. Given a number m,u have to print the maximum value after 1 swap.
+e.g.  m=5482 prints 8452 .you can use only one swap for any two numbers .
+2. Tees Mar Khan (problem name) :-given a matrix , you have to rob maximum value . you have to start at topmost left corner and reach to last corner. you can move either right or down.if any house is robbed then u can’t robbed next right or down house (i.e. adjacent house).you can rob diagonally located house
+3. The subsection DEBUGGER expects you to understand the given code and fix the bugs.the problem is Sudoku Checker
+4. API coding related with trie. u have to complete some functions .I don’t remember the question.
+Test was of three hours.
+18 students were shortlisted after this round.
+2. Design round:- 
+It consists of a networking problem and u have to complete the problem with given constraints.
+Basically u have to transfer a file from sender to receiver line by line using server as intermediate.They have already implemented the
+socket programming and we had to complete the sender and receiver code.
+3. Debugging round:- 
+This round contained one question. You have to understand the problem and you have to debug it.The problem is reverse DNS lookup.
+After these two technical rounds, 11 students were shortlisted for next round. I was one of those lucky ones.
+Second last  round started at 9.00 p.m. and ended at 10.10 p.m. 
+4. Project round:- 
+Discussions  on college projects, about my internship which I had done in Mebelkart.com.Then he gave me a case of online test website.
+I have to design the DBMS structure .I designed the DBMS structure . Then he added some constraint and I had to change the DBMS structure to satisfy the given
+constraints.
+Last round started at 10.20 p.m. and ended at 12.10 a.m.
+5. It was a HR round and he discussed about my college life.
+All interviewers were very friendly.
+Thanks to geeksforgeeks team
+

@@ -1,0 +1,12 @@
+Given a string consisting of opening and closing parenthesis, find length of the longest valid parenthesis substring.
+Examples:
+A Simple Approach is to find all the substrings of given string.  For every string, check if it is a valid string or not.  If valid and length is more than maximum length so far, then update maximum length.  We can check whether a substring is valid or not in linear time using a stack (See this for details). Time complexity of this solution is O(n2.
+An Efficient Solution can solve this problem in O(n) time. The idea is to store indexes of previous starting brackets in a stack. The first element of stack is a special element that provides index before beginning of valid substring (base for next valid string). 
+Below are C++ and Python implementations of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Explanation with example: 
+Thanks to Gaurav Ahirwar and Ekta Goel.  for suggesting above approach.

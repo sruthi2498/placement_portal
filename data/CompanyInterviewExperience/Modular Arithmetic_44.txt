@@ -1,0 +1,12 @@
+Given an integer array and two numbers k and m. Print k numbers from the array, such that difference between any two pairs is divisible by m. If there are no k numbers, then print -1.
+
+A naive approach  is be to iterate for every element and check with all other elements, and if the count of numbers whose difference is divisible by m is greater then equal to k, then we print those k numbers by again iterating. But this won’t be efficient enough as it runs two nested loops.
+Time complexity: O(n * n)
+Auxiliary space: O(1) 
+An efficient approach is apply a mathematical approach, where we know if (x-y) % m is equal to x%m – y%m. So if we can store all the numbers who leave the same remainder when divided by m,
+And if the count of numbers which leaves the same remainder is more than k or equal to k, then we have our answer as all those numbers who leave the same remainder.
+Below is the c++ implementation of the above approach 
+Run on IDE
+Output:
+Time complexity: O(n)
+Auxiliary Space: O(m) 

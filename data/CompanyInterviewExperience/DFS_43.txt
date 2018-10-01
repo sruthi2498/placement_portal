@@ -1,0 +1,7 @@
+Given a grid which consists of 4 types of characters : ‘B’ ‘.’ ‘S’ and ‘D’. We need to reach D starting from S, at each step we can go to neighboring cells i.e. up, down, left and right. Cells having character ‘B’ are blocked i.e. at any step we can’t move to cell having ‘B’. Given grid has dots in such a way that there is only one way to reach any cell from any other cell. We need to tell how many times we need to choose our way from more than one choices i.e. decide the path to reach D.
+Examples:
+
+	We can solve this problem using DFS. In path from source to destination we can see that whenever we have more than 1 neighbors, we need to decide our path so first we do a DFS and store the path from source to the destination in terms of child-parent array and then we move from destination to source, cell by cell using parent array and at every cell where we have more than 1 neighbors we will increase our answer by 1.
+	Please see below code for better understanding. 
+Run on IDE
+Output:

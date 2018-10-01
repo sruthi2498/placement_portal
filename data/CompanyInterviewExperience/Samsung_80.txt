@@ -1,0 +1,23 @@
+We recently had SEL, Samsung for Campus Recruitment. 
+Round 1: GSAT(Global Samsung Aptitude Test): 
+The test had 2 sections.
+The first section had 80-90% of the questions on Data Interpretation and rest on Quant.
+The second had all the questions on Logical Reasoning.
+Round 2: Technical Written Test 
+It had questions on C++, OS, Programming languages, some other computer science general questions.
+Based upon the total from the above 2 rounds, students were shortlisted for the next round.
+Round 3: Algorithm Written Round 
+Question 1: Construct 2 stacks using a single array. Extend the same code for 3 stacks.
+Question 2: Given a string, say “GEEKS FOR GEEKS”, print it in reverse manner eliminating the repeated characters. I know the question is easy. But, they wanted high amount of optimization both space and time wise.
+Technical Round 1:
+i) The above two questions were discussed. I didn’t look for some optimization, which interviewer pointed out.
+ii) He asked about the language I was not comfortable with, I replied with C. Then the next question, Write a function in C to reverse a string in-place. Luckily, I scraped through successfully.
+iii) There were questions on OS a C++ like what is deadlock, virtual functions, pure virtual fucntions, real time OS.
+Technical + HR Round 2:
+i) He too discussed the Algorithm Written Round.
+ii) He asked me to design a class on “Staplers”. Did it good.
+iii) Then there were some general HR questions. About my roles and responsibilities at the college, hobbies, etc.
+After a long day wait, I was hired as a R&D Engineer. 🙂
+Run on IDE
+First interviewer was friendly and and second interviewer always wanted me to trick out. It was a good experience. 
+I thank GeeksforGeeks for giving me a great platform for algorithm practice.

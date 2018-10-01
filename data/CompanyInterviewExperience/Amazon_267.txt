@@ -1,0 +1,39 @@
+Recently Amazon came to our campus for placement (SDE-1).
+I want to share my experience.
+Round-1
+20 MCQs many from GeeksQuiz and 2 coding questions.
+1. Find a range in array of bits(0 and 1) such that by flipping it, the count of 1’s in complete array becomes maximum.
+2. https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+Interview-1
+Brief introduction.
+Two coding ques. were asked:
+1. Clone a link list with random pointers.
+2. In an array of +ve integers, all numbers are occurring even no. of times expect one. find it.
+Interview-2
+Two coding ques. were asked:
+1. find the largest palindromic substring.
+2. Merge 2 binary trees to make a binary tree.(Solved using conversion of binary tree to Doubly linklist and then merge two DLLs and the convert DLL to Binary tree.)
+Interview-3
+Brief introduction.
+Discussion on projects. They focused on team projects.
+Then gave a situation: n no. of vendors and m no. of warehouses(n , m very large). We have to shift the products from vendors to warehouse and then from warehouse to customers. Aim is to fasten the product delivery and reduce the cost to company.
+In this we had to make assumptions and make cases.
+Interview-4
+Brief introduction(Only technical one).
+Two coding ques. were asked:
+1. 2 sorted arrays of size m and n (m > n) are given. There are n empty spaces at the end of the array1. Make the array1 consisting/merging the elements from both the arrays and store it in array1.
+2. Connect siblings at same level in binary tree.
+What do you mean by time complexity(in depth)?
+Concepts of OS like virtual memory, paging, page fault were asked.
+Other ques. asked to other people:
+1. BST two nodes swapped. correct them.
+2. Square root of no. (correct to 2 decimal places).
+3. Diameter of the binary tree.
+4. Add 1 to a number represented by link list.
+5. largest substring having unique elements.
+6. Diff. b/w process and thread (in detail).
+7. Coin change problem.
+I want to thank geeksforgeeks.org for its content.
+I got selected because of it.
+
+

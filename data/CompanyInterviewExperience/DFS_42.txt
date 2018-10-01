@@ -1,0 +1,9 @@
+Given an undirected tree which has even number of vertices, we need to remove the maximum number of edges from this tree such that each connected component of the resultant forest has an even number of vertices.
+Examples:
+
+	As we need connected components that have even number of vertices so when we get one component we can remove the edge that connects it to the remaining tree and we will be left with a tree with even number of vertices which will be the same problem but of smaller size, we have to repeat this algorithm until the remaining tree cannot be decomposed further in the above manner.
+	We will traverse the tree using DFS which will return the number of vertices in the component of which the current node is the root. If a node gets an even number of vertices from one of its children then the edge from that node to its child will be removed and result will be increased by one and if the returned number is odd then we will add it to the number of vertices that the component will have if the current node is the root of it.
+Please see below code for better understanding,
+Run on IDE
+Output:
+Time Complexity : O(n) where n is number of nodes in tree.

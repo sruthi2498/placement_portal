@@ -1,0 +1,18 @@
+Given a number n, the task is to find Nth heptagonal number. A Heptagonal number represents heptagon and belongs to a figurative number. Heptagonal has seven angles, seven vertices, and seven-sided polygon.  
+Examples :
+
+Input : 2
+Output :7
+Input :15
+Output :540
+
+
+Few Heptagonal numbers are :
+1, 7, 18, 34, 55, 81, 112, 148, 189, 235………..
+A formula to calculate Nth Heptagonal number:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Reference: https://en.wikipedia.org/wiki/Heptagonal_number

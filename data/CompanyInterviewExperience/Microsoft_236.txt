@@ -1,0 +1,29 @@
+Microsoft came to our campus. Branches eligible was CS and IT. There were a total of 4 rounds.
+Round 1: MCQ round 
+In this round there were a total of 15 MCQ’s and the time alloted was 30 mins.The questions were mainly from C/C++/Java output finding, pointers and references and basic puzzles.
+I was able to solve 12 + mcq’s. I managed to qualify this round.
+Round 2: ONLINE CODING ROUND
+In this round 2 coding questions were given to us which need to be solved in 1hr time.
+1st question:
+You are given a matrix of dimensions m*n where each cell in the matrix can have values 0,1 or 2 which has the following meaning :
+0:empty cell
+1:cells have fresh oranges
+2:cells have rotten oranges
+So we have to determine what is the minimum time required so that all the oranges will be rotten.A rotten orange at index [i,j] can rot other fresh orange at indexes [i+1,j] ,[i,j+1] ,[i-1,j] ,[i,j-1]. If it is impossible to rot every orange then simply return -1;
+2nd question:
+You are provided with a binary tree and given two integers n and k.You have to determine sum of data of all the nodes which are at a distance of k from the node which has data n.
+I managed to solve question no. 2 completely .Both using BFS.Here is my way of how I did it:-
+1. Use BFS directly to traverse the array once and can obtain the solution in O(n^2) only.
+2. Form a graph out of the tree with the found node as the source point and then do BFS Sum to find the required answer.
+Round 3: Face To Face Interview Round(150 mins)
+1. A brief discussion on my projects.(About 2048 game in JAVA and some other projects I did.)
+2. To tell something about me and elaborate my hobbies .
+3. List of stations and distances between them are given and find all pairs shortest distance.(Floyd warshall algorithm in O(V^3).)
+4. Given 1 billion numbers.Remove duplicates in O(n) and the range of numbers are till 10^5.(I used A[abs(A[i])] method to change sign and remove.It impressed the interviewer a lot.)
+5. Implement Dictionary(I asked about the basic layout and was told that lot of words have been already entered each having its definition,synonyms and antonyms).(I started from vector < vector< string> > , then HashMap, then Set <string,pair > and then RB Tree approach too.)
+6.I was asked to write the pseudo code for each of the above data structures and their complexities of search,insertion and updation.
+-I gave all the answers in this round .
+Round 4: Technical Round(90 mins)
+1.I was asked to throw some light on some trending technologies.(I explained about Cloud,Big Data etc.) It took 30 mins and he looked impressed.
+2. Next I was asked that if I were placed at IDC or IT then which one I will prefer and why.It was interactive session and finally I opted for MSIT mentioning him the reasons and he gave his final feedback on me.
+-I gave all the answers in this round .

@@ -1,0 +1,34 @@
+Round 1: Online Coding Round
+
+There were 3 questions and 90 minutes. 
+1. Question was based on union find algorithm (all test cases passed only if union by rank and path compression was used). Refer this.
+2. Check if a given array can represent Preorder Traversal of Binary Search Tree. Refer this.
+3. A simple ad-hoc problem.
+
+Round 2: Technical Interview Round
+
+1. Given a string find the first non repeating char in first function call, second non repeating char in second func call and so on.
+2. Convert an arbitrary Binary Tree to a tree that holds Children Sum Property. Refer this.
+3. How to print maximum number of A’s using given four keys. Refer this.
+
+Round 3: Technical Interview Round
+
+1. Given the arrival and departure of n guests find the maximum number of guests at any point of time.
+Similar to this.
+2. Given an array, modify it such that a[i] contains product of a[0] to a[i-1] and a[i+1] to a[n-1]. Do it without using the division operator.Refer this.
+3. Convert a sorted DLL to balanced BST in-place. Refer this.
+
+Round 4: Hiring Manager Round
+
+1. Asked about my internships
+2. Asked about my projects in detail
+3. Puzzle: Given a 3×3 matrix having numbers from 1 to 9 without repetition. Find 3 more configurations of the matrix such that numbers previously in the same row can be in the same row in only one of the three configurations.
+
+Round 5: Technical Interview Round
+
+1. Given n, print all n digit numbers such that the digits are in non-decreasing order. Refer this.
+2. Given a N x M matrix of 1’s and 0’s find the maximum area rectangle that have all 1’s. Refer this.
+
+
+
+

@@ -1,0 +1,32 @@
+I was interviewed on-campus for Software Development Engineering (SDE1) role Flipkart.
+Coding round: (90 minutes)
+Coding round was done on hackerrank .
+Print the number of cells visited by him.
+Sample 1:
+3 3
+Output: 9
+Explanation:
+1 2 9
+4 3 8
+5 6 7
+The problem can be solved using dynamic programming but there is also a logical way to solve it in less time.
+Interview Round 1:
+Duration: 1 hour
+Tips:
+Practice writing pseudo codes on paper and focus on reducing the time and space complexity.
+Interview Round 2:
+Duration: 1 hour
+Insertion: O(1)
+Deletion: O(1)
+Search: O(1)
+FindRand: O(1) this will return any element stored with each element having equal probability.
+Hint: Random number generator of the system can be used.
+Interview Round 3:
+Duration: 1 hour
+This was the final HR round where general questions were asked. Questions were asked from resume mainly focusing on projects you have done.
+Round 4:
+Duration: 10 minutes
+Given 1 GB memory space write the pseudo code to print the maximum occurring string at any point of time where the size of the list of string can be of 10 GB and are updated dynamically.
+ 
+ 
+

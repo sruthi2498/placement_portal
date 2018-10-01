@@ -1,0 +1,22 @@
+
+Queue are a type of container adaptors which operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back (end) and are deleted from the front.
+push() function is used to insert an element at the back of the queue. The element is added to the queue container and the size of the queue is increased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+pop() function is used to remove an element from the front of the queue(oldest element in the queue). The element is removed to the queue container and the size of the queue is decreased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application : push() and pop()
+Given a number of integers, add them to the queue and find the size of the queue without using size function.
+Algorithm
+1. Push the given elements to the queue container one by one.
+2. Keep popping the elements of queue until the queue becomes empty, and increment the counter variable.
+3. Print the counter variable.
+Run on IDE
+Output:

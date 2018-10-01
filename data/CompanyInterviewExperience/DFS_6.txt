@@ -1,0 +1,7 @@
+Given a graph, the task is to print the DFS traversal of a graph which includes the every step including the backtracking.
+
+Note: In this above diagram the weight between the edges has just been added, it does not have any role in DFS-traversal 
+
+Approach: DFS with Backtracking will be used here. First, visit every node using DFS simultaneously and keep track of the previously used edge and the parent node. If a node comes whose all the adjacent node has been visited, backtrack using the last used edge and print the nodes. Continue the steps and at every step, the parent node will become the present node. Continue the above steps to find the complete DFS traversal of the graph.  
+Below is the implementation of the above approach: 
+Run on IDE

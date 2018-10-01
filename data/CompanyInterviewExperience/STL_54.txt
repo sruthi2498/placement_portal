@@ -1,0 +1,9 @@
+The unordered_multimap::empty() is a built-in function in C++ STL which returns a boolean value. It returns true if the unordered_multimap container is empty. Otherwise, it returns false.
+Syntax: 
+Parameters:  The function does not accept any parameter. 
+Return Value: It returns a boolean value which denotes whether a unordered_multimap is empty or not.  
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

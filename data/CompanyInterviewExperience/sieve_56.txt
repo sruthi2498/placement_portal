@@ -1,0 +1,9 @@
+Given an array of natural numbers count the sum of its proper divisors for every element in array.
+
+A naive solution to this problem has been discussed in below post.
+Sum of all proper divisors of a natural number
+We can do this more efficiently by making use of sieve of Eratosthenes.
+The idea is based on prime factorization of a number. By using sieve we can store all the prime factors of a number and their powers.
+Below is implementation based on above formula.
+Run on IDE
+Output:

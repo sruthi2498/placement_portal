@@ -1,0 +1,21 @@
+Given two lists sorted in increasing order, create and return a new list representing the intersection of the two lists. The new list should be made with its own memory — the original lists should not be changed. 
+For example, let the first linked list be 1->2->3->4->6 and second linked list be 2->4->6->8, then your function should create and return a third list as 2->4->6.
+ Method 1 (Using Dummy Node) 
+The strategy here uses a temporary dummy node as the start of the result list. The pointer tail always points to the last node in the result list, so appending new nodes is easy. The dummy node gives tail something to point to initially when the result list is empty. This dummy node is efficient, since it is only temporary, and it is allocated in the stack. The loop proceeds, removing one node from either ‘a’ or ‘b’, and adding it to tail. When we are done, the result is in dummy.next.
+Run on IDE
+Time Complexity: O(m+n) where m and n are number of nodes in first and second linked lists respectively.
+
+
+Method 2 (Using Local References) 
+This solution is structurally very similar to the above, but it avoids using a dummy node Instead, it maintains a struct node** pointer, lastPtrRef, that always points to the last pointer of the result list. This solves the same case that the dummy node did — dealing with the result list when it is empty. If you are trying to build up a list at its tail, either the dummy node or the  struct node** “reference” strategy can be used
+Run on IDE
+Time Complexity: O(m+n) where m and n are number of nodes in first and second linked lists respectively.
+
+
+Method 3 (Recursive)
+Below is the recursive implementation of sortedIntersect().  
+Run on IDE
+Time Complexity: O(m+n) where m and n are number of nodes in first and second linked lists respectively.
+Please write comments if you find the above codes/algorithms incorrect, or find better ways to solve the same problem.
+References:
+cslibrary.stanford.edu/105/LinkedListProblems.pdf

@@ -1,0 +1,35 @@
+First Round
+Written Test
+1) Implement Stack Operations. Also maintain count of Largest Integer present in Stack at any given point of Time.
+2) Implement Minesweeper Game.
+3) Design an Android application to emulate Countdown .. Take Input from the User and start counting down from entered value till Zero with Updating App UI at every count..Show Countdown end message when reached at Zero
+1st Round.
+Lots of Java basics
+Android Activity lifecycles and detailed discussions about it
+Services and Fragments Lifecycle .
+Difference methods of Creating Threads
+One fragment Related Coding problem where UI of Fragment B has to be update from fragment A.
+How  Garbage Collector Works in Android.
+Questions on Dalvik Virtual Machine.
+Different types of BroadCasts and Broadcast Receivers
+2nd Round
+DS Questions
+Find Total number of leaf Nodes in B-tree
+Clone Linklist with random pointers.
+Find Missing number in AP.
+Print Left View of B-Tree.
+Some Java Questions based Exceptions
+3rd Round
+Current Project Discussion.
+Few questions related to that.
+Questions on Telephony Class and Geofencing.
+Problem related to Reverse geocoding.
+Persistent Storage types in Android.
+Discussion on Content Providers and Shared Preferences.
+Coding on Content providers
+Given a rotated array ‘K’ times (K unknown), find a number in most efficient way.
+Scheduling algorithms in OS. (Implement LRU using choice of your language)
+BFS traversal of B Tree.
+Key is to Stay ultra confident ,smile and try solving each problem with whatever way you know.
+Good Luck.
+

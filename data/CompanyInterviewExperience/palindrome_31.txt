@@ -1,0 +1,9 @@
+Given a number x, find it’s palindromic selfie number according to selfie multiplicative rule. If such a number doesn’t exist, then print “No such number exists”. 
+A Palindromic selfie number satisfies the selfie multiplicative rule such that there exists another number y with x * reverse_digits_of(x) = y * reverse_digits_of(y), with the condition that the number y is obtained by some ordering of the digits in x, i.e x and y should have same digits with different order.
+Examples :
+
+Approach :
+
+Below is Java implementation of above approach :
+Run on IDE
+Output :

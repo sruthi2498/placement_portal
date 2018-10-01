@@ -1,0 +1,19 @@
+Rearrange the characters of the given string to form a lexicographically first palindromic string. If no such string exists display message “no palindromic string”.
+Examples:
+
+Simple Approach:
+1. Sort the string characters in alphabetical(ascending) order.
+2. One be one find lexicographically next permutation of the given string.
+3. The first permutation which is palindrome is the answer.
+Efficient Approach: Properties for palindromic string:
+1. If length of string is even, then the frequency of each character in the string must be even.
+2. If the length is odd then there should be one character whose frequency is odd and all other chars must have even frequency and at-least one occurrence of the odd character must be present in the middle of the string.  
+Algorithm
+1. Store frequency of each character in the given string
+2. Check whether a palindromic string can be formed or not using the properties of palindromic string mentioned above.
+3. If palindromic string cannot be formed, return “No Palindromic String”.
+4. Else we create three strings and then return front_str + odd_str + rear_str.
+Below is implementation of above steps.
+Run on IDE
+Output:
+Time Complexity : O(n) where n is length of input string. Assuming that size of string alphabet is constant.

@@ -1,0 +1,12 @@
+Given a set of strings, find the longest common prefix.
+Previous Approaches :  Word by Word Matching ,  Character by Character Matching,  Divide and Conquer , Binary Search.
+In this article, an approach using Trie date structure  is discussed.
+Steps:
+This is because the characters (nodes in trie) which are present in the longest common prefix must be the single child of its parent, i.e- there should not be a branching in any of these nodes.
+Algorithm Illustration considering strings as – “geeksforgeeks”, “geeks”, “geek”, “geezer”
+
+Run on IDE
+Run on IDE
+
+Time Complexity :  Inserting all the words in the trie takes O(MN) time and performing a walk on the trie takes O(M) time, where-
+Auxiliary Space:  To store all the strings we need to allocate O(26*M*N) ~ O(MN) space for the Trie.

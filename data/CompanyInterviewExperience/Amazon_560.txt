@@ -1,0 +1,57 @@
+First of all, I would like to convey my special thanks to geeksforgeeks for such a  special guidance. Here is my interview experience: 
+First day:
+Round-1 :
+20 MCQs(Data structure, C, C++, OS, Probability ).
+2 programs :
+1.	Given an array of integers. Segregate all the non-zero numbers at the beginning. Print the number of non-zero integers and the minimum number of swaps required for these operations. 
+2.	Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] and its permutations (or anagrams) in txt[]. You may assume that n > m. 
+Second day:
+Round 2 : PI
+1.	Discussion on Project.
+2.	Code : Given an array of integers. Find the minimum distance between two numbers.
+I did it in O(N) time complexity.
+Then he changed the question and asked what if the array is sorted and contains duplicates.
+I did it in O(logN) time complexity.
+3.	Given a linked list. Segregate all the positive numbers at the beginning and all the negative numbers at the end.
+I did it in O(N) time complexity.
+Round 3 : PI
+1.	Discussion on project.
+2.	Code : LCA of BST.
+3.	Code : LCA of Binary tree.
+4.	Discussion on heap and stack.
+5.	Code : Maximum subarray sum.
+6.	Os concepts : What is semaphore? Brief explanation on wait() and signal() operation.
+Round 4 : PI
+1.	Discussion on oops concept. Asked me about copy constructor, virtual function, virtual class,
+Template, exceptional handling.
+2.	Discussion on Os concepts. Semaphore, different page replacement algos.
+3.	LRU implementation using stack ( I was not allowed to use any other data structure).
+I did it using two stacks.
+4.	 It was a modification of this question.
+Our chef has recently opened a new restaurant with a unique style. The restaurant is divided into K compartments (numbered from 1 to K) and each compartment can be occupied by at most one customer. Each customer that visits the restaurant has a strongly preferred compartment p (1 ? p ? K), and if that compartment is already occupied, then the customer simply leaves. Now obviously, the chef wants to maximize the total number of customers that dine at his restaurant and so he allows (or disallows) certain customers so as to achieve this task. You are to help him with this. Given a list of N customers with their arrival time, departure time and the preferred compartment, you need to calculate the maximum number of customers that can dine at the restaurant.
+Instead of restaurant and customers, I was given platforms and trains.
+I was asked to design a data structure for that.
+Third day :
+ Round 5 :
+1.	Discussion on project.
+2.	Discussion on different types of sorting techniques.
+Difference between merge sort and quick sort. When and where are they used.
+Discussion on counting sort.
+3.	Discussion on hash-map.
+Design a data structure which will provide the same function as hash-map.
+4.	Code : Given an array : A1[] = 2, 1, 2, 5, 7, 1, 9, 3, 6, 8, 8
+                                          A2[] = 2, 1, 8, 3
+Sort A1 in such a way that the relative order among the elements will be same as those are in A2. If the element is not present in A2, append them at last in sorted order.
+     o/p : 2, 2, 1, 1, 8, 8, 3, 5, 6, 7, 9
+I did it O(NlogN) time complexity.
+Round 6 : (Bar-Raiser)
+1.	Code : Convert little endian to big endian.
+2.	Code : Kth max in a file.
+            I did it using min-heap, then he sked me to use other data structure.      Then I did it using Balanced binary search tree.
+3.	Code : Find the second non-repeating character in a string.
+4.	Given  prime number p>=5 :
+Prove that : (p^2 – 1) will be divisible by 24.
+5.	Given a decimal number N as a string of digits (only 0’s, 1’s and 2’s are there), how do I check if it’s divisible by 3 using regular expressions only, without converting to int? I was asked to design DFA for that.
+I would like to thanks GeeksForGeeks which helped me to improve my knowledge and understanding of Data structures and Algorithms  
+
+

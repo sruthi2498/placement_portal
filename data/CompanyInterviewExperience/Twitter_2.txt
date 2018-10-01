@@ -1,0 +1,13 @@
+Twitter is an online news and social networking service where users post and interact with messages. These posts are known as “tweets”. Twitter is known as the social media site for robots. We can use Python for posting the tweets without even opening the website. There is a Python library which is used for accessing the Python API, known as tweepy. Here, we are going to use tweepy for doing the same.
+Tweepy is not the native library. You need to install it before using it. Installation is easy when you have pip. In the Terminal or Command Prompt, type the following command to install tweepy.
+In case you don’t have pip, install it as an external library.
+Don’t forget to change the change the application type from “Read only” to “Read and write” in the settings. This given the permission to tweet as well.
+After this, go to https://apps.twitter.com/. This is used to create a link between your script and Twitter. In “Keys and Access Tokens” tab, get the Consumer Key (API Key), Consumer Secret (API secret), Access Token and Access Token Secret.
+
+Run on IDE
+This is the simple method which will set the tweet “Hello Everyone!”. This is an easy process and doesn’t hold much any importance in real life. It is integrated into bigger programs for some useful work. We can use for loop to tweet a large number of tweets. For maintaining the time period between any two tweets in the loop, we can use sleep() function from the time module as shown.
+Run on IDE
+This was all about posting a text tweet. What if we want to post a tweet with a media file, there is a separate method for that.
+Sometimes, a user wants to post a tweet with a media file which is quite simple if we use the website interface. Posting with the help of Python takes some effort. It is same as posting the text-only tweet with just two lines of code addition. 
+Run on IDE
+Please don’t forget to change the Application type as stated above. Without changing it, we can’t have the access to post.

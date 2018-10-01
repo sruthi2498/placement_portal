@@ -1,0 +1,30 @@
+First round : Written Test
+The test paper was consist of 20 MCQ from C, C++ Java and some aptitude question and 4 coding question.
+Coding Questions were
+1. Dutch Flag Problem
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+2. https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+3. Birthday problem
+  An array is given which contains the age of your friends , if the age of the friend is greater than any neighbor then he will get more chocolate than him. You have to find the number of chocolates for distributing each one.
+Ex {9, 8, 7, 3, 2, 1}
+Then 9 will get 3 chocolate
+        8 – 2, 7-1, 3-3, 2-2, 1-1  chocolates respectively
+So total 12 chocolates.
+4. Rotation of the sorted array through some pivot.
+ 
+Second Round :
+He asked me questions from Data Structures and java.
+1: We have to check the pattern check for braces. 
+2. To find the number in an array which is appearing odd number of times.
+3. To find the count for each element in array how many number are smaller than this number which appeared previously in the array.
+4. Lucky number problem.
+5. Dutch flag algorithm.
+6. Some questions from BST.
+7. Some questions from Java.
+ 
+3rd round
+In the beginning the interviewer said I got a very good reviews for you that you are very good in algorithm. I was like yippeee but then the real story began.
+He was throwing the questions from JSP, Java , servlet
+He did not want the answers which I know but he was just want what happens in memory all.
+He asked me so many questions which were away from my reach then he said, I am done you can leave for the day we will contact you. I knew that I got rejected.
+Thanks for gfg for helping me.

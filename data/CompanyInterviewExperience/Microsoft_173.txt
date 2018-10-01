@@ -1,0 +1,48 @@
+Given a number, find its corresponding Roman numeral.
+Example: 
+Following is the list of Roman symbols which include subtractive cases also:
+
+Idea is to convert the units, tens, hundreds, and thousands places of the given number separately. If the digit is 0, then there’s no corresponding Roman numeral symbol. The conversion of digit’s 4’s and 9’s are little bit different from other digits because these digits follows subtractive notation.  
+Algorithm to convert decimal number to Roman Numeral
+Compare given number with base values in the order 1000, 900, 500, 400, 50, 40, 10, 9, 5, 4, 1. Base value which is just smaller or equal to the given number will be the initial base value (largest base value) .Divide the number by its largest base value, the corresponding base symbol will be repeated quotient times, the remainder will then become the number for future division and repetitions.The process will be repeated until the number becomes zero.
+Example to demonstrate above algorithm:
+Output:
+Explanation:
+ Step 2
+ Step 3
+ Step 4
+ Step 5
+Following is the implementation of the above algorithm:
+Run on IDE
+Output:
+References : http://blog.functionalfun.net/2009/01/project-euler-89-converting-to-and-from.html
+Another Approach 1::
+In this approach we have to first observe the problem. The number given in problem statement can be maximum of 4 digits. The idea to solve this problem is:
+Example:
+Suppose the input number is 3549. So, starting from thousand’s place we will start printing the roman equivalent. In this case we will print in the order as given below:
+First: Roman equivalent of 3000
+Second: Roman equivalent of 500
+Third: Roman equivalent of 40
+Fourth: Roman equivalent of 9
+So, the output will be: MMMDXLIX
+Below is the C++ implementation of above idea.
+Run on IDE
+Thanks to Shashwat Jain for providing the above solution approach.
+Another Approach 2::
+In this approach we consider the main significant digit in the number. Ex: in 1234, main significant digit is 1. Similarly in 345 it is 3.
+In order to extract main significant digit out, we need to maintain a divisor (lets call it div) like 1000 for 1234 (since 1234 / 1000 = 1) and 100 for 345 (345 / 100 = 3). 
+Also, lets maintain a dictionary called romanNumeral = {1 : ‘I’, 5: ‘V’, 10: ‘X’, 50: ‘L’, 100: ‘C’, 500: ‘D’, 1000: ‘M’}
+Following is the algorithm:
+if main significant digit == 4
+if 5 <= main significant digit <= 8
+if main significant digit == 9
+Example:
+Suppose the input number is 3649. 
+ Iter 2
+ Iter 3
+ Iter 4
+Final result by clubbing all the above: MMMDCXLIX 
+Below is the Python implementation of above idea.
+Run on IDE
+
+Thanks to Sriharsha Sammeta for providing the above solution approach.

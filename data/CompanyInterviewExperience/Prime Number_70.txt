@@ -1,0 +1,11 @@
+Given a number n, we need to find the sum of each digits of the number till the number becomes a single digit. We need to print “yes” if the sum is a prime or “no” if it is not prime.
+Examples:
+
+The idea is simple, we can quickly find recursive sum of digits.
+Once, recursive sum is calculated, check if it is prime or not by simply checking if it is 2, 3, 5 or 7 (These are only single digit primes).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

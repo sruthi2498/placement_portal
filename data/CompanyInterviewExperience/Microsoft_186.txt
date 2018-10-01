@@ -1,0 +1,22 @@
+I recently attended an interview at Microsoft. Following was my experience:
+Round 1:
+This was a written round. Everyone was given the following two questions:
+1.    Find all the nodes at a distance k from a given node
+2.    Given an array, arrange the elements such that the number formed by concatenating the elements is highest. E.g.: input = [9, 93, 24, 6], the output should be: [9,93,6,24]. This is because if you concatenate all the numbers, 993624 is the highest number that can be formed.
+40 minutes was given for this round. However, if you request, they were giving extra time. After this round, lunch was served.
+Round 2:
+This was a face to face round. Almost everyone from first round was called in for the F2F interview. After a brief introduction, he asked me this question:
+Given an array with huge data (say n, where n can be upto a million), the values in the array are in the range of 1-k where k<<Round 3:
+I don’t remember the question properly but it was something about arrays and swapping and finding the minimum cost possible.
+Round 4:
+https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+However, the interviewer wasn’t interested in the code. He asked me to do a TDD for this problem. So he asked me to write test cases for this problem. He wanted to see if I can really analyze and find the various possible cases for this problem. After some struggle, I was able to find various different type of test cases. I gave a brute force solution.
+Round 5:
+https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+However, I gave a different solution than the one mentioned in this page.
+Round 6:
+1.    Write the implementation of String class. Implement any four methods of your choice.
+2.    Write a code for the tail method of linux where you have to read some x lines of huge files from the end without reading the entire file. I gave some solutions based on indexing. The interviewer was very friendly and helped a lot in arriving at the solution.
+Since it was quite late by the time this interview was over, they arranged a cab for me to go back home.
+Overall, the experience was very nice. The interviewers and the HR were very friendly.
+

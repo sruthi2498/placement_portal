@@ -1,0 +1,7 @@
+I had attended taxi4sure drive. Their process is written test followed by n f2f interviews.
+Written test
+1) Given an array of students whose ranks can be 0 or 1. Sort the elements so that all the students with rank 0 come before 1.
+Bonus points if algo is in-place
+2) Find the first student from left side with rank 1
+3) Write the algo to sort the students based on rank if the possible ranks are 0,1,2
+I have given counting sort algo but looks they did not like my solution so was not proceeded further.

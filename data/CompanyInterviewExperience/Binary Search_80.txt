@@ -1,0 +1,12 @@
+Given two unsorted arrays arr1[] and arr2[]. They may contain duplicates. For each element in arr1[] count elements less than or equal to it in array arr2[].
+Source: Amazon Interview Experience | Set 354 (For SDE-2)
+Examples:
+Naive Approach: Using two loops, outer loop for elements of array arr1[] and inner loop for elements of array arr2[]. Then for each element of arr1[], count elements less than or equal to it in arr2[].
+Time complexity: O(m * n), considering arr1[] and arr2[] are of sizes m and n respectively.
+Efficient Approach: Sort the elements of 2nd array, i.e., array arr2[]. Then perform a modified binary search on array arr2[]. For each element x of array arr1[], find the last index of the largest element smaller than or equal to x in sorted array arr2[].
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

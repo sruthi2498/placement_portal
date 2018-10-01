@@ -1,0 +1,43 @@
+IBM ISL On Campus Interview Experience.
+Round 1: IPAT Online Aptitude Test
+This online test is timed, with each question allocated its own time limit of 2.15 minutes. About 18 number series questions and 18 numerical reasoning questions were asked.
+[ Number series questions were tricky. Numerical reasoning was simple ]
+Round 2: Written Technical
+30 Questions to be answered in 40 minutes.
+Questions mainly included
+– Predict C program output (about 15 questions )
+– Few questions from C++
+– Few question from Operation systems, networking
+– One question on design pattern.
+[ Prepare predict-C-code output questions. Check out OS and networking GATE questions ]
+Round 3: Technical face-to-face interview
+This round lasted about One hour.
+– I was asked to explain my favorite project.
+– He asked if I know compilers – and asked basic question on lex and yacc.
+Question from operation systems:
+– Inter-process Communications
+– Threads
+– Critical sections
+– Semaphores, Mutex (Asked to explain in detail with code)
+– Reader-Writer problem
+– DeadLock
+Asked to write code to insert a node in its correct location, given a sorted linked list.
+Asked to find least common ancestor given two nodes and the root; given a BST.
+At the end he asked a puzzle:
+– Given scene has some X no: of chairs and Y no: of persons in a room.
+– If each person sit on one chair, exactly one person is left with a chair.
+– If two people sit on one chair, the we have one empty chair
+Find X and Y.
+[ My other classmates were asked a lot on system calls, linker & loaders, multi-threading; basically OS concepts in depth ]
+Round 4: HR Round
+– Tell me something about yourself.
+– What all programming languages you know?
+– Why do you choose to join our company ?
+– How long will you work in our company ?
+– What are the latest developments in the industry ?
+– Strengths and weakness ?
+– What is cutting edge technology emerging in IT industry ?
+– What parameter do you look to take up the job; if you had offer from two company for the same profile?
+– Did you attend Pre-placement talk?
+– What is one thing you liked about the pre-placement talk?
+[If you are lucky; you end up filling laborious employment forms]

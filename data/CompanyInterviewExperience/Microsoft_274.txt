@@ -1,0 +1,26 @@
+Online test: This test was organized by cocubes.com, and had to be completed within an hour.
+There were two coding questions:
+1. There is a linked list whose node is defined as follows
+We had to implement a function which takes the head of linked list, and if any three consecutive points lie on same horizontal or vertical line, we had to remove the middle node. The linked list will either be empty or will contain atleast two nodes. The function prototype was:
+Example:
+2. Given a sorted array, convert it into a height balanced binary search tree. A height balanced tree is one in which for every node, the height difference of left and right subtree is at most 1. Node of binary tree was:
+Function to be implemented was:
+Interview:
+There were 3 rounds of interview, and we had write code on paper.
+Round 1:
+There were two questions:
+1. Given a string, remove all continuous occurences of ‘a’ and any occurence of ‘b’.
+Example: Input: “aacbccdbsssaba”, then output: “acccdsssa”
+2. What data structure should be used if we have to implement insert and delete functions in a text editor? The functions should be as fast as possible.
+Round 2:
+Question 1: Given a string and two positions in that string, shuffle the string, that is, move the given substring to the front. Example:
+Input: abcdefgh, 4,6
+Output: defabcgh
+This has to be done inplace with O(n) time complexity.
+Question 2: How to implement dictionary data structure in C++? What kind of hash functions shall we use? How to manage collisions?
+Question 3: How would you implement vector data structure in C++ on your own? What would be the accessing time complexity? How can you make it O(1)? How to resize the structure?
+Round 3:
+Question 1: Given a k-ary tree, how to print the elements layer wise?
+Question 2: Given a singly linked list and a number ‘n’, write code to reverse every ‘n’ elements of the linked list. Example:
+Input: 1->2->3->4->5->6, n=3
+Output: 3->2->1->6->5->4

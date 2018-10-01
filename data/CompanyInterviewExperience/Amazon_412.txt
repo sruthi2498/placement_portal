@@ -1,0 +1,17 @@
+Amazon visited our campus for recruitment. Here is my experience.
+First there was an online round on hackerrank and consisted of 20 mcqs and two coding questions. Here are those two questions: 
+Ques 1: Given a singly linked list, write a function to put all the even numbers at the front and odd numbers at the end of ll while maintaining the order of numbers. In place solution was expected.
+Ques 2: Given a sequence of moves for a robot, check if the sequence is circular or not. A sequence of moves is circular if first and last positions of robot are same.  A move can be either R(Rotate right), L(Rotate left), G(Go one unit).
+Round 1: There was some discussion on my intership project. Then i was asked the following coding questions:
+Ques 1: Given an array, find a pair of elements which gives us the maximum sum.
+Ques 2: Given an array of strings in sorted order, print all the same strings only once on the screen.
+Ques 3: Given a binary search tree, find the kth smallest element int it.
+Round 2:
+Ques 1: Given an array, find the maximum length of subarray such that the average of that subarray is the maximum of all subarrays.
+Ques 2: Given the data value field of a node, print all the nodes at distance k from that node in a binary tree.
+Round 3:
+Ques 1: Write a function which takes input as bank balance and returns a string equivalent of that integer/float.
+Ques 2: What happens after we type some web address in a browser and hit enter.
+Round 4:
+Ques 1: Given an integer and a mapping of Roman numerals [I:1, V:5, X:10,L:50] write a function to convert any integer between 0 to 100 to Roman numerals. All the rules for conversion have to be followed.
+

@@ -1,0 +1,6 @@
+Given an array arr[] and a number k. The task is to delete k elements which are smaller than next element (i.e., we delete arr[i] if arr[i] < arr[i+1]) or become smaller than next because next element is deleted.
+Examples:
+
+Approach: Stack is used to solving this problem. First we push arr[0] in stack S and then initialize count as 0, then after traverse a loop from 1 to n and then we check that s.top() >  arr[i] if condition is true then we pop the element from stack and increase the count if count == k then we stop the loop and then store the value of stack in another array and then print that array.
+Run on IDE
+Run on IDE

@@ -1,0 +1,9 @@
+The unordered_map::end() is a built-in function in C++ STL which returns an iterator pointing to the position past the last element in the container in the unordered_map container. In an unordered_map object, there is no guarantee that which specific element is considered its first element. But all the elements in the container are covered since the range goes from its begin to its end until invalidated.
+Syntax:
+Parameters : This function accepts one parameter n which is an optional parameter that specifies the bucket number. If it is set, the iterator retrieves points to the past-the-end element of a bucket, otherwise, it points to the past-the-end element of the container.
+Return value: The function returns an iterator to the element past the end of the container.
+Below programs illustrates the above-mentioned function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

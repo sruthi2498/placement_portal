@@ -1,0 +1,22 @@
+First Round: (Written)
+1. Maximum sum of non-contiguous elements in array 
+Input : 1 12 5 4 13
+Output: 25
+2. Given an array of integers, find a combination of four elements in the array whose sum is equal to a given value X.
+Input Array : 1 5 1 0 6 0
+Input Sum: 7
+Output : 1 (1 if present, else 0)
+Second : (F2F)
+1. Discussion of above two questions.
+2. If a doubly linked list has pointers in the form of integers that represesnts memory location, and we want to manage only one reference for both prev and next node, how will the list be traversed.
+3. Rotate right a binary tree
+Third : (F2F)
+1. Diameter of a binary tree
+2. How DNS lookup works
+3. SQL Query with 3 tables : Student, Class, Test
+Write a query to print average marks classwise for each week
+Output Example :  
+Solution : select (select Cname from Class where CID = S.CID)ClassName, T.WeekId, AVG(T.Marks)
+		from Test T LEFT_JOIN Student S on T.SID=S.SID
+           group by ClassName, T.WeekId 
+4. Design a Ludo/Snake&Ladders

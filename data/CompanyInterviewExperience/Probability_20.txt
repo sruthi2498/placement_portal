@@ -1,0 +1,11 @@
+Two cards are drawn together from a pack of 52 cards. What is the probability that one is a spade and one is a heart?
+(A) 3/20
+(B) 29/34
+(C) 47/100
+(D) 13/102
+ Answer: (D) Explanation: Number of ways to draw 2 cards from a pack of 52 cards = 52C2 = 1326.
+Number of ways to draw a spade from 13 spades = 13C1 = 13.
+Number of ways to draw a heart from 13 hearts = 13C1 = 13.
+Number of ways to draw a spade and a heart = 13 * 13 = 169.
+Therefore, required probability = 169/1326 = 13/102.
+Quiz of this QuestionPlease comment below if you find anything wrong in the above post

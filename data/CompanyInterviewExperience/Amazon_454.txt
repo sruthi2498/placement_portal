@@ -1,0 +1,30 @@
+Hi, Recently i was interviewed for Amazon SDE-1 Position in Hyderabad.There a telephonic round followed by 4 F2F rounds. 
+Telephonic Round:
+1. Inserting an element into a BST
+2. A array is increasing and then decreasing find the point where it stops increasing.
+F2F Round 1:
+1. Replace all the elements in the array with its next highest element to its right
+Expected O(n) Solution.
+2. Given a binary tree and a value k. A path is called heavy path if the sum of the elements in the path (path from root to leaf) > k remove all the paths from the tree which are not heavy i.e., tree should contain only heavy paths.
+F2F Round 2:
+1. Given a array find all the triplets which satisfy the triangle preoperty(sum of 2 sides should be greater than third side)
+Sol: sort then o(n^2 log(n)) using binary search.
+2. Given a dependency where for example process p1,p2,p3
+p1:{p2,p3}
+p2:{p3}
+p3:{}
+This means p1 starts once p2 and p3 are complete
+p2 starts p3 is complete
+p3 can start as it does not have any dependence.
+Figure out strategy to find the order of execution of processes.
+Ans:Topological sorting.
+F2F Round 3:
+1. Design a stack with push pop and find min operations in o(1) time.
+Ans:can be done using 2 Stacks
+2. Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
+Solution https://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+F2F Round 4:
+Discussion of projects and current work experience.
+Diameter of a binary tree in o(n).
+First devised o(n^2) then optimized to o(n)
+

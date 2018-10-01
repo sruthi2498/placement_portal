@@ -1,0 +1,16 @@
+ROUND-1
+I. Field of interest(I told data structure and problem solving)
+II. project
+III. How to find whether a loop in a linked list is present or not & if present then find the point of loop.
+IV. An array consists of only 0,1 & 2 in an unsorted manner.sort the array.
+V. 8 queens problem(backtracking)
+VI. Coins with weight puzzle:100 bags with coins like 1st bag has 1 coin,2nd bag has 2 coins & so on.all the coins weigh 1gm but only one bag has coins with weight of 1.1 gm.identify the bag.
+VII. Swapping problem using pointer.(he wrote a code where input values for a,b variable has to be swapped.asked me to write the arguments for the function he used using pointers)
+VIII. Puzzle-4 person & a torch light problem.
+Round 2
+• Given the inorder and preorder traversals, find the binary tree corresponding to them.
+• Given an array of integers and a value k, find a pair of array entries whose sum is equal to k. Brute force approach will not be considered.
+• Given a binary tree with parent pointers to every node in addition to the left child and right child pointers and a pointer to the root and a pointer to any node, return the mirror node. What if the pointer to the root is not given?
+• What do you know about design patterns in Java?
+• How does singleton design pattern look like?
+• How to make the singleton design pattern thread-safe?

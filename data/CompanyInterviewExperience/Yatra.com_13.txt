@@ -1,0 +1,15 @@
+I appeared for yatra.com interview process. In each round, I have to discuss the problem with interviewer and to tell him my approach. Also they asked About complexity of each solution and also stressed to optimize it
+Round 1 ->
+1. Given a Matrix with 0’s and 1’s in sorted order. design an algorithm to return row index with maximum number of 1’s. after That he modified the ques that some rows are sorted in increasing order and some in decreasing order.
+2. Given two arrays of n+m and n size. n+m size array only have m elements and n size array have n elements. Design an algorithm to shift smaller array element in larger array also larger array should be sorted. interviewer asked to give 3 different algorithms.
+Round 2 ->
+1. What is Hashing, Hash table.
+2. Algorithm for Level order traversal of BST without using Queue Data structure.
+3. Given an array with +ve and -ve numbers. Give an algorithm to find 3 numbers having sum x in less than O(n3) complexity.
+4. Binary search.
+Round 3 -> 
+1. Given a file with all 255 chars in it. design an algorithm to check whether this file is parenthesis balanced or not.
+   (file handling question)
+2. HR questions.
+3. Discussion about current company work and my responsibilities.
+After 3 days i got the offer letter. Do a lot of work on complexity optimization.

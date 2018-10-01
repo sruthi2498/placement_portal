@@ -1,0 +1,11 @@
+The list::splice() is a built-in function in C++ STL which is used to transfer elements from one list to another. The splice() function can be used in three ways:
+Syntax:
+Parameters: The function accepts four parameters which are specified as below:
+Return value: This function doesnot returns anything. 
+Below programs illustrate the above function: 
+Program 1: Transfer all the elements of the list.
+Run on IDE
+Program 2: Transfer a single element.
+Run on IDE
+Program 3: Transfer a range of elements.
+Run on IDE

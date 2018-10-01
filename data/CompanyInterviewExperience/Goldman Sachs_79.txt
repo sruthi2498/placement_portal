@@ -1,0 +1,24 @@
+Goldman Sachs Interview Experience (On-Campus for Internship)
+Online Round (Aptitude+Coding) : (1:30 hrs) 
+Students of all branches were allowed to appear in the online round.
+15 MCQs only on aptitude for the first half an hour followed by a coding question to be solved in the next one hour.There was no negative marking in the aptitude section. The aptitude questions were really good given the time limit. The test was conducted on Hacker Rank. Compilers for coding were not allowed.
+The aptitude section carried 60 marks and 40 marks for one coding question.
+A total of 18 students got through the online round.
+
+Interview 1(FTF):
+Q1. Describe a semaphore and explain its working. How would you use a semaphore to solve the producer-consumer problem.A blank sheet was provided to write the pseudo-code.
+Q2. Given a binary tree , check if the value at the node is less than the sum of the values of its left and right child, if so replace the value at the node with the sum. Code was not necessary; he demanded proper logic for solving it.
+Q3. Given a binary tree, write the code to convert the tree into its mirror image. I wrote the code on a piece of paper and then the interviewer asked some questions about the working of the code. The interviewer seemed to be satisfied with my answers.
+Example:
+
+Interview 2(FTF):
+First of all he asked about my background and then proceeded with the questions.
+Q1. What is virtual memory ? Describe virtual address space .
+Q2. Given a square board of n rows and n columns ,find the total no of squares in it.(There is a formula to it which can be arrived at by observation).
+Q3. Find the total number of triangles in a hexagon with edges connecting each vertex to another.
+Q4. Write code for reversing a linked list.
+Hint: Both iterative and recursive techniques can be followed .
+Q5. Find all values of n for which n&(n-1)==1 and n&(n-1)==0.
+At the end he asked what are my subjects of interest and if I have any questions to ask.
+A total of 9 students were selected for the internship at the end.
+All thanks to geeksforgeeks for helping me with my preparation.

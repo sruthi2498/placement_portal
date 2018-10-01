@@ -1,0 +1,16 @@
+Given a dictionary, a method to do lookup in dictionary and a M x N board where every cell has one character. Find all possible words that can be formed by a sequence of adjacent characters. Note that we can move to any of 8 adjacent characters, but a word should not have multiple instances of same cell.
+Example: 
+
+We have discussed a Graph DFS based solution in below post.
+Boggle (Find all possible words in a board of characters) | Set 1
+Here we discuss a Trie based solution which is better then DFS based solution.
+Given Dictionary dictionary[] = {“GEEKS”, “FOR”, “QUIZ”, “GO”}
+1. Create an Empty trie and insert all words of given dictionary into trie  
+2. After that we have pick only those character in boggle[][] which are child of root of Trie
+   Let for above we pick ‘G’ boggle[0][0] , ‘Q’ boggle[2][0] (they both are present in boggle matrix)
+3. search a word in a trie which start with character  that we pick in step 2 
+Below is the implementation of above idea
+
+Run on IDE
+Run on IDE
+

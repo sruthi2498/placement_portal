@@ -1,0 +1,54 @@
+Skype round 1: (10 min) 
+Print a tree in zigzag order. For Example for the given input tree:- 
+The output would be:- 
+Code for the logic in any language that you are comfortable in.  
+
+Skype Round 2: (10 min)
+Find if two given strings are anagrams of each other or not.
+Anagrams example: LISTEN and SILENT.
+Code for the same. Test cases for the code. (Positive and negative)
+They called me to Hyderabad for an F2F immediately after Skpe rounds, (I managed to postpone it to the next week).
+
+Face2Face Round 1: (45 min)
+Question 1:
+Given a character array which each position is filled with either a single digit numbers or a comma,
+Array of 22 characters:-
+
+Write a code to reply true if we find a set of three set of numbers separated by a comma such that
+X , Y, Z and Z = X + Y
+In the array above 77+22 = 99 so return true.Code for the same with negative test cases.
+Question 2:
+If in a given Doubly Circular Linked List a couple of next pointers are corrupted, give the logic to rectify them all.
+
+Face2Face Round 2: (1 hour)
+Given a number in an int variable, write a code print its value in words, covering all possible corner cases.
+Ex → 34567 = thirty four thousand five hundred and sixty seven.
+Negative test cases for the same.
+
+Face2Face Round 3: (1 hour 15 min)
+Question 1:
+Given a scheduler arrangement with some jobs having unique job ids and every job id has a number of tasks with unique task ids for that job.
+Example:- 
+Write a Code for listing the job ids + task id combination in round robin fashion.
+Example:- 
+Choose any data structure of the input (array of structures or linked lists or queue).
+Design Test cases for the same.
+
+Question 2:
+Given a BST, create a Doubly Linked List from the same in place.
+Tree node -> left pointer = DLL node -> previous pointer
+Tree node -> right pointer = DLL node -> next pointer
+
+Face2Face Round 4: (with the Director) (1 hour approx)
+He asked typical HR questions like
+Why Microsoft?
+Where do you yourself 10n years from now? Blah blah.
+Question 1:
+Given a mess of 3 balls (colored red blue and white) write an algorithm + program with the most efficient way to sort them color wise. (Dutch National Flag Problem)
+Question 2:
+Given a string print the string with alternate occurrences of any character dropped. 
+Modification:- Consider alphabets with both cases as same occurrence.
+Position was software Engineer 2. MSFT does not have SDE and SDET anymore, All roles shall be SE from now on.
+Thank you geeks for geeks. This site is a Marvel for job aspirants.
+
+

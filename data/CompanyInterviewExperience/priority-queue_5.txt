@@ -1,0 +1,9 @@
+Given an array a, your task is to convert it into a non-increasing form such that we can either increment or decrement the array value by 1 in minimum changes possible.
+Examples :
+Brute-Force approach :  We consider both possibilities for every element and find the minimum of two possibilities. 
+Efficient Approach :  Calculate the sum of absolute differences between the final array elements and the current array elements. Thus, the answer will be the sum of the difference between the ith element and the smallest element occurred till then. For this, we can maintain a min-heap to find the smallest element encountered till now. In the min-priority queue, we will put the elements and new elements are compared with the previous minimum. If new minimum is found we will update it, this is done because each of the next element which is coming should be smaller than the current minimum element found till. Here, we calculate the difference so that we can get how much we have to change the current number so that it will be equal or less than previous numbers encountered till. Lastly, the sum of all these difference will be our answer as this will give the final value upto which we have to change the elements.
+Below is C++ implementation of the above approach
+Run on IDE
+Time Complexity: O(n log(n))
+Space Complexity: O(n)
+Also see : Convert to strictly increasing array with minimum changes. 

@@ -1,0 +1,37 @@
+Round 1: Machine Coding
+Q. In a regular expression, * represents 0 or more repetitions for preceding character. & represents the regex preceeding it is at the end of string. and all small case letters represent themselves. For example:
+rat&
+Pass: bigrat, smallrat
+Fail: ratoulite rats
+a*b
+Pass: b, ab, aab
+Fail a, asd
+abc
+Pass: abc, abcd zabcd
+Fail: abdc, dabfc
+Write a code for it.
+Round 2: discussion and test case analysis of code
+Another question:
+What if . represents 1 character, how will you handle it. Handle .* in a regex.
+Thorough analysis of the code with his internal test cases.
+Round 3: Face to face
+1. test case on the code I wrote.
+2. If any element is occurring n/2 times in a n sized array, how will you find it.
+Method 1: sort it, pick n/2 element and traverse array once to make sure that the middle element is present greater than n/2 times.
+Method 2: Use Map, pseudo code:
+if (map.find(i) == map.end())
+  map.push(i, 1);
+else
+  map.find(i)->second++;
+traverse map once to know the required element.
+3. Copy a random linked list. Geeke for geeks link.
+4. Find width of a tree. Geeks For Geeks link.
+with geeks for geeks it may seem easy but a thorough analysis is needed. Including pseudo-code. I did the thing after adding an extra variable in node DS.
+Round 4: Senior Manager Round
+1. Why flipkart
+2. Job description, very specific about current role
+3. Reader-writer problem code, without semaphore. I used two variables, asked me to minimize variable usage.
+4. Given a text file, store all the words using a tree. I gave a trie solution.
+5. What is the most challenging project you have done in your lifetime and why.
+PS: If thorough knowledge about approaches are not prepared then its better to get screwed. They will ask every case possible.
+

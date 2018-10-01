@@ -1,0 +1,10 @@
+Pre-requisite : std::map, std::unordered_map
+When it comes to efficiency, there is a huge difference between maps and unordered maps.
+We must know the internal working of both to decide which one is to be used.
+Difference : 
+Use std::map when
+Run on IDE
+Output :
+Use std::unordered_map when 
+Run on IDE
+Output :

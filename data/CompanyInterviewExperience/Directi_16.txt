@@ -1,0 +1,40 @@
+Directi came for 3 profiles in our campus for full time role – Platform Engineer, Application Engineer, Operation Engineer.
+Process for Plat. and App. profile was same and different for Oper. profile. I appeared in Plat. and App. Engg. profile.
+Coding Round
+It was a coding round on codechef, consisted of 3 problems.
+1. You are given n items. Each item has a cost of c[i] rupees and profit of p[i], where 1<=i<=n. You have exactly k rupees. What is the possible maximum profit you can make using no more than k rupees.
+Ans. Standard Knapsack problem. complexity (O(n*k))
+2. You are given a matrix of 3 rows and n columns. Each cell contains the value 0 initially. You have to perform m operations on that matrix. Each operation has three values, r, c1 and c2 (1<=r<=3, 1<=c1,c2<=n). You have to set all the values from column c1 to c2 in row r to 1. After performing all the operations, select a rectangle from the matrix, such that rectangle contains the only 1s and all of the sides of the rectangle are parallel to the x or y axis. What will be the maximum area of such rectangle.
+1<=n<=1000000
+1<=m<=1000
+Ans. A hint was given in the problem. First sub-problem is to fill the matrix. Second is to find such rectangle. For the first sub-problem, you can use the logic of +1 and -1, as given in http://www.geeksforgeeks.org/constant-time-range-add-operation-array/. For second sub-problem, you can use a brute force to find a rectangle of maximum area. (or you can use histogram also)
+3. A string is given of some words(plaintext). You have to change it into a cipher using a key. The key maps a letter into another letter(may be the same letter). But no two letters can be mapped into a same letter, such that a cipher can be identified as a unique. Space will be mapped into space only. All the words of the cipher should be anagram of the corresponding word of the plaintext. Find, how many different keys are possible to satisfy all the conditions.
+Each plaintext has at most 4 words and each word has at most 4 characters.
+Who solved all 3 questions, they were called for Plat. Engg (only two students). And who solved 2 questions, called for App. Engg. I was called for App. profile.
+Interview Round-1 (Algorithm Round)
+My first interview was taken by ACM-ICPC world finalist. Firstly, he said me to relax. He asked about my project, that was based on Machine Learning. Then he asked about my favourite topic in Competitive Programming. I said DP. But he asked a predetermined question, that was not based on DP.
+A 2D grid is given of r rows and c columns. Each cell is filled with one color- R,G or B. Find the largest area of a triangle that has all the vertices of different color, and one of the side is parallel to the either of the axes. Similar question can be found here, http://www.geeksforgeeks.org/maximum-area-triangle-different-vertex-colors/ .
+I first told the (r*c)^3 brute approach, then (r*c)log(r*c). Then finally I solved in r*c.
+He said me to write the code on my computer. I wrote a big code (of almost 300 lines), because there were so many cases to be handled. He asked me to reduce the code length using function. I did the same by reducing to almost 200 lines. There was one mistake in my code, then he said to correct me.
+All the students wee asked the same problem in this round. Who solved the problem, was qualified for next algo round.
+Interview Round-2 (Algorithm round)
+Fist, he walk through my resume and asked something about my project.
+Then he asked a below DP problem.
+A string is given of balanced parentheses. We want to break this in two subsequences A & B, such that both are balanced and they form the whole string.
+How many such breaks are possible for this string.
+This can be found here, https://stackoverflow.com/questions/13437005/partitioning-a-string-of-brackets
+First, I told O(n*2^n) approach, then DP of O(n^3), then finally another DP of O(n^2).
+He was very happy with the approach, how I came from O(n^3) to O(n^2).
+He immediately sent me for the final round.
+Interview Round-3 (Project + Technical)
+It was a telephonic round. First, he asked about my first project(Cross Domain Recommendation System). I told everything about my project. He asked the approaches, I used in project (about finding similarity factor, transferring knowledge from one to another domain). I hardly explained on mobile. Then he asked a programming problem.
+There are unknown number of computers connected with wires. A computer knows only about its neighbours, not any other. Each link (wire) is given a weight. Each computer wants to know the optimal path to every other computer. A link can go down anytime.
+I suggest a solution that sends the information of its neighbours to its neighbour continuously, like a OSPF routing protocol.
+Note:
+1. It doesn’t matter how your english is. I used hindi also between the interviews.
+2. Obviously, coding is very important for Directi.
+3. You should know everything about your project.
+ 
+
+
+

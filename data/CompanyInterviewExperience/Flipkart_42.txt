@@ -1,0 +1,12 @@
+Given an array of n integers where each value represents number of chocolates in a packet. Each packet can have variable number of chocolates. There are m students, the task is to distribute chocolate packets such that:
+Examples:
+Source: Flipkart Interview Experience
+A simple solution is to generate all subsets of size m of arr[0..n-1].  For every subset, find the difference between maximum and minimum elements in it. Finally return minimum difference.
+An efficient solution is based on the observation that, to minimize difference, we must choose consecutive elements from a sorted packets. We first sort the array arr[0..n-1], then find the subarray of size m with minimum difference between last and first elements.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n Log n) as we apply sorting before subarray search.

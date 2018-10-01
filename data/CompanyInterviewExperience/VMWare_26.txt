@@ -1,0 +1,13 @@
+The following is a description of the instance of this famous puzzle involving 2 eggs and a building with 100 floors.
+Suppose that we wish to know which stories in a 100-story building are safe to drop eggs from, and which will cause the eggs to break on landing. What strategy should be used to drop eggs such that total number of drops in worst case is minimized and we find the required floor.
+We may make a few assumptions:
+We strongly recommend you to minimize your browser and try this yourself first
+If only one egg is available and we wish to be sure of obtaining the right result, the experiment can be carried out in only one way. Drop the egg from the first-floor window; if it survives, drop it from the second floor window. Continue upward until it breaks. In the worst case, this method may require 100 droppings.
+Suppose 2 eggs are available. What is the least number of egg-droppings that is guaranteed to work in all cases?
+The problem is not actually to find the critical floor, but merely to decide floors from which eggs should be dropped so that total number of trials are minimized.
+If we use Binary Search Method to find the floor and we start from 50’th floor, then we end up doing 50 comparisons in worst case.  The worst case happens when the required floor is 49’th floor. 
+Optimized Method:
+The idea is to do optimize the solution using below equation:
+The optimal number of trials is 14 in worst case.
+See below for programming solution for general k eggs and n floors.
+https://www.geeksforgeeks.org/dynamic-programming-set-11-egg-dropping-puzzle/

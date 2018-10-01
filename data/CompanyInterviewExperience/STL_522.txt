@@ -1,0 +1,10 @@
+Given a vector, how can we store 3 elements in one cell of vector.
+Examples:
+
+One solution is to create a user defined class or structure. We create a structure with three members, then create a vector of this structure.
+Run on IDE
+Output : 
+ 
+Another solution is to use pair class in C++ STL. We make a pair with first element as normal element and second element as another pair, therefore storing 3 elements simultaneously.
+Run on IDE
+Output:

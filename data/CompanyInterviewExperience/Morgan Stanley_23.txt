@@ -1,0 +1,27 @@
+Morgan Stanley recently visited our campus for Full time Technology Analyst. Process took 5 rounds.
+Round 1 Aptitude and Coding test
+Test had 19 MCQs and 2 coding questions. MCQs had negative marking. Questions were mainly asked on Data Structures, OS and Databases. Coding questions were good. One was easy and second was a DP problem with moderate difficulty. 
+About 15 students were shortlisted.
+Round 2 Technical Interview
+Interviewer in this round just wanted to check my concepts and basics.
+First he asked me about heaps and told me to write algorithm for heapify. Its complexity etc.
+Then he asked me about sparse matrix and how we can optimize space where we don’t require cells below diagonal. I told him a hashmap approach and then we discussed about internal working of hashmaps.
+Then he told me he wanted to multiply two such sparse matrices and asked me to write a code to multiply two matrices where each matrix is a hashmap. Asked time complexities etc
+Then he asked me to design a class diagram where there are many manufacturers and each of them manufactures different vehicles like cars, bikes etc.
+Also he asked me all kinds of joins. Then he came to C++ and asked about virtual functions and how java is different from C++ in this case.
+Asked a good SQL query. At first I was not able to understand what it did. After a hint I got the answer.
+I was able to answer almost all questions.
+About 4 students were shortlisted.
+Round 3 Group Activity
+ As MORGAN STANLEY’s legacy, gave LEGO BLOCKS and said to come up with an idea and you want to impress your investors with your idea so they will invest in your project idea.
+Round 4 Technical Interview
+I was told to design a class diagram for Olympics Racing game. Every minor detail was taken into account. Then told me to design a ER diagram for a student registration for different courses. Then he asked me to map ER to tables. Asked me Normalization concepts and why it is important. Also told me to normalize tables. Then OS questions were asked like what is semaphore. Binary and Counting semaphore? Then he gave me a scenario and asked whether binary or counting semaphore would solve the problem. Then he asked some system calls. Gave me a program with 4 forks and asked me number of processes created. After that he asked me to distinguish grandfather, father and child process. Asked me to write a code where the process created during first fork should not execute other forks below it and so on. After some hints I got the answer.
+Round 5 HR Interview
+Asked me about my internships, projects.
+Why your CPI is low?
+Why Morgan Stanley?
+What are your views on our recruitment process and how can we improve it?
+Strengths? Weaknesses?
+Thank you GeeksforGeeks for putting such good content.
+
+

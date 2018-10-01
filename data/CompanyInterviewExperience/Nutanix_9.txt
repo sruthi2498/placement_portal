@@ -1,0 +1,33 @@
+Round 1 – Coding (online)
+The first round was an online coding round hosted on hackerrank. There were two questions to be solved in 1hr30mins. The questions were as follows –
+Q-1. Winning at Sports : In the game of Sports, the object is have more points than the other team after a certain amount of time has elapsed. Scores are denoted by two hyphen-separated integers. For example, scores may include 3-2, 4-1, or 10-0. The first number is how many points you’ve scored, and the second is the number of points scored by the opposing team. You’re very good at Sports, and consequently you always win. However, you don’t always achieve victory the same way every time.
+The two most extreme kinds of victory are called stress-free and stressful. In astress-free victory, you score the first point and from then on you always have more points than your opponent. In a stressful victory, you never have more points than your opponent until after their score is equal to their final score.
+Given the final score of a game of Sports, how many ways could you arrange the order in which the points are scored such that you secure a stress-free or stressful win?
+Note – Output two integers – one each for stress-free and stressful victory.
+Answer – http://codeforces.com/blog/entry/15881 (See solution of Winning at sports).
+ 
+Q-2. Given a sorted dictionary (array of words) of an alien language, find order of characters in the language.
+Examples:
+Solution – https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+16 students were selected from this round.
+Round 2 – Knockout
+An erroneous code of segment Tree was given to us on a printed paper. The students had to identify the mistake and write the corresponding correct code.
+8 students were selected and 8 were knocked out from this round.
+Round 3 – F2F 1
+This was a face to face interview. There were 2 questions –
+1. Given an array of integers and an integer X, find all subsets of the array whose sum of elements is equal to the integer X. 
+Solution – Recur for two cases – one including current element and other excluding current element.
+2. You have two integer arrays – WELL and DISC. Each integer of WELL represents the maximum width of a disc that can pass through it in left to right direction. Given a series of discs of varying width, find out how many discs can be fit in the WELL until the WELL gets full.
+E..g.  Say WELL array is {10, 8, 9, 5, 4, 1, 2} and DISC array is {1, 6, 9, 5, 4, 11}
+The answer in this case is 3 –
+1. disc 1 can pass through all elements in left to right direction.
+2. disc 6 can pass through only 10, 8 and 9. Hence, it will fall at position of width 9.
+3. disc 9 can pass through only 10. Hence, it will fall at position of width 10. 
+Since the WELL is full at the topmost level, we cannot fit in anymore discs. Hence, we stop and print the answer as 3.
+Solution – Preprocess the WELL array to output the answer in O(m+n).
+Round 4 – F2F 2
+This round had only one question. There was a variant of the classic bounded buffer problem and we were asked to synchronize it. 
+Round 5 – HR
+Just a few basic HR questions. No puzzles or technical questions were asked. She explained about the culture at Nutanix. At the end of the interview, she told me “Welcome to Nutanix”. 
+
+

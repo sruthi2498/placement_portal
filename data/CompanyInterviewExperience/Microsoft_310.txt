@@ -1,0 +1,19 @@
+Hello everyone, I recently got selected for the internship at Microsoft IDC. GeeksForGeeks helped me a lot in preparing for the coding tests as well as for interviews. The positions that they were interviewing for were SDE and SDET(Testing).
+1st Round. – Online – 30 mins
+The first round was an online round which was hosted on cocubes.com . There were 20 MCQ questions. Questions were from a variety of topics like Algorithms, Data structures, C, C++, OOPs, Memory Management, Computer Architecture etc. 
+2nd Round. – Online – 1 hour
+This was a coding round in which two problems were given. 
+Problem – 1:	Given a word and a text, return the count of the occurences of anagrams of the word in the text.
+	For eg. word is “for” and the text is “forxxorfxdofr”, anagrams of “for” will be “ofr”, “orf”,”fro”, etc. So the answer would be 3 for this particular example.
+Problem – 2: Given a binary tree with parent pointers, find the right sibling of a given node(pointer to the node will be given), if it doesn’t exist return null. Do it in O(1) space and O(n) time.
+3rd Round – Group Test – Code on paper – 45 mins
+First we had to discuss the solution with the assigned mentor and then we had to code it on paper(no pseudo code)
+Problem 1:   Given a BST, one of the nodes violates the BST property( left-child < parent < right child ), return the pointer to that node.
+
+Problem 2: Two no.s having equal no. of digits were given in the form of singly linklist. (For eg.- 102 will be given as 1 -> 0 -> 2 ). Add these no.s and return the answer in the form of a singly linkllist. Do it in O(n) time, given n digit numbers
+4th Round – Interview
+	I had to implement a T9 dictionary . insertWord function and populateWords were the two functions which I had to implement on paper(again no pseudo code).
+	First I have to dicuss the approach with the interviewer and then he asked me to code.
+5th Round – Interview
+	He dicussed the work that I did in my last summer internship and after that he asked me to code the maximum subarray problem in one pass.
+I and my friends who got internships at Adobe Research, Amazon, De-Shaw, Samsung would like to thanks GeeksForGeeks for mainting a high quality problem set for coding tests and interviews.

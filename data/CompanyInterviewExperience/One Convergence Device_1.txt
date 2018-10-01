@@ -1,0 +1,44 @@
+One Convergence Device (Hyderabad) came to our campus with a handy package on for Full time Software Engineer profile. MCA and Mtech were allowed. 
+There was one written and two technical interviews round. Second technical interview also included HR interview. No separate HR round. 
+Written round-
+There was only one written round after ppt presentation. It was pure technical based paper consisting of c, java, datastucture, network and operating system.
+There were around 60 questions to be done in one hour. All questions were easy but conceptual and little bit tricky.
+    1.  In C.
+    Most of the questions were based on bits manipulation and string and union.
+    2. In Data structure.
+    Questions on tree , heap, red black tree and balanced tree and complexity.
+    3. In Operating System
+    It was really conceptual. Most of the questions were on virtual memory concept and scheduling and semaphore.
+    4. Network
+    Questions on layers and their protocols. Numerical that needed transmission ,propagation and bandwidth formula. Some general conceptual question including switch, hub and gateway.
+I attempted every section since sectional cutoff was there. I didn’t attempt any question that I was not sure for, since there was negative marking. I also didn’t attempt any numerical.
+So, attempt each section such that you can clear cut off. No need to attempt all questions of each section. 
+First round-
+After written test , only 4 from Mca and 4 from Mtech were selected for next round.
+It was also pure technical round.
+Interview started just after result was declared. Since there was only two panels, It was taking time.
+Questions.
+    1. Tell me about yourself in brief.
+    2. Write program to reverse string.
+    3. Write program to reverse bits of number.
+    4. Write program to check common sequence in two string.
+    5. Write program to the bits which is set.
+    6. Describe switch in n/w and how will you implement its s/w.
+    7. What is NAT and its functions ?
+    8. What is VLAN ?
+    9. How client and server establish their communication. How to create socket , explain step by step?
+    10. What is socket buffer?
+    11. What is function of bridge?
+    12. What is IPC(inter process communication) and ITC(inter thread communication) and how it happens and how to implement it.
+Second round-
+    1. Tell me about yourself and your achievement briefly and your family background.
+    2. What is linking? Explain in detail.
+    3. What is little endian ,big endian. How to implement it’s code?
+    4. What are different types of memory segment and tell  about different parts of program and where they are stored?
+    5. Explain zombie, daemon and orphan processes and how they are different?
+    6. How to create parent and child process and different threads?
+    7. What are  common segment used by parent and child processes?
+    8. What are common segment used by threads?
+    9. What is symbol table and what is it used for?
+    10. How to use gcc to compile program and what are different options available?
+Ex: -g etc..

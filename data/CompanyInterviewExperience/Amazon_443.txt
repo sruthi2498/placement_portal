@@ -1,0 +1,29 @@
+1st round (data structures and algorithm)
+1) Ladder of n steps is given.Find the number number of ways to reach the end point.I can take either 1 step or two steps at a time.
+2) Find the k largest number in running stream of words.
+couldn’t write the running program for the second question.
+2nd round (problem solving)
+1) Every path from root to leaf add to a certain number,delete all the nodes which do not satisfy this condition.
+2) Hash problem.To implement put(key,value) and get(key) in log(n) time.
+    Suppose there are key and value pairs like
+    (1001, 233) (2001, 3340) (8776, 9)
+ you have to perform get and put operations using function 
+and your own hash operations. Did it using hashmap with pointer to an avl tree. 
+    AVL will be constructed on the basis of index. index will be 1001/1000;
+    ie. if I have to put(3004,996)
+    3004%1000 = 4;
+    then go to 4th AVL tree using hashmap.Now compute 3004/1000=3;
+My node will have index = 3 and value = 996. Insert this node in 4th AVL tree on the basis of index. Thus time complexity will be log(n) where n is the number of elements in Key%1000 AVL tree.
+3rd round (Hiring manager round)
+1) About current company, explained everything in detail.
+2) Then a large file is given you have to find all the panagrams. Told him to divide the file in chunks for parallel processing. Maintain an array of size 26 or instead of that, you can set the bits of a 32 bit number. Set the bit of a number so that you can easily check the panagram condition.
+4th round (data structures and algorithm)
+1) 2-d matrix service tax of different cities are given in the form of the 2-D matrix.Find the least cost to go from one city to another.you can travel only in two directions right or down.
+2) Find all the nodes at a distance r from the given node n.
+3) Find the sum of all bits from numbers 1 to n. 
+ Bar raiser
+1) About work experience,projects and current company
+2) To find the shortest sub-sequence with maximum sum.
+ Practice writing code on paper and take care of corner cases.
+ You won’t want interviewer to find faults in your code.
+

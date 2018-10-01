@@ -1,0 +1,55 @@
+Opera Solutions visited our college for full time Software Engineer profile. Selection process was consist of 6 rounds. Total 138 students were there for written round.
+ Round 1 ( Written Test ):
+It was a 1 hour pen paper round. It had 40 multiple choice questions from
+After First round 20 students were selected for F2F interview.
+ Round 2 ( Technical – 20 mins):
+Interviewer started with asking me about myself and my family background then he asked me about my preffered location for job , i told him Delhi NCR so he then asked me why Delhi NCR ? He had my written test answer sheet with him , i had left few Dbms question due to limited time in written test , he told me to solve them. Then he asked me about my area of interests ( Data Structures , OOPS , Operating System ) and he asked me , ” What do you mean by loosely coupled?” i explained it well , he was satisfied.
+Then he asked me , ” Do you have any question for me ?”. I asked him about work culture in opera solutions , what are the career opportunities and what technologies opera use.
+I was selected for next round.
+ Round 3 ( Technical – 1 hr 10 mins):
+This round was totally awesome , enjoyed it a lot ( 😀 ).
+In my resume i had mentioned about content writing on GeeksforGeeks. Interviewer was excited about my articles , he asked me to tell about my articles published on GeeksforGeeks. He checked my all articles and appreciated me for it. After that he gave me 2 coding question and 1 system designing question to solve.
+1.) You are given a array and at each index you have to store multiplication of all element except that element on index , you can not use any kind of division method ? ( Product Array Puzzle )
+I explained him O(n) approach.
+2.) You are given a unsorted array and you have to find 4 elements such that they hold a^3 + b^3 = c^3 + d^3 property ?
+First i explained him worst O(n^4) approach , he asked me to optimized it then i explained him O(n^2) approach using hashing , he was completely satisfied.
+3.) He gave me a scenario and asked me to design a system for it , it was about 40 mins discussion.
+He said , ” There are some islands initially they are not connected with each other. Now if i give a query like Build(A,B) this means that you have to make a bridge from island A to island B. First , i will give you multiple queries to build bridges then if i give you query like Bridge(A,B) then you have to tell the newest bridge among all the paths from A to B ? “.
+It was a graph based problem so i explained him DFS approach for this problem , he was satisfied with my approach . Further he added some more questions in it , i explained those as well.
+He asked me do you have any question for me ? In PPT they told us about one of the product opera working for ,so i asked him about the algorithm used for that product.He explained me core part of that product.
+ Round 4 ( Technical – 1 hr 15 mins):
+Interviewer asked me about myself and about my strengths. Then he asked me about my project. My project was basically an android chat application , i explained him my complete project and he asked me that how my chat application is different from others ? i had used socket programming in my project soo he asked some networking based questions also.
+1.) Explain OSI model ?
+2.) How socket programming works , it’s phases ?
+3.) How we handle multiple clients in chat application ?
+4.) How whatsapp works ?
+5.) Egg Dropping puzzle.
+6.) He drawn a weighted graph on paper and asked me to explain TSP ( travelling Salesman Problem ) for given graph and write algorithm for it ?
+7.) He explained me about Big Bazar shopping and told me to create all necessary tables to maintain database and write a query for given statement , ” You have to give 1 perfume free to all the customers who have purchased atleast 5 beauty products since last 1 month. List out all such customers”.
+This big bazaar scenario question took time but finally i made it , he was happy with it . 🙂
+After 4th round there were only 4 students in next technical round.
+ Round 5 ( Technical – 20 mins):
+Interviewer started with my project and asked it’s features.then he asked ,
+1.) How sockets are created ?
+2.) What is use of server in Whatsapp chatting ?
+3.) What are your strong and weak subjects ?
+4.) What is abstract class and give real life example ?
+5.) What is difference between Binary search tree and Ternary search tree , their complexity analysis ?
+6.) Write a query to find 3rd lowest salary ?
+7.) He gave me 1 quantitative aptitude question to solve.
+I had answered all the questions. After 5th round 3 students were selected for H.R round.
+ Round 6 ( H.R round – 15 mins):
+1.) Tell me about yourself ?
+2.) What your father and mother do ?
+3.) how many siblings do yo have and what they are doing ?
+4.) Why you choose M.C.A ?
+5.) Why you want to join opera solutions ?
+After H.R round all 3 student were selected for Full time Role and i am very glad that i am one of them . 🙂
+It was fantastic experience , it was first interview of my life , in first round i was little bit nervous but after that i was enjoying each and every bit of my interview with full confidence.
+ Tips : 
+1.) Questions asked will be very easy at most of the times. Whatever be the question you were asked just take your time, share your approaches with your interviewers.They will certainly help you out.
+2.) Be confident,calm and composed.
+3.) Be original , don’t try to be fake.
+4.) Enjoy your moment.
+5.) Work hard and study smart.
+All the best 🙂

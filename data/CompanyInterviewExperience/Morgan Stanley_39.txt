@@ -1,0 +1,32 @@
+ Multiple Choice Questions Questions ranging from give the output of following C program to some theoretical concepts of OS etc. 
+Coding
+1. Give maximum subarray product in a given input array which can contain integers (including negative and zero).
+2. Given a set of n coins of some denominations (may be repeating, in random order), and a number k. A game is being played by a single player in following manner: Player can choose to pick 0 to k coins contiguously but will have to leave one next coin from picking. In this manner give the highest sum of coins he/she can collect.
+3. A file of encoded message contains only numbers. Original message contains only lowercase letters and spaces. So character ‘a’ is mapped to 1 ‘b’ to 2 and so on till ‘z’ is mapped to 26. Given an input of numbers find out the number of ways you can decode it in original message. Eg. 123 can be decoded in 3 ways as ‘abc’, ‘lc’ or ‘aw’
+Technical Round I
+Description of projects. Seeing Java projects in my profile they continued to ask my questions from Java. Given a string of characters how will you print each word in reverse order. Eg. “Information Technology” you have to print “noitamrofnI ygolonhceT”. Interviewers were very supportive and will guide you in the process.
+Then explain how Hashmap data structure is implemented and code it. What is hashing and it’s benefits. Suppose a class is defined as follows: 
+How will you make the class immutable. Please pay attention to the List it is important.
+Then asked me about what is AJAX. 
+After this round 11 people were shortlisted
+Group Activity
+We were divided in four teams and were given LEGO blocks. We were asked to build a model of product which address high volume of clients and ensure it has following characteristics:
+1. Strength
+2. Sustainability
+3. Aesthetic value.
+4. < I forgot this one >
+Time limit 40 minutes.
+After about 10 minutes we were asked to merge with  another team. Then we had to make model together. After that we had to present what we made in front of whole panel.
+I just want to make a remark on this round: Guys do not pay attention is actually building anything. Process of how you come up with idea, interact with others, how much you push your idea and can you accept your mistake is important. It was a very nice experience. 
+PLEASE NOTE: UNLIKE GROUP DISCUSSION THIS IS A CONSTRUCTIVE EXERCISE. Work together and be creative.
+Technical Round II
+Design a Parking Management System. 
+A puzzle: two dice are given. each has six face. Change the numbering on one dice only so that the probability of occurrence of sum (of the numbers appearing in a throw of two dice) from 1 to 12, are all equal. So normally probability of occurrence of sum 2 is 1/36, of sum 3 is 2/36 etc. You have to change numbering in such a way that probability of sum 1 = P(2)=….=P(12).
+HR Round
+I liked this round because it was very calm and went very smoothly. 
+They asked me to walk them through the resume. Good experiences of my last job which will be with me throughout my life. Some things you wish previous company could have improved on. Good and bad things of my experience in current college. What made me to go for higher studies and at last why Morgan Stanley.
+Then they asked if I had any questions: I asked: are formals necessary? 🙂 
+One interviewer explained very nicely how the company works for banks and the structure. He said company is very informal in field of technology but very formal in terms of attire. Other interviewer said Every fourth Friday of month you can wear casual if you want. 🙂 
+I had a great experience interviewing with Morgan Stanley and wish best of luck for my fellow geeks. 
+
+

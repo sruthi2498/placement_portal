@@ -1,0 +1,9 @@
+Given an array of list of commands U(Up), D(Down), L(Left) and R(Right) and initial cell position (x, y) in a matrix. Find the final cell position of the object in the matrix after following the given commands. It is assumed that the final required cell position exists in the matrix.  
+Examples:
+Source: Flipkart Interview (SDE-1 On Campus).
+Approach: Following are the steps:
+The final cell position is (final_x, final_y)
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n), where  is the number of commands.

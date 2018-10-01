@@ -1,0 +1,18 @@
+Given a number n, the task is to find the nth Icosagonal number.
+An Icosagonal number is the 20-gon is a twenty-sided polygon. The number derived from the figurative class. There are different pattern series number in this number. The dots are countable, arrange in a specific way of position and create a diagram. All the dots have a common dots points, all others dots are connected to this points and except this common point the dots connected to their i-th dots with their respective successive layer.
+Examples :
+
+Input : 3
+Output :57
+Input :8
+Output :512
+
+
+Formula for nth icosagonal number:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference: https://en.wikipedia.org/wiki/Polygonal_number

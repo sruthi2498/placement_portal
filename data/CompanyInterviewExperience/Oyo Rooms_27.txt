@@ -1,0 +1,27 @@
+Round 1 : Written
+1. Given a string like “xyzonexyzthreeabrdcminusfourctgd”. Fetch each number from string and return the sum of all numbers.
+output of given string will be 1 + 3 + (-4) = 0
+2. Given some random numbers 2,5,9,6,3,4,8,15,12. Replace each number by its next bigger number from right side of current index. if no bigger number found print that number itself.
+Output of given array will be 3,6,12,8,4,8,12,15,12
+Round 2 : F2F Interview (Coding)
+1. A 2d matrix is consists of either 1s or 0s. each connected 1s group will form a island. Return the biggest island from matrix with and without using recursion.
+Ref : https://www.geeksforgeeks.org/find-number-of-islands/
+2. Print a singly linked list from start and end one by one.
+Ex- 1->2->3->4->5->6
+Output : 1,6,2,5,3,4
+3. Brief about indexes of RDMS and how B+ tree implement those.
+4. Improvised version of hashmap. multiple cross questions over that.
+Round 3 : F2F Interview (Coding)
+1. Given a rod with multiple marks on it. Each mark will have different prices. prices are from left corner to that part. Return the maximum profit by cutting and selling the complete rod.
+Ref : https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/
+2. Print the left view of a binary tree with and without using queue.
+Ref : https://www.geeksforgeeks.org/print-left-view-binary-tree/
+3. What are microservies. If one service deploy independently with its another databases, how will you manage to sync data from one app db to another app db.
+4. Discussions over networking mainly TCP and UDP.
+Round 4 : F2F Interview (CTO)
+1. Brief about yourself. A lot of discussion over past experiences, technology stacks, roles and responsibilities etc. Cross questions every time.
+2. Design an elevator system and write algo for two functions “nextFloor()” and “getDirections()”.
+3. What are the initiatives you have taken earlier and project related to hackathon participation.
+Round 5 : F2F Interview (Program Manager)
+1. Design a petrol pump management system. start through low level design and then high level design like scale the project at india level and all country’s petrol pumps are using this system. Tracking of each vehicle required.
+2. some core java concepts over enum, threads, collections.

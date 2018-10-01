@@ -1,0 +1,14 @@
+We have already discussed the rotation of a point P about the origin in the Set 1 and Set 2. The rotation of point P about origin with an angle θ in the anti-clockwise direction is given as under:
+Rotation of P about point Q
+Now, we have to rotate the point P not about origin but about a general point Q. This can be easily understood by the method of translation which is quite a common technique adopted in geometric analysis.
+What is Translation?
+In Euclidean geometry, translation is a geometric transformation that moves every point of a figure or a space by the same amount in a given direction.
+How to Perform Translation?
+Translation can also be interpreted as the addition of a constant vector to every point, or as shifting the origin of the coordinate system.
+After the translation, required computations are made and the translation is nullified by subtracting the constant vector to every point or shifting the origin back.
+
+So, for rotating P about Q, we shift the origin at Q i.e. we subtract the vector equivalent of Q from every point of the coordinate plane. Now the new point P – Q has to be rotated about the origin and then translation has to be nullified.
+These steps can be described as under:
+Thus, 
+Run on IDE
+Output:

@@ -1,0 +1,12 @@
+Given an array that contains both positive and negative integers, find the product of the maximum product subarray. Expected Time complexity is O(n) and only O(1) extra space can be used.
+Examples:
+The following solution assumes that the given input array always has a positive output.  The solution works for all cases mentioned above.  It doesn’t work for arrays like {0, 0, -20, 0}, {0, 0, 0}.. etc.  The solution can be easily modified to handle this case.
+It is similar to Largest Sum Contiguous Subarray problem.  The only thing to note here is, maximum product can also be obtained by minimum (negative) product ending with the previous element multiplied by this element.  For example, in array {12, 2, -3, -5, -6, -2}, when we are at element -2, the maximum product is multiplication of, minimum product ending with -6 and -2.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Time Complexity: O(n)
+Auxiliary Space: O(1)

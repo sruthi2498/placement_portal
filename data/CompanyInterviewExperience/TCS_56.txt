@@ -1,0 +1,22 @@
+Hello guys! I have been waiting for this time more than a year to post my TCS experience. Here I’m going to explain first four rounds of TCS drive which consists of 4 rounds.
+1. Verbal ability ( Email writing with minimum of 50 words in 10 mins).
+2. Quants (18 normal questions and 2 start Mark questions (19,20)to be solved in 40 mins).
+3. C MCQ (8+2* Q in 20 mins).
+4. Coding round (1Q in 20 mins).
+Just follow my tips. You can crack first four rounds easily.
+1. Verbal ability:
+Email will be corrected by system. So it is not mandatory to write professional mail. Just use all the phrases given there without changing the tenses and write a mail with 70-75 words. I wrote 76 words. Max 100. More than 100 words will results in negative marks. Even though if you don’t know the meaning of the phrases, just write it and add in the sentence. Use full stops and punctuations in correct places. Save your mail when there is one minute left for the completion of the round. That’s it about Email.
+2. Quants:
+One of my favorite rounds. But it is one of the toughest of all the companies. Before 5 days of TCS drive, we were trained by FACE team. Out of 20 questions nearly 15 questions were repeated.
+Don’t try to attempt the questions which you don’t know and star Mark questions first. First try for the questions which you know. Later proceed to the things which you want. But make sure that you have crossed at least 60%. Indiabix and R.S Agarwal is 200% enough for any company written test. I have attempted 15 questions with no star questions. I forgot to tell you that there is negative making also. Keep in mind that. That’s it about the Quants.
+3.C Mcqs:
+For our slot, this is the toughest part of all the rounds. Not even one single direct question was not given. I was completely shocked on seeing those questions. But it’ll happen sometimes. We need to bare that right. But follow indiabix and geeksforgeeks, like this there are so many websites which more than enough for this round. Keep in mind that, don’t try to guess the answer in C. If you guess, there is more probability for that to be wrong then to be right. I hope you got it what I mean.
+That’s it about the C MCQ round.
+4. Coding round:
+My favorite round out of all 4 and I love this round but I’ll tell you what happened to me during this round at last. Coding question for our slot is as follows.
+Take one string from user using scanf which is more than or equal to 5 characters and less than or equal to 20. Print first two and last two chars. But in our college before slot got coding question as removing of vowels from a string. It means questions will change from one slot to another slot. Frustrated thing for the answer is, it should pass 4 test cases out of which one will be shown and remaining 3 were not shown. We need to identify them and answer accordingly.
+First write code and then compile. If the compilation is Successful then submit the code then only it shows about the test cases else it is not. After all the test cases are passed them save and submit the session. That’s it. Now I’ll tell the things which you don’t have to do. Don’t use exit (0) in program because it shows compile error. For me this happened. When I came to know that we don’t need to write exit(0), I was left with 1 min. I corrected the code and made some changes and finally I got the message as successful. But by that time there is no time left. To compile it’ll take exactly 20 secs. I have compiled it nearly 6 times with exit (0). So 6*20 = 2 mins gone. Don’t repeat the mistakes what I have done. So I don’t know how many test cases have passed.
+Results came, I was not selected, hope my experience will helpful for you how not to do mistakes.
+Finally one thing:
+life gives Many opportunities it out of which TCS is one. But I could not utilize it properly. Let’s see what happens. Success may delayed but not denied. From successful stories you may know about how not to be unsuccessful.
+Thanks for your patience to read this.

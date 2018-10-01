@@ -1,0 +1,14 @@
+Given an array of n elements and an integer m. The task is to find the maximum value of the sum of its subarray modulo m i.e find the sum of each subarray mod m and print the maximum value of this modulo operation.
+Examples:
+
+Method 1 (Brute Force):
+Use brute force to find all the subarrays of the given array and find sum of each subarray mod m and keep track of maximum.
+Method 2 (efficient approach):
+The idea is to compute prefix sum of array.  We find maximum sum ending with every index and finally return overall maximum. To find maximum sum ending at index at index, we need to find the starting point of maximum sum ending with i. Below steps explain how to find the starting point.
+We mainly have two operations in above algorithm.
+For above operations, a self-balancing-binary-search-trees like AVL Tree, Red-Black Tree, etc are best suited. In below implementation we use set in STL which implements a self-balancing-binary-search-tree.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:
+Reference: 
+http://stackoverflow.com/questions/31113993/maximum-subarray-sum-modulo-m

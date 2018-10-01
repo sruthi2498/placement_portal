@@ -1,0 +1,43 @@
+Given a number N. The task is to write a program to find the N-th term in the below series:
+a, b, b, c, c, c, d, d, d, d, …..
+Examples:
+The idea is to use AP sum formula to find the solution to this problem. Clearly the series is depicted as 1a, 2b’s, 3c’s, 4d’s, 5e’s and so on. Thus making it an AP.
+Now we can use the AP sum formula:
+Which in this case becomes sum = (n(n+1))/2( since a = 1 and d = 1 ) where ‘sum’ here is the Nth term given.
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+# Python 3 program to find nth
+# term of the given series
+import math
+# Function to find nth term
+# of the given series
+def findNthTerm(n):
+	# Let us find roots of
+	# equation x * (x + 1)/2 = n
+	n = n * 2
+	a = 1
+	b = 1
+	c = -1 * n
+	d = b * b – 4 * a * c
+	sqrt_val = math.sqrt(abs(d))
+	x1 = (-b + sqrt_val) // (2 * a)
+	x2 = (-b – sqrt_val) // (2 * a)
+	x1 = int(x1)
+	x2 = int(x2)
+	# ASCII of ‘a’ is 97
+	if (x1 >= 1):
+		print(chr(97+x1))
+	elif (x2 >= 1):
+		print(chr(97+x2))
+# Driver Code
+if __name__ == “__main__”:
+	n = 12
+	findNthTerm(n)
+	n = 288
+	findNthTerm(n)
+# This code is contributed
+# by ChitraNayal
+Run on IDE
+Run on IDE

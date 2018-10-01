@@ -1,0 +1,34 @@
+DrishtiSoft came to our college. Here is my interview experience. There were total 5 rounds.
+Round 1 (3 hours):
+    	section 1:
+        		30 Aptitude questions.
+    	section 2:
+        		2 coding problems:
+            			1.Given mathematical expression in form of string.Evaluate this expression.
+            			2. given five types of mirror having some reflecting edges and are placed in n*m matrix and a direction from which light can incident on the matrix. you have to find the total cells which will be in the dark.(hint: use dfs in all the directions).
+        		1 debugging problem:
+            			min cash flow problem from geeksforgeeks.
+        		1 designing problem:
+            			we were given a functionality to implement and some functions were already implemented. we have to read the code and to complete the
+            			2 functions.(problem at the first sight seems to be hard but give it a try as it was the simple one).
+    	out of 190   21 were selected.
+Round 2 (1 hour) :
+    	It was debugging round. we have to debug the rat maze problem of geeksforgeeks.
+    	out of 21   13 were selected.
+Round 3 (5 hour):
+    	It was a Designing round.
+    	In this they had made a server which manipulates the conversation between the sender and the receiver. we have to make the code which can fix
+    	this bug but we cant change anything in the server.
+    	after fixing the bug we were asked about the networking concepts which can be applied to this problem.
+    	out of 13   6 were selected.
+Round 4 (2 hour):
+    	First they started the discussion about OS. all the concepts related to process synchronization, critical section problem. Asked to write
+    	the code about producer consumer problem. Concepts related to memory management .
+    	After this they started discussion related to my projects.(whether they know about the project or not they will come up with a question
+    	which you haven’t thought  while making your project so be well prepared with your project).
+    	out of 6   4 were selected.
+Round 5 (30 min):
+    	It was HR round. there was only general discussion and some standard HR questions.
+PS:If you want to clear Drishtisoft interview geeksforgeeks wont be enough as there were only two questions asked from this.It is programming
+	skills which can help you to sail through this. 🙂
+

@@ -1,0 +1,54 @@
+Telephonic: 
+    1. JD (Job Description)
+    2. What are storage classes (Explained all different kinds of storage classes)
+    2.1 Whats register
+    3. How static affects life and scope of a variable
+    3.1 why can’t we refer to a static variable from outside file as extern.
+    4. Difference between paging and segmentation
+    5. What is fragmentation, what is internal and external fragmentation
+    6. Steps of writing a code to executing it as a program (Detailed steps like lexical symantic analysis, pre-processing, intermediate code generation, linking, loading)
+    6.1. How to distinguish when to use static bindings and dynamic bindings.
+    7. Details about pre-processing
+    7.1 What happens when we write #include  after pre-processing. Details
+    7.2 Difference between #include  and #include “stdio.h”
+    8. What happens to a program having system-calls (Context switching, needed to explain in detail)
+    9. Deadlock, deadlock avoidence
+    10. Trashing
+    11. Some very simple algo questions like find intersection point of two linked lists, Address of node is given to be X, how to delete X
+    12. Different kinds of scheduling algorithms
+    13. When stack overflow happens.
+    14. Inheritence
+    14.1 What is the difference between runtime polymorphism and compile time polymorphism
+    14.2 How compiler internally achieves runtime polymorphysm
+    14.3 How is the entry stored in VTable
+    15. Explain the structure of Inode table.
+Face to face Interviews:
+They are all two on one interviews
+Round 1:
+1. Job Description
+2. What is BST, How can we know if a tree is BST or not. Provided 2-3 solutions. One Simple inorder traversal, limiting case occured. Then NextMax, nextMin for every element. Asked to optimize, was not able to do it.
+2. Given a paragraph, print all anagrams together. Solution, Modify DS as: 
+Sort the paragraph on the basis of sorted word, we’ll get all anagrams together.
+3. DBMS, Said no but Interviewer insisted to tell about ACID property. Asked to write code to ensure atomicity.
+4. Just a bit about authentication
+5. Structure of an Inode table entry
+6. Linux command to know unique words in a File
+7. Implement priority queue, write code. [Implemented using array]
+8. Find nth maximum element in a BST. Modified Inorder traversal LPR (Left, parent, right) to RPL. Write a working code.
+9. What are clustered and unclustured DB
+Round 2:
+1. Job description with used cases.
+2. Operator overloading with used cases.
+3. Design a structure to address employees in an organization. Used Runtime polymorphism concepts to design classes.
+4. https://www.geeksforgeeks.org/the-stock-span-problem/ Reached halfway but was not able to complete the solution.
+5. Find minimum in stack at any point of time.
+Some small questions.. I can’t recall. Contrary to the feedback I got from people, they were very
+HR Round:
+1. Tell me something about yourself which I cannot get from CV
+2. Tell me some interesting things about college
+3. How do you like Hyderabad
+4. Why do you want to switch job when after conversation I think you are having a great time in Samsung
+5. You have any idea what we work on.
+6. Why so much code? [I mentioned codechef, topcoder and github in my CV]
+7. What are the best and worst moments of your college.
+

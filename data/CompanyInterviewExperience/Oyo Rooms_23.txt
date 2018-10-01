@@ -1,0 +1,46 @@
+There was 1 coding round and 3 rounds of face to face interview.
+Online round consisted of 2 coding questions of 120 marks and 15 MCQ of total 30 marks.
+1. http://codeforces.com/contest/746/problem/B 
+String Decoding.
+2. Given a matrix. Empty cells are represented by ‘.’, cells which are occupied are represented by ‘B’. Given two cells ‘S’ and ‘D’, find the minimum distance required from S to D.
+..S…
+..BB..
+..B…
+.D….
+initialise dis[m][n] as infinite.
+This is a simple BFS question.
+this que is not a dp question :p as we can move in all 4 directions .You can use bfs and each time update corresponding distance in tht cell i,j if i,j is a valid move and dis[i][j]>curr dist then dis[i][j] =curr and curr++;
+15 aptitude questions were from c language ,OS ,DBMS , OOPS . geekforgeeks is best for these aptitude questions.
+35 students were shortlisted for further round.
+Now there were 3 round of interviews but some students had 2.
+If u have a good online coding test score it leaves a good impression on interviewers 
+This round lasted about 35 minutes. The interviewer asked me some basic DS questions( ques from interview bit ) 
+Started with tell me something about yourself.
+1.Given a linked list having two pointers in each node. The first one points to the next node of the list, however the other pointer is random and can point to any node of the list. Write a program that clones the given list in O(1) space, i.e., without any extra space.
+Refer –https://www.geeksforgeeks.org/clone-linked-list-next-random-pointer-o1-space/
+also asked to do it without modifying list (Hint – Use Maps) 
+Was asked to code on paper covering all edge test cases.
+2. Let 1 represent ‘A’, 2 represents ‘B’, etc. Given a digit sequence, count the number of possible decodings of the given digit sequence.
+Refer – https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+Only approach was discussed.
+Round 2
+Tell me something about yourself.
+1. Pattern find in a string. 
+i gave him the naive solution. asked to optimize it. gave him rabin karp solution.asked to implement a good hash function to avoid collision. he was satisfied with my ans.
+2 Some question related to Trie. Only approach was discussed.
+3 project Discussion
+4 how to play 8 gb game with 4gb ram? (basic Paging)
+5 difference between threads and process.
+6 was asked weather a tabs in browser are threads or process.(hint- Exception for chrome)
+7 Median of running stream of Integers.
+Refer- https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/
+only approach was discussed
+Round 3
+Tell me something about yourself.
+Populate next right pointers
+Refer – https://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/ 
+Full working code was expected covering all test cases.
+I made some silly mistakes but the interviewer was really helpful. with some optimization i completed the code.
+We had no hr round :p (thank god )
+5 got selected after the third round.
+Final Tip : when its your day to get selected . no one can stop u .

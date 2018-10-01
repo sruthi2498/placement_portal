@@ -1,0 +1,13 @@
+Given a program that uses an iterator, the task is to find the type of iterator used.
+Examples:
+
+Input : vector.begin()
+Output : Random_Access Iterator
+Input : list.begin()
+Output : Bidirectional Iterator
+
+There are namely five types of iterators present in the C++ Standard Library which are mentioned below:
+
+Approach:
+Run on IDE
+Time-Complexity: O(1) to find the iterator type

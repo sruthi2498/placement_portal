@@ -1,0 +1,28 @@
+Samsung R&D, Bangalore(SRIB) recently visited Thapar Institute of Engineering & Technology for the role of Software Engineer Developer. Initial criteria was minimum CGPA of 7.5. Around 350 students satisfied this criteria and were shortlisted for online round.
+Round 1  |  (Online Test) -: It was 3 hour long test in which only 1 coding question need to be solved.Samsung uses its own desktop application as judge and co-cubes people were invigilating the process.The question was
+https://www.geeksforgeeks.org/bipartite-graph/
+Remember you need to pass each and every test case . Even if you miss single test case, you won’t be shortlisted.Your test must pass all 50/50 test cases .You can only use C++, C and Java in online test and no STL libraries are allowed.You need to implement everything from scratch.Finally 44 students were shortlisted from online test and qualified for interviews.
+Tips-:
+Round 2 | (Face to Face Interview – 1)-:  Interviewer gave brief introduction of himself and asked me to introduce briefly.After that he gave me some sheets of paper and started giving question to me.The question was https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/.He asked me to assume that that retrieval are more frequent than updates . I gave brute force approach initially.He insisted me to optimize it further.After some brainstorming I gave another approach using prefix sum array.He seemed quite satisfied . Since I was not familiar with segment trees, I didn’t tried to gave that apporach though I already knew that, It could be optimized using segment tree.After this, He asked to do the same but with assumption that now updates are more frequent as compared to retrieval. I initially tried to modify mine previously given solution initially, but he insisted to optimize it further and gave a hint to do optimization using some data structure. I without wasting much time gave approach of Balanced BST | AVL or RBT. He seemed quite satisfied with mine approach and asked me to code everything on paper (He gave me 2 additional sheets).I requested him that RBT and AVL involves rotations and It would take some time to write complete code, so allow me to use STL. He said fair enoungh lets move further.He asked me to design an API to which he will throw a 2d Matrix and some mode.Mode specifies rotation 1-> 90deg  2-> 180deg  3->270deg (All anticlockwise).
+https://www.geeksforgeeks.org/rotate-matrix-90-degree-without-using-extra-space-set-2/
+https://www.geeksforgeeks.org/rotate-matrix-180-degree/
+I gave all in-place approaches . He seemed satisfied and asked me to code. I wrote clean, crisp and efficient code on paper.
+He then quickly moved to OS.He asked me to differentiate between mutex and semaphore.
+https://www.geeksforgeeks.org/mutex-vs-semaphore/
+After this he moved on mine resume and asked me to explain project in which I was most comfortable with.I explained the project .He requested me to explain only mine role and all algorithms briefly which used, why i choose this project, all machine learning involved and finally he asked me to explain SVM in detail. This discussion lasted for almost 25mins but he seems satisfied. He then asked me If I have any questions. I answered that I have actually many questions for him.I asked him about work culture, future Samsung products, Korean culture in office, food etc.After giving some explaination, he requested that he can’t give complete details since its is confidential matter.Then interview ended and I was asked to wait outside.
+Some Tips-:
+Round 3 | (Face to Face Interview – 2)
+After round 2, I was asked to gave one more technical interview.This time the interviewer was director of some vertical in SRIB . He looked very serious and was not giving any expressions(Not even passing smile). He asked me from where I was.Then discussion moved to mine hometown Amritsar. He then asked me that what all I liked about it. I told him everything from Punjabi food, Durgiana Temple, Golden Temple, Wagah Border everything.He seemed to be interested and asked exact distance of Amritsar from patiala. He also inquired about modes of transportation I commonly took.After that he gave me few sheets and started giving me a question .The question was
+ 
+Round 3 | (HR) -: 
+This round was taken in groups of 3 and was more of formality than elimination.
+Common HR questions like-:
+He then answered all the questions and told us to wait and that he will announce the results in the evening.
+ 
+I was fortunate enough to be offered (Full Time+Internship) at Samsung R&D Bangalore(SIRB).I would like to thank geeks for geeks which helped me a lot in  interview preparation.
+This article is contributed by Abhishek Handa.
+Feel free to ask any other questions
+Website-:     https://abhishekhandacse.github.io
+LinkedIN-:  https://www.linkedin.com/in/abhishekhandacse/
+GitHub-:      https://github.com/abhishekhandacse
+ 

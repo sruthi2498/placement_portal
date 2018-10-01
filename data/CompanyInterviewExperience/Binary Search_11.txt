@@ -1,0 +1,23 @@
+Binary search is very easy right? Well, binary search can become complex when element duplication occurs in the sorted list of values. It’s not always the “contains or not” we search using Binary Search, but there are 5 variants such as below:
+1) Contains (True or False)
+2) Index of first occurrence of a key
+3) Index of last occurrence of a key
+4) Index of least element greater than key
+5) Index of greatest element less than key
+Each of these searches, while the base logic remains same, have a minor variation in implementation and competitive coders should be aware of them. You might have seen other approaches such as this for finding first and last occurrence, where you compare adjacent element also for checking of first/last element is reached.
+From a complexity perspective, it may look like an O(log n) algorithm, but it doesn’t work when the comparisons itself are expensive. A problem to prove this point is linked at the end of this post, feel free to try it out.
+Variant 1: Contains key (True or False)
+
+Variant 2: First occurrence of key (index of array). This is similar to
+Run on IDE
+
+Variant 3: Last occurrence of key (index of array)
+
+Variant 4: index(first occurrence) of least integer greater than key.  This is similar to
+Run on IDE
+
+Variant 5: index(first occurrence) of greatest integer lesser than key
+As you will see below, if you observe the clear difference between the implementations you will see that same logic is used to find different variants of binary search.
+Run on IDE
+Here is the problem I have mentioned at the beginning of the post: KCOMPRES problem in Codechef. Do try it out and feel free post your queries here.
+More Binary Search Practice Problems

@@ -1,0 +1,15 @@
+Given an undirected, connected and weighted graph, find Minimum Spanning Tree (MST) of the graph using Kruskal’s algorithm.
+We have discussed below Kruskal’s MST implementations.
+Greedy Algorithms | Set 2 (Kruskal’s Minimum Spanning Tree Algorithm)
+Below are the steps for finding MST using Kruskal’s algorithm
+Here are some key points which will be useful for us in implementing the Kruskal’s algorithm using STL.
+Here in the outer pair (i.e pair<int,pair<int,int> > ) the first element corresponds to the cost of a edge while the second element is itself a pair, and it contains two vertices of edge.
+Pseudo Code: 
+Below is C++ implementation of above algorithm.
+Run on IDE
+Output :
+Optimization:
+The above code can be optimized to stop the main loop of Kruskal when number of selected edges become V-1. We know that MST has V-1 edges and there is no point iterating after V-1 edges are selected. We have not added this optimization to keep code simple.
+References:
+Introduction to Algorithms by Cormen Leiserson Rivest and Stein(CLRS) 3
+Time complexity and step by step illustration are discussed in previous post on Kruskal’s algorithm.

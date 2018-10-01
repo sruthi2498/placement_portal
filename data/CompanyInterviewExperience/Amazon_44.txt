@@ -1,0 +1,34 @@
+Given an array of n integers(duplicates allowed). Print “Yes” if it is a set of contiguous integers else print “No”.
+Examples:
+Source: Amazon interview Experience | Set 416.
+
+We have discussed different solutions for distinct elements in below post.
+Check if array elements are consecutive
+A simple solution  is to first sort the array. Then traverse the array to check if all consecutive elements differ at most by one.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n Log n)
+Efficient solution using visited array
+1) Find minimum and maximum elements.
+2) Create a visited array of size max – min + 1. Initialize this array as false.
+3) Traverse the given array and mark visited[arr[i] – min] as true for every element arr[i].
+4) Traverse visited array and return true if all values are true. Else return false.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Efficient solution using hash table
+Insert all the elements in the hash table. Now pick the first element and keep on incrementing in its value by 1 till you find a value not present in the hash table. Again pick the first element and keep on decrementing in its value by 1 till you find a value not present in the hash table. Get the count of elements (obtained by this process) which are present in the hash table. If the count equals hash size print “Yes” else “No”.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n).
+Auxiliary Space: O(n).
+This method requires only one traversal of given array. It traverses hash table after array traversal (hash table contains only distinct elements).

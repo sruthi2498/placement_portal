@@ -1,0 +1,12 @@
+Written round :
+We all were required to write a code for LRU implementation with proper Locks and synchronization so as it is thread safe.
+Round1:-
+1. Interviewer had a look at my CV for about 10 minutes and asked lot of questions of my work in current job.
+2. Then a coding question that “Given a cartesian x-y plane and lot of points in that plane with x and y coordinates and 1 more point(say x,y) is given, so we have to find all the points in that plane which are lying in a radius of length r from point (x,y)”
+3. Questions on Java :- Why synchronised block needed? and some more questions on Multithreading in Java. 
+Round2:-
+1. Some DB queries to write for the tables provided by interviewer
+2. Implement Inorder Traversal with and without using recursion.
+3. How does Stack work internally and what data it holds?
+
+

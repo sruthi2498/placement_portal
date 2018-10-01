@@ -1,0 +1,10 @@
+Given two positive integer n and n. The task is to find the number of arrays of size n that can be formed such that : 
+Examples:
+
+We try to find number of possible values at each index of the array. First, at index 0 all values are possible from 1 to m. Now observe for each index, we can reach either to its multiple or its factor. So, precompute that and store it for all the elements. Hence for each position i, ending with integer x, we can go to next position i + 1, with the array ending in integer with multiple of x or factor of x. Also, multiple of x or factor of x must be less than m.
+So, we define an 2D array dp[i][j], which is number of possible array (divisible adjacent element) of size i with j as its first index element. 
+Below is the C++ implementation of this approach:
+Run on IDE
+Output:
+Time Complexity: O(N*M).
+

@@ -1,0 +1,12 @@
+1st Round: (2 Hours maximum 1+1)
+There were two individual sections with 30 MCQs each(single choice), no negative marking. One section was based on aptitude, and the other purely on C++ questions, no choice in language was provided here. The C++ questions included questions from templates, strings, inheritance and other OOPS concepts output etc.
+We were given a maximum of 1 hour for each section. I didn’t take up too much time in either section, and overall took around 1 hour 15 minutes or so.
+2nd Round:(F2F PI Technical)
+The interviewer was very helpful and created a rapport with me. He asked some general questions about me, and my language preferences and I said something about python and how it was so easy to find libraries and modules and just import them, so he asked me what a library was and how to make your own library in C/C++, can you make a library with same name as an existing library. Then he started asking about what memory considerations you should make while creating a program, so I told him about stack overflow and heap overflow possibilities and how virtual memory also has a limited address space.
+He asked me the torch bridge problem, where there are 4 people and a maximum of 2 can cross the bridge at a time, and one must always hold the torch as it is dark, the time each one takes is 1,2,5,8 minutes and you have to calculate the minimum time it will take for all of them to cross.
+He asked some questions regarding paging and then moved on to ask about compile time and run time errors. After that he asked me to make a code to sort a set of 5 numbers, considering that there were only 5 numbers, I made a simple bubble sort code. He then asked me to add something which will cause a runtime exception, and asked about methods in which the code could be made more generic (use variable n instead 5 as size, consider more data types etc.)
+Finally he discussed a bit about my projects and had some more friendly conversation.
+3rd Round(F2F HR):
+There were 2 people in the panel.
+Here the questions were a bit more direct, they asked 4 things:
+The overall experience was nice, I was given a job offer in the evening. They selected a total of 3 people.

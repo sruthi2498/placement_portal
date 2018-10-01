@@ -1,0 +1,27 @@
+1st Round(Written Test)
+   Consists of three sections with each section 1 hour to solve. Hence the written round was for 3 hours. I really liked the written round since it consists of everything  starting from writing code(LCA, GCD, Middle of Linked list), Number conversion, Reduction of Boolean functions, Prefix to Infix Expression and evaluation of expression algorithm and finally aptitude.
+The written round consists of more or less everything one could imagine and it is far better than other companies like Amazon or Microsoft. But of course, Adobe does repeat questions .
+
+Adobe’s Interview Process was very good since in this month, I had given interviews of Amazon, Samsung, GoldMan Sachs and Fab which I have already shared with GeeksForGeeks. What I Like about their interview was their way of perception, they were judging people based on thoughts and not just bookish answer. In fact, one of the interviewer was rejecting people if you give a book answer.
+2nd Round(Technical Round)
+    a)      Heavy discussion on Merge Sort, Amortized Analysis of Heap Sort – Made me solve recursion etc
+    b)      Made me write the complete code for dictionary of words(Trie data structure)
+3rd Round(With Director)
+This interview had only one question and it went on for atleast 1 hour. It was a OOPS Design question
+    a)      Serialize and deserialize the object in an optimized way( I gave him the idea of Spill overflow etc). I actually took a deep dive by optimizing in bit level) . After the algorithm, he made me design a library such that if there are 100 clients to my lib, it should be maintainable and flexible.
+It was a subjective answer but since I have 2 years of Work ex in C++. I did give him a nice design.
+4th Round(Tehnical)
+    a)      Design an LRU cache
+    b)      Write C program for tail command of Unix using dynamic behavior
+    c)       And then discussion started on my projects. It was again depth of C++ programming
+5th Round(Puzzles)
+    a)      Only puzzles were there in this round. And all the puzzles could be found on net
+6th Round(Technical)
+    a)      Implement a generic Object Oriented Stack
+        a.       Considering algorithm wise I explained him repeated doubling and linked list implementation.
+        b.      Design wise, templatized the answer with heavy use of virtual functions to make the code generic and maintainable over a period of 2 years. Debate on what should Pop return when we templatize it ?
+    b)      Reverse a string word by word in place without using the swap function. The string in not-editable. This question was tricky as he kept building the question with constraints. But  I really enjoyed it
+7th Round(HR)
+Finally after many interviews I got through Adobe. I did have offers from other companies but Adobe was paying well. I thank Amazon for rejecting me else I wouldn’t have even sat for Adobe 😛
+Run on IDE
+ 

@@ -1,0 +1,45 @@
+Written Round
+There was 2 coding questions conducted on cocubes platform
+Time limit- 40 mins
+1. Find the sum of all non- repeated elements in an array
+2. Find the maximum subarray sum such that no two elements are adjacent
+First technical Interview ( 1 hour):
+1. Tell me about Yourself
+2.  Which language are you comfortable with?
+3. Difference between C & C++
+4.  Difference between const char *p & char const *p?
+5. Why don’t we normally write i = i+1?
+6. Real Life implementation of C++
+7. Implement two stack in an array . Interviewer was confused about questions so he doesn’t ask about it
+8. Why main() is required ? will program compile if we don’t use main()?
+9. What is macro?  how is it different from Constants. What is enum? why do we use it  & what are the alternatives
+10. Asked some questions about projects
+11. What is API? We got into a detailed discussion about API’s.
+12. Suppose when user chooses OxygenWallet as an option for a payment Using BookmyShow
+what actually happens in backend. Explain whole process and consider all methods which could possibly happen during process (Hint – he was trying to get into API’s)
+13 .What is the next number ? (2,2,4,12,48,____)
+14. Puzzle – http://math.stackexchange.com/questions/5595/taking-seats-on-a-plane
+second Round (HR Round)
+It was simple chit chat with HR . General Questions about Tell me about you and your family, your academic background, your goal etc. What Salary are you expecting from the company?
+If we offer you salary less than expectation would you want to proceed further? (I said No :P)
+Would you like to do Summer internship in our organization (Stipend was ridiculously less than anyone can expect) and do you have any questions for me?
+This round went for 20 mins and HR was not kind of cool.
+Third Round (Telephonic Technical Interview)
+It was Final Round with the CTO of the company and we have to call CTO via our cell phones 😛
+1. Which Language do you prefer most?
+2.  What is Virtual Destructor in C++?
+3. What is Virtual Constructor in C++?
+4. What is Smart Pointers in C++?
+5. What is Copy constructor in C++ and write syntax to declare and to call it?
+6. Write syntax for Assignment for two objects in C++?
+7. What is Virtual Copy Constructor in C++?
+8.  What is Inline functions and is there any inline virtual functions how do they work?
+9. What do you mean by Implicit and Explicit (He wanted to know their hindi meaning)
+10. What is Operator Overloading and which operators can’t be overloaded in C++ & JAVA.
+11. What is B-Tree?
+12. What is B+Tree? And its uses. I told him about Indexing in database.
+13. Do you have any questions for me (I told him to ask me some coding questions which is my strong point so he asked couple of “coding” questions)
+14. Do you Volatile Keyword in JAVA ( I said No)
+15. Do you transient Keyword in JAVA (I said No & then He said Your interview is Over).
+However, I would like to thanks geeksforgeeks for providing me study material . ?
+

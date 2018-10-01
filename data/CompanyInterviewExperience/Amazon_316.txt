@@ -1,0 +1,20 @@
+Question: Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack.  All these operations of SpecialStack must be O(1). To implement SpecialStack, you should only use standard Stack data structure and no other data structure like arrays, list, .. etc.  
+Example:
+An approach that uses O(1) time and O(n) extra space is discussed here.
+In this article, a new approach is discussed that supports minimum with O(1) extra space. We define a variable minEle that stores the current minimum element in the stack.  Now the interesting part is, how to handle the case when minimum element is removed.  To handle this, we push “2x – minEle” into the stack instead of x so that previous minimum element can be retrieved using current minEle and its value stored in stack.  Below are detailed steps and explanation of working.
+Push(x) : Inserts x at the top of stack.
+Pop() :  Removes an element from top of stack.
+Important Points:
+Illustration
+Push(x)
+
+Pop()
+
+Run on IDE
+Run on IDE
+
+How does this approach work?
+When element to be inserted is less than minEle, we insert “2x – minEle”. The important thing to notes is, 2x – minEle will always be less than x (proved below), i.e., new minEle and while popping out this element we will see that something unusual has happened as the popped element is less than the minEle.  So we will be updating minEle.
+While popping out, if we find the element(y) less than the current minEle, we find the new minEle = 2*minEle – y.
+Exercise:
+Similar approach can be used to find the maximum element as well.  Implement a stack that supports getMax() in O(1) time and constant extra space.

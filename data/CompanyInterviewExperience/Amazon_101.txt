@@ -1,0 +1,20 @@
+Telephonic Round :
+1. Given a set of packages or jars, with dependencies over each other. Write code to provide ordering, in which these packages should be compiled.
+2. Given a number n, write code to count number of palindromes till n. For eg : If n is 10, number of possible palindromes are 11.
+3. Design a data structure to support insert, delete, search in o(1) time complexity.
+
+Round 1 :
+1. Design doctor appointment System.
+2. Given a piece of code in java, provide code review comments.
+
+Round 2 :
+1. Explain architecture of project in depth.
+2. Given a fully connected graph with n nodes and corresponding values. One node can interact with other node at a time, to replace/ignore/add its value to other node’s value. Assuming this operation takes 1 unit of time, how much time would it take for all the nodes to have value equal to sum of all the nodes.
+Examples : Given a graph with values {1,2,3,4}, find total time it takes, such that all nodes have value as 10.
+
+Round 3 :
+1. Given a sorted string, find number of occurrences of given character in string.
+2. Given a chessboard, find minimum number of moves for a knight to reach from source to destination.
+
+Round 4 :
+In depth discussion on all the projects mentioned in resume.   

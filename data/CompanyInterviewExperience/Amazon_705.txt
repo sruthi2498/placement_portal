@@ -1,0 +1,43 @@
+Amazon visited our campus on 16,17 and 18 Dec.
+WRITTEN ROUND(1.5 hrs)
+20 MCQ + 2 CODE
+MCQ- mainly Aptitude, C-output questions, OS- unix related and DBMS
+CODE-
+…1)	Binary complement of a number.
+…2)	Easy question related to bets
+42 out of around 200 students were shortlisted after this round..
+ROUND 1:
+Around 15 min discussion on my image processing project
+Finding an element in rotated sorted array..
+12 students were shortlisted after this round
+ROUND 2:
+1)	Convert postfix to infix in which the result must be having minimum number of braces i.e apply braces whenever necessary.
+2)	Given a binary tree print the sum of elements on same axis (for all axis).
+Elements on same axis are for e.g.: root, root->right->left, root->left->right
+3)	Design hash table with following operations you are given with a good hashing function..:
+insert() –O(1)
+find()-O(1)
+delete()-O(1)
+traverse()-O(n)..(where n is the number of elements in hash not the size of hash)
+4)	Given an array find a sub-array with sum=0
+5)
+Run on IDE
+out of these 2 which one will be better
+I was asked to write the complete code for all the questions.
+6 students were shortlisted after this round
+ROUND 3:
+1)	Given memory in the form of chunks if one process is reading any chunk, then any other process is not allowed to write but it can read, if write lock is on, then any other process is not allowed to read or write, now process can have lock on any number of chunks (continues) and other process requesting read or write can even request for memory that does not have the same starting address as the process who has locked the continues chunk memory.
+Now we have to design a DS for representing memory and then design isRead() and isWrite()which will return Boolean values true-if read/write can be performed vice versa.
+2)	Permutation of a string with and without repetition of characters.
+3)	Given an array of numbers if we start deleting numbers from end of array, then we have to tell the maximum element of the array after deletion in O(1).
+I was asked to code all the questions.
+4 students were shortlisted after this round.
+ROUND 4:
+1)	Around half hour discussion on my intern project which was with an e-commerce company.
+2)	Given a linked list with one extra arbit pointer we I was asked to make copy of linked list..
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+he asked me to write the full code for method 1 in the above link.
+In the end 3 students were hired and I was one of them.. 🙂
+I am very thankful to geeksforgeeks It really helped me a lot for my preparation. Keep up the good work guys  
+
+

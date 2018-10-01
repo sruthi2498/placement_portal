@@ -1,0 +1,46 @@
+SnapDeal visited to my campus recently. Below is my interview experience.
+Round 1(online)
+20-23 MCQ Questions: Questions were mixture of Quantitative aptitude and Computer Science.
+Three Coding Question.
+1) Given a string of parenthesis only, check if it’s valid or not. https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+2) Find next greater number with same set of digits. https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+3) Given an array where each element is the money a person have and there is only Rs. 3 note. We need to check whether it is possible to divide the money equally among all the persons or not. If it is possible then find Minimum number of transactions needed.
+Selection for the next round was depends on the number of programing question you solved and number of test cases passed.   
+Round 2(F2F) 30-min
+Only 1 or 2 Questions were asked to each of us and all of them were from DATA STRUCTURES.
+1>Check weather a given Binary tree is Binary Search Tree or not. https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+2>In an array of integers, find out maximum value of (j-i) such that A[j]>a[i] in O(N) time.
+https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/
+For both the question they were looking for full optimization and proper code starting from scratch.
+They asked lots of Questions on Dynamic Programming and Advance Data Structure to my friends.
+Round 3(Coding round) 1-hour
+Three Question were given to all of us to solve within 60 mins.
+1> Print Maximum Contiguous Sum in an array.
+Sample:    5, -1, 3, 7
+ANS=     12	 (3, 7, 5)
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+2> Find Longest Increasing A.P in a Sequence of numbers.
+https://www.geeksforgeeks.org/length-of-the-longest-arithmatic-progression-in-a-sorted-array/
+3> Check whether a denomination of given money is possible or not from the given denomination. (Note: only one instance of each note), if possible then print yes and number of notes require else print No.
+Sample 1:
+I/P: 10, 100, 50, 200, 150
+	50
+Output: yes, 1
+Sample 2:
+I/P: 10, 60, 50, 100
+		121
+Output: NO
+Hint: Last two Questions are DP.
+Round 4(F2F) 30 min
+Two Puzzle Questions.
+1> 5 pirate problem.
+2> A bias coin of which probability of Head is 0.6 and tails is 0.4. This coin is going to be use in Cricket Match, so task was to suggest a method to unbias the coin.
+For some of my friends, they asked programing questions and 90% of them were on Dynamic programming.
+Round 5(HR) 10 min
+Standard HR Question.
+Suggestions: Prepare Data Structure and Algorithm properly, they were looking for people having good coding skill, so CODE each question while preparing.
+Most of the questions were form Dynamic Programing, prepare DP. First tell them recursive solution and then how you are going to solve the question using DP, after that start coding.
+Don’t panic, if you are not getting optimal solution, try to optimize as much you can (DON’T GIVE UP). Then try to code your solution (most important part). 
+Thanks to Geeksforgeeks for proving such awesome platform for preparation. This is the best site for interview preparation for any company.Friends try to utilize this platform as much you can.
+To Geeksforgeeks team please add puzzle problems. We need a section for puzzles.
+

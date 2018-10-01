@@ -1,0 +1,30 @@
+Round 1: This was a written pen and paper round with 20 MCQ questions (related to Java as I applied for Java developer) and 4 coding questions out of which three needed to be done on paper
+
+Coding Ques:
+Find the row with highest no. of 1 in a 2d sorted matrix having 0 and 1 as column values
+Reverse a linked list recursively
+Rwo roads and only one sided traffic at a time is allowed. Code for synchronization to avoid deadlock
+Counting semaphore problem in which a resource as N instances.Synchorinizing access to resource .
+MCQ questions related to Strings initialization ,Java 8 features ,JIT,mutex,Singleton pattern ,Streams etc Some times more than one is correct.
+Round 2: This was a technical discussion of Round one
+
+Asked to explain the Programmes written .
+Role in previous company .
+Architecture and understanding of the projects done in previous company .
+Design patterns familiar with and used and asked about Singleton
+Round 3: Was a Design round of one hour on pen and paper Both HIGH and LOW level design was asked .
+
+Design a system which could have N clients .Each client can be charged with M prices depending upon P number of services.
+System should have following characteristics
+N can always be increased or decreased
+M can always be increased or decreased like (hotel prices) so a variable pricing scheme need to be implemented
+Services can also increase or decrease
+System could Serve millions of customer at a time
+System should be scalable and fault tolerant.
+The requested should be served as fast as possible minimizing space.
+Round 4 : technical discussion of design Round
+Cache implementation .
+Hashmap implementation .
+Data structure implementation which could store only duplicates
+Implementing a service in which a task  is done by 10 threads parallely and we have to update task progress of each thread in overall progress like a file download manager
+ 

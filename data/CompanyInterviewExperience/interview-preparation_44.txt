@@ -1,0 +1,80 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing TCS interview.  
+Solution:
+Assuming that 1 unit of work is done in 1 hour
+Let’s calculate the total number of working hours:
+=> 4 * 8 * 5 = 160 units
+Now the work is doubled:
+=> 160 * 2 = 320 units
+Let ‘x’ be the number of hours taken by 2 men to complete the work in 20 days.
+Therefore,
+=> 2 * 20 * x = 320
+=> x = 8 hours (Answer).
+Solution:
+The divisibility rule for 3 is that the sum of all digits of a number should be divisible by 3. Let’s calculate the sum of the digits:
+There are 50 1’s (unit place) = 50
+There are 10 1’s (tens place) = 10
+There are 10 2’s (tens place) = 20
+There are 10 3’s (tens place) = 30
+There are 10 4’s (tens place) = 40
+There is one 5 (tens place) = 5
+For each number 1 to 9, there are 5 sets of sum 45(1+2+…+9) = 225
+=> So sum of all digits = 380
+=> 380 / 3 = 2 (Answer)
+Solution:
+It can be seen that the letter are in AP sequence, So applying the formula we get,
+
+We find that n = 15 fits the equation
+The 15th letter in the English alphabet = O
+So 15th term contains O.
+Solution:
+Let the total capacity of the tank be ‘x’ liters.
+According to the question,
+=> x/7 + 22 = x/5
+=> x/5 – x/7 = 22
+=> x = 385 litres(Answer)
+
+Solution:
+There are 23 prime numbers between 3 and 100 (excluding the values) of which all are odd.
+For 5y – 1 to be odd, 5y must be even
+For 5y to be even y should be even.
+Taking y as 2 we get 5y – 1 as 9.
+Now looking at all those prime numbers ending at 9 = 9, 19, 29, 39, 59, 79, 89
+Out of these, the numbers satisfying both the equations(integer is assumed) are 9, 29 and 89.
+We cannot consider 9 as it violates the constraint of number should be greater than 3.
+Therefore answer is 2 (29 and 89)
+Solution:
+Let the side of the square be ‘2’ units
+Area of the square =  = 4 unit
+Side of triangle, using Pythagoras Theorem =  unit
+Height of triangle = 2 units (Using Pythgorean theorem)
+Area of triangle = 1/2 * base * height
+=> 1/2 *2 * 2
+=> 2 units
+Therefore the ratio = 4:2
+=> 2:1 (Answer)
+
+So who is the knight, who the knave, and who the spy?
+Solution:
+Let us say A is the Knight, then he speaks the truth and C is Knave who lied and finally B is Knave, who speaks the truth regarding A. So this condition holds.
+Let us say B is the knight. then it contradicts the answer since a knight always speaks the truth and there cannot be two knights.
+Same goes with C.
+Solution:
+We can see that the series is in the form of AP with common difference of 7.
+So the series is in the form of 2013 + 7d
+The hint is actually a shortcut:
+44^2 = 1936
+45^2 = 2025
+46^2 = 2116
+47^2 = 2209
+48^2 = 2304
+Therefore among these numbers, we need to find which of them are in the form of 2013 + 7d
+Only one number 2209 can be written in the form 2013 + 7*28.
+Therefore the answer is 1.
+Solution: According to the cyclicity of 7, the unit digit follows the pattern of 7, 9, 3, 1 and this repeats. So in every 4 numbers, we get one 3 in the unit place. Dividing 205 by 4 we get 51 which is the answer to the following question.
+Solution:
+There is a direct formula for this:
+Number = 
+where p, q and r are prime numbers. Simply we need to prime factorize the Number.
+Then, (a+1).(b+1).(c+1) is the number of divisors.
+For 1728 = 
+Therfore, (6+1).(3+1) = 28

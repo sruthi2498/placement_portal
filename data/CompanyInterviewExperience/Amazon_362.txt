@@ -1,0 +1,16 @@
+Round 2: Paper written coding
+1) Given an unsorted array with a group of characters taken from the user. Find the first occurrence of non repeating character and print the character(s).
+2) Write a program to find whether the two given two strings are ANAGRAMS or not. (  built-in function should not be used )
+3) Find the number if words in a given paragraph and find the required word needed by the user and replace that word with an other word given by the user.
+ROUND 3: TECHNICAL HR AND HR
+*) Tell about your self
+1) Given an string. Find the number of times a given character from the user is repeated in the array.
+2)Given two arrays in sorted manner, you need to multiply one two numbers i.e., one from each such that the pair is like the first number is taken from first array should be the largest number and the second number is taken from second array should be the smallest number. The desired product and the values in the array  should be taken from the user first and accordingly produce the result.
+3) what will you do if your facebook page doesn’t get logged in? Derive the maximum number of test cases that you will perform to check the login page of facebook.
+4) what will you do if you set the alarm clock to ring at a particular time and it doesn’t ring? Derive the test cases and try to debug the issue
+5)what will you do to check whether the facebook page UI is working perfectly on all sorts of screen sizes and browsers. Derive the test cases
+6) What will you do if you have an issue in sending a mail after clicking the SEND button. Derive the test cases.
+7) what are the test cases to check whether your whatsapp is running properly or not ?
+8) write a program to sort the numbers using singly linked list.
+9) what will you do to check the response time of a webpage and also the derive the test cases if the webpage doesn’t load completely. 
+

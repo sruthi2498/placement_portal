@@ -1,0 +1,9 @@
+What is the probability of getting a sum of 9 from two throws of a dice?
+(A) 1/3
+(B) 1/6
+(C) 1/9
+(D) 1/12
+ Answer: (C) Explanation: Total number of outcomes = 6 * 6 = 36.
+Total number of favorable outcomes = (3, 6), (4, 5), (5, 4) (6, 3) = 4.
+Therefore, required probability = 4/36 = 1/9.
+Quiz of this QuestionPlease comment below if you find anything wrong in the above post

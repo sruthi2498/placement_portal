@@ -1,0 +1,16 @@
+The most important function of C/C++ is main() function. It is mostly defined with a return type of int and without parameters : 
+We can also give command-line arguments in C and C++. Command-line arguments are given after the name of the program in command-line shell of Operating Systems.
+To pass command line arguments, we typically define main() with two arguments : first argument is the number of command line arguments and second is list of command-line arguments.
+or 
+For better understanding run this code on your linux machine. 
+Run on IDE
+Input:
+Output:
+Note : Other platform-dependent formats are also allowed by the C and C++ standards; for example, Unix (though not POSIX.1) and Microsoft Visual C++ have a third argument giving the program’s environment, otherwise accessible through getenv in stdlib.h:  Refer C program to print environment variables for details.
+Properties of Command Line Arguments:
+Note : You pass all the command line arguments separated by a space, but if argument itself has a space then you can pass such arguments by putting them inside double quotes “” or single quotes ”.
+Run on IDE
+Output in different scenarios:
+References:
+http://www.cprogramming.com/tutorial/lesson14.html
+http://c0x.coding-guidelines.com/5.1.2.2.1.html

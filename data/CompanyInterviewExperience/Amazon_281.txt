@@ -1,0 +1,27 @@
+Amazon visited our campus for SDE-1 . Interview process  started with an online coding round followed by 4 Face to Face Interviews. All Interview rounds started with brief introduction about me.
+Online Round :
+A hackerank contest with 22 questions inclusive of 2 coding problems and 20 MCQ’s on OS, DBMS, Networking and C/C++.
+Coding Questions :
+1. Given a 2d array with only elements  ‘#’  &  ‘.’  . ‘#’ represents cherry and ‘.’ represents nothing . Can you divide the array into 2 halves with equal cherries . You can only make a single cut either horizontally or vertically .
+2. Sliding Window of size k . Find max of each window.(no need of optimization, Brute-Force was accepted).
+F2F 1 ( 1 hr 20 min,  TECHNICAL ) :
+1. Find floor of a number in a sorted array. Production code was required.
+2. Given a number k , Find no. of ways to make this number using sum of numbers from 1 to k-1 . Constraints: You cannot take same number more than once in a combination( for eg: k=6,  {1,1,4} can not be considered in solution) and also all permutations of a combination count as one way ( for eg: if k= 6, Then all permutations of (1,2,3) count as one way only). (Solution : Recursion, DP)
+F2F 2 ( 40 min,  DIRECTOR + TECHNICAL ) :
+1. Given an API :- bool isValidWord(string)   and a list of sentences. For each word in a sentence, you have to print all the substrings and reversed substrings in that word which are valid (validity of a string is checked by above API).
+            2. Discussion on Egg Drop Puzzle.
+            3. What happens when you type www.amazon.com in your Browser .
+
+F2F 3 ( 1hr ,  TECHNICAL ) :
+1.     Given a linked list, write a function to reverse every alternate k nodes.  Need to handle all the Corner cases .
+2.  Given millions of sorted lists and a God Processor that can work on infinite threads at a time, make a sorted list using all the elements of given lists considering the advantage provided by such a processor.
+(My approach 1: use Priority Queue, but he said that only one thread can use the PQ at a time.
+ My approach 2: use technique similar to Merge Sort) .
+F2F 4 ( 1 hr 20 min,  TECHNICAL ) :
+1.     Given a robot which is on Origin in a number line and  a string that contains either  ‘L’ , ‘R’ or ‘?’. ‘L’ means turn left and ‘R’ means turn right. ‘?’ can be assumed to be ‘L’ or ‘R’. Find the maximum distance from origin the robot can go at any point of time. ( My approach     1: Backtracking,  2: Backtracking+Memoization,  3: using two variables )
+2.     Discussion on data structure used for dictionary,  Hash table vs Trie, collision handling  in hash tables.
+Print all the substrings of a given string that are present in the dictionary. Then he asked to optimize the solution. Then I used technique similar to Rabin-Karp algo + Hashing assuming collision is not a problem. Interviewer was satisfied after this solution.  Code was not required.
+Interview tips :  Interviewers don’t want most optimized solution. They see how you approach a question , Interact with interviewer if  you get stuck ,don’t jump directly to code, think loud and be confident.
+A big thanks to GeeksforGeeks and other online judges.
+
+

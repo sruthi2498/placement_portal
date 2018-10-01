@@ -1,0 +1,11 @@
+Given a number you have to check whether there is pair of adjacent set bit or not.
+Examples :
+
+A simple solution is traverse all bits. For every set bit, check if next bit is also set.
+An efficient solution is to shift number by 1 and then do bitwise AND. If bitwise AND is non-zero then there are two adjacent set bits. Else not.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

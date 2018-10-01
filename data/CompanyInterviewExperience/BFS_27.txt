@@ -1,0 +1,17 @@
+Searching a graph is quite famous problem and have a lot of practical use. We have already discussed here how to search for a goal vertex starting from a source vertex using BFS. In normal graph search using BFS/DFS we begin our search in one direction usually from source vertex toward the goal vertex, but what if we start search form both direction simultaneously.
+Bidirectional search is a graph search algorithm which find smallest path form source to goal vertex. It runs two simultaneous search – 
+Bidirectional search replaces single search graph(which is likely to grow exponentially) with two smaller sub graphs – one starting from initial vertex and other starting from goal vertex. The search terminates when two graphs intersect.
+Just like A* algorithm, bidirectional search can be guided by a heuristic estimate of remaining distance from source to goal and vice versa for finding shortest path possible.
+Consider following simple example-
+
+Suppose we want to find if there exists a path from vertex 0 to vertex 14. Here we can execute two searches, one from vertex 0 and other from vertex 14. When both forward and backward search meet at vertex 7, we know that we have found a path from node 0 to 14 and search can be terminated now. We can clearly see that we have successfully avoided unnecessary exploration. 
+Why bidirectional approach?
+Because in many cases it is faster, it dramatically reduce the amount of  required exploration.
+Suppose if branching factor of tree is b and distance of goal vertex from source is d, then the normal BFS/DFS searching complexity would be . On the other hand, if we execute two search operation then the complexity would be  for each search and total complexity would be  which is far less than .
+When to use bidirectional approach?
+We can consider bidirectional approach when-
+Performance measures
+Below is very simple implementation representing the concept of bidirectional search using BFS. This implementation considers undirected paths without any weight.
+Run on IDE
+Output:
+References

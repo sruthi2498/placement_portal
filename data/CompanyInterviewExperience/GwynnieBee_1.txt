@@ -1,0 +1,33 @@
+Gwynnie Bee came for recruitment to our university campus. The first round was a 2 hour written test.
+1 hour was for 30 MCQs which included 10 from DS, 10 from computer fundamentals and 10 from Quant and reasoning. Overall, the test was easy. Take care of negative marking. I think if you didn’t clear the 1st round, you will not be evaluated for next round. 
+The other hour was for 3 subjective written coding questions. All 3 questions were from Geeksforgeeks. Although we were told to write pseudo-code, but if you know the logic go for clean code. I think writing clean code is important. As it was on paper round, so make sure your hand-writing should be decent. Always comment the code, it’s really important because it will help interviewer in evaluating your sheet.
+Coding questions were –
+1- https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+2- https://practice.geeksforgeeks.org/problems/word-break/0
+3- https://practice.geeksforgeeks.org/problems/n-queen-problem/0
+Only 10 out of 160+ were shortlisted after this round.
+Then there were 3 interview rounds.
+In the first round, they discussed the questions that came in the written test. Some DS and coding questions.
+Some of the coding question were –
+1 – Array containing multiple duplicate values. You have to find all duplicate values. Always ask questions for clarification  for example- if the range of numbers in array are finite then can we use hashmap? etc..
+After 3 to 4 approaches interviewer modified this to a new problem –
+https://practice.geeksforgeeks.org/problems/two-repeated-elements/0
+2- You have been given a 2D matrix, if cell value is 1 then it means corresponding row number and column number are connected. You have to find how many islands are present. Island are those areas which are surrounded by water. Basically using graphs we have look for disconnected components. (if you didn’t understand the question then first of all ask again and clarify it).
+This round took approx 1 hour.
+In Second Round 
+Projects were discussed in detail. Go through your resume as many times as you can. Whatever you have written in resume, you should know it.
+Also, Hackathon part was discussed.
+After that I was given a problem – Swap two numbers. It looks like it is very easy. After several implementations(using space, without using space etc), main question was – someone has implemented the swap function and you didn’t know the implementation. You have to built test cases which we should consider in all cases. This discussion went for 15 to 20 minutes.
+In third round-
+Several puzzles and coding questions were asked.
+1- https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle/0
+2- https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
+3- There are n rooms with some constraints-
+   1 – whenever you enter that room – have to pay 100 units
+   2 – whenever you leave that room – have to pay 100 units
+   3 – when you are inside that room the money gets doubled
+   You have to cover all n rooms.Now, when you get out of the nth room you have 0 units of money.
+   I discussed several approaches – 1- equation based, 2- recursion etc. Finally asked to code it.
+The key here is – Initially go with brute force and after that try to come up with some new approach with less complexity. Interaction with interviewer is important. Try to explain why you are following this approach. Basically, approach is more important. 
+We were told that we will have a telephonic HR round, but it didn’t happen. 3 were selected finally.
+Overall, the experience was positive. All the interviewers were very friendly. I was later offered the job and I accepted it.

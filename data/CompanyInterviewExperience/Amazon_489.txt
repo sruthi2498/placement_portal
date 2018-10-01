@@ -1,0 +1,25 @@
+Amazon sde2 experience:
+
+Telephonic round :
+Design a site similar to junglee.com. Assume you are given a crawler, design a distributed system , what ds will you use , some basic api’s etc. 
+Onsite:
+coding round 1:
+1. zig zag traversal of binary tree O(n) algo
+2. matrix question:
+given matrix like :
+a b e d
+b c f  e
+a b d d
+….
+find the longest path of consecutive alphabets given a starting alphabet. You can move in all 8 directions. for eg. a->b(right)->c(down)->d(diagnal down)… len = 4 , find max such len
+coding round 2:
+1. is binary tree balanced : O(n) time algo
+2. given a pre and post order kindof a traversal (2 arrays) create an n-ary treee out of it with struct of the form : 
+did it using a hash table of linked lists and storing parents . Might be a btr way not sure.
+
+design round + hiring mgr 3:
+Design the most recently viewed item for amazon , say 15 most recently viewed item which are scrollable for millions of products and users . scalable and extensible model. give apis , distributed systems, caching , reduce latency : critical
+design round 4:
+1. Give Object oriented design for the snake game (that was in old nokia phones) . only class and obj diag was needed, no code/implementation. it should have extensibility to accomodate different types of fruits, (eg one gives + 5 len + 10 pts) it should be scalable to diff platforms
+2. Give an architecture diagram with all entities and relationships of a multi user wysiwyg editor . basically a web interface to multiple authors who can edit and store their docs . multiple ppl should be able to save it at once . also ownership should be present for documents.
+

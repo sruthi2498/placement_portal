@@ -1,0 +1,36 @@
+Given the mobile numeric keypad. You can only press buttons that are up, left, right or down to the current button. You are not allowed to press bottom row corner buttons (i.e. * and # ).
+
+Given a number N, find out the number of possible numbers of given length. 
+Examples:
+For N=1, number of possible numbers would be 10 (0, 1, 2, 3, …., 9)
+For N=2, number of possible numbers would be 36
+Possible numbers: 00,08 11,12,14 22,21,23,25 and so on.
+If we start with 0, valid numbers will be 00, 08 (count: 2)
+If we start with 1, valid numbers will be 11, 12, 14 (count: 3)
+If we start with 2, valid numbers will be 22, 21, 23,25 (count: 4)
+If we start with 3, valid numbers will be 33, 32, 36 (count: 3)
+If we start with 4, valid numbers will be 44,41,45,47 (count: 4)
+If we start with 5, valid numbers will be 55,54,52,56,58 (count: 5)
+………………………………
+………………………………
+We need to print the count of possible numbers.
+N = 1 is trivial case, number of possible numbers would be 10 (0, 1, 2, 3, …., 9)
+For N > 1, we need to start from some button, then move to any of the four direction (up, left, right or down) which takes to a valid button (should not go to *, #). Keep doing this until N length number is obtained (depth first traversal).
+Recursive Solution:
+Mobile Keypad is a rectangular grid of 4X3 (4 rows and 3 columns)
+Lets say Count(i, j, N) represents the count of N length numbers starting from position (i, j) 
+Following is C implementation of above recursive formula.
+Run on IDE
+Output: 
+Dynamic Programming
+There are many repeated traversal on smaller paths (traversal for smaller N) to find all possible longer paths (traversal for bigger N).  See following two diagrams for example. In this traversal, for N = 4 from two starting positions (buttons ‘4’ and ‘8’), we can see there are few repeated traversals for N = 2 (e.g. 4 -> 1, 6 -> 3, 8 -> 9, 8 -> 7 etc). 
+
+
+Since the problem has both properties: Optimal Substructure and Overlapping Subproblems, it can be efficiently solved using dynamic programming. 
+Following is C program for dynamic programming implementation.
+Run on IDE
+Output: 
+A Space Optimized Solution:
+The above dynamic programming approach also runs in O(n) time and requires O(n) auxiliary space, as only one for loop runs n times, other for loops runs for constant time. We can see that nth iteration needs data from (n-1)th iteration only, so we need not keep the data from older iterations. We can have a space efficient dynamic programming approach with just two arrays of size 10. Thanks to Nik for suggesting this solution.
+Run on IDE
+Output: 

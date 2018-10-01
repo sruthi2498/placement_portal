@@ -1,0 +1,10 @@
+Given a number of the form 11..1 such that number of digits in it is smaller than 10, find square of the number.
+Examples:
+
+Squares of 11…1 (where length is smaller than 10) are called Demlo numbers. A demlo number is number which consist of 1, 2, 3….n, n-1, n-2, …..1.
+Demlo numbers are:
+To find demlo number, first we find append n numbers which are increasing and then append numbers which are decreasing.
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,6 @@
+Given a string of lowercase alphabets. Some of characters of given string got corrupted and are now represented by *. We can replace * with any of lowercase alphabets. You have to construct lexicographically smallest palindrome string. If it is not possible to construct a palindrome print “Not Possible”. 
+Examples:
+Start traversing the string from both end. Say with i=0, j=strlen-1, keep increasing i and decreasing j after every single iteration till i exceeds j. Now at any intermediate position we have five possible case :
+After i exceeds j means we have got our required palindrome. Else we got “Not possible” as result.
+Run on IDE
+Output:

@@ -1,0 +1,37 @@
+Hello guys, I recently appeared in Snapdeal interview for Java profile in Bangalore office.  Here is my experience. 
+The interview had 5 rounds out of which 3 technical and one manager and one HR round. Last two rounds are just for normal discussion. 
+Round 1: Technical round: 1:30 to 2 hour
+The interview start from some normal behavioral questions followed by DS algo and Java.
+1. Tell me about yourself.
+2. How much you rate yourself out of 10 in DS &Algo. Followed by Java.
+3. You are given a Binary Tree and you are asked to convert Binary tree such that it reverse its subtree. She meant to Mirror image of it. 
+4. She asked me now you have a linked list (singly) and you are asked to reverse every 3 node in linked list. For example 1 2 3 4 5 6 7 8 9 => 3 2 1 6 5 4 9 8 7. She asked that code should be at production level. 
+5.  From now onward she asked me lots of java questions as follows (she also asked me follow up question based on my answers)
+1. What is thread and how you can create a new thread.
+2. What are the different way to create a thread.
+3. Hashcode and equals method. How it affect. How you manage this method.
+4. Hashmap related question based on above question and new question.
+Rest I forget. 
+Round 2: Technical round: 1:30 to 2 hour
+This round mainly focused on only java and how in depth I’ve knowledge in java. He asked me various questions as follows
+1. About my project
+2. Multithreading questions in very deep. (Every think in multithreading in java) How java handle threads, when thread alive, when dies, how dies, what happen when dies, what happen when alive, What JVM does etc.
+3. Then he gave me different scenario to check my programming skills in Java in multithreading env. 
+4. How hashmap work and its implementation in java. How collision resolve by java in hashmap.
+Followed by what happen when collision happens, how does get() and remove() methods behave. What will be the complexity of Hashmap for get(), remove() and put() method etc .
+Lots of question on JAVA
+5. What is BST, what is binary tree, Node structure what else can be done in node structure to make it more efficiently n all.
+6. How will you check does a binary tree is BST or not. Write code for it.
+-> I explain how one can think to check does a given Binary tree is BST or not. Then I gave him simplest solution using inordertraversal. Then he asked me to code it.
+I wrote code in Java using inorder traversal and waiting for him meanwhile I thought he would may ask me to solve without inorder traversal justsimilar way how I explain the approach to check binary tree is BST or not. So meanwhile I also wrote code for it too 😉
+I wrote code based on min/max value and check recursively.
+7. Then he asked me Print matrix in Spiralform followed by code. Meanwhile he asked me what is2D arrays and how they behave and how memory assigned to them.
+Round 3: Technical round: 1 to 1:30 hour
+This round is the best round because this round lead me to push myself to next level. This round has all new questions that I’ve never heard or solve. It goes like this;
+1. Ask me about myself, my project, what I’m working on… etc.
+2. Various java questions.
+3. You are given a two dimension array of character and a set of words (dictionary). Your task to return all the words which are valid and available in given array.
+-> I explain him different approaches start from backtracking to solve the above question. Then he asked me about complexity which was exponential. Followed by asking to optimize it further level.
+I optimize my algo in various way (with or without Dynamic programming) one by one and try to combine my optimization to result better approach. I keep telling him that in this case this is the complexity n all. He asked me to further optimize my algo and bravo I reach where he wants me to reach. That is Prefix tree based solution. After giving this solution I further optimize it to discard so many path that does not lead to the solution( that gave me a + point). Then he asked me code (I was become little nervous because  that algo now become complex, I said the implementation could be little tricky, he told me to take your time). I told him that this is the way I approach for prefix tree based solution implementation and then he told me that assume following helper method are available in PrefixTrie implementation but he asked me that first explain him that how I can implement those method efficiently and I answered).
+Then It took 25 minutes to write that code. He was happy but he again asked me to more optimize a particular section of code ( I was using visited Boolean array to trace my path). I again optimize that portion with various ways from bad complexity to awesome complexity and he became very happy.
+I would like to thank geeksforgeeks to provide such  awesome platform to learn DS algo.

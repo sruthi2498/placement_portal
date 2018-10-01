@@ -1,0 +1,15 @@
+Given an array of n numbers and a positive integer k. The problem is to find k numbers with most occurrences, i.e., the top k numbers having the maximum frequency. If two numbers have same frequency then the larger number should be given preference. The numbers should be displayed in decreasing order of their frequencies. It is assumed that the array consists of k numbers with most occurrences.
+Examples:
+Asked in Amazon Interview
+
+Method 1: Using hash table, we create a frequency table which stores the frequency of occurrence of each number in the given array. In the hash table we define (x, y) tuple, where x is the key(number) and y is its frequency in the array. Now we traverse this hash table and create an array freq_arr[] which stores these (number, frequency) tuples. Sort this freq_arr[] on the basis of the conditions defined in the problem statement. Now, print the first k numbers of this freq_arr[]. 
+Run on IDE
+Output:
+Time Complexity: O(dlogd), where d is the count of distinct elements in the array.
+Auxiliary Space: O(d), where d is the count of distinct elements in the array.
+Method 2: Create the array freq_arr[] as described in Method 1 of this post. Now, build the max heap using elements of this freq_arr[]. The root of the max heap should be the most frequent number and in case of conflicts the larger number gets the preference. Now remove the top k numbers of this max heap. C++ STL priority_queue  has been used as max heap.
+Run on IDE
+Output:
+Time Complexity: O(klogd), where d is the count of distinct elements in the array.
+Auxiliary Space: O(d), where d is the count of distinct elements in the array.
+References: https://www.careercup.com/question?id=5082885552865280

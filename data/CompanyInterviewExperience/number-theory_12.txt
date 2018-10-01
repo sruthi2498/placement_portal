@@ -1,0 +1,29 @@
+Prerequisites:
+Given a value n, and the task is to print pentatope numbers series up to nth term.
+Examples:
+Method 1: Using Tetrahedral Number Series:
+This problem can be easily solved with the fact that Nth Pentatope Number is equal to the sum of first N Tetrahedral numbers.
+Let’s have a look on Series of Pentatope and Tetrahedral Numbers.
+
+For n = 5
+Tetrahedral Numbers  =  1, 4, 10, 20,   35
+Prefix Sum of Tetrahedral numbers for each term: (1), (1 + 4), (1 + 4 + 10),  (1 + 4 + 10 + 20),  (1 + 4 + 10 + 20 + 35)
+So, Pentatope numbers are 1, 5, 15, 35,   70
+
+Calculate Nth Tetrahedral number using formula:  
+So, print the Pentatope Numbers series by generating tetrahedral numbers and adding it with the sum of all previously generated Tetrahedral Numbers.
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(n)
+Method 2: Using Pentatope Number Formula:
+The formula to find Nth Pentatope number 
+Below is the required implementation:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

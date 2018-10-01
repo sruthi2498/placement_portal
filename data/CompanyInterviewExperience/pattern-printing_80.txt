@@ -1,0 +1,19 @@
+Given a positive integer n. Print the inverted triangular pattern (as described in the examples below) using recursive approach.
+Examples:
+
+Method 1 (Using two recursive functions):  One recursive function is used to get the row number and the other recursive function is used to print the stars of that particular row.
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2 (Using single recursive function): This approach uses a single recursive function to print the entire pattern.
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

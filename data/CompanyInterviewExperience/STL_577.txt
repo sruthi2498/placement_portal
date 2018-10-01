@@ -1,0 +1,138 @@
+I applied for Directi off-campus on its career website and I got a call. There were total 5 rounds.
+Online coding round: 1.5 hours
+There were a total of 3 questions. All of them were coding questions covering ad-hoc, dp ,hashing ,graphs etc and you could do it only if you do regular online competitive coding. This round was the toughest and you should pick wisely, the questions you want to attempt. I did two of these.
+Q1- Blueberry Cheese Cake:
+Problem description
+There is a school in a village. It has N classes. One fine day, someone donated B blue berry cheese cakes to schools. Now you need to divide these cakes such that:
+Each class gets at least 1 cake.
+Each class will share the cake(s) among students.
+Your aim is to minimize the maximum number of students per cake in any class.
+Input
+The first line of the input contains two space separated integers N and B denoting the number of classes and total number of blue berry cheese cakes, respectively.
+Next N lines contain number of students in each class.
+Output
+For each test case, output the maximum number of students who will share a cake.
+Constraints
+2 <= N <= 5*105
+N <= B <= 2*106
+1 <= number of students in ith class <= 5*106
+Sample Input - 1
+1 2
+35
+
+Sample Output - 1
+18
+
+Sample Input - 2
+2 7
+20
+50
+
+Sample Output - 2
+10
+Q2: Poor Valet
+Our Chef is opening a new restaurant in the city. Today being the inauguration night of his new restaurant and Chef’s huge popularity has attracted a large crowd for the grand opening. For convenience of the customers, cars of all the customers have been marked with a number from 1 to N where N is the total number of cars, corresponding to their parking space number in which each car has to be parked. Due to the large crowd, the car parking is full except for one parking space. Moreover, as the cars came too frequently, they could not be parked in their respective parking space. Poor valet at the restaurant’s parking, Raka, is left with the arduous task of parking the cars at their respective places. Luckily for him, parking has been closed and no more cars are coming and he can now arrange the cars in their proper places. As Raka is left alone to park the cars, he can only move one car from one parking to the
+other parking. He can use the empty parking space to move the cars aroung. He wants to arrange the cars in as few moves as possible. Raka asks you for help in finding the optimal strategy to arrange cars in their proper places.
+Input
+An integer T denoting the number of test cases.
+For each test cases there are 2 lines.
+The first line cointans a single integer N where N denotes the number of cars.
+The second line contains N integers
+K0 to KN-1 where Ki represents the number marked on the car standing at parking space number i in the initial configuration.
+Parking lot number N is left empty.
+Output
+For each test output a single integer M, where M is the number of car moves required to arrange all the cars to their proper location.
+Example
+Input:
+2
+3
+1 0 2
+4
+2 1 3 0
+Output:
+3
+4
+
+Q3: XML Validator
+Problem description
+Let’s define a string  as an opening tag, where x is any small letter of the Latin alphabet.
+Each opening tag matches a closing tag of the type , where x is the same letter.
+Tegs can be nested into each other i.e., one opening and closing tag pair can be located inside another pair.
+Let’s define the notion of a XML-text:
+1) An empty string is a XML-text
+2) If S is a XML-text, then “ S ” (quotes and spaces are for clarity) also is a XML-text,
+   where a is any small Latin letter
+3) If S1, S2 are XML-texts, then “S1 S2” (quotes and spaces are for clarity) also is a XML-text
+You are given a string. You have to verify if the given string is a valid xml or not.
+Input
+First line contain T number of test cases
+For each test case:
+Only one line containing xml tagged string S.
+Output
+For each test case,
+One line containing a string TRUE if s is a valid xml FALSE if it is not.
+Constraints
+0 < T <= 10
+0 < length of S <= 10^5
+Example
+Input:
+2
+<a><b></b></a>
+<a><b></a>
+Output:
+TRUE
+FALSE
+Explanation
+In the first example, <b></b> is a valid xml text inside another valid xml text <a></a>.
+Hence total string is XML text
+In the second example <b> has no matching pair and hence string is not valid xml text
+Round 2 : Face to face (Skype- 1 hour)
+This was a DS+ Algorithm +coding round. They said there will be three DS+Algo rounds and it is necessary to pass any two of them , I passed the first two so they didn’t took my third.
+Q1- Given n ranges [a1, b1], [a2, b2], [a3, b3]…. [an, bn] where all the ranges lie between [0, 10^6]. All the entries are integers. Give total number of unique integers across all the ranges.
+Example:
+Input:
+[1, 3]
+[4, 9]
+[3, 7]
+output: 9
+Here he insisted on making optimal code after my first approach, and approved the second one and asked me to code it. It has some good corner cases.
+Q2 : Check if an array can be divided into pairs whose sum is divisible         by k.
+Input: arr[] = {92, 75, 65, 48, 45, 35}, k = 10
+Output: True
+We can divide array into (92, 48), (75, 65) and
+(45, 35). Sum of all these pairs is a multiple of 10.
+Round 3: Face to Face (skype – 1 hour)
+Also a DS Algo round. One question was asked in this round.
+He asked to explain about graphs and dfs general questions and asked to explain dfs code and what are its applications. Then he gave me a question. 
+Q-You are given a tree .Each node can have any number of children not specific. Now we create a string of 0s and 1s .Firstly assume you are traversing in dfs so whenever you traverse a node you write append 1 in string traverse all its children and grandchildren, now when you again return to this particular node with all children traversed you append 0 to string and return further up . This way you have to string with whole traversal .
+Example take a tree with a root, its two children and the left child has one more child. Its corresponding string will be 11100100.
+Now the actual question is, given this string for a tree, firstly obtain this tree structure from this string and secondly identify whether this corresponding tree structure can have more than 1 string possible i.e other than the one given.
+(Hint : DFS can be done in different ways depending on which child you traverse first. Also think on tree isomorphism, for all its sub children.)
+I took time ,discussed every step with him, he was helpful and he asked me to make the code. I was able to do it, this interview lasted 80 mins.
+ 
+Round 4 : Tech Round (Skype – 45 mins)
+This round consisted of OS, DBMS , Networks and basic computer fundamentals. We had a detailed discussion on all answers
+Q1- about producer consumer process and all its conceptual details
+Q2-solution of producer consumer problem, all the solutions(hardware and software) with explanation of all of the three conditions with examples(mutual exclusion, progress and bounded wait)
+Q3-. It led to locks and semaphores. Asked me what is mutex locks and applications of locks and semaphores.
+Q4- Process related one question, explaining for one program all its stages as a process and its processing (basically the new->ready->running etc).
+Q5- What is swapper?Its working.
+Q6- Dispatcher and functioning.
+Q7- Thrashing and consequently then he went asking demand paging segementation.
+Q8- What is HTTP? How is it a stateless protocol.
+Q9- OSI model and its real life analogy if I knew any.
+Q10- TCP/IP model and how is it different than OSI.
+Q11- One SQL query ,I don’t remember exactly, but it was on group by and had concepts of sub-query and join.
+Q12- Asked me indexing, types and which data structure to use.I told Btrees, and asked to explain how and why it helps. He confused me with BSTs and asked although Time complexity will be same , then why Btree (I thought and discussed ,then came to conclusion about Disk writes)
+Round 5 :(overall -1:30 hours ,Skype)
+This was taken by some big person sounded like senior manager/ED.
+This was total tech+ds+algo+HR.
+Q1-Asked me about my internship project in detail, about technologies used, how much I contributed etc.
+Q2- Design a Localized Twitter, which shows the tweets of people within 2 miles of radius . Handling the cases
+2.1-Everytime a person tweets (within 2 mile) it should appear on your page instantly, basically Pushing. (optimization of this was asked)
+2.2-Design the database tables, show relationships between them, what attributes am I taking and why ?
+2.3- Asked to write 2 queries about pulling data from Database.
+2.4-Asked to optimize one query, I gave some methods about using joins and subquries but he gave a hint of using indexing , so I used indexing (used Btrees for indexing – didn’t write btree code, just concept)
+Q3-Explained me a concept i.e given an array of size n, containing numbers from 1 to n, asked me to write an array containing the current numbers nearest number in its left ,which is smaller than current number.
+Now question is given this (second one) array only, can you make the previous one? Asked me to code my logic.
+Basic key is , you have to practice coding on online platforms as well as geeksforgeeks, and think before answering, take little time, think on all cases and ask for little help if stuck. Overall it was a good experience.

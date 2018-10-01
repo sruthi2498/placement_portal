@@ -1,0 +1,6 @@
+std::forward_list::max_size() is an inbuilt function in CPP STL which returns the maximum number of elements can be held by forward_list. This value depends on system or library implementation.
+Syntax:
+Parameters: The function does not accept any parameters.
+Return value:The function returns the maximum numbers that can be stored into the forward_list.
+Below program demonstrates the above function:
+Run on IDE

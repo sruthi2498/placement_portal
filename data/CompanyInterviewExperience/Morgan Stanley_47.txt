@@ -1,0 +1,35 @@
+Written Test:
+10 Aptitude
+30 Programming
+10 CS Fundamentals
+There’s negative marking, plus there’s sectional cutoff, so you have to be very careful, and risky at the same time.
+Written Test 2:
+Programming round, 4 questions in 45 minutes
+1. Get an array B such that B[i] has the product of all numbers of A except A[i]
+The solution is simple using left and right array
+2. Spiral level order traversal
+3. Longest Common Substring
+4. Add two linked lists
+22 people were shortlisted out of 97.
+Technical Interview 1 :
+The interviewer discussed the codes I wrote.
+And some additional questions like queue using two stacks , complexity of BFS, worst case complexity of quick sort and when does the worst case occur.
+One SQL query.
+Out of 22, 10 were shortlisted.
+After this, there was no elimination till the end.
+Group Activity :
+This can be the make or break round, as Morgan Stanley is all about personality and communication skills. In my case, we were divided into two groups of 5 and were given 10 11 pictures and were asked to link them and create a story. Your creativity matters here. Advice : Don’t stay quiet, but talk sensibly.
+Technical Interview 2:
+1. Design a online e-commerce website like Amazon, Flipkart.
+This question requires attention to detail.
+2. Given an expression 5*3+10/2 , write a function to evaluate the expression. My solution was to make a tree and traverse in postorder.
+Technical + HR :
+The guy was the seniormost among the 8 recruiters.
+He talked about my projects, what difficulties I faced, what can I improve more.
+One question was..I was given data about students who had taken some subjects.
+I had to make a data structure such that if I query for no of students in a subject or no of subjects a student has taken, the complexity should be less.
+Rest was HR.
+Finally, after 3 hours of discussion between the recruiters, I was selected 🙂
+A big thanks to GeeksforGeeks. This had been my bible for the summer.
+One advice: Please don’t mug up the questions from this website. Solve them on your own. It’s the problem solving ability which is being tested, not your memory.
+

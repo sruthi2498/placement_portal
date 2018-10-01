@@ -1,0 +1,12 @@
+Given a binary array, we can flip  all the 1 are in the left part and all the 0 to the right part.Calculate the minimum flips required to make all 1s in left and all 0s in right.
+Examples:
+
+For solving this problem we use bitmasking. First, we convert this array to string, then we find the equivalent decimal number of that binary string. We try all masks with all possibilities of 1s in left and 0s in right. We iterate a loop till decimal number becomes zero. Each time we will do bitwise XOR of the number with mask and number of ones in XOR value will be the number of flips required. We decrease n by 1 and update the mask.
+1-Take binary array as input
+2-Convert array to string and then equivalent decimal number(num)
+3-Take initial mask value and iterate till num <= 0
+4-Find required flips using (num XOR mask)
+5-Find minimum flips and decrease num and update mask
+6-Return the minimum count
+Run on IDE
+Output:

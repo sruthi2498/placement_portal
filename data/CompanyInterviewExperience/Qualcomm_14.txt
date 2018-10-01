@@ -1,0 +1,38 @@
+Qualcomm came for full time and internship (not both together) in our campus. Test consisted of written test followed with two technical and one HR round.
+Written test was divided into three parts:
+1. Quantitative aptitude
+2. C
+3. Computer science/communication/electronics
+Each round consisted of 20 questions of 1 mark each to be finished in 30 minutes. There was a negative marking of .25 per question.
+First section consisted of not so tough aptitude questions along with few quant, word coding and logical reasoning questions.
+Second section completely consisted of  C output based questions. Most of them were time consuming bit manipulation questions ( almost 70 percent).
+In Third section we had to choose the paper according to our profile, for me which was CS. Very few OS questions compared to other written tests which I heard Qualcomm organized in past years. Most questions were from C, OOPS , few from DS.
+Result was announced after one day, after the pre-placement talk by the company. Out of 153, 73 were selected for face to face interviews.
+In my first technical round, he asked me:
+To give my introduction and explain my projects.
+1. Find loop in a linked list and find the length of that loop.
+2. Mutex vs. Semaphore and their implementation
+3. Virtual memory and paging
+4. Stack vs. Heap and their content
+5. Thrashing and how can we avoid it.
+6. Memory mapping
+7. Threading concept and how stack behave in multi-threading environment and few pThread concepts
+8. Page fault and steps followed to handle it
+9. Deadlock and its avoidance
+10. One puzzle: If we have three boxes each with two balls which can be either black or white are named wrong. Their name is such that it signifies the first letter of each ball’s color, which the box contained. For example a box containing a white and a black ball should have name: bb. But unfortunately all boxes are named wrongly. Find the minimum number of ball to be extracted to find out correct name of each box. Condition: each ball that is taken out should be replaced to the same box.
+Then he asked me ask any questions if I had. I asked three.
+My interview was for 30 minutes. After first round 43 candidates were selected for next technical round. The questions he asked me in this round were:
+1. Inline function, why we should use them, if they are so good why not make every function inline
+2. How normal function call is implemented (OS perspective)
+3. Steps that is followed when an Interrupt occurs (OS perspective)
+4. Given few cases and asked how interrupt will affect their execution.
+5. Given a code without Mutex and ask to give an execution flow of thread that will give wrong result
+4. Can’t we share data without mutex. Give examples of any scenario you support
+6. Compiler stages with brief explanation about each
+7. Make file and multiple file program compilation and execution.
+8. How compiler does intermediate code optimization and few examples of them.
+9. Static linking and dynamic linking, how they are implemented and examples of both
+10. Extern variable and function
+My this round lasted for 35 minutes. After first round 32 candidates were selected for HR round. The question he asked me in this round were:
+All based on the CV. He was asking question for each word present in CV. Many stress testing questions and background questions. He asked me about which of my written test section went not so good and why. He also asked me about relocation. He then asked me to ask any question if I have. I asked few. My HR round lasted for 15 minutes.
+Result was announced in evening and 18 of us got full time offer and 4 got internship offer from Qualcomm.

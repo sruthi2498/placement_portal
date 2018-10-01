@@ -1,0 +1,9 @@
+The forward_list::swap() is a built-in function in CPP STL which exchanges the contents of the first given forward_list with another forward_list. 
+Syntax:
+Parameters: The function accepts two parameters which are specified as below:
+Return value:The function does not return anything. It swaps both the lists. 
+Below programs demonstrate the function mentioned above:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

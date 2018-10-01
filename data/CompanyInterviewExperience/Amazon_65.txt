@@ -1,0 +1,34 @@
+Codding round (90 min):
+20 objectives from DS, OS, DBMS, Networking   and   2 coding questions:
+ i. https://www.hackerrank.com/contests/dakshonline/challenges/yule-ball
+ ii. https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/i-demand-trial-by-combat-13/
+ROUND I:
+1. Given a binary string (e.g. 01, 101, 011), in each iteration 0 becomes 01 and 1 becomes 10, find kth character in the string after nth iteration
+  simple approach, time complexity, express time complexity in terms of n only
+  efficient approach, explanation, time complexity
+2. Given n ropes of different lengths, connect them into one rope. cost to connect two ropes is equal to sum of their lengths. connect the ropes in minimum cost :
+  https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0
+3. When and why merge sort is preferred over quicksort – time/space complexity
+ROUND II:
+1. Project discussion
+2. Make binary tree symmetric – which all cases are possible, which traversal is used and why
+3. Make half of the linked list reverse (iterative, recursive) and some questions from linked list
+4. Recursion, data structure that is used in recursion
+5. C++ string, overloading of + operator in string class
+ROUND III:
+1. Design a data structure to show most frequently purchased item to a customer, show items that are frequently purchased in a given time span
+2. Priority_queue, map/unordered_map, sliding window concept
+3. Search a given word in a dictionary (approach, time complexity, cost of insertion/deletion of new word in different data structures)
+4. Binary search tree, AVL tree (Rotation, Insertion, Deletion), Trie data structure
+5. Search a pattern in given string (Simple approach & Using KMP algorithm), handle all the cases
+6. LRU Cache Implementation
+ROUND IV:
+1. Introduce Yourself
+2. Project discussion
+3. Convert a given Integer to its corresponding Roman numeral
+4. Hamiltonian cycle & few graph questions (Cycle in directed/undirected graph)
+In between they asked some questions from OS, DBMS, Networking:
+  – Belady’s Anomaly, Context Switching, Conflict Serializability, Functions of some OSI-layers etc..
+
+
+

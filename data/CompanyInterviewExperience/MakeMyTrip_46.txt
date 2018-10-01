@@ -1,0 +1,22 @@
+I recently got selected in Make my trip . Here is my interview experience.
+Round 1-(Online MCQs)
+There were 2 sections – Aptitude and Logical Reasoning and MCQ based on Java question ,C++, coding  for 20 min and 45 min respectively.
+Section A- Not very difficult to clear this round although less time was a problem.
+Section B- It contains 15 multiple choice question on c/c++,java and 4 simple coding questions like Sorting words in a large file , pseudo code for detect a loop in linked list and remove it.
+Round 2-(Online Coding)
+It was an online coding test in which 3 coding question were given.Questions were as follows-
+1. Find out the subset of an array of continuous positive numbers from a larger array whose sum of of the elements is larger in comparision to other subset. eg: {1,2 5 -7, 2 5} .The two subarrays are {1,2,5} {2,5} and the ans is {1,2, 5} as its sum is larger than{2,5}
+2. You have a 8*8 chess board and given a starting and final location of a knight.Find the shortest possible path for the knight.
+3. You are given two strings s1 and s2.Now, find the smallest substring in s1 containing all characters of s2.
+Round 3-(Interview-1)
+It started with a discussion on the programs given in coding round.They asked me about my interest field after that they directly jumped into Networking,Linux and Ethical Hacking part looking my interest domain.
+They asked me various question on networking and linux.Question were simple like Explain the OSI model with examples,Port numbers of protocols like FTP,SMTP etc,How to send data of file into another file in linux etc.
+Then they asked me to code simple c program to reverse a linked list.
+Round 4-(Interview-2)
+This round was started with two puzzles.I got stuck in the first puzzle itself but in this round the interviewer was checking our approcah,our logical thinking.
+Then I was given one program and was asked to optimize it.Question was simple based on hashmap.
+Next question was based on ethical hacking.I was asked to explain SQL attack.
+The interview ended with some discussions over my project.
+Round 5-(HR Round)
+It was a simple HR round.Started with the discussion why do you want to join make my trip and then some general HR questions.
+

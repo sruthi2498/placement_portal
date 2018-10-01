@@ -1,0 +1,14 @@
+A composite number is a positive integer that is not prime. In other words, it has a positive divisor other than one or itself. First few composite numbers are 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, ………    
+How to check if a given number is is composite number or not?
+
+The idea is simple, we can use any of the below methods used for prime checking. We just need to change return statements. Return true is changed to return false and vice versa.
+In below code optimized school method is discussed.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference :
+https://en.wikipedia.org/wiki/Composite_number

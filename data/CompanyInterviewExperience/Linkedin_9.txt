@@ -1,0 +1,37 @@
+LinkedIn Interview Experience (On Campus – Day 1)
+Online Round :
+3 coding Questions in 1 hour : 
+1. We have to implement int getIntComplement(int N) function , that will give complement (bitwise complement. ) of b  a given integer . Start unsetting from the left most set bit of the number. 0 <= N <= 50000 
+Example: 
+Input:  10 (1010)
+Output: 5 (0101) 
+
+2. There are "n" ticket windows in the railway station. ith window has ai tickets available. Price of a ticket is equal to the number of tickets remaining in that window at that time. When "m" tickets have been sold, what's the maximum amount of money the railway station can earn?
+exa. n=2, m=4
+in 2 window available tickets are : 2 , 5
+2nd window sold 4 tickets so 5+4+3+2=14.
+
+3. There is a particular sequence only uses the numbers 1, 2, 3, 4 and no two adjacent numbers are the same.
+Write a program that given n1 1s, n2 2s, n3 3s, n4 4s will output the number of such sequences using all these numbers.
+Output your answer modulo 1000000007 (10^9 + 7).
+
+Interview Rounds :
+Round 1 : Completely Resume based and Design problems
+1. Design a work flow model of the entire work done in your internship. 
+2. Design a workflow model of any one of the projects you did. Grilling session.
+3. A design problem of the sorts : You need to present a ppt to say N users who are viewing it live in their browsers. What you have is a web page where the ppt is opened and has say two buttons : next and previous. You need to design basically what will happen / how will pressing of the buttons reflect a change across all the users.( He wanted something as to how the DNS on processing the next request would change the URL and convey it to all connected users)
+4. A map based design for implementing a code to check for isomorphic words in a file. Efficient approach. 
+5. https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+Round 2 : Projects and Coding
+1. Discussion of the BTP project (especially asked)
+2. https://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/
+3. https://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/
+4. Given a word , you need to check if any permutation of the word would be a palindrome. eg) BALL : false , HANNA : true
+Round 3 : Coding
+1. https://www.geeksforgeeks.org/serialize-deserialize-binary-tree/
+2. http://spin.atomicobject.com/2014/08/11/fisher-yates-shuffle-randomization-algorithm/
+(Algorithm + mathematical aspects related to eqqual probability )
+3. http://www.wikiwand.com/en/Rolling_hash  —> Had used this in my algorithm project and was hence asked 
+Round 4 : 
+Don’t remember all the questions I was asked. Large set of questions pertaining to DBMS.
+

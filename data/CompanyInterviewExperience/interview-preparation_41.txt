@@ -1,0 +1,27 @@
+Although computer programming was once seen as a skill reserved for geeks and computer nerds, it’s now regarded as an essential ability for 21st century learners and is becoming a key component of many curriculums, even in primary schools. And as it is becoming essential to learning programming basics in school itself, you need to be ahead of those basics to prove yourself especially, if you are a budding CS engineer.
+Thinking logically is undoubtedly essential and sharpens the chances of getting a elite job even if you are not  studying in a Tier-1 college. Learning programming languages and CS basics is a part of your curriculum but what will boost your resume will definitely be thorough knowledge of Data Structures and Algorithms.  
+Learning Data Structures : When and Why?
+While it is never too late to learn, but beginning early is always a boon. Learning data structures and algorithms during high school or in first year might be the best time to begin as it’ll prepare you to make your placement interviews a cakewalk when you reach third year.
+Benefits of beginning at high school or First-Year:
+Consider a simple Interview scenario :
+Interviewer :  Perform sorting on array of N elements
+Interviewee : Ok, I can do it using Selection Sort
+The next question you are expected to be asked is :
+Interviewer : Can you do it in a better way?
+Interviewee : Thinks… Yes I can
+Interviewer : How?
+Interviewee : I can use QuickSort. As its time complexity is better than Selection sort in average and best case O(n log n)
+Interviewer : What if all the elements  of Array are already sorted in same order.(worst case of QuickSort)?
+Interviewee :  Then we might use Insertion Sort because in Insertion Sort, if element at position i is greater than all elements after it, no movements happen. So the outer loop will loop through all the elements without going inside making time complexity as O(n)
+and so on…..
+It can easily be observed here that practically being well verse with DS and Algos will make you prepared for future interviews and competitive programming challenges ahead. 
+How to Start ? 
+Getting started in learning a programming language isn’t as daunting as it sounds, nor is it ever too late to learn. You can begin with free, open source sites. Some links that may help you:
+How Geek Classes* may help you?
+While lot of students can learn on their own using e-learning, there would be a bigger lot who love to learn with fellow Engineers in a competitive yet healthy environment.
+GeekforGeeks has started initiative of class room learning through Geek Classes to help young high schoolers and budding Engineers to enhance their technical skills.
+Benefits can be many fold :
+*Currently Geek Classes are held in Noida only. We are in-process to begin on-line tutorials soon.
+When in doubt, Ask an Expert
+So while the thought of coding may make you a little nervous, it’s not something to shy away from. Even having a little bit of an understanding is better than having none at all. Plus, it allows you to communicate with actual programmers, gives you an understanding of what it takes to program something and makes you better overall.
+If you still have queries, you may please email at geeks.classes@gmail.com  or Call Ayushmaan at 8375042560 to help you!!

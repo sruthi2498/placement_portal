@@ -1,0 +1,32 @@
+Zoho had visited our college to recruit software developers. There were two types of salary package offered and also internships.
+These were the rounds:
+Round 1 – Online Test
+There were 30 questions. 15 aptitude and 15 coding related (from C)
+Aptitude was quite simple but the coding questions were really challenging.
+The cut-off was pretty high as this was a round meant for mass filtering.
+Round 2 – Coding 
+This was a hands-on coding round with 8 questions.
+You could use C, C++ or JAVA
+Most of the questions were easy:
+Given 4 integers as input. Find whether they would form a rectangle, square or none.
+Insert an element at a particular index in an array.
+Some were average:
+Given a large number convert it to the base 7.
+Given an IP address validate it based on the given conditions.
+Sort parts of an array separately using peak values.
+Some were a bit challenging:
+Given an input array, find the number of occurrences of a particular number without looping (use hashing)
+Diamond pattern printing based on some conditions
+Given an array of characters print the characters that have ‘n’ number of occurrences. If a character appears consecutively it is counted as 1 occurrence
+Eg: a b a a b c c d e d
+Here a has only 2 occurrences
+Round 3 & 4 – Advanced coding:
+In these rounds we were asked to implement the logic for 2 games
+– Minesweeper
+– Breakout a.k.a. Arkanoid a.k.a. Brick-Breaker (you’ll find it online)
+The game was split into various stages and we were asked to implement the logic stage by stage.
+Interviews:
+A few interviews followed. Some of which was just to get to know you. One interview had a few puzzles. And one was an official interview with a lead HR from Zoho
+Those who did really well got the higher package and those who just missed it also got the job with a lower package.
+Some were offered internships.
+Overall it was a challenging process. Those with strong logical and coding skills would make it 🙂

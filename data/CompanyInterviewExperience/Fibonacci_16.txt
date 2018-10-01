@@ -1,0 +1,42 @@
+Given an array of n elements, the task is to find the fibonacci sum of a subset of the array where every element of the subset <= k.
+Precisely, find F(Ai1) + F(Ai2) + F(Ai3) + … + F(Aix)), where (Ai1, Ai2, …, Aix) <= K and 1 <= (i1, i2, …, ix) <= n. Here, F(i) is the ith Fibonacci number
+Examples :
+Explanation :
+In Query 1, the subset {1, 2, 2} is such a subset where all the elements in the subset are <= k i.e <= 2 in this case. The Fibonacci sum of the subset = F(1) + F(2) + F(2) = 1 + 1 + 1 = 3
+In Query 2, the subset {1, 2, 3, 4, 2} is such a subset where all the elements in the subset are <= k i.e <= 6 in this case. The Fibonacci sum of the subset = F(1) + F(2) + F(3) + F(4) + F(2) = 1 + 1 + 2 + 3 + 1 = 8
+Solve this using two different querying techniques, namely :
+1) Online Querying,
+2) Offline Querying
+In both these methods, the only common step is the generation of the nth Fibonacci number.For an efficient technique to generate the nth Fibonacci number using this.
+This method of generating the Fibonacci numbers is common to both querying techniques. Now, look at how to use these Fibonacci numbers that are generated using each of these two techniques.
+Method 1 (Online Querying) :
+In this technique, process the queries as they arrive. First of all, sort the array in increasing order. After getting a query for a particular k, use binary search on this sorted array to find the last index where the value of the array is & <= k. Let’s call this position x.
+Now, since the array is sorted,
+So, the subset to focus at is A1, A2, A3, ….Ax in the sorted array A, and Fibonacci sum is : F(A1)+F(A2)+F(A3)+…+F(Ax)
+Use Prefix sum arrays to efficiently find the sum of the subset A1, A2, A3, ….Ax. 
+If prefixFibSum[i] stores the Fibonacci sum till the ith index of the sorted array A, then, the Fibonacci sum of subset of the array from 1 to x, is prefixFibSum[x]
+Thus, Fibonacci Sum of Subset[1…x] = prefixFibSum[x], prefixFibSum[x] can be calculated as follows :
+prefixFibSum[x] = prefixFibSum[x – 1] + A[x]th Fibonacci number, where, A[x] is the array element at xth index of the array.
+Run on IDE
+Time Complexity : O(nlogn + qlogn)
+Method 2 (Offline Querying) :
+In offline querying, store the queries and calculate the answer for each query in a specific order and store and output the result of the queries in the original specified order.
+Store each query as a pair of integers where the first member of the pair is the query parameter K for that query and the second member of the pair is the index at which the query occurs originally.
+E.g. If queries are following :
+query 1 : K = 13;
+query 2 : K = 3;
+query 3 : K = 8;
+then, store query 1 as  where 13 is the value of K for that query and 1 is the index specifying that it is the 1st query, similarly query 2 and query 3 are represented as  and  respectively.
+Once, all individual queries are represented as pairs of integers sort the array of query pairs on the basis on K in increasing fashion.
+E.g. the above queries after sorting will look like {,, }.
+Idea behind sorting queries :
+The main idea behind sorting the queries is that when there are elements of a subset which are less than k for some query qi then for all queries qj where i < j and thus Ki <= Kj these elements are present so if the array of elements and the queries(sorted by K) both are sorted, then maintain two pointers one on the array and the other on the queries array.
+
+i, pointing to ith index of the array,
+j, pointing to jth index of the queries array
+Then, consider the following Pseudo Code :
+
+So, while the elements in the subset are less than or equal to the current query pair’s first member (i.e K), keep on advancing to the next element while adding the required Fibonacci number to the current sum. Once the current element becomes greater than the parameter K of the current query store the current value of sum in the auxiliary array named ans of size q (i.e number of queries) at the index pointed by the 2nd member of the current query’s pair (i.e the original index at which the current query occurs).
+At the end, print the ans array, which stores the result of all the queries in the order in which they were originally present.
+Run on IDE
+Time Complexity :  O(nlogn + qlogq)

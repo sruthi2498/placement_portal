@@ -1,0 +1,12 @@
+The C++ function std :: is_sorted checks if the elements in range [first, last] are sorted in ascending order. Elements are compared using < operator.
+There are two variants of std::is_sorted:
+Example :
+Given a container of size n, and a range between [0 … n], write a program to check if it is sorted in ascending order or not. Equal values are allowed in array and two consecutive equal values are considered sorted.
+Run on IDE
+Output :
+We have discussed other approaches here.
+
+Example :
+Given a string composed of characters only. Check if the characters are in sorted order. Also, Ignore the cases while comparing, i.e. ‘f’ > ‘A’
+Run on IDE
+Output :

@@ -1,0 +1,5 @@
+The multimap::operator= is a built in C++ STL which assigns new contents to the container, replacing its current content. 
+Syntax:
+Parameters: The multimap on the left is the container in which the multimap on the right is to be assigned by destroying the elements of multimap1. 
+Return Value: This function does not return anything. 
+Run on IDE

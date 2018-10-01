@@ -1,0 +1,26 @@
+First Round
+———————-
+Online test for about 2 – 2.30 hours. Written test instruction said time is not a barrier for them. So, accuracy and correctness of code is more important than just finish off.
+You can finish test in 2 hours easily.
+Total 6 sections. Sections are RDBMS (practical questions not a theoretical one), Design pattern related question, Java section, Computer fundamental section and finally One code in written test.
+In RDBMS questions were logical and related to storage, database engine and it’s fundamentals. They ask to optimize query based on certain conditions and you have to choose which one fits nearest to argument/problem constraint.
+In java Design patterns, multi threading related concept was asked. e.g. piece of code was given and you need to convert so that it follows some design pattern.
+Overall I felt test was easy and if you know fundamentals and use logical reasoning to crack. 
+Last code given was to parse one file and find answer according to problem constraint. I have used hashmap/hashtable and used less space to optimize the code. This made program more efficient. We had to submit solution into their system. I have used online IDE since they allowed to use during test.
+Second Round
+———————-
+This was a technical round and there were 2 people in an interview panel. They asked 80% on my last project. Don’t forget to prepare on your best project. They will grill you on this. I took this lightly and could forgot things about it. They suddnely ask you to draw architecture of it. Design patterns applied there. Communication model, Layers in your application and so on.
+I was overwhelmed and felt interview should be on logical data structures rather than wasting time on asking something which was done and dusted.
+Then they asked about java collection
+1. HashMap internal implementation
+2. List Interface
+3. How do you compare two user objects (by overriding object’s equals method)
+4. collection’s sort generic interface.
+They asked about REST API and it’s architectural style. THey asked about servlet, web server (tomcat). Lifecycle of servlet.
+This round went around 40 mins.
+Third Round
+———————-
+With CEO of the company!!:)
+He is very nice person and I felt humbled talking to him. He told me which was your favourite project and things go again like in second round and rest is you know history!!!
+At last he gave me one code and I took around 40 min to solve and explained code I wrote.
+This round went around 1 hr 15 mins. 

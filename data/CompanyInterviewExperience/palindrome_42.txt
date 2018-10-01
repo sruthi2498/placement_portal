@@ -1,0 +1,11 @@
+Convert string S into a palindrome string. You can only replace a character with any other character. When you replace character ‘a’ with any other character, it costs 1 unit, similarly for ‘b’ it is 2 units ….. and for ‘z’, it is 26 units. Find the minimum cost required to convert string S into palindrome string.
+Examples :
+
+The idea is to start comparing from the two ends of string. Let i be initialized as 0 index and j initialized as length – 1. If characters at two indices are not same, a cost will apply. To make the cost minimum replace the character which is smaller. Then increment i by 1 and decrement j by 1. Iterate till i less than j.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

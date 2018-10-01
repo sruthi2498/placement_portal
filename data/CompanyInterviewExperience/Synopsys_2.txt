@@ -1,0 +1,33 @@
+Round 1 :
+——————————–
+1) How can you design a hash which can have million entries with minimising collision?
+2) Clone a binary tree
+3) Relation of certain object are given like :
+A-B, C-D, We need to tell whether two object are related or not.
+Round 2 :
+——————————-
+1) Delete nodes from a tree whose data is same as a given list of integer values.
+After deleting the nodes, prepare forest of those many tress.
+2) Given a value k, need to print all possible balanced paranthesis.
+3) Given a sorted array and a value k which is number of buckets.
+Divide array elements into buckets so that the difference of bucket sum is minimum.
+4) Longest substring of all unique characters.
+5) Given a large number in form of linked list, also given a digit.
+Add the digit to linked list.
+Round 3 :
+——————————–
+1) Detect cycle in a directed graph. Also print the nodes of cycle.
+2) Shortest path between two nodes in directed graph with equal positive edge.
+3) Shortest path between two nodes in directed acyclic graph with different positive edges.
+4) Implement singleton class. Is it thread safe? Make it thread safe.
+5) A derived B, write copy constructor of B.
+6) Write comparator function syntax in map.
+7) Given n files with sorted k entries each. Sort them completely.
+8) 1000 coins/ 10 bags, distribute the coins so that each number can be made between 1 to 1000.
+9) Deep copy/shallow copy.
+10) Count occurences of pattern in string.
+Round 4 :
+——————————————————
+1) Poisened wine bottle puzzle.
+2) Fill numbers from 1 to 8 puzzle.
+3) Egg dropping puzzle.

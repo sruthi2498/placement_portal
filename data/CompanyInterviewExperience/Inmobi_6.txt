@@ -1,0 +1,19 @@
+I had an interview with Inmobi. Their process is written test followed by 3/4 f2f interviews. It was a drive over weekend. 
+Written test:
+They did not expect any code in this round. An algo or pseudo code is fine.
+1)  You are given 2 vessels with capacity M liters and N liters capacity and infinite supply of water. You need to find the minimum number of steps required to get P liters. Any of the below action is considered a step
+     a) Filling vessel with water
+     b) Emptying vessel
+     c) Pouring water from one vessel to another vessel.
+2) Given n sets each containing m integers. You need to create MinDiff set by picking exactly 1 element from each set. The difference between the maximum and minimum elements in the MinDiff set should be minimum.
+eg: for the sets {30, 20, 10, 40},{ 22, 33, 44, 99},{ 16, 17, 18, 19} min diff set is {19, 20, 22}. Max and min elements in MinDiff set are 22 and 19 and their difference is 3.
+Round-I
+1) Little discussion on my project
+2) Given a chessboard and the initial position of horse. If “n” is the number of steps the horse can make then what is probability that it goes out of board ?
+Round-II
+1) you will be given the binary representation of the numbers in the form of 2D array. 
+This means the elements are 1, 4, 10 , 6 and 7.
+A number “n” is given. Let us say that n can be formed by doing bitwise OR operation on rows of given matrix. What is the minimum number of rows that needs to be deleted from the matrix so that “n” can never be formed by doing the OR of the rows.
+If n is 14(01110) then it can be formed by doing r2|r3 or r3|r4. You can prevent n formation either by deleting {r2,r4} or {r3}. But {r3} has least number of elements so it is the required set.
+2) Find the average of mid 50% of elements in the running stream of integers
+I have not cleared round-II so no further questions.

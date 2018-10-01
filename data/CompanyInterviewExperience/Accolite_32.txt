@@ -1,0 +1,23 @@
+Round -1(written)
+20 Online MCQ topics are c, Data Structure and Algorithms, Networks, DBMS,OS
+Round 1(F2F) [1.5 hr]
+Introduce yourself.
+1) Sort array [0,1,1,1,1,0,0,1] do it inplace as well as in O(n) time. While sorting you are not allow to change the orignal ordering of same element.
+2) Find the all pair whose sum in K in an array. eg [-1,2,5,3,2] k=4, O/p is {2,2},{-1,5}
+3) https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
+4) Find the no of rectangles/square in a ChessBoard.
+5) https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+Round 2(F2F) [2.5 hr]
+Discussion On Projects.
+Design a code Parser which checks a c++ program is syntatically correct and memory footprints.(more focus on Loops parsing,conditional Statements, global variables, local Variables)
+Round 3(F2F) [1hr]
+Discussion On Projects.
+Design a machine that generates the glossary of a book.(input is book content and output is word with a one line or two line summary that are extracted from book)
+Round 4[HR] [15 min]
+Tell me about Yourself
+Projects
+Family
+Strengths and Weakness
+Why Accolite.
+
+

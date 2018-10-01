@@ -1,0 +1,5 @@
+BFS(Breadth First Search) is a graph traversal technique where a node and its neighbors are visited first and then the neighbors of neighbors. In simple terms it traverses level wise from the source. First it traverses level 1 nodes (direct neighbors of source node) and then level 2 nodes (neighbors of neighbors of source node) and so on.
+Now, suppose if we have to know at which level all the nodes are at (from source node). Then BFS can be used to determine the level of each node.
+Examples:
+Run on IDE
+Output:

@@ -1,0 +1,20 @@
+Given two strings str1 and str2, find if str1 is a subsequence of str2. A subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements (source: wiki).  Expected time complexity is linear.
+Examples : 
+The idea is simple, we traverse both strings from one side to other side (say from rightmost character to leftmost).  If we find a matching character, we move ahead in both strings. Otherwise we move ahead only in str2.  
+Following is Recursive Implementationof the above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Following is the Iterative Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of both implementations above is O(n) where n is the length of str2.

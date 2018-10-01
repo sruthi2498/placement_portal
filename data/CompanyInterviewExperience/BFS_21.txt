@@ -1,0 +1,3 @@
+Given a directory, print all files and folders present in directory tree rooted with given directory.
+We can iteratively traverse directory in BFS using below steps. We create an empty queue and we first enqueue given directory path. We run a loop while queue is not empty.  We dequeue an item from queue. If the popped item is a directory, get list of all files and directories present in it, add each directory to the queue. If the popped item is a file, we print its name.
+Run on IDE

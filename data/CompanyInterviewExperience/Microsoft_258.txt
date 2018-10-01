@@ -1,0 +1,31 @@
+I received interview call from Microsoft (Bangalore) for CRM team, SDE1 position for 1.5 year experience.
+Round 1: 1 hour
+It was a GD like interview, with multiple people in same room given same question and interviewer was discussing individually with every person.
+Given 2 arays if integers, sort the first array based on order of 2nd array.
+<https://www.geeksforgeeks.org/sort-array-according-order-defined-another-array/>
+I started with brute force approach, then optimized to binary seacrh and then hashmap
+Round 2: 1 hour
+Same as previous round, one interviewer, multiple candidates same question individual discussion.
+If you have a stream of incoming characters, reverse and print the string as soon as input is finished. Write a code for same
+
+Round 3: F2F 1 hour
+One-on-one
+Flatten a multi-level linked list
+<https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/>
+Took a while to solve this one.
+First I used a stack and then formed an algo without stack an without recursion.
+Round 4: F2F 1.5 hour
+A printed sheet of a c-program was given, had to find syntactical and logical error in program. 
+Connect all nodes of a binary tree which are at same level.
+You can not store level information
+<https://www.geeksforgeeks.org/connect-nodes-at-same-level/>
+<I used a variation of level order traversal>
+Round 5: Hiring Manager <1 hour
+Detailed discussion on current work, was grilled a lot
+Reasons to leave current company
+Reasons to join Microsoft
+ and other such questions
+Tips:
+Keep thinking loud and discussing your thought process with interviewer. They will keep giving hints for you to reach solution.
+Find a solution, any solution, and keep optimizing it.
+Hope this helps. 🙂

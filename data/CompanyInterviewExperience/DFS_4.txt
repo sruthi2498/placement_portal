@@ -1,0 +1,9 @@
+Given a tree of N nodes and N-1 edges. The task is to print the DFS of the subtree of a given node for multiple queries. The DFS must include the given node as the root of the subtree.
+
+In the above tree, if 1 is given as the node, then the DFS of subtree will be 1 2 4 6 7 5 3.
+If 2 is given as the node, then the DFS of the subtree will be 2 4 6 7 5.. 
+Approach:  
+ Below is the implementation of the above approach. 
+Run on IDE
+Time Complexity: O( N + M ), where N is the number of nodes and M is the number of edges for pre-calculation and O(N) for queries in worst case.
+Auxiliary Space: O(N)
