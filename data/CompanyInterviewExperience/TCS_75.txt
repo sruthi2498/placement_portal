@@ -1,0 +1,60 @@
+I solved 2 problems in CodeVita 2017.  So I was directly called for interviews trespassing all intermediate rounds. 
+First, they took us to a Hall where we were Introduced about TCS. An experienced employee briefed us about his Journey. 
+There were nearly 200 students out which 60 were from our college. The process started at 12 PM and I was called for an Interview at around 6 in the evening.
+(Sorry to Inform, but don’t think that just because you solved questions on CodeVita you will get through. Be serious and prepared)
+Before discussing my part let me tell you the stuff’s I gathered from those who entered for an Interview before me
+Candidate 1– This guy solved 3 problems in CodeVita. He was asked 3 Questions in the technical round- Write Floyd Warshall Algorithm, Create insert and rotate an AVL tree( write C code), Multiply 3-digit number without pen or paper.
+Candidate 2– This guy solved 1 problem in CodeVita. He was only asked to explain his code. Then from the same set, they asked to print the solution set rather than the solution by slightly twisting the problem.
+Candidate 3– This guy solved 1 problem in TCS CodeVita. He mentioned DBMS as his subject so he was asked to write an Update command in DBMS. And was also asked to explain the code. He was also asked to draw a flowchart of his program.
+Candidate 4– This guy was a stranger. He was asked normal questions. But he wrote BigData and Hadoop in his Resume. So he was asked how BigData helps business, where sentimental analysis is used etc.
+
+My Interview in details:-
+There were 2 panelists sitting( I will represent them as I1 and I2)
+I1- Come, please have a seat
+Me-Thank you, sir
+I1- So tell me what projects have you done?
+Me- Sir my final year project hasn’t been given to us yet, but I have developed a Game in Python, and I have worked on some Front-end development
+I1- Okay, so tell us about your game.
+Me- Explained the Idea of game
+I1- Write some code here which explains something creative that you have done that you want to share.
+Me- (Not prepared for these) wrote a code nervously. Didn’t use PI and random functions for developing a part of the code
+I1- You should use inbuilt functions those are more accurate
+Me- (Trying to cover up) yes sir, actually I forgot to import the Math library and went through the code that’s why I used it.
+I1- Okay, that’s not an Issue
+In I2
+I2- Write the code that you wrote (One of the two)
+Me- Sir, can I ask something?
+I2- ya sure
+Me- I have written a recursive solution in codevita with exponential time complexity. I can produce O(n) complexity by memoization. Should I write the optimized solution or the CodeVita solution?
+I2- (Seemed Impressed) write the optimized solution
+Me- Wrote and explained the solution( in Python)
+I1- Apart from Python which other programming languages do you know?
+Me- Sir, C and Java
+I2- Okay then tell us something about Garbage collector in java
+Me- Told it, with explanation of the finally block
+I2- Okay tell us a situation when the finally block will not be executed?
+Me- (Confused) explained to them how garbage collection and finally works internally. But also mentioned I can’t think of a situation where finally block won’t be executed.
+I2- When you call System.exit() in try block
+Me- I gave a big nod as I recalled it
+I1- Tell us the sorting algorithms you know?
+Me- Bubble, Quick, merge, insertion, selection
+I1- Okay, write algorithm for shell sort
+Me- Somehow wrote had some Idea about it
+I1- write heap sort
+Me- Sir, I won’t be able to write the algorithm, but I can explain how it works
+I1- explain
+Me- explained it
+I2- write bellman ford algo
+Me- wrote
+I1- Insert an element into BST in C
+Me- wrote
+I1- explain
+Me-explained
+I1- can you do it iteratively
+Me- (exhausted) no sir
+I2- Have you worked on any frameworks in the past which involved Database?
+Me- (I did but I didn’t say because I had an Idea that he might ask to explain database connection which I didn’t remember( remember presence of mind is the key))
+I2 to I1-  He is good (in dim voice) do you want to ask anything
+I1 to I2- No, wrote something on my form and sent me to HR
+HR round- Usual discussions about Job, breaking bond, policy, comfortable with relocation etc. 
+Results- Waiting for the PPO

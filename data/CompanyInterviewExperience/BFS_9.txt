@@ -1,0 +1,11 @@
+Given a unweighted graph, a source and a destination, we need to find shortest path from source to destination in the graph in most optimal way.
+unweighted graph of 8 vertices
+One solution is to solve in O(VE) time using Bellman–Ford. If there are no negative weight cycles, then we can solve in O(E + VLogV) time using Dijkstra’s algorithm. 
+Since the graph is unweighted, we can solve this problem in O(V + E) time.  The idea is to use a modified version of Breadth-first search in which we keep storing the predecessor of a given vertex while doing the breadth first search. This algorithm will work even when negative weight cycles are present in the graph.
+We first initialize an array dist[0, 1, …., v-1] such that dist[i] stores the distance of vertex i from the source vertex and array pred[0, 1, ….., v-1] such that pred[i] represents the immediate predecessor of the vertex i in the breadth first search starting from the source.
+Now we get the length of the path from source to any other vertex in O(1) time from array d, and for printing the path from source to any vertex we can use array p and that will take O(V) time in worst case as V is the size of array P. So most of the time of algorithm is spent in doing the Breadth first search from given source which we know takes O(V+E) time. Thus time complexity of our algorithm is O(V+E).    
+Take the following unweighted graph as an example:
+Following is the complete algorithm for finding the shortest path:
+Run on IDE
+Time Complexity : O(V + E)
+Auxiliary Space : O(V)

@@ -1,0 +1,26 @@
+This interview was for the SDE-2 position for logistic management department of amazon. I had applied for this job on naukari.com.
+Round 1:
+
+There was an online codding test on Hackerearth. Two questions were asked. I don’t remember them now.
+Round 2:
+After two weeks they scheduled a telephonic round.
+Question 1: Given a matrix of ‘0’ and ‘1’, find the largest Iceland (i.e area of  ‘1’s)
+https://leetcode.com/problems/max-area-of-island/description/
+Question 2. Design a data structure with constant time for insert, delete, search and getRandom.
+https://www.geeksforgeeks.org/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time/
+I had given solutions for the both.
+Round 3 :
+This was onsite interview at Hyderabad.
+First he asked about my past projects and challenges faced. He then asked if I had designed anything on top of current a system.
+Next a technical question was given;
+Given an array of integers  and a window size ‘k’, find first negative number for each possible window in the array.
+https://www.geeksforgeeks.org/first-negative-integer-every-window-size-k/
+I first gave him a two queue approach(was not optimal), he told to code it on paper. After I wrote the code, he asked to optimize it further. Finally after few iterations, I gave him an optimal two pointer approach.
+My suggestion here is; do not hurry to present your solution to interviewer,   first try to come-up with best optimal solution. For SDE-2 positions they expect optimal solution at the very first place from you.
+Round 4 :
+This was all project and HLD related round.
+There were two interviewers. The first introduced themselves and told about what their group does at amazon.
+He then asked about my role at previous company and past projects I did in brief. Then asked if I have done something like adding new functionality or suggested some improvement for the project that was not asked by customer or manager.
+He then asked me to draw HLD for meeting calendar system. Then there was discussion on various issues on it like scalability, what database should be used; SQL-NoSQL, concurrency etc.
+ 
+All the best guys!

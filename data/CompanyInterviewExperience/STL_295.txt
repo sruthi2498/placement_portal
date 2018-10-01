@@ -1,0 +1,16 @@
+
+Array classes are generally more efficient, light-weight and reliable than C-style arrays. The introduction of array class from C++11 has offered a better alternative for C-style arrays. 
+array::at()
+This function is used to return the reference to the element present at the position given as the parameter to the function.
+Syntax:
+Return: It return the reference to the element at the given position.
+Examples:
+
+Run on IDE
+Output:
+Time Complexity: Constant i.e. O(1). 
+Application:
+Given an array of integers, print integers in alternate fashion starting from 1st position.
+
+Run on IDE
+Output:

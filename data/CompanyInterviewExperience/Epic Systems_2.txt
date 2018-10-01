@@ -1,0 +1,31 @@
+Applied for Epic Systems offshore(Madison, Wisconsin) in December 2014, got the call on 6th January.
+Applied through their career option on their website, IIIT tag will help you get the call.
+Round 1(Introductory Interview – Telephonic)
+The first round took place on 16th January, earlier they asked me about my availability and I responded by providing them a  particular date. The call came from their New Jersey office. It was a normal chit chat about my area of interests, the projects I did, their overview. Then he asked me whether I have any doubts or questions related to the kind of work that Epic does, I asked various questions to which he responded. Came to know that the interviewer was from IIIT H itself(B.Tech).
+Round 2(Online Assessment)
+I was notified through an email about being through the first round and now I have to go through an online assessment exam conducted by ProctorU. They gave a link which was hosted by ProctorU(i suppose it is hiring agency that takes online assessment exams), at that link I had to pick the time for the assessment exam. This round took place on 26th January.
+At the allotted time, I logged in the link given by them and the initial setup took around 30-40 minutes. This includes verifying the identity, verifying the surroundings where I am giving the exam, they monitored me through the cam and I was not allowed to even change the tab.
+The Assessment had 4 parts :
+Part 1 : Quant and Logical Reasoning(Untimed)
+15 questions, MCQ type.
+Part 2 : Technical Ability/Knowledge(Untimed)
+It was somewhat comprehension paragraph kind of section. A new language was designed and rules were written for this new language, according to these rules MCQ type of questions were asked.
+14 questions
+Part 3 : Speed Ability
+You will be given 2 minutes and 10 questions have to be answered. You have to do as much as you can. These questions span from Normal Mathematics to Logical Reasoning. I did 6/10.
+Part 4 : Coding Section(Untimed)
+It comprises of 4 questions that need to be solved. These are standard programming questions with a twist that there’s no Judge, i.e. there won’t be any test cases for you  to test the validity of your solution, you can’t compile/run your code and of course as I mentioned earlier you can’t use your terminal(you have to code in their text area only, this is kind of annoying). But you can write pseudo codes as well instead of actual codes. They will judge how well you can construct algorithms. They don’t judge you on correctness of the program but how you divide and structure your code. Having said that, your code needs to be genuine, i.e. plain structured code which is incorrect won’t let you anywhere, so be judgemental about it. I remember ¾ questions that were asked to me, these were : 
+Questions that were asked to other candidates:
+1. Suppose all months have 30 days. There are 12 months in a year. February would have 31 days in a Leap year. condition for leap year is defined as (year%40==0) is leap, (year%200==0) is not leap, (year%1000==0) is leap. Given a date as MM/DD/YYYY, find the next Leap Day.
+2.  Print matrix in spiral order.
+3.  Given a number, get all possible substrings using the digits of this number and if the product of digits in one subset is same with the another, then return false, else return true. 
+4. To print the perfect ordering string of length N.
+     eg “achq” is one of the example of length 4, since a< cRound 3(Personality Test):
+After 2nd round result, they sent me a link where I have to give a personality test. It was a normal MCQ kind of questions where they gave some common scenarios and I was asked to give my best response to them (took 20-25 minutes). This was not an elimination round.
+Round 4(Technical Interview – Telephonic):
+They gave me one week window to choose 3 options when I will be available.
+On the interview day(23rd February), they called at the precise time, so the interview started with normal questions like How to get the nth node from the end in a Linked List, etc. They asked very normal algorithmic questions. After these, he asked me one project to discuss. I discussed the Search Engine. The discussion spanned from Algorithms used from first phase to the last phase and all the technologies involved. Discussed about the future improvements for the project and in between he kept asking questions related to the project.
+This round took 50-55 minutes.
+Round 5(HR Round – Telephonic)
+Immediately after Round 4, HR called(it was informed to me that Round 4 and Round 5 will be taken back to back). The HR asked the normal questions like : How did you came to know about Epic, why do you want to work in healthcare industry, whether I have any other job offers or not.
+PS : Before applying I would suggest you to read about Epic Systems work environment and the technologies they use on quora, it will help you take decision in case you get selected.

@@ -1,0 +1,40 @@
+Please find the details of my Amazon interviews below. 
+Date of Interviews: 26th July 2012
+No of Rounds: 1 online exam + 4 PI
+Type of Interviews: Campus Interview for freshers
+
+Online test(Time): 90 Minutes
+20 Objective Questions: Aptitude and basic C objective problems.
+2 Subjective Questions:
+I.         Given a linked list containing character in each node, segregate its nodes in such a way that all nodes containing a vowel are moved to the end of the linked list. We will have to maintain the order.
+II.        Parenthesis checker.
+
+Interview Round 1(50 mins)
+Question 1: You are given two linked lists whose nodes contain a digit as data member. Both lists represent a number. You have to add them and return the resultant list.
+Input: 9->9->3->4->5 and 8->9->1 (represent 99345 and 891)
+Output: 1->0->0->2->3->6
+My Solution: Reverse the linked lists. Create the new sum list which is reversed. Finally reverse the resultant list.
+Question 2: Interviewer asked to solve the above question without changing the original lists.
+My Solution:  Count number of nodes in both lists. If equal then simply add two lists recursively. If not then advance a temp ptr which is a pointer to head of larger list by diff of nodes and then add the list pointed by temp and list 2. Make sure to keep track of carry. Add recursively. Propagate the carry in remaining elements of larger list. Was asked to code. Coded it.
+
+Interview Round 2(60 mins)
+Question 1: Delete nth node from end of a linked list in a single scan.
+Question 2: In a linked list, in addition to the next ptr, a random ptr is also present. Clone the linked list.
+Did it in O(n) but by modifying the linked list and then restoring it. Was asked to do it without making any modifications in the original list. Did that in O(n^2)
+Question 3: Two nodes of a BST are given. Print the path from 1st node to the 2nd node. You are also provided the parent pointers in addition to normal left and right pointers.
+
+Interview Round 3(1 hour)
+Question 1: An array of n integers is there in which the range of elements is n, i.e., the difference between maximum and minimum number is n. Find the repeating numbers.
+Question 2: An extension of Question 1. Was asked to find number of times each number is repeated.
+Question 3: There are n frames of m data element each. The data element in each frame is arranged in increasing order. You are provided m*n space in which you have to arrange all data in increasing order.
+My 1st solution was to use merge sort. He modified the question as only O(n) space is there and you need to send data in increasing order as fast as you can.
+My 2nd solution was to use min heap and construct it with the 1st element of all n frames. Min heap also contains extra field which signifies the frame number of data elements. This data structure can do the needful.
+
+Interview Round 4(1 hour)
+Question 1: Replace each element of an array with its greatest next integer in O(n).
+I couldn’t do it. I tried but it didn’t click. Not expected when you are in your last round.
+Question 2: Reverse every k nodes of a linked list.
+Well did that but was not finally selected……. 🙁
+
+This article is compiled by Vinay Khetan. We will be soon publishing Vinay’s Yahoo and Microsoft interviews as separate posts. Vinay was selected in Microsoft. Many Many congratulations to Vinay for his selection. 
+

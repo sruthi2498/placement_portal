@@ -1,0 +1,9 @@
+Apart from the generic looping techniques, such as “for, while and do-while”, C++ in its language also allows us to use another functionality which solves the same purpose termed “for-each” loops. This loop accepts a function which executes over each of the container elements. This loop is defined in the header file “algorithm”, and hence has to be included for successful operation of this loop.
+Syntax:
+Run on IDE
+Output:
+Exceptions and for_each
+In the cases of exceptions, if the function throws an exception, for_each loop will also throw an exception and break/terminate the loop.
+Run on IDE
+Output:
+

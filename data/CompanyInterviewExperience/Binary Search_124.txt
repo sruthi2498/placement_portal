@@ -1,0 +1,11 @@
+Given an array of jobs with different time requirements. There are K identical assignees available and we are also given how much time an assignee takes to do one unit of the job.  Find the minimum time to finish all jobs with following constraints.
+Input :
+Examples : 
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to use Binary Search.  Think if we have a function (say isPossible()) that tells us if it’s possible to finish all jobs within a given time and number of available assignees. We can solve this problem by doing a binary search for the answer. If the middle point of binary search is not possible, then search in second half, else search in first half.  Lower bound for Binary Search for minimum time can be set as 0.  The upper bound can be obtained by adding all given job times. 
+Now how to implement isPossible()? This function can be implemented using Greedy Approach. Since we want to know if it is possible to finish all jobs within a given time, we traverse through all jobs and keep assigning jobs to current assignee one by one while a job can be assigned within the given time limit. When time taken by current assignee exceeds the given time, create a new assignee and start assigning jobs to it.   If the number of assignees becomes more than k, then return false, else return true.
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Thanks to Gaurav Ahirwar for suggesting above solution.

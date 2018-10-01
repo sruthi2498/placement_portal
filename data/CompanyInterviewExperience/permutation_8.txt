@@ -1,0 +1,11 @@
+Given two integers n and k. Consider first permutation of natural n numbers, P = “1 2 3 … n”, print a permutation “Result” such that abs(Resulti – Pi) = k  where Pi denotes the position of i in permutation P. The value of Pi varies from 1 to n. If there are multiple possible results, then print the lexicographically smallest one.
+Naive approach is to generate all the permutation from 1 to n and pick the smallest one which satisfy the condition of absolute difference k. Time complexity of this approach is Ω(n!) which will definitely time out for large value of n.
+ The Efficient approach is to observe the pattern at each position of index. For each position of index i, there can only exist two candidate i.e., i + k and i – k. As we need to find lexicographically smallest permutation so we will first look for i – k candidate(if possible) and then for i + k candidate. 
+Note: If we observe above illustration then we will find that i + k and i – k are alternating after kth consecutive interval. Another observation is that the whole permutation is only when n is even such that n can be divided into two parts where each part must be divisible by k.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(n)
+Auxiliary space: O(1)

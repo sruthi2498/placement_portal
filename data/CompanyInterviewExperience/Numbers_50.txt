@@ -1,0 +1,9 @@
+On dividing 201098 by a certain number, the quotient is 67 and the remainder is 31. Find the divisor.
+(A) 3011
+(B) 3001
+(C) 3021
+(D) 2991
+ Answer: (B) Explanation: Dividend = (Divisor x Quotient) + Remainder
+=> Divisor = (Dividend – Remainder) / Quotient
+=> Divisor = (201098 – 31) / 67 = 3001
+Thus, B (3001) is the correct choice.Quiz of this Question

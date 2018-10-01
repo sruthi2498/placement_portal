@@ -1,0 +1,14 @@
+The C++ function std::algorithm::is_permutation() tests whether a sequence is permutation of other or not. It uses operator == for comparison. This function was defined in C++11.
+Syntax:
+The function considers as many elements of this sequence as those in the range [first1, last1]. If this sequence is shorter, it causes undefined behaviour.
+Run on IDE
+Output:
+Other approach to find if arrays are equal or not is discussed here .
+Another Example: Check whether two strings are anagram of each other
+Run on IDE
+Output:
+Other approach to Check whether two strings are anagram of each other is discussed here .
+Versions of std::permutation
+Examples:
+Run on IDE
+Reference : Official C++ Documentation for std :: is_permutation

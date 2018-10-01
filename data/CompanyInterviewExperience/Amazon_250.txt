@@ -1,0 +1,24 @@
+Given an array, arr[] find the maximum value of (arr[i] – i) – (arr[j] – j) where i is not equal to j. Where i and j vary from 0 to n-1 and n is size of input array arr[].
+Examples:
+
+One important observation is, value of (arr[i] – i) – (arr[j] – j) can never be negative. We can alway swap i and j to convert a negative value into positive. So the condition i not equal to j is bogus and doesn’t require explicit check.
+
+Method 1 (Naive : O(n2))
+The idea is to run two loops to consider all possible pairs and keep track of maximum value of expression (arr[i]-i)-(arr[j]-j). Below is the implementation of this idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Method 2 (Tricky : O(n))
+1) Find maximum value of arr[i] – i in whole array.
+2) Find minimum value of arr[i] – i in whole array.
+3) Return difference of above two values.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

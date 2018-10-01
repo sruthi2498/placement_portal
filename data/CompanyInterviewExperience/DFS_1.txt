@@ -1,0 +1,11 @@
+Given an undirected and unweighted graph. The task is to find the product of the lengths of all cycles formed in it.
+Example 1:
+
+The above graph has two cycles of length 4 and 3, the product of cycle lengths is 12.
+Example 2:
+
+The above graph has two cycles of length 4 and 3, the product of cycle lengths is 12.
+Approach: Using the graph coloring method, mark all the vertex of the different cycles with unique numbers. Once the graph traversal is completed, push all the similar marked numbers to an adjacency list and print the adjacency list accordingly. Given below is the algorithm:
+Below is the implementation of the above approach: 
+Run on IDE
+Time Complexity: O(N), where N is the number of nodes in the graph.

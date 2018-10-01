@@ -1,0 +1,14 @@
+Click here for Set 1 and Set 2 of Vectors.
+ 
+ 
+Iterator lower_bound (Iterator first, Iterator last, const val)
+Iterator upper_bound (Iterator first, Iterator last, const val)
+ 
+lower_bound returns an iterator pointing to the first element in the range [first,last) which has a value not less than ‘val’.
+ 
+upper_bound returns an iterator pointing to the first element in the range [first,last) which has a value greater than ‘val’.
+ 
+ 
+Run on IDE
+ 
+Output :

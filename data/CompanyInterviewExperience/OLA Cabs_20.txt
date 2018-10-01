@@ -1,0 +1,19 @@
+I was recently interviewed for SDE 2 position at OlaCabs. 
+Round 1 (around 1 hour)
+Design and implement a logging library. Preferred language was Java.
+– There can be multiple appenders – like file, network, db etc. Should be easy to add appenders.
+– Library should be easily configurable.
+– Message format should be configurable.
+– Logger should not add additional overhead.
+– Must log to all appenders simultaneously.
+Round 2 (around 1 hour)
+Discussion on the design and the code you have written in round 1.
+Was asked questions like concurrency handling etc.
+Round 3 (1 hour)
+– Application monitoring – how will you handle data coming from various applications?
+– Ola operates within city limits (a fixed area). How to determine a user is inside that area and then show him available cabs. (Simpler problem is how to determine whether a point is inside a ploygonor not).
+– Given an array containing 0,1,2. Sort them maintaining the order in which they were in the original array.
+Round 4(Managerial Round – 45 mins)
+Basic questions like – your strengths, weeknesses, best moment, worst moment, why want to change, why ola?
+Overall it was a good experience. 
+

@@ -1,0 +1,12 @@
+std::min is defined in the header file  and is used to find out the smallest of the number passed to it. It returns the first of them, if there are more than one.
+It can be used in following 3 manners:
+The three versions are as defined below:
+Syntax:
+Run on IDE
+Output:
+Syntax:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Related Articles:

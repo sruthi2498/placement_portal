@@ -1,0 +1,12 @@
+The atanh() is an inbuilt function in C++ STL which returns the inverse hyperbolic tangent of an angle given in radians.
+Syntax:
+Parameter: This function accepts one mandatory parameter x which specifies the inverse hyperbolic angle in radian which lies in the range [-1, 1]. The parameter can be of double, float or long double datatype. 
+Return Value: This function returns the inverse hyperbolic sine of the argument in radians depending on the parameter passed in the argument. The different return values are given in the table below:
+
+Below programs illustrate the above method: 
+Program 1:
+Run on IDE
+Errors and Exceptions: The function returns a no matching function error message when a string or any other data_type except the one which the function excepts is passed. 
+Program 2:
+Run on IDE
+Output:

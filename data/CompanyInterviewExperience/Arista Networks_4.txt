@@ -1,0 +1,17 @@
+Arista Networks came to our campus. Initially, all the branches were allowed and the percentage criterion was 60%. But in the subsequent round, students from only COE, IT were shortlisted. For the next round we were asked to give our resumes and percentages. Students were then shortlisted based on these two. It was apparent that the percentage criterion was updated to 70-75% (as only the students having above 70-75% were selected).
+The next round was online coding round on Hackerrank platform. 4 questions were asked ( 1 was very easy but the rest 3 were more of comprehension type and were relatively difficult ). Those who were able to do more than 2 were selected for the next round (PS: Only 4 were selected)
+The final round was interview round. We got interviewed for 1-1.5 hours each. The interviewer asked us questions about DS and Algorithms. We were asked to write code and check it.
+
+Interview Questions:
+1) Tell me the differences between insertion sort and quick sort. When would we use insertion sort over quick sort?
+2) If you are given a small pattern of bits which is to be searched in potentially infinite ,continuous text of bits. How will you search the pattern? Remember the text cannot be stored since it is potentially infinite in length and the bits are coming one by one.
+Follow up question –
+Now if the pattern length can be between 500-12000 bits. How will you do the above question in O(n) time?
+(Hint – Think of pattern as int and compare it one by one)
+3) How are files and directories organised in a Linux system? How will you implement it in C. Design a data structure for it.
+Now you are given a parent directory in which new directory is to be inserted. How will  you do it?
+Write a search function for the above data structure that searches for a given directory in all the directories.
+4) Questions on deadlocks, process synchronisation etc.
+What do you know about Arista? What work do we do? Do you have any questions?
+Finally 3 were selected amongst us.
+

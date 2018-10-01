@@ -1,0 +1,42 @@
+Hi, Recently I was interviewed by Symantec.
+Round 1, Telephonic, 1 Hour 
+1) Project related stuff from current company and from internship, all the questions were from Resume itself.
+2) OOPS using C++, was asked almost everything from definition of class to pure virtual functions.
+3) Basic Linux commands
+4) General bootup process when computer is turned ON.
+Round 2, Online(Screen shared), 1.5 Hours
+1) Function to reverse a string.
+2) How to implement fopen, fseek and other file handling functions in Linux, went to discuss various techniques and various constraints like handling a large file.(Almost discussed it for 50 mins)
+3) Converting a number from one base to another, like decimal to hex, binary to hex etc etc
+Round 3, Online(Screen shared), 1.5 Hours
+1) How to handle the case when we have a if statement in the macro.
+http://stackoverflow.com/questions/154136/do-while-and-if-else-statements-in-c-c-macros
+2) https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+3) calX(n) = calX(n-1)*calX(n-2)+calX(n-3), for n > 3
+    calX(n) = n, for n<=3
+    Upto what value of n we can find the correct value of calX(n) in C++
+4) Hex representation of -17
+5) Xor of 0xFE and 0xEF
+6) http://www.geeksforgeeks.org/find-the-missing-number/
+7) Basic questions on networking like:-
+    a) IP address, Static IP, Dynamic IP
+    b) DHCP, TCP, UDP
+    c) HTTP, Subnet Mask
+8) Number of nodes having NULL children in binary tree with N nodes and reason for this value.
+Round 4, Online(Screen shared), 1 Hour 40 Mins
+1) Design a class Elevator, should be scalable.
+2) Lot of concepts of C++ and comparison with C
+3) Same question from Round 3, about the if statement in Macros
+4) One line codes, which can cause runtime exceptions
+5) Design Patterns(Strategy, Observer and Singleton)
+6) http://math.stackexchange.com/questions/183282/puzzle-there-are-two-lengths-of-rope
+Round 5, Telephonic, 35 mins, Director of Engineering
+1) Brief intro about projects.
+2) Discussion about my future interests.
+3) Where do I see myself, 5 years from now.
+4) Cloud computing
+5) What was the hardest challenge I faced in my current project
+6) Which all software practices that I follow in my current project
+After this I got a mail from HR, that I was not selected.
+It was a sad but nice experience.
+I thank geeksforgeeks which helped a lot in my preparation.

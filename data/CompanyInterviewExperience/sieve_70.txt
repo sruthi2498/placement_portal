@@ -1,0 +1,11 @@
+Given an array arr[], find nearest element for every element such that there is at least one common prime factor. In output, we need to print position of closest element.
+Naive approach
+Common prime factor will only exist if GCD of these two numbers will greater than 1. Simple brute force is to run the two loops one inside the another and iterate one by one from each index to both the sides simultaneously and find the gcd which is greater than 1. Whenever we found the answer then just break the loop and the print. If we reached the end of array after traversing both the sides then simply print -1.
+Run on IDE
+Time complexity: O(n2)
+Auxiliary space: O(1)
+Efficient Approach
+We find prime factors of all array elements. To quickly find prime factors, we use Sieve of Eratosthenes. For every element, we consider all prime factors and keep track of closest element with common factor.
+Run on IDE
+Time complexity: O(MAX * log(log (MAX) ) )
+Auxiliary space: O(MAX)

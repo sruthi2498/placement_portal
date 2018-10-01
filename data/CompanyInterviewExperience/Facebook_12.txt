@@ -1,0 +1,14 @@
+Given two numbers as strings. The numbers may be very large (may not fit in long long int), the task is to find sum of these two numbers.
+Examples:
+
+The idea is based on school mathematics.
+
+We start from last digit of second number multiply it with first number. Then we multiply second digit of second number with first number, and so on. We add all these multiplications. While adding, we put i-th multiplication shifted.
+The approach used in below solution is to keep only one array for result. We traverse all digits first and second numbers in a loop and add the result at appropriate position.
+Run on IDE
+Output:
+The above code is adapted from the code provided by Gaurav.
+Time Complexity : O(m*n), where m and n are length of two number that need to be multiplied.
+Related Article : 
+Karatsuba algorithm for fast multiplication
+

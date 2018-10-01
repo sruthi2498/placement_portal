@@ -1,0 +1,12 @@
+A number is said to be sandwiched between primes if the number just after it and the number just before are Prime numbers. So, a sandwiched number is between two prime numbers.
+Given a number n, we need to check whether this number is sandwiched between primes or not.
+Examples:
+
+The idea is simple, we check if n-1 and n-2 are prime numbers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

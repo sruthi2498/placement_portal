@@ -1,0 +1,9 @@
+The forward_list::resize() is an inbuilt function in C++ STL which changes the size of forward_list. If the given size is greater than the current size then new elements are inserted at the end of the forward_list. If the given size is smaller than current size then extra elements are destroyed.
+Syntax:
+Parameter: The function accepts only one mandatory parameter n which specifies the new size of the forward list. 
+Return value: The function does not return anything.
+Below programs illustrates the above function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

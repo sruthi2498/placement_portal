@@ -1,0 +1,24 @@
+Given a binary tree, print nodes of extreme corners of each level but in alternate order.
+Example:
+
+For above tree, the output can be
+1 2 7 8 31
+– print rightmost node of 1st level
+– print leftmost node of 2nd level
+– print rightmost node of 3rd level
+– print leftmost node of 4th level
+– print rightmost node of 5th level
+OR
+1 3 4 15 16
+– print leftmost node of 1st level
+– print rightmost node of 2nd level
+– print leftmost node of 3rd level
+– print rightmost node of 4th level
+– print leftmost node of 5th level
+
+The idea is to traverse tree level by level. For each level, we count number of nodes in it and print its leftmost or the rightmost node based on value of a Boolean flag. We dequeue all nodes of current level and enqueue all nodes of next level and invert value of Boolean flag when switching levels.
+Below is C++ implementation of above idea –
+Run on IDE
+Output:
+Time complexity of above solution is O(n) where n is total number of nodes in given binary tree.
+Exercise – Print nodes of extreme corners of each level from bottom to top in alternate order.

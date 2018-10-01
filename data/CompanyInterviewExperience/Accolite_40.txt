@@ -1,0 +1,13 @@
+Given an array of integers print the missing elements that lie in range 0-99.  If there are more than one missing, collate them, otherwise just print the number.
+Note that the input array may not be sorted and may contain numbers outside the range [0-99], but only this range is to be considered for printing missing elements.
+Examples :
+Expected time complexity O(n), where n is the size of the input array.
+The idea is to use a boolean array of size 100 to keep track of array elements that lie in range 0 to 99.  We first traverse input array and mark such present elements in the boolean array.  Once all present elements are marked, the boolean array is used to print missing elements. 
+Following is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of the above program is O(n).
+

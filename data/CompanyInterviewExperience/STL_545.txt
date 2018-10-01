@@ -1,0 +1,13 @@
+We are given an array of n distinct numbers, the task is to sort all even-placed numbers in increasing and odd-place numbers in decreasing order. The modified array should contain all sorted even-placed numbers followed by reverse sorted odd-placed numbers.
+Note that the first element is considered as even because of its index 0. 
+Examples:
+The idea is simple, we create two auxiliary arrays evenArr[] and oddArr[] respectively. We traverse input array and put all even-placed elements in evenArr[] and odd placed elements in oddArr[]. Then we sort evenArr[] in ascending and oddArr[] in descending order. Finally copy evenArr[] and oddArr[] to get the required result.
+Run on IDE
+Output:
+Time Complexity : O(n Log n)
+Space Complexity : O(n)
+The above problem can also be solve without use of Auxiliary space. The idea is to swaps first half odd index positions with second half even index positions and then sort the first half array in increasing order and second half array in decreasing order. Thanks to SWARUPANANDA DHUA for suggesting this.
+Run on IDE
+Output:
+Time Complexity : O(n Log n)
+Space Complexity : O(1)

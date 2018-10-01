@@ -1,0 +1,10 @@
+Prerequisite : Priority Queue, Comparator
+Priority Queue is like a regular queue, but each element has a “priority” associated with it. In a priority queue, an element with high priority is served before an element with low priority. For this, it uses a comparison function which imposes a total ordering of the elements.
+The elements of the priority queue are ordered according to their natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used
+
+Constructors :
+
+Sample code provided illustrates students with high priority(based on cgpa) are served before the students having low cgpa. 
+
+Run on IDE
+Note : This type of Priority queue is preferred in scenarios where customized ordering is required, i.e when one wants a different sorting order, then one can define its own way of comparing instances. Comparator can be implemented if there is a more complex comparing algorithm, e.g. multiple fields and so on.

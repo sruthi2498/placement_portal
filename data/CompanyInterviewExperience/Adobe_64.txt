@@ -1,0 +1,44 @@
+Round 1: Online Round 60 min.
+8-9 Questions where asked.
+6 Aptitude Questions: (1 point each)
+2 coding questions:( 2 points each) (only pseudo code) 
+1: Given the ID, starting time and ending time of racers, Output the no. of racers whose starting time is greater and ending time is less than a racer.
+2: Given a BST output the rank of the an element in that tree in less than O(n) time.
+Rank of an element is the index of element when all the elements of the tree are in sorted order. eg 4 5 6 7 8 ; rank of 5 is 1, rank of 4 is 0;
+1 Writing Question ( 3 points)
+Imagine that self driving technology has been achieved. Describe the ecosystem surrounding such a world and what technological break-through do you think that would have evolved by that time.
+Around 15 students were shortlisted based on the Cumulative of score in first round and C.G.P.A
+
+Round 2 (Telephonic Interview) 30 min.
+First of all he asked me to Introduce myself.
+Then he asked configuration of my laptop.
+Interviewer : A recursive function has no termination condition. What will happen when it runs.
+Me: Stack overflow.
+Interviewer: Given a simple recursive function which calls itself:
+How long will it run in your laptop.
+Me: I asked for certain assumptions.
+1st: what stack space shall I assume?
+Interviewer: Half of RAM.(4 GB)
+Me: 2nd: I further assumed 4 bytes are required for addressing.
+time = (4 GB/ 4 Byte)/frequency; frequency-> processor speed (2.0 GHz)
+This is not accurate solution… accuracy involves lot other parameters.
+He was just checking my Approach that how I solve the problem.
+He further asked me about my favorite subject. I said Data Structures.
+He didn’t ask me even a single question related to data structures.
+Interviewer: What other courses have you done,.. Have you done OS?
+Me: yes.
+Then he asked to differentiate b/w Process and Threads.
+Further he asked .. Given an array of 1000 elements.Elements are multiplied in a for loop from 1 to thousand.
+Time of execution is x milliseconds. How will you reduce x?
+I thought a few mins .. didn’t make out anything… then he gave a hint: During the time program was running, CPU performance was 50%.
+Then I said use threads or fork to multiply first half in one thread and other half in another thread. Multiply the results from both the threads.
+He further asked: Which one is better, fork of thread?
+I answered Threads.
+Interviewer: There is box and in that box there are real numbers ranging from 1 to 10. What is the probability of getting 2 out of that box.
+Ans: Firstly I answered 1/10 .. then he repeated the question … then I answered 0.
+Interviewer: Does that mean we can’t ever get 2 when I take a number out of that box.
+Me: I said no, we can get but its probability is tending to zero.. very low probability.
+Interviewer: You have got 1 last minute. How will you explain Internet in 1 minute.
+I explained a bit then he asked Is there a central authority which runs Internet?
+I sain no.
+End of Interview.

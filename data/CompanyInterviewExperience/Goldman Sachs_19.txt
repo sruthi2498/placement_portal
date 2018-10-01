@@ -1,0 +1,22 @@
+Our college was recently visited by Goldman Sachs. The internship process started with a technical round hosted on hackerrank consisting of 8 MCQ’s of 10 marks each with questions from Data Structures, Operating Systems and Strategical Mathematics. The MCQ’s had a negative marking of 2. There was also a coding question same as this.
+28 out of 205 were selected for the interview.
+Round 1:
+I was asked to write the program for Kth smallest element in an array. I gave her the QuickSelect approach from here. But she asked me to reduce its complexity. I thought but couldn’t come up with an approach. I guess she was looking for this.
+Then she asked me given two strings consisting only of small alphabets where the all the characters are same irrespective of the number of occurrences except for one extra alphabet in the second string. I gave her the hashing approach but she asked me to do it without using any array or maps etc. I then gave her the bit manipulation approach where I will make the 1st, 2nd….26th bit 1 if character is ‘a’, ‘b’…’z’ respectively. She was impressed by that idea.
+She then asked me about Operating System and Locks(DBMS).
+13 people passed this round.
+Round 2:
+I was asked two puzzles and I already knew the answer to both of them. So, I told him directly the answer and explanation and the fact that I had read those puzzles before. He praised my honesty. He also asked a few questions on my projects and extracurricular activities. The puzzles were as follows-
+1- This
+2- 12 identical looking balls are there out of which 11 are of same weight except for 1 which can be heavier or lighter. How many minimum comparisons would it take to figure out the defective one? Solution.
+The interviewer was very friendly.
+7 people passed this round.
+Round 3:
+I was asked questions related to my project and also how would I bring about the changes that she proposed in my project. She then asked me a basic string question- Given a string as “gggeeeekks” give the output as “3g4e2k1s”. She then asked me a puzzle which she said that no one was able to solve that day consisting of a 4×4 matrix with one missing number and we have to find that missing number. I tried for a few minutes trying to search for all patterns but couldn’t solve it.
+4 people including me were selected for the internship.
+Tips-
+-Be confident about the answers you give.
+-Even if you can’t think of the optimal approach don’t quit and give the approach you can think of.
+-Try to write as clean code as possible.
+-If the interviewer asks you if you have any questions. Never say NO.
+I want to thank GeeksforGeeks for preparing such an awesome collection which helped me pass the interview.

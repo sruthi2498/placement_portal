@@ -1,0 +1,44 @@
+Recently I appeared in interview for MTS-1 Adobe.  Here is my experience.
+Written Round:  Very easy aptitude Questions on geometry, DI, profit loss etc.
+Main are the coding questions which were:
+1.       Paranthesis matching
+2.       Row with maximum 0s in a matrix with 0s and 1s where in each row 0s come before 1s
+3.       Multiply two numbers without using * operator and minimum number of additions
+4.       Check if a number is palindrome
+5.       Check if given sum is available in array.
+Also there are 3-4 OS questions on memory management and synchronization.
+F2F Round 1:
+All the interviewers were very sweet. First interviewer asked me about my  present role in the company and the technologies I use. The requirement was for Java, Spring, Hibernate and jsp. And these are the technologies that I had been working on so I had an edge. He asked me about Hibernate. Why we use hibernate? What alternatives we have? Why spring? Dependency injection? I explained with an example.  It was a long discussion.
+Java Question:
+No coding Questions were asked in this round.
+F2F Round 2:
+Tell me about yourself.
+Rate yourself in C,C++ and in java .
+How confident are you in java? Then he started asking conceptual Questions in java. Exceptions in java. Checked and unchecked exception. Little discussion on that.
+If exception is thrown in finally block what will happen?
+Ans: The exception goes up the call stack.
+What are the cases in which finally block wont be executed?
+Ans: jvm crash or exit command in try.
+Output of this question? Ans: static inner class can access only static members of outer class. So this will give compile time error.
+Final Keyword in java. Output Q on that.
+Abstract class Vs interface. When to use what. How it works?
+He then asked about my project and how client and server communicate. REST APIS related Questions.
+Coding Q: Given inorder and postorder traversal make the actual tree.
+Find the longest distance between two nodes in a tree.
+He asked me if I had any questions. I asked about the work I was being interviewed for. What it is and where it is used.
+F2F Round 3:
+Tell me about yourself and your role in the company. What does your company do? Which project are you proud of and why? I told about a project that I had done individually. He asked everything about that project starting from the use case to technologies used.
+How will you find out in a program that system is 32 bit/64bit. Ans: sizeof(viod*)
+Implement your own collection class
+Why do you want to join Adobe? And why leaving the current job in less than a year.
+Find Local minima in a array
+Print right view of a binary tree.
+F2F Round 4: (Director Round)
+We spoke a great deal about my present work and the work that they do.
+Design a DS which does push, pop and min in O(1)
+K arrays each of size n is given. Merge them in minimum time complexity. Space is not a problem. Before the solution he wanted the exact equation and the time complexity. Then the code.
+Note: in all the interviews they asked to write a code in such a way that its going in production today.
+HR round:
+He asked how were the interview rounds according to you. He then asked current CTC and expected CTC. He was very friendly. He asked me to tell about myself. Things that distinguish me. He told about the awesome Adobe campus and the food and games and gym. Why you want to join us, etc. 
+
+

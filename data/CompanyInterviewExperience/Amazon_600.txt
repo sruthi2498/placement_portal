@@ -1,0 +1,24 @@
+Amazon SDE1 Off campus
+Written Round
+1. Given an array in which elements are first increasing and then decreasing. find the maximum element in the array.
+2. Given an array of unsorted elements, find the minimum difference between any 2 elements in the array.
+1st f2f
+Discussion about my projects (nearly 20 mins)
+1. Given an array of positive numbers, find the maximum sum of a subsequence with the constraint that no 2 numbers in the sequence should be adjacent in the array. (extended to negative numbers)
+2.Write a function to print the level order traversal of a binary tree in spiral form.
+2nd f2f
+Small discussion about my projects
+1.Write a function to find the next smallest palindrome number of the given number. for example: if given number is 12345, then the next smallest palindrome is 12421.
+2.Given 2 strings str1 and str2. What is the efficient way to navigate from str1 to str2? The constraints are i) a string can be changed to another string by changing only one character. ii) all the intermediate strings must be present in dictionary. If not possible, return “not possible to navigate from str1 to str2”. (pre-processing is allowed and enough memory is available). for example: str1 = feel and str2 = pelt, then the navigation is feel -> fell -> felt -> pelt (Hint: Graph)
+3rd f2f
+Discussion about my projects (nearly 20 mins)
+1. Given two numbers represented by two linked lists, write a function that returns sum list. The sum list is linked list representation of addition of two input numbers. It is not allowed to modify the lists. Also, not allowed to use explicit extra space.
+2. Given a matrix of characters and a string, find whether the string can be obtained from the matrix. From each character in the matrix, we can move up/down/right/left. for example, if the matrix[3][4] is
+and the string is follow, then the function should return true.
+4th f2f Hiring Manager
+Deep discussion about my current project (nearly 45 mins)
+(application architecture, challenges faced and a lot of technical discussion)
+1. Write a program to check whether the given binary tree is BST.
+5th f2f Bar Raiser
+Deep discussion about my current project (challenges faced, etc) nearly 20 mins
+Deep discussion on REST api authentications (Hash key vs Encryption & Decryption) nearly 20 mins

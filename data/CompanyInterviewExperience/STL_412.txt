@@ -1,0 +1,13 @@
+Basics of Binary Search
+std::bsearch searches for an element in a sorted array. Finds an element equal to element pointed to by key in an array pointed to by ptr.
+If the array contains several elements that comp would indicate as equal to the element searched for, then it is unspecified which element the function will return as the result.
+Syntax :
+Implementing the binary predicate comp :
+Run on IDE
+Implementation
+Run on IDE
+Output:
+Where to use :Binary search can be used on sorted data where a key is to be found. It can be used in cases like computing frequency of a key in a sorted list.
+Why Binary Search? 
+Binary search is much more effective than linear search because it halves the search space at each step. This is not significant for our array of length 9. Here, linear search takes at most 9 steps and binary search takes at most 4 steps. But consider an array with 1000 elements, here linear search takes at most 1000 steps, while binary search takes at most 10 steps.
+For 1 billion elements, binary search will find our key in at most 30 steps.

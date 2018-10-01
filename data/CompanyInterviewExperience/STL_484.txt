@@ -1,0 +1,28 @@
+insert() is used to insert characters in string at specified position. It supports various syntaxes to facilitate same, here we will describe them.
+Syntax 1: Inserts the characters of str starting from index idx.
+Run on IDE
+Output:
+Syntax 2: Inserts at most, str_num characters of str, starting with index str_idx.
+Run on IDE
+Output:
+Syntax 3: Inserts the characters of the C-string cstr so that the new characters start with index idx.
+Note:  cstr may not be a null pointer (NULL).
+Run on IDE
+Output:
+Syntax 4: Inserts chars_len characters of the character array chars so that the new characters start with index idx.
+Note : chars must have at least chars_len characters.
+Run on IDE
+Output:
+Syntax 5: Inserts num occurrences of character c at the position specified by idx.
+Run on IDE
+Output:
+Syntax 6: Inserts num occurrences of character c at the position specified by iterator pos.
+Run on IDE
+Output:
+Syntax 7: Inserts a copy of character c before the character to which iterator pos refers.
+Run on IDE
+Output:
+Syntax 8: Inserts all characters of the range [ beg,end ) before the character to which iterator pos refers.
+Run on IDE
+Output:
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks(We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

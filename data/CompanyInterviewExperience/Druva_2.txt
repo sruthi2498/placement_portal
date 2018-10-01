@@ -1,0 +1,23 @@
+Recently I got a chance to give interview at druva Pune. They ask some decent interview questions. I am going to include all questions that were asked to me and my friends.
+They follow the same interview process : 1 coding round + 1 telephonic + 3 Technical + 1 Hiring Manager + 1 HR
+Questions asked in different rounds in random order ->
+1) Calculate the days between two dates
+2)Find most k frequent words in a file.
+3)Remove duplicate lines from a file.
+4) Given a sentence, appends the duplicates words in the end but in reverse order.
+5) Find a point where maximum interval overlaps.
+6) Find a loop in linked list.
+7) Reverse a linkedlist in size of K.
+8) Check is a tree is BST or not.
+9)One simple bitwise question
+10) Value of j?
+Run on IDE
+11) How threads communicating on a multi-core processor?
+12) What is the use of multithreading on single core CPU?
+13) What are demand loading and thrasing?
+14) What happens when you type google.com in the browser?
+15) How packet travels from source to destination?
+16) Implement strtok in c.
+17 )Dutch nation flag implementation.
+18) When would you choose process over the thread?
+Thank you GFG 🙂

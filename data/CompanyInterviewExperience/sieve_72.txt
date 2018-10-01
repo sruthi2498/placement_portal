@@ -1,0 +1,13 @@
+There are Q  queries. Each query is of the form of L and R. The task is to output sum of number of prime factors of each number in the given range of each query.
+Examples:
+
+Method 1 (brute force):
+The idea is to traverse from L to R for each query, and for each number find the number of prime factor and add to the answer.
+Method 2 (efficient approach):
+The idea is to use the Sieve of Eratosthenes method for counting the number of prime factor of composite numbers. Just like, the inner loop of Sieve of Eratosthenes is used to mark composite number. We can use it for incrementing the prime factor of numbers. Instead of marking each array cell as 0 or 1, we can store the number of prime number of that index. And then for each query, find the sum of array from L to R.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+

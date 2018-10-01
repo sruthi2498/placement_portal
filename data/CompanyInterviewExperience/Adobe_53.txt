@@ -1,0 +1,20 @@
+Given Postorder and Inorder traversals, construct the tree.
+Examples:
+We have already discussed construction of tree from iven Inorder and Preorder traversals. The idea is similar.
+Let us see the process of constructing tree from in[] = {4, 8, 2, 5, 1, 6, 3, 7} and post[] = {8, 4, 5, 2, 6, 7, 3, 1} 
+1) We first find the last node in post[]. The last node is “1”, we know this value is root as root always appear in the end of postorder traversal.
+2) We search “1” in in[] to find left and right subtrees of root.  Everything on left of “1” in in[] is in left subtree and everything on right is in right subtree. 
+3) We recur the above process for following two.
+….b) Recur for in[] = {6, 3, 7} and post[] = {6, 7, 3}
+…….Make the created tree as right child of root.
+….a) Recur for in[] = {4, 8, 2, 5} and post[] = {8, 4, 5, 2}.
+…….Make the created tree as left child of root.
+Below is C++ implementation of above idea.  One important observation is, we recursively call for right subtree before left subtree as we decrease index of postorder index whenever we create a new node.
+
+Run on IDE
+Run on IDE
+Output : 
+Time Complexity : O(n2)
+Optimized approach: We can optimize the above solution using hashing (unordered_map in C++ or HashMap in Java). We store indexes of inorder traversal in a hash table. So that search can be done O(1) time.
+Run on IDE
+

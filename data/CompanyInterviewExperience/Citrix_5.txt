@@ -1,0 +1,34 @@
+Round 1 (Written Test)-
+Online test conducted on HackerRank platform.Around 300 students appeared for this round. It consisted of 2 sections, each 1 hour long.
+Section 1 consisted of 50 MCQs ranging from OOPS concepts,OS,Networking,Quant and Data Structures.
+Section 2 consisted of 2 coding questions:
+Q1. Given a number, you need to check whether any permutation of the number is divisible by 8 or not. Print Yes or No accordingly.
+Eg.- I/P- 46.  O/P- Yes. Since 64 is divisible by 8.
+I/P- 345. O/P- No. Since neither of 345,354,435,453,534,543 is divisible by 8.
+Q2. Given a matrix of 1s and 0s, rewrite the matrix such that it consists of distance matrix from the original positions of 1s.
+
+Round 2 (Technical Interview: 45 mins)-
+45 students were shortlisted for this round.
+The interviewer asked me to introduce myself and help him run through my resume. He then asked me if I liked coding which I answered in affirmative. He then asked me to code the following questions:
+Q1. Given a n*n matrix, print the matrix in spiral form. https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+Q2. Given a binary tree, print the tree in spiral form. https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+Q3. Given a 2d array, print the maximum contiguous sum. https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+He asked me to dry run the codes and made sure that it all worked efficiently. Once he was satisfied with the codes, he shifted to Operating Systems. 
+What is a deadlock? How can you make sure that deadlock doesn’t occur? What is Banker’s algorithm? What is Reader-Writer problem?
+He also asked me a couple of questions from Networking which I can’t recall.
+Round 3 (Technical Interview: 40-45 mins)-
+26 students were shortlisted for this round.
+The interview began very casually with the interviewer asking me to tell him some special attractions about my hometown. After which, he moved to more important parts of my resume.
+He asked me about my internships and also asked some questions related to that. Following which he asked me to briefly explain the academic project I had undertaken in my course.
+He then asked me to code the following question: Given 2 arrays of fixed size 8 and 4 consisting of 4 integers each in the sorted order, merge the 2 arrays without using any extra memory. Initially I solved this question by starting from the front and shifting the elements accordingly. The interviewer then asked me to improve the complexity and even suggested to start from the back. I managed to solve it almost immediately once I got the hint.
+He then shifted his attention to OS and Networking. What is TCP Three-Way Handshake? What happens when you enter a website on your browser(DNS Server)? What do you mean by synchronization? How do you overcome a deadlock state?
+
+Round 4 (HR Interview 20-25 mins)-
+The interviewer quickly ran through my results until this round and gave me a nice smile and said I had been doing good so far.
+He began with the usual question, “Tell me about yourself?”
+He then asked me why there was a drop in my CGPA from the 5th to the 6th semester. I had been dreading this question but managed to get past it.
+He then asked me where I saw myself in the next 5 years. He then asked me if I had any plans of any Masters degree. 
+Finally, 13 students were selected and were given Job offers. Overall it was a nice experience.
+Tips/Advices- MCQs are equally important as the coding questions. There are students who managed to qualify without solving any coding question while people who had solved 1 question lost out. They don’t always look for the correct answer but look for the approach and how does one think when given a challenge. Make sure to be thorough with your CV,especially projects and internship. Don’t write anything that you are not confident about, it leaves a bad impression if you aren’t able to answer questions related to it.
+Interviewers are really friendly and make sure that you are comfortable. 
+Thank you Geeks for Geeks. This wouldn’t have been possible without you.

@@ -1,0 +1,9 @@
+The unordered_multimap::hash_function() is a built-in function in C++ STL which is used to get the hash function. This hash function is a unary function which takes a single argument only and returns a unique value of type size_t based on it.
+Syntax:
+Parameter: The function does not accept any parameter.
+Return Value: The function returns the hash function. 
+Below programs illustrate the unordered_multimap::hash_function() function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

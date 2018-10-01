@@ -1,0 +1,43 @@
+I attended interview at Brocade for the post of Software Engineer (0-2.5 years experience). Some 200+ people had walked-in and it was a pretty large gathering. Though location pointed in Google Maps was right, the route for vehicle driving was wrong. So take care to start early.
+First we had a written round è 15 Aptitude Questions + 25 Technical Questions. One hour time and no Negative Marking.
+Aptitude questions were easy to crack and very basics. There were direction based problems, profit and loss, ratio and proportions, and speed around a circular track. There were few reasoning questions and guess the sequence, encoding/decoding type of questions.
+Technical questions were mainly “Guess the Output” type questions. There was not much theory based questions in technical – which is a good thing. There was a question based on segmentation of pages, page fault, RB tree ordering, Infix-Postfix operations, heap dump, aggregation and few other topics.
+Then they said they will announce result in 1 hour, but took 3 hours. Hence it is advisable to take something to eat. Though they provided lunch for the 60 people, who cleared written round, waiting is a tedious process.
+Then those selected, were called for a face-to-face 1-on-1 technical. The person who conducted first technical round for me was a project manager. Starting with introduction, questions were primarily based on project details, and what I had done till date.
+1.       Tell me about yourself.
+2.       Are you comfortable with talking about your current project activity? If so, please explain what you are currently doing. (My current project was on LLDP)
+3.       What is LLDP? Why do you need it?
+4.       How do you let a peer know about congestion? What is PAUSE frame?
+5.       Tell me more about congestion notification.
+6.       If you are to write a protocol stack from scratch, tell me what will be your approach towards the design. Will you have any interface between the protocol and the hardware?
+7.       What is threads? Do threads share memory space?
+8.       How do you store a routing table? What data structure would you use?
+9.       If your routing table had 3 million routes, what approach would you use to display it?
+10.   Write a program to reverse the words in a string and print it. I used a singly linked list to parse and store the string, and displayed it using a loop. He said, approach was complicated, but
+The interviewer was kind, and gave me enough time to think before answering. I took some time to analyze and answer the routing table display question. He said “You are doing well enough till now, take your time and answer.” It was a very comfortable environment.
+Then they asked me to wait for next round. The next round the interviewer looked very stern, and throughout one question kept leading to the other.
+1.       Write the syntax of a pointer to a function with return type float taking two integer arguments.
+2.       Now write the syntax of a function pointer with return type float taking two integer arguments.
+3.       Now use both in a function! (I lost here L )
+4.       Write a function to display binary value of a decimal number. (as it was just display, I used printf within while loop)
+5.       Provide me a real time example , which you have used at work, of singly and doubly linked list. Explain your answer and why you prefer it.
+6.       What is the worst case time complexity of a binary search?
+7.       Why is the time complexity of binary search O(log n) ?
+8.       What are threads? What is difference between thread and process?
+9.    How will a parent process know that a child is dead?
+10.   What is the API for signal handling?
+11.   What are the most common signals that can be handled?
+12.   What is segmentation fault?
+13.   Will a segmentation fault occur when I assign 0x00 to a pointer? Or when I try to access it?
+14.   Why is a process faster than a thread?
+15.   What is deadlock?
+16.   How does deadlock occur?
+17.   What is mutex and semaphores?
+18.   Won’t a deadlock occur with mutex or semaphore? How would you avoid it?
+19.   Write a program to display the double of a number without using arithmetic operators? I simply did left shift once.
+20.   Will your program work if it is a negative number? Modify your code to calculate the double of a negative number also.
+21.   Then this puzzle , he had asked : https://www.quora.com/Puzzle-Which-number-survives-at-the-last
+22.   What is DHCP?
+23.   What is DNS?
+24.   Explain me in detail every single step that goes on inside when I turn on my laptop and type www.google.com.
+He asked me some more questions, that I have forgotten. I felt that I didn’t answer much. Hope things turn out good. 

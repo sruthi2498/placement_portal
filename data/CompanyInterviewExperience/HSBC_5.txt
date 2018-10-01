@@ -1,0 +1,34 @@
+HSBC visited Pune Institute of Computer Technology for hiring.
+The criteria for this for the company was SSC-60%, HSC-60% and B.E – 7 C.g.pa and above.
+Round 1:
+ Online Test conducted on Cocubes  (70 questions and 75 mins)
+There were three sections in the test.
+Aptitude: It consists of 20 questions covering Quantitative aptitude, data interpretation, Logical Reasoning. The logical reasoning section comprised of true/false, deducing of conclusions,  complete the series, Analogy, etc. Overall the question level can be rated between easy-intermediate level.
+Verbal Ability: It consists of 20 questions covering Sentence Correction, Synonyms, Comprehension, Fill in the blanks, Paragraph Formation, Sentence rearrangements, Verbal Analogies, etc. Overall the question level can be rated as easy.
+Technical Section: This section was the toughest of all three sections. It consists of 30 questions on Core CS concepts like Operating System, DBMS, Data Structure and Algorithms. Questions were also asked on Java Multithreading, OOPS concepts, AngularJS,  Android, etc.
+Round 2: Coding Round ( 30 mins)
+There were 2 competitive coding questions.
+The first question was:
+Problem 1: Given a range (eg:- 10-30000) find all the numbers which are a divisor of the number N within that range. They were looking for Code Optimization.
+Problem 2: Find the factorial of a large Number and return in a String format.
+https://www.geeksforgeeks.org/factorial-large-number/
+Those who had solved at least one coding question were shortlisted for next round. Aptitude Score was also taken into consideration.
+Round 3: Technical Interview for Striker Profile
+The interview started off with the question “How was your day?”. He asked me about the projects I have done. He was more interested in Android and Web Development. He Asked me whether I knew about new Technologies. He told me to write the code of AJAX which I had used in my project. He was quite impressed with the code I have written. He asked me about my interests and  I told him that I am more interested in Logical reasoning and Mathematics. Thus My interview was redirected into logical questions. He asked me about The handshake problem
+https://www.geeksforgeeks.org/find-maximum-number-handshakes/
+He asked me about finding the sum of all numbers in a given Range. (sum of all numbers in an A.P).
+He then asked me whether I know SQL queries. The queries were pretty easy.
+The queries were based on group by clause,  Aggregation functions, Joins etc. He was focusing on logic rather than syntax.
+He then asked me to write a code to implement a queue using a stack. I told him a less efficient solution. He told me to optimize it and I was unable to do it.
+https://www.geeksforgeeks.org/queue-using-stacks/
+He then asked me about finding the frequency of each character in a string. I told him optimized approach using unordered map. He was quite impressed .
+He thus asked most of the questions based on my resume.
+The interview started with the question “Tell me about your family?”. He then asked me ” How was School life different from Engineering life?“.
+He asked me to explain a problem that  I have faced in engineering and how I overcame it.
+He asked me how could I do a project for a benefit of a society.
+He then asked me what difference do you observed in this room between when you entered and until now.  I told him that time on my watch has increased by 10 mins 🙂 He was pretty impressed.
+He then asked me “What was the biggest failure of my life?” and How you overcame it.
+Thus 30 of us got offers from HSBC for Striker profile.
+Note: GeeksforGeeks and Indianbix are  more than enough to clear all the rounds. Participate in Codeforces short contests to increase coding speed. You must be able to explain in deep what you have written in your Resume. 
+ 
+ 

@@ -1,0 +1,13 @@
+Given an array of integers, sort the first half of the array in ascending order and second half in descending order.
+Examples:
+We have discussed a solution that only prints the required order in Sort first half in ascending and second half in descending order | Set 1
+Simple Approach
+The idea is simple, we sort the first half in increasing order and second half in decreasing using library function. Most of the languages like Java, C++ provide provision to sort a subarray in a specified order. In this post, a different solution is discussed that modifies the original array.
+Run on IDE
+Run on IDE
+Alternate Solution
+1) Sort the whole array in ascending order.
+2) Reverse the second half after sorting.
+Run on IDE
+Run on IDE
+Time Complexity of both approaches is O(n Log n)

@@ -1,0 +1,27 @@
+Samsung Delhi recently visited our college for the full time hiring process. Process was much simpler than other companies.Cut-off for appearing in the Online Coding test was 7 and above.  
+Coding Round : 
+Only one question with the time limit of 2 hour.Level of problem was moderate.
+So the Problem statement was:
+A Research team want to establish a research center in a region where they found some rare-elements.They want to make it closest to all the rare-elements as close as possible so that they can reduce overall cost of research over there.It is given that all the rare-element’s location is connected by roads.It is also given that Research Center can only be build on road.Team decided to assign this task to a coder.If you feel you have that much potential..Here is the Task :- Find the shortest of the longest distance of research center from given locations of rare-elements.
+ locations are given in the matrix cell form where 1 represents roads and 0 no road..number of rare-element and  their location was also given(number<=5)
+and order of square matrix was less than equal to (20).
+
+They selected the students who was able to solve and passed all the test-cases. There were 50 test-cases.If you solved 49 test cases also…..then BAD LUCK …they won’t allow you for the interview Round….there were some guys who solved this much critical number…So finally we were 4 out of 90+ for the next Round.
+Technical Round:
+Firstly Interviewer asked me to tell something about yourself..And then he asked me to write the code of the problem given in first Round..then after he asked BST’s operations like insertion,deletion,and search..and write the code as well ….
+Second question was based on the linked list (Note:-  for any interview you must prepare this topic)…he asked me to implement STACK using linked list(I implemented by using Doubly LL)..
+Then he gave me some puzzles like there are 10 machine each produce 10 screws of 1 gm each but there is a machine which produce screw of 0.9gm..how will you find that machine..(Hint: solve geeks Puzzles you will find ressemblance)
+Then he gave me another puzzle but immediately he smiled and rejected that question and gave me a real life situation ..and ask me to tell the approach I am gonna use ..After solving all the question and puzzles in quicker way I was satisfied and I realized that Interviewer was also happy and was smiling..Then he asked me for the future work and bluh bluh…..(Suggestion:::—-Please ask question at the end of session when he ask you to do so..)
+
+HR Round::
+->tell me about yourself
+->tell me about your family 
+->Where you found yourself after 5 years.
+->Project
+->discussion on Work Culture in company.
+->some more basic questions…(Engineering language::–> Lite tha be)
+———————————————————————————————————–
+One thing I wanna clear If you solve the coding(Round 1) question ..then you have ~90%  of getting selected..so keep practicing and MUG DALO GEEEKSFORGEEKS….
+
+
+

@@ -1,0 +1,31 @@
+So this was campus hiring and Microsoft was visiting our campus(IIIT-Delhi) for the first time and offering quite a handsome salary. They set CGPA cut off as 7, only qualified students were asked to appear for the upcoming rounds. Total 175 students cleared the CGPA cut off.
+Round 1 : This round was hosted on the CoCubes platform, I’d say platform wasn’t user friendly at all. We were given 3 problems to solve within 75 mins. Not all the questions were same, Different students had different questions. We just had to complete the functions for all the problems. You can choose your language between C, C++, Java and C#, python wasn’t allowed.
+Question 1(2 Marks): You are given 2 integers m and n. If the no of digits in (m+n) is same as no of digits n, then return (m+n) else return n.
+Question 2(3 Marks): You are given an arithmetic expression which contains only (+, -, *, /) operators. Precision of (*, /) is greater than precision of(+, -). You have to evaluate the expression, if 2 consecutive same priority operator occur, evaluate them from left to right.
+Question 3(5 Marks): You are given head node of a linked list, int n and int m. Traverse the linked list such that you retain M nodes then delete next N nodes, continue the same till end of the linked list without using any extra space. Gfg already has a solution
+https://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list/
+After the First round around 55 students were called for the next round.
+Round 2: This round was pen and paper coding round. 2 questions were given and we had to write our own code in pen and paper without using any library. From the scratch you have to write everything.
+Question 1: In byteland number system works in the following way Z, A, B, C, D, E, F, G, H, I – they are in increasing order. Individual Z has no value(think it as 0). Now you are given a number, you have to return the minimum no you can create with those digits without leading Zs.
+Input won’t contain leading Zs. Mention some test cases as well.
+Question 2: You have a dictionary with set of words, you have to create a data structure which will give you no of words of length L whose ith character is C. Queries are very frequent, Try to optimize it. So basically complete the following function:
+Int countWords(int L, int i, char C)
+I made some stupid mistakes in question 2, so I wasn’t sure I will get a call or not. But they probably called all the students who successfully solved the 1st problem(bug free code) and and tried 2nd problem. After round 2 around 23 students were shortlisted and were called for the personal interview rounds. Now in PI anything can happen, there are some students who got offers just after 1st round, some of them got it after 2nd round, some of after 3rd round. So I had total 3 rounds, all of them were technical.
+Round 3: This round was quite good. I was asked to solve this problem
+https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+In this case he asked me to print all the sequences as well. He asked me to write down full ode(like proper code including main functions and all). Then he took my solution and tested against an example, did a dry run on pen paper and checked whether all combinations were printed or not.https://www.geeksforgeeks.org/maximum-size-rectangle-binary-sub-matrix-1s/
+I was asked to solve this problem but I had to print maximum size of the square. I was able to solve both the problems and he seemed quite happy, then he asked me what are the projects I had worked on and am working on it now.
+
+Round 4: Within 5 mins I was called for the next round interview and probably it was toughest of
+all.
+I was asked to code the problem: given a string S which contains all the digits, I have to solve this problem without using recursion.
+S = solve(S), solve function is basically sum of all digits. Continue this operation will you are left
+with a single digit.
+I wrote a solution like:
+Solve functions is doing the sum, but he wasn’t satisfied with that. Then I said I’ll maintain a frequency array and sum everything and still wasn’t satisfied with my solution. He said there is much simpler solution.
+What is friend function? Give an example of friend function.
+What is volatile?
+What is operator overloading. Write the code of new operator-overloading-
+https://www.geeksforgeeks.org/overloading-new-delete-operator-c/
+Write your own function for itoa. Then some basic question about variable initialization and memory allocation regarding that problem. I wasn’t satisfied with this round and I wasn’t quite sure I’d be asked for further rounds.
+Round 5: In last round He asked me to do whatsapp chat designing. What kind of data structure you’d use, write pseudo code for that. If you will use DBMS, write all the schemas. We had a very detailed discussion on this. Finally after last round they asked us to wait while they continued with intern interviews, we were expecting maybe we’d have another HR round. But that was it, one of my friends(member of Placement committee) went to them to confirm about the status and when he came back I got the great news. Later HR called us to give us some goodies and finally congratulated. It really was one of greatest moments of my life.

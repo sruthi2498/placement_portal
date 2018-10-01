@@ -1,0 +1,15 @@
+In C++,  isupper() and islower() are predefined functions used for string and character handling.cstring.h is the header file required for string functions and cctype.h is the headerfile required for character functions.
+isupper() Function
+This function is used to check if the arguement contains any uppercase letters such as A, B, C, D……….Z.
+Run on IDE
+islower() Function
+This function is used to check if the arguement contains lowercase letters such as a, b, c, d, ……..z.
+Run on IDE
+ Application of islower(), isupper(), tolower(), toupper() function.
+Given a string, task is to convert the characters in the string into opposite case, i.e. if a character is in lowercase, we need to convert it into uppercade and vice versa.
+Examples:
+1. Traverse the given string character by character upto its length, check if character is in lowercase or uppercase using predefined function.
+3. If lowercase, convert it to uppercase using toupper() function, if uppercase, convert it to lowercase using tolower() function.
+4. Print the final string.
+Run on IDE
+Output:

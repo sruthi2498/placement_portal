@@ -1,0 +1,52 @@
+Directi came to my college for Operations Engineer (DevOps ) profile. There was a presentation and PPT(pre-placement talk) through which we got a chance to interact with them and got know more about Directi initiatives.
+This was a pen and paper round with 20 MCQs to be answered in 30 min. Most of the questios were easy. The topic coverage was good. The questions were from OS, CN, ALGORITHMS, DS, DBMS, General Aptitude. Marking scheme was +5 for correct choice, -1 for wrong choice and 0 for unattempted questions.
+Some of the questions i remember:
+The internet connection of the Desktop was terminated. A server in local network was providing us with the questions and the Documentation required for solving the problems. The linux environment was required and choice of language was given. The Directi people were very cooperative and were helping us if we got stuck in some part.
+The question paper was divided into 3 sub-parts with last one being the bonus part. They asked us to complete the coding round in 90 min but later they extended the time to 120 min.
+Implement an in memory key value datastore server with the following features:
+The program should create a socket which listens on port 60## (where ## is your user number). A
+client program NEED NOT be written to connect to the socket. telnet can be used. Once connected to
+your program it should support the setting and retreival of keys:
+set
+get
+Eg:
+set hello world
+get hello
+Output: world
+keys
+“Printing list of keys”
+1) hello
+Create a second instance of the same program running on a different port
+Write a client that is capable of taking input values from a file / telnet
+Your client must be able to intelligently shard data across the two instances of your program via
+sockets
+Eg:
+“Start two instances of your server – A and B”
+SET raghu 21 # Data goes to server A
+SET bharath 23 # Data goes to server B
+SET ayush 22 # Data goes to server A
+SET kalyan 24 # Data goes to server B
+If there is a ttl value set for the key, it should be deleted from the memory once ttl is expired.
+set
+Eg:
+set hello world 60
+In the above case the key hello should be deleted, 60 seconds after it has been set.
+Hints for C/C programmers
+Common function calls you will need
+socket (Refer man 2 socket )
+listen (Refer man 2 listen )
+bind (Refer man 2 bind )
+Feel free to use C STL library to make your coding.
+After I was done with coding all the three problems, they asked me to explain my logic behind the implementation and why am i using that approach. They were asking questions related to my code and the use of different functions, what they return and what they take as arguments. They also gave me an another part to implement, which was:
+“Enter the keyword key followed by the key itself and it will return the time left after which it will expire.”
+Eg:
+key hello
+Output : 10
+During this face to face round the questions were asked from almost every thing that was mentioned in my CV. Most of the questions where from my self project and my Summer Internship. This round lasted for near about 90 min.
+Some general questions I can recall are:
+This round lasted for for about 60 min. There were many in depth questions on Networking and Operating Systems. Few questions I remember now are:
+This round lasted for about 30-40 min. The technical questions were easy ones. The entire round was like a talk on what will I be doing as DevOp, the learning curve once I join the company, whether I am interested in further studies or not and what are the non-academic activities i like?
+What have i planned for rest of my life?
+The best thing was that the entire process went so smooth that I never realised i am giving an interview. The Directi people were so calm and helpful, that every time I got stuck, they used to hint me up. Mine was a ZERO dress code interview. I am very bad at remembering the full forms and the names so I used to tell them the logic and the working and they were fine with it. All thanks to geekforgeeks and my laptop :).
+ 
+

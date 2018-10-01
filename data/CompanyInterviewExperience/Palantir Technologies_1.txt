@@ -1,0 +1,20 @@
+The interview was scheduled after I passed the coding challenge. 
+The coding challenge was kinda simple, it was a grid, with each cell connected to its neighbors with some cost, you are allowed to move right and down, and you are required to calculate the minimum total cost for some employees (defined on the grid) to reach the bottom corner.
+The grid size was a max of 1000*1000, so a simple Dijkstra could solve it.
+The interview started about 20 minutes late due to technical problems with Skype connection, so the interviewer dived in quickly to the technical question.
+So the technical question was as follows:
+We want to create LRU Cache, a data structure that stores pairs , and has maximum capacity, after which, any insertion process should remove the least recently used element.
+An element is considered used when it’s first inserted to the cache, and if its value was retrieved.
+The interviewer wrote the body of the class, and my task was to implement it.
+The first idea I got was to use a doubly-linked list, where any insertion process to the cache means we insert a new element as the head of the linked list, and of course the least recently used element is at the tail of the list.
+The insertion worst case run-time was O(1), but the retrieval method was to run in O(n).
+I was then asked to find a better way to improve the running time of the get method, and I suggested we use a hashtable to store the pairs , but then we would still need another way to store the order of usage of every element.
+I suggested we can use a heap, to easily retrieve the least recently used element, but the interviewer asked me to combine the idea of the hash table with the idea of the linked list to get a better implementation.
+So, the idea I got was to create both a hash table to be used in the get method, and a linked list to store the precedence of each key.
+So, for each key, we have 2 entries, 1 entry in the hash table, and another one in the linked list, so I created another hash table, that given the key, it returns the node of that key in the linked list.
+I started writing the code and kept updating it whenever we find a bug.
+My final code was as follows:
+Run on IDE
+After we finished the technical question, the interviewer moved on to discuss the projects on my resume, and asked which project was most enjoyable and why.
+My answer was for the Ocean Simulation project, because among all projects I have done in college, that was the one I most used algorithms and tried to make the software as smart as possible.
+1 thing is, I asked the interviewer about interns life at Palantir, his reply was “Are you applying for an internship?”

@@ -1,0 +1,45 @@
+There were Three rounds.
+Round 1:
+This round was an offline written round, its Consisted 4 section, 15 Aptitude,15 Reasoning, 15 Technical in which some Question from OS and input Output questions and sql query and from DBMS, last section is Coding section there are 4 question in this section
+Q1. Interchange two top value of Stack.
+Q2. Double Ordered Traversal of Binary Tree.
+Q3. Add Two Binary Number, given in String form.
+Q3. Remove All Duplicates from Given String and print them  
+This round have sectional Cut-off.
+There were 110 Student and 31 shortlisted for Second Round.
+Round 2: Technical interview round
+1. Tell me about yourself.
+2. Some Question from projects.
+3. C++ or JAVA (I said ‘C++’).
+4. What is interface and Abstract?
+5. Why we need interface.
+6. Why we cannot create object of interface.
+7. What is Collection Class.?
+8. What is difference b/w Collection Class and interface?
+9. What is Thread?
+10. How will you use Thread in your program.
+11. How will you invoke Run method (write code for it).
+12. What is socket programming?
+13. What is socket Server?
+14. How you will establish connection b/w socket and socket Server (write code for it).
+15. What happened when local host will not respond?
+16.  What error will show when local host will not respond?
+17. How will you Handled exception when local host will not respond.
+18. Suppose you have two threads and there is one server, 1st thread always ping server and check server is active or not, if server is not active than 1st thread will stop for some time and invoke second thread, so how will you stop 1st thread and how will you invoke 2nd thread.
+19. How will you connect database in java.(I said “I don’t know”)
+20. What is normal form and there types.
+21. Suppose you are developer and customer want to work with collection class and you don’t know about collection class and you don’t have internet connection, you cannot take help from any one, and you have to give product in 7 days, you cannot use other thing rather than Collection, how will you do.
+22. Same question but this time you have internet and seniors and friends.
+23. You are NIT student, and you have option to join amazon, flipkart and many good company but why you want to join Edifecs.
+24. What is difference b/w C++ and JAVA?
+25. Why is Java platform independent.
+26. Which compiler will you use in Linux for C++?
+27. What is primitive data type and non-primitive data type?
+Round 3. (HR Round)
+1. Tell me about yourself?
+2. Do you ever work in team?
+3. About projects.
+4. You have any problem with location.
+5. Any question from you side.
+A big thanks to geeksforgeeks.
+Tips :- Be confident, strong Communication Skills.

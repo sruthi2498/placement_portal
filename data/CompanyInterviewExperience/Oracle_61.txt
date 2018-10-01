@@ -1,0 +1,33 @@
+Firstly, an online test was conducted on Oracle platform, consisting of 4 sections – Verbal, Aptitude, Programming Skills, Computer Science Concepts. There was separate time for each section, and each section contained subsections as well.
+Shortlisted 40 out of 65 students for the interviews.
+There were 4 rounds of interviews.
+1. Technical Interview
+*Check whether a tree is balanced or not / Check for AVL tree. (Written Code)
+*What are collections in Java?
+*Implement a HashMap collection in Java.
+*Find the maximum continuous subarray sum of an unsorted array, consisting both positive and negative elements / Kadane’s algorithm. (Written Code)
+*Puzzle: There is a worker, working for 7 days. You have a long piece of gold, of which you give 1/7th of the piece to the worker daily. Find the minimum number of cuts required to make in the gold piece, such that the worker gets his fair share each day.
+
+2. Technical Interview
+*There is a bank, containing ‘c’ counters. There are ‘n’ people standing in a queue. The counters open at 9:00 A.M. There is also an array a[n] given, containing the time taken by every person to coomplete his/her query at the counter. Whenever one counter gets empty, the very next person in the queue goes to that particular empty counter. Find at what time the x’th person (x <= n) will have his/her turn and at which counter. A fully working code was expected, considering all the base cases and exceptions, with proper syntax. (Written Code)
+
+
+3. Technical + HR Interview
+*Do you have any questions?
+*Why did your CGPA fall so drastically in the sixth semester?
+*What is your favorite subject from CSE point-of-view and from non-CSE point-of-view?
+*Some questions on my favorite subject from non-CSE point-of-view. (Geography :p)
+*Given a linked list, check whether the linked list contains a loop. (Written Code)
+
+4. HR Interview
+*Tell me about yourself.
+*What did you like in the presentation about Oracle?
+*Given a location preference, which location would you choose, why?
+*Your one quality, that makes you stand apart from others.
+*Your one weakness, that would affect others working in the firm.
+*Any future post-graduation plans.
+*What other companies have you applied for?
+and many more typical HR questions.
+Selected 7 students.
+
+

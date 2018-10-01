@@ -1,0 +1,11 @@
+Given a non-negative number n. The problem is to check whether the given number n can be expressed as a product of single digit numbers or not.
+Examples:
+
+Approach: We have to check whether the number n has no prime factors other than 2, 3, 5, 7. For this we repeatedly divide the number n by (2, 3, 5, 7) until it cannot be further divided by these numbers. After this process if n == 1, then it can be expressed as a product of single digit numbers, else if it is greater than 1, then it cannot be expressed.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(num), where num is the number of prime factors (2, 3, 5, 7) of n.

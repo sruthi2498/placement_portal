@@ -1,0 +1,22 @@
+Online Written round :
+5 programming questions. You have to answer within 2 hours.
+1. Swap two nodes in a linked list
+2. Find kth smallest element in a binary search tree
+3. Longest increasing subsequence in an array
+4. One DP program
+Face to face interviews:
+1st round :
+1. Find whether given tree is BST or not
+2. Boundary traversal of a tree
+3. Print the border nodes of the tree
+2nd round:
+1. There are n number of points in a two dimensional plane. Find two nearest points
+2. There are n number of points in a two dimensional plane . Given a point find k nearest points to it.
+3rd round:
+1. Given a matrix with random numbers in it , If a location has 1, make all the elements of that row and column as 1
+2. Given a matrix, find whether you can form the given number in 
+4th round:
+1.  Write a program to list all the possible words from the given set of data in the same order. ( eg : given word : nokiamobile O/P : nokia mobile : given word : samsung   O/P : 1. SAMSUNG 2.SAM SUNG(considering sam as a word) )
+2. Given two trees , find whether they are from same set of dataset or not.
+3. Thread pool implementation.
+

@@ -1,0 +1,29 @@
+Online Round
+1 hour coding contest, different set of coding problems were given. They were manually evaluated. I was able to score 2nd highest score in my batch. They were judging  you on these factors proper Algorithm, and  clear code.
+20 people were shortlisted after this round.
+Round 1
+https://www.geeksforgeeks.org/find-first-non-repeating-character-stream-characters/
+N -ary tree given ,print the zig zag order traversal
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+Link list consist of 0 and 1 ,arrange it in such a way that all 0’s on the left and
+all 1’s on right
+Given an sorted array find a pair such that their sum is equla to  key value.
+My friend gave me the solution in order( n ), he told him tell the solution in O(logn) , just to test his temperament.  
+6 were shortlisted out of 20  
+Round 2
+There was discussion on my project for about 15 mins . Since my project was based on web crawling he asked me
+Find top 10 urls used by clients and 10 clients accessing the urls for 1 day of data . I answered by using heap ,he asked to me ,how insertion works in a heap .
+Puzzle : 25 horses race, he modified it to 30 horses
+Given a string without spaces and a dictionary return or print all possible ways that the string can be broken so that only valid words are formed.
+Eg. “programmerit”, dict = { “pro”, “gram”, “merit”, “program”, “programmer”, “it” }
+ans: { {“pro”, “gram”, “merit”}, {“program”, “merit”}, {“programmer”, “it”} }
+3 were shortlisted 
+Round 3
+Position of  knight and king in a Chess board, find the minimum no of moves knight can move to reach king position.
+Boundary traversal of Binary tree
+All permutation of string ,with and without duplicates
+HR round
+Tell me about yourself.
+3 Strengths,3  weaknesses, 3 things you like and hate about you college, why payu, why coding?, motivation, challenging moment.
+Things  we were judged was effort and all codes were asked to code .
+

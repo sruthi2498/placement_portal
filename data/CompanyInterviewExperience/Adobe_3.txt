@@ -1,0 +1,25 @@
+Company willingness criteria: students enrolled in B.Tech/IDD of cse eee ece mat with CPI > 7.50
+Round 1:
+Online Test Experience:
+Platform: HackerRank, All languages that are available on hackerrank normally were available.
+-> There were 12 MCQs based on probability, Eigen Values, properties of a matrix (taught in 12th), Debugging, Oops and etc [No Negative Marking]. The test also had the following question that we were asked to code-
+-> You have an infinite supply of n kinds of umbrellas the ith umbrella can save s(i) people from rain, using a minimum number of umbrellas you have to save k people(exactly). Print the minimum number of umbrellas or “-1” if its impossible. 0<n, k<=1000
+-> We also had to write Pseudo code of printing a matrix spirally.
+-> We also had to write an essay on “What are IoT devices and what will be their impact on the future?”
+21/134 People were shortlisted for the interview.
+Round 2:
+Interview Experience: I got a call on my phone @ 5:30 in the evening and the interview started. Some of the questions that I remember are listed:
+Q: Time complexity of finding the nth Fibonacci number without dynamic programming and with dynamic programming
+Q: Time complexity of changing base, first decimal to binary and then to any general base
+Q: Searching for an element in an infinite size sorted array
+Q: find the meeting point of a Y shaped linked list[two heads and same ending points] ?  required complexity O(n) n is the size of the whole thing.
+Q: Given two identical array one element is deleted from one of the arrays find the index of the deleted element in the other arrays? required complexity O(log(n)) where n is the size of the array.
+Puzzles
+Q: 3 Candles burn in 60, 80, 100 min. Exactly 1 burn at a time for 40 minutes, 3 of them burn together for exactly 30 minutes. For how long do exactly 2 candles burn together?
+Q: Find a number that is between [51, 60] if it is divisible by 3, is between [61, 70] if it is not divisible by 4 or is between [71, 80] if it is not divisible by 6.
+Q: A 5 digit number with digits a, b, c, d, e i.e. abcde when multiplied by 4 becomes edcba. find a, b, c, d, e?
+I told all the question correctly except for the last one. Due to the shortage of time, I was only able to find a & e.
+Finally, 7/21 students were selected for the internship.
+There were ~15 interviewers interviewing 15 candidates simultaneously so naturally most of the interviews were completely different from mine. Some interviewers were asking OS, some were asking about projects but my interview, as the questions above show, was focused on Data structures, simple coding problems, time complexity analysis and a few puzzles.
+Practicing Competitive programming problems and studying form GFG, in my opinion, would be the best strategy to score this internship.
+ 

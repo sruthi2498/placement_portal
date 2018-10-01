@@ -1,0 +1,27 @@
+
+The STL is a very powerful library in C++. It is strongly built on the principles of template programming.
+The STL library  has three main components :
+All three components are so designed that they confirm to the principles of data abstraction. Thus any object which holds data and behaves like a container, is a container. Similarly, any iterator which sweeps through the elements in a container is an iterator.
+If an iterator can be used to access elements of a data container, then what about streams? In keeping with the design, Streams too are data containers and so C++ provides us with iterators to iterate over the elements present in any stream. These iterators are called Stream Iterators. To use these iterators the iterator header file must be included.
+
+Stream iterators are either input stream iterator or output stream iterator. The classes for these iterators are istream_iterator  and  ostream_iterator. These iterators behave like input iterators and output iterators respectively .
+ istream_iterator
+Class Definition for istream_iterator
+Syntax :
+ Note :
+ ostream_iterator
+Class Definition for ostream_iterator
+Syntax :
+The second and third template arguements have a default values assigned to them. We only need to specify the first template paramater which specifies the type of data present in the stream i.e whether the stream contains integers, floats or strings. 
+Examples :
+Importance of Stream Iterators 
+The advantage of stream iterators is that they provide a common interface to access elements in I/O stream, file streams and also other stream to external physical devices. 
+Example 1
+Run on IDE
+Example 2
+Run on IDE
+Example 3:
+Run on IDE
+References:
+istream_iterator
+ostream_iterator

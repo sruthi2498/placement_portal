@@ -1,0 +1,12 @@
+Given a string of length n of lowercase alphabet characters, we need to count total number of distinct substrings of this string.
+Examples:
+We have discussed a Suffix Trie based solution in below post :
+Count of distinct substrings of a string using Suffix Trie
+We can solve this problem using suffix array and longest common prefix concept. A suffix array is a sorted array of all suffixes of a given string.
+For string “ababa” suffixes are : “ababa”, “baba”, “aba”, “ba”, “a”. After taking these suffixes in sorted form we get our suffix array as [4, 2, 0, 3, 1]
+Then we calculate lcp array using kasai’s algorithm. For string “ababa”, lcp array is [1, 3, 0, 2, 0]
+After constructing both arrays, we calculate total number of distinct substring by keeping this fact in mind : If we look through the prefixes of each suffix of a string, we cover all substrings of that string.
+We will explain the procedure for above example,
+Above idea is implemented in below code.
+Run on IDE
+Output:

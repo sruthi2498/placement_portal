@@ -1,0 +1,25 @@
+The overall process was easy but short-list after the first round is key. Only 11 were shortlisted out of 150 appeared for the exam.
+First Round :  (40min)
+40 MCQs – Mathematical aptitude,logical reasoning
+included q’s from:time and work,logarithms,clocks,calendars,seating arrangement,percentages,letter and symbol sequences,letter coding and decoding,odd one out
+20 MCQs – Technical basics – mostly from C (pointers,operators,macros), program complexity,other programming basics.
+Second Round (Technical):
+1) Given a string ,find the longest sub-string with all distinct characters in it.If there are multiple such strings,print them all.
+	-O(n) solution was expected.
+2) Find all common elements in given 3 sorted arrays.
+	-O(n) time & no extra space.
+3) Print given matrix in a spiral form
+	-Tested for all corner cases.
+4) Few basics like ACID properties,what is normalization, why do we do it? etc.
+5) Asked to write a program to print the following pattern , if n=5: 
+and generalize it for all n.
+HR Round:
+-Why Nagarro?
+-Relocation Problems?
+-Technical areas of interest.
+-AIEEE or any other national exam that u appeared and rank
+-Technologies that you have worked on.
+-Asked to rate out of 5 in various tech and non tech aspects.
+and few more.
+
+

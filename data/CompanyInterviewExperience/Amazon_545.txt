@@ -1,0 +1,30 @@
+Round 1:-
+20 MCQ’s(Majority from OS and Java, C++, 1 aptitude)
+2 coding questions.
+1.	Given an array, find the maximum sum that can be formed from the array such that no two  adjacent elements are taken into consideration..
+for ex:- 1,2,3,5 should return 7.
+2.	Print Vertical axis sum of the given binary tree.
+Round 2:-
+Group Coding Round
+36 people made it to the next round. 2 questions were asked
+1.	Given an array which initially increases and then decreases, search for an element in the array.
+2.	Merge ‘k’ sorted arrays.
+
+Round 3:-
+Technical interview
+18 people were selected  for the next round and they asked me 2 questions
+1.	Given an infinitely growing sorted array which initially consists of 0’s and then 1’s upto infinity.  Find the transition point where 0 changes to 1 effectively.
+2.	Given a binary search tree, make 2 separate trees such that difference between the sum of elements between them is minimum.(After some time he gave me a hint which helped me solve the problem).
+Round 4:-
+Technical Interview
+1.	Some basic OS related questions
+2.	Implement a data structure which would perform insertion, deletion, search and randomize operation with minimum time complexity.
+We discussed a lot of data structures and I settled with a data structure (Hashtable with DLL). But he gave me clues and improvised my solution.
+3.	Implement  a Queue using 2 stacks. Optimise your implementation
+(They didn’t ask me to code in this round. They just checked how efficiently I approached it )
+Round 5:-
+Technical interview
+I think this is the bar raiser round. We are aware of the game show in which a contestant will think of a famous personality and the host will try to find the personality within a finite set of questions. I was asked to design a system which would implement the same. He asked me to write a code to return the first question (like the deciding factor on which the elements will be further partioned) so that I can find the celebritry in minimum no. of questions.
+I think they were checking your approach, ideas and patience in this round. Whatever solution I gave he never seemed to be satisfied. Be confident in your approach and don’t ever give up.
+
+

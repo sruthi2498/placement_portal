@@ -1,0 +1,17 @@
+Let’s first consider a general case where the line is nothing but the X-Axis. We can now definitely say that the conjugate of a point is the reflection of the point about X-Axis.
+Now, using the methods of translation and rotation of coordinate axes we will find out the reflection of a point about the generic line.
+The idea of translation was described in the previous post. Here we describe the idea of rotation.
+
+What is Rotation?
+In Euclidean geometry, a rotation of axes in two dimensions is a mapping from an xy-Cartesian coordinate system to an x’y’-Cartesian coordinate system in which the origin is kept fixed and the x’ and y’ axes are obtained by rotating the x and y axes through an angle θ. 
+How to Perform Rotation?
+Rotation can be interpreted as multiplying (rotating in anticlockwise direction) or dividing (rotating in clockwise direction) every point of the coordinate system by a constant vector.
+Note here that if we want to rotate a point by θ in the anticlockwise direction about the origin, we multiply it by polar (1.0, θ) as discussed in SET 1. Similarly, we divide by polar (1.0, θ) to rotate the point by θ in the clockwise direction.
+After the rotation, required computations are performed and rotation is nullified by dividing or multiplying every point by the constant vector respectively.
+So, we have to reflect a point P about a line specified by points A and B denoted as AB. Since, we know that the conjugate of a point is the reflection of the point about X-Axis. In order to be able to use this fact, we will first perform translation (making A as the origin in the new system) and then rotating the coordinate axes in such a way that the line becomes the X-Axis in the new coordinate system.
+Now we can simply apply the formula for reflection about X-Axis and then nullify the effects of rotation and translation to get the final result.
+These steps can be described as under:
+Thus, 
+
+Run on IDE
+Output:

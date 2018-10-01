@@ -1,0 +1,65 @@
+Recently Teradata visited in our campus for recruitment
+First Round: Time: – 40 Minutes
+—————————————————————————-
+There was total 20 objective questions from C/C++ and OS. Questions was Easy and medium level. Those who have solve 16+ correct questions cracked first round. There is no –ve Marking. 
+
+Second Round (Technical): Time: – 1:20 Hours
+—————————————————————————-
+1. There is a character Array of 20 size. You have to set 102 bit.
+Ex – char arr[20] .  set 102 bit
+2. Reverse Link list.  https://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/
+3. Discussions about my project.
+4. Lots of discussions about internal working of malloc() and free().     What will be happens in following statements? 
+5. What is Balance BST? What is difference between BST and Balance BST?
+What is difference between RB Tree and AVL Tree?
+Write code for Insertion, Deletion and Traversal of AVL Tree.
+6. What is Hashing? Different Hashing techniques. How hashing is implemented internally in C++ STL Library. 
+7. What is Breath first Search (BFS)? Write Code?Also what is real time Application of BFS?
+8. What is compiler? Difference between compiler and interpreter How compiler works internally?
+9. Find Bug in the following code with reasons.
+10.  How OS Allocated Memory in RAM when your C program loaded into RAM
+Discussion of Different memory Segments. What is difference between Stack and heap Segments? 
+https://www.geeksforgeeks.org/memory-layout-of-c-program/
+
+Third Round (Technical): Time:-1:20 Hours
+—————————————————————————-
+1. Write code to check Two Tree are Identical or Not (Optimize code).
+ https://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/
+2. Find Height of the tree.
+https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/
+3. What is dequeue? What is the difference between dequeue, circular queue, priority queue and normal queue? Real time applications of all the different types of queues.
+4. What is “strstr” functions? Write your own “strstr” functions.I have given Naïve Solutions. Then he tell me to optimize it. Then I give KMP Algorithm. He satisfies with my answer and he tell that write the code for KMP Algorithm.
+5. What is the output of the following statements? 
+6. Discussions about my projects.
+7. Find the first non-repeating character in the given string (optimize code). https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+8. Find largest continuous sum sub-array.    https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+9. Check the given tree is BST tree or not?   https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-    not/
+10. Level Oder traversal in spiral order
+ https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+
+Fourth Round (HR + Technical): Time: – 30 Minutes
+—————————————————————————-
+1. Tell me about yourself?
+2. What you known about Teradata?
+3. After next 10 years where you see yourself in the company?
+4. Which subject you like most?
+5. Anything you have done apart from your academic syllabus?
+6. Why you want to join Teradata?
+7. Discussion about my project.
+8. Between you and your friend if you have to select one whom you will be select?
+
+Fifth Round (Telephonic HR Round):  Time: – 30 Minutes 
+—————————————————————————-
+1. Tell me about yourself.
+2. Tell something about Teradata.
+3. What is your strength and why it is your strength?
+4. What was the last time when you had broken the rule?
+5. Why I should hire you?
+Tips
+1. Your basic concepts should be good.
+2. Good knowledge about C, C++ and OS.
+3. Be honest on front of interviewers.
+4. Be confidence.
+5. Average knowledge of all the data structure and algorithm.
+Thank You Geeksforgeeks 🙂
+

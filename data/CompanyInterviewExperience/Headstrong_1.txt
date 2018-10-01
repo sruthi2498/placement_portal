@@ -1,0 +1,24 @@
+Headstrong:
+1st Round:
+1) What is Heap Memory and Difference between stack and heap memory.
+2) Why would you do the setContentView() in onCreate() of Activity class.
+3) In an app where a component would get would stack up dynamically like experiences in LinkedIn. Would you declare a component in layout xml for this or you will create it dynamically and why.
+2nd Round
+1) How will you go about creating an in house GPS map system with Bluetooth.
+2) How will you create a circle with color by using XML only.
+3) How will you create an OCR application.
+
+Snapdeal
+1st Written Round
+1) What is the difference between an interface and abstract class.
+2) Find maximum number in an array with increasing and then decreasing numbers.
+3) Add two numbers represented by linked lists and represent the sum in third linked list.
+4) 20 odd questions about activity base class, fragments types, service’s base class, Content Providers Funtions, Loaders Functions and Out Of Bound Errors.
+2nd Face to Face Round
+1) What is lifecycle of Fragment
+2) What is IPC and architecture of an app using .so file having its API exposed with IPC.
+3) Binary Search.
+4) Basic about Threads, Service and AsyncTask.
+5) When will you use a messenger and a handler.
+
+

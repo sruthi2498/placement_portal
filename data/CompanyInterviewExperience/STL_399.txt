@@ -1,0 +1,15 @@
+Given an array and two integers say, x and y, find the number of subarrays in which the number of occurrences of x is equal to number of occurrences of y.
+Examples:
+
+Brute Force Approach (Time Complexity – O(N2)):
+We can simply generate all the possible sub-arrays and check for each subarray whether the number of occurrence of x is equal to that of y in that particular subarray.
+Run on IDE
+Output:
+Time Complexity – O(N^2)
+Auxiliary Space – O(1)
+Efficient Approach (O(N) Time Complexity) :
+In this solution, auxiliary space is O(N) and the time complexity is also O(N). We create two arrays say, countX[] and countY[], which denotes number of occurrences of x and y, respectively, till that point in the array. Then, we evaluate another array, say diff which stores (countX[i]-countY[i]), i be the index of array. Now, store the count of each element of array diff in a map, say m. Initialize result as m[0], since occurrence of 0 in diff array gives us subarray count where required condition is followed. Now, iterate through map and using handshake formula, update the result, since two same values in diff array indicate that the subarray contains same number of occurrences of x and y.
+Run on IDE
+Output:
+Time Complexity – O(N)
+Auxiliary Space – O(N)

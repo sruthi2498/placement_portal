@@ -1,0 +1,22 @@
+1st Round:
+MCQ test consisting of 30 questions to be done in 30 minutes with from topics like Trees, Graphs, SQL, Data bases, Computer Architecture, Operating Systems & Computer Networks. 
+2nd Round: (45 minutes)
+1. AVL tree balance checking.
+2. Median of 2 sorted arrays in O(log N) time complexity and O(1) space complexity.
+3. Strings Anagram in O(1) space complexity
+4. Level order traversal of a tree using Queue.
+5. Reverse level order traversal of a tree using Queue.
+6. BFS and DFS Difference.
+7. OS Concepts – Starvation, Demand Paging, Virtual Memory, Deadlocks
+3rd Round: (45 minutes)
+1. Find product of each element of an array except that element in O(N) time complexity without using / operation.
+2. Recursively deleting linked list.
+3. Recursively deleting linked list from end
+4. Recursively deleting tree
+5. Recursively deleting from end
+6. Difference between Floyd Warshall and Djikstra.
+7. Shortest path between 2 points in 2-D space in O(log N) time.
+4th Round: (30 minutes)
+1. Design a system for putting newspapers using classes and functions taking different aspects into account.
+2. SQL commands.
+3. Machine learning concepts: Clustering, SVM

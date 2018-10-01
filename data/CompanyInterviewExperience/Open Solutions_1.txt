@@ -1,0 +1,30 @@
+Name of Company: Open Solutions
+Profile: Software/Finance
+Venue: On Campus 
+
+Written Test (Time): 1 hour
+Sections and type of questions in those sections : there were 2 sections
+1 Aptitude – 25 questions
+2 Technical – 25 questions
+No negative marking
+
+Technical Interview:
+1.  Tell me about yourself: start with your place of birth, school, college, then move on to the projects you have done, basically they want to listen about your projects.
+2. Asked several questions from one of my projects. Told me to draw the priority graph related to my project. So be prepared for tough questions from projects.
+3. Given a link list, sort it by using Quick Sort: he want to see my approach, then I also explained that it can be done easily by merge sort, also write the code for it. (Given in Geeksforgeeks.org)
+4. Given a string, reverse it using stack: easy question, but he want me to care boundary case. Then I gave many solutions for this question, one by simply using stack, then by using recursion.
+5. Minor discussion on priority queues in general and heaps in particular.
+6. Some questions on OS (scheduling etc)
+
+HR cum Technical Round (Taken by the VP of Open Solutions, he was from the US office)
+1. Again tell me about yourself: same as above.
+2. One of my projects was Compile time task scheduling for heterogeneous system, so he asked some real good questions of scheduling related to my project. Many tough questions from project.
+3. Given a pointer *p address is 1030 and there is a class whose size is 40 byte, so what will be the address of *p+1.
+4. You have a 100GB disk filled with integers (in records whose size was given, so there was some free space left). You have 100 MB of memory. Come up with an algorithm to sort those integers.
+Solution: apply concept of external sorting. Divide the whole list into several small array which can be done in 100MB RAM. All this arrays are sorted separately. Then we apply multiarray merge function and we will get the resulting list.
+5. Asked about various OOP concepts. Why polymorphism? Why OOP? Why C++ why not C? How to do polymorphism in C? several other questions on OOP.
+6. Puzzle : you and your friend are going in car from Varanasi to Delhi, after covering 100KM your friend does not feel well, he need immediate doctor. Your car stops and not starts again, engine fails, you try but can’t repair it. Mobile phone is not working. If you ask for lift they do not stop. If you stand in the middle of road then they will kill you but not stop. Think what will you do to save your friend.
+7. One question from their product, he explained all details, then ask to optimize it.
+8. Do you want to ask any questions?
+You should always ask some smart questions and never ask about CTC. I asked about the work culture, career growth aspects. Then I asked about the products and fields in which they work. Lots of chitchat and healthy discussion.
+Tips / Advice: Don’t feel nervous, be confident, they will check even your answer is right.

@@ -1,0 +1,26 @@
+Zillious came to our campus on 28th October 2015 for recruitment. Round 1 was held at our college premises and the rest of the process at their office. The result was declared after four days. In total 3 students got placed in the company.
+Round 1: Written Round
+It consisted of 20 MCQ questions to be answered in 30 minutes. Questions were based on Time and Work, Logical Reasoning, Operating System, Computer Networks, Digital Logic and Computer Design (Count the no. of 1 bits in the binary representation of 3*4096 + 15*256 +.. something type question). And after that 2 coding questions were given which were meant to be written on paper within 1 hour.
+Coding Questions:-
+Write a function that takes coordinate (x, y) as input and calculate the minimum no. of moves that the frog would make to reach the destination. Assume the frog is always initially at position (0, 0).
+Round 2: Face to face technical round
+8 students were shortlisted.
+Now there are 4 employees named W, X, Y, Z
+W says: in all we have 24 legs.
+X says: in all we have 27 legs.
+Y says: in all we have 28 legs.
+Z says: in all we have 30 legs.
+Ques. 1. Which one of them is speaking lie?
+Ques. 2. Which one of them is speaking truth?
+Round 3
+5 students were shortlisted from the previous round.
+All of us were given a question to be coded. It was based on Dynamic Programming. We were given 1 hr. Here is the problem.
+Ques. Let us define a multiplication operation(×) on three symbols a; b; c according to the following table:
+
+Therefore, a × a = b , a × b = b etc.
+Find an efficient algorithm that examines a string of these symbols, say bbbbac, and decides whether or not it is possible to parenthesize the string in such a way that the value of the resulting expression is a. For example, on input bbbbac your algorithm should return yes because ((b(bb))(ba))c = a. 
+Source: http://stackoverflow.com/questions/8652447/parenthesizing-a-string-so-that-expression-takes-a-given-value
+3 students were shortlisted based on the performance in this round and I was not one of them.
+
+
+

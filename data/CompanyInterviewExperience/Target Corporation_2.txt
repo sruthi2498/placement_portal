@@ -1,0 +1,32 @@
+Round-1: Online Test
+10 objective questions and 1 coding question.
+objectives were from Data structures, Java, operating system, c.
+Que. Given source(x1,y1) and destination (x2,y2), you can move
+only (x1+y1,y1) or (x1,x1+y1).Print “yes” if it is possible to
+reach from source to destination otherwise “No”.
+Input: source(1,3), destination(9,4)
+Output: Yes.
+Explanation: (1,1+3) —> (1+4,4)—->(5+4,4)=(9,4).
+Round-2: Technical
+1.Brief discussion about project(table used in project and discussion about Primary key)
+2.OOPS concepts in details.
+3. How subqueries work.
+4. How will you increase memory size if it is allocated already and how much maximum size you can increase?
+5. Discussion about joins in details and finally, he gave me 2 tables and asked result after performing left outer join.
+6. what is Correlated subquery.
+7. Sql query- Student (rollno, name), Marks (Rollno, subject, marks) , print details of students who is having more than 70 marks.
+8. what is the binary search.
+9. what is DBMS.
+10.what is partitioning.
+11.what is data structure and types of data structure.
+Round-3: Technical +HR
+1. He asked me to tell something.
+I asked that what should I tell about myself or company, then he told that impress me (He was expecting that what are the qualities in me, which is suitable for the company).
+2. what is normalization.
+3. what is 1NF, 2NF, 3NF.
+4.He gave me a table which was not in 1NF and asked to break it such that it satisfies properties of 1NF.
+5. write the program to check a string is a substring of other not.
+6. what are the types of database.
+7. why should I hire you.
+8. why should I not hire you.
+9. which type of team members you want to work with.

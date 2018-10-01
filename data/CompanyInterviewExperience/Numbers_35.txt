@@ -1,0 +1,12 @@
+Lucky numbers are the positive integers whose decimal representations contain only the lucky digits 4 and 7.
+What minimum lucky number has the sum of digits equal to n.
+Examples:
+The approach is based on below facts : 
+We basically need to find values of ‘a’ and ‘b’.  We find these values using below facts:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity:  O(sum).

@@ -1,0 +1,10 @@
+For calculating the smallest of all the elements in a given list, we have std::min, but what if we want to find the smallest not in the whole list, but in a sub-section of the list. To serve this purpose, we have std::min_element in C++.
+std::min_element is defined inside the header file <algorithm>  and it returns an iterator pointing to the element with the smallest value in the range [first, last).
+Unlike std::min, which can be used in three ways, std::min_element can be used in two ways. The comparisons can be performed using either operator < (first version), or using a pre-defined function (second version). If more than one element satisfies the condition of being the smallest, the iterator returned points to the first of such elements.
+The two versions are defined as given below:
+Run on IDE
+Output:
+Syntax:
+Run on IDE
+Output:
+Related Articles:

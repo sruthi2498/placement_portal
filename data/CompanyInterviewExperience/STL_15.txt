@@ -1,0 +1,12 @@
+The article illustrates the working of the different relational operator on the array STL. The equality comparison ( == ) is performed by comparing the elements sequentially using operator ( == ), stopping at the first mismatch.
+The less-than comparison ( < ) or greater-than comparison ( > ) behaves as if using algorithm lexicographical_compare, which compares the elements sequentially using operator () in a reciprocal manner (i.e., checking both a<b and b<a) and stopping at the first occurrence.
+The implementation of relational operators on the array help us to compare between the data stored in different arrays.
+Equivalent operators : Here are some operators whose work is same.
+Time Complexity :  The time complexity of the above operation is O(n) where n is the size of the array. 
+Below is the code to illustrate the working of relational operators on array 
+Program 1: Relational Operator Comparison
+Run on IDE
+Output :
+Program 2: Relational Operator Equality
+Run on IDE
+Output :

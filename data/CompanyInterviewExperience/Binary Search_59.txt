@@ -1,0 +1,36 @@
+Given a tank with capacity C liters which is completely filled in starting. Everyday tank is filled with l liters of water and in the case of overflow extra water is thrown out. Now on i-th day i liters of water is taken out for drinking. We need to find out the day at which tank will become empty the first time.
+Examples:
+
+    We can see that tank will be full for starting (l + 1) days because water taken out is less than water being filled. After that, each day water in the tank will be decreased by 1 more liter and on (l + 1 + i)th day (C – (i)(i + 1) / 2) liter water will remain before taking drinking water.
+    Now we need to find a minimal day (l + 1 + K), in which even after filling the tank by l liters we have water less than l in tank i.e. on (l + 1 + K – 1)th day tank becomes empty so our goal is to find minimum K such that,
+        C – K(K + 1) / 2  <=  l
+    We can solve above equation using binary search and then (l + K) will be our answer. Total time complexity of solution will be O(log C)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Alternate Solution : 
+It can be solved mathematically with a simple formula:
+Let’s Assume C>L. Let d be the amount of days after the Lth when the tank become empty.During that time, there will be (d-1)refills and d withdrawals.
+Hence we need to solve this equation :
+
+
+Sum of all withdrawals is a sum of arithmetic progression,therefore :
+
+
+
+
+Discriminant = 1+8(C-L)>0,because C>L.
+Skipping the negative root, we get the following formula:
+
+Therefore, the final alwer is:
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Andrey Khayrutdinov for suggesting this solution.

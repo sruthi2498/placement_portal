@@ -1,0 +1,10 @@
+Given a binary string find the longest substring which contains 1’s more than 0’s.
+Examples:
+
+A simple solution is to one by one consider all the substrings and check if that substring has count of 1 more than 0. If count is more than compare its length with maximum length substring found till now. Time complexity of this solution is O(n^2).
+An efficient solution is to use hashing. The idea is to find sum of string traversed until now. Add 1 to the result if current character is ‘1’ else subtract 1. Now the problem reduces to finding largest subarray having sum greater than zero. To find largest subarray having sum greater than zero, we check the value of sum. If sum is greater than zero, then largest subarray with sum greater than zero is arr[0..i]. If sum is less than zero, then find size of subarray arr[j+1..i], where j is index upto which sum of subarray arr[0..j] is sum -1 and j < i and compare that size with largest subarray size found so far. To find index j, store values of sum for arr[0..j] in hash table for all 0 <= j <= i. There might be possibility that a given value of sum repeats. In that case store only first index for which that sum is obtained as it is required to get length of largest subarray and that is obtained from first index occurrence.
+Below is the implementation of above approach:
+Run on IDE
+Output: 
+Time Complexity:  O(n)
+Auxiliary Space:  O(n)

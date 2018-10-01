@@ -1,0 +1,19 @@
+Given a number n, find sum of first n even natural numbers. 
+Examples:
+
+A simple solution is to traverse through n even numbers and find the sum of cubes.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+An efficient solution is to apply below formula.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Sum of cube of first n odd natural numbers

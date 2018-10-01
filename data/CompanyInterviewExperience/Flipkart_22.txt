@@ -1,0 +1,17 @@
+Given a target position on infinite number line, (-infinity to +infinity). Starting form 0 you have to reach the target by moving as described : In ith move you can take i steps forward or backward. Find the minimum number of moves required to reach the target.
+Examples :
+
+Approach :
+Idea is similar to discussed in O(n) approach here.
+Keep adding sum = 1 + 2 + .. + n >= target. Solving this quadratic equation gives the smallest n such that sum >= target, i.e solving for n in n(n+1) / 2 – target >= 0 gives smallest n.
+If sum == target, answer is n. Now next case where sum is greater than target. Find the difference by how much steps index is ahead of target, i.e sum – target.
+Case 1 : Difference is even then answer is n, (because there will always a move flipping which will lead to target).
+Case 2 : Difference is odd, then take one more step, i.e add n+1 to sum and now again take the difference. If difference is even the n+1 is the answer else take one more move and this will certainly make the difference even then answer will be n + 2.
+Explanation : Since difference is odd. Target is either odd or even.
+case 1 : n is even (1 + 2 + 3 + … + n), then adding n + 1 makes the difference even.
+case 2 : n is odd then adding n + 1 doesn’t makes difference even so take one more move, i.e., n+2.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

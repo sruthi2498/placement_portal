@@ -1,0 +1,30 @@
+20 MCQs mixed with simple Quants, logical, other Technical CS concepts (TOC, DS, DBMS, NETWORKS)
+2 Programming questions (I solved both)
+Use max (previous element’s exclusive + arr[i]) idea. See Geeks For Geeks or Tushar Roy video if needed.
+(Did it in 
+o(n) for each query, by normal for loop traversal 
+ o(log(n)) for each query, by sorting and using Binary Search we can pass TLE (Time Limit Error) then finally, I solved it using Hashing and then do like counting sort algorithm so
+o(1) for each query (Because question had maximum space complexity as 256MB so it won’t be a problem) MOST OPTIMAL ONE.
+FACE TO FACE INTERVIEWS:
+4 Totally = 3 technical, 1 technical + Bar raiser rounds
+First Round: (1 hr.)
+Second Round: (40 min)
+Third Round: (1:20 hrs.) 
+(PROBLEM SOLVING + kind of like STRESS INTERVIEW)
+(Question was same as this, I asked many clarifications (received stress then answers) and tried Graphs, Sorting players based on Ranking he said it’s not required, demanded efficient one then I solved using Tournament Trees (2n is the clue to use tournament tree) He was very satisfied.
+ COMMENT about your codes nearby too for better understanding.
+Rapid Fire Round: 
+(these were challenging as he expected to answer faster!)
+Final Round (1hr) test BASIC CS concepts more 
+(I solved and coded it using recursion and backtracking) 
+Matrix can be N x N Pattern Box.
+2 sub-problems: 
+1. Check if given pattern is possible or not (Use ANGLE 90 or 180)
+2. Print all possible patterns you can make with given length and starting point
+Edges cases should be covered properly!
+(Explained ACID properties using BookMyShow app exactly)
+I explained everything I knew, finally I explained Android Phone Kernel too. He was very impressed and was like stopping further simple questions.
+U have a dictionary of words (Not necessarily in order given in our English dictionary) 
+How will u search for word (Used topological sort and explained why and how it works he was convinced)
+It was all done in one day. I thank Geeks for Geeks so much for helping me for my placement preparations. It was and is very helpful!!
+f you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

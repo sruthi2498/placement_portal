@@ -1,0 +1,7 @@
+Given a string str containing numbers separated with “, “. The task is to convert it into an integer array and find the sum of that array.
+Examples:
+Approach: 
+arr[j] = arr[j] * 10 + (Str[i] – 48)
+Below is the implementation of the above idea:
+Run on IDE
+Time Complexity: O(N), where N is the length of the string.

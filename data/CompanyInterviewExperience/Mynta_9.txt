@@ -1,0 +1,60 @@
+Recently Myntra visited our campus for hiring full timers as well as interns . I would like to share my experience as a full time applicant.
+Online Round
+This was a 2 hour round consisting of 5 mcqs and 2 codes 
+The mcqs were pretty much simple based on DS, DBMS, OS, OOP, C
+The codes were as follows
+1> Given N leaves numbered from 0 to N . A caterpillar at leaf 0, jumps from leaf to leaf in multiples of j(j,2j,3j like this) ,j is specific to the caterpillar,until it reaches the end . On whichever leaf it jumps it eats a little bit . You have to find out how many leaves ,from 1 to N, are left uneaten after k caterpillars have reached the end,each with their own jump factor (j).All the caterpillars begin at leaf 0.
+example :
+N=10
+k(number of caterpillars)=3
+jump factors are 2 ,3,4
+then all the leaves eaten by the first caterpillar are (2,4,6,8,10)
+those eaten by the second one are (3,6,9)
+those by the 3rd one (4,8)
+so the uneaten leaves are 1,5,7
+output=3
+2> Given a number n>0, you have to find the number formed by just inverting the bits of the number .
+        for example:   binary of 5 is 101 ,inverting the bits we get 010 =2
+       so input=5 output=2
+          PS : merely ~n wouldn’t work 😛
+PI round 1 
+A brief discussion on my projects and internships.A thorough discussion  on whichever languages,frameworks,i had used in my projects.
+Code 1
+Given a binary tree  ,you have to invert the tree ,i.e. the parents would become children and the children would become parents
+for example  
+Code 2
+Given a set of numbers ,you have to find the max and the second max in minimum number of comparisons.
+Apart from the codes there were some questions on OS,process stack, heap memory in Java, Garbage collection,OOP principles and comparison based sorting
+PI round 2
+Code 1
+Given a very large number (10^7-10^9) and a small number (5000-10000).
+I have to calculate the product. It was up to me how i would represent the large number.
+Code 2
+Given a set of integers ,you have to find the largest number possible by rearranging the contents in the array 
+for example :
+input: {,78,99,101}
+the largest number possible by rearranging the contents of the array is 9978101 .
+Discussion on DBMS , what is indexing? ,on which attribute should we have an index for efficient retrieval… what data structures are used for indexing ..advantages of B+ tree
+When should we not use indexing?  some basic questions on SQL 
+PUZZLE
+Two boys A and B enter a tunnel . At 2/3rd of the tunnel,they see a train coming towards the tunnel ,the train is still at a distance from the tunnel . A runs back to that end of the tunnel from which they entered the tunnel,B runs towards the other end of the tunnel. Both of them just make it without being run over by the train . The train is travelling at a speed of 60kmph.
+Find the length of the tunnel 
+Hint:  We need one more variable to solve this question.But that wont be told at the beginning,. We have to find out which variable that is.
+PI round 3 (Managerial) 
+Puzzle 1
+Given a biased coin,how would you take an unbiased decision .You don’t know whether it is biased towards heads or tails.
+Puzzle 2
+Given a cylindrical glass of water,how would you conclude whether it is more than half filled ,or less than half filled.  The glass is not transparent and you do not have any measuring instrument. And you cannot spill out or add anything. 
+Puzzle 3
+A man lives on the 12 th floor . Everyday he uses the lift ,comes to the ground floor and goes to office.On his return ,three cases are seen
+ 1> whenever he is with someone in the elevator he takes the lift directly to the 12th floor
+ 2>whenever its raining he takes the elevator to the 12th floor.
+3> on any non-rainy day when he is alone ,he takes the elevator to the 10th floor and walks up the stairs 2 floors.
+Explain the situation.
+Puzzle 4
+A and B are twin brothers. A is older than B by 5 minutes . A celebrates his birthday each year on 16th march whereas B celebrates his birthday on 15th march . Explain the situation. 
+Apart from this ,he asked questions like ,what are my career goals,what do you look forward to in a boss ,how do you see yourself in 5 years ,etc etc (you all know it :P)
+HR Round
+If you have made it this far,it means you are doing pretty great . The HR round was kind of a normal chitchat session,..
+Thank You Geeksforgeeks! \m/
+

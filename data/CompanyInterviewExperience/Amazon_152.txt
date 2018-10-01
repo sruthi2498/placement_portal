@@ -1,0 +1,13 @@
+I went through some interview rounds for SDE-2 in amazon. Below is the format.
+Round1: It was a test on HackerEarth with two programming questions
+https://www.hackerearth.com/challenge/hiring/amazon-hiring-challenge-2/problems/
+Round 2:
+1. Boundary Traversal of binary tree https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+But output should be 20 8 22 4 25 10 14
+2. Find four elements a, b, c and d in an array such that a+b = c+d https://www.geeksforgeeks.org/find-four-elements-a-b-c-and-d-in-an-array-such-that-ab-cd/
+Write production ready code. Consider scenario for duplicates too.
+Round 3:
+1. Trapping Rain Water
+https://www.geeksforgeeks.org/trapping-rain-water/
+2. Next smallest palindrome
+https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/

@@ -1,0 +1,4 @@
+The array is a container for constant size arrays. This container wraps around fixed size arrays and also doesn’t loose the information of its length when decayed to a pointer.
+In order to utilize array, we need to include the array header:
+Let’s see an example.
+Run on IDE

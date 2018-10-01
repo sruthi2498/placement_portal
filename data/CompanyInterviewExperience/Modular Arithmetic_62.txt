@@ -1,0 +1,12 @@
+Given an array of integer numbers, we need to find maximum size of a subset such that sum of each pair of this subset is not divisible by K.
+Examples :
+
+    We can solve this problem by computing modulo of array numbers with K. if sum of two numbers is divisible by K, then if one of them gives remainder i, other will give remainder (K – i). First we store frequencies of numbers giving specific remainder in a frequency array of size K. Then we loop for all remainders i and include max(f[i], f[K – i]). Why? a subset with no pair sum divisible by K must include either elements with remainder f[i] or with remainder f[K – i]. Since we want to maximize the size of subset, we pick maximum of two sizes.
+    In below code array numbers with remainder 0 and remainder K/2 are handled separately. If we include more than 2 numbers with remainder 0 then their sum will be divisible by K, so we have taken at max 1 number in our consideration, same is the case with array numbers giving remainder K/2.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(N + K)
+Auxiliary Space : O(K)

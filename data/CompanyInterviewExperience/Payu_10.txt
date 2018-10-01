@@ -1,0 +1,53 @@
+Recently Payu visited our campus and its process of selection was as follows:-
+Online Test :
+15 technical questions + 5 Coding Questions(I solved all the coding and about 10 technical Questions). Luckily i got shortlisted for the personal interviews. There were 4 technical rounds and 1 HR round.
+Technical Interview 1 (30 mins):
+1. Introduce yourself.
+2. Tell me about Projects
+3. Code for a modified least common ancestor of two nodes in BST (complete working code with boundary conditions needed).
+4. given two strings, remove the characters from string1 that appear in string2 in O(N) and constant space.(code was needed).
+5. modified DP problem of Rod Cutting.(No code needed, we wanted the mathematical equations and how to solve by DP approach).
+Technical Interview 2(45 mins):
+1. Introduce Yourself.
+2. Asked me to write the complete code for insertion and deletion in AVL Trees implemented using maps.(I mentioned it as one of my projects).
+   I was not able to write complete code and then asked me if can only explain it(He was OK with that).
+3. Discussion about how to maintain session of users on web.
+4. Discussion about what are cookies and their significance.
+5. Given an array of integers, find all pairs with a given sum K.
+6. Given an array of integers, find all pairs (a, b) such that (a % b )= k. (k was given as input). O(N) solution was expected.
+7. Given an array of integers, find all subsets of size 2 and size 3 such that in subset of size 2 , a+b = K and in subset of size 3 , a+b+c = K.
+   (K given as input). needed O(N) solution.
+8. Few questions on resume and achievements.
+9. Puzzle: Given 16 horses find the top 5 horses in least number of races. Only 4 horses can take part in a single race.
+   (my starting approach was correct, but later on asked for hint), finally solved.
+Technical Interview 3(30 mins) :
+1. Introduce Yourself.
+2. Why not higher studies.
+3. Why Computer Science.
+4. Gave me a paper with a single problem on it :- Given an English Dictionary that contains only valid English letters. We need no to worry
+    about the way English Dictionary was implemented. Given some input and the corresponding output , I was asked to write the code for
+	getting the required outputs. Once you are done with small cases he kept on giving more complex inputs.
+    He was actually checking by understanding of the Recursion, base cases and Problem Solving Approach. Code was needed for every case.
+Technical Interview 4(40 mins) :
+1. Introduce yourself
+2. What is KMP Algorithm. Write code for preprocessing function.
+3. Difference with Http ans Https.
+4. How Security is provided on network.
+5. DBMS : Discussion on Normalization and its significance and various Normal forms(1st NF, 2nd NF, 3rd NF, BCNF).
+6. OS : Explain Paging with Example.
+7. Design Patterns: Asked me to implement Singleton Design Pattern.(Asked for hint and then implemented it).
+8. Some easy questions on Arrays again.
+9. Asked to write code for Vertical Tree Traversal by considering all boundary cases and all test cases. (I took some time then coded using
+   map > ). He was okk with my code.
+10. Asked me the same English Dictionary question, I told him that I have already solved it.
+11. How to implement Mutual Friend Feature of FaceBook.
+12. How to implement top 5 friends feature.
+13. Asked If I had any Questions. 
+HR Round (20 mins) :
+1. Introduce yourself.
+2. Why Pay U
+3. Most Challenging situation during college projects and how to solved it.
+4. Strengths.
+5. Weaknesses.
+
+ 

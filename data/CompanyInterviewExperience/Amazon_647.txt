@@ -1,0 +1,18 @@
+Written:
+20 MCQ on basics of C, OS, Networking + 2 Coding. 
+1) Left view of Binary Tree.
+2) Rotate a matrix by 90 degree.
+Interview (Round-1)
+1. You have to find p,q of matrix p*q such that it fill n elements(n given) Such that
+a) matrix should be nearest to a square matrix and
+b) 0<=((p*q)-n)<=2 
+
+2. Zig-zag traversal of tree
+
+3. You are given an array of  length k and it have numbers from 0 to n (where k>>>n) in O(n) time and no extra space find occurrences of each element in O(n) time only
+Round-2
+1. You are given row and column wise sorted matrix you have to find and delete an  element such that it is still sorted in O(n) time.
+2. Find if sum of any 2 elements in an array equal to k in O(n) time using extra      space.
+3. In a BST to every element add sum of elements greater than it.
+Result –> Got Selected from Campus Internship Interviews.
+

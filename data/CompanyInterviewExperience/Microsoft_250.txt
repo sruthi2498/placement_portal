@@ -1,0 +1,77 @@
+Recently Microsoft visited our campus for SDE intern. The process took over 4 months.
+Round 1  (Online MCQ’s) 
+time- 30 minutes.
+This was conducted on CoCubes.com ,there were around 25 questions of varying level of difficulty. Topics: C , C++ , Aptitude.
+Around 60 students out of 150 were shortlisted for the next round.
+Round 2 ( Online Coding Round)
+time – 90 minutes
+This was conducted on the same day.  There were two questions of data structure. 
+1) Write a function to check whether the  parenthesis ( “( )”, “{ }” , “[ ]” ) in a given string are balanced or not.
+https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+2) Write a recursive function to make a list from two given Linked lists,  that contain  intersection of the elements present in the given lists inplace.
+37 students were shortlisted for the next round.
+Round 3 (Telephonic interview)
+time- 33 minutes
+1. I was asked to introduce myself.
+2. Then there were couple of  questions on  the project i was  working on. As my project was in java  as the front end and oracle as the back end, i was asked few questions on multithreading and sql.
+3. I was then asked to explain the logic and the code to traverse a binary tree level by level but in spiral form.
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+4. Logic and the code for the lowest common ancestor in a binary search tree.
+https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
+5. Complexity of both the above codes and why such complexities.
+6. i was asked questions on OS-
+-Differentiate between mutex  and semafore variables?
+– What does a thread and a process share in common?
+  – What is a deadlock ?
+7. There were few questions on C++.
+ 	– Polymorphism and runtime polymorphism.
+– What is a virtual destructor?
+ I was asked if i had any queries and i asked about the work that interns will get to do in microsoft and the interview ended.
+Only 9 were shortlisted for the further interviews. I was lucky enough to be one of them.
+We were called to Microsoft India Development Center, Hyderabad. 
+Round 4 (Technical)
+Time- 35 mins
+The  interview started with my introduction. Then there was a long discussion on my project. He told me the flaws in my project and asked me to tell how would i deal with them.
+1) Given two arrays of integers( in random order),  how would u determine the rank of an element.
+For ex: let the two arrays be
+     46 32 16 73 57 2 and
+     86 7 98 3 75
+     rank (46) = 6
+     rank (86) = 10
+     rank (2) = 1
+i don’t remember the exact question but it was similar to this. Fairly simple. I suggested some approaches and i was expected to come out with the best approach.
+then i was asked to code  my solution and design the test cases for the same.
+2) I was asked about my favorite subject.
+3)Write and explain the code to connect nodes at same level in a binary tree.
+Connect nodes at same level
+
+Soon after the fourth round some of us were called for the  next round.
+Round 5 (Technical) (30 mins)
+1) Given a Y- linked list. Find the node at the intersection point.
+2)  Given a string of containing lower case letters  and upper case characters. Find the number of occurrences of each  character.
+ The question was further modified to include the special characters as  well. I was asked to design the test cases for the same.
+3) Remove duplicate characters from a given string keeping only the first occurrences (i.e order should not change). For ex- if the input is ‘bananas’ the output will be ‘bans’.
+https://www.geeksforgeeks.org/remove-all-duplicates-from-the-input-string/ (second method).
+5 of us were called for the next round.
+Round 6 (HR ) (30 mins)
+There were questions like-
+1) Brief me about your academic history.
+2) The project you are currently working on and why did you choose this?
+3) What improvements can you do in your project? Are you working under a professor  or just out of interest?
+4) How would your peers describe you?
+5) How would your professors describe you and what are your weaknesses according to them?
+6) How are you trying to improve?
+7) What keeps you motivated?
+8) What are your Short term and Long term goals?
+9) Why Microsoft?
+There were few other questions which i can’t recall now :p
+It was the last round. It went pretty well.
+The experience was awesome and i found that the  people over there are very humble and i really liked their helping attitude.
+Some interview tips-
+Stay calm, CONFIDENT and keep yourself motivated.
+Be honest.
+Try to keep your approach clean and don’t mess up things in your’s as well as interviewer’s mind.
+Don’t think about the results, just enjoy the interview process with a free mind 😀
+Focus on building your concepts strong.
+A big thanks to GeeksforGeeks for providing such a brilliant platform for interview preparation. Keep up the good work  🙂 
+

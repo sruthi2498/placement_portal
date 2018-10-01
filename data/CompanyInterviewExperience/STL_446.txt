@@ -1,0 +1,10 @@
+Given an array of integers, sort the array according to frequency of elements. If frequencies of two elements are same, print them in increasing order.
+Examples:
+We have discussed different approaches in below posts :
+Sort elements by frequency | Set 1
+Sort elements by frequency | Set 2
+We can solve this problem using map and pairs. Initially we create a map such that map[element] = freq. Once we are done building the map, we create an array of pairs. A pair which stores elements and their corresponding frequency will be used for the purpose of sorting. We write a custom compare function which compares two pairs firstly on the basis of freq and if there is a tie on the basis of values.
+Below is its c++ implementation :
+Run on IDE
+Output:
+Time Complexity : O(n Log n)

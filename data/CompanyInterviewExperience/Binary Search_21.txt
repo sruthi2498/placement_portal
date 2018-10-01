@@ -1,0 +1,10 @@
+Given an unsorted array and a number x, find index of first occurrence of x when we sort the array.  If x is not present, print -1.
+Examples:
+A simple solution is to first sort the array, then do binary search to find first occurrence.
+Run on IDE
+Output : 
+Time Complexity : O(n Log n)
+An efficient solution is to simply count smaller elements than x.
+Run on IDE
+Output : 
+Time Complexity : O(n)

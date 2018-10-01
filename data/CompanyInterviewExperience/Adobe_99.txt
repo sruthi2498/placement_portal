@@ -1,0 +1,25 @@
+The atoi() function takes a string (which represents an integer) as an argument and returns its value.
+Following is a simple implementation. We initialize result as 0. We start from the first character and update result for every character.  
+Run on IDE
+Run on IDE
+Run on IDE
+
+The above function doesn’t handle negative numbers.  Following is a simple extension to handle negative numbers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+The above implementation doesn’t handle errors. What if str is NULL or str contains non-numeric characters.  Following implementation handles errors.
+
+Run on IDE
+Run on IDE
+Time Complexity: O(n) where n is the number of characters in input string.
+We only need to handle four cases:
+In below implementation all above four cases can be handle.
+Run on IDE
+Output :
+Time Complexity O(n), where n is length of string.
+Recursive program for atoi().
+Exercise
+Write your won atof() that  takes a string (which represents an floating point value) as an argument and returns its value as double.

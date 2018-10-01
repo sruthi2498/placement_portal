@@ -1,0 +1,5 @@
+Given array of numbers and a integer x. Find whether it is possible or not to get x by adding elements of given array, we may pick a single element multiple times. For a given array, there can be many sum queries.
+Examples:
+The idea is to first sort the given array and then use the concept similar to Sieve of Eratosthenes. First take a large sized array ( which is maximum size of x). Initially keep zero in all it’s indexes. Make 1 at zero index ( we can get zero whatever the array is) . Now, traverse through the whole array and make all possible values as 1.
+Run on IDE
+OUTPUT :

@@ -1,0 +1,23 @@
+Given an array of integers (both odd and even), sort them in such a way that the first part of the array contains odd numbers sorted in descending order, rest portion contains even numbers sorted in ascending order.
+Examples:
+Asked in : Microsoft 
+
+Method 1 (Using Partition)
+Below is implementation of above idea. 
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n log n)
+space complexity: O(1)
+ 
+Method 2 (Using negative multiplication) :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n log n)
+space complexity: O(1)
+This method may not work when input array contains negative numbers.  However, there is a way to handle this. We count the positive odd integers in the input array then sort again. Readers may refer this for implementation.
+Thanks to Amandeep Singh for suggesting this solution.

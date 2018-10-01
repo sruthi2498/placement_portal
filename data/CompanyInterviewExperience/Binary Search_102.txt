@@ -1,0 +1,14 @@
+Given a number n. The task is to find the smallest number whose factorial contains at least n trailing zeroes.
+Examples :
+
+In the article for Count trailing zeroes in factorial of a number, we have discussed number of zeroes is equal to number of 5’s in prime factors of x!. We have discussed below formula to count number of 5’s.
+Let us take few examples to observe pattern 
+We can notice that, the minimum value whose factorial contain n trailing zeroes is 5*n.
+So, to find minimum value whose factorial contains n trailing zeroes, use binary search on range from 0 to 5*n. And, find the smallest number whose factorial contains n trailing zeroes.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

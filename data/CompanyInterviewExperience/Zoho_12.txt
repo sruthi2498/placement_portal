@@ -1,0 +1,66 @@
+Round 1:
+Zoho CRM team visited for on-campus.There were questions based on c apps (15), general apps (10).Test for about 1 and half hrs.
+Round 2: 
+Those who have shortlisted from first round have second round coding in PC.not online coding.
+1. Print longest sequence between same character
+Ex I/p abcccccbba
+O/p 8 (from a to a)
+I/p aaaaaaaa
+O/p 6
+2.sort the array odd numbers in ascending and even numbers in descending.
+I/p 5 8 11 6 2 1 7
+O/p 1 5 7 11 8 6 2
+3. It’s about anagram.i/p was array of strings .and a word was given to find whether it has anagram in given array.
+I/p catch, got, tiger, mat, eat, Pat, tap, tea
+Word: ate
+O/p eat, tea
+4.array of numbers were given to find a number which has same sum of numbers in it’s either side.
+I/p 1, 2, 3, 7, 6
+O/p 7(has 1+ 2+3 in left 6 in right)
+Round 3:
+Those who have solved 4 or above problems has shortlisted for 3rd round.It was a gaming round.
+Size of the array is given were w is wall, g ground, o ball, numbers are bricks.
+I/p size 7
+Number of bricks 6
+Position (2, 2)(2, 3)(2, 4)(3, 2)(3, 3)(3, 4)
+Ball:5(life)
+w w w w w w w
+w                       w
+w       1  1  1     w
+w       1  1  1     w
+w                       w
+w                       w
+w  g  g   o  g  g  w
+There are three commands St, lt, rt straight, left, right respectively.
+If it is st the ball moves straight .if there any brick(1) along the way it hit it .then brick disappear.ball back to original position.if there is no brick .it come to initial position.
+I/p st
+O/p
+w w w w w w w
+w                       w
+w       1  1  1     w
+w       1      1     w
+w                       w
+w                       w
+w  g  g   o  g  g  w
+Ball count:5
+I/p lt
+O/p
+w w w w w w w
+w                       w
+w       1  1  1     w
+w                1     w
+w                       w
+w                       w
+w  g  o  g   g  g  w
+Ball count:4
+(Lt : ball moves diagonally left there is no bricK on the way so it hit the wall reflect back horizontally there is a brick(3, 2) after hitting it it moves downwards ball position changed.hence ball count get reduced. On moving downwards is there any brick that also disappear.)
+Same for rt but moves diagonally right.
+This is first module.In second module each brick has value for each hit value get reduced.it disappear only when it become zero.
+There are about 7 modules.
+Those who have clear at least first module.selected for fourth round.
+Round 4:
+Technical HR
+Only logic was asked for some programming question. And some puzzles question.
+Round 5:
+General HR
+ 

@@ -1,0 +1,35 @@
+Round 1: Telephonic
+Q1. Implement some functionalities of Minesweeper like connected component search and game termination check etc.
+Q2. Linked list random pointer question.
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+Q3. Given a matrix of 0s and 1s find the row that contains maximum number of 1s.
+Q4. Given a node in a binary tree, find all the nodes which are at distance K from it. Root node is also given.
+Next day, I got the call for onsite interviews.
+Round 2: Onsite round by SDE – 1
+Q1. Given very large number of empty crates of varying sizes, we need to find the best fit crate for the given item and allocate it. Need to design a data structure for this scenario. Operations involved:
+e.g. 3 crates of weight 10, 20 and 30 are there. An item of size 15 appears then we’ll allocate crate of size 20 and delete it.
+Sol. Use binary search tree (balanced using red-black criteria or any) and implement ceil function.
+All operations will be O (log(n)).
+Q2. Optimize above data structure for weekends where amazon have lots of crates but very less search operations.
+Q3. Given a function boolisValidWord(string str) you need to check whether a string is a proper string or not. E.g. iloveicecream is valid : I love ice cream.
+Round 3: Manager of some other Team
+Deep discussion on projects.
+In one project I used EC2 service so he asked me many details and why I preferred EC2 over other possible options.
+Buy and sell stock question.
+https://www.geeksforgeeks.org/stock-buy-sell/
+https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+General discussion on virtual memory.
+Round 4: 2 SDE-1s
+Q1. Given matrix of 1s and 0s where 0 is water and 1 is land. Find number of islands.
+Q2. Give the size of all islands in above question.
+Q3. https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/
+Round 5: Dev Manager, 6yrs exp. (May be bar raiser round still I am not sure :P)
+Q1. We started our discussion for very general problem where we have a long stream of characters and we need to extract all the patters from that stream. There can be integers, fractions, words or anything.
+I explained the entire process which is used in lexical analysis phase of compiler design where we give regular expressions and finally they are converted to NFAs and finally a single DFA.
+Then a discussion went on how we’ll implement this system from scratch.
+There are many algorithms for converting regular expressions to NFAs and finally DFAs and some general discussion over Natural Language Processing.
+http://algs4.cs.princeton.edu/54regexp/
+Q2. Given M sorted linked lists of each of size N, we need to merge them to single linked list of size M x N using no extra space.
+Next day I got the call that they would like to extend me the offer for SDE-1 profile.
+Important Tips: 
+

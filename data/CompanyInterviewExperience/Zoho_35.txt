@@ -1,0 +1,37 @@
+Round 1:
+First round is a written test. This is different from the other company written tests which I had faced till now. This round consists of 20 C output questions and 10 aptitude (logical) questions. To clear this round one should have a deep understanding about the concepts of C programming language; mainly pointers, array and string manipulations, loops. We have 28 sets of C output questions available in the given link https://www.geeksforgeeks.org/category/program-output/. The other 10 questions not only consists of aptitude but also logical questions. To attempt the aptitude questions, we have http://www.indiabix.com/aptitude/questions-and-answers/. I think these two links is good enough to clear the first round.
+Round 2:
+This is a coding round. We are given 4 programming questions which have to be done in a very optimal way. To clear this round, one should attempt at least 3 programs. 
+1. Given an odd length word which should be printed from the middle of the word.
+The output should be in the following pattern.
+Example: 
+2. It is a program to implement Least Recently Used (LRU) concept. Given a key, if it is already existed then it should be marked as recently used otherwise a value should be stored which is given as input and marked as recently used. The capacity is to store only 10 key, value pairs. If the table is full and given a new key; the key, value pair which is not recently used should be deleted which gives feasibility to store the new key, value pair.
+3. Given a few pairs of names in the order child, father. The input is a person name and level number. The output should be the number of children in that particular level for the person given.
+Example:
+Input:
+[
+{Ram, Syam},
+{Akil, Syam},
+{Nikil, Ram},
+{Subhash, Ram},
+{Karthik, Akil}
+];
+Syam 2
+Output: 3 (Syam has Ram and Akil in level 1 and in level 2 he have Nikil, Subhash, Karthik. So the answer is 3).
+4. Given an array of positive integers. The output should be the number of occurrences of each number.
+Example:
+Input: {2, 3, 2, 6, 1, 6, 2}
+Output:
+1 – 1
+2 – 3
+3 – 1
+6 – 2
+Round 3:
+This is an advanced programming round. The task is to develop an Invoice Management. The main focus in this round is in designing part. We should mainly focus on the data base part. How we are going to design the tables to store data and how we are going manage the data plays an important role. It is better to refresh DBMS concepts before attending the ZOHO placements. Techtud videos on DBMS in youtube helped me a lot to understand basic concepts of DBMS. Particularly, in this round think in the aspect of ER models (Tables, attributes, primary and foreign key etc).
+After designing part they gave us two queries. Here, the coding part should be done in a very optimal way. Based on the query, from the data we stored, the result should be printed. I did in C language but better to implement in any OOPS language.
+Round 4:
+This round is a face to face interview. I had been interviewed nearly one and half an hour. Nearly 45 minutes, they asked about my project which is done in Java using servlets. They asked to design all the database tables which I have used in my project. They asked about the extensions of my project and asked how I’m going to implement. They also raised a problem in my project and asked which concept I will use to solve the problem. Another 45 minutes they asked about some other TR questions, my family background and some HR questions. 
+Round 5:
+This is just a formality round. They asked about the relocation, why you prefer ZOHO and some other basic HR questions. At last, only 4% of the people survived.  
+
+

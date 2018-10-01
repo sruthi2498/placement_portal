@@ -1,0 +1,33 @@
+Microsoft came to our campus in which around 170 people participated.
+First Round:
+This was conducted on CoCubes.com where we had to solve 3 questions in 75 minutes. The questions were different for everyone. Questions for me were:
+1.) https://www.geeksforgeeks.org/length-longest-consecutive-1s-binary-representation/
+2.) https://www.geeksforgeeks.org/leaders-in-an-array/
+3.) We had been given a linked list and we had to segregate its even and odd position nodes in such a way that odd position nodes before even positioned nodes and even positioned nodes had to be appended after odd positioned nodes but in a reverse order. We were not allowed to use any extra space.
+Ex – linked list: – 1 -> 2 -> 3 -> 4 -> 5 -> 6
+Output: – 1 -> 3-> 5 -> 6 -> 4-> 2.
+Out of that 72 people were selected for further rounds.
+Further rounds were conducted in Microsoft Hyderabad office.
+Group Fly:
+In this 2 questions were displayed which were common to everyone. There was a mentor assigned to 6 people with whom you can discuss the questions and ask doubts. (PS: Try to talk to them as much as possible. Tell them your solution before submitting. Tell them some good test cases which you could think of) .
+Questions were:
+1.) https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+2.) https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+Out of that 36 people were selected for further rounds.
+Technical Interview Round 1:
+I didn’t find the interviewer very helpful. He asked me some out of the blue questions too.
+1.) Count the number of ones in the binary representation of a number.
+I gave him the naive approach first. He asked me to reduce the time complexity. I told him we could use memoization. Again he said I want something in between (i.e. neither too much space complexity nor too much time complexity). Then after some unsuccessful attempts, he asked to use threads (weird, yeah!). Then he was not satisfied and asked to move on.
+2.) https://www.geeksforgeeks.org/union-and-intersection-of-two-linked-lists/
+This was quite easy and I wrote the full code. However, he asked some test-case specific questions and I was not really able to answer them. Then we moved on.
+Luckily I was selected for Round 2.
+Technical Interview Round 2:
+This time the interviewer was really helpful and sweet. He asked me a question:
+1.) Given two strings s1 and s2. Remove all instances of characters in s2 from s1 in place.
+Ex: s1 = “hello world” : s2 = “eo” ; new s1 = “hll wrld”
+I gave him two approaches.
+a.) O(mn) where we use brute force.
+b.) O(n) where we use a hash map to store character of s2 and traverse s1.
+He also wanted something in between. After thinking for some time I came up with a mlogn approach where you sort s2 and search for characters of s1 in s2.
+He was really impressed and happy.
+After this, I was told that I got the internship! 😀 Geeksforgeeks was really helpful for me for preparing for my internship.

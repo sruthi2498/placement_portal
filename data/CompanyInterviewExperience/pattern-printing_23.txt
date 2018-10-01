@@ -1,0 +1,13 @@
+Given a number N, print a hollow square of side with N asterisks(‘*’), and inside it print a hollow square of side N-4 asterisks(‘*’).
+Examples :
+
+The idea is to run two nested loops from 1 to n for rows and columns and now to check for conditions when to print an asterisk(‘*’) and when to print space(‘ ‘). The condition for printing asterisks will be:
+All of the indexes which do not satisfy the above condition will contain space.
+Below is the implementation of above idea:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

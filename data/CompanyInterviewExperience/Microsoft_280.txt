@@ -1,0 +1,52 @@
+Recently Microsoft came to visit our campus for offering SDE positions. Here is my interview experience.
+Online Rounds: These were organized by CoCubes.
+Round 1 – There were 15 simple MCQ’s. Most of them are from GeeksQuiz. Most of the students cleared this round.
+Round 2 – There were 2 coding questions
+1. Given a sorted list of strings that may contain NULL in random indices , return the position of a given search string. Return -1 if string not present.
+ex:”at”, “bat”,””,””,”car”,””,””,””,”dog” … find “car” . o/p: 4
+I initially tried a modified binary search, but something went wrong, So did a simple linear search. My bad 😛
+2. Given an array of integers where  all the elements occur odd number of times except 3 elements which occur even number of times, find the 3 elements.
+They shortlisted 39 students for a Group Fly Round.
+Group Fly Round: Students were divided into groups of 3 or 4 and were assigned a mentor. Everyone was asked the same question and was expected to write a clear and neat C/C++ code with comments wherever possible.
+The question was that an 1-D array contained N*N elements. Assuming that the N*N elements form a matrix, you have to rotate the matrix in-place.
+A group of 16 students were selected from this round for Personal Interviews.
+F2F : Round 1 – 30 mins tops
+What is your favourite subject ?
+– OOP
+What are the basic aspect of OOP ?
+– Polymorphism, Encapsulation, blah blah
+Explain Polymorphism to a layman
+– More blah blah
+How and when is it implemented ?
+– Run time and Compile time, via Overloading and Over-ridding
+He asked me to write sample code for each, which i did.
+Given a linked list which has got a loop, how do u detect the loop. ?
+– Floyd’s cycle detection algorithm
+He asked me to code it. He was happy; I had put checks for all corner cases.
+Count the number of full nodes in a binary tree. Full nodes are those which have both non-null left and right children.
+– I gave a pretty easy recursive solution. He asked me to do it iteratively using a different traversal. So i did a level order traversal.
+He asked me to give all kinds of corner cases. He was happy.
+Have you implemented thread library ??
+– Yes in Java and C++
+Difference between thread and a process ??
+– Blah Blah.
+F2F : Round 2 – 45 mins
+The interviewer was very serious and directly went into coding questions
+Given an array containing elements where all elements have even occurrences except two elements, find those elements.
+– I gave him the xor approach where you have to find the rightmost set bit and then divide into two groups. He was waiting for that and went directly to bit representation, i.e. Little Endian and Small Endian.
+Followup : Check if the given machine architecture is Little or Small Endian.
+Given two Strings, find the minimum length window in the first string containing all the elements of the second string.
+-Did it pretty quickly. He kept tweaking the questions and asked me to make necessary changes in the code. Finally he asked me to give some good test cases.
+F2F : Round 3 – 45 mins
+This was my final round with the AA Manager.
+He first asked me about my dismal CGPA :3
+Then we discussed a little about my projects.
+He asked me about semaphores and we had a little discussion about the types of semaphores. Then he asked me to write the Signal() and Wait() functions. Finally he asked me to implement mutual exclusion in critical section. I gave the Peterson’s algorithm. He moved on
+Given an array of elements arrange the elements such that the odd elements are in the odd position and even elements are in the even position.
+– I gave him a two pass approach where i segregate first and then separate accordingly. But he asked the one pass solution. This was when my luck ran out. I know its pretty easy, but messed it up. And the guy was also adamant because even after 15 minutes of trial and error, he asked me to go on.
+Though I didn’t get the job, it was a wonderful experience to be interviewed by such experienced people from the industry.
+A few points that i thought would be worth mentioning –
+* Think out load, let the interviewer know that you have actual depth in the matter
+* Always ask questions about a problem if you are not sure
+* Always think about the corner cases and uncommon test cases before you start writing your code
+Also, a big thanks to the entire GFG team for their constant efforts 🙂 Keep Coding, Keep Rocking. 

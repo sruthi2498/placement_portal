@@ -1,0 +1,37 @@
+I recently got an interview call from Amazon (Chennai) for the Kindle team. Here is my experience:-
+Round 1 – It was written round (Pen & Paper) consisting of three questions –
+1. Run length encoding of a string.  Ex – Input – aaaabbcd  , Output – a4b2c1d1
+2. Given a linked list consisting of characters. Determine if it is a palindrome or not?  O (1) space complexity.
+3. Connect nodes at same level.  https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+Out of 30 people, they shortlisted 6 of them for further rounds. I was one of them.
+Round 2 (F2F) – It was purely based on programming standards:
+1. Given a binary tree with two nodes, find the lowest common ancestor of them.
+2. Adding to first ques, he further asked; find the minimum distance between any two nodes.
+3. There is a conference room. N people are joining the conference. You have the start time and end time of each of them visiting it. You are asked to determine the maximum number of people that can be inside the room. 
+Answer will be – 3
+It went well. I was able to answer all of them. They asked me write production level code for each of them. Take care of all the end cases. Three out of six were able to make it.
+Round 3 (F2F) – This round was grilling and was again on programming standards:
+1. Print the top view of binary tree. https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+2. Find the maximum sum of any rectangle in a square matrix of n x n.
+https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/.
+They provide you necessary hints whenever needed or if they feel you are not able to find a solution or thinking in a very wrong direction.
+After this, they call me to Chennai for further two rounds of process.
+
+Round 4 (Hiring Manager) – In this round, they focused on my experience and previous company’s work.
+       All behavioral type of questions like:
+1. How do you measure your success in the whole year?
+2. Mention some of the negative and positive feedbacks from you manager.
+3. Why you want to leave the firm so early? Why Amazon.
+4. Questions on my projects and achievements in current company.
+Hints: Just do not blame you current company as answer to any question. A clever way to deal this round is make them realize you are quite good for amazon.
+P.S. Some research on Amazon before the interview would be great. 
+Round 5 (Bar Raiser) – This was my final round. It was mixture of behavioral and coding.
+Behavioral question were almost same what I mentioned above.
+Discussions on my Final year project and what new I can add to it if I am given a chance to improvise it.
+Some coding questions:
+1. Given two strings, find the uncommon characters in them using single hash map.
+2. Given data of millions of people, (name, age, M/F etc.) Develop an API that will have age range as input and yield the count of people under this range as output.
+Thanks Geeksforgeeks for all the references. You people are doing great!
+Key points:
+1. Just write clean and crisp code, whenever asked to code considering the end cases.
+2. Maintain continuous discussions with interviewer. He/She will help you whenever needed.

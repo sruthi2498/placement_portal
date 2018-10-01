@@ -1,0 +1,24 @@
+Online test:
+Part 1: Written
+Platform: Cocubes
+15 MCQs 30 min
+2 questions 1 hour
+1) Longest Even Length Substring
+Given a string of digits. Find the length of longest even length substring
+such that the sum of left part = sum of right part. Return 0 if no such substring exists.e.g. given string 1523457. The longest even length substring will be 5234 so output= 4
+2) Minimum difference of subarray
+Given an array of length n. Divide the array between two subarrays such that diff between sum of each subarray should be minimum. for even n: subarray lengths should b n/2 exact for odd n: subarray lengths should be (n-1)/2 and (n+1)/2 e.g. given array 5,6,11,13,14,25    two subarrays: {5,6,25} and {11,13,14} diff between sums = 2 so output 2.                
+Part 2: Group Discussion(sort of Group fly)
+(Here we discussed code with MS officials for given question 45 min)
+Given a timestamp in hh:mm:ss format find whether second hand lies in larger or smaller area formed by hour and minute hands.
+Part 3: Interviews
+1. Simple questions on algorithms (20 min)
+     	a. Swap 2 objects of different type without using third object
+    	b. factorial of very large number (larger than big data)
+    	c. Generate all permutations for a given string
+2.  Questions and logical puzzles, anagram finding, given a code correct it using just one operation from replace/delete/add a char.(20 min)
+3. View about new technologies, whats your preference IDC or MSIT(15 min)
+Overall interviewers were friendly and chill. 
+Thanks to geeksforgeeks. It helped me a lot in my preparation.
+
+

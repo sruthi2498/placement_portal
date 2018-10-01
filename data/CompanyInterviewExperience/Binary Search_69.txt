@@ -1,0 +1,25 @@
+Given four sorted arrays each of size n of distinct elements. Given a value x. The problem is to count all quadruples(group of four numbers) from all the four arrays whose sum is equal to x.
+Note: The quadruple has an element from each of the four arrays.
+Examples:
+
+Method 1 (Naive Approach): Using four nested loops generate all quadruples and check whether elements in the quadruple sum up to x or not.
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n4)
+Auxiliary Space: O(1)
+Method 2 (Binary Search): Generate all triplets from the 1st three arrays. For each triplet so generated, find the sum of elements in the triplet. Let it be T. Now, search the value (x – T) in the 4th array. If value found in the 4th array, then increment count. This process is repeated for all the triplets generated from the 1st three arrays.
+Run on IDE
+Output:
+Time Complexity: O(n3logn)
+Auxiliary Space: O(1)
+Method 3 (Use of two pointers): Generate all pairs from the 1st two arrays. For each pair so generated, find the sum of elements in the pair. Let it be p_sum. For each p_sum, count pairs from the 3rd and 4th sorted array with sum equal to (x – p_sum). Accumulate these count in the total_count of quadruples.
+Run on IDE
+Output:
+Time Complexity: O(n3)
+Auxiliary Space: O(1)
+Method 4 Efficient Approach(Hashing): Create a hash table where (key, value) tuples are represented as (sum, frequency) tuples. Here the sum are obtained from the pairs of 1st and 2nd array and their frequency count is maintained in the hash table. Hash table is implemented using unordered_map in C++. Now, generate all pairs from the 3rd and 4th array. For each pair so generated, find the sum of elements in the pair. Let it be p_sum. For each p_sum, check whether (x – p_sum) exists in the hash table or not. If it exists, then add the frequency of (x – p_sum) to the count of quadruples.
+Run on IDE
+Output:
+Time Complexity: O(n2)
+Auxiliary Space: O(n2) 

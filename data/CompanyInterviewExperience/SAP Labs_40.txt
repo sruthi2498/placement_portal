@@ -1,0 +1,39 @@
+The 1st round was an Online Test. It consisted of 107 questions (60- Psychometric Questions) and the overall time limit of 90 minutes. The level of difficulty was moderate. The last 2 questions were coding (Tip: These carry more marks so solve them first).
+Round #1: Technical
+The interviewer was looking like he was in early 30’s. He started by asking to introduce myself. He went through my resume and asked how much will I rate myself in C and C++ in a scale of 10, I said 6-7.He asked the following questions:
+1.	What is a class and object in C++. Explain by taking an example.
+2.	What is static and use of it? Give a real life example where you would use it?
+3.	What are public, private called in C++( ans :Access Specifiers) , What is the use of them? For whom would it be useful users or developers?
+4.	What is difference between authorization and authentication?
+5.	Abstraction and encapsulation?
+6.	How is Encapsulation implemented and an example?
+7.	What is use of inheritance?
+8.	Write a program to find second largest number in an array?
+Note: I just wrote a code to first find the maximum element and make it  zero then again find the max from remaining(which would give second largest number)
+He asked whether this is the best solution , I Said No, this is the first solution that would strike anyone and we can improve its time and space complexity
+9.	Then he asked about time and space complexity?
+10.	Finally any questions for me?
+He said it was good to have u  and I answered most of the questions, the thing is that u don’t need to have the exact answer its about how u get to a solution and how u think u can improve yourself Thank you.
+Round #2: Technical
+The interviewer introduced himself, he was working with SAP for 13 years and was about 50, The moment I saw him , I became nervous. He said I don’t want to ask anything about programming as u have answered good in the first round and got good score . He asked to introduce myself , then asked if I have any other offer, I said yes, then he asked then y do u want to join SAP, I explained.
+He started with a puzzle:
+1.	There are 10 balls out of which one ball is heavier and all other balls are of equal weight , how many min measurements are required to find the heavier one?
+2.	Again a puzzle on weights, There are 25 machines producing 1kg weights , suddenly a machine corrupted and started producing weights measuring 999grams,Find the machine with a single measurement?
+3.	Have u worked with any database?
+4.	What is mySql?
+5.	What are triggers. How to use them?
+6.	Why do we need a foreign key when we have a primary key?
+7.	What is index in SQL?
+8.	What is use of joins?
+9.	Explain your projects?
+10.	Last question as usual any question for me? I asked two , he said thanks and I left.
+Round #3: Managerial
+ The interviewer introduced himself and congratulated me for clearing two rounds. Asked me to introduce myself, then my qualities. I said I always want to find newer ways of implementing things, he asked me to give some examples about it, I explained one from my project and the other one from my first round regarding the program for finding the second largest  example, he was very impressed. Asked about my projects and other things apart from academics. Asked whether I have any offers.
+What I know about SAP, why SAP?
+He gave me a pattern, it was a pentagon , then 2nd one was two pentagons whose vertices were connected, every line between two points would be considered as a connection.  How many connections would be there in the 75th pattern. I tried to solve and came to a recursive solution within 5 mins( Ans: 5(n)+number of connections in [n-1]th pattern). He said this a recursive solution , how can u find without using a system , I explained him that all things we do are on system and clients would need a program for such a question and this would work fine, he was very much impressed.
+He said he will choose a number between 1 to 200 , U have to write down a set of questions asking them u have to tell me the number and note that the same question should work if I change the range from 1000-2000. I started thinking , then I thought  a binary search would work in this case, I wrote related questions and said it’s a binary search  he asked me to write a code for it, I wrote. He asked how would I adjust to Bangalore as I am from other city I explained. Then he asked me to ask any questions.
+Round# 4: HR
+Interviewer introduced himself, he was about 35, asked me to introduce myself, and explain me about my projects, after that he asked whether ever worked within a team, I answered everything.
+What are my interested areas, I said cloud computing, Big data and IoT he asked me to explain. Asked whether I have any other offers, I said yes then y I would prefer SAP. I explained him, he asked me about my family, will I able to move to Bangalore? He did not say I was selected but from his words I got that :). finally he said we have an offer to u, and explained all benefits , pay and all. I said thank u sir, he asked me to chose preferred joining date and asked if I had any query and I asked few and said thank you.
+Small Suggestion:
+Its not about the answer its all about how u approach the problem may it be a program or a puzzle. Be confident, tell them if u don’t know a particular question, make sure u tell them your approach ,given an opportunity to ask questions at the end, always ask a few, this would show your interest to the interviewer. 

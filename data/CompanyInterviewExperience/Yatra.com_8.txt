@@ -1,0 +1,9 @@
+Question 1
+Given a list of strings, where each string is composed of different combinations of (, ), {, }, [, ]. Verify the validity of the arrangement. ()[]{} Is valid, ())({} is not valid.
+Question 2
+Given two strings return the value of least number of manipulations needed to ensure both strings have identical characters. For input aab aba it’s 0, for input abc cdd it is 2
+Question 3
+Given a string return all possible subsequences which start with vowel and end with consonant.
+For input abc – ab, ac, abc
+For input aab – ab, aab
+

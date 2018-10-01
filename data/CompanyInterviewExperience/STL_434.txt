@@ -1,0 +1,13 @@
+std::inserter constructs an insert iterator that inserts new elements into x in successive locations starting at the position pointed by it. It is defined inside the header file .
+An insert iterator is a special type of output iterator designed to allow algorithms that usually overwrite elements (such as copy) to instead insert new elements automatically at a specific position in the container.
+Syntax:
+Run on IDE
+Output:
+How is it helpful ?
+Run on IDE
+Output:
+Explanation: Here, we started copying v1 into v2 but not from the beginning, but after the second position of v2, i.e., after 5, so all the elements of v1 were inserted after 5, and before 6. In this way, we inserted value where we wanted quite easily.
+
+Points to Remember:
+Run on IDE
+Output:

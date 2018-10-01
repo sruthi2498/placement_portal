@@ -1,0 +1,25 @@
+Given a number n, print all primes smaller than or equal to n.
+Examples:
+We have discussed Sieve of Eratosthenes algorithm for the above task.  
+Below is Sieve of Sundaram algorithm.
+Below is the implementation of above algorithm :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Illustration:
+All red entries in below illustration are marked entries.  For every remaining (or black) entry x, the number 2x+1 is prime.
+Lets see how it works for n=102, we will have the sieve for (n-2)/2 as follows:
+
+Mark all the numbers which can be represented as i + j + 2ij
+
+Now for all the unmarked numbers in the list, find 2x+1 and that will be the prime:
+Like 2*1+1=3
+2*3+1=7
+2*5+1=11
+2*6+1=13
+2*8+1=17 and so on..
+How does this work?
+When we produce our final output, we produce all integers of the form 2x+1 (i.e., they are odd) except 2 which is handled separately.
+Reference: 
+https://en.wikipedia.org/wiki/Sieve_of_Sundaram

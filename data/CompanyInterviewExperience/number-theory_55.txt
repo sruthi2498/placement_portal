@@ -1,0 +1,5 @@
+The Ramanujan-Nagell equation is an equation between a number (say, x) which is squared and another number (say, z) such that z =  . Here, n can be any positive natural number which satisfies the equation. It is an example of an exponential Diophantine equation, which is an equation that can have only integral solutions with one of the variables (here, n) present as an exponent in the equation.
+Therefore, the equation is :
+
+and solutions in natural numbers x and n exist just when n = 3, 4, 5, 7 and 15.
+The conjecture is quintessential to the problem of finding Triangular Mersenne numbers

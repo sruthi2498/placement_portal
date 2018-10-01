@@ -1,0 +1,42 @@
+Hii, Everyone this is my interview experience with amazon.
+***First Round (1:30 hr)-
+It consist of two sections
+:- Mcq (20 questions)
+:- Two coding questions
+1) Given two string Str1 and Str2, Find whether any anagram of Str2 is a sub-string of string Str1 (Case Insensitive) then return True otherwise False.
+Test case :if Str1 = Amazon and Str2 = omaz, Output: True
+2) Given n non-negative integers representing buildings where the width of each bar is 1, compute how much water it is able to trap after raining
+For example,
+Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
+I solved 19 mcq and both coding questions.
+***Second Round (F2F):(1:30hr)
+1) Find LCA in BST.
+2) Find LCA in Binary Tree.
+3) Given a binary tree where each node contains three pointers left,right,succ, where succ pointer is pointing to any of its successor node , the question is if any of succ pointer is pointing to its predecessor node then make that pointer NULL.
+4) Given an array that represents the runs scored by a batsman and we have given the total score ,now we have to find out in how many ways can batsman score the run.
+Ex – arr = {2,3,1} total run = 4
+2+1+1 = 4, 3+1 = 4, 2+2 = 4, 1+3 = 4, 2+1+1 = 4 and many more.
+First I have given the recursive solution than interview asked me dp solution, I told him DP approach he was satisfied.
+5) Find Loop in a linked list and remove it.
+6) You have 100 songs to play in a shuffling mode how will you play.
+Interview want full working code for each question for last question he wanted only approach.
+***Third Round (F2F):(1 hr)
+1) Given a source string and a destination string and a dictionary consisting of various words write a program to find minimum length path  to travel from source to destination. Rules for traversing:
+1. You can only change one character at a time
+2. Any resulting word has to be a valid word from dictionary
+Example: Given source word CAT and destination word DOG , one of the valid sequence would be
+CAT -> COT -> DOT -> DOG
+Another valid sequence can be
+CAT -> COT – > COG -> DOG
+One character can change at one time and every resulting word has be a valid word from dictionary
+I told him a approach using graph.
+2) What is hashing.
+3) What is modular hashing.
+4) How collisions can be handled.
+5) Is semphore guarantee deadlock prevention.
+*** Fourth Round (F2F) : (2 hr)
+1) A kind of celebrity problem you have n person where one of them is celebrity
+condition are all non-celeb person knows celebrity and celebrity can know few other persons and all non- celeb persons can know few of them among each other so you have to find celebrity.
+2) Given a binary tree and two nodes print the path between the two nodes of binary tree.
+3)  Find Height of Binary Tree represented by Parent array
+

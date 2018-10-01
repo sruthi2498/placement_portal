@@ -1,0 +1,32 @@
+I recently got placed in Microsoft IDC .Here’s my Interview Experience 🙂
+The first two rounds were conducted by Cocubes.com in our campus. The other rounds were onsite. Microsoft was declared a dream company in our campus, students of streams CSE/ECE/MCA/MTech were eligible to sit.It had come for both Internship and Full time Positions.
+Round 1 : Technical Aptitude
+The first round consisted of 15 questions to be done in 30 mins.
+The MCQs were based on C.C++,Java and some Operating System questions. Around 200+ from our college sat for this round.
+Round 2 : Online Coding Round
+After the first round around 100 (consisting of the internship students as well) students were shortlisted for the second round.This round had two coding questions to be done in 90 mins.
+Everyone got different sets of questions. The questions I got were : 
+    after replacement
+    arr = {9,5,4,5,6}
+    one digit of rep can be used to replace only once.
+    For this almost everyone who got this question used a brute force method.But I had used a different approach .I constructed a max heap of rep array.And ran a loop checking if the max element of rep was greater than the element in arr and then replaced it in arr and deleted the same from the maxheap.
+After this round around 15 students were shortlisted (including me 😀 ) . After some days we got these results and then we received an invitation for On-site interview at MSIDC, Hyderabad
+Round 3 : Written coding round
+Around 30 students consisting of students from other colleges as well were called On-site. This was a written round.Everyone was given around 45 mins and 1 question.
+After this round around 14 people were shortlisted.
+Round 4 : Technical Interview
+This was a personal interview round .The interviewer asked me about myself and the projects I have done so far.We briefly discussed those projects.
+Then he gave me two questions to solve :
+These were fairly easy questions . I knew the solutions and explained it to the interviewer.He asked a few questions on them , seemed satisfied.Asked me if I had any questions for him . Well one thing I realized after giving interviews was when they ask the candidate for any questions then you should always ask something , shows that you are interested. So I asked him about the different technologies that a new SDE would work on and things like that. I had a pretty good discussion with him he told me many things from his end too.
+I made it to the next round then 😀
+Round 5: Technical Interview 
+This round was about  Design questions . If you go through the previous interview sets , you will notice that Microsoft does asks Design questions to test the candidates ability to solve a real life problem. Everyone got different  questions in their personal interview. The question I got was :
+    – He told me to take  my time and give the solution. I gave him a solution of considering the text as a linked list of words . Where each node in the linked list contained the word string and an index .And for every node in the linked list I will have Trie structure. I used trie for efficient search.What I suggested was that I use the trie whenever the user enters a word and insert it into the trie and the leaf of that word will contain the index of that word plus the pointer to that node in the linked list . If suppose the trie already has the word then i increase the word count in the leaf  and the leaf will contain a vector that has the list of indexes where the word has occurred and the list of pointers where the word is present in the list.I wrote the code and explained how it can handle all corner cases . We discussed the the solution and he asked me certain questions on different test cases . My approach handled them well. He seemed satisfied . He added to the question that the search query could contain words or phrases . So my use of indexes could handle the phrase search 🙂 . I also suggested that instead of Trie data structure we could use a Ternary Search Tree as that would be more space efficient.
+I was a bit doubtful about this round but I made through 😀 After this round only few students made through to the final round .
+Round 6: HR+Technical Interview 
+ The interviewer was quite experienced and very pleasant. He asked me how my previous rounds went.He was going through my performance review from the previous rounds. He took a glance though my CV and asked me about the projects I did. He saw that I had interned at IITB so he asked me a lot on that project. He also asked me some basic HR questions like Why should Microsoft hire you ? Where do you see yourself in the next 5 years ?.He was very impressed with my academic record and my AIEEE rank. Asked me how I handled my 12th board exams and entrances.He made it very comfortable and was almost chatting and getting to know about me.
+He then asked if I has any questions for him . So I asked him about where I can improve myself , he said I didnt need any improvement I am doing very well and that I should jus keep doing what I am doing 😀 That certainly made my day 🙂 I asked a couple more questions about Microsoft and then left.
+Finally after a week the results came  I received the mail that I had been shortlisted for a Full Time Position 😀 
+Tips :
+Thanks to geeksforgeeks it really helped me through my placement prep. The wide range of questions on Data Structures certainly helped a lot.
+

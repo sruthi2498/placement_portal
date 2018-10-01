@@ -1,0 +1,20 @@
+Barclays recently visited my Campus ( Cummins College Pune )  . Eligiblity crieteria was cgpa > 8 and no live backlog . Only Comp and IT were allowed .
+Around 120 people applied for it .
+Round 1: First round was Aptitude test . It was held On CoCubes . The test was divides into seperate 2 sections . First 1 hour for 60 Aptitude question and Next 1 Hour for Coding .
+The 60 Aptitude questions were divided as 20 Verbal  +  20 Logical  + 20 Quant .
+You need to be very fast here . No negative Marking is there .
+ 
+Coding Question
+Everyone got the different set of questions . There were 2 codes to do in 60 min .
+The codes were easy.
+1  .  find the count of elements in array whos difference from given num  is less than or equal to given diff .
+int  lessthandiff ( int [] arr, int num, int diff )
+{
+}
+2  .  find the sum of Kth small and Kth large element in array .
+int sum ( int arr[] , int k)
+{
+}
+Other codes as follows
+1 . shift all the zeroes at the end of array
+After this Round 15 people were shortlisted for next round.

@@ -1,0 +1,34 @@
+Accolite Software visited our campus. Firstly, they presented a pre-placement-talk where they talked about their work culture, their biggest clients, their intra, fests, etc. The work life aspect was discussed too. 
+Following this, they conducted Online test for 30 min that included MCQ questions from
+C, C++ : finding o/p, complexity, bugs if any
+DBMS: Join queries, indexing and theory
+OS and Networks: Basic theory Networking
+and Little Quantitative Aptitude.
+Around 200 Students appeared for this round. 11 were shortlisted for first round interviews. I got through this round. For the next top 10, a coding round of pen/paper (1 hour) was carried out from where only 2 were shortlisted. There were three questions as narrated by my friends. One on tries, one on heap, one on sorting. Thus, 13 people made it for technical inteviews.
+Round 1 FFS : 1 hour 
+The two interviewers congratulated me for reaching this far. 
+1) After a little introduction, they threw me a puzzle.  3 _ 1 _ 3 _ 6 = 8. I had to fill the spaces with any operator I can, to satisfy the equality. I thought for about 5 mins. Then I gave the following: (3 ^ 1) & 3 + 6. They were happy with the not so conventional approach but directed me towards a simpler construction. See if you can find it yourself 🙂
+2) Then followed a barrage of sql queries, probably as I had mentioned databases in my resume. I suggest everyone to practice join queries.
+3) Next question was to detect the merging point of two linked lists with length m and n. I initially gave the hashmap solution which he asked me to code. Then he asked for other less expensive ways. I reduced problem into finding the start node of a loop, if modification was allowed, otherwise, advancing the longer by the difference between the two lengths. Full working code was required along with the time and space complexities.
+4) Another question was to find a triplet in the array that sums to a particular value.
+After this, I was notified to get ready for round 2. Five folks were eliminated.
+Round 2 FFS: 2 hours
+1) Given a huge array consisting of integers in a certain range. How would you solve the queries of the following type : Report the number of integers lying in the range between l to r. I built a prefix array as in the counting sort. Now all queries could be answered in O(1). He modified the question by stating that the range now was always a multiple of some number. I proceeded by dividing the i/p into buckets and then building the prefix array. Full code was asked.
+2) Given a huge numbers of strings in an arraylist, report the longest common prefix of the strings. I solved this by creating a trie with an augmented node storing depth and count at each node. Only the important modules were asked to be coded.
+3) Short discussion of my summer internship, why I used JAVA, what challenges did I face. He asked me to explain the differences between treeMap, linkedHashMap and hashMap.
+4) I had mentioned a project carried out on Linux Mint. He asked me the basic commands of linux, namely cat, grep, ps, df along with syntax for git commands.
+5) Assume a traveller wants to books a cab. Write an automated server that schedules a cab present in the region pool of the user in a way that maximizes the benefit to the company. You can make assumptions like GPS availabilty. At first, I had no clue where I was heading. Then I broke down the problem into structures and assumed the necessary. This was more of a discussion sort of thing, as this had no definitive answer. I had to write the pseudocode of anything I thought. 30 mins went straight into this question.
+6) Core JAVA Questions. 7-8 of them including but not limited to new operator, constructor, static blocks, synchronized keywords etc.
+3 were eliminated. I got through to round 3. 
+Round 3: FFS 1:15 hours
+The interviewer greeted and informed me of this round being a techno-managerial round.
+1) You are the manager of a restaurant. Given the archives of past purchases of raw materials per day of the week, write an algorithm that forecasts the amount of each raw material to be purchased so as to cover the next week requirements. Mention data structures used, if any. After thinking for a while, I proceeded by the method of weighted averages, assigned more weight to weekends over weekdays, special diets etc. I said, I being the manager would use the trend adjustment factor to forecast the next demand (economics helped 🙂 Explained this using an example.
+2) Given an i/p stream of train coaches in the following format: XY where X: uppercase letter, Y: a number, what is the most efficient way to sort the coaches such that at the end of the stream, we can get the sorted order in O(1). eg. A3, B2, C10, A1 -> o/p A1, A3, B2, C10.
+Also prove why comparison sorts have a lower bound of O(nlogn) where n is the size of the input.
+3) How do you delete an arbitrary item from a heap. Write the code. Even the redundant lines in my code were subjected to scrutiny.
+I wasn’t confident of my performance in this round, but stayed positive. It had been 10 hours of waiting.
+HR Round(15 mins)
+The HR Ma’am was very friendly. Asked me what I knew about the company so far. I had a feeling I was being tested for my listening skills against the morning pre-placement presentation. 
+I would like to thanks geeksforgeeks for their content that helped me through. A word of advice: Practice pen and paper codes. Never lie on your resume, it may back-fire at any moment. Inner peace is a must 🙂 Cheers!
+
+

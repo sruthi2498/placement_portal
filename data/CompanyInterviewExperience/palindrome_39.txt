@@ -1,0 +1,18 @@
+Given a integer k, find the sum of first k even-length palindrome numbers.
+Even length here refers to the number of digits of a number is even.
+Examples:
+
+A naive approach will be to check every even length number, if it is a palindrome number then we sum it up. We repeat the same process for first K even length palindrome numbers and sum them up to get the sum.
+In this case complexity will go high as even length numbers are from 10-99 and then 1000-9999 and then so on…
+10-99, 1000-9999, 100000-999999.. has 9, 90, 900 respectively palindrome numbers in them, so to check k numbers we have to check a lot of numbers which will not be efficient enough.
+An efficient approach will be to observe a pattern for even length prime numbers.
+11, 22, 33, 44, 55, 66, 77, 88, 99, 1001, 1111, 1221, 1331, 1441, 1551, 1661…
+
+1st number is 11, 2nd is 22, third is 33, 16th is 16-rev(16) i.e., 1661. 
+So the Nth number will int(string(n)+rev(string(n)). 
+See here for conversion of integer to string and string to integer.
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+

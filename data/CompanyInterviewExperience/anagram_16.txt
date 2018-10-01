@@ -1,0 +1,14 @@
+Given a positive number you need to check whether it’s complement and the number are anagrams or not.
+Examples:
+
+Simple Approach:  In this approach calculation of the complement of the number is allowed.
+1. Find binary representation of the number and it’s complement using simple decimal to binary representation technique.
+2. Sort both the binary representations and compare them to check whether they are anagrams or not.
+Run on IDE
+Output:
+Efficient Approach: Just count the number of 1’s present in the bit representation of the given number. If number of 1’s present are 32 then it’s complement will also have 32 1’s in it’s bit representation and they will be anagrams of each other.
+Run on IDE
+Output:
+Note: 
+1. The answer is only dependent on the number, in the above approach we don’t even find the need to obtain the complement of the number.
+2. The above code uses GCC specific functions. If we wish to write code for other compilers, we may use Count set bits in an integer.

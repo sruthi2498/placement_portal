@@ -1,0 +1,74 @@
+Company:  Fair Isaac Corporation (FICO)
+Profile: Software Development and Software Quality Assurance
+Location: Bangalore
+Criteria: Open
+ 
+Selection Process:
+There were 4 rounds:
+1)     Written Test
+2)     Group Discussion
+3)     Technical Round
+4)     HR Round
+Round 1:  Offline Test
+It was comprised of 3 modules.
+Module 1:  It consisted of Java I/O questions based on Strings, Recursion, Inheritance, Anonymous objects, Static function etc. Though the questions were not very tough but were time consuming. There were around 18 questions.
+Source : geeksforgeeks, tuorialspoint enough.
+Module 2: It consisted of 2 sections totaling to 12 questions.
+Section 1: It had popular puzzles.
+Source: geeksforgeeks, puzzlersworld.com.
+Section 2: Questions based on probability and last digits of a number were asked.
+Source:  RD Sharma (probability), last-digit (RS Aggarwal).
+Module 3: There were 2 subjective questions. The questions evaluated thinking ability.
+Q1: Design a cellular phone for a blind person. Give its architecture and specifications.
+Q2: How to improve ambulance facility in India.
+Around 24 students were shortlisted.
+ 
+Round 2: Group Discussion
+The 24 students were divided into 2 groups. Their topics were:
+Group 1: Around 70% engineers fade out in the first 10 years of their career, the reasons and solution.
+Group 2: Data Security on Social Media.
+Time duration was 30 minutes divided into 3 rounds of 10 minutes each.
+Round 1: Open Discussion, everyone can came up with their opinions.
+Round 2: Individual Discussion, in which opinion were asked from each one.
+Round 3: Open Discussion to reach conclusion.
+Tip: Try to initiate the group discussion and conclude with viable conclusion. Throw away your hesitation.
+Around 10 students were shortlisted.
+Round 3: Technical round
+Questions were based on JAVA, DS, and DBMS.
+JAVA:
+Q1: Which language you prefer and why? (C++/JAVA)
+Q2: Discussion on 2 questions from written test.
+Q3: Coding question:
+A String contains “NIT KKR”. Remove duplicate letter and sort it in “EFFICIENT TIME”. You are free to implement any logic (Can be solved by Sieve method (DS), java string etc.).
+Q4: Coding question:
+There were two date class objects. Find out number of hours between them.
+Q5: Few questions based on inheritance.
+Q6: What are access and non-access modifiers in java?
+Q7: RunTime Polymorphism.
+Q8: Few minutes of discussion on my summer training and project on android (since it was mentioned in my resume).
+DATA STRUCTURE:
+Q1: Deletion in binary search tree?
+Q2: Implement queue using stack.
+Q3: Few tricky questions based on printf, scanf and pointers.
+Q4: How many different ways to store array? (memory layout)
+Q5: Reverse Doubly Linked List.
+Q6: Delete node from Doubly Linked List having pointer to it.
+ 
+DBMS:
+Q1: What is an entity?
+Q2: Tuples in RDBMS?
+Q3: Keys?
+Source: geeksforgeeks, tpoint,tutorialspoint etc.
+ 
+Round 4: HR Round
+Asked from my RESUME.
+Q1: Introduce Yourself.
+Q2: Your rank in you batch?
+Q3: Are you comfortable in moving to Bangalore?
+Q4: Asked about family members.
+Q5: Strengths and weakness.
+Q6: Do you want to go for further higher studies?
+Q7: Any inspiration in your life?
+Q8: Any queries? (Ask a distinctive, if any)
+Result: Placed.
+Tip: Read about the company, its products, strategies and services.

@@ -1,0 +1,63 @@
+Written: 
+1.Online Aptitude test, time = 45 mins questions = 60.
+2.Online Coding test, time = 2hrs, questions =7coding,13 technical multiple choice.
+7 coding ques. :
+1. To check if the parenthesis are balanced.
+2. Matrix has rows in the form of 1’s followed by0’s.Find the row with maximum number of 1’s
+3. Reverse a linklist
+4. Multiply two numbers using minimum number of additons
+5. Find if the number if palindrome or not ?
+6. Find the number of pairs which sum upto a particular sum ‘K’.Numbersmay be positive or negative
+7. Every number ending with 3, has at least one multiple of all 1’s.
+4 F2F Rounds 
+
+Trick:
+1. First solve using brute force, then if he asks to optimize, optimize the solution. never give optimized solution in the first go. think think and think about the question, if still not able to solve, asks the
+interviewer for hint.
+2. Be ready with the complexities of all the answers that you give.
+Round 1:
+1. Method to determine whether a number is a power of two.
+2. Find a number in a 2-D matrix sorted horizontally and vertically.
+3. Find number of set bits in a number.
+4. Find largest and second largest number in an array with minimum number of comparisons.
+Round 2:
+1. if you cover distance x, then in the next step you cover 2x then 4x.in this way you cover total distance n. tell me the way in which you are travelling.
+My ans: geometric progression, he was like okay.
+2. What is inorder, preorder, postorder. write the code and the output for the given binary tree.
+3. how to make a tree from the combination of any two, also write the full function code. why cant we make binary tree from post and preorder? Explained well.
+4. Find the intersection point of two linked lists with full code.
+5. how to compile two .cpp codes together.
+6. what is makefile? utilities?
+7. where is printf stored? all the internal details.
+8. explain logical and physical memory.
+9. explain paging.
+10. what does stdio.h do? difference between #include “” and #include <>.
+11. what gets included when we do #include?? does it includes the whole definition of the function or just the prototype?
+12. what is the role of assembler in “gcc a.c” ?
+13. what does linker do? hwo does it link? functions of a loader?
+14. Explain all the compilation steps in this command “gcc a.c b.c c.c”.
+Be familiar with the preprocessinga and compilation in deep and its 
+internal working details.
+Round 3:
+1. You are given 4 (x,y) coordinates of a rectangle, 1 (x,y) coordinate of a circle and its radius. write the code to find if the rectangle and the circle intersect?
+Intersection: if a point on or above the figure is also on or above the other figure.
+2. A sorted array is rotated around an element. Modify binary search to search for an element in the array.
+3. There are 2 processes, A and B, their working:
+A : Makes .jpg files and stores them at some address.
+B : Retrieves the .jpg files from the same address.
+There is no producer-consumer problem. B retrieves only when A has produced some file. 
+Now instead of storing the entire file at some other address, the process A makes files and just pass the address of those files to process B.
+Will B be able to access those file?
+Correct Ans: No, it wont access because any process just cant enter other process’ block to retrive something.
+My ans: 
+1.yes, if they were using some shared memory and the files are stored on shared memory.
+2. no, if not shared memory because the address given by A is the logical address not the physical address, so B cant access until it is given
+physical address.
+Round 4 (Engineering Director):
+2. There is a lake, it can have any random shape, you have to measure its volume without spending a lot of money. how will you do it?
+————-END——————————-
+Preparation source links:
+1.  http://gohired.in/adobe/
+2. https://www.geeksforgeeks.org/tag/Adobe/
+I thank geeksforgeeks for my success. Wishing all the geeks all the best for their future. 🙂
+

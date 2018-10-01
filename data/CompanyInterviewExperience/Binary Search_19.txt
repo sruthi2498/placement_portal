@@ -1,0 +1,6 @@
+Given two number x and n, find n-th root of x.
+In order to calculate nth root of a number, we can use the following procedure.
+Absolute Error: Absolute Error can be calculated as abs(guessn -x)
+
+Run on IDE
+Run on IDE

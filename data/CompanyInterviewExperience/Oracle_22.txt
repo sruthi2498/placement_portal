@@ -1,0 +1,12 @@
+Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
+Examples:
+We have discussed different approaches in below posts :
+Sort elements by frequency | Set 1
+Sort elements by frequency | Set 2
+Sorting Array Elements By Frequency | Set 3 (Using STL)
+All of the above approaches work in O(n Log n) time where n is total number of elements. In this post, a new approach is discussed that works in O(n + m Log m) time where n is total number of elements and m is total number of distinct elements.
+The idea is to use hashing.     
+The C++ implementation is given below.
+Run on IDE
+Output:
+Time Complexity : O(n) + O(m Log m)  where n is total number of elements and m is total number of distinct elements

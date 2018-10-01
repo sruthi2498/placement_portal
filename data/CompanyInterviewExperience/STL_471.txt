@@ -1,0 +1,4 @@
+Returns a reference to the character at specified location pos. No bounds checking is performed. If pos > size(), the behavior is undefined.
+Syntax :
+Run on IDE
+Output

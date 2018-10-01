@@ -1,0 +1,9 @@
+The unordered_multimap::swap() is a built-in function in C++ STL which swaps the contents of two unordered_multimap containers. The sizes can differ of both the containers. 
+Syntax: 
+Parameters:  The function accepts a single mandatory parameter unordered_multimap_name2 which specifies the unordered_multimap with which the swapping of unordered_multimap_name1  is to be done. 
+Return Value: It does not return anything. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

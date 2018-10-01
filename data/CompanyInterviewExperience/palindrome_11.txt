@@ -1,0 +1,8 @@
+We are given a sentence. Our task is to print all funny words/strings in that sentence.
+Reverse the given string. Iterate through each character of that string, compare the absolute difference in the ASCII values of the characters at positions 0 and 1, 1 and 2, 2 and 3 and so on to the end. If the list of absolute differences is the same for both strings, they are funny otherwise not.
+Examples:
+NOTE : Every  palindrome string is a funny string but not vice-versa. 
+The idea is to split string into words. For every word, traverse it from both ends and compare differences between adjacent characters.
+
+Run on IDE
+Run on IDE

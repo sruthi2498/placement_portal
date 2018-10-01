@@ -1,0 +1,11 @@
+We are given an integer N. We need to write a program to find the least positive integer X made up of only digits 9’s and 0’s, such that, X is a multiple of N.
+Note: It is assumed that the value of X will not exceed 106.
+Examples:
+The idea to solve this problem is to generate and store all of the numbers which can be formed using digits 0 & 9. Then find the smallest number among these generated number which is divisible by N.
+We will use the method of generating binary numbers to generate all numbers which can be formed by using digits 0 & 9.
+Below is the implementation of above idea:
+
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)

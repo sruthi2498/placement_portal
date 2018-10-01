@@ -1,0 +1,30 @@
+Cut off: 75%. Around 140 students were short listed.
+Round 1: 90 minutes
+It comprised of 20 MCQs on aptitude, operating system, DBMS, data structures and algorithms on Hackerrank.
+There were two coding questions
+1. Given a string find the first non repeating character in it, O(n) was good enough.
+2. Given an array of integers, find count of minimum number of elements to be removed from the array such that the maximum element of the new array is at most twice of the minimum. O(nlogn) solution was required.
+39 shortlisted after this round
+
+Round 2 (F2F) 75 minutes
+The only question that was asked was
+Find the third largest element in the array
+I first gave him a heap solution(kth largest element in the array )
+He asked me to write the code for it.
+Then he asked me to improve it. And then i gave him O(n) solution .
+He said that i should cover all the edge cases .And left the room alone for 30 minutes. Then he came back and he was satisfied with my solution .And immediately said that wait for the 3rd round
+Round 3 (F2F) 75 minutes
+Here the main focus was on Data Structures
+1. Mirror A Binary Tree.
+2. Given Two BinaryTrees , check if they are mirror of each other. (Told me to code it)
+3. Level Order Traversal in spiral form(Told me to code it)
+4. Boundary Traversal in BinaryTree
+5. Merge k sorted arrays.(All approaches).
+6. Diameter of the BinaryTree
+Then he asked some question on OOPS(friend function etc.)
+Lastly, he asked if I had anything to ask him. I asked about the role of data structures and algorithms in the company work . He said they are used greatly that’s why we judge all of you on the basis of these only.
+Tips:
+Be expressive during your interview.
+Strong Data Structures And Algorithms
+Focus On More Than One Solution Of The Question
+Stay calm and confident.

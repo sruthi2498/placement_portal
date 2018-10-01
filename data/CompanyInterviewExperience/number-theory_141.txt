@@ -1,0 +1,12 @@
+Given a number n. We need find the number of ordered pairs of a and b such gcd(a, b) is b itself
+Examples :
+
+ Naive approach :  gcd(a, b) = b means b is a factor of a. So total number of pairs will be equal to sum of divisors for each a = 1 to n. Please refer  find all divisors of a natural number  for implementation.
+Efficient approach :  gcd(a, b) =  b means that a is a multiple of b. So total number of pairs will be sum of number of multiples of each b (where b varies from 1 to n) which are less than or equal to n.
+For a number i, number of multiples of i is less than or equal to floor(n/i). So what we need to do is just sum the floor(n/i) for each i = 1 to n and print it. But more optimizations can be done. floor(n/i) can have atmost 2*sqrt(n) values for i >= sqrt(n). floor(n/i) can vary from 1 to sqrt(n) and similarly for i = 1 to sqrt(n) floor(n/i) can have values from 1 to sqrt(n). So total of 2*sqrt(n) distinct values
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

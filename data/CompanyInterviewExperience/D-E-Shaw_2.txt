@@ -1,0 +1,74 @@
+ROUND-I:
+Time allotted : 1hr 10mins
+20 Technical Aptitude-very basic questions were asked.
+12 General Aptitude-questions are little hard.
+8 Logical Aptitude-questions are little hard.
+This section contains negative marking for wrong answers.
+ROUND-II:
+Technical Questions:
+1. what is dangling pointer?write a code to explain it.
+2. what is memory leak?how to handle it.
+3. Does c++ contains automatic garbage collection?what is the
+use of free and del function in c++.
+4. What is core dumbed/segmentation fault.
+5. Then questions regarding projects done.
+Programming Questions:[write complete code for all questions]
+1. Introduce technically about yourself.
+2. Given an array containing a sequence of continuos natural number, a number will occur twice. Find the number in O(logn) complexity.
+Example:
+Input : {51, 52, 53, 54, 55, 56, 56, 57, 58}
+Output:56
+3. Given an array which denotes the last row of the pyramid,
+print the complete pyramid.
+Input : {4, 3, 6, 7, 4}
+Output:
+
+Hint: use 2D array
+4. Given a linked list cut the linked list at particular position and join it in the beginning of linked list.
+
+5. Given a binary search tree print the sum of all unique branches in the tree.
+Input: 
+Output: 10 13 22 25
+This section lasts for 1hr 30 mins. They only need optimized solutions.
+
+ROUND-III [For all questions you have to write code for it]
+1. Questions regarding projects.
+2. Given a pointer of a particular node of a linked list, delete the particular node without affecting the linkage of linked list. Other than the particular pointer you don’t have any pointer pointing the linked list (including head pointer). You can also use some hacks. Each node contains some data and pointer to the next
+node of the linked list.
+3.Consider a linked list you have infinite number of nodes in it.you will be provided with 2 values m and n.you have to traverse m nodes and from that node you have to delete n nodes and continue the same for the whole linked list. It should pass all test cases.
+4. Given 100 coins and all coins are facing head initially. On the first iteration all coins should be flipped. On the second iteration, coins at the position of multiple of two should be flipped. On third iteration coins at the position of multiple of three should be flipped. Likewise you have to perform 100 iteration. At the end of
+100 th iteration how many coins will face head and how many coins will face tail.
+5. Given two arrays you have to print the intersection of two arrays.
+Input: {4, 2, 6, 1, 7, 8, 9, 2, 4} and {4, 7, 2, 1, 9, 10, 3}
+Output: {4, 2, 6, 1, 7, 8, 9, 10, 3 }
+Solution should be provided in least time complexity.
+6. Given an array containing values which occurs thrice of which only one number will occur once. Find the number.
+Input : {3, 5, 1, 6, 3, 5, 1, 1, 5, 3}
+Output : 6
+7. Given a number print the immediate smallest number formed by the digits with the given number.
+Input : 2154
+Output : 2145
+8. Given an array print the elements in the array that are less than the maximum two numbers in that array with least time complexity.
+Input : {24, 35, 16, 89, 90, 66}
+Output: {24, 35, 16, 66}
+This section also lasts for 1hr 30 mins. They need only optimized solutions.
+
+ROUND-IV:
+1) Introduce yourself.
+2) Questions regarding your project.
+3) Simple program to explain call by value and call by
+reference.
+4) Write a program to print fibanocci series with two variables.
+5) Write a program to explain data encapsulation.
+6) Given 8 identical balls, one ball is defective in weight. Find the defective ball with least measure using mean balance.
+7) What is special in your hometown?
+8) What is Quality Assurance?
+9) Given a half filled water bottle, what are the things will you consider as test cases to ensure the quality of bottle.
+10) Given a designation of Developer or Quality Assurance which will you opt for and why?
+11) Will you be comfortable with Hyderabad?
+12) What do you know about D.E.SHAW?
+13) Have you checked our company website?
+14)  Questions related to the content in their company website and PPT displayed during preplacement talk.
+15) Do you know what work is done at D.E.SHAW?
+This section lasts for 30mins
+Note: For all programming questions they need only optimized solution.

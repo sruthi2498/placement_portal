@@ -1,0 +1,19 @@
+Given ‘num’ which indicates number of lines.The task is to print a trapezium pattern in num lines.
+Examples:
+Algorithm :
+step 1.To read num which indicates number of lines.
+step 2.We are diving pattern into 2 halves that is LHS part and RHS part.
+Ex : When num = 2
+LHS –
+1*2*
+  3*
+RHS –
+    5*6
+    4
+step 3.Combining LHS and RHS we get the complete pattern.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 

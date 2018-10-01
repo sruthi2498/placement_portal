@@ -1,0 +1,30 @@
+I was contacted by the HR on LinkedIn about the opening of Full Stack Developer at PayTM Noida.
+1st Round (Duration – 2 hours)
+1. Tell me about yourself.
+2. Discussions on the projects in my current organization. What were my roles and responsibilities?
+3. In depth discussion on the project architecture, database design and optimization of data in database.
+4. Rat in a maze puzzle. Link – https://www.geeksforgeeks.org/backttracking-set-2-rat-in-a-maze/
+2nd Round (Duration – 1 Hour)
+1. Discussions on projects again.
+2. Given a sorted but rotated array, find a given element in O(logN) time. https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+3. Find missing element in an Arithmetic Progression. O(logN) time. https://www.geeksforgeeks.org/find-missing-number-arithmetic-progression/
+4. Implement Merge sort.
+
+3rd Round (Duration – 30 minutes)
+1. Discussion on core javascript.
+2. Questions on Angular JS.
+3. Questions on ES6.
+4th Round (Duration – 1:30 Hour)
+1. Discussion on projects – architecture design, database design, REST APIs
+2. Questions on SQL. Group By Having clause, aggregate functions, etc.
+3. Given a file which contains currency conversion rates for many countries. Write an algorithm to validate this file and make sure there is no mistake in the file. In case of any mistake, print the line number.
+For example –
+1. USD – INR – 50
+2.. GBP – USD – 100
+3. GBP – INR – 3
+Here, GBP – INR should have been 2, and not 3. Hence this is a mistake and the program should output Line 3 as output.
+4. Questions on Angular JS and Core Javascropt.
+No HR Round conducted.
+Thank you GeeksForGeeks for being the awesome source of preparation. 🙂
+
+

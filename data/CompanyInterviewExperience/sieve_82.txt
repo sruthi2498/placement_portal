@@ -1,0 +1,13 @@
+A number n is called Equidigital if the number of digits in the prime factorization of n (including powers) is same as number of digits in n. 
+For example 16 is an Equidigital number as its prime factorization is 2^4 and its prime factorization has total two digits (2 and 4) which is same as total number of digits in 16.
+As another example, 128 is not a Equidigital as its prime factorization is 2^7 and has total 2 digits (2 and 7), but number has 3 digits.
+All prime numbers are Equidigital.
+Given a number n, the task is to print all Equidigital numbers upto n.
+Method (To print all Equidigital numbers less than or equal to n)
+
+Below is implementation of above idea.
+Run on IDE
+Run on IDE
+
+Reference : 
+https://en.wikipedia.org/wiki/Equidigital_number

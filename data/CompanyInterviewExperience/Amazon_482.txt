@@ -1,0 +1,11 @@
+Given an unsorted array that may contain duplicates. Also given a number k which is smaller than size of array.  Write a function that returns true if array contains duplicates within k distance.
+Examples: 
+A Simple Solution is to run two loops. The outer loop picks every element ‘arr[i]’ as a starting element, the inner loop compares all elements which are within k distance of ‘arr[i]’.  The time complexity of this solution is O(kn). 
+We can solve this problem in Θ(n) time using Hashing.  The idea is to one by add elements to hash.  We also remove elements which are at more than k distance from current element. Following is detailed algorithm.
+1) Create an empty hashtable.
+2) Traverse all elements from left from right. Let the current element be ‘arr[i]’
+….a) If current element ‘arr[i]’ is present in hashtable, then return true.
+….b) Else add arr[i] to hash and remove  arr[i-k] from hash if i is greater than or equal to k
+Run on IDE
+Run on IDE
+Output: 

@@ -1,0 +1,30 @@
+Recently walmart labs came to our campus for campus recruitment.  Here is my interview experience:
+Round 1 (MCQ + Coding Questions)
+This round was conducted on hackerearth and consisted of 12 MCQ’s from ds,oops,aptitude,network etc and 3 coding questions
+Q1. Given n strings consisting of ‘R’ and ‘B’.  Two strings can be only combined if last character of first string and first character of second string are same. Given n strings, you have to output the maximum length possible by combining strings.
+I/P
+RBR
+BBR
+RRR
+O/P
+9
+Q2.  Find the maximum digit occurred in a range of prime numbers Eg: Range ( 21 -40) –>Prime numbers are 23,29,31,37,39 ( 2 occurs 2 times, 3 occurs 4 times, 1 and 7 occur 1 time and 9 occurs 2 times ->Answer is 3)
+Q3. Some question related to DP
+Round 2 (Technical)
+a. First there was a deep  discussion on my project. Questions related to Scalability were asked. I was asked to draw the schema of my database and make it more efficient, questions related to normalization were also asked. Long Discussion on NoSQL.
+b. Top view of Binary tree but i told the interviewer that i know the answer and he seemed impressed with my honesty. Was asked to implement Hashmap in C and one question related to hashmap was asked.
+There are two hashmaps and we have to find common entries, deleted entries, inserted entries and updated entries in an efficient way.
+Round 3 (Technical)
+a. All the questions which i attempted in my coding round were asked to explain.
+b. This question was asked:   https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+ First i gave recursive solution and then the optimized DP Solution.
+c.  Output question on OOPS (Please be thorough with your oops concept as they are very important)
+d. Detecting the starting of loop in linked list and was asked to explain how it works.
+e.  Given a binary tree, whether it is a BST?
+Round 4 (Technical)
+A long discussion on my other projects and then he gave me design question in which he asked me to design a data structure to represent the situation ( You really can’t prepare for these types of questions but make sure that you know all the important data structures from linked list to Segmentation Tree)
+Round 5 (HR)
+Basic HR Questions were asked.
+Thanks and Regards 
+
+

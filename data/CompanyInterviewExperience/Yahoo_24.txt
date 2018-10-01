@@ -1,0 +1,32 @@
+Following are the details of my Yahoo interviews.
+Date of Interviews: 28th July 2012
+No of Rounds: 1 aptitude test, 1 lab test, 2 technical rounds and 2 HR rounds.
+Type of Interviews: Campus Interview for freshers
+
+Aptitude Test(60 mins)
+25 questions were there. Questions mainly consisted of c outputs, greedy algorithms, graphs, puzzle, probability, complex function name etc.
+Few questions were like, number of possible graphs with n vertices, questions related to invertex and outvertex of graph, outputs where comma is used as an operator etc.
+There was not negative marking.
+
+Lab Test(150 mins)
+Lab test involved coding the given problems in c or c++ or java and running it in linux environment. It consisted of 2 sections in which 1st section was comparatively harder than 2nd section. You are expected to atleast attempt one question from each section to qualify. The more questions you attempt, more you score but you have to attempt from both sections.
+Section – 1
+Question 1: It was based on file and directory structure. Cannot recall what was the exact question.
+Question 2: 9 mobiles are given whose name, cost and 3 other features were provided on scale of 9. You have to treat cost as 1 dimension and three other features as another dimension(their respective weightage was given). When the user enters a name of mobile, the name of another 3 mobiles should be displayed based on how similar they are to given mobile on the basis of dimension 1 and dimension 2 of the mobile.
+Section – 2
+Question 1: Given a circular linked list, you have to split the linked list into two another circular linked list. If it contains 2n+1 nodes, then first list should contain n+1 nodes and second list should contain n nodes.
+Question 2: You have to count the number of first contiguous 0s of an array. The size of array is not given.
+After the completion of given time, they asked us to explain our code. They were looking for clarity of code, whether it was giving right output and they checked for corner cases also.
+
+Technical Round- I
+The interviewer asked me to solve a few questions from the set of 25 questions that were there in the aptitude test.
+He further asked my favourite subject and began to ask questions from there. He then asked questions from OS, DBMS and networking.
+
+Technical Round- II
+Here also 2-3 questions of the aptitude test were asked. He asked which subjects I like. I mentioned data structure, networking and DBMS.
+To my surprise, he started asking me questions from OS. The questions were not quite hard. They were based on semaphores, synchronization, virtual memory, paging, faulting, and deadlock. It was just that I was not well prepared in OS. That round went pretty average and that was end of it.
+The guys who qualified for the next 2 HR rounds were all hired. In the HR round, questions such as personal strengths, weakness etc were asked. It was a bit casual.
+Tough Luck again…. 🙁
+
+This article is compiled by Vinay Khetan. We will be soon publishing Vinay’s Microsoft interviews as a separate post. Vinay was selected in Microsoft. Many Many congratulations to Vinay for his selection.
+

@@ -1,0 +1,10 @@
+Given two positive integer a and b and a range [low, high]. The task is to find the gretest common divisor of a and b which lie in the given range. If no divisor exist in the range, print -1.
+Examples:
+The idea is to find the Greatest Common Divisor GCD(a, b) of a and b. Now observe, divisor of GCD(a, b) is also the divisor of a and b. So, we will iterate a loop i from 1 to sqrt(GCD(a, b)) and check if i divides GCD(a, b). Also, observe if i is divisor of GCD(a, b) then GCD(a, b)/i will also be divisor. So, for each iteration, if i divides GCD(a, b), we will find maximimum of i and GCD(a, b)/i if they lie in the range. 
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

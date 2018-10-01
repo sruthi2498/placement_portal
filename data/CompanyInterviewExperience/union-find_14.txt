@@ -1,0 +1,19 @@
+In the previous post, we introduced union find algorithm and used it to detect cycle in a graph.  We used following union() and find() operations for subsets.
+Run on IDE
+The above union() and find() are naive and the worst case time complexity is linear. The trees created to represent subsets can be skewed and can become like a linked list.  Following is an example worst case scenario.
+The above operations can be optimized to O(Log n) in worst case.  The idea is to always attach smaller depth tree under the root of the deeper tree. This technique is called union by rank.  The term rank  is preferred instead of height because if path compression technique (we have discussed it below) is used, then rank is not always equal to height. Also, size (in place of height) of trees can also be used as rank. Using size as rank also yields worst case time complexity as O(Logn) (See this for proof)
+The second optimization to naive method is Path Compression.  The idea is to flatten the tree when find() is called.  When find() is called for an element x, root of the tree is returned.  The find() operation traverses up from x to find root.  The idea of path compression is to make the found root as parent of x so that we don’t have to traverse all intermediate nodes again. If x is root of a subtree, then path (to root) from all nodes under x also compresses.
+The two techniques complement each other.  The time complexity of each operation becomes even smaller than O(Logn).  In fact, amortized time complexity effectively becomes small constant. 
+Following is union by rank and path compression based implementation to find a cycle in a graph.
+
+Run on IDE
+Run on IDE
+
+Related Articles : 
+Union-Find Algorithm | Set 1 (Detect Cycle in a an Undirected Graph)
+Disjoint Set Data Structures (Java Implementation) 
+Greedy Algorithms | Set 2 (Kruskal’s Minimum Spanning Tree Algorithm)
+Job Sequencing Problem | Set 2 (Using Disjoint Set)
+References:
+http://en.wikipedia.org/wiki/Disjoint-set_data_structure
+IITD Video Lecture

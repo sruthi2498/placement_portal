@@ -1,0 +1,11 @@
+Check if a number can be expressed as x^y (x raised to power y)
+Given a positive integer n, find if it can be expressed as x^y where y > 1 and x > 0. x and y both are integers.
+Examples : 
+We have discussed two different approaches in below post.
+Check if a number can be expressed as x^y (x raised to power y).
+The idea is find Log n in different bases from 2 to square root of n. If Log n for a base becomes integer then result is true, else result is false.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

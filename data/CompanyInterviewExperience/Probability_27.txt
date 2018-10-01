@@ -1,0 +1,22 @@
+A 5 digit number is formed by using digits 1, 2, 3, 4 and 5 with no two digits same. What is the probability that the formed number is divisible by 4?
+(A) 1/5
+(B) 4/5
+(C) 3/5
+(D) 1/4
+ Answer: (A) Explanation: To be divisible by 4, the number has to end with the last two digits forming a number divisible by 4. Since there are only 5 digits: 1, 2, 3, 4, 5.
+So, possible last two digits according to divisibility by 4:
+12
+24
+32
+52
+For each of them we now have to put the remaining numbers in front: 3x2x1, therefore 6 combinations for each number set = 6×4 (we have 4 sets from above) = 24.
+So, required probability is:
+
+
+P = Number of desired outcomes / number of possible outcomes
+= 24 /(5*4*3*2*1)
+= 24 / (5!)
+= 24 / 120
+= 1/5 
+
+So, option (A) is correct.Quiz of this Question

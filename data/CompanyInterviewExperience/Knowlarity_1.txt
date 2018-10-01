@@ -1,0 +1,18 @@
+I applied for a job through there official website(I saw the job opening and mailed my resume to the HR). He immediately responded and sent me a link for an online test.
+It had 2 coding problems. Later, the next day he called up and asked three aptitude questions. I was later on called for a f2f interview.
+Round 2 : I was asked to code. A computer was provided.
+Question : A calculator application that takes 2 numbers as input and an operation to perform.
+Condition : The number’s digit count will be greater than 50.
+Solution :  I scanned it as a string and performed the operations digit-by-digit from right to left.(Did not perform division, it was time. I took 1hour for addition,subtraction and multiplication. Reused addition logic for multiplication)
+I cleared that round and went on to next round.
+Round 3 : It was a f2f interview over hangout. I was asked various algorithm and Data structures based questions.
+Problems like finding loop in a linked list, which is the best sorting technique? why? , He asked me to code a small program to perform addition of two integers by call by reference.
+I used Integer object in java.
+I passed that round.
+Round 4 : I was asked to rate myself on programming,algorithms,Android SDK(since i am a android developer) and DBMS. Then he started interviewing me about the algorithms and slightly about android.
+Puzzle : 100 floors and an egg puzzle. After deducing, i came up with binary search algorithm(i did not know the solution). He said why not tertiary search? He wasn’t convinced with my answer.
+Since they work on NodeJS, he gave an assignment on NodeJS. I had to use NodeJS, Redis and MySQL for basing insert/delete and update operations. I left foe the day.
+2 days later i sent my assignment. A week later they called back for further interviews.
+Round 5 : The same person form round 4 came and asked the same question ‘why not tertiary search? ‘ . I said the same old answer. He went out – HR came and told me that the manager wasn’t convinced. They were polite and nice.
+I failed that round. But the interview quality was too good.
+Mistake : After an interview, always research the questions that were wrongly answered.

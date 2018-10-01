@@ -1,0 +1,28 @@
+Recently flipkart visited our campus for hiring interns as well as SDEs
+Here is the interview process:
+Round 1 : Online coding test on Hackerrank
+2 questions were asked:
+Duration 90 minutes
+a. Given an array and an integer b, traverse the array and if the element in array is b , double b and continue traversal. In the end return value of b.
+Eg: I/p 2,3,4,10,8,1 B=2
+O/p: 16
+Used ad-hoc approach . You just need to take care about the fact that ans can be long long.
+b. Given k,n,m. where k is no. of coconuts you initially have. n is some no. such that if you have >=n coconuts, you become stressed otherwise you are normal. m is the no. of shops.You go from 1st shop to m-th shop without skipping any shop. At i-th shop, either you buy Si coconuts or sell Si coconuts. If you are stressed then you must become normal at next shop. If you have less than Si coconuts and you want to sell then you must sell all the coconuts you have. The task is to calculate maximum possible changes of your mood from stressed to normal or vice-versa.
+Used recursion with memoization.
+
+Round 2: Technical Round f2f Duration 45 min
+2 questions:
+a. Given a string reverse the sequence of vowels in each word of string
+Ex: I/p I work for flipkart
+O/p I work for flapkirt.
+Fully functional code was expected along with time complexity.
+b. Given co-ordinates of flipkart fulfillment center and n sellers find the nearest k sellers.
+I first suggested sorting. Then he asked me to think of any other approach. Told him to use heaps. Discussed about its time complexity. He said complexity to build heap is nlogn but i stuck to my answer that it is n. He then told me he was just checking my confidence 😛
+Interviewer was extremely polite and cordial.
+I did well in these two rounds so I was not asked to give another technical round and was selected for direct interview with hiring manager.
+Some of the round 2 questions were on topics like matrix dp, trees, linked list, etc.
+
+Round 3: With hiring manager. Duration 1.5 hrs
+One of the best conversations I have ever had. Discussed about my projects, college life, what i did at my internship , favorite subjects, worst subject, what is interesting about flipkart, role model, etc.
+
+

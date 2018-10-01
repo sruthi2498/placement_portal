@@ -1,0 +1,13 @@
+Given a number, the task is to check if number is divisible by 5. The input number may be large and it may not be possible to store even if we use long long int.
+Examples:
+
+Since input number may be very large, we cannot use n % 5 to check if a number is divisible by 5 or not, especially in languages like C/C++. The idea is based on following fact.
+Illustration: 
+How does this work? 
+Below is the implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

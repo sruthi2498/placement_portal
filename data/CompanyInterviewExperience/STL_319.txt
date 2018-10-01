@@ -1,0 +1,12 @@
+This function is used to convert the numerical value to the wide string i.e. it parses a numerical value of datatypes (int, long long, float, double ) to a wide string. It returns a wide string of data type wstring representing the numerical value passed in the function. In this function data type is being internally typecasted to the wstring data type and bypassing the numerical value as its parameter we can obtain a wstring type of string in return where the numerical value has been typecasted to the desired data type. 
+Syntax :
+
+Run on IDE
+Output:
+Applications :
+It can be used for calculation to be used in report statement such as average value so we need not write any statement for this purpose and we can directly use this function to convert numerical values.
+Example : Suppose the HOD of a department is filing a report for number of sections in his department and he has to avoid data type casting so he can use to_wstring function to do this particular task.
+Below is the implementation :
+Run on IDE
+Output:
+In the above example we need not typecast the data type every time but with the help of this function external typecasting is avoided which is beneficial for the system as external typecasting takes more time then the stl fucntions.    

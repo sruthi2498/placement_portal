@@ -1,0 +1,15 @@
+Given an array representing heights of buildings. The array has buildings from left to right as shown in below diagram, count number of buildings facing the sunset. It is assumed that heights of all buildings are distinct.
+
+Examples:
+
+Asked in : Amazon Interview
+It can be easily observed that only the maximum element found so far will see the sunlight
+i.e. curr_max will see the sunlight and then only the element greater than curr_max will see the sunlight. We traverse given array from left to right. We keep track of maximum element seen so far. Whenever an element becomes more than current max, increment result and update current max.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)

@@ -1,0 +1,6 @@
+Given N numbers which have a permutation of first N numbers. In a single operation, any prefix can be reversed. The task is to find the minimum number of such operations such that the numbers in the array are in increasing order. 
+Examples:
+The approach to solve this problem is to use BFS. 
+Below is the implementation of the above approach: 
+Run on IDE
+Time Complexity: O(N! * N2) 

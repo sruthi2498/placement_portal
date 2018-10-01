@@ -1,0 +1,45 @@
+Round 1: (Written Test)
+1.    Given a sorted array construct a Balanced Binary Search Tree.
+2.    Given a linked list, find whether linked list is palindrome or not without using any extra space.
+3.    Given set of strings find longest common prefix. If no common prefix present print null
+Example: {abcd, abbd, abdy, az}
+Answer: a
+Round 2: (F2F – Problem Solving)
+1.    Given sorted array of unique elements. Find an element which is having value equal to its index.
+{-4,-2,2,4,6,9}
+Ans: 2
+2.    Given a brick of size 1 x 4, how many ways you can construct a wall of size N x 4
+Round 3: (F2F – Data structures and Algorithms)
+1.    Give a binary tree, print all the nodes in spiral order with constant space
+2.    Give a binary tree and a light source fixed placed right side of the tree. Print all the nodes where the light directly falls.
+Refer : Right View of a binary tree.
+
+3.    Merge two sorted linked lists without using extra space
+Round 4: (Telephonic – Hiring Manager from Seatle – All Questions on Testing and Projects)
+1.    Tell me about yourself
+2.    Roles and responsibilities of your current role
+3.    How do you test a search box
+4.    Did you ever have a fight with developer over a defect? If you had how did you solved ?
+5.    Few behavioral questions
+Round 5: (F2F – Test Automation and Testing)
+1.    Design an automation framework
+2.    Given a function InsertNode() which inserts a node to a linked list. Write all scenario’s to test the function.
+Round 6: (F2F –Bar Raiser)
+1.    Tell me about yourself
+2.    Why Amazon
+3.    Hardest bug you found
+4.    Given an array of integers. Write a program to find interval with largest producing maximum sum. You should print sum as well as first and last index of the interval.
+5.    Your strengths
+6.    Your weakness
+Useful sources for Technical Preparation:
+1.    GeeksForGeeks
+2.    Data Structures and Algorithms Made Easy by NarasimhaKarumanchi
+3.    Data Strucutures videos by Prof Naveen Garg from IIT Delhi
+Use Cracking the Coding Interview book by McDowell Lakmen for behavioral as well as technical questions.
+Tips:
+1.    Think loud in front of interviewer.
+2.    Never keep quiet during interview
+3.    Prepare well on the projects which you are currently working on.
+4.    Be honest in behavioral questions
+The beautiful part of the entire interview process was in none of the interviewer looked at my resume.
+

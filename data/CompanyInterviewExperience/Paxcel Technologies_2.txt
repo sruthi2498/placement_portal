@@ -1,0 +1,22 @@
+I have successfully completed the recruitment process of paxcel technologies pvt ltd and wanted to share my experience with geeksforgeeks.
+1st Round
+Online Test with 40 MCQ questions related to computer science field subjects like DS, OS, CN, COA and Programming.
+2nd Round (Programming)
+1)      Traverse a given 2D matrix from given source to destination in such way that every cell should be visited exactly one time (we have to cover all cells of matrix exactly once and have to reach at destination).
+2)      If m is a number then i right rotation of that number is mi. Ex m = 123 then m1 = 312, m2 = 231.
+Now you have given 2 numbers as input say x and y. You have to count all m numbers between them   such that x <= m < mi <= y.
+Ex if x = 123 and y = 250 then for m = 123, m1= 312 and m2 = 231 so,
+X <= m < m1 <= y is not valid
+X <= m < m2 <=y is valid. And so on..
+3rd Round (Telephonic Interview)
+Discussion of logic of programs from previous round and questions on selection of programming language (why Python or why C).
+Some basic questions from OS, COA and Networks.
+4th Round (Face to Face)
+Discussion of Project/Thesis.
+Asked me to convert my C code of thesis into Object Oriented term.
+Questions from Memory, paging, segmentation and unix.
+Gave some simple programming questions to write (like to print all permutation of a string and pointers related).
+5th Round (HR)
+Discussed about myself, Relocation, and salary package.
+I thanks to geeksforgeeks for huge contribution to this. I will keep learning from geeksforgeeks. 🙂
+ 

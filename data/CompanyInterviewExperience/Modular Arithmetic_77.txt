@@ -1,0 +1,14 @@
+ Padovan Sequence  similar to Fibonacci sequence with similar recursive structure. The recursive formula is, 
+Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55……
+Spiral of squares with side lengths which follow the Fibonacci sequence.
+
+Padovan Sequence: 1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 12, 16, 21, 28, 37,…..
+Spiral of equilateral triangles with side lengths which follow the Padovan sequence.
+
+Examples:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

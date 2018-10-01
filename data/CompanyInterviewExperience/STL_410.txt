@@ -1,0 +1,20 @@
+make_heap() is used to transform a sequence into a heap. A heap is a data structure which points to highest( or lowest) element and making its access in O(1) time. Order of all the other elements depends upon particular implementation, but remains consistent throughout. This function is defined in the header “algorithm“. There are two implementations of make_heap() function. Both of them are explained through this article.
+
+Syntax 1 : make_heap(iter_first, iter_last)
+
+Below is the demonstrating code :
+
+Run on IDE
+Output:
+
+Syntax 2 : make_heap(iter_first, iter_last, comp)
+
+Below is the demonstrating code :
+
+Run on IDE
+Output:
+
+Possible application : This function can be used in scheduling. In scheduling, a new element is inserted dynamically in iterations. Sorting again and again to get maximum takes much complexity O(nlogn), instead of that we use “push_heap()” function to heapify the heap made in O(logn) time . The code below depicts its implementation.
+Run on IDE
+Output:
+

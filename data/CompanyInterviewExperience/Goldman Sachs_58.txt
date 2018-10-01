@@ -1,0 +1,23 @@
+Given two given arrays of equal length, the task is to find if given arrays are equal or not. Two arrays are said to be equal if both of them contain same set of elements, arrangements (or permutation) of elements may be different though.
+Note : If there are repetitions, then counts of repeated elements must also be same for two array to be equal.
+
+Examples :
+
+A simple solution is to sort both array and then linearly compare elements.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n log n)
+Auxiliary Space : O(1)
+ 
+An Efficient solution of this approach is to use hashing. We store all elements of arr1[] and their counts in a hash table. Then we traverse arr2[] and check if count of every element in arr2[] matches with count in arr1[].
+Below is C++ implementation of above idea. We use unordered_map to store counts.
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)

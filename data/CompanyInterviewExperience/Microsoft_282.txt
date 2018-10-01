@@ -1,0 +1,39 @@
+Recently we had microsoft interview for internship in our campus.
+Online Test
+It was the technical + few aptitude test. There were around 4-5 set of mcq for all students at Cocubes.com. i was lucky to have a easy one.
+Then i was selected for 2nd round .
+Round 2 : (online judge)
+Around 200 people were selected for 2nd round. This round contained 2 question.
+1) Given a linked list which contains series of numbers seperated by “0”. Add them and store in the linked list in-place.
+2) Given a binary tree and value V. delete all the leaf nodes whose values are equal to V. It must handle all cases for example if u delete both leaf from a node Say B. Then the node B also becomes the leaf node.
+This round was pretty easy one . first one can de done in O(n) and 2nd one can be done by postorder traversal.
+I was confident that i will be selected for next round. after one week results was announced and 24 students were selected for next round.
+Round 3: (group interviews Written test)
+This round for the only 17 students and first seven were allowed to enter directly 4th round. i was one among the seven. The ranking was based on the scores of first two round. so each and every round matters in microsoft.
+2 question were asked for this interview.
+1) Delete alternate nodes in a doubly linked list.
+2) Convert a string into a string without duplicates without changing the order of characters IN PLACE. EG: Input: Bananas Output: Bans.
+Many of them were easily eliminated from this round. Neatness and indentation also matters.
+Round 4: (technical round )
+This round was the toughest round of all. The interviewr seems to be little strict. He called me and one more boy inside for interview.
+I thought he will select one among us for next round. but actually thy don’t compare in these ways. first question they asked me was
+1) given a 2d character array and u r allowed to move down, left, diagonal down and form a string and check whether that string is present in the dictionary or not.
+ans. i gave him backtracking approach and he saw that and he asked whether i can improve it little more. i gave binary search solution for searching in the dictionary and he told me that i can use prefix checks also. then i made use of it. Then he moved to second question.
+2) given a chess board nXn size and knight and u start from position (a,b) and have to reach (C,d) in minimum number of steps and there can be wall in some squares boxes also which blocks knight.
+i was really nervous and in tension i gave him DFS solution. he kept on asking me that can i improve it or not and finally i told i can apply djksthra algorithm. but i dint mentioned the word BFS. i came out and i thought i won’t be selected for next round.
+Meanwhile the questions asked to my friend were
+1)topological sort
+2)box stacking dynamic programming problem .
+Round 5 (personal interview ) :
+They called my name and i went inside. i have my resume to him and he went through it and then he was impressed by my groupon internship during 2nd year. then he asked me Why Microsoft? and then we talked for a while about games programing (Xbox ) and he asked about cloud computing. Then he saw in my resume that i was mentor in Data structures for Weak students so he asked my question in Linked list.
+1) Given a singly linked lists of 2n size. First n and second n are sorted. Sort the entire linked list. he asked for all possible solutions. i told him solutions for
+1)swaping by node
+2)swaping by data
+3)merge sort method
+4)hashing (counting sort method )
+it was not too hard one .
+Round 6 (final round)
+I think it was stress interview. the interview called me inside with one of my friend . he asked us about previous two round. Then he gave me 2 question
+1) Design LRU cache. (i read this just a day before)
+2) Find and replace in a string.
+Finally i was selected for microsoft internship. The people from microsoft were also very good and friendly. I read few websites before Interviews and geeksforgeeks is one of the best among them. Its really good to prepare for interview from geeksforgeeks and each and every round matters in microsoft.

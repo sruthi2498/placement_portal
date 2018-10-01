@@ -1,0 +1,45 @@
+Hi All. SAP Labs visited our campus. The whole process was divided in 5 rounds :
+1) Aptitude and coding round
+2) Technical interview 1
+3) Technical interview 2
+4) Managerial interview
+5) HR interview
+The aptitude and coding round was conducted on 1st September 2016 and lasted for 70 mins. It consisted of 25 aptitude (maths + logical reasoning) questions to be solved in 25 mins. After this there were three coding questions.
+First was partial coding, where some part of code was already written and we had to complete 2 functions. The question was to identify whether given 3 integers belong to an AP or a GP. The main function was implemented we had to implement the is_AP or is_GP methods.
+Second was debugging round. A problem statement was given and its code was written, which produced improper output. In our test, there was an error in the shorthand ‘+’ operator in the code.
+Third was complete coding round. A problem statement was given and code for it was to be written. The difficulty level was moderate.
+Platform used for this test was mettl.
+They selected 25 people out of around 130 for interviews.
+The first technical interview lasted for about an hour. First he asked me to tell about myself. Then he gave me a puzzle.
+There is a square consisting of 4 x 4 squares. So count total number of squares and come up with a formula for no. of squares in a n x n square.
+Next I was asked to write and sql query to find id of second highest score in a table with ids and scores.
+Third and final question of this round was, to reverse a single linked NULL terminated list in a single iteration of all the nodes.
+About 10 people were eliminated after first interview.
+The second tech interview lasted for about an hour and half. First he asked me to tell about myself. Then he asked me how my first interview was. He then asked me where should I start, data structures, databases, to which I replied anywhere.
+He started asking questions about C. He asked difference between call by pointer and call by reference. Whether a function can be defined as
+void function(int &x, int &y);
+Then he asked what is volatile data type in C. Then about the static data class.
+He also asked me to write a program to find length of a string.
+Then he asked about how functions in C work. How does the program know where to go back after a function is over, etc.
+He then asked me if I knew C++, I said no. So he continued to ask a few questions on data structures.
+He asked me to write a program to find middle node of a single linked NULL terminated list in a single iteration of nodes.
+He then asked about the ACID properties which a good database must have. He asked how are transactions managed by a database, what are commits, how, in case of a power failure, data is reverted back, etc.
+Then he asked a puzzle.
+There are 25 horses. There are 5 tracks. So at a time, only 5 horses can be raced. What is the minimum number of races to be conducted to decide the winner?
+Then he asked me whether I like to work individually or in a team. I said in a team. He then gave me scenario where I have to decide between a project I am working on, whose deadline is approaching, and helping a friend working on another project whose deadline is also approaching, and asked me what would I do in such a case.
+About 10 people were selected for managerial round.
+The managerial round lasted for about 45 minutes.
+He again, asked me to tell about myself, what are my passions.
+First he asked me how do I define a project, and what are the characteristics of a project.
+He was going through my resume while listening to me. Then he asked which is the project of which I am the most proud of out of all those listed on my resume.
+I mentioned one of them, which we did in second year. He asked me about the project and what I got to learn from it.
+He then asked whether this project used any database. I said no. Then he asked me to draw a general architecture / data flow diagram of the software built in the project.
+He went through my resume completely. He asked me about my internship.
+The HR round lasted for about half an hour.
+There were two interviewers. General HR questions were asked.
+Then choice of location of work was asked, between Gurgaon and Bangalore, to which I said Bangalore.
+They also went through my resume, asked my what my aspiration is, and what steps have I taken in order to achieve what I aspire.
+Why SAP?
+He then asked me whether I remembered the video they showed me during the pre placement talk. I tried to remember but could not so told him so. He was trying to confuse me by telling different things which were mentioned in the pre placement talk. I corrected him each time.
+After each interview, they asked me whether I had any questions. I asked whether GNU / Linux is used at SAP, and whether openBSD is used on SAP servers / mainframes.
+

@@ -1,0 +1,13 @@
+Given a string str, the task is to print longest palindrome word present in the string str.
+Examples:
+
+Input : Madam Arora teaches Malayalam
+Output: Malayalam
+Explanation: The string contains three palindrome words (i.e., Madam, Arora, Malayalam) but the length of Malayalam is greater than the other two.
+Input  : Welcome to GeeksforGeeks
+Output : No Palindrome Word
+Explanation:The string does not contain any palindrome word so the output is No Palindrome Word. 
+Approach:
+Run on IDE
+Run on IDE
+Run on IDE

@@ -1,0 +1,4 @@
+Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+The functions for deque are same as vector, with an addition of push and pop operations for both front and back.
+Run on IDE
+The output of the above program is :

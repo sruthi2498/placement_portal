@@ -1,0 +1,43 @@
+I got a call from consultancy asking me, whether they can process my profile for the position of Software Engineer with FiberLink. My profile got short-listed.
+They asked me to appear for an on-line coding test.
+Initial Round
+On-line Coding Test
+The test contains only one coding questions.
+– Given a string, print all distinct palindromic sub-string .
+Round 1
+– what is singleton?
+– write a class for singleton
+use case of singleton
+– Given an array which contains many elements including repeating numbers.
+You have to print repeating numbers
+– how do you traverse array
+– do you have any questions for me
+Round 2
+– what is your role in current company
+– Describe your project architectural overview
+– Please go through projects mentioned in your resume properly, they will go into very depth of the project, and try to understand, what actually you have done in your work.
+– What is exceptions?
+– types of exceptions
+– how do you release resources if exceptions does not occur.
+– if forcefully system is set down, how do you release resources
+I have given answer, by creating a clean up script which contains all resource releasing commands and whenever we require to release resources , we run the clean up script by checking the process id, whether its running in the system or not
+– explain database
+– In my resume I mentioned junit, so he asked me how do you test multi-threading using Junit
+– Given a puzzle,
+Given 10*10*10 grid, which is built by using 1*1*1 grid, if outer most boundary of 1*1*1 is broken down, how many grid will be removed.
+– Given a string like gggggaaannnnnnnwwww
+o/p:n7g4w4a3
+write program which will take above input and gives the mentioned output
+Please note that in the output ‘g’ and ‘w’ has same frequency number but have to print in alphabetical order.
+why are you looking for change
+Round 3
+– Tell me something about yourself
+– Tell me about your work and projects.Long discussions about the project.
+– bridge and torch problem
+– why are you looking for change
+HR Round
+– how comfortable are you relocating
+– basic questions/HR questions
+GeeksFoeGeeks is very good website to prepare for the interviews.
+It helped me a lot during preparation.
+Hope this will help you as well.

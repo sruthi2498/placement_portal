@@ -1,0 +1,11 @@
+Given N, check whether it is a Narcissistic number or not.
+Note:Narcissistic Number is a number that is the sum of its own digits each raised to the power of the number of digits
+Examples :
+
+The approach will be to count the number of digits and then extract every digit and then by using pow function we can get the power of that digit and then sum it up at the end and compare with the original number to check if it is a Narcissistic Number or not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+References: http://mathandmultimedia.com/2012/01/16/narcissistic-numbers/

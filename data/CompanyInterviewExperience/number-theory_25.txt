@@ -1,0 +1,5 @@
+Given a number n, We need to check whether n is aspiring number or not. The number n is called an aspiring number if its aliquot sequence< terminates in a perfect number, and it is not a perfect number itself. First few aspiring numbers are : 25, 95, 119, 143, 417, 445, 565, 608, 650, 652….
+Examples :
+Approach : First we find the terminating number of aliquot sequence of given input and then check if it is perfect number or not (as per definition). Given below is implementation for checking aspiring number.
+
+Run on IDE

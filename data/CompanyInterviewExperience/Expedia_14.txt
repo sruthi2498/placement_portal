@@ -1,0 +1,33 @@
+Lately, I had an on campus interview with Expedia. Here are the details of the company’s written and interview process. 
+Round 1 (Written, Computer Center)
+Part 1 : Very easy questions
+1. 25 C/C++ Q. mainly (35 min)
+2. 16 Aptitude Q. (16 min)
+3. 14 Logical Reasoning Q. (14 min)
+4. 18 English Language Q. incl. 2 comprehensions (16 min)
+Part 2 : 2 coding questions (There were lots of different questions. Everyone was given 2
+random questions out of them)
+1. Count LRU cache misses where page nos. referenced are given in array
+2. Insert an element in sorted circular linked list
+Round 2 (Technical Interview)
+1. Print right view of a binary tree
+2. Given an integer array A[]. Find max(j i) such that A[i] > A[j] and i < j
+
+
+Round 3 (Technical Interview)
+1. Given Rand5() which generates random numbers from 1 to 5. Implement Rand7() (a function
+that gives random numbers from 1 to 7) using Rand5()
+2. A continuous stream of binary numbers is coming (0s and 1s). At any time print the max
+length of the window in which number of 0s and 1s are equal
+3. Find lowest common ancestor of 2 given nodes in a binary tree
+Round 4 (HR Interview)
+1. Some basic HR questions based on resume
+2. Why did you choose engineering?
+3. Why C++ was named so and not C+++ or C+?
+4. Some general awareness questions like India’s population, conversion b/w crore, lakh,
+million, billion etc.
+5. How would you feel like if I tell you that there’s no growth for first 3 years at Expedia?
+6. How would you feel when you will be given code maintenance work instead of code
+development?
+7. Why did you do your project alone? Do you not trust your friends?
+

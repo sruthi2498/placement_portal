@@ -1,0 +1,11 @@
+
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.
+clear() function is used to remove all the elements of the list container, thus making it size 0.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Related Article : Delete elements in C++ STL List

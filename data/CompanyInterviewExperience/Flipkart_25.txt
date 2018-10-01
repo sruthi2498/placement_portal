@@ -1,0 +1,14 @@
+Given three numbers a, b and k, find k-th digit in ab from right side
+Examples:
+Method
+1) Compute a^b
+2) Iteratively remove the last digit until k-th digit is not meet
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+How to avoid overflow?
+We can find power under modulo 10sup>k to avoid overflow. After finding the power under modulo, we need to return first digit of the power.

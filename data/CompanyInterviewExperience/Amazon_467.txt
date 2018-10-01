@@ -1,0 +1,27 @@
+Here’s my interview experience for Amazon, Bangalore for SDE
+Round 1 (F2F)
+Q1.) Given a function rev(int i) which reverses the segment of array ar[] from 0-i, Implement a function sort() using rev().
+Q2.) Given an array ar[] of length ‘n’ and an integer ‘k’ such that k < n. You need to maintain a window of size 'k' starting from i=0 to i=k and print the MAX of that segment. The window moves forward by 1 element.  
+
+Round 2 (F2F)
+Q1.) (Variant of Children-Sum Problem)
+Given a tree, implement a function which replaces a node’s value with the sum of all its childrens’ value, considering only those children whose value is less than than the main node’s value.
+Eg: input = 60->50->80->40 , output = 90->40->40->0
+Q2.) There are millions of string in the database. How would you store them for efficient searching. You also need to print all anagrams together many times, now how would you store them and insert if a new string is added to database ?    
+Round 3 (F2F – Hiring Manager Round)
+* Why are you leaving the company so early ?
+* Discussions on project and current work in the previous company.
+* Discussion on college projects.
+* Design a game ‘fifteen’ – http://en.wikipedia.org/wiki/15_puzzle
+Game me to write code of various moves, discussed optimization strategies and time-complexity if computer is given to solve it.
+* Behavioral questions.
+Round 4 (Telephonic)
+Q1.) Most challenging problem faced (obviously in projects), how you solved it.
+Q2.) Discussion on Design patterns.
+Q3.) Design Uber – http://en.wikipedia.org/wiki/Uber_(company)
+He was trying to judge what all aspects the person considers
+Classes, Objects, search and booking cab algorithms, implementation and technology
+Q4.) Extension of previous question – Write code to search nearest 10 cabs. 
+Code is required in all questions. Practice code on paper.
+Thanks Geeksforgeeks for providing such a good platform to prepare. 
+

@@ -1,0 +1,15 @@
+Given an array of 0s and 1s, in how many iterations the whole array can be filled with 1s if in a single iteration immediate neighbors of 1s can be filled.
+NOTE: If we cannot fill array with 1s, then print “-1” .
+Examples :
+Asked in : Amazon
+
+It is given that a single 1 can convert both its 0 neighbours to 1. This problem boils down to three cases : 
+Algorithm :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Time Complexity : O(n)
+

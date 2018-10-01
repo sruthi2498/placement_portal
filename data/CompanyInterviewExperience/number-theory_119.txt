@@ -1,0 +1,6 @@
+Given an positive large integer n. Count the number of positive divisors of n2 which are not divisible by any divisor of n(1 <= n <= 1012). 
+Simple approach is to traverse for every divisor of n2 and count only those divisors which are not divisor of ‘n’. Time complexity of this approach is O(n).
+Efficient approach is to use prime factorization to count total divisors of n2. A number ‘n’ can be represented as product of primes . Refer this to understand more.
+Run on IDE
+Time complexity: O(sqrt(n))
+Auxiliary space: O(1)

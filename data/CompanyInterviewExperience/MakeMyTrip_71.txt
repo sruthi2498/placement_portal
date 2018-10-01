@@ -1,0 +1,36 @@
+Given a sorted array arr[] and a number x, write a function that counts the occurrences of x in arr[]. Expected time complexity is O(Logn)  
+Examples:
+Method 1 (Linear Search)
+Linearly search for x, count the occurrences of x and return the count.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+ 
+Method 2 (Better using Binary Search)
+We first find an occurrence using binary search.  Then we match toward left and right sides of the matched the found index.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(Log n + count) where count is number of occurrences.
+ 
+Method 3 (Best using Improved Binary Search)
+1) Use Binary search to get index of the first occurrence of x in arr[]. Let the index of the first occurrence be i.
+2) Use Binary search to get index of the last occurrence of x in arr[]. Let the index of the last occurrence be j.
+3) Return (j – i + 1);
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(Logn)
+Programming Paradigm: Divide & Conquer
+Please write comments if you find the above codes/algorithms incorrect, or find other ways to solve the same problem.

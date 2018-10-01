@@ -1,0 +1,23 @@
+HSBC recently visited our campus for hiring software developers (Full Time). Depending on your performance in all the process they classified two types of sub profiles: “Ace” and “Strikers”
+Round 1 (Aptitude + Programming Fundamentals + Coding):
+This round was of around 1hr 30 minutes and was held on CoCubes platform. MCQ questions divided into different sections like Aptitude, Verbal, Data structures, C, C++ and Java.
+After completing the MCQ questions there was a coding round in continuation. 2 questions were asked. Everyone had a different pair of questions.
+1 ) Given were 2 numbers n and k. Basically what we were supposed to do is return the sum of integers from 1 to n except those that were multiple of k.
+Eg: n=10  k=4
+Ans: 1+2+3+4+5+6+7+8+9+10 – (4+8) =43
+2 ) A large number was given as input in the form of string and we had to return its factorial in the form of string.
+Input: “20”
+Output: “2432902008176640000”
+Some had: Add two numbers given in form of linked list
+A lot of my friends had problem solving the 2nd question in C++ as string did not work and they had to work with char*.
+100 students were shortlisted for personal interviews from around 150 students from our campus.
+Round 2 (Technical Round):
+
+There were not many questions related to data structures and algorithm. They asked a lot about projects and even gave case studies related to banking and database management.
+Company preferred good knowledge in Java. I would suggest you to get familiar with various java concepts before going for the interview. Many of my friends were asked questions related to System Design (Whatsapp, Zomato, Online Banking), API, Web Service, Framework, DBMS, SQL Queries, Data Extraction and Processing.
+They asked things related to projects/subjects/skills mentioned in the Resume. I would suggest to keep only those things in resume that you are completely sure about because not having knowledge of things creates a negative impression.
+People who were potential “Ace” candidates had to go through one more technical round.
+Round 3 (HR Round):
+
+I would suggest you to be honest and be confident. Some questions were asked from previous interview experiences also so I would suggest to go through them also.
+Thanks a lot GeeksForGeeks.

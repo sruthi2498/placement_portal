@@ -1,0 +1,14 @@
+Hi, Following is my interview experience for SDE position in Bing Team.
+– Online Round :
+           Total questions 2.
+    The question was big, like a story but it ultimately boils down to Longest Common Subsequence.
+– Onsite : Round 1 : Duration around 1 hour
+    Given a binary tree, connect all node in the same level. Node structure is : left, right, data, next. Each level next should point to the next right node in the level. For last node in each level, next should be NULL
+– Onsite : Round 2 :
+–  Onsite : Round 3:
+    Discussion about previous work. Challenges faced.
+– Onsite Round 4: With Bing team GM
+
+Overall, it was a great experience. Great food and snacks throughout the day. The interviewers were friendly, giving hints and all. I would also like to thank geeksforgeeks for being there always. I have been greatly benefited hence I am taking time in sharing a detailed and thorough description of the process from my perspective.
+
+

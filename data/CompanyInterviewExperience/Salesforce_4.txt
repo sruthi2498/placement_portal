@@ -1,0 +1,21 @@
+Round 1 (online):
+This round was conducted on Hackerrank. There were 10 MCQs(from DS, OS, DBMS) of 1 mark each and 2 coding questions of 10 marks each.
+One question from other set was to find the sum of all subsets of a given number. Ex:- i/p = 123 o/p = 177(1+2+3+12+13+23+123)
+There was cut-off for both MCQs and Coding questions. Out of 150 students, 10 were selected for personal interviews.
+Round 2:
+He asked me a coding question:
+Given an array arr[], find the maximum subarray (j-i), such that arr[i] > arr[j]. https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/
+Then he asked me a SQL query to find the 5th largest element of a table.
+Then he asked me what is Inheritance, and example of generalization and association.
+Round 3:
+The interviewer was quiet nice in this round. She asked me to introduce myself and went through my CV. We talked about my interests written on my CV, and some other things about me.
+Then she asked me what all I knew about Salesforce.
+Then she asked me what new feature can be added to e-commerce site like amazon, that is currently missing. Then, she asked how is the products information stored there, to which I named some databases and she asked about them. Then she asked me what to do when the count of products is very high.
+Then she asked me about my projects and anything extra that I did in my curriculum. I had used Java-Swing and Threads for making a stopwatch, so she asked me to write the complete code for it.
+Then she asked me to write a code for finding the count of digits from 0 – 9 in a given array. I gave a solution using hashing.
+4 students proceeded to the final round.
+Round 4:
+This round was taken by a Senior Manager.
+He asked me to tell about myself. He was writing down all the technologies that I used and that I was interested in and asked questions from each of them.
+He asked me about Bootstrap, HTTP request and response, REST API, TCP/IP stack, Threads vs Processes and Deadlocks.
+2 students, including me, were selected as interns.

@@ -1,0 +1,15 @@
+Pre-interview rounds
+1st round– was mcq round having questions in 4 sections-verbal communication, aptitude, coding, os n dbms for around 2hrs
+2nd round-coding round- 2 ques
+1.	How many minimum number of bits should be flipped in a string containing 0’s and 1’s such that 0’s and 1’s should be alternate
+2.	If the first letter in a string in capital change the full string to capital letters or else change full string to small letters
+Face-to-face rounds
+All the interviewers i got were friendly and asked me data structures and general programs. each one asked if I had some questions at the end of the interview. students are evaluated based on their thinking ability, programming skills, attitude and communication in each round.
+ 1st round
+the interviewer asked me to explain two of my projects. After this he asked me to write a program for Fibonacci series and then finding anagrams in a sentence. complete code was expected but each line was not scrutinized. if you can explain it correctly and confidently it should be good enough. He also asked some basics of java. He further went about trying to give me a question in which a matrix has 0’s and 1’s and to change the row and columns to 0. he later asked me a question on how i would declare a multi-dimensional hashmap.
+2nd round
+  the level of technical questions increased in this round. Complete code was expected. He asked me a bit about my project to start. then started asking me about different data structures and their advantages of linked list. he asked how i find a loop in a linked list and the start point of the loop. he then asked me a question about stock prices and stored in an array-how to find the time when to buy and sell the stock so as to maximize the profit (i first gave a solution which would require multiple traversals of the array which he asked me to optimize into a single traversal). He then asked how i would implement a random function without the built in functions. He then asked how i would develop a parking system which is multilevel and had a different limit of number of vehicles at each level in such a way as it would show if its full or not. Finally, he asked how i would print a matrix in a zigzag way.
+3rd round
+the interviewer asked me to start with introducing myself. He asked me to explain any one of my projects i liked.He then asked be the program to convert decimal into binary. later he asked me to do a level order traversal of a bst. i did a recursive solution but he wasn’t satisfied and asked me reduce the number of traversals so a suggested using a queue which he accepted. he then asked me a query – in a table consisting of authorid, book name , year and cost how can i retrieve the number of authors who sold more than 3 book in a year. he also asked general java concepts like inheritance polymorphism etc. he then asked me questions like tell me about your family, why oracle etc
+Finally they announced the results at around 9:15pm 25 students were selected.
+

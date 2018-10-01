@@ -1,0 +1,42 @@
+MakeMyTrip recently visited our campus. There were 4 rounds.
+Online Round ( 1 Hour )
+This round consisted of 20 aptitude questions and 3 coding Questions.
+Coding Questions:
+1. Find ‘x’ in the equation. The input is in the form of a string. Equation consisted of addition operator
+only and 2 integers and a variable ‘x’.
+Sample Input Case: x+3=5 output=2
+Decoding the string into 2 numbers and an unknown variable took a lot of time.
+2. Given two numbers x and y find x^y in log y time.
+3. Find the next palindromic number greater than the current number.
+Had solved all 3 questions and around 15 questions in aptitude. Was shortlisted for the next round.
+Technical Interview 1 ( 1 Hour 20 mins )
+Firstly the interviewer asked me to introduce myself, asked me about my projects.
+Then he moved on to coding questions and puzzles and some basic object oriented fundamentals:
+All the questions below were in random order.
+1. Questions related to collections, interfaces, JBM, JDE, Polymorphism and Abstraction.
+2. Coding question :
+Full codes to be written
+a> Given an array comprising of only 1’s and 0’s , find the maximum length along with the starting index
+and ending index which consisted equal number of 1’s and 0’s. I could not do it, the interviewer gave
+me another question:
+Given an array comprising of any number ( both positive and negative), find the maximum length along
+with starting and ending index which had sum equal to 0. I was able to do this one.
+The interviewer told me to solve the previous question now. I told him that replace all the 0’s with -1’s
+and the question becomes entirely the same.
+b> To Check whether a binary tree is a BST or not?
+3. Puzzles:
+1. There are 3 switches outside a room. Inside the room there is only 1 bulb. You could go inside the
+room only once, how will you know with which bulb the switch is associated with.
+2. There are 100 coins in a table. 20 coins are heads and others are tails (facing upwards). Find the
+optimal cut(2 piles) such that both have equal number of heads facing up.Technical Interview 2 ( 1 hr )
+Technical Interview 2 ( 1 hr )
+Coding Questions:
+1. Cloning Linked List with every node comprising of next and (random pointer to any other node).
+2. Detect Loop in a Linked List and remove it.
+3. In-place reversing of a string.
+Questions about abstract data type, abstract keyword, difference between C++ and Java, garbage
+collection in Java and OOPS concepts were asked.
+HR Round ( 20 mins )
+Basic details, family background and why do you want to join this company? Where do you see yourself
+after 5 years and questions about weakness and strengths.
+

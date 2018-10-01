@@ -1,0 +1,91 @@
+The Fibonacci numbers are the numbers in the following integer sequence.
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ……..
+In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation
+with seed values
+
+Given a number n, print n-th Fibonacci Number.
+Examples:
+Write a function int fib(int n) that returns Fn. For example, if n = 0, then fib() should return 0. If n = 1, then it should return 1. For n > 1, it should return Fn-1 + Fn-2
+Following are different methods to get the nth Fibonacci number.
+Method 1 ( Use recursion ) 
+A simple method that is a direct recursive implementation mathematical recurrence relation given above.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: T(n) = T(n-1) + T(n-2) which is exponential.
+We can observe that this implementation does a lot of repeated work (see the following recursion tree). So this is a bad implementation for nth Fibonacci number.
+Extra Space: O(n) if we consider the function call stack size, otherwise O(1).
+Method 2 ( Use Dynamic Programming )
+We can avoid the repeated work done is the method 1 by storing the Fibonacci numbers calculated so far.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Extra Space: O(n)
+Method 3 ( Space Optimized Method 2 )
+We can optimize the space used in method 2 by storing the previous two numbers only because that is all we need to get the next Fibonacci number in series.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Extra Space: O(1)
+Method 4 ( Using power of the matrix {{1,1},{1,0}} )
+This another O(n) which relies on the fact that if we n times multiply the matrix M = {{1,1},{1,0}} to itself (in other words calculate power(M, n )), then we get the (n+1)th Fibonacci number as the element at row and column (0, 0) in the resultant matrix.
+The matrix representation gives the following closed expression for the Fibonacci numbers:
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 5 ( Optimized Method 4 )
+The method 4 can be optimized to work in O(Logn) time complexity. We can do recursive multiplication to get power(M, n) in the prevous method (Similar to the optimization done in this post)
+Run on IDE
+Run on IDE
+Time Complexity:  O(Logn)
+Extra Space: O(Logn) if we consider the function call stack size, otherwise O(1).
+ 
+Method 6 (O(Log n) Time)
+Below is one more interesting recurrence formula that can be used to find n’th Fibonacci Number in O(Log n) time.
+How does this formula work?
+The formula can be derived from above matrix equation.
+
+Taking determinant on both sides, we get
+(-1)n = Fn+1Fn-1 – Fn2
+Moreover, since AnAm = An+m for any square matrix A, the following identities can be derived (they are obtained form two different coefficients of the matrix product)
+FmFn + Fm-1Fn-1 = Fm+n-1
+By putting n = n+1,
+FmFn+1 + Fm-1Fn = Fm+n
+Putting m = n
+F2n-1 = Fn2 + Fn-12
+F2n = (Fn-1 + Fn+1)Fn = (2Fn-1 + Fn)Fn (Source: Wiki)
+To get the formula to be proved, we simply need to do following
+If n is even, we can put k = n/2
+If n is odd, we can put k = (n+1)/2
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of this solution is O(Log n) as we divide the problem to half in every recursive call.
+This method is contributed by Chirag Agarwal.
+Related Articles:
+Large Fibonacci Numbers in Java
+Please write comments if you find the above codes/algorithms incorrect, or find other ways to solve the same problem.
+References:
+http://en.wikipedia.org/wiki/Fibonacci_number
+http://www.ics.uci.edu/~eppstein/161/960109.html

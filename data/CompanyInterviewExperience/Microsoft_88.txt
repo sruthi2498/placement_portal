@@ -1,0 +1,16 @@
+This was for Skype team. 2 Interviews with managers, 1 with partner.
+First Round (1.5 hour)
+1. Discussion on previous projects.
+2. Given a sorted integer array, print all distinct elements in array. The given array may contain duplicates and the output should print every element only once.
+3. Given a sorted integer array, print all elements that appear only once in array. The given array may contain duplicates and the output should print every element only once.
+Solution for both problems required space complexity O(1) & time complexity O(n).
+4. Design a system which helps to calculate average Skype call duration per day. In which events are tracked from mobile app. Need to take care of all edge cases like events can be logged to server in any sequence & there can be some events missing on server side also.
+Second Round (1 hour)
+1. Project discussions like most challenging project, most interesting problem I worked upon.
+2. Search an element in a sorted and rotated array. Consider all edge cases.
+3. Design & Implement LRU cache with all cases.
+Final Round (1.5 hour)
+1. Past Experience based questions.
+2. The Celebrity Problem. https://www.geeksforgeeks.org/the-celebrity-problem/
+3. Search Word “Microsoft” in a 2D matrix of characters.
+4. There are n petrol bunks located in a circle. We have a car with mileage 1kmpl. The distances between petrol bunks and no of litres petrol available at each petrol bunk is given. Need to find the starting point such that car can visit entire circle.

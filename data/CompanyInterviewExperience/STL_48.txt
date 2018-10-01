@@ -1,0 +1,13 @@
+The exp2() is a builtin function in C++ STL that computes the base-2 exponential function of a given number. It can also be written as 2num.
+Syntax:
+Parameter:The function accepts a single mandatory parameter num which specifies the value of the exponent. It can be positive, negative or 0. The parameter can be of type double, float or long double.
+Return Value: It returns either a double, float or long double value which is equivalent to 2num.
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Program 3:
+Run on IDE
+Errors and Execptions: If the magnitude of the result is too large to be represented by a value of the return type, the function returns HUGE_VAL (or HUGE_VALF or HUGE_VALL) with the proper sign, and an overflow range error occurs. 
+Below program illustrate the error. 
+Run on IDE

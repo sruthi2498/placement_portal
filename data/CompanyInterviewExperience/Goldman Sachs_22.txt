@@ -1,0 +1,27 @@
+Round 1:Hackerrank Coding Contest 
+This round was fairly easy.The test included only one coding question, which was Given an array, count number of subarrays with zero sum.
+And remaining were mcqs based on binary search, dynamic programming and aptitude questions which included simple permutation based questions.
+Coding question is similar to the questionPrint all subarrays with sum zero
+Technical Round 1
+The interviewer was very cool he tried to make me feel comfortable by some casual talkings, then he asked questions related to projects which i mentioned in my cv.He was very much impressed by my project on machine learning based on sentiment analysis.Then he asked which is my favourite subject to which i replied data structures and algorithms.So he started asking questions from the same.
+1.Given an undirected connected graph find the maximum depth from a given source vertex. Similar Question here.
+2.Given a random array of 10 numbers, numbers were in some range you have to find a number not present in the array.He asked for the most optimal algorithm for the same.
+then interviewer asked if i had any questions. Similar Question : Missing number in range.
+Tip:Do ask questions from interviewer, it shows your interest in working with them.
+Technical Round 2
+The interviewer asked me if i know oops to which i replied yes, then she asked me all sort of questions related to
+it like what is static function, polymorphism, data abstraction and encapsulation and many more.
+Then we discussed my project based on database, she asked few questions related to it, i wrote few sql queries too.
+We had a long discussion on the project she was interested in every minute detail.
+Then she asked a coding question which was simple string manipulation
+Given a string X and Y ( containing a and b only)tell if Y can be obtained from X
+if only operations to be performed on X are
+1. Append a at the end
+2. Reverse the string X and append b at the end.
+I was asked to draw the recursion tree.and we discussed several approaches as well.The interviewer was continuously asking questions like what is my approach, what i am thinking.
+Then she asked a puzzle (puzzles are inevitable part of GS interviews)
+You are given 9 balls out of which 8 are of same weight and one is of lesser weight.You are given a weighing balance.You have to find the odd ball in minimum number of measures.
+After this round i was eliminated .
+
+Tip:In order to get selected try to score well in all rounds including online test. Almost every resource you want for interview preparation is available at GeeksForGeeks, use it to the fullest
+Go through the immense pool of MCQs given here they are more than sufficient. Go through the puzzles as well as they are definitely asked in GS interviews and solve all the company specific tests.

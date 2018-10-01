@@ -1,0 +1,22 @@
+Position : SDE BING TEAM
+1. Skype round :
+i)  Brief about agile software development process (as mentioned in my CV)
+ii) Detect whether the linked list is circular.
+iii) Check whether the number is a power of 2.
+iv) Check whether two trees are identical.
+v) Given an array which is first increasing and then decreasing, find the index where it changes from increasing to decreasing.
+2. F-F round 1 
+i) Find the LCA in a binary tree.
+I gave the recursive solution as given in geeksforgeeks. Then he asked to give a solution without recursion. Then on asking for hints he said something related to heights and some modification is allowed in tree. So i did it using the  parent pointer.
+3. F-F Round 2 
+i) Clone a linked list with a random pointer.
+ii) Given an array , find a subarray with the sum closest to zero (i gave O(nlogn) solution).
+The interviewer was very co-operative. He gave a lot of hints to optimize the solution.
+4. F-F Round 3
+i) Given two sets of strings A and B. Find the
+ (A-B) U (B-A) ( U = union ). The answer should be in lexicographical order and A’s elements should appear before B’s.
+5. F-F Round 4 
+i) He asked about my current project and since i am in android app development currently. So he asked questions like how many active users do u have.Whats the size of the app. Why such a big app?. How can u increase the usability?He wanted to check the ownership skills.
+Don’t ignore this round. Be prepared for such questions. Do ask for hints each time. The interviewer will guide you to the solution.
+Thanks a lot geeks for geeks
+

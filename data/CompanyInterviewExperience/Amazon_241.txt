@@ -1,0 +1,9 @@
+Given a Binary Tree find the length of the longest path which comprises of nodes with consecutive values in increasing order. Every node is considered as a path of length 1.
+Examples:
+We can solve above problem recursively. At each node we need information of its parent node, if current node has value one more than its parent node then it makes a consecutive path, at each node we will compare node’s value with its parent value and update the longest consecutive path accordingly.
+    For getting the value of parent node, we will pass the (node_value + 1) as an argument to the recursive method and compare the node value with this argument value, if satisfies, update the current length of consecutive path otherwise reinitialize current path length by 1.
+    Please see below code for better understanding : 
+Run on IDE
+Output:
+Also discussed on below link:
+Maximum Consecutive Increasing Path Length in Binary Tree

@@ -1,0 +1,38 @@
+Round 1:Written Test – 90 min
+It comprises of 15 questions mainly from the topic OOPs concept , Coding Question(Linked List, Binary tree , Array Manipulation) and Pointer.
+Q.1)Given a binary search tree and a given key node. Print all the node from root to the nearest leaf node containing the the key node.
+Q.2) Write a program to reverse the Singly Linked list
+Example:
+Initially – 1->2->3->4->5
+Finally – 5->4->3->2->1
+Q.3) Find the output of following code:
+Q.4)Find the ouput of following code:
+Q.5) Write a program to find the trailing zeros of factorial of a given number.
+Example:
+n = 12
+Output = 2
+Q.6) Find the output of following:
+Q.7)Find the output of following:
+Assume size of  member variable a,b,c be 6,4,4 respectively.
+Q.8) Find the output of following:
+Q.9) Write a program to find maxm sum of continuous subarray of  a array.
+Example:
+7
+3 4 -5 9 4 -12 2
+Output – 15
+Q.10) Find the ouput of following code:
+Output – Compile time error
+Q.11)Write a program to find the first non-repeating character from the stream of characters.
+Q.12)Write a program to put all zero elements before non-zero elements from a given array
+Example:
+2 0 3 4 0 0 1 0
+output – 0 0 0 0 2 3 4 1
+1 question from Multi-threading and other 2 are code-snippet , which I forgotten.
+Note – Try to solve all Coding questions with minimum time and space complexity.
+On the same day evening, the results were out and total 6 students out of 54 got selected for further rounds. Fortunately, I was one of them
+Round 2:Technical + HR Interview(Around 45 min)
+Then they asked some Hr Question-
+1) Tell me your family background.
+2) why should we hire you.
+ 
+The final result came after 5 days and out of 6, only 2 students got selected, I was one of them.

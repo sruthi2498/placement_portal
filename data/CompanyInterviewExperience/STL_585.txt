@@ -1,0 +1,7 @@
+Prerequisite – Vector Basics
+Following are some important points that can save time on little things in an interview or an important coding contest.
+Run on IDE
+The difference between these two statements is that the first statement has a space between the angular brackets ( > >). Writing without the space doesn’t work because >> is an operator in C++.
+Run on IDE
+Output : 
+In situations where we don’t actually need to have a copy of the vector, the declaration should be made as follows:

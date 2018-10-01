@@ -1,0 +1,25 @@
+There are two common ways to traverse a graph, BFS and DFS.  Considering a Tree (or Graph) of huge height and width, both BFS and DFS are not very efficient due to following reasons.
+
+IDDFS combines depth-first search’s space-efficiency and breadth-first search’s fast search (for nodes closer to root).
+How does IDDFS work?
+IDDFS calls DFS for different depths starting from an initial value.  In every call, DFS is restricted from going beyond given depth.  So basically we do DFS in a BFS fashion.
+Algorithm:
+An important thing to note is, we visit top level nodes multiple times. The last (or max depth) level is visited once, second last level is visited twice, and so on. It may seem expensive, but it turns out to be not so costly, since in a tree most of the nodes are in the bottom level. So it does not matter much if the upper levels are visited multiple times. 
+Below is implementation of above algorithm
+
+Run on IDE
+Run on IDE
+
+Illustration:
+There can be two cases-
+a) When the graph has no cycle:  This case is simple. We can DFS multiple times with different height limits.
+b) When the graph has cycles. This is interesting as there is no visited flag in IDDFS.
+
+
+Time Complexity: Suppose we have a tree having branching factor ‘b’ (number of children of each node), and its depth ‘d’, i.e., there are bd nodes.
+In an iterative deepening search, the nodes on the bottom level are expanded once, those on the next to bottom level are expanded twice, and so on, up to the root of the search tree, which is expanded d+1 times. So the total number of expansions in an iterative deepening search is-
+After evaluating the above expression, we find that asymptotically IDDFS takes the same time as that of DFS and BFS, but it is indeed slower than both of them as it has a higher constant factor in its time complexity expression.
+IDDFS is best suited for a complete infinite tree
+
+References:
+https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search

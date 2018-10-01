@@ -1,0 +1,95 @@
+Given a date and an array of integer containing the numbers of the cars traveling on that date(an integer), the task is to calculate the total fine collected based on the following rules:
+Examples:
+Approach: 
+Below is the implementation of above approach:
+
+Run on IDE
+// Java implementation to calculate
+// the total fine collected
+class GFG
+{
+// function to calculate
+// the total fine collected
+static int totFine(int car_num[], int n,
+                   int date, int fine)
+{
+int tot_fine = 0;
+// traverse the array elements
+for (int i = 0; i < n; i++)
+
+	// if both car no and date 
+	// are odd or both are even, 
+	// then statement evaluates to true
+	if (((car_num[i] ^ date) & 1) == 1)
+		tot_fine += fine;
+
+// required total fine
+return tot_fine;
+}
+
+// Driver Code
+public static void main(String[] args)
+{
+	int car_num[] = { 3, 4, 1, 2 };
+	int n = car_num.length;
+	int date = 15, fine = 250;
+
+	System.out.println(totFine(car_num, n, 
+	                           date, fine));
+}
+}
+
+// This code is contributed
+// by ChitraNayal
+
+
+
+[tabby title = "Python 3"]
+
+
+
+Run on IDE
+// C# implementation to calculate
+// the total fine collected
+using System;
+class GFG
+{
+// function to calculate the
+// total fine collected
+static int totFine(int[] car_num, int n,
+                   int date, int fine)
+{
+int tot_fine = 0;
+// traverse the array elements
+for (int i = 0; i < n; i++)
+
+	// if both car no and date 
+	// are odd or both are even, 
+	// then statement evaluates to true
+	if (((car_num[i] ^ date) & 1) == 1)
+		tot_fine += fine;
+
+// required total fine
+return tot_fine;
+}
+
+// Driver Code
+public static void Main()
+{
+	int[] car_num = { 3, 4, 1, 2 };
+	int n = car_num.Length;
+	int date = 15, fine = 250;
+
+	Console.Write(totFine(car_num, n, 
+                          date, fine));
+}
+}
+
+// This code is contributed 
+// by ChitraNayal
+
+
+[tabby title="PHP"]
+
+
+Source:https://www.geeksforgeeks.org/microsoft-interview-experience-for-internship/ 

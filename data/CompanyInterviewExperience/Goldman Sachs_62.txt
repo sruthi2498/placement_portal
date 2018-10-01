@@ -1,0 +1,24 @@
+I had an experience of 2.5 years and was interviewed at Bangalore office of Goldman Sachs.
+Round 1:
+After asking for a brief intro, the interviewer started by asking Java questions which were: OOPs concepts of Java, what is runtime polymorphism, overloading/overriding, how many collections you have used in java, how does Hashmap works, what is contract between equals and hashcode.
+Then, he asked a question on array: Given an int array, arrange the elements in increasing decreasing order i.e. one element bigger than a smaller element then bigger and so on.
+After I answered this question, he asked me a simple question that suppose 2 people are starting at some point in circle, first with speed of 4 and second with speed of 6, In how much time they’ll meet again. (Don’t know the motive behind asking so simple question. :P)
+Round 2:
+Here too, the interviewer started by asking java questions: What is difference between string, string buffer and string builder, what does final keyword do, when can final variable value be changed, what is classpath in java?
+After all these questions he gave me a design problem: Suppose you have to design an election campaign application. He gave a number of questions which for which we should provide some APIs for. The question were like: How many total constituency are there? Which all candidates are contesting? Which candidate represents which party? How many male/female candidates won and with how many votes?
+The class which I told him were: State, Constituency, Candidate, Party, Voter.
+Further I told him that state will have list of constituencies. Constituency will have list of male and female candidates. A party will have list of constituencies (where their candidates are contesting) and also list of all candidates. A candidate will have reference to constituency (in case he decides to contest from a different constituency next time) and a reference to party (same reason as above).
+Discussion happened on this design for some 20 minutes on various grounds. 
+Round 3:
+I was given a system with IDE on it and was asked to code a problem. Interviewer told me that you can write and run your own test cases and after one hour we’ll be running our test cases.
+Question: Given a remote having 0-9 digits, plus button (to increase channel), minus (to decrease) and previous channel button (to go to previous channel). We were given 2 numbers stating start and end channel number and an array having various channel numbers. The task was to go to all channel numbers given in array with minimum number of clicks. 
+Round 4: (Director’s round)
+To start with, he asked me thoroughly about my current work and what things I am working upon. We had discussion for around 30 minutes on my work exp.
+Then, he asked me to implement stack. I did it using an arraylist. Cross questioning on this happened for 10 minutes.
+After that he gave me a puzzle: Suppose you and me are playing a game on a round table and we both have infinite number of coins. The rules are as follows:
+•	It is a turn-based game, so you and me take turns alternatively (1 coin per turn)
+•	We have to place the coin on the table and coins cannot be put on top of each other.
+•	Coins may not be moved once put on the table.
+•	if there isn’t any room to put coins on the table, the person who placed the last possible coin wins.
+So if I give you the opportunity to go first, which move you’ll start with to ensure victory?
+After this, some discussion happened on GS and its workings. 

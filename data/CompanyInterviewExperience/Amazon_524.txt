@@ -1,0 +1,53 @@
+Amazon visited my college and offered me SDET-I position. GeeksforGeeks helped a real lot in my interview preparation. Thank you very much GeeksforGeeks!
+Here is my interview experience:
+Round 1  (On-line Coding Round on HackerRank):
+1.	Given an array of sorted integers which represent box sizes and an integer representing an item size
+    You have to find best fit box for the item (-1 in case of no box found)
+  For example:
+    Given 10,20,30,40,50,60,70  and 45
+      You have to print 50
+    Given 10,20,30,40,50,60,70  and 75
+      You have to print -1
+      Given 10,20,30,40,50,60,70  and 50
+    You have to print 50
+2.	https://www.geeksforgeeks.org/forums/topic/find-a-string-inside-a-2-dimensional-array/
+
+
+F2F 1:
+1. Given an array of integers
+you have to output sequence a1,a2,a3,a4,a5,a6,a7  such that a1a3a5a7
+    For example:
+    Given 10,20,30,40,50,60,70
+      You have to print 10, 30, 20, 50, 40, 70, 60
+At first, I gave answer using sorting. But my interviewer asked me to do this without sorting the input array, and I did it.
+2. A simple question on Tree data structure which i don’t remember.
+3. Questions related to my project.
+
+F2F 2:
+1. A matrix is given which is sorted row wise and column wise
+You have to print the sorted order.
+    For example:
+    Given
+       1 2 3 4 6 8
+       2 3 3 4 7 8
+       2 3 4 5 7 8
+       2 3 4 5 8 8
+       3 4 4 6 8 9
+       4 5 5 7 8 9
+    You have to print sorted order
+2. Questions related to my project during my internship.
+F2F 3: 
+1.What happens when we type amazon.com
+Relating  to this the interviewer asked me every step in detail including all 7 layers of networks.
+Protocols like: HTTP, HTTPS, DHCP, DNS, IMAP, POP, TCP, UDP etc. Their uses and differences.
+2. Describe ACID property of a transaction (DBMS).
+Bar Raiser(Telephonic):
+1.	Given a singly linked list, write a recursive method to reverse every 3 nodes in the list.
+He asked me to inform if I have seen the question.
+And I replied : Yes sir, it is the similar question I faced in coding round of Amazon-internship last year.
+But he didn’t changed the question.
+I solved it with a silly mistake which i corrected when mentioned.
+2.	Long discussion on my internship and about the projects I have worked on.
+3.	Tell about your criticism.
+4.	3 weaknesses currently i am working.
+

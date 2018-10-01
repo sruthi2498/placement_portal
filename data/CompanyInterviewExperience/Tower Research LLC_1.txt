@@ -1,0 +1,20 @@
+1. Brief explanation of a research project done in summers.
+2. Algorithmic:
+An infinite stream of numbers is given. The stream is stopped at an arbitrary point. Return any number of the stream read till now with equal probability, using O(1) space.
+3. Knowledge based:
+(It was determined whether the candidate has done a course on Data Structures and Algorithms.)
+A weighted, undirected graph is given, in which two vertices are specified. The objective to determine the shortest path between the two vertices. It was asked whether there exist any algorithms for this.
+(It was observed by the candidate that the Dijsktra’s algorithm is a suitable algorithm for this question.)
+The interviewer proceeded to demand a detailed explanation of the algorithm and the time complexity.
+4. Probability Theory:
+Given an array of size n, return the maximum element.
+(The candidate demonstrated an O(n) time algorithm, in which a variable stores the maximum value. The array is read serially, and the variable is updated whenever an element with a value greater than that of the variable is found.)
+An array of size n containing distinct numbers is given. The elements can be in any permutation with equal probability.
+In the O(n) algorithm for finding the maximum element explained above, the variable containing the maximum element is updated multiple times over the pass of the array. Find the expected value of the  total number of updations(changes) on the variable, over the pass of the array.
+5. Game Theory:
+A two-player game is described, in which each player can pick any number from 1 to 10 arbitrarily. The objective is to end at a position where you(a player) pick a number such that the sum of all the numbers picked by you and the opponent till that point(including the number picked at the end by you) is 50.
+Find a winning strategy, if it exists.
+The strategy should also include the information whether you play first or second.
+6. Mathematical Puzzle:
+Given a sphere, find the maximum number of points can be placed on the surface of the sphere such that all are equidistant from each other.
+Explain the solution.

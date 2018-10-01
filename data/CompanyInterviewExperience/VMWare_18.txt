@@ -1,0 +1,35 @@
+Round 1: ONLINE OBJECTIVE ROUND on HIREPRO platform
+This round comprised of 30 objective difficult and lengthy paragraph based aptitude questions to be solved in 45 min with no negative marking. Then there was a technical round which consisted of 50 objective questions (comprised mostly C++ output basically on operator precedence, OS concepts, DBMS, and networking) to be solved within 60 min with no negative marking.
+Out of 200 students, only 35 qualified for the next round.
+
+Round 2: ONLINE CODING ROUND on HIREPRO platform
+This round consisted of a single coding question to be solved within 60 min. No constraints and test cases were provided.
+Given a number n, print all primes smaller than n.
+https://www.geeksforgeeks.org/segmented-sieve/
+Given a number x, determine whether the given number is Armstrong number or not.
+https://www.geeksforgeeks.org/armstrong-numbers/
+Round 3: GROUP DISCUSSION ROUND
+This was not the usual GD round. It was new and different. The 35 students were given a case study. It consisted of a conversation between a client and a consultant over an inventory management system. We had to create an object/class model for the client.
+Out of 35 students, only 25 qualified for the next round.
+Round 4: TECHNICAL ROUND -1
+Q1: Given an API which consisted of three methods, create (), update (), delete () .and two users: X and Y, who can access all the three methods. Both users use the create () and delete () methods in the same way but update () is used by them in different ways. How will you implement this in OOPS?
+(Use interface or Abstract class)
+Q2: What is database hierarchy? How to implement hierarchy in database tables?
+Q3: Question on HTTP 1.1 request and response messages.
+Q4: Linux questions on find command, top utility
+Q5: MY project was on Big Data. Hence questions on that.
+
+Round 5: TECHNICAL ROUND – 2
+Q1: MY project was on Big Data. Hence questions on that. but the questions were deep and tough.
+Q2: Questions on JAVA (String Buffer class and its methods)
+Q3: OOPS concepts: POLYMORPHISM in detail
+Q4: OSI model in detail
+Q5: Design a stack that supports getMin() in O(1) time and O(1) extra space .
+https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+Q6: Reverse a linked list.https://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/
+Round 6: HR ROUND
+General easy questions asked in HR round.
+Basically the company preferred students who had done projects on BIG DATA and CLOUD.
+Took 7 from our campus.
+
+

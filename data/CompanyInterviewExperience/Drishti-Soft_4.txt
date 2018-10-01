@@ -1,0 +1,42 @@
+Drishti Soft Solutions Interview Experience (On Campus):
+Round 1: (3 hours)
+Section 1: 30 general Aptitude MCQ questions.
+Section 2: 2 coding questions, 1 Bugger question and 1 API design.
+1) Given 5 types of mirror
+1st reflects the light in left if light coming from top and visa-versa.
+2nd reflects the light in right if light coming from top and visa-versa.
+3rd reflects the light in right if light coming from bottom and visa-versa.
+4rd reflects the light in left if light coming from bottom and visa-versa.
+5th blocks the light.
+
+ 
+Input: Given matrix filled with 1, 2, 3, 4, 5(represents types of mirror) or 0 (represents dark area). Also given initial direction of incoming light (top, bottom, left or right).
+Output: Remaining darker area in the matrix.
+2) Evaluation of Infix expression. https://www.geeksforgeeks.org/expression-evaluation/
+Example: 2 + 3 * 4 = 14
+3) Bugger question: There was some logical error in the question given below just debug them.
+https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/
+4) APIs design (Module writing)
+All questions were to be attempted in C or JAVA. 21 were shortlisted from 200 students
+Round 2: (Bugger Round)
+All of us were provided with C/Java (option) code on PC’s.
+We were asked to understand and explain the algorithm of the code and then to find out the errors and correct them. Then interviewer ran his own test cases to check the code. The interviewer attended every one individually.
+Question was similar to the rat in a Maze problem.
+https://www.geeksforgeeks.org/backttracking-set-2-rat-in-a-maze/
+Tips: Take time and understand the code properly and cover all the test cases .Stick to the code and don’t change the complete code.
+13 students were shortlisted from this round.
+Round 3: (Design Round)
+This was the toughest round as it covered the practical implementation of concepts like packet data transfer from networking part, cryptography techniques.
+Problem Statement: There are two province Jaipur and Mewad both are communicating by messenger. The province Jabalpur is server which alters the message between the two provinces.
+We were given code of connection between sender and server and server and receiver. Firstly we were asked to understand and explain the given code .I told my approach and he seemed satisfied with it at once. Then I was asked to implement it and write a client program that checks the correctness of the message (messages received were either not in order or there was duplicity).
+This round lasted for about 3 hours. 6 among us were selected after this round.
+ 
+Round 4: (Project Round)
+First I was asked to explain my project. He went through it thoroughly. He also asked me to write a module of my project and find BUG in it. I gave him many approaches and he seemed satisfied at last.
+And he also switched in to the design round question in between and asked how you will communicate if there is no server between sender and receiver. Again my approach seemed good to him.
+The round went for around 2 hours. Finally 4 students were shortlisted after this round.
+Round 5: (HR Round)
+As I entered he asked if I have any question related to the company, the work it does. Since I had visited the company website before, I asked about the difference in the approaches for designing different product.
+The he asked me about educational and family background, strengths and weaknesses.
+Luckily there was no language barrier which helped me a lot. Most of my conversation went around in Hindi.
+Thanks G4G for making me thoughtful.

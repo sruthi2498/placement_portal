@@ -1,0 +1,12 @@
+The vector::emplace() is an STL in C++ which extends container by inserting new element at position. Reallocation happens only if there is a need of more space. Here the container size increases by one.
+Syntax:
+Parameter:
+The function accepts two mandatory parameters which are specified as below:
+Return value: The function returns an iterator which points to the newly inserted element.
+Below programs illustrates the above function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Program 3:
+Run on IDE

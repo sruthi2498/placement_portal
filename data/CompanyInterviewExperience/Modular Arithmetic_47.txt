@@ -1,0 +1,11 @@
+Given positive integers k, a and b we need to print last k digits of a^b ie.. pow(a, b).
+Examples:
+
+First Calculate a^b, then take last k digits by taking modulo with 10^k. Above solution fails when a^b is too large, as we can hold at most 2^64 -1 in C/C++.
+The efficient way is to keep only k digits after every multiplication. This idea is very simiar to discussed in Modular Exponentiation where we discussed a general way to find (a^b)%c, here in this case c is 10^k.
+Here is implementation.
+Run on IDE
+Run on IDE
+
+Time Complexity : O(log b)
+Space Complexity : O(1) 

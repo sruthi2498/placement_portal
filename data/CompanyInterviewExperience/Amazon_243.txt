@@ -1,0 +1,21 @@
+Recently Amazon came to our college for both FTE and interns. Here I am sharing my interview experience. There was 1 online round and 3 F2F interviews and 1 Bar Raiser round.
+Online round had 2 coding questions and 20 (MCQs based on sorting complexity, Recursion, quantitative aptitude , geometry etc).
+F2F 1
+He introduced himself and asked me about my project.
+Then He asked me these questions
+1. Find the maximum of all subarrays of size k.-https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/.
+I gave him a o(n*n) approach, then o(n*log(n)) approach using segment tree, then o(n*log(k)) using max heap and then o(n) approach using deque. He asked me to write the full production level code.
+2. Find the first non-zero digit starting from right in n! Simply keep the last digit of every multiplication, gave an o(n) approach. He seemed to be satisfied.
+F2F 2
+He asked the following questions
+1. He asked me to make a dictionary in which i had to search a string and if it is not present , i had to insert in dictionary. Gave a o(n*log(n)) approach using map. He asked to optimize it , then gave a trie approach. He asked me to write full code for it.
+2. He asked me, what is LRU cache and how it is implemented. Then he asked me to write the full production level code for it.
+F2F 3
+This interview was a design round as well as theoretical round.
+1. Firstly, he asked me about my favorite subjects. I told him operating system. Then he asked me about process scheduling algorithms and then he asked me how will you allocate memory to a newly formed file. I told him about first fit, best fit and worst fit. He asked me what are the advantages and disadvantages of these.
+2. Then he asked me a design question. Let’s say you have a 13 floor building and it has 6 lifts in it, you have to design an algorithm such that if a user click the lift button, any of the available lift should reach to him in minimal time.
+3. Then he asked to give the design for top k trends of twitter of facebook. I told him that i’ll keep a trie for storing the count of the number of users associated with a particular trend and will keep this count in max heap and will extract top k trends.
+Solution for design varies from candidate to candidate. so you should design your own solution rather than searching solution on google.
+F2F 4
+This was a Bar raiser round and it was telephonic. He asked about my project and we had discussion on it in detail . After 40 minutes he asked me to write the full production level code on implementing LRU using circular linked list. It was easy and i had done that in second round also, so i wrote the whole code and he was satisfied.
+verdict: selected 😛

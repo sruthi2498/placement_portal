@@ -1,0 +1,41 @@
+ 
+There are lot of differences, some of the major differences are:
+Access specifiers are used to define how the members (functions and variables) can be accessed outside the class.
+Do you know What happens when more restrictive access is given to a derived class method in C++?
+Class: Class is a blueprint of data and functions or methods. Class does not take any space.
+ Following are the differences between malloc() and operator new.
+free( ) is used on resources allocated by malloc( ), or calloc( ) in C
+Delete is used on resources allocated by new in C++
+C++ provides an inline functions to reduce the function call overhead. Inline function is a function that is expanded in line when it is called. When the inline function is called whole code of the inline function gets inserted or substituted at the point of inline function call. This substitution is performed by the C++ compiler at compile time. Inline function may increase efficiency if it is small.
+The syntax for defining the function inline is:
+inline return-type function-name(parameters)
+{
+// function code
+}
+Remember, inlining is only a request to the compiler, not a command. Compiler can ignore the request for inlining.
+A friend class can access private and protected members of other class in which it is declared as friend. It is sometimes useful to allow a particular class to access private members of other class. For example a LinkedList class may be allowed to access private members of Node.
+Friend Function Like friend class, a friend function can be given special grant to access private and protected members. A friend function can be:
+a) A method of another class
+b) A global function
+Important points about friend functions and classes:
+1) Friends should be used only for limited purpose. too many functions or external classes are declared as friends of a class with protected or private data, it lessens the value of encapsulation of separate classes in object-oriented programming.
+2) Friendship is not mutual. If a class A is friend of B, then B doesn’t become friend of A automatically.
+3) Friendship is not inherited (See this for more details)
+4) The concept of friends is not there in Java.
+Function overloading is a feature in C++ where two or more functions can have the same name but different type of parameters and  different number of parameters.
+Note: Overloading of functions with different return types are not allowed.
+Operating overloading allows us to  make operators to work for user defined classes. For example, we can overload an operator ‘+’ in a class like String so that we can concatenate two strings by just using +.
+Other example classes where arithmetic operators may be overloaded are Complex Number, Fractional Number, Big Integer, etc.
+A copy constructor is a member function which initializes an object using another object of the same class. A copy constructor has the following general function prototype: ClassName (const ClassName &old_obj);
+Point(int x1, int y1) { x = x1; y = y1; }
+// Copy constructor
+Point(const Point &p2) {x = p2.x; y = p2.y; }
+When is copy constructor called?
+In C++, a Copy Constructor may be called in following cases:
+Can we make copy constructor private?
+Yes, a copy constructor can be made private
+Different kinds of objects often have a certain amount in common with each other. Yet each also defines additional features that make them different. Object-oriented programming allows classes to inherit commonly used state and behavior from other classes
+Static is a keyword in C++ used to give special characteristics to an element. Static elements are allocated storage only once in a program lifetime in static storage area. And they have a scope till the program lifetime. Static Keyword can be used with following,
+Interesting facts about Static Members Functions  in C++
+Click here to read more interesting facts of C++
+Click here to practice “What is the output” based Questions?

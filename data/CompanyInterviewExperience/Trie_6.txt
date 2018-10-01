@@ -1,0 +1,18 @@
+Two arrays A and B consisting of N elements are given. The task is to compute the maximum possible XOR of every element in array A with array B.
+Examples:
+A naive approach to solve this problem would be to check every element of array A  with every other element of array B and print the maximum xor.
+Time Complexity : O(n^2)
+An efficient solution is to use Trie Data Structure.
+We maintain a Trie for the binary representation of all elements in array B.
+Now, for every element of A, we find the maximum xor in trie.
+Let’s say our number A[i] is {b1, b2…bn}, where b1, b2…bn are binary bits. We start from b1.
+Now for the xor to be maximum, we’ll try to make most significant bit 1 after performing
+the xor. So, if b1 is 0, we’ll need a 1 and vice versa. In the trie, we go to the required
+bit side. If favourable option is not there, we’ll go other side. Doing this all over,
+we’ll get the maximum XOR possible.
+Below is the C++ implementation
+Run on IDE
+Output:
+Trie formation : O(N x MAX_BITS) where MAX_BITS is maximum number of bits in binary representation of numbers.
+Calculating max bit difference : O(N x MAX_BITS)
+Time Complexity : O(N x MAX_BITS)

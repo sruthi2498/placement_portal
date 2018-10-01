@@ -1,0 +1,63 @@
+Given a number N, find the maximum number of unique prime factors any number can have in range [1, N].
+Examples: 
+
+Method 1 (brute force):
+For each integer from 1 to N, find the number of prime factor of each integer and find the number of maximum unique prime factors.
+Method 2 (Better Approach):
+Use sieve method to count number of prime factor of each number less than N. And find the minimum number having maximum count.
+Below is the implementation of this approach:
+
+Run on IDE
+
+Method 3 (efficient approach):
+Generate all prime number before N using Sieve. Now, multiply consecutive prime numbers (starting from first prime number) one after another until the product is less than N. The idea is based on simple fact that the first set of prime numbers can cause maximum unique prime factors.
+Below is the implementation of this approach:
+
+Run on IDE
+// Java program to find maximum
+// number of prime factors in
+// first N natural numbers
+class GFG
+{
+// Return maximum number
+// of prime factors for
+// any number in [1, N]
+static int maxPrimefactorNum(int N)
+{
+	if (N < 2)
+		return 0;
+
+	// Based on Sieve of Eratosthenes
+	// https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+	boolean[] arr = new boolean[N + 1];
+	int prod = 1, res = 0;
+	for (int p = 2; p * p <= N; p++)
+	{
+		// If p is prime
+		if (arr[p] == false)
+		{
+			for (int i = p * 2; 
+			         i <= N; i += p)
+				arr[i] = true;
+
+			// We simply multiply first set
+			// of prime numbers while the
+			// product is smaller than N.
+			prod *= p;
+			if (prod > N)
+				return res;
+			res++;
+		}
+	}
+	return res;
+}
+// Driver Code
+public static void main(String[] args)
+{
+	int N = 500;
+	System.out.println(maxPrimefactorNum(N));
+}
+}
+// This code is contributed by mits
+Run on IDE
+

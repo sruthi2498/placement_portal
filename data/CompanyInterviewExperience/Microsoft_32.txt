@@ -1,0 +1,36 @@
+Microsoft IDC visited our campus(IIEST Shibpur) on 24th July, 2018 for on campus hiring.
+Round 1: Coding Round
+1)Find the first non repeating element in the array
+https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+2) Find the next highest palindrome
+http://www.ardendertat.com/2011/12/01/programming-interview-questions-19-find-next-palindrome-number/
+3) Reorder a linked list
+https://www.interviewbit.com/problems/reorder-list/
+Out of 170, 41 were shortlisted for round 2
+Round 2: Written Test
+
+It was a pen and paper round. We were asked to write the brute force as well as optimal solutions in paper.
+https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+2)     Count all the paths from top left to bottom right of a matrix given that you can move only in two directions, right and down.
+https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+12 people were selected for the next rounds
+ 
+Round 3: Technical Round Phase 1
+
+1)Asked some questions from my resume regarding my projects and internships.  And what are my favourite topics in data structures and algorithms.
+2)Asked me to explain the two questions that I had solved in the previous round.
+3) Which data structures would you use to design a parking lot system? He gave me ten minutes to design it’s blueprint and write the code as well.
+I came up with a DS involving hashmap to store <car no, slot no> and priority queue which keeps the list of empty slot nos. Each time a car enters, the top of the priority queue is assigned to the car and the slot no is removed from the PQ. Each time a car leaves the value corresponding to the car no(i.e the slot no) is searched, inserted into the PQ and the map pair is removed.
+This followed by a number of questions revolving around that DS like what additional features i would add so that a data structure of this kind  works in India.
+4)Testing: I give you a pen. How will you test it? He gave me 5 minutes to write down whatever i would do to test that pen.
+5) What is inheritance? Give an application level example of inheritance.
+6) Explain stacks, queues and linked lists with application level examples of each.
+7) Any questions for me? I asked many. How has been your experience in Microsoft? How many students have you interviewed? Do you like interviewing ? What are the qualities of a desired candidate?
+Round 4: Technical Round Phase 2
+
+Round 5: Techno- Management Round
+This round consisted of one technical question. Apart from that I was asked a lot of questions related to my resume, my interests, my passion, my family, what i want out of a career, my projects and many other things.
+1) How will you find out a no is positive or negative without using >0 or <0?
+I told him we can do that using bit manipulation. Find the leftmost bit and check if it’s 1, if yes then it will be negative. Was then asked to write the code in paper.
+Overall, this was like a casual conversation.
+After ten minutes I was informed that I am hired. I couldn’t believe my ears. Words fall short for what I felt at that moment. Total 5 students were selected from our college( Indian Institute of Engineering Science and Technology, Shibpur)

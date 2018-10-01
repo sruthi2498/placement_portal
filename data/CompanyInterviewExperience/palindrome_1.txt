@@ -1,0 +1,11 @@
+Given a number N containing even number of digits. The task is to check whether that number is palindrome or not.
+Examples:
+A Naive Approach is to traverse from front and back of that number and stop where they do not match.
+An Efficient Approach is to use the below fact:
+Palindrome Number having even number of digits is always divisible by 11.
+Suppose the number is d1 d2 d3 d4…dn, whered1, d2, d3.. are digits of a number. If it is a palindrome then d1 =  dn, d2 = dn-1, d3 = dn-2…..and so on. Now since divisibility of 11 states that the difference of sum of alternate digits of a number should be zero and same in the case of palindrome having even no. of digits i.e.
+d1 + d3 + …+ dn-1 = d2 + d4 + d6 + … + dn 
+So, a palindromic number having even number of digits is always divisible by 11.
+Run on IDE
+Run on IDE
+Run on IDE

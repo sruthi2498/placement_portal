@@ -1,0 +1,37 @@
+Brief intro
+Discussion about Projects and work ex.
+Why are you using aerospike?
+Given a matrix sorted only row-wise, search a number in it. (Complexity O(log(m+n))).
+Brief intro
+Discussion about project
+Why are you using aerospike?
+Design a hashmap.
+Relationship between equals() and hashcode().
+Find a loop in linked list
+Given a string, print it in reverse order word by word. E.g. “Name is XYZ” -> “XYZ is Name”. First without any java function, then with built in java functions.
+Given a file, read it line by line, and print occurrences of each word in a line.
+Difference between StringBuilder and StringBuffer.
+Design a singleton class. Then make it thread safe. Then improve its performance by double checked locking.
+What is volatile.
+Brief intro
+Discussion about project
+Why are you using aerospike?
+Given a very long array of numbers, segregate it by odd and even placed numbers such that all the even placed numbers are in front and all the odd placed numbers after that. Space complexity should be constant and order must be maintained. Eg. 1,2,3,4,5,6,7,8,9 -> 2,4,6,8,1,3,5,7,9
+Design of hashmap. What is its worst case complexity? How can you improve the worst case complexity of hashmap?
+Write a bug-free code for BST insertion. Write bug-free code to balance it.
+Brief intro
+Discussion about project
+What is aerospike XDR?
+How will you make a list unmodifiable? Eg List list = {1,2,3,4,5}. Now list cannot add or remove any element.
+Write code for an enum. How will you get ordinality for an enum? How can your enum A extends some class B?
+Difference between List<?> and List<Object>
+List<?> list1 = new ArrayList<?>();
+List<Object> list2 = new ArrayList<Object>();
+List<String> list3 = new ArrayList<String>();
+List1 = list3;
+List1 = (List<String>)list2;
+What will be its output?
+Design a hashmap.
+Relationship between equals() and hashcode().
+ 
+ 

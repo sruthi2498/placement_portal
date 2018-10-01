@@ -1,0 +1,15 @@
+Given N positions, the task is to count the total number of ways to place X and Y such that no two X are together. 
+Examples:
+Approach:
+For N = 1, X and Y are 2 possible ways.
+For N = 2, XY, YX and YY are the 3 possible ways.
+For N = 3, XYX, YYX, YXY, XYY and YYY are 5 possible ways.
+For N = 4, XYXY, XYYX, YXYX, YYYX, YYXY, YXYY, XYYY and YYYY are 8 possible ways.
+On solving for values of N, a Fibonacci pattern series is observed.
+Below is the iterative implementation of the above approach: 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N)

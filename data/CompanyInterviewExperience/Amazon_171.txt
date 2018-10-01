@@ -1,0 +1,12 @@
+1) Online test with MCQs on OS, DBMS, basic algo ds.
+Coding problem: https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+2) Telephonic Round 1
+Find height of a binary tree.
+Find height of a binary tree when the leaf nodes are connected to each other via a circular doubly linked list.
+Balanced parenthesis no stack solution and with stack solution. And minimum number of flips to make bracket sequence as balanced
+3) Telephonic Round 2
+Sum of values in any submatrix for a given matrix.
+Maximum sum path in a given binary tree. There may be negative values in the tree. Path can start and end anywhere.
+Given transactions between group of friends. How to minimize the number of transactions by eliminating redundant cash flow paths? Suggest data structure and solve.
+
+

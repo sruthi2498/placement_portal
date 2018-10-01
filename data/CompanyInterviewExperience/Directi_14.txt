@@ -1,0 +1,28 @@
+Directi came to our college to hire Software Developers. They came for 2 positions: Application Engineer and Platform Engineer.
+Coding Round
+This round was on Codechef platform. There were 3 questions to be solved in 90 minutes. There were 2 slots. Here are the questions of first slot:
+1) Given a binary tree in the form of array such that 1st element is root. For a node i, 2*i is left child and 2*i+1 is right child if they exist, considering 1-based indexing. Now each node has a value, ith node has value A[i]. You need to tell max sum path between any 2 leaf nodes.
+2) Standard 0/1 knapsack problem.
+3) You are given n cakes out of which all are same except one which is either heavier or lighter than all other cakes. There is a weight balance. You can keep equal number of cakes on both side of balance and find out which side is heavier, lighter or both sides have equal weight. Note that both sides have equal number of cakes and it is not possible for 2 cakes to be present on both the sides. You are given number of cakes(say n) and q queries each describing number of cakes on either side, cakes on left side, cakes on right side, and character representing balance which can be “=”, “>” or ”
+means (1, 4, 2)>(3, 5, 6).
+Given these queries you need to find the defected cake. If it is not possible to find the defective cake, output -1.
+I solved all the questions and was called for the interview process.
+
+Round 1 (Technical Interview)
+You are given 2 strings of parenthesis. You need to make another string using these 2 strings such that in the resulting string, all the parenthesis are balanced. Ordering of parenthesis must not change, e.g. if u take 2 characters/parenthesis from 1st string, then order of these parenthesis must not change in resulting string. You need to tell number of balanced strings you can make. Examples:
+))
+((
+ans:2, you can make ()() and (())
+Expected Time Complexity: O(n*m) where n and m are length of strings.
+Round 2 (Technical Interview)
+You are given a table with n legs. Each leg has a length. You can remove some of the legs, such that after removing some of the legs, you have m legs in total and if maxlen is length of leg with maximum length, then atleast m/2 legs should have a length of maxlen. You have been given cost to remove each leg. ith leg has a cost of C[i] associated with it and has length of L[i]. You need to minimize the total cost of removing the legs.
+Expected Time Complexity: O(n*logn). Note that you can give amortized solution. It was a really good question and interviewer helped me a lot to solve this one.
+Round 3 (Skype + technical)
+Some of the students had one more round before the skype round. You needed to clear 2 interviews out of 3. I cleared my first 2 rounds, so didn’t have a 3rd round. This round was by far the toughest for me.
+First he asked me about my projects. Then he asked questions related to my project. He asked how will u implement a chatting application, if there’s no server to store your messages.
+Then he asked questions about DBMS. He asked how can we perform fast retrieval of data. I told him indexing. Then he asked what data structures can be used. I told him various approaches using arrays, bst, B-trees. He asked how B-trees are better than bst for indexing.
+Then he asked, given 2 github files, one before commit and one after the commit, u need to tell the differences between those files like insertions and deletions. Give an algorithm for the same.
+That’s how my interview ended. 
+
+
+

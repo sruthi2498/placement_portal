@@ -1,0 +1,22 @@
+Given a positive integer n. The problem is to find the sum of the given series 1 + (1+2) + (1+2+3) + (1+2+3+4) + …… + (1+2+3+4+…+n), where i-th term in the series is the sum of first i odd natural numbers.
+Examples:
+
+Naive Approach: Using two loops get the sum of each i-th term and then add those sum to the final sum.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Efficient Approach:
+Let an be the n-th term of the given series.
+Refer this post for the proof of above formula.
+Now,
+
+Refer this post for the proof of above formula.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

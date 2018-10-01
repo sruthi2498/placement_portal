@@ -1,0 +1,15 @@
+Given a set of elements, find which permutation of these elements would result in worst case of Merge Sort?
+Asymptotically, merge sort always takes ?(n Log n) time, but the cases that require more comparisons generally take more time in practice. We basically need to find a permutation of input elements that would lead to maximum number of comparisons when sorted using a typical Merge Sort algorithm.
+Example:
+Now how to get worst case input for merge sort for an input set?
+Lets us try to build the array in bottom up manner
+Let the sorted array be {1,2,3,4,5,6,7,8}.
+In order to generate the worst case of merge sort, the merge operation that resulted in above sorted array should result in maximum comparisons. In order to do so, the left and right sub-array involved in merge operation should store alternate elements of sorted array. i.e. left sub-array should be {1,3,5,7} and right sub-array should be {2,4,6,8}. Now every element of array will be compared at-least once and that will result in maximum comparisons. We apply the same logic for left and right sub-array as well. For array {1,3,5,7}, the worst case will be when its left and right sub-array are {1,5} and {3,7} respectively and for array {2,4,6,8} the worst case will occur for {2,4} and {6,8}.
+Complete Algorithm –
+GenerateWorstCase(arr[])
+Below is  implementation of the idea
+Run on IDE
+Run on IDE
+Run on IDE
+
+References – Stack Overflow

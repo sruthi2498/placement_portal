@@ -1,0 +1,11 @@
+bitset::set() is a built-in STL in C++ which sets the bit to a given value at a particular index. If no parameter is passed, it sets all bits to 1. If only a single parameter is passed, it sets the bit at that particular index to 1. 
+Syntax: 
+Parameter: The function accepts two parameters which are described below: 
+If no parameter is passed, it sets all bits to 1. If only a single parameter is passed, it sets the bit at that index.
+ 
+Return Value: The function does not return anything.
+Below programs illustrates the bitset::set() function. 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

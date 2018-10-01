@@ -1,0 +1,55 @@
+I received a call from recruiting consultancy regarding a vacancy for C++ profile in Amadeus. The profile was quite interesting. After a week I received a call from Amadeus regarding schedule of the interview. 1st and 2nd rounds were scheduled on a Saturday at 12 PM. As I reached the reception area at Etamin B block of Prestige Tech Park 2 Marathhalli, Bangalore, they asked me to wait for the interview and it started after a while.
+Round 1:
+This was a technical round. The interviewer was testing the Current project, Current domain, basic C++ and logical reasoning skills. This took about 40 minutes.
+1. What is your day to day routine work ?
+2. C++ inheritance. How it works ? What is Vtable and Vptr ?
+If there is a class hierarchy as below, when are the vtable and vptr created ?
+Class A
+Class B Public A
+Class C Public B
+3. There are 3 wending machines, coffee, Tea, Random. The attender has mistakenly misplaced the labels of the machines.
+How do you correct the labels with least attempts ? Where do you start ?
+4. I have a ball and a bat. The total cost of both is Rs 110. The difference amount is Rs 100. What is the cost of individual items ?
+5. What are the design patterns used in your current project ? Why ? Examples ? And some related questions.
+Round 2:
+This was another technical round. The interviewer was testing the core C++ skills and practical knowledge. This took about 40 minutes.
+1. Draw a diagram and explain me an architecture. Explain its components and how it works. You can take any examples from your current project.
+2. C++ 11 knowledge. What is a Smart pointer ? Why is it used ?
+3. Design patterns. Similar to round 1. Give examples of multiple design patterns and its usage.
+4. Singleton design pattern. How can you control someone mistakenly instantiating the class ? What is the difference between global and singleton ?
+5. Virtual Destructors. Why are they used ? Can you have Virtual constructors ?
+6.If you have a function as below, will it work ? Some questions related to reference objects.
+int &multiply(int n)
+{
+int x=2;
+x = n * x;
+return x;
+}
+7. Some questions about current project.
+After a week, I got a call saying I have cleared the first 2 rounds and selected for Director round.
+Round 3:
+This was the director round interview. I reached a bit late due to heavy traffic that day. But the director was very patient and spoke nicely.
+The questions were mainly related to current project and expectations(theirs + ours). It took about 30 minutes.
+1. Introduce yourself.
+2. Since how long you are working in current project ? why ?
+3. Can you tell me your goals ?
+4. What are the roles of an architect ? Can you explain in detail.
+5. Can you explain the module you worked and any challenges you faced.
+6. Did you interact with remote teams ? like core team being abroad and working with them ?
+7. What is your salary expectation?
+8. What is the reason for changing the job ?
+9. Current domain related. How multiple components interact. Draw sample diagram and explain.
+After 3rd round I was asked to wait for their communication. I waited for around 3 days and received a call saying I have cleared all the 3 rounds and next will be the HR round.
+Round 4
+This was the HR round and had typical HR questions + some attitude related questions. It was a telephonic interview scheduled on an afternoon. The HR interviewer was typing my answers during the interview and hence it took around 1 hour.
+1. Introduction
+2. Resume related. Why I changed from my first company to my current company ? etc.
+3. Academic scores.
+4. Challenges faced during current project.
+5. Roles handled in current project.
+6. Salary expectations.
+7. Future aspirations.
+8. Personal information like DOB, etc.
+Completed the interview and waited for about 1 week to hear from them. Later I inquired with the hiring team in charge. They informed me that its in process. I waited for another 1 week. Still did not hear from them and I was bit suspicious. Another week gone. After about 20 days of HR interview I was happy to receive the offer letter.
+Overall interview experience was good.
+All the best.

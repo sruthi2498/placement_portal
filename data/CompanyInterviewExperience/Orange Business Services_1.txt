@@ -1,0 +1,28 @@
+Round 1: Online Test – Codility Round
+Test Duration : 90 mins
+The first round comprised of 30 questions mostly on Java in which 27 were MCQ’s and 3 were subjective coding question for which no editor was given. You have to write code on simple text file.
+Try to spend more time in coding questions.
+There were many  questions on exception handling,
+MCQ :
+Is object a data type?
+Difference between run time and compile time?
+What is javap?
+Is x=+1 incrementing x by 1?
+Can we give class as argument to another class?
+Coding :
+Q-1 You are given an array of integers with value 0-9, you have to sort array in ascending order according to dictionary values like 1 is one, 2 is two and so on.
+Q-2 Given an array of integers, return max frequency of an element, if more than one element has same max frequency, then return -1.
+Q-3 Implement Stack using Array
+Round 2: Technical Interview
+First asked me to introduce myself, what kind of project I’m doing in my company.
+1 : Calculate kth element from the end in a linked list in O(n) time.
+2 : Given a tree/linked list with each root node having two nodes. Delete all the nodes in the right and append it to the last.
+3 : Fibonacci series in minimum complexity. — used memoization by taking array of size n but he asked to further reduce the complexity. He then said we can do it by taking array of size only 2.
+4 : Design pattern like Singleton, decorator etc.
+5 : SOLID principles in java.
+6 : How hash map works in java, inside implementation.
+7 : How to make process thread safe in java.
+8 : Which to prefer, interface or abstraction. They were not looking for any definition or property, they needed proper explanation.
+Round 3: Online Coding Game
+This is a coding game with mixed questions like MCQ’s and subjective, but limited time is given to do each question. For subjective questions, you have to pass all the test-cases.
+

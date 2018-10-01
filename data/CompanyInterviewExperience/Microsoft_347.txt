@@ -1,0 +1,33 @@
+I am Amit Dhaka. Following is my experience of MS IDC intern interview.
+Date of Written: 9th September, 2012.
+Date of Interview: 15 October, 2012.
+No. of Rounds: 2 online exams + 4 rounds of PI
+Type of Interview: Campus Interview.
+1st Online Test: Time 1/2 hour
+10 MCQs on basic Mathematical and Logical problems (mostly on P&C) and 5 MCQs on C programming. 
+2nd Online Test: Time 1 hour
+3 programs were to be written.
+1. Given a no. in in form of base 4, you have to convert into base 2. The no. is given as a String. Do it in place.
+2. Given a sorted circular linked list. You have to insert an element in it.
+3. Two BST’s are given. You have to print common nodes that are present in both of them.
+Interview Round 1: Time 40-50 minutes.
+1. Given a string, you have remove duplicates from it in O(n) time and O(1) space.
+String can have ASCII characters. Try to use minimum extra space.
+2. Given a binary tree, check if it is balanced or not.
+Interview Round 2: Time 25-30 minutes.
+1. Given two sorted arrays you have to merge them into single array.
+2. Given an array, find all the pairs of elements whose sum is k.
+3. Given an array, find a sub-array in which all pairs have their sum greater than k.
+Interview Round 3: Time 30-40 minutes.
+I was asked to tell something about myself. I spoke only a minute then he started asking problems.
+1. Given an array, find the maximum contiguous sub-array with the maximum sum.
+My query was can the array have negative values. He said yes.
+2. Given two BST’s, find the least common ancestor.
+3. Traverse a binary tree in a Zig-Zag order.
+Interview Round 4: Time 30-40 minutes.
+First he asked me if I have any queries for him. I asked 3 questions as asking questions is a good gesture. You can ask that what kind of work will you be getting. Then he started with the problems.
+1. Given a sorted array and it has been rotated unknown times. You have to find minimum element of the array. I did in O(log n).
+2. He asked about the test cases for spell checker of MS Word.
+Then he asked questions related to my resume. My advice will be that you don’t write anything by which you can be doubted. Be confident about what you have done. If there is one thing you are good at then it is enough.
+I was lucky, and got the intern!!
+

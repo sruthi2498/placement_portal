@@ -1,0 +1,43 @@
+Online Round :(Duration – 90 minutes)
+20 MCQs to solve and 2 coding questions. 20MCQs were on Algorithms,Data Structures, C Output, Quantitative Aptitude, etc.
+Coding questions were of 10 marks each.
+MCQ’s had negative marking.
+Correct : +1
+Wrong  : -0.25
+Q1– Given an array of numbers, arrange them in an alternate fashion such that every number is followed by a number of opposite sign. Also the order was to be maintained.  If the count of negative numbers is more keep the extra at last in array and same for positive numbers. 
+Q2– String of characters as arranged in a cellphone i.e.
+1- NULL
+2-a,b,c
+3-d,e,f
+4-g,h,i
+.
+.
+.
+9-w,x,y,z
+0-NULL
+Print all combinations for given number of digits(k) in lexicographical order .
+Constraint : 1<=k<4
+For Example : Input = 234
+Output : adg adh adi aeg aeh aei afg afh afi bdg bdh bdi beg beh bei bfg bfh bfi cdg cdh cdi ceg che dei cfg cfh cfi
+Round 1 F2F :(Duration – 1 hr)
+Introduce Yourself.
+Q1– Design a shuffle function which would play songs randomly in your device (unique song_id) and code it.
+After i gave him a solution with hash function , he asked me to improve the algorithm such that once a song is played it should be played only when all the other songs are played,
+Solution’s Complexity : Space – O(n) , Time – O(1)  ;  n—> number of songs
+After that he asked me to improve my solution and do it without using extra space.
+Solution’s Complexity : Space – O(1) , Time – O(n) ; n—>number of songs
+Hint : Maintain indices and once a song is played shift it in range of played songs index.
+After that i was asked about each part of the hash function and how i came up with that.
+Q2– Add two linked lists. And code it. 
+First he asked to do it without recursion and then with recursion.We also talked about the problem we face if we store the value of the linked list in an integer or long if the number of digits were above certain limits in the non-recursive function.
+Round 2 F2F :(Duration – 1 hr)
+Introduce Yourself.
+Q1 – Find the largest subtree which is binary search tree in a given Binary Tree. Then to optimise it and then asked me to code it.
+Q2 – Given a linked list with a next pointer and an arbitrary pointer pointing to any node in the list , copy the linked list.
+After i gave him a solution which changed the links of the initial linked list, he asked me to do without changing the links.
+So i gave him a O(n^2) solution . He asked me to give another way or optimise my solution.He helped me to figure out the solution.
+Hint – Hash map.
+The interviewers were really helping and supporting and were more interested in seeing the efforts you make and the way you get to the logic.They help throughout by giving hints.
+Thank You geeksforgeeks for helping me out.
+Best of luck .
+

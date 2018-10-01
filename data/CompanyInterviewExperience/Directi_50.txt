@@ -1,0 +1,23 @@
+There was 1 online coding round, followed by interviews.
+Online coding round was on Codechef.
+1st question Sandeep and Pali want to go on holiday. Their parents have given them a list of cities they can visit. A list may contain a city more than once. Both of them want to go to places of their parents choice. As they want to travel together, they have to agree upon a common route. No one wants to change the order of the cities on his list or add other cities. Therefore they have no choice but to remove some cities from the list. Of course the common route is to involve as much sight-seeing in cities as possible. There are exactly 26 cities in the region. Therefore they are encoded on the lists as lower case letters from ’a’ to ’z’.
+Input:
+1
+abcabcaa
+acbacba
+Output:
+5
+[question is similar to LCS ]
+Interview Round 1
+He asked me two questions 
+1. You are given two array, first array contain integer which represent heights of persons and second array contain how many persons in front of him are standing who are greater than him in term of height and forming a queue. Ex
+A: 3 2 1
+B: 0 1 1
+It means in front of person of height 3 there is no person standing, person of height 2 there is one person in front of him who has greater height then he, similar to person of height 1. Your task to arrange them
+Ouput should be.
+3 1 2
+2. Your are given an array of integers and an integer k of window size, you need to find minimum value in this window.
+Ex. A: 1 2 3 4 5 6 and k = 3
+Then output will be: 1 2 3 4
+This question is similar to Maximum of all subarrays of size k
+Run on IDE

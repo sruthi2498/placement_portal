@@ -1,0 +1,26 @@
+Microsoft visited our Campus recently for IDC as well as IT Profiles. 
+Round 1 (MCQ):
+It was an Online MCQ Round. There were 15 Questions in all. Time Duration was 30 Minutes. The Questions were mainly focused on C, C++ and JAVA. Only 1 Aptitude Question was there. There were different sets for different students.
+Around 60-65 students were shortlisted.
+Round 2 (Online Coding):
+Round 2 was held on the same day. It was Online Coding Round. There were 2 Problems.
+1. Given a Binary Tree. Create a Linked List of all the Leaf Nodes of the Tree using the Right Pointer of the Tree Node as the Next Pointer of the Linked List Node. Return the Head Pointer of the Linked List. We were not supposed to use any extra memory.
+2. Given an array of Numbers and an integer K. Find the total number of Distinct Elements in the contiguous sub-arrays of size K each.
+13 were shortlisted after this Round for the Interviews. While some 25-26 were shortlisted for an additional GROUP FLY Round. I was selected directly for the Interviews.
+Round 3 (Group Fly Round):
+I was selected directly for the Interviews from Round 2.
+Round 4 (Technical Interview 1):
+The Interviewer was quite friendly. He tried to make the environment comfortable for me. This round went on for around 1 hour and 40 minutes.
+1. Tell me something about yourself.
+2. Given a Binary Tree. Find the maximum width of the Tree. I told him that I will use Level Order Traversal approach, keeping the track of the level. He asked me to think of another approach. So I told him that I will store the Tree Data in an Array and the Left View of the Tree in another Array. After this, I will count the number of members between the two consecutive elements of the Left View Array. Then he moved on to the next question.
+Round 5 (Technical Interview 2):
+I was called for the Second Interview after half an hour. The Interviewer was quite friendly again.
+1. She asked me to explain my Project. We had a long discussion on the Project.
+2. Given an n-digit Number and a number k. You have to remove ‘k’ digits from the Number and give the shortest number from the remaining ‘n-k’ digits such that the sequence of digits remains same. For example, if the number is 637824 and k = 3. So you have to remove 3 digits from the given number. The number formed from the remaining digits should be the smallest possible and the sequence of digits must not be changed. So the output should be 324. I gave her an approach. But it failed. Then I used Dynamic Programming for this (Longest Bitonic Subsequence Concept).This Interview went on for 2 Hours and 15 Minutes approx.
+Round 6 (HR Interview 1):
+I was called within 2 minutes of my last interview for this Round. He asked me in which Programming Language I am comfortable. I said C. So he asked me a very basic question on Preprocessors. I told him the answer. But he told me that it is wrong. Basically, he was trying to check my confidence. But I remained with my answer and explained him how I got it. He smiled.
+Then he asked me a question to check my Problem Solving ability. Given a soft copy of a Dictionary. You have to print all the unique subsets of the Anagrams together. Unique means that {eat, tea, ate} should appear only once. I gave him many approaches but he wanted the approach from a layman point of view. We discussed on this single question for 50-55 minutes. Then he gave me the statement ‘I am not very happy with your Problem Solving Ability’. But that was just to make me feel nervous.
+Then he asked me the 3 Switch 3 Bulb Puzzle. I answered it. Then he asked me the Preferred Profile – IT or IDC. We had a discussion on this.
+PS: Be honest with the Interviewer. Be open and ask questions.
+ 
+

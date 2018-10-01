@@ -1,0 +1,15 @@
+Many inbuilt functions in C++ return the pointers to the position in memory which gives an address of desired number, but has no relation with the actual index in container of the computed value. For eg. to find maximum element in a code, we use std::max_element(), which returns the address in memory, not the index of the desired element. 
+Run on IDE
+Output:
+
+There is requirement for having ways to compute the exact index of the position of desired element in the specified container. These ways have been discussed in this article.
+
+In this method, we just subtract the beginning pointer of the container, in case of vectors its “begin()” iterator that points to the address of 1st element of the container, subtracting this we can get the exact index of the required value w.r.t the container.
+Run on IDE
+Output:
+
+
+Using distance() is also another alternative to compute the desired position, by passing the 1st iterator as first argument and the desired position as 2nd argument.
+Run on IDE
+Output:
+

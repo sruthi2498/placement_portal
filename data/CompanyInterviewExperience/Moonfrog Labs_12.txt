@@ -1,0 +1,14 @@
+Given a singly linked list, write a function to swap elements pairwise.  For example, if the linked list is 1->2->3->4->5 then the function should change it to 2->1->4->3->5, and if the linked list is 1->2->3->4->5->6 then the function should change it to 2->1->4->3->6->5. 
+METHOD 1 (Iterative) 
+Start from the head node and traverse the list. While traversing swap data of each node with its next node’s data.  
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n)
+METHOD 2 (Recursive)
+If there are 2 or more than 2 nodes in Linked List then swap the first two nodes and recursively call for rest of the list.
+Run on IDE
+Time complexity: O(n)
+The solution provided there swaps data of nodes. If data contains many fields, there will be many swap operations.  See this for an implementation that changes links rather than swapping data.
+Please write comments if you find any bug in above code/algorithm, or find other ways to solve the same problem.

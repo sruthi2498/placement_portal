@@ -1,0 +1,15 @@
+Given a string of lowercase characters, the task is to detect the family of string, where family of string is described as follows.
+Examples:
+
+Input : geeksforskeeg
+Output : ODD Palindrome
+Explanation: The string with characters at odd indices(following 1-based indexing) is ‘gesoseg‘, which is a palindrome, while the string formed by characters at even indices does not form a palindrome. Thus the given string is of ‘ODD‘ Family.
+Input : aibohobia
+Output : PARENT Palindrome
+Explanation: The string itself is a palindrome, thus falls under PARENT Family.
+
+Approach: Define 2 empty strings, oddString and evenString.
+Now, check for the following cases:
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE

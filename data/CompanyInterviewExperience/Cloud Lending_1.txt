@@ -1,0 +1,19 @@
+I attended an Interview with Cloud Lending at Bangalore. As they were having requirement in Salesforce so they asked me to have the interview in OOP and DS. Although, I am having 2.5 years of experience in C#.
+Round 1: Face to Face interview.
+1. Tell me about yourself.
+2. Rate yourself in DS and OOP and explain why?
+3. What the difference and similarity between Array and Linked List?
+4. Why we can do random access in Arrays?
+5. What are the data structures you have used in your project till now?
+6. What is hash table and where we can use them?
+7. How the hash table data saved internally in memory?
+7. What is time complexity and space complexity in how we calculate them for a algorithm?
+Then comes the coding question:
+Q 1. Write a program to find a smallest number in the Stack in O(1) time complexity.
+– I told her 2 to 3 solution to find the smallest number in O(n) time complexity but not in O(1)
+Q 2. Write a program to find the given number( let’s say n) in a tree given below and you need to construct the tree as well according to the number n.
+[ The tree root is no. 1. The child of the tree can be formed by adding either 3 or 5 in the parent node.]
+
+She asked me to improve the time complexity about the solution which I told her.
+Q 3. Lets say you have all the wiki pages. You need to take all the words present in those wiki pages and save in some data structure in the sorted order.
+Gave my best in this round but couldn’t clear it. 🙁

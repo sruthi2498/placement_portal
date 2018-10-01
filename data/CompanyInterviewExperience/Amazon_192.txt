@@ -1,0 +1,18 @@
+Round 1 – HackerEarth 2 questions (Online) 
+     1) Find the distance between 2 nodes in a BST(Binary Search Tree)
+     2) Given a graph, find the Topological Sort.
+Round 2 – Team Lead (F2F) 
+     system design to show the list of suggestion when a user is buying and item. Example: the user will buy a pencil and will see a list of other pencils, pens and erases.
+Behavioural questions,.  
+Round 3 – Senior or principal engineer(F2F) 
+      Almost same behavioural questions : Most challenging project, tell me one time where you did something without everyone knowing because you thought you could make it better, time you disagreed with your manager, hardest bug.
+   Given a log file containing {timestamp,begin/end,requestId} (the begin/end is a flag to identify when a request started and finished) define the peak of transaction running concurrently. 
+Round 4 – Manager (F2F)
+Lots of behavioural and prior project questions(almost the same again)
+Given an array, shuffle it(Sort it random). 
+Round 5 – Bar Raiser(F2F)
+Questions about decisions I made in prior project(lots of whys)
+Given a set o coordinates( double X and y) and an angle. Calculate the max of points that could fit inside the angle.
+          Approach: calculate the angle for each point this way we can have a simple list of angles and then iterate through them to see if the difference is equal or lower to the given angle and then count the max points group
+
+

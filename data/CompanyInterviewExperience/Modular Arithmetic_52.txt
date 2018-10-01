@@ -1,0 +1,9 @@
+Given an array of n integers. Find the maximum value of arr[i] mod arr[j] where arr[i] >= arr[j] and 1 <= i, j <= n 
+A Naive approach is to run two nested for loops and select the maximum of every possible pairs after taking modulo of them. Time complexity of this approach will be O(n2) which will not be sufficient for large value of n.
+An efficient approach (when elements are from small range) is to use sorting and binary search method. Firstly we will sort the array so that we would able to apply binary search on it. Since we need to maximize the value of arr[i] mod arr[j] so we  iterate through each x(such x divisible by arr[j]) in range from 2*arr[j] to M+arr[j], where M is Maximum value of sequence. For each value of x we need to find maximum value of arr[i] such that arr[i] < x.
+By doing this we would assure that we have chosen only those values of arr[i] that will give the maximum value of arr[i] mod arr[j]. After that we just need to repeat the above process for other values of arr[j] and update the answer by value a[i] mod arr[j]. For example:-
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(nlog(n) +  Mlog(M)) where n is total number of elements and M is maximum value of all the elements.
+Auxiliary space: O(1)

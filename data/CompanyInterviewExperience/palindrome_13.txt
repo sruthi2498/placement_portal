@@ -1,0 +1,15 @@
+Given a string, find the longest substring which is palindrome. For example, if the given string is “forgeeksskeegfor”, the output should be “geeksskeeg”.
+Prerequisite : Palindromic Tree | Longest Palindromic Substring
+Structure of Palindromic Tree :
+Palindromic Tree’s actual structure is close to directed graph. It is actually a merged structure of two Trees which share some common nodes(see the figure below for better understanding). Tree nodes store palindromic substrings of given string by storing their indices.
+This tree consists of two types of edges :
+1. Insertion edge (weighted edge)
+2. Maximum Palindromic Suffix (un-weighted)
+Insertion Edge :
+Insertion edge from a node u to v with some weight x means that the node v is formed by inserting x at the front and end of the string at u. As ‘u’ is already a palindrome, hence the resulting string at node v will also be a palindrome. x will be a single character for every edge. Therefore, a node can have max 26 insertion edges (considering lower letter string).
+Maximum Palindromic Suffix Edge :
+As the name itself indicates that for a node this edge will point to its Maximum Palindromic Suffix String node. We will not be considering the complete string itself as the Maximum Palindromic Suffix as this will make no sense(self loops). For simplicity purpose, we will call it as Suffix edge(by which we mean maximum suffix except the complete string). It is quite obvious that every node will have only 1 Suffix Edge as we will not store duplicate strings in the tree.
+We will create all the palindromic substrings and then return the last one we got, since that would be the longest palindromic substring so far.
+Since a Palindromic Tree stores the palindromes in order of arrival of a certain character, so the Longest will always be at the last index of our tree array.
+Below is the implementation of above approach :
+Run on IDE

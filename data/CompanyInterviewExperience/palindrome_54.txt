@@ -1,0 +1,9 @@
+Given a string, the task is to return the length of its longest possible chunked palindrome. It means a palindrome formed by substring in the case when it is not formed by characters of the string. For better understanding look at the example
+Examples:
+
+The entire idea is to create chunks from left and right and recursively.
+
+As you can see, we can match substring from left side chunck and match it with the exact right side chunk. Once we get a match, we recursively count the length of the longest possible chunked palindrome in the remaining string. We end the recursion once no string is left or when no more valid chunked parts can be found. 
+Run on IDE
+Output:
+Source: CareerCup

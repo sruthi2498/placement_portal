@@ -1,0 +1,78 @@
+Round 1: Written Test
+Duration: 75 minutes
+Around 250 students attended the written test. There were 9 descriptive questions; we have to write the answer on sheet. No negative marking.
+3 C language questions: All are finding the output of given code; 1 array based question, 1 linked list and 1 recurrence function.
+1 Network question: Finding the number of bytes transferred from source machine to destination machine having 2 intermediate routers which are having different maximum segment size (MSS).A detailed explanation was given how to do fragmentation if MSS is lesser than the size of receiving packet.
+2 Recurrence questions: For the given picture, we need to formulate the recurrence equation, and solve it for given input n.
+1 Computer architecture question: Count the number of clock cycles required to execute the given instructions with and without reordering. Here also, a detailed procedure was given how to count number of cycles if instruction is dependent of previous instruction and so on.
+1 Probability question.
+1 Aptitude question: Based on the area of square and circle, we need to find the probability.
+All the questions were very easy. Try to score more in this round.
+53 students cleared the first round.
+Round 2: Programming Round
+Duration: 3 hours
+Total number of questions: 3
+Question 1:
+You are given a set of pair of integers (a,b) (a,b>0). The pair represents the floor numberof a building which is present in left and right side of the street. Now, count the number of intersecting points if line is drawn between each pair of integers.
+Sample input 1:
+1 1
+2 2
+3 4
+Output 1:
+0
+There is no intersection between the pairs (1,1) and (2,2) and (3,4)
+Sample input 2:
+1 3
+2 2
+3 4
+Output 2:
+1
+Here, the line between (1,3) will cross the line (2,2), So output is 1 in this case.
+Sample input 3:
+1 1
+2 2
+3 3
+1 3
+Output 3:
+3
+Here the line between (1,3) will cross the lines (1,1), (2,2) and (3,3). So the number of intersecting points is 3.
+Question 2:
+Count the number of redundant parenthesis in a given expression.
+Sample input 1:
+(A+B)
+Output 1:
+0
+Sample input 2:
+((A+B))
+Output 2:
+1
+Sample input 3:
+(A)+(B)
+Output 3:
+2
+Question 3:
+Given a set of words, count minimum number of steps required to convert one word into another word satisfying the following conditions,
+1.	At any time, we are allowed only to change or insert or remove a single character in the word.
+2.	The resultant word obtained in step 1 should also be present in the given set of words.
+Return -1 if not possible to convert.
+Sample input 1:
+pit, kate, pat, kit, kat, kite
+Convert pit into kite
+Output 1:
+2
+Solution: pit→kit→kite
+Another possible solution: pit → pat →kat→kate→ kite, this yields number of steps as 4 which is not better than the previous solution as we need minimum steps.
+Sample input 2:
+pit, kate, pat, kit
+Convert pit into kate
+Output 1:
+-1
+Solution: Not possible.
+Hint: Construct a graph having each word as a node and draw an edge iff those two words is derivable from each other satisfying the above two conditions. Now, apply shortest path algorithm to find the minimum length to reach from a given word to another word.
+6 people cleared this round.
+Round 3: Technical Interview
+Duration : 2 hours
+They were two people in each panel. One guy asked questions while the other was taking notes about how I was giving interview. The following are the questions I faced in interview round. 
+Round 4: Technical Interview
+Duration : 10 minutes  
+

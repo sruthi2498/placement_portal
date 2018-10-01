@@ -1,0 +1,20 @@
+Given a number n, print least prime factors of all numbers from 1 to n. The least prime factor of an integer n is the smallest prime number that divides the number. The least prime factor of all even numbers is 2. A prime number is its own least prime factor (as well as its own greatest prime factor).
+Note: We need to print 1 for 1.
+Example :
+We can use a variation of sieve of Eratosthenes to solve the above problem. 
+Below is the implementation of the algorithm, where least_prime[] saves the value of the least prime factor corresponding to the respective index.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(nlog(n))
+Auxiliary Space: O(n)
+References:
+1. https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+2. https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+3. https://oeis.org/wiki/Least_prime_factor_of_n
+Exercise:
+Can we extend this algorithm or use least_prime[] to find all the prime factors for numbers till n?

@@ -1,0 +1,14 @@
+Given a string containing lowercase characters. The task is to print the maximum occurring character in the input string. If 2 or more characters appear the same number of times, print the lexicographically (alphabetically) lowest (first) character.
+Examples:
+Input: test sample
+Output: e
+‘t’, ‘e’ and ‘s’ appears 2 times, but ‘e’ is the lexicographically smallest character. 
+Input: sample program
+Output: a
+In the previous article, if there are more than one characters occurring the maximum number of time, then any of the characters is returned. In this post, the lexicographically smallest character of all the characters is returned.
+Approach:  Declare a freq[26] array which is used as a hash table to store the frequencies of each character in the input string. Iterate in the string and increase the count of freq[s[i]] for every character.T raverse the freq[] array from left to right and keep track of the character having the maximum frequency so far. The value at freq[i] represents the frequency of character (i + ‘a’).
+Below is the implementation of the above approach: 
+Run on IDE
+Time Complexity: O(n).
+Auxiliary Space: O(1).
+Source: Sabre Interview Experience | Set 2

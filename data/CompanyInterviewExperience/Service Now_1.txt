@@ -1,0 +1,30 @@
+Service Now visited our college this year. They started off with an online test followed by a ppt about their company for an hour and then by 5 rounds of the interview process. The number of technical rounds, however, varied from person to person.
+Round 1 :
+This was a 30-minute online test which had 30 questions in it. The questions were on C, C++ and Java concepts, Applications of OOP concepts in the real world, Data structures(Linked List, Heaps) and Algorithms(Edit-distance algorithm), Time complexities. There was a question on A.R. in which we were asked to identify the technology used in an image given. There were also 2 code snippets for which we were asked to predict the output. These questions also constituted 2 aptitude questions on the whole 1 from mixtures and other was a maze problem.   Most of these questions were really basic.
+Round 2 (Technical Round):
+It was a technical face-to-face interview. In this round, the interviewer asked me only 2 questions one was a programming question while the other was a brainteaser. 
+The first question was something as follows:-
+He gave an array of positive and negative elements and asked me to compute the largest sum contiguous subarray. I initially explained to him the whole algorithm orally but I was unable to code it properly and was missing a few edge cases. But after two or three failed trials and a little help from the interviewer I was finally able to write the code for it.   
+The algorithm can found in the following link
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+The puzzle is in the link below:
+https://www.cut-the-knot.org/blue/EightCoins.shtml
+I already knew the answer for this beforehand so I gave the answer in 30 seconds or so.
+Round 3 (Technical Round) :
+This was the most extensive technical round of all. It lasted for around 100 minutes. In this round, the interviewer asked me a wide range of questions from DBMS, CN and Web technologies. He started off by asking me to write a basic form tag with its attributes and then continued by asking some questions about the web architecture and bootstrap. Most of my projects were web apps which were designed using the flask framework and bootstrap. So he asked me to explain the flask framework completely which I did and then he took up a web app from my projects and asked me about its features and how I implemented them. He then asked me to explain the concept of normalization in DBMS and told me to prove if the tables in my DB were normalized or not. He ended this round by asking a coding question on trees which can be viewed in this link
+https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
+I gave him two different solutions initially whose time complexities were O(n), O(nlogn) respectively but the former was taking a space equivalent to O(max element) and latter O(1). So he asked me to reduce the space complexity to O(n) and time complexity to O(n) only. I did this with the help of the clues given by the interviewer.
+
+Round 4 (Technical Round):
+This was also a technical round. In this round, the interviewer began by asking me to introduce myself and when I told him about my hobbies he then leaned towards the technical discussion. He first asked me to explain the blockchain architecture and then he asked me about the applications of ML in which I mentioned the smart replies feature of Gmail. Next, he asked how ML was being used in that scenario why not a general pattern matching program. These questions were asked because I told him that my favorite topics were ML and Blockchain. He then looked at my projects and asked me on what basis I selected my project topics in general. I did a project on stock data analysis with the help of Hadoop. He then asked me to explain this project in particular from a to z. After that, he asked me to explain the concept of Indexes in DBMS and then their implementation I mean in what way I would implement them. He ended this round by asking a small question that is “Are Java GUI based applications feasible these days?”.
+
+Round 5(Technical Round) :
+This was also a technical round. In this round, the interviewer asked me only 2 questions one was a programming question while the other was a brainteaser. 
+The first question was something as follows:
+In a typical stock market scenario, he asked to devise an algorithm such that the profit gained by a day trader is maximum. He also provided me with the stock prices of the company.
+The puzzle is in the following link
+http://www.crazyforcode.com/3-mislabeled-jars/
+I answered this puzzle with the help of some clues given by him in 3 trials.
+
+Round 6(HR Round):
+In this round, he first asked me about my final year project, and then few questions about the company and why I wanted to get into it, few other questions about my failures and achievements and at last he asked to solve a puzzle which I didn’t understand but I tried my best to answer it.

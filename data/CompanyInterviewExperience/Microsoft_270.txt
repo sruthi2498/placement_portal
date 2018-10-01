@@ -1,0 +1,7 @@
+Microsoft conducted their first round of shortlisting for placements and internship.  The online coding round was organized by CoCubes like last year. 
+The test was for 1.5 hrs and had 2 coding questions. Allowed programming languages were C, C++ and Java.
+The questions were as follows:
+1) Given the head of two linked lists , find the merging point of both  the linked lists. In case the linked lists do not merge then return NULL.
+2) Given a 2d array of 0s and 1s where 0s represent water and 1s represent land. A connected patch of 0s count as one single water body and if a water body is covered by 1s all around it then it forms one pool. Write a function to return the total number of pools in the 2D matrix. In case a water body is present on the boundary of the array immediately return -1.
+Sample test cases :- 
+

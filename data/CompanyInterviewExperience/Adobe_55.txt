@@ -1,0 +1,11 @@
+Given heights of n towers and a value k. We need to either increase or decrease height of every tower by k (only once) where k > 0. The task is to minimize the difference between the heights of the longest and the shortest tower after modifications, and output this difference.
+Examples: 
+Source : Adobe Interview Experience | Set 24 (On-Campus for MTS)
+The idea is to sort all elements increasing order. 
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n Log n)

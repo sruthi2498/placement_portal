@@ -1,0 +1,24 @@
+Given two sorted arrays. There is only 1 difference between the arrays. First array has one element extra added in between. Find the  index of the extra element.
+Examples :
+Method 1 (Basic)
+The basic method is to iterate through the whole second array and check element by element if they are different.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(n)
+ 
+Method 2 (Using Binary search)
+We use binary search to check whether the same indices elements are different & reduce our search by a factor of 2 in each step.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(log n)
+

@@ -1,0 +1,13 @@
+Given two integers n and m, task is to find a number p which satisfy following conditions :
+-> The number p should be less than or equal to n.
+-> The number should be co-prime with all the integers from 2 to p(inclusive) i.e. the only positive integer which divides both of the numbers is 1.
+Examples :
+
+Approach 1 : Create a list of numbers from 2 to n. And then run a loop of i = 2 to m and mark all numbers which are multiples of i. If i is already marked, don’t run loop as its multiples will be already marked. When the loop terminates run a loop from n to 2 until an unmarked number is found. The first unmarked number is the answer, if there is no unmarked number than number doesn’t exists. This approach takes O(n) auxiliary space so if the value of n is too large this method will not work.
+Approach 2 :  Run a loop from n to p+1 and check every number if it’s not divisible by any number between 2 and m.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

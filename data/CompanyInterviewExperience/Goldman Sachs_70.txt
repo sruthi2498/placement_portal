@@ -1,0 +1,20 @@
+I had an interview recently with Goldman Sachs Bangalore for 2+ years Java Developer position. I got call from some consultancy and after my profile got shortlisted I got mail for HR for online test.
+Round 1: Online Test(Hacker Rank):
+16 MCQs Java Question.
+2 programs: 1. find number of all unique anagrams of given strings 2. Find path to reach at end of matrix (m,n) in least cost from (0,0)
+Round 2: F2F Technical:
+OOPs concepts with real time examples. Exception Handling. How hash map work internally explain on board. Hashmap vs CocurrentHashmap vs HashTable vs SynchronizedMap
+Round 3: F2F Technical:
+Singleton Design pattern. How you make it double ton(in even call of getInstance() first object should be return and odd call of getInstance() second instance should be return). Make it triple don.
+HashSet internal working. How load factor works in HashMap. When to go for ArrayList and when for LinkedList.
+Round 4: F2F Technical:
+print series 010203040506.. using multi-threading 1st thread will print only 0 2nd thread will print only even numbers and 3rd thread print only odd numbers. Some SQL queries normal JOIN queries. Synchronize block vs Synchronize method
+Round 5: F2F Technical:
+SAX parser vs Dom parser. How will you store key value pair in sorted way based on values. Given a doubly circular linked list one node is not pointing to next how will find this and fix this. Same question next pointer is pointing to some random pointer how will you find this and fix this. How will you break TreeSet property (it should store Objects in non sorted order)
+Round 6: F2F Non Technical:
+Given a situation there are three lifts A,B & C, lift A is at kth floor and user wants to go at nth floor what will be the test cases in this situation. Interviewer gave 3-4 situation in same problem to write test cases.
+There is method which will take a date i.e. 11/09/2013 and return a expiry date and that is 3rd Friday of input month. Write all unit cases covering all corner case that will a sure that this method will never fail.
+Round 7: Managerial:
+Current project (Architecture), Which technologies are you working on. Why are you using SOAP why not Restful. Why are you using SAX why not DOM. What is Agile. What is your role. Java 8 features.
+Round 8 Managerial:
+Some puzzles. Explained me about GS how they work in GS and all.

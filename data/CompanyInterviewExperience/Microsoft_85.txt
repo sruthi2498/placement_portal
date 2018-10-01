@@ -1,0 +1,8 @@
+Given an array of names of candidates in an election. A candidate name in array represents a vote casted to the candidate. Print the name of candidates received Max vote. If there is tie, print lexicographically smaller name.
+Examples:
+
+A simple solution is to run two loops and count occurrences of every word. Time complexity of this solution is O(n * n * MAX_WORD_LEN).
+An efficient solution is to use Hashing.  We insert all votes in a hash map and keep track of counts of different names. Finally we traverse the map and print the person with maximum votes.
+Run on IDE
+Output:
+Another efficient solution is to use Trie. Please refer most frequent word in an array of strings.

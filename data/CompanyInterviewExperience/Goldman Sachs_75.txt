@@ -1,0 +1,30 @@
+Online Round (Aptitude+Coding) : (2:00 hrs)
+Students of all branches were allowed to appear in the online round.
+15 MCQs only on aptitude for the first half an hour and 15 MCQs on basis of C,C++,OS for the second half an hour and followed by a coding question to be solved in the next one hour.There was no negative marking. The aptitude questions were really good given the time limit. The test was conducted on Hacker  Rank. Compilers for coding were not allowed.
+The MCQs section carried 60 marks and 40 marks for one coding question.
+Coding Question : Given a set of n integers, divide the set in two subsets such that the difference of the sum of two subsets is as minimum as possible.Return the minimum difference.
+Interview 1(FTF):
+First of all he asked about my background and  projects then proceeded with the questions.
+Q1.Coding Question of first Round.
+Q2. There is a stream of Integers coming in. You have to store all elements.What Data Structure you would use such that insert,delete and access should be optimal.
+Q3. Implement Queue using one stack.
+	Hint:use in-built Stack(by recursion).
+Q4. What is Graph and where do we use graph?
+Q5. N ants sitting at the corners of a polygon.Each ant randomly picks a direction and start to move along the edge of the polygon .What is the probability that none of the ants collide.
+Interview 2(FTF):
+Q1. How many cricket bats in your city? if you have last 10 years data of average number of bats which sold by each shop,number of shops then how would you calculate average number of bats which sold by each shop in next year ?
+Q2. You have a long text and n pattern.Which data structure would you use to store text and pattern such that you can get the repetition of every pattern in text at a time.Don’t use string matching algorithm for each pattern.
+Q3. An array of N integers in range [a,b].Five number are missing in array of given range.Find five missing numbers.
+Q4. Suppose that you are standing in a hallway next to 3 light switches, which are all off. There is another room down the hallway, where there are 3 incandescent light bulbs – each light bulb is operated by one of the switches in the hallway. Because the light bulbs are in another room, you can not see them since you are standing in the hallway.
+How would you figure out which switch operates which light bulb, if you can only go the room with the light bulbs one time, and only one time?
+At the end he asked what are my subjects of interest and if I have any questions to ask.
+Interview 3(FTF):
+Q1. Tell me about yourself.
+Q2. What is your strengths and weaknesses.How do you plan to overcome your weaknesses?
+Q3. What do you expect from your internship?
+Q4. What is future plan?
+Q5. What Makes you feel proud of yourself?
+A total of 9 students were selected for the internship at the end.
+All thanks to geeksforgeeks for helping me with my preparation.
+
+

@@ -1,0 +1,39 @@
+Hello Guys, I had 6 rounds(written + telephonic+ 4f2f interviews) in hyderabad centre of Amazon.
+I was 90% sure that I would clear the interview but I got rejected. The only reason I felt I was rejected was that the interview process was immature. The interviewer interviewing was a guy with 1yr of work ex expecting solution in the manner he wanted, which was pretty unexpected from a technology giant like amazon.
+Every round of Amazon would have basic question like what you do etc. But all that is just formality, it doesn’t count since one interviewer stopped me in between and said we have less time lets talk about problem solving(Which was again not expected from technology giant) 
+Also, for those writing written this month, the written round would have the same questions as I have listed below. So please solve this, before going for written
+Anyways, these were my questions: 
+Written(Interview street) – 3 Questions:
+a) General code for coin denomination problem where the input was an array containing the coin denomination and the sum we want.
+b) Rectangle overlap problem(Can be found in geeksforgeeks)
+c) String Matching Problem(Wrote KMP)
+Telephonic Interview:
+a) Convert BST in place into doubly linked list
+b) Given a Binary Tree is it a BST
+If you miss one edge case, you are out of the interview. This is what they check and nothing else. They don’t check your logic, they only see  if you write proper code. So always start with brute force and write proper code.
+F2f interview(1st round) – Very easy
+a) Given a number is it divisible by 3 and 5
+– Only catch here were the edge cases and nothing else
+b) angle between hour hand and minute hand
+c) Revere bits in a binary
+d) Get the kth node from end of linked list
+F2f inteview(round2)
+a) It was basically on writing multi-threading code(Write multi-threaded code for Enqueue of Queue using linked list)
+b) Asked about basic complexities in Queue, hash and tree
+c) Window Problem(In an array, find the minimum of the set in a given window). There are many solutions using hash, brute force. But the dequeue answer is what he was expecting.
+I gave the deque answer
+Any other answer to this problem was a reject 
+F2F Interview(Round -3)
+a) Given a doubly linked linked, delete the occurrences of duplicate element from it. ( One miss of edge case and out again)
+(for eg) If you write,  temp->prev->next = temp->next without actually adding the condition,    if(temp->prev) then temp->prev->next = temp->next
+b) Given a matrix with ordered rows and columns(Rows are sorted 0’s followed by 1’s). Find the row with maximum 0?s(linear time)
+I answered it
+c) DataStructure with Insert O(1), Deletion O(1) Search O(1) and ReturnAnyElement O(1)
+Again answered this using augment of hash and doubly linked list
+d) Given a tree with negative and positive numbers, return the root with maximum sum in its sub-tree
+F2f interview(round-4)
+a) It was basically a design interview where I was told to some OOPS design
+b) Given a stream of 0’s and 1’s(You Tube). Find the first occurrence of 1 in it. Then the question was changed to a string instead of a stream.
+Finally, after giving 100% it was reject. So according to my experience, if you dont give 100% you are out or else it is ur luck that you get through amazon’s process.
+Moreover, currently they have started exploring candidates by sending two interviewers which actually means that the one is new to interviewing and other is experienced. Hence, basically they are playing with interviewers.
+If you want the answers for questions, please comment I will post it.

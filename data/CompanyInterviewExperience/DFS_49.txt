@@ -1,0 +1,15 @@
+Given an array of strings, find if the given strings can be chained to form a circle.  A string X can be put before another string Y in circle if the last character of X is same as first character of Y.
+Examples:
+We have discussed one approach to this problem in below post.
+Find if an array of strings can be chained to form a circle | Set 1
+In this post another approach is discussed. We solve this problem by treating this as a graph problem, where vertices will be first and last character of strings and we will draw an edge between two vertices if they are first and last character of same string, so number of edges in graph will be same as number of strings in the array.
+	Graph representation of some string arrays are given in below diagram,
+
+
+	Now it can be clearly seen after graph representation that if a loop among graph vertices is possible then we can reorder the strings otherwise not. As in above diagram’s example a loop can be found in first and third array of string but not in second array of string. Now to check whether this graph can have a loop which goes through all the vertices, we’ll check two conditions,
+1)	Indegree and Outdegree of each vertex should be same.
+2)	Graph should be strongly connected.
+First condition can be checked easily by keeping two arrays, in and out for each character. For checking whether graph is having a loop which goes through all vertices is same as checking complete directed graph is strongly connected or not because if it has a loop which goes through all vertices then we can reach to any vertex from any other vertex that is, graph will be strongly connected and same argument can be given for reverse statement also.
+	Now for checking second condition we will just run a DFS from any character and visit all reachable vertices from this, now if graph has a loop then after this one DFS all vertices should be visited, if all vertices are visited then we will return true otherwise false so visiting all vertices in a single DFS flags a possible ordering among strings. 
+Run on IDE
+Output:

@@ -1,0 +1,31 @@
+Prerequisite : LCA basics, Disjoint Set Union by Rank and Path Compression
+We are given a tree(can be extended to a DAG) and we have many queries of form LCA(u, v), i.e., find LCA of nodes ‘u’ and ‘v’.
+We can perform those queries in O(N + QlogN) time using RMQ, where O(N) time for pre-processing and O(log N) for answering the queries, where
+N = number of nodes and
+Q = number of queries to be answered.
+Can we do better than this? Can we do in linear(almost) time? Yes.
+The article presents an offline algorithm which performs those queries in approximately O(N + Q) time. Although, this is not exactly linear, as there is an Inverse Ackermann function involved in the time complexity analysis. For more details on Inverse Ackermann function see this. Just as a summary, we can say that the Inverse Ackermann Function remains less than 4, for any value of input size that can be written in physical inverse. Thus, we consider this as almost linear. 
+We  consider the input tree as shown below. We will Pre-Process the tree and fill two arrays- child[] and sibling[] according to the below explanation-
+
+Let we want to process these queries- LCA(5,4), LCA(1,3), LCA(2,3)
+Now, after pre-processing, we perform a LCA walk starting from the root of the tree(here- node ‘1’). But prior to the LCA walk, we colour all the nodes with WHITE. During the whole LCA walk, we use three disjoint set union functions- makeSet(), findSet(), unionSet().
+These functions use the technique of union by rank and path compression to improve the running time. During the LCA walk, our queries gets processed and outputted (in a random order). After the LCA walk of the whole tree, all the nodes gets coloured BLACK.
+Tarjan Offline LCA Algorithm steps from CLRS, Section-21-3, Pg 584, 2nd /3rd edition.
+
+Note- The queries may not be processed in the original order. We can easily modify the process and sort them according to the input order.
+The below pictures clearly depict all the steps happening. The red arrow shows the direction of travel of our recursive function LCA(). 
+
+
+
+
+As, we can clearly see from the above pictures, the queries are processed in the following order, LCA(5,4), LCA(2,3), LCA(1,3) which is not in the same order as the input(LCA(5,4), LCA(1,3), LCA(2,3)).
+Below is C++ implementation.
+Run on IDE
+Output : 
+Time Complexity :  Super-linear, i.e- barely slower than linear. O(N + Q) time, where O(N) time for pre-processing and almost O(1) time for answering the queries.
+Auxiliary Space : We  use a many arrays- parent[], rank[], ancestor[] which are  used in Disjoint Set Union Operations each with the size equal to the number of nodes. We also use the arrays- child[], sibling[], color[] which are useful in this offline algorithm. Hence, we use O(N).
+For convenience, all these arrays are put up in a structure- struct subset to hold these arrays.
+References
+https://en.wikipedia.org/wiki/Tarjan%27s_off-line_lowest_common_ancestors_algorithm
+CLRS, Section-21-3, Pg 584, 2nd /3rd edition
+http://wcipeg.com/wiki/Lowest_common_ancestor#Offline

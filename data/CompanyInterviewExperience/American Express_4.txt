@@ -1,0 +1,27 @@
+Round 1:
+Round 1 had 2 sections, One was a coding round having 2 problems.
+1: Given a list of Students and Subjects along with credits of each, a student can select only those subjects whose credits are less than equal to his/her credits.
+Return the number of pairs of students and subjects.
+Eg:
+Subjects:{3,4,1,2}
+students:{5,3}
+So there can be 7 pairs as The Student having 5 credits can select all the subjects and the student having credits 3 can select subjects with credits 1,2,3.
+Easy Binary search and sort question.
+2. Find LCA of a binary tree.
+Both questions were fairly easy but required to be done in 30 minutes.
+2nd Section had 50 questions in 40 minutes consisting of 10 questions each from Aptitude, logical reasoning, Data structures, JavaScript and basic C/C++ questions.
+
+Round 2:
+Round2 was a technical round was fairly easy. The interviewer was very friendly and started the discussion with my projects and internships.
+Then he asked me few Sql queries related to self-join and find Manager and employee in a given table.
+Few basic C/c++ questions like What is dangling pointer, Post increment operator,
+Static functions.
+Then a programming question on Sieve. Then few easy puzzles like 3 bulbs and 3 switches puzzle and a bee travelling between two trains. All available on GeeksForGeeks.
+
+Round 3:
+Round 3 was semi technical. It started off with a small case study which was very interesting and based on Cricket World Cup and How American Express can tie-up with Hilton Hotel. Then a question on trie because it was mentioned in my resume and it ended up really well.
+
+Round 4 HR:
+Very General Questions on Why American Express, strengths and Weakness, Plans of Future Studies, and Which team would I select if given a chance.
+I didn’t get selected in the end and they eventually recruited 5 out of last 7. No clue why didn’t they select me, sometimes it’s not your day or someone else was better than you in some way or other so you just have to move on.
+But GeeksForGeeks is more than enough for companies like Amex where they offer Semi Technical profiles.

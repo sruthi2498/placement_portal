@@ -1,0 +1,32 @@
+Believe me or not before I faced an Amazon interview round I was never sure whether all those gratitude that people usually present to GeeksforGeeks were actually worth. But it is always easier to connect the dots looking backwards and now I can say with assurance that this website really deserves all the applause.
+I was recently interviewed for an internship position at Amazon and had to go through a total of 3 rounds i.e. one online followed by two telephonic rounds.
+Online Round
+As usual the online round had two coding questions and 20 MCQs. This was a pretty easy round and it’s duration was 90 minutes. The round consisted of questions from various domains like Algorithm, Data Structure, Operating System and Aptitude.
+A few days after appearing in this round, I was informed that I have been qualified for the next round.
+First Telephonic Round  
+I had just three days to prepare for this round and truly speaking, it was my first experience of appearing in any such interview.
+This round lasted for almost 60 minutes. It began with my general introduction followed by a brief discussion on my projects. After this, the interviewer asked me four questions.
+Question 1:
+Given an array of numbers find all such triplets that satisfy the given condition.
+Condition: a[i] < a[j] < a[k] where I < j < k.
+At first go I thought that it was a pretty easy question but slowly the mist started to clear and I realized how tough it was. The interviewer wanted me to solve it in linear time i.e. O(N)
+Question 2:
+Given two trees check if they are mirror images of each other or not.
+This was a straight forward question and it took me less than 10 minutes to code it.
+Now the interviewer wanted to test my understanding of operating systems and asked two fairly direct questions, to which I gave my answer based on my understanding (not bookish definition as I did not remember any of those 😉 ).
+Question 3 & 4:
+What is semaphore and what do you mean by a deadlock.
+After two days I got a call from the HR informing me I have been selected for the next round. Now it was the time for the last and the decisive round.
+Second Telephonic Round  
+For this round I had slightly more time than the last, due to the fact that the weekend fell in between.The interviewer was very very cool and helping this time, something which I kept at the last in my list of probable things that can happen during an interview. Duration of this round was around 90 minutes.
+This time I had to face three technical questions and one general question on Amazon.
+Question 1:
+Given a BST, replace each node with the sum of the values of all the nodes that are greater than that node. Only constraint being that I was not allowed to use any global or static variable.
+Although I panicked a bit and made few mistakes, I got through.
+Question 2:
+Given an array of numbers find the maximum count of duplets and triplets such that there sum is a multiple of three. Number that has appeared once can’t be included anywhere else.
+I solved this question using a property of modulus.
+Question 3:  
+Given the stock prices of 10 days find the best possible buy sell pair.
+For this question I started with a O(N2) solution but then finally managed to reduce it to O(N) solution with constant space complexity.
+I was also asked few questions on Amazon like what are domains in which Amazon deals.

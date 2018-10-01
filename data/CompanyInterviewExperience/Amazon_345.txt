@@ -1,0 +1,16 @@
+Given a number d, representing the number of digits of a positive integer. Find the total count of positive integer (consisting of d digits exactly) which have at-least one zero in them.
+Examples: 
+
+
+One Simple Solution is to traverse through all d digit positive numbers.  For every number, traverse through its digits and if there is any 0 digit, increment count (similar to this).
+Following are some observations: 
+
+So considering the above points, let’s find the total count of numbers having d digits:
+Below is the program for the same.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

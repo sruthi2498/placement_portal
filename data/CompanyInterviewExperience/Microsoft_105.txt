@@ -1,0 +1,7 @@
+Given a struct array of type Height, find max
+
+Question source : Microsoft Interview Experience Set 127 | (On-Campus for IDC)
+The idea is simple, traverse the array, and keep track of max value
+value of array element(in inches) = 12*feet + inches
+Run on IDE
+Output:

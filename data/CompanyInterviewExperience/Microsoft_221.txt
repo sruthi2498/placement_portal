@@ -1,0 +1,21 @@
+Microsoft recently visited campus to hire interns for IDC and IT profiles.
+I’d like to share my experiences.
+.
+    Few people solved it in O(n) but most solved it in O(nk) where n is the size of the array and k is window size. 
+.
+    The problems were :
+    a) Given a sorted array that has been rotated, find the index upto which array is sorted.
+    For ex : 3 4 5 6 1 2, the answer would be 3, because index of element 6 is 3.
+    b) Given an array of numbers, find the largest product of three numbers in the array
+    We were expected to code our solution, write the approach, time complexity and test cases.
+    For the first problem, they expected a O(log n) solution, where n is the size of the array.
+    For the latter, they primarily wanted to check if the applicant accounted for negative numbers in the array and that the product could either be of three positive numbers or two negative and one positive number. 
+.
+.
+    The challenge was to not declare any variables or use any loops. Gave a simple recursive function that used stack implicitly to print the pattern. He was satisfied.
+    Second problem was, given two sorted arrays, to merge them in linear time and without using extra space, i.e, given an array with enough extra space to hold a second array and a second array, both of them sorted, to merge second into first and return it in O(m+n) time and O(1) space complexity, where m is size of first and n is size of second array.
+.
+    The only problem was given a dictionary of all words, to print all sets of anagrams together, in time linear to the number of words in the dictionary.
+The interviews were really thought provoking and the interviewers were helpful and friendly. It felt like solving problems as a team and not at all like a test. The interviewers were quite receptive to our questions and patient.
+About 70 people wrote the online MCQ round and about 30 made it to coding round. Some were called for interview directly and some had to go through group fly. Most of the candidates selected were those who went through group fly.
+

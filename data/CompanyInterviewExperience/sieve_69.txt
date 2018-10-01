@@ -1,0 +1,14 @@
+We can calculate the prime factorization of a number “n” in O(sqrt(n)) as discussed here. But O(sqrt n) method times out when we need to answer multiple queries regarding prime factorization.
+In this article we study an efficient method to calculate the prime factorization using O(n) space and O(log n) time complexity with per-computation allowed.
+Prerequisites : Sieve of Eratosthenes, Least prime factor of numbers till n.
+
+Key Concept: Our idea is to store the Smallest Prime Factor(SPF) for every number. Then to calculate the prime factorization of the given number by dividing the given number recursively with its smallest prime factor till it becomes 1.
+
+To calculate to smallest prime factor for every number we will use the sieve of eratosthenes. In original Sieve, every time we mark a number as not-prime, we store the corresponding smallest prime factor for that number (Refer this article for better understanding).
+Now, after we are done with precalculating the smallest prime factor for every number we will divide our number n (whose prime factorziation is to be calculated) by its corresponding smallest prime factor till n becomes 1.
+The implementation for the above method is given below :
+Run on IDE
+Run on IDE
+
+Note : The above code works well for n upto the order of 10^7. Beyond this we will face memory issues.
+Time Complexity: The precomputation for smallest prime factor is done in O(n log log n) using sieve. Where as in the calculation step we are dividing the number every time by the smallest prime number till it becomes 1. So, let’s consider a worst case in which every time the SPF is 2 . Therefore will have log n division steps. Hence, We can say that our Time Complexity will be O(log n) in worst case.

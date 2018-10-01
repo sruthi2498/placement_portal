@@ -1,0 +1,40 @@
+Round-1
+The first round comprised of 50 MCQ questions including aptitude,logical, C output questions and technical portions(Test Duration: 1 hour) :-
+Quantitative aptitude and Logicalpart was much more predominant,the questions were more intuitive and not typical paper pen/formula based.They were not very difficult but were very tricky.
+Suggestion: I would suggest to do practice from sites like Indiabix as it will give confidence to solve problems.
+Technical aptitude  part covered questions from computer networks, operating system,data structures(specifically tree),digital electronics and questions from microprocessor & other electronics topic. C output questions were also there.
+Suggestion: I would suggest to do quizzes from geeksforgeeks to get in touch with all concepts of C and other subjects.
+Tips :- Solve the questions with calm mind.Don’t stress yourself during test because you have to do 50 questions in 60 minutes.Don’t spend too much time on any question if you are not able to do it in the first attempt.
+Round-2 (Technical Interview Round-1)
+1) Questions from project. My project was on REST, so he asked various typical questions on REST(Why, How etc). He later asked me to design a REST API for a part of my project.
+2) He asked me to design Uber Cab service. He gave me an instant that there are 5 lakh drivers and they all are sending a request to the server & database at a particular time. He asked how can you manage these requests efficiently. I gave answers by using the concepts of Load Balancer, Sharding, Master Slave etc. and he was pretty much happy to listen the concepts.
+3) He asked me to write code from front end to back end of a particular request from any driver(say sending the information of his current location) of above designed uber using technologies like javascript, ajax, JSON, jquery, servlet, Mysql etc. I wrote 2 page code and he was satisfied.
+4) Later he gave me an instant of above designed uber where sorting was the answer. So i gave him an answer using Comparator of java and wrote code for the same.
+5) Discussions on MVC architecture. He said suppose you click weather.com on any browser what happens if you use MVC architecture behind and what happens if you haven’t used MVC. We had good discussion over use of Controller in MVC.
+Tips :- Explain using more diagrams.(I used 4-5 total pages in this interview) 
+Round-3 (Technical Interview Round-2)
+1) Again discussion on all projects.
+2) Discussion over REST and SOAP.
+3) I have used exist-db(Native XML Database) as a database in one of my project and mysql in other. From there we went to discussions over SQL vs No-Sql. He kept on giving me instances one after other and asked which suits best on each of them(sql or no-sql)
+4) What happens when one ajax call is still running and you send an another ajax call before the data of first ajax call comes back?
+5) He asked to write a javascript code of simple form comprising of login and password info.
+Tips :- You should know each and every word of your Resume.
+Round-4 (Managerial Round)
+1) Basic questions about team management and team conflict.
+2) What problems you faced in doing projects technologically wise and managing wise too?
+3) He gave me instants which can arise during working in team and asked what will you do in them.
+4) Some discussions over what technologies I know.
+5) Which project do you liked the most and why?
+Round-5 (HR Round)
+1) Tell me something about yourself.
+2) What differentiates yourself from others.
+3) Little discussions over my extra curricular activities written in resume.
+4) Team Conflict questions.
+5) What are your future plans related with further studies?
+6) Do you have any Location constraints?
+Tips:- Know yourself before any interview.
+Be calm & answer politely.
+Thank you GeeksforGeeks for your wonderful archives, without which this would be very difficult. GeeksforGeeks have contributed immensely in increasing my knowledge & improving my skills. Thank You Geeks team.                                        
+
+
+

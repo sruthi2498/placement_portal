@@ -1,0 +1,10 @@
+Given a Binary Tree, return following value for it.
+1) For every level, compute sum of all leaves if there are leaves at this level. Otherwise ignore it.
+2) Return multiplication of all sums.
+Examples:
+We strongly recommend you to minimize your browser and try this yourself first.
+One Simple Solution is to recursively compute leaf sum for all level starting from top to bottom. Then multiply sums of levels which have leaves.  Time complexity of this solution would be O(n2).
+An Efficient Solution is to use Queue based level order traversal.  While doing the traversal, process all different levels separately.  For every processed level, check if it has a leaves. If it has then compute sum of leaf nodes. Finally return product of all sums.
+Run on IDE
+Run on IDE
+

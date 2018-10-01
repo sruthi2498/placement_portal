@@ -1,0 +1,10 @@
+Given a number N, find the number of distinct prime factors for all numbers in the range [1, N].
+Examples :
+The idea is based on Sieve of Erathosthenes. Whenever we mark number as prime, we also increment count of prime factors in its multiples.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+This is the most efficient way to calculate the number of prime factors for numbers in [1, N]. Here the data type of n, factorCount can be changed to solve problems with huge constraints.

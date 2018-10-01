@@ -1,0 +1,17 @@
+Given n boxes containing some chocolates arranged in a row. There are k number of students. The problem is to distribute maximum number of chocolates equally among k students by selecting a consecutive sequence of boxes from the given lot. Consider the boxes are arranged in a row with numbers from 1 to n from left to right. We have to select a group of boxes which are in consecutive order that could provide maximum number of chocolates equally to all the k students. An array arr[] is given representing the row arrangement of the boxes and arr[i] represents number of chocolates in that box at position ‘i’.
+Examples:
+Source: Asked in Amazon.
+
+The problem is to find maximum sum sub-array divisible by k and then return (sum / k).
+Method 1 (Naive Approach): Consider the sum of all the sub-arrays. Select the maximum sum. Let it be maxSum. Return (maxSum / k). Time Complexity is of O(n2).
+Method 2 (Efficient Approach): Create an array sum[] where sum[i] stores sum(arr[0]+..arr[i]). Create a hash table having tuple as (ele, idx), where ele represents an element of (sum[i] % k) and idx represents the element’s index of first occurrence when array sum[] is being traversed from left to right. Now traverse sum[] from i = 0 to n and follow the steps given below.
+Finally, return (maxSum / k).
+Explanation:
+If (sum[i] % k) == (sum[j] % k), where sum[i] = sum(arr[0]+..+arr[i]) and sum[j] = sum(arr[0]+..+arr[j]) and ‘i’ is less than ‘j’, then sum(arr[i+1]+..+arr[j]) must be divisible by ‘k’.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n).
+Auxiliary Space: O(n).

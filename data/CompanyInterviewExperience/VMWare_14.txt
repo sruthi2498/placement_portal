@@ -1,0 +1,22 @@
+Vmware conducted their online exam via hirepro.
+Round 1 : There were 3 sections quants, Technical questions and OOPs based questions, no section had negative marks and all questions were MCQs. The quantitative section had 10 questions and we were given 15 minutes, the questions covered all the typical quants topics (like time and work, mixtures & allegations etc.). The questions were hard and were time consuming the trick was to identify the questions you could solve(I could solve only 4). Next there were 23 technical questions, they were easy and medium level, from all topics(OS, CN, Computer Architecture etc.). Then we had a choice before the OOPs section to opt for either Java or C++, I chose java and had to answer 7 tricky questions mostly focusing on inheritance and how constructors work with inheritance. Around 150 students gave the first round from which 42 progressed.
+Round 2: This was a face to face technical round. I introduced myself and then the interviewer directly jumped onto my projects and asked me to talk about them. I had made an android app which I showed him(I carried my phone) my second project particularly took his attention which was based on Machine Learning I had to explain my project in detail for about 15-20 minutes. He asked me questions on all topics like OOPS, Data Structures, OS, CN. Before beginning he asked me to rate my proficiency in c,c++& JAVA on a scale from 1 to 10. To the best of my memory the questions were:
+1) Explain properties of OOPS. (tried to confuse me)
+2) Types of constructors. (wanted to hear copy constructor and how it is defined in different ways in c++ and java.)
+3) Gave me a typical inherent scenario and asked me how parent class and child class default constructors are called.
+4) Asked me to detect & remove loop in a linked list. (I told him I already knew the algo. so we moved on)
+5) Asked me to write the expression for height of a complete binary tree.
+6) Array to BST (tried to convince me a solution which could give a skewed tree was better)
+7) Asked me about different CPU scheduling algo and made me solve a given scenario for wait time and turn around time using different scheduling algos.
+8) Asked me about gateway routers and asked me to calculate subnet mask for a given range of IPs.
+The interviewer tried to pressure me into changing my answers being confident was the key.
+Round 2 :  This was the second technical face to face round. My interviewer was very cool and immediately made me comfortable. After talking about my project in detail, he moved on to problem solving and asked me just 2 questions.
+1) Given a sparse 2D matrix (containing 0s and 1s) I had to make all entries of a row and column ‘1’ which had at least one entry as ‘1’.
+I gave a O(n^2) solution using hashing he asked me to write down the complete code.
+2) In a binary tree find the the level with maximum number of nodes.
+A typical solution would be Level order traversal but I gave a different solution by connecting all the nodes in a particular level.
+6 students cleared the 2nd technical round.
+Round 3: It was a managerial discussion round, which was basically a telephonic interview with the manager. Other students were asked few technical questions , the interview was more focused on judging your attitude and if you were a good fit for the team. My telephonic interview was mostly about my Machine Learning project, mild business acumen and why I wanted to do an internship at Vmware.
+Round 4:  The final round was the hr round, I was asked about my family background and what would be my reaction if I don’t get this internship.
+Finally all 6 who cleared the technical rounds were selected for a 6 months internship at Vmware, Bangalore. Also we were given vmware bottles :p
+

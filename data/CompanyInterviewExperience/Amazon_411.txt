@@ -1,0 +1,27 @@
+Online Round(1:30 hrs)
+20 MCQs based on OS, C, C++, 3 questions on aptitude & 1 question on DBMS.
+Q1. Write a program to separate even nodes from odd nodes and odd nodes must come after even nodes(in place).
+Q2. Find if the Robot moves in Circular fashion.
+https://www.geeksforgeeks.org/check-if-a-given-sequence-of-moves-for-a-robot-is-circular-or-not/
+After this round 20 students were shortlisted.
+Then there were 2 PI rounds
+Round 1:
+Q1. Print a matrix spirally.
+Q2. How to deserialize and serialize a binary tree.
+After this round 8 students were selected.
+Round 2:
+Q1. Given a sorted stream of 0’s and 1’s, find the first occurrence of 1.Write a full working code.
+I firstly did it in O(n). Then he asked me to reduce the complexity.I reduced the complexity to O(log n) by applying binary search.
+Then he asked about my project mentioned in my CV. It went on for 20 minutes.
+Then he asked me another question.
+Q2. What happens when you click a web address and how are web pages retrived.
+Q3. He asked me about memory management in C and C++ and how new allocates memory to objects and he asked me to overload new operator.
+Q4. If you are given some functions and whenever you call that function,the timestamp is stored along with function name.
+Suggest an appropriate data structure and write a code to make following queries within two given time stamps t1 &t2:
+query 1: Return number of all the functions called between t1 & t2.
+query 2: Return number of times a particular function is called between t1&t2.
+Then he asked me various OS and networking Questions.
+Q5. Given an array of integers,find a subarray having least average.
+Q6. Suggest some data structures to maintain relationship between various hierarchies in an organization.
+Thanks to geeksforgeeks for helping me out.
+Read Geeksquiz for MCQs & g4g for interview questions.

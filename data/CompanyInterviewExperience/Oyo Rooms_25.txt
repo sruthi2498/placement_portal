@@ -1,0 +1,17 @@
+Following is the summary of the interview 
+I have given the interview for OYO rooms for 5+ years Java Developer
+Round1 :
+1. Discuss about my project. What are the core areas I have worked upon. Things I worked upon. Knowledge about scalablity.
+2. gave me to design a cab management system. like Ola and Uber. What are the main components and details in some components.
+Also asked about the APIs and SQL queries.
+3. How to make this cab management design scalable. and how to design in such a way that components are micro-services.
+Round 2:
+1. What is memory leak. And how can it effect the product. What are the ways to debug it and resolution.
+2. What is High CPU Usage problem. how to detect it and resolution
+3. given a Stream of string coming. So we need to print the first non repeating character
+eg : Stream of string : abcdabef
+     Non repeating string : aaaabccc
+Round 3 : 
+1. Lexographically nth permutation of a string http://www.geeksforgeeks.org/lexicographically-n-th-permutation-string/
+2. Design LFU (Least Frequently used Cache)
+3. Design Executor service of JAVA

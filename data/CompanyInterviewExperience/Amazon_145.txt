@@ -1,0 +1,24 @@
+Given a number n. The problem is to check whether every bit in the binary representation of the given number is set or not. Here 0 <= n.
+Examples :
+Method 1: If n = 0, then answer is ‘No’. Else perform the two operations until n becomes 0.
+If loop terminates without returning ‘No’, then all bits are set in the binary representation of n.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity : O(d), where ‘d’ is the number of bits in the binary representation of n.
+ 
+Method 2: If n = 0, then answer is ‘No’. Else add 1 to n. Let it be num = n + 1. If num & (num – 1) == 0, then all bits are set, else all bits are not set.
+Explanation: If all bits in the binary representation of n are set, then adding ‘1’ to it will produce a number which will be a perfect power of 2. Now, check whether the new number is a perfect power of 2 or not.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+References:
+https://www.careercup.com/question?id=9503107

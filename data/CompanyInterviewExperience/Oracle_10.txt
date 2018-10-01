@@ -1,0 +1,19 @@
+The join condition for the natural join is basically an EQUIJOIN of all columns with same name. To specify arbitrary conditions or specify columns to join, the ON Clause is used.
+
+EXAMPLES:
+
+We will apply the below mentioned commands on the following base tables:
+Employees Table
+
+Departments Table
+QUERY 1: Write SQL query to find the working location of the employees. Also give their respective employee_id, last_name and department_id? 
+Explanation: The example shown joins the DEPARTMENT_ID column in the EMPLOYEES and DEPARTMENTS
+tables using ON Clause, and thus shows the required data.
+
+We will apply the below mentioned commands on the following base tables:
+Countries Table
+
+Locations Table
+QUERY 2: Write SQL query to find the location_id, street_address, postal_code and their respective country name? 
+Explanation: The example shown joins the COUNTRY_ID column in the LOCATIONS and COUNTRIES
+tables using the ON Clause, and thus shows the required details.

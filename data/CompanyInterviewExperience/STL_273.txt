@@ -1,0 +1,20 @@
+Stacks are a type of container adaptors with LIFO(Last In First Out) type of working, where a new element is added at one end and (top) an element is removed from that end only.
+This function is used to insert a new element into the stack container, the new element is added on top of the stack.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. Parameter should be of same type as that of the container, otherwise an error is thrown.
+Run on IDE
+Output:
+Time Complexity : O(1)
+Difference between stack::emplace() and stack::push() function.
+While push() function inserts a copy of the value or the parameter passed to the function into the container at the top, the emplace() function constructs a new element as the value of the parameter and then adds it to the top of the container. 
+Application :
+Given a number of integers, add them to the stack using emplace() and find the size of the stack without using size function.
+Algorithm
+1. Insert the given elements to the stack container using emplace() one by one.
+2. Keep popping the elements of stack until it becomes empty, and increment the counter variable.
+3. Print the counter variable.
+Run on IDE
+Output:

@@ -1,0 +1,27 @@
+I recently attended the interview drive conducted by Arcesium in their Hyderabad office. I was shortlisted based on my resume.
+There were total 3 round of F2F interviews and each interview had 2 interviewers.
+1st Round :
+a) Tell me about yourself and discussion on current project
+b) questions about DB schema and cardinality
+c) Find the middle node and Kth from last node in a Linked List
+d) StringBuffer vs String vs StringBuilder ( String concatenation in java)
+e) Exception handling in java ( throws vs throw, checked vs unchecked, exception propagation during inheritance, custom run-time exceptions)
+2nd Round :
+a) Given a stack containing integers, Sort the stack in O(1) space. (we can use recursion though)
+b) Given a number n, find the number of trailing zeros in n!
+c) Given an array of integers and N operations in the form of (i,j,k), which means add k to all the element from i to j in the array, and print the array after N such operations.(Use Segement tree)
+d) 25 horses problem
+e) Design a Blog post website, which will notify all the subscriber of a user, when he posts some blog on the website
+3rd Round :
+a) Transactions in RDBMS
+b) How to implement transactions in multi-threaded environment
+c) Use of volatile in Java
+d) Singleton Design Pattern (double locking mechanism vs Enum )
+e) How would you implement transactions in a Netbanking software, where multiple users are transferring and withdrawing money from multiple accounts?
+f) DB deadlocks scenario and 2 phase commit in DB
+g) How does Garbage collection work in Java ( discussion on Young/Old Generation, Mark and Sweep, Mark and Compact algorithms)
+h) What is weak reference in Java and how it is used?
+i) Reason for joining Arcesium
+I answered all the questions correctly with some help from the interviewers who were very helpful, whenever I was stuck. I got an offer from the HR after 10 days of the Interview for the post Senior Member Technical.
+Overall I feel, Arcesium looks for a candidate who has strong knowledge in Java, DBMS and Design Pattern and decent knowledge in OS and networking.
+So be sure to brush up on the basic Java, DSA, OS and Design Patterns.  All the best 🙂

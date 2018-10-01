@@ -1,0 +1,21 @@
+We are given two sorted array. We need to merge these two arrays such that the initial numbers (after complete sorting) are in the first array and the remaining numbers are in the second array.  Extra space allowed in O(1).
+Example:
+This task is simple and O(m+n) if we are allowed to use extra space. But it becomes really complicated when extra space is not allowed and doesn’t look possible in less than O(m*n) worst case time. 
+The idea is to begin from last element of ar2[] and search it in ar1[]. If there is a greater element in ar1[], then we move last element of ar1[] to ar2[]. To keep ar1[] and ar2[] sorted, we need to place last element of ar2[] at correct place in ar1[]. We can use Insertion Sort type of insertion for this. Below is algorithm:
+In above loop, elements in ar1[] and ar2[] are always kept sorted.
+Below is C++ and Java implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: The worst case time complexity of code/algorithm is O(m*n). The worst case occurs when all elements of ar1[] are greater than all elements of ar2[].
+Illustration:
+
+
+
+
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        
+
+

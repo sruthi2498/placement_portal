@@ -1,0 +1,72 @@
+Applied through LinkedIn
+Online Coding Round (Interviewstreet)
+======================
+One of the many ways of representing a tree is to have an array(of length same as number of nodes), where each element in the node denotes the parent of that node.
+Please note –
+* An element with parent = -1 is the root element.
+* An element with the least index becomes the left most child. (ie. a node with always be on left of all its siblings that have higher index than it)
+* When printing a level of tree you need to maintain left to right order.
+Eg –
+{-1, 0, 0, 1, 1} would represent a tree with –
+* 0 as root
+* 1 and 2 as children of 0
+* 3 and 4 as children of 1 
+Given a similar representation, you have to print reverse level order traversal of the corresponding tree.
+Level order traversal of a tree is where we traverse levels of tree one by one. 
+Eg –
+For the above given tree, level order traversal would be –
+0
+1 2
+3 4
+And hence, the reverse level order traversal is –
+3 4
+1 2
+0 
+Telephonic Round 1
+=====================
+1. Find the square root of a given integer. e.g 27 output should be 5, for 32 output should be 6.
+2. Given a 2D matrix of integers find the maximum sum path in the matrix.
+Telephonic Round 2
+=====================
+1. Given a number n, find the largest number small than having the same digits as of n. E.g. 231 output will be 213.
+2. Given a long stream of numbers find the largest k numbers at any given point.(I told him I know the question and told the solution, he moved on).
+3. Given k arrays of sorted integers, find the minimum range which contains the number from each of the k arrays.
+	e.g. {-1,4,7},{5,9,15,23},{8,24,25,31}      output should be 2 range of {7,8,9}
+4. Given a binary tree find all the nodes at k distance from a given node.
+F2F-R1 Machine Coding Round
+============================
+1. Create an employee database structure in which Employee has id,name,manager. Three functionalities required were
+	a) Given any id return all the employee details
+	b) Given any name(or id) list all the subordinates of the given employee.
+	c) Given a name search with prefix search property.
+	45 minutes of time was given and running code was asked. Interviewer first asked the approach and then after coding he reviewed the code thoroughly.
+F2F-R2 Data Structure and Algorithm
+====================================
+1. Given a list of words and a 2D matrix(of characters) find all the valid words(present in the given list) which are possible inside the given matrix.
+   Words can be formed in all 8 directions from a given cell.
+   First discussion about approach and then implementation of the logic.
+2. Given a binary tree serialize the tree such that it can be retrieved in the same form again.
+3. Given a double linked list with one pointer pointing to the next node and the other pointer to any arbitrary node in the list, duplicate the given linked list.
+F2F-R3 Hiring Manager
+======================
+1. Introduction about the organization and the work being done.
+2. My introduction and the work done by me.
+3. Asked some of the new ideas ( wow!!!!! features ) which can be implemented in the smart phone.
+4. Few other general questions.
+F2F-R4 Design Round
+====================
+1. Design the Tic-Toe game for a smart phone. Discussion about the class diagrams, structure of the code, code flow, abstraction of code and functionalities.
+2. Interviewer asked the approach to implement the above in android.
+3. Various android questions.
+F2F-R5 Hiring Manger + Reporting Manager
+=========================================
+Hiring manager was on leave so this happened after a gap of one month after R4.
+1. Introduction about work.
+2. I asked various questions about work and my role.
+3. Design a mobile cab booking application (just screens and functionalities) on board. Asked questions about the things which I missed during the design.
+   And what all requirements are needed to before the application goes in development phase.
+Response was positive from the recruiter side.
+========================================================================
+Thanks to all the contributors of GeeksforGeeks for bringing up this helpful platform for us. Hope to contribute further.
+=========================================================================
+

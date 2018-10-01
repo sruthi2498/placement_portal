@@ -1,0 +1,12 @@
+Given a matrix of N rows and M columns, consists of three value {r, g, b}. The task is to find the area of the largest triangle that has one side parallel to y-axis i.e vertical and the color of all three vertices are different.
+Examples:
+
+We know area of a triangle = 1/2 * base *height, so we need to maximize the base and height of the triangle. Since one side is parallel to the y-axis, we can consider that side as the base of the triangle.
+To maximize base, we can find the first and last occurrence of {r, g, b} for each column. So we have two sets of 3 values for each column. For base in any column, one vertex is from the first set and the second vertex from the second set such that they have different values.
+To maximize height, for any column as a base, the third vertex must be chosen such that the vertex should be farthest from the column, on the left or right side of the column having a value different from the other two vertices.
+Now for each column find the maximum area of the triangle.
+Below is the C++ implementation of this approach:
+Run on IDE
+Output:
+Time Complexity : O(M * N).
+Source: http://stackoverflow.com/questions/40078660/maximum-area-of-triangle-having-all-vertices-of-different-color

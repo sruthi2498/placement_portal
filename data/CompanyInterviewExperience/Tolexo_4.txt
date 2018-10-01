@@ -1,0 +1,59 @@
+First things first you should learn to bring interviewer in your favour every time. I learned this after giving interview of Amazon and I was rejected as I didn’t work on it.
+Online Round (1 hour 10 mins) (31 people)
+Consisted of Quantitative Aptitude, Verbal Ability, and Logical Reasoning (15 question each).
+Technical Aptitude (20 questions). No negative marking. Happened on mettl.
+Quant, verbal and logical was average. (Higher than asked in mass recruiters and less than aptitude questions asked in Amazon).
+Technical Aptitude included questions from OS (memory management), DS (basically complexities), RESTful concepts, Computer Networks.
+Tech Round 1 (40 – 45 mins)(13 people)[Those who think 40-45 minutes is a long time for a round trust me it’s not. At that moment time just passes by. ]
+1. Tell me about yourself. (This question can bring interviewer to ask what you want)
+I told him the basic stuff and at the end I just added a line that I like to work on NodeJS and love to solve puzzles.
+He then started asking questions from NodeJS.
+2. Why NodeJS was created and its advantages?
+I told him it’s lightweight, scalable and was created as to code server-side in Javascript. Told him some features as well like event emitter and callbacks. He told me do you know callbacks? (I understood he is going to ask me question about callback now).
+3. Asked me a pretty basic question about callback and then event listeners. He was then searching what to ask next. I just uttered that I like DS. (Bring things in your favour everytime).
+4. Given a 2D matrix you have to rotate it 90 degree anticlockwise.
+Told him approach of creating as same size empty matrix and copy values by rotating the elements. TC: O(mn) SC: O(mn)
+He told me to optimize further with space.
+After thinking I came up with approach of rotation. (He was satisfied didn’t tell me to code)
+5. How is the auto-search feature implemented? What DS are used?
+Told him about Trie, TST and Suffix tree. He was smiling.
+He them told me to first show some iterations of insertion of string in trie and then code it.
+I showed him the iterations and just when I was defining the structure lights went off.
+6. Given a matrix of 1’s and 0’s sorted in descending order row wise and col wise you have to find which row has maximum 1’s.
+I asked about constraints.
+Gave him the approach of traversing the matrix and then keep track of max 1’s at each row. T.C O(mn) , S.C O(1).
+He was not satisfied with the approach and told me to optimize. I thought and told him of the rows are sorted then we can do binary search on each row. Asked me the complexity TC O(mlogn). He told me to thing if it can be done in a linear complexity. Thought for 5 minutes and came up with stair search. TC O(m) He told me to code it optimally so that he cannot find any mistakes in it. It took me some time.
+7. He then asked me if I was comfortable with SQL queries. I told him no. Then he asked me what layer in OSI model does FTP, HTTP and TCP work. I gave the answer quickly since I revised it in the morning.
+He said I am done do you have any questions. I asked him about the callback question in which I got confused a little bit.
+HR Round (15-20 minutes) (13 people)
+1. He asked me about the projects which I have done and what technologies I have used.
+2. What kind of culture do you want to work in? I told him fun.
+3. How would you define fun? Just made up at that moment.
+4. 1 weakness
+5. Then he asked me to imagine myself as an app developer and I have to develop an app for kids of age 1-5 for toys what feature in app would you not include?
+I thought for a minute and said chatbox. (I don’t know what I was thinking)
+To support my answer I said flipkart introduced it and it went flop.
+He said great.
+Questions: I asked him if there is a sir structure or first name structure in company.
+Tech Round 2 (30 – 40 mins)(6 people)
+1. He introduced himself. I said I am a bit nervous right now and I have not had lunch (It was 7:15 pm). He said no worries be comfortable and asked me about my last tech round.
+2. He then asked me about my projects.
+I told him 2 projects which I like.
+One was Amazon Alexa skill and other was Ideation Tool.
+He started with Alexa skill. What Technologies.How does it work. What is Alexa, What is Echo and stuff.
+Then he started with the Ideation tool. Since I mentioned that I have used mongo DB in it. He said what’sthe difference between SQL databases and Mongo DB. When to choose mongo and when to choose SQL database?
+I was confused about when to choose and told him about structured and unstructured data. He agreed but he asked me when to choose.
+I kept on focusing on scaling and stuff but he was not satisfied.
+He told me to think about transactions in database. I knew about transactions but since I was confused I told him I have a vague figure in mind. He told ok don’t answer.
+3. Asked me about DDL, DCL and DML in databases.
+4. Asked me to convert binary string to decimal number with the optimal code so that he could not find mistakes in code.
+He though found 1 mistake and told me to optimize. I did it.
+5. Given a linked list you have to find if there exists a loop or not.
+He asked me to discuss various approaches.
+He then told me if there were any questions for him.
+I asked how much time you code in a day?
+He told me I code everyday even the CEO of company code everyday but time is not fixed.
+Result: Selected
+PS: The total process lasted about 13 hours starting from me reaching the college in morning.
+
+What to refer for programming:

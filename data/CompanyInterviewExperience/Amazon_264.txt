@@ -1,0 +1,25 @@
+1. Written Round
+20 MCQ from simple data structures, Networking, DBMS and some maths.
+2 coding questions.
+A) Interval merging problem. ( https://www.geeksforgeeks.org/merging-intervals/ )
+B) Finding the diameter and printing the path of a binary tree from one end to other. If there are more than one
+diameter then print the one which is lexicographical small.
+2. Technical Interview 1
+A) Discussed the second problem of the written round.
+Asked me to code it.
+B) Implement a circular queue using 1-D array.
+Handle all the case like condition for full, empty. Write push, pop, isEmpty function.
+C) Given three arrays. Find all the pair from the two array such that the sum of those element is in the third array.
+3. Technical Interview 2
+A) Given the preorder and the inorder traversal of a binary tree. Construct the tree.
+B) Now he said if the tree is binary search tree how you’ll solve. Asked me  to optimize as much as possible
+4. Technical Interview 3
+A) Asked me about my projects. Asked me about problem in that. Asked me to solve those problems.
+B) There is a file in secondary storage consisting name, address, phone and many other details. Now sort that file on the basis of phone no. Constraints: I have very low memory. I can’t bring all the content of file to main memory. Using indexing I have to solve that problem. I gave k-way merging approach. Now asked me to do in a different way. He gave me hint for bst. Told me to write the code.
+5. Technical Interview 4
+A) You have an infinite number coming to you. Device an algorithm to get the minimum at that time. Solved using two stack. Asked me write proper code, handle all corner cases.
+B) Given the marks of a class in BST.
+Subtract 5  marks from even ranked student. Asked me to code.
+C) Questions from OS, threading.
+And many more questions, some I don’t remember.
+

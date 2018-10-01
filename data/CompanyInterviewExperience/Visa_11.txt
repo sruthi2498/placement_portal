@@ -1,0 +1,59 @@
+ROUND 1
+It started with my introduction to which I introduced myself followed by I started mentioning about the projects I did.
+I mentioned my one of the projects on Android based on database.
+He asked me to draw the design (Class Diagram) for the same.
+Given water bottle ,design its software.
+I started with test cases followed by feasibility,requirement analysis,coding,testing.He confused me in a couple of Use cases but I had mentioned enough of them.
+How would you say that your software is good?
+I had somewhere mentioned about that my code should be clean,well commented,good documentation and SRS,should fulfill user requirements..i also mentioned how would i tackle various requirement changes using various software models.
+I mentioned the following points as well in the discussion.
+1.Modularity
+2.compatibility
+3.Maintainability
+He asked me for my favorite game?
+I replied with “Chess”
+He then drew 8*8 chessboard and asked me as to how would I place 8-queens in them(Famous N-queen problem)
+I explained him my backtracking concept.
+He was happy with the solution.
+I started placing the queens manually (code was not required)
+he asked me if i had any questions?
+I asked a couple of questions about the growth in visa.
+Round 2
+Interviewer was not interested in Data Structures ans asked for my area of Interest except Data Structures and Algorithms(very common for CSE students)
+I mentioned Web Development And Android Development.
+He started asking questions on what security issues I faced in Web Development.
+I told him about the time when I started it all with a login panel and how It got attacked by SQL Injection.
+He asked me the difference between Encoding,Encryption,Hashing
+Types of Encryption?
+I started with Encryption Techniques like DES,AES
+He gave me a hint by saying symmetric.
+I then told him the other one Asymmetric(quite trivial).I explained both encryption to him by famous Alice Bob example and public Key Private Key thing.
+Http stateless or —–?
+I replied with stateless.
+If stateless how it manages to provide user specific contents?
+Cookie I said(he was happy)
+Cross Side Scripting?
+he asked me the language and IDE’s i used for Android Development?
+Java,Eclipse Android Studio
+Asked the above question of iOS?
+I did not know the answer
+Asked me about various validations i put in a form..
+asked me fours types of methods used in form?
+he gave me a hint after which I gave two names “GET” and “POST”..i did not know the other two(PUT and DELETE)
+I told me the explain difference between GET and POST..i did that
+Why GET preferred over POST?
+I told him that GET was vulnerable to data leaking as variable and value was present in the URL.
+He was explecting the following answer.Due to limitation in size of URL we cannot use GET to pass large number of values..which POST does easily
+Why would I like to join VISA than greatly growing startup like Flipkart?
+I stuck with visa and mentioned some of their points from PPT like the patents theie employees filed and innovation related things
+No of threes in all numbers from 1-n?.
+He finshed the Interview with this puzzle..
+How many times minute and hour hand would overlap in 24 hours..
+I replied with 24(answer 22) -he asked me to count the same using the clock manually.
+ROUND 3: HR Round-(8-10 minutes)
+He asked to tell something about myself and things I learnt in last three years?
+I told him about myself ,my area of Interest,varoius projects I did,Technical Fest .I followed with personal skills like facing difficult situations..helping friends
+(continuously spoke for 5-7 minutes-in flow)
+Asked me if i had any questions for him?
+I asked him a couple of questions related to work and technologies in VISA.
+

@@ -1,0 +1,10 @@
+Given a string that may contain duplicates, write a function to print all permutations of given string such that no permutation is repeated in output.
+Examples: 
+We have discussed an algorithm to print all permutations in below post. It is strongly recommended to refer below post as a prerequisite of this post.
+Write a C program to print all permutations of a given string
+The algorithm discussed on above link doesn’t handle duplicates.
+Run on IDE
+Output: 
+The above code is taken from a comment below by Mr. Lazy.
+Time Complexity: O(n2 * n!)
+Auxiliary Space: O(1)

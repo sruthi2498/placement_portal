@@ -1,0 +1,56 @@
+Given a string and several queries on the substrings of the given input string to check whether the substring is a palindrome or not.
+Examples : 
+Suppose our input string is “abaaabaaaba” and the queries- [0, 10], [5, 8], [2, 5], [5, 9]
+We have to tell that the substring having the starting and ending indices as above is a palindrome or not.
+[0, 10] → Substring is “abaaabaaaba” which is a palindrome.
+[5, 8] → Substring is “baaa” which is not a palindrome.
+[2, 5] → Substring is “aaab” which is not a palindrome.
+[5, 9] → Substring is “baaab” which is a palindrome.
+Let us assume that there are Q such queries to be answered and N be the length of our input string. There are the following two ways to answer these queries 
+
+Since there are Q queries and each query can take O(N) worse case time to answer, this method takes O(Q.N) time in the worst case. Although this is an in-place/space-efficient algorithm, but still  there are more efficient method to do this.
+
+How to calculate the cumulative hash values ?
+Suppose our string is str[], then the cumulative hash function to fill our prefix[] array used is-
+Now the reason to store in that way is that we can easily find the hash value of any substring in O(1) time using-
+For example, hash (1, 5) = hash (“baaab”) = prefix[6] – prefix[1] = 98 * 101 + 97 * 1012 + 97 * 1013 + 97 * 1014 + 98 * 1015 = 1040184646587  [We will use this weird value later to explain what’s happening].
+Similar to this we will fill our suffix[] array as-
+Now the reason to store in that way is that we can easily find the reverse hash value of any substring in O(1) time using
+where n = length of string.
+For “abaaabxyaba”, n = 11
+reverse_hash(1,5) = reverse_hash(“baaab”) = hash(“baaab”)  [Reversing “baaab” gives “baaab”]
+hash(“baaab”) = suffix[11-1] – suffix[11-5-1] = suffix[10] – suffix[5] =  98 * 1015 + 97 * 1016 + 97 * 1017 + 97 * 1018 + 98 * 1019 = 108242031437886501387 
+Now there doesn’t seem to be any relation between these two weird integers – 1040184646587 and 108242031437886501387 
+Think again. Is there any relation between these two massive integers ?
+Yes, there is and this observation is the core of this program/article.
+1040184646587 * 1014 = 108242031437886501387
+Try thinking about this and you will find that any substring starting at index- L and ending at index- R (both inclusive) will be a palindrome if
+The rest part is just implementation.
+The function computerPowers() in the program computes the powers of 101 using dynamic programming.
+Overflow Issues:
+As, we can see that the hash values  and the reverse hash values can become huge for even the small strings of length – 8. Since C and C++ doesn’t provide support for such large numbers, so it will cause overflows. To avoid this we will take modulo of a prime (a prime number is chosen for some specific mathematical reasons). We choose the biggest possible prime which fits in an integer value. The best such value is 1000000007. Hence all the operations are done modulo 1000000007.
+However Java and Python has no such issues and can be implemented without the modulo operator.
+The fundamental modulo operations which are used extensively in the program are listed below.
+1) Addition-
+(a + b) %M = (a %M + b % M) % M
+(a + b + c) % M = (a % M + b % M + c % M) % M
+(a + b + c + d) % M = (a % M + b % M + c % M+ d% M) % M
+…. 	…..	…..	……
+….	…..	…..	……
+2) Multiplication-
+(a * b) % M = (a * b) % M
+(a * b * c) % M = ((a * b) % M * c % M) % M
+(a * b * c * d) % M = ((((a * b) % M * c) % M) * d) % M
+…. 	…..	…..	……
+….	…..	…..	……
+This property is used by modPow() function which computes power of a number modulo M
+3) Mixture of addition and multiplication-
+(a * x + b * y + c) % M = ( (a * x) % M +(b * y) % M+ c % M ) % M
+4) Subtraction-
+(a – b) % M = (a % M – b % M + M) % M [Correct]
+(a – b) % M = (a % M – b % M) % M [Wrong]
+5) Division-
+(a / b) % M = (a * MMI(b)) % M
+Where MMI() is a function to calculate Modulo Multiplicative Inverse.  In our program this is implemented by the function- findMMI().
+Run on IDE
+Output : 

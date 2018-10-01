@@ -1,0 +1,9 @@
+Given a directed tree with V vertices and V-1 edges, we need to choose such a root (from given nodes from where we can reach to every other node) with a minimum number of edge reversal.
+Examples:
+
+    We can solve this problem using DFS. we  start dfs at any random node of given tree and at each node we  store its distance from starting node assuming all edges as undirected and we also store number of edges which need to be reversed in the path from starting node to current node, let’s denote such edges as back edges so back edges are those which point towards the node in a path. With this dfs, we also calculate total number of edge reversals in the tree. After this computation, at each node we can calculate ‘number of edge reversal to reach every other node’ as follows,
+    Let total number of reversals in tree when some node is chosen as starting node for dfs is R then if we want to reach every other node from node i we need to reverse all back edges from path node i to starting node and we also need to reverse all other back edges other than node i to starting node path. First part will be (distance of node i from starting node – back edges count at node i) because we want to reverse edges in path from node i to starting node it will be total edges (i.e. distance) minus back edges from starting node to node i (i.e. back edge count at node i). The second part will be (total edge reversal or total back edges of tree R – back edge count of node i). After calculating this value at each node we will choose minimum of them as our result.
+    In below code, in the given edge direction weight 0 is added and in reverse direction weight 1 is added which is used to count reversal edges in dfs method.
+Run on IDE
+Output:
+

@@ -1,0 +1,24 @@
+Amazon visited our campus, these are the questions that I faced.
+Online Round (90 minutes)
+20 MCQs(Data structure, C, C++, OS, Probability ).
+2 programs :
+1. Given an array of integers. Segregate all the non-zero numbers at the beginning. Print the number of non-zero integers and the minimum number of swaps required for these operations.
+Eg. : I/p : 1, 0, 0, -6, 2, 0
+o/p : Number of non-zero integers : 3
+Minimum number of swaps : 2
+2. Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] and its permutations (or anagrams) in txt[]. You may assume that n > m.
+E.g. : I/p : txt[] = “BACDGABCDA” pat[] = “ABCD”
+o/p :0,5,6
+1st PI
+2nd PI
+I/p : Meeting I – 8:30 – 12:50
+Meeting II – 10:15 – 11:30
+Meeting III – 11:45 – 1:30
+O/p : 2
+3rd PI
+4th PI
+Fortunately, I was selected as an FTE in Amazon.
+Suggestions
+I would like to give a few suggestions to all the upcoming candidates :-
+A very best of luck to all of you for your upcoming interviews.
+

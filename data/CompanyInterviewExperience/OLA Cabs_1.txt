@@ -1,0 +1,34 @@
+I recently applied for OLA SDE 1 from Linkedin. HR got in contact with me via email and scheduled an interview date for F2F
+Round 1:
+The first round was a written one. There were two questions given.
+Question 1: There are two kinds of bots A and B in a 1-D array. ‘A’ bot can only move left while ‘B’ can only move right. There are also empty spaces in between represented by ‘#’. But it’s also given that the bots cannot cross over each other. Given the initial state and another state, we should tell if the transformation is possible.
+Sample Input-
+2
+#B#A# ##BA#
+#B#A# #A#B#
+Sample output-
+Yes
+No
+Question 2: This was a simple one. Find the longest subarray in an array where the first element of the subarray is greater than the last element. The entire array shouldnt be taken as a subarray.
+Sample Input-
+1
+5 4 3 2 1
+Sample output –
+5 4 3 2
+Round 2:
+The interviewer asked me to explain the answers to the above questions and I had solved both of them correctly. He checked the code and seemed satisfied. Then, he asked me two more questions
+Question 1: Given a string, how many minimum rotations are needed to get back the same string. Atleast one rotation needs to be done
+Sample Input-
+2
+abc
+abab
+Sample Output-
+3
+2
+Question 2: Find the distance between two nodes in a binary tree.
+Round 3:
+This was taken by a senior guy. He asked me to explain the work that I’ve been doing in my current company. This went on for some 20 mins.
+Then he asked me two general vague questions.
+Question 1- How do you detect if a HTTP request is coming from a human or a bot. This was a open ended question. He was just trying to understand how we’d approach this problem. He wanted five checks atleast for classifying the request as a bot-sent one. Later he asked me to design the same in terms of components needed on a white board. He kept saying if it is a valid check or not as and when I was answering.
+Question 2 – Imagine you’re the only guy in a team who is available while the rest of them are on a outing. If there’s an outage, and the entire service cannot run without this microservice, how would you tackle it? This was again a open ended question.
+Then the HR came and enquired about my current CTC, offers in hand, notice period, why OLA and other basic HR questions.

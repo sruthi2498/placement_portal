@@ -1,0 +1,40 @@
+The process was very smooth…It started with on-line round conducted on codechef. There were a total of two questions. From our college only 2 got selected for next round. We were called up in the directi office banglore for interview round.
+There was a total of three interview rounds that was conducted.
+First round –
+1 – Tell me something about yourself.
+2 – Describe Dynamic Binding? Write a code for the same to explain?
+3 – Virtual table and VTPR?
+4 – given a circle of diameter 7. A and B are two person’s standing on the diameter.A moves toward’s B with a speed of 10m/s and B moves towards A with speed of 8m/s. Both can move only across the circumference. After how much time will they meet  for the second time.(ans-33sec).
+5 – then there was a tough SQL query.
+6 – Given a string is special if every possible substring of given when reveresed is also present in the string.then return true, else return false.For example – “ABC” substring { A,B,C,AB,BC,ABC} so reverse will be – {A,B,C,BA,BC,CBA} these all should be present.
+(hint – palindrome string)
+
+Round 2
+He started with same tell me something about yourself. Then he read about the internship that i was doing involving a web app. So he asked me to explain the web project i was working.He was quite impressed as it was on django(python).
+Then he asked why i used Django.
+1- features of OOPS. not in terms of (inheritance,abstraction,etc).in simple terms. (answer about readability and maintanibility of the code and other features like destructor etc and talking of objects unlike procedural oriented language.
+2- Abstract class. why use anstract class. real time example.give a code.
+3 -interface class, why use interface. real time example with code.
+4 – Given an array with n element and a value k. find all possible combination of elements whose sum will result into k. Example { 13,2,1,5,3,15} and k = 15 ans – {13,2},{15},
+– i only gave brute force and recursive approach. and told Dp can be used bt i dont know how.
+5 – given a very large array which sort will u use.
+i answered quicksort
+then he asked everything regarding about quicksort so be prepared.
+6 – given a string check for palindrome.Ignore case. i.e A and a are same. do it in one iteration.
+This ended my second round.after each round 1 hr break was given even with food coupon for their cafeteria.
+ 
+3rd Round
+tell me something about youself
+1 given a room of n people.
+ – Number of handshake if(‘a’ shake with ‘b’ dosent mean ‘b’ shaked with ‘a’) and then number of handshake if (‘A’ shake hand with ‘B’ means “B’ also shaked with ‘A’)
+– height of a tree when number of nodes are given in balanced complete binary tree.(mathematically Ans- LOG’s)
+– BST features and complexity. why search complexity is logarithmic.
+– here a matrix was given like this.
+6   7  18 19 30 31 42
+5   8  17 20 29 32 41
+4   9  16 21 28 33 40
+3 10 15 22 27 34 39
+2 11 14 23 26 35 38
+1 12 13 24 25 36 37
+Question was all seats in first and last row are window seats.given a value identify window seats in O(1), find the nearest window seat  in O(1). generate all possible test cases that u think of and give reason why u chose those test cases. then code for the same.
+Finally interview ended and he was quite happy at last with my coding skills and logical thinking.

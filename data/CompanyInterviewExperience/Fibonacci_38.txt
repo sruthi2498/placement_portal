@@ -1,0 +1,17 @@
+Given a number N, the task is to evaluate below expression. Expected time complexity is O(1).
+Where f(n) is the n-th Fibonacci number with n >= 1. First few Fibonacci numbers are  0, 1, 1, 2, 3, 5, 8, 13, ………..i.e. (considering 0 as 0th Fibonacci number)
+Examples :
+
+Although the task is simple i.e. find n-1th, nth and (n+1)-th Fibonacci numbers. Evaluate the expression and display the result. But this can be done in O(1) time using Cassini’s Identity which states that: 
+So, we don’t need to calculate any Fibonacci term,the only thing is to check whether n is even or odd.
+How does above formula work?
+The formula is based on matrix representation of Fibonacci numbers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference : 
+https://en.wikipedia.org/wiki/Cassini_and_Catalan_identities

@@ -1,0 +1,9 @@
+The unordered_multiset::key_eq() is a built-in function in C++ STL which returns a boolean value according to the comparison. It depends on the key equivalence comparison predicate used by the unordered_multiset container. The key equivalence comparison is a predicate which takes two arguments and returns a boolean value indicating whether they are to be considered equivalent. It returns true if they are equivalent else it returns false. It is adopted by the container on construction and is similar to the (==) operator used in the comparison. 
+Syntax:
+Parameter: The function accepts two mandatory parameters args1 and args2, between whom the comparison is to be done. The data_type is same as that of the unordered_multiset.
+Return Value: The function returns a boolean value.
+Below programs illustrate the unordered_multiset::key_eq() function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

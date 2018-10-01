@@ -1,0 +1,25 @@
+I had interview with VMWare. Their process is 1 written test followed by 1 telephonic and 3/4 f2f interviews.
+Writtent test
+Very basic questions. They just wanted to see if you can code or not.
+
+Round-1 Telephonic- Pair coding
+Need to write working code on a shared document so that the interviewer can see if you can put your ideas into code
+1) Given BST, find the pairs whose sum is equal to given number
+2) Binary search.
+Other basic algo questions i forgot. 
+Round-2 F2F Interview
+I was interviewed for vcloud team so they asked me below questions
+1) What is cloud ? Why cloud ? Advantages of cloud ? Challenges in cloud ?
+2) My project
+Then started on algos
+3) Reverse every k nodes in linked list
+Write working code
+4) Reverse the elements in stack-inplace. No extra memory should be used.
+I wrote iterative solution code but interviewer asked me to write recursive solution
+One more round is supposed to happen after this but the interviewer was not available so it was cancelled.
+Have not heard any response from VMWare i also thought of not troubling them.
+
+Tips
+In telephonic round they are not bothered about time complexity of your algo. They just wanted to know if you can code whatever you think.
+So if you do not find best solution also it is OK but write the code for average case at-least.
+

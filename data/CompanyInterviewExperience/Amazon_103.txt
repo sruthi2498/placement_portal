@@ -1,0 +1,30 @@
+Round – 1:
+The first round had 20 MCQs with +1 and -0.25 marking scheme. The MCQs covered topics the included – DSA, Operating Systems, Networking, OOAD, Computer Architecture, C, C++, Java basics. There were 2 coding questions each for 10 marks.
+Question – 1: Given a set of 2 alphabets (A, B), find the number of strings of given length that can be formed such that the string contains at least one set of three consecutive B’s.
+Examples:
+Question – 2: There are ‘n’ friends who bring gifts to a Halloween party and they exchange their gifts and the array of the number of gifts each person receives is given to you. Check if such an arrangement (array) is possible and if it’s possible then, given an arrangement of the same.
+Examples:
+26 people were shortlisted for the face to face interview rounds.
+Round – 2:
+My interview lasted for about 1 hour, 45 minutes; more than expected, generally, it was 30 minutes. We were tested on our DSA in this round. My interviewer was very good, he made me feel very comfortable before we got to the actual process of the interview. He introduced himself, asked for my introduction, gave me a brief introduction on what Amazon actually does, their AWS services, Prime services, Security and Alexa.
+The candidates were asked the following questions:
+(I was the second last person, so collected questions from friends :P)
+Question – 1: Find the vertical sum of all nodes in a given binary tree.
+Question – 2: Find the maximum area under a given histogram.
+Question – 3: Find the zig-zag traversal of a given binary tree.
+Question – 4: Find ‘k’th node’s value from the end in a given binary tree.
+Question – 5: Add ‘1’ to a given number (in the form of a singly linked list) without reversing the linked list.
+Question – 6: Find a triplet among the given numbers that satisfies a + b = c.
+Question – 7: Find the largest repeated sub-sequence in a given string.
+Question – 8: Given an infinitely large array, find the given element.
+Question – 9: Maximum rain water that can be trapped in the given set of buildings.
+Question – 10: Given an infinitely large array and every element has tags associated with them, and there are about 10,000 tags (say) then sort the given array to get all tag-0’s first, tag-1’s next and so on in O(n). 
+I got the 10th question, I was asked to approach the problem in as many ways as possible, starting from O(n*n) solution to O(n*log(n)) and finally to O(n). I was asked to code the algorithm on paper for any approach the interviewer liked. Finally, after discussing with my interviewer, we came to the conclusion that my algorithm would work. I was asked to pseudo-code the O(n) algorithm. Then, I was asked to pick a comfortable language (C, C++ or Java). I picked Java, I was asked to code the whole solution on the paper with the proper implementation of all functions. My code’s modularity and loop control along with the asymptotic complexity were tested.
+I got only one question but the others were tested on 2 – 3 questions, one being hard and the rest being simple.
+After this round, 11 people were shortlisted for the next round.
+Round – 3:
+My interview lasted for about an 1 hour; more than expected, generally, it was 30 minutes. This was the final round. My interviewer asked me to get comfortable. He asked me about my projects, the languages I was comfortable with and about my club activities in the college. Then, we discussed one of my projects for some time. We discussed on Loosely coupled systems and Strongly coupled systems with respect my project. Then he had asked me if I was comfortable with Dynamic Programming, I said that I wasn’t very comfortable, so, he asked me if I was comfortable with trees. I said ‘yes’; he asked me 2 questions on trees.
+Question – 1: Given a binary search tree, find and print all leaf nodes.
+Question – 2: Convert a given binary search tree into a doubly linked list without using any additional space.
+The same method as in the 2nd round was employed here. I was asked to Pseudo-code the solution and code it in a language of my choice (C, C++, Java). Then, he asked me if I was comfortable with Operating Systems; I said ‘yes’. He started with Paging, Fragmentation, Security, Job Processing, Types of OS. He covered almost all concepts of OS. The questions were application based rather than direct topic related.
+Finally, 4 people were shortlisted and were given the opportunity to work with Amazon.

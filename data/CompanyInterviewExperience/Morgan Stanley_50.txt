@@ -1,0 +1,38 @@
+Morgan Stanley campus placement for post IT analyst. 
+1st round – objective written test
+10 questions on aptitude and analytics
+30 questions on programming
+10 questions on computer fundamentals
+They had sectional cut-off and selected 20 students
+2st round – coding written test
+5 questions on coding basically on data structures
+1. Write a function to find the mirror image of binary tree
+2. WAP to find the character which occurred maximum times in the character array
+3. Given a 2d matrix find an element in a matrix which is 0 and make the entire row and column to 0
+4. Find the minimum element in the rotated array of integers
+5. Find highest length substring such that there are equal number of 0’s and 1’sin array of 1’s and 0’s only
+3rd round – Technical interview
+1. He asked to tell something about me
+2. Then he asked a questions on my projects and internship
+3. Then he asked me to write a modified bubble sort
+4. Asked me to design a structure for storing stock market details for every quote/ company and store it as a linked list and asked me to write a linked list function like insertion and initialization
+5. Then he asked me to store the live data of particular company of every 5 minutes and the history should be of 10 days, so it’s a huge amount of data so it’s very inefficient to use linked list so suggested to use hash map or circular array as it of fix size of 10 days.
+6. There were other simple questions on data structures and databases
+4th round – Group Task/Discussion
+The group was formed by 6 people. They provided some 8-10 pictures based on business ethics and then we have to form a story using this pictures in 15 minutes and after this time they provided again 6 pictures and we have to include it in our story. And then we have to tell the story in group in 2 minutes. Then they asked some questions and asked us to rate everyone else in the group.
+5th round – technical interview
+Most of the questions were on databases and operating systems. Then some are probability questions
+1. If your friend is being pointed by a gun by his enemy, consider a barrel of 6 bullets but it has only 2 bullets which were consecutive too, then an enemy rotates the barrel and push into a gun then he fires the trigger but the shit was empty, then he gave a choice for 2 shot that do you want to rotate the barrel again(randomly) or continue in this position only, so we have to find both the probabilities and find which one is lesser so that we can save our friend
+2. The other question was we have to print
+10 – 60% of the time we execute the program
+20 – 10% of – –
+15 – 30% of –
+So we have to write a code so that when we execute the code for 100 times there will be 60 – 10’s, 10 – 20’s, 30 – 15’s
+Then asked me to draw tables for database of college for students, professors, time table and courses.
+6th round – HR interview
+Before going for HR interview we have to fill the form which has some common questions and all things about you like books you read, hobbies, place where you want to work, about post grad.
+Normal HR round was there and asked some common questions such as about me, my past, my grades, interests, hobbies, pros – cons, achievements.
+Also about future plans like post grad and position after 5 years, then he given some puzzles to solve the 100 prisons and 100 prisoners question to toggle the doors 
+I really really thank geeksforgeeks for sharing very good questions for placement preparation.
+Run on IDE
+

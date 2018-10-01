@@ -1,0 +1,4 @@
+Given an integer N, the task is to find a string(considering only lowercase characters) of length (N+1) such that the character at any position should be lexicographically greater than its immediate next character.
+Examples:
+Approach:
+Run on IDE

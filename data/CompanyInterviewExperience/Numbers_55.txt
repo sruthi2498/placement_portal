@@ -1,0 +1,26 @@
+Which of the following are prime numbers ?
+(i) 147
+(ii) 327
+(iii) 547
+(iv) 637
+(A) 147
+(B) 327
+(C) 547
+(D) 637
+ Answer: (C) Explanation: (i) 147
+132 = 169 > 147. Prime numbers less than 13 are 2, 3, 5, 7, 11.
+147 is divisible by 3. Therefore, 147 is not a prime number. It is a composite number.
+ 
+(ii) 327
+192 = 361 > 327. Prime numbers less than 19 are 2, 3, 5, 7, 11, 13, 17.
+327 is divisible by 3. Therefore, 327 is not a prime number. It is a composite number.
+ 
+(iii) 547
+242 = 576 > 547. Prime numbers less than 24 are 2, 3, 5, 7, 11, 13, 17, 19, 23.
+547 is not divisible by any of the above prime numbers. Therefore, it is a prime number.
+ 
+(iv) 637
+262 = 676 > 637. Prime numbers less than 26 are 2, 3, 5, 7, 11, 13, 17, 19, 23.
+637 is divisible by 7. Therefore, 637 is not a prime number. It is a composite number.
+ 
+Hence, 547 is the only prime number among the given numbers.Quiz of this Question

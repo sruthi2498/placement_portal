@@ -1,0 +1,9 @@
+The unordered_multiset::count() is a built-in function in C++ STL which returns the count of elements in the unordered_multiset container which is equal to a given value. 
+Syntax: 
+Parameters:  The function accepts a single mandatory parameter val which specifies the element whose count in the unordered_multiset container is to be returned. 
+Return Value: It returns an unsigned integral type which denotes the number of times a value occurs in the container. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

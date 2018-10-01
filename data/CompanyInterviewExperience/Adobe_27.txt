@@ -1,0 +1,22 @@
+Given an array of 2n elements in the following format { a1, a2, a3, a4, ….., an, b1, b2, b3, b4, …., bn }. The task is shuffle the array to {a1, b1, a2, b2, a3, b3, ……, an, bn } without using extra space.
+Examples:
+
+Method 1: Brute Force
+A brute force solution involves two nested loops to rotate the elements in the second half of the array to the left. The first loop runs n times to cover all elements in the second half of the array. The second loop rotates the elements to the left. Note that the start index in the second loop depends on which element we are rotating and the end index depends on how many positions we need to move to the left.
+Below is implementation of this approach:
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n2)
+Method 2: (Divide and Conquer)
+The idea is to use Divide and Conquer Technique. Divide the given array into half (say arr1[] and arr2[]) and swap second half element of arr1[] with first half element of arr2[]. Recursively do this for arr1 and arr2.
+Let us explain with the help of an example.
+Note: This solution only handles the case when n = 2i where i = 0, 1, 2, …etc.
+Below is  implementation of this approach:
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n log n)
+Linear time solution

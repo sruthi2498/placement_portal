@@ -1,0 +1,27 @@
+20 Objective type questions (Technical: OS, Java, Networking) and 2 programs. Time given was 90 minutes.
+1) Longest Remaining Rime Scheduling
+2) Threads
+3) subnetmask – classB – 64 departments
+4) Match the following
+SMTP
+BGP
+TCP
+PPP
+5) On recursion, value of f(513,2) 
+6) Complexity? 
+7) Frog steps either 1, 2 or 3 steps to go to top. In how many ways it reaches the top?
+Based on recursion, options
+a) f(i) = f(i+1)+f(i+2)+f(i+3)+1
+b) f(i) = f(i-1)+f(i-2)+f(i-3)+1
+c) f(i) = f(i+1)+f(i+2)+f(i+3)
+d) f(i) = f(i-1)+f(i-2)+f(i-3)
+8) Based on java 2 questions, one from Exceptions 
+9) Preorder is given, we had to find out the postorder 
+10) Memory management, pa=32bit, la=36bit , frame size=2^12, first page entry, second page entry
+11) This question is from GATE CS previous question papers
+Programs:
+1) Print left view of binary tree
+2) Sum of 3 linked list 
+Sum(linkedlist1, linkedlist2, linkedlist3)
+We had to print the linkedlist form of the digit.
+

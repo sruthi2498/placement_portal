@@ -1,0 +1,7 @@
+Written round:
+1. Write a parser which takes java file as input and give count of uncommented lines as output. I wrote code with regular expressions, but I think he was expecting some state transition sort of approach.
+2. Given a large file in which one no. occurs in strict majority(>50%). Find that no.
+F2F:
+1. Mostly discussed written round questions.
+2. Secondary sort with map reduce.
+

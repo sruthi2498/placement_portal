@@ -1,0 +1,12 @@
+Round 1: 2 questions on mettle – online judge
+1. longest palindrome of a given string.
+2. There are n candies and K student. candies are distributed in a order that 1st student get 1 candy, 2nd get 2, 3rd get 3 and so on till nth student. now, 1st student gets k+1 candy, 2nd get k+2, 3rd gets k+3 and so on. if there are not enough candies to be given to candidate then all the remaining candies is given to that candidate. return an array where its element represent number of candies (i-1)th candidate get.
+Round 2 : 
+1. There are two threads, one printing even number and 2nd printing odd number. write code to print number 1 to N in increasing order. (can be solved using wait and notify using a Boolean variable as shared lock).
+2. Zig zag traversal of a binary tree.
+3. Given an array of numbers, find the largest sum of a subsequence of array. subsequence does not contain number which are adjacent to each other. (solved using dp in order n with space n).
+Round 3:
+1. What is critical section in terms of thread, how do we handle it, write code to demonstrate simultaneous seat selection handling while booking a seat on bookmyshow. assuming bookmyshow is handling seat configuration.
+2. Next largest palindrome of the given number.
+Round 4:
+Write code to solve sudoku.

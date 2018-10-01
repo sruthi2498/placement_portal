@@ -1,0 +1,7 @@
+A rational is represented as p/qb, for example 2/3.  Given a sorted array of rational numbers, how to search an element using Binary Search. Use of floating point arithmetic is not allowed.
+Example:
+We strongly recommend you to minimize your browser and try this yourself first.
+To compare two rational numbers p/q and r/s, we can compare p*s with q*r.  
+Run on IDE
+Output: 
+Thanks to Utkarsh Trivedi for suggesting above solution.

@@ -1,0 +1,65 @@
+Cisco Interview Process:
+Round 1:
+50 MCQs
+Duration: 1 hr
+20 – Math Aptitude. 30 – Technical
+Technical part included questions from Computer organization, Some problems from OS(finding logical address), Networks (problem on finding transmission latency), 8085 Microprocessor, 2-3 C++ (finding output/error), MOSFET, Direct Memory Access, etc.
+[ I don’t remember any question exactly. But the question paper was very tough!! I did the math well. But I wasn’t sure of most answers in the technical part. Never expected to get selected! ]
+ Round 2:
+Face to face interview- Technical
+ Duration: 1 hr
+There were questions from OS, Data structures, Aptitude, Networks, and some C questions.
+Some questions that I still remember were:
+    1.    Given a sorted array a[] find the pairs of number that add up to x.
+    For eg: a[]={1,2,4,5,8,15,18,22} x=20
+    Output: (2,18) , (5,15)
+    2.    Given
+     unsigned char c=1100 0010; (Note that it’s a variable ; not an array.)
+        U need to reverse this and and return the resut.
+        Answer: 0100 0011 (Stored in a variable. No arrays have to be used.)
+    3.    How will you set a bit in a number?
+     Eg. int i=1110 0001. Set 6th bit.
+     Output: 1110 0101
+    4.    Given a tree (not a BST), pointers to any 2 nodes in the tree, how will you find their least common ancestor?
+
+    In the above diagram, least common ancestor of the nodes in 4 and 5 is 2. For the nodes 2 and 3, 1 is the LCA.
+    For Eg:  You will be given the pointers to the nodes whose LCA is to be determined.     You need return the address of the LCA node.
+    Each node has the following structure: 
+    5.    What is the difference between logical and physical addresses?
+    6.    Some questions related to web designing.(As I had mentioned it in my areas of interest.)
+    7.    What happens in the background when you type the URL www.google.com ? You need to answer it with respect to the 7 layers of OSI architecture.
+    8.    Given an n x n grid,
+    Say n=3 
+
+You are standing in the left bottom corner. You need to reach the destination in the top right corner. You can move either in upward or east direction (as specified in the diagram). In how many possible combinations can you reach there? Your answer should be generic to any value of n.
+[I did the technical round really well and the interviewer was happy with my performance.?]
+
+Round 2:
+Partial HR, Partial Technical
+Duration: 45 minutes
+Questions were mostly about my areas of interest, projects. As I kept explaining him about my projects he asked me to write some code snippets for those. And many questions were from OS, Networks like:
+    1.    When does a process create a child process?
+    2.    What happens in the background when fork() / pthread system call is used?
+    3.    What are the different IPC mechanisms?
+    4.    How does a pipe work? What happens when pipe symbol ‘|’ is used in command line?
+    5.    What is compaction and what are its disadvantages?
+    6.    What are the steps in establishing socket connection in client & server side?
+He asked me how much I like network programming and whether I could do it in Linux.
+Some questions that were purely HR were:
+    1.    What are the 3 most valuable things you have learnt in your engineering college?
+    2.    How will you convince your team member to accept your idea/suggestion?
+    3.    What will you do if your team member always conflicts your ideas and reports you to the manager?
+    4.    What kind of job do you wish for?
+    5.    What will make you quit a job?
+    6.    You prefer being in the Technical / Managerial side?
+    7.    Other possible questions from my resume (Responsibilities undertaken, Achievements)
+Round 3:
+It was a complete HR.
+Duration: 50 minutes
+Questions were about me, my family, areas of interests, extra-curricular activities, other interests, projects. He was talking about Cisco for about 20 minutes.
+That was all!
+On the whole, clearing the written test was the toughest part. Technical – if you are really good at data structures and basics of networking, OS – it’s easy to crack it !
+I got my results by around 1:30 midnight! Hired 😀
+Thank You sooo much GeeksforGeeks.
+Without you this would not have been possible!! 
+

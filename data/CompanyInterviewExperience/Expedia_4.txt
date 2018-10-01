@@ -1,0 +1,14 @@
+Given coordinates of a source point (x1, y1) determine if it is possible to reach the destination point (x2, y2). From any point (x, y) there only two types of valid movements:
+(x, x + y) and (x + y, y). Return a boolean true if it is possible else return false.
+Note: All coordinates are positive.
+Asked in: Expedia, Telstra
+Examples:
+
+The problem can be solved using simple recursion. Base case would be to check if current x or y coordinate is greater than that of destination, in which case we return false. If it is not the destination point yet we make two calls for both valid movements from that point.
+If any of them yields a path we return true else return false. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

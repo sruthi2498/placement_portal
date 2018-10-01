@@ -1,0 +1,36 @@
+Senior android Developer
+
+Coding Round:
+1. https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+2. Longest Increasing Subsequence
+https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/
+First Round:
+ 1. find “longest line” of 1’s in array. Hoizontal and Vertical. Array is made only of 0’s and 1’s, and looks for example like this:
+4 4
+0 1 1 1
+0 1 0 1
+0 1 1 0
+1 0 1 0
+  2. 2D Array is made only of 0’s and 1’s, you have to find number if island.
+Second Round:
+ 1. Some Android question / Some java questions basic
+ 2. Sort an array of 0s, 1s and 2s
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+ 3. Check if string are palindrome.
+
+Third Round:
+ 1. Design the architecture of payTM market place.
+ 2. Some random questions on Java like threading , collections , hashmap etc.
+ 3. Why HashTable not allow NULL but Hashmap allow.
+ 3. Array question of finding mission number. etc
+Fourth Round:
+ 1. Singleton patterns
+ 2. Design your own Arraylist.
+ 3. Sorting of linkedlist.
+ 4. https://www.geeksforgeeks.org/array-rotation/
+ 5. LRU cache
+ 6. Recycler view vs list view.
+ 7. Services, Fragment, app optimization, retainInstance() in fragment, Asynctaskrotation problem etc
+ 8. Graph traversal for circular loop example.
+ 9. Find max of Stack optimize way.
+

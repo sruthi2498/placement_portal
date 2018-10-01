@@ -1,0 +1,33 @@
+Written test:
+They conducted written test in HackerRank and an hour duration. They asked me to implement the functions for the following two problems.
+1) Maximum product Sum of an Array.
+https://www.geeksforgeeks.org/maximum-product-subarray/
+2) Building bridges problem.
+https://www.geeksforgeeks.org/dynamic-programming-set-14-variations-of-lis/
+Technical Interview 1:
+He is very friendly and given hints to me while solving problems.
+1) First he asked me about an overview of my current project then most challenging thing faced in the project. After my response, he asked me what you learnt from that challenging thing.
+2) Given an array of integers of the size of n, it contains zeros in random positions, we need to move all zeros to end of the array in a single scan without extra space.
+https://www.geeksforgeeks.org/move-zeroes-end-array/
+3) Merging point of two linked lists.
+https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+4) questions related to programming languages
+      a) about inheritance
+      b) about classes and interfaces
+      c) abstract classes and virtual functions, …
+5) He given a situation and asked me to design required classes and functions which are useful to program that situation.
+6) The last question is given a number we need to find the next nearest number in 2^n.
+input: 127 output: 128
+input: 129 output: 256 
+
+Technical Interview 2:
+He asked me very simple questions, but he wants to cover each and every corner case.
+1) Reverse group of elements in a linked list
+https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+2) perform push,pop and min operations of stack in O(1) time.
+https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+Some suggestions:
+1) Practice on paper, don’t practice on the computer.
+2) While practicing, we should try do the question our own then see the answer, don’t go directly to the answer. 	 
+
+

@@ -1,0 +1,8 @@
+count_if() function returns the number of elements in a range that satisfy the condition.
+Examples:
+Syntax: 
+The count_if function takes three parameters, the first two of which are the first and the last position of the sequence of the elements (where the last position is not included in the range) while the third parameter is the function that takes the element of given sequence one by one as a parameter and returns a boolean value on the basis of condition
+specified in that function.
+Then, count_if() returns the number of elements in the given sequence for which the comparator function
+(third parameter) returns true.
+Run on IDE

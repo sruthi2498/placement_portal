@@ -1,0 +1,13 @@
+Given a rectangular grid of dimension 2 x n. We need to find out the maximum sum such that no two chosen numbers are adjacent, vertically, diagonally or horizontally.
+Examples:
+
+This problem is an extension of Maximum sum such that no two elements are adjacent.  Only thing to be changed is to take maximum element of both row of a particular column. We traverse column by column and maintain maximum sum considering two cases.
+1) An element of current column is included.  In this case we take maximum of two elements in current column.
+2) An element of current column is excluded (or not included)
+Below is the implementation of above steps.
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+

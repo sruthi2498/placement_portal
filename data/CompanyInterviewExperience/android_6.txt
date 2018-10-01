@@ -1,0 +1,10 @@
+WebView is a view that display web pages inside the application. It is used to turn the application into a web application.
+Class Hierarchy :
+MainActivity.java
+Run on IDE
+ 
+activity_main.xml
+In the xml file only use of WebView is made inside RelativeLayout.
+Run on IDE
+In AndroidManifest.xml, one needs to include below permission, in order to access internet:
+

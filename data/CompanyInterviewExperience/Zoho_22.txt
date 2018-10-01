@@ -1,0 +1,65 @@
+
+
+There are many patterns for first round such as (Aptitude + C), (Flowchart + C)… For me, it is Flowchart + C.
+If you are good at dry run you will surely clear this round. Problems consist of complex loops and nested loops.
+Mostly we need to predict the output and statements which would give the desired output.
+There will be no multiple choice questions.
+
+ ROUND 2 – PROGRAMMING ROUND – 1 
+Try using C language. Because for me they didn’t allow languages other than C.
+
+1.  Find the maximum of three numbers?
+
+
+2.  Print the total number of odd and even digits in the given number.
+
+
+3.  Find the second maximum among the given numbers.
+
+
+4.  Print the following pattern
+
+
+5.  Given a two dimensional array which consists of only 0’s and 1’s. Print the matrix without duplication.
+
+
+6.  Given an array of positive numbers. Print the numbers which have longest continuous range.
+
+
+7.  Given two arrays. Find its union.
+
+
+8.  Given an array of numbers. Print the numbers without duplication.
+
+
+9.  Given an array of numbers and a number k. Print the maximum possible k digit number which can be formed using given numbers.
+
+
+10.  Given an array of numbers and a window of size k. Print the maximum of numbers inside the window for each step as the window moves from the beginning of the array.
+
+ ROUND – 3 ADVANCED PROGRAMMING 
+
+1. Given a MxN matrix filled with ‘-‘ and you need to drop the balloons in the desired columns starting from the bottom. You need to print the matrix when a new balloon is dropped.
+You need to continue getting inputs until the box is full or until the user chooses to stop.
+
+
+2.  Extended version of the previous problem. Now you need to quit when a row become filled completely.
+
+
+3.  Extended version of the previous problem. Now you need to drop balloon in the first free cell from left if the specified column is filled in every row.
+
+
+4.  Extended version of the previous problem. If any column has three continuous balloons of same colors then we need to burst them.
+
+
+5.   Extended version of the previous problem. Now you need to burst the three continuous colors in the same row.
+
+ Technical HR 
+The number of technical HR rounds may vary depending on your performance in the previous HR rounds. Some of them were sent to incubation if they weren’t convincing for the HRs.
+Questions were from Java, Data structures, approach for the given scenario, databases, and logical apps.
+ General HR 
+Simple questions like why Zoho, any other current offers, about Zoho, about family, why did you choose CSE, higher studies,…
+
+
+
+

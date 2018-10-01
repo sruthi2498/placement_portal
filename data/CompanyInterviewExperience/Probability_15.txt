@@ -1,0 +1,15 @@
+Given two arrays A and B, a random pair is picked having an element from array A and another from array B. Output the probability of the pair being maximum weighted.
+Examples:
+
+Brute Force Method : Generate all possible pairs in N^2 time complexity and count
+maximum weighted pairs.
+Better Method : Sort both the arrays and count the last (max) elements from A and B. No. of maximum weighted pairs will be product of both counts. The probability will be
+(product of counts) / sizeof(A) * sizeof(B) 
+Best Method Best approach will be to traverse both the arrays and count the maximum element. No. of maximum weighted pairs will be product of both counts. The probability will be (product of counts) / sizeof(A) * sizeof(B) 
+Below is the implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,56 @@
+Hi, Recently i was interviewed for Amazon SDE-1 Position in Hyderabad.There a telephonic round followed by 4 F2F rounds.
+Telephonic Round:
+1. Given a array find all the triplets which satisfy the triangle property(sum of      2 sides should be greater than third side)
+https://www.geeksforgeeks.org/find-number-of-triangles-possible/
+2. Given a array find whether it is majority array or not.
+Complexity: O(n) Space complexity O(1)
+https://www.geeksforgeeks.org/majority-element/
+F2F Round 1:
+1. Given a dependency where for java packages p1,p2,p3
+p1:{p2,p3}
+p2:{p3}
+p3:{}
+This means p1 can be compiled when compilation of p2 and p3 done
+p2 can compile when p3 is compiled
+p3 can start as it does not have any dependence.
+Figure out strategy to find the order of compilation of processes.
+Ans:Topological sorting
+2. Discussion on project
+        Asked all concept related to my final year project.
+3. Current project in company
+        Challenges faced at company
+2F Round 2:
+1. Given a binary tree print its side view from left from bottom to top and right side view as up to downward .
+Eg. For image 1 output will be 3, 1, 2, 5, 6, 7, 8
+
+and for Example 2( image 2) output should be  C, B, A, D, F, I, L
+
+2. Given a string find largest palindrome sub string in it.
+I gave him https://www.geeksforgeeks.org/longest-palindromic-substring-set-2/ this answer .
+then he asked me using DP
+https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+3. What is virtual memory?
+4. What is paging in OS?
+2F Round 3:
+1. Why are you looking for change in 6 months of experience .
+2. Discussion on how to send notification to friends when a user post on social network like facebook
+The discussion was on when to load friend list of user and he was expecting we should load friend list when user login.
+2F Round 4:
+1. Discussion on current project challenges faced
+  Situation when you have to take decision in absence of your team    lead/Manager
+2. Why are you looking for change in 6 months of experience 
+3. Given a special binary tree structure given in image 3
+      A node have 3 node pointers left,right and next
+Two adjacent node share there left and right as shown in tree
+Give tree whose node are set with next pointer as null.
+you have to set the next pointer as shown in the figure .
+If any node is null then the next of its prev node should be next of that eg. a -> b -> c (a’s next is b ,b’s next is c) if b is null then a’s next should be c.
+
+4. What is virtual memory?
+5. What is segmentation fault?
+Note :- They expect fully working code in all round.
+Tips: 
+1. Think loud they always support you
+2. Ask for hint if not getting.
+
+

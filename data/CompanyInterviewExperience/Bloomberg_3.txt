@@ -1,0 +1,14 @@
+I applied through the careers page.
+There were 2 interviewers. The interview was scheduled for 90 minutes, to be held on Nexi(Bloomberg ‘s video conference tool)  along with live coding on HackerRank codepair.
+There were connectivity issues for good 15 to 20 minutes, nothing to panic about, the interviewers were pretty calm and patient about it. Nexi couldn’t connect till the end, so we had to do it via VidyoMobile application over the cellphone. 
+The interview started with both of them introducing themselves. What teams they worked in, what technologies they particularly used.
+Then they went on to ask me to tell about myself. Start off with your educational background, college, year, why you are a computer engineer etc. End it up with any interest or hobby. This was the first 20 minutes. 
+Then they asked about any recent project or internship you wanted to share. So I explained my most recent internship in detail. Where I did it, what I did. What I learned, why. 
+They then also asked that since your resume has a lot of Machine Learning and big data and stuff, and our particular team doesn’t really do much of that kind of work. I expressed that I am very open in that regard, if anything, I have an inquisitive mind, and I like trying and exploring a lot of things, as is reflective of my resume. 
+This lasted for 15 – 20 odd minutes. 
+Then they asked me, why do you want to join Bloomberg. Is this data analysis stuff the major reason. I started off with a yes, emphasizing how Bloomberg being essentially a data analysis, media company helps people make smart decisions, wise decisions, based on data points. I also mentioned of the company culture at Bloomberg, that I read about, how there is a flat structure to the organization. That is something I could relate to from my first internship experience and not the second (I did my first internship at a company with a workforce of 30 people, and the second with a workforce of 1,00,000 or more, worldwide)
+This was around 5-10 minutes. 
+Then they moved on to coding. Two problems were asked(one by each interviewer) .
+The first was to reverse the sequence of words in a string. Words are separated by spaces (any number) and we have to preserve the number of spaces, in order. They specifically said that there won’t be a need to run the code. Just write it down on the compiler, but yes, keep it syntactically correct.
+I used two vectors to store the words and the count of spaces. They went through the code, I did a dry run, explaining to them all the while, what part does what.
+I had used the reverse function to reverse the words vector. They asked if there was an alternative. Easy enough, iterate from right to left, straight forward.

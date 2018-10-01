@@ -1,0 +1,11 @@
+It compares the first count characters of the arrays pointed to by buf1 and buf2.
+Syntax:
+Example 1.  When count Greater than zero( > 0)
+Run on IDE
+Output:
+Example 2. When count  less than zero( < 0)
+Run on IDE
+Output:
+Example 3 : When count  equal to zero ( = 0)  
+Run on IDE
+Output:

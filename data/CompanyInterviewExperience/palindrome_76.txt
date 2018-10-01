@@ -1,0 +1,13 @@
+Find all numbers less than n, which are palindromic.  Numbers can be printed in any order.
+Examples :
+
+Brute Force:  We check all the numbers from 1 to n whether its decimal representation is palindrome or not. 
+Efficient Approach:  We start from 1 and create palindromes of odd digit and even digits up to n. For every number (starting from 1), we append its reverse at end if we need even length palindrome numbers. For odd length palindrome, we append reverse of all digits except last one.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Note that the above program doesn’t print output in sorted order. To print in sorted order, we can store palindromes in a vector and store it.

@@ -1,0 +1,15 @@
+For the given length n, find all n-length Strobogrammatic numbers. 
+Strobogrammatic Number is a number whose numeral is rotationally symmetric so that it appears the same when rotated 180 degrees. In other words, Strobogrammatic Number appears the same right-side up and upside down.
+
+0 after 180°  rotation : (0 → 0)
+1 after 180°  rotation : (1 → 1)
+8 after 180°  rotation : (8 → 8)
+6 after 180°  rotation : (6 → 9)
+9 after 180°  rotation : (9 → 6)
+Examples : 
+ 
+Below is the Python3 implementation :
+Run on IDE
+Output :
+ 
+Reference : https://en.wikipedia.org/wiki/Strobogrammatic_number

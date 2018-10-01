@@ -1,0 +1,19 @@
+Round 1 (Online Test):
+ Four Programming Questions-
+ a) Given a string find number of different substrings that are palindromes.
+ b) In a matrix we can destruct it’s one column by vanishing any of the element in column . We have to destruct the  matrix completely so that sum of the elements destucted by us (not that destructed itself) is minimum, given the constraint that atleast one of the elements in a row should be canceled by us. Output is that minimum sum.
+ c) Given N points in a grid we have to find all different(altlest one uncommon side) squares of side length K.  N, K and points will be input and number of different squares will be output.
+ d) Given an array we have to sort that in inceasing order such that value of V is minimum.   where V = sum(position of element in given array * position of element sorted array), position of element is 1  based.    Output is sorted array and V.
+
+ Round 2 (Interview Round 1): Concepts of OOPs like Polymorphism and Inheritance and questions related to projects done.
+
+ Round 3 (Interview Round 2):
+ 1. Some more OOPs concepts.
+ 2. Data Structures like Hashmap, Sorting algos (Quick sort and Merge sort) (complextiy and just how to implement  them).
+ 3. What is Java (as it was my primary programming language).
+ 4. Difference between static and dynamic programming languages.
+ 5. Implementation of Linked List (Code with proper syntax).
+ 6. How to find Square root of a number (without using inbuilt functions, best efficient way O(logN)).
+ 7. In a array each number is stored twice except one that is placed only once. (Best efficient O(logN)).
+ 8. In a sorted array having elements from 1 to N, only one is missing and so array size is N-1. Find missing  number in best efficient way (O(logN)) and without possibility of overflow.
+

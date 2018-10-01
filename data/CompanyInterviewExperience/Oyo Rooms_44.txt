@@ -1,0 +1,23 @@
+Location: Gurgaon
+Round 1: Written Test
+1. Find number of pairs with sum S in an array
+Sample input: [3,4,5,6,1,2]  3
+Explanation: [{3,4},{6,1},{5,2}]
+2. Move all elements greater than 10 to the right side of the array.
+Round 2: tech
+1. Write function power(a, b) which return a^b in O(log b) time
+2. Given a matrix with cost of visiting each cell move from 0,0 to m,n in minimum cost when
+you can only move left or down.
+3. Given a binary tree check that if its a binary search tree or not
+4. Shuffle a given array. You are given a random(n) function which returns randomaly from 0 – (n – 1)
+Round 3: tech
+1. Explain your projects.
+2. Project related: Why HTML5 is slower than native. How can we improve this.
+3. What are promises/event loop in context of node.js
+4. How to scale.
+5. You have to design three classes Food, Vegetables, Fruits where Vegetables and Fruits are subclass of Food. Create objects from Vegetables and Fruits classes named Potato and Apple. function getname has to be implemented in Food which if called will print “I am a Vegetable Potato”.
+Round 4: CTO
+1. Your life experience.
+2. Why OYO.
+3. Explain your projects.
+4. What is considered as a good business plan.

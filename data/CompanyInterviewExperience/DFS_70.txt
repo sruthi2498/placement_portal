@@ -1,0 +1,11 @@
+Given an undirected graph, print all connected components line by line. For example consider the following graph.
+
+We strongly recommend to minimize your browser and try this yourself first.
+We have discussed algorithms for finding strongly connected components in directed graphs in following posts.
+Kosaraju’s algorithm for strongly connected components.
+Tarjan’s Algorithm to find Strongly Connected Components
+Finding connected components for an undirected graph is an easier task.  We simple need to do either BFS or DFS starting from every unvisited vertex, and we get all strongly connected components.   Below are steps based on DFS.
+Below is C++ implementation of above algorithm.
+Run on IDE
+Output
+Time complexity of above solution is O(V + E) as it does simple DFS for given graph.  

@@ -1,0 +1,24 @@
+Given two integer arrays of same size, “arr[]” and “index[]”, reorder elements in “arr[]” according to given index array. It is not allowed to given array arr’s length.
+Example:
+Expected time complexity O(n) and auxiliary space O(1)
+We strongly recommend you to minimize your browser and try this yourself first.
+A Simple Solution is to use an auxiliary  array temp[] of same size as given arrays.  Traverse the given array and put all elements at their correct place in temp[] using index[]. Finally copy temp[] to arr[] and set all values of index[i] as i.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to gccode for suggesting above solution.
+We can solve it Without Auxiliary Array. Below is algorithm.
+Below is implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to shyamala_lokre for suggesting above solution.
+ Another Method  without using auxiliary array is to sort the arrays.
+Sort the index array and customize the sort to swap the arr[] data whenever you swap the index[] data.
+Run on IDE
+Output:
+Time Compexity: O(nlogn)

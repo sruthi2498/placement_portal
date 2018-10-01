@@ -1,0 +1,29 @@
+Level order traversal of a tree is breadth first traversal for the tree. 
+
+Level order traversal of the above tree is 1 2 3 4 5 
+METHOD 1 (Use function to print a given level)
+Algorithm:
+There are basically two functions in this method.  One is to print all nodes at a given level (printGivenLevel), and other is to print level order traversal of the tree (printLevelorder). printLevelorder makes use of printGivenLevel to print nodes at all levels one by one starting from root.
+Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n^2) in worst case.  For a skewed tree, printGivenLevel() takes O(n) time where n is the number of nodes in the skewed tree. So time complexity of printLevelOrder() is O(n) + O(n-1) + O(n-2) + .. + O(1) which is O(n^2).
+METHOD 2 (Use Queue)
+Algorithm:
+For each node, first the node is visited and then it’s child nodes are put in a FIFO queue.
+Implementation:
+Here is a simple implementation of the above algorithm. Queue is implemented using an array with maximum size of 500. We can implement queue as linked list also.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n) where n is number of nodes in the binary tree
+
+References:
+http://en.wikipedia.org/wiki/Breadth-first_traversal
+Please write comments if you find any bug in the above programs/algorithms or other ways to solve the same problem. 

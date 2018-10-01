@@ -1,0 +1,11 @@
+I had recently given Interview at Lenskart.com for Application Developer
+First Round
+Telephonic with HR on some basic stuff. 
+Next was the round where i was given some below questions
+Q1. Given 2 arrays of integers,find whether they will form the same binary search tree.
+ Exp :- 2,1,3 and 2,3,1 will form the same binary search tree.
+Q2. Given a dictionary of words, find all possible sentences that can be formed from a string with no spaces. 
+Q3. Write a code to find all subsets of a given set:-
+Exp: {1,2,3} will give {1},{2},{3},{1,2},{1,3},{2,3},{1,2,3}
+Q4. Design a parking lot
+

@@ -1,0 +1,9 @@
+The basic_string::c_str() is a builtin function in C++ which returns a pointer to an array that contains a null-terminated sequence of characters representing the current value of the basic_string object. This array includes the same sequence of characters that make up the value of the basic_string object plus an additional terminating null-character at the end. 
+Syntax:
+Parameter:  The function does not accept any parameter. 
+Return Value : The function returns a constant Null terminated pointer to the character array storage of the string.
+Below is the implementation of the above function:
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

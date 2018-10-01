@@ -1,0 +1,6 @@
+Given a non-negative number n and a value k. Find the kth smallest number that can be formed using the digits of the given number n. It is guaranteed that the kth smallest number can be formed. Note that the number could be very large and may not even fit into long long int.
+Examples:
+
+The idea is to first sort digits and find the smallest number, then find k-th permutation starting from smallest number.  To sort digits, we use an frequency counting technique as number of digits are small.
+Run on IDE
+Output:

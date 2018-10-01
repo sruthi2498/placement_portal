@@ -1,0 +1,47 @@
+Flipkart recently visited my college for recruiting for SDE-1 profile. Here I am sharing my interview experience.
+First Round: 2 coding questions on HackerRank (90 minutes).
+1) Given a matrix of n*n. Each cell contain 0, 1, -1.
+0 denotes there is no diamond but there is a path.
+1 denotes there is diamond at that location with a path
+-1 denotes that the path is blocked.
+Now you have start from 0,0 and reach to last cell & then return back to 0,0 collecting maximum no of diamonds.
+While going to last cell you can move only right and down.
+While returning back you can move only left and up.
+2) Given an array of integers you to find the range l,r such that  and operation of largest  two element in that range is maximum.
+For example:
+Input
+6 1 6
+Output
+1 3
+You have to print lexicographically smallest range.
+After this round 23 students got shortlisted for interviews.
+
+Second Round: Around 45 minutes (Face-to-Face)
+He start with a ice breaker question. Tell me something about yourself??
+Then he moves to some coding question
+1) Given a 2D array, find the maximum sum subarray in it.
+https://www.geeksforgeeks.org/dynamic-programming-set-27-max-sum-rectangle-in-a-2d-matrix/
+2) There is a stream of integer coming. At any given point of time you have to tell median of numbers.
+I give three solution to this problem using hashmap , sorting , and self balancing augmented binary tree.Finally he got satisfied ?
+3) He ask me binary index tree (Fenwick tree). Each and every concept of Fenwick tree.
+4) The stock price of each day is given. You have to find the maximum profit you can make by buying or selling this stocks. https://www.geeksforgeeks.org/stock-buy-sell/
+
+Third Round: Around 45 minutes (Face-to-Face)
+He ask me some questions on my projects. Then he asked me some coding questions.
+1) Given a 2D array containing 0 & 1. 0 denotes water body & 1 denotes land you have to tell total no island.
+http://www.spoj.com/problems/COUNTISL/
+2) You can use bfs or dfs to solve this question. He ask me to write the full code for this problem.
+LRU implementation. Check my code on boundary conditions.
+3) You have 100 documents each containing 100 words. You have to make disjoint set such that each set contains same document. By same documents he means document containing same words but can be in any order.
+Firstly,  I thought of trie. But he ask me to optimize my code. Then I use set and various different data structures to solve this question.    
+Hiring Manager Round: Around 1 hour (Face-to-Face)
+He ask me some HR questions like your bad and good experiences in college.
+Why should we hire you??
+Why should we not hire you??
+Then he ask me to explain polymorphism to my grandmother??
+Then he ask me normalization in dbms , why do we need normalization??
+What are the various normalization forms??Explain them??
+What is primary key ,candidate key And  super key??
+Given a binary tree you have to print the outer boundary of tree??
+
+

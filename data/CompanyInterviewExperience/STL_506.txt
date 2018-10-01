@@ -1,0 +1,10 @@
+C++ program to merge two sorted arrays of length ‘n’ and ‘m’ respectively in sorted order.
+Examples:
+We have discussed other approaches in below posts
+Merge two sorted arrays with O(1) extra space
+Merge two sorted arrays
+We can quickly merge two sorted arrays using std::merge present algorithm header file.
+Below is the implementation using std :: merge
+Run on IDE
+Output:
+In general, syntax of merge() is 

@@ -1,0 +1,32 @@
+I had a chance to interview with Goldman Sachs through the Women Engineers Campus Hiring Program. A 90 minute online test was conducted on Hackerrank which had the following format:
+    • 2 coding questions of 10 marks and 20 marks – (45 minutes)
+    • 7 MCQs of 10 marks each with -2 negative marking – (45 minutes)
+Out of the 2 coding questions 1 was easy based on string manipulation. Other was related to arrays and was of medium difficulty level. The MCQs were general computer science and analytical problems. Out of 9000+ who appeared for online round 60 were called to the Bengaluru office for F2F interviews. There were 3 rounds of interview.
+Round 1
+    1. About my summer internship work in detail.
+    2. Smallest subarray with sum greater than or equal to a given value. Gave quadratic and linear time solution.
+(https://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/)
+    3. What are threads and processes in Java? Difference between them.
+    4. Explain garbage collection in java. What data structures are used for it?
+    5. Design a garbage collector.
+Out of 60, 34 were selected for second round. 29 were for full-time position, 5 for internship.
+Round 2
+    1. C pointers, difference between C and Java. Do we have switch case in Python?
+    2. Types of constructors with example
+    3. Java strings, its methods, are they immutable.
+    4. Discussion about 2-3 projects mentioned on my resume
+    5. Difference between http and https
+    6. What is deadlock and it’s 4 conditions
+    7. OSI model, TCP/IP model, function of each layer
+    8. Job scheduling in windows
+    9. Where are passwords stored in Linux? Basic Linux commands
+    10. SDLC approach to a design problem
+    11. Puzzles:
+    • One bulb, 3 switches, minimum attempts to know the bulb’s switch.
+    • Josephus problem.
+Round 3
+    1. Given an n-ary tree, find two farthest nodes i.e. the longest path and distance between them. (using BFS)
+    2. An array with lengths of ropes given, we need to connect these ropes into one rope. We can join 2 ropes at a time. Each join has cost equal to its length associated with it. Find minimum possible cost to make the combined long rope. (using min heap)
+    3. A 2 player coin game puzzle
+I was not selected. Though it was an amazing interview experience with Goldman Sachs. They predominantly focus on data structure and algorithms. GeeksforGeeks and competitive programming prove to be of immense help in such interviews.
+4 were selected for FTE and 4 for internship.

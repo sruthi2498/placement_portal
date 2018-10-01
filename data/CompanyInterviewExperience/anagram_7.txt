@@ -1,0 +1,12 @@
+Given two strings str1 and str2 of length n1 and n2 respectively. The problem is to find the length of the longest subsequence which is present in both the strings in the form of anagrams.
+Note: The strings contain only lowercase letters.
+Examples:
+
+Approach: Create two hash tables say freq1 and freq2. Store frequencies of each character of str1 in freq1. Likewise, store frequencies of each character of str2 in freq2. Initilaize len = 0. Now, for each lowercase letter finds its lowest frequency from the two hash tables and accumulate it to len.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n).
+Auxiliary Space: O(n).

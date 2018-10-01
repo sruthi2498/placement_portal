@@ -1,0 +1,87 @@
+Interview Process:
+Round 1 consist of
+40 min : General Aptitude
+Quant : 20questions
+L.R. : 20questions
+20 min : C aptitude (20questions)
+75 min : 3 coding questions
+Round 2 : 3 coding questions
+
+Round 3 : 3 coding questions
+
+Round 4 : Tech PI
+
+Round 5 : HR
+Usually CSE, IT, MCA n ECE branches are allowed to appear, around 400 students took part.
+After Round 1 only 24 students shortlisted.
+After Round 2 only 10 students shortlisted.
+After Round 3 only 6 students shortlisted.
+After Round 4 only 4 students shortlisted.
+All 4 selected for final employment which consist of 1 ECE n 3 IT students.
+They usually focus on ur problem solving skills and algorithmic design capabilities. they dont care if have written pseudo code coz coding round is pen paper based (I know we all hate that).
+Just write at least 2 gud code with better time n space complexity because in Tech PI, they will judge u on the basis of ur code(last round paper) n OOPs skil. they will ask u to improve ur code complexities, if u do it their. trust me u are selected!!!
+HR is just formality with basic questions.
+Process is too long, i think gud also coz its give u enough time to prepare urself, though u get to know about shortlisting for next round just 2 or 3 days before.
+TIP: write code with best time n space complexities. thats all folks!!
+
+Interview Questions:
+Round 1
+R1a. Given a string , write a in place function to title case every first letter of words in string.
+input: “I love programming”
+output: “I Love Programming”
+R1b. Write a function to sort a matrix with respect to second column elements.
+input: 7 5 2 8
+2 6 5 9
+1 1 4 2
+0 3 5 9
+output: 1 1 4 2
+0 3 5 9
+7 5 2 8
+2 6 5 9
+R1c. Given an array of string and interleaved word, write a function to output the words in
+array used to make a interleaved word.
+StringArray : {“cat”, “bat”, “father”, “mother”}
+InterleavedWord : “fcaatther”
+output : “father”
+“cat”
+Round 2
+R2a. Write a function to remove vowels from a input string, without using extra memory(in
+place code)
+input : “My name is Varun Sharma”
+output : “My nm s Vrn Shrm”
+round 2
+R2b. Given a 2D matrix whose every row is sorted, write a function to output 1D array with
+all elements in sorted arrangement from matrix with no duplicates
+input: 4 5 12 20
+2 6 5 90
+1 2 4 6
+0 3 5 9
+output: 0 1 2 3 4 5 6 9 12 20 90
+R2c. Write a function to output all possible subsets with zero sum from 1D array.
+input: {-2,-3,-9, 9, 5, 10, 23}
+output: -2 -3 -9 9 5
+-2 -3 5
+-9 9
+
+Round 3
+R3a. Given a string check if it is Pangram or not. A pangram is a sentence containing every
+letter in the English Alphabet.
+Input: “The quick brown fox jumps over the lazy dog ”
+output: TRUE
+R3b. Given a 2D array, find the maximum sum submatrix in it with a given size.
+Input : matrix[n][n] = {{1, 1, 1, 1, 1},
+{2, 2, 2, 2, 2},
+{3, 8, 6, 7, 3},
+{4, 4, 4, 4, 4},
+{5, 5, 5, 5, 5},
+size : 3
+output: Maximum sum 3 x 3 matrix is
+8 6 7
+4 4 4
+5 5 5
+R3c. Given a sorted array, write a function to perform a dictionary sort on it without
+converting them into a string
+input: {1, 2, 3, 15, 22, 30, 100, 110, 150, 160, 250, 300}
+output: {1, 100, 110, 15, 150, 160, 2, 22, 250, 3, 30, 300}
+
+

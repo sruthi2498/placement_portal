@@ -1,0 +1,12 @@
+Consider a circle with n points on circumference of it where n is even. Count number of ways we can connect these points such that no two connecting lines to cross each other and every point is connected with exactly one other point. Any point can be connected with any other point.
+Examples :
+We need to draw n/2 lines to connect n points.  When we draw a line, we divide the points in two sets that need to connected. Each set needs to be connected within itself.  Below is recurrence relation for the same.
+If we take a closer look at above recurrence, it is actually recurrence of Catalan Numbers.  So the task reduces to finding n/2’th Catalan number.
+Below is implementation based on above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)
+Auxiliary Space : O(n)

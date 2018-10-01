@@ -1,0 +1,15 @@
+Prerequisites : std::sort in C++, vector in C++, initialize a vector in C++.
+Run on IDE
+Output : 
+How to sort in descending order?
+sort() takes a third parameter that is used to specify the order in which elements are to be sorted. We can pass “greater()” function to sort in descending order. This function does comparison in a way that puts greater element before.
+Run on IDE
+Output : 
+How to sort in particular order?
+We can also write our own comparator function and pass it as a third parameter.
+Run on IDE
+Output : 
+Related Articles : 
+
+Sorting a vector of pairs | Set 1
+Sorting a vector of pairs | Set 2

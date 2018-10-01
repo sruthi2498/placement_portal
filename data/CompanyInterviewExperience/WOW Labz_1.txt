@@ -1,0 +1,25 @@
+Interview was for position of MEAN Stack Developer.
+First Round
+ 5 Questions. Relatively Easy ones just required use of if and for. 
+Second Round with the CTO. 
+Talked about my Resume. One question from Algorithm and Data Structures on Graph and hopping.
+Question : Given a finite set of three letter words How will you find out minimum number of hops required to reach from one word to the other.
+Conditions :
+Hops should be minimum.
+Resulting word should be in the set. 
+Ex
+Input [‘sat’,’cat’,’rat’,’tap,’stt’]
+‘sat’
+‘stt’
+Output 1
+Questions on MEAN 
+Ques 1 : What apps have you created in Node and How ? How much Angular did you use?
+Ques 2 :  Explain session and cookie in your code.
+Ques 3: How does session remember details of every member that logs in. Like thousand people open flipkart. Now what they choose, what they see is being stored. and also there cart. On code level how will you achieve it?
+Ques 4 : What are callbacks ? Why callbacks came into existence?
+Ques 5 : Scope of variable in javascript.
+Ques 6 : Classes in Javascript.
+Ques 7 : Which driver you use to interact with mongo from Nodejs.
+Round 3 : 
+HR Round with Product manager.
+General questions about current and expected pay. 

@@ -1,0 +1,40 @@
+Morgan Stanley came for Full Time recruitment for Software Associate in our campus.
+Round 1
+Online test on HackerRank contains 19 MCQ (DS, OS, DBMS, and Reasoning etc.)2 Coding Questions
+1.       Count the number of changes in LED Light when display one digit after another of a given number. (Initially all LED is off)
+Example:
+Given number – 082
+Answer: 9
+Explanation: Initially 0 has 6 LED On, then for 8 we will turn on 1 more LED, then for 2 we turn off two LEDs so 6+1+2 = 9.
+2.       Given an array on n integers containing numbers 1,2,3 & 4 where
+1 is No work is done
+2 is A work is done
+3 is B work is done
+4 is either A or B work is done
+Find the minimum number of free days such that no same work can take place two days simultaneously.
+Those who done 1 coding question complete and at least 6 MCA correct are selected for next round.
+23 are shortlisted for direct interview. I was one of them.
+
+Round 2
+Face to Face Technical Interview Round (50 minutes)
+1.       Tell me about yourself?
+2.       Discussion on 2nd coding question of round 1 with better approaches.
+3.       Given 10 computers and 20 persons who want to use these computers, what type of scheduling you will use?
+4.       What if a person using a computer ask for more time in between?
+5.       Which type of scheduling is done in Windows 10 OS?
+6.       How google chrome tabs are loaded through scheduling?
+7.       Give a parking lot which can contain n cars at max. Each parking area is of different size. Only the car of that size can park in that area (neither smaller nor bigger).
+Design a data structure with program on how you will tell the incoming cars to park at what position and also which cars you can neglect.
+Example –
+Park = {2,1,2,3,3,4,2,4,1} (Size of Park Area)
+Cars = {1,2,5,1,2,4,2,3,2,1} (Size of Car)
+Solution: Car – Index
+1 – 1, 2 – 0, 5 – NA, 1 – 8, 2 – 2, 4 – 5, 2 – 6, 3 – 3, 2 – NA, 1 – NA
+8.       Design a Database of student, subject and marks and describe various keys and attributes.
+
+Some Questions asked to my Friends –
+1.       What are Smart Pointer?
+2.       What starts first when computer is turned on?
+3.       Process state diagram with explanation?
+6 were selected for Group Activity round, I was not one of them.
+

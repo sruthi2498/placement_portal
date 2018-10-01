@@ -1,0 +1,9 @@
+Given arrival and departure times of all trains that reach a railway station, find the minimum number of platforms required for the railway station so that no train waits. We are given two arrays which represent arrival and departure times of trains that stop.
+Examples:
+
+We have already discussed its simple and sorting based solutions in below post.
+Minimum Number of Platforms Required for a Railway/Bus Station.
+In this post, we are inserting all the arrival and departure times in a multimap. The first value of element in multimap tells the arrival/departure time and second value tells whether it’s arrival or departure represented by ‘a’ or ‘d’ respectively.
+If its arrival then do increment by 1 otherwise decrease value by 1. If we are taking the input from STDIN then we can directly insert the times in the multimap and no need to store the times in the array. 
+Run on IDE
+Output: 

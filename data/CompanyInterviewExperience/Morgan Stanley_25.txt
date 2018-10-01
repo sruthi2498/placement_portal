@@ -1,0 +1,48 @@
+Morgan Stanley visited our college to hire summer interns(3rd year students).
+Firstly, an online test was conducted(90 minutes duration) on HackerRank, consisting of 19 MCQs(Data Structures, C concepts, programming concepts, data interpretation, verbal skills) and 2 coding questions(One based on string manipulation and other based on All-Pair Shortest Path Graph).
+12 out of around 100 students were shortlisted for the interviews.
+There were 3 rounds of interviews.
+
+1. HR Interview
+This was my first interview ever(I had given many vivas during my school years, but never gave an interview before), so was feeling pretty nervous.
+The interviewer asked if I was feeling nervous, to which, I replied “Yeah, somewhat nervous!”. The questions that followed were:
+*Tell me about yourself.
+*What do you know about Morgan Stanley?
+*What did you do in your summers, at the end of 2nd year?
+*Your CodeChef and HackerRank rank.
+*Tell me any one incident of your life that you feel is regretful?
+*Apart from Morgan Stanley, were you interested in any other companies?
+*Why Morgan Stanley?
+*Your strengths.
+*How do you see yourself 5 years from now?
+and many more such kind of questions.
+Then I asked him whether we’d choose our preferred location(Mumbai or Bengaluru) or would they allot us randomly, and on the life at Morgan Stanley.
+
+2. Technical Interview
+*Explain Call by Value and Call by Reference, using call stack, giving suitable examples. (Written Code)
+*Is it possible to find the factorial of a given number without using any loop or recursion?(Written Code)
+*Given a binary tree, print all the boundary nodes, i.e., all the leftmost, rightmost, and leaf nodes.(Written Code)
+*What do you know about Operating Systems?
+*Differences between Windows and Linux, advantages of Linux over Windows.
+*Explain about the Task Manager and its various processes.
+*Threads and processes.
+*Difference between the operation of Chrome and Firefox.
+*Differences between C and C#.
+*Explain Linked Lists in detail.
+*What will you prefer for Stack implementation- Arrays or Linked Lists?
+*Given a processor, which is running various processes simultaneously, of different time duration. These processes are stored in a circular linked list of fixed size. There are processes in waiting as well, which are stored in a queue. We have to print the id number of processes that have just finished, and add the waiting process from the queue to this circular linked list. At the same time, the time duration of other processes get reduced by some fixed amount. Repeat this till the queue as well as circular linked list gets exhausted(out of elements). (Written Code)
+Then I asked him about the projects that we’ll be working on. He was a friendly person and told me about many live projects that they generally give to interns at Morgan Stanley. He also explained in detail about the project he is currently working on.
+3. Technical + HR Interview
+Firstly, the interviewer asked me what do I know about Morgan Stanley and its functioning and provided services in brief.
+Then he asked me about my favourite topic, to which I replied Data Structures.
+What are stacks and queues?
+What is OOP?
+Then he gave me a real-life scenario of managing a lift/elevator system. You have 3 lifts, and one control on each floor, i.e., the same up-down button can call any of the 3 lifts. Design the system, considering various factors in mind, like how to prioritize the selection of lifts, on the basis of the floor difference or on the basis of time, or on some other basis. Then he gave me some examples of floor numbers where the lift gets called, and the initial position of the lift, and asked me how I would handle these scenarios. It was a long discussion, lasting for about 15-20 minutes, where he gave me various situations and asked my approach. Basically, he just wanted to know my thought process, and my approach and logic towards solving such real-life scenarios. Then at last, he asked me the data structure I would be using for this implementation, to which I replied ‘Doubly Linked List’.
+He then asked some HR questions:
+*What are your strengths?
+*What are your weaknesses?
+*Why Morgan Stanley?
+and many more.
+Selected 5 students for the internship.
+Overall, it was a good experience, and a memorable one too!
+

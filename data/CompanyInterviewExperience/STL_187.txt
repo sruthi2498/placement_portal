@@ -1,0 +1,6 @@
+The list::size() is a built-in function in C++ STL which is used to find the number of elements present in a list container. That is, it is used to find the size of the list container.
+Syntax:
+Parameters: This function does not accept any parameter.
+Return Value: This function returns the number of elements present in the list container list_name.
+Below program illustrate the list::size() function in C++ STL:
+Run on IDE

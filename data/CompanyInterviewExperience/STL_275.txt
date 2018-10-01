@@ -1,0 +1,8 @@
+Array classes are generally more efficient, light-weight and reliable than C-style arrays. The introduction of array class from C++11 has offered a better alternative for C-style arrays.
+This function returns the maximum number of elements that the array container can contain.
+In case of an array, size() and max_size() function always return the same value
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:

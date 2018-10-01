@@ -1,0 +1,4 @@
+Round 1 : Telephone + Codepair on Hackerrank
+Coding question
+Given an array, delete elements of array one by one. If you delete ‘n’, you will delete all occurrences of ‘n’ and you will score points equal to n*(frequency of n in array). Now after this operation, you have to delete all occurrences of (n-1) and (n+1) and score no points. Again choose a new element and repeat the process until array is empty.
+

@@ -1,0 +1,19 @@
+Deque or Double ended queues are sequence containers with the feature of expansion and contraction on both the ends. They are similar to vectors, but are more efficient in case of insertion and deletion of elements at the end, and also the beginning. Unlike vectors, contiguous storage allocation may not be guaranteed.
+begin() function is used to return an iterator pointing to the first element of the deque container. begin() function returns a bidirectional iterator to the first element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Time Complexity : O(1)
+end() function is used to return an iterator pointing to the last element of the deque container. end() function returns a bidirectional iterator to the last element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Time Complexity : O(1)

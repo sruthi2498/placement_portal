@@ -1,0 +1,10 @@
+Function Coding Questions are similar to normal coding questions apart from the fact that one does not need to read input and print output from standard I/O while writing solutions.
+In function coding question, one just needs to complete a function already written in the code editor. You need to work on inputs provided as a parameter to this function and instead of printing the result you will have to return it from the function.
+Let’s take the example of a sample function problem: Equilibrium Index of an Array. The pattern of question is almost the same as that of normal programming questions. In function problems, you can notice an additional information provided as “Task” after the output format which clearly explains that the user only needs to complete a function and return the result from it.
+ 
+You can also see that in the code editor for this question there is already a function written with name findEquilibrium().
+
+This function accepts an array A[] and an integer n which denotes the size of the array A[]. You can see in the above image that the body of this function is empty. You need to write your complete code inside the body of this function and return the result from it without writing a separate main() function. You must assume that there is already a main() function written which is invoking this function and write your program accordingly.
+Below is the complete working solution for the above question:
+Run on IDE
+Important things to remember

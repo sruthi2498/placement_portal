@@ -1,0 +1,35 @@
+Goldman Sachs Interview Experience
+Round1:
+1.	Introduce yourself and what are the projects you have worked on and detail discussion about the most recent project.
+2.	Implement queue without using any data structure
+3.	Producer consumer problem
+4.	In one of the process you are making calls to three APIs. You don’t know how much time it will take to return the results from those APIs. Design the system efficiently.
+5.	Design a parking lot system
+6.	What is lazy loading? Advantages and disadvantages of the same
+Round2:
+1.	Detail discussion about the most recent project
+2.	Asked me about the favourite topic in C++. I told polymorphism and memory management. He asked me about when a process start execution what are the different memory segments allocated to it and how they are managed.
+3.	Implement smart pointer of your own.
+4.	Questions regarding virtual functions and its implementation and  how its solves different design problems.
+Round3:
+1.	Introduce yourself and detail discussion about the current project
+2.	How will you implement your own garbage collector in C++?. Detail discussion regarding approaches and their trade offs.
+3.	Puzzle: there are two candles and each  candle take 30 minutes to burn. How will you measure 45 minutes? You dont have any instruments with you.
+4.	Design an olympic game
+Round4:
+1.	Design a traffic light system
+2.	Discussion about the projects done
+Round5:
+1.	What are the different libraries you have used in c++
+2.	Longest increasing subsequence and its implementation with dynamic programming
+3.	Quicksort and heapsort and which one of them you will choose
+4.	Difference between c++ and C#.
+5.	Why do you want to join Goldman Sachs and what will you bring to Goldman Sachs?
+Round6:
+1.	Tell me about the work which you have done and about which you are most proud of
+2.	Detail discussion about the current project
+3.	Different types of collection in C# and difference between hashmap and hashtable and their internal implementation
+4.	Difference between buffered IO and unbuffered IO. Advantages and disadvantages
+5.	How ajax works? Difference between angular js and jquery
+
+

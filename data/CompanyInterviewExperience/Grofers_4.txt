@@ -1,0 +1,18 @@
+Grofers On Campus Interview Experience :
+Round 1 : (Online test)   Section-wise time
+Online test was amcat which consisted of quant,verbal,LR etc.  and 2 coding q’s. (Sectional wise cut offs were present).
+Q. Rat and maze problem (not backtracking ,rat can move just right and down).
+Q. Implementation of quick sort (In built sort doesn’t work).
+Round 2 : (F2F)  30min.
+Q. 26 identical coins in weight and 1 different coin (lighter or heavier than those 26) .Have to find out those one different coin in min number of comparisons.Also if it is lighter or heavier.
+Q. Given a pile of coins and 2 players can remove either 1,2,…,5 from the pile in his chance.Player to pick last coin loses the game.What would your strategy be?
+Round 3: (F2F)
+Discussion on Resume and Projects.
+Q. Derive merge sort complexity.
+Q. Quick sort vs Merge sort. Pivot choices in Quick sort? Asked how to find the median when i told about pivot as median.
+– Told about quickselect method.
+Q. Different methods to obtain fibonacci series , Space complexity of fibonacci recursion.
+Q. Implement Min in stack in O(1).
+Q. Indexing in database. Different methods of indexing . When to use method1 ?,when method 2 ? etc..
+Round 4 : (HR)
+Routine HR round.

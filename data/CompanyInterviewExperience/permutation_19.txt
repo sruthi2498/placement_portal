@@ -1,0 +1,20 @@
+A permutation, also called an “arrangement number” or “order”, is a rearrangement of the elements of an ordered list S into a one-to-one correspondence with S itself. A string of length n has n! permutation ( Source: Mathword )
+Below are the permutations of string ABC.
+ABC ACB BAC BCA CBA CAB
+We have discussed different recursive approaches to print permutations here and here.
+How to print all permutations iteratively?
+A simple solution to use permutations of n-1 elements to generate permutations of n elements.
+For example let us see how to generate permutations of size 3 using permutations of size 2.
+Permutations of two elements are 1 2 and 2 1.
+Permutations of three elements can be obtained by inserting 3 at different positions in all permutations of size 2.
+Inserting 3 in different positions of 1 2 leads to 1 2 3, 1 3 2 and 3 1 2.
+Inserting 3 in different positions of 2 1 leads to 2 1 3, 2 3 1 and 3 2 1.
+To generate permutations of size four, we consider all above six permutations of size three and insert 4 at different positions in every permutation. 
+An efficient solution is to use Johnson and Trotter algorithm to generate all permutations iteratively.
+
+
+
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        
+
+

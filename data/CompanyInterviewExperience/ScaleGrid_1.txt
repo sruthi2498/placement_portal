@@ -1,0 +1,9 @@
+Scaledgrid is a start-up providing mongodb as service on cloud. I had a skype interview and below are the questions.
+1) You have a single core cpu. Your applications does a lot of I/O operations. Can multi-threading used for making the application more efficient ?
+2) A cluster consists of some finite number of server. A cluster is configured to use a DB(mongo db). Given that you have “n”(which can be large) clusters, give the design for a system for taking the periodic back-ups of these clusters.
+      	a) For each cluster, the cluster user would configure the start time to start taking the back-up and how frequently the back-up can be taken
+      	b) Assume you have backupservice.takebackup(Cluster cluster) throws BackUpFailedException method available
+      	c) Can multi-threading be used ?
+      	d) How is timer going to be implemented ?
+      	e) the takebackup() method can throw exception if backing up fails. How is this handled
+      	f) Define required classes with the data and methods

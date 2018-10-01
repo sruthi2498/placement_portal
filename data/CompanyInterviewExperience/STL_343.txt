@@ -1,0 +1,26 @@
+
+Priority queues are a type of container adaptors, specifically designed such that the first element of the queue is the greatest of all elements in the queue.
+push() function is used to insert an element in the priority  queue. The element is added to the priority queue container and the size of the queue is increased by 1. Firstly, the element is added at the back and at the same time the elements of the priority queue reorder themselves according to priority.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if the value passed doesn’t match the priority queue type.
+2. Shows no exception throw guarantee if the parameter doesn’t throw any exception.
+Run on IDE
+Output:
+pop() function is used to remove the top element of the priority queue.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if a parameter is passed.
+2. Shows no exception throw guarantee if the parameter doesn’t throw any exception.
+Run on IDE
+Output:
+Application : push() and pop()
+Given a number of integers, add them to the priority queue and find the size of the priority queue without using size function.
+Algorithm
+1. Push the given elements to the priority queue container one by one.
+2. Keep popping the elements of priority queue until it becomes empty, and increment the counter variable.
+3. Print the counter variable.
+Run on IDE
+Output:

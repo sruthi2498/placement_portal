@@ -1,0 +1,19 @@
+Hi all,
+Recently I had been interviewed at Mindfire Solutions, Bhubaneswar for the role of Software Development.
+Round 1: Online Coding round which consists of 5 coding questions in a non-decreasing order of marking. Languages Preferred: C, C++, JAVA. Time allotted: 2 hrs. 
+Q1.  Code to find out the perimeter of a given hexagon.
+Q2.  Code to  Reverse words in a string. https://www.geeksforgeeks.org/reverse-words-in-a-given-string/ 
+Q3.  Given an array of strings : { “Sdjksajd”, “Skjdasjj”, “Bjsdakja”, “Xhudhau”, “Eeeeggg”, “Chrome”}. Display them in alphabetical order without using library functions .
+O/P:- “Bjsdakja_Chrome_Eeeeggg_Sdjksajd_Skjdasjj_Xhudhau“.
+Q4.    I didn’t remember the exact question.
+Given p number of men sitting in a circular table. A man initiates hitting his team-mates in a clockwise cyclic order. He hits his neighbour at distance(k) ,where k>0. His neighbour then hits k th fellow neighbour and eliminates himself. This process continues until there is only one survivor. Find the number of steps it took to kill all men and find out the survivor.
+Refer: https://www.geeksforgeeks.org/josephus-problem-set-1-a-on-solution/
+Q5.   Given a string “XYZ” .Print all permutations in sorted lexicographic order.
+Refer: https://www.geeksforgeeks.org/lexicographic-permutations-of-string/
+Round 2: After clearing Round 1, you will be having an Online Psychometric test. Duration: 1 hrs. 
+Note:- Attempt all qustions. 
+Round 3: Technical Interview I. Time: 1.5 hrs. Questions asked were purely based on resume. 
+9.  Write a code to convert “BUCKY ROBERTS” to “BR_UO_CB_KE_YR_R_T_S”.
+Round 4: Technical Interview II. Time: 1.5 hrs approx. 
+HR Round: 
+All basic formal questions were asked.

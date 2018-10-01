@@ -1,0 +1,9 @@
+The unordered_multimap::max_bucket_count() is a built-in function in C++ STL which returns the maximum number of buckets that the unordered multimap container can have. This is the maximum it can have, it cannot exceed despite the collisions due to certain limitations on it. 
+Syntax:
+Parameter: The function does not accept anything. 
+Return Value: The function returns the maximum number of buckets possible. 
+Below programs illustrate the unordered_multimap::maximum_bucket_count() function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

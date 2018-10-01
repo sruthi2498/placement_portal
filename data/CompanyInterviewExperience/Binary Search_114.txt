@@ -1,0 +1,16 @@
+java.util.Collections.binarySearch() method is a java.util.Collections class method that returns position of an object in a sorted list.
+The method throws ClassCastException if elements of list are not comparable using the specified comparator, or the search key is not omparable with the elements.
+Searching an int key in a list sorted in ascending order:
+Run on IDE
+Output : 
+Searching an int key in a list sorted in descending order.
+Run on IDE
+Output : 
+Searching in a list of user-defined class objects:
+Run on IDE
+Output : 
+Arrays.binarysearch() vs Collections.binarySearch()
+Arrays.binarysearch() works for arrays which can be of primitive data type also. Collections.binarysearch() works for objects Collections like ArrayList and LinkedList. 
+Important Points:
+Reference : 
+https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#binarySearch(java.util.List,%20T)

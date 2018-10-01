@@ -1,0 +1,8 @@
+We are given an array of strings, we need to sort the array in increasing order of string lengths.
+Examples:
+
+A simple solution is to write our own sort function that compares string lengths to decide which string should come first. Below is the C++ implementation that uses Insertion Sort to sort the array.
+Run on IDE
+A better solution is to use sort function provided by programming languages like C++, Java. These functions also allow us to write our own custom comparator. Below is C++ implementation that uses C++ STL Sort function.
+Run on IDE
+

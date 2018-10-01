@@ -1,0 +1,7 @@
+Given a dictionary of words, find all strings that matches the given pattern where every character in the pattern is uniquely mapped to a character in the dictionary.
+Examples:
+
+The idea is to encode the pattern in such a way that any word from the dictionary that matches the pattern will have same hash as that of the pattern after encoding. We iterate through all words in dictionary one by one and print the words that have same hash as that of the pattern. 
+Below is C++ implementation of above idea –
+Run on IDE
+Output:

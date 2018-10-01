@@ -1,0 +1,11 @@
+Given a string containing uppercase alphabets and integer digits (from 0 to 9), the task is to print the alphabets in the order followed by the sum of digits.
+Examples:
+Asked in : Facebook
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Reference : 
+https://www.careercup.com/question?id=13382661

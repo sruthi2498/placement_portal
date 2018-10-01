@@ -1,0 +1,9 @@
+Given an undirected graph and a set of vertices, we have to count the number of non reachable nodes from the given head node using depth first search.
+Consider below undirected graph with two disconnected components:
+
+In this graph if we consider 0 as head node, then the node 0, 1 and 2 are reachable. We mark all the reachable nodes as visited. All those nodes which are not mark as visited i.e, node 3 and 4 are non reachable nodes. Hence their count is 2.
+Examples:
+
+We can either use BFS or DFS for this purpose. In below implementation DFS is used. We do DFS from given source. Since the given graph is undirected, all the vertices that belong to the disconnected component are non-reachable nodes. We use the visit array for this purpose, the array which is used to keep track of non-visited vertices in DFS. In DFS, if we start from head node it will mark all the nodes connected to the head node as visited. Then after traversing the graph we count the number of nodes that are not mark as visited from the head node.
+Run on IDE
+Output: 

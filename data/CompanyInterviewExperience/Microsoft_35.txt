@@ -1,0 +1,40 @@
+Round 1:
+It was a coding test which was held on CoCubes platform. 3 problems were given of varying marks:
+2 marks: Given a string, find the first non-repeating character in it. For example, if the input string is “GeeksforGeeks”, then output should be ‘f’ and if input string is “GeeksQuiz”, then output should be ‘G’.
+https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+This question was really easy to solve. Just simple implementation by using HashMap.
+3 marks: Given a number, find the next palindrome larger than the number.Number was in String format.
+5 marks: Given a singly linked list L0 -> L1 -> … -> Ln-1 -> Ln. Rearrange the nodes in the list so that the new formed list is : L0 -> Ln -> L1 -> Ln-1 -> L2 -> Ln-2 …
+https://geeksforgeeks.org/rearrange-a-given-linked-list-in-place/
+Round 2 (Fly Round) : It was a pen and paper round. We need to solve the problem given to us on paper using Brute force as well as optimised approach.
+Q1. Given an array A[] of n numbers and another number x, determines whether or not there exist two elements in S whose sum is exactly x.
+https://geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+Q2. The problem was to count all the possible paths from top left to bottom right of a m X n matrix with the constraints that from each cell you can either move only to right or down
+https://geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+1. Write well. Good handwriting matters to some extent.
+2. Write the approach first and comment your code well.
+3. At last write the time complexity and space complexity of the solution you wrote. All these really matters to an extent.
+12 students were selected for the next round.
+Round 3 (Technical Interview): 
+This was a Face2Face round.
+He first asked me to introduce myself and then asked me about my internship.Then he started asking me questions from Object Oriented Programming. The questions were:
+Q. What do you know about virtual destructors? I answered it briefly . He was satisfied with my answer.
+Q. What is Run time and Compile time polymorphism? Explain and give examples.
+Q. What is method overloading ? What are the different ways to overload a method ?Write a piece of code for method overloading. Whether it supports run time or compile time polymorphism?
+Q. Can a object of base call access the methods of child class that is overridden?
+Then one coding question
+Q. Given a set of 1000 natural nos. Out of which two nos are missing. Find those two nos. He just wanted to know my approach.
+Q. Then he asked me do you about linked list?Where you can use linked lists?
+Q. Swap two nos without using third variable as well as arithmetic operator. It was a cake walk. It can be done using bitwise xor(^) operator.
+First round went really well. They directly told me to go to HR Round.
+Round 4 (Technical cum HR) :
+He was senior most of all the interviewers. He asked me many questions about my schooling and what are the options i was getting after my 12th exam?
+Then he asked about my internship and projects. He was very impressed with summer internship project.
+Then he asked me about my projects related to android development. Then i showed him some of the apps made by me.He was very impressed with my apps.
+Then he asked me to design a model which will keep track of the objects i.e. which objects are placed where in the home using voice enabled commands.
+Then asked me how much time you will take develop an application for us? I answered Sir it will totally depend on what the app demands.
+Then he told me let’s build an app now.It was a game where there were two users . First user entered a word of four characters and submit . Then second user have to guess that word . He wanted to automate the process of guessing by the second user.I explained him my approach using HashMap and Prefix Matching . He was very much satisfied.
+And then asked the common HR questions like Why Microsoft?What’s your career objective? and all.
+I was then asked to wait.
+Finally 5 students were selected and I was one among them. It really was the most amazing day of my life. <3
+ 

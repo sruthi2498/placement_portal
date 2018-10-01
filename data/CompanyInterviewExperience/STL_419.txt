@@ -1,0 +1,7 @@
+Parses string interpreting its content as a floating-point number, which is returned as a value of type float.
+Syntax :
+Below is the C++ implementation of std::stof :
+Run on IDE
+Output:
+Run on IDE
+Output:

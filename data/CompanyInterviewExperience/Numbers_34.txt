@@ -1,0 +1,19 @@
+Given two integers a and b. The problem is to find the number of digits in the product of these two integers.
+Examples:
+
+Naive Approach: Multiply the two numbers and then by using looping construct find the number of digits in the product. Take the absolute value of the product for finding the number of digits.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Efficient Approach: To count the number of digits in the product of two numbers we can use the formula given below:
+Here both the numbers need to be positive integers. For this we can take the absolute values of a and b.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

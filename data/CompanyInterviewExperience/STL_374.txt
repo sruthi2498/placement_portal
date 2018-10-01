@@ -1,0 +1,20 @@
+partition_point() Gets the partition point : Returns an iterator to the first element in the partitioned range [first, last) for which pred(predicate) is not true, indicating its partition point.
+The elements in the range shall already be partitioned, as if partition had been called with the same arguments.
+The function optimizes the number of comparisons performed by comparing non-consecutive elements of the sorted range, which is specially efficient for random-access iterators.
+Syntax :
+Parameters :
+first, last :
+Forward iterators to the initial and final positions of the partitioned sequence. The range checked is [first, last), which contains all the elements between first and last, including the element pointed by first but not the element pointed by last.
+pred
+Unary function that accepts an element in the range as argument, and returns a value convertible to bool. The value returned indicates whether the element goes before the partition point (if true, it goes before; if false goes at or after it). The function  shall not modify its argument. This can either be a function pointer or a function object. 
+Return Value :
+An iterator to the first element in the partitioned range [first, last) for which pred is not true, or last if it is not true for any element.
+The definition of this function template is equivalent to:
+Example 1:
+Run on IDE
+Output:
+Example 2:
+Run on IDE
+Output:
+Complexity :
+Performs approximately log2(N)+2 element comparisons (where N is this distance). On non-random-access iterators, the iterator advances produce themselves an additional linear complexity in N on average.

@@ -1,0 +1,18 @@
+CODING ROUND:
+There were 8 mcqs and 1 coding question.
+Each mcq carried 10 marks while the coding question comprised 20 marks wth partial marking for each test-case.
+MCQs were asked from various topics like graph theory,compiler design,mathematical aptitude,code output,computing complexity,etc.
+The coding question was : given the co-ordinates of 4 points output max number of quadrilaterals that could be formed using those points.
+Around 35 people got selected in this round.
+FIRST ROUND:
+The interviewer was very congineal and asked me if i had done any projects (which i had not ;p ) and then started asking questions on oop.He asked me about virtual functions ,difference between over-riding and overloading,practical uses of inheritance,dynamic casting in c++,difference between java and c++ oop and the reason why java doesnt support multiple inheritance and some other oop related questions.
+He asked a coding question which was given an array find the next largest element to the right using constant extra space and in linear time.He gave me hints to reach the solution.
+About 20 candidates made it to the next round.
+SECOND ROUND:
+The round started with some stray conversations followed by the 25 horse puzzle.
+Then he asked me to clone a special kind of binary tree which had an additional pointer apart from the left and right childs and this pointer could point to any other node on the tree.Then he asked some questions on c++ followed by the longest palindromic substring problem.He was convinced with the O(n^2) soln that i gave.
+THIRD ROUND:
+After a long wait I was finally called for the last round.It was perhaps an hr cum technical round.He started by looking at my blank cv and asked a question on linked list where i had to find the kth element from the end of the list.Then he gave me an array of length n starting at index 1 and containing all numbers from 1 to n except that any one of the numbers was replaced by 0 and i had to find this missing number.
+He asked some oop’s design questions followed by the following puzzle.Given two cans each containing equal volumes of coke and pepsi. A cup of coke is taken and poured in pepsi and the same thing done for pepsi.Is the concentration of coke higher in pepsi or vice versa?Following this puzzle were some dbms questions.
+And then he asked whether i had any questions for him.
+Next i was in GS :).

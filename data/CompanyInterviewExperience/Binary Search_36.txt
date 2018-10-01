@@ -1,0 +1,9 @@
+Given a singly linked list and a key, find key using binary search approach.
+To perform a Binary search based on Divide and Conquer Algorithm, determination of the middle element is important. Binary Search is usually fast and efficient for arrays because accessing the middle index between two given indices is easy and fast(Time Complexity O(1)). But memory allocation for the singly linked list is dynamic and non-contiguous, which makes finding the middle element difficult. One approach could be of using skip list, one could be traversing the linked list using one pointer.
+Prerequisite : Finding middle of a linked list.
+ Note: The approach and implementation provided below are to show how Binary Search can be implemented on a linked list. The implementation takes O(n) time. 
+Approach :
+In main function, function InsertAtHead inserts value at the beginning of linked list. Inserting such values(for sake of simplicity) so that the list created is sorted. 
+Examples :
+Run on IDE
+Time Complexity : O(n)

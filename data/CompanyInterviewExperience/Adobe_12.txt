@@ -1,0 +1,9 @@
+Given an array of words find the most occurring word in it
+Examples:
+
+A simple solution is to run two loops and count occurrences of every word. Time complexity of this solution is O(n * n * MAX_WORD_LEN).
+An efficient solution is to use Trie data structure. The idea is simple first we will insert in trie. In trie, we keep counts of words ending at a node. We do preorder traversal and compare count present at each node and find the maximum occurring word
+Run on IDE
+Output:
+Time Complexity : O(n * MAX_WORD_LEN)
+Another efficient solution is to use hashing. Please refer Find winner of an election where votes are represented as candidate names for details.

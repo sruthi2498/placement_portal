@@ -1,0 +1,19 @@
+UHG (United Health Group) came to our campus for software developer profile. 
+Written Aptitude Round: 60 min
+Contained basic logic based questions. 30 problems. Difficulty Level ->Medium
+Written Programming Round: 30 min
+1) 15 multiple choice questions. Difficulty level -> Medium-Hard
+2) 3 programming problems: Difficulty level -> Easy
+a) You have an array of integers. Find that index for which sum of all the elements before it will be equal to sum of all elements after it.
+b) Implement queue using stacks.
+c) Find minimum value in a binary tree.
+3) There were 2 networking related questions. We need to write the answers in detail. I don’t remember the questions.
+Technical Interview 1:
+Discussed in detail my projects. They thoroughly went through my resume and asked questions.
+a) Whole database design of one of my project. Asked some SQL queries also.
+b) You are given a triangle with height h and base length b and a square of side length a. How many squares can you fit in triangle? Need to derive formula.
+c) A pattern matching problem with special characters. He wanted the full working code. Similar question: https://www.geeksforgeeks.org/wildcard-character-matching/
+
+Technical Interview 2:
+This interview was mostly based on my B.Tech Project on Artificial Intelligence. He also asked many fundamental questions related to AI and Machine Learning. For e.g. what is SVM (Support Vector Machines), ANN(Artificial Neural Networks), GP(Genetic Programming) and differences between them and how it is better than linear regression? He also asked few java OOPS questions.
+In all, my interview experience was quite nice. Both interviewers were very helpful and cooperative. Practice writing code on piece of paper. That will help a lot.

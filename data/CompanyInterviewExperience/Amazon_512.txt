@@ -1,0 +1,27 @@
+Online written
+20MCQS + 2 coding question in hacker rank
+1. Find the pattern in string (Use Kmp)
+2. Rotate  matrix by 90.
+See in this round your code should  pass all the test cases given 
+Telephonic round
+Find the loop in linked list and also given the starting node from where the loop starts.
+Print the tree in zig zag traversal
+They have share the http://collabedit.com/ link, where i was writing the code.
+Solution should be optimized.
+Face 2 face Interview at Hyderabad(4 rounds)
+1. You have given n point in a coordinate system.What you have to do is to find minimum k distance  point from origin.
+Sol i have given the  solution using insertion sort .i have taken a array of size n and while calculating the distance, entering the distance  in the array in sorted fashion.
+     second solution i have given using heap,  storing the first k distance in heap, then iterating the n-k element.
+2. Print the tree in zig-zag traversal
+3. U have given large stream  of m size and  you have size of n window . you  have to find the k minimum in each window . we are shifting the window by one at every iteration.
+sol: I have used self balancing tree.First i have entered n element in tree and do in order traversal upto k to find k minimum element.Now shift the window by one          .Now we to remove first element(logn  time req)  and insert the new element(logn time). Initially i was thinking for solution using  big extra space which was not accepted by the interviewer. Assume for every question they asked what if you have 10 million data so your approach will  fail if you have taken extra o(n) space.Code should be scalable enough
+4. N process can write at time in buffer and n process can read through  buffer.Design a system for read and write.
+5.  words are coming through a stream , u have to halt the problem when first repeated words appear.
+     Used  trie data structure.
+6. N words are given.u have one source word and one destination word .u have reach to destination in minimum edit with the constraint that intermediate word should be from the words given.i have given the solution using graph and used BFS traversal .complexity discussion
+7. what happen when u hit url .I have tried to explain it using Django, he is expecting something from domain name server.  Be prepared
+Complexity concept should be clear(Recursive+iterative both)
+Other than this a lot of question on my company project and my performance rating. experience of professional life.
+Should know each and every single word of resume.
+Good luck 
+

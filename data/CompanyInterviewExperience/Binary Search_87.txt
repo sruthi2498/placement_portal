@@ -1,0 +1,18 @@
+Given a sorted matrix mat[n][m] and an element ‘x’. Find position of x in the matrix if it is present, else print -1. Matrix is sorted in a way such that all elements in a row are sorted in increasing order and for row ‘i’, where 1 <= i <= n-1, first element of row 'i' is greater than or equal to the last element of row 'i-1'. The approach should have O(log n + log m) time complexity.
+
+
+Examples:
+
+
+
+
+Please note that this problem is different from Search in a row wise and column wise sorted matrix. Here matrix is more strictly sorted as first element of a row is greater than last element of previous row.
+A Simple Solution is to one by one compare x with every element of matrix. If matches, then return position. If we reach end, return -1. Time complexity of this solution is O(n x m).
+An efficient solution is to typecast given 2D array to 1D array, then apply binary search on the typecasted array.
+Another efficient approach that doesn’t require typecasting is explained below.
+Example:
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(log n + log m).  O(Log n) time is required to find the two desired rows. Then O(Log m) time is required for binary search in one of the four parts with size equal to m/2.

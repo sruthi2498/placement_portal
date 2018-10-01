@@ -1,0 +1,45 @@
+It was conducted on Cocubes. It consisted of 3 questions:
+2 marks:Average of ascii characters of string.
+Input:abc
+Output:(65+66+67)/3=66
+3 marks:Reverse k nodes at a time in a linked list.
+5 marks:Cousin sum in a binary tree.
+Other questions were:
+1.Infix evaluation
+2.Given an array of numbers, find the smallest number after n deletions
+3.Next palindrome.
+Of 200 students about 60 were selected for next pen and paper round.We had one ds question detect and remove loop from a linked list and 6 short questions based on C.
+At the end of each round I was asked the question “Do you have any question for me?”.
+Round 1(F2F):
+First I had to explain my approach, then write the entire code and test cases for each problem.
+1.Reverse a sentence.
+Input:”This is a test”
+Output:”test a is This”
+2.Reverse the sentence preserving whitespaces.
+Input:”This is   a    test”
+Output:”test a   is    This”
+3.Identify whether given nodes of a binary tree are directly connected or not.
+
+Input    Output
+2        true
+5,4      false
+5,4,9    true
+Round 2(F2F):
+1.There are two types of characters one of 1 byte and another of 2 bytes, I had to delete the last character.
+2.Design a remote just like  keypad of old phones, and display all corresponding channels on TV screen.
+Input:22227723
+Output:
+a
+b
+c
+a
+ap
+aq
+aqa
+aqd
+Round 3:
+First I was asked “Tell me about yourself.”
+then “What I wanted to do in life?” and 2 coding questions, just logic no implementation.
+1.Popultate right pointer in a binary tree.
+2.Given a file print all the anagrams together.
+Finally, I was selected.It was one of the best moments of my life.

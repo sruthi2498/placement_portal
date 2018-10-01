@@ -1,0 +1,45 @@
+I had around 1 year and 9 months of experience.
+Telephonic Interview : 
+It started with a brief introduction of mine and my work. Then he asked me a coding question
+1) Given a linked list eg : 1->2->3->4->5->6, make the following changes
+    1->6->2->5->3->4
+Easy but it was lengthy. Had to write production level code.
+After 2-3 hours, I got an invitation for in house interview at Amazon campus:
+Round 1 : Face 2 Face 
+It started with a discussion about my previous work and projects. After the discussion he asked the following technical questions:
+1) Given a pre-order traversal, construct a binary search tree.
+https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/
+Simple solution. Asked me to code it.
+2) Given an alien dictionary, find the order of the alphabets in the dictionary.
+Only the approach was required. I explained him the approach and he was satisfied. Here is the link to the code anyway:
+https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+3) Connect n ropes with minimum cost
+https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
+I was asked to write production level code for the above problem.
+Round 2 : Face to Face
+Again the interview started with a discussion about my projects and then he asked a technical question.
+1) Given m sorted arrays with n elements, merge these arrays into one sorted array of size m*n
+I did hear about this question before but never really saw the optimized solution so I gave a O(m*m*n) solution. He asked me to optimize it, but I wasn’t able to do so, hence he asked me to code the O(m*m*n) solution. I took a lot of time to code it as I wanted to handle all the edge cases. Finally I coded it. He didn’t find any issues but he asked me to make it better. And then I suggested using heaps to get the minimum of all the m arrays.
+Lot of questions on why heap and why not BST. Asked me to prove it mathematically.
+But he was satisfied once I gave the solution using heaps.
+https://www.geeksforgeeks.org/merge-k-sorted-arrays/
+Round 3 Bar Raiser : Telephonic
+Discussion on my previous projects and asked some behavioral questions like why are you leaving your current company, conflicts with your manager etc
+Technical questions:
+1) Find the maximum element in an array which is first increasing and then decreasing
+https://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/
+2) Find the Pythagoras triplet in an array
+Gave an O(n3) solution then made it O(n2logn). He asked me to optimize it even further.
+Finally came up with O(n2) solutionhttps://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/
+3) Given a very large binary number which cannot be stored in a variable, determine the remainder of the decimal equivalent of the binary number when divided by 3
+I had no clue about this question. He gave me a hint, with which I was able to solve it. But later, he asked me to find the remainder for any number k. Again he gave a hint and I was able to solve it.
+Basically when we append a digit to a binary number, the previous binary number gets doubled, hence the remainder also gets doubled. 
+By keeping track of the remainder of the previous binary number, the current remainder can be determined.
+Round 4 Hiring Manager: Face to Face
+Behavioral questions along with some questions about my previous projects.
+Then he gave me a technical question:
+1) Given a number say ‘1234’, return the number in words i.e One thousand two hundred and thirty four
+Was able to cover all the scenarios. He was satisfied with my approach
+Suggestions:
+Think loud and be confident. It’s okay if you don’t know the answer at first. They mostly see how you solve questions for which you don’t know the solution.
+Thanks geeksforgeeks. You guys are doing an awesome job.

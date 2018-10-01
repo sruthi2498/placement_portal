@@ -1,0 +1,29 @@
+Round 1
+Online test on HackerRank contains 3 sections
+Section 1: 2 Coding Questions (20 & 40 Marks) in 50 minutes
+Section 2: 10 Computer Aptitude (Easy) (C, C++, OS, DBMS, CN, DSA) (20 Marks, +2, -0.5) in 20 minutes
+Section 3: 10 Aptitude Questions (Hard) (20 Marks, +2, -0.5) in 20 minutes
+ 
+Coding Questions –
+1. Given an array of numbers, find number of pairs of h[i] > h[j] > h[k] such that i < j < k.
+2. Given an array of numbers, find the maximum and minimum sum of sub sequences at a distance > m
+Example –
+arr = {3, 4, -2, 1, -2, 4, 6, -3, 5} & m = 2
+Solution – max = 13 {4 + 4 + 5}, min = -5 {-2-3}
+
+Round 2
+Face to Face HR Round (25 minutes)
+1. Tell me about yourself.
+2. Biggest achievement of your life?
+3. How your friends think of you?
+4. Rank – money, power, love & fame according to your preference and explain why?
+5. If you’re best friend is in your team and he is not working seriously on the project assigned to your team then what would you do?
+6. What if that project is failed now, who will you held responsible?
+Face to Face Technical Round (20 minutes)
+1. Explain Trie Data structure used in your project with code?
+2. Why you have use map as nodes in trie data structure?
+3. You have given a BST, find the elements in the tree under a given range?
+4. You have given a 100 MB memory and a 150 MB file of strings, how will you sort the strings.
+5. You have given a table containing employee id, employee name, manager id, manager name. Write a SQL Query to print all employees of all the managers. (Transitive relation possible)
+Out of 15 only 2 are selected in next round. 
+

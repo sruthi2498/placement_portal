@@ -1,0 +1,22 @@
+Given a range [L, R], and a prime number P. We are required to find the sum of the highest power of P in all numbers from L to R.
+Examples:
+
+Native Approach : Run a loop from L to R. For every number, check if it is divisible by P. If yes, then find the largest power of P that divides current number. If yes, then add this value to result.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+ 
+Efficient approach: The idea is to use to Legendre’s formula.
+
+The largest possible power of P that divides factorial of a number x is  ⌊x/p⌋ + ⌊x/(p2)⌋ +  ⌊x/(p3)⌋ + ……
+Using above, we can find the largest power of P that divides R! (or 1 * 2 * 3…. R). 
+Sum of largest powers from L to R = Largest Power of P that divides R! (or 1 * 2 … L-1 * L * … R) –  Largest Power of P that divides (L-1)! (or 1 * 2 … L-1)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

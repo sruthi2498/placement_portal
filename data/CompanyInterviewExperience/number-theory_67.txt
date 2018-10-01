@@ -1,0 +1,18 @@
+Given a positive integer n. The problem is to print numbers in the range 1 to n having first and last bits as the only set bits.
+Examples:
+
+Naive Approach: Print “1”. Now for i = 3 to n, check if (i-1) is a Perfect power of two or not. If true then print i.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n).
+Efficient Approach: Print “1”. Now one by one generate perfect power of two (except ‘1’) with the help of bitwise left shift operation. Bitwise xor these numbers with 1 and if result is in the range print them else stop.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

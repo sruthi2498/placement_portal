@@ -1,0 +1,16 @@
+Various varieties of copy() exist in C++ STL that allows to perform the copy operations in different manners, all of them having their own use. These all are defined in header <algorithm>. This articles introduces everyone to these functions for usage in day-to-day programming.
+
+1. copy(strt_iter1, end_iter1, strt_iter2) :  The generic copy function used to copy range of elements from one container to other. It takes 3 arguments:
+
+2. copy_n(strt_iter1, num, strt_iter2) : This version of copy gives the freedom to choose how many elements have to be copied in destination container. IT also takes 3 arguments:
+Run on IDE
+Output:
+
+3. copy_if() :  As the name suggests, this function copies according to result of a “condition“.This is provided with the help of a 4th argument, a function returning a boolean value.
+This function takes 4 arguments, 3 of them similar to copy() and additional function, which when returns true, a number is copied, else number is not copied.
+
+4. copy_backwards() :  This function starts copying elements into the destination container from backwards and keeps on copying till all numbers are not copied. The copying starts from the “strt_iter2” but in backward direction. It also takes similar arguments as copy().
+
+Run on IDE
+Output:
+

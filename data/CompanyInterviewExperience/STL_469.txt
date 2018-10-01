@@ -1,0 +1,10 @@
+std :: remove
+It is defined in <algorithm> library. It removes value from range. Transforms the range [first,last) into a range with all the elements that compare equal to val removed, and returns an iterator to the new end of that range.
+Function Template :
+Example:
+std :: remove_if
+Transforms the range [first,last) into a range with all the elements for which pred returns true removed, and returns an iterator to the new end of that range.
+Function Template :
+Example:
+Run on IDE
+Output:

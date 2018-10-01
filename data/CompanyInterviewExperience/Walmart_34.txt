@@ -1,0 +1,44 @@
+There was 1 coding round and 4 F2F interviews. This was for Software Developer Position(Note:-It was not for the research division in Walmart Labs)
+Coding Round:-
+There were 2 coding questions given in this round. The platform used is Hacker rank and we have to complete both questions in their office only in 1 hour. Usage of internet is strictly prohibited.
+1. Find Maximum sum in an array such that no 2 elements are adjacent. In this, 1 more condition was also there that first and last elements should also not be taken together. This question was modification of
+https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+2. In a cartesian plane, there are N tanks and M objects placed. Tanks can fire in 4 directions (N, S, E, W). Position of tanks and objects are given as input and are fixed. We have to find a way to give directions to N tanks such that they will not hit any object and any other tanks. If a tank can fire in 2 directions, then a direction whose ASCII code is lesser will be given preference.Example:-
+Input :-
+N=2
+M=3
+Position of tanks
+(0,0)
+(1,1)
+Position of Objects
+(0,2)
+(0,-2)
+(-2,0)
+Direction of N tanks should be :-
+(0,0)   E  -> This tank should fire in east direction
+(1,1)   E  -> This tank can fire in all 4 directions. Since E has least ASCII code in all 4 of them, so E
+Round 1:-
+1. Intersection and Intersection Point in 2 Linked List.
+2. Questions on Multithreading in Java. About synchronised block, etc.
+3. Why JVM is platform independent.
+4. Difference between Java and C++.
+5. Write a code for building a heap and explain its time complexity
+6. k largest elements in an array
+7. Some Questions on String datatype in Java
+Round 2:-
+1. Design a  complete Railway Reservation System. Following things are checked in code:-
+ a. Object Oriented Programming
+ b. Design Patterns used(if any)
+ c. Are use cases are optimised or not?
+2. Question on LRU cache implementation
+Round 3:-
+1. Design a data structure which provides following APIs:-
+a. insert element in O(1)
+b. delete an element in O(1)
+c. find a random element in O(1)
+2. Some  questions on Java basics.
+3. Some discussion on projects done in current job.
+4. Got 1 feedback that my knowledge of Java is not so good. So, if we hire you, then what will be your strategy to improve on your Java skills.
+Round 4:-
+1. Why do you want to join Walmart Labs?
+2. What are the biggest challenges faced by me in my current job.

@@ -1,0 +1,22 @@
+Recently VMware visited our campus for full time and intern positions. There was a CGPA cut off of 7/10 for attending VMware’s hiring process.
+Round 1: Online Test
+The online test had 32 questions with no negative marking. The test consisted of the following sections – Aptitude and logical (around 10 questions), Technical questions (on microprocessors, Computer Architecture, Networks, OS, UNIX, C output questions etc. about 15 of them) and the third section we had to choose between C++ and Java. The third section had 7 questions. The Java section I’d chosen had all output based questions which mainly concentrated on inheritance and runtime polymorphism concepts.
+After this round, 35 students were shortlisted for interviews.
+Round 2: Technical Interview
+The interviewer asked me to choose my favorite subject and I chose OS. So he asked me the following question – Given a 4GB memory requirement, how would you handle this with a machine having 2GB RAM. I said I’d do it using paging and virtual memory and I was asked to explain these concepts.
+After this, I was asked a few questions on Networks – explain the sequence of actions which take place when a user types a URL in the browser and hits enter (I was asked to show a flow using 2 protocol stacks on both the client and server sides), what is a socket and what does it contain and what is a gateway router. For my last question on Networks, he asked me to tell the packet contents of a response packet arriving at the gateway router of a given network. I was expected to write the source and destination IP and MAC addresses.
+I was asked to write solution code for 2 problems – (a) Given a log file containing INFO, WARNING and DEBUG statements, separate the specific log statements into specific files (E.g., all INFO statements into the INFO file and so on) and delete the original file.
+(b) Given multiple occurrences of characters in a string, output the character followed by its frequency. E.g., if input is ‘aaaaabbbbc’, output should be ‘a4b3c1’.
+Since I’d worked on OpenStack projects, I was asked a few questions on OpenStack as to what OpenStack is, if OpenStack is a competitor or compliment for VMware and why?
+Round 3: Technical + Managerial Interview
+In this round, I was quizzed mainly on my projects. Apart from this, I was asked to write solution code for 2 problems – (a) Given 2 systems A and B, how would you programmatically run a script on A in B (given the IP of B and its access credentials)? (However, you’re not allowed to access B’s console)
+(b) Given a configuration file having key-value pairs, write a function to accept filename, key and value as parameters and go to that particular file and either update/add the new key–value pair
+The interviewer also asked if I’d worked with Eclipse and vCenter Server.
+Round 4: HR Interview
+Standard HR questions were asked –
+(a) About family background
+(b) How have the last 3 years been in college?
+(c) What do you expect from VMware?
+(d) Where do you see yourself in 2 years?
+(e) Would you prefer a Dev/QE role and why?
+A big thank you to GeeksforGeeks for providing such invaluable material for preparation.

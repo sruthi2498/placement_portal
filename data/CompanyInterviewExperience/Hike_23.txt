@@ -1,0 +1,22 @@
+First Round Written Test
+1. The test consisted of 10 MCQ’s on Aptitude and 10 MCQ’s on C programming.
+2. It also consisted of 2 programming questions which were easy
+a. In an array find two numbers whose sum equals zero in O(n) complexity.
+b. Given Preorder and Postorder traversals of a BST . Construct the tree.
+First Technical Interview
+The interviewer was quite cool and composed. He started from initial questions about me and then went on with asking some questions on processes, semaphores and networks( as i had a networking project in my resume).
+Then he started with some questions as
+1. Given two strings check whether one string can be mapped to other string. For eg. abcd can be mapped to ghjk but accd can not be mapped to ghij since ‘h’ and ‘j’ both can not be mapped to ‘c’.
+2. Given a string find the number of meaningful words(which add to original length of the string) which could be formed from the string (A function called isWord() was provided which had tell you if the word was a dictionary word.
+for eg. programmerit forms:
+pro+gram+merit
+program+merit
+programmer+it
+pro+grammer+it
+Then he discussed the iterative and recursive approaches and asked me to calculate the complexity of my code.
+3. He discussed the longest common subsequence problem with me and discussed the top-down and bottom-up approaches.
+Second Technical Interview:
+He started with questions on Object Oriented programming like inheritance, virtual classes, operator overloading etc.
+1. Given a number find the next higher number from the combination of given numbers.
+2. Discussed hashing and some other questions on OS related algorithms.
+Good Experience !!

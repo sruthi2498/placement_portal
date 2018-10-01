@@ -1,0 +1,29 @@
+Given a number n, find the highest power of 2 that is smaller than or equal to n.
+Examples :
+A simple solution is to start checking from n and keep decrementing until we find a power of 2.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(n). In worst case, the loop runs floor(n/2) times. The worst case happens when n is of the form 2x – 1.
+An efficient solution is to use bitwise left shift operator to find all powers of 2 starting from 1.  For every power check if it is smaller than or equal to n or not. Below is C++ implementation of the idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+A Solution using Log
+Thanks to Anshuman Jha for suggesting this solution.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Application Problem:
+Some people are standing in a queue. A selection process follows a rule where people standing on even positions are selected. Of the selected people a queue is formed and again out of these only people on even position are selected. This continues until we are left with one person. Find out the position of that person in the original queue.
+Print the position(original queue) of that person who is left.
+Examples :
+Related Article : 
+Power of 2 greater than or equal to a given number.

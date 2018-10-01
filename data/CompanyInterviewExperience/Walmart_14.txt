@@ -1,0 +1,55 @@
+500 students were selected for online test and cgpa criteria was 7.0 cgpa.
+Online Test
+The online test was conducted on HackerEarth. Three questions were asked and we were given 90 minutes to solve three questions.
+1. game of stones.
+Alice and bob are playing a game. N stones are placed and a person can pick less than or equal to m stones at a time. First turn is of Alice and both play optimally.
+Ex n= 6 stones and m is 4
+Alice will pick 1 stone in start and
+Otherwise bob wins.
+Range of n – 10^9
+Solve it in O (1) complexity. We have to tell who will win the game.
+2. There is a number system consisting of numbers from 0 to 9 and alphabets A-Z and a-z such that  0 < 1 < 2 < 3. . .. 9 < A <B < C < D …. <Z and a=A, b=B …… z=Z.
+You are given an array of strings and you have to find the sum of the strings in the array.
+Output string should contain only numbers and lowercase alphabets.
+3. we are given an array of n integers and we are given a number k and we have to break array into k possible subsets and we have to find the maximum sum of these subsets. Then from the possible maximum values print the minimum of all the maximum values obtained.
+Subsets that can be formed are {{1,2}, {3}}, {{1}, {2,3}} minimum of both the maximum values that are obtained from subset {3,5} is 3.
+20 were selected for the further rounds of interview.
+
+Technical Interview (Round 1)
+First the interviewer gave his introduction. Then he asked Tell me about yourself.
+1.Given a matrix of strings. He gave another string and asked to print all the anagrams in the order in which they appeared in the matrix. He asked to code it on the paper and explain it to me.
+2. Spiral level order traversal of a binary tree.
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+3. Given two million numbers find the fifth largest number.
+I first started with a sorting based approach and then gave an o(nlogn) time complexity solution and then he asked it to optimize it further and then I gave him a max heap based solution which will have a time complexity of o(n+klog(n)), then I gave him one more solution using min heap of size k, which will have time complexity of O(k + nlog(k)).
+He was quite impressed with my approach and asked to code it.
+Technical Interview (Round 2)
+1. Given a long string, I had to find the first non-repeating character in the string from left side.
+https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+2. Given a doubly linked list and we have to delete a node whose address is given to us and he asked me weather Head pointer is required to delete or not.
+3. He asked the questions about c++.
+1.What is the difference b/w function overloading and function overriding.
+2.What do you mean by Abstract function.
+3.What do you mean by Abstract class.
+4.Describe Catch …
+5.Explain more about function overloading.
+6. Explain operator overloading
+4. Tell me something about Heap and its uses. Describe Heap sort and its time complexity.
+HR Interview (Round 3)
+He started with my introduction and then asked some more HR related questions.
+1. Why do you want to join Walmart?
+2. They asked if you wanted to pursue higher education.
+3. They asked me if I had any questions in my mind.
+I asked how do you handle such large databases and data records that they receive and how do they process them?
+Then he explained about different data compression algorithms that are used for data compression and the way they managed large databases.
+HR Interview (Round 4)
+He started with a basic introduction and then shifted on to some more HR specific questions
+1. Where are you from?
+2. What are your hobbies and interests.
+3. Do you play any sports?
+4. How many siblings do you have and what does your brother do?
+It was a bit vague question and but I answered it appropriately.
+5.Do you have any relocation issues? Any problem in shifting to Bangalore away from hometown?
+6. Do you have any questions for me?
+At last 7 students were selected for 6 months internship and 2 students were selected for 6 months internship+ full-time job in Bangalore.
+The interview experience was quite good and they focused on all the core computer science subjects. Geeks for geeks was a lot of help to me as it helped me in my placement preparation and provided almost all content that was necessary for placement preparation.

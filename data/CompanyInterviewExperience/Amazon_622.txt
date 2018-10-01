@@ -1,0 +1,35 @@
+I recently went through the Amazon interview process for the post of SDE-1. 
+Round 1 (Written)
+1. Given an array, output an array where every index conains nearest  greatest element to that element on right side.
+2. Program to convert sorted array to Binary Search Tree
+3. Find first non-repeating character in String
+ex:  geeksforgeeks: f
+geeksforgeeksFirst:o
+Round 2 (F2F)
+1. Given linked list as a-x-b-y-c-z
+output it as a-b-c-z-y-x
+that is reverse alternate element and append to end of list
+2.  Output nearest number greater than given number  such that  output is palindrome
+ex: 121:131
+900:909
+99:101
+Round 3 (F2F)
+1. Vertical Sum in Tree( I told him I know the solution, he proceeded further)
+2. Given stream of Strings find top 5 words with maximum frequency or count
+3. Given 2 nodes in Binary Tree find distance between them
+Round 4 (F2F with hiring manager)
+1. Projects done so far, HR questions
+2. Design Linkedin and find till 2nd level connections and path between 2 connection
+for ex: if A is friend of B which is friend of C
+print between A and C A-B-C
+3. Programming language: Java
+About synchronisation, serialization, transient and volatile keyword, Singleton Class
+Round 5 (Bar Raiser)
+1. Count Inversion in array that is if i a[j]
+Told the solution nlogn of divide and conquer. He asked another solution, then told by inserting in BST and whenever node goes to left side then adding 1 and number of children on right side . We have to keep track of count of right subtree in every node
+Round 6 (F2F)
+1. HR questions (Why leaving company, projects, SWOT)
+2. Program to check for mirror tree
+3. Data Structure so that push, pop, getmin, getmax O(1) (using 3 stacks)
+4. Data Structure so that push, pop, pop min, pop max
+Told Solution till O(logn) by using min heap, max heap with pointers to doubly linked list nodes

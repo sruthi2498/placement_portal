@@ -1,0 +1,27 @@
+Recently I had interview with amazon.com for SDE1 position for 1+ year experience. It was kindle team. 
+Round 1: 1 hour – written test at amazon office.
+Q1. Given two link list that represents no. write a program to add two given two link list and return new link list that represents sum of no. represented by given two link lists.
+Q2. Given a string, write a program to find longest length palindrome from that given string. You can swap the characters of given string.
+Q3. https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+
+Round 2: 1 hour – with SDE1
+Q1. find longest common prefix of given set of strings.
+Q2. Check whether given link list represents palindrome.
+Q3. Given sorted array, write program to generate balanced binary search tree from given array.
+Round 3: 2.5 hour  – with SDE1 + SDE2
+Q1. Count no. of inversion in a given array.
+Q2. In a party there are total n persons are there. every person is having one gift with him. Every person will give his gift to another such that every person at the end has exactly one gift. Any one can give his gift to anyone. say 5 people (A,B,C,D,E).
+A–>D
+D–>C
+C–>E
+B–>A
+E–>B
+write a program to generate a random sequence. for every run, code should generate different sequence with equal probability. lots of discussion was there on various approaches. finally with the help of interviewer i wrote O(n) time solution with O(1) space. Hint: selection sort
+Round 4: 1.5 hour – with SDE2
+Q1. Given a file having many words. Given K, find the words appearing >=K times. Lots of discussion was there, discussed many approaches.
+Q2. Design data structure that supports insert(), remove(), find-max(), delete-max() operations. All operations should run in O(1) time. Lots of discussion was there, discussed many approaches.
+Q3. Given two link-list that represents polynomial. Write program to multiply both polynomial , return result as new link-list.
+Q4. Write program to find max size BST from given binary tree. Algorithm and full working code was required for all the problems. Discussed space and time complexity of every problem.
+Still hiring manager round and senior manager rounds are there. Once completed i will post
+Tips: Discuss various approaches with interviewer. Try to interact continuously with interviewer. they were very friendly during interview.
+

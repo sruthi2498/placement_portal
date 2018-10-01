@@ -1,0 +1,20 @@
+Round 1:   Paypal visited our campus in September for placement-test. A online test was conducted on hackerrank platform. The criteria to sit in this test was a cgpa above 7.5 ( all branches). The test included 11 MCQ ( in java) and 1 coding question. The time was 1:30 hrs for this test.MCQ were on oops concept ( code in Java was given, you need to tell output). coding question was on bitmasking dp.
+coding question :- there is a class and n students in that class . all students are going to stand in row. now each student  i has some internal energy k with any student j where 1<=i<=n, 1<=j<=n, i !=j, n<=10, you need to tell in what order the student should stand to minimize the internal energy of whole class.
+Round 2: 
+12 students were selected for further interview rounds in December. In first round after little chit chat about paypal, he asked me one coding question which was
+coding question : -There is river with width x and there are some stones placed across the river. You are given the position of each stone. Now you started from one of the banks and you can have three types of jumps ( last_jump -1, last_jump, last_jump+1) ( at start last_jump = 0). You need to tell whether you can cross the river or not. Ans:- (simple recursion approach and then convert it to dp) .
+Round 3: 
+after tell me about yourself. I was asked to design a digital blackboard on which when a child write a letter then it can understand the written letter. ( approach: – just considered blackboard a 2D matrix and then by using dfs mark the connected component and compare it with structure pattern of actual letters, just tell them approach if somewhere you are going to wrong way they will give you hint).
+Round 4: 
+question 1: design a cab system of night shift of a company. the company has 10 cabs and 40 employees . each employee has a destination and special node through which he wants to go his destination. Desing a system which tells which employee will share the cab with which other employee and what will be the path of each cab. ( A cab can has maximum of 4 people). Approach:- ( consider the city as
+a graph and just gave the approach using Dijkstra and minimum spanning tree, again they will give you enough hint).
+question 2: You have a string, find maximum length substring with consecutive letters ( like qwerabcde, in this case abcde=5  will be the answer)
+Question 3: given a string bracket (, {, }, ) } [, ] tell whether string is valid or not.  https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+Round 5: 
+Question 1: Desing a database of a company( had some feature) and write the sql query, ( very simple).
+Question 2 and 3:- implementation of priority queues and 3rd one was to store the telephone directory such that you can implement the search using first name, last name and phone number ( use trie data structure and hash function).
+https://www.geeksforgeeks.org/implement-a-phone-directory/
+ 
+Tips for Technical Interview:- Just prepare from geeksforgeeks, hackerrank, codechef and also prepare for loud thinking ( speak while thinking).
+Result:  2 students were selected from our campus.
+ 

@@ -1,0 +1,59 @@
+I was recently interviewed for SDE1 position in Amazon Bangalore. 1 online coding test followed by 5 rounds of F2F onsite interviews.
+Online Coding Test (4 Problems, 2 hours) From Interviewstreet
+All below problems had multiple test cases for which the code was validated against.
+1. Code for converting floating point decimal number to binary numbers.  If the number cannot be converted, state so.
+2. Given an integer array A of size n. Given an integer k < n. Construct an array B, such that
+B[i] = min{A[i], A[i+1], A[i+2], A[i+3], ……., A[i+k]}
+Solve in time complexity better than O(nk).
+Hint: use min Heaps
+3. A singly liked list. Can have a loop. Detect it and find the size of list.
+4. A singly link list and a number ‘K’, swap the Kth node from the start with the Kth node from the last. Check all the edge cases.
+Sample Input: 1->2->3->4->5->6->7->8 and K = 3
+Sample Output : 1->2->6->4->5->3->7->8 
+Sample Input: 1->2->3->4->5->6->7->8 and K = 10
+Sample Output: print error “LIST IS OF LESSER SIZE”.
+
+Face to face: Round 1(Technical, 1 hour):
+1. Given a binary search tree. Find two numbers in the tree whose sum is k. If there are no such elements, state so. Assume that the tree is balanced.
+O(n) solution with O(logn) space was expected. Solved using two stacks. Code was required.
+2. Copy a linked list with next and random pointer. Not allowed to modify the given list at any time. Only read privilege on the given list.
+
+Face to face: Round 2(Technical, 1 hour):
+1. Given a matrix mxn containing integers. Find a kxk submatrix which has the largest sum.
+Solved using prefix sum matrix.
+2. Given an n-ary tree. Traverse it in zig-zag manner. Code was required.
+Solved using a Queue and a dummy node for level info.
+
+Face to face: Round 3(Technical, 1 hour 20 minutes):
+1. Given N buckets each of capacity 1L numbered from 1 to N. Buckets are arranged in a form of a 2D Pyramid shown below. 
+No each bucket is resting on 2 buckets. I will add water in the top bucket(number 1), after filling the bucket completely access of water will spill to the left and right bucket. Need to write a function which will return water in nth bucket after I will add x L of water in bucket number 1.
+             float getWaterInBucket(float x, int n);
+2. Given an mxn matrix. Each entry is a room. Rooms containing “L” are locked. No one can enter a locked room. Rooms with “G” are guarded rooms. Distance of a room from a Guard is defined as the minimum number of rooms that are encountered for the Guard to reach that room (Guard can move in all allowed 4 directions at max). Find the room that is farthest from all guards. Expected time was O(mn). (Hint: BFS)
+
+
+Face to face: Round 4(Manager, 1 hour 20 minutes):
+1. Tell me about yourself.
+2. Why do you wish to move out of current job?
+3. Explain in detail the current project. Intention was to understand whether I had good depth of knowledge of the project and team I was working in.(Nearly 30-40 minutes of discussion)
+4. How big is the team & what is your role?
+5. Proudest project that I have worked in my current company. Details.
+6. Any instances where you are not satisfied with what you did?
+7. Any instances that you felt the need for improvement in some areas, which could have helped you technically and professionally. Any negative feedbacks.
+8. What happens when you type in a URL on browser?
+9. Given a binary tree with parent pointer only. Given pointers to two nodes in the tree, find the LCS(Least Common Ancestor). Quality Code was required with proper handling of boundary cases.
+10. Object oriented design of ‘Snake and Ladder Game’. Was asked to propose classes, inheritance and reasoning behind it.
+
+Face to face: Round 5(Manager, 1 hour 10 minutes):
+1. Tell me about yourself. It starts with a basic intro round, where your communication skills are judged.
+2. Why changing the job?
+3. Explain in detail the current project. In depth information.
+4. Given a binary tree. Tell if all the leaves are at the same level. Code was required with proper handling of boundary cases.
+5. Discussed how the stock market works. Reached to:
+Design a data structure for storing the stock prices of various stocks. Make design such that update (new entry addition) of prices can be done efficiently. Also, it should be efficient to answer the queries like, “Maximum/minimum of stock prices of stocks s1, s2, s3 in the month of November 2012 etc.”
+Four days later I was informed that I was selected 🙂
+Following materials I used for preparation.
+1. GeeksforGeeks
+2. Careercup
+3. Introduction to Algorithms(Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein)
+4. Algorithm Design [Jon Kleinberg, Éva Tardos]
+

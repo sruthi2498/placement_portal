@@ -1,0 +1,16 @@
+Given a string str. The string may contain lower-case letters, special characters, digits or even white-spaces. The task is to check, whether only the letters present in the string are forming a Palindromic combination or not without using any extra space.
+Note: It is not allowed to use extra space to solve this problem. Also, the letters present in the string are in lower-case and the string may contain special characters, digits or even white-spaces along with lowercase letters.
+Examples:
+
+Input : str = “m     a  343 la y a l am”
+Output : YES
+The characters in the string form the sequence “malayalam”, which is a palindrome.
+Input : str = “malayalam”
+Output : YES
+
+Approach:
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE

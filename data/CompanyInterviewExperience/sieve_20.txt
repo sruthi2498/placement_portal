@@ -1,0 +1,24 @@
+A k-rough or k-jagged number is a number whose smallest prime factor is greater than or equal to the number ‘k’. Given numbers ‘n’ and ‘k’ as input, we are required to find whether ‘n; is a k-rough number or not.
+Examples :
+
+Input : n = 10, k = 2
+Output : 10 is a 2-rough number
+Explanation:  The prime factors of 10 are 2 and 5 Hence its smallest prime factor is 2 which is greater than or equal to k, i.e 2  
+Input : n = 55, k = 7
+Output : 55 is not a 7-rough number
+Explanation: The prime factors of 55 are 5 and 11 Hence its smallest prime factor is 5 which is not greater than or equal to k, i.e 7
+It may be inferred from above that every positive integer, except 1, is a 2-rough number since their smallest prime factor is either 2(for even positive integers) or greater than 2(for odd positive integers).
+Simple Approach
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Efficient Solution : 
+The idea is based on Efficient program to print all prime factors of a given number.  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

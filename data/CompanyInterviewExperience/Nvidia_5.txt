@@ -1,0 +1,12 @@
+How to implement ternary operator in C++ without using conditional statements.
+In the following condition : a ? b : c
+If a is true, b will be executed.
+Otherwise, c will be executed.
+We can assume a, b and c as values.
+We can code the equation as :
+Result = (!!a)*b + (!a)*c
+In above equation, is a is true, result will be b.
+Otherwise, result will be c.
+Run on IDE
+Run on IDE
+

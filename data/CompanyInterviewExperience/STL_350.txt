@@ -1,0 +1,25 @@
+Stacks are a type of container adaptors with LIFO(Last In First Out) type of working, where a new element is added at one end and (top) an element is removed from that end only.
+push() function is used to insert an element at the top of the stack. The element is added to the stack container and the size of the stack is increased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if the value passed doesn’t match the stack type.
+2. Shows no exception throw guarantee if the parameter doesn’t throw any exception.
+Run on IDE
+Output:
+pop() function is used to remove an element from the top of the stack(newest element in the stack). The element is removed to the stack container and the size of the stack is decreased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if a parameter is passed.
+2. Shows no exception throw guarantee.
+Run on IDE
+Output:
+Application :
+Given a number of integers, add them to the stack and find the size of the stack without using size function.
+Algorithm
+1. Push the given elements to the stack container one by one.
+2. Keep popping the elements of stack until it becomes empty, and increment the counter variable.
+3. Print the counter variable.
+Run on IDE
+Output:

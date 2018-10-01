@@ -1,0 +1,38 @@
+1st Round :
+1) Check if tree is a binary tree or binary search tree or not (https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+2) Write a program to output power(m,n)
+3) Given  an infinitely long sorted array having -1’s at the end search a value in that array
+4) Provide the complexities for the above questions.
+After 20 minutes 2 guys entered my cabin and straight forwardly they started technical stuff.They started with my projects,I told that I am working in support project
+2nd Round
+1) Design a musical juke box with functions
+           1) add song
+             2) delete song
+             3) top 10 played song at any point of time
+  We had a lot of discussion about this around 40 minutes using different data structures like hashmap, heap.
+2) Longest consecutive path in a binary tree (https://www.geeksforgeeks.org/longest-consecutive-sequence-binary-tree/)
+    I told my approach but they didn’t got that then I wrote recursive code and explained.
+3)Find the sum of all left leaves in a binary tree (https://www.geeksforgeeks.org/find-sum-left-leaves-given-binary-tree/)
+  Initially I told level order traversal approach.They asked me to code.They seems satisfied but again come up with a question to optimize the space.Told the approach using post order traversal
+3rd Round :
+This guy is very friendly.
+1) Merge two sorted linked list into one without any extra space
+2) Given a binary tree along with a value. The question is to find the mirror of that node,the value always exist in the binary tree
+
+for this tree mirror of 2 is 4 and for 1 mirror is NULL.
+3) Given a array with n songs,we have to play all the songs only once.Given only 2 functions
+1)playsong(songid)
+2)getRandom(n) – return the random values in between 1 to n
+Told hashmap approach he told if the getRandom() give the same values million of time then its sucks.So I modified my approach and he was impressed.
+4th Round :
+This round was with SDM of another team
+1) Segregate even and odd number in the list with out using extra space
+2) A kind of design question.  Given amazon log files of two days.He asked me to find the users who logged in both the days. Had discussion using Hashmap,he want to optimise further I gave solution using trie with little modification in its structure
+He appreciated me and left.
+5th Round (Bar Raiser)
+1) Had discussion about my projects and its extensions.He gave some advise
+2) Serialize and deserialize a binary tree
+I told the approach using two traversals inorder and preorders.He asked me to code directly then I explained him but he didn’t got my approach and he continuosly used to ask many questions .Finally I told using one preorder traversal with markers he told that he know that solution.
+After this round he asked me to leave for the day.
+I would like to thank my friends and geeksforgeeks who are always with me helping all the time,
+

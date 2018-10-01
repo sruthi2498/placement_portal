@@ -1,0 +1,27 @@
+Sum Rule –  If a task can be done in one of  ways or one of  ways, where none of the set of  ways is the same as any of the set of  ways, then there are  ways to do the task.
+The sum-rule mentioned above states that if there are multiple sets of ways of doing a task, there shouldn’t be any way that is common between two sets of ways because if there is, it would be counted twice and the enumeration would be wrong.
+The principle of inclusion-exclusion says that in order to count only unique ways of doing a task, we must add the number of ways to do it in one way and the number of ways to do it in another and then subtract the number of ways to do the task that are common to both sets of ways.
+The principle of inclusion-exclusion is also known as the subtraction principle. For two sets of ways  and , the enumeration would like-
+Below are some examples to explain the application of inclusion-exclusion principle:
+Implementation
+Problem 1: How many numbers between 1 and 1000, including both, are divisible by 3 or 4? 
+The Approach will be the one discussed above, we add the number of numbers that are divisible by 3 and 4 and subtract the numbers which are divisible by 12.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ . 
+Problem 2:  Given N prime numbers and a number M, find out how many numbers from 1 to M are divisible by any of the N given prime numbers. 
+Examples :
+The approach for this problem will be to generate all the possible combinations of numbers using N prime numbers using power set in 2N. For each of the given prime numbers Pi among N,  it has M/Pi multiples. Suppose M=10, and we are given with 3 prime numbers(2, 3, 5), then the total count of multiples when we do 10/2 + 10/3 + 10/5 is 11. Since we are counting 6 and 10 twice, the count of multiples in range 1-M comes 11. Using inclusion-exclusion principle, we can get the correct number of multiples. The inclusion-exclusion principle for three terms can be described as:
+ 
+Similarly, for every N numbers, we can easily find the total number of multiples in range 1 to M by applying the formula for an intersection of N numbers. The numbers that are formed by multiplication of an odd number of prime numbers will be added and the numbers formed by multiplication of even numbers will thus be subtracted to get the total number of multiples in the range 1 to M. 
+Using power set we can easily get all the combination of numbers formed by the given prime numbers. To know if the number is formed by multiplication of odd or even numbers, simply count the number of set bits in all the possible combinations (1-1<<N).
+Using power sets and adding the numbers created by combinations of odd and even prime numbers we get 123 and 45 respectively. Using inclusion-exclusion principle we get the number of numbers in range 1-M that is divided by any one of N prime numbers is (odd combinations-even combinations) = (123-45) = 78.
+Below is the implementation of the above idea:
+
+Run on IDE
+
+Time Complexity : O(2N*N)

@@ -1,0 +1,11 @@
+std::stoul  
+Convert string to unsigned integer. Parses str interpreting its content as an integral number of the specified base, which is returned as an unsigned long value.
+std::stoull
+Convert string to unsigned long long. Parses str interpreting its content as an integral number of the specified base, which is returned as a value of type unsigned long long.
+Examples:
+Run on IDE
+Output:
+Another Example :  Program to compare two strings containing hexadecimal values
+Here stoul is used, but in cases of numbers exceeding unsigned long value, stoull is used.
+Run on IDE
+Output:

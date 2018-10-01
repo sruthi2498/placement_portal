@@ -1,0 +1,5 @@
+The multimap::lower_bound(k) is a built-in function in C++ STL which returns an iterator pointing to the key in the container which is equivalent to k passed in the parameter. In case k is not present in the multimap container, the function returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then the iterator returned points to key+1 and element = 0. 
+Syntax:
+Parameters: This function accepts a single mandatory parameter key which specifies the element whose lower_bound is to be returned.
+Return Value: The function returns an iterator pointing to the key in the container which is equivalent to k passed in the parameter. In case k is not present in the multimap container, the function returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then the iterator returned points to key+1 and element=0.  
+Run on IDE

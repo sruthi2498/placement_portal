@@ -1,0 +1,44 @@
+Applied through Greymeter and received call next day for the recruitment process of Software Enginner(Product Development-C, C++, Java)
+Test started with Written Tests
+Comprises of 11 Questions Java,20 Questions c++ and 20 Questions Analytical ability
+In Java,C++ questions were totally concept based and you have to attempt all of them as there is no negative marking.
+Java:
+What interface or class you have to implement or extend to override java’s default mechanism : ________________________
+Which one of the following is thread safe
+1.StringBuffer
+2.StringBuilder
+What are the ways you can implement threading in java.
+____________________
+______________________
+_______________________
+C++:
+int *p=10;
+cout<<*p;
+int *p=10;
+count<<p;
+how to get address of float type variable
+1. &
+2. float (&)
+C inherit B and B inherit A, what are the data types of B and A ,C can access
+1.Protected and Public
+2.Public and Private
+3.Private Only
+4.Protected Only
+Aptitude :
+Questions were based on following types:
+1.Speed Distance Time
+2.Profit and Loss
+3.Geometry
+4.Average
+Technical Interview (First Round) :
+1. Differences between C++ and Java ? How is java platform Independent ?
+2. Garbage Collection ? Why java perform its own garbage Collection ? what was the problem with delete and free in C,C++?
+3. Thread Implementation ? Daemon threads ? How to implement ? What is the difference between thread and a process ?
+4. Abstract class vs Inteface ? Give scenarios for which two different concepts are introduced ?
+5. Interviewer wrote 5-6 programs based on Strings,Threading,Exception Handling,dynamic method dispatch and ask me to find Errors,Correct them and give the final output.
+Technical Interview 2(Second Round):
+1. He draw a tree structure on board and ask me to store the structure in a table without disturbing relations.
+2. How to implement Automatic Garbage collection in C++?
+3. Write a program for queue ?
+HR Round :
+Discussion about Products company made till date, and what my role will be if I got selected.

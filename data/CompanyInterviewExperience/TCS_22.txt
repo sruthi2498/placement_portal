@@ -1,0 +1,48 @@
+I solved just one question in codevita 2018 and was called for an interview session at TCS Geetanjali Park at 12:00 noon on Aug 22, 2018. There were about 400 students.
+First they collected out TCS application form and cv and informed us there will only be Presonal Interviews and no qualifier rounds. There were besically 2 rounds(not told in the beginning), technical and hr.
+I had to wait for about 3 hours for my first call. I prepared for questions form ds, dbms, oop, and so on but things went in different direction as you will see.
+Round 1: 
+My panel for the technical consisted of two interviewers. They were very polite and absolutely not intimidating. Here are the questions I was asked after basic salutations.
+Question 1: What Language are you most confortable with?
+Answer 1: For the past 7-8 months I am on a route of learning Python and worked on a Project with Django (described briefly), so current status is that I know the basics of Python and C is out of practice for about the same time, so I would say Python and C.
+Question 2: Why were you interested in learning Python?
+Answer 2: Beacuse I’m really interested in the field of Data Science because of the insights that it can bring about familiar data to help the cause.
+Question 3: What do Libraries do you currently know in the field?
+Answer 3: Basics of Seaborn, Matplotlib, and currently learning geographical plotting with plotly and cufflinks. (Upon Reminding) Pandas and numpy also, they are the very base of the field. Then I was asked a code a basic problem with regards to numpy which I did.
+(At this point I could sense my mind going numb and a panic attack building since I wasn’t prepared for these topics)
+Question 4: Any other reason for learning Python?
+Answer 4: Yes, My minor project is on Machine Learning. And I just created my first model on the popular Titanic dataset from kaggle.
+Question 5: Did you make your own model?
+Answer 5: No, I used Scikit’s Decision Tree Regressor and Random Forest Regressor. I know these are not the best for this problem but I’m just starting out with ML and these are the only things I know at present anong with Simple Linear Regression.
+Question 6: (Drew a circle with two types of dots in it and the requirement was to draw a circum circle which would separete the two types of dots. I was asked to mention the approach i would use.)
+Answer 6: (With my limited knowledge I said after taking a few seconds) I would probably use regression since we are required to find a best fit line in the figure but I’m not sure how as all that I know about regression is Simple Linear Regression.
+Question 7: Are you sure Classification is not a better idea?
+Answer 7:  (After thing for a while) No sir since we are not trying to classify things here and are trying to find a best fit line between them.
+(I completely lost it at this point and was panicking like crazy, my hands were cold and shaky)
+Question 8: Can you explain how best fit line is found in regression?
+Answer 8: Sir, I don’t remember completely what i remember is this….I probably shouldn’t be saying this but we had regression in 3rd sem and I can’t remember anything now (They laughed). Drew a figure which apparently was the error calculation part.
+He then asked what method do you know in terms of error calculation? I said RMS.
+Question 9: Its RMSe, Root Mean Squared error. Can you write the formula for it?
+Answer 9: (I was panicking hard at this point and they could sense it). I wrote the formula correctly but not in proper mathematical terms.
+I then said this probably isn’t correct, he gave a smile and wrote the formula or me
+Question 10: Can you code this formula in Python?
+Answer 10: (Moment he said this mind was like ok dude I’m Leaving. I stared at them with blank eyes.) They said do you need a moment? I said yes sir, that will be great. Actually this is my first intervied and i’m very nervous, I didnt sit for any interview during my graduation. They asked why so? I started to answer but couldn’t phrase words correctly and I apologised. They said there was nothing to apologise for and that it was quite natural. Somehow managed to say that back then i wasn’t ready for an interview as i didn’t have enough knowledge and that things would have been more worse than this(pointing to the blank paper). Then I looked at the formula again and couldn’t even figure out how I would store the actual values and the measured ones. I confessed this by saying, Sir My mind if totally blank and I cant even think of how I i’m supposed to store all the values. He then helped me by reminding me of arrays. I then somehow coded it in c which was incorrect and he pointed that out.  Then asked me to code the same incorrect one in Python but with proper syntax, which I managed somehow. Then asked if dictionaries are more useful for this senario as we could keep the values as key and their error as values. I said I would prefer arrays as we need to traverse the entire thing both for errors and the values.
+Question 11: What are the utility of virtual enviroments in Python?
+Answer 11: (Still panicking I started talking nonsense just like we do in exams for questions we don’t know. Realised that it was nonsense, stopped myself. Apologised by saying I’m sorry I’m probably talking nonsense. He smiled and pointing to his collegue, I am done, You can go ahead now).
+(I was still stuck to the fact that I couldn’t write the code for a basic formula)
+Question 11: Tell why we are adopting cloud?
+Answer 11: (With my numb mind, I couldn’t think of anything but somehow pointed out the accessibility part. There were follow up questions but all around the same question. Bacially they wanted some other reason which i couldn’t point out. Though I gave quite a few good examples to support what I said. In the midst of these I pointed out that I was bothered by the fact that I couldn’t write the code for a basic formula and couldn’t answer the question on cloud. They were very understanding about it.)
+They said they were done now, and I could leave. I apologised one last time saying I’m sorry sir I could not do how I was supposed to. To which he said Oh you did quite good. I replied not upto my usual standards sir and left saying thank you.
+(I was quite sure I won’t be selected for the second round. The wait was around 45mins and the results came and I was selected, I still don’t know why. )
+Round 2: 
+We were taken to a separete room with any further instructions. After waiting for about 2 hours few more students joined us and were about 30 in that room. (I’m sure there were more selected, so 30 wasn’t the final number)
+A mam came in. It basically was mass HR round. Also she made it clear that we didn’t have the job yet just because we cleared the first round.
+She took our application forms one by one and asked 2-3 questions.
+Question 1: No plans for phd?
+Answer 1: No mam, this is it.
+Question 2: You said teaching is a hobby of yours, do you teach somewhere?
+Answer 2: Yes mam, at a coaching institute of my very first coumpter teacher.
+Question 3: Do you get paid for this?
+Answer 3: I refused to, its basically my way of paying the man back who showed me my point of interest and my choice of career.
+Finally we were told that we told that we will receive an email if we are selected.
+Here is my advice, Just be Genuine with your answers and state of mind and things will be in your favour. But before that be carefull about how you answer their first few questions and those dictate the fields you will be questioned on and this was the part where I went wrong.

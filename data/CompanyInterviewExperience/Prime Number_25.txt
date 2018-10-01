@@ -1,0 +1,8 @@
+Given an array of non-negative integers and range query l, r, find number of prefix sum which are prime numbers in that given range.
+Prerequisite : Prefix Sum | Primality Test
+Examples :
+Approach : Run a loop through l to r, where l and r are the range of indices and fill the prefix sum array which will be of size same as that of array, by adding the previous element of the prefix sum array and present element of the array, then, check whether the prefix sum at each stage is prime or not through Primality Test of checking primes. If the prefix sum is prime than increase the count otherwise not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

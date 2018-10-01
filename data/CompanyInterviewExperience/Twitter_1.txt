@@ -1,0 +1,32 @@
+Question 1: Acme Rotations 
+Archaeologists on planet Acme just uncovered an ancient temple! Above. the entrance, there is an inscription written in lowercase English letters, where each letter is carved into its own stone block. There is a lever next to it that causes a single left-circular rotation pf the inscription each time it’s pulled. For example if the inscription says, bca pulling the lever once changes the inscription to cab and pulling ,a second time changes the inscription to abc.The door will unlock once the inscription is rotated into a state where its as lexicogragphically small as is possible. lexicogragphically small means has the lowest alphabetical order.
+Complete the function in the editor below It has one parameter a string inscription, describing the inscription over.a temple’s entrance. function must return an integer denoting the rninimum number of left circular rotations needed to make inscription a, lexicographically small as possible.
+Input Format
+Locked stub code in the editor reads a string denoting inscription from stdin and passes in to the function.
+Contraints
+• The inscription consists of lowercase English alphabet letters only.
+• 1<=  length of inscription <= 10^6
+Output Format 
+Return an integer denoting, the minimum number of left-circular rotations needed to make inscription as  lexicogragphically small  as possible. This is printed to stdout by locked stud code in the editor.
+Sample Input 0
+baabccd
+Sample Output 0 
+1
+Sample Input 1
+anadama
+Sample Output 1
+6
+—————————————————————————————————————–
+Question 2 :   Identifying Triangles 
+Twitter encourages people to create clear bolts. Imagine you wanted write a bot that created beautiful triangles from a string of integer values.
+Given a string of integer values in the form a b c , we want to know which of the following answers that the values of a,b and c satisfy:
+input Format
+The first line contains an integer , n, denoting the number of elements in abc
+Each line i of the n subsequent lines (where 0 <= i < n) contains a string describing abci.
+Constraints
+1 <= n <= 5000
+1 <= a,b,c <= 2000
+————————————————————————————————————————-                                        
+
+
+

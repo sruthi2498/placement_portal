@@ -1,0 +1,23 @@
+Written round: 5 coding and 15 MCQ on ds, algos, dbms.
+Round 1
+Tell me about yourself
+Given two strings str1 and str2 find if str2 is substring of str1, if yes return the starting index else return -1. 
+Given time as a string in format of HH:MM, draw an analog clock. ( no logic , but made me write the entire code )
+Round 2.
+Tell me about yourself
+Given a binary tree, change the value in each node to sum of all the values in the nodes on the left side of the node. 
+solved this question using int*  he asked me to do it without integer pointer.
+->3 basket, apple, orange puzzle
+-> bridge and torch puzzle
+-> given an array first increasing then decreasing, find the max element, find any element
+     boundary cases..
+-> https://oj.leetcode.com/problems/trapping-rain-water/
+Round 3
+Tell me about yourself
+Given a string without spaces and a dictionary return or print all possible ways that the string can be broken so that only valid words are formed.
+Eg. “programmerit”, dict = { “pro”, “gram”, “merit”, “program”, “programmer”, “it” }
+ans:   {  {“pro”, “gram”, “merit”}, {“program”, “merit”}, {“programmer”, “it”} } 
+HR
+Tell me about yourself.
+Strengths, weaknesses, why payu, why coding?, motivation, challenging moment.
+

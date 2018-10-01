@@ -1,0 +1,13 @@
+This header is part of the numeric library in C++ STL. This article explains some useful functions in the numeric header which can be used during competitive programming to save time and effort.
+We usually find out the sum of elements in a particular range or a complete array using a linear operation which requires adding all the elements in the range one by one and storing it into some variable after each iteration.
+  accumulate()  
+This function returns the sum of all the values lying in a range between [first, last) with the variable sum.
+Run on IDE
+Output:
+An Example Problem : Sum of all elements between k1’th and k2’th smallest elements
+  partial_sum( ) 
+This function assigns partial sum of the corresponding elements of an array to every position of the second array.It returns the partial sum of all the set of values lying between [first, last) and stores it in another array b.
+For example, if x represents an element in [first, last) and y represents an element in result, the ys can be calculated as:
+Syntax :
+Run on IDE
+Output : 

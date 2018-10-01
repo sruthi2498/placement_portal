@@ -1,0 +1,11 @@
+Given an expression exp of length n consisting of some brackets. The task is to print the bracket numbers when the expression is being parsed.
+Examples :
+Source: Flipkart Interview Experience | Set 49.
+
+Approach :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(n).
+Auxiliary Space : O(n).

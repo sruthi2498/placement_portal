@@ -1,0 +1,72 @@
+Given the first term (A) and common difference (D) of an Arithmetic Progression, and a prime number (P). The task is to find the position of the first element in the given AP which is a multiple of the given prime number P.
+Examples:
+
+Input: A = 4, D = 9, P = 11
+Output: 3
+Explanation :
+The third term of the given AP is
+a multiple of prime number 11.
+First Term = 4
+Second Term = 4+9 = 13
+Third Term = 4+2*9 = 22
+Input: A = 5, D = 6, P = 7
+Output: 6
+Explanation :
+The sixth term of the given AP is
+a multiple of prime number 7.
+First Term = 5
+Second Term = 5+6 = 11
+Third Term = 5+2*6 = 17
+Fourth Term = 5+3*6 = 23
+Fifth Term = 5+4*6 = 29
+Sixth Term = 5+5*5 = 35
+
+Approach:
+Let the term be AN. Therefore,
+Now, it is given that AN is a multiple of P. Then,
+Now let A be (A % P) and D be (D % P). So, we have (N-1)*D = (k*P – A). 
+Adding and subtracting P on RHS, we get:
+Finally taking mod on both sides:
+Lets find a X < P, such that (D*X)%P = 1. This X is known as the inverse modulo of D with respect to P.
+Thus answer N is:
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+ 0)
+	{
+		// If y is odd, multiply
+		// x with result
+		if ($y & 1)
+			$res = ($res * $x) %$p;
+		// y must be even now
+		$y = $y >> 1; // y = y/2
+		$x = ($x * $x) %$p;
+	}
+	return $res;
+}
+// fuction to find nearest
+// element in common
+function NearestElement($A, $D, $P)
+{
+	// base conditions
+	if ($A == 0)
+		return 0;
+	else if ($D == 0)
+		return -1;
+	else
+	{
+		$X = power($D, $P – 2, $P);
+		return ($X * ($P – $A)) %$P;
+	}
+}
+// Driver code
+$A = 4; $D = 9; $P = 11;
+// module both A and D
+$A %= $P;
+$D %= $P;
+// function call
+echo NearestElement($A, $D, $P);
+// This code is contributed
+// by chandan_jnu.
+?>

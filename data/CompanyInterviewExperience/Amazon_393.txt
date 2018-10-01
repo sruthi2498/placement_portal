@@ -1,0 +1,11 @@
+Amazon interview experience for SDE-1
+1st round (1.5 hrs)
+1. given a dictionary of words – {“sam”, “samsung”, “sung”…. }. check if a given string eg. “sungsamsungsam” can be made from the words in the dictionary.
+2. magic number is a number formed by adding one or more powers of 5 .find Kth magic number. 5, 25, 25+5=30, 125, 125+5=130, 125+25=150, 125+25+5=155,….
+20 mcqs having c++, networking, dbms and apti Qs.
+1st interview–
+0. introduce yourself
+1. check if binary tree is BST or not.
+2. go from 0,0 to m,n in a 2d matrix. find the maximum possible sum of your path. you can only move down or right.
+3. given an array of integers. form pairs such that each pair’s sum is divisible by k. return 1 if this can be done, else 0.
+

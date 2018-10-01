@@ -1,0 +1,41 @@
+Amazon visited our campus for summer internship. I prepared from Amazon Interview Sets which were pretty helpful!
+
+Here is my experience :
+
+
+DAY 1
+They had an online aptitude test on day 1. It was 90 minutes: 20 MCQs + 2 coding questions (choice between C/C++/Java for coding). MCQs were based on DSA, OS, and Math. They were apparently difficult. 
+Two Coding Questions :
+1. Keypad problem – Little difficult problem on backtracking.
+2. Given an array, find the count of impossible triangle
+Day 2:
+Surprise aptitude test:
+2 coding questions 60 mins. 
+Questions involved DSA and strongly based on optimising the code:
+1. Given a linked list, reverse K nodes in it 
+ eg :- 1->2->3->4->5->NULL , k = 3
+ 3->2->1->5->4 
+
+
+2. Search for an element in an array which has elements who’s values are first increasing and then decreasing. (Use modified binary search)
+
+
+2 One-on-one Interview rounds, both technical. 
+Try giving THE most optimal algorithm which satisfies edge cases too.
+I was told to write the code on the paper. 
+Questions asked to me were:
+ 
+First interview round
+1. Find the second largest element in an array.
+2. Given a sorted array which can have repeated elements, find the occurrence of an element. (Most optimal solution is O(logn) – Using binary search to find start and end occurrence)
+3. Make a data structure and implement an algorithm to print all the files in a directory. (the root directory can have sub-directories too.)
+ I used an n-ary tree and BFS to print files. It can also be done using Stack.
+ 
+Second interview round
+1. He asked some question about my CV
+2. Print a matrix diagonally.
+3. DFS of binary tree, n-ary tree.
+4. Then he asked some question from other subjects.
+ OS – Scheduling 
+ DBMS – Normalization, Transaction
+ OOPS – Abstraction

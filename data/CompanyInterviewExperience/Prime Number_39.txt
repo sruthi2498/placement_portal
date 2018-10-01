@@ -1,0 +1,13 @@
+Given three numbers sum S, prime P and N, find all N prime numbers after prime P such that their sum is equal to S.
+Examples :
+
+Approach : The approach used is to produce all the primes less than S and greater than P. And then backtracking to find if such N primes exist whose sum equals S.
+For example, S = 10, N = 2, P = 2
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Optimizations :
+The above solution can be optimized by pre-computing all required primes using Sieve of Eratosthenes

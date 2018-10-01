@@ -1,0 +1,22 @@
+std::strncmp() function lexicographically compares not more than count characters from the two null-terminated strings and returns an integer based on the outcome.
+Syntax :
+If there are less than count characters in either string, the comparison ends when the first null is encountered.
+What does strcmp() return?
+strncmp() function return three different types of integer values on the basis of comparison:
+1. Greater than zero ( >0 ): A positive value is returned, if a character of str1 and str2 doesn’t match before the num characters and the ASCII value of str1 character is greater than ASCII value of str2 character. As a result, we can say that str1 is lexicographically greater than str2.
+Run on IDE
+Output:
+2. Less than zero ( <0 ): A negative value is returned, if a character of str1 and str2 doesn’t match before the num characters and the ASCII value of str1 character is lesser than ASCII value of str2 character. As a result, we can say that str2 is lexicographically greater than str1.
+Run on IDE
+Output:
+3. Equal to zero ( 0 ): This function returns zero if the characters of str1 matches with the characters of the str2 upto num characters. As a result, we cannot say that str1 is equal to str2, until num is equal to length of either string.
+Run on IDE
+Output:
+Note:  When the strings are not same, you will find that the value returned by the strncmp() function is the difference between the ASCII values of first unmatched character in str1 and str2 in both the cases.
+More Examples
+Example 1:
+Run on IDE
+Output:
+Example 2:
+Run on IDE
+Output:

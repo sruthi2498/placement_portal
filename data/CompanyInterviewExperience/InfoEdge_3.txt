@@ -1,0 +1,39 @@
+Recently, Infoedge visited our campus for Software Developer Position
+First Round – Online coding round and MCQs
+The Coding round had 2 questions. Both were of moderate difficulty.
+They had their own platform and questions weren’t same for everyone.
+1st question was to print the Binary Representation of an Integer.
+2nd was also an easy question, based on Array and Sorting.
+MCQs were usually from the topics like Quantitative Aptitude, Data Structures etc
+
+Second Round – Technical Interview
+Initially, he asked me about my academic projects.
+I had built an OLX like classifying AD portal as my course project.
+He asked general questions about ER diagram, Database Design and Schema, and Normalisation on that.
+
+Coding Questions-
+1) Count all Possible paths from top-left to bottom-right corner in an mXn matrix
+https://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/
+2) Arrange given numbers to form the biggest number
+https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/
+3) Find mirror of a binary tree
+4) Check if a given Binary tree is a BST or not.
+5) Given a sorted array with repeating elements, find the count of any given integer
+6) Given a complete binary tree, print it in spiral form. (Not to be confused with zig zag level order)
+And some basic OOP concepts like Abstraction etc.
+
+Third Round – Technical Interview
+He asked me about my favourite subject.
+I replied with DSA, DBMS, OS and Networks
+Questions asked were –
+1) Any pattern matching algorithm. I explained him KMP algorithm
+2) Implement a queue using stack and optimize it.
+3) Spin locking concept in OS and when it should be used.
+4) HTTP protocol
+5) Sorting algorithms with best possible complexity.
+I answered that depending on the data given, best can be O(n) for Counting sort.
+And for any general data, best can be O(nlogn) eg. Heap and Merge sort, etc
+HR round – 
+General questions about Myself and my family background.
+Why do you want to join Infoedge ?
+Why should we Hire you ?

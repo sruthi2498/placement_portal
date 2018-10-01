@@ -1,0 +1,31 @@
+Hello friends, I am sharing my placement experience at Monotype Solutions India Pvt Ltd whose recruitment process was conducted in my college. The process consisted of a written (online)test followed by technical and HR interviews. 
+Online Test: NO negative marking (1.5 hrs. Test)
+The test was conducted on Mettl and consisted of C (about 20 questions), C++(5 questions), Aptitude questions(about 10 questions) and programming problems.
+1. 
+2. One of them was something regarding scope of variables.
+3. From Linked lists quiz on geeksquiz: Q2 and Q4. GATE questions.
+C++ questions were purely conceptual. Aptitude questions were of mixed difficulty level. 3 programming problems and we had to do 2 (randomly assigned to us).
+a)  Find and delete all occurrence of pattern ab ba (something like that) from a given string.
+b) Given a linked list and two integers M and N. Traverse the linked list such that you retain M nodes then delete next N nodes, continue the same till end of the linked list.
+https://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list/
+c) One problem based on concept of finding “Next greater element”. (given on geeksforgeeks). Out of these, 1st and 3rd had to be run and compiled while 2nd to be submitted as plain text. They were manually checking it. 
+Technical interview (1.5-2 hrs approx., mine was 2.5 hrs. Long)
+It began with formal introduction.
+Questions asked were:
+1. Given a character string containing “How are you” and char*a =”Monotype”. Store “Monotype, How are you” in single statement. I suggested doing it by for loop but he was not satisfied by this and asked to do it using “sprintf” function.
+2. What is the use of pointers? How are 2D arrays stored in memory? Simulate 2D array using double pointers. I explained him *(*(a+2)+2) for a[2][2] but he was not satisfied with my answer. I finally did it by allocating memory for each 1D array using malloc and then creating an array of pointers to store the address of each such 1D array. This was correct.
+3. Discussion about Big and Little Endian pcs, how to find which PC is which, interconversion using bitwise operators.
+4. Coding problem to find how many times a number continuously appears in an array. Eg: 123333345, 3 appears
+five times in O(n).
+5. Searching algorithm: binary search concept.
+6. Check if binary pattern of a number forms a palindrome using Bitwise operators.
+7. Memory map of a C program, heap memory. 
+8. Definition vs declaration. You have two .c files each containing a function having only one statement of static variable declaration. Include those files in a new .c file and compile the project. Now he asked various questions based on this that were based on storage classes’ concept. I don’t remember the exact questions. 😛
+9. Rotation of bit pattern of a number. Edge cases were given like for a 32 bit number, if we have the numbering of bits’ index from RHS (opposite to what we generally do in arrays, start index 0,1….n-1 starting from left) and concerned bits lie from B9 to B0 i.e. Left most 22 bits are random and not required. Rotate so that B9->B8, B8->B7…B0->B9. Use bitwise operators.
+10. 25 horses are running in a race. 5 can run at a time. Find min races to find top three. 
+Some more questions were there which I don’t remember. Questions like accessing array in spiral manner was asked from other student too. Logic and not the exact code was his priority. 
+Logical/Technical Round (approx. 45 minutes) 
+He asked me about my college, branch and subjects that I know being a non-IT student. He asked me to explain what I know about Fluid mechanics, Heisenberg Principle, Atomic Models etc as I had said that I like Science. He then asked simple puzzles like calculating 15, 30, 45, 60 minutes by burning a rope. Correctly mark the labels on three fruit boxes having either orange, apple or a combination of both. You can pick only one at a time. What do you know about fonts, web fonts. I told him something about fonts family: Sans, Serif etc. (it was hinted in ppt that they will ask such things.) some questions from resume. 
+HR interview(20-25 minutes)
+Common HR questions from resume and as found on indiabix.com.
+I would like to thanks geeksforgeeks for being such a good resource for placements preparation. Thank You.

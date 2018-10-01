@@ -1,0 +1,29 @@
+1st Round (2 hr)
+1) About current work
+2) OS -> factors to consider while designing an Operating system. followed by discussions on virtual memory, paging, thrashing, memory management.
+3) Java -> Singleton pattern code, some basic questions,one problem related to constructor chaining.
+4) Problem related to find suitable Data Structure for some problem -> answer was trie,Some more questions related to implementation , time complexity…
+5) Find a pair whose sum equals X
+      *in array : followed by What if all numbers can’t fit in main memory.
+      *in a tree
+      *then in a BST : different approaches were discussed.
+6) Find missing number in an array of numbers in given range (different approaches)
+7) Puzzle :25 horses, 5 tracks, 3 fastest 
+2nd round (1.5 hr)
+1) Question similar to :Number of ways to reach bottom right in 2-D matrix
+2) Minimum number of weights required to weigh 1 to N kgs of rice,given balance
+          	Ex: for 1 to 5? Ans : 3(1,2 and 4), for 1 to 10? Ans:(1,2,4 and 8)
+3) Train schedule is given, find maximum number of platforms required at any point of time
+4) Java generics
+5) SQL query -> i told that,haven’t worked on DB after college, so no questions on that
+6) About projects.As i worked on distributed systems,Some questions on scaling(Horizontal/vertical),fault tolerance etc…
+7) Tree traversal. time and space complexities, considering stack frame, different situations (Skew tree, balanced(AVL tree)).
+8) Most interesting thing (Algorithm/Tool/or anything in your past work) you came across till now(My answer was Apache mesos. followed by discussion on the same)
+3rd round(1 hr)
+1) Cousins of nodes in binary tree, write code
+2) N-Queens problem (Backtracking),write code
+3) About projects, from College and current work.
+4) Networks -> tcp v/s ip protocol, ip v/s mac address.Some basic questions…
+5) Java -> composition vs polymorphism (pros & cons) Some basic questions…
+6) Discussion on other programming languages mentioned in resume.
+Thats all i could remember. It was conducted @bangalore @some  hotel.

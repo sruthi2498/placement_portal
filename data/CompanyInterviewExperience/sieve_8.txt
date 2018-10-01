@@ -1,0 +1,12 @@
+Given a number N. The task is to print the nearest prime if the number is not prime by making it prime by adding prime numbers sequentially from 2. 
+Examples:
+Input: N = 8
+Output: 13
+8 is not prime, so add the first prime to it to get 10
+10 is not prime, hence add the second prime i.e., 3 to get 13 which is prime. 
+Input: N = 45
+Output: 47
+Approach Using Sieve of Eratosthenes, mark the prime index by 1 in isprime[] list and store all the prime numbers in a list prime[]. Keep adding prime numbers sequentially to N, till it becomes prime. 
+Below is the implementation of the above approach:   
+Run on IDE
+Run on IDE

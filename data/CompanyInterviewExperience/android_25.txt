@@ -1,0 +1,6 @@
+Layout Managers (or simply layouts) are said to be extensions of the ViewGroup class. They are used to set the position of child Views within the UI we are building. We can nest the layouts, and therefore we can create arbitrarily complex UIs using a combination of layouts.
+There is a number of layout classes in the Android SDK. They can be used, modified or can create your own to make the UI for your Views, Fragments and Activities. You can display your contents effectively by using the right combination of layouts.
+The most commonly used layout classes that are found in Android SDK are:
+Each of these layouts is designed to scale to suit the screen size of the host device by avoiding the used of absolute co- ordinates of the positions or predetermined pixel values. This makes the app suitable for the diverse set of Android devices.
+Reference:
+https://developer.android.com/guide/topics/ui/declaring-layout.html

@@ -1,0 +1,14 @@
+std::equal_range is used to find the sub-range within a given range [first, last) that has all the elements equivalent to a given value. It returns the initial and the final bound of such a sub-range.
+This function requires the range to be either sorted or partitioned according to some condition such that all the elements for which the condition evaluates to true are to the left of the given value and rest all are to its right.
+It can be used in two ways as shown below:
+Syntax:
+Run on IDE
+Output:
+Explanation: After sorting the vector v1, we checked for the bounds within which 30 is present, i.e., from index 3 till index 6.
+
+Syntax:
+Run on IDE
+Output:
+Where can it be used ?
+Run on IDE
+Output:

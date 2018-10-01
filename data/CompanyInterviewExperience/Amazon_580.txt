@@ -1,0 +1,50 @@
+Online round:
+1) Program to check if two rectangles overlap.
+2) Program to find if a given string, say S, contains another given string, say P.
+3) Write a program to check if the  coins can be summed up to a given number, if yes print the coins that sums upto the given sum.
+Telephonic round:
+1) Given  a singly linked list,  modify the value of first half nodes such that 1st node’s new value is equal to the last node’s value minus first node’s current value, 2nd node’s new value  is equal to the second last node’s value minus 2nd node’s current value, likewise for first half nodes. 
+2) Reverse the alternate level nodes of the binary tree.
+Face to Face Rounds:
+Round 1: 
+•	Thorough discussion about one project that I considered as the most interesting or challenging.
+•	Suppose we need a service to perform certain task every day at some specified time. How do we ensure that everyday at the specified time the service will do that  task?
+•	Design a stack that supports push, pop, and retrieving the minimum element in constant time.
+•	Program to get the maximum distance between two nodes in the binary tree. The interviewer further generalized this problem for n-ary tree. Then he asked how to get the longest path in a graph.
+Round 2:
+•	What happens when we enter the url in the browser?
+•	Difference between inner join and outer join.
+•	How does the garbage collector works in java?
+•	Questions on stacks and heaps(memory management).
+•	We have n gold coins. We need to amalgamate all the n coins to create one single coin, we can merge two coins at once. The cost of merging two coins is equal to the value of those coins. How do we ensure that the cost of merging n coins in minimum.
+Ex: 5 ,8 , 4, 3, 9, 6
+We will merge 3 and 4, cost=7  {Remaining coins: 5,8,9, 6,7}
+Then we merge 5 and 6, cost=11  { Remaining coins: 11,8,9,7}
+Then we merge 7 and 8, cost=15   { Remaining coins: 11,15,9}
+Then we merge 9 and 11, cost=20   { Remaining coins: 20,15}
+Then we merge 20 and 15, cost=35   { Remaining coins: 35}
+Total cost: 7+11+15+20+35 = 88
+If we had merged the coin array {5, 8, 4, 3, 9, 6} in different fashion:
+Merging 5 and 8, cost=13 {Remaining coins: 13, 4, 3, 9, 6}
+Merging 13 and 4, cost=17 {Remaining coins: 17, 3, 9, 6}
+Merging 17 and 3, cost=20 {Remaining coins: 20, 9, 6}
+Merging 20 and 9, cost=29 {Remaining coins: 29, 6}
+Merging 29 and 6, cost=35 {Remaining coins: 35}
+Total cost: 114
+As we can see that the cost is less in the first case. Program to get the minimum cost of merging all the n coins. 
+•	Replace BST nodes with the sum of nodes greater than or equal to the node. 
+Round 3 (Hiring Manager):
+•	Detailed discussion of my work in the current company.
+•	Some behavioural questions like how do you handle certain situations etc.
+•	Design a restaurant reservation system. I was also asked to write some sql queries in this regard.
+Round 4 (Bar Raiser):
+•	Given a linked list, write a function to reverse every k nodes (where k is an input to the function).
+•	Given a sorted array which may contain duplicates, write a method to find the starting  and the ending index of the given number if present.
+                Suppose we are give array: 1,2,2,2,5,6,6,9,10,10,10
+	    If the number given is 9 then starting index and the ending index will be 7.
+	    If the number given is 2 then the starting index will be 1 and the ending index  will  be  3.
+	    If the number given is 7 the the starting and the ending index will be -1 as  the number is not present in the array.
+•	Write a method to compress a given string “aabbbccc” to “a2b3c3” . It should be an inplace compression, no extra space to be used.
+•	Discussion about my current project.
+•	Describe a scenario when you failed, when you helped our collegue etc etc.
+

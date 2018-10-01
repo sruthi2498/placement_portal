@@ -1,0 +1,17 @@
+MetLife is a start-up in medical e-commerce industry. Interview process is 1 online coding test followed by 2 f2f interviews.
+Could not recollect the online coding test problems.
+Below are the interview questions
+Round-1
+1) Find all anagrams in a given sorted dictionary
+2) Given pack of cards represented as A1,A2…A13 and B1,B2,..B13, and C1,c2,…c13 and d1,d2..d13.
+You are given a file which has 51 card numbers. Only 1 card is missing. Find the missing card.
+3) How do you write an order service which scales horizontally. Into how many services can you split this. An architecture/design diagram and explanation is required
+Round-2
+1) http://www.programmerinterview.com/index.php/puzzles/25-horses-3-fastest-5-races-puzzle/
+2) http://www.mathsisfun.com/puzzles/weighing-9-balls-solution.html
+3) Write JSON Parser. What are the Data Structures used for this?
+4) Write DFS code. What are the Data Structures used for this?
+5) https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+6) In an array all elements are repeated twice except one element. Find the element.
+eg: 2, 3, 4, 4, 3 — In this 2 is the element which is not repeated.
+

@@ -1,0 +1,39 @@
+First Technical Round
+1: Given NXN matrix filled with 1,0,2,3.
+1(Source)
+2(Destination)
+3(Blank cell)
+0(wall)
+Write a code to identify whether there is a path possible from source to destination, traversing through blank cells only. You can traverse up, down, right and left.
+2: In above question calculate the minimum number of moves needed to move from source to destination.
+3: Given a binary tree , print all the nodes in a same horizontal distance from root in a zig-zag manner.
+suppose the data in same horizontal distance is
+1 5 6 (horizontal distance 0)
+3 11 13 14 (horizontal distance +1)
+2 9 10 12 (horizontal distance -1)
+4 (horizontal distance 2)
+7 (horizontal distance -2)
+8 (horizontal distance 3)
+15 (horizontal distance -3)
+op will be 8 4 12 10 9 21 5 614 13 11 3 7 4 15 8.
+4: Test cases on fb login page.
+5: To detect and remove Loop in a link list.
+
+Technical Round 2
+1: There is a Queen placed in 8X8 chess board, a x,y coordinate is given, u have to find out is it possible to put other queen and so on for 8 queens.
+2: Test cases on a smart phone going to be launched tomorrow.(Discussion of about 40 minutes)
+3: Is testing your smartphone under refrigerator and microwave oven is valid test scenario?
+
+Technical Round 3
+1: You have given 3 rows 5 column matrix. Rows will be filled with platforms like ios,windows,android and columns would be features like camera,music system,Internet,voice,Locking system.
+  i have to filled the matrix by yes or no for the combinations of rows and columns for my smartform going to launch tomorrow on this different platforms and having updates on this feature.what would be my stratergy of testing as i have onl one day.And i have to launch the smartphone tomorow any how.
+2: SDLC life cycle phases. He is a customer and i am a road contractor. He will be stating me that he will need a road from this city to some list of cities.I have to fill the details on different phases.
+3: Mis-labelled jar puzzle.
+4: Mis-labelled jar puzzle for 4 jars.
+Technical Round 4
+1: Difference between severity and priority.
+2: Given scenerios i have to mark with appropriate level of severiety and prioity.
+3: 2 ropes and 45 min puzzle.
+4: 25 horses puzzle.
+5: Discussion on some OS concepts.
+

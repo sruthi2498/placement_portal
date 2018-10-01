@@ -1,0 +1,16 @@
+Following questions were asked during interview.
+1. Given an array, find the longest increasing subsequence of size 3 with max product, all numbers are positive.
+2. Given 3 linked lists representing 3 numbers, add them and return the result as another list (take care that your method handles overflows).
+3. Find the lenght of longest path in a binary tree(diameter). I gave a O (nlogn) solution. He wanted O (n) solution. did that
+4. You are standing at 0 0 and you have to get to i, j. Find the number of ways. Did that with recursion then with DP. Then he extended the question saying some edges are not traversible. Then edges have weights, find min weight path.
+5. Delete all leaf nodes in a tree.
+6. Find the peak in an array, array is first increasing then decreasing. Peak is the max element.
+7. Given a binary tree. A complete path is defined as any path from root to leaf. A k heavy path is a complete path with sum of node values on that path > k node values can be -ve too. Delete all nodes in a tree which do not lie on any k heavy path.
+8. Given a rotated sorted array, find the minimum element.
+9. Infinite stream of bits is coming, after every bit comes, you have to determine whether the number formed with bits till now is divisible by 3 or not, you cannot form the number as it will overflow at some stage.
+10. Imagine a binary tree lying on the floor with nodes as balls and edges as threads, you are given a pointer to a node. When you pick the tree from that node up what will be the structure of the tree. You have gravity changing the structure of the tree.
+11. An array is given representing the colors of n jars, colors have values 0-99. When two jars are mixed the resulting volume is same as volume of one jar. Smoke is color1*color2… and resulting color is (color1+color2)% 100. Keep on mixing colors such that you end up with just one jar with minimum smoke.
+12. A question on paging, processes also.
+Selected … thanks to geeksforgeeks team.
+ 
+

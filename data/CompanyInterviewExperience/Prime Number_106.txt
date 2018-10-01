@@ -1,0 +1,12 @@
+Given an array of N integers where N is even. There are two kinds of operations allowed on the array.
+The task is to find the minimum number of operation required to remove all the element of the array.
+Examples:
+
+To remove numbers, we must transform two numbers to two consecutive primes. How to compute the minimum cost of transforming two numbers a, b to two consecutive primes, where the cost is the number of incrementation of both numbers?
+We use sieve to precompute prime numbers and then find the first prime p not greater than a and the first greater than p using array.
+Once we have computed two nearest prime numbers, we use Dynamic Programming to solve the problem. Let dp[i][j] be the minimum cost of clearing the subarray A[i, j]. If there are two numbers in the array, the answer is easy to find. Now, for N > 2, try any element at position k > i as a pair for A[i], such that there are even number of elements from A[i, j] between A[i] and A[k]. For a fixed k, the minimum cost of clearing A[i, j], i.e dp[i][j], equals dp[i + 1][k – 1] + dp[k + 1][j] + (cost of transforming A[i] and A[k] into consecutive primes). We can compute the answer by iterating over all possible k.
+Run on IDE
+Output:
+Time Complexity: O(N3).
+Reference: 
+http://stackoverflow.com/questions/42315625/minimum-operation-required-to-remove-an-array

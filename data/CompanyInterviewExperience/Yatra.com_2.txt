@@ -1,0 +1,46 @@
+Students who have 70% above score are eligible.
+The selection process includes two rounds:1.(ONLINE)Technical and coding test 2. Technical and HR round
+Round 1: Online test:
+Total online time 1 hour and 50 mins. The test is conducted on hackerrank.com they provided a link to all of us. Total questions 19, in which 4 questions are coding questions and 15(MCQ) questions Technical and aptitude.
+Technical questions are mostly from data structures and aptitude questions are of time -work and time- distance. I could remember only a few MCQ questions, Stack popularly used in options are like recursions, relocation call etc.,  no of leaf nodes if an internal node of a binary tree is n. another question was to Find the inorder if preorder and postorder are given.
+Thought out the test the Yatra officials told us that your selection will be based on the coding round so our intention was to first somehow execute the code.
+The coding questions are
+1.Ticket collection:
+Sample input : 4, 5, 6, 13
+Output : 3
+Explanation: {4, 5, 6} can form a set of consecutive number and {13} a separate.so, the output is to return a maximum number of elements in the set. here, {4, 5, 6} has 3 elements compared to single element 13.
+ 
+2. Braces: you can find this question in hackerrank.com. The question was like
+Sample input: 2
+({{}])
+{{()}}
+output :
+NO
+YES
+Explanation: Initially, the number of inputs strings are determined. here, 2. If the string contains an equal number or balanced number of ‘(‘, ‘{‘ and ‘]’ then return YES else NO.
+ 
+3.Substring: we have to identify the substring which starts with a vowel and end with a consonant.observe the sample input below.
+sample input:
+aab
+output:
+ab
+aab
+input:
+ab
+output:
+ab
+ab
+4.Palindrome:
+sample input:
+abxbcvdqad
+output:
+12
+Explanation: The given string contains palindromes we have to find possible palindrome and then multiply the number length of each palindrome. Here, abxbcvdad is a given string where abbc and dad are two possible palindromes and length of these palindromes are 4 and 3 so a maximum number of palindromes= 4X3= 12. so, 12 has to be returned.
+I Got one program executed passing the test cases and the other failed in one test case.
+7 shortlisted to the next round of 100 students who attended first round.
+ 
+Round 2: Technical and HR:
+My classmates who passed the first round told me that in this round the maximum questions are from the book how to crack coding interview and some questions are from operating systems.
+after these 2 rounds, results were announced and 3 got selected.
+To perform good practice well in hackerrank. ALL THE BEST
+

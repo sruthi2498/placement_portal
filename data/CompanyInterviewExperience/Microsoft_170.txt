@@ -1,0 +1,18 @@
+Round 1 – It was on online coding round hosted on cocubes.com. It was a 75 mins round consisting of 3 coding questions only.
+ques 1- given a number n and k. If the k bit in the binary representation of n is 1 then we have to make it 0 and return the new number formed else return n as it is.
+ques 2- given a link list where each node in the link list represents a point in the xy plane, each node has 3 data members int x, int y and a next pointer. We had to print the number of changes in slope if we start from the begining and take two adjacents points and repeat it till the end.
+ques 3- http://www.spoj.com/problems/AGGRCOW/
+students doing 2 or more questions correctly headed towards the next round. From the total of 150 students around 30 of them cleared this round.
+ 
+Round 2– it was a group fly round, where 2 questions where given and 30 mins was the alloted time. It was a pen paper round.
+ques 1- http://quiz.geeksforgeeks.org/puzzle-16-100-doors/, exact question just there where 500 doors and people instead of 100.
+ques 2- find the length of the biggest palindromic substring present in a string and print the palindromic string.
+People doing one question correct and the other one partially correct where shortlisted for the next round. 8 students were selected after this round.
+ 
+Round 3- it was a technical interview round.
+Firstly the interviewer asked me to introduce myself and then asked around 3-4 questions regarding my project.Then one by one the interviewer asked me 3 coding question they were- 1) given an array of length (n-2) consisting of elements from 1 to n except for 2 elements are missing, find the missing elements. 2) print all the possible permutations of a string. 3) given a number reverse .
+Then the interviewer asked me few questions on OOPS and even told me to implement them on paper. He then asked me few questions about OS. Then he asked be to subtract 2 numbers without using arithmetic operators and even the ++ and — operators. Then he asked me a puzzle and ended the interview. The interview lasted for around 45 mins.
+ 
+Round 4– It was the HR round.
+The HR was a very cool guy. He asked me questions regarding my project. Then few puzzles. He then asked some theory questions from around everywhere such as DBMS,OS,networking. Surprisingly he did not ask any coding question.He then asked me about my future plans ans why I had such a low cgpa(8.31). He then asked me if I had any questions for him, then we had a 10 mins discussion on my question.The interview lasted for around 80 mins.
+Finally 3 people where given the internship from our college. My suggestion is to keep your calm in the whole interview process, even if you dont answer any one of the question just dont panic and try to give your best in the next question.

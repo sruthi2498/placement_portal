@@ -1,0 +1,28 @@
+Goldman Sachs came for recruiting students for the New Analyst profile. Following is a brief description of the process.
+Round 1 (Online Test) : 3 hrs
+Online test was conducted on the Hackerrank platform and consisted of objective and coding questions. It was divided into three sections : Programming, Quantitative Ability and Data Science and had separate timers for each section.
+Following were the two coding questions:
+https://practice.geeksforgeeks.org/problem-page.php?pid=553
+https://practice.geeksforgeeks.org/problem-page.php?pid=1146
+Focus was mainly on writing efficient code.
+Round 2 (Personal Interviews): Multiple rounds (approx 30 mins each)
+There were two or more rounds of personal interviews. Questions were mainly asked from Probability and Statistics (difficult), programming and algorithms (moderate) and resume-specific. Very few HR Questions were also asked.
+Probability:
+1. Monty Hall problem and its variations
+2. Probability of two / three points lying on the same side of a semicircle
+3. Probability of breaking a rope into three pieces such that the sides form a triangle
+4. Two persons are supposed to meet a spot in a time interval of one hour. The person who comes first will wait for a maximum of 15 minutes for the second person. What is the probability that they will meet?
+Coding:
+1. Implement an LRU Cache
+2. Version control system for Queue Data Structure
+3. Subset Sum problem
+4. Hash Table and collision resolutions
+5. Given a sorted array find the element whose value is same as its index.
+HR:
+1. Why GS?
+2. Why should we hire you?
+Resume specific questions.
+Interviewers are friendly and they give hints during the process. Always let them know how you are trying to approach the problem so that they can help you better.
+All the best.
+
+

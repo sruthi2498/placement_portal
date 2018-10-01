@@ -1,0 +1,43 @@
+Written Round:
+75 minutes Test on Mettle.
+Assessment Composition:
+1. Coding Skills: 2 Questions (One ques is from DP(easy one like 0-1 knapsack) and other is Activity Selection Problem).
+2. Programming: 10 Questions
+3. Machine Learning Hadoop MCQ: 6 Questions
+4. Networking MCQ: 6 Questions
+5. Operating System: 6 Questions
+6. Infrastructure: 6 Questions
+7. Application Security: 6 Questions
+(In coding round everyone had different questions but they mainly cover DP and simple array question).
+First Round (35 min):
+– First he told me about himself,then asked me “Tell me something interesing about yourself?”
+– Then he asked me you have experience in android or iOs app development. Because i don’t have any knowledge of about it i simply said no.
+– Then he asked me what is your area of interest. (my area of interest : computer networking , ds and algo).
+– Then asked me completely describe Tcp/Ip model and OSI layer model thoroughly and difference between them.
+– OOPS concepts all.
+– PKI (public key infrastructure) and DDOS attack.
+– Loadbalancing of servers.
+– Complete working of Router .
+– Write a code to delete node from singly linked list.
+Second Round (1 Hour 10 min):
+– First he told me about himself, then asked me about my project.
+– Project was the main deciding factor that you will move to next round or not.
+– Computer Network Topology,SDLC models, statistics (mean,median,mode,standard deviation formulae).
+– What is api give examples also.
+– He has given me a real time scenario and asked to develop stratedy for making a software.
+  You have been given unstructured data which is coming form facebook and twitter.  Analyse these data according to “TCS stocks in market and people’s view on this”.
+  Make a strategy to tell that your software will decide that any point of time you should “BUY” or “SELL” the stock.
+  (A lot of discussion had been done there interviewer just want to know how you are approaching to solution.)
+– Testing (white box / black box testing mainly).
+  he asked one question based on this that if there is memory leakage in your program which testing you will choose and why. (ans : white box tesing).
+– Finally he asked “You have any question from me”.
+Third Round (15 min):
+
+– This round was tech and hr mixed.
+– He asked me for which profile you want to go (Networking or Programming) .
+– TCP congestion how to remove it.
+– A simple 9 ball puzzle , one ball is light in weight . In how many minimum balance you can find out this light weighted ball.
+– Finally he asked “You have any question from me”.
+Guys mainly focus on networking, information security and  project and be confident. Thanks to geeksforgeeks for helping a lot in preparing for placement. 
+
+

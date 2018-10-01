@@ -1,0 +1,13 @@
+Given a number N. The task is to write a program to find the N-th term in the below series:
+1, 1, 2, 3, 4, 9, 8, 27, 16, 81, 32, 243, 64, 729, 128, 2187…
+Examples:
+On observing carefully, you will find that the series is a mixture of 2 series:
+The approach to solving the problem is quite simple. The odd positioned terms in the given series form a GP series with first term = 1 and common ration = 2. Similarly, the even positioned terms in the given series form a GP series with first term = 1 and common ration = 3.
+Therefore first check whether the input number N is even or odd. If it is even, set N=N/2(since there are Two GP series running parallely) and find the Nth term by using formula an = a1·rn-1 with r=3. 
+Similarly, if N is odd, set N=(n/2)+1 and do the same as previous with r=2.
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

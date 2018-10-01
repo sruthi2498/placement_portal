@@ -1,0 +1,15 @@
+Qualcomm conducted following rounds:
+1. Online test conducted by hire pro. You can prepare from prepinsta and geeksforgeeks. In aptitute section they also ask logical aptitude too apart from quant. Keep your C basics like pointer, union, struct etc. strong.
+2. Round 1 interview: First I was asked to introduce myself and tell about my project. Then most of the question were about C, some from OS & and one from linked list. Following question:
+*toggle even bits of a number
+*what is race condtion?
+*what will happen if i call free(NULL)? Any error?
+*how to detect loop in linked list?
+*what is deadlock?
+*a function is passed a void pointer like myfunc(void *p). Determine memory addres pointed by p is on stack or heap.
+*What happens if i don’t free memory and assign some other address to an existing pointer variable pointing to some memory on heap?
+*Difference b/w semaphore and mutex.
+*about volatile keyword in C.
+*about function pointers
+3. Round 2 interview: Entire discussion was on projects and few puzzles you will find on geeksforgeeks like ant triangle etc.
+4. HR Round… Relocation, why qualcomm, etc. HR like questios.

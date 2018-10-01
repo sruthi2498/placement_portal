@@ -1,0 +1,21 @@
+A pernicious number is a positive integer which has prime number of ones in its binary representation. The first pernicious number is 3  since 3 = (11)(in binary representation) and 1 + 1 = 2, which is a prime.
+Properties of Pernicious Numbers :
+1. There isn’t any pernicious number which is also power of 2 because powers of two in binary form are represented as a one followed by zeros. So, 1 is not considered as a prime number.
+2. Every number of the form  + 1 with n > 0 is a pernicious number as the number of ones in binary form is 2 which is prime.
+3. A number of the form  – 1 with prime p is a pernicious number known as a Mersenne number .
+
+The idea to print first n Pernicious numbers is simple. 
+Do following for every number from 1 to n.
+1) Count set bits in current number
+2) Print current number if count of set bits is prime. We use simple primality check for this purpose.
+Here is the program to print first 25 pernicious number.
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+References :
+Wiki

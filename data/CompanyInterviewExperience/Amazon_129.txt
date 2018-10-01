@@ -1,0 +1,21 @@
+Given a sorted array consisting 0’s and 1’s. The problem is to find the index of first ‘1’ in the sorted array. It could be possible that the array consists of only 0’s or only 1’s. If 1’s are not present in the array then print “-1”.
+Examples :
+Source: Asked in Amazon Interview
+
+Naive Approach: Traverse the array from left to right and return the index of first ‘1’. If 1’s are not present in the array, then print “-1”.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Efficient Approach(Binary Search): Use the technique of binary search on the sorted array, so as to find the index of first ‘1’.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(Logn)
+References: https://www.careercup.com/question?id=17316686

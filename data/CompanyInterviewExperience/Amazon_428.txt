@@ -1,0 +1,30 @@
+Recently, Amazon visited our campus. Here is my Interview Experience:
+Online Round: (Duration – 90 minutes)
+20 MCQs and 2 coding questions. MCQs were on Algorithms, Time Complexity, Quantitative Aptitude, Probability, Operating Systems, Graphs, Data Structures, Recursion outputs etc.
+Coding Questions:
+1. In one of Amazon fulfilment centres, there are a no. of empty boxes kept in increasing order in a row. Kiva robots are designed to put a product in a box. The product size is given. Design a program to find the best fit box for given product size. First line contains no. of empty boxes and next line contains size of boxes with space. The next line contains size of given product. The output shows the best fit box size and -1 otherwise.
+2. Given a binary tree, find the longest path in the tree. If there are two longest paths print the lexicographically first path.
+EXAMPLE:
+
+OUTPUT:   D E B A F G
+
+ROUND 2: (DS CODING ROUND) 
+1.    Given a BST and 2 nodes in the BST, find the length of the path between the two given nodes.
+Example:
+Input: the below tree and node 3 & 7
+Output: 5
+
+
+ROUND 3: (F2F)
+1.    Given an array where the elements are in absolute difference 1, write an algorithm to search for an element in the array and return the position of the element. (return the first occurrence).
+2.    Given a linked list, check if it is a palindrome or not. 
+3.    It was a scenario question based on facebook. I have to find all the mutual friends of my friends and my friends of friends of friends. This list returned should be in a sorted order. To perform the above action u are given a getfriend() function which will return the list of friends for that id.
+Hint: use hashing  
+
+ROUND 4: (F2F)
+1.    It is a graph question. A 2D graph with x and y coordinates. Given millions of points in a graph, find the k nearest point to the origin.
+Hint: use heap ( I used a priority queue )
+2.    Given a binary tree, a node in the tree and a distance k. Print all the nodes at a distance k from the given node in the tree.
+Example: 
+
+

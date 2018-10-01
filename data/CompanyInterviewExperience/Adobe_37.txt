@@ -1,0 +1,21 @@
+We have an integer array that is sorted in ascending order. We also have 3 integers A, B and C. We need to apply A*x*x + B*x + C for each element x in the array and sort the modified array.
+Asked in : Adobe
+
+
+1- Apply the given equation on all the elements. O(n)
+2- Sort the modified array. O(n Log n)
+Time complexity of O(n log n) 
+
+The equation given is parabolic. So the result of applying it to a sorted array will result in an array that will have a maximum/minimum with the sub-arrays to its left and right sorted.
+In the above example, maximum is 0 and the sub array to its left {-4, -1} is sorted in ascending order and the sub-array to its right {-1, -4, -9} is sorted in descending order.
+All we need to do is merge these sorted arrays which is linear in time.
+So the algorithm is:
+Note : The below code assumes that the modified array is first increasing then decreasing.
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+Reference: 
+http://stackoverflow.com/questions/4551599/sorting-result-array
+

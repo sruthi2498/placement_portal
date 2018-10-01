@@ -1,0 +1,8 @@
+The list::front() is a built-in function in C++ STL which is used to return a reference to the first element in a list container. Unlike the list::begin() function, this function returns a direct reference to the first element in the list container.
+Syntax: 
+Parameters: This function does not accept any parameter, it simply returns a reference to the first element in the list container.
+Return Value: This function returns a direct reference to the first element in the list container.
+Exception: This function creates an undefined behavior when used with an empty list container.
+Below program illustrates the list::front() function. 
+Run on IDE
+Note: This function works in constant time complexity.

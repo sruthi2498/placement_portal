@@ -1,0 +1,19 @@
+Print the Fibonacci sequence. The first Fibonacci numbers are:
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+How to print using 2 variables isntead of 3 variables?
+The algorithm with 2 variables is:
+1. print a+b.
+2. add a to b.
+3. assign b – a to a. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

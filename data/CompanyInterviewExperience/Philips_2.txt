@@ -1,0 +1,37 @@
+There were 3 rounds.
+
+Round 1- Online test which comprised of aptitude(very easy), technical (C, C++, dbms, OS, networks) and 2 coding(automata as they say) questions. For us, a link was provided and we could take the test at home too. WebCam was turned on for the entire duration of the test but many of my friends told that they cheated using the mobile, and some of them even got shortlisted in the first round. So, webcam wasn’t something to worry about.
+1st coding question was-
+Suppose there is a 2d matrix. Find the transpose of it and multiply the original and the transposed matrix and output the result.
+2nd coding question was-
+Rotate a given 2d array by 90° clockwise or anticlockwise based on the flag(0 or 1) given- 0 for clockwise and 1 for anticlockwise
+Even if u pass only one test case of only one coding question, u will be short-listed if you score well in apti. I had passed all the testcases of 1st coding question.
+33 were shortlisted after this round
+
+Round 2- Technical interview and the questions asked to me were-
+1- what are the concepts of OOPS?
+2- write a code in any language u r comfortable in to describe the concept of oops(these two were asked to everyone)
+3- the interviewer asked some questions related to my code. First was if class demo1 extends from class demo, and if we write
+demo d=new demo();
+demo1 d1=new demo1();
+Then can we write d1=d and why?
+Can we write d=d1 and why? She confused me with concepts related to this
+4- do u know anything about computer architecture. I told I had studied it in 3rd sem so I don’t really remember it but I will try to answer ur question. She asked what do u know about registers.
+5- I had written OS and DS as my subject of interests so she asked me about virtual memory, segnentation, paging and page faults
+6- how will u implement a stack? And then what changes will u make to implement a queue? And what’s the difference between queue and stack. 
+I don’t know how many were shortlisted because they were calling us separately if we had cleared the round.
+
+Round 3- Managerial round in which general HR and something related to ur resume will be asked
+Some of the questions asked to me were-
+Why did u come from North India to South India to study?
+Why is there a year gap between completion of 12th and start of engineering?
+What are ur strengths and weaknesses?
+Which language are you most comfortable in? Have u done anything apart from ur course in that language?
+If given a project, what are contraints that you or the company will consider? (answer will be time constraints, number of employees working on that project, budget, etc)
+What’s the biggest risk you have taken till now?
+What are you passionate about?
+What are your hobbies?
+Do you plan to do higher studies?
+Why do you think you chose this stream/branch?
+5 of us got selected after this round for full time employment 🙂
+There was another batch of interview going on for “only internship” people. Rounds were same.

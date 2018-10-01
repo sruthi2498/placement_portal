@@ -1,0 +1,43 @@
+Total 5 rounds: Cleared 3 and reached upto 4 round and then got rejected :(.
+1st Round : 20 MCQ 45 mins with 1 min/2 min dedicated question wise. 
+============
+Got 85% correct and selected for Next telephonic round.
+2nd Round: Telephonic Interview mostly on Java and use of multi-threading/logical
+===========
+Q) How will you save Blogs & Comments & Sub-comments in a database?
+Q) What is serialversionUID ? How will you transfer Objects between two different Objects in Java (Answer: Serialization) ?
+How will ensure the version of transferred object is same across both the systems?
+Q) How Hashmap works in java?
+Q) How ArrayList work in java?
+Q) You have two large files having GB’s of data. How quickly compare them and tell if they have identical data?  
+3rd Round : Online Test
+============
+Q) Design an application which stores millions of key-value pairs and uses commands to create,retrieve,update,delete,retrieve all key-value pairs.
+Sample example(CREATE , GET , UPDATE , DELETE, GETALL,QUIT are commands):
+Enter Commands:
+CREATE FOOD = APPLE
+GET FOOD
+APPLE
+CREATE FOOD = BANANA
+## Key ‘FOOD’ already exists ##
+UPDATE WEATHER = RAIN
+## Key ‘WEATHER’ does not exist ##
+CREATE WEATHER = SUN
+DELETE FOOD
+GET FOOD
+## Key ‘FOOD’ does not exist ##
+GET WEATHER
+SUN
+GET ALL
+## Key ‘ALL’ does not exist ##
+QUIT
+Further add following functionalities/Enhancements if possible:
+1) Adding key hierarchy support such as food/meal/dinner & food/snack/midnight etc..
+2) Adding Cache mechanism.
+3) Reading commands and key value pairs from File instead of console.
+Solution : I used Trie DS(and not Tree DS) to accomplish this and the 1st enhancement is very easy with this DS with less  memory usage.  Here is the code for reference in test.zip
+Q) Given an array in ascending followed by descending order. Find out the max from the array?
+4th round: Call from US , Online Live whiteboard test
+===========
+Q) Given an array in ascending followed by descending order. Find out the max from the array in less than O(N) complexity.
+Could not complete this and got rejected 🙁

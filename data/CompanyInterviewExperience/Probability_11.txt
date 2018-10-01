@@ -1,0 +1,18 @@
+Given a number n and an array containing 1 to (2n+1) consecutive numbers. Three elements are chosen at random. Find the probability that the elements chosen are in A.P.
+Examples:
+
+The number of ways to select any 3 numbers from (2n+1) numbers are:(2n + 1) C 3
+Now, for the numbers to be in AP:
+with common difference 1—{1, 2, 3}, {2, 3, 4}, {3, 4, 5}…{2n-1, 2n, 2n+1}
+with common difference 2—{1, 3, 5}, {2, 4, 6}, {3, 5, 7}…{2n-3, 2n-1, 2n+1}
+with common difference n— {1, n+1, 2n+1}
+Therefore, Total number of AP group of 3 numbers in (2n+1) numbers are:
+(2n – 1)+(2n – 3)+(2n – 5) +…+ 3 + 1 =  n * n (Sum of first n odd numbers is n * n )
+So, probability for 3 randomly chosen numbers in (2n + 1) consecutive numbers to be in AP = (n * n) / (2n + 1) C 3 = 3 n / (4 (n * n) – 1)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity : O(1)

@@ -1,0 +1,38 @@
+Round-1
+The first round comprised of 10 MCQ questions including C, JAVA output questions and technical portions. 2 Coding questions. One of the coding questions was related to file handling. You had to traverse a log file provided as an input and you have to count the number of occurrences of some words in the file, output file was to be generated t print the output. The test was held on Hackerrank platform.(Test Duration: 1:30 hour):-  
+The difficulty level of the test was moderate. After round-1 17 students were shortlisted for the next round.
+Suggestion:  Practice geeksQuiz for MCQ questions and be familiar with the platform.
+Tips:- Solve the questions with a calm mind. Don’t stress yourself during the test. 
+Round-2 (Technical Interview Round-1)
+Deutsche bank people were very particular about everything. So better dress perfectly and use your soft skills well. Listen there ppt carefully and try to put up some questions during it.
+My first interview started with the explanation of my projects. A detailed discussion was done on them. He touched every subject during the interview. So better be perfectly clear about the concepts of subjects like oops, OS, DS, DBMS, Networking. He made me write binary search program. Detecting loop in the linked list, He asked me not to write the most common method which to use slow and fast pointers.
+One question was- You are given n number of the folder. Those folders contain files. You need to search all the folders and just get the .exe files as the output.
+Another question to find the nth highest in a table. I wrote in MySQL he asked what changes will you make in the query to run on Oracle server. Next, he asked about joins.
+Difference between mutex and semaphore, Context switching, Spooling, deadlocks, will mutual exclusion ensure no deadlocks?.
+Function overloading and function overriding with examples. When do you use each of them?
+He asked me the difference between JAVA and Javascript. What kind of language is Javascript? – Object-Based.
+What are servlets?. What is MVC model? He just wanted to know what each of them does. Didn’t ask anything so deep about MVC.
+Since I did my internship in cloud computing he asked me few questions about SAAS and PAAS and few related questions. My interview went well he was quite impressed even said I said I didn’t know so much at your age.
+
+Tips:- As I said earlier they touched every subject. Prepare these subjects well. The interview lasted for an hour or so. Other students were also asked dynamic programming questions few of their favourite DP questions were the coin change problem and the string permutation question. 
+Round-3 (Technical Interview Round-2)
+This round difficulty level was higher than the previous rounds. They were checking how well you can tackle the questions and your approach towards it. Even if you are not able to answer don’t panic try to talk they will provide you ample of hints. Puzzles were asked.
+The first question they asked was to find an element in a binary tree in O(1) complexity. I wasn’t able to give the answer though I gave them a lot of approaches none of them had constant time complexity. Later he told to modify the node structure and store some additional information about the node like level etc. this was the solution he told me.
+Next was the question related to my project. He asked to draw the database structure for my project and to write few queries on them.
+Another question was a puzzle. 
+Search all the duplicate strings and their frequencies. You could not use hashmap nor could you traverse the document again and again.
+The last question was to insert an element in a sorted linked list in O(log n) complexity.
+Tips:-  The level of this round was really good. I was not able to solve all questions. 
+Round-4 (Managerial/HR Round)
+1) Project discussion.
+2) What will you choose between trust and honesty?
+3) No so good quality in you.
+4) The most challenging thing you have done till so far.
+5) One thing you want to improve about yourself.
+He asked me what other companies I have interviewed for before this. I told him Amazon and GE. Then he asked me how did I handle the rejection. I told him the truth that I didn’t handle it well.
+Next, he asked me whether I had any location constraints.
+What are the good and the bad qualities my team members find in me?
+Lastly, He asked if I had any questions for him I asked for feedback he was happy that I asked this question and told to handle rejection in the better way.
+
+Tips:- Know yourself before any interview. Stay confident, truthful and polite.
+Be calm & answer politely.

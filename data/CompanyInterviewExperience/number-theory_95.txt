@@ -1,0 +1,11 @@
+Given a positive integer ‘n'( 1 <= n <= 1015). Find the largest prime factor of a number. 
+The approach is simple, just factorise the given number by dividing it with the divisor of a number and keep updating the maximum prime factor. See this to understand more.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: 
+Auxiliary space: 

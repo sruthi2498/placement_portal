@@ -1,0 +1,62 @@
+Requirement was that the candidates should have strong troubleshooting skills, strong knowledge of scripting in any language + Strong coding skills and problem solving skills.
+Round 1: Written test (Elimination Round)
+There were total 6 questions. 2 coding and 4 scripting questions.
+1. Write a function to print the run length encoding of a given string.
+Example :
+I/P String – wwwwwxxxxddaaaww
+O/P String – w5x4d2a3w2
+[5 marks]
+2. Write a function to print the spiral of a matrix. [5 marks]
+3. The file is given as follows containing records of length 10 having mix of numbers, alphabets and alphanumeric characters. 
+1234567890
+0987654321
+ABCDEFGH
+123456789X
+1234567890
+123456789X
+Write a script command to print the distinct records containing only alphanumeric characters.
+Expected Output : 123456789X
+[2 Marks]
+4. Write a script command to rename all .JPG files to .JPEG  files in the current directory. [2 Marks]
+5.  Write a command to kill a process using process name. [2 Marks]
+6. Script command to calculate the total size of all the PDF files in the directory. [2 Marks]
+
+Round 2 : Technical/Problem Solving F2F Interview
+The customary – “Tell me about yourself”. 🙂
+Then the interviewer asked me whether my code for the run length encoding asked in the written round will run for all the inputs. I was pretty sure that it would run. He gave me a case where my code was failing. He told me to modify my code. Also, I had used Hashing technique for this problem so he asked few questions on HashMap how it works.
+1. How will you find whether any permutation of a word would be a Palindrome.
+I explained him the logic using Brute force approach with O(mx2^m) time complexity, where m is the size of the word. He told me to optimize it. I told him the following approach:
+We will keep track of the counts of each character in the word. If the length of the word is even and if all characters appears even number of times, a palindrome can be formed.
+Similarly, if the length of the string is odd and all characters but one appear even number of times then Palindrome can be formed.
+Else, in all other cases Palindrome won’t exist in the word. He seemed to be satisfied with my approach and told me to write the full code.
+2. Find all the pairs with a given sum.
+3.  He gave me a problem to solve. Given two identical ropes of equal length, ,if it takes 60 minutes to burn out the whole rope, how will you measure 45 minutes using these two ropes. You are provided with only these two ropes and a lighter to ignite.
+
+Round 2: Debugging and Troubleshooting/Scripting
+Tell me about yourself.
+1. Given the contents of the file as follow:
+Company1 400
+Company2 500
+Company3 600
+Company2 150
+Company1 350
+Write a script command to find the total cost incurred by Company1.
+2. Script command to print the sentence in reverse order.
+I/P – “You are in Amazon”
+O/P – “Amazon in are You”
+3. Troubleshooting scenario – If a customer complains that he is not able to sign in to hi Amazon account, how will you troubleshoot?
+She told me to write as many points in the paper as possible. Whatever point I was mentioning, she was like – “Anything else? Anything else? :P”
+She modified the question and asked me if 3-4 customers complains the same that they are not able to login to their Amazon account, how will you troubleshoot the issue.
+Debugging – How will you debug the issue whatever you have troubleshooted.
+4. If there is sudden increase in the requests count in the system and you need to answer to the higher authorities, how will you handle the situation?
+
+Round 4: Troubleshooting/Debugging/Problem Solving/ Managerial
+1. Tell me about yourself.
+2. Given a file containing some sample text, write a script command to count the number of occurrences of the word “Amazon”.
+3. Given a file containing some sample text, write a script command to change all occurrences of the word “Amazon” with “It” in the file.
+4. Given an array of positive and negative numbers, find the maximum product of the pair of numbers in the array.
+5. He asked me what project am currently working on. I told I was mainly a backend developer in DB2 as core database. He gave me a query to fetch the 2nd highest value from the column.
+6. Tell me a situation where you were working with your team and the team was stuck with some issue for which you were digging out the main problem where the issue is arising and finally you figured out the same.
+7. Troubleshooting – A customer is having 2 devices – tablet and android. He is using Kindle app in the tablet and he has made notes and read till 500th page of a book in the kindle app. Next day he wishes to read the same book from 501st page, but he observes that all his notes are lost from 401st-500th page. How will you troubleshoot this issue. 
+At last, HR called me and told that I am rejected. 🙁
+

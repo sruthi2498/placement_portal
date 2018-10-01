@@ -1,0 +1,10 @@
+The multiset::upper_bound() is a built-in function in C++ STL which returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then the iterator returned points an element which points to the position after the last element in the container. 
+Syntax:
+Parameters: This function accepts a single mandatory parameter key which specifies the element whose upper_bound is to be returned.
+Return Value: The function returns an iterator. 
+Below programs illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE
+All functions of multiset

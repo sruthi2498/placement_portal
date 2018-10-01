@@ -1,0 +1,16 @@
+Round 1: The first round was a coding round with 2 questions on mettl:
+1. Write a program to find sum of first largest k elements from a given array of integers.
+2. You have to make a necklace with pearls. Minimum number of pearls that can be used is 1 and maximum is n. Each pearl has a magnificence coefficient and the necklace should be such that the pearls are in ascending order of their magnificence. Find such number of necklaces that can be formed with given condition. Input given is n (no of pearls), Lowest magnificence and highest magnificence. Example n= 1, LM= 8 HM=9, so there can be 2 cases, one necklace with pearl 8 and one with pearl 9.
+Round 2: Round 2 was f2f:
+1. Your projects in previous company.
+2. Minimum number of Appends needed to make a string palindrome. (Optimal Solution required)
+https://www.geeksforgeeks.org/minimum-number-appends-needed-make-string-palindrome/
+3. Convert BST to Max Heap, where left child should be less than right child(Optimal Solution required)
+https://www.geeksforgeeks.org/convert-bst-to-max-heap/
+4. Design Algorithm to generate Tiny URL
+5. Immutable Class
+6. Some Spring related question
+Round 3:Round 3 was again f2f:
+1. Design a Data Structure with O(n) complexity for add, remove, search, insert operations
+2. Some Java Collections question
+3. 2-3 Non-Technical Puzzle

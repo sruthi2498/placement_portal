@@ -1,0 +1,16 @@
+It is very important to know about the basics of Android Studio’s file structure. In this article, some important files/folders, and their significance is explained for the easy understanding of the Android studio work environment.
+In the below image, several important files are marked:
+
+All of the files marked in the above image are explained below in brief:
+This file includes nodes for each of the Activities, Services, Content Providers and Broadcast Receiver that make the application and using Intent Filters and Permissions, determines how they co-ordinate with each other and other applications.
+A typical AndroidManifest.xml file looks like:
+Run on IDE
+Below is a sample layout file:
+Run on IDE
+Below is a sample colors.xml file:
+Run on IDE
+Below is a sample colors.xml file:
+Run on IDE
+Below is a sample styles.xml file:
+Run on IDE
+Run on IDE

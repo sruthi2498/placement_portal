@@ -1,0 +1,38 @@
+ONLINE TEST:
+It was a  2 hour on-line test on hackerrank platform with 1 coding question (LCS), 9 MCQs related to computer science and 10 quant questions . There was no fixed time per section and people who did well both the sections were shortlisted for the face to face interviews .
+750 people appeared for the test and  70 were shortlisted for the face to  face round .
+1st Round:
+The interview started with discussion on my previous internship where i worked on the Reputation, Revenue and recommendation system .He asked me to explain the above and then asked how my recommendation system was better  or worse than You-tube.Then he asked me a quant question (5 pirates have to divide money among them and highest rank pirate gets to decide) .This interview was around 25 min .
+2nd round:
+This was a long interview .The guy started grilling me on my CV, be sure you know every single thing on it .He asked me a lot of questions on Operating systems involving semaphores, processes running on different hosts and OOPs is a must if you have even a slight mention of c++ or java .GFG has a exhaustive collection for c++ so you should know it by heart.After  he was done asking  me  all this he  was satisfied and asked me a couple of coding questions
+1)Number of islands in a grid.
+2)Order matching in a continuous input  stream.
+3rd round:
+The interview started with an abstract question : What could be the error in a code if it is falling  only sometimes and not always.Then he moved on to algorithm questions .
+1)Given  an array of numbers corresponding to heights of people and another where  i’th element corresponds to the number  of people smaller than him in front of him and i had to give the order of people satisfying the constraints .
+2)given a binary tree i have to return the longest increasing sub sequence .
+Then he ended the interview with  a quant question  : Number of partitions possible of  a number
+n=3
+1+1+1
+1+2
+2+1
+3
+ans =4
+4th round :
+This was the final round .It started with two a couple of straight  forward questions
+1) reverse a linked list
+2)max average of a subset of an array (with no duplicates and with duplicates )
+The she asked me some questions on statistics and probability.
+1)given a random variable X=x1, x2, x3… with standard deviation (s) what is the standard deviation of X=a*x1, a*x2 …..
+and asked me to prove it.
+2)given a random value generator R7 which generates values from 1-7 with equal probabilities and  i had to  use this to make R5 which would generate values from  1-5 with equal probabilities and also had to prove the probability .
+The interview ended with a question on job scheduling  with constraints(some jobs have to be done  before others  ) .The  answer was a combination of cycle finding  and level-order traversal .
+Total of  13 people including me were given the  offer .
+Some Tips:
+Don’t brag in your CV if you cant deliver in the interview .This mistake was done my many and they  suffered, its better to have a crisp and  readable CV from which no question can surprise you.Geeks for  Geeks is you best friend for preparation.
+1)Finish the must do coding question section.
+2)Array and DP are must so read all the 100+ articles .Questions come directly from them .
+3)OOPs for  c++ is more than enough on GFG so learn it
+4)read as many puzzles as you can from GFG
+5)prep for quant can be done from : heard on the street and 50 challenging problems in probability
+At the end i would  like  to thank GeeksforGeeks for making my preparation less cumbersome by having such  an amazing collection of resources.

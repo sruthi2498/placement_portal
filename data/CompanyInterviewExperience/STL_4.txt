@@ -1,0 +1,11 @@
+The isfinite() function is a builtin function in C++ and is used to determine whether a given value if finite or not. A finite value is a value that is neither infinite nor NAN. If the number is finite then the function returns 1 else returns zero.
+Syntax:
+Parameter: This function takes only one parameter . It represents the floating point number.
+Returns: If the number is infinite or NAN then it returns 0 else if it is finite then it returns 1.
+Below programs illustrate the isfinite() function in C++:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Program 3:
+Run on IDE

@@ -1,0 +1,7 @@
+Trait class that identifies whether T is a trivial type. A trivial type is a type whose storage is contiguous (trivially copyable) and which only supports static default initialization (trivially default constructible), either cv-qualified or not. It includes scalar types, trivial classes and arrays of any such types.
+A trivial class is a class (defined with class, struct or union) that is both trivially default constructible and trivially copyable, which implies that:
+is_trivial inherits from integral_constant as being either true_type or false_type, depending on whether T is a trivial type
+Syntax :
+Example:
+Run on IDE
+Output:

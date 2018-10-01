@@ -1,0 +1,43 @@
+Round 1:
+10 Aptitude questions with difficulty level hard. 
+Round 2:
+3 programs given. 1st one mandatory.
+1) Replace wild cards with all possible combinations of zeros and ones. 
+2) Triplet problem.
+        Array = {2,3,7,6,8,9} and k=6.
+            {2,3,6} (2×3 = 6)
+            {3,2,6} (3×2 = 6)
+3) Another one dynamic programming problem. I couldn’t remember.
+Round 3(F2F): 
+Questions about previous projects done and my roles on it and my leadership capabilities.
+Few technical questions from Threads and multi-processing and.
+Discussed about triplet problem done in round 2 and how to tweak my algorithm to avoid getting redundant entries.
+Search in row wise, column wise sorted matrix 
+Round 4(F2F):
+Level order traversal of a tree and discussed about time and space complexity of both techniques(Using Queue and recursive technique)
+https://www.geeksforgeeks.org/level-order-tree-traversal/
+Array of 0’s and 1’s. Move 0’s to left and 1’s to right side.
+https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
+
+Given an array of integers, replace every element with the next greatest element (greatest element on the right side) in the array.  {16, 17, 4, 3, 5, 2} = {17, 5, 5, 5, 2, -1}
+https://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side/
+Find loop in Linked list. https://www.geeksforgeeks.org/write-a-c-function-to-detect-loop-in-a-linked-list/
+Detect and remove loop in a Linked list. https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+Difference between Tree and Trie data structure along with implementation of Trie and real time examples.
+Questions on data structure for implementing dictionary and its pros and cons.
+Questions on implementation of Linux directory structure.
+Discussed about logic I used in 2nd round for wild card permutation question and discussed time complexity of it.
+Round 5(F2F):
+Given 3 points in below triangle, find wheather these 3 points are forming equalaterial triangle? 
+Questions about previous projects and current one.
+Why Athena and shifting from old company in short period?
+Aptitude problems from first round and how i understood and approached towards solution
+Deep discussion about 8 queens problem and its solution(I used backtracking approach)
+Round 6(F2F):
+Turing machine problems.(http://en.wikipedia.org/wiki/Turing_machine_examples)
+1. There is a sequence of bytes coming. after every instance I need to check wheather that number can be devisible by 3 or not.     Need turing machine diagram and approach.
+2. Similar turing machine question for prime number.
+Tree level order and spiral order traversal and its complexity analysis.
+Questions on array split to two halves of equal sum.
+Round 7(HR):
+Behavioral questions and team skills.

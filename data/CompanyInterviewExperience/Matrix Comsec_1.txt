@@ -1,0 +1,39 @@
+Written Round :
+First test was on aptitude and logical thinking .
+Second test was on c/c++ basics.
+After clearing both tests, coding round was taken.
+Q.1 Print all permutation of given string .
+Q.2 sizeof integer without sizeof operator.
+After clearing written round, there were two technical and one HR round.
+Technical Round 1 
+Q.1 Tell me about yourself.
+Q.2 They were ask me about my projects. Mostly focus on intern project.
+Q.3 They asked me one puzzle ( easy one analytical )
+Q.4 You are given a memory address and you have to fetch data 32-bit from there. After fetching data you have to mask n-th bit and then store again on given location. They asked me write optimize pseudo code.
+Q.5 OOPs concept ( mostly abstract class , virtual functions )
+Q.6 Hexadecimal to binary conversion .
+Q.7 sizeof integer without sizeof operator (Without macros)
+Q.8 compilation phases.
+Q.9 They asked me to code permutation of given string but without backtracking.
+Technical Round 2 
+Q.1 They again asked me projects.
+Q.2 Intermediate code generation and preprocessing in compilation(only this two).
+Q.3 Differences between TCP and UDP .
+Q.4 Suppose there are three networks and in each three service access points. all three SAP transmit data at same time. How you manage congestion and collision and in which layer (protocol/PDU)
+Q.5 suppose you type google.com in browser how TCP/IP protocol handle this request.they asked me to explain each step and layer regarding to that. 
+Q.6 ICMP and Https protocol(basic PDU)
+Q.7 Let assume you have ip address from application layer(DNS translation) , now how Link layer helps to transmit data(They wanted to know ARP protocol).
+Q.8 Real time application of concurrency.
+Q.9 You have large number of students and their two test aptitude and programming marks record. you want to sort whole record lexicographically with names with one of test score. they asked me to write complete code .
+Q.10 Stack using linked list.
+Q.11 You have Fixed size buffer size 50MB. you store packet of data in buffer but packet of data is variable in size. When you store packet then it should be relpaced by least used packet ( packet whose timestamp is less).so they asked me to code for that.
+I approached three solutions.
+1. Fixed size buffer so i used linked list and linked all packets and structure of linked list store one extra info which is timestamp.
+2. First approach is not efficient so they asked to solve again , i use linear probing concept .
+3. Second approach  suffered from fragmentation because packet is variable size so they asked me to solve again.
+I used linear probing with least recently used os concept there with queue data structure. they said to me that it was correct.
+HR Round
+Q.1 Why you want to join matrix ?
+Q.2 My future aspect and vision.
+Q.3 One scenario related to development in which how i manage modules, they asked me basic HR question etc.
+Refer interviewBit and learn atleast two core subject throughly.

@@ -1,0 +1,98 @@
+Given a large number n and a prime p, how to efficiently compute n! % p?
+Examples :
+A Naive Solution is to first compute n!, then compute n! % p. This solution works fine when the value of n! is small. The value of n! % p is generally needed for large values of n when n! cannot fit in a variable, and causes overflow. So computing n! and then using modular operator is not a good idea as there will be overflow even for slightly larger values of n and r.  
+Following are different methods.
+Method 1 (Simple)
+A Simple Solution is to one by one multiply result with i under modulo p.  So the value of result doesn’t go beyond p before next iteration.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of this solution is O(n).
+Method 2 (Using Sieve)
+The idea is based on below formula discussed here. 
+The idea is to find all primes smaller than n using Sieve of Eratosthenes.  For every prime ‘pi‘, find the largest power of it that divides n!.  Let the largest power be ki.  Compute piki % p using modular exponentiation. Multiply this with final result under modulo p.
+Below is implementation of above idea.
+Run on IDE
+
+This is an interesting method, but time complexity of this is more than Simple Method as time complexity of Sieve itself is O(n log log n).  This method can be useful if we have list of prime numbers smaller than or equal to n available to us.
+Method 3 (Using Wilson’s Theorem)
+Wilson’s theorem states that a natural number p > 1 is a prime number if and only if 
+Note that n! % p is 0 if n >= p.  This method is mainly useful when p is close to input number n. For example (25! % 29).  From Wilson’s theorem, we know that 28! is -1.   So we basically need to find  [ (-1) * inverse(28, 29) * inverse(27, 29) * inverse(26) ] % 29.   The inverse function inverse(x, p) returns inverse of x under modulo p (See this for details).
+
+Run on IDE
+// Java program to compute n! % p
+// using Wilson’s Theorem
+class GFG
+{
+// Utility function to do
+// modular exponentiation.
+// It returns (x^y) % p
+static int power(int x, int y, int p)
+{
+	int res = 1; // Initialize result
+	x = x % p;   // Update x if it is more
+	             // than or equal to p
+	while (y > 0)
+	{
+		// If y is odd, multiply
+		// x with result
+		if ((y & 1) > 0)
+			res = (res * x) % p;
+		// y must be even now
+		y = y >> 1; // y = y/2
+		x = (x * x) % p;
+	}
+	return res;
+}
+// Function to find modular
+// inverse of a under modulo p
+// using Fermat’s method.
+// Assumption: p is prime
+static int modInverse(int a, int p)
+{
+	return power(a, p – 2, p);
+}
+// Returns n! % p using
+// Wilson’s Theorem
+static int modFact(int n, int p)
+{
+	// n! % p is 0 if n >= p
+	if (p <= n)
+		return 0;
+
+	// Initialize result as (p-1)! 
+	// which is -1 or (p-1)
+	int res = (p - 1);
+
+	// Multiply modulo inverse of
+	// all numbers from (n+1) to p
+	for (int i = n + 1; i < p; i++)
+		res = (res * modInverse(i, p)) % p;
+	return res;
+}
+
+// Driver Code
+public static void main(String[] args)
+{
+	int n = 25, p = 29;
+	System.out.println(modFact(n, p));
+}
+}
+
+// This code is contributed by mits
+
+
+
+
+[tabby title="PHP"]
+
+
+
+Run on IDE
+
+Time complexity of this method is O((p-n)*Logn)
+Method 4 (Using Primality Test Algorithm) 
+Note that time complexity step 2 of above algorithm depends on the primality test algorithm being used and value of the largest prime smaller than n. The AKS algorithm for example takes O(Log 10.5 n) time. 

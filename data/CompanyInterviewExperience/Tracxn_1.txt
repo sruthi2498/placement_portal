@@ -1,0 +1,29 @@
+I applied for Tracxn online. After few days got a call from the HR asking about my CTC and notice period. HR told me that the first round is going to be an online test comprising of 1 coding question to be answered in the duration of 1 hour. I got the test link and cleared the first round. The question in the online round was a string manipulation question.
+The question was like given a string composed of numbers starting from the left side keep on adding the numbers until the sum reaches the threshold value. Once the sum crosses the threshold value add that sum to a new string and change the threshold to the new sum. Keep on doing this until you have reached the end of the input string. Once the input string is exhausted take the newly formed string and apply the same operation on the string until you have only 1 digit left in the string. When switching to the new string you have to reset the threshold value back to the original value.
+Example:
+Input String: 1234567879
+Threshold: 10
+Sum of digits starting from left: 1+2+3+4+5 = 15
+New String: 15 New Threshold: 15
+Sum of digits starting from left: 6+7+8 = 21
+New String: 1521 New Threshold: 21
+Sum of digits starting from left: 7+9 = 16
+New String: 152116 New Threshold: 10 —> Since we have exhausted the string before reaching the threshold we reset it to the old value.
+New String: 152116
+Sum of digits starting from left: 1+5+2+1+1+6 = 16
+New String: 16 New Threshold: 10
+New String: 16
+Sum of digits starting from left: 1+6 = 7
+New String: 7 New Threshold: 10
+Output 7 since now only 1 digit is left in the string.
+After this I was called for F2F interview in their office in Bangalore. The interviewer was polite and even helped me when I got stuck in between. It was a 45 minute round comprising of two questions:
+1. Implement String.indexOf() function. Basically given two strings return the index of the first occurrence of string2 in string1, -1 otherwise.
+Example:
+Input: String1 = “fffg” String2 = “ffg”
+Output: 1
+2. Find the missing number in Arithmetic Progression
+Example:
+Input: 1 5 9 13 21 25 29
+Output: 17
+He expected me to solve this in O(log n) time.
+After the first round the interviewer told me to wait and somebody else will come for the second round, but after few minutes he told me that we are done for today and you can leave. After few days I mailed the HR to ask about the status and she told that we don’t have anything suitable position according to your skills.

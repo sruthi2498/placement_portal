@@ -1,0 +1,7 @@
+Given N objects numbered from 1 to N out of which all are of the same weights except only one object which is not known beforehand. We are also given Q comparisons, in each of which an equal number of objects are placed on both sides of a balance scale, and we are told the heavier side. 
+The task is to find the inconsistently weighted object or determine if the data is not sufficient enough.
+Examples:
+It is told that except only one element, the rest of the elements are of the same weights. So, if we observe carefully, it can be said that:
+We can use the above three observations to narrow down the potential candidates for the inconsistently weighted object. We will consider only those objects which are either on the heavier side or the lighter side; if there is only one such object then it is the required one. If there is no such object, then we will consider all those objects which do not appear in any comparison. If there is only one such object then it is the inconsistently weighted object. If none of these scenarios arises, the data is insufficient.
+Below is the implementation of the above approach:
+Run on IDE

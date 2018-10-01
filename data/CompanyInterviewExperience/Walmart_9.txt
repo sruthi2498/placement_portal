@@ -1,0 +1,12 @@
+Given the sum and xor of two numbers X and Y s.t. sum and xor , we need to find the numbers minimizing the value of X. 
+Examples :
+Let the summation be S and xor be xo. The summation and xor operations both are commutative in nature. This means that for a corresponding set bit in X if we swap it with an unset bit at same position in Y, the sum and xor would remain unaffected. The only affect it would make is that it will reduce the value of X and increase the value of Y. 
+For example, X = 7 and Y = 10, X+Y = S = 17 and X^Y = xo = 13.Binary representation of X = 0111Binary representation of Y = 1010Now, for a given position in X which is 1, if for the same position in Y is 0 and we swap it;New binary representation of X = 0010New binary representation of Y = 1111New value of X = 2New Value of Y = 15Their sum and xor are still the same.
+Now, let’s use the above piece of information to exploit our problem statement because following the above steps, we have successfully minimized the value of X. We can even conclude from the above proof that Y = xo + XNow, we know that X + Y = S and we also know that Y = X + xo, now if we equate the given equations, we get the results areUsing the above equations we can easily compute the required values of X and Y.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of the above approach .

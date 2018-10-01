@@ -1,0 +1,83 @@
+Amazon Interview experience
+Online Round
+Platform: HackerEarth
+Format: 20 MCQs, 2 coding questions
+Time: 90 minutes
+MCQs: Data Structures, Networks, OS, etc.
+Q1) Maximum j – i such that a[j] > a[i]
+Expected Solution in O(n)
+Q2) Maximum of minimums of every window size
+PERSONAL INTERVIEW
+40 candidates were selected for the PI. 20+ candidates were rejected after first PI. Only 8-9 went till final round. 5 were finally selected.
+ROUND 1:(45 mins)
+Ques 1) All permutations of a string
+Ques 2) Permutations with duplicates
+Ques 3) Connect nodes at each level in Zig-Zag pattern. 
+ROUND 2:(60 mins)
+Ques 1) Given an array of size N, there exist a pattern such that, a[i]-M <= a[i+1] <= a[i]+M . Suggest an algorithm to search for a number in the given array.
+The solution should be better than O(n). 
+He gave hints like consider M to be much much less than N, etc. I gave him many approaches but couldn't give him a concrete algorithm. He said we will discuss this later and gave another problem
+Ques 2) Imagine a land in a form of grid. There are enemies to the North of the land. And soldiers to the West of the land. Soldiers in the West want to know if there are enemies to the North. So they decide to place mirrors at a 45-degree angle in the grid land. If they place a mirror at (i,j) then they can see the enemies in the jth column. Similarly, they will put mirrors in other places in the grid to view the enemies in other columns. Now it is given that some of the cells of the grid are rocky area and a mirror cannot be placed in those cells.
+Example: 
+In the above solution, / represents a mirror.
+Using the above configuration, the soldiers are able to look at the enemies in column 0, 1 and 3.
+Note there is no way to see enemies in column 2 as the rocky area will block the vision.
+There can be at most one mirror in one row and at most one mirror in each column.
+You have to give any one solution that puts the maximum number of useful mirrors possible.
+I solved this by first marking out the useless cells. and then placed mirrors in a greedy manner.
+Time complexity: O(n*m)
+Ques 3) You have been given a regex and a string. Return true if the string matches the regex and false if not.
+The regex has only * ? and English alphabets.
+* means any character occuring zero or more number of times.
+? means any character occuring exactly once.
+Example: 
+I solved this using recursion. Explore all possible paths.
+ROUND 3:(Bar Raiser) 90 mins
+This round was taken by a senior guy. He was very experienced and extremely smart.
+He started with my CV. Asked about my internship experience and the project that I did during my internship. My project was on a NoSQL database so questions on them. He asked me to explain why my project was important to the organisation. What all I learnt, etc. He gave me very tricky scenarios and asked me how I would handle those cases in my NoSQL database. How will I protect my database against hackers, etc? Few Distributed System question on Consistency, Availability, etc. The project discussion went on for about 15-20 min.
+Ques) He then told me to imagine a large chunk of files with lots of sentences in them. I have to find out programmatically which are the important words in them. Which words convey more meaning?
+I gave him few approaches. I kept on saying something or the other. He was fairly satisfied and move on to next question.
+Ques) Stock span problem
+He asked me all the possible variations of the above problem.
+I kept on giving solutions and he kept on modifying it, putting constraints, etc. He grilled my concepts with this problem.
+Ques) You have a large string of 0’s and 1’s. Re-arrange the given string according to a formula:
+f(i) = f(i-1)*f(i-1) – f(i-2)*f(i-2)
+f(1) = 1 and f(2) = 2 is given.
+Therefore,
+f(3) = 2*2 – 1*1 = 3
+f(4) = 5
+f(5) = 16
+…
+Arrange in a sequence such that you have f(1) 0’s and f(2) 1’s and again f(3) 0’s and so on. Append the remaining 1’s or 0’s in the end.
+Do this in-place and in O(n).
+He was very satisfied with my elegant code and told me I did well. I was immediately informed that I will have my 4th round shortly.  
+ROUND 4: (50-60 mins)
+This round focused mostly on Computer Fundamentals and CS concepts. He did not ask me any DS or Algo question in this round.
+He asked me to introduce myself and then asked about my favourite subjects.
+He asked me a lot of questions on Exceptions.
+1. What are exceptions? How do you use them?
+2. What is a Runtime Exception? Give examples.
+3. Should we catch a RuntimeException? When? Why? How?
+4. The advantage of using exceptions, etc.
+He then moved on Threads.
+1. What are threads?
+2. Threads Vs Process?
+3. The advantages of threads?
+4. How to synchronize threads?
+5. Producer-Consumer design using threads.
+6. Thread life cycle
+7. How threads communicate?
+Asked me to write an Object Oriented code for a Banking application using Threads. Only Deposit, Withdraw and Check Amount feature should be implemented.
+I told him I don’t have these concepts fresh in my mind but he still insisted me to do it.
+I was struggling with the code so he told me to leave that and moved on to Computer Networks.
+Networks:
+1. What is FTP? How is different from Secure FTP?
+2. How TCP works? What is 3-way handshaking?
+3. What happens when I make a URL request from my web browser?
+4. What is a peer to peer network? How does it work?
+5. What is scp command in Linux? What does it do?
+Few other questions.
+I did not perform good in Round 4 and was rejected.
+GeeksForGeeks was a great help during my preparation. Thanks to other students for sharing their interview experience. 🙂
+
+

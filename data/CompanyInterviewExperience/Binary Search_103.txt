@@ -1,0 +1,14 @@
+Given an array of N integers. There will be Q queries, each include two integer of form q and x, 0 <= q <= 1. Queries are of two types:
+Examples:
+
+Method 1: A Naive approach can be for each query, traverse the whole array and count integers less or greater than x, depending on q. Time Complexity for this approach will be O(Q*N).
+Method 2: An efficient approach can be sort the array and use binary search for each query. This will take O(NlogN + QlogN).
+Below is the implementation of this approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O( (N + Q) * logN).

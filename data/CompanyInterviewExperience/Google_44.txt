@@ -1,0 +1,10 @@
+In MS-Paint, when we take the brush to a pixel and click, the color of the region of that pixel is replaced with a new selected color.  Following is the problem statement to do this task. 
+Given a 2D screen,  location of a pixel in the screen and a color, replace color of the given pixel and all adjacent same colored pixels with the given color.
+Example: 
+Flood Fill Algorithm:
+The idea is simple, we first replace the color of current pixel, then recur for 4 surrounding points. The following is detailed algorithm. 
+The following is C++ implementation of above algorithm.
+Run on IDE
+Output: 
+References:
+http://en.wikipedia.org/wiki/Flood_fill

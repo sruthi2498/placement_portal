@@ -1,0 +1,8 @@
+Given a number n, count total number of divisors of n!.
+Examples:
+A Simple Solution is to first compute factorial of given number, then count number divisors of the factorial. This solution is not efficient and may cause overflow due to factorial computation.
+A better solution is based on Legendre’s formula . Below are the steps.
+Below is C++ implementation of above idea.
+Run on IDE
+Output : 
+This article is contributed by Shashank Mishra ( Gullu ).This article is reviewed by team GeeksforGeeks.

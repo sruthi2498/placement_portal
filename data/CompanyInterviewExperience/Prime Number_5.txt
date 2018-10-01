@@ -1,0 +1,12 @@
+Given an arr[] of positive integers you have to count how many numbers can be represented as sum of same parity prime numbers(can be same)
+Examples:
+1. If two numbers of same parity are added then they would be always even, so all odd numbers in the array can never contribute to answer.
+2. Talking about 0 and 2 both cannot be represented by sum of same parity prime numbers.
+3. Rest of all numbers will contribute to the answer (Refer https://www.geeksforgeeks.org/program-for-goldbachs-conjecture-two-primes-with-given-sum/)
+So, we have to just iterate over the entire array and find out number of even elements not equal to 0 and 2.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

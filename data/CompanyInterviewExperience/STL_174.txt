@@ -1,0 +1,5 @@
+The multimap::count is a built-in function in C++ STL which returns the number of times a key is present in the multimap container.  
+Syntax:  
+Parameters: The function accepts one mandatory parameter key which specifies the key whose count in multimap container is to be returned. 
+Return Value: The function returns the number of times a key is present in the multimap container.  
+Run on IDE

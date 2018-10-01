@@ -1,0 +1,16 @@
+You are given a function f(n) = (n1 + n2 + n3 + n4), you have to find the value of f(n) mod 5 for any given value of positive integer n.
+Note: n may be large enough, such that f(n) > 1018.
+Examples :
+
+First of all for solving this approach you may find the value of (n1 + n2 + n3 + n4) mod 5 directly with the help of anypower function and modulo operator.
+But For the larger value of n, your result will be wrong because for large n value of f(n) may go out of range from long long int in that case you have to opt some other efficient way.
+To solve this question lets do some small mathematical derivation for f(n).
+After above analysis we can see that if n is of form 5k+1 or say 5k-4 then f(n) mod 5 = 4, other wise f(n) = 0.
+I.E. if(n%5 == 1 ) result = 4,
+else result = 0.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

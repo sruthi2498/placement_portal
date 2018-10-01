@@ -1,0 +1,27 @@
+The pair container is a simple container defined in <utility> header consisting of two data elements or objects. 
+Syntax :
+Run on IDE
+Output:
+Initializing a pair
+
+We can also initialize a pair.
+Syntax : 
+Different ways to initialize pair:
+Another way to initialize a pair is by using the make_pair() function.
+Run on IDE
+Output:
+Note: If not initialized, the first value of the pair gets automatically initialized.
+Run on IDE
+Output:
+Member Functions 
+Run on IDE
+Output:
+This Assigns pr as the new content for the pair object. The first value is assigned the first value of pr and the second value is assigned the second value of pr .
+.
+Run on IDE
+Output:
+For two given pairs say pair1 and pair2 of same type, swap function will swap the pair1.first with pair2.first and pair1.second with pair2.second.
+Run on IDE
+Output:
+Run on IDE
+Output:

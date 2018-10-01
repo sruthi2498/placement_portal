@@ -1,0 +1,14 @@
+Given two floating point numbers, find remainder.
+Examples:
+
+A simple solution is to do repeated subtraction.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+We can use the inbuilt fmod function  to find the modulus of two floating-point numbers.
+Run on IDE
+Output:

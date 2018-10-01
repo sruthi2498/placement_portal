@@ -1,0 +1,25 @@
+Machine Coding Round:
+The test was conducted on Hackerrank platform. 90 minutes were allowed. There were 3 questions, 2 easy and 1 easy-medium. Around 250 students appeared for the test and 34 were shortlisted for interviews (Those who scored more than 2.5/3).
+I don’t remember the first two questions but many people managed to solve these two questions in atmost 20-25 minutes.
+Question 3: Given a list of sentences and a number of phrases comprising of words. You have to tell which sentence(s) contain all the words in a phrase. Constraint:  A word cannot be a part of more than 10 sentences.
+If you are good at using STL, you can easily clear the test.
+Round 1: Technical Round (F2F)
+The interviewer was very cooperative. He asked how was my test. How I am feeling etc. Then he asked me to introduce myself.  After this, he started the interview.
+Question 1: Knight Problem https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/
+I immediately came up with the answer. Then he modified the problem. He included pawns on the board and said that knight cannot jump over pawns.  The statement was ambiguous, hence I cleared all the doubts regarding various positions. Then he asked me to write the code. It was very important to write clean code in the first attempt. He checked the code with all possible test cases.
+Question 2: There are n buckets, each consisting of A[i] items. I have to deliver all the items in k tours. In 1 tour, I can take items only from one bucket. I have to tell the minimum number of items that I need to deliver so that I can deliver all the items.
+Question 3: 2 files are given, the second file is the updated version of the first file. I need to tell, which lines have changed. I need to cover various possibilities like adding some lines, removal of some lines, replacing single/multiple lines with single/multiple lines etc. We had a deep discussion on this question. He was also actively participating and suggesting approaches and observing how I was responding to various possibilities.
+Round 2: HR Round (F2F)
+First, he asked me to introduce myself. Then he asked about my projects, how I came up with the idea. We had around 15 minutes of discussion on the project.
+Then he gave me a design question: How I will create a facility to return a product if it meets the criteria (time period, policy etc).
+Then he asked about some of the resume attributes, about pointer, achievements etc.
+Round 3: Technical Round (F2F)
+The interviewer just asked my name and moved on to the first question.
+Question 1: Given a list of strings. Check whether any two strings, if concatenated will form palindrome or not.
+I solved it using Trie and he was completely satisfied with the solution.
+Question 2: Snakes and Ladder Problem: https://www.geeksforgeeks.org/snake-ladder-problem-2/
+He asked whether I had solved this question earlier or not. I said Yes. He asked me to explain the question and then the solution.
+Question 3: 
+There is a hierarchical structure in an organization. A party is to be organized. No two immediate subordinates can come to the party. A profit is associated with every person. You have to maximize the total profit of all the persons who come to the party.
+I solved this problem using dp on trees by solving in bottom-up manner.
+Finally, 6 people were selected and I was one of them.

@@ -1,0 +1,26 @@
+The following is definition of Binary Search Tree(BST) according to Wikipedia
+Binary Search Tree, is a node-based binary tree data structure which has the following properties:
+
+The above properties of Binary Search Tree provide an ordering among keys so that the operations like search, minimum and maximum can be done fast.  If there is no ordering, then we may have to compare every key to search a given key.
+Searching a key
+To search a given key in Binary Search Tree, we first compare it with root, if the key is present at root, we return root.  If key is greater than root’s key, we recur for right subtree of root node.  Otherwise we recur for left subtree.
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Insertion of a key
+A new key is always inserted at leaf.  We start searching a key from root till we hit a leaf node.  Once a leaf node is found, the new node is added as a child of the leaf node.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Illustration to insert 2 in below tree:
+1. Start from root.
+2. Compare the inserting element with root, if less than root, then recurse for left, else recurse for right.
+3. After reaching end,just insert that node at left(if less than current) else right.
+
+Time Complexity: The worst case time complexity of search and insert operations is O(h) where h is height of Binary Search Tree.  In worst case, we may have to travel from root to the deepest leaf node.  The height of a skewed tree may become n and the time complexity of search and insert operation may become O(n).
+
+Some Interesting Facts:
+Related Links:

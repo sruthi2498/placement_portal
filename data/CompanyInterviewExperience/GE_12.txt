@@ -1,0 +1,17 @@
+General Electric Digital came to our campus for recruitment. It had conducted an online exam a week before followed by 2 round of interviews a week later.
+Round 1 : Online Round
+It was conducted on CoCubes Platform. The test had 2 sections.
+First was MCQ section of 30 MCQs. 10 each from Technical (OS, Networks, DBMS, OOPS), Verbal Ability and Logical Reasoning). They were all easy. You just need to maintain your pace.
+Second was coding section. 2 questions, 45 minutes. Problems were:
+1. Subset sum problem
+2. String manipulation. Given a string say “1 20 3.# 20_# 1” . Here, underscore( _ ) means space. Characters have been mapped with numbers A means 1, B means 2…..Z will be 26. Now the output for the given input string should be  string “ATC.20 1”. How did this come? If number is preceded by a # then remove # and store the number as it is. Remove the spaces as I showed. Replace the underscore with space. If number is not preceded by # replace it with mapped character. Don’t replace dot with anything.
+1-A, 20-T, 3-C
+After this 30 students were shortlisted.
+Round 2: F2F Technical
+The duration varied. For someone it was as short as 30 minutes to 2 hours long. Mine was the latter one. 😛 Projects were asked in depth. It will be good if you have worked upon various latest technologies(general observation). I have made 6 Android applications and didn’t have any other technology in my resume.
+Some easy questions were asked. Find non repeating elements in an array without additional space, sort an array such that all the even elements are followed by odd elements, BFS, DFS on graph, height of tree. Some more random questions on array, linked list.
+After this again he came to my projects, made me write xml as well as java code for an activity of one of my apps. He asked me to make database and write some queries. Then he asked me that if I had any questions. I asked a few. This round was over then.
+After almost 1 hour, my result came. I had an HR round now.
+Round 3: HR
+2 persons were there. Started with my introduction. Shifted to my projects again. I had mentioned that app is live. So the lady downloaded it from Play Store there only. The gentleman tried to confuse me by asking different questions about my app. I stood firm and didn’t change my stance. Some more usual HR questions like have you worked in a team? Did you had conflicts within team? How did you resolve them? etc.
+In total 13 people had HR round then only 7 were presented with the offer letter

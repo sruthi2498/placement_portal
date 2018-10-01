@@ -1,0 +1,33 @@
+The Interview Experience below is for Walmart Labs. The hire process was for their IDC(Development Center).
+This was an On-campus hiring event. 
+Hiring Procedure:
+There was 1 online test, 3 to 4 technical rounds and 1 HR round.
+Online Test:
+—It  was 90 minute test which included programming, little aptitude and Core subjects(Compiler Design,Operating System,Computer Networks and DBMS).
+—There were 3 programming questions where you need to write  the code for the problem and execute on their platform(HackerEarth). One of the problem was tough and the other two were on avg level.One of the three  was a Dynamic Programming question .But if you solve any two , i feel that you will be called for next round (the number of test cases to execute were six for each problem). Students who had solved one question also were called to interviews combining the score with MCQs.
+—There were 10 MCQs , which include questions on General Apti and core concept as mentioned above. These were very basic GATE questions , if you know the concepts you can answer all of them.
+—I was able to solve two programming questions and 8 MCQs(I think so :)).
+Around 90 students have attended the test and around 22 were shortlisted for the Tech Interviews.
+1st Tech round:
+–He asked about myself, looked at my resume , asked to explain prior work experience details and then asked about all the projects done.
+–He was interested in one my projects which was related Machine Learning , he went in detail into that . On that only he asked some questions like what is parsing , why did you do parsing . Whatever algorithm I was explaining, he was asking the reason behind choosing that algo why not others. So, its best to have a clear idea on what you are speaking.
+–Later , he asked me build a system for ” as in Linux terminal whenever we type some command and we press tab button ,auto complete of that word or command is done” . I gave him Trie as a solution , then he asked what is trie , where and all it is used . He extended the same question and asked what there are multiple results for the same keyword – gave a clue compare everything with the Linux terminal. I told him if there are more than 10 results I would ask the user whether to display or not and then proceed , if they are lesser I display them . He asked ,implement this using trie. I gave him the approach of linking multiple pointers in each trie node(optimized trie).
+Again an extension to this question was to prioritize the result and display , I told I would use a count variable at each trie node and increment the value whenever I find a keyword used. He was satisfied with my answers and this ended my hour long 1st round.
+2nd Tech round:
+–This was interesting and best round for me . There were two mathematical problems.
+1) If you start to  count a number through your one hand fingers(5 fingers) , so if you start your count of 7 from little finger to thumb , you should go through all the fingers and reverse the path  like 1 would be little finger and 5 would be thumb , the number 6 should be on the index finger and 7 on the middle finger. He asked me to write an algo so that whenever I give you a number you should be able to tell which finger that number would come to. I took around 5 mins and explained my logic of taking mod 8 of the number and getting the finger , here he was very much satisfied .
+2) In a city of 100 couples , each year each couple have a child , if he is a girl child they will not have child next year onwards , if there is a boy child , then they have a child until a girl child is born . He asked me to find the ratio of male and female in 20 years. I knew the logic and told that first year there would be 50 child boys and 50 child girls born , next year, parents of 50 child boys will have child , here again there will be 25 boys and 25 girls and so on …as i was explaining he stopped and told I got your point and asked me to wait for the next round.
+3rd Tech Round :
+–This one was very hard one .
+–He gave two design question to solve
+1) A subset of details of a facebook users are collected which have name and 3 other characteristics, you need to design an algorithm such that whenever I want some details with a condition or multiple conditions like get names with x as a common characteristic in them , you should be able to give result in real time(he told not access whole data for every query). First I told him ,we need to have combination of data structures to handle this as some of AI is involved . I told a logic a that I will  store the data in a basic C structure ,he got convinced on my my logic after every detail I thought about later and asked me how will you handle the query , I gave many options starting from hash table , trie and went to hash chaining too. but he was not happy with my approach and suggested to move on next question 🙁
+2) Managing the seller ads on a social network , he had put many constraints like duration in which ads should be displayed , fair distribution among all the seller ads, peak time display etc….I have thought a solution told him , he was not satisfied and gave many extended solution but he was not satisfied 🙁
+But , he was happy that I didn’t give up at any moment or maybe he was using stress test on me 😛 . This round continued for around 2 hours 🙁
+4th Tech/Managerial  round:
+— Because of my performance in the first two rounds I was called to 4th round , this was very easy and light weight round.
+— he asked about my about past work experience , any issues you had in those time ..etc…etc..
+— Linux familiarity and some basic questions on it, Walmart best products you know – i told him the automatic locker facility as the best .
+5th Hr round:
+— Traditional questions were asked .
+
+

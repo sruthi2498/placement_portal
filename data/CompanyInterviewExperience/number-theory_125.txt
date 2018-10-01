@@ -1,0 +1,16 @@
+A Happy Number n is defined by the following process. Starting with n, replace it with the sum of the squares of its digits, and repeat the process until n equals 1, or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are Happy Numbers, while those that do not end in 1 are unhappy numbers.
+First few happy numbers are 1, 7, 10, 13, 19, 23, 28, 31, 32, 44, 49, 68, 70, 79, 82, 86, 91, 94, 97, 100
+Examples:
+
+The idea is simple, we repeated do sum of squares of digits. While doing so, we keep track of visited numbers using a hash. If we reach 1, we return true. Else if we reach a visited a number,  we return false.
+
+Run on IDE
+
+One important observation is, the cycle always contains 4.  So we don’t need to keep track of all numbers. We can simply check for 4.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

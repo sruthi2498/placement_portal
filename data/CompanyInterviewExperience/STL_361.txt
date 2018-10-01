@@ -1,0 +1,23 @@
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.
+list::front()
+This function is used to reference the first element of the list container. This function can be used to fetch the first element of a list.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+This function is used to reference the last element of the list container. This function can be used to fetch the first element from the end of a list.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application
+Given an empty list of integers, add numbers to the list, then print the difference between the first and the last element.
+Algorithm
+1. Add numbers to the list using push_front() or push_back() function
+2. Compare the first and the last element.
+3. If first element is larger, subtract last element from it and print it.
+4. Else subtract first element from the last element and print it.
+Run on IDE
+Output:

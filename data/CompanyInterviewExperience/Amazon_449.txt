@@ -1,0 +1,39 @@
+I have gone through few rounds while rest of the round questions are standard ones and already in the internet, I couldn’t find this problem and couldn’t solve properly.
+Problem:
+There are Items[I1, I2, I3, I4] available in warehouses [W1, W2, W3, W4, W5] and serviceable by multiple partners with some shipping cost.
+I1 available in W1
+    – serviceable by these partners S1[0.75 -shipping cost/selection cost], S2 [0.74], S3 [0.70]
+    available in W2
+    – serviceable by these partners S1[0.75], S2 [0.74], S3 [0.70]
+    available in W3
+    – serviceable by these partners S1[0.80], S2 [0.74], S3 [0.70]
+I2 available in W4
+    – serviceable by these partners S2[0.85], S3 [0.94], S4[0.30]
+    available in W3
+    – serviceable by these partners S1[0.80], S2 [0.74], S3 [0.70]
+I3 available in W1
+    – serviceable by these partners S1[0.85], S2 [0.55], S3 [0.70]
+    available in W2
+    – serviceable by these partners S1[0.80], S2 [0.54], S3 [0.70]
+I4 available in W4
+    – serviceable by these partners S2 [0.74], S3 [0.70], S4[0.30]
+    available in W2
+    – serviceable by these partners S1[0.85], S2 [0.80], S3 [0.70]
+    available in W3
+    – serviceable by these partners S1[0.80], S2 [0.74], S3 [0.70]
+You have to optimally select the items so that total cost will be minimum.
+Ex: I can make a shipment from I1, I2, I4 fulfilled by W3 which will cost:
+            for partner S1: 2.40
+          for partner S2: 2.22
+             for partner S3: 2.10
+         Another Shipment I3 fulfilled by W2 which will cost: S2 [0.54]
+Total cost: 2.10+0.54 = 2.64 with Shipment SH1 {I1,I2,I4} By S3 and SH2 {I3} by S2
+Another possible way
+I1, I3, I4 serviceable by W2 by Provider S2 : 2.08
+I2 serviceable by W4 by S4: 0.30
+Total cost: 2.38
+So the shipments with minimum cost can be delivered/selected.
+Write a program for the same to get optimum minimum cost for the number of shipments can be delivered from warehouses with shipping cost?
+“If you ship multiple items in single packet, then the cost will be minimum. Assume Shipment Provider charges per packet and not on the weight and packing charges will be minimum. Idea is to consolidate/aggregate as many items as possible to one location so that packaging cost is minimum and on top of that you should consider warehouse selection cost.”
+ 
+

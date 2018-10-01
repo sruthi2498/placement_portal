@@ -1,0 +1,7 @@
+Given a permuted array of length N of first N natural numbers, we need to tell the minimum number of swaps required in the sorted array of first N natural number to reach given permuted array where a number can be swapped with at most 2 positions left to it. If it is not possible to reach permuted array by above swap condition then print not possible.
+Examples:
+
+We can solve this problem using inversions. As we can see that if a number is at a position which is more than 2 places away from its actual position then it is not possible to reach there just by swapping with elements at 2 left positions and if all element satisfy this property (there are <=2 elements smaller than it on the right) then answer will simply be total number of inversions in the array because that many swaps will be needed to transform the array into permuted array.
+	We can find the number of inversions in N log N time using merge sort technique explained here so total time complexity of solution will be O(N log N) only.
+Run on IDE
+Output:

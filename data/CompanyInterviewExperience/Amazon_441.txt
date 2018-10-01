@@ -1,0 +1,30 @@
+I had interview with amazon.com for SDE1 position.
+1st Round – (Written Round)-
+25 Multiple choice questions(Networking, OS, DBMS, C concepts)
+2 coding questions were also asked, for which paper code was required.
+2nd round –
+1.  Placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem.
+
+https://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/
+I had a long discussion on this question finally he was satisfied with my solution.
+2. Write a program to find the sum of maximum sum subsequence of the given array such that the intgers in the subsequence are sorted in increasing order.
+https://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/
+3. Given a Binary Tree, check if all leaves are at same level or not.
+https://www.geeksforgeeks.org/check-leaves-level/
+3rd round –
+Given a sorted array arr[] and a number x, write a function that counts the occurrences of x in arr[]. Expected time complexity is O(Logn)
+https://www.geeksforgeeks.org/count-number-of-occurrences-in-a-sorted-array/
+Find k largest elements in an array. Elements in array can be in any order.
+4th round(Hiring manager)-
+1. Questions around current job, challenges faced. Any instance of conflict and how you resolved it.
+2. A lot of discussion on projects and work experience.
+3. A large file is given you have to find all the anagrams. Told him to divide the file in chunks for parallel processing and then check anagrams using heap.
+5th round(Bar Raiser)-
+1. Why you are leaving your current company so early?
+2. An integer is given to you,first convert it into binary then reverse this binary string and print decimal corresponding to  this reversed string.
+3. He asked one question related to REALLOC function.
+In every round, after each question, complexity of the algorithm was asked. Its good to ask questions to get more clarification about the question.
+I want to thank the entire team of geeksforgeeks. It is a great portal and it helped me a lot in preparing for Amazon interview.
+Tips: Discuss various approaches with interviewer. Try to interact continuously with interviewer. they were very friendly during interview.
+
+

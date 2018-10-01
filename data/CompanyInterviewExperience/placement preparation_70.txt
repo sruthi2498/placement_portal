@@ -1,0 +1,13 @@
+This query will select all those rows from the table Students where the value of the field ROLL_NO lies between 20 and 30.
+IN
+The IN operator is used to check for values contained in specific sets.
+For example,
+This query will select all those rows from the table Students where the value of the field ROLL_NO is either 20 or 21 or 23.
+The required query is:
+You may refer to this article on WHERE clause for more details on LIKE operator.
+For more details on how to create and use view, please refer to this article.
+Orders
+Customers
+As we can see clearly that the field C_ID in Orders table is the primary key in Customers table, i.e. it uniquely identifies each row in the Customers table. Therefore, it is a Foreign Key in Orders table.
+Syntax:
+To know about each of these joins in details, refer this.

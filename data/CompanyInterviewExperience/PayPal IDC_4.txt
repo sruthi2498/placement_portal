@@ -1,0 +1,59 @@
+Around 500 students from our University were eligible to attend the interview process conducted by PayPal.
+
+FIRST ROUND (Coding + Aptitude)
+It was conducted in Hackerrank which consisted of 10 aptitude questions that included C, C++, Java MCQ’s. It wasn’t very tough, with very good knowledge of algorithms and basic concepts, one can get through it.
+Coding section – 1 problem
+An array A consists of n cells, n ranges from 0 to n. Each cell consists of n elements whose value ranges from 1 to n. Create an array B such that B[i] must be as small as B[j] for all values of j that appears in A.
+The question was very difficult to understand. It took more than 20 minutes to understand the question but the logic was very simple. I cracked it and passed all the test cases. 
+26 people were selected out of 500 and I was one among them.
+SECOND ROUND (First Technical)
+They conducted a PPT session for us. I asked many questions during the session and showed my interest to the company.
+As it was my first interview, I was little nervous, but the interviewer was very cool and made me feel comfortable. He gave me a pen and paper and asked me to write code snippet for each question. Three coding questions were asked.
+1. Input a file. Select first 3 lines of the file. Select the longest line and count the number of words in that line.
+It was easy. I used Java methods to solve the problem. I explained the logic and he accepted it.
+2. Given an array of strings, find the shortest length palindrome. I solved it in O(n^2) 
+3. There exists a 3×3 matrix, start from the first element reach the last element of the matrix, between each edges there exists a weight. Reach the destination such that the sum of weights should be small. It was an indirect question on graphs. I asked him whether there existed any negative weight, but he said no. So I used Dijkstra’s algorithm and solved it.
+4. Application of Fibonacci series in day-to-day life.
+After completion of the first round, one of the PayPal interviewer came and told me not to leave as I may have further rounds. My level of confidence increased and I was ready for the next round.
+
+THIRD ROUND (Second Technical)
+I was cool at this time and ready to answer all the questions as I performed well in previous rounds. The interviewer asked why should I join PayPal and I told him everything that I know about PayPal. He jotted down all the points that I told.
+Technical questions were
+1. Balancing parantheses – I defined my own algorithm. He tested it for all test cases. He told me some modifications and I rectified my algorithm.
+2. There was a discussion about my projects and he was quite satisfied with it.
+3. He asked me what happens when I type www.google.com in the web browser.
+https://www.geeksforgeeks.org/commonly-asked-computer-networks-interview-questions-set-1/ <- refer here.
+4. He asked me how I will check whether I have internet connection in my system?
+ping www.google.com will respond.
+5. Find the k th largest element in an array. I used MaxHeap concept but he asked me to define it using MinHeap. I modified the code and he accepted it.
+At last, he asked if I had any questions. I asked if I had satisfied him. He replied that I will have further rounds with a smile.
+
+FOURTH ROUND (Third Technical + HR)
+The HR was the same person who conducted the PPT session.
+HR: When you search for a particular product in amazon, it displays some of the search
+results. But, only few particular products which are available in amazon are displayed,
+not all. How does this happen?
+Me: I told Machine Learning. When we frequently search for a particular product, it
+analyses it gives suggestions based on previous search results.
+HR: That’s correct. Think of another side. What data structure do they use?
+Me: Hash tables.
+HR: What will be the key and what will be the values?
+Me: The product will be the key. The brands will be the values.
+HR: Do you know Radix Sort? Where it is used?
+Me: (He was expecting a certain answer for the first question and he was insisting about radix sort suddenly without replying anything about my answer about hash tables. So I guessed radix sort might be the answer for the first question) Radix sort can be applied in amazon.
+HR: Running time of Radix sort?
+Me: O(nk)
+HR: But amazon can do the search in O(n). Why it has to go for O(nk)?
+Me: (I was thinking for few minutes) For data structures like Hash tables and for large data, n will be large. If they use radix sort, each product can be a bucket, every brands can be the contents of that bucket. So here the n will be small. So O(nk) is better than O(n) (former n is smaller than latter n).
+HR: (He was quite impressed with the answer) Very good!
+Me: (I was very happy about his comment)
+HR: Tell me about your projects. (and more questions from my resume)
+Me: (I explained him all)
+HR: Any questions?
+Me: If I get placed in PayPal, what will be my joining date? When can I have my onsite opportunities? Where will I get my posting?
+HR: (He replied for all the questions) If you don’t get selected for PayPal, what will you do?
+Me: I will console myself and prepare for my next opportunities.
+HR: That means I have to hire you?
+Me: Definitely not! If I am talented enough and if you feel I am fit enough for your company, you can hire me otherwise you need not.
+HR: (He smiled) Wait for your results. ?
+I got selected in PayPal ? That was the most happiest moment of my life.

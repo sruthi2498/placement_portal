@@ -1,0 +1,20 @@
+Given two numbers ‘num’ and ‘divisor’, find remainder when ‘num’ is divided by ‘divisor’.  The use of modulo or % operator is not allowed.
+Examples : 
+Method 1 :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output : 
+This method is contributed by Bishal Kumar Dubey
+Method 2
+The idea is simple, we run a loop to find the largest multiple of ‘divisor’ that is smaller than or equal to ‘num’. Once we find such a multiple, we subtract the multiple from ‘num’ to find the divisor.
+Following is the implementation of above idea.  Thanks to eleventyone for suggesting this solution in a comment.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output : 

@@ -1,0 +1,12 @@
+Given an even number (greater than 2 ), print two prime numbers whose sum will be equal to given number. There may be several combinations possible. Print only first such pair. 
+An interesting point is, a solution always exist according to Goldbach’s conjecture.
+Examples :
+
+The idea is to find all the primes less than or equal to the given number N using Sieve of Eratosthenes. Once we have an array that tells all primes, we can traverse through this array to find pair with given sum.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+

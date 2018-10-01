@@ -1,0 +1,16 @@
+I have 2 yrs of experience in android domain.I have applied for Motorola in May.Process spanned for 1 month long.
+I could not find much info about their interview process on net.So i am sharing my experience here.Hope it helps others.:)
+Round 1- Interview Street (1 hr)
+1)WAP to get maximum number from the digits of a given number
+2)Parse a string and return if it is valid or not based on given patterns.It should contain only
+“1” or “12” or “122” ONLY
+Round 2-Google Hangout(1 hr)
+-General Intro
+-Few basic android questions on localization and resource configurations
+1)Code for Longest common prefix from a list of strings.
+2)There is a device driver that reads from a camera and writes a stream of bytes (captured frames) into a buffer. There also is a viewer that reads from this same buffer. The device driver and viewer do not communicate with each other other than through this buffer. Design and code this scenario. You may choose the data structure of the buffer per your liking. Please note that there may be multiple viewers.
+Round 3-Google Hangout(1 hr)
+1)Code for moving zeroes to starting in a random integer array
+2)Given a binary search tree of positive integers, if all the nodes are multiplied with -1 then is it still a BST? If not, reconstruct to one.(Mirror tree code)
+Round 4-Google Hangout (1.5 hr)
+1)Given an array of random unique integers, find the indices x,y,z such that a[x]

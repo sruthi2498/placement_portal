@@ -1,0 +1,25 @@
+Round 1:
+Round 1 was an online coding round. Only one question was asked and 50 test cases were given.Only those students who cleared all 50 test cases were shortlisted for next round. The Question was fishery problem (it was previously asked). Make sure that you go through all the previously asked written problems of Samsung. The question was :
+Fishing Spots: 1 to N
+3 Gates with gate position and number of fishermen waiting to get in
+Distance between consecutive spots = distance between gate and nearest spot = 1 m.
+Fishermen are waiting at the gates to get in and occupy nearest fishing spot. Only 1 gate can be opened at a time and all fishermen of that gate must occupy spots before next gate is open.
+There could be 2 spots closest to the gate. Assign only 1 spot to the last fisherman in such a way that we get minimum walking distance. For rest of the fishermen, ignore and assign any one.
+Write a program to return sum of minimum distance need to walk for fishermen.
+The problem can be solved using Recursion and Backtracking by considering all possible combinations. Time allotted was 3 hours. 13 students were shortlisted.
+Tip : Make sure you have solved all previously asked problems.
+Round 2:
+Round 2 started with brief introduction and he asked about my strong areas. I told him networking. Then he directly jumped to my projects and asked me to give a brief explanation about the logic and working of my project. Since my project was also networking based so he asked me about TCP/IP, Secured UDP and Networking based logic. Since I mentioned Wireshark in my CV, we had a brief discussion about how data streams are analysed using wireshark. Then he asked me about singleton class in Java and how we construct it. He was very impressed by my networking knowledge and he told me that I will have a next round. 9 students were shortlisted.Other questions asked in this round were from computer architecture, System design and Operating Systems. Coding problems on backtracking, graphs were also asked.
+The duration of this round was between 30-45 mins.
+Tip : Make sure you have worked well on your projects and internships(if any) and you have sound knowledge about your core subjects.
+Round 3: 
+This was the second technical round. He started off by reading my CV and asked me about my projects. I explained my project on paper to him and he dig deep into that. He asked me about various status codes and about the architecture of my project. He also asked me about the technologies I used and how I implemented it. It was about 20-25 mins of discussion on that. Then he gave me a C problem but I since I am unaware of C concepts, I told him that I code in Java only so he asked me about Interfacing in Java. Then he asked about the Disk Scheduling and he told me to code every step in that. I did that correctly and explained all the methods to do that. Then he asked me about the Minimum Spanning Tree Algorithm and Union find algorithm. I explained him that. He was satisfied with psuedocode and explanation.
+https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/
+https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+Then he gave me a problem. The problem statement was something like that:
+Given a matrix. The matrix consists of some randomly placed n dustbins represented by (xn, yn)(coordinates were given). If 1 in a cell represents dirt and 0 means clean. Moving to each cell takes 1 amount of work. Now you need you calculate minimum amount of work in moving all the dirt to the dustbin. I told him a solution using BFS and then he added one more constraint that max capacity of dustbin is there. Now we need to calculate the most optimal amount of work to move all the dirt to dustbin. If not possible return -1. I thought about backtracking solution and optimized it by calculating distances of dirt from every dustbin.
+This round lasted about 1.5 hours. Interviewer was very interactive.
+Tip : Make sure to cover the graph data structure and graph related problems.
+Round 4: 
+He just called me and asked about company and since I am from ECE background, he asked me that why I want to join an IT company. It was just a 5-10 min round.
+After all the rounds, 4 students were shortlisted and I was one of them.

@@ -1,0 +1,12 @@
+Given a positive integer n, count distinct number of pairs (x, y) that satisfy following conditions : 
+Examples:
+
+Approach:
+Example,
+For prime number p = 7
+distinct pairs that add upto p: p/2 = 7/2 = 3
+The three pairs are (1,6), (2,5), (3,4)
+For prime number p = 23
+distinct pairs that add upto p: p/2 = 23/2 = 11  
+Run on IDE
+Output:

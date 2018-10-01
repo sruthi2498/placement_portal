@@ -1,0 +1,12 @@
+Recently I got interviewed on phone for De Shaw Hyderabad (1 hr)
+1. Tell me about yourself and your current work.
+2. Why you like to change?
+3. What is a thread? How multithreading is implemented? Its advantages
+4. How multithreading improves performance?
+5. Difference between process and threads.
+6. Can we create multithread in C ? If yes how ?
+7. What is mem copy ? Implement memcpy in c/c++
+8. What are virtual functions in C++ ? How it is implemented.
+9. A problem : There are two stations S (source) and D (destination). In between there are many other intermediate stations whose costs are given in the form of matrix like cost[i][j] from station i to j. Find the minimum cost from source to destination.
+10. There are 4 containers each of 10,10, 5 and 4 litres respectively. Both 10 l are full and each 4 and l are empty. How will you measure 2 litres each in both 4 and 5 litre container. There is only 20 litres of water available.
+

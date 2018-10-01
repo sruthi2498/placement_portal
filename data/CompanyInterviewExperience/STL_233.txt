@@ -1,0 +1,14 @@
+STL priority_queue is the implementation of Heap Data-structure.. By default, it’s a max heap and we can easily use it for primitive datatypes. There are some important applications of it which can be found here
+Prerequisite:  Prioirty_queue Basics
+In this article, we will see how can we use priority_queue for custom datatypes like class or structure.
+suppose we have a structure name Person which consist of two variables Age and height 
+and we want to store that that in priority_queue then a simple method won’t work here.
+Given below is a example of declaration of struct Person: 
+Run on IDE
+On defining the Priority Queue as shown below, it’ll give us error since priority_queue doesn’t know on what order(min or max) we need to arrange the objects.
+Run on IDE
+To rectify the error above, we will  use operator overloading to define the priority. So that priority_queue can decide how to store the structure object.
+Given below is the priority_queue implementation with structure below:
+Run on IDE
+Given below is the implementation of priority_queue using Class
+Run on IDE

@@ -1,0 +1,27 @@
+
+std::hermite is based on the hermite polynomial function given by: 
+
+After solving the Hermite’s Polynomial, the results come out to be like the following table:
+Examples: 
+
+Input: n = 2 x = 7
+Output: 194
+Formula for n = 2,
+4x7x7 – 2 = 196 – 2 = 194
+Input: n = 4 x = 12
+Output: 324876
+Formula for n = 4,
+16x12x12x12x12 – 48x12x12 + 12 = 324876
+
+Syntax:
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return value: This function returns the value which is the answer to the hermite’s polynomial.
+Note: The std::hermite() function runs on GCC 7.1 (C++ 17) version. 
+Below programs illustrate the std::hermite() function: 
+Program 1: 
+Run on IDE
+Output:
+Error handling
+Program 2: 
+Run on IDE
+Output:

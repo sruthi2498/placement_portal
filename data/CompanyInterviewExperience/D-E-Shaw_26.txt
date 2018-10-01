@@ -1,0 +1,72 @@
+First shortlisted based on CGPA >= 7.5 and ONLY CSE student allowed to sit in interview. They(D E Shaw) had 2 phases of selection procedure.
+
+TECHNICAL INTERVIEW : 
+First they asked to me introduced myself and they asked my interest. I told them about me and mentioned my interest areas as Data Structure And Algorithm.Then they start discussion about DSA.
+Q 1). Implement Stack using two Queue .
+(Hints : https://www.geeksforgeeks.org/implement-stack-using-queue/ )
+Q 2).Implement Queue using two Stack.
+(Hints : https://www.geeksforgeeks.org/queue-using-stacks/ )
+Both questions are quite easy BUT you should know throughly how to implement and what action should we take on particular query and working code too.
+Then they asked me to write code for both problem and analyze Time complexity of each operation.
+(Advice : read this Book Data Structures and Algorithms Made Easy – Narasimha Karumanchi to understand throughly to basics of Data structure…)
+After this, they asked my project(OS Based) and asked to me following Question :
+1). What you have done in your project which is not present before?
+2). How it can affect to real world application?
+3). What difficulties you faced in your project?
+4). How you can implement to Real Time OS?
+……lot more other stuff about it.
+And asked lot more Question about OS.
+(Advice : Don’t mention project in which your contribution is very less or don’t know fully about that project. They don’t expect lot of project from interns BUT they want to know how much effort you put in your project and how well know you your project…Be ready with all stuffs…….)
+Then again , They asked a very good question Algorithmic Based(step by step, they increased difficulty level).
+They said..
+You have a array size with some integer. You have to return sum of Lth index to Rth index of array element(inclusive).
+I just write a function which will run within given range and return sum.
+Time Complexity of Each Query : O(R-L)
+They asked me to optimize to further with this solution…..as they are not happy with my solution.
+After a while I came up a solution using one more array say cumm_Array in which I will store sum of all element 1st to ith indexed element at cumm_Array[i]. For each Query I will return (cumm_Array[R]-cumm_Array[L-1]).
+I can not stop me to write code because I love coding……….
+Here is code :
+Run on IDE
+Time Complexity Each Query : O(1)
+Over All Time Complexity : O(N*1)
+Now they said me …you have to perform two query.
+Query 1). Update ith element to given value say x
+Query 2). Calculate sum of given range
+Now question become difficult.
+(Hints : This can be done using Binary Indexed Tree or Segment Tree..don’t worry if you don’t know..
+here is my code..
+Segment Tree Implementation..
+Binary Indexed Tree Implementation..
+https://github.com/rameshchandrasiraura/MY-CODE/blob/master/Sum_Of_Given_Range_Using_Bit.cpp )
+Now Time complexity for Query 1 : O(logN)
+Time complexity for Query 2 : O(logN)
+Now they asked me write Psuedo code for this…i have done this…After this I saw faces of them..They are looking impressed because they are not expecting me that things..because for solving first 2-question I took 10-15 minutes to each.
+HR INTERVIEW 
+In this phase, they asked about ourself, some regular HR questions. After this, they asked some puzzles and lot more stuff which only about our general awareness.
+Advice: Be cool and attentive.
+
+First they said to me, “Now you are in 2nd phase ”. They asked me about 1st phase interview experience.
+After that, they asked first question based on real problem which require data structure concepts.
+Q 1). Suppose you have to store buyer_id, buying_time, dept, beyer_contact_info. Design a data structure to store this information.
+Now they added some more stuff to question to make it hard. They said, “You have to find a buyer who spent maximum money for shopping in each half an hour interval in each dept”. Again they asked to find a buyer who spent maximum money from previously selected buyer’s list.
+Later they asked me to announce winner provided some more constraints. This question was very heavy in whole interview process.
+They asked me to write code(not psuedo code) for this problem quickly and analyze time complexity and space complexity.
+Q 2). Design a DFA for binary input(0’s and 1’s string) whose decimal value is multiple of 5.
+Solution: look at following link…
+http://stackoverflow.com/questions/21897554/design-dfa-accepting-binary-strings-divisible-by-a-number-n
+Q 3). You have two number say A and B . You have a given range say [L,R] set all bits in B in given range who all bits ae set in A in that range.(didn’t got, Sometimes They mention things which seems to very ambiguous,They want to how you tackle these kind problem…If you ever face these kind of situation…Please ask for more clarification..)
+I didn’t got question at all. They laughed at me……….lol..I also feel very sad. At last what happened to me.
+Then they clarify like this…
+You have to set all bits in Binary Representation of B who are set in A between given Lth position to Rth Position in Binary Representation of A.
+Then I demonstrated an example to them…(If you also didn’t get see example) ..
+Here you can see between range [2,3] , A have 2nd Position bit is unset which set in 2nd Position in B and 3rd position bit of A will be uneffected. You should set only 2nd bit of A
+Final ans : A = 14(1110)
+NOTE : don’t unset bits in A who already are set and don’t perform any operation out of range.
+Solution:
+first solution I gave them, just convert A and B in binary and do required operation as mentioned in question and get back decimal value from ans.
+Then they asked me optimize further with saying that computer store every information in binary.
+I was just thinking that this question can be done by simple XOR-ing as I had already solved some problem on bits.
+After a while, I came up with a solution of constant time complexity.
+I design a bit-mask having all 1’s in given range and AND with B, finally OR with A;
+Choosing such bit-mask programmatically is not so tough, so left to reader.
+BEST OF LUCK

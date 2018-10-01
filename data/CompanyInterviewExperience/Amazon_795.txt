@@ -1,0 +1,28 @@
+Given two strings str1 and str2 and below operations that can performed on str1. Find minimum number of edits (operations) required to convert ‘str1’ into ‘str2’.
+All of the above operations are of equal cost.
+
+Examples: 
+What are the subproblems in this case?
+The idea is process all characters one by one staring from either from left or right sides of both strings.
+Let us traverse from right corner, there are two possibilities for every pair of character being traversed.
+Below is C++ implementation of above Naive recursive solution.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of above solution is exponential. In worst case, we may end up doing O(3m) operations. The worst case happens when none of characters of two strings match. Below is a recursive call diagram for worst case.
+
+We can see that many subproblems are solved, again and again, for example, eD(2,2) is called three times. Since same suproblems are called again, this problem has Overlapping Subprolems property. So Edit Distance problem has both properties (see this and this) of a dynamic programming problem. Like other typical Dynamic Programming(DP) problems, recomputations of same subproblems can be avoided by constructing a temporary array that stores results of subproblems.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity: O(m x n)
+Auxiliary Space: O(m x n)
+Applications: There are many practical applications of edit distance algorithm, refer Lucene API for sample. Another example, display all the words in a dictionary that are near proximity to a given wordincorrectly spelled word.
+
+Thanks to Vivek Kumar for suggesting updates.

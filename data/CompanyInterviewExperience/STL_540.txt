@@ -1,0 +1,12 @@
+Given two sorted arrays, we can get a set of sums(add one element from the first and one from second). Find the N’th element in the elements of the formed set considered in sorted order.
+ Note:  Set of sums should have unique elements.
+Examples:
+Asked in: Microsoft Interview
+
+1- Run two loops – one for first array and second for second array.
+2- Just consider each pair and store their sum in a self-balancing-BST (which is implemented by set and map in C++). We use set in C++ here as we need to only see if elements are present or absent, we don’t need key, value pairs.
+3- Traverse the set and return the Nth element in the set.
+Below is C++ implementation of above idea.
+Run on IDE
+Output:
+Time Complexity: O(mn log (mn)) where m is the size of the first array and n is the size of the second array.

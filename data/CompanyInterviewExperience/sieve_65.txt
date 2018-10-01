@@ -1,0 +1,17 @@
+Given a number n, find the n-th square-free number. A number is square-free if it is not divisible by a perfect square other than 1.
+Examples :
+
+Method 1 (Brute Force):
+The idea is to iteratively check every number whether it is divisible by any perfect square number and increase the count whenever an square free number is encountered and returning the nth square free number.
+Following is the implementation:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2 (Better approach):
+Idea is to count square free numbers less than or equal to upper limit ‘k’ and then apply binary search to find n-th square free number. First, we calculate count of square numbers (numbers with squares as factors) upto ‘k’ and then subtracting that count from total numbers to get count of square free numbers upto ‘k’.
+Explanation:
+Following is the C++ implementation of above algorithm:
+Run on IDE
+Output:

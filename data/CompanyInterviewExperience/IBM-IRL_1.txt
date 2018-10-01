@@ -1,0 +1,18 @@
+Following are the details of IBM IRL Interview.
+Technical Interview 1: 
+1. Tell me about yourself.
+2. Asked favourite subject, I told Algorithms & data structures.
+3. Asked Vertex cover problem. I explained the brute force method. But don’t know better solution.
+4. Implement queue using 2 stacks.
+5. Time complexity of DFS, BFS, Kruskal, Prims.
+Technical Interview 2:
+1. Again tell me about yourself.
+This time there were lots of good questions from my project.
+2. Again asked about vertex cover problem. This is NP hard problem. So no exact solutions exist, but approximation algorithm can be applied. We have to first find the maximal matching edges, then we will put all this pair in the list, remove one by one and check whether by removal of this it is vertex cover or not. For details see Wikipedia for vertex cover.
+3. Many questions related to process scheduling. I explained all the scheduling algorithm like FIFO, Round Robin, SJF, SJRF. Then he asked about the detail pro and cons of each scheduling approach.
+Don’t remember more questions.
+4. At last he asked me do you want to do Phd or MS?
+5.  Why IBM IRL (research profile)?
+6. I asked many questions about IBM’s financial support for further higher studies etc.
+7. How can I be at IBM and also doing Phd, will IBM allow for that?
+Tips / Advice: They were looking for strong grip on Algorithms and data structures, also in graph, so prepare it well.

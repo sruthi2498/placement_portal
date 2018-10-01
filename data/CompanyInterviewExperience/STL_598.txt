@@ -1,0 +1,12 @@
+Generating test cases for array programs can be a cumbersome process. But the generate and generate_n functions in the STL (Standard Template Library), come handy to populate the array with random values.
+The generate functions assigns random values provided by calling the generator function ‘gen’ to the elements in the range [begin, end). Notice that begin is included in the range but end is NOT included.
+Following code demonstrates the implementation of generate : 
+Run on IDE
+Output : 
+NOTE : The output would be different each time we run the code because of srand. If we remove srand, we would get the same set of random numbers every time we run the code.
+
+ 
+Run on IDE
+Output : 
+NOTE : Here also, the output would be different each time we run the code because of srand. If we remove srand, we would get the same set of random numbers every time we run the code.
+

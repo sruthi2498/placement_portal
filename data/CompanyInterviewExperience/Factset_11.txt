@@ -1,0 +1,9 @@
+Given a matrix. Convert it into a linked list matrix such that each node is connected to its next right and down node.
+Example:
+Question Source : Factset Interview Experience | Set 9
+
+The idea is to construct a new node for every element of matrix and recursively create its down and right nodes.
+
+Run on IDE
+Run on IDE
+

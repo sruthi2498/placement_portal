@@ -1,0 +1,19 @@
+Given two polynomials represented by two arrays, write a function that multiplies given two polynomials. 
+Example: 
+A simple solution is to one by one consider every term of first polynomial and multiply it with every term of second polynomial.  Following is algorithm of this simple method.
+The following is C++ implementation of above algorithm.
+Run on IDE
+Output
+Time complexity of the above solution is O(mn).  If size of two polynomials same, then time complexity is O(n2).
+Can we do better?
+There are methods to do multiplication faster than O(n2) time.   These methods are mainly based on divide and conquer.  Following is one simple method that divides the given polynomial (of degree n) into two polynomials one containing lower degree terms(lower than n/2) and other containing higher degree terns (higher than or equal to n/2)
+So the above divide and conquer approach requires 4 multiplications and O(n) time to add all 4 results. Therefore the time complexity is T(n) = 4T(n/2) + O(n). The solution of the recurrence is O(n2) which is same as  the above simple solution.
+The idea is to reduce number of multiplications to 3 and make the  recurrence as T(n) = 3T(n/2) + O(n) 
+How to reduce number of multiplications?
+This requires a little trick similar to Strassen’s Matrix Multiplication.  We do following 3 multiplications. 
+So the time taken by this algorithm is T(n) = 3T(n/2) + O(n)
+The solution of above recurrence is O(nLg3) which is better than O(n2).
+We will soon be discussing implementation of above approach. 
+There is a O(nLogn) algorithm also that uses Fast Fourier Transform to multiply two polynomials (Refer this  and this for details)
+Sources:
+http://www.cse.ust.hk/~dekai/271/notes/L03/L03.pdf

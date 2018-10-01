@@ -1,0 +1,16 @@
+Given two integers n and k, Find the lexicographical nth palindrome of k digits.
+Naive Approach
+A brute force is to run a loop from smallest kth digit number and check for every number whether it is palindrome or not. If it is palindrome number then decrements the value of k. Therefore the loop runs until k become exhausted.
+Run on IDE
+Time complexity: O(10k)
+Auxiliary space: O(1)
+Efficient approach
+An efficient method is to look for a pattern. According to the property of palindrome first half digits is same as the rest half digits in reverse order. Therefore we only need to look for first half digits as rest of them can easily be generated. Let’s take k = 8, smallest palindrome always starts from 1 as leading digit and goes like that for first 4 digit of number.
+Illustration:
+n = 6 k = 5
+Below is C++ implementation of above steps
+Run on IDE
+Time complexity: O(k)
+Auxiliary space: O(1)
+Reference:
+http://stackoverflow.com/questions/11925840/how-to-calculate-nth-n-digit-palindrome-efficiently

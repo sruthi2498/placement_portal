@@ -1,0 +1,5 @@
+Given N buckets, each containing A[i] items. Given K tours within which all of the items are needed to be delivered. It is allowed to take items from only one bucket in 1 tour. The task is to tell the minimum number of items needed to be delivered per tour so that all of the items can be delivered within K tours.
+Examples:
+Approach: It is needed to find the minimum number of items per delivery. So, the idea is to iterate from 1 to the maximum value of items in a bucket and calculate the number of tours required for each bucket and find the total number of tours for complete delivery. The first such value with tours less than or equals K gives the required number.
+Below is the implementation of the above idea:
+Run on IDE

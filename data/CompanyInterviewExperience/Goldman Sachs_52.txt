@@ -1,0 +1,33 @@
+The company basically selects students based on 3 categories:- Coding(DS and Algorithms), Machine Learning and Quant( Mathematics and Puzzles).
+There were about 250 students who filled the willingness.
+
+Round 1 (Online Test):: Duration- 2:15 hrs.
+Conducted on hackerrank , it had 3 sections – CS,ML and Quant having 7,10 and 10 questions respectively. Each section had a score of 100 marks.
+The CS section (Duration 1 Hour) had 2 coding problems of difficulties easy and easy-medium and 5 MCQs (bit tricky, easily solvable though). The topics covered were Operating Systems, OOPS and DS Algo. I would recommend to go through all the array problems available on GFG at once atleast.
+I can`t comment on the ML section (Duration 30 minutes). I didn’t attempt any of them. Based on some reviews, the problems had a good difficulty level and covered various topics of Machine Learning.
+The Quant section had 6 MCQs (Duration 45 minutes) and 4 sentence completion problems of varying difficulties. The questions were well designed and were too good to be solved in 45 minutes but the one with the highest score managed to solve 8 of them correctly.
+57 of 250 students were shortlisted for interviews (but believe me, only the top 30 mattered to them).
+
+Interviews (Duration :- 15-20 minutes on average each)
+
+Round 1:- I was asked about my interests and I told DS algos and Mathematics. I was asked 1 real life design coding problem, 1 question on BST and 1 puzzles. A good percentage of their focus was on the resume and the projects.
+Some questions I remember:-
+How would you store the contacts in an android phone if the “contact searching while typing” has to be fast and a contact can have multiple phone numbers.
+Minimum distance the ant has to travel to reach the diagonally opposite corner.
+
+Round 2:- They asked me about my hands-on experience with C++ STL and programming problems on online platforms. I was asked 2 questions:-
+Difference between map and unordered_map in C++ STL.
+Print the levels of a binary tree in reverse order using stack and recursion.
+They also asked some general questions like Tell me about yourself.
+Round 3:- Unlike the previous rounds, this round focused more on my puzzle solving skills and mathematical abilities (majorly probability). I was asked 2 questions on probability, 1 question on BST, 1 question on array and 3 puzzles.
+Convert a BST to a sorted doubly linked list in place.
+Given an array of houses(the value represent money in the house and the thief, once the thief enters a house, the alarm raises and its adjacent left and right house get locked. What is the maximum money that he can loot?
+3 ants are on three vertices of a regular triangle. They randomly determine the edge of the triangle and starts walking on it. This is repeated at every vertex. What`s the probability that they will never meet!
+You and your friend are shooting at each other alternatively with a gun and the accuracy of your shots are x and y respectively. What is the value of x to ensure that you will end up killing him if he always fires first (There is significant time between 2 continuous firings).
+
+Round 4:- Now this round was even more bent towards pure probabilistic mathematics. I was asked several questions: conceptual, solvable, based on probability, based on curve prediction and 1 tree problem. I liked the interviewers very much in this round.
+Round 5 (More of a confirmation talk):-  In this round, I wasn’t asked any of the technical questions. I was asked general questions like what you aspire for in the life? What makes you satisfied? What`s the most challenging problem you have solved recently? Where do you see yourself in near future? What will you choose between GS and Microsoft? What do you want to know about GS?
+
+Last Call:–  I had this very strong feeling after the previous round that I was selected but sometimes they do reject the candidates even after 5 rounds. But the things turned out to be even fruitful when they told me that I had been selected for 2 teams (those who interviewed me in round 1 & round 4) and I had to make my decision to pick one. After talking to both of them, I finally chose the risk management division (Round 4 people) and was selected as a summer intern of Goldman Sachs.
+Finally 19 students were selected for the internship.
+The Goldman staff was really smart and interactive and this was the best interview I had till date.

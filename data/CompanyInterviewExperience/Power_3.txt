@@ -1,0 +1,17 @@
+Power2SME visited our campus for full-time role as well as 6-month intern role for master student.
+The 1st online round was hosted on mettl platform, consisting of 70 MCQs (Aptitude, reasoning, technical and English) and 1 code.
+It had 2 coding questions and 20 MCQs.
+Q1. Given an unsorted array A, find the maximum possible summation for the visit either from A[i] to A[0] or from A[i] to A[n-1] but the condition is that you have to add equal amount from each elements over the range.
+There were 3 technical  and 1 HR round and Every interview round started with the cliche “tell me about yourself” and ended with “do you have any questions”.
+In technical rounds basically they start with your interest and then ask their questions. Mine was DS and Algorithm so some of questions are as:
+1) Check whether a linked list is palindrome or not. Try to explain each and every possible way and explain time and complexity of each step.
+2) Check whether two binary tree are mirror image of each other or not.
+3) Reverse a given Stack, again with each and every approach but they were interested in O(1) space complexity.
+4) Construct BST with the help of pre order and post order. Discussed many corner cases.
+5) Swap two numbers with different approaches and finally we ended up to the solution in 1 line.
+6) Given a n*n matrix having all elements as 0 or 1 and all rows are sorted. You have to find the row with maximum 1 and also that number of 1s.
+7) Design power() function in O(logn).
+8) Subset sum problem
+And they asked a lot of question on my project and many basic HR questions.
+I suggest you to be confident and have deep knowledge in your area of interest. My recommendation is geksforgeeks and you can use stackoverflow for different aspects of any problem.
+Thanks geeksforgeeks for such a huge platform for us. 

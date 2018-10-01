@@ -1,0 +1,47 @@
+Location: Guagaon
+Position: Software Developer
+I decided to write this post because when i was preparing, I didn’t find any help on google about the interview process by Drishti-soft, so I thought that since I bagged the job I might as well help those who are like me in a similar situation 🙂 .
+So, when Drishti came to my college I didn’t know anything about the company nor even heard of it before even though one of our senior got placed in it. Well it came with a big package so I was sure I was gonna sit for it since the package was lucrative and it was a technical company which is my type.
+First round started and since I was on time I found a seat near one of my friends. First they made us fill some forms including some feedback forms and personal details after that using our Facebook ID they made us login and told us to start the test.
+1st round : 2 Tests : aptitude MCQ and coding MCQ.
+I feel like the questions were good so needed more time than which was given to us. Well as they was no negative marking I tried to answer as much I can. Some of them based solely on my gut feeling In coding MCQs, questions were of medium size codes and we had to check for error/output for it. Some questions also asked about time complexity as well. In coding MCQ also I personally felt time given was less but was challenging.
+After first round they gave us a PPT for their company which was one of the best ppts I had till now and the work ethics they had I liked them a lot. Those were like of what I thought of my dream company to be like and only difference was my dream company is a Game Development Company and the motivation speech about career guidance was so good it motivated me a lot. Most of the things they said were the things I think are right so I started to like them and started to develop a genuine interest in the company.
+Result of first round came. I was playing DOTA 2 at that time which I do most of the time so I missed the results but luckily Shailesh Gupta, told me I cleared 1st round. I checked and went running to the Computer center for the next round with just a pen and in my mind I was thinking that since I was late they wouldn’t let me sit for the second round. When I reached there they were cool about it and they tried to find me a place but in the lab where test was taking place, there was no PC available so they asked me bring a laptop or find one. I could not go back to my hall to get one and no one else brought there laptop so they made me sit separately in another lab where I was the only one who was giving the 2nd round.
+2nd Round: Subjective Coding round : 5 Coding questions :-3 of 1 marks and 2 of 3 marks
+Q 1: Check that the number can be divided by the sum of its digit. (Easy as it can be)
+Q 2: A girl counting on her left hand’s fingers, u need to tell on which finger she will stop for a giving number. Counting was like 1-thumb, 2-index finger , 3-middle finger, 4-ring finger,5-little finger then 6-ring, 7-middle , 8-index, 9 thumb , 10 -index and so on ..(easy like hell )
+Q 3: Gcd of two numbers ( again ..:) )
+Q 4: Remove duplicate from a sorted linked list . (was easy and as linked list was already sorted so it become more easy)
+Till now all question i find were easy did these in 20-30 min, I had almost 1 hr left.
+Q 5: given an array using in-place operation u have to put odd number in odd indexes and even number in even indexes. Assume array of even length and half of it will be even numbers (seems easy but as u cannot use another array and the order of number should not be change it was a good question took me while to implement the solution i think of)
+Next round was in in their office in Gurgaon. They told us to take reservation in Tier-3 and all transportation expenditure will be compensated. Out of the 9 people selected, 7 of us were there, as we reached there sooner than scheduled so our interview also started 1 day earlier.
+3rd Round : F2F coding round: 
+I was expecting an interview but when the sir came he asked my name and started giving problems. This round was 4-5 Hr long start at 5pm end up at around 10pm. I don’t remember all the questions. Here is what I remember, you have to write code on paper:
+Q : Given an array of size (b-a+1) with number from a to b in sorted form. One number is two times. You have to find out the missing number.
+Q : Given a sorted 2D array, find a number in a it. I knew the question but don’t remember even a single solution. I tried a binary search in a 2D array but failed with it then gave a solution which choose direction and move in it. my solution was not that efficient but i did what i can .
+Q: Given a binary tree, make a linked-list out of the leaf node of that tree. easy did this one in 5 min .
+Q: Given 2D array with weight in each box, u have to move find minimum weight (total weight & gt=0) in the shortest path (path can be a long one but weight should be minimum) between 2 point given to you.
+Q: http://www.spoj.com/problems/ACODE/
+4 selected out of 7 after the 3rd round
+4th Round: F2F analytic round: this was the hardest round I faced in my life!!!
+Q. Pipe one fills a tank in 15 hr another fills in 20 hr (time could have been different) and 3rd empty in X hr. if all work together tell the max value of X for which tank will never be full. (easy :P)
+Q. 13.1.13 is special because date*month =year find the year in this century which have max no of such dates. (I think answer is 24) NOW the HARD q comes
+Q. 9 student have either back or white cap on them (cant talk to each other) black >white>1 teacher gave them 20 min no one answer then teacher gave them 10 min no one answered then teacher gave them 5 min all of them gave the answer. (gave many hints before I could answer)
+Q. You have 2 ball of each A,B,C colors and each color have 1 light and 1 heavy ball. all light are same weight same goes for heavy. using balance (Scale) min time how u find weight type of each ball. (first time for me gave me lots of hints a lot then it was like he solved it for me it was already past 00:00 of night now)
+Q. There on a island there are 13 A,15 B,17 C animal if two of different type combine 3rd one is created . can there can be a time when only one kind of animal remains? (again he gave a lot of hints till i was able to solve it)
+Q. There are 3 doors 1 of them have money other 2 have nothing if first we let u choose 1 door and then open one of the other u didn’t choose and show u it have nothing behind u. Now i will let u change what u choose will u change ur choice and choose the one door which is left or stick with your door.
+3 out of 4 left now.
+5th round: HR round   which was hard for me as I am not that social and weak in communication but as I went for the next round after 30 min I assume I passed HR round too or may be they considered both the 5th and 6th together.
+The final and most important round was about the work you have done during your college such as project work and vocational training.
+6th round:Project discussion and puzzle round Sir told me about him self and asked me about my interests then he asked about the project which I had done. They did not ask many any puzzle but they asked the 2 others before me. I explained my java UI project I did in summer. He seems quite pleased by what I know. Then asked me some network questions to check that I can answer questions from other topic other than programming.
+Q. Public-key cryptography and
+Q. question related to Certificate authority.
+He asked these when i answered some of his question about my web project and the database I used in it.
+3rd round : 4.5 hr
+4th round : 3.5 hr (ended at 1:20 am !!)
+5th round :1.5 hr
+6th round: 2.5 hr (ended at 12:30 am)
+Next day the results were announced and in the end I and another guy from my college got the job .
+Key to get this job offer : You must be a real geek and not someone who is pretending to be one solely for the job. 12-14 hrs of interview will tell them everything about you whether you like it or not.
+I am really thrilled about the work I will be doing there and can’t wait to get started. I have an exciting future ahead of me 🙂
+Source: http://sunilkumarsheoran.blogspot.in/2013/11/interview-for-drishti-soft-solutions.html

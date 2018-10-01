@@ -1,0 +1,8 @@
+Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words. See following examples for more details.
+This is a famous Google interview question, also being asked by many other companies now a days.
+
+The solution discussed here is mainly an extension of below DP based solution.
+Dynamic Programming | Set 32 (Word Break Problem)
+In the above post, a simple array is used to store and search words in a dictionary. Here we use Trie to do these tasks quickly.
+Run on IDE
+Output:

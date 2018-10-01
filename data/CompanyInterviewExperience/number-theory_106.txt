@@ -1,0 +1,25 @@
+The Schröder–Hipparchus numbers form an integer sequence that can be used to count the number of plane trees with a given set of leaves, the number of ways of inserting parentheses into a sequence, and the number of ways of dissecting a convex polygon into smaller polygons by inserting diagonals.
+Schröder–Hipparchus number can be define by recurrence relation:
+
+Schröder–Hipparchus number can be used to count several closely related combinatorial objects:
+Image source:  Wikiepedia 
+Examples:
+
+A simple solution is simply implement recursive formula for the numbers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Below is Dynamic Programming solution of finding nth Schröder–Hipparchus number:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Source:
+https://en.wikipedia.org/wiki/Schr%C3%B6der%E2%80%93Hipparchus_number

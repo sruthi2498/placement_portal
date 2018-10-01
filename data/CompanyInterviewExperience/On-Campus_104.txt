@@ -1,0 +1,17 @@
+Mykaarma visited our campus for both placements and internship.Here I share my internship interview experience with Mykaarma.
+Round 1:(MCQ & Coding)The first round consisted of Online exam comprising of 3 rounds, two were of MCQ’s and the other was a coding round.The MCQ rounds consisted of aptitude in one section and the other was of basic computer concepts and Oops.Each section had a time limit of 15 mins paired up with 20 MCQS and no roll over of time to another section was allowed.The MCQs were neatly put up and time management was an important factor.The Coding round consisted of 4 questions with allotted time of 90 mins and they were as follows(marks in brackets):
+1.It was a dp question in which three modes of transport were given for  N cities and minimum cost of visiting all cities is to be computed in that order so that no two adjacent cities are travelled using the same modes of transport(40M).
+2.It was similar to above one in which a thief has to steal gold from N houses with a restriction that he can’t steal from adjacent houses and maximise his profit(40M).
+Useful link:https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
+3.It was an implementation question that was a lengthy one to read as well as to code related a little bit to string manipulation(30M).
+4.This was a tricky question which went as follows:
+Vipul writes numbers from N to 2 on paper.Now he takes number N and strikes of all its proper divisors.Next he does the same with a largest number that is still not stricken(i.e strikes its proper divisors ).He does this so on until.no further number could be stricken.The task is to find number of numbers left unstricken.(A little thought gives out the answer to be (N+1)/2)
+Partial marks were awarded for test cases that passed and there was no option for custom input in the platform
+Around 15 students were shortlisted for the interview round.
+Round 2:This round Consisted of two technical sub rounds.The interviewers were very friendly and interactive.They were eager to discuss the approach of yours towards a particular question and listen it patiently.They were also keen to see the way you try to solve a question and that had been their main focus.
+In the first interview they asked me questions related to two pointers and array manipualtions.Also a question based on hashing was asked to find the number of Subarrays with zero sum etc.
+In the second interview the interviewer covered questions on concepts of Oops, DS&algo coding questions on binary search, Min stack question, implementing queues, stacks using array.Also a question related to some mirror reflection in a grid was also asked to test the thinking process of the student.Also they were keen to know about your project written in your CV/resume and a thorough knowledge of whatever written in your CV was desired.Also familiarity with technologies and any Core CS subjects like OS, DBMS would be a plus.
+Round 3:There were 7 students shortlisted for the HR round.
+It was a skype round with an interaction with their lab expert, engineering head and HR.They went on to ask questions about my project and the usual HR questions.Also puzzles were asked in one of the three interviews.Being frank, responsive to their questions and also show keen interest to ask few questions would be helpful to clear the HR round.
+Finally 5 students were selected from our campus for internship where I was one among them.
+ 

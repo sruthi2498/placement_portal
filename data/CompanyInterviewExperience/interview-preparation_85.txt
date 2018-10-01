@@ -1,0 +1,30 @@
+This post is second set of Commonly Asked C Programming Interview Questions | Set 1
+What are main characteristics of C language?
+C is a procedural language. The main features of C language include low-level access to memory, simple set of keywords, and clean style.  These features make it suitable for system programming like operating system or compiler development.
+What is difference between i++ and ++i?
+1) The expression ‘i++’ returns the old value and then increments i. The expression ++i increments the value and returns new value.
+2) Precedence of postfix ++ is higher than that of prefix ++.
+3) Associativity of postfix ++ is left to right and associativity of prefix ++ is right to left.
+4) In C++, ++i can be used as l-value, but i++ cannot be. In C, they both cannot be used as l-value.
+See Difference between ++*p, *p++ and *++p for more details.
+What is l-value?
+l-value or location value refers to an expression that can be used on left side of assignment operator. For example in expression “a = 3”, a is l-value and 3 is r-value.
+l-values are of two types:
+“nonmodifiable l-value” represent a l-value that can not be modified. const variables are “nonmodifiable l-value”.
+“modifiable l-value” represent a l-value that can be modified.
+Refer lvalue and rvalue in C language for details.
+What is the difference between array and pointer?
+See Array vs Pointer
+How to write your own sizeof operator?
+Run on IDE
+See Implement your own sizeof for more details.
+How will you print numbers from 1 to 100 without using loop?
+We can use recursion for this purpose.
+Run on IDE
+What is volatile keyword?
+The volatile keyword is intended to prevent the compiler from applying any optimizations on objects that can change in ways that cannot be determined by the compiler.
+Objects declared as volatile are omitted from optimization because their values can be changed by code outside the scope of current code at any time. See Understanding “volatile” qualifier in C for more details.
+Can a variable be both const and volatile?
+yes, the const means that the variable cannot be assigned a new value.  The value can be changed by other code or pointer.  For example the following program works fine.
+Run on IDE
+We will soon be publishing more sets of commonly asked C programming questions.

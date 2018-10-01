@@ -1,0 +1,11 @@
+Given an integer n, we need to find the number of positive integers whose factorial ends with n zeros.
+Examples:
+ 
+Prerequisite : Trailing zeros in factorial.
+Naive approach:We can just iterate through the range of integers and find the number of trailing zeros of all the numbers and print the numbers with n  trailing zeros.
+Efficient Approach:In this approach we use binary search. Use binary search for all the numbers in the range and get the first number with n trailing zeros. Find all the numbers with m trailing zeros after that number.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,27 @@
+Given an array of distinct elements. The task is to find triplets in array whose sum is zero.
+Examples :
+Method 1 (Simple : O(n3))
+The naive approach is that run three loops and check one by one that sum of three elements is zero or not if sum of three elements is zero then print elements other wise print not found.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(n3)
+Auxiliary Space : O(1)
+ 
+Method 2 (Hashing : O(n2))
+We iterate through every element. For every element arr[i], we find a pair with sum “-arr[i]”. This problem reduces to pairs sum and can be solved in O(n) time using hashing.
+Run on IDE
+Time Complexity : O(n2)
+Auxiliary Space : O(n)
+ 
+Method 3 (Sorting : O(n2))
+The above method requires extra space. We can solve in O(1) extra space. The idea is based on method 2 of this post.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)
+Auxiliary Space : O(1)

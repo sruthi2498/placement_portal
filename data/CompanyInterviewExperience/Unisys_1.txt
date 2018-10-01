@@ -1,0 +1,46 @@
+Round 1: 
+25 MCQs based on C,C++ and JAVA(concept based) , 25 MCQs based on aptitude, 15 output related MCQs, 25 MCQs on Data Structures,Algorithms,OS,DBMS and Networking. 
+Aptitude questions were based on Logical reasoning, Data Interpretation, Shape Manipulation and general apti. Output questions were from C,C++ and Java.DS and Algo 
+questions were basic questions.
+No negative marking.
+10 candidates were shortlisted out of 23.
+Round 2: General English
+Basic English skills were tested which consisted of paragraph reading, grammer skills, listening skills(one audio was played and and we had to answer some questions
+based on the audio), essay writing (max 150 words).
+They basically wanted to check how efficiently and effectively we are able to communicate .
+No negative marking.
+This was a non-elimination round.
+Round 3: Technical Interview
+Operating system questions:
+1. What is Critical Section problem? How is it implemented?
+Regarding the implementation part one should know either the hardware solution or the software solution. they wanted me to explain any one solution in detail.
+2. What are semaphores?
+3. Difference between mutex and semaphores.
+4. What is spin-locking?
+5. What is dining philosophers problem? 
+6. What is deadlock?
+7. What can be done to prevent deadlock?
+8. What are different scheduling algorithms? 
+Coding Questions:
+1. Write a program for finding the intersection node of Linked list.
+I gave him difference approach aand he was satisfied with that. He asked me to code the function.
+2. Write a program to calculate the power function(i.e x raised to the power y)
+I first gave 0(y) solution .Then he asked me to improve . So i gave him 0(log(y)) solution. He was satisfied with my solution. He asked me to code it.
+3. Given a number n ,all numbers are present from 1 to n except one number. Find the missing number.
+I first gave him brute force and then gave the xor approach.
+Puzzles:
+1.Egg Dropping puzzle.
+2.Minimum number of races required to find second fastest horse from 25 horses.
+Then asked me detailed question related to my  internship project, on technologies used etc.
+4 candidates were shortlisted.
+Round 3: HR interview
+1. Tell me something about yourself.
+2. Then there was a detailed discussion about my internship project, what technologies i had used etc. 
+2. What is unstructured data? Give example.
+3. What is Internet of things?
+4. Do you have any idea of big data and hadoop?
+I wasn’t able to answer most of the questions he asked but i gave him some idea about these things. He wasnt totally satisfied with that but he then moved on typical 
+HR questions.
+5. Where do you see yourself 5 years down the line.
+6. I already had a job offer from the L&T Technology Services, where i did my internship. So he asked why Unisys and not L&T Technology Services?
+Finally he asked any questions for him. I had him 4-5 questions related to the role i would be getting, kind of environment there, is there any opportunity of going onsight etc.

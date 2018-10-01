@@ -1,0 +1,14 @@
+HCF of two numbers is 11 and their LCM is 385. If the numbers do not differ by more than 50, what is the sum of the two numbers ?
+(A) 132
+(B) 35
+(C) 12
+(D) 36
+ Answer: (A) Explanation: Product of numbers = LCM x HCF = 11 x 385 = 4235
+Let the numbers be of the form 11m and 11n, such that ‘m’ and ‘n’ are co-primes.
+=> 11m x 11n = 4235
+=> m x n = 35
+=> (m,n) can be either of (1, 35), (35, 1), (5, 7), (7, 5).
+=> The numbers can be (11, 385), (385, 11), (55, 77), (77, 55).
+But it is given that the numbers cannot differ by more than 50.
+Hence, the numbers are 55 and 77.
+Therefore, sum of the two numbers = 55 + 77 = 132Quiz of this Question

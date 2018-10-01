@@ -1,0 +1,8 @@
+The diameter of a tree is the number of nodes on the longest path between two leaves in the tree. The diagram below shows two trees each with diameter nine, the leaves that form the ends of a longest path are colored (note that there may be more than one path in tree of same diameter).
+
+Examples:
+We have discussed a solution in below post.
+Diameter of a Binary Tree
+In this post a new simple O(n) method is discussed. Diameter of a tree can be calculated by only using the height function, because the diameter of a tree is nothing but maximum value of (left_height + right_height + 1) for each node. So we need to calculate this value (left_height + right_height + 1) for each node and update the result. Time complexity – O(n)
+Run on IDE
+Output:

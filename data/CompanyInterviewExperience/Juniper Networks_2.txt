@@ -1,0 +1,17 @@
+Given two overlapping rectangles on a plane. We are given bottom left and top right points of the two rectangles. We need to find the total area (Green and pink areas in below diagram).
+
+Examples:
+Asked in   Juniper
+
+We basically add areas of two rectangles. This includes intersecting part twice, so we subtract area of intersecting part.
+Area of  Rectangle = x_distance  *  y_distance 
+Where,
+x_distance for 1st rectangle = abs(l1.x – r1.x)
+y_distance for 1st rectangle = abs(l1.y – r1.y)
+Similarly, we can compute area of 2nd rectangle.
+For area of intersecting part,
+x_distance for intersecting rectangle =
+          min(r1.x, r2.x) – max(l1.x, l2.x)
+y_distance for 1st rectangle =
+           min(r1.y, r2.y) – max(l1.y, l2.y)
+Run on IDE

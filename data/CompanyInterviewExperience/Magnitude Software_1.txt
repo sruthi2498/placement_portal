@@ -1,0 +1,28 @@
+For Associate Software Developer role.
+ONLINE ROUND (2 Sections)
+Section 1
+a) Given a number N, find the count of numbers from 1 to N whose binary representation is a palindrome.
+b) There are two stacks(S1 and S2) of books. Each book in stack has a weight. You are given the maximum weight(W) of books that can be picked. You have to maximize the number of books that can be picked. Note that each time you can either pick from S1 or S2 only.
+S1: 3 6 3 2 5
+S2: 15 1 1 1 1 1 1 9
+W: 15
+Answer: 7
+c) I don’t remember the question exactly but it was based on topological sorting of graph. This was hard.
+Section 2
+a) A website can have many key words. Also there can be many links that a website is linked. Write the design of the tables to store these.
+b) SQL query which was based on nesting.
+TECH ROUND 1
+a) String comparison ignoring case. Use concept of bits.
+b) Given only a pointer to a node to be deleted in a singly linked list, delete it
+c) Delete a tree
+d) How exactly does compilation happens for a .cpp or .java file to produce executable file?
+I had to write code on paper for the 3 coding questions. Then he asked me to tell about any two of my projects. No questions here.
+TECH ROUND 2
+Discussion on book stack problem of coding round as I could pass only 2 out of 5 test cases there. He wanted me to solve it completely. I told an approach where in all possibilities are checked using concept of tress. I had to first tell the logic and then write code for it.
+TECH ROUND 3
+a) Structure of N-ary tree. I was told to use linked list to store child nodes instead of vector.
+b) Traverse N-ary tree and find sum of all nodes.
+c) If SQL query is stored as a class, what are the member fields of this class?
+HR ROUND
+Nothing much here.
+Interviewers were very knowledgeable and helpful. They kept giving me hints when I could not proceed and I kept building on those to arrive at the solutions. They focused mostly on logic of my solutions and not whether my code was right.

@@ -1,0 +1,15 @@
+For any given number n, print  Hollow and solid Squares and Rhombus made with stars(*).
+Examples:
+1. Solid Rhombus : Making Solid Rhombus is a bit similar to making solid square rather than the concept that for each ith row we have n-i blank spaces before stars as:
+– – – ****
+– – ****
+– ****
+****
+2. Hollow Rhombus :  Formation of Hollow Rhombus uses the idea behind formation of hollow square and solid rhombus. A hollow square with n-i blank spaces before stars in each ith rows result in formation of hollow rhombus.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

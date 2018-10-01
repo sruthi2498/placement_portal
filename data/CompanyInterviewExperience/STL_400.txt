@@ -1,0 +1,16 @@
+C++ offers in its STL library a merge() which is quite useful to merge sort two containers into a single container.
+It is defined in header “algorithm“. It is implemented in two ways.
+Syntax 1 : Using operator “<"  
+
+Run on IDE
+Output:
+
+Syntax 2 : Using comparator function  
+
+Run on IDE
+Output : 
+
+Possible application : The merge function can be used to make a single stack of two stacks available in sorted order. These can be stack of books or notes. Let us discuss a simple example that merge orders two stack of notes in ascending order into one on basis of its value.
+Run on IDE
+Output : 
+

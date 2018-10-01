@@ -1,0 +1,426 @@
+We have to print alternate prime numbers till N.
+Examples:
+Naive Approach:We can just simply iterate over N and check whether the number is prime or not and print the alternate number just by keeping a simple altering flag variable.
+/* C++ program to print all
+primes smaller than or
+equal to n using Naive approach.*/
+#include
+using namespace std;
+/* Function for checking
+number is prime or not */
+int prime(int num)
+{
+	int i, flag = 0;
+	for(i = 2; i<= num / 2; i++)
+	{
+		if(num % i == 0)
+		{
+			flag = 1;
+			break;
+		}
+	}
+	
+	// if flag = 0 then number 
+	// is prime and return 1
+	// otherwise return 0
+	if(flag == 0)
+		return 1;
+	else
+		return 0;
+}
+
+// Function for printing 
+// alternate prime number
+void print_alternate_prime(int n)
+{
+	// counter is initialize with 0
+	int counter = 0;
+
+	// looping through 2 to n-1
+	for(int num = 2; num < n; num++)
+	{
+		// function calling along 
+		// with if condition
+		if (prime(num) == 1)
+		{ 
+			// if counter is multiple of 2 
+			// then only print prime number
+			if (counter % 2 == 0)
+				cout << num << " ";
+				
+			counter ++;
+		}
+	}
+}
+
+// Driver code
+int main()
+{
+	int n = 15;
+	cout << "Following are the alternate prime"
+		 << " number smaller than or equal to " 
+		 << n << endl;
+		 
+	// Function calling 
+	print_alternate_prime(n);
+}
+		
+// This code is contributed 
+// by ChitraNayal
+
+
+[tabby title="Java"]
+
+// Java program to print all
+// primes smaller than or 
+// equal to n using Naive approach.
+class GFG 
+{
+    
+/* Function for checking 
+number is prime or not */
+static int prime(int num)
+{
+int i, flag = 0;
+for(i = 2; i<= num / 2; i++)
+{
+	if(num % i == 0)
+	{
+		flag = 1;
+		break;
+	}
+}
+
+// if flag = 0 then number is prime
+// and return 1 otherwise return 0
+if(flag == 0)
+	return 1;
+else
+	return 0;
+}
+
+// Function for printing 
+// alternate prime number
+static void print_alternate_prime(int n)
+{
+// counter is initialize with 0
+int counter = 0;
+
+// looping through 2 to n-1
+for(int num = 2; num < n; num++)
+{
+	// function calling along 
+	// with if condition
+	if (prime(num) == 1)
+	{ 
+		// if counter is multiple of 2 
+		// then only print prime number
+		if (counter % 2 == 0)
+			System.out.print(num + " ");
+				
+		counter ++;
+	}
+}
+}
+
+// Driver code
+public static void main(String[] args) 
+{
+	int n = 15;
+	System.out.println("Following are the alternate " + 
+	                     "prime number smaller than " +
+	                               "or equal to " + n);
+
+	// Function calling 
+	print_alternate_prime(n);
+}
+} 
+
+// This code is contributed
+// by ChitraNayal
+
+
+[tabby title="Python3"]
+
+
+
+Run on IDE
+// C# program to print all
+// primes smaller than or
+// equal to n using Naive approach.
+using System;
+class GFG
+{
+/* Function for checking
+number is prime or not */
+static int prime(int num)
+{
+int i, flag = 0;
+for(i = 2; i <= num / 2; i++)
+{
+	if(num % i == 0)
+	{
+		flag = 1;
+		break;
+	}
+}
+
+// if flag = 0 then number is prime
+// and return 1 otherwise return 0
+if(flag == 0)
+	return 1;
+else
+	return 0;
+}
+
+// Function for printing
+// alternate prime number
+static void print_alternate_prime(int n)
+{
+// counter is initialize with 0
+int counter = 0;
+
+// looping through 2 to n-1
+for(int num = 2; num < n; num++)
+{
+	// function calling along
+	// with if condition
+	if (prime(num) == 1)
+	{ 
+		// if counter is multiple of 2 
+		// then only print prime number
+		if (counter % 2 == 0)
+			Console.Write(num + " ");
+				
+		counter ++;
+	}
+}
+}
+
+// Driver code
+public static void Main()
+{
+	int n = 15;
+	Console.Write("Following are the alternate " + 
+	                "prime number smaller than " +
+	                   "or equal to " + n + "\n");
+
+	// Function calling 
+	print_alternate_prime(n);
+}
+} 
+
+// This code is contributed
+// by ChitraNayal
+
+
+
+[tabby title="PHP"]
+
+
+Time Complexity: O(N * )
+Efficient approach: Using Sieve of Eratosthenes we can just print all the alternate true values in the sieve.
+Run on IDE
+// Java program to print all primes
+// smaller than or equal to n using
+// Sieve of Eratosthenes
+class GFG
+{
+static void SieveOfEratosthenes(int n)
+{
+// Create a boolean array “prime[0..n]”
+// and initialize all entries it as
+// true. A value in prime[i] will
+// finally be false if i is Not a
+// prime, else true.
+boolean []prime = new boolean[n + 1];
+for(int i = 0; i < prime.length; i++)
+	prime[i] = true;
+
+for (int p = 2; p * p <= n; p++) 
+{
+
+	// If prime[p] is not changed,
+	// then it is a prime
+	if (prime[p] == true)
+	{
+
+		// Update all multiples of p
+		for (int i = p * 2;
+		         i <= n; i += p)
+			prime[i] = false;
+	}
+}
+
+// Print all prime numbers
+boolean flag = true;
+for (int p = 2; p <= n; p++)
+{
+	if (prime[p])
+	{
+		if (flag)
+		{
+			System.out.print(p + " ");
+			flag = false;
+		}
+		else 
+		{
+
+			// for next prime 
+			// to get printed
+			flag = true;
+		}
+	}
+}
+}
+
+// Driver Code
+public static void main(String[] args)
+{
+	int n = 15;
+	System.out.println("Following are the alternate" + 
+	                       " prime numbers smaller " + 
+	                        "than or equal to " + n );
+	SieveOfEratosthenes(n);
+}
+}
+
+// This code is contributed
+// by ChitraNayal
+
+
+[tabby title="Python 3"]
+
+# Python 3 program to print all 
+# equal to n using Sieve of Eratosthenes
+
+def SieveOfEratosthenes(n):
+
+	# Create a boolean array 
+	# "prime[0..n]" and initialize
+	# all entries it as true. A value 
+	# in prime[i] will finally be false
+	# if i is Not a prime, else true.
+	prime = [None] * (n + 1)
+	for i in range(len(prime)):
+		prime[i] = True
+
+	p = 2
+	while p * p <= n:
+
+		# If prime[p] is not changed, 
+		# then it is a prime
+		if (prime[p] == True):
+
+			# Update all multiples of p
+			for i in range(p * 2, n + 1, p):
+				prime[i] = False
+				
+		p += 1
+
+	# Print all prime numbers
+	flag = True
+	for p in range(2, n + 1):
+		if (prime[p]):
+			if (flag):
+				print(str(p), end = " ")
+				flag = False
+			
+			else:
+
+				# for next prime to get printed
+				flag = True
+
+# Driver Code
+if __name__ == "__main__":
+	n = 15
+	print("Following are the alternate" + 
+	          " prime numbers smaller " + 
+	        "than or equal to " + str(n))
+	SieveOfEratosthenes(n)
+
+# This code is contributed 
+# by ChitraNayal
+
+
+
+
+[tabby title="C#"]
+
+// C# program to print all primes 
+// smaller than or equal to n using
+// Sieve of Eratosthenes
+using System;
+
+class GFG 
+{
+static void SieveOfEratosthenes(int n)
+{
+    
+// Create a bool array "prime[0..n]" 
+// and initialize all entries it as 
+// true. A value in prime[i] will 
+// finally be false if i is Not a 
+// prime, else true.
+bool[] prime = new bool[n + 1];
+for(int i = 0; i < prime.Length; i++)
+	prime[i] = true;
+
+for (int p = 2; p * p <= n; p++)
+{
+
+	// If prime[p] is not changed, 
+	// then it is a prime
+	if (prime[p] == true)
+	{
+
+		// Update all multiples of p
+		for (int i = p * 2;
+		         i <= n; i += p)
+			prime[i] = false;
+	}
+}
+
+// Print all prime numbers
+bool flag = true;
+for (int p = 2; p <= n; p++)
+{
+	if (prime[p]) 
+	{
+		if (flag)
+		{
+			Console.Write(p + " ");
+			flag = false;
+		}
+		else
+		{
+
+			// for next prime to 
+			// get printed
+			flag = true;
+		}
+	}
+}
+}
+
+// Driver Code
+public static void Main()
+{
+	int n = 15;
+	Console.Write("Following are the alternate" + 
+	                  " prime numbers smaller " + 
+	             "than or equal to " + n + "\n");
+	SieveOfEratosthenes(n);
+}
+}
+
+// This code is contributed 
+// by ChitraNayal
+
+
+
+
+[tabby title="PHP"]
+
+
+Time complexity: O( *log(log(N))) for applying sieving and O(N) for traversing  the sieve.

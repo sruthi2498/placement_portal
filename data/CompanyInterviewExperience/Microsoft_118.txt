@@ -1,0 +1,48 @@
+I applied off campus for Microsoft Software Engineer position through CoCubes.The selection procedure involved a coding round, group fly followed by 3 interviews.
+Round 1
+This round had 3 questions and was hosted on cocubes.We had 75 mins to code.
+1) Given an array containing integers, zero is considered an invalid number and rest all other numbers are valid. If two nearest valid numbers are equal then double the value of the first one and make the second number as 0.At last move all the valid numbers on the left.
+Eg:
+Input : 2 4 5 0 0 5 4 8 6 0 6 8
+Output : 2 4 10 4 8 12 8 0 0 0 0 0
+2) In a given linked list which contains zero values in some nodes calculate sum of values between two zeros and replace the zero value in the linked list by that sum.
+Eg: 7 0 4 5 6 0 1 1 will become 7 15 1 1.
+The zeros are always present in pairs.
+3) Given a linked list with each node containing coordinates of x,y plane. Remove middle points.
+Round 2 Group fly
+There were 2 questions which had to be coded on paper.
+1) Given a sentence . Print in vertically without using equivalent amount of extra space.
+2) Given an arbitrary lexical order of character ” b s a  z c … ‘ng’ … ‘st’ … ”
+Here ng and st are to be considered as single characters.
+You are given this order and two strings and you have to output 
++1 is str1  str2
+0 if str1 == str2
+Round 3
+The interviewer was very cool.He made me feel very relaxed.He asked me about my project which was 
+about reinforcement learning. I answered his queries.
+Then he gave me 2 simple questions to code. I coded both of them easily.
+1) Print boundary traversal of a binary tree.
+2) Reverse a linked list in sets of k nodes.
+He asked me about corner cases and what all test cases will I try when testing this code. He asked me if I had any questions, I asked a couple.
+Round 4
+This time the interviewer seemed strict and asked me how my previous rounds went.
+I answered they were good but he seemed to doubt me.
+Then he gave me a question to code.
+Count all possible paths from top left to bottom right in a m X n matrix.
+I directly jumped to the dp solution which required O(m X n) space.
+Then he said if I knew the question , I said yes then he told me that I should have told him I knew the question.
+He did not seem pleased with my answer and asked me to do it in less space O(m)
+I did that then he added to the question that some grid points contain obstacles and we cannot go through those.
+I solved this too. Then he asked me to do it in O(1) space.I told him that we can do it recusively but that would shoot up the time complexity.
+He said that I code it and show him the answer.I did it but he still did not seem satisfied and asked me ” Are you sure this will work”
+I said that I’ll do a dry run for the code and I drew a recursion tree for the same. After that he said that the time is up and I should wait outside.
+Round 5 
+This was a technical + HR round. He asked me the generic question “Tell me about yourself”.
+Then he asked me about grep function in Unix which searches a string in set of files.
+He asked what approach I would use to search a string in a set of files.
+I told him about Tries and Ternary trees, I also mentioned that Windows performs indexing which makes search faster and this is stored in the secondary memory.
+then he told me that tries and ternary trees are stored in the primary memory and will vanish after rebooting the system,so how will i store them into the secondary memory.
+I told him about serialzation and deserialization process and gave an example of a binary tree.
+He seemed satisfied and did not ask me to code.
+I would like to Thank GeeksforGeeks for helping me in interview preparation.
+

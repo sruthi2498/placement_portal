@@ -1,0 +1,6 @@
+Round 1: It was Hackerrank test for 2 hours. Both questions were matrix based
+The answer for above matrix is 8
+Hint: Calculate all possible connections using BFS and the answer is half of it.In the above case, 16 such connections can be made with adjacent 1s and 8 is the result.
+The result for above matrix would be 7.
+Hint: Maintain, row wise and column wise minimum and maximum in separate vectors and with a second traversal of matrix, we can find out number of positional elements.
+

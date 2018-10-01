@@ -1,0 +1,36 @@
+Given a string, find the minimum number of characters to be inserted to convert it to palindrome.
+Before we go further, let us understand with few examples: 
+Let the input string be str[l……h]. The problem can be broken down into three parts:
+1. Find the minimum number of insertions in the substring str[l+1,…….h].
+2. Find the minimum number of insertions in the substring str[l…….h-1].
+3. Find the minimum number of insertions in the substring str[l+1……h-1].
+Recursive Solution
+The minimum number of insertions in the string str[l…..h] can be given as:
+Run on IDE
+Run on IDE
+Run on IDE
+
+Dynamic Programming based Solution
+If we observe the above approach carefully, we can find that it exhibits overlapping subproblems.
+Suppose we want to find the minimum number of insertions in string “abcde”:
+The substrings in bold show that the recursion to be terminated and the recursion tree cannot originate from there.  Substring in the same color indicates overlapping subproblems.
+How to reuse solutions of subproblems?
+We can create a table to store results of subproblems so that they can be used directly if same subproblem is encountered again.
+The below table represents the stored values for the string abcde.
+How to fill the table?
+The table should be filled in diagonal fashion. For the string abcde, 0….4, the following should be order in which the table is filled:
+Run on IDE
+Run on IDE
+
+Time complexity: O(N^2)
+Auxiliary Space: O(N^2)
+ Another Dynamic Programming Solution (Variation of Longest Common Subsequence Problem)
+The problem of finding minimum insertions can also be solved using Longest Common Subsequence (LCS) Problem. If we find out LCS of string and its reverse, we know how many maximum characters can form a palindrome.  We need insert remaining characters. Following are the steps.
+1) Find the length of LCS of input string and its reverse. Let the length be ‘l’.
+2) The minimum number insertions needed is length of input string minus ‘l’.
+Run on IDE
+Run on IDE
+
+Time complexity of this method is also O(n^2) and this method also requires O(n^2) extra space.
+Related Article : 
+Minimum number of Appends needed to make a string palindrome

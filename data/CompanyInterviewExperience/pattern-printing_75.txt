@@ -1,0 +1,9 @@
+Question: Write a program that receives a number as input and prints it in large size on a same line as shown below in the image.
+Examples :
+
+We use two-dimensional character array to store those hash strings for each digit. The for loop reads each digit and if-else checks the digit and prints each row of each digit from 2D char arrays on a same line. Then, proceeds to next line and works the same way until the whole design is printed.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

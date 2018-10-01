@@ -1,0 +1,11 @@
+Given a positive integer n(1 <= n <= 1018). Check whether a number has exactly three distinct factors or not. Print “Yes” if it has otherwise “No“.
+Examples :
+Simple approach is to count factors by generating all divisors of a number by using this appraoch, after that check whether the count of all factors are equal to ‘3’ or not. Time complexity of this approach is O(sqrt(n)).   
+Better approach is to use Number theory. According to property of perfect square, “Every perfect square(x2) always have only odd numbers of factors“.
+If the square root of given number(say x2) is prime(after conforming that number is perfect square) then it must have exactly three distict factors i.e.,
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(n1/4)
+Auxiliary space: O(1)

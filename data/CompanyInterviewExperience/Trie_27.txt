@@ -1,0 +1,12 @@
+Given a string of length n of lowercase alphabet characters, we need to count total number of distinct substrings of this string.
+Examples:
+
+The idea is create a Trie of all suffixes of given string. Once the Trie is constricted, our answer is total number of nodes in the constructed Trie.  For example below diagram represent Trie of all suffixes for “ababa”.  Total number of nodes is 10 which is our answer.
+
+
+How does this work?
+Below is implementation based on above idea.
+Run on IDE
+Run on IDE
+
+We will soon be discussing Suffix Array and Suffix Tree based approaches for this problem.

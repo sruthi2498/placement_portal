@@ -1,0 +1,18 @@
+Written Test: 75 minutes online round (Cocubes) in which 3 simple questions were asked. A pool of questions was there and each person will get random questions in each difficulty level. CGPA cutoff was 7. Nearly, 45 people appeared for the test.
+After submitting, more rigours test cases were run. Extra marks are awarded for time and space optimized solutions. 14 people were selected for the next round.
+Suggestion: Check each and every edge case and try to avoid O(N2) solutions.
+Group fly round: It was a pool interview. Around 50 students were selected from different colleges. Each group was assigned a mentor and consisted of 6-7 members. He asked 3 questions which were very easy.
+we have to write the code (complete code) on the paper and the mentor will come to see our approach. The mentors are really helpful and encouraging. They demanded the code with O(N) time and O(1) extra space. 50% of the students are eliminated after this round.
+Suggestion: Try to talk to the mentor and discuss your approach with him. Be very fast in this round as everyone will be equally good (Try to complete writing the code first).
+Round 1 (Technical – 1h 30min):
+ The interviewer was a senior guy in Microsoft. He said he has 19 years of experience. He directly started with a question.
+First, I told to use hashmap and to store and compare. Then he said no to use extra space. Then I said to traverse the two lists and delete the node from the second list whenever you find a match. He was satisfied with the approach and asked me to write it.
+Suggestion: Take your time. Write neat and proper code. Do rough work on another page. Only if you are sure then start writing the code.
+Round 2 (Technical – 1h 30min):
+The interviewer was very friendly and jovial. He asked me to introduce my self and meanwhile, he was looking at my cv. He said he will ask one question and I should write the code within 5 minutes.
+This round was very easy. The interviewer just sees your confidence and approach to the problem. While writing the code, don’t be silent try to talk to the interviewer and tell him your approach.
+Round 3 (Technical + HR – 1h 30min):
+This was the toughest interview. The interviewer was very strict and smart. He saw my projects and asked me to explain one project on machine learning. I started saying but he intervened and said I will ask you only one question. you can answer it and go.
+Since I couldn’t answer, he asked me few more questions on HR. Finally, he was satisfied with my answers and asked me if I had any questions. I asked him some questions about his role and my work in the internship.
+Suggestion: Don’t be tensed if you didn’t get an answer. They will just see how you approach the problem and how can you handle the stress. Keep thinking and asking questions and try to interact with your interviewer with a smile on your face. Don’t walk off immediately, ask some questions in return.
+The interview experience was really good. Interviewers were so friendly and smart. They will give you hints if you are struck. Geeksforgeeks helped me a lot in preparing for the interview. Almost all the question were already available on GeeksforGeeks.

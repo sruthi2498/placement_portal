@@ -1,0 +1,40 @@
+Pattern: written + 3 Tech Interview + 1HR
+Type: Online
+cgpa criteria: NO 
+Written exam Modules:   2hrs       (no -ve marking)
+1. Coding skills(comprehension oriented)
+2. Computer science knowledge (basic)
+3. Software engineering aptitude
+4. Written English
+Tips:
+Try to get the oracle Questions from the other IIT’s or NIT’s , because it repeats the same.By the time IITD starts written’s almost all NIT’s placements get completed.
+“Be individual and solve them” 
+Round 1: (1hr)
+1. asked algorithm of Towers of Hanoi problem with 3 piles.
+2. Now he changed the no. of piles to 4 for the above question.
+3. Discussed the time complexity and analysis of the above algorithm.
+4. gave DESIGN question “suppose if there is traffic management system database ,then if it goes into the deadlock, what happens and design such system such that it resolves many problems “.No clear information was given and it’s vague. So i explained it by using distributed system concepts. He was impressed.
+5. Given an array of n integers(consider +ve and  also -ve) ,find an sub array such that sum of that array s maximum.
+6. aptitude: Two poles each of length 15 m are at distance d. A rope of length of 16 m is tied from the top one pole to the other. Distance between lowest point of rope and ground is 7 m. Find distance d
+7. He asked me whether i know chess or not because he wanna frame a question on it. I said “NO :-p” then he skipped it.(but i know how to play chess)
+8. Advantages of C language over C++ (really tough one ,as he was expecting 10 points)
+9. Multi Threading , Multi Process and Context switching concepts(in depth)
+10. code of Level Order traversal of binary tree and nary tree
+11. Some silly Questions.
+12. Major Project
+Round 2: (45 min)
+1. he gave me the code of lengthy C# program and asked the output of it.
+2. Same as first again.
+3. He gave Aptitude question(some comprehension -5 questions)—- very tough
+4. Tortoise and hare algorithm
+Round 3:(40 min -STRESS interview)
+1. Asked Course projects and requires in depth details of it.
+2. He gave some comprehension type of aptitude to solve 5 sub questions of it within 5 min.
+3. Gave me a puzzle.  I solved it by substitution method  but he started scolding me saying that why couldn’t you solve it generically.
+  In case of my friend case, when he solved generically, he started scolding him saying that who said you to solve generically. So finally his intention was to make you feel more stressed.
+4. HR related questions.
+Round 4 :(30 min-HR)
+Basic HR questions.
+Try to make them feel like you will definitely join their company.
+Source: http://amarnath-iitd-placement-experience.blogspot.in/ 
+

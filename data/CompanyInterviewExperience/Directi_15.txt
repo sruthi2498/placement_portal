@@ -1,0 +1,97 @@
+QUES 1) Problem Statement
+You are in a food logistics business. You have N jugs, each with unlimited capacity. Initially, each jug contains exactly 1 liter of juice. You want to carry these jugs to a delivery location, but you can only carry K jugs at a time. You don’t want to waste any juice and you don’t want to make more than one trip, so you decide to redistribute the contents of the jugs until you end up with no more than K non-empty jugs.
+You are only allowed to redistribute the juice using the following method. First, pick two jugs that contain an equal amount of juice. Then, pour the entire content of one of those jugs into the other. Repeat this process as many times as necessary.
+Because of this restriction, it may be impossible to end up with no more than K non-empty jugs using only the N jugs that you have initially. Fortunately, you can also buy more jugs. Each jug that you buy will contain exactly 1 liter of juice and have unlimited capacity. For example, consider the case where N is 3 and K is 1. It’s impossible to get from 3 jugs to 1. If you pour one jug into another, you end up with one 2 liter jug and one 1 liter jug. At that point, you’re stuck. However, if you then buy another jug, you can pour that jug into the 1 liter jug, and pour the resulting 2 liter jug into the other 2 liter jug to end up with just one 4 liter jug.
+Return the minimum number of additional jugs you must buy in order to achieve your goal. If it’s impossible, return -1 instead.
+Constraints
+– N will be between 1 and 10^7, inclusive.
+– K will be between 1 and 1000, inclusive.
+Examples
+1)
+Input
+3
+1
+Output
+1
+(The example from the problem statement.)
+2)
+Input
+13
+2
+Output
+3
+(If you have 13, 14, or 15 jugs, you can’t end up with one or two jugs. With 16 jugs, you can end up with one jug.)
+3)
+Input
+1000000
+5
+Output
+15808
+ 
+QUES 2)
+Problem Description : Rahul has just cleared school and is entering college. He being lucky gets an option to study in 2 courses in the college.  A and B are the names of the courses, which are same in terms of length of course. Both  A and B, have N sub cources each where A[i], B[i] represent i-th sub course of A and B respectively.
+Each sub course has some amount of fee associated and if you study that sub course you will have to pay that same amount. After taking few sub courses you will accumulate fee of all of the sub courses you studied.
+You have a maximum jump length of K i.e., from A[i] you can jump forward to A[i+1] or A[i+2] … or A[i+K] without studying any sub courses in between in order to reduce your fee.
+You can also jump across the courses A and B with an extra penalty P for changing courses. For example from A[i] you can switch to B[i+1] or B[i+2] … or B[i+K] with an additional penalty P along with the fee of the sub course you study. You can also jump from course B to course A and that too incurs an additional penalty P along with the fee of the sub course you study.
+Observe that from each sub course you can jump forward only. Your final fee will be fee of all the sub courses you studied plus P times the number of times you switched the courses.
+You can start from A[1] or B[1] and should reach A[N] or B[N] minimising the fee accumulated on the way. Find the minimum fee you will accumulate.
+Input
+The fist line in input is equal to T, the number of test cases. Then follows the description of T test cases. The first line in each test case has three integers N, the number of sub courses in both courses, K, maximum jump length, P, penalty for switching  the courses. On the second line of each test case there are N integers where ith integer represents fee of sub course A[i]. On the third line of each test there are N integers where ith integer represents fee of sub course B[i].
+Output
+For each test case, output a single line containing the minimum fee you can accumulate on your study path starting from { A[1] or B[1] } and ending on { A[N] or B[N] }.
+Constraints
+1 <= T <= 10
+1 <= N <= 1000
+0 <= P <= 1000
+1 <= K <= N
+0 <= A[i], B[i] <= 1000
+Example
+Input:
+6
+4 1 0
+1 2 3 4
+1 2 3 4
+4 1 0
+1 2 3 4
+4 3 2 1
+4 2 0
+1 2 3 4
+4 3 2 1
+4 1 10
+1 2 3 4
+4 3 2 1
+4 2 10
+1 2 3 4
+4 3 2 1
+5 1 50
+0 0 102 104 0
+101 103 0 0 105 
+Output:
+10
+6
+4
+10
+7
+100
+Explanation
+Example test case 1.
+Both the courses are same and jump length is 1 , so you need to visit all sub courses on single course
+Min Path : A[1], A[2], A[3], A[4]
+Hence answer is 10 for first test case.
+Example test case 2.
+A has lesser values initially and then B has lesser values later. So starting from A and jumping to B would be optimal
+Min Path : A[1] , A[2], B[3], B[4]
+Hence answer is 6 for second test case.
+Example test case 3.
+Min Path : A[1], B[3], B[4]
+Hence answer is 4 for third test case.
+Example test case 4.
+Min Path : A[1], A[2], A[3], A[4]
+We will not switch courses because penalty for switching is very high. Hence answer is 10 for fourth test case.
+Example test case 5.
+Min Path : A[1], A[2], A[4]
+Hence answer is 7 for fifth test case.
+Example test case 6.
+Min Path : A[1], A[2], B[3], B[4], A[6]
+Hence answer is 100 for sixth test case. Note how the optimal case might require you to switch the courses multiple times.
+ALL THE BEST! 🙂

@@ -1,0 +1,50 @@
+I have recently attended Flipkart for SDE 1 @ Bangalore. Thanks to geeksforgeeks team which has been the only single source of my preparation and helped me a lot. Below is my experience.
+Machine Coding Round:
+1) Design a book catalog search (api’s were given for the search,full needs to be implemented as running application)
+Second Round:
+1) Discussion on the design and optimization of the application
+2) Basic DS questions (Eg:which ds to be stored to increase search efficiency …Ans:B+ tree)
+Data Structures and Problem Solving Round:
+1) Given two unsorted arrays A and B in which B can accommodate in A
+How will you merge the two arrays.
+Time complexity and space complexity were also given importance .
+2)Perimeter of the binary tree in clockwise direction(All kind of possible approaches
+and efficient approach were discussed)
+Time complexity and space complexity were also discussed.
+Second DS Round Skipped
+Hiring Manage Round:
+1)Problem Statement
+Sid is obsessed about reading short stories. Being a CS student, he is doing some interesting frequency analysis with the books. He chooses strings S1 and S2 in such a way |len(S1)?len(S2)|?1.
+Your task is to help him find the minimum number of characters of the first string he needs to change to enable him to make it an anagram of the second string.
+Input Format
+The first line will contain an integer T representing the number of test cases. Each test case will contain a string having length |S1|+|S2| which will be concatenation of both the strings described above in the problem.The given string will contain only characters from a to z.
+Output Format
+An integer corresponding to each test case is printed in a different line i.e., the number of changes required for each test case. Print ?1 if it is not possible.
+Constraints
+1?T?100
+1?|S1|+|S2|?104
+Sample Input
+5
+aaabbb
+ab
+abc
+mnop
+xyyx
+Sample Output
+3
+1
+-1
+2
+0
+Explanation
+Test Case #00: We have to replace at least three characters from any of the string to make both of strings anagram. Here, a = “aaa” and b = “bbb”. One possible solution is to replace all character ‘a’ in string a with character ‘b’.
+Test Case #01: Either replace ‘a’ with ‘b’, which will generate “bb”. Or replace ‘b’ with ‘a’ to generate “aa”. Both of the solution are valid.
+Test Case #02: It is not possible for two strings of unequal length to be anagram for each other.
+Test Case #03: We have to replace both the characters of any string to make it anagram of other one.
+2) Five Years from now
+3) Expectations from Flipkart?
+4) Hobbies and weekend plans and location related questions
+5) Any questions for me?
+Keep up the good work guys.
+All the best for other geeks 🙂
+

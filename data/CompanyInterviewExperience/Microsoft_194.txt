@@ -1,0 +1,36 @@
+15 MCQs on c/c++ output based, 1 java questions was also there.
+Coding Round:
+1. Convert a binary tree to its sum tree
+(https://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/).
+2. Count number of binary strings without consecutive 1’s.
+(https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/).
+Group fly round (for MSIDC):
+1. Sort a string according to the order given by another string.
+Group Fly round (for MSIT):
+1. given a matrix with all cells black or white, write code to find the maximum sized sub-matrix with all border cells black (the interior cells need not be black).
+2. Given an array of stock prices of different days, Maximize profit by buying and selling share at most twice.
+Got selected for MSIT F2F interview:
+F2F interview round 1:
+Interview started with “Tell me about yourself”. She went through my CV thoroughly and asked to explain one of the project. She asked my contribution, most challenging part, and few technical questions to this project.
+Then She jumped to questions
+1.explain types of database normalization (1NF, 2NF, 3NF, BCNF) with example.
+2.Suppose you are given a database having a table with two columns, one is “name” and another is “id”. name column is already filled and id column is empty. Write an sql query to populate the id column with unique ids. (she was interested in logic only not in sql syntax.)
+3.Given a linked list and two integers x and y, traverse x nodes and delete next y nodes repeatedly until you reached to the end. and return resultant linked list.
+4. Name few sorting algorithms with their time complexity and space complexity. Which is the best in terms of time complexity.
+5. explain logic and write code for merge sort.
+6. Check whether a binary tree is balanced or not. Discussed about self balancing binary trees (AVL tree).
+7. there was one more easy coding question, sorry i forgot.
+8. What is the difference between abstract class and interface. She was very nice and supportive. She was very quick as she has limited time of 1 hrs only.
+F2F interview round 2:
+It was more of HR round than technical round.
+1. Tell me about yourself.
+2. Do you have interest in sports? Which sport?
+3. Usually What technical and non-technical things do you do in your free time?
+4. Given a statement, write a program to check whether it is a palindrome or not.
+5. Do you follow technology news? Which technology is trending in IT industries?
+I told Machine Learning, then further he asked about machine learning, How much do I know ML, Whether I have done any ML project and then discussed my ML project. (It seems he was not judging me on ML things)
+6. Given a linked list, check whether it has a loop or not, if yes find starting point of loop and length of loop.
+7. I am done with interview, Do you have any question? I asked many question and discussed about work culture, promotions, whether I can switch to IDC or not etc. this discussion was too long (around 20 mins) and he was impressed by my questions.
+He was very experienced guy, He was helping me while writing code and supporting me in all the discussions.
+I would like to thank geeksforgeeks as I majority prepared from here only.
+

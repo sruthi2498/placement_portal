@@ -1,0 +1,74 @@
+D.E Shaw & Arcesium (A post trade technical plateform) 
+1st Round (all question for 1 mark each and .25 negative ) 
+section 1 	20 Maths aptitude ( Hard ones time limit 20 mins) 
+section 2	20 Programming aptitude (average, time limit 20 mins) ( C , C++ , Java )
+section 3	One Coding Question. (time limit 20 mins )
+It was a simple question. We have given an array containing  the location of n magnets placed in a horizontal line. we needed to locate points where net megnetic field strength is zero. 
+They shortlisted 14 people out of about 125 
+Round 1 HR 
+1. Tell me about yourself Hrishikesh.
+2. How was the written test ?
+3. Have you attended any interview previously? why did they reject you?
+4. Do you guess the answer? why?
+5. What is your greatest achievement?
+6. What do you like the most?
+7. What is arcesium ?
+8. What do you like about the company?
+9. What are your interests? 
+Round 2 ( Technical-I ) 
+There were 2 interviewers, and it had a time limit of 45 mins but they did interviewing me for more than 2 hours. Questions were from all subjects of computer science.
+1.  They discussed the coding question I had in written test. They asked me to suggest better approach. 	I suggested one, They asked me to use binary search, then I said it wont improve the efficiency.
+2.  We have given a link-list containing loop. Find head of loop (I said I know it) .
+3.  Detailed discussion on poly-way merge sort. How it improves running time for large files.
+4.  Find exact sum of all the elements in an array in less than O(n). I suggested multithreading 	approach. (They asked me to write code) .
+5.  Extension to above question do it using multiple process. What are differences in threads and 	process?
+6.  What is hash map? What is the difference between hash map and map? how does STL in c++ implements both?
+7.  detailed discusion on all the steps of compiler till execution of a program.
+8.  How will you get output of lexical analyser in gcc?
+9.  What is lex and yacc ? How Yacc has been implemented?
+10. Difference between LL parsing and LR parsing.
+11. What is linking, loading and binding ?
+12. What is selection and projection in DBMS?
+13. Implement selection and projection operation for a file (record wise formated) using just one unix command. ( I said  cat filename |  grep “/'[^’]+’|[^,]+/” | less )for specified file format.(They liked my approach and got Impressed by this)
+14. How does pipe( | ) works that  you used in last answer. How will u implement it in unix?
+15. Design your own command shell in unix. That should works for all commands in the system.
+16. Implement Google spell-corrector. What data structure will you use and how will it work?
+	(I suggested first trie but later on made it more efficient by using suffix array data structure. 	They asked me to implement all operation of suffix array).(They liked my approach).
+Outof 14 candidates 4 got selected for the next round. I was lucky enough to be 1 among them 🙂
+Round 3 (Technical II)
+1. Find the distance between two nodes in a bst.
+2. Do the problem for a binary tree.
+3. What is view in DBMS? How does it help in security. Can we allow a user to have access of a particular tupple instead of column? How?
+4. What are Hubs, Router, and switch ? Differences.
+5. how does transport layer implements tcp connection?
+6. why is checksum field is redundant in all the network layer headers?
+7. How many class A type ip addresses are possible?
+8. Describe What happen when you type a url in address bar of a browser until you get back your requested page.
+9. what is trigger? How it works?
+10. Can we make multiple databases in Oracle? Why?
+11. write SQL query for finding a buyer details that has made maximum expense including all the 	transaction between given dates(there were 3 relations Buyers, Transections and Items)  ?
+12. generalize the above query for finding 2nd ,3rd and rth of the buyer. (I used advances sql features).
+13.  how does c++ implements virtual functions?
+14. What are 4 features of an OOP design? Describe all of them .( inheritance, incapsulation, polymorphism and abstraction).
+15.Can a virus corrupt a Linux machine? What is a virus? Design a virus.
+16. Design a virus that can corrupt a network.
+Below question are resume project specific
+17. Why didnt you get selected for  GSOC 2014 ? What the project and organization were all about.
+18. How does your filesystem driver work?
+19. How does linux provide OOP features in C language.
+20. What problems did u face in compiling Linux kernel and gcc. (cross compilation of gcc). How did you overcome them?
+21. How did u implement Read/write/open file  operation without using system calls .
+Although I have forgotten few questions, I’ve tried my best to recall them and include them here. 
+Round 4 HR 
+1. What do u like to do apart from coding?
+2. Have you ever worked in a team?
+3. Do you study alone or in a group?
+4. What is your first step if you have got stuck somewhere?
+5. Do you ask your friend for help?
+6. Do you like to help your friend in study?
+7. Will you like to share problems you facing in your project with your manager?
+8.  What if everything u doing and appreciation for that goes to your teammate?
+This site helped me a ton and I hope this article will be helpful for others !
+All the Best
+Thanks geeks
+

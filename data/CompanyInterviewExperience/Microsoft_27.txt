@@ -1,0 +1,6 @@
+Given a binary search tree and a number N, the task is to find the sum of the cousins of the given node N if a node with given value ‘N’ is present in the given BST otherwise print -1.
+ 
+Examples: 
+Approach:  Given below is the algorithm to solve the problem. 
+Below is the implementation of above approach:
+Run on IDE

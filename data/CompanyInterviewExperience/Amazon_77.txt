@@ -1,0 +1,40 @@
+Round 1: Total of 300 students participated in the notion of getting selected to do intern at Amazon.
+Round 1 had 20 MCQs and 2 questions.
+Qs1: Given a range [L,R] find the count of numbers having prime number of set bits in their binary representation. [This hint was included in O/P section. Only even numbers should be checked within the L,R range]
+Examples:
+Qs2: Given n lines a land can be split into many areas of different measure(say b). You are provided with a constant K . You have to find whether it is possible to use K areas from the B areas
+Total of 30 students moved to the next round.
+
+Round 2:
+It was a group fly round . Me and my friend sat in the same room and were asked to code the following:
+QS 1: https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/
+But I dint use a stack I used hashmap to find the occurrences of the characters. Created a character array traversed the map with an iterator.Filled the character array with elements in odd positions then after all odd positions are filled I filled in the even positions. Used a validate function to check whether the newly generated string has no adjacent characters repeating. If false print no string can be formed else return the string.
+Qs 2:  Given a tree and a element K . Find the root-leaf path with a sum equalling K and delete the path.
+Total of 10 were shortlisted.
+Next was the final round. It was F2F round .
+
+Round 3: 
+The interviewer asked me give a brief introduction about me.
+Then he moved on to shoot coding questions at me.
+QS1:
+Find the intersection elements in 2 unsorted arrays.
+Brute force : O(n^2)
+so he asked me to code in optimized way.
+Gave me three constraints
+size of arr1,arr2 is m,n
+what to do when m<<n(negligible),n<<m,m approx eq to n?
+I said when m or n value is negligible we can sort the array of lesser size and make a binary search
+sort takes O(nlogn) and binary search takes O(logn) but as the array size is negligible sorting won't cost much.
+when they are equal(or approx) then push all elements to a set then search(O(logn)) , Here we dont use sorting since the array size is going to more or less same, we use more space thereby decreasing the time complexity , anyway the searching time is be the same.
+
+QS2: This was an interesting question . Given Air tickets to different cities in the form of a  pair of cities where one denotes the source and another tells the destination.Our job is to  return a linkedlist indicating the way the travelling should travel in order to cover all the cities.(Linkedlist wasnt mentioned by the interviewer). 
+Soln: Put them in a  hashmap. Now find the occurrences of all cities. In this we can notice that the source and destination occurs only once in the tickets.Cross check with the original pair list to find which one is the source and which one is the destination. Then with the help of a separate comparator function push the pairs into a new hashmap in such a way that the source of one pair must have been the destination of the previous pair).Then traverse the new hashmap to create a linked list then return it.
+
+The interviewer will also help you if you ask for any approach (but don’t ask them for more help.) But if the interviewer intentionally gives a clue then code as he wishes as it is one of their way to test you whether you can adapt to anything approach and code.
+
+Results were out and 8 people got internship.
+
+Luckily I was one among them.
+
+My personal advice: Be confident, Keep your communication skill high , use geeksforgeeks website to learn linked list ,Trees, STL and DP then solve all Company specific questions.
+

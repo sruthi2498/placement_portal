@@ -1,0 +1,35 @@
+Round 1: 
+30 MCQs based on C++ and 30 MCQs based on aptitude.
+Aptitude questions were based on Logical reasoning, Data Interpretation, Shape Manipulation and general apti.
+No negative marking.
+16 candidates were shortlisted out of 120.
+Round 2: Technical Interview
+Operating system questions:
+1. What is paging?
+2. What is demand paging and inverted paging?
+3. What is virtual Memory?
+4. Explain CPU scheduling algorithms.
+5. What is kernel?
+6. What is Critical Section problem? What are semaphores?
+7. What is fork(), vfork() and exec()
+DBMS questions:
+1. What are triggers?
+2. Difference between DDL and DML?
+3. Can any operation made by DDL be undone?
+4. Difference between having and where clause.
+5. What are subqueries?
+6. What are types of views?  Advantage of view over table.
+Coding Questions:
+1. Write a program for finding the middle of Linked list.
+2. Write a program to compare two linked list.
+Then asked me detailed question related to my project, on technologies used etc.
+ 6 candidates were shortlisted.
+Round 3: HR interview
+1. Tell me 10 points on Kronos based on ppt.
+2. Some puzzle questions like:
+       a.It takes 6 days to travel from city A to city B and a person can carry                     only 4 days food. A person needs to take medicine from A to B, how many           minimum number of person should start from A(some people can return after       some day and give their food to another person. But one person can carry at         max 4 day food.)
+       b. How many times does hour hand and minute hand cross each other in 12              hours.
+       c. Write a code to convert integer to string without using any libraries,                      functions and ASCII code.
+3. What is innovation?
+4. General HR questions like why Kronos should hire you?, If you were not an           engineer than what would you have been?, Will you go for hire studies?, Is           internship necessary? Other than you who is most deserving candidate?
+3 candidates were selected.

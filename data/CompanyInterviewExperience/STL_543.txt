@@ -1,0 +1,6 @@
+In Set 1, unweighted graph is discussed. In this post, weighted graph representation using STL is discussed. The implementation is for adjacency list representation of weighted graph. 
+
+We use two STL containers to represent graph:
+The idea is to use a vector of pair vectors. Below code implements the same.
+Run on IDE
+Output:

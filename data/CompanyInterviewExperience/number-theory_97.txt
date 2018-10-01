@@ -1,0 +1,45 @@
+In combinatorics, the Eulerian Number A(n, m), is the number of permutations of the numbers 1 to n in which exactly m elements are greater than previous element.
+For example, there are 4 permutations of the number 1 to 3 in which exactly 1 element is greater than the previous elements.
+
+Examples :
+
+ Eulerian Numbers are the coefficients of the Eulerian polynomials described below.
+
+The Eulerian polynomials are defined by the exponential generating function
+
+The Eulerian polynomials can be computed by the recurrence
+
+
+An explicit formula for A(n, m) is
+
+We can calculate A(n, m) by recurrence relation:
+
+Example:
+Suppose, n = 3 and m = 1.
+Therefore,
+A(3, 1)
+= (3 – 1) * A(2, 0) + (1 + 1) * A(2, 1)
+        = 2 * A(2, 0) + 2 * A(2, 1)
+        = 2 * 1 + 2 * ( (2 – 1) * A(1, 0) + (1 + 1) * A(1, 1))
+        = 2 + 2 * (1 * 1 + 2 * ((1 – 1) * A(0, 0) + (1 + 1) * A(0, 1))
+        = 2 + 2 * (1 + 2 * (0 * 1 + 2 * 0)
+        = 2 + 2 * (1 + 2 * 0)
+        = 2 + 2 * 1
+        = 2 + 2
+        = 4
+We can verify this with example shown above.
+Below is the implementation of finding A(n, m):
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Below is the implementation of finding A(n, m) using Dynamic Programming:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

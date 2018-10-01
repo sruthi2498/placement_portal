@@ -1,0 +1,7 @@
+Given a Binary Tree having positive and negative nodes, the task is to find maximum sum level in it.
+Examples:
+This problem is a variation of maximum width problem. The idea is to do level order traversal of tree.  While doing traversal, process nodes of different level separately. For every level being processed, compute sum of nodes in the level and keep track of maximum sum.
+Run on IDE
+Output : 
+Time Complexity : O(n)
+Auxiliary Space : O(n)

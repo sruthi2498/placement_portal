@@ -1,0 +1,37 @@
+Amazon came to our campus a week back and procedure was as follows:
+Round-1-
+20 easy MCQ
+2 coding questions:
+(a)- https://www.geeksforgeeks.org/find-next-greater-number-set-digits/ –>even brute force solution is working.
+(b)-Evaluation of post fix expression.-similar to this one http://geeksquiz.com/stack-set-4-evaluation-postfix-expression.
+Note – Only fight for solving atleast one coding question.If you have not done any coding question then it doesn’t matter how many MCQ you have done you can not qualify for next round. I had started with coding question and did 1 question and only 10 MCQ and qualified for next round.
+21 candidates were shortlisted.
+Round 2(Face to Face)(30 min):
+Introduce yourself -(Just a formality)
+Asked about test and discussed coding question.(Must solve all coding questions before appearing in interview).
+Then 2nd question –
+1- print a binary tree diagonally.I told him the algo within 2 min then he asked me to write complete code (specially mentioned not pseudo code). It might contain some syntax error but it was not much of a concern. They only see whether are you able to implement the algo properly.
+Then he told me there was an error in the code and that it doesn’t go correctly to next line.
+I told him it’s correct lets run manually and check. The code was correct.
+
+2-https://www.geeksforgeeks.org/find-if-there-is-a-sub-array-with-0-sum/
+I knew its solution and answered the best solution immediately. He asked me if I had done the question previously. I told not exactly same but I like competitive coding so I have done similar question. Then he extended this question and asked to print all sub-array with some some zero.(write proper code).
+Then he discussed corner cases I told some then he gave some hint and after that I got the idea so, answered all corner cases.
+Some questions asked from my friends->
+1-https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+2-https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/(expect inorder and reverse inorder solution)
+3-https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/
+4-https://www.geeksforgeeks.org/next-greater-element/
+5-https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+Note- Same questions were asked by the same interviewer to many candidates so it is advisable to share questions with friends as they select you for next round only if you have done both of the questions.
+9 people were shortlisted in this round.
+Round 3(nearly 2 hours)- 
+1-Given a stream of number how you will maintain top 10 element. Whenever asked, the answer should be top 10 element till now. (answered in 2 min using min-heap).
+2-https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+very tough question. In 1 hour with the hint of interviewer I was able to answer this.
+3- Some basic C questions – What is difference b/w Malloc, Calloc. Scenario when to use which one.
+4- Data structure to use for undo and redo in text editor.
+I took a lot of time but finally told its answer i.e. stack.
+5- Lowest common ancestor of binary tree.(Proper code)
+After this round 7 candidates were selected.
+All thanks to geeksforgeeks for helping me with my preparation.

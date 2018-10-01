@@ -1,0 +1,9 @@
+std::swap is used for swapping of elements between two containers. One of of the other way of doing this same thing is facilitated by std::iter_swap,  which as the name suggests is used for swapping the elements with the help of an iterator.
+It simply exchanges the values of the elements pointed to by the iterators. If we look at its internal working, we will find that this function itself uses std::swap().
+Syntax:
+Run on IDE
+Output:
+Here, in this program we have swapped elements from v1 with the help of two iterators, one of them pointing at the beginning of v1 and the other one pointing at the end of v1.
+std::iter_swap vs std::swap
+After coming to know that iter_swap is used to swap the values, just like std::swap(), the question now arises is why should we learn iter_swap, if we have already something called swap(). Some of the reasons in support of iter_swap are:
+Run on IDE

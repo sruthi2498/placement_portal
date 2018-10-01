@@ -1,0 +1,8 @@
+Given an undirected tree whose each node is associated with a weight. We need to delete an edge in such a way that difference between sum of weight in one subtree to sum of weight in other subtree is minimized.
+Example:
+
+	We can solve this problem using DFS. One simple solution is to delete each edge one by one and check subtree sum difference. Finally choose the minimum of them. This approach takes quadratic amount of time. An efficient method can solve this problem in linear time by calculating the sum of both subtrees using total sum of the tree. We can get the sum of other tree by subtracting sum of one subtree from the total sum of tree, in this way subtree sum difference can be calculated at each node in O(1) time. First we  calculate the weight of complete tree and then while doing the DFS at each node, we calculate its subtree sum, by using these two values we can calculate subtree sum difference.
+	In below code, another array subtree is used to store sum of subtree rooted at node i in subtree[i]. DFS is called with current node index and parent index each time to loop over children only at each node.
+	Please see below code for better understanding. 
+Run on IDE
+Output:

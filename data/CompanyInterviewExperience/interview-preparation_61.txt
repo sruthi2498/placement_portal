@@ -1,0 +1,21 @@
+A lot of technical interview rounds focus on coding questions. You are presented with a pen and paper and asked to suggest an algorithm to solve the question followed by the code. Here’s a general guide as to how you should go about answering such a question.
+1. Clarify the problem statement:
+The first thing to do is to clarify the problem statement. It’s important to understand the problem clearly before attempting to solve it.
+For example: I was asked in an interview: What’s the probability of getting three tails when a coin is tossed three times.
+A lot of students answered 1/8 and couldn’t make it to the next round just because they did not ask the right questions.
+How can you answer this question without knowing if the coin is biased or not? It’s vital you ask the right questions.
+2. Constraints
+Once you are clear with the problem statement you need to ask if there are any particular constraints that you need to adhere to.
+3. Observations
+Any problem has some specific peculiar behavior associated to it.You can try out some examples and list out all your observations. Remember you need to explicitly tell the interviewer all your observations.
+4. Approaches: On what lines you think?
+This is the most crucial part in the entire interview process. If you get this part right there’s a high probability you will make it through the round. What makes you think that you need to approach a problem via dynamic programming or backtracking or any other algorithm for that matter. The interviewer needs to know why you rejected a certain approach to a problem and selected the other.  Try to link various concepts you have studied and slowly start ruling them out. 
+If you plan to use a data structure to solve the problem, specify the reason as to why you chose to do so. If you get stuck try the brute force approach. This would work out for most problems. Once you are done with narrowing down the approach and you think you might have a  solution, discuss it with the interviewer. If the interviewer suggests something different gracefully accept it and start thinking along those lines. Dont be to rigid with your approach.
+5. Edge Cases and counter examples
+Once you are certain for a particular solution make sure you check out your approach for all the edge cases. 
+6. Writing the Code:
+Make sure:
+a. Your code is readable.
+b. You specify comments in your code
+c. Dry run your code with a few examples before showing it to the interviewer.
+With these six things in mind, I’m pretty sure you would nail the coding interview. However these suggestions won’t work if you are not well versed with data structures and algorithms. So, solve problems on Geeksforgeeks, work hard and you’ll make it to your dream company.

@@ -1,0 +1,9 @@
+The unordered_set::max_size() is a built-in function in C++ STL, defined in <unordered_set.h> which returns maximum number of elements that an unordered_set container can hold(i.e the maximum size of the unordered_set) due to system constraints or internal implementation .
+Syntax:
+Parameters: This function does not accepts any parameter. It simply returns the maximum size of the container.
+Return Value: This function returns the maximum number of elements that the unordered_set can hold.
+Exception: This function does not throw any kind of exception.
+Below program illustrate the unordered_set::max_size() function in C++:
+Run on IDE
+Output
+Time Complexity: O(1)

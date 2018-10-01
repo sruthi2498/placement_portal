@@ -1,0 +1,11 @@
+Given a singly linked list, swap kth node from beginning with kth node from end.  Swapping of data is not allowed, only pointers should be changed. This requirement may be logical in many situations where the linked list data part is huge (For example student details line Name, RollNo, Address, ..etc). The pointers are always fixed (4 bytes for most of the compilers).
+The problem seems simple at first look, but it has many interesting cases.   
+Let X be the kth node from beginning and Y be the kth node from end. Following are the interesting cases that must be handled.
+1) Y is next to X
+2) X is next to Y
+3) X and Y are same
+4) X and Y don’t exist (k is more than number of nodes in linked list)
+Run on IDE
+Run on IDE
+
+Please note that the above code runs three separate loops to count nodes, find x and x prev, and to find y and y_prev. These three things can be done in a single loop.  The code uses three loops to keep things simple and readable.

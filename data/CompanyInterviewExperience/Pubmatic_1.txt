@@ -1,0 +1,32 @@
+I was interviewed at pubmatic. this was interview experience
+Round 1.
+1. Print the circumference of the tree
+2. given an array as stock prices  find the day when should user buy and sell to maximize the profit.
+3. Create mirror tree from a given tree.
+4. Given a Binary tree of strings. Return the stream of string as char* so that when reverse parsing the same string gives back the same tree.
+5. Given a sorted and  rotated array, find a given number in that.
+Round 2:
+1. Signature and return type of malloc.
+2. How does free()  knows the size of the block to be freed because malloc only returns the starting address.
+3. Given a service provider(idea, airtel) design DB schema for storing all the information . ( more focused to see how will you create schema normalised and use of indexes)
+4.  Given a table employee( id, name , manager id) write a query to return employee name and manager name .
+5. given a stream of billion numbers find top 100 number at any instant of time,
+Round 3.
+1. Given a stream of 200 billion numbers (each no > 50000) , find the average of numbers.
+main focus was how you store the avg.
+2. Crossword puzzle algorithm. given a dictionary and a a mXn grid. find how many possible words can be formed  from the grid.
+3. Given an array of size m  (m < n) and number from 1 to n.  n-m numbers are missing in the array. for eg n = 10 and m = 5 arra= [1,6,4,8,7] find the missing numbers in array. in this case missing numbers are (2,3,5,9,10)
+4. Use cases of storing a tree in to stream.
+5. Given two dices .  and numbers 0-9. give every side of dice a number  so that they can be used to display dates of all the months.
+
+
+Final Round with VP
+1. why do you want to join pubmatic ?
+2. where do you see yourself down the line in 5 years.
+3. Given an array, find the no of trianlges that can be formed.
+4. what do you prefer array or link list?
+5. what do you prefer between link list and doubly link list.
+6. what is your unique talent that distinguishes you from others.
+Round 5:
+Normal HR questions.
+Big Thanks to geeks for geeks.:)

@@ -1,0 +1,56 @@
+Online Round:
+There were 4 coding questions:
+You have been two integers n and m where n is the size of the array and m is the number of the edges. The next line contains an array of size n and next m lines contains two integers x and y each which represents that there exists a bidirectional edge between x and y. We have to output the number of permutations of the array which are lucky. A permutation is said to be lucky if for every Vi in the array there exists an edge between Vi and Vi+1.
+Eg Input : 3 2 Output : 2 ( 1-2-3 and 3-2-1)
+1 2 3
+1 2
+2 3
+You have been an integer n and an array of size n as input. You have to print the count of special numbers in an array. A number is said to be special if it is divisible by at least one other element of the array.
+Eg: Input: 3 Output: 2 ( 2 and 3 because they are divisible by 1)
+1 2 3
+You have been given a mXn matrix and an integer k as input. You have to print the count of all the submatrices of the current matrix whose sum is divisible by k.
+Eg Input: 2 2 2 Output: 5 ( [1,3], [2,4], [2], [4], [1,2,3,4] )
+1 2
+3 4
+( Reference: https://discuss.codechef.com/questions/98562/given-a-2d-arraymatrix-find-number-of-sub-matrices-whose-sum-is-divisible-by-p)
+You have been given an integer n and a string of length n. You have to find the longest palindromic substring for every prefix of the given string.
+Eg. Input: 5 Output: 1 1 3 3 5
+a b a b a ( a: 1, a b: 1, a b a: 3, a b a b: 3, a b a b a: 5)
+( I did this in O(n^3) and O(1) but it was giving me TLE in many of the cases)
+After this 5 people were shortlisted for the interviews.
+
+
+Round 1:
+Tell me about yourself
+Tell me about all your projects and what’s your contribution in them? ( if team project)
+Given an array arr[] of n integers, construct a Product Array prod[] (of same size) such that prod[i] is equal to the product of all the elements of arr[] except arr[i].
+( I told her simple approach then another approach in which overflows were handled and then she asked me to handle zero in the array)
+I had a project on django so she asked me how it is implemented so I told her about MVT (Models Views Templates)
+Then she asked me about OSI model and TCP/IP model and its various layers and their functions.
+Round 2:
+Tell me about yourself ( Likes and dislikes)
+A thorough discussion on project
+( Who is the targeted audience? How will you make people use your product? Why did you choose this topic?)
+Given any source point and destination point on a chess board, we need to find whether Knight can move to the destination or not. If yes, then what would be the minimum number of steps for the knight to move to the said point.
+If knight can not move from the source point to the destination point, then return -1
+( He did not want proper code but just wanted to know how you approach the problem)
+You are given a matrix. You have to rotate the matrix by a factor of k.
+Eg 1 2 3 4 and k=1 then output= 5 1 2 3
+5 6 7 8 9 10 6 4
+9 10 11 12 13 11 7 8
+13 14 15 16 14 15 16 12
+Round 3:
+Tell me about yourself.
+Why did you choose computer Science? How did you land in this field?
+When did you started programming?
+What motivated you to get into this field?
+I had a project based on networking so he asked me what happens when we enter a URL into a web browser? Explain the process.
+Then he asked me my favourite subject except DS and Algorithms.
+I said compilers so he asked me how does a compiler work so I explained the different phases of the compiler
+Then he said that if you have enough money and knowledge then what thing you would like to build for yourself or society
+Any project idea that you have ever come across and want to implement it?
+Apart from coding what have you done and what are your interests?
+Thank you Geeks for geeks for helping me in my preparations.
+
+
+

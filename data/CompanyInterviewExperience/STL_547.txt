@@ -1,0 +1,19 @@
+Given an array of integers and two numbers k1 and k2. Find sum of all elements between given two k1’th and k2’th smallest elements of array. It may be assumed that (1 <= k1 < k2 <= n) and all elements of array are distinct.
+Examples :
+
+Method 1 (Sorting)
+First  sort the given array using a O(n log n) sorting algorithm like Merge Sort, Heap Sort, etc and return the sum of all element between index k1 and k2 in the sorted array.
+Below is the implementation of the above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n log n) 
+Method 2 (Using Min Heap)
+We can optimize above solution be using a min heap.
+1) Create a min heap of all array elements. (This step takes O(n) time)
+2) Do extract minimum k1 times (This step takes O(K1 Log n) time)
+3) Do extract minimum k2 – k1 – 1 times and sum all extracted elements. (This step takes O ((K2 – k1) * Log n) time)
+Overall time complexity of this method is O(n + k2 Log n) which is better than sorting based method.

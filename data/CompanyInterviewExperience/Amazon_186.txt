@@ -1,0 +1,43 @@
+I had applied to Amazon Hyderbad off campus for SDE-1 role. The first round a telephonic round. It was a technical round. The questions asked were.
+First Round – 
+1. Reverse words in a given string. I was also asked to handle whitespaces correctly. https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+2. Add two numbers represented by linked list. I was asked to solve it without changing the linked list order.https://www.geeksforgeeks.org/sum-of-two-linked-lists/
+Second round –
+1. It was an array question which I don’t remember exactly 😛
+2. Print all the nodes that are common for 2 given nodes in a binary tree.
+For this I first found the LCA and then printed all the ancestors of LCA.
+In this round I was also asked about heap, applications of BST etc.
+Then I had a call where I got to know that I was selected. I was called to Hyderabad for Face to face rounds.
+Third round –
+The interviewer was very friendly and made me comfortable.
+Then he reads my resume very carefully and says its good. He then asked me to discuss any of my projects in detail.
+He also asked one coding question as follows
+Add 1 to number represented by linked list without using extra space (no recursion), without modifying the linked list and in O(n) time complexity.
+Interviewer was very friendly and discussed the problem deeply and helped me in reaching to the solution.
+He then asked me to write full production level code covering all corner cases.
+Fourth round –
+The interviewer was a manager. He asked me details about my work in current company.
+Then he asked me coding question as follows
+1. Find smallest range containing elements from k lists
+https://www.geeksforgeeks.org/find-smallest-range-containing-elements-from-k-lists/
+2. How to find if words in a file are anagram.
+I suggest a Trie approach and he seemed to be satisfied and asked to me just to write how to implement trie data structure and its applications.
+He also asked me some questions like
+1. Why do I want to leave my company so early?
+2. Why amazon?
+Fifth round – 
+It was purely coding round where 2 persons asked me 2 coding questions.
+1. First question was truely mathematics question which had equations and that need to be solved and finally it was reduced to finding max and 2nd max in an array.
+2. Union find problem
+In above question I was asked details about disjoint datastructure and other questions to find the number of nodes etc.
+Sixth round –
+Interviewer was very friendly and asked me details about me and my work
+He then asked me a coding question
+1. Minimum number of swaps required for arranging pairs adjacent to each other.
+https://www.geeksforgeeks.org/minimum-number-of-swaps-required-for-arranging-pairs-adjacent-to-each-other/
+2. It was a data structure question where I had to find the best data structure. There was a bank account which had information like TTL, amount and time of insertion. TTL is the time when the account gets expired.
+I suggest a hashmap solution and then he had a deep discussion on the question.
+He also asked me some theory questions like “what happens when I hit amazon.com in the browser”, “How does garbage collection works in java” and some more questions on OS and unix.
+For every coding question I was asked time and space complexity.
+Thank you geeksforgeeks.
+

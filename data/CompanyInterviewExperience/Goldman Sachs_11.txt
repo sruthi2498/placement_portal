@@ -1,0 +1,9 @@
+Lazy loading (also called on-demand loading) is an optimization technique for the online content, be it a website or a web app.
+Instead of loading the entire web page and rendering it to the user in one go as in bulk loading, the concept of lazy loading assists in loading only the required section and delays the remaining, until it is needed by the user.
+
+For example, say a user requests for the logo of GeeksForGeeks from a search engine. The entire web page, populated with the requested content, is loaded. Now if the user opens the first image and is satisfied with it, he will probably close the web page thus, rest of the images so loaded will be left unseen. This will result in the wastage of the resources so consumed in the bulk load of that page. Thus the solution to this is Lazy Loading.
+
+One form of lazy loading is infinity scroll, in which, the content of the web page is loaded as and when the user scrolls down the page. It is a popular technique being used by various websites.
+Advantages of Lazy loading:
+Disadvantages of Lazy loading:
+Conclusion: Though there are certain pitfalls of lazy loading yet the big advantages, as optimal utilization of the two major resources (time & space) and many more make us overlook its disadvantages.

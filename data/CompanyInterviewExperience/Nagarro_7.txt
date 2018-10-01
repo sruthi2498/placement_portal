@@ -1,0 +1,34 @@
+The interview was for Software Engineer post – C++ for around 2 years experienced.
+First Round
+IQ Test – 12 mins 50 Ques (Very Basic IQ questions) (includes negative marking)
+It was just meant to test the candidate’s presence of mind, and decision making skills.
+To crack this round, its not important to attempt all the ques, the trick is to attempt as many ques correctly as u can without wasting even anytime on any ques.
+If u can attempt around 30-35 ques correctly, that means u are through with this round.
+Online Coding Round – 3 coding ques to be done in 75 mins on HackerRank site.
+Average Difficulty Level
+1 Qs – Given an unsorted list of repeated elements in an array, Find the element with maximum frequency.
+2 Qs- Given a string containing characters and brackets, find if the brackets are paired in the string.
+3 Qs- (Little Tricky) Given a set of integers, find the third maximum sum of two elements from the set.
+For ex – Array -> 3,6,2,7,8,19,13,5
+Max Sum of two elements is – 19 + 13 = 32 , So u need to find the third maximum sum.
+Second Round
+Face to Face Discussion
+It was a general discussion round, Interviewer was very friendly.
+The interviewer went through my complete resume, and asked me ques on every thing that was mentioned in the resume.
+He discussed my current project in my company thoroughly, asked me a lot of questions on it.
+Since i mentioned design patterns while discussing my current project, so he asked about the same briefly.
+Then he started discussion on data structures like ( Trees, BST, Binary Trees, AVL trees, Real time applications of Stacks and Queues, Hashing (Problems with hashing like Collision, how to handle collision problem efficiently).
+It went on for like 1 – 1:30 hr.
+Third Round
+After waiting for a few days, I got a call from the HR to schedule a telephonic interview round with the Project Manager.
+Telephonic Discussion with Project Manager
+General Ques about me, my work, my current project.
+Then he started asking questions on OOPs concepts and C++, He asked me questions about in and out of C++ like Polymorphism, Virtual Functions, Vtable, Vptrs,
+How Vptrs work internally, how does compiler handle its functionality ?
+Runtime polymorphism, Constructors, Copy Constructors, why is object’s reference passed to the copy constructor instead of the object itself ?
+Dangling Pointers, Difference between Structures and classes, types of casting, difference between run time and compile time, how does it affect the program .
+Some basic questions on Linux commands, scripting.
+a few basic questions on Linked Lists, Circular Linked Lists. (Find middle element efficiently)
+The interviewer was very friendly and encouraging.
+That’s All
+Thanks geeksforgeeks for helping me prepare for the interviews, you guys are awesome . 🙂

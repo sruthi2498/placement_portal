@@ -1,0 +1,27 @@
+Samsung Bangalore visited our campus for internships. There were 3 rounds in total.
+
+First Round (M.C.Q.s):
+The first round was basically an Aptitude round comprising 20 questions each of English, Logical Reasoning and Quantitative Aptitude. So, there were 60 questions in total to be done in 60 minutes. The questions were of medium level. My advice is you start with aptitude (not more than 20 mins) , then logical reasoning(approx 25 mins.) and then remaining time for English section. Here the time factor was the big challenge. There was no negative marking. Out of 150 students, 130 made their way towards the coding round. Coding round will be held 30 minutes after the M.C.Q round. So, those who are not selected will be asked to leave the examination center.
+
+Second Round (Coding):
+The second round consisted of 3 programming question of 3,3 and 5 marks respectively to be done in 70 minutes. The questions asked in the coding round are repetitive so its better that you see all the interview experiences to get a clear idea about the questions. At least implement the questions given in the interviews beforehand because there is a very good chance that same questions will be there in your test. Both the round (1st and 2nd) were hosted on cocubes. The questions asked to me were:
+1. Write a program to count the elements in an array which are greater than all elements to its right. For help, you can refer to “https://www.geeksforgeeks.org/leaders-in-an-array/” (3 marks).
+2. Given a matrix representing which child likes which toy. Also, matrix[i][j] = 1 represents that child ‘i’ likes toy ‘j’. One child can get only 1 toy and one toy can be assigned to only 1 child. Find maximum number of children who can get the toy they wished. (3 marks)
+3. Find last digit of ‘a raised to the power b’ (a^b) where ‘a’ and ‘b’ were large enough. For help, you can refer to “https://www.geeksforgeeks.org/find-last-digit-of-ab-for-large-numbers/” (5 marks)
+Other questions were:-
+–> Popular SPOJ problem – “Aggressive cows”.
+–> “Print all possible words from phone digits” https://www.geeksforgeeks.org/find-possible-words-phone-digits/
+–> “Size of the larget BST Tree in the given tree.”
+https://www.geeksforgeeks.org/largest-bst-binary-tree-set-2/
+–> “Make the tree into a sum tree”
+https://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/
+Try to solve at least two of the questions. They don’t care much about the time complexities so feel free to use Brute Force if you can’t think of any other solution. Around 60 students were shortlisted for final round.
+Third Round (Group Discussion):
+The third round was Group Discussion. Students were divided in group of 11-12.
+My topic was to give ideas about “Improving Traffic Management System”. You should be focused on creative and new ideas. They don’t care much if you include any technical terms or not. If you are out of the ideas, try to mold the ideas of other and present them in a completely changed manner.
+Some of the other group topics which were asked in the Group Discussion rounds were:-
+1. Improving the keyboard layout of phones to make it more efficient and secure.
+2. Suppose you are some Online Shoe Seller Marketing Head. Give ideas about how to increase your sales by using the previous shopping details of customers.
+Students were given 5 minutes time to think about the topic and note their points on a page. To prevent stealing of other ideas, your page will be taken after 5 minutes so make sure to remember your points once you have written them. Then everyone was given a time of 2 minutes to speak about their ideas. You should be very precise in conveying your idea as they will stop you once your time gets over. After that, there will be a general group discussion of 10 minutes on the same topic where you will get to counter the ideas of others. Important thing to remember there is to speak as early as possible. Try not to repeat the ideas already spoken.
+Finally, 31 students were selected for internship.
+All the Best!

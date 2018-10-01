@@ -1,0 +1,36 @@
+I would like to share my recent interview experience with HP R&D Labs banglore. I have experience of 4 years into network protocol development. The opening position is for network protocol developer (Layer2/Layer3). Selected people were called for the drive.
+Totally, there are 5 rounds happened in a single day. (4 technical (1 written + 3 face to face), HR)
+Written test (objective):
+Questions in written test are to test the basic knowledge of C language and OS.
+Mainly stressed on bitwise operators, little endian and big endian.
+
+Technical Round 1:
+    This round is completely for c . Interviewer has asked question on bitwise operator and linked lists.
+    Memory layout of a c program.
+    1. How to set,unset and toggle bits using bitwise operators?
+    2. Stack implementation using linked lists?
+    3. Reversing of a linked list?
+    4. Memory layout of c program? How to findout the starting address of each segment (Data,stack,code)?
+    I could clear the first round and called for the second round.
+Technical Round 2:
+    In this round, interviewer evaluated my knowledge in network protocols and the work, Operating systems and C.
+    After going through my resume, interviewer asked the protocol operations whichever i worked on and practical scenarios.
+    Mostly stressed on operating systems.
+    1. Difference between semaphore and mutex?
+    2. What are race conditions? How to avoid them?
+    3. What is a dead lock? how to detect it?
+    4. What flavours of operating system were used in your projects?
+    5. What are x-factors of these operating systems?
+ In C, 
+    1. Swap two nodes of a linked list(not data)?
+    2. Malloc to allocate memory for 2-D array?
+    3. 
+    Output of the above program?
+    4. What is a NULL pointer crash? how to detect it?
+    5. How memory leaks happen? how to find out them?
+
+Technical Round 3 (Manager+technical):
+    This round was taken by the manager. He tried to test everything from C basics, networking, operating systems and software methodologies. And as expected, other questions from manager.
+
+HR round:
+    This is the final round. Just a casual discussion happened regarding the notice period, hr questions, salary negotiations etc.

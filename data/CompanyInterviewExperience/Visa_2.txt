@@ -1,0 +1,17 @@
+Round 1: Online Coding Round
+90 min coding round, 4 questions (basic, easy, easy, medium). The test was conducted on hackerank and partial marking was there. Questions :-
+1. We have to find the index of maximum element in an array after certain number of rotations.
+2. The question reduced to minimum coin exchange problem.
+3. Given an array of strings of sequence of moves and we have to return yes or no corresponding to whether the robot return to initial position.
+https://www.geeksforgeeks.org/check-if-a-given-sequence-of-moves-for-a-robot-is-circular-or-not
+4. Given a sorted array. Find all the pairs whose product is less than or equal to a given value in O(n).
+ 
+The students who did atleast 3 questions were selected.
+Round 2: Technical + HR Interview
+For the interns there was only one round. It was mainly focused on algos. Questions:-
+1. Given an integer. Change the 0 in the number to 5 without using extra space.
+2. The question was completely based on topological sort.
+3. Given an array, move zeros to the right without changing the sequence.
+Then he asked me questions on java which was mainly focused on garbage collector.
+Then he asked a probability question. Given an equilateral triangle with three person standing on three corners and can move in any direction with equal velocities. Find the probability that no two persons will ever meet. (ans- 1/4 because of 8 combination only 2 cases possible – all move in clockwise or anticlockwise direction).
+Last question was why visa.

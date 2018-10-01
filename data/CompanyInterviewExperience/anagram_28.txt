@@ -1,0 +1,23 @@
+Write a function to check whether two given strings are anagram of each other or not. An anagram of a string is another string that contains same characters, only the order of characters can be different.  For example, “abcd” and “dabc” are anagram of each other. 
+
+Method 1 (Use Sorting)
+1) Sort both strings
+2) Compare the sorted strings
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: Time complexity of this method depends upon the sorting technique used. In the above implementation, quickSort is used which may be O(n^2) in worst case. If we use a O(nLogn) sorting algorithm like merge sort, then the complexity becomes O(nLogn)
+Method 2 (Count characters)
+This method assumes that the set of possible characters in both strings is small. In the following implementation, it is assumed that the characters are stored using 8 bit and there can be 256 possible characters.
+1) Create count arrays of size 256 for both strings.  Initialize all values in count arrays as 0.
+2) Iterate through every character of both strings and increment the count of character in the corresponding count arrays.
+3) Compare count arrays. If both count arrays are same, then return true.
+Run on IDE
+Run on IDE
+Run on IDE
+
+The above implementation can be further to use only one count array instead of two. We can increment the value in count array for characters in str1 and decrement for characters in str2.  Finally, if all count values are 0, then the two strings are anagram of each other.  Thanks to Ace for suggesting this optimization.
+Run on IDE
+If the possible set of characters contains only English alphabets, then we can reduce the size of arrays to 52 and use str[i] – ‘A’ as an index for count arrays. This will further optimize this method.
+Time Complexity:  O(n)

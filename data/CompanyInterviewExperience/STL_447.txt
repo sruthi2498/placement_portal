@@ -1,0 +1,27 @@
+std::nth_element() is an STL algorithm which rearranges the list in such a way such that the element at the nth position is the one which should be at that position if we sort the list.
+It does not sort the list, just that all the elements, which precede the nth element are not greater than it, and all the elements which succeed it are not less than it.
+It has two versions, which are defined below:
+Run on IDE
+Output:
+Here, the fifth element is 33, and all elements to its left are smaller than it and all elements to its right are greater than it.
+
+Syntax:
+Run on IDE
+Output:
+In this code, since the nth element as pointed by the second argument in std::nth_element is the sixth element of the array v, so this means that the sixth element in the array after application of std::nth_element should be the one that would have been there if the whole array was sorted, i.e., 45.
+And also all the element to its left are either less than it or equal to it and elements on its right are greater than it.
+Purpose of Binary Function comp: std::nth_element partially sorts the range [first, last) in ascending order so that the condition, *i < *j, (for version 1 ), or comp(*i, *j) == true (for version 2) is met for any i in the range [first, nth) and for any j in the range [nth, last). So, comp() is used to ensure that all the elements before the nth_element are less than elements after the nth_element. 
+
+Where can we apply std::nth_element() ?
+Run on IDE
+Output:
+Run on IDE
+Output:
+Here, we have passed greater() as binary function, so now nth element will be the one which should be at the nth place if we sort the given array in descending order, so first n elements will be the first n largest elements.
+
+Run on IDE
+Output:
+Here the sorted array will be 2 3 10 23 33 45 47 56 60, so there are 9 elements and the median will be the middle element, i.e., 5th element : 33.
+
+Time Complexity of std::nth_element(): O(n), with n being the distance between first and the last.
+Related Articles: 

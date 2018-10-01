@@ -1,0 +1,20 @@
+Given two arrays H and S. The array H[] contains the length of the hypotenuse and the array S[] contains Area of a right-angled triangle. The task is to find all possible pairs of (H, S) such that we can construct a right-angled triangle with hypotenuse H and area S.
+Examples:
+Say,
+ = Base of Right Angled Triangle
+ = Height of the Right Angled Triangle
+Therefore, 
+Also, 
+Therefore, 
+Solving this quadratic equation in a2 and putting discriminant>=0 (condition for a to exist). We will get,
+Naive Approach: The naive approach is to find all possible pairs of (H,S) and check if they satisfy the condition, H2 >= 4*S. Count the number of pairs which satisfies this condition and print the count.
+Below is the implementation of the naive approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Efficient Approach: An efficient approach is to sort both the arrays available in increasing order. Then, for every possible length of the hypotenuse, apply Binary search to find the maximum area which satisfies the necessary condition.
+Say, after the Binary search maximum possible area is available at index 4 in the array S[]. Then we can form 4 such possible pairs since all area less than that at index 4 will also be satisfying the condition.
+Below is the implementation of the efficient approach:
+
+Run on IDE

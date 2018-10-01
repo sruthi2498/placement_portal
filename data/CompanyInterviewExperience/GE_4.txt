@@ -1,0 +1,19 @@
+Given a long integer, return the smallest(magnitude) integer permutation of that number.
+Examples:
+
+Question Source : GE digital Interview Experience | Set 6
+We have already discussed a solution in below post.
+Smallest number by rearranging digits of a given number
+In this post, a different approach is discussed.
+Approach : As number is long, store the number as string, sort the string, if there is no leading zero, return this string, if there is any leading zero, swap first element of string with first non-zero element of string, and return the string.
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Optimization : 
+Since character set is limited (‘0’ to ‘9’), we can write our own sort method that works in linear time (by counting frequencies of all characters)

@@ -1,0 +1,19 @@
+Given a string, remove all spaces from the string and return it. 
+ 
+Expected time complexity is O(n) and only one traversal of string.
+
+
+Below is a Simple Solution 
+Time complexity of above solution is O(n2).
+A Better Solution can solve it in O(n) time. The idea is to keep track of count of non-space character seen so far.  
+Below are C++ and Python implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+
+Time complexity of above solution is O(n) and it does only one traversal of string.
+Another solution suggested by Divyam Madaan is to use predefined functions. Here is the implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE

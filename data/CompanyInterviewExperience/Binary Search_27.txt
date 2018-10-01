@@ -1,0 +1,15 @@
+Given an array A[] of n elements and an integer k. The task is to find the number of triplet (x, y, k), where 0 <= x, y, k < n and x, y, k are the index in the array A[] such that:
+|A[x] – A[y]| <= k
+|A[y] – A[z]| <= k
+|A[z] – A[x]| <= k
+Examples:
+A simple solution is to run three nested loops and count triplets with given constraints.
+An efficient solution is based on the fact rearranging the elements in the array does not affect the answer because basically, we want index x, y, z to be in increasing order, not A[x], A[y], A[z] to be sorted. Suppose, A[x] is at index y, A[y] at z, A[z] at x, still we can pick the triplet (x, y, z) because the condition of difference between any two elements to be less k still stands.
+Now, to calculate the number of triplet indices (x, y, z) which satisfies the above condition, we will sort the given array. Now, for each element A[i], i >= 2, we will find the lower bound index of A[i] – k, say lb. Now, observe all the element between index lb and i are less than A[i] and the difference between any teo elements will be less than or equal to k. So, element at index i can be treated as index z and we can choose any two element from lb to i – 1. So, this will increase the count of the triplet by i – lbC2. 
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+

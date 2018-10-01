@@ -1,0 +1,11 @@
+Given two numbers represented by linked lists, write a function that returns the multiplication of these two linked lists.
+Examples:
+Solution:
+Traverse both lists and generate the required numbers to be multiplied and then return the multiplied values of the two numbers.
+Algorithm to generate the number from linked list representation:
+Use the above algorithm with both of linked lists to generate the numbers.
+Below is the program for multiplying two numbers represented as linked lists:
+
+Run on IDE
+Run on IDE
+

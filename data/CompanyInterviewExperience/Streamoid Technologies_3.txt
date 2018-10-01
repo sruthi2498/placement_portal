@@ -1,0 +1,15 @@
+Given two strings string1 and string2, find the smallest substring in string1 containing all characters of string2 efficiently.
+For Example:
+
+Method 1 ( Brute force solution )
+1- Generate all substrings of string1 (“this is a test string”)
+2- For each substring, check whether the substring contains all characters of string2 (“tist”)
+3- Finally, print the smallest substring containing all characters of string2.
+ 
+Method 2 ( Efficient Solution )
+Diagram to explain above algorithm:
+
+Below is program to implement above algorithm
+Run on IDE
+Run on IDE
+

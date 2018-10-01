@@ -1,0 +1,9 @@
+Given a string s, break s such that every substring of the partition can be found in the dictionary. Return the minimum break needed.
+Examples:
+
+Asked in: Facebook  
+Solution of this problem is based on the WordBreak Trie solution   and level ordered graph. We start traversing given pattern and start finding a character of pattern in a trie. If we reach a node(leaf) of a trie from where we can traverse a new word of a trie(dictionary), we increment level by one and call search function for rest of the pattern character in a trie. In the end, we return minimum Break.
+Below is the implementation of above idea
+
+Run on IDE
+Run on IDE

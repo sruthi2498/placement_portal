@@ -1,0 +1,13 @@
+Given a Binary Tree, Print the corner nodes at each level. The node at the leftmost and the node at the rightmost. 
+For example, output for following is 15, 10, 20, 8, 25.
+
+A Simple Solution is to do two traversals using the approaches discussed for printing left view and right view.  
+Can we print all corner nodes using one traversal?
+The idea is to use Level Order Traversal.  To find first node, we use a variable isFirst.  To separate levels, we enqueue NULL after every level.  So in level order traversal, if we see a NULL, we know next node would be first node of its level and therefore we set isFirst.
+A special case to consider is, a tree like below.  
+The output for above tree should be 1, 2, 3. We need make sure that the levels having only one node are handled and the node is printed only once.  For this purpose, we maintain a separate variable isOne.
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n) where n is number of nodes in Binary Tree.

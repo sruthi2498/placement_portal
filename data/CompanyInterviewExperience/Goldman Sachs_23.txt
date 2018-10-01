@@ -1,0 +1,59 @@
+I interviewed with Goldman Sachs for the post of Technical Analyst. I was contacted by a recruiter agency. The process is very long and you can keep preparing during the process too.
+Round1- Hackerrank Coding Test
+There were two questions to be solved in two hours. I did both.
+    1. Simple question.
+Given a range of numbers [x, y] and an integer q. Multiply all the numbers in the range by q and return the count of all the numbers which have no same digits as the corresponding product obtained.
+Ex- If x=10, y=12, q=2. Then the products corresponding to 10, 11, 12 are 20, 22, 24.
+The count will be 1 as only 22 has all different digits than 11.
+    2. 0/1 Knapsack problem. One more addition being that you had to tell which all items were chosen for the optimal solution.https://www.geeksforgeeks.org/printing-items-01-knapsack/
+Round 2- Coderpad 1
+This is a 1-hour telephonic interview and a screen is shared for writing the full working code. And you need to write some of your test cases and clear the ones they have provided. Two questions were asked in this:
+    1. Given a string, return the Run Length Encoded string for input string.
+Ex- aaabbcddddde -> a3b2c1d5e1https://www.geeksforgeeks.org/run-length-encoding/
+    2. Given a matrix of positive integers/points. We have to start from lower left corner and      reach the upper right corner. Our path should be such that we fetch maximum points. Only two movements are allowed- up and right, i.e. from a cell (R, C), you can either go to (R, C+1) or (R-1, C).
+Round 3- Coderpad 2
+They asked for one more Coderpad round. This time too, two questions were asked.
+    1. Find the first non-repeating character in a string.https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+    2. Count no. of ways to reach nth stair from the bottom. Can take 1, 2 or 3 steps at a time.
+https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
+After this, I was called for Face to Face interviews in the Bangalore office. There were 5 rounds of interviews and all were technical. Each round was taken by two interviewers.
+Round 4- Technical Interview
+    1. It started with the introduction of myself and the work I was doing in my current organisation. Then some discussion on it particularly involving REST services. Then they made me write an HTTP GET method for a situation in an efficient way.
+    2. Implement queue using Stacks. First I solved it using two different stacks.
+    3. Then they asked me to implement the queue using only 1 stack.https://www.geeksforgeeks.org/queue-using-stacks/
+    4. What is a Binary Search Tree?
+    5. Write a program to check whether a binary tree is BST or not.
+https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+    6. What is JDK, JRE, JVM? Then some more questions on the answers I gave.
+    7. Given a matrix containing only 0’s and 1’s. Each row will have some number of consecutive 0’s followed by some number of consecutive 1’s. We have to find the row containing maximum 0’s and also the number of 0’s in that row. At first, I suggested implementing Binary Search on every row to find the number of zeroes and then comparing the number of zeroes for every row. The interviewers said it is right but they wanted something better. Then I suggested implementing Binary Search on first row, store the index containing last 0 and then moving down in the matrix on that index. If you encounter a 1, then you can safely ignore that row. If you get a 0, then you can implement Binary Search on that row and update your stored values. The interviewers were satisfied with this solution.
+    8. Differences between Arrays and Linked Lists. In which situation, you would choose one over the other? 
+Round 5- Technical Interview
+    1. This round started with a lot of resume based questions. Why do we use AJAX, jQuery, RequireJS? What are their uses and why do we need them? What is the need for modular loading?
+    2. Some questions on OOPs concepts of C++ and JAVA. Which language do you prefer more?
+    3. Water trapping problem.https://www.geeksforgeeks.org/trapping-rain-water/
+    4. A variation of the following problem. The knight’s movement was slightly different than a traditional knight.https://www.geeksforgeeks.org/minimum-steps-reach-target-knight/
+    5. There a n number of zoos numbered from 1 to n. There are four kinds of animals in the zoos- Ant, Elephant, Cat and Dog. Ant and Elephant are enemies. Cat and Dog are enemies. There is a van which is used to pick animals from a zoo and drop to other zoo. Enemies can’t be in the van at the same time. Given two sequences PICK and DROP from 1 to n describing animals to be picked and dropped respectively from each zoo. We have to tell whether it is possible for the van to go from Zoo-1 to Zoo-n and complete all these pickups and drops without having enemies in the van at any point of time.
+
+Round 6-Technical Interview
+    1. Why do you want to switch just after 1 year at your company?
+    2. Find the missing and repeating number in the array.https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/
+    3. They started discussing about one of my project in my current company in detail. They picked up a part of it and told me to rewrite the code, in a better way than I wrote there.
+    4. Then they picked a latest project of mine and were trying to understand the full flow of the project. They were keen to know that I know about each detail of the project, not only the part which I was involved in.
+    5. Then they gave me a design problem. They added new features and pages to the web application we just discussed about. Then they asked me to design the whole thing, i.e. database tables, web services, UI. Every little detail was discussed and they were keen to see a good design. This discussion went on for about 45 minutes and they were penetrating more and more on the little details. Also, they wanted me to give a proper understandable name to every web service I suggested.
+Round 7- Technical Interview
+    1. What is operator overloading? Write a code depicting implementation of Operator Overloading.
+    2. Write an operator overloading method for + operator on strings, which concatenates the first string with the reverse of second string.
+Ex- String1- app   String2- le Then String3 = String1 + String2 = appel.
+After I wrote the method, they asked me to optimise my method. So i suggested a faster reverse of the second string.
+    3. Write a method to test the above code. They wanted me to write a neat test code which is understandable to other person who does not know anything about my original code.
+    4. Different testing concepts. What is unit testing, integration testing, regression testing? What is the need for each one of them?
+    5. The testing discussion lead to environments discussion. I mentioned production and test environments in my answers. So they started discussing the need for so many environments for a same application.
+    6. If we give you a particular feature to add to an application, how will you do it? How will you document it, test it? How will you take it through different environments of the application?
+Round 8- Technical Interview
+    1. Discussion of the latest project I did at my current company.
+    2. https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+    3. https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+    4. Some general questions about preferred programming languages, future plans etc.
+After each Technical Interview, the interviewers give you a chance to ask questions. You can ask a lot of questions and clarify all your doubts. After this, I got a call after few days stating that they would like to take my candidature forward. I got the offer. 
+Preparing from GeeksForGeeks and in depth knowledge of your projects is sufficient to get through. Obviously, you should have a knack for programming too.
+.

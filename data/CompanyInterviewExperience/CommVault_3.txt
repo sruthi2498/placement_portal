@@ -1,0 +1,27 @@
+My CommVault Experience –
+First Round(Coding):
+First round was a coding round. There was 1 demo question, and 6 real
+questions.  Coding had to be done in their own environment. Partial marking(for partial passing of test cases) was there.
+Questions were:
+1. Given 2 integers m, and n (decimal system), write a program to perform right shift on m , n times.
+2. Given a stack (implemented using linked list), and some pre-defined functions : push(int), pop(), and isEmpty(), write a recursive
+function to reverse the contents of the stack. (No loops allowed).
+3. Given a string s, and a mask string m, delete all characters in s that were common to s and m.
+4. Given a 2-D array of x’s and o’s, write a function that first rotates the matrix by 90 degrees clockwise, and then pushes all x’s to the bottom and o’s to the top in every column. 
+5. Given preorder and postorder of a binary tree, write a function to find the inorder of the same tree.
+6. Polynomials are represented as linked lists in the following manner:
+Each node has 2 members, the coefficient(coeff) and the exponent(exp). Nodes given in decreasing order of exponent. For example, linked list:
+(5, 4)->(2,3)->(3,1)->(4,0)
+represents the linked list:
+5x^4 + 2x^3 + 3x + 4
+So, given two polynomials as 2 linked lists, return the sum of these 2 polynomials as a linked list.
+25 students were shortlisted in this round.
+Second Round:
+This was a 7 hour coding round. We had to complete their code for a virtual file system.  There were certain milestones which had to be completed. At the end, only 4 students were shortlisted. 
+Third Round(Tech & HR Interview) :
+Tech Interview:
+First, I was asked to walk through my CV. They asked some basic questions about my projects, and I answered. Next, I was asked 3-4
+hard puzzles. After that, coding questions, mainly from OOPS, DS and Algorithms.
+HR Interview:
+The HR interview was mainly about my CV. I was asked about my projects and roles held, and what all work I had done. It was pretty basic.
+Finally, 2 of us were selected.

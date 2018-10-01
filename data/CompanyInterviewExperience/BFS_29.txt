@@ -1,0 +1,8 @@
+Prerequisites : BFS, DFS
+In BFS and DFS, when we are at a node, we can consider any of the adjacent as next node. So both BFS and DFS blindly explore paths without considering any cost function. The idea of Best First Search is to use an evaluation function to decide which adjacent is most promising and then explore. Best First Search falls under the category of Heuristic Search or Informed Search. 
+We use a priority queue to store costs of nodes. So the implementation is a variation of BFS, we just need to change Queue to PriorityQueue.
+Let us consider below example.
+
+Analysis : 
+Related Article:
+A* Search Algorithm

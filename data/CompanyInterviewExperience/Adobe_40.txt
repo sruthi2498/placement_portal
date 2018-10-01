@@ -1,0 +1,33 @@
+ First round was online for 75 minutes on hackerrank.
+3 sections: Aptitude,Output and 2 coding questions. Coding questions:
+1. Given a string find alphabetically first and last substrings which start with vowel and end  with constant
+2. Given a set of votes.Find the candidate with maximum number of votes.
+There were 3 F2F rounds at Adobe Campus for candidates who cleared the online round
+1.F2F Interview:
+  Asked about projects.
+  a.Write a function to generate a string randomly
+  b.OS Concepts in Page Tables and Virtual Memory
+  c.In a continuous stream of words check if a duplicate word exists or not
+  The interviewer was very friendly and was giving good directions of help.
+  It was easy to clear this round 🙂
+2.F2F Interview:
+   a.Difference between process and threads
+   b.Write a function to calculate x^n with least complexity
+   c.Given a stream of words. Write a function to return K maximum frequently occurring words
+   d.Check if one string is a rotation of other
+   e.What is architecture of AngularJs. I had mentioned angularJs in my resume
+   f.Given an array of pairs (Z,A),(A,F),(G,H),(F,G)
+     Construct a chained string out the given pairs. Z-A-F-G-H
+   The interviewer was expecting answers to the point.
+   I had cleared the 2nd round too.
+3.F2F Interview:
+   a.In a DBMS table in Gender Column M and F are exchanged.
+      Write a query to correct the column values.
+   b.Implement queue using two stacks
+   c.This question appears tough to solve but has very easy logic
+https://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/
+     I tried my best but could not answer this question.
+All the questions can be answered with simple logic and presence of mind.
+Complicated solutions leave a negative opinion on the interviewer.
+Thank you GeeksForGeeks for providing an amazing platform :). A one stop solution for Geeks!!!!	 
+

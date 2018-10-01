@@ -1,0 +1,20 @@
+Round 1 (Telephonic) :
+1)      Discussed about previous projects.
+2)      How Node.js internally works.
+3)      What is left joins and how it’s works.
+
+Round 2 (F2F) :
+1)      How inodb (mysql engine) works and it’s internal architecture.
+2)      How joins works. More question from DB
+3)      Inorder traversal  of bimary tree.
+4)      Missing number Problem !!
+5)      Some basic Ubuntu commands.
+a) How to install : apt-get install package_name
+b) How to copy complete folder using terminal.
+2-3 more basic questions
+6)     Two puzzles
+a) Standard puzzle: You have 9 coins and a weight machine.  Out of which one coins is lighter find that coins in less attempt. Note : instead of 9 coins he asked for 80 coins .
+Ans is 3^4 >= 80 i.e. 4
+Divide into 26,27,27 group and apply the same algo as 9 coins.
+b)  There is a dark room and you have 13 head and 8 coins on a table, make a two group as number of tails coins are equal in both group. (I asked the ans to him and it was too funny when he was trying to explain and no ans)
+NOTE : their main focus is on database, prepare it very well and deeply.

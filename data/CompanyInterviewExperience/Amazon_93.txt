@@ -1,0 +1,9 @@
+Given three consecutive even numbers. Prove mathematically that atleast one of them is divisible by 6.
+Examples:
+Question Source : Amazon interview experience | Set 383 (On-Campus for Internship)
+If you see the any three consecutive numbers, you can figure out atleast one of them is divisible by 6.
+We can use mathematical induction for proving it mathematically.
+For a number to be divisible by 6, it should be divisible by 2 and 3.
+Since all are even numbers, the number will be divisible by 2.
+For checking divisibility of number by 3,
+Consider below proof :

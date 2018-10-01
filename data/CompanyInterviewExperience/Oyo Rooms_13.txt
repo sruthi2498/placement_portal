@@ -1,0 +1,20 @@
+Round 1: (Online Round).This round has 2 coding questions and 15 MCQ’s (from Aptitude, OS, DBMS, C++, C, Data Structures).
+1.Print matrix in spiral order.
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+2. Given a matrix. Empty cells are represented by ‘.’, cells which are occupied are represented by ‘B’. Given two cells ‘S’ and ‘D’, find the minimum distance required from S to D.
+Ex.
+S..BB.
+..B.B
+.B…
+….D
+This is a simple BFS.
+Round 2:
+First 10 min discussion on my project and internship. He asked me three coding questions. He was a very cool person and was happy with all my approach.
+Round 3:
+First 10 min discussion on my project and internship same as the previous round. He asked me only one coding question.
+problem: In a building N floor is there. You are at the source floor(S) and You have to go to the destination floor(D).
+Every time you can go to U floor up and d floor down from a floor ( either x to x+U or x to x-d). Find the min no of steps to reach from S to D.
+In 10 the minute, I gave him an O(n2) approach he was happy and told me to write the code but I was still thinking and suddenly I got the solution in O(nlogn) using Dijkstra Algorithm. He told me how will you solve using Dijkstra and I explained it. He was very impressed and told me to write the code. Then he told me to explain the code once I explained he found one mistake in the code. He told me once check is it correct. I was not getting what was the problem. I discussed with him 5 min and he told me that why are you confusing. Think you missed something. He gave me one hint then I got it. He told me to add this case in code.
+After this, he asked me about indexing in DBMS. How did you use this in your project?
+He was very helpful and when I was thinking He asked me what are you thinking and why this approach and he discussed every small step of the problem. I was expecting for the second coding question as he asked to my friend and he did not ask me the second question.
+After this, I did not have the third round and after five minute HR told me that you are selected.

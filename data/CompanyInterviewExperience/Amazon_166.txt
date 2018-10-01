@@ -1,0 +1,37 @@
+1) Online coding round of 45 minutes. We had a question where we had to read an unknown number of lines from a data file. Each line had a formatted date time stamp and a person’s name.
+We were supposed to tell if some person had appeared twice on the same date or not. For C++, i used getline to take the input and then STL Map did the trick.
+2) Onsite Face to Face Round 1
+The interviewer asked me two questions and then I coded them after discussions:
+He wanted to understand the logic behind the approach rather than just intuition. He asked for proof of the algorithm in the sense that why this works.
+https://www.geeksforgeeks.org/trapping-rain-water/
+https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
+3) Onsite Face to Face Round 2
+He asked me about my internships and projects.
+Then he asked me how to design a calculator. This involved discussions on exception handling etc. He asked me about postfix and prefix expressions and how to use expression trees etc.
+https://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
+4) Onsite Face to Face Round 3
+The first question was this:
+https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/
+He gave me input constraints of length of string as 10^5.
+Then we discussed about detecting cycles in a graph. Can we use a BFS to detect a cycle in a directed graph? He asked me to code cycle detection for a directed graph.
+The last question was this:
+You are given a binary 2 dimensional array, find the area of the largest rectangular submatrix which has 1s only. He was not convinced with the my approach and asked me to give him test cases where this will fail. We made ten – fifteen cases and tested and it seemed to work.
+5) Bar Raiser (Skype):
+He wanted me to code a data structure for an auto-completing a search query. I mentioned Trie is a way and then we had discussions on Trie and search, insert etc in a Trie.
+Then he asked me to code it using a Trie:
+https://www.geeksforgeeks.org/auto-complete-feature-using-trie/
+Then we discussed about databases. What are normal forms?
+How will you design a database with books and authors (many to many relationship).
+How do we query for the author with the maximum number of books?
+What is a deadlock and what are ways to avoid it?
+Give me a real life example of a deadlock.
+Explain to me any single project in which you had to meet a deadline and what was your course of action?
+There was one more round after this and that was the Bar Raiser actually. The 5th point mentioned in the initial post was just a technical interview.
+He asked me why amazon?
+Have i ever been in a situation where i went against my mentor in a project and what was the result?
+How do i keep myself motivated during tough projects?
+How to meet deadlines?
+How to make sure the work done by you in a project is easily understandable by a person after you leave the project?
+These were the coding questions: Convert infix to postfix and evaluate postfix. He wanted me to assume nothing (the input string may not be valid and the code was to report so).
+GeeksforGeeks helped me the most during my preparation time. 
+

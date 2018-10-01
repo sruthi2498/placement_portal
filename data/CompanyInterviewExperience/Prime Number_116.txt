@@ -1,0 +1,13 @@
+A Sphenic Number is a positive integer n which is product of exactly three distinct primes. The first few sphenic numbers are 30, 42, 66, 70, 78, 102, 105, 110, 114, …
+Given a number n, determine whether it is a Sphenic Number or not. 
+Examples:
+Sphenic number can be checked by first generating the Least prime factor of numbers till n.
+Then we could simply divide the number by its least prime factor and then that number by its least prime factor, and so on and then check if the number has exactly 3 distinct prime factors.
+Below is the C++ implementation of the idea.
+Run on IDE
+Output:
+Time Complexity: O(nlog(n))
+Auxiliary Space: O(n)
+References:
+1. OEIS
+2. https://en.wikipedia.org/wiki/Sphenic_number

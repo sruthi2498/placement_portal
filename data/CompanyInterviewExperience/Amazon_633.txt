@@ -1,0 +1,56 @@
+It was a usual interview process by Amazon: 1 written test, 1 telephonic interview and 4 f2f interviews.
+Sometimes they just want efficient algorithm and sometimes just concise and efficient production level code is required. Mostly both, algorithm and code, are asked for every question.
+Interviewers were very friendly. In the first f2f interview, I was extremely nervous and stumbling in answering the first question itself, the interviewer told me not to worry and to take as much time as I want. That expression by him made me calm after some time and I was able to solve the question with ease.
+Solutions to some of the problems are provided at the end of the article.
+Written test(same questions as Set-53 Amazon Interview Experience): 
+1. Given 2 string , find whether 2nd is sub-string of 1st or not. (it would be great if you solve with KMP)
+2. Given 2 rectangles , find whether they are overlapping or not.
+3. Given list of coins with various values (unlimited coins of each type) , find how many ways you can make a given value. (DP was expected.) Since it was not guaranteed that coin of value 1 would be present , we have to return -1 if the given value is not possible.
+Telephonic Interview:
+1. You are given an array of integers. You have to find the index in array from where (sum of left elements)=(sum of right elements). The elements itself is excluded.
+2. Delete a node from an unordered DLL. Algo is quite simple. Clear and concise code was required to be written.
+3. Zigzag traversal of a tree. He asked me if I know this question. I said yes and we moved on to other question.
+4. You are given an array of integers(positive and negative). You have to find if there exists any sequence of numbers in it which has the sum zero. If there is any print the start index else print -1.
+For example: 1 2 3 -1 4 -3 2 is the array and the sequence is -1 4 -3 which returns sum as zero.
+Code and algorithm, both were required.
+F2F Interview 1:
+1. Find the longest even length palindromic substring in a string.
+2. The interviewer asked me what are the data structures I know. I told him many of them. He chose HashMap and asked many detailed questions about it.
+F2F Interview 2:
+-Tell me about yourself and the work you are doing currently.
+1. Write power function. Eg. 2^3=8. Optimize it as much as you can. Simple.
+2. Longest path in a Binary tree.
+F2F Interview 3:
+-Tell me about yourself, your work, strengths and weakness, challenges you have faced in current job, why Amazon.
+1. I don’t remember it exactly, but it was probably : Delete a node with value K from unordered Circular Link List. Algo is straight forward. Production level working code was required.
+2. Make OO design for 2-players game of chess.
+3. You have some packages and you have to decide the build order for them.
+A package should be built before the packages that depend on it.
+For example. A={B,C}, B={D}, C={}, D={E}, E={}, F={}
+So one possible build order for package “A” is E, D, B, C, A.
+You have to write a function which will take the package name and will return its build order. You have API which will return you the list of packages on which calling package depends on. For example, the API will return B and C in a list when you call it providing the parameter as package A.
+F2F Interview 4:
+-Tell me about your work and challenges you have faced.
+1. You are given a binary tree in which every node has left, right and a next pointer. Next pointer is null initially.
+   You have to modify the tree in such a way that every node’s next pointer will point to the next node on the same level.
+   O(1) space complexity code was required to be written.
+   Eg.
+ANSWERS:
+Telephonic Interview:
+1. It can be a recursive procedure.
+   For example, for 7  3  1  4  5  6. I can write a procedure like “public int getEqualSumIndex(int index, int left_sum)”
+	I can call it recursively like this: int right_sum=getEqualSumIndex(index++, left_sum+arr[index])
+	Can have return sum like this: right_sum+arr[index];
+	I can compare the sum like this: left_sum==right_sum
+   The code is very easy to write.
+4. I came up with this algo: Start from left and get sum_till_now by adding the current element. Store the sum_till_now and current index in a HashMap.
+	If a sum value is repeated, then there must be a sequence in the array which is giving the sum zero. (repeated sum value’s corresponding index)+1 will be index of the start of the sequece summing up to zero.
+F2F 1:
+1. Initially I thought it was a DP problem due to its resemblance with the problem “longest palindromic substring” and tried to modify that DP solution. But since it is an O(n^2) space complexity solution, I was told to do it in O(1) space. After some time I came up with a simple iterative solution. Find two same characters in the string and then expand its left and right as much as possible. It is an O(n^2) time solution. I coded the same.
+F2F 2:
+2. https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+F2F 3:
+3. If you can relate it to a graph, it is actually topological sorting. Though I didn’t remember the name of the sort at that time, I explained him the concept, and how we can modify DFS to get the build order. I coded the same. He told me the name of algo afterwards.
+https://www.geeksforgeeks.org/topological-sorting/
+After two days I got the call that I have been selected.
+

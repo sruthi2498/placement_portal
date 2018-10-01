@@ -1,0 +1,13 @@
+I gave the Morgan Stanley aptitude test, here’s my experience.
+So here’s how it went.
+The test was for 200 marks 90 min duration without any breaks and you can attempt any sections in any order. The test was conducted on hackerrank.com.
+50 marks algorithms, data structures and logical reasoning mcqs. There were 20 mcqs.
+The logical reasoning mcqs were based on proving if a statement is correct and deriving relations.
+The data structure mcqs consisted of graphs and trees. Questions were like given n leaves and m internal nodes what is the height of the tree, one on full binary tree height, BFS output for a given graph.
+In Algorithms, we were mostly asked about time complexity .
+Now for the coding section there were two questions.
+1. Given a pseudo random string of length 26 with characters from a to z such that the indices are represented as 00, 01, … 26. And another string E which contains an encoded string based on the above indices like 000723… Derive the decoded string from the two. The constraint on E is that it could range till 10^8.
+2. I don’t recall the exact question but here’s how it goes. Given a input such as
+I/P
+5 
+

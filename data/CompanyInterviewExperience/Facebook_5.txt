@@ -1,0 +1,13 @@
+Given a string of numbers, the task is to find the maximum value from the string, you can add a ‘+’ or ‘*’ sign between any two numbers.
+Examples:
+Asked in : Facebook
+
+The task is pretty simple as we can get the maximum value on multiplying all values but the point is to handle the case of 0 and 1 i.e. On multiplying with 0 and 1 we get the lower value as compared to on adding with 0 and 1.
+So, use ‘*’ sign between any two numbers(except numbers containing 0 and 1) and use ‘+’ if any of the number is 0 and 1.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Above program consider the case of small inputs i.e. upto which C/C++ can handle the range of maximum value.
+Reference :
+https://www.careercup.com/question?id=5745795300065280

@@ -1,0 +1,34 @@
+I would like to thank the entire Geeksforgeeks team, whose contribution has helped me a lot in my preparation for the interviews and getting placed at Adobe.  
+No of rounds: 1 apti + 1 written + 4 PI
+Aptitude Round: 1 hr
+15 questions on Analytical Ability, 30 questions on Data Interpretation and Quantitative Ability
+Written Round: 2 hrs
+10 questions on Algorithms and OS, 10 questions on output of C/C++ code snippets
+PI Rounds-
+1st Round: 45 minutes
+1. Implement a queue using 2 stacks( average time complexity O(1) for push and pop )
+2. Discussion regarding demand paging. Then the interviewer asked me to give a detailed implementation of demand paging, using object-oriented approach, considering everything from page tables to swap disk I/O to page replacement policies.
+2nd Round: 45 minutes
+1. This round started with a puzzle: There are two buckets- one having 100L water and another having 50L milk. A spoonful of water is taken from 1st bucket and added to 2nd bucket and the mixture is stirred, now a spoonful of the mixture is taken from the 2nd bucket and added to the 1st. Compare the final volume of milk in 1st bucket to the final volume of water in 2nd bucket.
+2. Defective ball puzzle: Find defective ball among 7 balls using minimum no of measures.
+3.  A system sends multiple queries to find all primes between two given numbers. Provide service to each query in less than O(p) time(p is total no of primes)
+Solution: Perform Sieve of Eratosthenes initially and maintain list of primes. For incoming queries, use binary search to find first and last primes between given numbers.
+4. A modification of Towers of Hanoi problem: Consider 3 towers A(source), B(auxiliary), C(destination) and n discs. All usual constraints of the original problem hold true, but a new constraint is added: No disc(s) can be moved directly from A to C or from C to A, B has to be used in between.
+Solution: For n discs and towers A,B,C as source, auxiliary and destination respectively, consider the following function:
+It will take O(3^n) time instead O(2^n) as in the normal Towers of Hanoi problem.
+The interviewer seemed quite impressed with the solution.
+3rd Round:  45 minutes
+1. A robot can move forward either 1 or 2 steps. Find no of possible ways to reach nth step(easy DP problem).
+2. Questions regarding scheduling concepts, how cpu burst length is predicted for SJF scheduling, exponential averaging, etc.
+3. The interviewer asked me to implement my own timer service in the user-space. Using system timer countdown was not allowed, only reading current system time was allowed.
+Solution: Create a high-priority helper process P which will have some idea of flow of time(since we cannot use hardware timer) and hence will act as a sand clock for any process that requires timer service.
+P will have the following operations:
+ t1=getSystemTime()
+do dummy op(which should take very less time)
+t2= getSystemTime()
+(t2-t1) will be the time unit for P.  Whenever any process requires a countdown of time t, it will communicate with P and request it to send a signal after time t. P will divide t by its time unit and perform dummy its operation t/(t2-t1) times and then notify the requesting process that the time period has elapsed.
+The interviewer said that the solution was coarse, but still he seemed pleased with it.
+4th Round(HR Round): 15 minutes
+Normal HR questions like: why do you want to join Adobe, what were the most challenging situations you have faced in your career so far, where do you see yourself in 5 years, etc.
+After the final round, the results were declared. I along with 4 of my peers were hired!!!
+

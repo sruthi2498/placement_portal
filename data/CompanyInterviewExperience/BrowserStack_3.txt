@@ -1,0 +1,32 @@
+BrowserStack visited our campus during the placement season of IITs.
+Round 1: Online test
+There were 2 programs mainly related to app dev which were to be coded in 3 hours.
+1. Write a program which takes JSON as input and gives prettified JSON
+2. C Comment parser.
+Round 2: Online Test
+There were 3 problems to be solved in 5 hours.
+Problem 1:
+Consider the following series:
+A := 1
+B := A*2 + 2
+C := B*2 + 3 and so on…
+Write a program that: 
+You may use a greedy approach for the last part. Compute the values of the numbers corresponding to letters as and when required and DO NOT pre-compute beforehand and store them in a data structure
+Problem 2:
+The program will be given a folder named (optional, if not passed assume cwd). The program will print something like this: 
+An optional second parameter supports filtering the tree with grep like filter, only matching nodes. Eg:
+It should be possible to use arbitrary regex expression for filtering.
+Problem 3:
+In this program you have to consume Twitter.com’s REST API.
+Write a program that, given a hashtag H and a number N, 
+You may attempt this problem in any programming language but you may NOT use a third-party library like twitter4j. You may have to create a new Twitter account if you don’t already have one. Visit Twitter App Management to register a new app and obtain an API key. See Twitter REST API docs for more details.
+Problem 3(replacement)*:
+Write a library in any programming language, that provides a systematic wrapper around the BrowserStack REST API (something similar to twitter4j, which is a Java wrapper around Twitter’s official REST API).
+You will be judged on your choice data structures and methods for your library. You can create a test account at https://www.browserstack.com/users/sign_in. If you then go to your account profile  to find your username and authentication key.
+Bonus points for packaging the library as a publishable module.
+*Due to proxy servers in my college,it was not possible to submit a request to the twitter’s server(at that time who would like to waste time configuring his local machine to handle the issue) so I asked them to give another problem,They were nice and gave me a replacement problem.
+Round 3: HR Interview.
+Most of the questions were related to my projects and internship.He also asked me to rate the knowledge of the programming language I’m most comfortable with and then he asked some very basic but tricky questions from the language.
+I’d say BrowserStack is one of the company where you don’t work rather you learn exponentially. I’m glad that now I’m a part of it. 
+
+

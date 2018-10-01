@@ -1,0 +1,19 @@
+Given a natural number n, print all distinct divisors of it.
+Examples: 
+We strongly recommend to refer below article as a prerequisite.
+Find all divisors of a natural number | Set 1
+In the above  post, we had found a way to find all the divisors in O(sqrt(n)) .
+However there is still a minor problem in the solution, can you guess?
+Yes!  the output is not in a sorted fashion which we had got using brute-force technique.
+How to print the output in sorted order?
+If we observe the output which we had got, we can analyze that the divisors are printed in a zig-zag fashion (small, large pairs). Hence if we store half of them then we can print then in a sorted order. 
+Below is a implementation for the same:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(sqrt(n))
+Auxiliary Space : O(sqrt(n))

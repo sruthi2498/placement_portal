@@ -1,0 +1,71 @@
+This is a model placement paper for aptitude preparation of Cognizant Technology Solutions Interview. This placement paper will cover aptitude questions that are asked in CTS recruitment drives and also strictly follows the pattern of questions asked in CTS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the CTS interview.
+Solution:
+There are in total of 40 students. 14 are taking Maths and 29 are taking calculus. Therefore there have to be 3 students who are taking both the classes.  So, 29 – 3 = 26 students are taking only Computer. So probability = 26/40 = 13/20 = 65% 
+Solution: If we consider the number 84, then we get 8 – 4 = 4 and when the sum of digits that is 12 divides the number 84, we get 7.
+Solution:
+For the 6 at the unit place:
+When the digits are changed to 9, each value will increase by 3. Since there are 10 such numbers, so total increase = 10 * 3 = 30
+For the 6 at 10’s place:
+When the digits are changed to 9, each value will increase by 30. Since there are 10 such numbers, so total increase = 10 * 30 = 300
+So the total increase will be 30 + 300 = 330
+Solution:
+Let the amount spent by Rajesh be ‘x’
+According to the question,
+5 pen + 3 notebooks + 9 pecils = x
+and
+6 pens + 6 notebooks + 18 pencils = 1.5x
+By solving both the equations we get,
+pens = 0.125x = 12.5%
+Solution:
+Assuming the two persons who can speak two languages be Hindi and Tamil and the third person speaks all the three languages.
+Therefore, the number of people who can speak Tamil is 6. Only Tamil = 6 – 2 – 1 = 3
+Therefore, the number of people who can speak Hindi is 15. Only Hindi = 15 – 2 – 1 = 12
+Therefore, the number of people who can speak Gujarati is 6. Only Gujarati = 6 – 1 = 5
+Thus the number of persons who can speak only one language is 3 + 12 + 5 = 20
+Given,
+The number of persons who can speak two languages is 2
+The number of people who speak all three languages is 1
+Therefore the answer is 23.
+Answer: d) 14 sec
+
+Solution:
+If we observe the series carefully running from time = 2 sec and hence,
+Moving forward:
+At 2 secs each truck will move to a distance of 100cms
+Moving backwards:
+At 4 secs each truck will move to a distance of 50cms
+Moving forward:
+At 6 secs each truck will move to a distance of 150cms
+Moving backwards:
+At 8 secs each truck will move to a distance of 100cms
+Moving forward:
+At 10 secs each truck will move to a distance of 200cms
+Moving backwards:
+At 12 secs each truck will move to a distance of 150cms
+Moving forward:
+At 14 secs each truck will move to a distance of 250cms and in all 500 cms that are the point they must collide.
+Solution:
+To reach to the solution we just need to find the HCF of (964 – 41), (1238 – 31), (1400 – 51) = 923, 1207, 1349
+The HCF of 923, 1207 and 1349 = 71
+Solution:
+According to the question,
+Monday + Tuesday + Wednesday = 37 °C
+Tuesday + Wednesday + Thursday = 34 °C
+Thursday = 4/5 of Monday
+On solving the first two equations and substituting the values from the third condition we get the temperature of Thursday = 36 °C
+
+Solution:
+There must be 1 direct route.
+There are 4 ways to cover 1 city
+There are 4 * 3 = 12 ways to cover 2 cities
+There are 4 * 3 * 2 ways to cover 3 cities
+There are 4 * 3 * 2 * 1  ways to cover 4 cities
+Total ways = 65 ways
+Solution:
+One person telling to 2 means he takes 2.5 min to tell the secret to 1 person,
+So 1 person telling the truth to another 2 people and the next two telling the truth to the next two who in turn are telling another 2 people and so on…
+Therefore a series is formed of 1 to 2, 2 to 4, 4 to 8, 8 to 16 and so on…
+Therefore a series of 1, 2, 4, 8, 16, 32,…, 512
+Till 512 it would take
+Till this will take 45 minutes and now these people i.e., 256 will be telling the truth to only 1 of the total person will be 768,
+Therefore, 45 + 2.5 = 47.5 min

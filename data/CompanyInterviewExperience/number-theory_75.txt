@@ -1,0 +1,19 @@
+Given a number n, find sum of square of first n odd natural numbers.
+Examples :
+
+A simple solution is to traverse through n odd numbers and find the sum of square.
+Below is the implementation of the approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+An efficient solution is to apply below formula.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

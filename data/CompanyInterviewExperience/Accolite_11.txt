@@ -1,0 +1,14 @@
+Written aptitude:
+This round consists of 20 MCQ’S from OS, c, dbms etc.
+F2F Round 1:
+In this round, first she asked about some OOPS related questions in java. The questions are related to Interfaces and why multiple Inheritance is not supported in Java. I answered them all correctly. Then she asked me DS questions:
+F2F Round 2:
+This round took about 3 hours. First he saw my resume and asked me questions about my projects. The questions are mostly related to Design and algorithms.
+He gave me three tables: Students, courses and attendance. I have to design a solution where when he enters a student name, I should display the course in which student has second maximum attendance. I gave him a solution with the pseudocode and he was ok with it.
+Then he gave me trie related question. I was given a structure which contains a character or a string and an array of other structures.I should find out given a string whether it can be formed by the structures or not. I gave him trie related algorithm.He asked me to write the full code of it. It took around 45 Min to write the complete working code. He was happy about it.
+Finally he asked me to design the red bus website with functionalities like checking availability, booking and cancelling tickets. I gave him a Database schema with 4 tables and logic of the functions. He wanted an extra feature and I implemented it. Then I went to HR round.
+HR Round:
+This round began with the well known question “Tell me about yourself”. I went on to tell him my projects and achievements. He asks some random questions here and there. You have to answer and then continue. He then asked two technical questions
+Kth largest element in 2d array(It was repeated).The other one is print a number that repeats only once in an array. I used BST to solve this. He actually went outside and came back after an hour. You have to be patient. Then I asked if I have any questions for him. I asked him about 5-6 questions.
+In the end they played a small prank on us and then said that I got selected.
+

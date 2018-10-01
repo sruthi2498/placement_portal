@@ -1,0 +1,9 @@
+The spliterator() method of PriorityQueue returns a Spliterator the same elements as PriorityQueue.The returned Spliterator is late-binding and fail-fast Spliterator. A late-binding Spliterator binds to the source of elements means PriorityQueue at the point of first traversal, first split, or first query for estimated size, rather than at the time the Spliterator is created. It can be used with Streams in Java 8. Also it can traverse elements individually and in bulk too. Spliterator is better way to traverse over element because it provides more control on elements.
+Syntax:
+Returns: This method returns a Spliterator over the elements in PriorityQueue.
+Below programs illustrate spliterator() method of PriorityQueue:
+Example 1: To demonstrate spliterator() method on PriorityQueue.
+Run on IDE
+Example 2: To demonstrate spliterator() method on PriorityQueue which contains set of Students Names.
+Run on IDE
+Reference: https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html#spliterator–

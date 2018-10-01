@@ -1,0 +1,15 @@
+Prerequisite: Hamiltonian Cycle
+Given an integer n(>=2), find a permutation of numbers from 1 to n such that the sum of two consecutive numbers of that permutation is a perfect square. If that kind of permutation is not possible to print “No Solution”.
+Examples:
+
+Method:
+We can represent a graph, where numbers from 1 to n are the nodes of the graph and there is an edge between ith and jth node if (i+j) is a perfect square. Then we can search if there is any Hamiltonian Path in the graph. If there is at least one path then we print a path otherwise we print “No Solution”.
+
+Approach:
+Run on IDE
+Output:
+Discussion:
+This backtracking algorithm takes exponential time to find Hamiltonian Path. Hence the time complexity of this algorithm is exponential.
+In the last part of the hampath(n) function if we just print the path rather returning it then it will print all possible Hamiltonian Path i.e. all possible representations.
+Actually we will first get a representation like this for n = 15. For n<15 there is no representation. For n = 18, 19, 20, 21, 22, 24 there is also no Hamiltonian Path. For rest of the numbers it works well.
+Reference: Numberphile

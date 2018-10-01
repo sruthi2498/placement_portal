@@ -1,0 +1,31 @@
+Given a sorted array arr[] of n elements, write a function to search a given element x in arr[].
+A simple approach is to do linear search.The time complexity of above algorithm is O(n). Another approach to perform the same task is using Binary Search.  
+Binary Search: Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
+Example : 
+Image Source : http://www.nyckidd.com/bob/Linear%20Search%20and%20Binary%20Search_WorkingCopy.pdf
+The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n). 
+We basically ignore half of the elements just after one comparison.
+Recursive  implementation of Binary Search 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ Iterative  implementation of Binary Search
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity:
+The time complexity of Binary Search can be written as  
+The above recurrence can be solved either using Recurrence T ree method or Master method. It falls in case II of Master Method and solution of the recurrence is .
+Auxiliary Space: O(1) in case of iterative implementation. In case of recursive implementation, O(Logn) recursion call stack space.
+Algorithmic Paradigm:  Decrease and Conquer.
+
+Interesting articles based on Binary Search.
+Coding Practice Questions on Binary Search
+Recent Articles on Binary Search.
+ 

@@ -1,0 +1,18 @@
+Given a matrix where every element is either ‘O’ or ‘X’, replace ‘O’ with ‘X’ if surrounded by ‘X’.  A ‘O’ (or a set of ‘O’) is considered to be by surrounded by ‘X’ if there are ‘X’ at locations just below, just above, just left and just right of it. 
+Examples:
+This is mainly an application of Flood-Fill algorithm.  The main difference here is that a ‘O’ is not replaced by ‘X’ if it lies in region that ends on a boundary.  Following are simple steps to do this special flood fill.
+1) Traverse the given matrix and replace all ‘O’ with a special character ‘-‘.
+2) Traverse four edges of given matrix and call floodFill(‘-‘, ‘O’) for every ‘-‘ on edges.  The remaining ‘-‘ are the characters that indicate ‘O’s (in the original matrix) to be replaced by ‘X’.
+3) Traverse the matrix and replace all ‘-‘s with ‘X’s.
+
+Let us see steps of above algorithm with an example.  Let following be the input matrix. 
+Step 1: Replace all ‘O’ with ‘-‘.  
+Step 2: Call floodFill(‘-‘, ‘O’) for all edge elements with value equals to ‘-‘ 
+Step 3: Replace all ‘-‘ with ‘X’. 
+The following is implementation of above algorithm.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of the above solution is O(MN). Note that every element of matrix is processed at most three times.

@@ -1,0 +1,14 @@
+Given a binary tree, find height of it. Height of empty tree is 0 and height of below tree is 3.
+
+
+Example Tree
+Recursively calculate height of left and right subtrees of a node and assign height to the node as max of the heights of two children plus 1.  See below pseudo code and program for details.
+Algorithm:
+See the below diagram for more clarity about execution of the recursive function maxDepth() for above example tree.
+Implementation:
+Run on IDE
+Run on IDE
+Run on IDE
+
+References:
+ http://cslibrary.stanford.edu/110/BinaryTrees.html 

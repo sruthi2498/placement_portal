@@ -1,0 +1,15 @@
+Given a matrix of size n x n, find sum of the Zigzag sequence with the largest sum. A zigzag sequence starts from the top and ends at the bottom. Two consecutive elements of sequence cannot belong to same column.
+Examples:
+
+This problem has Optimal Substructure.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Overlapping Subproblems
+Considering the above implementation, for a matrix mat[][] of size 3 x 3, to find zigzag sum(zzs) for an element mat(i,j), the following recursion tree is formed.
+We can see that there are many subproblems which are solved again and again. So this problem has Overlapping Substructure property and recomputation of same subproblems can be avoided by either using Memoization or Tabulation. Following is a tabluated implementation for the LIS problem.
+Run on IDE
+Output:
+References: Asked in Directi

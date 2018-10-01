@@ -1,0 +1,26 @@
+Please find the details of my Microsoft Interview below.
+Date Of Interview: 3rd August,2012
+No. of Rounds: 2 online exams + 4 rounds of PI
+Type of Interview: Campus Interview for freshers
+
+1st Online Test: Time 1 hour
+30 MCQs on basic Mathematical and Logical problems and 20 MCQs on C programming. 
+2nd Online Test: Time 1 hour
+3 programs were to be written. They wanted full length program, not just the functions. Language: C/C++
+1. Given the head pointer of a linked list, each node having data value only 0/1/2, properly sort the linked list and return the head pointer.
+2. Given a picture with pixels arranged in an N*N matrix, right rotate the picture by 90 degree.
+3. Two of the nodes of a BST are swapped. Correct the BST.
+
+Interview Round 1: Time 30-40 minutes.
+1. Given a Binary tree, where each node has also its parent pointer pointing to its parent, apart from two usual child pointers. Write the function for inorder successor. Discuss all possible test cases for this function and whether your function can handle all those test cases.
+2. How can you check whether a binary tree is BST or not, in the most space optimised manner.
+Interview Round 2: Time 30-40 minutes.
+1. Given two sorted linked list, create a third list which contains only those elements of first list, which are not common with second list. Do this with O(n) time. Discuss all possible test cases for this function and whether your function can handle all those test cases.
+Interview Round 3: Time 30-40 minutes.
+1. If your friend writes a text editor software and gives it to you for testing, what are the tests you will perform on the software to ensure it meets the basic requirements of a naive user?
+2. Given two linked lists, how do you check whether the two lists intersect at some node with O(n) time? Discuss all possible test cases for this function and whether your function can handle all those test cases.
+Interview Round 4: Time 30-40 minutes.
+1. Given an array of unsorted integers, find all the pairs of numbers which sum to a given N. Discuss all possible test cases for this function and whether your function can handle all those test cases.
+2. Given three points a, b and c, write a function to find what type of triangle they construct or whether a triangle can be made at all. Discuss all possible test cases for this function and whether your function can handle all those test cases.
+HIRED!! 🙂
+

@@ -1,0 +1,28 @@
+Given a text and a wildcard pattern, implement wildcard pattern matching algorithm that finds if wildcard pattern is matched with text. The matching should cover the entire text (not partial text).
+The wildcard pattern can include the characters ‘?’ and ‘*’
+‘?’ – matches any single character
+‘*’ – Matches any sequence of characters (including the empty sequence)
+For example,
+
+Each occurrence of ‘?’ character in wildcard pattern can be replaced with any other character and each occurrence of ‘*’ with a sequence of characters such that the wildcard pattern becomes identical to the input string after replacement.
+Let’s consider any character in the pattern.
+Case 1: The character is ‘*’
+Here two cases arise 
+Case 2: The character is ‘?’
+We can ignore current character in Text and move to next character in the Pattern and Text.
+Case 3: The character is not a wildcard character
+If current character in Text matches with current character in Pattern, we move to next character in the Pattern and Text. If they do not match, wildcard pattern and Text do not match.
+We can use Dynamic Programming to solve this problem –
+Let T[i][j] is true if first i characters in given string matches the first j characters of pattern.
+DP Initialization:
+DP relation :
+Below is the implementation of above Dynamic Programming approach.
+
+Run on IDE
+Run on IDE
+
+Time complexity of above solution is O(m x n). Auxiliary space used is also O(m x n). 
+
+Further Improvements:
+We can improve space complexity by making use of the fact that we only uses the result from last row.
+One more improvement is yo merge consecutive ‘*’ in the pattern to single ‘*’ as they mean the same thing. For example for pattern “*****ba*****ab”, if we merge consecutive stars, the resultant string will be “*ba*ab”. So, value of m is reduced from 14 to 6.

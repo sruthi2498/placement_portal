@@ -1,0 +1,13 @@
+The strtol() function is  a builtin function in C++ STL which converts the contents of a string as an integral number of the specified base and return its value as a long int.
+Syntax:
+Parameters: The function accepts three mandatory parameters which are described as below: 
+Return Value: The function returns value of two types: 
+Below programs illustrate the above function. 
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Program 3:
+Run on IDE
+Program 4
+Run on IDE

@@ -1,0 +1,22 @@
+Round 1 : (Online-test)   2hrs
+– 10-15 mcqs which consisted of C, C++ outputs, HTML, CSS, data structures questions.
+– 3 questions which were to be written in the space provided.
+     	1. WAP to print multiples or either 3 or 5 but not both in (1-100) range.
+     2. List of 10 startups.
+     	3. Difference between div and span.
+– 2 coding Qs which were of medium-hard type.Do not remember the questions exactly
+  but 1q was Dynamic Prog and other was solving given recurrence relation with large input range(had to solve it using matrix method).
+They did  not visit campus ,all further rounds were telephonic.
+Round 2 :  30-40min.
+Q.	Detect and remove loop in linked list.
+Q.	Measure 4lit using 3lit and 5lit jugs.
+Q.	Given a sequence of parenthesis.Have to tell if it is balanced or not.
+Q.	Lighest coin among given 8 coins of which 7 are of equal weight using minimum measures.
+Q.	Deleting node in a tree – all cases.
+Q.	Stack vs Heap memory allocation.
+Round 3:  45min.
+Q.	Divide a scalene triangle into 5 parts of equal area.
+Q.	Given an array sort the array in the descending order of frequencies of those elements. If 2 elements have same freq. element appearing first has to occur first.
+	– Example Input: 5 6 4 7 3 6 5 7 6 5 3   Output : 5 5 5 6 6 6 7 7 3 3 4
+Q.	Find minimum element in stack in O(1).
+Q.	Implementation of telephone directory .What kind of DS used? Should be able to search by first/last name/Telephone number.

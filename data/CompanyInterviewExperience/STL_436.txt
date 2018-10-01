@@ -1,0 +1,26 @@
+After going through the template definition of various STL algorithms like std::find, std::equal, std::count, you must have found their template definition consisting of objects of type Input Iterator. So what are they and why are they used ?
+Input iterators are one of the five main types of iterators present in C++ Standard Library, others being Output iterators, Forward iterator, Bidirectional iterator and Random – access iterators.
+Input iterators are considered to be the weakest as well as the simplest among all the iterators available, based upon their functionality and what can be achieved using them. They are the iterators that can be used in sequential input operations, where each value pointed by the iterator is read only once and then the iterator is incremented.
+
+One important thing to be kept in mind is that forward, bidirectional and random-access iterators are also valid input iterators, as shown in the iterator hierarchy above.
+Salient Features
+So, the following two expressions are valid if A and B are input iterators:
+So, the following two expressions are valid if A is an input iterator:
+Note: The fact that we can use input iterators with increment operator doesnot mean that operator – -() can also be used with them. Remember, that input iterators are unidirectional and can only move in the forward direction.
+So, the following two expressions are valid if A is an input iterator:
+Practical implementation
+After understanding its features and deficiencies, it is very important to learn about its practical implementation as well. As told earlier, input iterators are used only when we want to access elements and not when we have to assign elements to them. The following two STL algorithms can show this fact:
+Run on IDE
+So, this is the practical implementation of input iterators,  single-pass algorithms where only we have to move sequentially and access the elements and check for equality with another element just like first is used above, so here they can be used. More such algorithms are std::equal,  std::equal_range and std::count.
+
+Run on IDE
+Here, since result is the iterator to the resultant container, to which elements are assigned, so for this, we cannot use input iterators, and have made use of output iterators at their place, whereas for first, which only needs to be incremented and accessed, we have used input iterator.
+Limitations
+After studying about the salient features, one must also know its deficiencies as well which make it the weakest iterator among all, which are mentioned in the following points:
+Run on IDE
+Output:
+The above is an example of accessing elements using input iterator, however, if we do something like:
+So, this is not allowed in input iterator. However, if you try this for above code, it will work, because vectors return iterators higher in hierarchy than input iterators.
+That big deficiency is the reason why many algorithms like std::copy, which requires to copy a range into another container cannot use input iterator for the resultant container, because we can’t assign values to it with such iterators and instead make use of output iterators.
+
+So, the two above examples very well show when, where, why and how input iterators are used practically.

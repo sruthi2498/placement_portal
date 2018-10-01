@@ -1,0 +1,5 @@
+Given a string containing all digits, we need to convert this string to a palindrome by changing at most K digits. If many solutions are possible then print lexicographically largest one.
+Examples:
+We can solve this problem using two pointers method. We start from left and right and if both digits are not equal then we replace the smaller value with larger value and decrease k by 1. We stop when the left and right pointers cross each other, after they stop if value of k is negative, then it is not possible to make string palindrome using k changes. If k is positive, then we can further maximize the string by looping once again in the same manner from left and right and converting both the digits to 9 and decreasing k by 2. If k value remains to 1 and string length is odd then we make the middle character as 9 to maximize whole value.
+Run on IDE
+Output:

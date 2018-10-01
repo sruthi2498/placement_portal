@@ -1,0 +1,12 @@
+Syntax:
+Parameters: This function accept no paramters.
+Return Value: This function returns the sequence preceeding the matched sequence in the target string.
+Note: First element always contains the whole regex match while the others conatain the particular Capturing Group.
+Below program illustrate the above function: 
+Run on IDE
+Syntax:
+Parameters: This function accepts no paramters.
+Return Value:T his function returns the sequence succeeding the matched sequence in the target string.
+Note: First element always contains the whole regex match while the others conatain the particular Capturing Group.
+Below program illustrate the above function: 
+Run on IDE

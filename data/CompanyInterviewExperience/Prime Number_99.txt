@@ -1,0 +1,15 @@
+Given a number, determine whether it is a valid Hyperperfect Number.
+A number n is called k-hyperperfect if: n = 1 + k ∑idi where all di are the proper divisors of n.
+Taking k = 1 will give us perfect numbers. 
+The first few k-hyperperfect numbers are 6, 21, 28, 301, 325, 496, 697, … with the corresponding values of k being 1, 2, 1, 6, 3, 1, 12, …
+ Examples: 
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Given k, we can perform a few checks in special cases to determine whether the number is hyperperfect:
+Reference : 
+https://en.wikipedia.org/wiki/Hyperperfect_number

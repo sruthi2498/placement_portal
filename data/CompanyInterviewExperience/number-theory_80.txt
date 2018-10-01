@@ -1,0 +1,73 @@
+Given a positive integer n such that n > 2. Divide numbers from 1 to n in two groups such that absolute difference of sum of each group is minimum. Print any two groups with their size in first line and in next line print elements of that group.
+Examples:
+
+We can always divide sum of n integers in two groups such that their absolute difference of their sum is 0 or 1. So sum of group at most differ by 1. We define sum of group1 as half of n elements sum.
+Now run a loop from n to 1 and insert i into group1 if inserting an element doesn’t exceed group1 sum otherwise insert that i into group2.
+
+Run on IDE
+Run on IDE
+Run on IDE
+// C# program to divide n integers
+// in two groups such that absolute
+// difference of their sum is minimum
+using System;
+using System.Collections;
+class GFG
+{
+// To print vector along size
+static void printVector(ArrayList v)
+{
+	// Print vector size
+	Console.WriteLine(v.Count);
+	// Print vector elements
+	for (int i = 0; i < v.Count; i++)
+		Console.Write(v[i] + " ");
+
+	Console.WriteLine();
+}
+
+// To divide n in two groups 
+// such that absolute difference 
+// of their sum is minimum
+static void findTwoGroup(int n)
+{
+	// Find sum of all elements upto n
+	int sum = n * (n + 1) / 2;
+
+	// Sum of elements of group1
+	int group1Sum = sum / 2;
+	
+	ArrayList group1 = new ArrayList();
+	ArrayList group2 = new ArrayList();
+
+	for (int i = n; i > 0; i–)
+	{
+		// If sum is greater then
+		// or equal to 0 include i
+		// in group1 otherwise
+		// include in group2
+		if (group1Sum – i >= 0)
+		{
+			group1.Add(i);
+			// Decrease sum of group1
+			group1Sum -= i;
+		}
+		else
+		{
+			group2.Add(i);
+		}
+	}
+	// Print both the groups
+	printVector(group1);
+	printVector(group2);
+}
+// Driver code
+public static void Main()
+{
+	int n = 5;
+	findTwoGroup(n);
+}
+}
+// This code is contributed by mits
+Run on IDE
+

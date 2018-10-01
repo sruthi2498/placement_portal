@@ -1,0 +1,93 @@
+How did it start?
+I completed and submitted the 4 programs at the link: https://amazon.interviewstreet.com/challenges/dashboard/#problems
+Later on I came to know that the recruitment through this link is over. So I contacted a few of HR persons at Amazon, and I got a new link for online programming test.
+
+Online Programming Round: (5 methods, 2 hours)
+1)     A sentence is given which contains lowercase English letters and spaces. It may contain multiple spaces. Get first letter of every word and return the result as a string. The result should not contain any space. Complete the following method:
+static String getFirstLetterWord(String text) {  }
+2)     Given an array. Iterate it for the given number of times. And then return the summation of the resultant elements.
+Ex: Array is { 1,2,5,6}, N=2
+After 1st iteration: {2-1, 5-2, 6-5}={1,3,1}
+After 2nd : {3-1, 1-3}={2,-2}
+Sum is 2  + (-2) = 0
+If only one element remains in the array, the element remains the same after applying the iteration. Complete the method.
+static int iterateSequence(Vector<Integer> a, int N) { }
+3)     Find Nth largest element in the BST. Complete the method.
+staticintnLargeBST(Node root, int N) {}
+Given that
+4)     Swap adjacent nodes in the linked list. Change the links, not the data. Complete the method.
+Ex:1, 2, 3, 4
+o/P: 2, 1, 4, 3
+ex: 1,2,3,4,5
+op: 2, 1, 4, 3, 5
+5)     Find length of the Longest-Increasing-Subsequence.
+e.g.1.
+i/p: 1, 2, 3
+o/p: 3
+explanation: the sequence is increasing
+e.g.2
+i/p: 4,5,6,7,8,1,2,1,2,3,5,4,6,7,8,9,0,6,7
+o/p: 8
+xp: 1,2,3,4,6,7,8,9
+e.g.3
+i/p: 1,2,9,4,5,10,7,8
+o/p: 6
+xp: 1,2,4,5,7,8
+e.g.4
+i/p: 20, 3,22, 5,50, 34, 49, 91,110
+o/p:6
+xp: 20,22,34,49,91,110
+OR
+3,5,34,49,91,110
+Complete the method.
+static int lengthLIS(Vector<Integer> sequence) {}
+
+Telephonic Interview 1:
+1)     A M x N matrix, filled with 0s and followed by 1s. Find the row which contains minimum number of 0s. E.g.
+0 0000 1
+0 0 1 111
+0 00 1 11
+The answer is 2nd row. (Row index: 1)
+2)     Find whether given two strings are anagrams of each other.
+3)     Given an array of size N, move the first d elements to its last.
+e.g. {1, 2, 3, 4, 5}, d=2
+
+Telephonic Interview 2:
+1)     Given a BST, find the node which contains the value which is equal to (or lowest greater than) the input value.
+2)     Kadane’s algorithm for 1 dimensional array.
+3)     Given a point P and other N points in two dimensional space, find K points out of the N points which are nearer to P.
+
+Face-to-face Interview 1: (Hyderabad, Date: November 08, 2012)
+1)     Given a Singly Linked List which contains integers, bring odd values in the beginning and even values at the end. The relative order of odd values, and that of even values should be maintained as it is.
+e.g. 34, 45, 78, 10, 33, 5
+2)     Given N sets of integers, remove some sets so that the remaining all sets are disjoint with one another. Find the optimal solution so that the number of sets remaining at the end is maximum.
+
+Face-to-face Interview 2 (with a manager):
+1)     Given an array of size N, a window of size W slides over it by increment of slide S. If the window reaches to the end, we should stop there. Find a formula in form of N, S, W so that we can find the number of valid windows. Write a program to find minimum in every window and print it. Optimize it.
+e.g. {1,2,3,4,5}, W=2, S=1
+first window: {1,2} min=1
+second window(increment by S=1): {2,3}, min=2
+…
+last window: {4,5}, min=4
+The array might not be sorted. I have taken sorted array for simplicity.
+
+Face-to-face Interview 3:
+1)     Trim the Given BST by given min and max values. It means remove the nodes which have values less than min or greater than max. Write iterative and recursive – both the solutions.
+2)     Given an array of strings, find the string which is made up of maximum number of other strings contained in the same array.
+e.g. “rat”, ”cat”, “abc”, “xyz”, “abcxyz”, “ratcatabc”, “xyzcatratabc”
+Answer: “xyzcatratabc”
+“abcxyz” contains 2 other strings,
+“ratcatabc” contains 3 other strings,
+“xyzcatratabc” contains 4 other strings
+3)     Find integer value of sqrt(N). Do not use any library functions or any mathematical solution.
+
+Face-to-face Interview 4 (with the manager of the unit of opening):
+1)     Given a 2-dimensional array of integers, find the value 1 in the array, and set all those rows, and columns to 1, which contains one of the values as 1.
+2)     Suppose you are working in companies like naukri.com. You need to collect email Ids and contact numbers of all the Software Engineers aged between 25 to 40, in India. How will you do that?
+3)     Suppose a person of the age of your grandfather works on computer. He knows little about the computer. And he complains that it was working fine, but for last 2 days, it has become very slow. How will you solve it? What could be the reasons?
+4)     Design an IVR system for a Restaurant in which customers can book their tables for lunch and/or dinner. Advance booking for 2 or 7 days/as you wish. After the request from user, respond to him that you will confirm the request within 5 minutes. Check availability and send SMS confirming the same. If the SMS is delivered then assume that the customer is genuine. If the SMS is not delivered properly, discard the user request, as it is not genuine.
+i)       How can you take names and email Ids of the customers during the process?
+ii)     What can you do for repeat customers? How will you identify the repeat customers?
+iii)   If there is request for a team size greater than the table size, what will you do? E.g. request for 10 persons when table sizes are 6, 4 and 2.
+All the Best!
+

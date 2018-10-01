@@ -1,0 +1,20 @@
+Banner ads are rectangular image or text ads that occupy a spot within an app’s layout. If you’re new to mobile advertising, banner ads are the easiest to implement.
+This article shows you how to integrate banner ads from AdMob into an Android app.
+Example –
+
+First create a new project in Android Studio and add the following codes to import the google Mobile Ads SDK.
+In the  project-level build.gradle file, add the highlighted code to the allprojects section.
+Run on IDE
+In the app-level build.gradle file, add the highlighted code to dependencies section.
+Run on IDE
+Add the following code to Main Activity to initialize Mobile Ads SDK (this only needs to be done once in app lifecycle). You can find the the App ID in AdMob console.
+Run on IDE
+Add the highlighted code to activity_main.xml to show banner ad.
+activity_main.xml –
+Run on IDE
+Add the highlighted code to Main Activity to show Banner Ad.
+MainActivity.class –
+Run on IDE
+Add the Admob App Id and Banner Ad Id to string.xml.
+strings.xml –
+Run on IDE

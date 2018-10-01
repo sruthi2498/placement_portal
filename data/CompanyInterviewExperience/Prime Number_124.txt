@@ -1,0 +1,10 @@
+A palindromic prime (sometimes called a palprime) is a prime number that is also a palindromic number. 
+Given a number n, print all palindromic primes smaller than or equal to n. For example, If n is 10, the output should be “2, 3, 5, 7′. And if n is 20, the output should be “2, 3, 5, 7, 11′.
+Idea is to generate all prime numbers smaller than or equal to given number n and checking every prime number whether it is palindromic or not.
+Methods used
+Below is the implementation of above algorithm:
+
+Run on IDE
+Run on IDE
+Run on IDE
+

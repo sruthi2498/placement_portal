@@ -1,0 +1,13 @@
+An employee works for an employer for 7 days.  The employer has a gold rod of 7 units.  How does the employer pays to the employee so that the employee gets 1 unit at the end of everyday.  The employer can make at most 2 cuts in rod.
+ 
+ 
+ 
+Solution:
+Employer can pay for seven days by making 2 cuts in a way that he has 3 rods of size 1, 2 and 4.
+1st Day: Employer gives 1 unit cut.
+2nd day: Takes back 1 unit cut from employee given on first day and gives 2 unit cut.
+3rd Day: Gives both 1 unit and 2 unit cuts.
+4th Day: Takes back cuts of 1 and 2 units. Gives the cut of 4 units.
+5th Day: Gives cut of 1 unit.
+6th Day: Takes back cut of 1 unit and gives cut of 2 units.
+7th Day: Gives cut of 1 unit.

@@ -1,0 +1,215 @@
+
+Examples:
+Given below is the implementation for the above stated problem.
+
+Run on IDE
+Run on IDE
+# python 3 program to print incrementing
+# and decrementing tringle pattern
+if __name__ == “__main__”:
+	N = 3 # initializing N
+	N -= 1
+	r = 5
+	for i in range( r):
+		if i <= r // 2:
+			count = N + 1
+			for j in range(i + 1):
+				N += 1
+				print(str(N), end = " ")
+			
+			print()
+		
+		else :
+			N = count - (r - i)
+			count = N
+			for j in range(i, r):
+				print(str(N), end = " ")
+				N += 1
+			
+			print()
+
+# This code is contributed
+# by ChitraNayal
+
+
+[tabby title="C#"]
+
+// C# Program for incrementing
+// or decrementing triangle pattern
+using System; 
+
+class GFG
+{
+public static void Main()
+{
+	int i, j, r, N, count = 0;
+	N = 3; // initializing N
+	N--;
+	r = 5;
+	for (i = 0; i < r; i++)
+	{
+		if (i <= r / 2) 
+		{
+			count = N + 1;
+			for (j = 0; j <= i; j++) 
+			{
+				N++;
+				Console.Write(N + " ");
+			}
+			Console.Write("\n");
+		}
+		else
+		{
+			N = count - (r - i);
+			count = N;
+			for (j = i; j < r; j++) 
+			{
+				Console.Write(N + " ");
+				N++;
+			}
+			Console.Write("\n");
+		}
+	}
+}
+}
+
+// This code is contributed 
+// by ChitraNayal
+
+
+[tabby title="PHP"]
+
+
+Examples:
+Given below is the implementation for the above stated problem.
+
+Run on IDE
+// Java program for incrementing
+// and decrementing triangle pattern
+class GFG
+{
+public static void main(String[] args)
+{
+	int i, j, r, N, N1;
+	N1 = 3;
+	N = 0;
+	r = 5;
+	for (i = 0; i < r; i++) 
+	{
+		if (i <= r / 2)
+		{
+			N = N1;
+			for (j = 0; j <= i; j++) 
+			{
+				N++;
+			}
+			N1 = N;
+			for (j = 0; j <= i; j++) 
+			{
+				N--;
+				System.out.print(N + " ");
+			}
+
+			System.out.println();
+		}
+		else 
+		{
+			for (j = i; j < r; j++)
+			{
+				N--;
+				System.out.print(N + " ");
+			}
+			System.out.println();
+		}
+	}
+}};
+
+// This code is contributed 
+// by ChitraNayal
+
+
+
+[tabby title="Python 3"]
+
+# python 3 program for incrementing
+# and decrementing triangle pattern
+if __name__ == "__main__":
+
+	N1 = 3
+	N = 0;
+	r = 5;
+	for i in range( r):
+		if i <= r // 2:
+			N = N1
+			for j in range(i + 1):
+				N += 1
+			
+			N1 = N
+			for j in range(i + 1):
+				N -= 1
+				print(N, end = " ")
+
+			print()
+		
+		else :
+			for j in range(i, r):
+				N -= 1
+				print(N, end = " ")
+			
+			print()
+
+# This code is contributed 
+# by ChitraNayal
+
+[tabby title="C#"]
+
+// C# program for incrementing
+// and decrementing triangle pattern
+using System;
+
+class GFG 
+{
+public static void Main() 
+{
+	int i, j, r, N, N1;
+	N1 = 3;
+	N = 0;
+	r = 5;
+	for (i = 0; i < r; i++) 
+	{
+		if (i <= r / 2) 
+		{
+			N = N1;
+			for (j = 0; j <= i; j++)
+			{
+				N++;
+			}
+			N1 = N;
+			for (j = 0; j <= i; j++) 
+			{
+				N--;
+				Console.Write(N + " ");
+			}
+
+			Console.Write("\n");
+		}
+		else 
+		{
+			for (j = i; j < r; j++)
+			{
+				N--;
+				Console.Write(N + " ");
+			}
+			Console.Write("\n");
+		}
+	}
+}};
+
+// This code is contributed 
+// by ChitraNayal
+
+
+[tabby title="PHP"]
+
+
+

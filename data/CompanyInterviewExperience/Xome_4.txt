@@ -1,0 +1,20 @@
+Round-1:(1:15 min)
+Basic questions on runtime polymorphism and static polymorphism
+Multiple inheritance in java how can we implement using interfaces.
+Connect all the nodes that are at the same level.
+Implement stack such that middle element must be implement in constant time.
+Round 2:(1 hr)
+Your app uses a 3rd party video player. The VP has the functionalities – play, pause, seek, close. On close, the VP component makes a callback to your app. It passes the below params on close –
+a) total length of the video in seconds
+b) array of VideoPart objects, where each VideoPart {startTime; endTime;}. VideoPart denotes continuous part of the video that was watched withuot any disturbance due to pause or seek. Sequence of VP objects in the array, is the same sequence as he watched the video parts.
+60, [{0, 60}]
+60, [{0, 30}, {30, 60}]
+return a int value(0, 1) denoting the user has watched the entire video or not.
+Round-3:(1:15min)
+Removing duplicates in a given sorted array
+Removing all nodes in a given bst.
+Group reversal in a linked list.
+Round-4(1:15min)
+How can we sum at each level ..discussed on various of dfs and bfs approaches 
+Round-5(1:05min)
+Given a binary tree..and node value.print the nearest leaf node for the node with  given key.

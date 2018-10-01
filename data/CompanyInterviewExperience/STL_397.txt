@@ -1,0 +1,6 @@
+Implementation of Insertion Sort using STL functions.
+Pre-requisites : Insertion Sort, std::rotate, std::upper_bound, C++ Iterators.
+The idea is to use std::upper_bound to find an element making the array unsorted. Then we can rotate the unsorted part so that it ends up sorted. We can traverse the array doing these operations and the result will be a sorted array.
+The code is offline on purpose to show hard-coded and easy to understand code.
+Run on IDE
+Output:

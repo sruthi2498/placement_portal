@@ -1,0 +1,16 @@
+Given a positive integer N whose unit’s digit is 3. Find the number of 1s in the smallest repunit which is divisible by the given number N. Every number whose unit’s digit is 3 has a repunit as its multiple. A repunit is a number which has only ones. It is of the form (10n – 1)/9.
+Examples:
+Input: 3
+Output: 3
+As 3 divides 111 which is the smallest repunit
+multiple of the number. So the number of ones in 111 is 3.
+Input: 13
+Output: 6
+The repunits are 1, 11, 111, 1111, …. the next repunit to x will always be x*10+1. If the remainder left by x repunit is r then remainder left by the next repunit will always be (r*10+1)%n. Since the repunit can be very large, there is no need to find the repunit number. Simply counting the number of ones will give us the answer.
+So, find out the remainders of all repunit numbers until the remainder becomes 0. Once it does, then the count of iterations done to make remainder 0 will be the number of 1’s. 
+Below is the implementation of above approach :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

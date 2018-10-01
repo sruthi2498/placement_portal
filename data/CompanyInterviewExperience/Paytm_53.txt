@@ -1,0 +1,12 @@
+Given an array that represents elements of arithmetic progression in order. One element is missing in the progression, find the missing number. 
+Examples: 
+A Simple Solution is to linearly traverse the array and find the missing number.   Time complexity of this solution is O(n). 
+We can solve this problem in O(Logn) time using Binary Search.  The idea is to go to the middle element. Check if the difference between middle and next to middle is equal to diff or not, if not then the missing element lies between mid and mid+1.  If the middle element is equal to n/2th term in Arithmetic Series (Let n be the number of elements in input array), then missing element lies in right half.  Else element lies in left half.
+Following is implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Exercise:
+Solve the same problem for Geometrical Series.  What is the time complexity of your solution?  What about Fibonacci Series?

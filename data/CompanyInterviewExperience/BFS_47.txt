@@ -1,0 +1,23 @@
+Given an undirected graph and a set of vertices, find all reachable nodes from every vertex present in the given set.
+Consider below undirected graph with 2 disconnected components.
+
+
+
+ 
+
+To store the reachable nodes, use a map m with key as component number and value as a vector which stores all the reachable nodes.
+To find reachable nodes for a node u return m[visit[u]]
+Look at the pseudo code below in order to understand how to assign component numbers.
+For the graph shown in the example the visit array would be.
+
+For the nodes 1, 2, 3 and 4 the component number is 1. For nodes 5, 6 and 7 the component number is 2.
+C++ Implementation of above idea
+Run on IDE
+Output:
+Time Complexity Analysis:
+n = Size of the given set
+E = Number of Edges
+V = Number of Nodes
+O(V+E) for BFS
+In worst case all the V nodes are displayed for each node present in the given, i.e only one component in the graph so it takes O(n*V) time.
+Worst Case Time Complexity : O(V+E) + O(n*V)

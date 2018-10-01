@@ -1,0 +1,48 @@
+The Initial shortlisting was done on the basis of pointers(throughout 7).
+Written Round
+1) English :- 25 questions (25 min)
+2) Computer Science subjects :- 25 questions (35 min)
+3) Logical Reasoning :- 15 questions (15 min)
+4) Quantitative :- 15 questions (15 min)
+The questions were of average difficulty.It was all about managing time.Computer Ability section had questions related to Data Structures,C output,basic DBMS and OOPs concepts.And Quant,LR and English can be prepared from Indiabix
+36 people were shortlisted after this round.
+Technical Interview (50 minutes)
+1) Tell me about yourself
+2) Tell me about your research topic
+3) He gave me paper and asked me to write concept of OOP. I did. Then he asked me to write code. Do further improvement. Cross questioning.
+4) In the above code how these variables will get memory and where ? In inheritance code he asked how parent and child variables will get memory and where ? How they will share data ? Same is asked for polymorphism code.
+6) He indirectly asked how memory is mapped(I mean stack and heap thing)
+7) Write a java program to implement stack.
+8) Write a java program to implement stack using linked list.
+9) Are strings in java mutable or immutable ? What is mutable or immutable ?
+10) Write a code where two codes are running simultaneously. (He indirectly asked me thread implementation)
+11) He then asked-What if I want thread2 to complete half its code and complete other half when thread1 is completed. Answer is to use Thread.sleep(time in ms)
+He came to OS after this. Basic questions.
+12) What is semaphore and why we require it ?
+13) Why we use paging ?
+14) What is race condition ?
+Then DBMS
+15) What is normalisation ? Why we use it ?
+16) What is partial functional dependency ?
+17) Do you know ‘cascade-update’ ?
+Then Software Engineering
+18) What is life-cycle of software development ? I was unable to answer it so I simply said-“Sorry Sir, I am unable to recall it because its been quiet a long time i had read SE”. He answered-“No problem”. He then asked-“What steps you will follow if we give you one project to develop ?”. I answered and he seemed convinced.
+19) How will you rate yourself in data structure out of 10 ? I answered-8. He asked-“How will you decide when to use stack, linked list, array ?”
+20) Why you want to join Philips ?
+Do you want to ask any question ?
+I asked-“What will be my exact work in Philips ?” He answered that it would be in R&D and most of my work will be on Java technology.
+After this round I was immediately called for HR round.
+18 were shortlisted after this round.
+HR Interview
+1) Tell me about yourself.
+2) What are your hobbies ?
+3) How do you see yourself in next 5 years?
+4) She gave me blank paper and pen and gave me situation-“Its 4:30 PM. At this time how many people in Bhopal are having tea ? You can use demographic location, climate etc”. I wrote the areas with aprox population and their % then did something with probability. Actually I think she was checking whether I am doing something to solve the problem or not.
+5) Have you ever been outside your home state for more than 2 months ? She was indirectly asking whether I have problem with living in Bangalore or not ?
+6) What problem you have faced recently and how you overcame it.
+7) Have you worked in team during your project development ? What problems you have faced and how you resolved it ?
+8) What motivates you to continue your work when developing anything ?
+9) How will you motivate your juniors if you are team lead ?
+10) Why Philips ?
+15(4 from M.tech + 11 from B.tech) got placed after this round and I was one of them 🙂
+All the best !

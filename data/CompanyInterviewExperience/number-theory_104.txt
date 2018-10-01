@@ -1,0 +1,14 @@
+In mathematics, Sexy Primes are prime numbers that differ from each other by six. For example, the numbers 5 and 11 are both sexy primes, because they differ by 6. If p + 2 or p + 4 (where p is the lower prime) is also prime.
+They can grouped as:
+Given a range of the form [L, R].The task is to print all the sexy prime pairs in the range. 
+Examples:
+
+Sexy Prime within a range [L, R] can be generated using Sieve Of Eratosthenes. The idea is to generate bool array of Sieve and run a loop of i from L to R – 6 (inclusive) and check whether i and i + 6 are prime or not. If both are prime, print both number.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

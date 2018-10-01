@@ -1,0 +1,81 @@
+First of all I would like to thanks GeeksforGeeks for such a good website.
+Round 1 (Written Test)
+1. GSAT(Global Samsung Aptitude Teset)
+2. 30 Question  30 min. with -ve marking* (20 Q. from. C,C++ n D.S. and 5 from O.S. and 5 from databse and Network,microprocessor)  
+Some  question which i remember…..
+1. what is the output of following
+Run on IDE
+2. how hexadecimal no 1234 store in big endian form there are four option …….
+3. how many queue required for implement  stack.
+4. what thread does not share……
+	a. data
+	b. stack
+	c. code
+	d. message queue
+5. what protocol required for e-mail transfer……….there are four option
+6. what is the complexity of code
+Run on IDE
+7. A process call fork() system call n times than how many new process created(2^n-1).
+8. which is not used for sorting link list..
+	a.quick sort
+	b.merge sort
+	c.heap sort
+	d.All of these can not be used
+9. due to priority of process what type of problem occcurs in priority scheduling..
+10. what is output of the program.
+Run on IDE
+11. which data structure is used  to check for wheather expression is balace or not..
+12. which data structure used for recursive function..
+13. what is output of code
+Run on IDE
+	a.1 1 1 1 1
+	b.1 2 3 4 5
+	c.0 1 2 3 4
+	d.5 5 5 5 5
+14. one question on  the defination of object..
+15. if time slice is greater than the execution time of largest execution time process than round robin acts as…
+16. if derived class has same name function as base calss than it is called..
+17. suppose a process have to need some I?O event than CPU has to wait what is envent to over come this problem(multi programming)..
+18. what is complexcity of merge sort in worst case..
+19. which has greatest space complexity ..
+a. quick sort  b. selection  c. merge sort  d. radix sort
+Technical Interview :-
+1. how to find  your system is big endian or not.
+2. write the code of heap sort and compexity in different cast.
+3. insertion and delection in min heap and max heap..
+4. write the code of quick sort and explain your code with an example
+5. iterative implemention of inorder,preorder and postorder 
+6. deletion in BST
+7. he wrote an example of mulilevel inheritance and ask in what order  destractor called and why?
+8. what is virtual function.
+9. what is encapsulation explain and how it is achived and give real life example…..
+10. he drew a stack elements are (top to buttom) 8 3 2 1 4
+	write a recursu=ive function to print 	4 1 2 3 8
+11. Advantages of C over C++.
+12. what is function pointer how to use it……
+13. what is structure padding why it is ocurred.
+14. how to do this A programe’s varible can not  used by another program
+15.
+Run on IDE
+  what is difference b/w them
+16. implement stack using Link list and performe push() and pop() operation..
+17. deletion in link list
+18. detect loop in link list how to remove
+19. how to find middle in link list
+20. advantages of linlk llist over array.
+21. sorted merge in link list
+22. what is multi programming
+23. what is page fault and why it occur..
+24. what is virtual memory.
+25. about the page replacement Algorithm LRU
+26. what is Inter process communcation ,types and which one is fast and why?
+27. what is fragmentation …..brief decusion on external fragmentation..
+28. one simple question from network and 1 from DBMS
+HR Interview :-
+1. find the largest and second largest element in array give 4 different approch
+2. tell me about yourself?
+3. why do you want to join samsung?
+4. what do you know about samsung?
+and finally after 2 hour got placed in SRI NOIDA………… 🙂
+
+

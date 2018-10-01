@@ -1,0 +1,12 @@
+Maps are associative containers that store elements in a mapped fashion. Each element has a key value and a mapped value. No two mapped values can have same key values.
+empty() function is used to check if the map container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)

@@ -1,0 +1,3 @@
+Run on IDE
+If the class being declared is the primordial class Object, then the default constructor has an empty body. Otherwise, the default constructor simply invokes the superclass constructor with no arguments.
+Quiz on Constructors

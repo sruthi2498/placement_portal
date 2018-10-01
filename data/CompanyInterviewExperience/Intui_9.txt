@@ -1,0 +1,18 @@
+Intuit, Inc. visited our campus for recruiting interns over the Summer. There was a CGPA cut-off for writing the written test followed by 2 F2F interviews for the shortlisted students.
+Here is my experience and interview questions asked:
+Written Round (Write algorithm/ pseudo code/ code(in any lang) :
+1) Find whether an array of N elements have Y consecutive integers with sum Z. What is the complexity of the above algorithm?
+2) Add two binary numbers represented by linked lists. (classical interview question)
+3) Sorted array is rotated. Write a function search(int) which will return the index of an element to be searched if present else return -1 in O(logN).
+15 students were shortlisted for the F2F interviews.
+Round 1
+1. A lady buys goods worth Rs 200 from a shop, whose shopkeeper is selling the goods with zero profit. The lady gives him a Rs 1000 note. The shopkeeper gets the change from the next shop, keeps Rs 200 for himself, and returns Rs 800 to the lady. Later the shopkeeper of the next shop comes with the Rs 1000 note saying “duplicate” and takes his money back. How much loss did the shopkeeper take?
+2. An integer between 2 consecutive prime numbers is divisible by 6. True/ False?
+3. Stacks/ OOPs. Simple questions.
+4. 8 balls ->7 same weight but 1 is heavy. 2 tries to weight on weight scale. Find heavier ball.
+5. Water Jug Puzzle – 3L , 5L make 4L
+6. DFS and BFS
+Round 2
+1. Median of two sorted arrays
+2. String array of words given. Least possible steps from one word to another.
+Intuit, Inc. is an amazing company 🙂 and you will surely learn a lot during your internship. Thanks to GeeksForGeeks for helping me prepare for the same!

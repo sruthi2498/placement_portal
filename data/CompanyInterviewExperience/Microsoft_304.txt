@@ -1,0 +1,49 @@
+Hello everyone, I recently got selected for the internship at Microsoft IDC. GeeksForGeeks helped me a lot in preparing for the coding tests as well as for interviews. The positions that they were interviewing for were SDE and SDET(Testing).
+1st Round. – Online – 30 mins
+The first & second rounds were online rounds which were hosted on cocubes.com . There were 15 MCQ questions. For me most of the questions were from C++, C. For others very few questions were from microprocessors, aptitude.
+2nd Round. – Online – 30 mins
+This was a coding round in which two problems were given.
+Problem – 1: Given a singly linked list,in which the last node points to the middle node,delete the middle node and remove the loop.
+Problem – 2: Given an array of size n, find the majority element.Majority element is one which gets repeated for more than n/2 times.
+3rd Round –Telephonic interview- 45 mins
+1. Tell about yourself? [Don’t tell ur fathers name, etc tell about ur
+Hobbies, extra-curricular activities, accomplishments, ur strengths, ambition, etc.,]
+2. Tell about any challenging task that you met in your life.[I told about the difficulties met in my project, it took 30 mins]
+3. Tell about your achievements.
+4. What is a good coding.
+5. Why do you want to work for Microsoft?
+6. Any questions?[Ask some interesting questions,it is a plus]
+4th Round – Interview[conducted in Bangalore IDC]-45 mins
+1. Given an address of a node in a singly linked list,delete that node.
+2. Find the nth node from the end of a singly linked list.
+3. Check whether a binary tree is a BST.
+4. About project.
+5. Any questions?
+5th Round – Interview[conducted in Bangalore IDC]-30 mins
+1. About project
+2. Why do you want to work for Microsoft?
+3. What is the disadvantage that you think that gmailhas?How will you overcome it?[for these types of questions if you have not used the product for which you were asked to find a disadvantage, you can tell the interviewer so that they ‘ll be suggesting you some other product]
+4. Insert a node in a doubly linked list.
+5. Any questions?
+6th Round – Interview[conducted in Bangalore IDC]
+1. Given a rotated array which is sorted search for an element in it.
+2. Why do you want to work for Microsoft?
+3. Tell about your strengths.
+4. Any questions?
+My tips to crack Microsoft interview:
+While answering the questions remember the following:
+1.  Be yourself.
+2.  Show excitement and interest in solving the questions.
+3.  Think aloud.
+4.  Clarify doubts regarding the question.Don’t assume things.
+5.  Cover all the test cases in your code.
+6.  Don’t interrupt.
+7.  Be up-to-date about the company.This will help you in asking some interesting questions about the company.
+8.  Don’t write about things that you are not sure about in your resume.
+9.  Enjoy the interview.Don’t be nervous.
+Books and websites that I referred:
+1.  www.geeksforgeeks.org
+2.  Cracking The Coding Interview by Gayle Laakmann McDowell (a very good book) If you get selected for internship, you also have a chance to get converted into an employee over there,if you do the project given there well and if you perform well in the interviews that they will be conducting after completing your project.
+All the best!!!
+I would like to thank GeeksForGeeks for mainting a high quality problem set for coding tests and interviews.
+

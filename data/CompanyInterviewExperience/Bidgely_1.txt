@@ -1,0 +1,15 @@
+Given an array of n elements. Find maximum sum of pairwise multiplications. Sum can be larger so take mod with 10^9+7.  If there are odd elements, then we can add any one element (without forming a pair) to the sum.
+Examples:
+1- Sort the given array.
+2- First, multiply the negative numbers pairwise from the starting and add to the total_sum.
+3- Second, multiply the positive numbers pairwise from the last and to the total_sum.
+4- Check if negative and positive both counts are odd, then add the product of last pair
+ i.e. last negative and positive left.
+5- Or if any of the one counts is odd, then add that element left.
+6- Return sum.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

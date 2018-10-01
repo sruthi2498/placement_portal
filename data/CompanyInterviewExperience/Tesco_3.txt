@@ -1,0 +1,14 @@
+Given an array of integers and a sum, the task is to print all subsets of given array with sum equal to given sum.
+Examples:
+Asked in Tesco
+
+This problem is mainly an extension of Subset Sum Problem. Here we not only need to find if there is a subset with given sum, but also need to print all subsets with given sum.
+Like previous post, we build a 2D array dp[][] such that dp[i][j] stores true if sum j is possible with array elements from 0 to i.
+After filling dp[][], we recursively traverse it from dp[n-1][sum]. For cell being traversed, we store path before reaching it and consider two possibilities for the element.
+1) Element is included in current path.
+2) Element is not included in current path.
+Whenever sum becomes 0, we stop the recursive calls and print current path.
+Below is implementation of above idea.
+Run on IDE
+Run on IDE
+

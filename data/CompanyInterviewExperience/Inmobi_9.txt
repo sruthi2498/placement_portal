@@ -1,0 +1,25 @@
+Inmobi recently visited my campus and i got hired. I would like to share my experience.
+Round 1: 25 MCQ and 2 coding questions.
+It was hosted on Hackerrank. MCQ’s are all technical questions and also have negative marking (+1,-0.25). We had 20 minutes to do the 25 MCQ’s
+The coding questions were:
+1. Given an array of integers and a number, count the total number of subsets of the array with sum equal to the number. (15 minutes)
+2. Given an array of integers, you need to check if its an arithmetic progression, geometric progression or fibonacci series. You then need to return the next number in the series or -999 if the given numbers does not follow any of the above series. The fibonacci series need not start with 0. A valid fibonacci series could be 8,9,17 (25 minutes)
+11 of us were then selected for personal interviews.
+Round 2: 
+The interviewer started with a discussion about my CV. She asked me about my good and bad experiences with coding. The questions she asked were relatively easy.
+1. Given a linked list of integers, remove all duplicates.
+2. She asked me to design a database. 1 table for employees, another for department. Initially 1 employee could be in just 1 department but each department has multiple employees. Then she changed it such that each employee could be in many departments and each department can have multiple employees. Then she asked me to write a simple query to list all the employees that belonged to a specific department.
+3. Implement a queue using stack
+Round 3:
+The interviewer again started with a detailed discussion of my CV.
+1. He asked me to write a simple program which explains all the concepts of multithreading and explain it to him considering him a layman.
+2. He then asked me to design a class which has two random numbers and a mathematical operation in between them. If the user answers correctly, then a new question comes, otherwise the user tries the answering the same thing again. There is also a timer and a score to keep track of. The timer starts as soon as the user hits the start button button.
+After i designed everything, he gave me 10 minutes to find bugs in my own code.
+Round 4:
+The fourth round was a bit tiring as I had only 5 mins between round 3 and round 4. The interviewer scanned through my CV but did’nt ask me anything about it.
+1. Given two strings, you need to transform one into the other. You can only transform 1 character at a time. The string formed after each character change should be a recognised word in the English language. If it’s not, that change is not allowed and you need to go back. A function to check if a word is present in the English language was provided to me.
+2. Given a matrix of n*n, print all the paths from 0,0 to n,n. You can either increase the x-coordinate one at a time or the y co-ordinate. Decreasing co-ordinates or gong diagonally is not allowed.
+Round 5.
+This was an HR interview. He asked me various questions trying to make it awkward. The key here is to stay calm and confident.
+Tips: Be frank, be honest with your interviewer. If you are not comfortable in 1 topic, tell your interviewer honestly. Do well in other areas. Look for hints from the interviewer if you get stuck. They want to see how you approach a problem.
+I would like to thank Geeksforgeeks to help me prepare and land this awesome job. 

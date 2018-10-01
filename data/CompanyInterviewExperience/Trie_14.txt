@@ -1,0 +1,8 @@
+A Trie is used to store dictionary words so that they can be searched efficiently and prefix search can be done. The task is to write a function to count the number of words.
+Example :
+
+In Trie structure, we have a field to store end of word marker, we call it isLeaf in below implementation. To count words, we need to simply traverse the Trie and count all nodes where isLeaf is set.
+
+Run on IDE
+Run on IDE
+

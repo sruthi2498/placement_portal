@@ -1,0 +1,32 @@
+After going through the template definition of various STL algorithms like std::reverse, std::next_permutation and std::reverse_copy you must have found their template definition consisting of objects of type Bidirectional Iterator. So what are they and why are they used ?
+Bidirectional iterators are one of the five main types of iterators present in C++ Standard Library, others being Input iterators, Output iterator, Forward iterator and Random – access iterators.
+Bidirectional iterators are iterators that can be used to access the sequence of elements in a range in both directions (towards the end and towards the beginning). They are similar to forward iterators, except that they can move in the backward direction also, unlike the forward iterators, which can move only in forward direction. 
+It is to be noted that containers like list, map, multimap, set and multiset support bidirectional iterators. This means that if we declare normal iterators for them, and then those will be bidirectional iterators, just like in case of vectors and deque they are random-access iterators.
+
+One important thing to be kept in mind is that random-access iterators are also valid bidirectional iterators, as shown in the iterator hierarchy above.
+Salient Features
+So, the following two expressions are valid if A and B are Bidirectional iterators:
+Run on IDE
+Output:
+So, as we can see here we can both access as well as assign value to the iterator, therefore the iterator is a bidirectional iterator.
+
+So, the following two expressions are valid if A is a bidirectional iterator:
+That is why, its name is bidirectional, which shows that it can move in both directions.
+Run on IDE
+Output:
+Since, we are starting from the end of the list and then moving towards the beginning by decrementing the pointer, which shows that decrement operator can be used with such iterators. Here, we have ran the loop till the iterator becomes equal to the begin(), that is why the first value is not printed inside the loop and we have printed it separately.
+
+Practical implementation
+After understanding its features, it is very important to learn about its practical implementation as well. As told earlier, Bidirectional iterators can be used for all the purposes that forward iterator can be used for along with in those situations where iterator needs to be decremented. The following two STL algorithms can show this fact:
+Run on IDE
+Here, we can see that we have declared last as a bidirectional iterator, as we cannot decrement a forward iterator as done in case of last, so we cannot use it in this scenario, and we have to declare it as a bidirectional iterator only.
+
+Run on IDE
+Here, we can see that we have made use of Random-access iterators, as although we can increment a bidirectional iterator, decrement it as well, but we cannot apply arithmetic operator like + , – to it and this what is required in this algorithm , where (last – first) is done, so for this reason we cannot use a bidirectional iterator in these scenario.
+
+Note: As we know that Bidirectional iterator is higher in hierarchy than forward iterator which is itself higher than input and output iterators, therefore, all these three types of iterators can be substituted by bidirectional iterators, without affecting the working of the algorithm.
+So, the two above examples very well show when, where, why and how bidirectional iterators are used practically.
+Limitations
+After studying about the salient features, one must also know its deficiencies as well although there are not as many as there are in input or output iterators as it is higher in hierarchy.
+Run on IDE
+Output:

@@ -1,0 +1,36 @@
+I was recently interviewed by OLA, I could not make it after the last round. All rounds I had were telephonic, in the last round i was asked to code on collabedit.
+Round 1 (around 35 min):
+1. Given a matrix containing 0’s and 1’s. Find all the rows which are having 1’s at same position.
+   Give all sets satisfying this.
+2. In a stock market given are price of shares spread over a week. On what day should I buy and what day should i sell to get maximum profit.
+https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+3. Being a computer engineer why did I not opt for system side programming than web domain. (I had expr in web domain)
+4. I had expr in web domain so he asked : What is difference between web browser request and ajax call request.
+   — It is simple , by ajax call partial web page can be loaded.
+5. Have you worked on ruby on rails?
+Round 2 :
+1. Given a matrix containing numbers. Find the 0’s and make all the rows and columns corresponding to that index as 0.
+2. Design a structure for a File Uploader service (eg. Dropbox , google drive) . It is a service where multiple person can upload
+   data at same time and it also lists the top five uploaders (who uploaded maximum number of files).
+3. Puzzle : There is a employer and a worker ,employer has gold bar of 7 units and he has to give 1unit each on a day for 7 days.
+   Employer has a magical knife which doen’t works once it performs two cuts(1 cut divides bar into two parts) on bar.
+   How will you cut so that 1 unit on each day can be given to worker.
+4. Print left view of binary tree.
+
+Round 3 :
+1. He discussed about what things they work on Ola. How these things are implemented. Like he mentioned of bar code a product has and catlaog kind of thing.
+2. I had to explain what project I am working on currently, what is the team size.
+3. a)Since I had worked on Sql and databases, so he asked me what data structure will i use to implemet a database.
+   –I gave hashmap as a soln (key is our primary key and other fields we can store in object which will be value for hashmap)
+   b)Now, If in case you want to find all names starting with particular word (eg. ram….).How will you do that.
+   — gave trie structure as soln.
+   c)Now you need to find students whose marks are between a range i.e. between two numbers. How will you do, what data structure will you take in this case.
+   — a simple slon was that, take binary search tree and do inorder traversal of that (I coulnd’t answer this, not clicked me)
+4. Do you want to ask anything.
+
+Round 4 :
+1. Server receives a ping every 30 secs. The ping is load avg on the machine at that time. Find 90% percentile of the load average on the machine
+at any time instant.
+2. Find missing number in an AP.
+
+

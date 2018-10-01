@@ -1,0 +1,6 @@
+Recently i had an online test at hackerank platform for Amazon SDE1 position.
+Following are the questions
+1. Given an unsorted array, trim the array such that twice of minimum is greater than maximum in the trimmed array. Elements should be removed either end of the array.
+https://www.geeksforgeeks.org/remove-minimum-elements-either-side-2min-max/
+2. Given a value V, if we want to make change for V cents, and we have infinite supply of each of C = { C1, C2, .. , Cm} valued coins, what is the minimum number of coins to make the change?
+https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/

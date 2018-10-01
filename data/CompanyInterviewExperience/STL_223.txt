@@ -1,0 +1,10 @@
+The unordered_map::begin() is a built-in  function in C++ STL which returns an iterator pointing to the first element in the unordered_map container or in any of its bucket.  
+Parameters: This function does not accepts any parameters. 
+Return Value: The function returns an iterator pointing to the first element in the unordered_map container.  
+Note: In an unordered map, there is no specific element which is considered as the first element. 
+Below program illustrate the above function.
+Run on IDE
+Parameters:  The function accepts one mandatory parameter n which specifies the bucket number whose first element’s iterator is to be returned. 
+Return Value: The function returns an iterator pointing to the first element in the n-th bucket. 
+Below program illustrate the above function.
+Run on IDE

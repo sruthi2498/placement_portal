@@ -1,0 +1,9 @@
+The multiset::lower_bound() is a built-in function in C++ STL which returns an iterator pointing to the first element in the container which is equivalent to k passed in the parameter. In case k is not present in the set container, the function returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum value in the container, then the iterator returned prints the number of elements in the container.
+Syntax:
+Parameters: This function accepts a single mandatory parameter key which specifies the element whose lower_bound is to be returned.
+Return Value: The function returns an iterator. 
+Below program illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

@@ -1,0 +1,10 @@
+Given an array of numbers, the task is to print those numbers in ascending order separated by commas which have 1, 2 and 3 in their digits. If no number  containing digits 1, 2, and 3 present then print -1.
+Examples:
+
+Asked in : Goldman Sachs
+Approach: First finding all the number in from  of array which contains 1, 2 & 3 then sort the number according to 1, 2 and 3 and then print it.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: Time complexity of the above approach is  O(n).

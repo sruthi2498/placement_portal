@@ -1,0 +1,69 @@
+I recently got selected in flipkart during an on campus placement drive.  These were the questions faced by me. 
+ ONLINE CODING ROUND(2 QUESTIONS)
+ 1- Given two sets of elements we have to find whether the resulting set of LCM of the two sets would be equal or not.
+Ex:- Let the set be X = {2,3,4}
+Then the LCM set would be consisting of all the LCM of any subset of the given set.
+In this case, LCM(X)={2,3,4,6,12}
+Constraints:
+         Number of elements in both sets donot exceed 50.
+         Range of elements i.e A_i and B_i<=10^9
+I solved this question by first segregating the different elements in different set. 
+Let's suppose for set A, A' contains all the elements in A which satisfy A'=A-{A intersection B}
+Similarly a B' for B.
+Now for every element in A', I checked the number of elements(n) that are it's factors in B i.e numbers that may contribute to generating the number in A' in the final LCM(B).
+    If for any number in A' if n<2 then the number can definitely not be in final LCM(B) set and the function should return false.
+    Similar test was carried out for all elements in B'. 
+    If the function didn't return false during these two loops then the answer should be true.
+    Although this logic doesn't cover all cases(like if two sets are {2,5,70} and {2,5,10}....ans is true .....but correct ans is false ), it passed as the test cases were weak.(I mean if such a tough question is in first round       they gotta compensate somewhere else).
+
+2- Given a network of roads connecting cities and capacity of each road(same for all roads)as well as their cost of repair(unique for each road) we are given number of buses(n) running between pair of cities using shortest path only. (Capacity of road= No of buses allowed on that road).
+   Unsafe roads are road where no of buses on the road >  Capacity of the road.
+   Now given n we have to minimize the overall cost of all unsafe roads.
+   Pretty tough from what I recall I understood that we have to calculated the maximum number of disjoint shortest paths so as to    minimize the answer.(My solution only passed one test case).
+Round 1(F-2-F)
+I was asked variety of questions ranging from strings to dp to graphs.
+1- Given a corrupted string i.e it’s original string with just the spaces at wrong places, Construct the original string .We are given a    dictionary of words. 
+  I gave the interviewer a recursive solution. The I was asked to code it. After that I was asked whether I could optimize the code further. I could not.
+2- Given a lane where there are various houses each containing a fixed amount of gold. Now a robber has to rob the houses such  that when he robs a house the adjacent one cannot be robbed.Calculate the maximum amount of gold collected by him.(Classic Dp  question).
+3- Given 1000 elephant ,none of whom exact heights are known, there are statements given which will be of two forms 
+    Calculate the ascending order of the elephants(in terms of height).
+    Seemed tough to me on the first look but after a few minutes I was able to do it.
+    (Construct a DAG using the statements and then topologically sort them to get the answer)
+4- Topologically sort the DAG(excluding forest arrangement) given if the source is not known.
+     For Ex: if edges are 1->2,1->3,2->4,3->4 .
+     then normally we would run dfs from each pt and then choose the node as source which visits all the nodes.
+      This fairly is an O(n^2) algo.
+     I was then asked whether an O(n) algorithm is available.
+     I told the interviewer that if we run dfs from each node but instead of flushing clean the visited array each time we just keep the data then the dfs from the node after which whole visited array is marked i.e all the nodes are visited is the source.
+   when running dfs from a node if at any pt a visited node is encountered we leave the node and move to next child.Just by keeping a stack also during the dfs ….after all the values int the visited array is marked we will have the final topological sorted order of the DAG in the stack.
+5- Given a pond where all the stones are lined at a distance of one unit (C in each row and there are R such rows), each stone has a special value which denotes the length of the jump the frog can make i.e if frog is on stone (x,y) and value is k then frog can jump to (x+dx,y+dy) where dx+dy=k and frog doesn’t leave the bounds.Find the min number of jumps to reach the stone at (R,C).
+   Visualized it in from of a matrix.Did it using DP ……..In case you are wondering, for a frog at cel (x,y) run two loops of dx and dy where net dx+dy=k and do dp[x+dx][y+dy]=min(dp[x][y]+1,dp[x+dx][y+dy]).
+  Answer would be in dp[R][C].
+ Then I was asked to bactrack the path which was quite easy as for dp[x][y] subtract 1 from it and look for the resulting value in cells (i,j) where i<=x and j<=y . Repeat this process till (0,0) is reached.
+This conclued my first round. One or two more questions were also asked but I cannot remember them correctly.
+
+
+
+ROUND 2(F-2-F)
+Technical + HR
+1- Implement LRU and LFU page replacement policy using Data structures.
+    Had already encountered the question while preparing for Amazon.
+    I did it using Doubly Ended queue and a hashmap(Map or BST does not matter as both have same complexity for retrieval and insertion of data).
+2- Given a normal die and a blank die. Fill in the blank die such that probability of sum of the number from both die is same for all the resulting sum and sum has a range from 1 to 12.
+    After a hit and trial I realized the number on blank die would be repeated to given  a even probability distribution.
+    Min element required on blank die = 0
+    Max element required on blank die = 6.
+    mark 3 sides with 0 and three with 6 .
+    Due to the fact that the probability of occurrence of 0 and 6 on the blank die is same and equal to 0.5 ,
+    P(Each sum)=1/2*P(i)=1/12 for each number.
+    Now taking 1/12 in the start then deriving the solution should have been easy but due to the tiring day and worse weather my     mind took the backdoor method.
+  Some HR related questions to minor projects done in the college and questions related to my experience with flipkart as a customer.
+ROUND 3(BONUS ROUND) 
+Four of us who got selected after the second round were called in for a GD round where they told us that they desired to take only two of us.
+We were baffled by the claim.
+They told us that they wanted a group discussion on the topic WHY SHOULD FLIPKART HIRE YOU??
+We went on for 10 minutes trying to butter them with advantages of flipkart and God knows what.
+Then we were given our results on a chit.
+After opening the chit we realized that it was just a prank.
+WTF!!Welcome to flipkart 
+

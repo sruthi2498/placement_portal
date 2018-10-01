@@ -1,0 +1,12 @@
+Prerequisite : Map in STL
+Map is a container, as name suggests used to store a key-value pair. Map has an advantage over other containers by the fact that searching in map, defined by the “key” takes only O(1) time complexity, hence making it useful in various coding fields. The insertion is discussed in this article.
+Run on IDE
+Output:
+
+
+Run on IDE
+Output:
+Run on IDE
+Output:
+
+Related Articlr Article : Searching in Map STL C++

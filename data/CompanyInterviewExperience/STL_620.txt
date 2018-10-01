@@ -1,0 +1,21 @@
+Multisets are a type of associative containers similar to set, with an exception that multiple elements can have same values.
+Functions associated with multiset:
+begin() – Returns an iterator to the first element in the multiset
+end() – Returns an iterator to the theoretical element that follows last element in the multiset
+size() – Returns the number of elements in the multiset
+max_size() – Returns the maximum number of elements that the multiset can hold
+empty() – Returns whether the multiset is empty
+pair insert(const g) – Adds a new element ‘g’ to the multiset
+iterator insert (iterator position,const g) – Adds a new element ‘g’ at the position pointed by iterator
+erase(iterator position) – Removes the element at the position pointed by the iterator
+erase(const g)- Removes the value ‘g’ from the multiset
+clear() – Removes all the elements from the multiset
+key_comp() / value_comp() – Returns the object that determines how the elements in the multiset are ordered (‘<' by default)
+find(const g) – Returns an iterator to the element ‘g’ in the multiset if found, else returns the iterator to end
+count(const g) – Returns the number of matches to element ‘g’ in the multiset
+lower_bound(const g) – Returns an iterator to the first element that is equivalent to ‘g’ or definitely will not go before the element ‘g’ in the multiset
+upper_bound(const g) – Returns an iterator to the first element that is equivalent to ‘g’ or definitely will go after the element ‘g’ in the multiset
+ 
+Run on IDE
+ 
+The output of the above program is :

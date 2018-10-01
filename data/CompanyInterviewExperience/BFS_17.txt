@@ -1,0 +1,15 @@
+Pablo has square chocolate Box of size n x n in which a variety of healthy chocolates are present denoted by ‘H’ initially but he finds out that some of the chocolates are rotten and are unhealthy denoted by ‘U’. In one day the rotten chocolates make all its neighbouring chocolates as unhealthy. This goes on and on until all chocolates present in the chocolate box becomes Unhealthy to eat. Find out the number of days in which the whole chocolate box becomes Unhealthy.
+(Note : It is guaranteed that atleast one of the chocolate is Unhealthy)
+Examples:
+Asked in Amazon, Accolite, Arcesium.
+
+Brute Force Approach:
+Initialize a flag = 1. Use a while loop, inside that while search for an H (searching requires O(n^2) time complexity if we are unable to find a H in the 2-D character array stop incrementing the day counter and set flag as 0 to break the loop.
+Below is the implementation of above approach:
+Run on IDE
+Output:
+Efficient Approach (Uses BFS)
+In this approach, declare a queue which inputs pairs which corresponds to the index of the unhealthy chocolates and then as soon as the index (-1, -1) is reached we increment the numdays counter. This Solution is basically based on calculating levels in level order traversal (Iterative version) of a binary tree in which we push the initial indexes of the unhealthy chocolates instead of root node and incrementing numdays instead of level counter as soon as the index (-1, -1) is reached instead of NULL. As soon as the counter of the flag reaches 2 we break the loop denoting that queue has encoutered two consecutive (-1, -1) pair.
+Below is the implementation of above approach:
+Run on IDE
+Output: 

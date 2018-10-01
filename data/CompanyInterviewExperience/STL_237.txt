@@ -1,0 +1,14 @@
+What is Vector of Tuple?
+A tuple is an object that can hold a number of elements and a vector containing multiple number of such tuple is called a vector of tuple. The elements can be of different data types. The elements of tuples are initialized as arguments in order in which they will be accessed.
+Run on IDE
+ 
+Different ways to sort vector of tuples
+Case 1 : Sorting the vector elements on the basis of first element of tuples in ascending order.
+This type of sorting can be achieved using simple “ sort() ” function. By default the sort function sorts the vector elements on basis of first element of tuples.
+Run on IDE
+Case 2 : Sorting the vector elements on the basis of second element of tuples in ascending order.
+There are instances when we require to sort the elements of vector on the basis of second elements of tuples. For that, we modify the sort() function and we pass a third argument, a call to an user defined explicit function in the sort() function.
+Run on IDE
+Case 3 : Sorting the vector elements on the basis of third element of tuples in ascending order.
+There are instances when we require to sort the elements of vector on the basis of third elements of tuples. For that, we modify the sort() function and we pass a third argument, a call to an user defined explicit function in the sort() function.
+Run on IDE

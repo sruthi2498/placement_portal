@@ -1,0 +1,42 @@
+Round 1(Written):
+Eligibility: All circuit branches. 
+This was a written round consisting of both aptitude and technical questions.There were only 10 questions, 90 minutes duration.
+1 question was on time complexity of searching an unsorted array.
+2 questions were on recursion, ie, number of recursive calls.
+1 question on analysing given function on string.
+1 question was on probability(Two hotels, say A and B. Probability of moving from A to B is 2/3, staying at A is 1/3. Probability of moving from B to A and staying at B is 1/2. If they make decisions each hour, and if they were at A at 7:00 pm, what is the probability that they will be at B at 10:00 pm).
+If a set has elements {1,2,3,4 …. n}. Then what is the sum of elements of it’s power set. (Ex: S = {1,2}. Then power set is {{},{1},{2},{1,2}}. The sum is 6.
+If a set has elements {1,2,3,4,5,6,7,8,9,10}. Then how many subsets of 3 elements has no consecutive elements.
+1 question was on designing a DFA for a string starting with a and ending with c and has at least b in it.
+1 question had machine instructions. We had to find out minimum number of cycles needed to execute the given set of instructions. (a) If the instructions are executed in the given order. (b) If the instructions are executed in random order.
+1 puzzle
+In this round they not only see the answer. They also verify how you approached(So, give correct explaination to your answers. You will have ample amount of time.)
+ 32 were shortlisted among 350. I was one among them.
+
+2nd round(Coding round):
+Two questions were there. 3 hours duration.
+1. Long question, I don’t remember fully. I’ll just give input/output examples. It was basically on string decoding. If jon2snow3 is there the decoded string will be jonjonsnowjonjonsnowjonjonsnow. Given a string and an integer k we have print the kth character in the decoded string
+Input:
+jon2snow3
+8
+Output: 
+n
+2. Given an array and an integer k return the number of contiguous sub arrays whose sum is divisible by k.
+input format:
+n k
+
+input:
+4 5
+10 0 4 5
+output:
+4
+explaination: {10},{0},{10,0},{5} are the sub arrays with sum divisible by 5.
+Remember here also they review each individual’s code. I passed all 10 test cases of first questions and 11 test cases of 2nd question(3 cases exceeded the time limit. One case failed)
+8 were shortlisted in this round.
+3rd round(Technical + HR interview):
+Tell me about yourself.
+Then they asked about one of my projects. About the module I had used it’s features).
+They asked me optimise the code I had written for the first question(I had created the new string as specified in the question) and write code for that. 
+Given a binary tree, find out the maximum sum path from root to leaf. This problem, but they said tree has only positive integers.This is given here at GeeksforGeeks. To store the path I had used global array. They asked me alternative to global array, I said passing array as parameter. Then they asked me about disadvantages of using global variables.
+Given a list of words. Given three operations find out the minimum steps to reach from source string to destination string. Basically, this is some modification of this problem. For this question I said I will use graph traversal techniques. So, they started asking about BFS and DFS, when to use them. 
+Then they asked if I had any questions. Interviewer was an alumni of our college, who got offer from internship in NI. So, I asked him what was his internship experience. What did he work on. He said he worked on the development of new language for image processing. Then I asked him what he is currently working on. He said he is working on LabView. Then the other interviewer asked if I know about LabView. I said I know, but haven’t used it.

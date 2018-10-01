@@ -1,0 +1,45 @@
+Permutation A permutation is an arrangement of elements. A permutation of n elements can be represented by an arrangement of the numbers 1, 2, …n in some order. eg. 5, 1, 4, 2, 3.
+Cycle notation A permutation can be represented as a composition of permutation cycles. A permutation cycle is a set of elements in a permutation which trade places with one another.
+For e.g.
+
+P = { 5, 1, 4, 2, 3 }:
+Here, 5 goes to 1, 1 goes to 2 and so on (according to their indices position):
+5 -> 1
+1 -> 2
+2 -> 4
+4 -> 3
+3 -> 5
+Thus it can be represented as a single cycle: (5, 1, 2, 4, 3).
+Now consider the permutation: { 5, 1, 4, 3, 2 }. Here
+5 -> 1
+1 -> 2
+2 -> 5   this closes 1 cycle. 
+The other cycle is
+4 -> 3
+3 -> 4
+In cycle notation it will be represented as (5, 1, 2) (4, 3).
+
+Transpositions
+Now all cycles can be decomposed into a composition of 2 cycles (transpositions). The number of transpositions in a permutation is important as it gives the minimum number of 2 element swaps required to get this particular arrangement from the identity arrangement: 1, 2, 3, … n. The parity of the number of such 2 cycles represents whether the permutation is even or odd.
+For e.g.
+
+The cycle (5, 1, 2, 4, 3) can be written as (5, 3)(5, 4)(5, 2)(5, 1). 4 transpositions (even).
+Similarly,
+(5, 1, 2) ->  (5, 2)(5, 1)
+(5, 1, 2)(4, 3) -> (5, 2)(5, 1)(4, 3). 3 transpositions (odd).
+It is clear from the examples that the number of transpositions from a cycle = length of the cycle – 1.
+
+Problem
+Given a permutation of n numbers P1, P2, P3, … Pn. Calculate the number of transpositions in it.
+Example:
+Approach: The permutation can be easily represented as a directed graph where the number of connected components gives the number of cycles. And (the size of each component – 1) gives the number of transpositions from that cycle.
+Example Permutation : { 5, 1, 4, 3, 2 }  -> (5, 1, 2)(4, 3)
+
+Below is the implementation of above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity : O(n)
+Auxiliary space : O(n)

@@ -1,0 +1,21 @@
+Four questions were asked on hackerrank online platform, they were
+1. Anna has an array, num, of n integers. She can reduce the array by 1 element by performing a move. Each move consists of the following three steps:
+Pick two elements numi and numj, such that i ? j.
+Remove the two selected elements (numi and numj) from the array.
+Add the sum of the removed elements (numi + numj) as a new element at the end of the array.
+Each move has a cost associated with it, and this cost is equal to the sum of the two elements removed from the array during the move. The cost of reducing the array by n?1 elements (i.e., to a single element) is the sum of the costs of all n?1 moves. For example, consider the array num = [1, 2, 3]. Anna removes 1 and 3 in her first move at a cost of 1 + 3 = 4, and the resultant array is num1 = [2, 4]. She then removes 2 and 4 in her second move at a cost of 2 + 4 = 6, and the resultant array is num2 = [6]. The total cost of reducing this array to one element using this sequence of moves is 4 + 6 = 10.
+Complete the reductionCost function in your editor. It has 1 parameter: an array of n integers, num. It must return an integer denoting the minimum cost of reducing the array to a single element.
+Solution- Easily done using minheap, priority queue in c++
+2. Segregate even and odd numbers-  https://www.geeksforgeeks.org/segregate-even-and-odd-numbers/
+3. A social network has n active users, numbered from 0 to n — 1, who selectively friend other users to create groups of friends within the network. We define the following:
+Two users, x and y, are direct friends if they friend each other on the network.
+Two users, x and z, are indirect friends if there exists some direct friend, y, common to both users x and z.
+Two users, x and y, belong to the same group if they are friends (either directly or indirectly) with each other. 
+In other words, if user x is part of a group, then all of user x’s friends and friends of friends belong to the same group.
+We describe the number of people in each group as an array of n integers, counts, where each countsi (0 ? i < n) denotes the total number of users in the group that user i belongs to. For example, if counts = [3, 3, 3, 3, 3, 1, 3], then there are three groups; users 0, 1, 2, 3, 4, and 6 are in one of two 3-person groups, and user 5 is in a 1-person group.
+A group is valid if all the users in the group have minimal ID numbers. In other words, a group of size k must contain the k smallest ID numbers belonging to a group of that size with respect to the smallest user ID in the group. For example, if counts = [3, 3, 3, 3, 3, 1, 3], then the grouping [0, 1, 2], [3, 4, 6], and [5] is valid; however, the grouping [0, 1, 4], [2, 3, 6], and [5] is not valid because the group [0, 1, 4] does not contain the three smallest user IDs for the set of user IDs belonging to 3-person groups (i.e., {0, 1, 2, 3, 4, 6}).
+4. Two strings, a and b, are said to be twins only if they can be made equivalent by performing some number of operations on one or both strings. There are two possible operations:
+SwapEven: Swap a character at an even-numbered index with a character at another even-numbered index.
+SwapOdd: Swap a character at an odd-numbered index with a character at another odd-numbered index.
+For example, a = “abcd” and b = “cdab” are twins because we can make them equivalent by performing operations. Alternatively, a = “abcd” and b = “bcda” are not twins (operations do not move characters between odd and even indices), and neither are a = “abc” and b = “ab” (no amount of operations will insert a 'c' into string b).
+

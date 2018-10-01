@@ -1,0 +1,18 @@
+Given a list of words, find if any of the two words can be joined to form a palindrome.
+Examples:
+Asked in : Google Interview
+Simple approach:
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2k)
+Here n is the number of the words in the list and k is the maximum length that is checked for a palindrome.
+ 
+Efficient method
+It can be done in an efficient manner by using the Trie data structure. The idea is to maintain a Trie of the reverse of all words.
+Run on IDE
+Run on IDE
+
+Time Complexity: O(nk2)
+Where n is the number of words in the list and k is the maximum length that is checked for palindrome.
+Reference : https://www.careercup.com/question?id=4879869638868992

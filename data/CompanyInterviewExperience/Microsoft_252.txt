@@ -1,0 +1,37 @@
+For Microsoft Bangalore CRM team.
+Experience: 1.7 years.
+Round 1:(Written test) 
+Question 1 : Given a binary search tree . Print its level order traversal in reverse order level wise .eg  if level order is 1234567 then required output was 1327654
+Question 2: Given a binary search tree , Print its zig zag traversal .
+Complete syntactically correct code was required with all corner cases covered .
+Round-2(Technical)
+He asked me to Introduce myself and then started asking me about my project
+1. Print the given matrix in spiral order .
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+Code should be syntactically correct with all corner cases handled in a single attempt.
+2.Count all possible decodings of a given digit sequence .
+https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+Initially I started off with a recursive solution and came up with Dynamic programming solution afterwards. Full working code was required without any corner case missing.
+He asked to list down all the possible test cases for the given scenario . He was very particular about the Test cases .
+Round-3(Technical)
+He asked me to introduce myself.
+1.He asked me about the current project which i m working on.. and a few questions on the technologies which were used in the project.He was very particular about my project discussion.
+2. Given a linked list consisting of String in each Node . Given just  a pointer to the head Node , I was required to find whether the resultant String formed by combining all the Nodes of the linked list is a palindrome or not .
+eg – Consider this linked List structure
+“aba” -> “cd” -> “efe” -> “d” -> “caba”
+Hence this structure is palindrome . Was required to check for palindrome online as Linked List length could be infinite at any point of time .
+I was required to discuss and write full code on the whiteboard starting from Node structure to the end logic .
+After that i was required to list down Test Cases for the same . 
+Round-4:(Technical)
+He asked me to walk him through my resume.
+1. Why Microsoft?
+2. Why do u want to leave your current company?
+3. Deep discussion on the current project which I’m working on.
+4. Write code for the crossword puzzle game .I said I have not played it earlier .
+He then asked me to discuss and write code for Sudoku game in whiteboard. I wrote it using Backtracking
+https://www.geeksforgeeks.org/backtracking-set-7-suduku/
+5. Suggest some improvement which u can carry out in Microsoft Office .
+Round-5 (HR)
+1.Discussion on current compensation etc.
+A big Thanks to GeeksforGeeks for providing such a brilliant platform for interview preparation .Keep up the good work 🙂
+

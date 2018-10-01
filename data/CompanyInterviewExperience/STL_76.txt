@@ -1,0 +1,11 @@
+The unordered_multiset::cend() is a built-in function in C++ STL which returns a constant iterator pointing to the position immediately after the last element in the container or to the position immediately after the last element in one of its bucket.  
+Syntax: 
+Parameters:  The function accepts one parameter. If a parameter is passed, it returns a constant iterator pointing to the position immediately after the last element in the bucket. If no parameter is passed, then it returns a constant iterator pointing to the position immediately after the last element in the unordered_multiset container.  
+Return Value:  It returns a constant iterator. It cannot be used to modify the content of the container.
+Below programs illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE
+Program 3: 
+Run on IDE

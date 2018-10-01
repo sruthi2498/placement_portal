@@ -1,0 +1,19 @@
+Before advent of QWERTY keyboards, texts and numbers were placed on the same key. For example 2 has “ABC” if we wanted to write anything starting with ‘A’ we need to type key 2 once. If we wanted to type ‘B’, press key 2 twice and thrice for typing ‘C’. below is picture of such keypad.
+
+Given a keypad as shown in diagram, and a n digit number, list all words which are possible by pressing these numbers.
+For example if input number is 234, possible words which can be formed are (Alphabetical order):
+adg adh adi aeg aeh aei afg afh afi bdg bdh bdi beg beh bei bfg bfh bfi cdg cdh cdi ceg ceh cei cfg cfh cfi
+Let’s do some calculations first. How many words are possible with seven digits with each digit representing n letters? For first digit we have at most four choices, and for each choice for first letter, we have at most four choices for second digit and so on. So it’s simple maths it will be O(4n). Since keys 0 and 1 don’t have any corresponding alphabet and many characters have 3 characters, 4n would be the upper bound of number of words and not the minimum words.
+Now let’s do some examples.
+For number above 234. Do you see any pattern? Yes, we notice that the last character always either G,H or I and whenever it resets its value from I to G, the digit at the left of it gets changed.
+Similarly whenever the second last alphabet resets its value, the third last alphabet gets changes and so on. First character resets only once when we have generated all words. This can be looked from other end also. That is to say whenever character at position i changes, character at position i+1 goes through all possible characters and it creates ripple effect till we reach at end.
+Since 0 and 1 don’t have any characters associated with them. we should break as there will no iteration for these digits.
+Let’s take the second approach as it will be easy to implement it using recursion. We go till the end and come back one by one. Perfect condition for recursion. let’s search for base case.
+When we reach at the last character, we print the word with all possible characters for last digit and return. Simple base case.
+When we reach at the last character, we print the word with all possible characters for last digit and return. Simple base case.
+Following is C implementation of recursive approach to print all possible word corresponding to a n digit input number. Note that input number is represented as an array to simplify the code.
+Run on IDE
+Output: 
+Time Complexity: Time complexity of above code is O(4n) where n is number of digits in input number.
+Reference:
+Buy Programming Interviews Exposed: Secrets to Landing Your Next Job 3rd Edition from Flipkart.com

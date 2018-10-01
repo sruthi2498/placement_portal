@@ -1,0 +1,15 @@
+I attended Expedia interview for SDE-II role.
+Here are the questions on each round.
+Round 1: [Coding]
+1. Given MxN matrix with sorted elements row wise and column wise, find the Kth largest element
+2. Given MxN matrix with sorted elements row wise and column wise, find an element
+3. Given MxN matrix which contains 1s and 0s, find the largest sub matrix which contains most number of 1s. condition is that each row in the sub matrix must contain at-least one 1
+Round 2: [No coding – Just Approach]
+1. Given two Linked lists, find out whether they intersect or not and where do they intersect
+2. Two linked lists are given, find out the sum of them without altering the linked list
+3. Questions about Java, Spring and previous projects
+Round 3: [Coding]
+1. Given MxN matrix, which contains 1s and 0s only. Redraw the matrix so that, if any one position [i,j] contains 1, mark the entire row and column with 1. But make sure because of newly marked 1s, don’t do the same 
+Round 4: [On different day]
+Google Docs type Online Text Editor with similar functionality – Designing question. Asked to design the system with flows etc.
+Rejected the offer as I have another better offer.

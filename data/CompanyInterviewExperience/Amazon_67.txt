@@ -1,0 +1,44 @@
+Recently I was interviewed for Amazon SDE II for Amazon Pay Team. Below are the Questions :
+.
+.
+Round 1 : (Written : Pen & Paper) (3 Questions)
+Q1) Given a 1D Array. Return True if there exists an element where a[i]+a[j] = 0 && i!=j.
+Reference : https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
+Input : arr = {2,-3,4,1,-6,-4,1}
+Output : True
+Input : arr = {2,3,4,1,-6,4,1}
+Output : False
+Q2) Related to Buy and Sell of stock and gain maximum profit. Only 1 unit to buy or sell at a time.
+Reference : https://www.geeksforgeeks.org/stock-buy-sell/
+Q3) Given a Tree (it was a BST), replace the data of all nodes which have data >= the node’s data.
+Exactly Same problem : https://www.geeksforgeeks.org/add-greater-values-every-node-given-bst/
+(Even the example was same from above link ;))
+.
+.
+Round 2 : DS and Algo (F2F) (3 Questions)
+Q1) Program for n’th node from the end of a Linked List
+Exactly Same problem : https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+Q2) Print min & max (both) of all subarray of size k
+Reference : https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+Note : The reference link is just for min or max. Here we need both min and max in one program.
+Q3) Find the k most frequent words from a file (or a stream of input)
+Exactly Same problem : https://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
+.
+.
+Result : I was eliminated due to some basic mistakes I did (in Q3), which I just realized after leaving the Interview room. It was a nice experience.
+.
+.
+I would also like to share few more Questions those were asked to other candidates over there : 
+Q1) Design Debugger (Asked to almost everyone in 2nd Round)
+Q2) Design Uber App
+Q3) https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
+Q4) https://www.geeksforgeeks.org/connect-nodes-at-same-level/
+Q5) https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+.
+.
+The Interviewers were very friendly and helpful. They will help you whenever you get stuck (with Hints), but they will also check how much grab you have on basics.
+.
+.
+Thank You!!!… Hope this will help the aspiring candidates.
+
+

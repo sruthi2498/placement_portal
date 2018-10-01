@@ -1,0 +1,6 @@
+std::advance and std::next are used to advance the iterator by a certain position, such that we can make the iterator point to a desired position. Although both have same purpose, but their implementation is different from each other. This makes it important for us to understand the difference between the two.
+In C++11, std::next() will advance by one by default, whereas std::advance() requires a distance. 
+Run on IDE
+Output:
+Explanation: As can be seen, we want to make ii point to 2 spaces ahead of where it is pointing, so if we use std::advance ii will be pointing to two spaces ahead, whereas if we use std::next, then ii will not be advanced, but an iterator pointing to the new position will be returned, and will be stored in iii.
+

@@ -1,0 +1,34 @@
+Given pointer to the head node of a linked list, the task is to reverse the linked list.  We need to reverse the list by changing links between nodes.
+Examples: 
+Iterative Method 
+// Now change next of current
+// This is where actual reversing happens
+curr->next = prev 
+// Move prev and curr one step forward
+prev = curr
+curr = next
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity:  O(n)
+Space Complexity: O(1)
+
+Recursive Method:
+
+Run on IDE
+Time Complexity:  O(n)
+Space Complexity: O(1)
+
+A Simpler and Tail Recursive Method
+Below is C++ implementation of this method.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Gaurav Ahirwar for suggesting this solution.  
+Iteratively Reverse a linked list using only 2 pointers (An Interesting Method)
+References:
+http://cslibrary.stanford.edu/105/LinkedListProblems.pdf

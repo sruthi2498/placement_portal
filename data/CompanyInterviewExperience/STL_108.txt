@@ -1,0 +1,11 @@
+Syntax:
+Parameters: The function does not take any parameter.
+Return value: The function returns a reverse iterator pointing to the last element in the container. 
+Below program illustrate the multiset::rbegin() method:
+Run on IDE
+
+Syntax:
+Parameter: The function does not accepts any parameter.
+Return value: The function returns a reverse iterator pointing to the theoretical element right before the first element in the multiset container. 
+Below program illustrate the multiset::rend() function:
+Run on IDE

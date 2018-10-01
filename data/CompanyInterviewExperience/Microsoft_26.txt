@@ -1,0 +1,31 @@
+Round-1(Online test)
+The first online round was on Co-Cubes which comprised of 3 coding questions (Test Duration: 75 mins) :-
+https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+https://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list/
+Around 40 were selected after this round.
+Round-2 (Written Test)
+This round comprised of 2 coding questions (45 mins)
+Eg: “a/./b/../c” – “a/c”
+I used the concept of Deque, though it can be solved through stack.
+https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+Some extra cases were given, which had to be handled.
+Suggestions :- Mention time and space complexity explicitly after the code completion. Avoid any cuttings and errors. 
+Time was very less and good time management was required.
+Around 15 were selected after this round.
+Round-3 (Technical Interview)
+1)Question from my project. He asked me about my summer internship and the selection procedure. Then he asked me about my project including workflow, efficiency consideration and various typical questions. I answered all of them.
+2)He gave me first question. In a parliament, there are 500 constituencies, each constituency stand for a vote and there are [0, m] votes that can be casted. Tell which constituency will win. In a parliament the constituency which get more that 50% of votes will be a winner. I generated various test cases and confirmed the answer from him. I conveyed my approach handling all corner cases. He was satisfied with my approach. 
+3)Given an array of integers, find the largest number which can be formed. I again generated various test cases to confirm the question. Later, I discussed my approach and was asked to code. He checked by taking various test cases. 
+4)Later, he asked me to implement tic tac toe and some discussion on best possible data structure to be implemented.
+The interviewer was really helpful and the round ended well.
+ Round-4(Technical Interview)
+1)Given N-ary tree, find the length of the longest path of the consecutive integers. I discussed the approach to which I was asked to code.
+2)Given pairs [m, n] such that in a race, position of m>n i.e. m finishes race before n. Find the order in which all the players finish the race. Being a sportsperson, it wasn’t difficult to crack this one!
+The interviewer seems to be satisfied. I was waiting for the next round.
+Tips:- Always discuss the first approach you have in your mind and then think for the optimised solution.
+Around 9 were selected after this round.
+Round-5(HR + Technical)
+1) Given a string, replace the substring with a value present in the map. I discussed the approach and one of the test cases failed to which I was asked to rethink my solution. I discussed another approach to which he said ok.
+2) Question from project. I did a project using ruby on rails. I was asked about some security checks which can be implemented in a website as a developer and various gems implementation. The discussion went till hacking and I tried answering them. The interviewer asked me some basic questions on my other projects. 
+At the end, I was among one of the four selects!
+

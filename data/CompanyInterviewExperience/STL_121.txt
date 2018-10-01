@@ -1,0 +1,13 @@
+The multiset::insert() is a built-in function in C++ STL which insert elements in the multiset container or inserts the elements from a position to another position from one multiset to a different multiset.
+Parameters: The function accepts a mandatory parameter element which is to be inserted in the multiset container. 
+Return Value: The function returns an iterator pointing to the inserted element in the multiset container.   
+Below program illustrates the above function: 
+Run on IDE
+Parameters: The function accepts two parameter which are described below: 
+Return Value: The function returns an iterator pointing to the inserted element in the multiset container.  
+Below program illustrates the above function: 
+Run on IDE
+Parameters: The function accepts two parameters position1 and position2 which specifies the range of elements. All the elements in the range [position1, last) are inserted in another set container. 
+Return Value: The function returns a multiset which has all the elements in range [position1, last). 
+Below program illustrates the above function: 
+Run on IDE

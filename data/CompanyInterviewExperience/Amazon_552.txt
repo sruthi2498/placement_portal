@@ -1,0 +1,43 @@
+Hi, Amazon visited our campus few days back.  Before I start off with my experience, here are few suggestions.
+1. Don’t just go through the codes. First try it on your own, that’s very important. Once u have cracked a problem, write it in a paper and check for the corner cases.
+2. For the online round. GeeksQuiz is enough to get you through the MCQs. For the coding part, once u have cracked a problem, always try to run the program at one go.
+3. OS, DBMS and Networking. If you get a good hold on these subjects, it will make you stand apart from other candidates.
+First day:
+20 MCQs(Data structure, C, C++, OS, Probability ).
+2 programs :
+1. Given an array of integers. Segregate all the non-zero numbers at the beginning. Print the number of non-zero integers and the minimum number of swaps required for these operations. 
+2. Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] and its permutations (or anagrams) in txt[]. You may assume that n > m. 
+Second day:
+Suggestion: Always think loud when you are coding
+Round 1 : PI   45 min
+1. Discussion on Project.
+2. Code : LCA of a BST.(check for all corner cases)
+3. Code : LCA of a Binary Tree(check for corner cases)
+4. Code : Maximum sum subarry along with its starting and ending index.
+5. Code : Heap operations
+Round 2 : PI (With Manager) 1 hr 15 min
+1. Discussion on project.
+2. Code : Given an array : A1[] = 2, 1, 2, 5, 7, 1, 9, 3, 6, 8, 8
+A2[] = 2, 1, 8, 3
+Sort A1 in such a way that the relative order among the elements will be same as those are in A2. If the element is not present in A2, append them at last in sorted order.
+o/p : 2, 2, 1, 1, 8, 8, 3, 5, 6, 7, 9
+As I carried on telling him the approach, he went  on modifying the question ( what if A2 is much larger than A1 ?, what if they are of the same size ?)
+A lot of discussion on complexities for all modifiactions. He was quite happy with my answers.
+Finally he asked me to code the O(nlogn) approach. 
+Round 3 (Subject Round) 1 hr
+1. OS : Virtual Memeory (lot of discussion of its advantages, thrashing , etc)
+    Then he asked me design a LRU replacement policy(approach) which i did.           Then he asked to implement FIFO replacement policy with stacks. I did it using     two stacks. 
+2. Neworking : He started with Transport Layer( discussion on ports. How data        from applications are changed into packets ?, etc).
+  Then he went to Network  Layer (A lot of discussion on subnet masking and how    it is used by routers to map the IP address of incoming packet, how a Subnet       is different from Internet).
+   Next we moved to Data Link Layer( Discussion MAC addresses, sliding window    protocols, etc).
+3. DBMS: What is indexing?, Why indexing ?, How to implement indexing ?,            What are the different types of Index? .
+   Differences among Inner Join, Left Outer Join  and Right Outer Join. He followed     it up with a SQL query on Outer Join.
+As my first three rounds went very well, fourth round was of 15 minutes only.
+Round 4 (Bar Raiser) 15 min.
+1. Logical question. Given a prime number ‘p’. Prove that p^2-1 is always divisible by 24.
+2. Find 2nd maximum element in a given array in one iteration. 
+All the best !        
+GeeksforGeeks has helped me throughout my preparation. This is the best site for clearing your concepts on Data Structures and Algorithms. GeeksQuiz has helped me to get through the MCQs in the online round. Thanks again !
+Keep Smiling ! 
+
+

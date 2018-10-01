@@ -1,0 +1,21 @@
+Write a program to find the sum of Fifth powers of the first n natural numbers 15 + 25+ 35 + 45+ …….+ n5 till n-th term.
+Examples:
+
+Naive Approach :-  In this Simple finding the fifth powers of the first n natural numbers is iterate a loop from 1 to n time. like suppose n=5. and store in sum variable.
+(1*1*1*1*1)+(2*2*2*2*2)+(3*3*3*3*3)+(4*4*4*4*4) = 1300
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ Time complexity : O(N)
+Efficient Approach :-  An efficient solution is to use direct mathematical formula which is : 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ Time complexity : O(1)

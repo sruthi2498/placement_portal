@@ -1,0 +1,9 @@
+Microsoft Interview for Software Engineer Hyderabad.
+Round 1: (1 hr)
+1. Given 3 sorted arrays. Find the common element of all the arrays in O(N) time and no extra space. If there is none, return false.
+2. Double linked list: 1 goes to the next node and 1 to the random node. Copy this list. Extra space can be used.
+Round 2: (45 mins)
+1. Power of a number (x**n) in O(log N) time
+2. Given an array which has a duplicate except for 2 elements. Find them. We always have 2 such element.
+Round 3: They said me a bye 🙂
+

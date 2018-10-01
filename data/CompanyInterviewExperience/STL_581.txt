@@ -1,0 +1,12 @@
+We have discussed some of the cases of sorting vector of pairs in below set 1.
+Sorting Vector of Pairs in C++ | Set 1 (Sort by first and second)
+More cases are discussed in this article
+Sometimes we require to sort the vector in reverse order. In those instances, rather than first sorting the vector and later using “reverse” function increases time complexity of code. Therefore, to avoid this we sort the vector in descending order directly.
+Case 3 : Sorting the vector elements on the basis of first element of pairs in descending order.
+For these instances, we modify the sort() function and we pass a third argument, a call to an user defined explicit function in the sort() function.
+Run on IDE
+Output:
+Case 4 : Sorting the vector elements on the basis of second element of pairs in descending order.
+These instances can also be handled by modifying “sort()” function and again passing a call to user defined function.
+Run on IDE
+Output:

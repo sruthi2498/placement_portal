@@ -1,0 +1,16 @@
+We have discussed some of the cases of sorting 2D vector in below set 1 and set 2.
+Sorting 2D Vector in C++ | Set 1 (By row and column)
+Sorting 2D Vector in C++ | Set 2 (In descending order by row and column)
+More cases are discussed in this article
+As mentioned in one of the article publised of this set, A 2D Vector can also have rows with different number of columns. This property is unlike the 2D Array in which all rows have same number of columns.
+Run on IDE
+Output:
+Case 5 : Sorting the 2D Vector on basis of no. of columns in row in ascending order.
+In this type of sorting, 2D vector is sorted on basis of a no. of column in ascending order. This is achieved by passing a third argument in “sort()” as a call to user defined explicit function.
+Run on IDE
+Output:
+
+Case 6 : Sorting the 2D Vector on basis of no. of columns in row in descending order.
+In this type of sorting, 2D vector is sorted on basis of a no. of column in descending order. This is achieved by passing a third argument in “sort()” as a call to user defined explicit function.
+Run on IDE
+Output:

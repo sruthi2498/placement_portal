@@ -1,0 +1,13 @@
+A number n is said to be a Carmichael number if it satisfies the following modular arithmetic condition:
+Given a positive integer n, find if it is a Carmichael number.  These numbers have importance in Fermat Method for primality testing.
+Examples :
+
+The idea is simple, we iterate through all numbers from 1 to n and for every relatively prime number, we check if its (n-1)th power under modulo n is 1 or not. 
+Below is a the program to check if a given number is Carmichael or not.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

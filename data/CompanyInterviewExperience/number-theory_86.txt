@@ -1,0 +1,27 @@
+Given a number n, the task is to find the sum of all the divisors.
+Examples :
+
+A simple solution is to traverse through all divisors and add them.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+An efficient solution is to use below formula.
+Let p1, p2, … pk be prime factors of n.  Let a1, a2, .. ak be highest powers of p1, p2, .. pk respectively that divide n, i.e., we can write n as n = (p1a1)*(p2a2)* … (pkak).
+How does above formula work?
+So the task reduces to finding all prime factors and their powers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Further Optimization. 
+If there are multiple queries, we can use Sieve to find prime factors and their powers.
+References:
+https://www.math.upenn.edu/~deturck/m170/wk3/lecture/sumdiv.html
+http://mathforum.org/library/drmath/view/71550.html

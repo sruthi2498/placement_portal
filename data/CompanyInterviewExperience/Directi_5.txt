@@ -1,0 +1,41 @@
+Method of applying : I applied to Directi via employee referral.
+Round 1: Online coding round (Codechef , 90 minutes)
+Problem 1 : Easy, Adhoc
+Statement
+You are given a string of numeric digits, you have to find smallest number possible using these digits with no leading zeroes.
+Example
+If input is 330101 then answer is 100133
+Constraint
+Length of string <= 10^5
+Problem 2 :
+Statement
+You are given two strings, say A and B, of the same length N. You can swap A[i] and B[i] for all i between 1 and N, inclusive. You cannot swap two characters within A, or within B. Also, you can only swap a character in A with the character at the same index in B, and with no other character. You can perform this operation zero or more times.
+You wish to modify the strings through the operations in such a way that the number of unique characters in the strings is small. In fact if n(A) is the number of unique characters in A and n(B) is the number of unique characters in B; you wish to perform the operations such that max(n(A),n(B)) is as small as possible.
+Print the value of max(n(A),n(B)) after all the operations.
+Example
+If input is
+ababa babab
+Then output should be one because we can swap and make the pair of strings
+(aaaaa , bbbbb)
+Constraints
+Problem 3 : 
+Modified Knapsack DP problem
+Round 2: Algorithm round (Skype , 45 – 50 minutes)
+A square grid(NxN) is given to you; Each location on the grid is either a brick (B) or its empty (_).
+The total number of bricks is exactly equal to as much is required to build a “wall” in the grid. See example for clearer understanding.
+That is, at the end , all bricks(B) should be placed at boundary locations.
+For moving a brick from location <x,y> to <i,j> |i-x| + |j-y| fuel is used.
+Each brick in the grid can be moved to any location on the boundary with equal probability. What is the expected value of the fuel required to do so? Each brick can be moved at-most once.
+Example
+In the end (after moving all the bricks), the grid should look like:
+Hint
+You are given the initial locations of all the bricks , and you know the final positions.
+Since all bricks are the same, you can put any brick in any boundary positions.
+Lets say there are ‘b’ boundary locations = b bricks
+So you need to map the old locations to new ones.
+In brute force approach , it would be O(b!) to try out all placings.
+But you can do better with a little more insight of how the probabilities add up brickwise instead of arrangement wise.
+Expected : O(n)
+Round 3: Algorithm Round (Skype , 45 – 50 minutes )
+Round 4: Technical knowledge round (Skype , 45 minutes )
+

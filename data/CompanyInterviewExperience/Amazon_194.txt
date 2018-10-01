@@ -1,0 +1,23 @@
+Given an array of integers, we need to get total XOR of all subarray XORs where subarray XOR can be obtained by XORing all elements of it.
+Examples :
+
+A simple solution is to generate all subarrays and compute XOR of all of them. Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity : O(N3)
+An efficient solution is based on the idea to enumerate all subarrays, we can count frequency of each element occurred totally in all subarrays, if the frequency of an element is odd then it will be included in final result otherwise not.
+    So we can iterate over all elements once and calculate their frequencies and if it is odd then we can include that in our final result by XORing it with the result.
+    Total time complexity of solution will be O(N)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity : O(N)

@@ -1,0 +1,20 @@
+We have discussed some of the cases of sorting 2D vector in below set 1.
+Sorting 2D Vector in C++ | Set 1 (By row and column)
+More cases are discussed in this article
+Case 3 : To sort a particular row of 2D vector in descending order
+This type of sorting arranges a selected row of 2D vector in descending order . This is achieved by using “sort()” and passing iterators of 1D vector as its arguments.
+Run on IDE
+Output:
+
+Case 4 : To sort the entire 2D vector on basis of a particular column in descending order.
+In this type of sorting 2D vector is entirely sorted on basis of a chosen column in descending order. For example if the chosen column is second, the row with greatest value in second column becomes first row, second greatest value in second column becomes second row, and so on.
+{3, 5, 1},
+{4, 8, 6},
+{7, 2, 9};
+After sorting this matrix by second column, we get
+{4, 8, 6} // Row with greatest value in second column
+{3, 5, 1} // Row with second greatest value in second column
+{7, 2, 9}
+This is achieved by passing a third argument in “sort()” as a call to user defined explicit function.
+Run on IDE
+Output:

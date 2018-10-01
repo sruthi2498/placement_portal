@@ -1,0 +1,29 @@
+Around 400 students from our university were eligible to attend the interview process conducted by PayPal Pvt. Ltd., The selection criteria was based on the CGPA till 4th  semester. Luckily I was one among them!
+Round 1: (Online Test)
+The Online Test was held on their own interface and consisted of about 20 MCQs questions and one coding question.
+MCQs were mainly from C/C++ input/output, Math Aps, Verbal and Quans. Coding Question: Simple Currency denomination Problem.
+Find the least number of coins required that can make any desired amount. The coins can only be pennies(1), nickels(5), dimes(10) and quarters(25).
+Sample Input 1: 30
+Sample Output 1: 2 (one quarter and one nickel)
+Sample Input 2: 100
+Sample Output 2: 4 (four quarters)
+Around 8 of the students were selected for the next round.
+Round 2: Technical F2F
+The interviewers (Two of them were present) asked me to introduce myself. They glanced my resume and started shooting out the questions!
+Detect loop in a linked list and remove it.
+He asked me to code in a paper and check for all possible test cases and edge cases. He then added to prove the solution. I did it. He was satisfied.
+Distinguish between Hash table and Hash Map.
+How is Hash Map implemented in JAVA?
+The discussion on this topic went too deep and was about 30 minutes. We discussed about the actual mapping of values, implementation etc.,
+Single source shortest Path (Was not asked to code. Just explain the algorithm with an example)
+What are threads? Does the threads share same address space? Why? Few more questions i don’t remember them..
+Around 5 of the students were selected for next round. Luckily I was one of them 🙂
+Round 3: HR F2F
+This round was my favorite one and was not asked too much technical. Some basic questions like
+Why PayPal?
+What is the most challenging thing you have come across?
+Unique features about PayPal.
+What is the reach of PayPal in your locality
+All thanks to G4G which is the most excellent site that i have come across for interview preparation 🙂
+
+

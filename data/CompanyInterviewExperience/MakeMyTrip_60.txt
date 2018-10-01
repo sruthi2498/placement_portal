@@ -1,0 +1,13 @@
+Given a linked list of 0s, 1s and 2s, sort it.
+Source: Microsoft Interview | Set 1
+Following steps can be used to sort the given linked list.
+1) Traverse the list and count the number of 0s, 1s and 2s. Let the counts be n1, n2 and n3 respectively.
+2) Traverse the list again, fill the first n1 nodes with 0, then n2 nodes with 1 and finally n3 nodes with 2.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n) where n is number of nodes in linked list.
+Auxiliary Space: O(1)
+
+Sort a linked list of 0s, 1s and 2s by changing links

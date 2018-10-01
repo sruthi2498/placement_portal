@@ -1,0 +1,40 @@
+Position : Senior Android Developer
+The competency would be Tech Fit (Problem Solving, Data Structures & Algorithm)
+ 
+First Round:
+Telephonic Round:
+1. Clone a linked list with next and random pointer
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+2. You have to design a data structure where you have a list. You need to do 3 operations
+   1. Insert at position.
+   2. Get Value from an index.
+   3. Update all index
+   All in time complexity O(1).
+   Hint : I have used  count for each index and have extra variable to store value if user call Update all index.
+          With the help of count you can determine if you have to pick value from index or from extra update variable.
+On-site round in banglore
+ 
+Second round:
+1. Question related to project.
+2.We have n cards with each card numbered from 1 to n.
+All cards are randomly shuffled.
+We are allowed only operation MoveCard(n) which moves the card with value n to the top of the pile.
+We need to sort the pile of cards with minimum number of MoveCard operations.
+The naive approach which i can think of is start with MoveCard(n), MoveCard(n-1), MoveCard(n-2)…. MoveCard(1).
+This approach will solve the problem in n MoveCard operations.
+https://stackoverflow.com/questions/21852309/sort-a-deck-of-cards-with-minimum-number-of-moves
+ 
+Third Round:
+1. It was the variation of tree Common Ancestor problem and linked-list Y node problem. I don’t remember exactly
+   but if you know these two you will be able to answer.
+2. Longest Increasing Subsequence
+https://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/
+Fourth Round:
+1. 100 people are standing in a circle with gun in their hands. 1 kills 2, 3 kills 4, 5 kills 6 and so on
+till we are left with only one person. Who will be the last person alive. Write code to implement this efficiently.
+2. java circular dependency questions.
+3. Some basic questions
+4. Write a program with two threads (A and B), where A prints 1 , B prints 2 and so on until 50 is reached.
+Thanks GFG
+ 
+

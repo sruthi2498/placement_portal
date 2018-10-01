@@ -1,0 +1,10 @@
+Given a set of N elements such that N, task is to generate an array such that the GCD of any subset of the generated array lies in the given set of elements. The generated array should not be more than thrice the length of the set of the GCD. 
+Prerequisite : GCD of an Array | Subset of Array 
+Examples :
+
+Explanation : Calculate the GCD of an array or in this case a set. Now, first sort the given set of GCD. If the GCD of this set is equal to the minimum number of the given set, then just by putting this GCD between each number. But, if this GCD is not the minimum element of the given set, then unfortunately “no array can be build”.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(nlog(n)), where n is the size of array given.

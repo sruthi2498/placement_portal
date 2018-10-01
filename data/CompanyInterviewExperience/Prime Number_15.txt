@@ -1,0 +1,9 @@
+
+Prerequisite – PL/SQL introduction
+A prime number is a whole number greater than 1, which is only divisible by 1 and itself. First few prime numbers are : 2 3 5 7 11 13 17 19 23 …..
+In PL/SQL code groups of commands are arranged within a block. A block group related declarations or statements.
+In declare part, we declare variables and between begin and end part, we perform the operations.
+Examples:
+Below is the required implementation:
+Run on IDE
+Output:

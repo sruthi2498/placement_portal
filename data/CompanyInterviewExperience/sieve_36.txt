@@ -1,0 +1,12 @@
+Given n queries of the form range [L, R]. The task is to find the maximum difference between two prime numbers in the range for each query. If there are no prime in the range then print 0. All ranges are below 100005.
+Examples:
+
+The idea is to compute Prime numbers using Sieve of Eratosthenes along with some precomputing.
+Below are the step to solve the question:
+Step 1: Find the prime numbers using Sieve of Eratosthenes algorithm.
+Step 2: Make an array, let say prefix[], where prefix[i]  represents largest prime number smaller or equal to i.
+Step 3: Make an array, let say suffix[], where suffix[i]  represents smallest prime number greater or equal to i.
+Step 4: Now for each query having [L, R], do the following:
+Below is C++ implementation of this approach:
+Run on IDE
+Output:

@@ -1,0 +1,7 @@
+The list::empty() is a built-in function in C++ STL is used to check whether a particular list container is empty or not. This function does not modifies the list, it simply checks whether a list is empty or not, i.e. the size of list is zero or not.
+Syntax: 
+Parameters: This function does not accept any parameter, it simply checks whether a list container is empty or not.
+Return Value: The return type of this function is boolean. It returns True is the size of the list container is zero otherwise it returns False.
+Below program illustrates the list::empty() function. 
+Run on IDE
+Note: This function works in constant time complexity.

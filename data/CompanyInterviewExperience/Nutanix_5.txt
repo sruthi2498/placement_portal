@@ -1,0 +1,30 @@
+Round1:
+It was conducted on hackerrank.
+Time duration :1hr
+There were 2 questions in total
+Question 1: https://www.geeksforgeeks.org/merging-intervals/
+Question 2: https://www.geeksforgeeks.org/snake-ladder-problem-2/
+14 members were selected to the next round
+Round 2: Debugging round
+We were given a c++ code which merged different lines from files into a single file. We were supposed to debug it and explain the errors.
+I pointed 6 errors
+    • The code didn’t use the mutex lock to stop other files from writing into the aggregate file when one file is writing i.e., there was no synchronization.
+    • Some basic logical errors like wrong number of parameters in function call etc
+9 members were selected in this round.
+Round 3: F2F Technical interview round
+Question 1: https://www.geeksforgeeks.org/convert-ternary-expression-binary-tree/
+The interviewer explained me the whole question. After providing him with my code, he asked me how my code works fine for some exception cases.
+Question 2: Our Chef is opening a new restaurant in the city. Today being the inauguration night of his new restaurant and Chef’s huge popularity has attracted a large crowd for the grand opening. For convenience of the customers, cars of all the customers have been marked with a number from 1 to N where N is the total number of cars, corresponding to their parking space number in which each car has to be parked. Due to the large crowd, the car parking is full except for one parking space. Moreover, as the cars came too frequently, they could not be parked in their respective parking space. Poor valet at the restaurant’s parking, Raka, is left with the arduous task of parking the cars at their respective places. Luckily for him, parking has been closed and no more cars are coming and he can now arrange the cars in their proper places. As Raka is left alone to park the cars, he can only move one car from one parking to the
+other parking. He can use the empty parking space to move the cars around. He wants to arrange the cars in as few moves as possible. Raka asks you for help in finding the optimal strategy to arrange cars in their proper places.
+We were asked to give the minimum number of swaps to be done in order to arrange cars in order.
+He asked the project which enjoyed the most to do. As I had said AI is my favourite subject, he asked me the way I implemented AI in that project.
+Question 3: Around 1000 numbers are given where each number is in the range 1 to 10. I first answered we need a minimum time f O(nlogn) to solve it. He asked me to solve it in O(n) time. So I gave a solution similar to this:
+https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0
+He was happy with my solution.
+6 members were selected to the next round.
+
+Round 4: F2F Technical interview
+An unsorted array of numbers and a search element are given. We need to implement an algorithm which gives number of swaps required for the search to give correct location. I was given 30 minutes time to solve.
+I solved it in 20 minutes. So, he asked me to modify the code to return the minimum number of swaps.
+It went well but i couldn’t tell the minimum swaps in 10 minutes.
+I was very happy with the interview procedures and rounds. But finally 3 were offered a full-time job and 1 was offered an internship

@@ -1,0 +1,39 @@
+1st round (Written Test)
+It was an online test of 90 minutes and was conducted on Hackerearth. It consisted of 10 MCQ’s and 3 coding questions. MCQ’s consisted of general aptitude questions, questions related to networking, programming etc and very easy.
+The coding questions were as follows:
+ 1. http://www.spoj.com/problems/FARIDA/. The question was exactly this. (standard dp problem).
+(35 marks for this question).
+2. Given arrival and departure time of employees in an office. Find the maximum no of chairs needed so that at no instance, an employee has to stand. (30 marks question).
+Example-
+Input-
+5.00 6.00 7.00
+6.30 7.00 8.00
+Output-2
+It is similar to this https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/. The main thing in this question was reading the input as number of employees was not given beforehand. It was also asked to check for all INVALID inputs and return -1 in those cases.
+3. Given a 2D matrix of n x m. The matrix contained integers. Given a source position of a person and a destination position, find the number of ways in which that person can reach destination from source fulfilling the following conditions-
+(i) Movement can be only in north, south, east or west direction.
+(ii) A person can move from one cell to other if and only if that cell has value less than the value in current cell. (standard bfs problem). (25 marks question).
+2nd round (Technical Interview)-
+1. Given a binary tree, print its bottom view. She asked me to write the code on paper. https://www.geeksforgeeks.org/bottom-view-binary-tree/
+2. Given a character array and a dictionary, find the no. of valid sentences that can be made by putting space after any character in this array. A valid sentence is the one whose all the words are present in the dictionary. Write code on paper.
+Example-
+Input- catsanddog
+Output- 2 (cat sand dog & cats and dog)
+https://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
+3. Given an array of random integer, find the maximum length of subsequence in it such that the elements of subsequence are consecutive.
+Example- input [25,1,26,2,27,3,29,28]
+Ans=5 (subsequence 25,26,27,29,28}
+I told her a brute force method of O(n^2) and a O(nlogn) solution but she was looking for a O(n) dp solution. This round lasted for about 1 hour.
+3rd round (Technical Interview)–
+1. Given an array and a frog, there can be a bridge from any index to any index in forward direction and a tunnel from any index to any other index in backward direction. Frog is initially at -1 index. Given an integer k, from can hop at most k-1 times. i.e. if k=4 and frog initially is at -1, then it can reach cell 0,1,2 (3 hops at max). A frog on landing on a cell containing a bridge or a tunnel can avoid using that bridge or tunnel and stay there only. Find the minimum no. of steps in which the frog can reach a given destination ‘D’.
+I converted the whole problem into a graph where each node will have connections to its next k-1 nodes and also connection to a node to which a bridge or tunnel on that node leads (if any bridge or tunnel is there at that node) and then Applied BFS. He then asked me to write code on paper. Complexity-O(n*k)
+2. Given a linked list having loop, detect the loop and return the starting point of that loop. https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+3. He asked me about what is map (general concept of map not language specific as in c++ or java). He then told me to design a data structure using the basic data structures such that searching in that can be done in O(1) in 95% cases and in 5% cases searching can take more than O(1) and the element to be searched can be an integer or a string.
+I told him to take hash of string in any way (multiplying by prime nos etc.) and then take modulo 10^6 as maximum size of array can be 10^6. He then asked me how will I remove collisions occurring due to same hash value. I told him to use chaining with a balanced BST at the collision index in order to achieve minimum complexity (o(logn)). He then asked me that if suppose during 1 year only 100 elements were required to be stored in array and searched in above problem and after 1 year elements become 10^6, then during 1 year a lot of memory will be wasted if I allocate 10^6 initially; he asked me how would I do this. I told him that initially allocate memory of array of 100 size and then after 1 year, allocate a new memory of 10^6 elements and copy elements from original array to new array. This round lasted for about 1 hour.
+4th round (Managerial Round)-
+It was a short round of nearly 10-15 minutes. The interviewer asked me to introduce myself. He then asked me why do I want to join Walmart. Why don’t I want to pursue higher studies, difference between job and career and what does I want, job or a career? He then asked me what do I want to achieve in the next 5 Years. He then asked a brief description about the project mentioned in my resume.
+5th round (HR Round)-
+It was also a short round of nearly 5-10 minutes. HR asked me to introduce myself. Asked me about my hobbies. One of my hobbies mentioned was reading newsfeed on quora so she asked whether Iwas active on quora and what all topics do I follow on quora. She then asked me why do I want to join Walmart, where do I see myself in 2 years. She asked me if I had interest in programming and on what websites do I take part in coding competition. I mentioned codeforces, codechef, hackerrank. She then told me about work at Walmart and asked me whether I would like to work on web development front and back end or back end of logistics.
+Advice: 
+Prepare all the data structures from geeksforgeeks, maximum question asked were from geeks only. Think aloud in the interview. The interviewer will help by giving hints whenever u will be stuck at any problem.
+

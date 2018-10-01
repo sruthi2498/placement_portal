@@ -1,0 +1,17 @@
+A k-Almost Prime Number is a number having exactly k prime factors (not necessary distinct).
+For example,
+2, 3, 5, 7, 11 ….(in fact all prime numbers)  are 1-Almost Prime Numbers as they have only 1 prime factors (which is themselves).
+4, 6, 9…. are 2-Almost Prime Numbers as they have exactly 2 prime factors (4 = 2*2, 6 = 2*3, 9 = 3*3)
+Similarly 32 is a 5-Almost Prime Number (32 = 2*2*2*2*2) and so is 72 (2*2*2*3*3)
+All the 1-Almost Primes are called as Prime Numbers and all the 2-Almost Prime are called as semi-primes.
+The task is to print first n numbers that are k prime.
+Examples: 
+We iterate natural numbers and keep printing k-primes till the count of printed k-primes is less than or equal to n.  To check if a number is k-prime, we find count of prime factors and if the count is k we consider the number as k-prime.
+Below is the implementation of above idea :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+References:
+https://en.wikipedia.org/wiki/Almost_prime 

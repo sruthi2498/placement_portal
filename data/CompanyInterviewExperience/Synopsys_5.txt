@@ -1,0 +1,13 @@
+Given two sorted arrays, we need to merge them in O((n+m)*log(n+m)) time with O(1) extra space into a sorted array, when n is the size of the first array, and m is the size of the second array.
+Example:
+We have discussed a quadratic time solution in below post.
+Merge two sorted arrays with O(1) extra space
+In this post a better solution is discussed. 
+The idea: we start comparing elements that are far from each other rather than adjacent.
+For every pass, we calculate the gap and compare the elements towards the right of the gap. Every pass, the gap reduces to the ceiling value of dividing by 2.
+Examples:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

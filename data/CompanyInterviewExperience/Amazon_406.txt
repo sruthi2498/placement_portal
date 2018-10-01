@@ -1,0 +1,50 @@
+Hi everyone …Following is my experience for the recent recruitment drive of Amazon in our college.
+*** First Round ***
+:- Aptitude Round: (1:30 hours)
+20 MCQs
+MCQs on Outputs, Math, Algorithms, DBMS, OS.
+:- 2 Coding questions: (onHackerRank)
+1) Given two string Str1 and Str2, Find whether any anagram of Str2 is a sub-string of string Str1 (Case Insensitive) then return True otherwise False.
+For Ex:if Str1 = Amazon and Str2 = zmao, Output: True
+2)  Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining
+For example,
+Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
+
+**** Second Round (F2F) (60 min)****
+1) Check whether the given binary tree is BST or not
+2) Find the lowest common ancestor of given two nodes pointer
+3) Find Height of Binary Tree represented by Parent array
+Input: parent [] = {1 5 5 2 2 -1 3}     Output: 4
+I did it in O(n2) and then interviewer ask to optimize it then I optimize the code but still it is O(n2) but the interviewer was satisfied with the solution.
+4) Find the next greater element in array
+5) Find orphan node and cycle in linked list. I gave him the logic and Interviewer was satisfied with approach.
+TIP: Interviewer should understand your code properly. So write code neat & clean.
+***** Third Round (F2F) (70 min approx.)****
+1) Again the interviewer ask the same question: Find the next greater element in array. I told him that I did it previous round then interviewer tell me that it is good u told me about this.
+I think I got some loyalty point from this 🙂
+2) Given the mathematical expression. Check for balanced parentheses in an expression with constraint of precedence like
+[2*{3+4}] = True;
+{2*[2+4]} = False;
+I give him approach and written full code for this.
+3) How to detect cycle in graph ( I just told my approach using DFS)
+**** Fourth Round (F2F) (120 minute)*****
+1) Consider a row of n coins of values v1 . . . vn, where n is even. We play a game against an opponent by alternating turns. In each turn, a player selectseither the first or last coin from the row, removes it from the row permanently, and receives the value of the coin.
+Determine that the user move first or second so that he will get the maximum possible amount of money
+I gave him the recursive approach for this then he ask for optimize code for this then I make DP for this.
+2) Consider a 2-D map with a horizontal river passing through its center. There are n cities on the southern bank with x-coordinates a(1) … a(n) and n citieson the northern bank with x-coordinates b(1) … b(n). You want to connect as many north-south pairs of cities as possible with bridges such that no two bridgescross. When connecting cities, you can only connect city i on the northern bank to city i on the southern bank.
+I have no idea about this question I think 10 minute and told the interviewer that I’m unable to solve this. But the interviewer asked for my approachthen I gave him brute force solution for this and Interviewer asked for the code. Then he told me to optimize the code then I gave recursive approach for butstill complexity is exponential and Interview asked me optimize this and again I think for half an hour &arrive at solution that in DP with extra space. Buthe still wants better solution and gave me five minute more. Then in the five minute one best solution strike in my mind and told to interviewer and he ishappy with effort then he ask to code.
+TIP: What I learned from this round is that Push yourself to the edge. Give something different or better than geeks 
+***** Fifth Round *****
+1) Some project discussion in brief and some question on project like what is your role, what difficulties you faced, and future scope.
+2) Find minimum height of tree (I gave him two approach using 1) simple 2) using level order)
+3) Some simple Bit-masking problem
+4) Given an input file with four billion non-negative integer. Provide an algorithm to generate an integer which is not contained in the file. Assume you have 1 GB of memory available for this task.
+Firstly I have no idea then interview is giving me hint and I give my approach using bit vector by mapping all integer from this bit-vector.
+***** Sixth Round ****
+1) He give me an API function that increment the counter when the client access this. And told that two client simultaneously accessing this API function. Then they get ambiguous value of counter. Why this is happening?
+I give him Peterson solution and semaphore solution for the critical section problem.
+2) Some more question on OS (thread, Mutexlock, and deadlock)
+3) One more DP Ques: Remove minimum elements from either side such that 2*min becomes more than max.
+I gave him geeks solution but he ask that Have u seen this problem before? I said yes then he ask to code the recursive approach for this I write it
+Correctly. And He was satisfied.
+

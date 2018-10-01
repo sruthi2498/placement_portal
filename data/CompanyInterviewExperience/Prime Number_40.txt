@@ -1,0 +1,33 @@
+In this article we will discuss about Lucas-Lehmer series which is used to check primality of prime numbers of the form 2p – 1 where p is an integer.
+First let’s see what is Lucas-Lehmer series.
+The Lucas-Lehmer series can be expressed as : 
+      
+Hence the series is:
+Term 0: 4,
+Term 1: 4*4 – 2 = 14,
+Term 2: 14*14 – 2 = 194,
+Term 3: 194*194 – 2 =  37634,
+Term 4: 37634*37634 – 2 = 1416317954, … and so on.
+Below is the program to find out first n terms of the Lucas-Lehmer series.
+Run on IDE
+Run on IDE
+Output: 
+We can use string to store the big numbers of the series.
+Now what is the relation with prime numbers of this Lucas-Lehmer series?
+1. First thing is that we can only check the primality of those numbers which we can represent as, x = (2p – 1) where p is an integer.
+2. Now we have to find out the (p-1)th term of Lucas-Lehmer series.
+3. If this term is a multiple of x, then x is a prime number.
+4. When x is large, i.e. p is large then we may find   difficulties to find out the (p-1)th term of the series.
+Rather what we can do:
+1. Start calculating Lucas-Lehmer series from 0th term and rather storing the whole term only store the s[i]%x (i.e. term modulo x).
+2. Compute the next number of this modified series using the previous term. s[i] = (s[i-1]2 – 2)%x.
+3. Compute up to (p-1)th term.
+4. If the (p-1)th term is 0 then x is prime, otherwise not. Hence, s[p-1] has to be 0 to be x = (2p – 1) prime.
+Examples:
+Code to check whether 2^p-1 is prime or not
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+The largest prime number at the time of writing this article is (2^(77232917) – 1) (discovered 2017-12-26). It has 23, 249, 425 digits. This prime numbers are found in the same way discussed above. Huge computational power and several months of processing is required to find out this kind of large prime numbers.
+Interesting fact is that for checking this much big prime numbers, p are also taken prime. After processing if it finds that the number x is not prime then p is taken as the next prime number and the same process is run.

@@ -1,0 +1,18 @@
+Given a string str and another string patt. Find the character in patt that is present at the minimum index in str. If no character of patt is present in str then print ‘No character present’.
+Examples:
+Source: OLA Interview Experience | Set 12.
+
+Naive Approach: Using two lopp, find the first index of each character of patt in str. Print the character having the minimum index. If no character of patt is present in str then print “No character present”.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(mn), where m and n are the lengths of the two strings.
+Auxiliary Space: O(1)
+ 
+Method 2 Efficient Approach(Hashing): Create a hash table with (key, value) tuple represented as (character, index) tuple. Store the first index of each character of str in the hash table. Now, for each character of patt check if it is present in the hash table or not. If present then get its index from the hash table and update minIndex(minimum index encountered so far). For no matching character print “No character present”. Hash table is implemented using unordered_set in C++.
+Run on IDE
+Run on IDE
+
+Time Complexity: O(m + n), where m and n are the lengths of the two strings.
+Auxiliary Space: O(d), where d is the size of hash table, which is the count of distinct characters in str.

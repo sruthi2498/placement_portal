@@ -1,0 +1,37 @@
+Recently, Amazon visited our campus to recruit interns and FTEs. There were 3 rounds in all – 1 Online Round followed by 2 F2F Interviews
+ Round 1: Online Round (90 minutes)
+There were 2 coding questions and 20 MCQs mostly on Time Complexities (Master Theorem), Logical Reasoning, Data Structures and Algorithms, around 2 from OS, DBMS and Networking each.
+The 2 coding questions were:
+1) Find the sum of lengths of non-overlapping contiguous subarrays with k as the maximum element.
+   Ex: Array: {2,1,4,9,2,3,8,3,4} and k = 4
+ Ans: 5
+            {2,1,4} => Length = 3
+            {3,4}   => Length = 2
+            So, 3 + 2 = 5 is the answer 
+2) You are given an array A where A[i] (1-based indexing) denotes the number of chocolates corresponding to each station. When we move from station i to station i+1 we get A[i] – A[i+1]  chocolates for free. Note that if this number is negative, we lose that many chocolates. We can only move from station i to station i+1 and that too if and only if we have non-negative number of chocolates with us. Given that cost of one chocolate is  Rs. P , our task is to find the minimum cost incurred in reaching station n from the first station (station 1).
+Ex: A: {1,2,3} and P = 10
+ Ans: 30
+To reach station 1 from the starting station, we need to buy 1 chocolate
+To reach station 2 form station 1, we get A[1] – A[2] = -1 chocolates i.e. we lose 1 chocolate. Hence, we need to buy 1 chocolate.
+Similarly, we need to buy 1 chocolate to reach station 3 from station 2.
+Hence, total cost incurred = (1+1+1)*10 = 30
+Out of around 150 students, 26 were shortlisted for Round 2.
+Round 2: FTF Interview (Around 30-40 minutes)
+First, the interviewer told me to introduce myself and then asked 3 coding questions:
+1. Search for an element in a row-wise and column-wise sorted 2D Matrix
+https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+I started with a O(R*C) solution, followed it up with an O(RlogC) solution and finally gave the O(R+C) solution.
+2. Given an array of n elements and a number, find a pair in the array with sum equal to that number.
+https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+This question was followed up with finding a triplet with sum equal to Zero.
+3. I was provided with a function int getval(int x) which basically takes the value of x and returns f(x). Given that f(x) is a monotonically increasing function, my task was to find the smallest value of x such that f(x) > 0.
+Round 3: FTF Interview (Around 30 minutes)
+The interviewer once again asked me to introduce myself and asked 3 questions:
+1. What is Data Abstraction. Explain it with a real-life example.
+2. What are infix and postfix expressions. He then asked me to write a pseudo-code for converting infix expression to postfix expression.
+https://www.geeksforgeeks.org/stack-set-2-infix-to-postfix/
+3. Multiply 2 numbers without using Multiplication or Division operator, Bitwise operators or any loop.
+I gave him a recursive approach and he was pretty happy with it
+Finally, he asked me if I had any questions for him.
+Out of the 26 selected for the interviews, 13 were finally selected for internship.
+During my preparation GEEKSFORGEEKS, indeed, was a great help. Preparing from articles under DS and Algo section would give anybody a definite chance to clear all rounds. A big thank you to other geeks as well for sharing their interview experiences as going through past experiences was the perfect way to end my preparations.

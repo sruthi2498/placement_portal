@@ -1,0 +1,36 @@
+Hi, I was interviewed for Flipkart SDE 2 role 2 months back. I want to share interview experience with other geeks.
+Telephonic Interview (45 minutes)
+(1) There is a stream of characters and at any time we need to find and remove (means set occurrence = 0) character which has maximum occurrence till now. Design data structure and algorithm for same. (I used standard Heap and Hash table setup, then was asked if we can replace lg(n) Heap operations with some efficient operation in practical scenario. I came up with doubly linked list and moving character to front on basis of its occurrences).
+(2) Given a gold mine of n*m dimension. Each field in this mine contains an integer which is amount of gold in tons. Initially miner is in first column but could be at any row i. He can move only (right ->, right up /, right down \). Find out maximum amount of gold he can collect and path followed by him.
+(3) Given two string str and pat. Find minimum window in str which contains all characters from string pat.
+Problem Solving Round: (1 hour 30 minutes)
+(1) Given a dictionary of unknown language and characters. Find out order between characters.
+Example :
+ab
+bcd
+ce
+de
+Output : a, b, c, d, e
+(2) Given two trees, superimpose them. If not possible to superimpose raise exception. 
+(3) Given a review paragraph and keywords, find minimum length snippet from paragraph which contains all keywords in any order.
+(4) Extended question 3 if there are millions of review, what preprocessing step would you do.
+Coding Round: (1 hour 30 minutes)
+Given list of expressions:
+a = 10
+b = a++
+c = a + b
+d = c*b + a*c
+Print out value of last variable (in our example, it is d).  First illustrate algorithm and then code in 1 hour.
+Managerial Round: (1 hour)
+Designing of all previous products I have worked on.
+Design Round: (1 hour)
+Design Snake and Ladder game.
+Expose api to outer world.
+Build following from exposed api:
+(1) iOS app
+(2) Web app
+(3) Desktop app
+HR Round: (15 minutes)
+Why would you join Flipkart if you would have offer from Google and Facebook?
+Why you want to join Flipkart?
+After few days I received offer. Thank you Geeks as reading geeksforgeeks was wonderful and great learning experience and helped in preparation for interview.

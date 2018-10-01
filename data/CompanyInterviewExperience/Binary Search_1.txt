@@ -1,0 +1,13 @@
+Binary Search is a technique used to search element in a sorted list. In this article, we will looking at library functions to do Binary Search.
+Finding first occurrence of an element.
+bisect.bisect_left(a, x, lo=0, hi=len(a)) : Returns leftmost insertion point of x in a sorted list. Last two parameters are optional, they are used to search in sublist.
+Run on IDE
+Finding greatest value smaller than x.
+Run on IDE
+Finding rightmost occurrence
+
+bisect.bisect_right(a, x, lo=0, hi=len(a))   Returns rightmost insertion point of x in a sorted list a. Last two parameters are optional, they are used to search in sublist.
+Run on IDE
+Please refer Binary Search for writing your own Binary Search code.
+Reference : 
+https://docs.python.org/3/library/bisect.html

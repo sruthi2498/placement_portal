@@ -1,0 +1,53 @@
+We have to paint n boards of length {A1, A2…An}. There are k painters available and each takes 1 unit time to paint 1 unit of board. The problem is to find the minimum time to get
+this job done under the constraints that any painter will only paint continuous sections of boards, say board {2, 3, 4} or only board {1} or nothing but not board {2, 4, 5}.
+Examples:
+
+From the above examples, it is obvious that the strategy of dividing the boards into k equal partitions won’t work for all the cases. We can observe that the problem can be broken down into: Given an array A of non-negative integers and a positive integer k, we have to divide A into k of fewer partitions such that the maximum sum of the elements in a partition, overall partitions is minimized. So for the second example above, possible divisions are:
+* One partition: so time is 100.
+* Two partitions: (10) & (20, 30, 40), so time is 90. Similarly we can put the first divider
+after 20 (=> time 70) or 30 (=> time 60); so this means the minimum time: (100, 90, 70, 60) is 60. 
+A brute force solution is to consider all possible set of contiguous partitions and calculate the maximum sum partition in each case and return the minimum of all these cases. 
+1) Optimal Substructure:
+We can implement the naive solution using recursion with the following optimal substructure property:
+Assuming that we already have k-1 partitions in place (using k-2 dividers), we now have to put the k-1 th divider to get k partitions.
+How can we do this? We can put the k-1 th divider between the i th and i+1 th element where i = 1 to n. Please note that putting it before the first element is the same as putting it after the last element.
+The total cost of this arrangement can be calculated as the maximum of the following:
+a) The cost of the last partition: sum(Ai..An), where the k-1 th divider is
+before element i.
+b) The maximum cost of any partition already formed to the left of the k-1 th divider.
+Here a) can be found out using a simple helper function to calculate sum
+of elements between two indices in the array. How to find out b) ?
+We can observe that b) actually is to place the k-2 separators as fairly as
+possible, so it is a subproblem of the given problem. Thus we can write the optimal
+substructure property as the following recurrence relation:
+
+Following is the implementation of the above recursive equation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of the above solution is exponential. 
+2) Overlapping subproblems:
+Following is the partial recursion tree for T(4, 3) in above equation.
+We can observe that many subproblems like T(1, 1) in the above problem are being solved again and again. Because of these two properties of this problem, we can solve it using dynamic programming, either by top down memoized method or bottom up
+tabular method. Following is the bottom up tabular implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Optimizations:
+1) The time complexity of the above program is . It can be easily brought down to  by precomputing the cumulative sums in an array thus avoiding repeated calls to the sum function:
+Run on IDE
+2) Though here we consider to divide A into k or fewer partitions, we can observe that
+the optimal case always occurs when we divide A into exactly k partitions. So we can use:
+Run on IDE
+and modify the other implementations accordingly. 
+Exercise:
+1) Can you come up with a solution using binary search which runs in O(N lg N) time? Prerequisite for this: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/ 
+References:
+https://articles.leetcode.com/the-painters-partition-problem/
+Asked in: Google, CodeNation

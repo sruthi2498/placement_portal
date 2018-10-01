@@ -1,0 +1,39 @@
+Recently Directi visited our campus for intern selections. There was 1 Online coding round hosted on codechef, 2 Algo Interview round and 1 Technical round.
+Online Coding round:
+There were 2 questions. Question 1 had 2 points whereas question 2 had 1 point.
+Question 1. There is a compressed string eg. ”ab2c3”, the string has lowercase characters and numbers. We can uncompress the given string as follows: whenever we get a number “n” in the string, the portion of the string before the number will repeat “n” times. So in the above example, we get a 2, so string will become “ababc3”, now we get a 3, so final string will be “ababcababcababc”.
+Given a compressed string and a number k, you have to output the k’th character in the uncompressed string.
+1 <= length of string <= 1500 1 <= n <= 1000 1 <= k < 2^31 example: input: ab2c3 10 output: c Question 2. There is a string whose characters can only be either ‘a’, ‘b’ or ‘_’ (there can be only one ‘_’ in the string). At each step, we can modify the string as follows: 1. ‘_’ can be swapped with its adjacent character, example “a_ba” can be changed to either “_aba” or “ab_a”. 2. Two characters adjacent to ‘_’ (both on the same side of ‘_’) can be reversed along with the ‘_’ if both characters are different, example, “aa_ba” can be changed to “aaab_” but not to “_aaba” because both characters are ‘a’. You are given two strings, the initial state and the final state (lengths will be same), you have to output the minimum number of steps required to change the string in initial state to the string in the final state. example: input: a_b ab_ output: 1 input: abaa_a b_aaaa output: 4 reason for example 2:- abaa_a -> aba_aa -> ab_aaa -> _baaaa -> b_aaaa
+Hint: Use Breadth first search
+They shortlisted 12 students after this contest for the next round.
+
+Round 2 (Telephonic interview):
+Question 1. Suppose you are given a string of length n and a set of pairs(i, j such that 0 <= i < j < n). Pair “i, j” (0 based indexing) means that you can swap the i’th and j’th character in the string any number of times. You have to output the lexicographically smallest string that can be produced by doing any number of swaps on the input string. example:
+Question 2. Suppose there are two piles of plates in the table. One has ‘m’ RED plates and other has ‘n’ BLACK plates. In his/her chance, a player can either pick any number of red plates or any number black plates or equal number of red and black plates. A player loses if he cannot make a move in his/her chance. You are playing this game with your friend. Given that you begin the game and both the players play optimally, output ‘L’ if you will lose or ‘W’ if you will win.
+example:
+input: m = 1, n = 2
+output: L
+input: m = 2, n = 2
+output: W
+After this round, they selected 4 people for the next round of interview.
+Round 3 (face to face):
+Question 1. Suppose there are ‘n’ trees (literal trees, not trees of computer science, suppose they don’t have any branch, more like a straight stick), each of them have some height. We want x length of wood. We have a woodcutter, which we will use to cut all the trees at the same height ‘h’ from ground, if ‘h’ is greater than the height of any tree, means that tree is not cut. Given the heights of all the trees and length ‘x’ of wood required, output the height ‘h’ from ground from where you will cut all the trees.
+Question 2. You have an undirected weighted graph, given input ‘x’ and ‘y’, which are any two vertices of the graph, you have to output all the edges that are in any of the shortest path from x to y.
+Note that there can be multiple shortest path from x to y. We have to output all the edges in any of those shortest paths.
+They selected only 1 student for next round.
+Round 4 (Technical round, telephonic):
+In this round, he asked me small questions which included:
+1. About any of my self-projects.
+2. Advantages and disadvantages of BST and hashing. Questions related to collisions in hashing etc.
+3. A question related to databases, he asked me to make a query.
+4. Formulate the angle between the hour hand and minute hand of the clock for any given time.
+5. Suppose we have a huge CSV file having ip-address ranges and its corresponding country code, given any ip-address how will we find the country which it belongs to.
+6. Difference between BST and tries.
+7. He asked few questions from Network course and OS course.
+8. You have a huge linked list, how will you detect any loop in the linked list.
+He asked few more small questions which I don’t remember, after which the interview ended.
+I got selected after clearing all these rounds. 🙂
+Tips:
+1. There main focus was on string and graph, prepare well for them.
+2. Practice your codes on paper or google doc, you will not get any editor for coding.
+3. Keep your concepts clear on all the topics, they can ask you about any minute detail of any data structure or algorithm.

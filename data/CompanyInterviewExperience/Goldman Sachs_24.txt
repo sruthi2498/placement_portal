@@ -1,0 +1,14 @@
+Goldman Sachs conducted On Campus Hiring for the position of Software Engineer.
+Eligibility : Minimum of 6.0 CGPA
+Round 1: (1 hour – Online Coding Round)
+This round had 1 coding question (finding a given element in 2D Matrix-binary search ), 4 MCQs ( Technical and Quants) and 4 technical comprehension questions (advanced data structures ).The results were announced after the pre-placement talk. Out of 250 odd students who took the online test, 12 were shortlisted for the interview.
+Round 2:(30 minutes – Technical Interview)
+The round 2 was a technical interview. I was basically asked questions based on my resume, projects and my internships. The interviewer asked the working of in built .sort() function(preferably In java)  and asked me to write the quick sort algorithm and binary search. And we had a long discussion on the best case, worst case, time and space complexity of merge sort and quick sort. It went fairly well for me.
+Out of 12, 10 students got through for the next round.
+Round 3:(30 minutes- Technical Interview)
+Round 3 was also a technical interview round. I was asked to introduce myself and I was given a coding question which goes like ” Given a non-negative integer array, check if you can jump through the entire array starting from first element and return true or false accordingly. You jump a maximum of arr[i] steps from the ith position.
+Test Case:
+Consider an array {3, 2, 1, 0, 4} .
+Ans : FALSE ( Start from the first element 3. We can jump 1 to max of 3 steps .If we take 3 steps we reach the 4th element which is 0. We cannot move further. In case of 2 steps, we reach third element 1 and on taking 1 step we again reach 0. In case of 1 step, we reach second element and again take 2 steps to reach 0. In all cases, we get blocked reaching 0 and hence it returns FALSE.)
+It can be solved using dynamic programming in 0(n) time.
+Only  4 out of 10 students were asked to wait after round 3. Only 1 went for round 4(HR interview) and got the offer .I was one among the rest of the 3 who got rejected. Yet, It was a really wonderful experience with Goldman Sachs 🙂

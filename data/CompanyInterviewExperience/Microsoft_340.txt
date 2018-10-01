@@ -1,0 +1,14 @@
+Write a program to Validate an IPv4 Address.  
+According to Wikipedia, IPv4 addresses are canonically represented in dot-decimal notation, which consists of four decimal numbers, each ranging from 0 to 255, separated by dots, e.g., 172.16.254.1
+Following are steps to check whether a given string is valid IPv4 address or not:
+step 1) Parse string with “.” as delimiter using “strtok()” function. 
+Run on IDE
+step 2) 
+……..a) If ptr contains any character which is not digit then return 0
+……..b) Convert “ptr” to decimal number say ‘NUM’
+……..c) If NUM is not in range of 0-255 return 0
+……..d) If NUM is in range of 0-255 and ptr is non-NULL increment “dot_counter” by 1
+……..e) if ptr is NULL goto step 3 else goto step 1
+step 3) if dot_counter != 3 return 0 else return 1.
+Run on IDE
+Output: 

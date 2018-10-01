@@ -1,0 +1,14 @@
+Given a string of size ‘n’. The task is to remove or delete minimum number of characters from the string so that the resultant string is palindrome. 
+Note: The order of characters should be maintained.
+
+Examples :
+
+A simple solution is to remove all subsequences one by one and check if remaining string is palindrome or not. Time complexity of this solution is exponential.
+An efficient approach uses the concept of finding the length of the longest palindromic subsequence of a given sequence. 
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2)

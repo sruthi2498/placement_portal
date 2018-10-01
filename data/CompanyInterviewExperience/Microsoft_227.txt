@@ -1,0 +1,27 @@
+There were 4 rounds in all
+First Round
+There were total 15 MCQ questions based on c, c++ pointers java output and one was on resource allocation graph. This round was on cocubes
+Second Round
+Around 60 people were selected and there were two coding questions
+1. In a given array find i & j such that arr[j] > arr[i] and j-i is maximum
+2. In a binary tree find product of all sum of values in a leaf node at same level
+This round was again on cocubes
+Third Round
+Around 35 people were selected two questions were asked
+1. In a BST two node values are swapped . Restore original BST
+2. Given a sorted array find pairs such that their sum is closest to the given value
+This one was on pen paper
+Fourth Round
+Around 20 people were selected for it
+There was a single question it was expected to write code on a paper
+Given a number find next bigger number by permuting its digits
+After i solved this interviewer asked me to modify my algorithm for negative numbers
+Final Round
+There were 15 people
+Interviewer questioned every one personally
+Here are the few questions
+1. Given a stream of running characters you have to identify anagrams and store only unique strings in a file
+2. Given inorder and preorder traversals construct BT
+3. Link-list is given it contains red, blue and green balls only sort it in place
+Then some general questions were asked. Interviewer asked us to ask him something about microsoft and what will be work etc.
+

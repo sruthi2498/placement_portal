@@ -1,0 +1,35 @@
+Super Day Process
+1st Round – Written test to be completed in 1hour 20 mins containing questions on C++, SQL and Aptitude questions. The questions were really tough and considering the level of questions one might feel that the company is really technically sound. But believe me as you read you are going to get shocked.(Hint: For Aptitude questions, Please do a reverse solving, because you get 30 mins for 15 apti questions)
+2nd Round –
+1)      Given a matrix with row sorted and column sorted, find the number given
+2)      What is head and tail command in UNIX ? How does it work?
+3)      What is copy constructor ? Write its syntax ? Brief about virtual functions and real time use case of it.
+4)      Different storage class and scope of variables.
+This round is the most funniest – Believe me the interviewer was the Vice-President of the company and he did not know the basics of Operating system. It was kind of very irritating to talk to such people in the interview. If their package wouldn’t have been good, I would have made him realize the current era
+3rd Round –
+1)      Lots of discussion on project.
+2)      Write a code to crash OS ( After listening to this question, I was shocked ? What does he actually want ?) I tried to answer this. Then finally he says write calloc in an infinite loop ( Now you all get and believe me this is a technical answer from the vice president of technology division of GoldMan Sachs and in US they compare them with Google. LOL)
+3)      Discussion on threading framework.
+This is not it. This was actually the super day where they filter people from the crowd.
+Now the actual interview with the team starts.
+4th Round –
+a)      Implement a max stack using one stack(Hint: Use amortized analysis) and don’t use two stacks to solve it( I solved using two stack and finally optimized space and he told me to write the complete code
+b)      Question on Trie data structure – I don’t remember the question but it was a direct question
+5th Round-
+a)      Find the number ABCD such that when multipled by 4 gives DCBA.
+b)      How would you implement const member function of C++ in C ?
+c)       What is copy constructor ?
+d)      There were many questions from C++ and design of my projects.
+e)      Intersection of linked list
+6th Round –
+a)      Pirates and Gold Coin Puzzle
+b)      Take the 4 men across the bridge and only 2 can cross(simple puzzle)
+c)       Measure 90 and 50 kg of sugar using 7 and 2kg of weight and you can use the beam balance only thrice.
+d)      Reverse a string code
+e)      Again many questions on C++ in this round too
+7th Round –
+a)      Final Round by the manager of the team
+b)      Asks the puzzle of heavy coin and told me to generalize the same. I solved the puzzle and generalized it.
+Again the manager was the vice president, who dint know what a ceil function was since the generalized version of this puzzle was ceil(log n to the base 3)
+                Finally after so much rounds, he says will you join the support profile ? I was like what a support profile. I told him no and believe me my interview was 95% correct. So please be aware of  GS, they call for C++ and they finally offer support role.
+Run on IDE

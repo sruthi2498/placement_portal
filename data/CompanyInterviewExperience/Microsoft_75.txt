@@ -1,0 +1,9 @@
+Given a linked list which contains series of numbers seperated by “0”. Add them and store in the linked list in-place.
+Note :There will not be continuous zeros in input.
+Examples:
+
+1. Start iterating over nodes of linked list.
+2. Iterate while temp.data !=0, and add these data into a variable ‘sum’.
+3. When you encounter 0 as the node’s data, change pointers of previous nodes.
+Run on IDE
+Output:

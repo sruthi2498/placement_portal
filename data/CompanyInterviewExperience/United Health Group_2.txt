@@ -1,0 +1,24 @@
+Round 1:(Written Test) 
+It consists of two sections. The first section had 30 aptitude questions(45 minutes) which was of medium level and the second section had 3 coding questions (30 minutes).
+Since it was pen and paper round so syntax didn’t really mattered for the coding questions. They basically check your thought process for any problem.
+The aptitude questions had marking scheme of : +1 for right answers and -0.5 for wrong answers. So beware of attempting the questions. An important tip for this part is that one should try to attempt short questions and leave the paragraph based questions for the end. Doing at least 14 questions correctly will do the trick!
+Following are the coding questions which were asked in the coding test:
+Find if a string is interleaved of two other strings
+Stock Buy and Sell to Maximize Profit
+Remove every kth person from total of n persons sitting in a round circle
+ 
+Round 2:(Technical Interview)
+I don’t remember everything but i will try to write about the highlighting part of the interview.
+So it basically started with my brief introduction and the interviewer was pleased with my performance in written test. He then had a quick glance at my resume. He asked if i had done any internships. As i never did any internship so he went through my resume and asked about the projects. It was quite a long discussion on it and he was quite satisfied by it.
+Then he asked me about the sorting algorithms I know. But in between he stopped me asked me to write a code to implement MATRIX MULTIPLICATION USING POINTERS. I had the idea of how pointers are implemented and stored in the memory so i was lucky to solve this. He was quite impressed. (Always be confident and ready to face new questions and problems.)
+Next he asked me to define natural join and full join in terms of set theory in a single line. (Ans : Intersection and Union)
+Lastly he asked me to design a problem for on-line milk vendor :
+There is a milk vendor who buys milk packets from different suppliers everyday. For distributing the milk packets he gives coupons to the customers.(Note: The coupons are of certain quantity of milk i.e, 1L,2L and 0.5L) For managing such large distribution he has hired some staffs. He has to take care when the coupon is going to expire(if the customer is left with coupons or not ) and has to inform the customer about the same. Also he has to inform the customers if the price of the milk is going to increase or decrease on the next time of purchase.
+Tip: The interviewer wants to check your thought process. Think as much as you can!
+Later he asked some simple database questions related to this problem. He then added that he was satisfied with my solutions to coding questions so he didn’t want to ask about those and finally he concluded by asking if i had any questions. (Always ask questions. This shows your curiosity and willingness to work.) The interviewer was very cool and always helpful. He also gave tips and hints whenever needed.
+This round went for nearly 1hr 30mins. After this round 12 students were shortlisted for hr round.
+ 
+Round 3:(HR Interview)
+This was the shortest interview I ever had! Believe me, it lasted hardly for 5-10 minutes.
+He started with my basic informal introduction. He then asked about my technical interview about how it went  and to comment on the interviewer. (It is really good if u remember the name of the interviewer). Then he asked me about which previous companies i sat for the interview and how was the experience. He was quite impressed with my positive attitude.(Even after so many rejections i was always try to be positive and confident). Lastly he asked why i should join UHG. That’s it!
+Finally, all of the 12 students were hired! Cheers!

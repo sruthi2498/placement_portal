@@ -1,0 +1,7 @@
+The list::back() function in C++ STL returns a direct reference to the last element in the list container. This function is different from the list::end() function as the end() function returns only the iterator to the last element. 
+Syntax: 
+Parameters: This function does not accepts any parameter.
+Return Value: This function returns a direct reference to the last element in the list container demo_list. 
+Exception: There is as no such exception in this function but calling this function on an empty list container creates an undefined behavior in C++.
+Below program illustrates the list::back() function. 
+Run on IDE

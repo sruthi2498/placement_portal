@@ -1,0 +1,15 @@
+After going through previous post, we know what exactly are complex numbers and how we can use them to simulate points in a cartesian plane. Now, we will have an insight as to how to use the complex class from STL in C++.
+To use the complex class from STL we use #include <complex>
+Defining Point Class
+We can define our point class by typedef complex<double> point; at the start of the program. The X and Y coordinates of the point are the real and imaginary part of the complex number respectively. To access our X- and Y-coordinates, we can macro the real() and imag() functions by using #define as follows:
+Drawback: Since x and y have been used as macros, these can’t be used as variables. However, this drawback doesn’t stand in front of the many advantages this serves.
+Run on IDE
+Output:
+Implementation of attributes with respect to P single point P in plane:
+Run on IDE
+Output:
+Let us consider points P (a, b) and Q (c, d) on the Euclidean Plane.
+Implementation of attributes with respect to  P and Q.
+Run on IDE
+Output:
+

@@ -1,0 +1,33 @@
+Myntra visited our campus on the first day of placements. Before coming to college, they held the first round which was online.
+Online Round (First round)
+The test was held on CodeGround. it consisted of 5 verbal apti questions each of 4 marks (very easy) and 3 coding questions. The coding questions were:
+1. Minimum number of steps one has to take to reach a particular destination. You can take 1,2,3,4 or 5 steps at a time. (Simple greedy question) (15 marks)
+2. Some prime score question. I don’t remember exactly, but brute force method hadn’t worked. (25 marks)
+3. LIS problem, but the difference between the elements must be atleast a given ‘k’. Only the O(nlogn) method would pass the test cases. (50 marks)
+Second round (Technical interview)
+The interviewer went through my resume and asked me to explain one of the projects. He then gave 3 coding questions:
+1. Reversal of a string without extra-memory.
+2. Evaluation of an infix expression.
+3. Snake and Ladder problem. He asked me to make a few changes to it, and also to check if it covered all kinds of test cases. Asked me to solve by taking different data structures.
+Tip: Before jumping to code the question on paper, discuss your approach with the interviewer and make him/her understand how you arrive at the solution.
+Third round (Technical interview)
+The interviewer again asked me two coding questions:
+1. Rotate a square matrix by 90 degrees in place. She then asked me to modify it for rectangular matrices.
+2. Given a social network, how will you say that two people are connected to each other. (Simply apply dfs/bfs and check if there’s a path)
+Tip: The questions will seem to be easy, but the interviewer will look at your approach, and how you handle the situation and modify your solution if s/he asks you to do so.
+Fourth round (Technical interview)
+Asked me to make myself comfortable. Again I was asked 3 coding questions:
+1. Given a number ‘n’, find out all the n-digit numbers whose difference of the sum of digits at odd and even places is 1.
+2. Addition of two numbers represented by linked list. Be careful to note how the numbers are represented.
+3. A sorted array has been rotated at some point which you don’t know and you’re given a number ‘n’. Find that number ‘n’ in the rotated array.
+Fifth round (HR)
+The HR was very friendly and asked normal questions like:
+1. Why Myntra?
+2. What improvements you would like to see in yourself after joining myntra.
+3. Tell one downfall you faced in your career.
+4. How was your previous internship experience (Don’t speak ill about your previous company where you’d interned. Throws a bad impression.)
+5. What changes you’ll like to bring about in myntra.
+After this round the HR told “Welcome aboard :D” and gave me a bag full of goodies 😛
+It was my first ever interview experience and I secured a job on the first day of placements itself :).
+Don’t be nervous, and don’t hesitate to present your approach; you may not be very good at coding, but what they see is how you proceed further and strive to come up with a solution. Make your DSA very strong. I prepared totally from GeeksForGeeks, it’s a wonderful site to help you with everything.
+All the best guys 🙂 !

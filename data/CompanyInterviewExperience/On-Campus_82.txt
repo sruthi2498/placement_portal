@@ -1,0 +1,21 @@
+I went till 4 rounds out of 5. Our college has 3 branches, ETC, IT, CE, all were branches were eligible for appearing. There were 5 rounds conducted by company. Main focus of company was on problem solving and optimization.
+Round 1:
+First round was an MCQ round on their platform eduthrill. There were questions from DS, Algorithm, OS, DBMS CN, logic and simple puzzles. Each question had separate timer; 30 questions, 40 mins test. 23 students got shortlisted for next round out of 350+ students appearing for the test. Main key to score more was to answer as quickly as possible. My score was 189. I was the last one to get selected in their list. Although not sure about their shortlisting process as one of my friend scoring 225 didn’t get shortlist. May be their is sectional cutoff. Not sure.
+Round 2:
+All the further rounds were conducted on single day. Students of another college, COEP came in our college for further rounds. First they conducted their ppt for shortlisted sutdents. then they proceeded with their process. First round of the day was coding round, on paper. 2 questions in 40 mins. They wanted a perfect error-free code. Questions were:
+1. anticlockwise spiral printing (opposite as shown here)
+2. given linked list is palindrome or not (here).
+I answered only 2nd question in O(n) time complexity and O(1) space complexity. My friend too answered only second question in O(n) time and O(n) space complexity. We both got selected for next round.
+Round 3:
+This was a technical interview with one of their recruiters. My interview lasted more than 1 hr 15 mins. Mainly focused on 2 questions:
+1. Intersection of 2 linked lists
+2. Common elements in 2 linked lists. For 3 lists, see this.
+Interviewer was nice to me. I tried not to maintain any moment of silence. I kept thinking loudly. I told all type of solutions that striked me. May be more space and less time complexity or vice versa. Every time he wanted me a more optimized solution. Common question throughout interview was “How can you optimize this further?”. He also gave me hints at right moment. For second question he suggested me for using hashing. But I told him I’m not familiar with hashing. That was acceptable for him. For each question I had to write method which performs that task. I had C/C++, Python and Linux in my resume, so he didn’t ask anything outside this like DMBS, CNS. Then he asked me some questions on my project. What was my major project etc.. I explained him and told him it is in it’s early stage so he continued with other projects. Easy questions related to projects. At the end for 2 mins he asked me 1 question related to linux.
+Q: What permissions will you give if you want to go to a directory? eg: cd hello
+Options: (a) Read        (b) Write
+Done. I was selected for next round.
+Round 4:
+Again a technical round but not an interview this time. Interviewer gave me 2 questions one by one and expected me to write methods for them. Question were:
+Each time, he gave me a question and went somewhere. He kept visiting me in specific interval of time. Till this time I was completely exhausted. He gave me first question and expected an error-free method. I was struggling to write and was not ready to give up. After 30 mins he told me if you do not submit your first code then there will be no time for second question. So I moved to second question. I almost completed second question maybe 90% of it. He then told me to submit my solution, It was okay if it wasn’t complete. Then he went to his cabin and within a minute I was informed I’m not selected. Not sure but there were around 4 students till this round.
+Next round was HR Round. 1 student got placed from our campus.
+———–

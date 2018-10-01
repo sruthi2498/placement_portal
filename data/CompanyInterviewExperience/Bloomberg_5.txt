@@ -1,0 +1,20 @@
+Interview Process : I applied through career page and got reply through mail for scheduling 45 minutes interview (2:1) on hackerrank codepair.
+After successfully passing this round, I had to go though video conference interview (2:1) with live coding on hackerrank.
+Then, I was called for onsite interview which was 2 hrs interview along with coding on hackerrank.
+According to me, unable to give proper response for questions like “Why Bloomberg” caused me rejection so I would suggest to a do a background research of the company before the interviews.
+Interview questions:
+
+First round:
+First question:
+Run on IDE
+Second question:
+Write a linked list class along with append function(add a node at the end) and destructor function.
+Second round:
+First question : Write a function that takes two node pointers as argument and gives the lowest common ancestor of them in the binary search tree. Also, I was asked about about space and time complexity.
+Second question: Given two numbers in the form of singly linked list in such a way that most significant nbit is at the head, ex. 123 is stored as 1->2->3, write a function that takes arguments as pointers to head of two linked list representing numbers and returns pointer to head of another linked list which represents the number that is result of addition of the two numbers given as arguments.
+ex: 1->2->3 , 4->5->6 should return 5->7>9.
+I was also asked about time and space complexity of my solution, and how my solution will change if linked list would have been doubly linked list.
+Third round (On-site) :
+First question: Initially I was given a number that I should consider as terminating number. Given a continuous stream of numbers, write a function that returns the first unique number whenever terminating number is reached. Interviewer wanted an answer that was in O(1) when a terminating number is reached, so basically preprocessing was required.
+Through this question, my knowledge on how process works, I mean what is heap. stack, global variables, local variables was also checked. i was also asked how hash map works, its time complexity, how it is calculated, I was also asked in detail about linked list and array and also about iterator dereference.
+Apart form this, I was also about my most challenging project, most boring project, why I chose Computer Science as my field, why Bloomberg etc.

@@ -1,0 +1,15 @@
+Given two numbers n and k,  print k-th prime factor among all prime factors of n. For example, if the input number is 15 and k is 2, then output should be “5”. And if the k is 3, then output should be “-1” (there are less than k prime factors). 
+Examples:
+
+A Simple Solution is to first find prime factors of n. While finding prime factors, keep track of count. If count becomes k, we return current prime factor.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+An Efficient Solution is to use Sieve of Eratosthenes. Note that this solution is efficient when we need k-th prime factor for multiple test cases. For a single case, previous approach is better.
+The idea is to do preprocessing and store least prime factor of all numbers in given range. Once we have least prime factors stored in an array, we can find k-th prime factor by repeatedly dividing n with least prime factor while it is divisible, then repeating the process for reduced n.
+Run on IDE
+Output:

@@ -1,0 +1,29 @@
+ Online Round 
+ It consists of 20 mcqs and two coding questions where MCQS got the negative marking , One for the correct answer and -0.25 for each wrong answer. 
+1.Given a string. Find all the palindromic partitions of the string. (Number of way the string can be partitioned so that all the partitions are palindrome)( Case – Insensitive )
+Examples:
+Link for the following question
+2. You are given with a large paragraph and N words.You have to find a min length subparagraph of the paragraph which contain all those N words in any order.(Case Insensitive)
+Only 33 students got selected for the next round
+Round 2( Technical Interview )
+First the Interviewer introduced himself and then asked me to introduce yourself
+He gave me only one question 
+Given a positive number and you have to find all the no. that holds the property of all the digits with absolute difference equal to 1 to its adjacent digit below that given number.
+I gave a brute force solution first and then he asked me to optimize it. We had a long discussion then he asked me to code the solution.
+Only 6 students got selected for the next round.
+Round 3( Technical Interview )
+The interviewer started with the most common questions “Tell me about yourself” , in which I explained my projects , my achievements and my strengths.
+The round started with long discussions on following Questions of Operating Systems.
+1. What is deadlock? and situation where you have faced deadlock.
+2. Scheduling Algorithms.
+3. Code LRU Cache
+4. Banker’s Algorithm.
+5. Paging , Segmentation etc.
+6. How compiler compiles the interlinked libraries.( Using Topological Sort ) and asked me to code for the same.
+One Coding was asked in last
+Trapping Rain Water
+In Last interviewer winded up the interview with “Any questions for me?”
+Verdict : Selected
+Only 3 students were offered internship 
+
+

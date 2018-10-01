@@ -1,0 +1,15 @@
+1.	Difference between risc and cisc:
+Risc more number of registers, what sir said is in risc for instructions like ldm and stm instructions cycles or loops are fixed like 12 or 13 but in cisc it depends, so therefore for industrial purpose risc is preferred when compared to cisc.
+2.	Which sorting technique is fast
+Difference between merge sort and quick sort
+3.	What is ARM instruction set?
+4.	Pipeline concept explain using thumb and arm mode
+5.	IPC MECHANISMS
+6.	Semaphores and mutexes difference
+7.	Difference between process and threads
+8.	Program on preemptive scheduling with medium low and high priorities
+9.	Embedded C Program in microcontroller iwrote for avr atmega8, manage the speed of fan high or low depending  on temperature and make fan switch ON or OFF during night 10 pm to morning 11 am.
+10.	When a semaphore becomes mutex ( he said something at signal0 ).
+11.	Difference between assembler, compiler and linker with extensions
+12.	What are different debugging techniques like gdb and so on…….
+13.	Debugging effect on compilation

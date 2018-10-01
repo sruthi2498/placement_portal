@@ -1,0 +1,9 @@
+Sequence containers
+Sequence containers implement data structures which can be accessed sequentially.
+Associative containers
+Associative containers implement sorted data structures that can be quickly searched (O(log n) complexity).
+Unordered associative containers
+Unordered associative containers implement unsorted (hashed) data structures that can be quickly searched (O(1) amortized, O(n) worst-case complexity).
+Container adaptors
+Container adaptors provide a different interface for sequential containers.
+More Useful Links

@@ -1,0 +1,32 @@
+Adobe Interview Experience for Software engineer (Testing profile, Fresher)
+Phase 1: shortlisting of resumes on basis of cgpa (7.5 in our case)
+1) Online Aptitude Test- link is mailed to email account , consists of 45 questions in 50 minutes, reasoning questions bit tough, but quant part is very easy.
+My advice for this test is start from the last question as starting 15 questions are tough, and after that questions are so easy that they dont even require pen and paper.
+2) Online Coding test: 14 MCQ (C output based) and 3 C programs
+in my case programs were multiplication of 2 (2X2) matrices and second was a pattern question(reverse pyramid) and one more i dont remember.
+Now there are 2 f2f techincal rounds.
+
+1st F2F:
+Interviewer was so friendly that as i was a bit nervous in the starting he took me to the cafe, and had a cup of tea with me and showed my his previous seat loactions when he joined Adobe. Then the interview began, asked me in which language i am comfortable(tell only those you know coz they ask only from them) . i told i can code in C, and clear with concepts of Java.
+Questions:
+How java is platform independent?
+He told me that if he mails me an excel file and when i try to open it, it doesnt open. asked me all the possible reason to it.? (gave me lot of time to think, basically he was checking how much i can think on it)
+He then told me that if he makes a new web browser and asks me to test it, what all thinks i would test. (again gave me a lot of time to think and tell him as many as i can)
+Then WAP to convery binary no to Decimal no.
+Then WAP, given a file, find the line in the file which has maximum charactes and print it.
+
+2nd F2F:
+Started with my intro, as i had done internship in my final sem so i told this in my intro , so he asked me to explain what all i did in the internship. 
+Asked me given an array , find the element before which all the elements are smaller than it, and after which all are greater then it. Asked me approach, didnt want the code.
+
+Final Director Round: 
+Started with my intro.
+Discussed my final year project, asked me if it is live as i had made an e-commerce website. so i told him the link , and then he asked me to prove that the website is made by me only, it is not someone else website that i am showing so i showed him the admin panel and he believed it was made my me only.
+Then he asked few questions
+What is virtual memory?
+What is SaaS?
+What is Memory Leakage?
+What is cloud?
+then he also gave me a testing related question. to which i had to think and give all the possible cases i would test.
+Basically think vast, think for all the possible cases, take your time, language is not a barrier, Hindi is permitted.
+

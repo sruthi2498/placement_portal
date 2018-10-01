@@ -1,0 +1,34 @@
+The most important thing about Amazon interviews is that you need to produce Flawless, Most Optimal solution in the First try itself. Take your time to think, but when you code make sure you Cover every edge case before handing your solution to the interviewer.
+Online Round (90 mins)
+20 MCQ questions spanning Aptitude, basic C/C++ skills
+2 Coding Questions
+-> Vertical Sum in binary tree
+-> Add 2 link lists
+Phone Screen ( PS1 ) ( 45 mins)
+Basic questions about  OS. Virtual memory, multi-threading, etc.
+-> Next Greater number for every element. ( Algo + Code )
+-> Reverse link list ( Algo )
+-> LCA in Binary Tree ( Algo + Code )
+F2F Interview 1: (45 mins)
+-> LCA of K given nodes in a n-ary tree .( Algo + Code )
+-> Sliding window minimum . ( Algo + Code )
+Discussion about Internship project .
+F2F Interview 2: ( 60 mins)
+Discussion about Internship project .High level Design was to be produced
+-> Given a boolean 2-D matrix, find the number of unique rows in it.( Algo + Code )
+I gave 3 diffrent solutions.One of them used Hashing .The interviewer then went into GREAT details of hashing .
+After a lot of discussion about various Types of hash implementation,pros/cons,uses , he gave me a Scenario for which i needed to build a good hash function. 
+F2F Interview 3(Stess Interview) ( 60 mins)
+Discussion about Internship project .
+-> Given a Binary tree and a arbirary node of that tree , find all the nodes at a Distance of K from that Node .Nodes DON’T have parent pointers.( Algo + Code )
+-> Implement 2 stacks in an array .( Algo + Code ) .
+Follow up question ->What do we do if we want to change the size of array dynamically.
+-> Implement 3 stacks in an array .( Algo )
+-> Implement K stacks in an array .( Algo )
+F2F Interview 4 ( 60 mins )
+-> Lot of OS questions .  Mutex,semaphore,Deadlock ,Virtual memory , Scheduling algos .
+Then he gave me a Code, and asked to make it Thread Safe .
+I had used SQL in my intership project, so was asked basic DBMS questions and SQL queries.
+SQL query to find maximum in a column, without using aggregate MAX function .
+-> Given a binary tree, where every node value is a Digit from 1-9 .Find the sum of all the numbers which are formed from root to leaf paths .  (Algo + Code ) 
+

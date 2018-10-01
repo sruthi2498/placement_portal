@@ -1,0 +1,32 @@
+Give a positive integer n, find modular multiplicative inverse of all integer from 1 to n with respect to a big prime number, say, ‘prime’.
+The modular multiplicative inverse of a is an integer ‘x’ such that. 
+Examples :
+
+
+A simple solution is to one by one find modular inverse for every number.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+An efficient solution is based on extended Euclid algorithm.
+Extended Euclidean algorithm finds integer coefficients x and y such that:
+We can recursively find x using below expression (see extended Euclid algorithm for details).
+The extended Euclidean algorithm updates results of gcd(a, b) using the results calculated by recursive call gcd(b%a, a).  Let values of x and y calculated by the recursive call be xprev and yprev. x and y are updated using below expressions. 
+We use above relation to compute inverse using previously computed values.
+We use Dynamic Programming approach that uses above recursive structure.
+Dynamic Approach :
+dp[1] = 1,
+dp[2] = dp[17%2]*(17-17/2)%17 = 9
+dp[3] = dp[17%3]*(17-17/3)%17 = 6
+and so on..
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)

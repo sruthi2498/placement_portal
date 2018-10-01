@@ -1,0 +1,23 @@
+This about my experience of MS interview, which happened last day
+Division: Microsoft Bing R&D
+Rounds: Total 4 rounds (All face to face)
+Location: Hyderabad.
+Tech Round 1
+1. Find the middle point of the linked list
+2. Check whether loop exists or not in Linked List
+3. How to calculate the size of the linked list
+4. Given an unsorted array, how to divide them into two equal arrays whose difference of sum is minimum
+ -> First I proposed sorting and then distributing them to two buckets. She’s fine with that. However she doesn’t want to sort the array and asked if i can solve in O(n) time
+Tech Round 2.
+1. Given an array, rotate the elements of an array within O(n) time and with 0(1) space
+ -> This is the worst round for me. Made silly mistake. I felt very bad after coming out. couldn’t get an idea of continuous swapping
+Tech Round 3
+1. Given a sorted array, find the pair of elements whose sum can be equal or close to given sum
+2. Given an array [a1b2c3d4] convert to [abcd1234] with 0(1) space and O(n) time
+Director Round 4
+1. Given Linked list, write heapify and delete methods.
+2. Given two sorted arrays of any length, find out the median of them if they are sorted into single array.
+–> Lost here. I couldn’t find good solution. I think it’s my bad luck 🙁 If i could have crossed this question, I would have been in MS by now.
+Anyways, it’s a nice experience overall. First time I entered into MS campus and first interview with them. Learned lot. Needs to improve and get into that by next time 😉
+They will give little hints and try to use them and make solution out of it.
+

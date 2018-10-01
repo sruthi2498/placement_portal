@@ -1,0 +1,68 @@
+Hey guys, a pool campus drive for North-East India has been conducted by SAP Labs India in Guwahati, Assam.
+The selection process is divided into 2 parts
+PART 1:
+Online aptitude test: 105 minutes
+                a. Personality Test : 60 questions , 10 minutes
+                b. English Essay: 1 question
+                c. Design aptitude: 15 questions
+                d. Testing aptitude: 15 questions
+                e. Technical section: 5 questions & 1 debugging question
+                f. Analytical aptitude: 35 questions
+                g. Coding section: 1 question level 1, 1 question level 2
+
+PART 2:
+2 Technical rounds, 1 Managerial round and 1 HR round
+Technical 1:
+a. What is run time and compile time?
+b. char *str = {‘s’,’t’,’ ‘,’r’,’i’,’ ‘,’g’};  WAP to print this without spaces.
+c. WAQ to select all employees who join in this month.
+d. WAQ to select all employees who are not working for any department.
+e. WAQ to select employee/employees having 2nd highest salary.
+All the above questions are bit easy, give a try!
+f. how would you select the 2nd largest element of an unsorted array?
+I told him first we sort the array, then we will get minimum and maximum at each end of the array, then change max = min-1 and again sort the array. Now the new maximum is actually the 2 maximum element of the array. Also I told the MOM( median of median) approach to find the k-th largest element in an unsorted array. he seems satisfied by my answer.
+g.A long discussion on my project and internship.
+h. What is object code?
+i. WAP to check whether a link list is circular or not.
+j. WAP to print this pattern : 
+I solved this in 2 attempts, do not worry about the number of attempts, he will give you as many as you want, just do not give up and always give a try
+k. what is union a derived type of primitive? if derived what is typedef? and is it necessary to use typeddef in union?
+Then he asked me , do you have any question for me, I asked him how was my performance, he replied with a smile, you will get to know soon 🙂
+Technical 2:
+a. A brief introduction about myself.
+b. In which language you are comfortable C/C++/Java or any other?
+I told i am comfortable in both C and C++.
+c. What is polymorphism and how it is achieved? With code and example.
+     I explained him by taking the example of base class pointer pointing to derived class object and how it is determined in run time also told him virtual keyword is used to achieve this. He  was very much satisfied with my answer.
+d. What is segmentation and paging?
+e. Are you comfortable with database? I replied yes, then he asked what is SQL Injection?
+f. What is join and normalization?
+g. Explain all forms of normalization and why would we do this?
+h. What is abstraction and encapsulation? Explain with code and example.
+i. What is difference between abstract and interface?
+j. Rate yourself on a scale of 1 to 10 in logical thinking ability. I said 6-7
+    Then he asked me 3 puzzles, all are very simple and easy ones. E.g You have a gold bar with 7 marks on it, and you have piece of work , which would take 7 days to be finished and a guy will on do the work if would give him a piece of gold everyday. How many minimum cuts you need to cut the gold bar. i said 3, then he asked can you minimize it, I said may be this is not the optimal solution but I could think of this only right now.
+Then he asked me , do you have any question for me, I asked him how was my performance, he replied it was very good.
+
+Managerial Round:
+He begins this round with a puzzle.
+You have 10 blocks and there are 100 apartments in 10 blocks. for each 5 blocks you have a bore well. Now suddenly there is increase in the electricity bill of both the bore wells, suggest some of the reasons why?
+I told him that, as this is summer season , so there would be rise in temperature, he smiled and said yes ,you are going right. Then i said with rise in temperature, people will consume more water for drinking and watering purpose. He said yes this may happen , but it cannot raise the bill to a very much extent, think of more. I replied with various answers, then at last he replied, since it is hot, people will take more bath.
+I could not give the exact answer but he was happy because i thought in a right way and was almost there.
+Then he asked me about my family backgrounds, about my hardest time int the sapn of 4 years of engineering life.
+Why SAP? What are your achievements?
+About my strength and weakness and drawbacks.
+Then he asked whether I am ready to work on any platform or not?
+Then some discussion on my project and internship.
+And at last he offered me juice and said It was nice meeting you 🙂
+
+HR Round:
+This round begins with a debate between 3 students (including me) on “Why make in India is not getting success”. First they gave us 10 minutes of time to prepare for the debate and then the debate started.
+All of us, came with very good points and the interviewer was very much satisfied with all of us.
+After the debate we were sent to different cabins for our personal interview.
+There she asked me about my family background, about my parents.
+On which platform i would like to work( development/ testing/ support) and why?
+I replied i would love to be in the development team as I am quite good with coding skills. Then she asked what if you were sent to some other team? I said I am ready work there also , as I am a good learner so i would get an opportunity to learn new things and can polish my skills.
+Then she asked whether I am ready to reallocate or not.
+And at last she asked do you have any questions for me? I asked how was my performance and can hope for some good news? She smiled and replied your performance was very good and we will you let you know whether you are selected or not.
+TIPS: keep calm, never say no to any problem, always give a try. Interviewers are very friendly so interact with them as much as possible , and always carry a smile on your face.,

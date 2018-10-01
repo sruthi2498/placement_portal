@@ -1,0 +1,16 @@
+Given an array arr[0 .. n-1] of distinct integers, the task is to find a local minima in it. We say that an element arr[x] is a local minimum if it is less than or equal to both its neighbors. 
+Examples:
+A simple solution is to do a linear scan of array and as soon as we find a local minima, we return it. The worst case time complexity of this method would be O(n).
+An efficient solution is based on Binary Search. We compare middle element with its neighbors. If middle element is not greater than any of its neighbors, then we return it. If the middle element is greater than its left neighbor, then there is always a local minima in left half (Why? take few examples). If the middle element is greater than its right neighbor, then there is always a local minima in right half (due to same reason as left half). 
+Below is the implementation of the above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(Log n)
+
+Related Problem : 
+Find a peak element

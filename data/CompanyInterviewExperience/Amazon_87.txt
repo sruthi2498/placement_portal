@@ -1,0 +1,48 @@
+Round 1: Online coding test – 90 minutes (HackerEarth)
+It had 2 coding questions and 20 MCQs.
+Q1: Knapsack variation(you can choose an item any number of times)
+Q2: Given a 2D array consisting of 0’s, 1’s and 2’s. 1 denotes a fresh apple, 2 denotes a rotten apple and 0 denotes absence of an apple at that position.
+    Each rotten apple takes 1 day to make it’s neighbors(8, given a fresh apple is already there)
+    rotten as well. Calculate the number of days when all the apples will be rotten.
+    If not, then print the number of apples which will never get rotten.
+MCQs included some output based questions in C (5), time complexity (2), data structues (10), OS(2), Java based output question(1) etc.
+Round 2 (F2F1)
+The interviewer was very chilled and asked me to introduce myself, then he asked me to explain any of my projects. He then asked me two questions:
+Q1: Given a special binary tree, find the height of the tree.
+    Speciality: each leaf is connnected to the next leaf(left to right) in a circular doubly linkedlist fashion.
+    fashion. Let’s say the 2 consequtive leaves are A and B, so, A->right = B and B->left = A. The leftmost leaf’s left points to the right
+    most leaf and the right most leaf’s right points to the left most leaf.
+    Expected time complexity = O(n), space complexity = O(1).
+Q2: Flip maximum k bits to find the maximize the number of consequtive 1’s in a binary array.
+    Expected time complexity = O(n), space complexity = O(1).
+Round 2 (F2F2)
+    He started with an description of my projects and then he asked me several questions, majorly:
+    Q1: Next permutation of a given string(can contain duplicates). (Write complete code including swap, reverse etc).
+    Q2: Find the mirror the a tree in which each node can have any number of children. (Write complete code)
+    Q3: Boundary order traversal.
+    Q4: Check if the given 2 nodes are cousins or not.
+    Q5: Check wheather a given tree is a summation tree or not. (Any node’s value = sum of all it’s children’s value).
+Round 3 (F2F3)
+    She started with an description of my projects and then he asked me several questions, majorly:
+    Q1: Difference between recursion and iteration(slightly long discussion).
+    Q2: Difference between array, linkedlist and trees.
+    Q3: Discussion on all O(n logn) sorting algorithms.
+    Q4: Sort an array consisting of 0, 1, and 2’s only in one pass.
+    Q5: Given 2 arrays which denote the elements to be inserted in two separate binary search trees. Find wheather the two binary search
+        trees will be same or not, without actually constructing the tree. 
+    Q6: Normal forms in DBMS.
+    Q7: Difference between threads and processes. Also, between multi threading and multi processing.
+    Q8: Return a random node from a given binary search tree and also find the k’th smallest value in the tree(can change the structure)
+    Q9: Spiral order traversal in a square matrix.
+    Q10: Find an element in a sorted, rotated array. Expected time complexity = O(log n).
+Round 4 (Telephonic + screen share)
+    He also started with an description of my projects. Then he just asked one question.
+    Q: Given an array, find the number of inversions in the array.
+    The call quality and the internet connection was poor. I wasn’t able to explain my solution(recurive) on the phone call.
+    Then I wrote the code on the shared sreen. He asked me to dry run it on a case. Just when I was about to dry run I encountered
+    a 502 Bad Gateway error. Nevertheless, he could still see my code and asked me questions on some of the things
+    in my code like the use of “and” instead of “&&” and declaration of array like int temp[n] and not using malloc
+    (Specifically: why malloc, if you can declare any array like this?). Later, I could not hear him properly so he decided
+    to end the interview here itself.
+
+

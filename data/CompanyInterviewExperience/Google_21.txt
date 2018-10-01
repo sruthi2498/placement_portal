@@ -1,0 +1,31 @@
+Given a length n, count the number of strings of length n that can be made using ‘a’, ‘b’ and ‘c’ with at-most one ‘b’ and two ‘c’s allowed.
+Examples :
+Asked in Google Interview
+
+A simple solution  is to recursively count all possible combination of string that can be mode up to latter ‘a’, ‘b’, and ‘c’.   
+Below is implementation of above idea 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of above solution is exponential.
+ 
+Efficient Solution
+If we drown a recursion tree of above code, we can notice that same values appear multiple times. So we store results which are used later if repeated.
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+Thanks to Mr. Lazy for suggesting above solutions.
+A solution that works in O(1) time : 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(1)
+Auxiliary Space : O(1)
+Thanks to Niharika Sahai for providing above solution.
+Reference : 
+https://careercup.appspot.com/question?id=5717453712654336

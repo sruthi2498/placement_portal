@@ -1,0 +1,45 @@
+Intuit was the first company to visit our campus. They selected 6 students.
+Online Round
+————————
+Only people with CGPA of 9+ were allowed to write this. They shortlisted 13 people after this round.
+20 questions including aptitude and output (pretty easy).
+3 coding questions:
+1. Given two integers c and s, find maximum integer, i, for which:
+c * log(i) * sqrt(i) * i <= s
+2. Given two strings A and B, find the list of ending indices of every subtring of B that’s a prefix of A.
+3. Given two arrays, A and B, find the number of pairs for which GCD(a, b) != 1, where a is a number in A and b in B.
+————————————————————————
+Design for Delight
+——————————
+A GD round with no elimination.
+Question: There is an app which is supposed to calculate the profit of a SBO. What questions should the app ask?
+————————————————————————
+Interview Round I
+—————————–
+1. For a given array = [4, 2, 3, 6, 11, 7, 9, 8], output = 6. Find the pattern, and code it.
+Solution: Pattern = Numbers on the left of 6 are less than 6 and on the right of 6 are greater than 6.
+2. Given a 3×3 matrices of dots:
+. . .
+. . .
+. . .
+Traverse all the dots using 4 lines without lifting the pen and without visiting a dot twice.
+————————————————————————
+Interview Round II
+——————————
+1. Given the position of knight and some square on the chessboard, find the minimum number of moves that the knight must make to reach that square.
+2. A matrix which consists of 1s and 0s, 1 represents island and 0 represents water. Find the size of the largest island.
+————————————————————————
+Interview Round III (Design Round)
+——————————————-
+1. Design a college administration system.
+2. Design a URL shortener service.
+————————————————————————
+Interview Round IV
+——————————
+1. There is a function that produces anagrams. How will you test if the function works as it should?
+2. Given a stack, how do you keep track of the minimum element?
+————————————————————————
+HR Round
+————————————————————————
+
+

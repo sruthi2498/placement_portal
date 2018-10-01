@@ -1,0 +1,13 @@
+
+Main classes
+These classes encapsulate a regular expression and the results of matching a regular expression within a target sequence of characters.
+Algorithms
+These functions are used to apply the regular expression encapsulated in a regex to a target sequence of characters.
+Iterators
+The regex iterators are used to traverse the entire set of regular expression matches found within a sequence.
+Exceptions
+This class defines the type of objects thrown as exceptions to report errors from the regular expressions library.
+Traits
+The regex traits class is used to encapsulate the localizable aspects of a regex.
+
+More Useful Links

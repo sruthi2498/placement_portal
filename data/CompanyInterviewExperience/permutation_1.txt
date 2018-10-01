@@ -1,0 +1,8 @@
+Given N, the number of persons. The task is to arrange N person around a circular table.
+Examples:
+Approach: It is the concept of Circular permutation i.e. there is no specific starting point in the arrangement, any element can be considered as the start of the arrangement. 
+For N = 4, Arrangements will be:
+
+Below is the formula to find Circular permutations:
+Below is the impplementation of above idea:
+Run on IDE

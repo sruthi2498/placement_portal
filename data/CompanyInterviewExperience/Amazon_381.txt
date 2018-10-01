@@ -1,0 +1,18 @@
+Given a distance ‘dist, count total number of ways to cover the distance with 1, 2 and 3 steps.
+
+Examples :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+The time complexity of above solution is exponential, a close upper bound is O(3n). If we draw the complete recursion tree, we can observer that many subproblems are solved again and again.  For example, when we start from n = 6, we can reach 4 by subtracting one 2 times and by subtracting 2 one times.  So the subproblem for 4 is called twice.
+Since same suproblems are called again, this problem has Overlapping Subprolems property. So min square sum problem has both properties (see this and this) of a dynamic programming problem. Like other typical Dynamic Programming(DP) problems, recomputations of same subproblems can be avoided by constructing a temporary array count[] in bottom up manner. 
+Below is the implementation of above idea :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

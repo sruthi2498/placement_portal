@@ -1,0 +1,35 @@
+Written Round:
+1) Given a binary tree, such that each node contains a number. Find the maximum possible sum in going from one leaf node to another.
+2) Suppose you have some guests arriving at a party. For each guest, you are given the arrival and departure time. When a guest arrives he is given a wine glass and when he leaves he returns that wine glass (it becomes available to be given to another guest). Find the minimum number of wine glasses needed to serve all the guests. The arrival and departure team can only be between 1800 to 2359 hours.
+Interview
+Round 1:
+1) Suppose you have strings like A, B…, Z, AA, AB, ….AZ and so on. This is similar to the way the columns of excel are named. Given a number you have to find the corresponding string. (e.g. 27 would map to AA). I had to give the algorithm and write the pseudo code for this.
+2) Given n biased coins, with each coin giving heads with probability Pi, find the probability that on tossing the n coins I will obtain exactly k heads. I had to write the formula for this (i.e. the expression that would give us P (n, k)).
+3) Given n positive real numbers, find whether there exists a triplet among this set such that, the sum of the triplet is in the range (1, 2). Do it in linear time and O (1) space.
+Round 2:
+1) Suppose we have three positive integers A, B, C. We randomly choose an integer a in the range [0,A] and an integer b in the range [0,B]. Find the probability that a + b<=C.
+
+2) Repeat the above problem for the case when A, B, C are three positive real numbers.
+3) Given a regular expression and a string (that apart from characters only contains *). Find whether the string satisfies the regular expression. Once the initial solution was given, a good amount of time was spent in considering all possible edge cases and tweaking the algorithm to solve those edge cases.
+Round 3: Telephonic Interview
+The length and breadth of my knowledge regarding Databases, networks and data structures was tested. Some of the questions asked were:
+What are relationships? How are they represented in a database?
+What is indexing? Explain it with an example.
+What is a hash table?
+What is an IP address? 
+What is a MAC address?
+If a MAC address exists why do we need an IP address? 
+Give the use cases of binary tree?
+What is the advantage of an M-ary tree over binary tree?
+Given the different prices of a stock over a time period, find the maximum profit that a person can make by buying and selling the stock within the given time period. The number of such entries can run into millions, so time complexity is important. E.g. the prices are 70, 60,100,150,110. The maximum possible profit in this case is (150-60=90).
+This was the end of the telephonic interview. Probably he was in two minds after this because I was called again after 10 minutes, and two quick questions were asked:
+How can I contribute to Directi?
+What exactly did I do in my internship and how did I benefit my team?
+The response to these two questions sealed the deal and I was ‘hired’ by Directi.
+Interview advice:
+. College students spend majority of their time doing problems related to data structures and algorithms. However most of students ignore the other core CS subjects. You MUST devote equal time to these subjects,  because almost all companies require you to possess a solid understanding of the basic fundamentals of Operating Systems, Databases, Networks, Classes (depending on the profile they are hiring you for).
+. The way you express yourself is really important. If you are unable to express yourself clearly or lack enthusiasm organizations would see that as a potential red flag. If you are weak in English, practice speaking in front of a mirror (believe me, it helps) or still better give mock interviews to your friends.
+. Think out aloud. Whatever idea comes to your mind, share it with the interviewer. Always start by giving a brute force solution to the problem (it helps the interviewer know that you have understood the problem).
+. Don’t give up on a problem until the last moment. Keep on discussing things with the interviewer; he will give you hints if you are on the right path. 
+. Keep solving problems on GeeksforGeeks! 
+

@@ -1,0 +1,28 @@
+Given an integer array ‘arr[]’ of size n, find sum of all sub-arrays of given array. 
+Examples :
+
+Method 1 (Simple Solution)
+A simple solution is to  generate all sub-array and compute their sum.
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n3) 
+Method 2 (efficient solution)
+If we take a close look then we observe a pattern. Let take an example 
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(n)
+Reference : 
+https://www.quora.com/Can-we-find-the-sum-of-all-sub-arrays-of-an-integer-array-in-O-n-time
+Sum of all subsequences of an array

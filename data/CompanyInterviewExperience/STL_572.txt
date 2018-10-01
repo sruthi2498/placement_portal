@@ -1,0 +1,24 @@
+What is a tuple? 
+A tuple is an object that can hold a number of elements. The elements can be of different data types. The elements of tuples are initialized as arguments in order in which they will be accessed.
+Operations on tuple :-
+1. get() :- get() is used to access the tuple values and modify them, it accepts the index and tuple name as arguments to access a particular tuple element.
+2. make_tuple()  :-  make_tuple() is used to assign tuple with values. The values passed should be in order with the values declared in tuple.
+Run on IDE
+Output:
+In the above code, get() modifies the 1st nd 3rd value of tuple.
+
+3. tuple_size :- It returns the number of elements present in the tuple.
+Run on IDE
+Output:
+
+4. swap() :- The swap(), swaps the elements of the two different tuples. 
+Run on IDE
+Output:
+
+5. tie() :- The work of tie() is to unpack the tuple values into seperate variables. There are two variants of tie(), with and without “ignore” , the “ignore” ignores a particular tuple element and stops it from getting unpacked.
+Run on IDE
+Output:
+ 
+6. tuple_cat() :- This function concatenates two tuples and returns a new tuple.
+Run on IDE
+Output:

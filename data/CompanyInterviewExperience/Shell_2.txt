@@ -1,0 +1,17 @@
+Looping Statements in Shell Scripting: There are total 2 looping statements which can be used in bash programming
+To alter the flow of loop statements, two commands are used they are,
+Their descriptions and syntax are as follows:
+Example Programs
+Example 1:
+Implementing for loop with break statement
+Run on IDE
+Output
+Example 2:
+Implementing for loop with continue statement
+Run on IDE
+Output
+Example 3:
+Implementing while loop
+Run on IDE
+Output:
+Note: Shell scripting is a case-sensitive language, which means proper syntax has to be followed while writing the scripts.

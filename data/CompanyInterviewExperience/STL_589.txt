@@ -1,0 +1,14 @@
+We are given n triangles along with length of their three sides as a,b,c. Now we need to count number of unique triangles out of these n given triangles. Two triangles are different from one another if they have at least one of the sides different.
+Example:
+We strongly recommend you to minimize your browser and try this yourself first.
+Since we are asked to find number of “unique” triangles, we can use either set or unordered_set. In this post, set based approach is discussed.
+How to store three sides as an element in the container? We use STL pair to store all the three sides together as
+We one by one insert all triangles into the set. But the problem with this approach is that a triangle with sides as {4, 5, 6} is different from a triangle with sides {5, 4, 6} although they refer to a same triangle.
+In order to handle such cases, we store sides in sorted order (on the basis of length of sides), here sorting won’t be an issue since we have only 3 sides and we can sort them in constant time. For example {5, 4, 6} is inserted into set as {4, 5, 6}
+Note : We can make pair either by make_pair(a,b) or we can simply use {a, b}.
+Below is C++ implementation of the above idea:
+Run on IDE
+Output:
+The time complexity of above solution is O(n Log n) as set requires O(Log n) time for insertion.
+We can improve time complexity to O(n) using unordered_set. But using unordered_set requires writing of a hash function as hash function is not defined in library for pairs.
+Related Article: Number of Possible Triangles

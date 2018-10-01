@@ -1,0 +1,48 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the TCS interview.
+Solution:
+Let us look at the sequence of the multiplications,
+2 * 4 * 6 * 8 * 12 * 14 * 16 * 18 *…* 98
+If we look closely we will find that the units place of every number forms a sequence of 2, 4, 6 and 8 multiplying to a number whose units place is always 4 and in all we get 10 4’s. So the unit digit of final number = 4^10 = 6.
+Solution:
+This is a simple question of logical reasoning. If 10 programmers can type 10 lines of code in 10 minutes then to type 60 lines of code, in 60 minutes, the same 10 coders will be required, since the lines of code and time are in proportion
+Solution:
+Anil works for 8 days and rests on 9th day. In total 9 days are to be processed 12 times = 12 * 9 = 108.
+If we calculate according to the week, we get 108 / 7 = remaining 3 days. So if Anil starts working on Monday, he will rest on third day of the week which is Wednesday.
+Solution:
+According to the question,
+for few values of x, the total fish caught is 97.8%. So
+=> 100 – 0.04x^2- 0.24x = 97.8
+=> 0.04x^2 + 0.24x = 2.2
+=> 4x^2+ 24x = 220
+=> x^2+ 6x – 55 = 0
+Solving, we get x = 5 and -11
+So, the value of x = 5 has to be positive and hence the answer.
+Solution:
+Using the simple weighted average formula we get,
+(4x + 8y)/(x+y) = 7
+or, 4x + 8y = 7x + 7y
+or, a/b = 3/1
+Solution: 
+Selecting 0 men and 11 women = 5C0 * 11C11 = 1
+Selecting 1 men and 10 women = 5C1 * 11C10 = 55
+Selecting 2 men and 9 women = 5C2 * 11C9 = 10 * 55 = 550
+Selecting 3 men and 8 women = 5C3 * 11C8 = 10 * 165 = 1650
+So total number of ways = 1650 + 550 + 55 + 1 = 2256 way
+Solution:
+Probability of drawing a black ball from the first bag is = 6C1 / 14C1
+Probability of drawing a black ball from the second bag is = 7C1 / 11C1
+Total probability = 1/2 * (6C1/14C1) * (7C1/11C1) = 41/77
+Solution:
+Let the total number if votes = 100. So Ram gets,
+75% of 60 = 60 * 0.75 = 45 votes
+8% of 40 = 40 * 0.08 = 3.2 votes
+Thus total number of votes that Ram gets = 48.2 %
+Solution:
+We know that John’s speed is greater than Peter’s speed and the sum of there speed is 7.
+So the combinations are = (6, 1), (5, 2), (4, 3)
+Now checking from the options if John’s speed is equal to 4, then Peter’s speed is 3,
+or, the time taken by them = 24/4 + 24/3 = 14 hours.
+Solution;
+f(f(3)) = 2(f(3)) + 2
+=> 2(2(3) + 2) + 2
+=> 16 + 2 = 18 

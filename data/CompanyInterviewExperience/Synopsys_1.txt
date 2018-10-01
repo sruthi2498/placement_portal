@@ -1,0 +1,12 @@
+Interview rounds and the overall process for this company is not constant for every candidate. It entirely depends on your 1st technical round.Hence, I am sharing based on my experience.
+My resume was shortlisted and I got a call from the team manager.He asked some questions on my resume and started firing questions on OOPS. He was checking whether I have a good grasp on object oriented language or not. This was kind of a screening round for the further technical round. If he is satisfied with your answers then there is a scope for a technical round by one of his team members.
+Technical Round ( Skype with code share )
+This round was purely based on C++ and data structures.The core tech of the organization is C++, so they expect you have a deep understanding of C++ language from Pointers, STL, OOPS Concepts etc.  Few questions of this round were:
+1) Time complexity and implementation of vector functions such as erase, pushback, clear etc.
+2) Void pointer and its advantages. How can you create generic functions using void pointer.
+3) Memory allocation of vector and array. Advantages of vector over array with example.
+4) Do Function overloading expects the same return type or not ?
+5) Polymorphism concepts.
+6) Basics of graphs and its relation with greedy algorithm.
+Well, The summary is you need to have your basics strong in DS and C++. This questions may seem easy but trust me, when you are having a 30 mins discussion on a simple vector erase functions, you can’t escape out easily.
+If everything goes well, manager will schedule a HR Round or 1 more technical round based on your feedback. I was which is kind of a formality. You just need to show your interest in the organization. Expect questions on your current CTC and expected as well.

@@ -1,0 +1,13 @@
+A sorted array contains 6 different numbers, only 1 number is repeated five times. So there are total 10 numbers in array. Find the duplicate numbers using two comparisons only. 
+Examples :
+Asked in Yahoo
+
+An important observation is, arr[4] or arr[5] is an occurrence of repeated element for sure. Below is the implementation based on this observation.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Exercise: Extend the above problem for an array with n different elements, size of array is 2*(n-1) and one element repeats (n-1) times.

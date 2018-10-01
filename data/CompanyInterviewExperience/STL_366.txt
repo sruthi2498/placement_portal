@@ -1,0 +1,19 @@
+Like std::sort(), stable_sort also sorts an array.  The syntax is also same.
+Run on IDE
+Output :
+So by default, sort() sorts an array in ascending order.
+How to sort in descending order?
+Like sort(), stable_sort() takes a third parameter that is used to specify the order in which elements are to be sorted. We can pass “greater()” function to sort in increasing order. This function does comparison in a way that puts greater element before.
+Run on IDE
+Output:
+When to prefer stable_sort over sort()?
+Sometime we want to make sure that order of equal elements is same in sorted array as it was in original array. This can be useful if these values have associated other fields. For example, consider sorting students by marks, if two students have same marks, we may want to keep them in same order as they appear input. Please refer stability in sorting algorithms for details.
+Consider following example. We have time intervals sorted by ending time and we want to sort by start time. Also, if two start times are same, we want to keep them sorted by end time.  This is not guaranteed by sort().
+Run on IDE
+Output:
+Implementation
+sort() function usually uses Introsort. Therefore, sort() may preserve the physical order of semantically equivalent values but can’t be guaranteed.
+stable_sort() function usually uses mergesort. Therefore, stable_sort() preserve the physical order of semantically equivalent values and its guaranteed.
+Time Complexity
+For sort() it is O(n*log(n))
+For stable_sort() it is O(n*log^2(n)) if additional memory linearly proportional to length is not available. If its available then O(n*log(n)).

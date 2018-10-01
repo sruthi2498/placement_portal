@@ -1,0 +1,37 @@
+Sprinklr visited our campus as part of Internship Drive. Around 170 students of CSE, ECE and EEE participated in the First Round.Details goes like this.
+Round 1:(Technical Aptitude + Coding) – 450 Marks
+
+The first round comprised of 20 Technical Aptitude and 3 Coding Questions and was held on HackerEarth platform.It was of 2 hrs duration and each of the aptitude question weighted 5 marks without any negative marking.Coding questions were as follows:
+Question 1: You are given a general tree with n nodes, each node is associated with a certain value, rooted at node r. You have to answer q queries which can be either of the following two types.
+1. sum i :- given the value of node i, print the sum of the subtree rooted at i including its value.
+2. update i, k :- update the value of node i to k.
+(200 Marks)
+Question 2: You are given an array consisting of non-negative integers.You have to find the size of the smallest subset such that the Bitwise OR of that set is maximum possible.
+Sample Testcase : 5 1 3 4 2
+Sample Output : 2
+Clarification : Max possible OR is 7, which can be achieved by [5, 2] or [3, 4]
+(50 Marks)
+Question 3: You are given a string of length n (1-based indexing) having only the lowercase english alphabets.You have to answer q queries each consisting of two integers l, r. For each query you have to return the count of all sub-strings in range [l, r] (both l and r inclusive) such that its starting and ending characters are same.
+Sample Testcase : aabacc
+Queries
+2 5
+1 2
+1 6
+Sample Output :
+5
+3
+10
+(100 Marks)
+Finally 21 Students were selected for the next round.
+Round 2:(Technical Face to Face Interview)
+
+This round was a formal interview conducted by the company officials.It started with a brief introduction of mine including a mention of all my favorite subjects.Meanwhile the interviewer went through my Resume and now he started with the questions.
+Firstly he asked me about the project mentioned in my Resume to tell about the Frameworks used in it and the reason for choosing it as a project.
+Then he moved on to Tech Questions which are listed below.
+Finally he asked me if I have any questions for him.
+Round 3:(HR)
+This round was last stage of the series.It started with the common question Tell me about yourself and proceeded with the questions like Why Sprinklr, What is your understanding about the company, What are your Expectations from the company,   Is the location comfortable for you and few others.
+ 
+Finally total 5 students were listed in the final selections and I was one among them.
+It was a quite a good experience and Competitive Programming , Data Structure Concepts and my Confidence helped me a lot to grab this opportunity.
+Good Luck to ALL.

@@ -1,0 +1,16 @@
+Following are different ways to create and initialize a vector in C++ STL
+Initializing by one by one pushing values : 
+Run on IDE
+Output:
+Specifying size and initializing all values : 
+Run on IDE
+Output:
+Initializing like arrays : 
+Run on IDE
+Output:
+Initializing from array : 
+Run on IDE
+Output:
+Initializing from another vector : 
+Run on IDE
+Output:

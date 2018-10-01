@@ -1,0 +1,170 @@
+Three questions asked. The test duration was 3 hours and was conducted on hackerearth.
+1. Write a sql parser to properly parse queries for a particular table. The input will consist of several lines: the first line is of two values, N and M, separated by a comma. The next line has the names of the columns of the table. The next N lines will contain N rows of the table (each column delimited by a comma). After that, the next M lines will contain where clause of sql query which you are supposed to execute and return their output (one in each line).
+Table input will be in the following format:
+“ID”,”Name”,”Date” 1,”Narendra Moody”,”2014-10-23 12:21″ . . . 100,”Rahul Pandey”,”2013-11-02 13:01″
+Query input will be given in following format: ID > 99 and Name = “Rahul Pandely”
+You are supposed to evaluate query and print the number of rows that come under the criteria. For example solution for above query will be 1.
+Sample Input (Plaintext Link)
+6, 1
+“ID”,”Name”,”Date”,”Score”
+1,”Aditya Moody”,”2014-10-23 11:55″,20
+2,”Utsav Moody”,”2014-10-24 15:18″,21
+3,”Jon Doe”,”2014-10-23 02:51″,62
+4,”Foo Bar”,”2014-10-23 12:00″,98
+5,”Rahul Moody”,”2014-10-23 12:31″,61
+6,”Umang JarJar”,”2014-10-23 11:21″,33
+Date > “2014-10-23 12:00”
+Sample Output (Plaintext Link)
+2
+Time Limit: 5 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+Marking Scheme: Marks are awarded if any testcase passes.
+Allowed languages: C, C++, Clojure, C#, Go, Haskell, Java, JavaScript, Objective-C, Perl, PHP, Python, Ruby
+ 
+ 
+2. Given HTTP request or response headers, write a program that prints the “request” or “response” based on the input. 
+Also,
+In case of a “response”, print the following:
+– Response code
+– Content-Type of the body 
+In case of a “request”, print the following:
+– Value of Accept-Language header, if present
+– Resource requested 
+For eg:
+Given the input:
+GET /index.html HTTP/1.1
+Host: www.browserstack.com 
+The output will be:
+request
+/index.html 
+Sample Input (Plaintext Link)
+GET /index.html HTTP/1.1
+Host: www.browserstack.com
+Sample Output (Plaintext Link)
+request
+/index.html
+Time Limit: 5 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+Marking Scheme: Marks are awarded if any testcase passes.
+Allowed languages: C, C++, Clojure, C#, Go, Haskell, Java, JavaScript, Objective-C, Perl, PHP, Python, Ruby
+ 
+ 
+3. You will be given lines of a web server log as shown in example below. You are supposed to parse it and for all the HTTP codes that occurred in the file, print in each line the HTTP code that occurred followed by how many times did it occur. Output should be sorted in descending order of occurrences.
+Sample Input (Plaintext Link)
+185.12.15.89 – – [23/Nov/2014:03:33:03 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.93 – – [23/Nov/2014:03:33:07 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+54.243.188.61 – – [23/Nov/2014:03:33:08 -0500] “GET /ip HTTP/1.1” 503 323 “-” “check_http/v1.4.16 (nagios-plugins 1.4.16)”
+87.255.53.44 – – [23/Nov/2014:03:33:52 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+87.255.53.45 – – [23/Nov/2014:03:33:54 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+208.52.180.116 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+185.12.15.90 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.145.6 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.78 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.91 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.23 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.80 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+216.126.44.86 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.37.1”
+185.12.15.94 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.76 – – [23/Nov/2014:03:33:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.115 – – [23/Nov/2014:03:33:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+185.12.15.72 – – [23/Nov/2014:03:33:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.44.128.160 – – [23/Nov/2014:03:33:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8z zlib/1.2.5”
+87.255.53.54 – – [23/Nov/2014:03:33:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5”
+185.12.15.92 – – [23/Nov/2014:03:33:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+80.77.87.241 – – [23/Nov/2014:03:34:01 -0500] “GET / HTTP/1.1” 200 19606 “-” “curl/7.19.7 (i386-redhat-linux-gnu) libcurl/7.19.7 NSS/3.15.3 zlib/1.2.3 libidn/1.18 libssh2/1.4.2”
+37.139.8.235 – – [23/Nov/2014:03:34:01 -0500] “GET / HTTP/1.1” 200 7390 “-” “curl/7.19.7 (i386-redhat-linux-gnu) libcurl/7.19.7 NSS/3.15.3 zlib/1.2.3 libidn/1.18 libssh2/1.4.2”
+185.12.15.74 – – [23/Nov/2014:03:34:02 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.89 – – [23/Nov/2014:03:34:03 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.93 – – [23/Nov/2014:03:34:07 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+54.243.188.61 – – [23/Nov/2014:03:34:08 -0500] “GET /ip HTTP/1.1” 503 323 “-” “check_http/v1.4.16 (nagios-plugins 1.4.16)”
+198.58.103.36 – – [23/Nov/2014:03:34:36 -0500] “GET /feed/ HTTP/1.1” 304 – “-” “Superfeedr bot/2.0 http://superfeedr.com – Make your feeds realtime: get in touch”
+46.113.110.244 – – [23/Nov/2014:03:34:41 -0500] “GET /smallpic.jpg HTTP/1.1” 200 7167 “http://www.inoreader.com/folder/Linux” “Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.62 Safari/537.36”
+5.45.179.103 – – [23/Nov/2014:03:34:50 -0500] “GET / HTTP/1.1” 200 7396 “-” “Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)”
+87.255.53.44 – – [23/Nov/2014:03:34:53 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+87.255.53.45 – – [23/Nov/2014:03:34:54 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+208.52.180.23 – – [23/Nov/2014:03:34:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+216.126.44.86 – – [23/Nov/2014:03:34:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.37.1”
+185.44.128.160 – – [23/Nov/2014:03:34:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8z zlib/1.2.5”
+208.52.180.23 – – [23/Nov/2014:03:34:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “Python-urllib/2.7”
+208.52.180.116 – – [23/Nov/2014:03:34:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+216.126.44.86 – – [23/Nov/2014:03:34:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “Python-urllib/2.7”
+208.52.180.116 – – [23/Nov/2014:03:34:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “Python-urllib/2.7”
+185.12.15.90 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.145.6 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.92 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.91 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.115 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+185.12.15.78 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.115 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “Python-urllib/2.7”
+185.12.15.80 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.94 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.76 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.72 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+87.255.53.54 – – [23/Nov/2014:03:34:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5”
+185.12.15.74 – – [23/Nov/2014:03:35:01 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+80.77.87.241 – – [23/Nov/2014:03:35:01 -0500] “GET / HTTP/1.1” 200 7452 “-” “curl/7.19.7 (i386-redhat-linux-gnu) libcurl/7.19.7 NSS/3.15.3 zlib/1.2.3 libidn/1.18 libssh2/1.4.2”
+37.139.8.235 – – [23/Nov/2014:03:35:01 -0500] “GET / HTTP/1.1” 200 19606 “-” “curl/7.19.7 (i386-redhat-linux-gnu) libcurl/7.19.7 NSS/3.15.3 zlib/1.2.3 libidn/1.18 libssh2/1.4.2”
+185.12.15.89 – – [23/Nov/2014:03:35:02 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.93 – – [23/Nov/2014:03:35:07 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+54.243.188.61 – – [23/Nov/2014:03:35:08 -0500] “GET /ip HTTP/1.1” 503 323 “-” “check_http/v1.4.16 (nagios-plugins 1.4.16)”
+133.9.84.100 – – [23/Nov/2014:03:35:47 -0500] “GET /2014/08/flock-2014-prague-day-2/#content HTTP/1.1” 404 10338 “-” “Mozzila/5.0 (compatible; Sonic/1.0; http://www.yama.info.waseda.ac.jp/~crawler/info.html)”
+87.255.53.44 – – [23/Nov/2014:03:35:52 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+87.255.53.45 – – [23/Nov/2014:03:35:54 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+185.12.15.78 – – [23/Nov/2014:03:35:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.94 – – [23/Nov/2014:03:35:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.76 – – [23/Nov/2014:03:35:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.145.6 – – [23/Nov/2014:03:35:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.23 – – [23/Nov/2014:03:35:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.116 – – [23/Nov/2014:03:35:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+216.126.44.86 – – [23/Nov/2014:03:35:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.37.1”
+185.44.128.160 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8z zlib/1.2.5”
+185.12.15.72 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+87.255.53.54 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5”
+185.12.15.90 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.92 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.91 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.115 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+185.12.15.80 – – [23/Nov/2014:03:35:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+37.139.8.235 – – [23/Nov/2014:03:36:01 -0500] “GET / HTTP/1.1” 200 7428 “-” “curl/7.19.7 (i386-redhat-linux-gnu) libcurl/7.19.7 NSS/3.15.3 zlib/1.2.3 libidn/1.18 libssh2/1.4.2”
+185.12.15.74 – – [23/Nov/2014:03:36:01 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+80.77.87.241 – – [23/Nov/2014:03:36:01 -0500] “GET / HTTP/1.1” 200 19606 “-” “curl/7.19.7 (i386-redhat-linux-gnu) libcurl/7.19.7 NSS/3.15.3 zlib/1.2.3 libidn/1.18 libssh2/1.4.2”
+185.12.15.89 – – [23/Nov/2014:03:36:03 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.93 – – [23/Nov/2014:03:36:07 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+54.243.188.61 – – [23/Nov/2014:03:36:08 -0500] “GET /ip HTTP/1.1” 503 323 “-” “check_http/v1.4.16 (nagios-plugins 1.4.16)”
+88.78.165.55 – – [23/Nov/2014:03:36:46 -0500] “GET /smallpic.jpg HTTP/1.1” 200 7167 “http://planet.fedoraproject.org/” “Mozilla/5.0 (iPad; CPU OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B435 Safari/600.1.4”
+87.255.53.44 – – [23/Nov/2014:03:36:53 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+87.255.53.45 – – [23/Nov/2014:03:36:54 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8r zlib/1.2.3”
+185.44.128.160 – – [23/Nov/2014:03:36:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8z zlib/1.2.5”
+208.52.180.115 – – [23/Nov/2014:03:36:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+208.52.145.6 – – [23/Nov/2014:03:36:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.90 – – [23/Nov/2014:03:36:58 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.92 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.23 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.78 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.91 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+216.126.44.86 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.37.1”
+185.12.15.94 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.76 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+208.52.180.116 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8y zlib/1.2.5”
+185.12.15.80 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+185.12.15.72 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+87.255.53.54 – – [23/Nov/2014:03:36:59 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.21.4 (universal-apple-darwin11.0) libcurl/7.21.4 OpenSSL/0.9.8r zlib/1.2.5”
+185.12.15.74 – – [23/Nov/2014:03:37:01 -0500] “GET /ip HTTP/1.1” 503 323 “-” “curl/7.30.0”
+80.77.87.241 – – [23/Nov/2014:03:37:01 -0500] “GET / HTTP/1.1” 200 7368 “-” “curl/7.19.7 (i386-redhat-linux-gnu) libcurl/7.19.7 NSS/3.15.3 zlib/1.2.3 libidn/1.18 libssh2/1.4.2”
+EOF
+Sample Output (Plaintext Link)
+503 88
+200 10
+404 1
+304 1
+Explanation
+Log file will be given as input over STDIN. You need to write the output over STDOUT.
+Input will consist of some lines of web server log given line by line over STDIN. End of input will be given by EOF. In output, print in each line the HTTP code that occurred followed by how many times did they occur (separate two values by space). Output should be sorted in descending order of occurrences.
+Time Limit: 5 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+Marking Scheme: Marks are awarded if any testcase passes.
+Allowed languages: C, C++, Clojure, C#, Go, Haskell, Java, JavaScript, Objective-C, Perl, PHP, Python, Ruby
+

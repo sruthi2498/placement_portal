@@ -1,0 +1,12 @@
+Given a string, your task is to reverse only the vowels of string.
+Examples:
+One simple solution is to store all the vowels while scanning the string and placing the vowels in the reverse order in another iteration of string.
+Run on IDE
+Output:
+Time complexity : O(n) where n = length of string
+Auxiliary Space : O(v) where v = number of vowels in string
+A better solution is to use two pointers scanning from beginning and end of the array respectively and manipulate vowels pointed by these pointers. 
+Run on IDE
+Output:
+Time complexity : O(n) where n = length of string
+Auxiliary Space : O(1)

@@ -1,0 +1,33 @@
+Round 1: About 1:30 min
+1. Introduction.
+2. How will you decide what data structure should use?
+3. Circular linkList meeting point and proof.
+4. Reverse link list of given chunk k.
+5. Print Left view of tree.
+6. Explanation of Opps Concepts.
+Round 2: More than 2 Hrs
+1. Why HTTPs.
+2. About Cookie.
+3. You are receiving 0/1 in the left side of previous number dynamically and for each insert you have to print whether decimal of new generated number is divisible by 3. Print “YES” or “NO” accordingly.
+4. Same above question if you are receiving number from right.
+5. Binary Search in Rotated sorted array.
+   i.e. 567891234
+6. Binary Search in Biotonic sorted array.
+   i.e. 1234567898765432
+7. You have given two arrays, all the elements of first array is same as second array except 1, You have to find out distinct pair.
+In this ques I told solution using hashing, He asked me to write complete code for proper hashing.
+I have written code using bucketing then he asked other concepts also.
+Round 3 : About 30 min only – In this round he asked what I have written in Resume.
+1. Introduction.
+2. Coin change problem of DP.
+3. Write query for second max salary, then asked to optimise it.
+4. Concept of group by and having in sql.
+5. Asked about Git, what? why? and some git commands.
+6. About selenium.
+7. about access specifiers.
+8. About previous projects.
+Note : In each round :
+1. They were asking runnable code and were checking each and every corner case by dry run.
+2. They were asking multiple solutions for a single problem. i.e. they were asking for a better solution until you drop.
+3. They were giving more then enough time to write the code.
+

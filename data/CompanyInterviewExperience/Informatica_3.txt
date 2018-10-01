@@ -1,0 +1,21 @@
+Informatica came for on campus recruitment, with eligible criteria being, CGPA of 8+ with no history of arrears .
+Round 1:The first consisted of 30 technical aptitude questions, (60% of DS, 30% of OS and 10% of DBMS) to be solved in 20 minutes . DS – Mostly involved tracing O/P’s like what would be O/P after 4th iteration of the given array using QuickSort with element ‘x’ as the pivot element, for OS, it was mostly related to deadlocks, banker’s algorithm etc. for DBMS, it was query based. Out of 120 students, 45 were shortlisted for the coding round . I was one among the 45.
+
+Round 2:
+Coding Round :
+The coding round consisted of 4 questions, 2 questions worth 5 marks and 2 more worth 10 marks each, but which was worth what was unknown . Languages allowed were C, C++, C# and Java. Out of the 45, 13 were selected to the next round, preferably those who completed 2+ questions . I was one among them.
+
+My 4 questions were :
+Round 3:
+Technical Round 1:
+The next 3 rounds were the most interesting, there would be a maximum of 3 rounds and a minimum of 1 for every individual selected, Assume the first individual who interviews gives you a +1, you would moving to the next round and a -1 (cumulative, negative at any stage) and you would be eliminated . My first round primarily consisted of OS and Networks and I excelled (OS & Networks being my interests), receiving a +1, which guarantees, I will have 2 more rounds . Questions were primarily based on Race Conditions, CDN, HttpResponse/HttpRequest, and a bit from your resume. Out of 13, 7 were selected for the next round.
+Technical Round 2:
+This was one half of the DS rounds, I would name this as DS-1, I was asked questions on printing nodes level wise, such that the nodes at each level, to be in different line  and given an array consisting of only 0’s and 1’s, rearrange as all 0’s followed by all 1’s without using any type of count variable . Out of 7, 4 moved to final technical interview and I was one among them .
+Technical Round 3:
+This was the second DS-2, this was were I flunked, Questions were moderate, such as find of the O/P given char pointers and strcpy() and threads and function based and One more was finding the maximum height of a binary tree .
+Out of 4, 2 moved to HR round, 1 was called for another techincal round and I was out .
+HR Round :
+A formality round,   2 were selected fulltime + intern and 1 was kept in waiting list.
+Advice:
+STAY CALM AND DON’T GET FRUSTRATED OF 2-3 HOURS OF QUESTIONS (CUMULATIVE OF ALL TECH ROUNDS)
+The worst part is that I have to sit for the next company and start the entire process from scratch .

@@ -1,0 +1,6 @@
+The list::pop_front() is a built-in function in C++ STL which is used to remove an element from the front of a list container. This function thus decreases the size of the container by 1 as it deletes the element from the front of a list.
+Syntax:
+Parameters: The function does not accept any parameter.
+Return Value: This function does not returns anything.
+Below program illustrate the list::pop_front() function in C++ STL:
+Run on IDE

@@ -1,0 +1,13 @@
+Given a connected acyclic graph and a source vertex and a destination vertex, your task is to count the number of vertices between the given source and destination vertex by Disjoint Union Method .
+Examples:
+
+
+To use disjoint union method we have to first check the parent of each of the node of the given graph. We can use BFS to traverse through the graph and calculate the parent vertex of each vertices of graph. For example, if we traverse the graph (i.e starts our bfs) from vertex 1 then 1 is the parent of 4 , then 4 is the parent of 5 and 2 , again 2 is the parent of 6 and 6 is the parent of 3 .
+Now to calculate number of nodes between the source node and destination node, we have to make a loop that starts with parent of destination node and after every iteratition we will update this node with parent of current node , keeping the count of number of iterations. The execution of loop will terminate when we reach the source vertex and the count variable gives the number of nodes in the connected path of source node and destination node.
+In the above method the disjoint sets are all the sets with single vertex, and we have used union operation to merge two sets where one contains the parent node and other contains the child node.
+Below are implementations of above approach .
+
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n), where n is total number of nodes in the graph.

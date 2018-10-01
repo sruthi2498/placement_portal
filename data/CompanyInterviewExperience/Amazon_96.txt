@@ -1,0 +1,55 @@
+The Selection process started with an Online Coding round.
+20 MCQ and 2 Coding Questions:
+MCQs were from OOPs, OS, DBMS, Networking etc.
+Coding Questions:
+Q – Rotate the given Matrix by a factor k. Input is given as two integers n,m (row and column of the matrix). Followed by n lines with m space separated integers as all the elements of the matrix. Last line has an integer k.
+Input:
+3 3
+1 2 3
+4 5 6
+7 8 9
+2
+Output:
+7 4 1
+8 5 2
+9 6 3
+Q – Given a string. Find all the palindromic partitions of the string. (Number of way the string can be partitioned so that all the partitions are palindrome)
+Input:
+NITIN
+OUTPUT:
+3
+N I T I N
+N ITI N
+NITIN
+Face2Face (Interview)
+Round 1:
+He asked coding questions straight away – 
+Q- Add two numbers without using +,- operator, recursion or loop.
+  Try to think in terms of half adder.
+Q- Postfix to prefix without using recursion.
+Q- Given an array of numbers. What is the largest no possible by concatenating all the numbers together.
+Input:
+5
+21 30 1 9 98
+Output:
+99830211
+Q – Write the heapify code.
+Round 2:
+Q – Level order traversal of a tree. Further he asked to optimise the code.
+Q – Given a matrix. ‘0’ means empty room, ‘1’ means door, ‘-1’ means a wall. For every cell as an empty room find the distance to the nearest door (One cannot go through a wall).
+Input:
+5 5
+0  0  1 -1  1
+0 -1  0  0 -1
+0  0 -1  0 -1
+1 -1  1  0  0
+0  0  0  0  0
+Output:
+2  1  0 -1  0
+2 -1  1  2 -1
+1  2 -1  2 -1
+0 -1  0  1  2
+1  2  1  2  3
+** The door would be replaced with 0 as the distance to the nearest door would be 0.
+I started by a backtracking solution. But the guy didn’t know what it was. I gave many more solutions and concluded with an O(N) bfs solution. 
+Guys answer straight. Do not answer very complex algorithms, even though they are correct. Try to provide as brute-force solution as possible.

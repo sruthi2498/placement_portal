@@ -1,0 +1,14 @@
+Given a Romal numeral, find its corresponding decimal value.
+Example :
+
+Roman numerals are based on below symbols.
+A number in Roman Numerals is a string of these symbols written in descending order(e.g. M’s first, followed by D’s, etc.). However, in a few specific cases, to avoid four characters being repeated in succession (such as IIII or XXXX), subtractive notation is often used as follows:
+Algorithm to convert Roman Numerals to Integer Number :
+Following is the implementation of the above algorithm:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+References: https://en.wikipedia.org/wiki/Roman_numerals

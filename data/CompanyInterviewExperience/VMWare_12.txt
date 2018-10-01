@@ -1,0 +1,10 @@
+Given two Linked Lists, create union and intersection lists that contain union and intersection of the elements present in the given lists. Order of elements in output lists doesn’t matter.
+Examples:
+We  have already discussed  Method-1 and  Method-2 of this question.
+In this post, its Method-3 (Using Hashing) is discussed with a Time Complexity of O(m+n) i.e. better than both methods discussed earlier.
+Below is C++ implementation of above steps.
+Run on IDE
+Output:
+We can also handle the case of duplicates by maintaining separate Hash for both the lists.
+Time Complexity : O(m + n)
+Auxiliary Space  : O(m + n)

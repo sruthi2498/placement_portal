@@ -1,0 +1,26 @@
+MakeMyTrip recently visited our campus.Below is my interview experience:
+Round 1: (Online MCQs)
+Section A- There were 20 Aptitude and Logical Reasoning questions which has to be done in 30 minutes.
+Section B- Basic C , C++ and Java questions. Moreover there were four coding questions for  which you have to write the pseudo code or algorithm. Questions were like finding loop in linked list , finding first non repeating character or remove duplicates etc.  
+
+Round 2: (Online Coding)
+There were 3 question.
+1. Find minimum cost path in a Matrix  i.e. return the minimum cost path to reach (m, n) from (0, 0). Each cell of the matrix represents a cost to traverse through that cell. It was based on DP.
+2.  Simple question based on logic.
+3. Based on hashing or you can use map in C++. You have given two sentence A and B. Find the length of smallest substring in A that contains all characters of B.
+
+Round 3: (Interview-1)
+It consists of general discussion on the programs given in coding round. Then they asked some set of questions based on Database,Projects,Algorithms. Questions were like
+1. Merging two linked list . They asked me to write code on paper for merging both sorted and unsorted linked list.
+2.Add two numbers recursively. I was asked to write the whole code.
+3.Factorial of large number only concept. Then asked one puzzle and one or two questions from my project.
+Round 4: (Interview-2)
+Basically in this round interviewer was checking more of your approach and out of box thinking. 
+1. Which data structures will you prefer to make a new language. After that a long discussion took place.
+2. Find the frequency of each word for a given set of huge data.
+3. External Sorting concept.
+Final was to explain Segment tree and its complexity which  was asked from my project. Then general discussion on BST and he asked complexity of AVL and RB tree.    
+HR Round:
+It was a simple HR round. Just be yourself. Moreover he asked about my Research work and my interests.
+Just prepare from geeksforgeeks it will be sufficient.
+

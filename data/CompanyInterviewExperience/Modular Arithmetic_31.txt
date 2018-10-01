@@ -1,0 +1,17 @@
+Given two positive number N and X. The task is to find the sum of digits of a number formed by N repeating X number of times until sum become single digit.
+Examples :
+
+As discussed in this post, recursive sum of digits is 9 if number is multiple of 9, else n % 9.  Since divisibility and modular arithmetic are compatible with multiplication, we simply find result for single occurrence, multiply result with x and again find the result. 
+How does this work ?
+Lets N = 24 and X = 3.
+So, sumUntilSingle(N) = 2 + 4 = 6.
+Multiplying 6 by 3 = 18
+sumUntilSingle(18) = 9.
+Below is the  implemenatation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

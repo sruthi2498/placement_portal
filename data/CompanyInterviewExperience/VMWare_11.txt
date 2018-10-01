@@ -1,0 +1,8 @@
+Given k sorted linked lists each of size n, merge them and print the sorted output.
+Examples:
+Source: Merge K sorted Linked Lists | Method 2
+Approach: An efficient solution for the problem has been dicussed in Method 3 of this post. Here another solution has been provided which the uses the MIN HEAP data structure. This solution is based on the min heap approach used to solve the problem ‘merge k sorted arrays’ which is discussed here. 
+Run on IDE
+Output:
+Time Complexity: O(nk Logk)
+Auxiliary Space: O(k)

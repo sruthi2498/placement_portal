@@ -1,0 +1,16 @@
+Booting Process
+In computing, booting is starting up a computer or computer appliance until it can be used. It can be initiated by hardware such as a button press, or by software command. After the power is switched on the computer is relatively dumb, and can read only part of its storage called Read-only memory. There a small program is stored called firmware. It does power-on self-tests, and most importantly, allows accessing other types of memory, like hard disk and main memory. The firmware loads bigger programs into the computer’s main memory and runs it. In general purpose computers, but as well in smart phones, tablets, optionally a boot manager is run. 
+Android Boot Process
+
+Android Boot Process includes the following six steps:
+The bootloader is a code that is executed before any Operating System starts to run. The BootLoader executes in 2 Stages:
+a) In the first stage, it detects external RAM and loads a program which helps in the second stage.
+b) In the second stage, the bootloader setups the network, memory etc which requires to run Kernel.
+The Init process has 2 responsibilities:
+The init process is what will set up all native services and this is similar to a regular Linux system boot.
+When a process is a fork, it creates a clone to itself. It replicates itself in another memory space. This is done pretty efficiently. When this happens to Zygote, it creates an exact and clean new Dalvik VM as a thread, preloaded with all necessary classes and resources that any App will need. This makes the process of creating a VM and load resources pretty efficiently.
+It enables code sharing across the Dalvik VM which helps in the achievement of minimal startup time. 
+Then the native init method that will setup native services called. After setting up the native services it creates the server thread. This thread will start the remaining services in the system according to the necessary start order.
+Each service is running in a separate Dalvik thread in the SystemServer.
+Once system Services up and running in memory, Android has completed boot process, At this time “ACTION_BOT_COMPLETED” standard broadcast action will fire.
+

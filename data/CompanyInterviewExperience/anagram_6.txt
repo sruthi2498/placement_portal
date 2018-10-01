@@ -1,0 +1,6 @@
+Given an array of n string containing lowercase letters. Find the size of largest subset of string which are anagram of each others. An anagram of a string is another string that contains same characters, only the order of characters can be different. For example, “abcd” and “dabc” are anagram of each other.
+Examples:
+
+We have existing solution for this problem please refer Find the size of largest subset of anagram words link. We can solve this problem quickly in python using Counter() method. Approach is very simple,
+Run on IDE
+Output:

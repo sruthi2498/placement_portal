@@ -1,0 +1,44 @@
+Intel hires freshers mostly through the Intern conversion program. I was interning in Intel Bangalore office for 11 months and towards the end of my internship duration I was called to interview from another team for the full time ‘Graphics SW Engineer’ position. 
+Round 1: (60 min)
+1. Screening round.
+2. They were looking for degree colleges and work experience.
+3. They explained the job role and responsibilities and asked are you really interested to join this domain.
+4. Asked to give detailed description of internship work (45 min)
+Round 2: (60 min)
+1. Technical round (C++/OS)
+2. Internship work details
+3. Virtual memory (why we need it and how to implement it)
+4. Mutex vs semaphores
+5. Race condition
+6. Critical section vs mutex
+7. Thread safe code
+8. Reentrant function
+9. Function pointer
+10. Given a program with multiple threads and asked to put mutex and semaphore to achieve ACID properties for program
+Round 3: (60 min)
+1. Technical round (C++/OS)
+2. Internship work details
+3. Mutex vs spin lock
+4. What locks are used in single core system (mutex or spin lock), Ans: Mutex
+5. Delete a node in linked list and you don’t have the head pointer, you are just given a memory address of node which you should delete.
+6. Smart pointer
+7. C++11 features
+8. Bitset
+9. Convert a struct into hex string and back to struct. (Use of reinterpret cast with void pointer)
+Round 4: (60 min)
+1. Problem solving skills round
+2. Design a stack in which we should push and pop at both the ends (30 min)
+   Solve the same using Linked List and Arrays.
+   Write test case to verify your code.
+3. Design autonomous driving car. (30 min)
+   They were checking how deep we can think and consider all the possible use cases and scenarios
+Round 5: (60 min)
+1. HR round
+2. Tell me about yourself
+3. What are your long term goals?
+4. Are you be able to work in cross geo team?
+5. Why you wanted to pursue M.tech when you were already working in IT company. (I worked for 1 year after graduation degree)
+6. What difference you felt between actual job and internship?
+7. How you felt going back to college after 1 year experience? Does your experience helped you in any important decision?
+8. What were the things which excited you in Intel internship?
+9. How you manage your work and collaborate within team? 

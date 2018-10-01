@@ -1,0 +1,14 @@
+Given an array of n elements, the task is to find the greatest number such that it is product of two elements of given array. If no such element exists, print -1. Elements are within the range of 1 to 10^5.
+Examples :
+
+A  naive approach  is to pick an element and then check for each pair product if equal to that number and update the max if the number is maximum,repeat until whole array gets traversed takes O(n^3) time.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+An  efficient method  follows below implementation:-
+Below is C++ implementation.
+Run on IDE
+

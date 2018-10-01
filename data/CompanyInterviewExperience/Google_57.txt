@@ -1,0 +1,74 @@
+My Google Interview Experience, [Hope this is helpful]
+I am AnandhaKumar  .P – 2012 IT pass out from College Of Engineering Guindy, Anna University.
+As many of the enthusiastic 2012 engineering passed outs, i too applied for a  job in Google jobs page. I know that its very difficult that a resume gets noticed by google.
+Suddenly one fine day i got a call from Google HR saying that they are  interested in my profile and asked me if, i was ready to go with the interview  process[Come on!  who will say no for Google]. I was surprised.
+I was asked to take a initial screen test [Online test].
+Online Screen Test [2 hours]
+I was asked to take the test at 8.30 pm. They fixed this test, a week back. Nobody will call you to remind you to take test. Nor the interviewer will call you. It is your responsibility to check ur mail without fail. On that day I was expecting a call from google from evening till 8.25 pm. None called me. I thought that they would have forgot that. I  planned to do go out and have food. But suddenly my ipad gave a alert message and  it was from gmail app [thanks for ipad, or else i would not have checked my mail in  lap top]. It was from  google recruiter. The mail stated that he has shared a doc with me and i must answer the questions in it. a google drive link was given. he mentioned that the test was for 2 hours.  I was asked to type answers just below each of these questions.
+Questions
+1. Given a source array of integers with possible duplicates and a target integer, write algorithm to find out 2 numbers in source array whose sum is equal to target integer.
+https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/ 
+2. Say you have three tables WORK, USERS, MANAGERS
+WORK
+– work_id
+– user_id
+– how_much
+USERS
+– user_id
+– team
+MANAGERS
+– manager_id
+– team
+If I am a manager, write a select statement to retrieve the work of all users who belong to my team. The mapping of user to team and team to manager are defined in the USERS and MANAGERS table.
+3. In a Chrome extension, which file contains the most important information of the extension like version, pattern matches, etc.
+4. There are three rooms, and there are Princess, Flowers and Snake in those rooms. The doors of all the rooms have incorrect nameplates. i.e., the nameplate for the princess’ room is not Princess. Similarly, the nameplate for the Flowers’ room is not Flowers. You need to find the room of the Princess without going to the room of Snake. How do you find?
+5. Which is faster: finding an item in a hashtable or in a sorted list? And Why?
+6. What are some of the most popular Data interchange formats when using APIs
+7. Name some popular APIs for each of these
+           Social
+           Commerce
+             Service(llike a photo service etc)
+8. How would you change the format of all the phone numbers in 1000 static html pages?
+9. If you had an opportunity to design the Google Suggest system, please let us know how you would approach it and how you would execute the plan in terms of settings up systems like(data stores or databases, indexing services etc)
+10. How do you find out if a number is a power of 2? And how do you know if it is an odd number? Write code in the language of your choice.
+Since i have prepared for tech interviews like amazon, i was able to do it good. 
+My sincere thanks to geeksforgeeks[You r doing a great  Help]. My entire preparations are only from this site. 
+After a week i got a call from HR and informed that i cleared the first round .
+
+Then after two days i was told that i will have a telephonic interview with one of the google developers from adwords team .
+They scheduled a telephonic interview the next week 
+Telephonic interview[I screwed up here ][Design Thinking Interview ] [1 Hour]
+There were two interviewers on phone. First they asked me to run through my resume. 
+Then the first question came 
+1) how will improve the revenue of the cafeteria of the office. 
+     Lots of discussions went and i think, i really did that well. 
+2)[Actual question which i screwed up. Bad Time for me]
+Number of users in 2010 for adwords, chrome, gmail, android and picassa are in the ratio of 6:9:14:13:8, and in 2011 we add 3 lakh more users. New ratio is 8:12:13:11:6. Number of picassa users in 2011= 1,44,000. Calculate number of adwords users in 2010.
+A basic math question that, even a school student can solve. But in that tension i was not able to do it. I  took some time and finally gave him a answer. I myself knew that it would be wrong. But interviewer said great lets move on to next question[just to boost up me – good person]. 
+My actual job role  revolves around  developing tools for the  the ad review team which will review the ad and reject illlegal ones. So third question was  related to that . 
+He told me that as i am from a tech background, i need to explain him technically wat will i do. He also said that he did not need the  actual solution. They will just see the way i approach the problem. That an existing problem and they are open to suggestions. 
+3) In google adwords there are  about 30 million ads from  42 lanuages .   Wat will i  do  review the ads and reject ads that do not comply with specific rules . 
+ Regarding the criteria under which google bans a ad as illegal –  i discussed about different criteria . 
+Out of the criteria’s i told , he asked me to  consider only three criteria .
+a) Link not working
+b) Drug related ads
+c) trademarks[trademark used by the companies]
+I gave lot of approaches like for link not working
+a) designing a autobot which will automatically  click ads link and check whether it is redirecting to correct page or not . Autobots are used by hackers to get money for the ads they posted . I suggested that by designing similar autobot we can validate the link.  
+b) to check drug related ads –
+To detect the language we can first check the geographic location from which the ad is getting posted and can narrow down to some less choices from which we can detect the language
+i suggested him that we can create a trie which some specific keywords (like coccaine )  and do pattern matching with that and reject the add it contains any of the works in trie .
+The interviewer gave me another constraint wat if there comes a ad “coccaine rehabilitation center”  we should reject those kind of ads na  . thats for a good cause . So i suggested him that i can maintain another set of trie which can contain those set of keywords.
+Fist check trie1 if drug related keywords exist .
+Next check trie 2 if other types of keyword exist.
+      – if keyword only present in trie1 [reject ad]
+      – if both tire return true [can reject . but its better that those ad’s alone can be subjected to manual evaluation for rejection].
+I used trie as it can do the pattern matches faster . 
+For trademarks also i discussed using similar datastructures and the interviewer  was  ok with my answer[i thought]. 
+He said that “We are done with here . The HR will contact u later ” and asked any questions “i asked few questions about the work they do in google” . and finally i finisehed with “Hope u r enjoying in GOOGLE ! ” He said “Of course yeah !”
+I thought that i did the first and third questions well but screwed the easy second question . i am sure that i will not get selected for the onsite interviews because of that . I told to myself  ” dont worry yar ! u r not lucky enough to join google !”
+a week after i got this  mail as expected 
+Thank you for your interest in Google. We carefully reviewed your background and experience, and though we do not have a position that is a strong match with your qualifications at this time, we will be keeping your resume active in our system. We will continue to use our database to match your profile with new opportunities and will reach out to you if we find an opening for which you may be qualified.
+Thanks again for your interest in Google’s careers and unique culture; we hope you will remain enthusiastic about our company.”
+I write here because when i got fixed for interview with google for the tech ops specialist  role. I searched in net about  the interview experience for that post. But i couldn’t get it. all i got was the interview  experiences for software engineer, adwords  posts. SO i think that it will be helpful for someone in future.
+

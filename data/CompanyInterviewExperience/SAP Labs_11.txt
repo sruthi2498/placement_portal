@@ -1,0 +1,68 @@
+SAP Labs had visited our campus for offering 6 months internship to MCA/MTECH and 2 months internship to B.tech pre-final year.
+ROUND 1:(Online Round) – 75 min (No negative marking was there)
+This round was conducted on 20th September 2017
+It consisted of 5 sections.
+Section 1: Aptitude – 6 questions
+Section 2: 2 “C” codes to be debugged(Easy)
+Section 3: 2 coding questions (1 Easy and 1 Medium)
+Section 4: 2 questions on critical reasoning (Critical Analysis)
+Section 5: English (Passage comprehension)-3 questions(Easy)
+Section 6: 4 or 5 Technical questions based on Java and DBMS
+This Online Round was easy but the trick was time management.
+I attempted both questions for debugging but was getting segmentation fault in second.
+TIP: just grab as many marks in this round as you can, don’t waste all time on coding questions.
+Out of approx. 300 students they have selected 21 for interview round. The interview process took one day. Two technical rounds and 1 HR round.
+ROUND 2: Technical (ONE on ONE) – about 45-50 min
+This round was conducted on 24th September 2017
+The interview started with a formal introduction. My Interviewer was a very humble and good person, He was making me comfortable at each and every moment during the interview.
+He asked to tell me about myself and the work that I have done that I have written on my resume.
+Then he asked me that I have written C language on my resume, so tell me about the components of C language. I answered what I knew about C language.
+Then he asked me if I know about Data Structures to which I said yes. He then asked the components of Data Structure (I don’t know what he meant by “components” but I still answered whatever I knew about data structures).
+Tip: Just say whatever you know about the topic, Don’t be silent.
+He then asked me which data structures I know (to which I answered all DS)
+He then asked me to write an algorithm for linked list. I asked what algorithm like insertion, deletion to which he replied write an algorithm to search an element in circular linked list and also asked me to tell its advantage over SLL.
+He then gave me a puzzle. It was
+(a-n)(b-n)(c-n)……………………………………….(y-n)(z-n)=?
+He asked me tell the output.
+I solved it using maths but he told me to think “OUT OF BOX”. He also told me the answer is zero but he wanted to know how it came.
+It then struck me that(n-n) would be zero and then whole expression would become zero.
+Then he was constantly searching my resume and gave me a coding question to reverse my name and print them in vertical order. I gave him a simple approach. He then complicated it by saying that he needs all characters only once. I suggested hashmap but then he said he needs a different approach. After some 20 minutes, I suggested to him another approach to use counter and he was satisfied with that approach.
+Tip: Always tell what you are thinking to the interviewer, don’t be silent, be confident.
+Then he again gave me a puzzle. He said it is difficult than the one he previously gave.
+X+Y+Z=30
+we have to make this equation true using the numbers 1,3,5,7,9,11,13,15 any number of times.
+I had solved this puzzle before but forgot the answer at that time(:p). I told this to my interviewer and told him too that all numbers are odd and this is not possible I guess. He again said think “OUT OF THE BOX” and gave me hint of using floats instead of integers. I immediately solved the puzzle and he was satisfied with my reflex action(?).
+Then the discussion diverted to my projects as he was constantly holding my resume in his hands. I have done my summer internship from IIT Delhi. I told him about my experience there and how I got selected in that. He asked me about what project I was indulged into and why I chose that particular technology. This discussion went on for 10 minutes or some. I had mentioned two of my projects on my resume and he asked about both of them.
+He also asked why do I want to join SAP Labs.
+Then he asked me about DBMS and the difference between DBMS and RDBMS.
+Then he asked about cloud computing and its applications and usage. To some of my friends they were also asked about operating system.
+Out of 21 people,11 were chosen for 3rd round.
+ROUND 3: Technical (ONE on ONE) – about 55-70 min
+This was an exhausting interview round. The interviewer was good but a little less helping than my previous interviewer (although he was helping but he was confusing me if my answer was right or not).
+The interview started with an introduction of myself. He then searched my resume and said-“You have written C language as your skill, lets solve a problem then”. He gave me coding question:
+A game is there, certain integers are coming randomly on screen, suppose 5 Is there on screen, if a user type 5 and press enter, the digit should vanish and the score of user should increment to 1, but if the user inputs wrong number or failed to input any number, he should get no marks. At the end he wanted me to give the output of
+1)Total number of integers appeared on the screen
+2)Score of user
+I gave him some suggestions but he wanted me to write a complete code. I was nervous. I gave him some approaches but he wanted me to optimize them. I was constantly telling him my approaches. This discussion went onto for half an hour and after that he was “ok” with that (He was not seeming satisfied with that). At this moment I didn’t lose hope.
+He then gave me another coding question. He said you know C so you should also know bitwise operators, so let us solve a problem of that:
+A user inputs a number say 32 , and a position say 7. write a function which takes the number and sets its 7th position counting from least significant digit and then return the resultant number in decimal.
+like, 32’s binary representation is 00100000 and after setting its 7th position from least significant position, the resultant number becomes: 01100000,which is 96.
+I was solving it using decimal to binary conversion and then putting the result in an array and then setting the position, but he was seeming dissatisfied with it and asked me-“Can’t it be done an easy way?”. It then strike me that I can use a bitwise OR. I had to OR between the number(32 in this case) and 2^position-1(this gives a number whose 7th position is set as 1) to set the given position. He was now satisfied with it.
+He then gave me a puzzle. I had solved it earlier so I told him the same. He said if I wanted to solve it again and I did it.(It was founding the defected ball from 8 balls with minimum number of weighings)
+He then asked me about my projects and whether I like testing or development.
+He then gave me some tables and asked me to normalize them and write a complex SQL query on it.
+Then at last he gave me a question asking me about the “Facebook Birthday Notification Algorithm”. He said I am not asking about that but do search it on google how it works(:p).
+Then I asked him about the areas I can improve.
+Out of 11 people,5 made it to the HR round.
+ 
+ROUND 4: HR Round – about 30-45 min
+ It started with a question whether I am tired as my voice was very low at that time(:p).
+I said I am perfectly alright.
+Tip: Be confident in HR Round
+She then asked me about my course. Why I chose MCA and not B.tech.
+About my family background, How I adjusted in my initial MCA days and what type of person I am.
+She then gave me some situational questions like what will I do If my opinion and my teammate opinion won’t match.
+She asked me If I like meeting new people or not, Why do I want to join SAP Labs.
+Any problem in relocation or not.
+Out of 5 people 3 were selected and I was among them 
+TIP: Just be confident and honest and never lose hope ever. Be grateful and always remember that Miracles do happen.

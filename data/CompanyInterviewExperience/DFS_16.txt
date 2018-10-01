@@ -1,0 +1,10 @@
+Given a graph with N nodes numbered from 1 to N and M edges and an array of numbers from 1 to N. Check if it is possible to obtain any permutation of array by applying DFS (Depth First Traversal) on given graph.
+Prerequisites : DFS | Map in CPP
+Examples :
+
+Possible Permutations  in which whole graph can be traversed are:
+1) 1 2 3
+2) 3 2 1
+Approach :  We assume that the input graph is represented as adjacency list. The idea is to first sort all adjacency lists according to input order, then traverse the given graph starting from first node in given given permutation.  If we visit all vertices in same order, then given permutation is a valid DFS.
+Below is the implementation of above approach :
+Run on IDE

@@ -1,0 +1,15 @@
+Given a preorder traversal of a BST. The task is to find the number of elements less than root. 
+Examples:
+For a binary search tree, a preorder traversal is of the form:
+root, { elements in left subtree of root }, { elements in right subtree of root }
+Simple approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(n)
+Efficient approach (Using Binary Search): Here the idea is to make use of an extended form of binary search. The steps are as follows:
+Below is the implementation of the above idea.
+
+Run on IDE
+Run on IDE
+Time Complexity: O(logn)

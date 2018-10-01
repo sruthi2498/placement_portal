@@ -1,0 +1,19 @@
+Given a decimal number m, convert it into a binary string and apply n iterations, in each iteration 0 becomes “01” and 1 becomes “10”. Find ith(based indexing) index character in the string after nth iteration.
+Examples:
+A naive approach to this problem has been discussed in the previous post. 
+Efficient algorithm: The first step will be to find which block the i-th character will be after N iterations are performed. In the n’th iteration distance between any two consecutive characters initially will always be equal to 2^n. For a general number m, the number of blocks will be ceil(log m). If M was 3, the string gets divided into 3 blocks. Find the block number in which kth character will lie by k / (2^n), where n is the number of iterations. Consider m=5, then the binary representation is 101. Then the distance between any 2 consecutive marked characters in any i’th iteration will be as follows
+0th iteration: 101, distance = 0
+1st iteration: 10 01 1 0, distance = 2
+2nd iteration: 1001 0110 1001, distance = 4
+3rd iteration: 10010110 01101001 10010110, distance = 8 
+In the example k = 5 and n = 3, so Block_number, when k is 5, will be 0, as 5 / (2^3) = 0
+Initially, block numbers will be
+There is no need to generate the entire string, only computing in the block in which the i-th character is present will give the answer. Let this character be root root = s[Block_number], where s is the binary representation of “m”. Now in the final string, find the distance of the kth character from the block number, call this distance as remaining. So remaining = k % (2^n) will be the index of i-th character in the block. If remaining is 0, the root will be the answer. Now, in order to check whether the root is the actual answer use a boolean variable flip which whether we need to flip our answer or not. Following the below algorithm will give the character at the i-th index.  
+
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(log Z), where Z is the distance between initially consecutive bits after N iterations

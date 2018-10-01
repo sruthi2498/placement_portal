@@ -1,0 +1,15 @@
+Given two numbers, fact and n, find the largest power of n that divides fact! (Factorial of fact).
+Examples:
+
+The idea is based on Legendre’s formula which finds largest power of a prime number that divides fact!.  We find all prime factors of n.  For every prime factor we find largest power of it that divides fact!. Finally we return minimum of all found powers.
+Illustration :
+Minimum of two powers is 35 which is our answer.
+
+Note : If multiple powers of a prime factor are present in n, then we divide the count to get the maximum power value for this factor.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

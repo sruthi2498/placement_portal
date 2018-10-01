@@ -1,0 +1,9 @@
+Given a number n, our task is to find all 1 to n bit numbers with no consecutive 1s in their binary representation. 
+Examples:
+
+We add bits one by one and recursively print numbers. For every last bit, we have two choices.
+We will use recursion-
+Run on IDE
+Output:
+Related Post : 
+Count number of binary strings without consecutive 1’s

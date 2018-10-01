@@ -1,0 +1,13 @@
+std::swap is used for swapping of elements between two containers. One of its variation is std::swap_ranges,  which as the name suggests is used for swapping the elements within a range.
+It simply exchanges the values of each of the elements in the range [first1, last1) with those of their respective elements in the range beginning at first2. If we look at its internal working, we will find that this function itself uses std::swap().
+Syntax:
+Run on IDE
+Output:
+Here, in this program we have swapped elements from v1 starting at v1.begin()+3 till v1.begin()+7, with the values starting from v2.begin(), so in place of swapping the whole vector, we have performed swapping in a range.
+Where can it be used ?
+It can be used when we have to find whether a given container contains the same element in its first half as well as in the second half as well, i.e., whether both the halves are identical to each other or not.
+Run on IDE
+Output:
+Explanation of code: Here, in this code, we have declared a vector and then assigned it to another vector, and then in the first vector, we are swapping values in the first half with the second half depending upon whether it contains odd no. of elements or not. If after swapping the values, the new first vector is same as second vector (old first vector), this means that both the halves are same.
+So, in the first vector 1 2 3 4 5 1 2 3 4, it contains same element in both the halves, so Yes is printed, whereas in second vector 1 2 3 4 1 2 3 5, second half contains one different element than first half, i.e., 4 in place of 5, so No is printed.
+Time Complexity: It is linear in the distance between first and last.

@@ -1,0 +1,23 @@
+ Recently I attended Brocade Communications Interview.  I would like to share my experiences.
+First Round: Written round 15 Aptitude + 25 Technical MCQs (c++ (mainly output qs), 2 questions on socket, 1 on  IPC, 1 on Database  in 1 hour. The qs were little above average.
+After 1 hour they announced results. They shortlisted half of the people.
+Second Round: Interview 
+1) merge two sorted linked lists in a third linked list
+2) how will you search a sequence of  bits over array of bytes
+3) Design Qs: You have an incoming stream of bits. You have infinite memory, processing power. Design a system that will check for viruses. You have all the viruses signatures.
+4) Same qs, You have limited processing power. How would you do?
+5) When do you use Red Black tree, Avl tree
+6) swap the nibbles in a byte. 0101 0001 -> 0001 0101
+7) some pointer output qs.
+->       void *p=0; p+=2; printf(“%d”,*p);
+->       int **p=0; printf(“%d”,**p);
+8) current project in your company
+
+Third Round :Interview (Manager)
+1) find if a tree is a binary search tree or not
+2) count the number of set bits in a byte( in the best possible way)
+3) what is your project in company
+4) Since I was from a networking company , he told me to explain the full codebase architecture on the whiteboard
+5) How ping works, What packets it generates
+6) What packets are generated when a networking device tries to reach another  networking device  in a different network , connected through intermediate two routers. Explain in detail
+7) Why do you want to change your company?

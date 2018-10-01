@@ -1,0 +1,7 @@
+Given a binary tree, count leaves in the tree without using recursion. A node is a leaf node if both left and right children of it are NULL.
+Asked In: GATE-2007
+
+The idea is to use level order traversal. During traversal, if we find a node whose left and right children are NULL, we increment count.
+Run on IDE
+Output:
+Time Complexity : O(n)

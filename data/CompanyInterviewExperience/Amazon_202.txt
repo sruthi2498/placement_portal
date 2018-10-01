@@ -1,0 +1,9 @@
+Given two strings, the task is to find if a string can be obtained by rotating another string  two places.
+Examples:
+Asked in: Amazon Interview
+
+Run on IDE
+Run on IDE
+
+Exercise : Check if string2 is obtained by rotating string1 by k places.
+Reference : https://www.careercup.com/question?id=5734821229756416

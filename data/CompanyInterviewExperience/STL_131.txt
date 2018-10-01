@@ -1,0 +1,12 @@
+Parameters: The function accepts one mandatory parameter key which specifies the key to be erased in the map container. 
+Return Value: The function returns 1 if the key element is found in the map else returns 0.
+Below program illustrate the above syntax: 
+Run on IDE
+Parameters: The function accept one mandatory parameter position which specifies the iterator that is the reference to the position of the element to be erased. 
+Return Value: The function does not returns anything. 
+Below program illustrate the above syntax: 
+Run on IDE
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return Value: The function does not returns anything. It removes all the elements in the given range of iterators.
+Program below illustrate the above syntax: 
+Run on IDE

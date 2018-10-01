@@ -1,0 +1,6 @@
+std::generate is an STL algorithm, which is used to generate numbers based upon a generator function, and then, it assigns those values to the elements in the container in the range [first, last).
+The generator function has to be defined by the user, and it is called successively for assigning the numbers.
+Now, there can be a scenario, where we want to assign values only to the first n elements, for that we have another STL algorithm std::generate_n, which has the following syntax:
+Template function: 
+Run on IDE
+Output:

@@ -1,0 +1,9 @@
+Given a number n, find n-th Fibonacci Number. Note that F0 = 0, F1 = 1, F2 = 2, ….. 
+Examples :
+
+We have discussed below recursive solution in method 4 of  Program for Fibonacci numbers.
+In this post an iterative method is discussed that avoids extra recursion call stack space.  We have also used bitwise operators to further optimize. In the previous method, we divide the number with 2 so that at the end we get 1 and then we start the multiplication process
+In this method we get the second MSB then start to multiply with FxF matrix then if bit is set then multiply again FxM matrix and so on. then we get the final result.   
+Run on IDE
+Run on IDE
+Time Complexity :- O(logn) and space complexity :- O(1).

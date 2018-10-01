@@ -1,0 +1,16 @@
+There is a given binary matrix, we need to find if there exists any rectangle or square in the given matrix whose all four corners are equal to 1.
+Examples:
+
+Brute Force Approach-
+We start scanning the matrix whenever we find a 1 at any index then we  try for all the combination for index with which we can form the rectangle.
+algorithm-
+-Time Complexity of this solutions- O(m^2*n^2)
+Run on IDE
+Output:
+Efficient Approach 
+– Scan from top to down, line by line
+– For each line, remember each combination of 2 1’s and push that into a hash-set
+– If we ever find that combination again in a later line, we get our rectangle
+– Time Complexity of this solution- O(n*m^2)
+Run on IDE
+Output:

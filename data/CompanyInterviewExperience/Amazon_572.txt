@@ -1,0 +1,21 @@
+I’m a 3rd year grad and amazon visited our campus.     My interview had only 3 rounds.
+ Round 1 (Online round 20 MCQ’s and 2 coding questions )
+MCQ’s were mostly on data structures ,time complexities and C,C++ outputs with 2 aptitude questions.
+1) Given 2 linked lists of digits as data in their nodes add two numbers.
+2) given few sets of intervals print out the the entire intervals without overlapping , if they overlap then combine them into one. 
+Round 2 (F2F)
+Tell me something about yourself.
+1) Convert a BST into inorder, preorder and postorder linkedlists inplace.
+2) Make a queue out of 2 stacks, as it was easy he asked me to code and asked me the complexities. 
+3) Given a linked list with a loop find the loop and make it straight . I did with HashMap but he told me not to use extra space so i told him floyd’s cycle.
+He asked me i had any questions.
+Round 3(F2F) (After lunch)
+1) Given a Binary tree convert into a BST no auxillary space (i did it with an inorder traversal) he asked me to code.
+2) Given an infinite stream of characters find the first non repeating character at any instance , The storing,retrieval should be o(1) .
+I told him a solution using a hashmap then he modified that he may have millions of unique characters not just alphabets.
+i gave a solution with a linked list and a hashmap. This question was not asked to me but was to my friend .Its a good one.
+3) print all the binary values of number from 1 to n , each number’s binary should be printed in 0(1).
+     for eg:  n = 6
+then print  1 10 11 100 101 110.  printing 1, 10 ,11 ,100,101,110  should be in o(1) each
+I thank Geeksforgeeks for letting me know about Floyd’s cycle .
+

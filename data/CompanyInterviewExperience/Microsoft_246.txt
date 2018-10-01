@@ -1,0 +1,27 @@
+Round 1 (Microsoft College Code Competition)
+There were 6 problems to be solved in 1h30, if I recall correctly. My team solved 3 of them and ended in 2nd place.
+80 people from my university participated in the contest. Microsoft selected around 6 for the final interview round.
+Round 2 (Final interview, on-site)
+3 interviews of 45min each, with 15min of interval in between. In these breaks, we talked to the recruiter. If you do okay in one of the interviews, but not great, you get one extra interview.
+1) Run-length string encoding.
+Link: https://www.geeksforgeeks.org/run-length-encoding/
+However, there were additional restrictions:
+(a) resulting string shall be written to the input string.
+(b) maximum extra memory allowed is (length of string – 1) bytes.
+(c) if the resulting string will be longer than the input string, the algorithm can abort and leave the string dirty.
+Behavioral: I was asked about my background.
+2) Lowest common ancestor and Reverse words in string
+Links: https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+Behavioral: talk about the most interesting project, and what I learned from it.
+3) Given a list of events with start time and end time, find the events which have conflict with any other.
+How would I decide which feature should be implemented next in an operating system.
+Behavioral: talk about my favorite project and one instance where I had to convince other people,
+Additional comments:
+1. Overall experience was pretty nice. Microsoft paid for all expenses for us to visit their office. The recruiter looked after us as well, really no complaints.
+2. Two of the interviewers were very down to earth, despite all their experience and high positions. Conversation with them flowed naturally, and I had a great time.
+3. One of them (from question #1), however, had a very bad attitude toward the candidates. He didn’t study the problem well enough to assess solutions that weren’t similar to his, and made disrespectful comments about our ideas to solve the problem in our own way. This is not just my opinion, as I also asked other candidates.
+I perfect’d interview 2, did good in interview 3, but was not good enough in interview 1 (for the reasons already stated). I was not given an offer then.
+What I can say is: no matter how well you prepare, you still rely on the interviewers. Study hard and hope to get interviewers that are nice and don’t want to lower you.
+Good luck to you all.
+

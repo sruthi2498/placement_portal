@@ -1,0 +1,11 @@
+Given a string s, partition s such that every string of the partition is a palindrome. Return all possible palindrome partitioning of s.
+Example : 
+We have to list the all possible partitions so we will think in the direction of recursion. When we are on index i, we incrementally check all substrings starting from i for being palindromic. If found, we recursively solve the problem for the remaining string and add this in our solution.
+Following is the solution-
+To check whether it’s a palindrome or not, iterate on string by taking two pointers. Initialize the first to start and other to end of string. If both characters are same increase the first and decrease the last pointer and keep on iterating until first is less than last one.
+
+Run on IDE
+Run on IDE
+
+Related Article:
+Dynamic Programming | Set 17 (Palindrome Partitioning)

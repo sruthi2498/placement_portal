@@ -1,0 +1,31 @@
+Some time back I went through an interview for Amazon.com for SDE-1 role, and here is my experience to help other aspirants :
+Written – Pen & Paper Rounds
+Had to write production level code in any programming language of my choice, covering all the edge cases, and clearly mentioning the complexity of my code.
+ Q1. https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/ 
+Q2. https://www.geeksforgeeks.org/remove-minimum-number-characters-two-strings-become-anagram/
+Q3. Given an array, print the Next Just Greater Element for every element. The Next just greater Element for an element x is the just greater element on the right side of x in array. Return the same element if there is no greater element present on right side, or if same element is present again on right side (in case of duplicates)
+For e.g. given input array : 3,5,8,4,2,6,3
+output should be : 3,6,8,6,3,6,6
+Solved it using Binary search tree
+Face to Face Rounds 
+Interviewers were very very helpful, and were focused on approach, they will ask basic brute force solution first, then an optimum solution, after that they may increase the complexity of problem a little bit, and if you are able to explain your approach satisfactorily, then will ask you to write production level code in any programming language of your choice, covering all edge cases using pen and paper : 
+ Q1. Find an element in an unsorted array such that all left elements are smaller and all right elements are greater. O(n) time complexity solution is required. 
+Q2. Find kth smallest element in row wise column wise sorted matrix. Discussed both min heap and max heap approach with complexity of both.
+What if there are duplicate elements in matrix, and we have to consider all duplicate element as one position, i.e. if matrix contains elements like 3,6,4,3,5,4,7 then
+1st smallest element is 3
+2nd smallest element is 4
+3rd smallest element is 5
+4th smallest element is 6, irrespective of there occurrence
+I asked if I can use hashing, but he was looking something with less space complexity, was not able to answer this particular thing further.
+Q3. https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+Q4. Find the maximum difference between any combination of child and parent node in a given binary tree. Here child node can be any level below parent node, but should be in the same sub tree starting from parent node. solved using recursion, bottom up approach, returning the maximum difference and minimum node value till current node, to upper node at every level.
+Q5. Detailed discussion about project, something new which I have designed, why this, why not this etc, how my team work, complete process, my individual role, responsibility and contribution. Do you have bugs in code, how you correct. Have any bug from your code reached production. What you do outside of work, do you have any open source contribution, etc.
+Q6. Given any two nodes in a binary tree, find the path from 1st node to another, and tell if the path is a straight line, or there are turns on the line, find number of turns.
+Q7. Detailed discussion about java hashmap, hashset, its internal working and its complexity.
+Q6. Lots of behavioural questions like, most complex thing done, how you did it, what challenges you faced, negative feedback you received, how you improved, and many more cross questions.
+Advice to fellow members preparing for something like Amazon :
+1. first get good understanding of basic data structure concepts, can refer geeksforgeeks.org section wise or any book like Narasimha Karamunchi (I referred this book), don’t just read, but implement things.
+2. Read book like Cracking The Coding Interview to learn how to answer behavioural questions. These questions are very limited, but are must for amazon.
+3. Practice and solve last 40 amazon interview experience from geeksforgeeks.org
+I hope this information will be helpful to all of you, wish you all the very very best.
+

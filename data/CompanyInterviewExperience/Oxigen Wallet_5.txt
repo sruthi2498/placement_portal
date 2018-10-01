@@ -1,0 +1,22 @@
+It was 3 round process.
+Round 1:
+There were 2 online coding question on cocubes.
+1. Find the sum of all non repeating element.
+2. Find the next smallest number of a given number by swapping the digits of the number.
+https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+Round 2:
+1. Tell me about yourself.
+2. Explain the previous round questions.
+3. I was asked some question from their presentation and from my resume.
+Round 3 with CTO:
+1. What is trie, write code to create and implement a dictionary.
+2. Write code to create function getWord(string str) ,which take string as input and return list of all the words starting with string present in our dictionary .eg str=”mo” so it should return everything starting with “mo”
+3. What is final, finally, finalize in java.
+4. What is third normal form.
+5. What is denormalization.
+6. What is left outer join, right outer join, inner join etc.
+7. What is virtual and pure virtual function in c++.
+8. What is copy constructor.
+9. what is b-tree
+10 .diff b/w get post
+11. http and https

@@ -1,0 +1,56 @@
+Recently Deutsche Bank (DB) visited our campus for hiring FTE. Their interview procedure was as follow:-
+Round 1(Online Round): This was conducted in Hackerank. There were 5 MCQ questions and 2 coding questions. Duration: 1hr 30min
+MCQ question topic:- Constructor, Heapsort,   Stable sort(Primitive & Composite Datatypes), and two more.
+Coding Question:-
+1. There will be an array of N stones, placed on the ground and their weights will be given. Always two larger stones are picked up and bombarded. If they are of the same weight then both of them are discarded else one stone is kept on the ground after bombarding and its weight becomes equal to the difference of two stones. This process is kept on repeated until one stone or no stone remains on the ground. Output: The weight of the last stone remained on the ground. If no stone is left then print 0.
+Example 1: N= 3, [3, 2, 4]  Output=1, { 4, 3 will be bombarded first after that resultant array will be [1, 2]. Again 1, 2 will be bombarded, the resultant array will be [1]}
+Example 2: N= 3, [10 14 14 ] Output=10, { as both larger stones are of the same size so both will be discarded and the resultant array will be [10]}
+Solved using Priority Queue.
+2. https://leetcode.com/problems/minimum-window-substring/description/
+Out of 111 students, 38 were selected. (If a person were able to solve one question, he was selected for the interview)
+Round 2(Technical Round): 
+It lasted for 30-40min. He asked me the following question.
+1. Tell me about your college experience till now.
+2. One of the best thing you like in your college.
+3. He told me to give 1 or 2 examples of 8 queens placed on the chess board in N queen problem. He didn’t want the algorithm, just the example to test how I approach the solution smartly.
+4. Which Data Structure I am familiar with?
+5. What was the last problem I solved? I told him the question then algorithm to solve and then he tested with the test cases.
+6. Any question I want to ask?
+After this, at 3:30 pm, the result was declared, 21 students were shortlisted.
+Round 3(Group Activity):
+Duration 30 min.
+They had divided us into two groups. We were given the building block and we need to construct the bridge with help of those building block. In the first 15 min, groups were working separately. After 15 min, they told both the team to work together and complete the bridge.
+Round 4(Technical Round):
+It lasted for 30-40 min.
+1. He asked me to design the Chess game. Told me to write the classes and just the name of the method.
+2. What is BST?
+3. If the element is inserted one by one linearly then what is the time complexity of insertion in BST and to determine the height of the tree. Answer- O(n).
+4. How the above complexity can be reduced. Answer – Using height balanced BST i.e AVL Tree.
+5. LR rotation of an AVL tree.
+6. What is Red Black Tree?
+7. Can RBT have two consecutive red nodes?
+8. Difference between RBT and AVL Tree.
+9. There will be 2 full stacks and one number N. What is the maximum element to be popped so as to achieve the sum <= N. While popping, we will be adding this popped elements and when the sum becomes >=N, Output the number of the popped element.
+Round 5(HR Round):
+1. Introduce yourself.
+2. Asked question from my CV.
+3. What is my final year project?
+4. Do I have any brother or sister?
+5. What is my father occupation?
+6. I mentioned him that I like developer profile. So, he asked what will I do when you will be given for testing.6. Which programming language you use and Why?
+7. What is STL?
+8. What do you mean by virtual keyword?
+9. Any question I want to ask?
+Round 6(HR Round):
+He asked me 4 situational problems.
+1. What will I do when I get rejected at the end after performing best.
+2. How I solve the difficulties in my life.
+3. Which is your favourite sport? I told Cricket. He then asked me who is my favourite player and why?
+4. Which I will give more preference – legal faith or ethics faith?
+Any question I want to ask?
+Tip: try to give the example for your answer.
+Since I was the last person in the HR round, they declared the result within 30 min, at 11 pm.
+Finally, 10 students were selected and I was one of them 🙂
+It was the nice experience. I would like to thanks geeksforgeeks for helping me out for my placement preparation.
+Keep Coding 🙂
+All the best 🙂

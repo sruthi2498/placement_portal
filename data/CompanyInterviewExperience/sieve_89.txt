@@ -1,0 +1,12 @@
+Given a number n find the smallest number evenly divisible by each number 1 to n.
+Examples:
+If you observe carefully the ans must be the LCM of the numbers 1 to n.
+To find LCM of numbers from 1 to n –
+Note : In C++ code, the answer quickly exceeds the integer limit, even the long long limit.
+Below is the implementation of the logic.
+
+Run on IDE
+Run on IDE
+
+The above solution works fine for single input. But if we have multiple inputs, it is a good idea to use Sieve of Eratosthenes to store all prime factors. Please refer below article for Sieve based approach.
+LCM of First n Natural Numbers

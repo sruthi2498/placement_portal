@@ -1,0 +1,40 @@
+Company: Envestnet Yodlee
+Profile: Senior Software Engineer
+Location: Banglore
+Eligibility Criteria: 7+ CGPA and only CSE and IT students were allowed
+(Pool Campus at VJTI Mumbai)
+Colleges invited : VJTI Mumbai, VIT Pune, Cummins Pune
+Round 1:
+Online round comprises 4 sections:
+The question was very simple. The question was to solve the problem in O(n) time. If string ABCD is given and string BCDAHGDCABYCGDCDABGHSABCD then output the starting index of all the permutation.
+INPUT: BCDAHGDCABYCGDCDABGHSABCD
+ABCD
+OUTPUT: 0
+6
+14
+21
+Each section had its own individual time constraints.
+ I cleared this round and was called for the interview at VJTI Mumbai.
+Every round was the elimination round.
+Round 2:
+This was a group discussion round. The main aim of this round was to check if students can communicate clearly in English. The topics asked were simple and about 50% of people got selected per group of 15 students. My group’s topic was “Money is not everything”.
+Other group topics were different. They divide into different groups. Some of the other topics were: “Swachh Bharat Abhiyan“, “Reservation In India“, etc.
+I cleared this round too and was called for the technical interview round.
+Tech1:
+This was a technical round. The interviewer asked me to introduce myself. Then he went through my CV and started asking questions based on it.
+He asked me what is my favourite programming language, then I replied Java and my whole interview was based on java itself.
+He asked to write a code where I should generate a runtime exception.
+He asked me about Interfaces, abstract class, singleton class, how JVM works.
+He also asked me to explain the statement System.out.println();
+He asked me about collections in java in a depth. About how hashmap works and all.
+Then told me to explain my database project. For which I explained to him with the help of ERD diagram.
+Tech2:
+This was also a technical round. The interviewer told me to define a problem statement finance related or real-life problem and write the business logic with which database to be used. She was checking my thinking and ability to solve real-life problem.
+Managerial Round:
+In this round, some basic HR questions were asked and database related questions like what are joins in mysql, what is indexing, uses of index in the database, left and right join.
+He also asked me to write two queries based on the problem statement to which he gave. Both the query question was simple.
+HR Round:
+ 
+Result: 5 people were selected overall and I was one of them.
+Hope it helps..All the best!
+

@@ -1,0 +1,5 @@
+Given a sorted array and a number x, count smaller elements than x in the given array.
+Examples:
+We can use upper_bound() in C++ to quickly find the result.  It returns iterator (or pointer) to first element which is greater than given number. If all elements smaller, then it returns size of array. If all elements are greater than it returns 0.
+Run on IDE
+Time Complexity : O(Log n)

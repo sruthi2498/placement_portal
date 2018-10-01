@@ -1,0 +1,45 @@
+I recently had an interview with Compro Technologies, Delhi based firm, for Associate Software Developer. http://www.comprotechnologies.com/#home
+The process took 4 rounds .(via TalentGrids)
+1) Online Aptitude and Technical Round
+Aptitude test had 30 questions to be done in 30 mins.There were regular aptitude questions.
+Technical round was flooded with java based questions and C and DS based questions.
+2) On Site Screening Round
+2.a) Write a program to find a given substring in a string.
+I told him the regular O(n2) approach and then about KMP algorithm. He seemed impressed.
+b) find number of vowels in string
+c) reverse a given string
+d) Sum of all the numbers present in a string 
+2.b) Sequence solving   2 , 7 , 28, 63 , 126, 215 , ? 
+2.c) PUZZLE :- given 25  balls and one with a defect such that weight is less, find in minimum measurements, given a weighing balance.
+2.d) given 3 boxes containing labelled BLACK, WHITE or BLACK WHITE , having only either  BLACK, WHITE or BLACK WHITE balls in each. Initially they were all correctly labelled, but someone messed up the labels such that they are all in the wrong place. How many balls u need to draw and from which box so that u can tell the exact position of each label.
+2.e) U are at the intersection of a road that forms a fork ( Y) . One path leads to the city of Truth speaking people and other to the city of Liars. A liar stands at the intersection, what question would you ask him to reach the city of truth speaking people.
+I cleared this round for another F2F round at Delhi.
+Third Technical Round:- 
+3.1) Tel me about yourself
+3.2) What data structures have u studied.
+ans :-  Int, Char, float,(YES , they are also data structures)  arrays , Linked List ,Stacks , Queues, Trees
+3.3)  What is the difference between array and linked list ?
+3.4) Write program to reverse a given string.
+3.5) Reverse the string only word wise.  i.e “I am a good person ” -> “person good a am I ”
+3.6) Puzzle :- in a strange island, there are three different colored toads, Blue, Green , and Red ,  such that whenever two toads of different color meet they change their color to the third color. Is it ever possible that all of them will become of same color, if initially there are 12 B , 17 G , 19 R    
+3.7) some friends went for a holiday at a hill station. In total , there were 13 days it rained and 12 lovely evenings and 11 lovely mornings. If it rained in the morning, the evening was lovely, if it rained in the afternoon , the morning was lovely. How many days did the trip last. 
+3.8)  he asked to measure a time of 15 minutes from two sand timers of 11 minutes and 7 minutes.
+Fourth Technical Round
+4.1) Walk me through your Resume.
+4.2) Explain the difference between call by value and  cal by reference.
+4.3) Is this a valid expression for function declaration void fun(int &a, int &b); ?
+4.4) write a program to find a loop in a linked list. i had to find the element where linked list was looped.
+4.5) write a program to find the intersection of two linked list
+https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+4.6) Puzzle :-
+8 people want to cross a river via boat only. They are mother , father, policeman, criminal, 2 daughters, 2 sons.
+The boat can be driven by Police, mother or father only.
+The boat carries only 2 people at a time.
+The criminal if left without police can hurt someone but wont run away if he is alone.
+The daughters left without mother would be hurt by the father.
+The sons left without Father would be hurt by the mother.
+If one a riverside mother is absent and father arrives by boat, he can still hurt the daughters and vice versa.
+Find a way to take them all to the other side safely, without hurting anyone.
+4.7) Delete a node from a BST.
+https://www.geeksforgeeks.org/avl-tree-set-2-deletion/
+Thanks Geeksforgeeks for providing a sensible collection of questions with proper solutions.

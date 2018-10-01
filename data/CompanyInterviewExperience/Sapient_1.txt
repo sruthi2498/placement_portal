@@ -1,0 +1,59 @@
+Sapient came for campus recruitment for 2 profiles: ASDE1, ASDE2.
+Based on the interview, they offered roles accordingly.
+Online Round:
+It consisted of 5 sections:
+Section 1: Logical Reasoning + English – Time Limit : 20 mins
+Section 2: Coding (Java Outputs+ OOPS Concepts) – Time Limit : 25 mins
+Section 3: Cloud + Javascript – Time Limit : 30 mins
+Section 4: 1 Coding Question – Time Limit : 25 mins
+Section 5: Python/PHP – Time Limit : 5 mins
+There was no negative marking. 30 students were shortlisted from this round out of 100 something.
+Tip: Coding question did not have much weightage so it is alright if you are not able to solve it. Do attempt the Cloud section even if it’s guesses. People thought it was unnecessary and did not attempt it properly and did not get selected for the interview.
+Round 1: Technical Round
+First half of the interview was mainly focused on my project I had mentioned on my Resume. The interviewer was mainly interested in how I did the Database Management and the tables I used. Then she asked how would the table look like if I had to add extra features to my project.
+Coding Question :
+How would you find minimum distance between a node and all other nodes.
+– Dijkstra Shortest Path Algorithm
+Implement it on a paper .
+– Did it.
+How would you do exception handling and what are the different types of exceptions?
+– Never done anything of this sort. Mentioned arrayOutOfBoundException but she wanted something else.
+Data Structure Questions:
+How many queues are needed to implement priority queue?
+– Wasn’t clear at that point. Actual answer is 2
+Different types of Traversal in a tree?
+-PreOrder, PostOrder, Indorder.
+Can you make a tree using PreOrder and PostOrder Traversal?
+– No. You need Inorder traversal .
+If you have a large data, how would you access it?
+-If the data is sorted, we can use Binary Search. O(logn)
+If the data isn’t sorted?
+-We can some sort of mapping mechanism, if that isn’t available we can use Quicksort and then apply Binary Search.
+What is worst case Time Complexity of Quick Sort
+-O(n^2)
+Then why not Merge Sort
+-Because generally QuickSort doesn’t exceed O(nlogn) and Merge Sort uses O(n) extra space which is not feasible for a large amount of data.
+My Interview went fairly well so I was immediately called for a second technical interview. (Probably to be considered for ASDE2)
+Round 2: Technical Round
+Project Discussion.
+Design Netflix.
+-This was not exactly a system design question. He just wanted ER Diagrams and how the tables would look like. Did an okish job.
+Do you know Java?
+-I have worked only with C/C++/Python.
+Have you worked on any project which involved multi-threading.
+-Nope
+Do you know AVL and Red Black Trees?
+-They are self balancing trees that’s all I know. Never worked with any.
+Thanks for your time.
+This interview did not go very well.
+Round 3: HR Round
+Tell me about yourself.
+Do you play any sports?
+Involved in college in any activities?
+What is something you are very proud of something you did after coming to college?
+Result :
+Selected for ASDE1 position.
+3 people were selected for ASDE2.
+7 for ASDE1.
+People who completely aced the first round were selected for ASDE2 and were not even called for a second technical round.
+It was an okay experience overall.

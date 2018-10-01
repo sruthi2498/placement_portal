@@ -1,0 +1,14 @@
+Given a string, find out if the string is K-Palindrome or not. A K-palindrome string transforms into a palindrome on removing at most k characters from it.
+Examples:
+
+We have discussed a DP solution in previous post where we saw that the problem is basically a variation of Edit Distance problem. In this post, another interesting DP solution is discussed.
+The idea is to find the longest palindromic subsequence of the given string. If the difference between longest palindromic subsequence and the original string is less than equal to k, then the string is k-palindrome else it is not k-palindrome.
+For example, longest palindromic subsequence of string abcdeca is acdca(or aceca). The characters which do not contribute to longest palindromic subsequence of the string should be removed in order to make the string palindrome. So on removing b and d (or e) from abcdeca, string will transform into a palindrome.
+Longest palindromic subsequence of a string can easily be found using LCS. Following is the two step solution for finding longest palindromic subsequence that uses LCS.
+Below is C++ implementation of above idea –
+Run on IDE
+Run on IDE
+
+Time complexity of above solution is O(n2).
+Auxiliary space used by the program is O(n2). It can further be reduced to O(n) by using Space Optimized Solution of LCS.
+Thanks to  Ravi Teja Kaveti for suggesting above solution.

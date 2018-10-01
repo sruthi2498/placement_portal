@@ -1,0 +1,22 @@
+Given a number n, find number of ways we can add 3 non-negative integers so that their sum is n.
+Examples : 
+Method 1 [ Brute Force : O(n3) ]
+A simple solutions is to consider all triplets using three loops. For every triplet, check if its sum is equal to n. If sum is n, increment count of solutions. 
+Below is the implementation.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Method 2 [ Direct Formula : O(1) ]
+If we take a closer look at the pattern, we can find that the count of solutions is ((n+1) * (n+2)) / 2. The problem is equivalent to distributing n + 1 identical balls (for 0 to n) in three boxes and the solution is n+2C2.   In general, if there are m variables (or boxes) and n possible values, the formula becomes n+m-1Cm-1.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

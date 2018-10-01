@@ -1,0 +1,16 @@
+Given an unweighted directed graph, can be cyclic or acyclic. Print the number of shortest paths from a given vertex to each of the vertices.  For example consider the below graph. There is one shortest path vertex 0 to vertex 0 (from each vertex there is a single shortest path to itself), one shortest path between vertex 0 to vertex 2 (0->2), and there are 4 different shortest paths from vertex 0 to vertex 6:
+1. 0->1->3->4->6
+2. 0->1->3->5->6
+3. 0->2->3->4->6
+4. 0->2->3->5->6
+
+The idea is to use BFS. We use two arrays called dist[] and paths[], dist[] represents the shorest distances from source vertex, and paths[] represents the number of different shortest paths from the source vertex to each of the vertices. Initially all the elements in dist[] are infinity except source vertex which is equal to 0, since the distance to source vertex from itself is 0, and all the elements in paths[] are 0 except source vertex which is equal to 1, since each vertex has a single shortest path to itself. after that, we start traversing the graph using BFS manner.
+Then, for every neighbor Y of each vertex X do: 
+1) if dist[Y] > dist[X]+1 decrease the dist[Y] to dist[X] +1 and assign the number of paths of vertex X to number of paths of vertex Y. 
+2) else if dist[Y] = dist[X] + 1, then add the number of paths of vertex X to the number of paths of vertex Y.
+For example:
+Let’s take a look at the below graph. The source vertex is 0. Suppose we traverse on vertex 2, we check all its neighbors, which is only 3.since vertex 3 was already visited when we were traversed vertex 1, dist[3] = 2 and paths[3] = 1. The second condition is true, so it means that addtional shortest paths have been found, so we add to the number of paths of vertex 3, the number of paths of vertex 2.
+The equal condition happens when we traverse on vertex 5:
+
+Run on IDE
+Time Complexity : O(V + E)

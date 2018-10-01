@@ -1,0 +1,48 @@
+First of all a big thanks to the geeksforgeeks team. It has been the biggest help in my preparation. Till 5th july i could not write a simple program of tree traversal. But just the arrays, linked list, tree, string, DP and backtracking tabs of g4g helped me reach the interview rounds of Amazon (i was eliminated though) and getting placed at Yahoo.
+Following is the list of my interview questions.
+Date of Interviews: 28th July 2012
+No of Rounds: 1 aptitude test, 1 lab test, 4 interview rounds
+Type of Interviews: Campus Interview for freshers
+Aptitude Test (1 hour)
+25 MCQs with no negative marking. 2/3 questions on probability.
+Others were related to output of recursive programs and string related codes. Then there were questions based on graphs, OS and networking.
+
+Lab test (2.5hours almost)
+The lab test had two sections each comprising of 2 questions. Attempting one from both sections was must to qualify but there was no restriction on attempting more. Section 2 was very easy.
+Section 1:
+Question 1- Given a file system tree like the one given below, write a program to: a) represent it in memory, and  b) find the size of all files in any given path.  For example:
+Question 2: Given below is a list of smart phones with price and a set of features (app,style,speed) rated in a scale of 0 to 9. You might want to normalize the price on a scale 0-9 where 9 is the maximum price of all phones in the list. Write a program that will take a phone as input and output the three most similar phones. For comparing phones use price and a weighted score of all features as distinct dimensions.
+Input- nokia lumia
+Output: galaxy note, galaxy sII, iphone 4s
+Product
+Price
+App
+Style
+Speed
+Use the following weighs to rank each feature:
+App-0.3
+Style-0.3
+Speed-0.4
+My solution:- I calculated the weighted average of the 3 features and assumed them to be a point on x-axis. Scaled down the prices by a factor of 1000 and assumed it to be y-axis. Now whenever an input was given I simply found out the 3 closest points from the given phone’s co-cordinates.
+Section 2:
+Q3. Split a perfect circular linked list (where the last node’s next pointer points the first node) in two equal parts (if the total no. of nodes is odd, say 2m+1, then the first half should contain m+1 nodes).
+Q4.suppose we have an array whose length is not known. The content of the array is such that the first of the entries are 0s and the rest are all 1s. Write a function which will take this array as a parameter and return the number of 0s.
+When the coding was over, they came over and checked the codes, output and were marking on code clarity, coding style and output.
+ 
+ 
+Interview round 1: (30-35mins)
+Initially I was asked 2/3 questions from the aptitude test we appeared in the morning and had to explain how I reached that particular answer.
+He took an intro then enquired about favorite subjects and almost the entire interview was based on OS (memory management, scheduling everything was asked).
+One good question was implementing a LRU cache. I was not supposed to code it but had to give the entire idea.
+Then there were several questions on C/JAVA.
+Then he asked a question on networking and I clearly answered I don’t know anything other than the name of layers. So he asked me to speak a line about all of them.
+Interview round 2: (30 mins)
+In this round too the interviewer started with a question on networking and once again I told him the same answer. Then he asked me questions from data structure. One of them was difference between merge sort and quick sort. Which one would you prefer and why? Do you really need the auxiliary space in merge sort?
+Then questions were asked from DBMS’ file storage.
+Interview round 3: (15 mins)
+This interview was quite casual. Questions like which yahoo product do you use? What are its shortcomings? (Well I just gave him a whole list of flaws of yahoo messenger  😛 :P)
+The next question was to give an idea of a product I would like to make.
+Interview round 4: (15 mins)
+This was an HR round. Basically personal questions were asked. One question that was disturbing was what would be that 1 company given an option you would flunk yahoo. Initially I was bit diplomatic and anwered “ I always wanted to get in any one of amazon, Microsoft, adobe or yahoo (the big 4 who come to my college). And I have been eliminated from amazon 2 days ago”. Then honestly answered him but if I really have an option I will choose MS. 😛
+After some time got the result. I was hired. 🙂
+

@@ -1,0 +1,12 @@
+Given an array of items, an i-th index element denotes the item id’s and given a number m, the task is to remove m elements such that there should be minimum distinct id’s left.Print the number of distinct id’s.
+Examples:
+Asked in : Morgan Stanley
+
+1- Count the occurrence of elements and store in the hash.
+2- Sort the hash.
+3- Start removing elements from hash.
+4- Return the number of values left in the hash.
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n log n)

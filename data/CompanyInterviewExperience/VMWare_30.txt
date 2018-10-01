@@ -1,0 +1,40 @@
+First round was Online Test. There were totally 32 Questions divided into 3 categories with no negative marking.
+1) Aptitude & Logical Questions (10 Questions)
+2) Computer Science Questions (15 Questions) [C, OS, Data Structures, Microprocessors, Unix]
+3) Questions on Java or C++ [We had to choose between Java & C++](7 Questions mainly on OOP Concepts)
+They Shortlisted 22 people from 200+ people. There were 3 Technical Rounds + 1 HR Round.
+1st Round:
+1) Write a program to Reverse a number in Java without using builtin methods.
+2) Write a program to Reverse a String in Java without using builtin methods.
+3) He combined the above questions such that, no matter what we provide string or an integer or a double, the program should reverse it. Basically He was expecting method overloading concept.
+4) A puzzle. You will be given with a 3 Litre container & a 7 Litre Container. Measure exactly 5 Litres of water.
+5) Reverse a linked list.
+6) Asked about one of my projects I mentioned in my resume.
+2nd Round:
+1) Detailed discussion about all my projects that I mentioned in my resume.
+2) Find the common elements from 3 Lists.
+3) Some questions on Object Oriented Programming Concepts.
+4) Some Questions on Multi-Threading.
+5) Asked in detail about ‘volatile’ variables.
+3rd Round:
+1) Which protocol is used by telnet?
+2) Difference between telnet and ssh
+3) What happens when we open a file using one tab and delete it from the other tab of the terminal
+4) Some questions from Software development life cylce.
+5) Basics about Virtualization & Hyperwisers.
+6) Explain Cloud computing in layman’s language. (Thanks to Balaji Vishwanthan for an amazing answer for a similar question Quora) 😛 😛
+HR Round:
+1) About my family background.
+2) Roles played by me in my various projects
+3) Typical HR Questions like, Strengths, weeknesses and Hobbies.
+After this the HR told that the manager of the team for which they wanted me to select has not come for the interview process that day, so, I will be having one more round with the Manager within couple of days in their office.
+I waited for 2 weeks and still they havent called. I thought its better to give up. Then one morning the HR called and asked me to come to their office for the interview with the manager. Uff! A relief..
+At VMWare Office, before the manager takes the interview, one more person from that team took a technical Interview.
+They asked me to write the code in Java for the following questions:
+1) Given an array with repeated numbers, print the frequencies of each number.
+2) There are 3 kinds of balls in a big array. Red, Green, Blue color balls. Arrange them in such a way that all the red balls to the left, Green balls in the middle and Blue balls to the right of the array.
+3) Modified the above question such that, the arrangement should be like, [R,G,B,R,G,B,R,G,B]. And discussed various boundary conditions.
+At last, The interview with the manager:
+1) Some questions on Software Development Life Cycle
+Then it was a casual discussion about what their team does, and what are my roles if I get selected.
+

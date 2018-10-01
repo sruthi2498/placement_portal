@@ -1,0 +1,21 @@
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.  
+list::push_front()
+push_front() function is used to push elements into a list from the front. The new value is inserted into the list at the beginning, before the current first element and the container size is increased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application : Input an empty list with the following numbers and order using push_front() function and sort the given list.
+Run on IDE
+Output:
+list::push_back()
+push_back() function is used to push elements into a list from the back. The new value is inserted into the list at the end, after the current last element and the container size is increased by 1.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application : Input an empty list with the following numbers and order using push_back() function and sort the given list.
+Run on IDE
+Output:

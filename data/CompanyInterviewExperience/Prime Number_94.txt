@@ -1,0 +1,84 @@
+Given a number ‘n’, we need to find the nth number whose each digit is a prime number i.e 2, 3, 5, 7….In other words you have to find nth number of this sequence. 2, 3, 5, 5, 22, 23……
+Given that the nth number such found will be less then equal to 10^18
+Examples :
+
+There are four prime digits 2, 3, 5 and 7. First observation is that the number of numbers of x length and made of prime digits are  because for each position you have 4 choices so total number is 4^x.
+So total count of such numbers whose length is = 1en) will be 4*((4len – 1)/3). (This is sum of G.P with first term 4 and common ratio 4)
+The algorithm is mainly divided in two steps.
+Below is implementation of above steps.
+
+Run on IDE
+Run on IDE
+# Python3 implementation for
+# finding nth number made of
+# prime digits only
+import math
+# Prints n-th number where
+# each digit is a prime number
+def nthprimedigitsnumber(n):
+	# Finding the length
+	# of n-th number
+	len = 1;
+	# Count of numbers
+	# with len-1 digits
+	prev_count = 0;
+	while(1): 
+		# Count of numbers
+		# with i digits
+		curr_count = (prev_count +
+		              math.pow(4, len));
+		# if i is the length of such
+		# number then n<4*(4^(i-1)-1)/3
+		# and n>= 4*(4 ^ i-1)/3 if a valid
+		# i is found break the loop
+		if (prev_count < n and 
+		    curr_count >= n):
+			break;
+		# check for i + 1
+		len += 1;
+		prev_count = curr_count;
+	# Till now we have covered
+	# ‘prev_count’ numbers
+	# Finding ith digit at ith place
+	for i in range (1, len + 1):
+		# j = 1 means 2 j = 2
+		# means …j = 4 means 7
+		for j in range(1, 5): 
+			# if prev_count + 4 ^ (len-i)
+			# is less than n, increase
+			# prev_count by 4^(x-i)
+			if (prev_count + pow(4, len – i) < n):
+				prev_count += pow(4, len - i);
+
+			# else print the ith
+			# digit and break
+			else:
+				if (j == 1):
+					print("2", end = "");
+				elif (j == 2):
+					print("3", end = "");
+				elif (j == 3):
+					print("5", end = "");
+				elif (j == 4):
+					print("7", end = "");
+				break;
+	print();
+
+# Driver Code
+nthprimedigitsnumber(10);
+nthprimedigitsnumber(21);
+
+# This code is contributed by mits
+
+
+
+[tabby title="C#"]
+
+
+
+Run on IDE
+Run on IDE
+
+Alternate Solution (Works in O(Log n)
+Run on IDE
+

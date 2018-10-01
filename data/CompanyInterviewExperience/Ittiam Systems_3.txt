@@ -1,0 +1,28 @@
+Ittiam systems came to our college to recruit students from circuit branches i.e (CSE, ECE, EE), Elligibility ->  more than 7.0 CGPA. It was their first time on-campus fresher recruitment (generally recruits experienced employee). It is an IP (Intellectual Property) company which mainly aims at  providing audio-video IP solutions along with it also works on modern technologies like cloud computing, machine learning, computer vision etc.
+ 
+Here is my interview experience : It consisted of 3 rounds.
+Round 1(30 mins):   Written Test
+ It was a written round (pen-paper). It started just after the company’s ppt (pre-placement talk). There were a total of 20 Mcqs (with negative marking), 10 from quantitative aptitude and 10 from technical aptitude to be solved in 30 mins.
+Quant questions were from time&work,speed-distance(tricky one),few maths quesns viz. related to area of circle , mathematical reasoning (like questions on propositional logic, there exists and for all ->these type of questions can be found in discrete mathematics). Overall it was of average difficulty level.
+Technical questions :- o/p quesns in C(based on static variable,register concept,i.e storage classes concepts), few quesns from OS (based on fork() system call), few quesns from computer architecture or organization (like big & little Endian system concept), few quesns from bitwise operators (mostly on XOR).
+ 
+I solved only 12 of them, got into 2nd round. (15 out of 120 went to 2nd round).
+Tip: Attempt those quesns only which you could solve i.e don’t waste time thinking on any quesn,
+Keep in mind the negative marking also, getting 8-12 quesns correct will do the trick.
+Note: Solve only those questions which you can later explain to the interviewer in the 2nd round (yes, they ask the proper solutions of few quesns that you solved) coz that matters too for qualifying the 2nd round.  i.e don’t just guess the solution of any question you didn’t understand, just leave them.
+Round 2(1hr 30min approx):  Technical Interview
+There were 2 technical panel. One for those students who were either from CSE or had solved more technical quesns in the written test. While the other panel was mainly for non-CSE students who had solved more aptitude quesns in the written student.
+Process:- I went to the first panel. The interviewer started by asking my introduction. I gave a brief introduction.He then showed me my written paper and then pointed to a question and asked me how did I solve it.He did the same for 2 quesns more. I solved those questions. And after my every answer, he was neither confirming nor denying the veracity(correctness) of my solutions, infact he was confusing me by asking “Are you sure?” at the end of every solution . But I nod him confidently. So try to answer confidently.
+Questions:-
+Tip: Answer confidently, don’t get confused and take some time to clearly understand the questions as they were pretty simple but the interviewer was asking in a complex way. Be clear with OS, C, memory layout concepts.
+After this round, only 2 qualified for 3rd round. I was one of the two.
+We were given a form to be filled before HR interview. It consisted of filling the basic information , previous internship experience (if any), what will you like to change if again given the same internship, and questions like what one thing you did in your life even that was not your responsibility and various such questions on life experiences.
+Round 3(1hr 30min approx): HR Interview
+After filling up the form, HR interview started and lasted for about one and a half hour .
+I went into the room, handed him over the form and the HR had made the seating arrangement on his own such that between him and me there was large gap.
+He looked over the form and told me that he will assess my form after this interview and started asking questions.
+He was impressed by my answer for this.
+ 
+Note: HR round was more of like discussion , few questions could be missing , could be disordered.
+Tips: Be loud and try to make yourself comfortable with the interviewer.
+Best of luck to everyone 🙂 And Thanks @geeksforgeeks.org

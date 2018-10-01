@@ -1,0 +1,25 @@
+First Round
+110 students were  selected, cutoff was 64.5 to give the first round. It was an online test having 5 sections. Platform was AMCAT. The sections included quant, logical reasoning, verbal reasoning, technical aptitude and Automata ( 2 coding questions in 45 minutes).
+Maintain good speed in quant section but accuracy is important too. Technical aptitude had mcq’s on DS, algos, output, dbms and os.
+There were different sets for Automata. Mine questions were-
+1. Given an array of size n and a number k, sort the first k integers in non-descending order and the last n-k into  non-ascending order.
+2. Given a long integer return the smallest(magnitude) integer permutation of that number. The question was simple.
+   It could be solved by storing the number digitwise into an array and then sorting it. If the first digit is zero swap it with first non-zero digit.
+Second Round
+57 students were selected for the second round. Second round was GD. Students were divided into groups of 10 and topic was “Will AI replace human workforce”. It went on for 15 mins. Speak confidently and coherently. Add to what others are saying or contradict them politely. Let others speak too. After GD 17 people were shortlisted for further rounds.
+Third Round
+It was a technical interview. I was asked to explain my projects. Know everything that you have written on your resume thoroughly. After that I was asked some basic questions on arrays and linked list. Write a code for sorting and explain it. Explain bubble sort and selection sort. Which one is more efficient. It was followed by two questions on dbms. First was on ER diagram and types of relations. Second one included an SQL query and joins.
+7 students were selected for the HR round.
+Fourth Round
+1. Tell me something about yourself which is not on your resume( this was the first ques in tech interview too).
+2. Asked about internships.
+3. Explain projects. Why this particular method used. How you reached there. It’s applications. What have you done
+   differently from others(referring to researchs on same topic).
+4. Why coding job when you are from a different stream.
+5. Why do you know only one coding language.
+6. Difference between c and c++
+7. concepts of oops
+8. Explain polymorphism
+9. Questions on pointers
+10. Any questions for us.
+All the interviewers were warm and friendly. Answer confidently and always try to come up with a solution. All the best!

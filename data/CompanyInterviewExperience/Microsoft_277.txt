@@ -1,0 +1,34 @@
+Recently Microsoft IDC had visited our Campus for Intenship. There were 6 rounds in total for me.
+Objective Round :-
+The objective round was taken in Cocubes.com, there were 15 questions (1 question was repeated in my set). There was a question about “Rectangular Collisions in an array” which I had no idea about.
+Coding Round :-
+There were two coding questions :-
+1) Find an element in a sorted array which has been rotated circularly at only one location in O(logn) time.
+(Refer https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
+2) Find the inorder successor of a node in a Binary Search Tree.
+(Parent pointers were present in the BST). (Refer Method 1 of https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
+Group Interview Round :-
+First 10 minutes, he asked about what we expect to be the next big thing in technology. Then he gave two questions :-
+1) Given a string, you have to check if it is a valid number or not.(The number can be signed, floating point/integer). If it is a number return true else return false.
+The constraints were :-
+i) No decision statements allowed (No if-else,no switch-case).
+ii) No ternary conditional operators allowed (? : not allowed).
+iii) No looping statements allowed (No for/while/do-while).
+(My solution was a recursive implementation returning a bool having only one return statement using relational operators and two global variables, one for checking if it is the first occurance of a ‘.’ and other for checking if the sign ‘+’/’-‘ occurs in 1st location or not).
+2) Bing wants to improve the experience of users by giving reward points to users. Devise an algorithm to assign reward points to different users.
+Personal Interview Round I :-
+1) You are given a string containing only ‘(‘ and ‘)’, check if the the string is well formed,i.e. check if the paranthesis is well matched.
+(Either have a count of ‘(‘ or use a stack for pushing ‘(‘ and popping when ‘)’ is encountered).
+2) There is a Bot Class with the following prototype :-
+You are given a bot and the dimension of a maze having walls and some blocks having gold, check if the bot can reach a block containing gold.
+(Use dfs graph traversal using the recursive implementation and return true if the current position has gold and return false only if you cannot move any further).
+Personal Interview Round II :-
+1) You are given the roots of two binary trees, check if the trees are isomorphic or not.(Initially he framed the question for a tree (not a binary tree) and gave me two random nodes instead of the roots).
+(Refer https://www.geeksforgeeks.org/tree-isomorphism-problem/)
+2) You are given an array of n X m dimension. You start from (0,0)th location. You can move from (i,j) to any of (i + 1,j),(i,j + 1),(i + 1,j + 1)th locations. Find the total number of paths starting from (0,0)th to (i,j)th position.
+(For all i and j,dp[i][0] = dp[0][j] = 1, dp[i][j] = dp[i – 1][j – 1] + dp[i][j – 1] + dp[i – 1][j]).
+Personal Interview Round III :-
+1) Given a dictionary, group the anagrams together.
+(Sort each string in dictionary, as anagrams will have same representation after sorting, use a hash map to store the groups of anagrams).
+2) He asked questions related to my project.
+Thank You geeksforgeeks.org.

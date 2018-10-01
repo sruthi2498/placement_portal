@@ -1,0 +1,29 @@
+Cut off: 75%. Around 140 students were short listed.
+Round 1: 90 minutes
+It comprised of 20 MCQs on aptitude, operating system, DBMS, data structures and algorithms on Hackerrank.
+There were two coding questions
+1. Given a string find the first non repeating character in it, O(n) was good enough.
+2. Given an array of integers, find count of minimum number of elements to be removed from the array such that the maximum element of the new array is at most twice of the minimum. O(nlogn) solution was required.
+39 shortlisted after this round
+Round 2 (F2F) 75 minutes
+1. Given a complete BST, find kth minimum element. Required time complexity O(logn) and O(1) space complexity. The interviewer was really supporting and kept giving me hints to reach the solution.
+2. Given a 2D array of 0s and 1s. Find largest square submatrix with all 1s. Although I made silly mistakes initially, I arrived at efficient solution later.
+3. Find the LCA of two nodes in a binary tree.
+Around 22 shortlisted after this round
+Round 3 (Tech +HR) 45 minutes
+It started with questions like
+1. why do you want to join Amazon?
+2. what are your areas of interest?
+3. plans for higher studies?
+He scanned my resume and then proceeded with a brief description of my project and its relevance.
+2 coding questions
+1. Maximum sum subarray
+2. Maximum product subarray
+covering all corner cases and proper working code
+It moved on to detailed discussion on OS: thrashing, threads, processes, mutex semaphores etc. The interviewer was nice and made me comfortable throughout the process.
+Lastly, he asked if I had anything to ask him. I asked about the role of interns and latest projects going on in the company.
+Tips:
+Be expressive during your interview.
+Have a good resume (Aggregate+Projects+Coding skills)
+Stay calm and confident 
+

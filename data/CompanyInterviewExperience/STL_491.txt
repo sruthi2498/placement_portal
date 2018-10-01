@@ -1,0 +1,25 @@
+To append characters, you can use operator +=, append(), and push_back(). All of them helps to append character but with a little difference in implementation and application.
+
+Here are few standards we can have for comparison among these three:
+1)Full String: 
+Run on IDE
+Output:
+2)Appending part of String: 
+Run on IDE
+Output:
+3)Appending C-string (char*): 
+Run on IDE
+Output:
+4)Appending character array: 
+Run on IDE
+Output:
+5)Appending single character: 
+Run on IDE
+Output:
+6)Iterator range: 
+Run on IDE
+Output:
+7)Return Value: 
+Run on IDE
+Output:
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks(We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

@@ -1,0 +1,17 @@
+Applied for practo off campus in February, call came for first round on 20th February.
+Round 1 (Coding Round):
+The first round was coding. It was hosted on hacker rank. Had 6 questions which need to be solved in 2 hours. The level of questions were nice and contained 3 DP and 3 adhoc questions.
+The level of the questions were high. The catch is you don’t need to solve all the questions. I solved 2 questions completely and 2 questions partially(½ and 4/8 testcases) and that was enough to clear this round.You can download and see the questions that were asked from the following link :
+https://www.dropbox.com/sh/aoxkayew1x0aamj/AAC5kjRVcodxYgdfnjd7133Ua?dl=0
+Round 2 (Skype Interview):
+This round took place on skype. The interviewer shared a link for the scratchpad, it was hosted on hacker rank. This round was divided into 3 parts :
+1. He gave me the following question to code:
+Given a string, calculate the number of distinct palindromic substring. e.g. if the string is aabaa, then distinct palindromic substrings are a, aa, aba, b, aabaa. So the answer is 5.
+Cleared 6/9 testcases, took 20-25 minutes to code this.
+2. He was going through my resume and asked me to discuss any project of my liking. So I discussed “Sentiment Analysis” and how it can be connected to the kind of work Practo does. He showed interest in the project and to some extent was kind of impressed about the work. Discussed about all the algorithms and technologies involved in the project.
+3. In the end he gave me a design question. He asked me to design a database schema for the ongoing cricket world cup which would be able to answer queries like “which bowler took how many wickets in a particular match”, “how many runs were scored by batsman abc in xyz match”, “how many no-balls were bowled in xyz match and at what position in the match and how many runs were scored off those balls”, “ball by ball update, the kind of delivery”, etc.
+Hint : took idea from the way espncricinfo displays an ongoing match summary.
+This was it, this round took 1.5 hours, in the end he asked me whether i have any questions, i didn’t have. He said I will receive a call from HR next day. The call didn’t come, instead a mail came and i was lucky to get selected.
+The complete procedure took 20 days.
+Tip : Be thorough with your resume and the projects you do, it matters a lot. Needless to say about Competitive programming. Practice on Hackerrank, Codeforces and leetcode.
+P.S. : Practice Dynamic Programming as much as you can.

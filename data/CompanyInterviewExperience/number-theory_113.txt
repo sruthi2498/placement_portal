@@ -1,0 +1,6 @@
+Given a positive integer ‘n’ and query ‘q’. Print all the divisors of number ‘n’.
+Naive approach is to iterate through 1 to sqrt(n) for every query ‘q’ and print the divisors accordingly. See this to understand more. Time complexity of this approach is q*sqrt(n) which is not sufficient for large number of queries.
+Efficient approach is to use factorization by using sieve base approach. 
+Run on IDE
+Time complexity: O(len) for each query, where len is equal to total divisors of number ‘n’.
+Auxiliary space: O(MAX)

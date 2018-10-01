@@ -1,0 +1,9 @@
+Many programming contest problems are somehow related Prime Numbers. Either we are required to check Prime Numbers, or we are asked to perform certain functions for all prime number between 1 to N.  Example: Calculate the sum of all prime numbers between 1 and 1000000.
+Java provides two function under java.math.BigInteger to deal with Prime Numbers.
+Below is Java program to demonstrate above function.
+Run on IDE
+Output: 
+Below is Java program to demonstrate above function.
+Run on IDE
+Output: 
+ 

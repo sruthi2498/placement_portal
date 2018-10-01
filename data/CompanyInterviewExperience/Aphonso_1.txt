@@ -1,0 +1,17 @@
+I applied via angelist. I was asked to write code on collabedit while we were discussing problems over phone. Interviewer jumped straight to Technical questions, no Tell me about yourself.
+Q1. Write a program to calculate power(x, n) in your favorite programming language.
+Ans: I divided the problems in subproblems of size(y/2) and called the subproblems recursively. He then asked me to further optimize it. I tried memoization and dp, he then said there is no need of memoization here as one subproblem will be solved only once.
+Q2. I used hashmap during the above question, then he asked me about hashmap its internal implementation, insertion complexity etc.
+Q3. How are collisions prevented in hashmap, what is hash function etc.
+Q4. You are given a binary tree, print level order traversal in zigzag form.
+Ans: I did this by first printing level order then reversing where required. I was only required to write psuedo code. I was not able to explain him the recursion.
+Q5. Asked Javascript- asynchronous programming, eventloops in NodeJS, asked me the output of following JS program:-
+   for(var i=0;i<10;i++)
+     setTimeout(console.log(i), 10);
+What would happen if setTimeout is replaced with setTimeInterval?
+What would happen if var i=0 is replaced with let i=0 (Ans: It would produce error)
+What are closures in JavaScript?
+Q6. What is the difference between SQL and NOSQL databases? Advantages of NOSQL databases like Mongodb? Can we have Relational DB in NOSQL?
+Q7. Some general questions like what is MVC, AJAX, HTTP keep alive, difference between git pull and git fetch etc.
+Q8. Asked questions from what I had mentioned in Resume like what is k-fold cross validation, AngularJS etc.
+I got a mail 15 mins after the call that they don`t have good positions matching my experience and skillset. My interview went well, but I think my lack of JavaScript knowledge and poor net connectivity had negative impact on the interviewer.

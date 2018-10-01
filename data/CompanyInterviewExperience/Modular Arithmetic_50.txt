@@ -1,0 +1,9 @@
+Given an array of n integers .We need to find all ‘k’ such that  
+Examples:
+
+Suppose the array contains only two elements a and b (b>a). So we can write b = a + d where d is a positive integer and ‘k’ be a number such that b%k = a%k.  
+Now what we get from the above calculation is that ‘k’ should be a divisor of difference between the two numbers.
+Now what we have to do when we have an array of integers 
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,33 @@
+Round 1:
+It was a online coding round on Hackerrank, there were three questions :
+1. balancing bracket problem in which you have to check whether the give string of bracket is balanced or not .
+http://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression
+2. It was an easy question based on anagrams, it was just about implementation . 
+3. It was basically a variation of matrix chain multiplication. 
+Round 2:
+It was a F2F round in which interviewer asked to me 3 questions which was generally based on arrays –
+1. Find the duplicates in the array in O(n) time and O(1) space .
+http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
+2. It was similar to problem given below-
+https://stackoverflow.com/questions/5682218/data-structure-insert-remove-contains-get-random-element-all-at-o1/
+3. Convert an array to zig-zag fashion-
+https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/
+Round 3:
+It was also a F2F round in the interviewer asked to me the problems generally related to trees –
+1. Given a binary tree, print the tree in sine wave form means first divide the tree into vertical planes after that print bottom-most node of first plane, next print top-most node of the second plane and so on. If there are two nodes present at the bottom-most position of the plane the print any of them.
+for example – 
+Output – 4 2 5 3 7 9 or 4 2 6 3 7 9 
+2.https://www.geeksforgeeks.org/stepping-numbers/
+3.Given a binary tree, first print all leaf nodes, after that remove all the leaf nodes from the tree and now print all the new formed leaf nodes and keep doing this till there is atleast one node.
+For example –
+
+Output –
+1) 1 4 7 13
+2) 6 14
+3) 3 10
+4) 8 
+He asked me to do it in O(n) complexity, I solved it using DFS approach. 
+Round 4:
+It was an Hiring Manager Round in which he asked me about my hobbies and different other things like what type of problems I generally like to solve.
+After that he asked me about Traveling salesman problem and other NP-Hard problems. He didn’t ask me to write code but asked about my approach. After that there was a lot of discussion on company’s policies. 
+

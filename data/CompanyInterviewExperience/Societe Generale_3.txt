@@ -1,0 +1,21 @@
+The role offered was of Senior Software Developer and the job location was Bangalore. Branches eligible – BE: CSE/IT/ECE/EEE
+1st Round: Online Test
+The first round was an online test consisting of General aptitude, English and technical questions like C, C++ output along with 2-3 questions each from Data Structures, Operating Systems, Databases and Computer Networks. The level of the questions was moderate. C/C++ output questions were a bit tricky.
+46 students were shortlisted from over 250 who appeared for the online test.
+
+2nd Round: Group Discussion
+This was a group discussion consisting of 11-12 participants and one moderator. The topic given to us was – “Social impact of AI”. I was not very confident about my knowledge over this topic so I decided to start the discussion from the limited information I had. An important point to note for Group Discussions is to maintain eye contact with all members of the group and be very clear and precise about the point you are trying to explain.
+15 students were shortlisted from four groups after this round. 3 students were selected from my group.
+
+3rd Round: Face-to-face Interview
+Started off with a brief introduction about myself and my background. The interviewer asked about any on-going projects. I explained him about a Digital Image Processing project that I am presently working on. Then the interviewer presented a coding question: “There is a text file that contains different numbers. My task was to sort the numbers and ignore any number which occurs more than once. Also, numbers only in the range of 0-9 were to be considered.”
+I gave him the standard solution by reading elements from a text file and then removed duplicates before sorting the numbers. There was no time limit so I give him the basic O(n^2) solution, he did not ask me to optimize it either. Then a few HR question were asked like Why Societe Generale, etc.
+
+4th Round: Face-to-face Interview
+This interview started off with lots of discussions over the role of technology in the field of finance and banking. He questioned my about my knowledge in the field of finance. The interview was pretty vague and average up until this point. Then the interviewer gave me a real word situation. A railway track is given and a diversion track is also provided. I had to figure out all possibilities of collisions with trains moving in the same as well as opposite directions. Also I was asked to plot sensors at different points so that collisions may be avoided. Then he asked me to find out the different positions on the railway track where I should place red lights so that trains may be alerted beforehand about an upcoming train and stopped.
+Next, I was asked to provide an algorithm so that a computer never loses a game of tic-tac-toe. Then the interviewer changed the problem and asked me to provide an algorithm to check a game of tic-tac-toe and check all possibilities of different players winning. I was asked to generalize my algorithm for an n*n tic-tac-toe game rather than a 3*3 one. The interviewer was more interested in my approach and logic rather than the actual data structures and algorithm that I provided.
+A few HR questions were asked and he explained a bit about the work culture at Societe Generale.
+
+5th Round: HR Interview
+This was the final round and I was again asked to explain my Digital Image Processing project. Then the HR asked me questions like – Why do you want to join our company, what do you wish to improve about yourself before stepping into the corporate world, etc.
+At the end, 5 students were selected for Full Time Placement offers.

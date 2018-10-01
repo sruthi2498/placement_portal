@@ -1,0 +1,34 @@
+I gave offcampus interviews for Media.net for the profile of Web Developer. Here are the questions asked.-
+Round 1 (via skype)
+Question- Given a numeric rank pattern and a character string, find how many substrings follow the rank pattern. Each character in every substring of pattern length can be given a rank/order value based on its actual ascii value.
+Example-
+String(s): ACBADCAE
+RankPattern(R):13214
+Output=2
+i.e.:{ACBAD,ADCAE}
+I gave an approach with complexity O(string length(log(pattern length) + pattern length)) 
+Round 1 Again(via skype)
+Question-
+Given a string which only contains lowercase. You need delete the repeated letters only leave one, and try to make the lexicographical order of new string is smallest.
+example 1-
+bcabc
+You need delete 1 ‘b’ and 1 ‘c’, so you delete the first ‘b’ and first ‘c’, the new string will be abc which is smallest.
+example 2-
+cbacdcbc
+answer is acdb not adcb.
+hint – use stack and frequency array 
+Round 2(Technical F2F)
+1) Find whether a linked list is palindrome
+2) Problem on find shortest path from a to b , use dijiskta
+3) Find second largest element in a bst
+3) Find time of second meeting of 2 ducks moving at 10km/hr and 18km/hr in opposite direction along the circumference of a circular pond. Initailly they are present at any pair of diametrically opposite points. radius of pond is 7km
+Round 3
+1) Discussion on what is the need for cookies/sessions in web applications (include points related to HTTP being stateless). Where are cookies stored(in browser). Where is session data stored(at server)
+2) Find validity of any given  sudoku state based on standard defined rules- uniqueness in row, uniqueness in column, uniqueness in 3*3 matrix.
+3) Given 2 buttons red and blue and a number n, when you click on red, n becomes double and when you click on blue n gets decremented by 1. Find out minimum number of clicks requried to reach m from n.
+Round 4
+1) One puzzle – draw a square with double the area of an existing square and covering the existing square  such that the corners of existing square lie on the edges of new square.
+2) Find the missing card in a deck of 51 cards- lot of discussion on number of iterations/comparisons required and the memory required( minium memory required is 52 bits, can fit in a long long(c++/c+), long(java))
+3) Right shift a string k times circularly,  but do it inplace(no extra variable size memory)-
+geeksforgeeks lnks- https://www.geeksforgeeks.org/array-rotation/, https://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/
+

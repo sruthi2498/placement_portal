@@ -1,0 +1,13 @@
+Betrothed numbers are two positive numbers such that the sum of the proper divisors of either number is one more than (or one plus) the value of the other number. Our task is to find these pairs efficiently.
+Example :
+Given a positive integer n, print all Brothered numbers (which is a pair) such that one of the numbers in every pair is smaller than n.
+Example :
+
+The idea used in below program is simple. We traverse through all numbers from 1 to n-1. For every number num1, we find sum of its proper divisors say sum1. After finding sum1, we check if the number num2 = sum1 + 1 which has sum of divisors as num1 + 1
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

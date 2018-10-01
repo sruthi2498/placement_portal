@@ -1,0 +1,15 @@
+Given two numbers N and M. Construct maximal number by permuting (changing order) the digits of N, not exceeding M.
+Note : It is allowed to leave N as it is.
+Examples:
+
+Input : N = 123, M = 222
+Output : 213
+There are total 3! permutations possible for N = 123, But the only permutation that satisfies the given condition is 213. Similarly, In example 2, there are total 4! permutations possible for N = 3921, But the only permutation that satisfies the given condition is 9321.
+Input : N = 3921, M = 10000
+Output : 9321
+
+
+Approach : Let’s construct the answer digit by digit starting from the leftmost. We are asked to build lexicographically maximal answer. So in this order, we should choose the greatest digit on each step. The approach is to iterate over all possible digits starting from the greatest. For each digit check if it’s possible to put it in this position and compare the resulting number with number M. If it comes less than or equal to the value of M, then proceed to the next digit.
+Below is the CPP implementation:
+Run on IDE
+Output:

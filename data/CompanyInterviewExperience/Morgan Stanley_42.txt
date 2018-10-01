@@ -1,0 +1,36 @@
+Recently Morgan Stanley visited in our campus for FTA(Full time analyst) and intern programs.
+Written Test
+It was the technical + aptitude test that anyone of us ever faced. 10 aptitude questions and there was a choice for technical part. We could choose among the three languages, C, C++ and Java. There were 20 technical questions. Total 30 ques. within 45 min. There was sectional cut off. I attempted 3 from aptitude section and 7 from languages(I chose C language).
+Then there was a coding round immediately after that which comprised of 3 ques. in 1 hr.
+a) Determining the range of a URL from many given ranges which fits the input URL.
+b) Huffman Coding.
+c) Determining the day of any date.
+I was able to do only the last question completely and gave a try to Huffman one.
+First Tech Interview
+Held immediately after the presentation. The interviewer asked me to introduce myself informally and made me feel extremely relaxed. Then he asked me about my achievements and and was writing it on a sheet of paper as i dictated. Then he asked me about my favorite subject and i said Data Structures. He then started with the interview part.
+a) Middle of a link list.
+b) Queue using Stack. I gave the general algo and then he asked me to optimize it by making the retrieval time constant. I tried but i wasn’t able to come with something fruitful.
+c) Deleting alternate elements in a link list.
+d) Sorting algorithms. Almost all the sorts i knew i mentioned but he did not dig deep into sorting stuff.
+e) Given an array with duplicate elements, output the array without the duplicates as well as sorted. I gave him Brute force approach to it and then he asked me to optimize it but i could not. He gave me a hint and then i suggested building BST(excluding the duplicates when encountered) and then inorder traversal of it.
+f) External sorting question and optimizing it.
+Throughout the interview he was noting down something or the other. There were many many sheets with different headers, on which he was writing down something. The results came late night and they selected 8 people for the next round.
+Group Activity
+We were divided into two groups of 4. There was sheet of paper with the instructions for each group and two boxes of LEGO blocks. The round was conducted in a board room and all the panel members were sitting around us to judge us throughout the activity.
+We had to build up a functional unit for Morgan Stanley, and we were judged on the basis of our thought process, our approach, our goal, our planning, our execution, our team handling, and many many such factors. Throughout the discussion we had to discuss loudly so that the judges could here our thought process.
+There was a twist in between when another letter came from BOD and we(both groups) had to merge and build the prototype together now. So we now had less time and we had to come up with something that includes both the groups’ ideas.
+In all we were given 40 min.
+After that we had to present our prototype. There was a session of 30 min during which a panel of 10-12 judges asked us questions about our approach, our team spirit, what we thought of other members and all. It was something extremely new that we ever face in our lives.
+Second Tech Interview
+Held after the group activity. The interviewer was much more gentler than the previous one and made me feel very comfortable. Started with informal talks and then came to the real stuff.
+a) Diameter or width of a binary tree(only the approach).
+b) How to store 2D array in a database.
+c) How to store N-dimensional array in a database. I gave sequence solution.
+d) How to store N multidimensional arrays in one table.
+e) How to search a record by its name field when there are billions of records.
+The whole interview lasted for 40-45 min.
+HR Interview:
+It was two on one, started with casual talks and then proceeded towards the business end of the Morgan Stanley’s HR Interview. It was intense, and when i say intense then literally i mean it. They asked me 100+ questions on different situations and scenarios that a employee faces. I don’t remember a lot but most of them were manager related. I answered something then completely changed the situation and came up with something more challenging.
+They wanted to check what kind of a person you are? How you look at things? What your take on different situations? and stuff like that. You should just be yourself and please don’t try to say something that you don’t believe in because they were digging deep. They were very very polite and extremely supportive in a sense that they were listening to my responses keenly. In the end, they asked me to ask anything and i came up with few general questions such as work environment in the company, how you like it, etc.
+My only suggestion to all job aspirants is to focus on what you like and then look for it on Geeksforgeeks.
+

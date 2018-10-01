@@ -1,0 +1,9 @@
+Given an array of integers and a number k, write a function that returns true if given array can be divided into pairs such that sum of every pair is divisible by k.
+Examples:
+A Simple Solution is to iterate through every element arr[i]. Find if there is another not yet visited element that has remainder as (k – arr[i]%k).  If there is no such element, return false.  If a pair is found, then mark both elements as visited.  Time complexity of this solution is O(n2 and it requires O(n) extra space.
+An Efficient Solution is to use Hashing.  
+Time complexity of above algorithm is O(n).
+Below implementation uses map in C++ STL. The map is typically implemented using Red-Black Tree and takes O(Log n) time for access.  Therefore time complexity of below implementation is O(n Log n), but the algorithm can be easily implemented in O(n) time using hash table.
+Run on IDE
+Run on IDE
+

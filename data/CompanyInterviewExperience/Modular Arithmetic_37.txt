@@ -1,0 +1,12 @@
+Given multiple numbers and a number n, the task is to print the reminder after multiply all the number divide by n.
+Examples:
+
+Naive approach: First multiple all the number then take % by n then find the reminder, But in this approach if number is maximum of 2^64 then it give wrong answer.
+Approach that avoids overflow :  First take a reminder or individual number like arr[i] % n. Then multiply the remainder with current result.  After multiplication, again take remainder to avoid overflow.  This works because of distributive properties of modular arithmetic. ( a * b) % c = ( ( a % c ) * ( b % c ) ) % c
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

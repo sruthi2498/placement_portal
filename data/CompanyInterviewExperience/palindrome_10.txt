@@ -1,0 +1,7 @@
+
+Given an integer, write a function that returns true if the given number is palindrome, else false. For example, 12321 is palindrome, but 1451 is not palindrome.
+Let the given number be num. A simple method for this problem is to first reverse digits of num, then compare the reverse of num with num. If both are same, then return true, else false.
+Examples:
+Below is the required implementation:
+Run on IDE
+Output:

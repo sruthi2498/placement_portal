@@ -1,0 +1,36 @@
+Recently Oracle came to our campus for Server Technology and Applications Engineer Profile. Here I am sharing my experience of Server Tech. 
+Round – 1
+This was an aptitude round comprising of four sections – General Aptitude (Basic Maths, Logical Reasoning, Mental Ability, etc.), English for Communication, Software Engineering principles and Coding Basics (C, C++, JAVA, SQL). There was no negative marking. After this round, they shortlisted around 40 people for Server Tech and 70 for Apps. 
+Round – 2
+This was a coding round only meant for people shortlisted for Server Tech. It was a no elimination round. Mostly it was meant to ease up the interview process. There were two questions out of which one had to be done.
+1) An array is given. Find two indices ( x and y , yRound – 3
+This started with a series of interviews. Following are the questions that were asked to me in the series of rounds that followed :- 
+Technical Round – 1
+Started with general questions like “Tell me about yourself” with the interviewer taking a look at my resume in the meantime. Then asked me about my internship experience just to break the ice. Then the round started :-
+1.) OOPS concepts – abstraction, inheritance, encapsulation. What, Why, How?
+2.) Basic C/C++ questions on pointers, structure, class, exception handling.
+3.) Then he gave me a basic program to output the prime factor representation of a given number n. Eg :- 36 = 2*2*3*3.
+4.) Once done, this followed with tree questions. What is a balanced tree? Give a few examples. Write a program to find the minimum number of nodes that need to be added to a tree to make it balanced.
+5.) Code for self-balancing in an AVL tree.
+6.) Code to find the height of a tree.
+7.) Followed with graph questions. Code for minimum spanning tree of a graph. I chose Prim’s MST algorithm. The interviewer also asked me to describe Kruskal’s and then asked why I chose Prim’s over Kruskal’s. What are their time complexities, advantages and disadvantages.
+Then he asked if I know Operating Systems or not. But then being a Electrical Engg student, I don’t know much about it. So I told him, I just know the basics. He asked me basic linux commands like – “Finding a running process (ps), Viewing a file (vi), List all the disks and their space (df), Replacing a pattern with another pattern (sed) and awk. I got stuck on awk. Still he carried on and asked me about piping.
+I could answer all these questions correctly. I was then called for the second round 
+Technical Round – 2
+Again, the interviewer started with a look at my resume and asking questions from it. This round was mostly based on my internship project. I was asked on the technical details, the technology I used, the challenges I faced and how I solved them. I was also asked the details about the coding round questions.
+Only two technical questions were asked in between :-
+1.) Given two linked lists find out if they intersect or now and if they do, find out their intersection point.
+2.) Given inorder and preorder traversal of a tree, find out the tree. Followed the same with inorder and post-order.
+Then he asked me a design question. How will I design a social networking site like Facebook. Which data structure would I use and why? What would be the implementation and time complexity of any functions like adding a friend, finding if two persons have a common friend, blocking a person, privacy, etc.
+I could answer these questions properly too. He finally asked me a commonly known puzzle about 25 horses and 5 race tracks. Finally, he said he was done and asked me to ask any questions if I want.
+Before I move on, I would just like to tell that they don’t expect you to arrive at the best algorithm for any problem instantly. Also they check if you have just mugged up any algorithm by tweaking the question a bit, once u tell the answer or by getting into intricate details. They just check your approach to the problem. So, don’t give up if you don’t get the best solution. Give it a shot and tell him you approach. Be loud, it helps.
+For people with non-CS background, prepare data structures like tree and graph very properly. Also a good grasp on algorithm designing techniques (greedy, DP, divide-and-conquer, branch and bound) and OOPS concepts is really necessary if you want to get into any of the top-notch companies. Don’t waste much time preparing OS, DBMS, CN. Just get an overview on them. They know you haven’t had these subjects in your curriculum.
+HR Round – 1
+In this round, they just asked me details about my internship, my CGPA. Then the topic moved on to the important subjects which I had to study to bridge the gap to get a software profile, me being an EE student. Then just some basic OOPS, multi-threading concepts again. It ended on a positive note.
+
+HR Round – 2 
+This was the last round. The HR told me the necessary details, of the work profile, the compensation and its breakup, work-culture, etc. He also asked me my work location preference out of NOIDA and Bangalore.
+I would like to advise anyone seeing this to ask question they have in mind to all your interviewers. It makes a positive impression. 
+Finally, I would like to thank the geeksforgeeks team for creating such a superb resource for free on the internet. I went through previous interview experiences of the same company before the interview. Although the questions weren’t repeated, it gives you a fair idea about the topics that are likely to appear before you and to boost your confidence.
+
+

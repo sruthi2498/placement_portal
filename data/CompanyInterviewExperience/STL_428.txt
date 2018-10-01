@@ -1,0 +1,25 @@
+It searches the string for the first character that does not match any of the characters specified in its arguments.
+Return value : Index of first unmatched character when successful or string::npos if no such character found.
+Syntax 1: Search for the last character that is not an element of the string str.
+Run on IDE
+Output:
+Syntax 2:  Search for the last character from index idx that is not an element of the string str.
+Run on IDE
+Output:
+Syntax 3:  Searches for the last character that is or is not also an element of the C-string cstr.
+Note that cstr may not be a null pointer (NULL).
+Run on IDE
+Output:
+Syntax 4:  Search for the last character from index idx that is not an element of the C-string cstr
+Note that cstr may not be a null pointer (NULL).
+Run on IDE
+Output:
+Syntax 5: Finds last character in str which is not equal to char c.
+Run on IDE
+Output:
+Syntax 6: Finds last character in str from index idx which is not equal to char c.
+Run on IDE
+Output:
+Syntax 7: Search for the last character that is also not an element of the chars_len characters of the character array chars, starting at index idx.
+Run on IDE
+Output:

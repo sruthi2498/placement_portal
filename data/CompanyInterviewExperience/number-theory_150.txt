@@ -1,0 +1,24 @@
+We have already been introduced to primality testing in the previous articles in this series.
+The Solovay–Strassen primality test is a probabilistic test to determine if a number is composite or probably prime.
+Before diving into the code we will need to understand some key terms and concepts to be able to code this algorithm.
+Background:
+Legendre Symbol: This symbol is defined for a pair of integers a and p such that p is prime. It is denoted by (a/p) and calculated as:
+Euler proved that:
+Jacobian Symbol: This symbol is a generalization of Legendre Symbol, where p is replaced by n where n is
+, then Jacobian symbol is defined as: 
+If n is taken as a prime number then the Jacobian is equal to the Legendre symbol. These symbols have certain properties –
+1) (a/n) = 0 if gcd(a,n) != 1, Hence (0/n) = 0. This is because if gcd(a,n) != 1, then there must be some prime pi such that pi divides both a and n. In that case (a/pi) = 0 [by definition of Legendre Symbol].
+2) (ab/n) = (a/n) * (b/n). It can be easily derived from the fact (ab/p) = (a/p)(b/p) (here (a/p) is the Legendry Symbol).
+3) If a is even, than (a/n) = (2/n)*((a/2)/n). It can be shown that:
+4)
+The Algorithm: 
+We select a number n to test for its primality and a random number a which lies in the range of [2, n-1] and compute its Jacobian (a/n), if n is a prime number then the Jacobian will be equal to the Legendre and it will satisfy condition (i) given by Euler. If it does not satisfy the given condition then n is composite and the program will stop. Just like every other Probabilistic Primality Test its accuracy is also directly proportional to the number of iterations. So we run the test for several iterations to get more accurate results.
+Note: We are not interested in calculating the Jacobian of even numbers as we already know that they are not prime except 2.
+Pseudocode:
+Implementation:
+Run on IDE
+Run on IDE
+
+Running Time: Using fast algorithms for modular exponentiation, the running time of this algorithm is O(k· n), where k is the number of different values of a we test.
+Accuracy: It is possible for the algorithm to return an incorrect answer. If the input n is indeed prime, then the output will always correctly be probably prime. However, if the input n is composite then it is possible for the output to be incorrectly probably prime. The number n is then called a Euler-Jacobi pseudoprime.
+References:

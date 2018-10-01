@@ -1,0 +1,6 @@
+A STL based simple implementation of BFS using queue and vector in STL. The adjacency list is represented using vectors of vector. 
+Below is an example BFS starting from source vertex 1. Note that there can be multple BFSs possible for a graph (even from a particular vertex).
+
+For more details of BFS, refer  this post . 
+The code here is simplified such that it could be used in competitive coding. 
+Run on IDE

@@ -1,0 +1,21 @@
+Written Round 1:
+Coding test on hacker rank.
+There were 4 problems to be solved in 2h.
+Q1. Max Sum Path: You are given a 2D array and an initial position in first row. You have to travel down to last row with max sum. Max. sum is calculated by adding current cell value in result. You can visit from a position (i,j) to (i+1,j-1), (i+1,j) and (i+1,j+1).
+Round 2 (F2F): (Logical + Technical)
+1. You have an array of characters ‘a’ and ‘b’. Sort the array.
+2. You have an array of characters ‘a’, ‘b’ and ‘c’. Sort the array.
+3. It takes 30 days to fill a laboratory dish with bacteria. If the size of the bacteria doubles each day, how long did it take for the bacteria to fill one half of dish?
+4. Questions related to my project.
+5. Questions related to java.
+6. Test cases and requirements for Library management system (Design problem).
+Round 3 (F2F): (Technical)
+1. A function f2x () generate numbers 0 and 1 with equal probability Design a function f4x () that will generate 0,1,2,3 with equal probability.
+2. A function f6x () generate numbers 1 to 6 with equal probability Design a function f12x () that will generate 1 to 12 with equal probability.
+3. Question related to project.
+Round 4 (F2F): (HR)
+1. How was your day?
+2. Where are you from?
+3. Tell me 8 negative points about yourself.
+4. 3 things you are passionate about.
+5. Some general questions.

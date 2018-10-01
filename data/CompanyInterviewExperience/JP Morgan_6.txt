@@ -1,0 +1,36 @@
+JPMC visited our campus for Full time and Internship opportunity.
+I sat for Summer Technology Analyst Program 2018.
+There were total of  3 rounds. First one was Online Coding Test, Second One Technical and Third one HR Round.
+Round 1: 
+The online coding test was hosted on HackerRank Platform. There were 10 MCQs comprising of Aptitude and Technical Questions. Each question had a weightage of 3 marks. There was no negative marking. Apart from this there were 2 coding questions.
+1st One :
+It was a typical rainwater trapping problem wherein water was replaced with balls having diameter equal to that of a tower.
+This is was the easier question 15 marks.https://www.geeksforgeeks.org/trapping-rain-water/
+2nd One :
+It was relatively tougher problem with a weightage of 55 marks.
+Q : A college organized various training programs for students. Each program has the following fields , [Program  name][Start Time][End Time] [program Value]. These details were stored in a vector of string.
+Find out how many program a students attends to maximize his/her total program value.
+Input :
+4 -> Number of Program scheduled in a day;
+[P1] [14][15][200] // 14 implies 1400 or 2pm;
+[p2][18][19][200]
+[p3][16][19][100]
+[p4][15][18][100]
+Output:
+3
+(P1->P4->P2)
+This question can be solved by using greedy approach . Only 3-4 students could solve it completely from 90 students. Around 30 students were shortlisted for the next round.
+Round 2: Technical Round
+There were two interviewers . They both greeted me warmly and asked me to introduce myself, when did I have my breakfast , when will i have dinner .
+They asked me what are my interests. I replied data structures and Algorithm. They said you have performed well in your coding test so you must be good at data structures and algorithm. Tell me some other technical expertise.
+I had 4 projects of which 3 were completed and 1 is ongoing. I had done 1 project on IoT using Arduino Uno and PHP. 2 Django project and 1 Machine Learning. They asked about all the details of the project, they asked me every possible question they could about my projects.
+What is ML? Explain Naive bayes. Explain  KNN algo. What are SVM?Difference between AI , ML and Deep Learning. It was kind of a rapid fire round where they kept on asking me questions and I kept on answering them.
+They asked how Google Assistant , Siri and Bigby work. What is difference between NLP and Voice Recognition? Why I choose C++ and Python as my main programming language.
+Then they asked me write a sql query to delete duplicate elements from a table.
+In the end they asked “Where do you see yourself in next 3-5 years?” Why JP Morgan?
+Round 3: HR Round
+The HR was very cool and friendly. He introduced himself and then asked me to introduce myself. He asked me about my family, family background, why I don’t want to join my family business etc.
+He looked at my POR and asked me to explain my responsibilities and why i like to be involved in so many activities at my institute.
+He asked me about my future goals and other common HR questions.
+In the end he asked me if I had any questions to ask . So I asked him several questions like “If I am selected for the internship what technology should I learn to excel in my internship. What is the best thing you like about JP Morgan? Other than monetary benefits what else do you offer to your employees ? I am interested in equity research so are there any opportunity for me in equity research department?”
+Overall the interview experience was great. 10 were selected for internship out of which I was one of them.

@@ -1,0 +1,14 @@
+Given two numbers w and m, we need to determine whether it is possible to represent m in terms of powers of w. The powers of number w can be added or subtracted to obtain m and each powers of w can be used only once .
+Examples:
+Here we have to represent m in terms of powers of w used only once so it can be shown through the following equation .
+c0 + c1*w^1 + c2*w^2 + … = m      —— (Equation 1)
+Where each c0, c1, c2 … are either -1 (for subtracting that power of w ), 0 (not using that power of w ), 1 (for adding that power of w ) .
+=> c1*w^1 + c2*w^2 + … = m – c0
+=> w(c1 + c2*w^1 + c3*w^2 + … ) = m – c0
+=> c1 + c2*w^1 + c3*w^2 + …  = (m – c0)/w        —— (Equation 2)
+Now, notice equation 1 and equation 2 — we are trying to solve the same problem all over again. So we have to recurse till m > 0 . For such a solution to exist (m — ci) must be a multiple of w, where ci is the coefficient of the equation . The ci can be -1, 0, 1 . So we have to check for all three possibilities ( ( m – 1 ) % w == 0), ( ( m + 1 ) % w == 0) and ( m % w == 0) . If it is not, then there will not be any solution.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

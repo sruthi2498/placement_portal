@@ -1,0 +1,29 @@
+I was recently interviewed by amazon for SDE 2 position. Here is my experience. 
+Round 1:
+I was asked to solve 2 questions.
+1. Spiral printing of 2D matrix.
+2. Given an array of 0s and 1s . I was asked to return the index of a zero turning which will produce a longest continuous 1s.
+Ex  1 0 1 1 0 1 0 1 1 1 0 1. here turning the last 0 to 1 will form 5 ones. this is the longest of all.
+Round 2:
+In this round I was asked to solve 4 question.
+1. basic implementation of stack.
+2. finding the middle element of a linked list
+3. printing the vertical sum of a tree.
+4. given an array of integers where the number go increasingly and at a point will start decreasing something like the following.
+ 2 3 4 5 6 7 8 6 4 3 2.
+ we need to find the turning point of this series. in this example it is 8.
+
+Round 3:
+                Given 2 design problems
+1. I was asked to design a s/w for game shop in shopping mall.
+Description: The game shop will distribute preloaded cards. That card needs to be used to play any game. if the card has balance the cardholder will be allowed to play the game.
+2. Design chessboard. I was asked to write all the classes.
+Round 4: (hiring Manager)
+                Detailed discussion about project. Discussion about my current responsibilities in the current company and details around that.
+                and lot of behavioral questions.
+Round 5: (Bar Raiser)
+                Detailed discussion about the interesting problems I’ve faced in my past projects. The interviewer went deeply inside the project and asked questions.
+                I was asked to solve a problem. Given a binary tree, I was asked to serialize that tree and store it as a file format and retrieve it back to the form of a binary tree.
+                I was initially saying preorder and in-order delimited by a  pipe symbol. But the interviewer asked me to go with only one traversal. I finally gave a solution using only preorder, denoting null nodes as *.
+
+

@@ -1,0 +1,11 @@
+Given a, b and N(1 to 106). Task is to count the numbers formed by digits a and b exactly of a length N such that the sum of the digits of the number thus formed also contains digits a and b only. Since the count can be very large, print the count % 1000000007. 
+Examples :
+Approach:  Since N is very large, we cannot iterate for all numbers to check them individually. As the number is of length N and formed by two digits a and b, a will occupy i positions and b will occupy n – i positions. The sum of digits thus will be ( a*i + (n-i)*b ). We can check if the sum of digits is formed of a and b for all i ranging from 0 to N. Thus, the total count of numbers formed will be  which will correspond to all combination of numbers formed by a and b whose sum of digits is also formed of a and b.  
+Implement Modular Operations in calculations : 
+Calculate %1000000007 for all i ranging from 0 to N satisfying the given condition. 
+A simple solution will give answer as : 
+Since calculating the modInverse takes O(log N), the total time complexity will be O(N log N), if all the factorials are pre-calculated.   
+An efficient solution will be to precalculate all the factorials till N. Calculate the modInverse of N! in O(log N) and calculate the modInverse of all factorials from (N – 1)! to 1! by the given below formula. 
+modInverse(i!) = modInverse((i + 1)!) * (i + 1)
+Below is the implementation of the above approach :
+Run on IDE

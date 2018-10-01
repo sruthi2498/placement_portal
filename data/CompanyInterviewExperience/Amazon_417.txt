@@ -1,0 +1,38 @@
+I am sharing here my experience in Amazon On Campus Interview. Amazon visited our campus for SDE-1 positions.
+Round 1(Coding + Aptitude)
+There were 20 MCQs based on aptitude and technical questions. The quality of questions were good.
+Two Coding questions were as follows:
+1. Convert a given Tree to sum tree (from geeksforgeeks)
+2. Given an unsorted array of positive and negative numbers, create an array of alternate positive and negative numbers without changing the relative order of positive and negative numbers respectively. Suppose the array is(zero is treated as positive)
+array : 9 4 -2 -1 5 0 -5 -3 2
+result: 9 -2 4 -1 5 -5 0 -3 2
+24 candidates were shortlisted for the Interview round out of around 300 candidates.
+Round 2 (F2F)
+Asked questions like, Tell me about yourself, most challenging project, most risk taking step in any project, any project in which you did something extra for your team even though it was not in requirement.
+1. Given a multilevel linked list with next and down pointer as shown in the image below:
+
+Give the following output without using any extra space: 1->4->6->7->2->5->8->3
+Solution: Make the next pointer of D to point to down pointer of A, followed by making next pointer of 1 to point to down pointer of B. Similarly proceed until the two heads meet.
+2. Connect nodes at same level using constant extra space (expected me to write a modular , clean and production level code)
+Round 3(F2F)
+1. Given a string and a pattern, Replace all the continuous occurrence of pattern with a single X in the string. With example it will be more clear
+String: abababcdefababcdab
+Pattern: ab
+Result: XcdefXcdX
+Initial 3 occurrence of ab is replaced by one X and then two occurrence of pattern is replaced by one X and final one occurrence of pattern is replaced by one X
+Coded it incorrectly in first attempt. The interviewer gave me another chance, coded it perfectly.
+2. Print the left and right side view of the tree in a same function. (wrote a clean code with no mistakes)
+Round 4(F2F)
+Asked about my projects, about myself etc etc
+1. Given a stream of Twitter data with hashtags generated in time construct a data structure to give top K trending tweets at a time.
+I initially suggested max heap based on frequency but was unable to find top K nodes in a max heap.(*Trouble)
+Later, i suggested to maintain a hash table with frequency count as the value and hashtag as key and to implement a k-size Min-Heap to store the top K elements.(She was satisfied but not happy with the time complexity)
+2.(*Trouble) Because of my statement to find top k elements in a max-heap, i was asked to code for finding Top K elements in a max heap with size N where (N>K). It seems to be trivial but it isn’t. I tried my best and didnt gave up, the interviewer was happy with my energy and my never-give up attitude :P.
+Round 5(F2F)
+Asked me about a project done as a team and what was my role in it. My most challenging project etc
+1. Suppose a chemical Formula is given C6H2(Cl3(OH2)3)3
+Print: C-6 H-20 O-9 Cl-9 (Print the number of atoms of each element in a compound)
+Solution: Gave a stack based approach where we need to push opening brackets and atoms and multiply the frequency of each atom in stack with the value after closing bracket until we find a opening bracket.
+2. OOPs concept: Abstract class, Interface, Singleton class, code for constructor of singleton class.
+Tips: Always practice on paper. Never give up in interviews. Pick up hints from interviewer. Be Energetic. Study from geeksforgeeks 🙂
+ 

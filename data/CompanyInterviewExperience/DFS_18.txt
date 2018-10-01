@@ -1,0 +1,11 @@
+Given an undirected colored graph(edges are colored), with a source vertex ‘s’ and a destination vertex ‘d’, print number of paths which  from given ‘s’ to ‘d’ such that the path is UniColored(edges in path having same color).
+The edges are colored, here Colors are represented with numbers. At maximum,  number of different colors will be number of edges.
+
+
+Algorithm :
+1. Do dfs traversal on the neighbour nodes of source node.
+2. The color between source node and neighbour nodes is known, if the DFS traversal also have same color, proceed, else stop going on that path.
+3. After reaching destination node, increment count by 1.
+NOTE : Number of Colors will always be less than number of edges.
+Run on IDE
+Time Complexity : O(E * (E + V))

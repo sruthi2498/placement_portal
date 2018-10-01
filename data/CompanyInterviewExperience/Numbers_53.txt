@@ -1,0 +1,10 @@
+What is the total number of prime factors in the expression 1212 x 1616 x 1818 ?
+(A) 46
+(B) 154
+(C) 3456
+(D) 2
+ Answer: (B) Explanation: 1212 = (2 x 2 x 3)12 = 224 x 312
+1616 = (2 x 2 x 2 x 2)16 = 264
+1818 = (2 x 3 x 3)18 = 218 x 336
+ 
+Therefore, total number of prime factors = 24 + 12 + 64 + 18 + 36 = 154Quiz of this Question

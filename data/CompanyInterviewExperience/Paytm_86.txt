@@ -1,0 +1,21 @@
+Given an n x n matrix and a number x, find the position of x in the matrix if it is present in it. Otherwise, print “Not Found”. In the given matrix, every row and column is sorted in increasing order. The designed algorithm should have linear time complexity.  
+Example :
+A simple solution is to search one by one. Time complexity of this solution is O(n2).
+A better solution is to use Divide and Conquer to find the element. Time complexity of this solution is O(n1.58). Please refer this article for details.
+Below is an efficient solution that works in O(n) time.
+Thanks to devendraiiit for suggesting below approach.
+Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output : 
+Time Complexity: O(n)
+The above approach will also work for m x n matrix (not only for n x n). Complexity would be O(m + n).
+
+Related Article : 
+Search element in a sorted matrix
+Please write comments if you find the above codes/algorithms incorrect, or find other ways to solve the same problem.

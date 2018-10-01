@@ -1,0 +1,16 @@
+
+
+You are given a string and your task is to print the frequency of each character character.
+
+
+1. Take string from STDIN.
+2. Get all different characters in give string using set().
+3. Iterate for different characters ( len(set )) because we only need to print a character one time and it count in input sting
+4. In every iteration take first  character print it and its count.
+5 . Remove all occurrence of fist character, this will make next character as 1st character.
+6. Repeat the same process, go to step 4.
+7. Either print value to STDOUT on each iteration (python3) or print in one go(python2), your output will be same as
+Examples:
+Run on IDE
+Run on IDE
+

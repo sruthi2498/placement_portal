@@ -1,0 +1,18 @@
+We had Adobe visit our campus recently. First they shortlisted students for an online test on the basis of CGPA. A few students even got direct offer.
+Online Round
+There were 8 questions in total. 5 MCQ, 2 Coding and 1 question was based on creativity.
+The MCQ’s were on heap, and probability. Finding the expectations and the running time complexities for heaps were the main focus of the MCQ’s.
+In the coding questions we had to write pseudo code, not actual C++ code.
+1st question: There is a stream of incoming integers, how would you maintain its median using a minHeap and a maxHeap.
+(https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/)
+2nd question: You have the start time, end time and index number of racers in a race. You need to tell the rank of each racer. The rank is calculated as following: if racer B starts after racer A but finishes before racer A, then the rank of racer A increases by 1.
+I did it in O(n^2), but I think there should be an O(nlogn) algorithm for this.
+The last creative question was:
+If the 3g wireless network and smart phone penetration in India reached as much as the cellular network penetration, what product would you design and i) how would it benefit the customers and ii) how would you profit? (Write in roughly 200 words).
+I was shortlisted for the telephonic interview.
+Telephonic Interview
+I introduced myself, and my projects. He asked me some details of the projects that he found interesting. After this, he asked me algorithm questions.
+i) What is the running time for insertion, deletion, extracting min from a minHeap.
+ii) What is the running time for insertion, deletion and searching an element in a sorted array and the same for an unsorted array?
+iii) How would you determine if a coin is biased or not. Does the degree of biasity effect the number of experiments you have to perform? (Eg, if the prob of heads is 0.6 in one case and 0.7 in another, then would you still perform the same number of experiments to decide if they are biased or different number of experiments).
+Thank you geeksforgeeks.

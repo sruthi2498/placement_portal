@@ -1,0 +1,8 @@
+std::remove : It doesn’t actually delete elements from the container but only shunts non-deleted elements forwards on top of deleted elements. 
+vector::erase : Removes from the vector either a single element (position) or a range of elements ([first, last)).
+std::remove vs vector::erase
+Using erase, If you went over the vector removing elements one by one, you would remove the 1, causing copies of the remainder elements that get shifted (4). Then you would remove 2 and shift all remaining elements by one (3)… if you see the pattern this is a O(N^2) algorithm.
+In the case of std::remove the algorithm maintains a head, and iterates over the container. For the first 4 elements the head will be moved and the element tested, but no element is copied. Only for the fifth element the object would be copied from the last to the first position, and the algorithm will complete with a single copy and returning an iterator to the second position. This is a O(N) algorithm. The later std::vector::erase with the range will cause destruction of all the remainder elements and resizing the container.
+Run on IDE
+Output:
+Reference : Stack Overflow

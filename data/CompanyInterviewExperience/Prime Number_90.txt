@@ -1,0 +1,10 @@
+Write a program to find sum of all prime numbers between 1 to n.
+Examples:
+A simple solution is to traverse all numbers from 1 to n. For every number, check if it is a prime. If yes, add it to result.
+An efficient solution is to use Sieve of Eratosthenes to find all prime numbers from till n and then do their sum.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

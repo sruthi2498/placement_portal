@@ -1,0 +1,46 @@
+Round 1:
+1.Quantative (16 ques in 16 min)
+2.Reasoning(14 in 14 min).
+3.English(18 in 16 min).
+4.Coding(2 question in 45 min).
+ (I)Print pattern(for N=4)
+  1
+  3*2
+  4*5*6
+  10*9*8*7
+ (II) Merge two array and sort them(can’t use inbuilt function) Take care of TLE. 
+5.Sql+dbms(10 question) +unix(10 q)+c+ds(10 quest) in 30 min.
+—->16 Shortlisted
+Round 2: Technical(1 hr)
+1. What is inline function? Advantages of it.
+2. Explain process state diagram.Explain degree of multiprogramming.
+3. Tell me about fragmentation(told about internal as well as external). How external fragmentation can be prevented?
+4. Entry control loop and Exit control loop.
+5. What is an Abstract class?
+6. What is pure Virtual function? Why we need it?
+7. What makes a DBMS a RDBMS(told about E.F.Codd and 12 rules)
+8. What is binary search tree? Insertion and deletion in BST(required codes).
+9. Garbage collector in java and in c++.
+10. Difference between calloc ,malloc and realloc.Why they are used?
+11. Asked about new and delete operator in C++.
+12. Asked about memory leak.
+13. What is polymorphism?Explain types of it.
+14. Difference between #include  and #include “stdio.h”
+15. What is encapsulation? Explain with an example.
+16. What is the difference between overloading and overriding?
+17. What is Stored procedure and triggers in sql and difference between the two.
+18. How is Python better than any other language?What is the major advantages of it.(Project)
+19. Explain your ongoing project. What is normal distribution? (Project)
+20. Write code for the Insertion of a node into a circularly linked list?
+21. What is Tower of Hanoi and how to solve it.
+22. Draw a tree which is Perfect tree and another, Complete tree.
+23. Behavioural Question: If in a team of 10, 6 employee do not work what will you do at your level?
+Round 3:HR(15 min)
+1. Where are you from?
+2. What are your Goals in Life?
+3. Tell me about your strength? Give me an example for the same.
+4. Joining location:Pune or Gurgaon
+5. Tell me about your Family background.
+6. Why Amdocs?
+7. What is Amdocs?
+Total selects: 7

@@ -1,0 +1,14 @@
+Given a string you need to print longest possible substring that has exactly M unique characters. If there are more than one substring of longest possible length, then print any one of them.
+Examples: 
+Source: Google Interview Question.
+Method 1 (Brute Force) 
+If the length of string is n, then there can be n*(n+1)/2 possible substrings. A simple way is to generate all the substring and check each one whether it has exactly k unique characters or not.  If we apply this brute force, it would take O(n2) to generate all substrings and O(n) to do a check on each one. Thus overall it would go O(n3).
+We can further improve this solution by creating a hash table and while generating the substrings, check the number of unique characters using that hash table. Thus it would improve up to O(n2).
+Method 2 (Linear Time) 
+The problem can be solved in O(n). Idea is to maintain a window and add elements to the window till it contains less or equal k, update our result if required while doing so. If unique elements exceeds than required in window, start removing the elements from left side. 
+Below are C++ and Python implementations of above. The implementations assume that the input string alphabet contains only 26 characters (from ‘a’ to ‘z’).  The code can be easily extended to 256 characters.
+
+Run on IDE
+Run on IDE
+
+Time Complexity: Considering function “isValid()” takes constant time, time complexity of above solution is O(n).

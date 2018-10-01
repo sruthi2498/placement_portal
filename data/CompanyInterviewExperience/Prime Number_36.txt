@@ -1,0 +1,11 @@
+A Fortunate number is the smallest integer m > 1 such that, for a given positive integer n, pn + m is a prime number. Here pn is the product of the first n prime numbers, i.e prime factorials (or primorials) of order n.
+For example :
+Now, the smallest difference m between the prime factorial pn and the first prime number greater than pn for which (m > 1), is a prime number.
+Examples :
+Approach  : To find the nth Fortunate number, calculate the product of the first n prime numbers (primorial). Let this product be p. Then we find prime number greater than p and return the difference between the found prime number and p.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Optimization : The above solution can be optimized using Sieve of Eratosthenes. 

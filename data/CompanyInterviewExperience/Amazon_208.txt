@@ -1,0 +1,35 @@
+Started with online test at Hackerearth. It had 2 questions. 
+1. Find subarray with max sum. Array have both -ve and +ve integers.
+2. Consider a matrix with  rows and  columns, where each cell contains either a 0 or a 1 and any cell containing a 1 is called a filled cell. Two cells are said to be connected if they are adjacent to each other horizontally, vertically, or diagonally;
+If one or more filled cells are also connected, they form a region.
+Output the length of the largest region.
+Ex: in the following example, there are 2 regions one with length 1 and the other as 6.
+0 0 1 1 0
+1 0 1 1 0
+0 1 0 0 0
+0 0 0 0 1
+https://www.geeksforgeeks.org/find-length-largest-region-boolean-matrix/
+
+1st Round (telephonic)
+1. Given a string and integer k, in-place rearrange the string such that last n-k characters comes before the first k characters.
+Ex: abcdef and k=3, so result is : defabc
+2. Given a binary tree, sum all the root to leaf nodes and return the sum. 
+2nd Round
+1. Given a large file having strings(for understanding, given an array of strings). Find the string which repeats the most. Ignore the case.
+2. Given the link-list and integer value ‘k’, reverse every k nodes of the list.
+Ex. k = 3, list: 1-2-3-4-5-6-7-8
+ans: 3-2-1-6-5-4-8-7
+3rd Round
+1. Questions on my projects.
+2. Given a binary tree with each node having parent pointers. Find the LCA of two nodes.
+4th Round
+1. Given a 2-D grid, number of steps to take, say k and intial position of a Robot. print the paths possible from initial position after k steps. Robot can move in top, right, left, bottom. In one path, robot can’t move to the location it has previously visited.
+2. Check if a binary tree is balanced. Balance criteria was difference of height between left and right subtree should be <= 1.
+
+3. Given a binary tree, a node of that tree, and integer k. Print all the nodes which are at distance k from that node. NOTE: there is no parent pointer in the node.
+
+5th Round
+1. Behavioral Questions. Read front pages(before technical stuff) of Cracking the coding interview book. Prepare them well.
+2. Given a string, count all the palindromes in that string. Only consider substring palindromes.
+Thanks to geeksforgeeks for helping me prepare for interviews.
+

@@ -1,0 +1,9 @@
+Given Q queries, of type: L R, for each query you must print the maximum number of divisors that a number x (L <= x <= R) has.
+Examples:
+
+
+Pre-requisites : Eratosthenes Sieve, Segment Tree
+Below are steps to solve the problem.
+Run on IDE
+Output:
+Time Complexity:

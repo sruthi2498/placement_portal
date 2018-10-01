@@ -1,0 +1,20 @@
+Recently Morgan Stanley visited our campus for internship. Here is my experience.
+Round 1 (Coding and Aptitude- Online Test 75 minutes):
+19 MCQ on C++, DSA concepts and few aptitude questions
+2 Coding Questions
+ Both questions could be solved using DP.
+15 out of 27 students were shortlisted for next round.
+Round 2 (F2F):
+ Interviewer was quite friendly. First he asked about two of my projects from my resume. Then he asked me to choose any of my favorite programming language. It was C++ for me. So following questions were asked:
+ What is inheritance? Explain with an example. (Wrote sample code on paper)
+ What is friend class and friend function? When do we use them? Explain with one example. (Again wrote code on paper)
+ Then he asked about which one questions you couldn’t do in first round. I told it could be done with DP. Then he asked difference between DP and recursion. Again asked to write a code for pow(x,y) using DP and recursion and calculate time complexity.
+ Last questions was on OS. Given a list of numbers (total size of list is 2GB) and RAM size is 1 GB. Can you find the max of these numbers? (Obviously yes) Then how? and then name some of page replacement algorithms.
+ Finally 6 of us were selected for final round.
+Round 3 (F2F):
+ This time also the interviewer was very friendly. He first talked about extra curricular activities and other things to make me comfortable. Following three questions were then asked:
+1. When you type in search box on Google, it automatically gives you some suggestions. What data structures and algorithms will you use, to provide search suggestions. The discussion went on for 10-15 minutes with slight variations in problem statement. (He was satisfied with answers)
+2. Similar to facebook friend suggestions. What DSAs will you use to suggest friends? How can you improve if you don’t need the best solution. (I couldn’t improve much)
+3. There is an intersection of two perpendicular roads. The traffic can be either up-down or right-left. But both traffics can’t be together. You just have to put traffic light with two signals only (Red and Green). The question is simply to implement a switch to turn on/off traffic on each side. (A simple synchronization problem).
+ Answered using semaphores and threads. Wrote code for the same. Interviewer was very happy and convinced from this.
+

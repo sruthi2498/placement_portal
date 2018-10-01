@@ -1,0 +1,19 @@
+Following are the details of Adobe Interview. 
+Round 1
+1. How will you implement a stack using a priority queue. Push and pop should be in O(1).
+2. Three mislabeled jars problem.
+Round 2
+1. How does stack look in function calls? Given a recursive function call, how will the stack look like?
+2. When does stack (process stack) overflow? What are the remedies?
+3. What are balanced BSTs. Then he randomly gave me various numbers and asked me to create a BST. And to balance it.
+4. Advantages of linked list over arrays. And arrays over linked list.
+5. How are vectors implemented internally in the library. This question revolved around dynamic implementation of arrays. Then discussed the amortized time of the operations using dynamic implementation of arrays.
+Round 3
+1. There was a question in written round that there is a global static variable ‘lock’ initially set to 0 and there was a code segment given. 
+Does this solve critical section problem. I answered that it will solve in uni processor system but not in multiprocessor system. Then he asked me to explain my answer. After a long discussion we came to a conclusion that this wont even solve in uni processor system.  Then he asked me the solution to solve this. I did that using testandset instruction.
+2. When a function is called in thread, what variables can be accessed from it. There was a long discussion on this too. I went in the wrong direction but corrected myself later. Stack variables are copied but heap variables are same.
+Round 4
+1. What data structures will you use to implement a text editor. Size of editor can be changed and you also need to save the styling information for all the text like italic, bold etc.
+Round 5
+HR Round:  Normal HR questions.
+

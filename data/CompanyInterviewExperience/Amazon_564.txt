@@ -1,0 +1,61 @@
+First of all many many thanks to geeksforgeeks for such a great guidance. Amazon  visited our campus for recruitment. Here is my interview experience. 
+Round -1
+20 MCQs (C ,Aptitude,DS,DBMS,Networks)
+2 programming questions were asked-
+1.) Print all root to leaf path of a given binary tree whose path sum is a given value k.
+Note:  tree was given in the form of array (so no need to create the tree).
+Input: Input contains two space separated integers K and L followed by 2^L-1 space separated values
+Output: All root to leaf path which has a path sum = k.
+Sample Test case :
+Input :
+40 4 10 11 13 # 15 28 6 # # 8 4 # 9 11 #
+Output:
+10 11 15 4
+10 13 6 11
+2.) Given few sets of intervals print out the the entire intervals without overlapping, if they overlap then combine them into one.
+Sample test case:
+Group fly Round:
+2 ques were asked in this round. We were asked to write code on paper  very fast.(It was an elimination round. 
+1.)	Given a binary tree as below 
+Convert the structure of the tree  like a left aligned tree whose each node contains a down pointer and a right pointer  and looks like the below tree.. 
+2.)The arrival and departure time of trains are given.  Find the minimum number of platforms to accommodate  all the trains. 
+Round 2. (F2F)
+1.	An array is given in which elements are first monotonically increasing and then decreasing.
+Search an element in the array. Working code was asked which takes care of all the edge cases. Also asked the time complexity of the code.
+2.	Implement queue using 2 stacks .
+What would be the complexity of enqueue and dequeue operation. I told him O(1) for enqueue and O(n) for dequeue.	Then he asked to optimize it. Then he asked the Average case time complexity. 
+Round 3 (F2F)
+1. You are given a graph. Write a function to remove  all the cycles. Means after the function call the graph must be converted into a connected acyclic graph(tree).
+2.	What happens when u send an email to someone.
+3.	What is socket ? What is port?
+4.	Which protocol is secure for mail transfer? Which protocol is used by Gmail?
+5.	What is the port number of SMTP?
+6.	Suppose u open notepad and type something  and save it what would happen.
+7.	What is static member?
+8.	What is singleton class??
+9.	If a class has all its members as static would it be a singleton class? Compare  them.
+10.	What is process scheduling? How does it happen? What are various queues maintained  by the system? (Where does the scheduler process run ??- This ques was asked in 2nd round of DE Shaw & co).
+11.	Suppose  various process are waiting for a particular resource? What is this situation called? How does the system overcome from this problem?
+12.	What the various ways of process communication?
+13.	What is thrashing ?How to overcome from it?
+Round: 4.)(HR + Technical)
+1.	Tell me something about yourself
+2.	A long discussion on project. Brief description. How can you improve it?What changes will make if I ask you to develop it again? Give example of implementation of various oops concept in your  project.
+3.	What is multithreading? Then he said that there are situations where there is no need of multithreading.eg- if I want to add two numbers then no point of using multithreading.So give an example where you can actually implement multithreading. (ANS – Fibonacci number)
+4.	Some behavioral questions like-
+ What are you  good at?
+What are you proud of?
+What are the things you want to change in yourself?etc.
+5.	Various oops concept like encapsulation, abstraction, inheritance , etc. with example.
+Suggestions:
+•	Don’t start writing the code immediately.
+•	First tell him the approach .
+•	Take care of all the edge cases.
+•	Many times interview may give you hints so make the interview interactive.
+•	Very Important – Don’t  focus  just on  a particular subject like only DS.
+•	More or less give time to everything.
+•	Study the concepts of OOPS and OS properly.
+•	Have a basic Idea of DBMS and Computer Networks also.
+All the best.
+
+

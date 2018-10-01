@@ -1,0 +1,20 @@
+Online round (1 hour 30 min)
+20 MCQs + 2 coding questions-
+1) You have given two stings.You have to write function to check weather any anagram of second string is substring of first string or not.
+2) You have given one mathematical expression containing +,-,*,/ in form of string which is space separated (” “). You have to write a function to solve this expression and return value of expression.
+MCQ questions mostly based on data structures(trees, linklist ,arrays),2 questions from database and some questions from basic concepts (like give output of given program). 2 or 3 questions on aptitude.
+Technical round 1 ( almost 50 mins ) F2F
+1) Given two very large integers and calculate the sum of given integers without using BigInt library in java.
+ I did it by taking input number in form of string and traverse both string from right to left and added integer one by one from right to left.
+2) Given two arrays and one product.You have to write function to print all pairs(p,q) such that p*q=product and p belong to first array and q belongs to another.
+He ask me to do it in linear time.I did it using hashing.
+Then He asked me some questions about my projects.
+Technical round 2 (almost 60 to 70 mins) F2F
+1) Given an array and one sum.You have to write method for checking weather any pair exist in array that sums equal to given sum or not.
+He ask me to solve in linear time.I did it with hashing.
+2) He gave me an stack and ask me to find minimum element in stack at any point of time in O(1) time.
+I did it using  another stack containing current minimum at top of stack. Then he asks me to reduce memory of program.
+3) What are the advantages of quick sort over merge sort and advantages of array over link list.
+4) He ask me to explain binary search and proof of its complexity(O(log n)).
+According to me the key for selecting is don’t stop interacting with recruiter at any cost and be loyal with him/her.
+

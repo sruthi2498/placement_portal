@@ -1,0 +1,33 @@
+1. Telephonic Interview (QA Lead Round)
+Q1. Test cases for add to cart functionality
+Q2. Sql query to find second maximum salary in each department.
+Q3. What is Event viewer in windows
+Q4. Diff between windows process and windows service
+Q5. Find middle of a linked list
+Q6. Java string mutability questions
+Q7. Java client for hitting rest apis
+Q8. How to use cookies in rest api
+2. F2F Interview 1: (QA Lead Round)
+Q1. How to perform database testing
+Q2. Normalize a given table
+Q3. Securtity test cases for a web application
+Q4. Test cases for an api having request parameter as date.
+Q5. Some conecpts of polymorphism.
+Q6. Diff between hashmap and hashtable. what is synchronized keyword.
+Q7. Some sql queries regarding joins, groupby and having clause.
+Q8. Remove duplicates from an array in O(n) space and time complexity.
+3. F2F Interview 2:(Developer Round)
+Q1. Why rest apis are stateless.
+Q2. Find Maximum width of binary tree
+Q3. Design a parking system. 
+4. F2F Interview 3:(Developer Round)
+Q1. Sort a stack without using another data structure or space. write test cases for it.
+Q2. Java String question
+Q3. Create immutable object in java.
+5. F2F Interview 4: (Director Round)
+Q1. Test cases for login functionality.
+Q2. Print last ten lines of a file in most efficient way.
+Q3. Detailed discussions around current testing framework.
+6. F2F Interview 5: (Hiring Manager Round)
+Q1. Test cases for mobile app.
+Q2. Some other behavioral questions.

@@ -1,0 +1,12 @@
+Priority queues are a type of container adapters, specifically designed such that the first element of the queue is the greatest of all elements in the queue and elements are in non decreasing order(hence we can see that each element of the queue has a priority{fixed order}).
+ 
+The functions associated with priority queue are:
+empty() – Returns whether the queue is empty
+size() – Returns the size of the queue
+top() – Returns a reference to the top most element of the queue
+push(g) – Adds the element ‘g’ at the end of the queue
+pop() – Deletes the first element of the queue
+Run on IDE
+ 
+The output of the above programs is :
+Useful Links : 

@@ -1,0 +1,30 @@
+Round 1:
+a) Left View Of Binary Tree
+b) https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+c) Find number in NxM matrix . Elements are sorted in Rows and columns.
+Round 2:
+a) https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+b) https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
+Round 3:
+a) Find Triplets in BST . You are given one number X . You need to print all A, B, C (X == A+B+C)
+b) Print all palindrome strings (length > 1)
+c) You have set of n integer numbers . You need to divide this in two parts (if n is even then n/2, n/2 or if odd n/2, n/2+1) in such a manner that both sets element sum either equal or have minimum difference (if equal is not possible) .
+Round 4:
+a) Discussion about project and challenges .
+b) Conflicts that raise after your design proposal in your previous projects
+c) Design BookMyShow
+Round 5:
+a) Discussion about project and challenges .
+b) Innovation that help current company .
+c) Ability for code reviews .
+d) Netflix and LRU caches design .
+Round 6:
+
+a) Discussion about project
+b) Design Amazon Locker
+Round 7:
+a) Discussion about project
+b) Amazon sell physical product, if amazon starts selling the services and user start buying the services from  different vendors (Airtel/Netflix/ ..).
+Amazon should start auto renewal of such services at the time of service expiry .
+Ex:- Customer buy service for car cleaning from any seller (register with amazon) for 300Rs for 30 days . then at the time of its expiry this service should auto renew  for next 30 days.
+ 

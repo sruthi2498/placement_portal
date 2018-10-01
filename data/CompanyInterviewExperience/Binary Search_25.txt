@@ -1,0 +1,12 @@
+Given a list of sorted characters consisting of both Uppercase and Lowercase Alphabets and  a particular target value, say K, the task is to find the smallest element in the list that is larger than K.
+Letters also wrap around. For example, if K = ‘z’ and letters = [‘A’, ‘r’, ‘z’], then the answer would be ‘A’.
+Examples:
+Prerequisites: Binary Search
+Approach: Binary Search can be applied to find the index of the smallest character in the given Set of Letters such that the character at that index is greater than K. If the element at the current mid is smaller than or equal to K, binary search is applied on the Right half, else it is applied on the left half.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The Time Complexity of the above approach is, O(log N) where N is the number of characters in the given set of Letters.

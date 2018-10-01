@@ -1,0 +1,10 @@
+Round 1:
+1. given a binary tree, print the preorder traversal in recursive and iterative way
+2. https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+3. people are standing in a queue when viewed from the front, m heads are visible, and n heads from the end. Find the number of possible arrangements such that m&n remains same when viewed from front and end respectively.
+Round 2:
+1. https://www.geeksforgeeks.org/maximum-sum-path-right-number-triangle/
+2. What is the minimum number of straight lines to connect all the dots on this grid?
+Round 3:
+1. Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)
+2. Singleton Design pattern.

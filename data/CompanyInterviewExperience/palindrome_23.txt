@@ -1,0 +1,15 @@
+Given a string S, we have to find minimum characters that we can remove to make any permutation of the string S a palindrome.  
+In simple terms, the problem states that: Make the string a palindrome by rearranging it in any way by removing the minimum number of characters including removing 0 number of character if possible.
+Note : we are considering only small alphabets.
+Examples :
+
+A Naive approach would check every permutation of the string for palindrome and if not found then remove one character and check again. This approach is very complicated and will take a lot of time.
+A efficient approach would be to notice that we don’t need to print the minimum characters, just the minimum number. So, an effective idea is the key that: there can be two types of a palindrome, even length, and odd length palindrome. We can deduce the fact that an even length palindrome must have every character occurring even number of times(i.e. the frequency of every character is even). Similarly, an odd palindrome must have every character occurring even number of times except one character occurring odd number of times.
+From these facts, the problem turn out to be quite simple. We check frequency of every character and those characters occurring odd number of times are then counted. Then the result is total count of odd frequency characters subtraction 1.  
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

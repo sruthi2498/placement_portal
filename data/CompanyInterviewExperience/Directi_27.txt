@@ -1,0 +1,130 @@
+There was coding round on CodeChef for 90 min duration. You cannot use custom test cases within their IDE or edit your code after running.
+Profile offered Application Developer. Do practice on codechef environment.
+They selected 3 students in this round it was a pool campus colleges participated were form across india. I m from Pune. The round was actually tough time will not sufficient. Those who do competitive programming for them it would be a bit easy. If you even solve at least one you will clear this round.
+Coding Problem 1 : Costly Visit
+You have a grid of size N x M. Rows of the grid are numbered from 1 to N from top to bottom and columns of the grid are numbered from 1 to M from left to right. So, top-left corner is indexed as (1,1) and bottom-right corner is indexed as (N,M).
+Cost of visiting a cell at index (i,j) is denoted by C[i][j]. Cost of changing the direction of your facing at index (i,j) is denoted by P[i][j].
+You have to start from cell (1,1) and reach to cell (N,M) with minimum cost. At cell (1,1), you can either face towards ‘Right’ or face towards ‘Down’. At any point of time, you can either face ‘Right’ or face ‘Down’.
+There are 2-types of moves allowed:
+1. Move one cell towards the facing direction i.e. if you are facing ‘Right’, you can move one cell ‘Right’ or if you are facing ‘Down’, you can move one cell ‘Down’. The cost of visiting cell (i,j) will be C[i][j].
+2. Change the direction of facing i.e. if you are facing ‘Right’, you can now face ‘Down’ or if you are facing ‘Down’, you can now face ‘Right’. The cost of changing the facing direction at cell (i,j) will be P[i][j].
+Find the minimum cost to reach (N,M) after starting from (1,1).
+Constraints:
+1 <= T <= 3
+1 <= N,M <= 1000
+1 <= C[i][j], P[i][j] <= 1000
+Input Format:
+First line of each testfile contains T, the number of test cases.
+In each testcase, First line contains two inetgers N and M denoting the dimensions of the grid.
+Next N lines contains M integers each denoting the cost matrix C.
+Next N lines contains M integers each denoting the cost matrix P.
+Output Format:
+For each test case, output a single line containing the minimum cost of reaching (N,M) from (1,1).
+Example:
+Input:
+2
+2 2
+1 2
+3 4
+5 6
+7 8
+2 2
+1 2
+3 4
+5 6
+1 8
+Output:
+13
+9
+Coding Problem 2 : String to Number
+You need to pass a secret key to your friend, which consists of all numbers but you don’t trust the carrier. So, instead you pass a character string. You come up with a set of rules to map the string to the original key.
+1. Each character in the string should be replaced as the rule suggests.
+2. If the right hand side of the rule is a character, then this character should again be replaced till we find a number. The range of the numbers lies between 1 and 9.
+3. If no such number could be found but a cycle is detected, each such character should be replaced with 0. Note that this includes numbers which map to themselves (self loops).
+4. If no cycle is detected and no number replacement could be found, you should output -1.
+5. If a character appears in the test string which does not appear in the mapping, output -1.
+Input
+First line of input contains a single integer T, the number of test cases. T test cases will follow. Each test case begins with a mapping. A mapping begins with a number N, the number of rules. Then N lines, each line in the form of A B will follow, where A is to be replaced by B. Then follows an integer K, the number of test strings. Then K lines follow, each line consisting of a test string.
+Output
+For each test case, print on the first line # followed by the test case number, followed by the replacement string for every test string.
+Solution Templates
+In the solution templates provided, complete the function whose signature is
+C / C++
+void decode (int n, char orig[26], char mapped[26],
+        int k, char inputs[32][128], char outputs[32][128])
+Java
+public static void decode(int n, char[] orig, char[] mapped,
+        int k, String[] inputs, String[] outputs)
+‘n’ is the number of mappings. ‘orig’ and ‘mapped’ store the original and mapped values respectively. ‘k’ is the number of queries. ‘inputs’ are the encoded strings. It is expected that you will store your answers in ‘outputs’, which is then printed by the template. Note that in JAVA, do not allocate outputs. It will be allocated, and hence put your answers in outputs.
+Note: You are allowed to edit the code as you please. Add / delete headers. Add / delete methods. And so on.. So long as your final code solves the problem with Input and Output as described above. You may submit your own code, without using the template at all.
+Constraints
+1 <= T <= 100
+1 <= N <= 26
+The left hand side of the rule consists of a single lowercase character
+The right hand side of the rule consists of a single lowercase character or a single non zero digit.
+No character will map to more than one character,
+i.e. you cannot have a situation where a maps to both b and c.
+Sample Input
+1
+10
+a b
+b c
+c a
+d e
+e f
+f 9
+g h
+i j
+j 7
+k p
+3
+abcdefij
+kabc
+aza
+Sample Output
+#1
+00099977
+-1
+-1
+Explanation
+String 1:a, b, and c form a cycle, and d maps to e, which maps to f, which maps to 9, and i maps to j, which maps to 7.
+String 2: k maps to p, which maps to no nothing else. Hence -1.
+String 3: The character z doesn’t appear in the mapping. Hence -1.
+ 
+Coding Problem 3: Binary Sum
+In a binary tree, diameter sum between two leaf nodes is defined as sum of all the nodes in the unique path when traveling from one leaf to the other. Assume that the tree is a complete binary tree and every leaf node is at the same depth from root of the tree. Find the value of maximum diameter sum in a binary tree.
+Note that the maximum diameter may be a single leaf node as well (since a single leaf node is also a valid diameter – the trivial path of length 0 from the leaf node to itself).
+Input
+First line of input is the number T, which denotes the number of test cases.
+Input for each case consists of 2 lines. The first line consists of the number of nodes N in the tree. The following line consists of the numbers A[1..n] which denote the value of each node in the tree.
+The first element in the input is the root element of the tree. Considering index of root element is 1 in the following problem, left child of i’th element in the input is the (2*i)th element and right child of ith element is (2*i+1)th element.
+Output
+Output consists of T lines denoting the value of maximum diameter sum in binary tree for each test case.
+Solution Templates
+In the solution templates provided, complete the function whose signature is
+C / C++
+int maxDiameterSum(int nodes, int tree[511])
+Java
+static int maxDiameterSum(int nodes, int[] tree)
+The first argument to maxDiameterSum is the number of nodes in the tree. The second argument is tree, presented in an array format as described in the Input Section above. maxDiameterSum should return the value of the maximum diameter sum in the binary tree.
+Note: You are allowed to edit the code as you please. Add / delete headers. Add / delete methods. And so on.. So long as your final code solves the problem with Input and Output as described above. You may submit your own code, without using the template at all.
+Constraints
+T <= 100
+N <= 511
+Range of value of nodes is between -100000 and 100000
+N is of the form 2k-1, where k is the height of the tree.
+Sample Input
+1
+7
+2 4 5 8 -4 3 -6
+Sample Output
+22
+Explanation
+Path followed to get the maximum diameter sum in this case is
+8 (leaf node) => 4 => 2 => 5 => 3 (leaf node)
+Solution:
+I tried to solve but it didn’t cleared edge cases.
+<a href=”https://ide.geeksforgeeks.org/ReDZuU”>https://ide.geeksforgeeks.org/ReDZuU</a>
+Don’t memorize it. It won’t help they will ask you algorithms in interview.
+
+

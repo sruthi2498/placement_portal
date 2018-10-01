@@ -1,0 +1,41 @@
+Round 1
+This round was an online round consisting of sections for:
+a) Coding skills- multiple choice questions on trees, arrays etc.
+b) Computer Science skills: OS, DBMS.
+c) Software Engineering skills: Flowchart related questions, all kinds of aptitude questions.
+d) English skills
+This round did not have negative marking, although there is timer for each section, and you cannot go back and solve a previously completed section.
+I was shortlisted for Server Technology profile after this round.
+Round 2
+This round was an online coding round, but there were no eliminations from this round. This was only to speed up the process during the interviews.
+Question 1: There is an array representing ‘n’ sums of money that can be won by Manoj. Manoj can choose any amount X from the array to remove, but then his friend will remove X+1 and X-1 amounts from he array. Find the maximum amount of money Manoj can make.
+Note: remaining elements in the array after removal of X, X+1 and X-1 will be the amount Manoj will will. X represents the actual element in the array.
+Question 2: Given two integers n=number of players in a team and k=number of pairs, find the number of players in the weakest team. The weakest team will have the minimum number of players.
+I/P: 5 3 // n=5, k=3
+      1 2 // pair has player number 1 and 2
+      2 3 // player number 2 and 3
+      4 5 //player number 4 and 5
+O/P: 2
+Explanation:  Player numbers 1,2,3 form one team and 4,5 are in the other team, thus 2 members in the weakest team.
+Round 3
+This round was a technical interview and it went on for about 45 minutes.
+1. The interviewer started out by looking at my resume and projects. A thorough discussion about my projects and the technologies used.
+2. Asked about the language I am most comfortable in. As C was my answer, he asked me to write any significant code that would give segmentation fault. After I showed him the code, he asked me how would I go about debugging it.
+3. Questions on pointers to function.
+4. 0-1 Knapsack Problem- resume based, had done a project using this algorithm.
+5. Difference between file systems and databases. 
+Round 4
+Again a technical interview for about 30-40 minutes.
+1. Given a 3*3 unsorted matrix with repetitive elements, search an element. I used quick sort and binary search. He asked me why I am using these algorithms, just to test if I stand by my answer. Then asked to write the full code for the program in Java.
+2. How to you change the user password for a database? Had to write a query for it.
+3. Given a table with employee salaries and names, return the nth highest salary with a single lined query.
+4. General project/internship discussion.
+Round 5
+This was an HR round that went on for about 10-15 minutes.
+1. Tell me about yourself, family background etc.
+2. Location preference, salary breakup.
+3. Why Oracle?
+4. I was free to ask any questions if I wanted to.
+Thank you GeeksForGeeks for the amazing preparation resources.
+
+

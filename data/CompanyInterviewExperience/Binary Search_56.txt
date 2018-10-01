@@ -1,0 +1,15 @@
+Given an array of positive integers of size n. Find the maximum sum of triplet( ai + aj + ak ) such that 0 <= i < j < k < n and ai < aj < ak.
+Simple Approach is to traverse for every triplet with three nested ‘for loops’ and find update the sum of all triplets one by one. Time complexity of this approach is O(n3) which is not sufficient for larger value of ‘n’.  
+Better approach is to make further optimization in above approach. Instead of traversing through every triplets with three nested loops, we can traverse through two nested loops. While traversing through each number(assume as middle element(aj)), find maximum number(ai) smaller than aj preceding it and maximum number(ak) greater than aj beyond it. Now after that, update the maximum answer with calculated sum of ai + aj + ak 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n2)
+Auxiliary space: O(1)
+Best and efficient approach is use the concept of maximum suffix-array and binary search. 
+Run on IDE
+Time complexity: O(n*log(n))
+Auxiliary space: O(n)

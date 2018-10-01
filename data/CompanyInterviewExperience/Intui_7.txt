@@ -1,0 +1,38 @@
+Intuit came for on-campus hiring for 2016 batch and internship offerings for 2017 batch in our college last week.
+Round One (Online round, 90 minutes):
+The shortlisting was done on the basis of an online round which consisted of 24 questions (one question was for the profile chosen and 20 were a mix of aptitude and puzzles). Most of the puzzles are available on GeeksforGeeks. The rest 3 were coding questions. It was hosted by Hackerearth.
+1. A text string and a pattern string are given. If any part of the pattern string occurs in the text string return true, else return false.
+2. A stack of chemicals with their reacting times is given. A series of numbers indicating the addition of these chemicals from the bottom of the stacks is given. We need to access these chemicals according to the given series and find out the maximum reacting time at each addition (it is basically the maximum of reacting times of all the chemicals added till each step). (Try creating a structure of chemical name, reacting time, and a flag for popped node and create an array of this structure.)
+3. The number of nodes n in a tree and a number k are given as input. These are followed by the n-1 edges of the tree with first node as the parent and second as the child. We need to provide a count of pairs such that
+     The pair consists of a node and its ancestor.
+     The product of the pair of nodes is less than or equal to the number k.
+Round Two (Technical Interview, approx. 1 hr)
+The Design for Delight round was bypassed and directly the interviews were taken.
+1. Tell me about yourself.
+2. Discussion regarding my projects. Its ER diagram and the database design.
+3. The normal forms in DBMS. Codd’s rules.
+4. Various basic questions from C, C++ and Java and differences between these languages.
+5. Implementation of a queue using two stacks.
+6. Difference between calloc, malloc and realloc.
+7. If garbage collector is possible in C++, at what level will it be implemented? (At runtime)
+8. Can a pointer and a reference be null?
+9. Various tree traversal techniques and code for any DFS traversal.
+10. Storage classes in C++.
+Round Three (Technical Interview, approx. 1 hr)
+1. Introduce yourself.
+2. Again a long discussion about my most recent project that was using ASP.NET MVC. I explained how the whole MVC works.
+3. Since the project was web-based, I was asked about networking. So I explained the TCP/IP and OSI models and functions of each and every layer.
+4. Asked me to write a simple “Hello World” program using MVC.
+5. Given a new language, how to determine if it is object-oriented. (I explained all the features of OOPS using real world examples.)
+6. Codd’s rules (again).
+7. Transactions in DBMS, their ACID properties with examples.
+Round Four (Technical Interview, approx. 1 hr)
+This was the final round. It started off in a very casual manner by the panel sharing his own experiences and anecdotes from his personal life.
+1. A discussion on my Resume.
+2. Operating System based. Given two processes P1 and P2, in Linux OS, if P2 is malicious and gets hold of a pointer that points to the location where P1 has written its data, can P2 access this data? No encryption and security is used. How can the OS ensure that it cannot access other process’s data? (The addresses are not direct addresses but indirect addresses with the base address known only to the corresponding process.)
+3. Can garbage collector be implemented in C/C++?  If yes, how? If no, why? (Answer is no, and it is something related to pointers.) How is it possible in Java? Write a program for memory leak in C given the number of bytes to be leaked. (Simply allocate the specified number of bytes and do not delete it.)
+4. Given a tree where each node can have arbitrary number of children, what should be the structure of such a tree node? (Each node will have two pointers, one for a child and the other for a sibling.) Write the function for insertion of a node in this tree, given the pointer to the parent and the new child’s value. (Cover all cases: (a) If parent is null (b) If parent does not have a child (c) If parent already has some children.)
+At the end, I asked some questions about the kind of work they do and the technologies they use.
+All-in-all it was a great experience, all the panels were very good and tested my knowledge in almost all the domains (C/C++, Java, DBMS, Algorithms, Data Structure, Networking, Operating Systems)..
+I would like to thank GeeksforGeeks for helping in my preparation. The interview experiences posted here helped me. I hope my experience would also help someone in the future..:)
+

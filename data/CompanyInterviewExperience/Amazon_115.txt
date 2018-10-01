@@ -1,0 +1,24 @@
+Around 600 students gave the test.
+
+1.Round 1 : 2 full coding questions+ 20 technical mcqs
+This round was an hour long. The first 20 questions were related to data structures, sorting algorithms, computer networks etc. There were no separate sections or times for the mcqs and coding question. The first coding question was to count and print all the duplicate elements in an array. The second question was to merge 2 arrays in ‘non-ascending orders’. The original arrays had same size and were in ‘non-ascending orders’. (Non-ascending order simply means descending order) I used simple brute force method for the first one and all test cases passed. 
+2. Round 2 : Written Coding Test (3 questions)
+140 students were selected for 2nd round. Students were divided into batches of 10 and were given 1 question of full coding, 1 question to determine all possible test cases and 1 question to identify the given algorithm and debug the same. All batches were given different questions. The following questions were given to me-
+1. WAF to swap kth element from front and back in linked list. I used the most basic method in which, I traversed through  list and identified nodes to be swapped, then simply swapped the nodes. The panel present during the test  was very helpful and was providing assistance in case any student had any doubts. I discussed my approach with them,they said I can reduce the complexity further but the solution I gave was also acceptable. I decided to come back to this question once I was done with the other questions.
+2. Given are 2 linked list which store digits of two numbers, add the two numbers. Determine test cases for this question.(cases having carry, no carry, negative number etc)
+3. Identify the algorithm and rectify the error.
+The code given was to check whether given binary tree is a binary search tree or not. The conditions in if statements were incorrect, we had to identify and correct them.
+I didn’t get time to optimize my first code. They took all our fair as well as rough sheets.
+
+3. Round 3: Technical Interview(2 coding questions) 
+ Around 50 students were shortlisted for technical interview. The interviewer asked for my resume and asked me about one of my project works. Then he moved on to asking programs.
+1. Determine the row index with minimum number of ones. The given 2D matrix has only zeroes and ones and also the matrix is sorted row wise. I could come up with solution with time complexity N square. He gave me hints to traverse in different manner(diagonally) and asked me to keep a broad perspective while thinking for the solution.I tried for some more time but failed, then he moved on to the next question.
+2. Given a binary tree and 2 nodes. To find whether the 2 nodes are cousins or not. I came up with a solution using recursion. He was satisfied with my approach.
+My friends got questions like bottom view of tree, best technique to sort first 5 elements of array with 1 million elements(brute force), mostly questions related to trees were asked.
+After the 2 questions he asked if I had any questions for him. I asked him how I had performed in this round. He gave a smirk and replied, “The HR will tell you”. 😀 Then I asked him if it was allowed to change domain in Amazon to which he replied, “Yes, but only once you are permanently hired, not as an intern”. This round was 1.5 hours long.
+
+4. Round 4: Last round – Trouble Shooting and Debugging Round
+In this round the interviewer gave me a scenario where a user is using an application and the application suddenly crashes, what would you do if you were a tester. She wanted to hear terms like ‘test cases’, ‘testing’ etc in my answer. This was a tech cum HR round, where I got to talk most of the time. This round was 45 minutes long.
+After this we were asked to go home and wait for a text message from Amazon, in case we get selected.
+GEEKSFORGEEKS, indeed was a great help. Prepare all questions under Amazon tag from geeksforgeeks, you stand a cent percent chance of getting hired.
+

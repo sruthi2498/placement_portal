@@ -1,0 +1,40 @@
+I have 8 months of experience and I recently appeared for interview of Amazon for role of SDE-I. 
+Written Round:
+Q1: Convert a binary tree to DLL.
+Q2: Given a random node address in Singly linked list. Delete that node.
+You need to write full code in language of any choice with all the edge cases covered.
+Interview 1:
+Q1 : Given a sorted array and a number and element K. find K nearest elements to the number in sorted array.
+Q2: MsExcel columns has a pattern like
+A B C … Z
+AA AB AC…. AZ BA BB … ZZ
+AAA AAB
+A has  code 1
+Z has code 26
+AA has code 27
+AAA has code 626
+given a number return a column name as string
+Interview 2:
+Q1: Given 4 youtube servers which are processing user requests.
+i> At any given time If someone requests for currently running videos, then return the number of videos running at a time.
+ii> Which server will actually get the request ?
+iii> How the servers will communicate with each other ?
+iv> Other methods to do this task to reduce overhead on servers?
+v> How many videos running given a time constraint ?
+Q2: Given a binary tree and each node has an extra next pointer apart from left and right. Connect all the nodes using next pointer in Zig-Zag Manner.
+Interview 3:
+Q1: Discussion about project in current company.
+Q2: Given a shared memory between multiple threads, how will you ensure safe access to memory in different scenarios like reading and writing? If at thr point of wrtitng there are mutiple read requests from threads how pending requests can be managed.
+Q3: Given an array that has positive numbers and negative numbers and zero in it. You need to seperate the negative numbers and positive numbers in such a way that negative numbers lies to left of zero and positive numbers to the right and the original order of elements should be maintained
+Interview 4:
+Q1: Discussion about current project in company.
+Q2: Why you want to leave your current company ?
+Q3: Why Amazon ?
+Q4: Which phone you have
+Q5: Which one will you buy next
+Q6: given a function with signature
+bool isFactorialDivisible( int x, int y)
+Return true if x! is divisible by y
+else return false
+After 3 days I got the confirmation call. 
+

@@ -1,0 +1,28 @@
+ROUND 1:
+The first round was on hackerrank platform. It consisted of 30MCQ’s and 3 coding questions. The MCQ’s consisted of a mixture of aptitude and technical questions. The three coding questions were:
+RGB values were provided for 5 colors in a table format. The input will be an array of strings. Each string has 24 binary digits. We were supposed to convert the string into RGB values and calculate the minumum distance from  given colours using the following formula
+d = sqrt((r1-r2)^2+(b1-b2)^2+(g1-g2)^2))
+If 110111011010101000111110 is a string then 11011101 is R and 10101010 is G and 00111110 is B. We need to print the color with minumum d. If there are many colours with the same minumum d then print “ambiguous”.
+The second question was a variation of the famous n-queens problem. The board with it’s queen positions was already given.  We have to print the queen position which collides with maximum number of other queens. It was very similar to this:
+https://www.hackerrank.com/challenges/queens-attack-2/problem
+The third question was based on dynamic programming:
+https://www.careercup.com/question?id=5647083983863808
+ROUND 2:(Technical Interview)
+Explain the functions of each layer in OSI model.
+Difference between a switch and a hub. What makes a switch have extra capability over a hub.
+Explanation of some of my projects. I was asked to write part of codes in the projects I have done.
+Explanation about the list of achievements and cross questions on it.
+ROUND 3(Technical Interview)
+Explain Binary tree and Binary search tree. How will you identify if the given tree is binary search tree.
+Reversal of a linked list by changing the pointer links.
+Difference between a process and a thread.
+Puzzle: A bag contains 5 pairs of white socks and 5 pairs of black socks. What is the maximum number of attempts you need to make in order to get a pair of socks. (Answer is 3)
+Puzzle: In a dark room there are 40 coins with heads up and 10 coins with tails up. You need to divide the tails into 2 groups of equal coins.
+A few questions on my projects.
+ROUND 4(HR Interview)
+Tell me about yourself.
+What is the thing that you enjoyed the most in college life?
+What did you not enjoy in college life?
+Why Juniper?
+Short term and long term goals
+This article is contributed by Samrakshini

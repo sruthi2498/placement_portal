@@ -1,0 +1,17 @@
+Given a string, check if it is a rotation of a palindrome.  For example your function should return true for “aab” as it is a rotation of “aba”.  
+Examples: 
+
+
+A Simple Solution is to take the input string, try every possible rotation of it and return true if a rotation is a palindrome.  If no rotation is palindrome, then return false.
+Following is C++ implementation of this approach.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n2)
+Auxiliary Space: O(n) for storing rotations.
+Note that the above algorithm can be optimized to work in O(1) extra space as we can rotate a string in O(n) time and O(1) extra space.
+An Optimized Solution can work in O(n) time. The idea is similar to this post.  Following are steps.
+1) Let the given string be ‘str’ and length of string be ‘n’. Create a temporary string ‘temp’ which is of size 2n and contains str followed by str again.  For example, let str be “aab”, temp would be “aabaab”.
+2) Now the problem reduces to find a palindromic substring of length n in str. If there is palindromic substring of length n, then return true, else return false.
+We can find whether there is a palindromic substring of size n or not in O(n) time (See Longest palindromic substring)

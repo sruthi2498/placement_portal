@@ -1,0 +1,18 @@
+A vector, once declared, has all its values initialized to zero. Following is an example code to demonstrate the same.
+Run on IDE
+Output : 
+ 
+What if we wish to initialize the vector to a specific value, say 1 ? For this, we can pass the value along with the size of the vector.  
+Run on IDE
+Output : 
+ 
+What if we wish to initialize the first 4 values to say 100 and rest 6 values as 200 ?
+One way to do this is to manually provide a value to each position in the vector. The other methods as provided in STL, the Standard Template Library, are fill and fill_n.
+ 
+NOTE : Notice carefully that ‘begin’ is included in the range but ‘end’ is NOT included. Below is an example to demonstrate ‘fill’ : 
+Run on IDE
+Output : 
+ 
+Run on IDE
+Output : 
+ 

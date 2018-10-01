@@ -1,0 +1,9 @@
+Given an infinite stream of integers, find the k’th largest element at any point of time.  It may be assumed that 1 <= k <= n.
+Extra space allowed is O(k).
+The idea is to use min heap.
+1) Store first k elements in min heap.
+2) For every element from (k+1)-th to n-th, do following.
+……a) Print root of heap.
+……b) If current element is more than root of heap, pop root and insert
+Run on IDE
+If stream contains elements of non-primitive types, we may define our own compactor function and create a priority_queue accordingly. 

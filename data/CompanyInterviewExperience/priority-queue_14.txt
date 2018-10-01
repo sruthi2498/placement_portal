@@ -1,0 +1,9 @@
+A Priority Queue is different from a normal queue, because instead of being a “first-in-first-out”, values come out in order by priority. It is an abstract data type that captures the idea of a container whose elements have “priorities” attached to them. An element of highest priority always appears at the front of the queue. If that element is removed, the next highest priority element advances to the front.
+A priority queue is typically implemented using Heap data structure.
+
+Dijkstra’s Shortest Path Algorithm using priority queue: When the graph is stored in the form of adjacency list or matrix, priority queue can be used to extract minimum efficiently when implementing Dijkstra’s algorithm.
+Prim’s algorithm: It is used to implement Prim’s Algorithm to store keys of nodes and extract minimum key node at every step.
+Data compression : It is used in Huffman codes which is used to compresses data. 
+Artificial Intelligence : A* Search Algorithm : The A* search algorithm finds the shortest path between two vertices of a weighted graph, trying out the most promising routes first. The priority queue (also known as the fringe) is used to keep track of unexplored routes, the one for which a lower bound on the total path length is smallest is given highest priority.
+Heap Sort : Heap sort is typically implemented using Heap which is an implementation of Priority Queue.
+Operating systems: It is also use in Operating System for load balancing (load balancing on server), interrupt handling.

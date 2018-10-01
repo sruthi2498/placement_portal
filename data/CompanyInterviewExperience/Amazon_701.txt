@@ -1,0 +1,60 @@
+Recently got interviewed with amazon Hyderabad for SDE1.
+Written
+1) Given a BST, along with left and right pointer for a node, it has forward and backward pointers, convert the tree into Doubly linked list using these extra pointers.
+2) A = {5, 3, 8, 9, 16}
+After one iteration A = {3-5,8-3,9-8,16-9}={-2,5,1,7}
+After second iteration A = {5-(-2),1-5,7-1} sum =7+(-4)+6=9
+Given an array, return sum after n iterations
+3) Write a function which compress string AAACCCBBD to A3C3B2D
+and other function to generate from the compressed.
+
+First f2f)
+1) Check given BT is BST
+2) The cost of a stock on each day is given in an array, find the max profit that you can make by buying and selling in those days
+3) In matrix A[m][n] each row is sorted and each column is sorted, write a function which checks whether a number exists in this matrix or not.
+4) Given a string, find the longest sub sequence which contains only unique characters.
+
+Second -f2f)
+1) Convert a BT into SUM BT(each node values = sum of left and right node)
+2) “I get thousands of emails daily”, find all anagrams in each email and print the count of all anagrams in each email.
+My solution was using a trie and a hash function to increase the counter at each node in the trie.
+Hash function will return the given word in a sorted manner, he asked me to code which was tedious but gave a rough draft.
+Initial set up cost would be big but the same trie can be used for any email by making all counters to zero.
+
+Third f2f)
+1) He talked almost for 45 min regarding my project and asked how we implement it. I was also working on web services in my current company, so they were more interested in asking questions there and want to know how well I implemented there.
+2) A design question of chess int board[8][8] each value in the matrix represents a character. 1-9 number represents all whites and 11-19 represents all blacks.
+Given a pawn at (x,y) print all possible moves. Assume whites are index 0 and blacks are at index 7.
+
+Fourth f2f) 
+1) There is ternary tree in two dimension space(one plane). Print all elements that are visible from right side of the plane(If you see along y axis plane)
+eg) In the following answer would be (1) (5) (8)
+————————(1)—————————————
+—————-(2)–(3)–(4)–(5)——————————
+———-(6)–(7)–(8)—————————————–
+2) Print these elements in a zig zag order, first level1 and then level n, level 2 and level n-1 and so on.
+In simpler words print rightmost ending element in each level of a ternary tree.
+My approach was take two queues, enqueue root in Q1 and while dequeueing enqueue its childeren in Q2, while shuffling elements from one queue to another store the last element in doubly linked list.
+While printing, use this double linked list, remove from head and then tail, till it becomes empty.
+
+Fifth f2f)
+1) Find jth element in ith row of a pascal triangle
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1… and son on. pascal(4,2) should return 6.
+complexity is bad and I am not grouping the solution once calculated of sub problems
+2) Implement your own hash function with keys as strings and values is of type Object
+initially I told BST with insertion deletion of order log(n), then he told me to think and answer then I told self balancing BST and he asked me to implement,
+3) Evaluate a mathematical expression 2*3+(5-6/2), something like this, with operator priority.
+Each f2f interview will be of 50-60 min. In each f2f round they will ask reason for change, and about your current project. You should answer perfectly regarding your current project and don't blabber something and all, they will ask good questions in the current project as well.
+These questions might take up more than 15-20 min and in the rest of the time you have to answer 2 question in DS for minimum and code them as well.
+If you answer you will get one more question which is an advantage 🙂
+First he will explain the question and gives you sometime.
+You need to explain the solution first, if he likes it, then he will asks you to write production code and takes the paper.
+Each interview is not like a level in amazon, they won't share feedback neither with you nor with other interviewers.
+After the interview process is done all those who took your interview will sit and judge (That's what HR told me 😀 )
+All the interviewers were friendly, finally I got a call from HR saying that I was selected 😀
+Thanks to Geek4Geeks 😀
+

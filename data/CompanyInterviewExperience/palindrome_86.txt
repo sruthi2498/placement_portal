@@ -1,0 +1,31 @@
+Given a stream of characters (characters are received one by one), write a function that prints ‘Yes’ if a character makes the complete string palindrome, else prints ‘No’. 
+Examples:
+Let input string be str[0..n-1].  A Simple Solution is to do following for every character str[i] in input string.  Check if substring str[0…i] is palindrome, then print yes, else print no. 
+A Better Solution is to use the idea of Rolling Hash used in Rabin Karp algorithm.  The idea is to keep track of reverse of first half and second half (we also use first half and reverse of second half) for every index. Below is complete algorithm.
+Let us see all steps for example string “abcba”
+Initial values of ‘firstr’ and ‘second’
+      firstr’ = hash(“a”), ‘second’ = hash(“b”)
+Start from second character, i.e.,
+i = 1
+       a) Compare ‘firstr’ and ‘second’, they don’t match, so print no.
+       b) Calculate hash values for next iteration, i.e., i = 2
+            Since i is odd, ‘firstr’ is not changed and ‘second’ becomes hash(“c”)
+i = 2
+       a) Compare ‘firstr’ and ‘second’, they don’t match, so print no.
+       b) Calculate hash values for next iteration, i.e., i = 3
+           Since i is even, ‘firstr’ becomes hash(“ba”) and ‘second’ becomes hash(“cb”)
+i = 3
+       a) Compare ‘first’ and ‘second’, they don’t match, so print no.
+       b) Calculate hash values for next iteration, i.e., i = 4
+           Since i is odd, ‘firstr’ is not changed and ‘second’ becomes hash(“ba”)
+i = 4
+       a) ‘firstr’ and ‘second’ match, compare the whole strings, they match, so print yes
+       b) We don’t need to calculate next hash values as this is last index
+The idea of using rolling hashes is, next hash value can be calculated from previous in O(1) time by just doing some constant number of arithmetic operations.
+Below are the implementations of above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+The worst case time complexity of the above solution remains O(n*n), but in general, it works much better than simple approach as we avoid complete substring comparison most of the time by first comparing hash values.  The worst case occurs for input strings with all same characters like “aaaaaa”.

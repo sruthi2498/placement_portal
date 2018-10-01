@@ -1,0 +1,23 @@
+Arista Networks visited our campus for internships
+The first round consisted of 3 online coding questions. Hackerrank was used as the platform.
+1. The maximum sum of an N-ary tree
+2. Inserting and searching in a Trie (easy if you know Trie)
+3. Sorting linked list each of elements which is connected to another linked list that must also be sorted.
+The coding questions were of moderate difficulty.
+Those who solved 2 or more were selected to the next round.
+It was a telephonic interview. Questions were mostly from DSA.
+Began by telling me to introduce myself.
+1. Asked me to explain my algorithm for maximum sum of N-ary tree from the first round.
+2. Print evenly repeating characters in a string in O(n).
+2. Output of a C program. (dynamic scope)
+3. Size of a struct in C (padding)
+4. Suggest a data structure for each of the following real life situations
+i. A vehicle registration system. If we give registration number of a vehicle as input, owner name, registration date, vehicle type should be output.
+ii. For vehicle type as input, details of all vehicles of that type should be output.
+iii. If we give two dates as input, details of all vehicles registered between those dates should be output.
+She wanted to know the time and space complexity of all my solutions.
+5. Questions on memory layout of C (where are pointers, automatic variables stored ? etc)
+Finally, she asked me if I had any questions for her. I asked a few questions.
+After two rounds two people were selected for internship.
+Study DSA and time, space complexities.
+Be confident and clear in your answers. If you are having a telephonic interview, make sure the interviewer can clearly hear you (hold the microphone closer to your mouth 🙂 ).

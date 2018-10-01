@@ -1,0 +1,16 @@
+Given an array, find product of all array elements.
+Examples :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The above code may cause overflow. Therefore it is always desired to compute product under modulo. The reason of its working is simple distributive property of modulo.
+Below is program to find  to find and print the product of all the number in this array  of Modulo (10^9 +7). 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

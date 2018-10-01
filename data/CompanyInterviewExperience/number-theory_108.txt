@@ -1,0 +1,13 @@
+In number theory, a Leyland number is a number of the form xy + yx, where x and y are integers greater than 1 and 1 <y <= x.
+Given a positive integer N. The task is to print first N Leyland number in ascending order. The first few Leyland numbers are 8, 17, 32, 54, 57, 100, …
+Examples:
+
+The idea to run two loop, one for x and other for y. The outer loop start with 2 to n and for each iteration of outer loop, run inner loop start from 2 t x. And store xy + yx in an array. After calculating all the value sort them and print first n numbers.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,20 @@
+Sets are a type of associative containers in which each element has to be unique, because the value of the element identifies it. The value of the element cannot be modified once it is added to the set, though it is possible to remove and add the modified value of that element.
+empty() function is used to check if the set container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)
+Application :
+Given a set of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the set is empty, if not add the first element to a variable initialised as 0, and erase the first element.
+2. Repeat this step until the set is empty.
+3. Print the final value of the variable.
+Run on IDE
+Output:

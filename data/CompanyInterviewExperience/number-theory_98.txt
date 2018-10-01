@@ -1,0 +1,38 @@
+Given a positive integer N. The task is to find 12 + 22 + 32 +  ….. + N2.
+Examples :
+
+Method 1: O(N) The idea is to run a loop from 1 to n and for each i, 1 <= i <= n, find i2 to sum. 
+Below is the implementation of this approach
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2: O(1)
+Sum of squares of first N natural numbers  = (N*(N+1)*(2*N+1))/6
+Foe example
+For N=4, Sum = ( 4 * ( 4 + 1 ) * ( 2 * 4 + 1 ) ) / 6
+               = 180 / 6
+               = 30
+For N=5, Sum = ( 5 * ( 5 + 1 ) * ( 2 * 5 + 1 ) ) / 6
+               = 55
+Proof:
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Avoiding early overflow:
+For large n, the value of (n * (n + 1) * (2 * n + 1)) would overflow. We can avoid overflow up to some extent using the fact that n*(n+1) must be divisible by 2.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,13 @@
+In this article, we will learn how to print the pattern D using stars and white-spaces. Given a number n, we will write a program to print the pattern D over n lines or rows.
+Examples :
+
+
+If we try to analyze this picture with a (row, column) matrix and the green circles represent the position of stars in the pattern D, we will learn the steps. Here we are performing the operations column-wise. So, for the first line of stars, we set the first if condition, where the column position with 1 gets the stars. Then all the columns greater than 1 and less than (n-2) and row position equal to 1 and n-1 get the stars. Finally, all the columns with value n-2 and row not equal to 0 or 6 get the stars, thus forming the pattern “D”. The other steps are self-explanatory and can be understood from the position of rows and columns in the diagram.
+Note : Choose a minimum value of 4 for “n” to get a visible demonstration of “D” pattern.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

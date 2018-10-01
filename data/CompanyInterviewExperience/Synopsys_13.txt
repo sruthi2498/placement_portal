@@ -1,0 +1,44 @@
+Recently, I was interviewed for Synopsys (R&D Engineer I).  There were two telephonic rounds followed by 5 F2F rounds. 
+1st round(Phone Screen):
+1 .Reverse a linked list  recursively.
+2. Find the height of a binary tree.
+2. Write a binary tree 7to  a file .Read a binary tree from a file.
+2nd round(Phone Screen ) :
+1. Print a number without using printf. Recursive solution for the same.
+2. Given a value N, if we want to make change for N cents with the minimum number of coins, and we have infinite supply of each of S = { S1, S2, .. , Sm} valued coins, what will be the minimum value ?
+3. What is an expression tree. How to store an expression in expression tree.  Write a code to evaluate an expression tree.
+3rd round (F2F):
+1. Check  whether  a binary tree is BST.
+2. Given a 2D array having 0s and 1s where  all 0s in each row preceed  before  all 1s. Find  a row  having  max nos of 1s .
+Find  the most  optimal  solution. Derive the time complexity.
+4th round (F2F):
+1. Concepts  of reference  and pointers.
+2. Virtual function  concepts.
+3. Given a chess board and a location in the chess board as an integer find the next  possible moves of a knight.
+4. Design a 5 bit counter.
+5. Given a BST  find the kth largest element.
+6. Given an unsorted array create a BST.
+5th round (F2F):
+1. Why do you want  to switch ?
+2. Copy a Linked list to a new location.
+3. Virtual pointer and virtual function  concepts.
+4. How it achieves run time polymorphism  ?
+5. Give examples  of compile time  polymorphism .
+6. LCA of BST and binary  tree.
+7. Given an array containing 0s and 1s sort it in most efficient  way.
+8. Questions about templates.
+6th round(F2F):
+1. Questions about projects in the current  company.
+2. Details about  the college  project.
+3. Write a code for BFS of a graph.
+4. Write it recursively.
+5. Derive the time complexity.
+7th round (F2F):
+1. Given an array  in sorted order and a sum. Check  whether  the sum of any two elements in the array is equal to the given sum.
+2. Use of stacks and queues in computer  science application.
+3. Detail discussion  about the stack management while function call.
+4. Given a string count the number of substrings that starts with a and ends with b.
+5. Detail discussion about Virtual function concepts.
+6. Given two integers which  can be represented as 32bit numbers and a start index and an end index, copy the bits of one integer to another within the given start and end index.
+7. Design a stack such that we can get the maximum element in o(1) at any point of time. 
+

@@ -1,0 +1,27 @@
+Online Round:
+1. Don’t remember the questions, but they were of medium level, not tough as such.
+2. Basic knowledge will help you in clearing that round
+1st Telephonic
+1.       Solve Snakes and ladder problem, Given all the inputs for the board.
+We can roll the dice, as we want to. Need to find the shortest path to reach the 100 level from the starting of the path. Various other questions were asked on the basis of that only.
+2.       Given a file with millions of words, need to find top K words on the basis of occurrence.
+2nd Telephonic
+1.       Given a list a1,a2,a3….an. Comparison between elements is given like a1>a2, a3>a5, a4>a2…..etc. We need to find whether is there any situation that we can sort the list in to the ascending order on the basis of comparison. Yes or No , explain the conditions
+2.       Given a string example : shoppingwithflipkartiseasy,  Now we are given this string and a dictionary containing valid words , now we need to break the sentence into words separated by space. Output : shopping with flipkart is easy
+Onsite
+Coding Round
+1.       Need to write a fully functionally and working code for a problem statement. Problem is to write the code for maintaining a directory for any organization where employee will have id, name, post and manager as attribute. Basically two features need to be implemented: (a). Should be able to do searching on the basis of name, prefix search for the name should also be supported, (b). For any employee, we can get the list of all the subordinates which comes under him/her, like for ceo , all the employees list should get displayed
+2.       No database is needed, memory storage was asked to used for this
+3.       Code should be extendable so that new attributes for the employee can be added
+4.       Approach for maintaining the structure and optimality in searching for required.
+Face to Face
+1.       Given a file containing billions of words, need to find top K words. Other variations like the file size is 100 MB and we can read only a chunk of data at a time, how to maintain that, etc
+2.       Given a series 2,3,4,5,6,8,9,10,……, here in this series all the numbers are present which have factors only and only either 2,3 or 5. Need to write a node to generate nth number for the series . With best approach and complexity
+3.       Given a Alien language, we have the dictionary of that language , but we have only very few words, but they are all arranged in the lexicographical order. We need to first find whether we will be able to get a alphabetical order or not, if yes explain approach
+
+Hiring Manager Round(Skype Round)
+1.       Most of the questions are on the cultural fit only, but they were tough
+2.       Situational and behavioural questions he asked, positive attitude and calmness is really required at that time.
+3.       I also asked many questions regarding work and etc.
+Finally few weeks later, got a call from HR and manager regarding offer and figures.
+

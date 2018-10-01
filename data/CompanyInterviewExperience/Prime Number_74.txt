@@ -1,0 +1,9 @@
+Given a very large number N (1 <= number of digit in N <= 105). The task is find the largest number X such that X < N and each digit of X is prime number. 
+Examples:
+
+The idea is to traverse from leftmost digit of the number N to rightmost digit of N. Check if the current digit is prime or not. If it is prime, copy the digit to output number at corresponding digit position. If it is not prime, copy the largest prime number less than current digit.
+Now consider if the current digit is ‘0’ or ‘1’. In that case copy ‘7’ to current digit position of output number. Also move to adjacent left digit of current digit and reduce it to largest prime number less than it.
+Once we reduce any digit to largest prime number less than the digit, we copy ‘7’ to rest of the right digit in the output number.
+Below is C++ implementation of this approach:
+Run on IDE
+Output:

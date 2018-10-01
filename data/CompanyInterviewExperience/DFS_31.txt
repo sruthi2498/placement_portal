@@ -1,0 +1,9 @@
+Given two numbers n and k and you have to find all possible combination of k numbers from 1…n.
+Examples:
+
+We have discussed one approach in below post.
+Print all possible combinations of r elements in a given array of size n
+In this, we use DFS based approach. We want all numbers from 1 to n. We first push all numbers from 1 to k in tmp_vector and as soon as k is equal to 0, we push all numbers from tmp_vector to ans_vector. After this we remove the last element from tmp_vector and make  make all remaining combination.
+Run on IDE
+Output:
+

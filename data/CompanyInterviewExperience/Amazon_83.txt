@@ -1,0 +1,28 @@
+Online Coding Round: 
+The first round was an online round. There were 2 coding questions (no penalty for wrong submission) and 20 Multiple Choice Questions(with negative marking). We were given 90 minutes to solve them.
+MCQs were based on Data Structures, OS, CN, C outputs, OOP etc.
+The two coding questions were:
+1. Given a string you have to partition it in such a way that each part of the partitioned string is a palindrome in itself and you have to count the number of such partitions.
+Input: NITIN
+Output: 3
+Explaination: The 3 possible partitions are N | ITI | N, N | I | T | I | N, NITIN
+2. You are given a large paragraph and N words. You have to find a minimum length subparagraph of the paragraph which contains all those N words in any order. Here, the length of a paragraph is the count of words in the paragraph.
+
+Round 1 (Face to Face):
+The interviewer asked me to introduce myself and a brief introduction of the projects that I have done. She first asked me questions related to my project. After that she moved on to the data structures part. The questions were:
+1. Merge Sort.
+2. Given a BST containing distinct integers, and a number ‘X’, find all pairs of integers in the BST whose sum is equal to ‘X’.
+3. Merge overlapping Intervals.
+The interviewer asked me to code all the problems on paper and dry run each of them for some test cases.
+Some questions asked to other candidates in this round were:
+1. Find next greater number with same set of digits
+2. Given a binary tree, if parent is 0, then left child is 0 and right child is 1. if parent is 1, then left child is 1 and right child is 0. Root of the tree is 0. Find the kth node value which is present at Nth level.
+
+Round 2 (Face to Face):
+The interviewer asked me about how my previous round went. After that, he asked me to introduce myself and a brief introduction of the projects that I have done. He first asked me a few questions related to my project. Then he moved on to the data structures part.
+The questions were:
+1. He asked me about different types of hashing. He then asked me an alternative and a better way for Linear Chaining.
+2. Implement AVL Tree.
+3. Minimum number of squares whose sum equals to given number n.
+4. Insertion sort for a singly linked list.
+For the second question, I told him that I don’t remember rotations in an AVL Tree so I won’t be able to code it. Also, in this round the interviewer gave me strict time limit for coding the solution on paper for each problem and as soon as I was done coding he gave me 2-3 minutes every time to find errors and debug my code. 

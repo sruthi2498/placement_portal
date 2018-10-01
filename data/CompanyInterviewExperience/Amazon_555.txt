@@ -1,0 +1,23 @@
+I finished interviews at Amazon few days back. Here is my interview experience:
+Telephonic round (Screening):
+1) Discussion around work in current company. Why Amazon?
+2) You are given an infinite sorted array containing only numbers 0 and 1. Find the transition point efficiently.
+3) He gave me some function and asked me to arrive at the complexity of it.
+F2F-I:
+1) Brief discussion on work in current company
+2) Flatten linked list – https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/
+3) Design a data structure which holds number 1 to n such that insert, remove(this operation will take in a number between 1 to n as argument and remove that number from data structure if it exists) and get valid element in the data structure operations are done with O(1) complexity
+
+F2F-2:
+1) Brief discussion of work in current company
+2) Find and print longest consecutive number sequence in a given sequence 
+3) A fair die is thrown k times. What is the probability of sum of k throws to be equal to a number n? 
+F2F-3:
+1) Brief discussion of work in current company. Why Amazon?
+2) Why do you want to leave current company? What do you like most and dislike most about your current company?
+3) Sum two numbers represented by linked list iteratively and recursively.
+4) You are given an infinite sorted array containing only numbers 0 and 1. Find the transition point efficiently.
+F2F-4:
+1) Lots of HR, behavioral and team fit questions
+2) User statistics are logged in the following format – 
+

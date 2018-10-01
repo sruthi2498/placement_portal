@@ -1,0 +1,13 @@
+Given a natural number, calculate sum of all its proper divisors. A proper divisor of a natural number is the divisor that is strictly less than the number. 
+For example, number 20 has 5 proper divisors: 1, 2, 4, 5, 10, and the divisor summation is: 1 + 2 + 4 + 5 + 10 = 22.
+Examples :
+
+This problem has very simple solution, we all know that for any number ‘num’ all its divisors are always less than and equal to ‘num/2’ and all prime factors are always less than and equal to sqrt(num). So we iterate through ‘i’ till i<=sqrt(num) and for any 'i' if it divides 'num' , then we get two divisors 'i' and 'num/i' , continuously add these divisors but for some numbers divisors 'i' and 'num/i' will same in this case just add only one divisor , e.g; num=36 so for i=6 we will get (num/i)=6 , that's why we will at 6 in the summation only once. Finally  we add one as one is divisor of all natural numbers.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Please refer below post for an optimized solution and formula.
+ Efficient solution for sum of all the factors of a number

@@ -1,0 +1,10 @@
+The unordered_multimap::max_load_factor() is a built-in function in C++ STL which returns the maximum load factor of the unordered_multimap container. This function also provides with an option of setting the maximum load factor. 
+Parameters:  The function does not accept any parameters. 
+Return Value: It returns an integral values which denotes the maximum load factor of the container. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Parameters:  The function accepts a single mandatory parameter N which specifies the load factor to be set. This N will be the maximum load factor of the container.  
+Return Value: The function does not returns anything.
+Below program illustrates the above function: 
+Run on IDE

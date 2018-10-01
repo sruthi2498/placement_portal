@@ -1,0 +1,11 @@
+This test consisted of only one section i.e. PROGRAMMING, and it was pen-paper based.
+Time alloted: 1.00 hrs.
+Very good thing about the test was that they were checking only the logic that was used to solve the question.
+During the PPT round they told us that you guys do not need to write the complete code ,just write the required function and in case if you you want to give an explanation to the solution ,you can write.
+Q1.(25 points)Given two arrays X and Y,you  have to find the total number of pairs such that x^y>y^x where x belongs to X and y belongs to Y.(already given on geeks for geeks).(solve it correctly).
+Q2.(15 points)Given an arithmetic progression ,which has one of its number missing ,you have to find the number in O(logN) time complexity.
+(I did not read the question clearly …so i did not wote the logN solution ,although I was knowing the solution  🙁  …)
+Q3.(10 points)Given a binary tree you have to print all the elements which are not boundary elements.(st. forwrd )
+(As they did not  mentioned about the space and time complexity,I used a Map and solved the question)
+No restriction on the languages used.But they specifically mentioned that we should not write the code in Pyhton or any scripting language. 
+

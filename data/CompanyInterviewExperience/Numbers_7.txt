@@ -1,0 +1,24 @@
+Given a number N, create an array such the first half of the array is filled with odd numbers till N and second half of the array is filled with even numbers. Also given are L and R indices, the task is to print the sum of elements in the array in the range [L, R]. 
+Examples:
+Input: N = 12, L = 1, R = 11
+Output: 66
+The array formed thus is {1, 3, 5, 7, 9, 11, 2, 4, 6, 8, 10, 12}
+The sum between index 1 and index 11 is 66 {1+3+5+7+9+11+2+4+6+8+10}
+Input: N = 11, L = 3 and R = 7
+Output: 34
+The array formed is {1, 3, 5, 7, 9, 11, 2, 4, 6, 8, 10}
+The sum between index 3 and index 7 is 34 {5+7+9+11+2}
+A naive approach will be to form the array of size N and iterate from L to R and return the sum. 
+Run on IDE
+Run on IDE
+Time complexity: O(N)
+Auxiliary Space: O(N)
+Efficient Approach:  Without building the array the problem can be solved in O(1) complexity. Consider the middle point of the sequence thus formed. Then there can be 3 possibilities for L and R. 
+For 1st and 2nd case, just find the number which corresponds to the l-th position from the start or middle and the number which corresponds to the r-th position from start or middle. The below formula can be used to find out the sum: 
+For the third case, consider it as [L-mid] and [mid-R] and then apply case 1 and case 2 formula as mentioned above.
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Time complexity: O(1)
+Auxiliary Space: O(1)

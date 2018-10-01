@@ -1,0 +1,9 @@
+The unordered_multiset::find() is a built-in function in C++ STL which returns an iterator which points to the position which has the element val. If the element does not contain the element val, then it returns an iterator which points to a position past the last element in the container. 
+Syntax: 
+Parameters:  The function accepts a mandatory parameter val whose position’s iterator is to be returned.
+Return Value: It returns an iterator which points to the position where val is. 
+Below programs illustrate the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

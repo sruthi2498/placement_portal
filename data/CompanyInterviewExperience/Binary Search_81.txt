@@ -1,0 +1,17 @@
+Given an array of n duplicates or distinct integers sorted in ascending order, write a function that returns a Fixed Point in the array, if there is any Fixed Point present in the array, else returns -1. Fixed Point in an array is an index i such that arr[i] is equal to i. Note that integers in the array can be negative.
+Examples :
+We have already discussed find a Fixed Point in a given array of n distinct integers. 
+
+If elements are not distinct, then previously discussed algorithm fails. Consider the following array:
+When we see that A [mid] < mid, we cannot conclude which side the fixed index is on. It could be on the right side, as before. Or, it could be on the left side (as it, in fact, is). 
+Could it be anywhere on the left side? Not exactly. Since A[ 5] = 3, we know that A[ 4] couldn't be a fixed index. A[ 4] would need to be 4 to be the fixed index, but A[ 4] must be less than or equal to A[ 5]. 
+In fact, when we see that A[ 5] = 3, we'll need to recursively search the right side as before. But, to search the left side, we can skip a bunch of elements and only recursively search elements A [ 0] through A [ 3]. A[  3] is the first element that could be a fixed index. 
+The general pattern is that we compare mid Index and midValue for equality first. Then, if they are not equal, we recursively search the left and right sides as follows: 
+ code below implements this algorithm.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Algorithmic Paradigm : Divide & Conquer
+Time Complexity : O(Logn)

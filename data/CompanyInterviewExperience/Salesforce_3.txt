@@ -1,0 +1,24 @@
+Salesforce team visited our campus recently for both FTE roles and interns. Below is the my experience as an FTE candidate.
+Round 1: Online Round (Hosted on Hackerrank | Duration: 1 hour)
+The online round consisted of 10 MCQ’s and 2 coding questions. The coding questions were bit easy.
+Problem 1. Maximum size square submatrix with all 1’s
+https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+Problem 2. A simple question, to find if a given array can become sorted on swapping adjacent elements.
+MCQ’s were asked from DS and Algorithms, time complexity, OS and DBMS.
+Round 2: Technical Interview (around 1 hour)
+Some questions asked were:
+(a) A data structure related question. I was given a class schema, and an operation was to be performed on it. I was asked the best choice of DS. I don’t remember the question well. I had used a HashMap for that question. Complete code was required.
+( Some of my friends were asked to design LUDO game, basically the optimal choice of data structure )
+(b) To print the longest common subsequence of two strings.
+https://www.geeksforgeeks.org/printing-longest-common-subsequence/
+(c) Some basic OOPs questions. Questions on Java – exception handling, overloading vs overriding, etc.
+(d) DBMS questions – Difference between primary key and foreign key. Indexing and its advantage. (Some discussion on NoSQL database as I had worked on it during my internship)
+Round 3: Technical Interview (around 1.5 hour)
+The discussion started with my internship experience. I briefly described my project work and the technologies used. Problems asked were:
+(a) Given a binary tree where each node holds an integer value, breaking an edge separates the tree into two components. I was required to break such an edge that the difference of the sum of values of nodes in both components is minimised. The nodes can contain negative values as well. He asked me to handle all edge cases carefully and write the full code for it. I explained my approach to him and then coded the problem.
+(b) A system design question to Design a Parking Lot . This video covers all aspects of the question, and also almost everything the interviewer was expecting.
+Some design questions asked to my fellow mates were Design a Swiggy like food ordering service, Design an Uber like cab system, etc.
+This followed with some discussion based on my CV, and JEE ranks.
+Round 4: HR Round
+This was a light hearted round. The interviewer started to discuss on my internship and ICPC experience based on my CV. This continued for 10-15 minutes. He finally asked if I had something to ask him. He seemed impressed 😛 ( Although some others were asked questions related to OS and stuff in this round as well )
+Finally 3 students were selected for FTE’s and I was one of them. I would like to sincerely thank gfg for being my constant companion in the interview preparations.

@@ -1,0 +1,19 @@
+There were total 2 rounds.
+Round 1: 
+There were 60 MCQs(20 English + 20 Logical reasoning + 20 Data Interpretation ) to be solved in 1 hour.
+Round 2: 
+I got 3 coding questions.
+1) Given two numbers. I have to find the number of bit which are required to change in binary conversion of 1st number so that It get converted into second number.
+I have to simply compare the bits of both the numbers and whenever the bit is different insrease count by 1 and return count at the end.
+2) link for 2nd question is
+https://www.geeksforgeeks.org/find-excel-column-name-given-number/
+3) Given a string, I have to find the number of patterns of 1[0]1
+where [0] represents any number of zero(minimum requirement is one 0)
+there should not be any other character except 0 in the [0] sequence.
+eg. 100001abc101
+Ans- 2
+eg. 1001ab010abc01001
+Ans- 2
+Both the rounds were hosted by cocubes.com
+I solved all the three problems & got selected for the internship.
+I thanks geeksforgeeks for this success.

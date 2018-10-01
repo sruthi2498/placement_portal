@@ -1,0 +1,18 @@
+Online Round:
+There were 20 MCQs based on basic programming, C output questions, OS. There were 2 programming questions.
+1. Given an array with only 1s and 0s, You have to maximize numbers of 1s in this array. You are allowed to do max one flip operation which can be applied to a range of continuous indexes. I used something like max sum contiguous subarray dynamic programming approach. This problem is similar to https://www.geeksforgeeks.org/maximize-number-0s-flipping-subarray/
+2. You are given a linked list.
+for i=1 to n/2, subtract (n-i)th number from ith number. Print modified linked list in the end.
+Technical round 1:
+1. Given three numbers A, B and M. Calculate (A*B)%M. All numbers are in a range of 1 to 10^15 so prevent overflow. First I gave brute force approach for running a loop A times, each time adding B to the answer and taking the mod. Then, I improved from O(n) to O(logn) by calculating A*B/2 recursively and multiplying it by 2. The interviewer asked me to write complete code for it.
+2. He asked me whether I know about trie data structure and I said yes so he asked me to write node structure of trie. I wrote the basic node structure. Then he asked me if I want to add and match exact strings then how would I modify node structure. I told him to add a boolean in the node signifying an end of the string. Then he asked me to write complete code for adding a string in trie root.
+Technical round 2:
+He asked me introduction and questions asked in previous interviews.
+1. Given a binary tree, print the edge nodes of this binary tree.
+https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+2. You are given an array of contacts. Each contact consists 3 strings: name, email and phone number. If any of these parameters match with any other contact’s parameter then these 2 contacts are same. Find groups of same contacts. I suggested having a hashmap with parameter string as key and index as value. Then when we encounter matching strings in the hashmap, connect this 2 contact indexes as we do in Disjoint set Quick Union approach. In the end. find matching contacts using find operation.
+Technical round 3:
+This interview was mostly based on resume discussion. He asked me about my internships and projects and also asked me some OS questions. Then he gave me a chess problem. I am given initial positions of 8 pawns and a knight. I have to answer whether I can remove all 8 pawns using my knight. Then he simplified question and now only 1 pawn is there. I wrote full code for recursion to solve the problem but time complexity was exponential. Then he asked me how do I find the minimum number of steps in which I can remove this pawn. I modified my existing code to return a number of steps now.
+Technical round 4:
+This was kind of like HR round. Initially, he asked me about my latest internship work and started with specific questions. What was the toughest challenge I solved during any of my projects? What kind of problems you encounter when working in a team and how can those be resolved? Did you ever write non-maintainable code and why did you write it? Did it ever happen to you that you suggested some good approaches but they were thrown to trash by higher authority and how did you tackle with that?
+

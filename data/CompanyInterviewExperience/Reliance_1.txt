@@ -1,0 +1,27 @@
+Jio is having one of the most robust and fast pace interview process. Jio came to our campus for the position Of Graduate Engineer trainee and the job profile was of a data scientist.
+Round 1: 
+There was a online round of 50 minutes and five section 10 min each and the topics were Big Data, Hadoop, RadioFrequency, Java and C++, Aptitude. The question were multiple choice. After this round 5 out of 10 were shortlisted.
+Round 2:
+Jio recruiters came to our campus and held a pen paper coding round of 30 minutes. This was not an elimination round but based on this you will be asked questions in face 2 face round. There were total 5 question.
+Round 3:
+The panel had four members one of the member was from data science background . It’s not necessary that you should be having a data science background they were only asking questions on the things you claim you know from your CV.
+DS->Interviewer from datascience dept, Al->Interviewer from Algo dept
+Interviewer (DS): Tell me about your strength
+Me: I am basically a full stack developer (MEAN stack) web and Android Developer.
+Interviewer (DS): Question regarding GET, PUT, POST and projects done using MEAN stack.
+ME : Answered with confidence as this was my area.
+Interviewer (DS): Difference between java and c++ , Have you ever used any machine Learning in your projrct
+ME : answered using procedural vs object oriented programming and told my face recognition project were i used ML techniques (Questions : what is SVM, How did you made your classifier, What feature you used)
+Interviewer (DS): Write the formula of conditional probability and also how you will compute eigen values of a Matrix.
+Me : This is were the trouble began . I didn’t remember the formula so after 2–3 min i wrote the formula for Bayes theorem(another form of conditional prob) and gave the approach to find eigen vectors(He was more or less satisfied).
+Interviewer (AL) : You have not written much in the coding round.
+Me : (are you kidding the time given was only 30 min and i have attempted 3 out of 5) sir i have attempted 3 questions and had written approach for 4th(mirror tree) . Then he went through my answers and told me to code the approach . After 5–8 minutes i wrote an recursive approach he went for the dry run and was satisfied.
+Interviewer (AL) : You have also not completed the code for 4th question .
+Me : (I had misinterpreted the question instead of finding loop length i founded the list length ) Sir i have completed it and gave him the approach and that is were i found out that i had misinterpreted the question. He told me to correct the approach . Me after 1 min gave him the right approach and he was satisfied.
+Interviewer (AL) : What all sorting algorithms you know
+Me : Bubble, Insertion, Quick, Merge (interrupt)
+Interviewer (AL) : Told me to code the Merge Function used in the merge sort .
+Me : I gave my approach and he was satisfied so no need to code.
+Interviewer (HR) : how much % you achieve in math (10 and 12th), JEE rank, Why should we hire you.
+Me : During my 4 years of academics I have found 1 strong ability in myself that i do not get stuck on any problem by some hook or crook i was able to tackle the problem(That is why you should hire me . This was not a prepared answer it just happened on the spot .He was satisfied).
+Finally the result announced out of 5 three were selected i was one of them. I would like to thank GeeksForGeeks for helping me to gain knowledge and crack the interview.

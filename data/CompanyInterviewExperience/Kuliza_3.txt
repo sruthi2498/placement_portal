@@ -1,0 +1,30 @@
+Recently Kuliza Technologies Banglore visited our college for recruiting Developers.
+Online Round:
+Its a 2 hour online test consisting of 4 sections.
+Section1: 30 min-15 aptitude+basic English questions
+Section2: 1hr-2 coding questions. 1st question was easy based on seating arrangement of boys and girls. 2nd question was moderate based on dynamic programming.
+Section3:  20min-2 c codes to find errors and rewrite them. Errors may be in syntax or logic of the code. You cannot run these codes as there will be no compiler provided for you. You need to just see the codes and find errors.
+Section4: 10min- write 5 popular startups in india and 5 popular startups worldwide
+Students who did 2 coding questions were sent to next round. Some students who were able to complete one question and their logic of another question is right are also sent to next round.
+They shortlisted 30 students.
+1st Technical round(1 hr):
+1. Tell me about yourself. Discussion on projects in my resume.
+2. What is Singleton class in Java? Implement Singleton Class.
+3. Detect a loop in linkedlist and remove it. Asked for the most efficient method for it without counting number of nodes in loop.
+4. Find intersection point of linkedlists.
+5. Why do we use abstraction in Java?
+6. 100 prisoners with red and black hats puzzle.
+7. Given an array find the set a,b,c in array such that a^4+b^4=c^4
+8. How to get a result of 10 from using numbers 1,1,8,5 using operators +, *, /, -.
+9. What is JSON? Gave some data in the form of JSON and asked to design a relational database to store that data. Some discussion on changes to make if stored in non relational database.
+I answered all the questions. 13 students were shortlisted after this round.
+2nd Technical Round(45 min):
+1. Discussion on my summer internship for 15 min. Discussion on another internship and projects in my resume.
+2. Discussion on differences between PHP and Node.js(I wrote both in my resume)
+3. When to use MYSQL and MongoDB.
+4. Find details of employee who has 2nd highest salary. Tried to confuse me with giving some example data and kept on adding tuples. Finally I convinced him that my answer is right.
+5. Given a robot how will you design and program it so that it reaches airport from your college. He told that robot doesnt know the directions to airport. He asked this question to know my approach to a problem.
+6. Given a 2 linkedlists each representing a number. Add these linked lists. I gave two solutions one using recursion and one using reversing linkedlist. Then some discussion on which method is better in which case.
+There was no HR round. Finally they selected 8 students.
+PS: Kuliza gives preference to the students who know web and mobile app development. They doesnt care about the CPI of student. Be strong with basic algorithms and datastructures it is enough.
+Thanks to geeksforgeeks which is very helpful for my preparation.

@@ -1,0 +1,33 @@
+Given two integers L and R. The task is to find the sum of all prime factors of every number in the range[L-R]. 
+Examples:
+Input: l = 5, r = 10
+Output: 17
+5 is prime, hence sum of factors = 0
+6 has prime factors 2 and 3, hence sum = 5
+7 is prime, hence sum = 0
+8 has prime factor 2, hence sum = 2
+9 has prime factor 3, hence sum = 3
+10 has prime factors 2 and 5, hence sum = 7
+Hence, total sum = 5 + 2 + 3 + 7 = 17
+Input: l = 18, r = 25
+Output: 45
+18 has prime factors 2, 3 hence sum = 5
+19 is prime, hence sum of factors = 0
+20 has prime factors 2 and 5, hence sum = 7
+21 has prime factors 3 and 7, hence sum = 10
+22 has prime factors 2 and 11, hence sum = 13
+23 is prime. hence sum = 0
+24 has prime factors 2 and 3, hence sum = 5
+25 has prime factor 5, hence sum = 5
+Hence, total sum = 5 + 7 + 10 + 13 + 5 + 5 = 45
+A naive approach would be to start iterating through all numbers from l to r. For each iteration, start from 2 to i and find if i is divisible by that number, if it is divisible, we simply add i and proceed. 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N * N * sqrt(N))
+An efficient approach is to modify sieve of eratosthenes slightly to find sum of all prime divisors. Next, maintain a prefix array to keep the sum of sum of all prime divisors upto index i. Hence pref_arr[r] – pref_arr[l-1] would give the answer.
+Below is the implementation of the above approach.
+Run on IDE
+Run on IDE

@@ -1,0 +1,15 @@
+Given a value n, find out the largest palindrome number which is product of two n digit numbers.
+Examples :
+Below are steps to find the required number.
+1) Find a lower limit on n digit numbers. For example, for n = 2, lower_limit is 10.
+2) Find an upper limit on n digit numbers. For example, for n = 2, upper_limit is 99.
+3) Consider all pairs of numbers where ever number lies in range [lower_limit, upper_limit]
+Below is the implementation of above steps.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+The approach used in this post is simple and straightforward.  Please comment if you find a better approach.

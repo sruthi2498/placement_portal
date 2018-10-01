@@ -1,0 +1,6 @@
+C++ STL provides a function that copies the elements from the given range but in reverse order. Below is a simple program to show the working of reverse_copy().
+Examples:
+The function takes three parameters. The first two are the range of the elements which are to be copied and the third parameter is the starting point from where the elements are to be copied in reverse order.
+Run on IDE
+Below is an example of vector to vector copy.
+Run on IDE

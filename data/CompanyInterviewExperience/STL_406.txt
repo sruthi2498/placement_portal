@@ -1,0 +1,27 @@
+Compute cumulative inner product of range
+Returns the result of accumulating init with the inner products of the pairs formed by the elements of two ranges starting at first1 and first2.
+The two default operations (to add up the result of multiplying the pairs) may be overridden by the arguments binary_op1 and binary_op2.
+1. Using default inner_product :
+Syntax:
+Run on IDE
+Output:
+2. Using functional operation :
+Syntax:
+Run on IDE
+Output:
+3. Using custom functions :
+Syntax:
+Run on IDE
+Output:
+NOTE :
+By using functional value and custom function, we can perform operation by changing the operator ( or using different functional value) in this STL function.
+Possible Application :  It returns the result of accumulating init with the inner products of the pair formed by the elements of two ranges starting at first1 and first2.
+1. It can be used to find sum of products of i th index of both arrays.
+For Example:
+Array 1 : 1 2 3 4
+Array 2 : 10 20 30 40
+Sum of products : 300
+Explanation : 1 * 10 + 2 * 20 + 3 * 30 + 4 * 40 = 300
+Run on IDE
+OUTPUT :
+We can also find the difference of products, or sum of division, or difference of division and more all by changing the operator.

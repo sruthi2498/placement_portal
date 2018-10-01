@@ -1,0 +1,11 @@
+Consider a tree with n nodes and root. You can jump from one node to any other node on the same height a maximum of k times on total jumps. Certain nodes of the tree contain a fruit, find out the maximum number of fruits he can collect.
+Example :
+Tree for above testcase :
+
+Explanation:
+
+Approach: The idea is to use DFS to create a Height Adjacency List of the Nodes and to store the parents. Then use another dfs to compute the maximum no of special nodes that can be reached using the following dp state:
+Thus, dp[Root_Node][Total_no_of_Jumps] gives the answer to the problem.
+Below is the implementation of above approach :
+Run on IDE
+Time Complexity : O(n*n*k) (worst case, eg: 2 level tree with the root having n-1 child nodes)

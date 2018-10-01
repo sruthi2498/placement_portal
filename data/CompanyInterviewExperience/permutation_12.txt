@@ -1,0 +1,9 @@
+Given two strings in lowercase, find the longest string whose permutations are subsequences of given two strings. The output longest string must be sorted.
+Examples:
+
+The idea is to count characters in both strings.
+Run on IDE
+Output:
+Time Complexity : O(m + n) where m and n are lengths of input strings.
+Auxiliary Space : O(1)
+If you have another approach to solve this problem then please share.

@@ -1,0 +1,38 @@
+1 round (20 MCQ + 2 coding question)
+3 face to face round, 1 telephonic interview.
+1st coding question
+—————————–
+Find the diameter of the tree.
+2nd coding question
+—————————–
+check the validity of sudoku.
+1st face to face Round
+————————————-
+Qs-1) In a binary tree, a complete path is defined as a path from root to a leaf. The sum of all nodes on that path is defined as the sum of that path. Given a number K, we have to remove (prune the tree) nodes from the tree which lie on a path having sum less than K. A node can be part of multiple paths. So we have to delete it only in case when all paths from it have sum less than K.
+I was able to solve the problem with bottom up approach, and able to write a working code of it.
+Q-2) Given an array of positive numbers, find the maximum sum of a subsequence with the constraint that no 2 numbers in the sequence should be adjacent in the array. So 3 2 7 10 should return 13 (sum of 3 and 10) or 3 2 5 10 7 should return 15 (sum of 3, 5 and 7).
+I was able to give him a DP solution with a Parent array which stores thee index of the parent of every element,i hd put -1 for the first element,at the end I backtrack the array to find the all the elements.
+2nd face to face Round
+————————————-
+After some personal questions, the interviewer asked 1 coding question
+Q-1)
+n1 pairs of “{} ” brackets
+n2 pairs of “[] ” brackets
+n3 pairs of “() ” brackets
+I have to find the all valid combinations of all the pairs. I have to write the working code of it.
+I gave him the solution with recursion and stack.
+3rd face to face round
+————————————-
+Interviewer asked some basics Questions on Design patterns, OOPS and OS,after the big Discussions of all the Questions he asked 1 coding questions.
+1st Question
+————
+There is a string, in which all the spaces are removed, we have to find the original string with the help of a machine which takes input a word checks that it is valid or not.
+Telephonic Interview
+————————————-
+The Interviewer asked to give a brief idea about my project.
+After some  questions on my Project, the interviewer asked 2 coding question
+Q-1)  tree to doubly link list. O(n) and in-place solution is required.
+Q-2) A array of N elements, we have to replace all the elements with nearest greater which is present on the right side of that elements. O(n) is required.
+After 2 days, they inform me that I am selected for the job. 🙂
+Run on IDE
+

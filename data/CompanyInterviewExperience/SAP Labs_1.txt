@@ -1,0 +1,46 @@
+SAP Labs visited our campus on 25th July, 2018 for two kinds of offers i.e.  1) Full time + internship 2)only internship. There was no PPT as such. It was open to all branches .GPA cut off was 7.0
+Round 1: this was online test which consisted 27 questions in total which had 2 sections with the time limit of 75 minutes.
+i)Technical aptitude: wide range of questions mostly on OS, DBMS, OOPS(again java related questions were more compared to C++), Data structures, Algorithms, Networks.There were different sets of questions given to participants .Some had got 1 or 2 quantitative aptitude questions.
+ii)Coding section:2 questions were given, one having 14 test cases and the other having 10 test cases. First question was quite easy, basically one had to understand the basic logic with the hints given and code accordingly. Second question was moderate one which was “Find the number of distinct palindromic sub strings in the given string”. Again there were different sets of coding questions out of which at least one was solvable provided the student had good practice.
+Also its necessary to clear the sectional cut off in both sections .I  was able to solve 2 coding questions in first 45 minutes and later could finish the other section.
+Tips:
+Out of 500+ students who wrote the test, 21 were shortlisted for “FTE+internship” and 11 were shortlisted for “only internship” for further rounds.
+Round 2: Technical (2 member panel)
+as per my friends who gave their interview before me: Basic questions on linked lists, trees, searching and sorting algorithms, arrays were asked. Also almost everybody were asked a puzzle to be solved. On an average the first round was for 20-25 minute.
+I was called for 1st round of interview after waiting for 5 hours.
+The interviewers started with the basic questions like Tell me about yourself?, Why engineering and not medical? Why software field?. These questions are asked just to keep you busy while they go through your resume.
+Later the actual part began. To my shock, one of them started with Networks(which I had not specifically prepared for  as it wasn’t mentioned in most of interview experiences(sap labs)  written till then ) related questions, they were
+After this, one of them started to ask about projects on the resume. I had put 3 projects which i was very confident of (very important).I was asked to explain all the 3 projects in depth. They will drill about projects in much detail including even somethings which you might consider to be silly. During this, i was asked to write down the ER diagram of our DBMS project, as he came to know we had 16 tables in it, he narrowed down the question asking me to write only 3 or 4 tables(which were related to important aspect /functionality provided in the project).He asked me whether i would like to draw ERD on paper or on board, i said board and chose it(Both of the interviewers looked impressed and even appreciated for being bold and daring).
+Finally i drew the 4 tables of ERD of DBMS project on the board clearly. Later they began asking me to write SQL queries (initially easy ones to harder ones).5 or 6 SQL queries were asked, such that aggregate functions were to be used in each one of them. I was able to write all of them. Along with this, they asked some questions of DBMS like:
+Basically you need to know about normalization, SQL queries, joins, transactions etc.,
+Some questions which i dint know answer for were about REST API, SOA (service oriented architecture)
+Later i was asked which language i am good at to which my answer was C++.So they asked few C++ questions which were:
+Then the coding part along with puzzle. The questions were
+After that he saw the algorithm, was okay with it but asked me to say the colour of the last ball. I said based on some probability. I explained my assumptions .Later he asked me to trace the solution, I did and fortunately landed with the answer that I said before.
+Finally at the end they asked “why SAP?” then asked if i had any questions for them. Make sure you ask at least one.
+This round lasted for 1.5 hours.
+Round 3: Technical (1 on 1)
+Again in this round, the interviewer asked about every project, OOPS concepts and a question of trees data structure i.e https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/ .
+He asked what are the difficult questions that were asked are in 1st interview and my answers for that. Later he went on explaining what he does in company and why SAP?
+This round lasted for 35 minutes approximately.
+Round 4: Managerial(1 on 1)
+The person who took this round was a senior one (VP of some unit).
+This got started casually by asking “which is the book you recently read?” to which i answered something, then he began to frame a question indirectly which was “Caesar cipher” (we had in computer networks and security) https://en.wikipedia.org/wiki/Caesar_cipher .
+Later he asked me to write the code for it.Then he began increasing the complexity by asking “this is the code for ENGLISH language, what if I give you other language?”, “How do you do  this efficiently if there are millions of pages of books to be processed by this algorithm?”.
+Then the questions were quite normal like
+Was asked if I had any questions in this round too. This round happened for around 20-25 minutes.
+Round 5: HR (1 on 1)
+Even this person was very calm, started by asking how was my day? the other interviews?Some questions asked were
+so, this round lasted for 20 minutes approximately.
+Out of 21 who were shortlisted after online test, only 9 were remaining who had completed all the 5 rounds(1 test + 4 interviews).In this, only I was from INFORMATION SCIENCE  AND ENGINEERING branch, the rest 8 were from COMPUTER SCIENCE.
+At last, they selected 4 of us out of 9. I was fortunate to be one among the 4.(“FTE+internship)..
+TIPS:
+**BE READY FOR EVERYTHING**
+RESOURCES that can be referred to:
+https://www.hackerrank.com (for coding), https://www.geeksforgeeks.org   (literally you have almost all kinds of questions of all subjects and programming), for aptitude you can use http://www.indiabix.com or RS AGARWAL textbook.
+For core subjects, it’s better to study and learn from the prescribed textbooks.
+Do not consider placement as burden, when you have actually prepared thoroughly, you will crack it one day provided company feels you fit into their requirements.
+ 
+**DO NOT LOSE HOPE IF YOU ARE NOT HIRED, it is very much necessary to learn from each interview experience you have and to prepare yourself best for the next.do not give up at any cost, keep preparing (because there is lot to learn) and be in the race. THERE WILL BE A COMPANY WHICH WILL HIRE YOU BECAUSE YOU WILL BE THE BEST TO THEM.**
+Thank you, hopefully this post will be helpful to many of you.
+ 

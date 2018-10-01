@@ -1,0 +1,17 @@
+Given an array of distinct integers and a sum value. Find count of triplets with sum smaller than given sum value.  Expected Time Complexity is O(n2).
+Examples:
+A Simple Solution is to run three loops to consider all triplets one by one. For every triplet, compare the sums and increment count if triplet sum is smaller than given sum.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of above solution is O(n3). An Efficient Solution can count triplets in O(n2) by sorting the array first, and then using method 1 of this post in a loop.
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Thanks to Gaurav Ahirwar for suggesting this solution.

@@ -1,0 +1,31 @@
+OnSite Interview ( 5 years experienced)
+Round 1 – ( 40 mins)
+1. You are getting a running stream of integers. This running stream is a input to a multithreaded environment and many thread are working parallely on this running stream of integers to print the numbers but the number printed by one thread should not be printed by other threads.
+2. Find a loop in singly linked list.
+3. Design problem: –
+you have 3 files and you need to print the output of operations inside those files onto log files.
+Like some other 4th files come , then your code should be able to print its operation output with minimal change in code.
+4. why do you want to change company?
+5.Brief about yourself
+Round 2. ( 40 mins)
+1. how you deploy web applications .
+2. what tools you use to manage software product life cycle
+3. How you optimize your code containing 1000s lines of codes
+4. an observer desgn pattern problem
+5. why do you want to change company?
+6. Brief about yourself
+Round 3 (40 mins)
+1. How to take care of memory leak in your program execution?
+2. how you configue JVM on unix
+3. How to increase the limit of JVM memory in Unix
+4. A Ant collision probability problem.
+5. why do you want to change company?
+6. Brief about yourself
+Round 4 (Director’s round) ( 30 mins)
+1. Brief about yourself
+2. why do you want to change company?
+3. Salary Discussions
+Round 5 (HR Round ) (30 mins)
+1. Brief about yourself
+2. why do you want to change company?
+3. Salary Discussions.

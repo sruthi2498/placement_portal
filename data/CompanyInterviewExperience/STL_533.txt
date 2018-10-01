@@ -1,0 +1,9 @@
+We have discussed map in C++ STL and multimap in C++ STL.  The default behavior of these data structures is to store elements in ascending order. How to ensure reverse order or descending order when inserting elements in map and multimap.
+The idea is to greater function when an instance of map/multimap.
+
+Example:
+Run on IDE
+Output: 
+
+Run on IDE
+Output: 

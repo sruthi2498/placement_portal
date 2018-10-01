@@ -1,0 +1,9 @@
+Round 1: 
+Online test- it consisted of mcq baeed on oop and output questions. There were 2 coding questions. The questions were quite moderate.
+1 – it was bfs with a little modification.
+2 – Given a string of lowercase alphabets, for each query calculate the distance of the alphabet at the index to the nearest same alphabet. Ex. if string = abacb then the ans would be 2 3 2 -1 3. So if query is 2 then ans would be 2. Can be done in O(n). Some guys did it in O(nlogn), which also passed.
+Round 2: 
+After round 1 they selected around 30 students for technical as well as professional fitment round. They asked dsa + dbms questions mainly. Some problems were n-queen problem. On stack, trees, linked list and some puzzle. For some questions we were asked to implement the function/method. They also asked some puzzles like water jug. Prisoners and poison puzzle.
+For professional fitment the questions were the basic hr questions. Define yourself. Why DB? Strengths. Weaknesses. Goals. Where do u see yourself in 5 years.
+Round 3:
+Another professional fitment type round. Define yourself. How do you think of yourself as a team leader or team player. What will you choose- integrity/loyalty.

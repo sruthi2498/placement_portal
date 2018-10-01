@@ -1,0 +1,9 @@
+We have to print a pattern where in middle column contains only 1, right side columns contains constant digit which is greater than 1 and left side columns contains constant digit which is greater than 1. Every row should look like a Palindrome.
+Examples :
+Below is the implementation to print following pattern :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

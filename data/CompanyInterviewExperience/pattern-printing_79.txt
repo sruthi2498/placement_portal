@@ -1,0 +1,10 @@
+For any given number n, print  Hollow and solid Squares and Rhombus made with stars(*).
+Examples:
+1. Solid Square :  Solid Square is easiest among all given patterns. To print Solid square with n rows, we should use two loops iterating n times both. Where the outer loop is used for numbers of rows and the inner loop is used for printing all stars in a particular row.
+2. Hollow Square : Hollow Square requires a little bit improvisation. Here we should again use two loops, where 1st and last row must have all n-stars and remaining rows have stars only in 1st and last column.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

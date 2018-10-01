@@ -1,0 +1,11 @@
+STL is one of the pillars of C++. It makes life lot easier, especially when your focus is on problem solving and you don’t want to spend time in implementing something that is already available which guarantees a robust solution. One of the key aspects of Software Engineering is to avoid reinventing the wheel. Reusability is always preferred.
+While relying on library functions directly impacts our efficiency, without having a proper understanding of how it works sometimes loses meaning of the engineering efficiency we keep on talking. A wrongly chosen data structure may come back sometime in future to haunt us. The solution is simple. Use library methods, but know how does it handles operations under the hood.
+Enough said! Today we will look on how we can implement our own Iterator pattern of a single Linked List. So, here is how an STL implementation of Linked List looks like:
+Run on IDE
+Output
+One of the beauty of cin and cout is that they don’t demand format specifiers to work with the type of data. This combined with templates make the code much cleaner and readable. Although I prefer naming method in C++ start with caps, this implementation follows STL rules to mimic exact set of method calls, viz push_back, begin, end.
+Here is our own implementation of LinkedList and its Iterator pattern:
+Run on IDE
+Output:
+Exercise:
+The above implementation works well when we have one data. Extend this code to work for set of data wrapped in a class.

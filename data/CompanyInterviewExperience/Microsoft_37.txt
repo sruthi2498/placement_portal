@@ -1,0 +1,5 @@
+Given some text lines in one string, each line is separated by ‘\n’ character. Print the last N lines. If the number of lines is less than N, then print all lines. 
+An approach for this problem has been already discussed in Set-1 where only 10 lines were printed. In this post, another approach is discussed for printing the last N lines.
+Algorithm:
+Below is the implementation of the above approach:
+Run on IDE

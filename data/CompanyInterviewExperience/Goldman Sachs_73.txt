@@ -1,0 +1,28 @@
+Goldman Sachs Visited our campus a week back and this was the procedure.
+Round 1 : Online Round (90 minutes)
+Platform: HackerRank
+   15 MCQ Questions (tough if asked to solve in 30 minutes)
+    1 coding question . Question was pnc based.
+17 were selected after this round.
+Round 2 : PI (Technical) 45 Minutes-1 hour
+Introduce yourself.
+Detailed discussion of my projects (make sure you are well versed with your projects)
+1 puzzle on the 2 rope problem which burn in 60 minutes ,and you have calculate 45 minutes.
+Then asked me my interests , I said Data Structures .
+Asked me questions on HashTable , HashMap ,implementation of the same.
+Find if 2 given nodes of a tree are siblings or not.
+Given a linked list and only a pointer to the node delete the node.
+Another puzzle question. There are 25 horses with a race track on which  5 horses can race at a time. How many minimum races needed to find top 3 horses.
+Round 3 (Technical) 45 minutes.
+He saw my cv thoroughly and saw I knew php and hence database. So asked me to design a database system for mobile shops in different cities with different branches in each city. Each branch selling same mobile phone at different costs.
+Then asked me to write a query to get the branch and city where the mobiles phone’s cheapest price is available.
+Asked me implement queue using 2 stacks.
+Given two array find which number is missing from the first and second one. (easiest question of all)
+Round 4 (Interview with the  hiring manager) 45 minutes
+Asked me to introduce myself.
+Saw I knew data structures so asked me to implement heap and asked why trees are used if we can represent the tree in an array ( given that if a child is not present we mark that array element as 0)
+Asked me how can we implement a search engine like Google with millions of pages to be searched. I answered hash table as it’ll take O(1) time. Then I was asked what would be the time complexity if we’ve clashing in the hash buckets. Asked me about best hash functions.
+One aptitude question. Given 8 balls with one having more weight than other find it in minimum tries (Common question) I answered. He said now let’s the change the question to  “you don’t know if the odd one out ball is lighter or heavier than others”, now how many tries are needed?  (couldn’t solve this one)
+I would like to thank Geeksforgeeks for helping me in the preparation for my interviews.
+
+

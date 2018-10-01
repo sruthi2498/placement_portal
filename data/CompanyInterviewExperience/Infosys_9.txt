@@ -1,0 +1,26 @@
+Given an array, the task is to reverse the array without using subtract sign ‘-‘ anywhere in your code. It is not tough to reverse an array but the main thing is to note use ‘-‘ operator.
+
+Asked in: Moonfrog Interview
+Below are different approaches: 
+Method 1: 
+1- Store array elements into a vector in C++.
+2- Then reverse the vector using predefined functions.
+3- Then store reversed elements into the array back.
+Method 2: 
+1- Store array elements into a stack.
+2- As the stack follows Last In First Out, so we can store elements from
+    top of the stack into the array which will be itself in a reverse manner. 
+Method 3:
+1- In this method the idea is to use negative sign but by storing it into a variable.
+2- By using this statement x = (INT_MIN/INT_MAX), we get -1 in a variable x.
+3- As INT_MIN and INT_MAX have same values just of opposite signs,so on dividing them it will give -1.
+4- Then ‘x’ can be used in decrementing the index from last.
+Run on IDE
+Output:
+ Method 4:
+In this method 4, the idea is to use bitwise operator to implement subtraction i.e.
+ A – B = A + ~B + 1
+so, i– can be written as i = i +~1 +1
+Run on IDE
+Output:
+

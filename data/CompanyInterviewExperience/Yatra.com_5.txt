@@ -1,0 +1,13 @@
+Given an array “a[]” and integer “b”. Find whether b is present in a[] or not. If present, then double the value of b and search again.  We repeat these steps until b is not found. Finally we return value of b.
+Examples:
+Question Source : Asked in Yatra.com Online Test
+
+1)  Sort the input array.
+2)  Keep doing binary search and doubling until the element is not present.
+The below code using binary_search() in STL
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

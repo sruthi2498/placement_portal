@@ -1,0 +1,91 @@
+Written round:
+3 hours of written test.
+First technical and then aptitude.
+Few technical questions that I can remember.
+1)
+2) Given a boolean number in string form.
+        WAP to output the 2’s complement of the number in the same form(string).
+3) Convert a prefix expression to postfix.
+4) Some assembly program was given, needed to tell what exactly the program was doing.
+5) Some basic hash related questions.
+Aptitude questions are standard and repeated everytime.
+Can be looked up on the net.
+Round1: F2F
+1) Implement n-ary tree using down-right approach.
+Traversal both level-order and in-order.
+Asked to code eveything.
+2) What data structure would you use to store a composite linked list?
+Composite means that the data value in the individual nodes could vary among the primitive data types.
+I started with void* and an enum entry to specify the type to help during retrieval.
+Then moved to using union. He looked happy with this.
+3) Implement malloc and free.
+4) Memory layout of a C program.
+5) What do I like about Adobe Photoshop from the technical point of view?
+How would you load and display a 3 GB data file at runtime.
+Round 2: F2F
+1) Design and implement garbage collector in C.
+Many aspects were discussed here.
+When to trigger?
+Who is responsible?
+Which memory to free?
+2) Given an integer number, how would you determine if it is a palindrome.
+He wasn’t too impressed with the stack based method.
+Wanted in lesser space complexity.
+So gave solution like this:
+rem = num1%10;
+num1 = num1/10;
+num2 = num2*10 + rem;
+if the new number created in equal to the original, it is a palindrome.
+He wanted me to optimize it further.
+So started comparing num1 and num2 also, if the number has even-digits, it would return early.
+Also, if the number is a multiple of 10, can outrightly say it is not a palindrome.
+3) Given a integer number, find the next higher palindrome number.
+
+Round 3: F2F
+1) Code to check if a binary tree follows the below property.
+Every node’s data = sum of left subtree + sum of right subtree.
+2) Design a model for implementing sync mechanism for Google drive.
+(handling only the client side).
+Same file can be accessed and modified by different clients.
+Take care of power failure, no internet connection scenarios too.
+3) Given an infinite stream of boolean digits, need to tell at runtime whether the number received so far is a multiple of 3.
+example, first digit recieved is 1, so number is 1 -> not a multiple of 3.
+second digit received is 0, so number is 2 -> not a multiple of 3.
+Constraint is that you can only use a 2-bit buffer to store.
+Ans: always store the remainder to know if it is a multiple of 3.
+in the above example,
+rem = 1%3 = 1
+when 0 comes, new remained = 2*1 + 0 = 2 %3 = 2.
+and so on.
+
+Round 4:
+1) Code for given a sorted but pivoted array, find the ceiling of a given number.
+2) Discussion on projects.
+Volatile keyword.
+Discussion on use of extern and static.
+3) Big endian and little endian architecture.
+How to identify if big endian or little endian.
+If something has been written on the disk using big endian architecture and then read using little endian architecture, how would happen?
+
+Round 5:
+2 questions asked here, i genuinely didn’t know the answer to.
+I just tried attempting in all possible ways and analysing the pros and cons.
+1) Given a rectangular sheet of paper, and a set of very irregular shapes.
+I was to cut these shapes out of the paper, in such a way
+that ‘there is a good mix’ of all the pieces and the wastage of paper is minimal.
+When I say irregular, it can also have a hole in the middle.
+2) Say now, on a touchscreen display, you have those set of irregular pieces.
+You touch at a point and swipe it, the corresponding piece should move in that direction. This game is interactive and needs good time complexity.
+3) Given a fairly large number, need to tell whether the number is part of fibonacci series or not.
+You are not allowed to generate all the number in the fibonacci series.  
+I was not aware of the direct formula to check this at that point.
+So tried the matrix multiplication method to calculate the nth fibonacci number.
+I calculated the 1st number, 2nd number, 4th and so on, till the number exceeded the given number.
+And then used binary search to track the answer down.
+4) Was asked if I could improved the performance on the hardware.
+I said by calculating all fours member of the matrix parallelly on four cores, if available. He looked satisfied.
+Asked to explain the MVC design Pattern.
+Thank you geeksforgeeks for the awesome resource you are!
+Cheers!  
+
+

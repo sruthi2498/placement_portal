@@ -1,0 +1,23 @@
+Vectors are same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled automatically by the container.
+begin() function is used to return an iterator pointing to the first element of the vector container. begin() function returns a bidirectional iterator to the first element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)
+end() function is used to return an iterator pointing to next to last element of the vector container. end() function returns a bidirectional iterator.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time Complexity : O(1)

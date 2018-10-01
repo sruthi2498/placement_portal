@@ -1,0 +1,12 @@
+You have been given a series (1*1) + (2*2) + (3*3) + (4*4) + (5*5) + … + (n*n), find out the sum of the series till nth term.
+Examples :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Please refer below post for O(1) solution.
+Sum of squares of first n natural numbers

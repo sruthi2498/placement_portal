@@ -1,0 +1,7 @@
+The list::remove() is a built-in function in C++ STL which is used to remove elements from a list container. It removes elements comparing to a value. It takes a value as the parameter and removes all the elements from the list container whose value is equal to the value passed in the parameter of the function.
+Syntax: 
+Parameters: This function accepts a single parameter val which refers to the value of elements needed to be removed from the list. The remove() function will remove all the elements from the list whose value is equal to val.
+Return Value: This function does not returns any value.
+Below program illustrates the list::remove() function. 
+Run on IDE
+Note: This function works in linear time complexity.

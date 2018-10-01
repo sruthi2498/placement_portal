@@ -1,0 +1,32 @@
+Visa Inc. came to our campus for placements. There was one written round (mettl.com) and 3 PI rounds. 
+Written Round
+The written tests covered almost every aspect of computer science – Programming, CO, OS, DBMS, ML etc. In addition to just using it as a cutoff for interview shortlist, they had also done an extensive analysis of each and every candidate (We could see pie charts for each section during our interviews).
+Coding questions were:
+1. Given a plane and n lines, what are the maximum number of regions formed (Solution: Lazy Caterer’s Sequence)
+2. Given an array of numbers, find the largest subarray of numbers to be negated to obtain the maximum sum. 
+Only one subarray can be negated while calculating the sum
+for ex: -1 -2 7 -8 10 -3 -4 -5
+Ans = 3 (negate -3 -4 -5 to get maximum sum)
+PI Rounds:
+Round 1
+       1)    What do you think about Mobile Apps for Visa? (They had exactly one US position for this domain)
+       2)    Detailed discussion about each and every project
+       3)    What is Concurrent programming (Based on course taken)
+Round 2 (Software Engineering)
+       1)    What is Agile methodology?
+       2)    What is your project? If you are going to deploy this for commercial use, what additional aspects to be taken care of?
+       3)    Different types of testing?
+       4)    What types of testing used in project?
+       5)    What is QA? How can you ensure QA?
+       6)    What kind of bugs were fixed in project? How were they fixed?
+       7)    What programming language used for project?
+       8)    About python programming language – advantages and disadvantages (based on my answer to the previous question)
+       9)    Questions based on my previous work experience
+Round 3 (About VISA)
+       1) Applications of Data Mining, Machine Learning for a company like VISA.
+       2)    What kind of data mining can be done on VISA data? What are the uses?
+       3)    What kind of position, are you interested in? ( Multiple profiles were available. It is important to know atleast one or two of them)
+Final Note: Resume is very important. I was questioned about each and every point, I had written in my resume.
+I would like to thank the GeeksForGeeks admins for maintaining such an awesome website. 
+
+

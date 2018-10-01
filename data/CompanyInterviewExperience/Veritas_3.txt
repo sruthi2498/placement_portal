@@ -1,0 +1,40 @@
+Veritas visited our college for campus hiring, 30th August, 2017 . The selection process included aptitude test and Personal Interview round.
+Aptitude Test consisted of 20 questions based on:
+1) Bitwise shift operator.
+2) Pointer basics.
+3) Object oriented concepts based on C++.
+4) Output based questions on C and C++.
+5) Coding round was also included in this 1 hour round and one who solved it got selected for further process. There was only one question which was based on bit manipulation.
+For Examples are given below:
+Give the output of the following:
+Run on IDE
+Output:
+MCQ question with 4 options:
+Run on IDE
+options:
+a) 65
+b) 56
+c) 5some garbage value
+d) Error
+Answer:
+Choose up the correct optiotn:
+if (x & (x-1) == 0)
+then,
+a) a is an even number
+b) a is a power of 2
+c) a is an odd number
+d) Nothing can be decided.
+Ans:
+At last there was one coding question which was as follows:(We had to complete a function only)
+1) Given a decimal number, count the number of set bits i.e. 1, in its binary representation and return an array from the function which has the following format:
+    a) The array[0] will contain the number of set bits in the binary representation of the number.
+    b) The remaining elements of the array should be the position of the set bits in the binary representation.
+Explanation:
+Let we have a number n = 161.
+Its binary representation is as follows: 1 0 1 0 0 0 0 1
+So the array should be ass follows:
+array[0] = 3 (i.e. number of set bits )
+array[1] = 1 (position of the first set bit as seen from MSB to LSB)
+array[2] = 3 (position of the second set bit as seen from MSB to LSB)
+array[3] = 8 (position of the third set bit as seen from MSB to LSB)
+There were total 147 students out of which 37 were selected for PI round.

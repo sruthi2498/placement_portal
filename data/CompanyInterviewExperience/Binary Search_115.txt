@@ -1,0 +1,11 @@
+Prerequisite:
+A linear search scans one item at a time, without jumping to any item .
+A binary search however, cut down your search to half as soon as you find middle of a sorted list.
+Important Differences
+Let us look at an example to compare the two:
+Linear Search to find the element “J” in a given sorted list from A-X
+
+Binary Search to find the element “J” in a given sorted list from A-X
+
+ 
+You may also see

@@ -1,0 +1,12 @@
+Integers X and K are given. The task is to find smallest K-digit number divisible by X.
+
+Examples :
+A simple solution is try all numbers starting from the smallest K digit number
+(which is 100…(K-1)times) and return the first number divisible by X.
+An efficient solution would be :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

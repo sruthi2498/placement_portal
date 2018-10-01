@@ -1,0 +1,52 @@
+Euler’s Totient function ?(n) for an input n is count of numbers in {1, 2, 3, …, n} that are relatively prime to n, i.e., the numbers whose GCD (Greatest Common Divisor) with n is 1.
+Examples :
+How to compute ?(n) for an input n?
+A simple solution is to iterate through all numbers from 1 to n-1 and count numbers with gcd with n as 1.  Below is the implementation of the simple method to compute Euler’s Totient function for an input integer n.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The above code calls gcd function O(n) times. Time complexity of the gcd function is O(h) where h is number of digits in smaller number of given two numbers. Therefore, an upper bound on time complexity of above solution is O(nLogn) [How? there can be at most Log10n digits in all numbers from 1 to n]
+Below is a Better Solution. The idea is based on Euler’s product formula which states that value of totient functions is below product over all prime factors p of n.
+
+The formula basically says that the value of ?(n) is equal to n multiplied by product of (1 – 1/p) for all prime factors p of n.  For example value of  ?(6) = 6 * (1-1/2) * (1 – 1/3) = 2.
+We can find all prime factors using the idea used in this post.  
+Below is the implementation of Euler’s product formula.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Output :
+We can avoid floating point calculations in above method.  The idea is to count all prime factors and their multiples and subtract this count from n to get the totient function value (Prime factors and multiples of prime factors won’t have gcd as 1)
+Below is the implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Let us take an example to understand the above algorithm.  
+Some Interesting Properties of Euler’s Totient Function
+1) For a prime number p, ?(p) is p-1.  For example ?(5) is 4, ?(7) is 6 and ?(13) is 12.  This is obvious, gcd of all numbers from 1 to p-1 will be 1 because p is a prime.
+2) For two numbers a and b, if gcd(a, b) is 1, then ?(ab) = ?(a) * ?(b).  For example ?(5) is 4 and ?(6) is 2, so ?(30) must be 8 as 5 and 6 are relatively prime.  
+3) For any two prime numbers p and q, ?(pq) = (p-1)*(q-1). This property is used in RSA algorithm. 
+4) If p is a prime number, then ?(pk) = pk – pk-1.  This can be proved using Euler’s product formula.
+5) Sum of values of totient functions of all divisors of n is equal to n.
+
+For example, n = 6, the divisors of n are 1, 2, 3 and 6. According to Gauss, sum of ?(1) + ?(2) + ?(3) + ?(6) should be 6. We can verify the same by putting values, we get (1 + 1 + 2 + 2) = 6.
+6) The most famous and important feature is expressed in Euler’s theorem : 
+The RSA cryptosystem is based on this theorem:
+In the particular case when m is prime say p, Euler’s theorem turns into the so-called Fermat’s little theorem : 
+7) Number of generators of a finite cyclic group under modulo n addition is ?(n).
+Related Article:
+Euler’s Totient function for all numbers smaller than or equal to n
+Optimized Euler Totient Function for Multiple Evaluations
+References:
+http://e-maxx.ru/algo/euler_function
+http://en.wikipedia.org/wiki/Euler%27s_totient_function

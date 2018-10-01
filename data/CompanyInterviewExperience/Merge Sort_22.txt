@@ -1,0 +1,52 @@
+Online test:
+Coding : Time : 90 minutes
+There were three coding questions as follows:
+i > A man starts from his house with a  few pan cakes. let they be N. Now he visits K places before reaching home. At each place he can buy  a cake, sell a cake or do nothing. But he must sell L cakes before reaching home.Find the maximum number of cakes he can have at any point in his journey.N,K,L are given as input
+ex:   for 5 3 1 , output: 7
+ii > The exact question i don’t remember. You have to find the maximum contiguous subarray in an array. Basically a question on Kadane’s algorithm
+iii > There is a text. There is a pattern. The pattern contains a * symbol and it can be replaced by 0 or more letters(any letter) . For example if the pattern in aa*b the aaab, aab,aaccb,etc all are valid patterns.You have to find number of occurrences of the pattern in the text.
+MCQ: 50 minutes
+There were 45 questions based on logical reasoning, data interpretation and elementary mathematics. One advice is that start from the end, they are much easier than those in the beginning.
+About 16 students were selected for interviews.
+
+Round 1
+The interviewer looked at my resume. Then directly moved to Data Structures and Algorithm.
+1> He asked me about sorting algorithms.Then he asked me what is the difference between quick sort and merge sort and when to use what?
+I told him merge sort is stable and quick sort has a worst case complexity of o(n^2) but in quick sort we don’t need to merge sorted array. In case of arrays we use Quicksort and for linked lists we use merge sort
+2 > Write code for merge sort of a linked list containing floats
+3> He then told me about bubble sort in linked lists by swapping of data in nodes and asked what is the problem here apart from complexity?
+I told that looked lists generally contain chunks of data so swapping data can cause considerable overheads and degrade performance. He seemed happy with the answer.
+4 > How is a float like 5.7 represented internally in the CPU?
+I had to tell about IEEE notations. I didn’t remember those so could not answer it.
+5 > Few questions on Operating Systems , Threads, Process, their difference , paging, etc
+6 > You have to write a generic Compare function for sorting. For example, suppose there is a Student class containing marks of Subjects X,Y,Z. you have to write a compare function for sorting based on any field that the user wishes.
+Hint:Use Function pointer 
+7 > Two numbers are given you have to multiply them without using * operator and also tell the minimum number of additions required to do so.
+i gave an also but could not tell the minimum number of additions required.
+
+Round 2
+Again the interviewer looked at my resume and told i have done a good number of projects. But again no questions on my projects.
+1 > Design a Cache for storing any kind of data.
+As we do not know what data is to be stored , so we must return  void pointers. Now first i implemented with an array. Then for page replacement i used LRU. For keeping track of least recently used element, i used a heap. I was told to further optimise it . So First represented the cache a heap then finally went ahead with a Doubly Linked List with addresses of nodes stored in a HashMap.Wrote codes for set and get functions for the cache and replacement also.
+The interviewer helped a lot and pushed me towards correct solution
+2 > A C code was given and i was asked to find the error. It was a tough one involving pointers and character alignment within the memory space and segmentation faults.
+3 > A few questions on function overloading
+4 > The arrival time and departure times of trains are given, you have to find the minimum number of platforms required for the trains.
+
+Round 3
+In this round, my internship project was discussed in details. Then the following questions were asked:
+1 > What happens when we often allocate and deallocate memory?
+There was a long discussion on how the OS allocates memory, fragmentations , how to avoid it (compaction).
+2 > how compaction works? he was asking for algo
+Told him that memory blocks can be represented by 0(free) and 1(occupied). Compaction would then mean moving all the 0s in the end. I told him the respective algo for array and linkedlist.
+3 > how deallocation occurs and what things should be taken care of during deallocation?
+I told him that instead of frequently allocating and deallocating memory, we can reuse it using realloc(). There were a few questions on realloc().
+4 > Why row major traversal of a very big array is faster than column major traversal?
+Told him the benefits it can have from internal caching
+5 >You have to cover a distance N. You can take 1,2 or 3 steps. Find number of ways of doing s0.
+Gave both the recursive and dp solution.
+
+Round 4(Final HR round)
+This was basically an HR round and questions like Why adobe? If you get another job, how will you decide which one to accept ? What is your location preference ? etc were asked.
+
+

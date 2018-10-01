@@ -1,0 +1,20 @@
+Given an array of integers, find the nearest smaller number for every element such that the smaller element is on left side.
+Examples: 
+Expected time complexity is O(n).
+A Simple Solution is to use two nested loops.  The outer loop starts from second element, the inner loop goes to all elements on left side of the element picked by outer loop and stops as soon as it finds a smaller element.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of the above solution is O(n2).
+ 
+There can be an Efficient Solution that works in O(n) time. The idea is to use a stack.  Stack is used to maintain a subsequence of the values that have been processed so far and are smaller than any later value that has already been processed.
+Below is stack based algorithm 
+Below is C++ implementation of above algorithm.
+Run on IDE
+Output: 
+Time complexity of above program is O(n) as every element is pushed and popped at most once to the stack. So overall constant number of operations are performed per element. 
+This article is contributed by Ashish Kumar Singh. Please write comments if you find the above codes/algorithms incorrect, or find other ways to solve the same problem.

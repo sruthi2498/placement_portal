@@ -1,0 +1,11 @@
+Given an array of distinct integers, the task is to find two pairs (a, b) and (c, d) such that ab = cd, where a, b, c and d are distinct elements.
+Examples:
+
+A Simple Solution is to run four loops to generate all possible quadruples of array element. For every quadruple (a, b, c, d), check if a*b = c*d. Time complexity of this solution is O(n4).
+An Efficient Solution of this problem is to use hashing. We use product as key and pair as value in hash table.
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n2) assuming hash search and insert operations take O(1) time.
+Related Article:
+Find four elements a, b, c and d in an array such that a+b = c+d

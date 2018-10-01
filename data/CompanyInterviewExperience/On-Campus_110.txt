@@ -1,0 +1,18 @@
+Analytics Quotient visited our campus for two profiles – Software Engineer(SE) and Business Analyst(BA). I applied for the post of a Software Engineer. Around 300 plus students applied for both the profiles and around 150 students applied for the Software Engineer profile. The Recruitment process consisted of the following rounds:-
+Round 1: Online Test  
+The Online test consisted of two main modules:-
+1)Aptitude Module:- There were a total of 50 questions divided into 4 parts- Quantitative Aptitude, Verbal Ability, reading Comprehension, Data Interpretation. Time limit was 45 minutes for the 50 questions and questions were of medium difficulty level.
+2)Technical Module:- There were a total of 50 questions divided into 4 sections – Data Structures, C Programming, Object Oriented Programming, Database. Time limit was 45 minutes for the 50 questions. Output type questions were asked in the section for C programming(Mainly focus on pointers, strings, enums etc) and for Database questions on SQL server and some queries.
+Tips:- There is negative marking, so attempt questions carefully and you cannot review a question back.
+Around 10 students were shortlisted for the coding round.
+Round 2: Coding 
+There were two coding questions to be solved in 40 mins
+1)Find the sequence in an array with minimum sum. Print the sum and the sequence. Example:- Input array is say {9, 10, 200, 1, 3, 2} then output should be {1, 2, 3} and the sum = 6.
+2)Convert a string to palindrome by appending minimum number of characters to it. Example : – If the string is say “MAD”, then the output should be “MADAM”.
+Tips:- Code should be in C with minimum possible time complexity. They check your way of approaching the problem.
+4 students were shortlisted for the interview round.
+Round 3: Personal Interview
+There was just one round of interview which covered both technical and HR questions. Asked about my projects and asked me to explain the code I wrote in the coding round. Some technical questions were like sorting an array using binary search tree, Concepts of oops, Real life application of Data Structures like Stack, Queue, Graph etc. Finally asked me some basic HR Questions.
+Only one was selected for the Software Engineer profile and luckily it was me. And 3 other students were selected for the Business Analyst profile.
+I suggest you to be confident and have deep knowledge in your area of interest. My recommendation is geeksforgeeks and you can use stackoverflow for different aspects of any problem.
+Thanks geeksforgeeks for such a huge platform for us.

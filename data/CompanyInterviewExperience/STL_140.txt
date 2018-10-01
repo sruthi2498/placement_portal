@@ -1,0 +1,22 @@
+Given an array of distinct integers and a range [a, b], the task is to count the number of triplets having a sum in the range [a, b].
+Examples:
+A naive approach is to run three loops to consider all the triplets one by one. Find the sum of each triplet and increment the count if the sum lies in a given range [a, b].
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(n3)
+An efficient solution is to first find the count of triplets having a sum less than or equal to upper limit b in the range [a, b]. This count of triplets will also include triplets having a sum less than the lower limit a. Subtract the count of triplets having a sum less than a. The final result is the count of triplets having a sum in the range [a, b]. 
+The algorithm is as follows:
+To find the count of triplets having a sum less than or equal to given value, refer Count triplets with sum smaller than a given value
+
+Below is the implementation of the above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(n2)
+Auxiliary space: O(1)

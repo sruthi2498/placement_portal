@@ -1,0 +1,29 @@
+Here is the hiring process they followed (in my case):
+Round-1: (Online Coding Round)
+Question-1: 
+Abstract
+An orienteering map is to be given in the following format.
+Calculate the minimum distance from the start(S) to the goal(G) with passing all the checkpoints(@).
+Specification
+‘.’ means an opened-block that players can pass.
+‘#’ means a closed-block that players cannot pass.
+It is allowed to move only by one step vertically or horizontally.
+1 <= width <= 100, 1 <= height <= 100
+The maximum number of checkpoints is 18.
+Return -1 if given arguments do not satisfy specifications, or players cannot arrive at the goal from the start by passing all the checkpoints.
+Input
+The input is to be given in the following format, from the standard input.
+The first row is to describe the width and the height of the orienteering map, sectioned by a space.
+Output
+Output into the standard output, and put a return.
+Question-2:
+Implement a Immutable Queue in Java.
+In both of these question Code skeleton was provided.
+Round-2: (Interview)
+After this, we had to select our location and dates of the interview also.
+It was 13th September and we went there for the interview. Interview was further taken in 4 different rounds.
+1. Live Coding – In this round the interviewer asked to optimize and code the first problem in the given assignment and print the complete path from source to goal in 45-60 min.
+2. Aptitude – 30 MCQs from P&C, Probability, Contribution, Profit – Loss, Time and Work etc. to be done in 1 hour.
+3. Live Coding & Technical Discussion – In this round an engineer discussed the technologies I have worked on and then gave me another problem to code. It was to print all the permutations of a string in sorted order. He gave me a software designing problem and asked me how will you proceed with that and what ideas are you proposing for that kind of a design? And then he asked me about my internship experience with Oracle and what work I was doing that time.
+4. H.R. –
+Not to mention but it was the best round among all. She asked me some usual questions like how their interview process was, the differences I found in the process, why I want to work with them, how I fit in their organization.

@@ -1,0 +1,17 @@
+There were 3 rounds of interview.
+Online Round 
+Online round consisted of 2 coding questions of 200 marks and MCQ of total 31 marks.
+I was able to solve one question completely and scored partially points in the second one. Out of 150 students, 25 were selected for Face to Face interview.
+1. Given a matrix. Empty cells are represented by ‘.’, cells which are occupied are represented by ‘B’. Given two cells ‘S’ and ‘D’, find the minimum distance required from S to D. 
+This is a simple BFS.
+2. Given an array A. Three integers a, b and d. You can add or subtract a or b any number of times to d. You need to check how many elements can be formed by applying these operations to d.
+So consider the equation ax + by = c. For an integer solution to (x, y) c should be divisible by gcd(a, b).
+Round 1 
+This round lasted about 45 minutes. The interviewer asked me some basic DS questions after asking about my projects and internship.
+1. Find cycle in a Linked List.
+2. Check whether a Binary Tree is a BST or not.
+3. Return nth node from the end in a linked list.
+4. Implement LRU Cache. He asked me to implement it in my project.
+Round 2 
+This round also lasted about 45 minutes. The interviewer asked me about the design of my project. Later he asked me to design system for an online resume builder. After that, he asked me to design hotel booking system.
+I was selected after 2 face to face rounds, some candidates went through a third face to face round also.

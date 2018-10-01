@@ -1,0 +1,18 @@
+Given an array arr[0..n-1] of n integers, find the maximum length subarray such that its first element is greater than or equal to the last element of the subarray.
+Examples:
+Naive approach is to use two nested loops for every possible starting and ending element of the subarray and if it satisfies the condition then update the answer accordingly.
+Time Complexity – O(n^2)
+A Better approach is to use Binary search. In this approach for each element in the array we maximise the length of the subarray ending at that element. Then we take the maximum of the all the lengths.
+We will take another array which is used as our search space for choosing the starting element of. We will keep adding element in it as we traverse the array if the element is greater than all the previous elements present in the search space.
+The key observation here is that we will add an element to our search space only when it is greater than all the element of the search space because if the element is lower any other element then it can never be chosen as the first element of the maximum length subarray since we would have a better choice.
+Since the search space is always sorted in increasing order, we just need compare the current element of the array with last element of the search space and if and only if its greater than the last element we add it to the search space otherwise not.  
+Below is the implementation of the above approach
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity – (N * log N)
+Binary search function takes Log N time and the it will be called N times.

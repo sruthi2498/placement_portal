@@ -1,0 +1,91 @@
+Round 1:
+Questions about previous work, design patterns used in the previous work. 
+Given two integers represented in Linked list format and now add these two lists and put it in the third list, at any point of time a node can have only one digit in it.
+With the discussions it came like by considering the carry forwards and all similar to some of two integers represented in a linked list fashion. Interview asked to tell the approach first then for coding 
+Version 1:
+Run on IDE
+Version 2: asked me to take an example and prove the solution is correct
+One of my test case failed if the last digits also give the carry forward
+Run on IDE
+Version 3:
+This will save last digits sum in a single node this is not what I have expected when the sum is of two digits, so please fix the code
+Run on IDE
+Version 4:
+Can u optimize more here…? What is the maximum when you add two digits…? What are the possible values for the carryforward…? Back to back questions
+So the final version of mine is removed the count variable and moved the last condition of carryforward to outside of function. He created more fun here that why he is digging so deeper.
+Run on IDE
+Now write the test cases for this problem.
+Around 15 test cases means test inputs. I had written by looking at my solution.
+The question here is do u write the test cases for your solution or for the problem, consider this is not your code you have been given a problem and write the test cases.
+Then I added some of the test cases by ignoring my assumption of equal length of list.
+Asked to some more to write was happy when I had written a test with linked list size of 10000000 as my solution is recursive I may get the stack overflow exception.
+With this answer he banged me with lot of questions.
+
+Interviewer: Then why do you choose recursion I need an alternate approach not happy with one alternate 
+When I told approach 4 he asked me
+Interviewer: “Are you thinking that why this guy is saving integer in linked list and then asking me for addition of such lists…?”
+Me: Yes
+Interviewer: then answer yourself what is causing me to do this way, lets exchange the roles
+Me: told some scenarios like
+1. want to have index based integers and growing dynamically (so arrays won’t be friendly)
+2. If I want to have a counter which value is more than the range of integer then I can go with this or some other data structure.
+Interviewer: Now lets go back to the question again and then fix your code by ignoring your assumption of equal length of lists
+Me: the above approaches 3 and 4 can solve
+Interviewer: but these are alternate approaches to solve any means of fixing the same solution instead of going with the alternate?
+Me: May be I’ll pad the smaller list with the zeros and then use my algo extra overhead initially but it works.
+Interviewer: Ok Back to your solution Recursion why did you jump and started with the recursion when u have these many alternates…?
+Me: I usually think of recursion when someone ask a question in linked list which will solve sometimes easily as it is unidirectional.
+Interviewer: can u elaborate more how recursion will ease the developer logic
+Me: It uses internally tree through which I can perform operations in reverse direction in a linked list
+Vijj: What tree does it maintain?
+Me: Name is some RecursionTree but its not actually a tree
+Interviewer: Then what is that
+Me: some data structure
+Interviewer: offcourse what is that data strucrue
+Me: I hope its stack as it is working LIFO fashion so I can do the reverse operation easily. That’s why one of my test case checks for Stack overflow exception as I used recursion when I have huge data.
+Interviewer: What is LIFO
+Me: explained about the LIFO and compared with the FIFO.
+Interviewer: Any questions to me …?
+Me: If it is not confidential and obvious tell me what is the core logic or algos used in Bing, as my manager told this is for bing team
+Interviewer: ok if you want to write an algo for a search whats ur approach
+Me: I’ll go with some Heuristics based search, like Best-First search kind of A* algorithm or TSP (Travelling sales person) problem solution.
+Interviewer: if that is the case anyone can write a search engine 🙂 we also use some heuristics but never be like straight A* algo
+And some discussion on Google Vs Bing and then That’s all from my side and you may be part of Bing relevance team once we talk with other guy.
+Round 2: lasts for 1:30 min
+Interviewer: will start directly with the question without wasting time.
+Given an array of +ves and -ves find a sub array which maximum is max among all the sub arrays of any length in the given array.
+Tell the approach first and then write the code
+Me: After some time told the approach with O(n) complexity then he asked me to write the code
+Run on IDE
+Interviewer: Take some numbers and prove that your solution is correct
+Me: Shown with the example I need to traverse for the entire list till I get the answer.
+Interviewer: Does it fail in any scenario?
+Me: no never
+Interviewer: It will fail if all the numbers in the array are -ves
+Me: but initially the question was the array is mix of +ve and -ve
+Interviewer: Ok then let me change the question and consider it has all -ves then does your code fail if so where?
+Me: yes it will with conditionof currMax
+Interviewer: then fix
+Me: took lot of time to fix and then asked me to prove the correctness
+I couldn’t prove my solution as I lost somewhere while I was tracing with the big list but the solution was correct, So
+Interviewer: he asked me to change the initialization and fix that is the hint
+Me: I couldn’t fix as I was stick to my solution, but I gave a alternate approach like
+I’ll multiple all -ve numbers with -1 and make the list is full of +ves and then find the minimum of sub array instead of max once I got I’ll make it is a -ve number before return or print
+Interviewer: very keen on what is the return value of the funtion which I wrote; and he told you are going to the alternate solution instead of fixing the existing solution
+Interviewer: ok lets go to anther question given a tree find the ancestor
+Me: meaning parent, grand parent, or grand grand parent
+Interviewer: does it matter for you? And what is ur approach for say grand parent
+Me: I said may be I’ll go with stack and based of your option I’ll peek the node from stack
+Interviewer: Ok we will go to some other question instead of this.
+Interviewer: I’ll draw a tree on a paper and give that to you take your own time and remember the tree in a data structure and once you say yes I’ll wipe out or take my paper back then consider the data structure is input to your algorithm and them construct my tree back
+Me: I couldn’t understand the problem asked too many questions what he really want like I’ll construct the tree by using ur tree and then call the same function to recreate
+Interviewer: how do you create what is ur input what is the data structure is that
+Me: I said Node blah blah … asked too many question then I understand what he wants
+So my approach was I’ll represent your tree in two arrays one will be Inorder and other will be pre/post here I’ll go with Pre and once I have these two arrays I can go with the construction algo by giving these are inputs.
+Interviewer: tell me the approach how do u construct if you these two arrays
+Me: I told combining these two how we can go and construct like from inorder we can get the root element and find that root in the second array and then split the array which is same as left and right of tree for the root and proceed further; this I need to do it manually for the given tree to prove my solution; and he asked couple of questions after splitting where the sub arrays will go and how dow remember that what is left n right; manually I explained all these with the example and I said don’t know what condition need to check when I write this as a program
+Interviewer: happy with the approach and asked what In/Pre/Post oders why did u choose only these two
+Me: I need Inorder and you can tell me which one do you want me to take either pre or post
+Interviewer: its up to you, ur algo ur data structure and write the program
+Me: I was not able to put my logic in the code as I couldn’t get the proper conditions tried in normal way as well as recursion but couldn’t make a concrete code at all.
+Interviewer: we are running out of time so will stop here.

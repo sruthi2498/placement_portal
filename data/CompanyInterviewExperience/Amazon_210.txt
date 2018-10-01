@@ -1,0 +1,35 @@
+I was Invited to attend Interview at amazon Hyderabad for the position of SDE 1 and I had the following rounds.
+Round 0 coding —
+ 
+1. Given an array find the maximum consecutive and non consecutive sum and print them.
+2. Given a matrix find the number of 1’s in the maximum island MAT[i][j] = {0,1}.
+Round 1 Data Structure —
+ 
+1. Given a tree return the number of elements for the level with the maximum elements.
+PS : all null nodes between two non null nodes need to be counted and null nodes can have null children which also can be counted.
+eg– [null,2,1,null,null,3,null]  in this level all nodes between 2 and 3 will be counted i.e. 5
+2. Asked about what data structures I knew and what data structure will I use to make a cache.the answer was Hashing.
+3. Asked what data structure would i use for maintaining cricket scores.
+the answer was priority queue.
+Round 2 Algorithms —
+ 
+1. Given a binary tree find out if it is a BST
+2. Given a binary tree root and a node ,print all nodes at K distance from the node.
+3. Given an array it can be of 4 types
+    (a) Ascending
+    (b) Descending
+    (c) Ascending Rotated
+    (d) Descending Rotated
+find out which kind of array it is and return the maximum array.
+Round 3 Design —
+ 
+Asked me the word breaking problem which I couldn’t solve and this round didn’t go well.
+Round 4 Managerial —
+1. Asked about my current company and work done over there.
+2. Asked me a problem to convert Integer to Roman while handling all the corner cases.
+3. Asked about process and Threads
+4. I asked about the team and kind of work to be done
+ 
+I would like to thank GeeksforGeeks to provide such a huge variety of problems and a progressive way to approach any problem.
+ 
+

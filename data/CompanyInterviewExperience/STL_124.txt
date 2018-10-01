@@ -1,0 +1,10 @@
+Syntax:
+Parameter: This function does not accept any parameters.
+Return value: It returns a reverse iterator which points to the last element of the list. 
+Below program illustrates the above function:
+Run on IDE
+Syntax:
+Parameter: The function does not accept any parameters.
+Return value: It returns a reverse iterator which points to the position before the beginning of the list.
+Below program illustrates the above function: 
+Run on IDE

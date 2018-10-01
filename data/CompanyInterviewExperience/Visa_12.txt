@@ -1,0 +1,33 @@
+Consider a big party where a log register for guest’s entry and exit times is maintained. Find the time at which there are maximum guests in the party. Note that entries in register are not in any order.
+Example : 
+Below is a Simple Method to solve this problem.
+1) Traverse all intervals and find min and max time (time at which first guest arrives and time at which last guest leaves)
+2) Create a count array of size ‘max – min + 1’.  Let the array be count[].
+3) For each interval [x, y], run a loop for i = x to y and do following in loop.
+     count[i – min]++;
+4) Find the index of maximum element in count array.  Let this index be ‘max_index’,  return max_index + min.
+Above solution requires O(max-min+1) extra space.  Also time complexity of above solution depends on lengths of intervals.  In worst case, if all intervals are from ‘min’ to ‘max’, then time complexity becomes O((max-min+1)*n) where n is number of intervals.  
+An Efficient Solution is to use sorting n O(nLogn) time. The idea is to consider all events (all arrivals and exits) in sorted order. Once we have all events in sorted order, we can trace the number of guests at any time keeping track of guests that have arrived, but not exited.
+Consider the above example.
+Total number of guests at any time can be obtained by subtracting
+total exits from total arrivals by that time.
+So maximum guests are three at time 5.
+Following is the implementation of above approach. Note that the implementation doesn’t create a single sorted list of all events, rather it individually sorts arr[] and dep[] arrays, and then uses merge process of merge sort to process them together as a single sorted array.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of this method is O(nLogn).
+Thanks to Gaurav Ahirwar for suggesting this method.
+Another Efficient Solution :
+Approach :
+1). Create an auxiliary array used for storing dynamic data of starting and ending points.
+2). Loop through the whole array of elements and increase the value at the starting point by 1 and similarly decrease the value after ending point by 1.
+[Here we use the expressions “x[start[i]]-=1” and  “x[end[i]+1]-=1”]
+4). While looping, after calculating the auxiliary array: permanently add the value at current index and check for the maximum valued index traversing from left to right.
+Run on IDE
+Run on IDE
+Run on IDE
+

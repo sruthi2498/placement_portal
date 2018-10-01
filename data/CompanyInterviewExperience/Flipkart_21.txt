@@ -1,0 +1,13 @@
+Given an array and an integer k, traverse the array and if the element in array is k, double the value of k and continue traversal. In the end return value of k.
+Examples:
+1- Traverse each element of an array if arr[i] == k then k = 2 * k
+2- Repeat the same process till last element of an array
+3- At last Return the value of k
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(n) 
+Reference:href=”https://www.geeksforgeeks.org/flipkart-interview-experience-set-35-on-campus-for-sde-1/”

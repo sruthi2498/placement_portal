@@ -1,0 +1,9 @@
+bitset::reset() is a built-in function in C++ STL which resets the bits at the given index in the parameter. If no parameter is passed then all the bits are reset to zero. 
+Syntax: 
+Parameter: The function accepts a parameter index which signifies the position at which the bit has to be reset to zero. If no parameter is passed, all the bits in the bitset are reset to zero.  
+Return Value: The function does not return anything.
+Below programs illustrates the bitset::reset() function. 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

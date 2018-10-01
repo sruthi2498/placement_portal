@@ -1,0 +1,3 @@
+Formatting in the standard C++ libraries is done through the use of manipulators, special variables or objects that are placed on the output stream. There are two types of floating point manipulators namely, fixed floating point and scientific floating point. These all are defined in header <iostream>.
+Run on IDE
+Output:

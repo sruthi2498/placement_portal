@@ -1,0 +1,30 @@
+Print the sum of series   13 + 23 + 33 + 43 + …….+ n3 till n-th term.
+Examples :
+
+A simple solution is to one by one add terms.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+An efficient solution is to use direct mathematical formula  which is  (n ( n + 1 ) / 2) ^ 2 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(1)
+How does this formula work?
+We can prove the formula using mathematical induction. We can easily see that the formula holds true for n = 1 and n = 2. Let this be true for n = k-1.
+The above program causes overflow, even if result is not beyond integer limit. Like previous post, we can avoid overflow upto some extent by doing division first.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

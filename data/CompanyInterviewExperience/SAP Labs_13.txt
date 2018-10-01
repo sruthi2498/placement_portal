@@ -1,0 +1,16 @@
+L: Means turn Right .
+R: Means turn Left.
+Numbers represent the distance traveled in a particular direction in meters.
+( If Alice is intially facing north, and is given the instruction,
+3L4L5R2L3R3R2R4R3L1L3R4R2R3R), which direction would she face and how much distance would she cover?
+ans : 42m,north
+—————————————————————————————————————-
+2. JavaScript syntax for is not equal?
+ans: operator is : !
+!! – not not
+—————————————————————————————————————-
+3..
+Run on IDE
+output: 0
+—————————————————————————————————————–
+

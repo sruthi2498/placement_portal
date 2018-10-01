@@ -1,0 +1,40 @@
+Round 0:
+
+platform : HackerRank
+3 questions :
+1.A list of commands is given, you have to follow the commands and tell at which cell in matrix will u end up.
+2. A schedule of meetings is given with some gaps in between . U have to shift only k meetings such that gap is maximized.
+3. Find largest submatrix with sum <k.
+Round 1:
+1.tell us about urself.
+2.A stream of numbers, at any point of time , return max n elements .
+i used a minHeap
+Then they modifies the question for a window . where i had to give them a LRU approach to delete elements out of the window.
+3.Set next pointers of tree nodes.
+Spent lot of time explaining the approach. They made me write the pseudo code.
+I gave 2n space approach(2 queue)
+then n space approach (1 queue)
+(they didn’t ask me to further reduce space complexity)
+Round 2:
+1. Given array of characters with all characters repeating even times except for one. Find the one not repeating;
+2. An infinite stream of characters is coming, at any point of time, you have to give the first non repeating character in 0(1) time.
+Solution :
+first i used min heap and hashmap and hash set but then we discussed and they helped me improve my solution and we settled on  2 arrays and a doubly linked list.
+3.Asked me a puzzle
+calculate 7/8 without using division or multiplication.
+and then ceil of (7n/8) without division or multiplication.
+4.then they asked me to print the tree :
+2
+1         3
+4      5
+print 1 4 5 3 2
+print leaf, delete them and repeat kind. More like reverse of topological order
+Round 3: HM Round
+
+1.Project discussion.
+2. Challenges in project.
+3. Than technologies in project.
+4. Subjects i like
+4. Databases
+5.OS
+

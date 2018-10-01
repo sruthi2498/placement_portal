@@ -1,0 +1,25 @@
+Machine Coding Round: (1 hour)
+—————————————–
+Implement a finite state machine.
+– The machine should have one start state and can have multiple end states
+– It should be extensible (I should be able to add any number of states or transitions at any time)
+– I should be able to set notifications on or off for any state or for the whole state machine
+Design: (1 hour)
+————————-
+Implement Bidding system in Flipkart’s website
+Algos: (1.5 hours)
+————————-
+1) There is one meeting room in Flipkart. There are n meetings in the form of (s(i),f(i)) where s(i) is start time of meeting i and f(i) is finish time of meeting i
+What is the maximum number of meetings that can be accommodated in the meeting room ?
+2) Given a number line from -infinity to +infinity. You start at 0 and can go either to the left or to the right. The condition is that in i-th move, you take i steps.
+a) Find if you can reach a given number x
+b) Find the most optimal way to reach a given number x, if we can indeed reach it
+3) Given a string s1 and another string s2, what is the smallest substring in s1 that contains all the characters of s2 ? (most efficient solution)
+4) Given a string s1 from a dictionary and a string s2 from a dictionary, find the minimum number of steps to transform s1 to s2 under the following conditions:
+      	– You can change the implementaion of dictionary
+      	– Every transformation should belong to the dictionary
+      	– You are given a O(1) library function F(s1,s2) which returns True or False for the query ‘can s2 be obtained from s1 with a single transformation’
+Hiring Manager Round: (1 hour)
+—————————————–
+Lots of questions on projects, implementation, design etc.
+

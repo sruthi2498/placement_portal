@@ -1,0 +1,15 @@
+I attended Zoho off-campus. I registered through a link i received from my friend who has friends in Zoho. For attending off-campus you need that registration link which is available to their employees. 
+First Round: 
+It was for 30 marks. 10 aptitude questions. 15(10- 1 mark question, 5- 2 mark questions) C output questions. Aptitude interms of difficulty is above average. Not like the easy aptitude you get in the companies which hire a bulk of students like TCS CTSetc. total time given was 2 hrs. For C aptitude practice from sites like 2braces.com it was very helpful.
+I got shortlisted for the next round and i received a mail regarding that after 12 days. 
+Second Round(coding round):
+We were given a total of 6 programs and 2 hrs time. The provided us with laptops. They had all frequently used IDEs  for C, C++ and Java(turbo c++, netbeans, eclipse, editplus) 
+The questions were:
+1) Find the minimum number of times required to represent a number as sum of squares. 
+2) Search a string in a given 2D matrix. And print its possible path.
+allowed movements are right left up and down.
+3) In a given pascal triangle find the possible triangles. 
+4) in a matrix find the number of rectangles filled with 1s. 
+5) There are n items each with a value and weight. A sack is filled with the weights. In other words there is an array with of length n having the values of the items arr[0…n-1] and another array with weight arr[0…n-1].
+if a sack is to be filled with weight W find the minimum possible value subset. 
+

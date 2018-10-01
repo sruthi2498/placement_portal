@@ -1,0 +1,16 @@
+MCQ Round:
+   15 MCQS were asked on c,c++, OS.
+Coding Round:
+1) Given a linked list of co-ordinates where adjacent points either form a vertical line or a horizontal line. Delete points from the linked list which are in the middle of the line 
+2) Given a sorted array,convert it into bst
+Group Fly Round:
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+The code should be written on paper and should be error free. No extra space should be used.
+Interview 1:
+  1) Given a linkedlist of moves of 2 players in tic-tac-toe game . Find who has won the game.
+
+Interview 2:
+1)  Given a pile of 9 objects. 2 players take turns to pick 1 , 2 or 3 objects . The last one to pick is the looser. What is the winning  strategy? wining strategy for 9 coins
+2) Asked to how to design a cache for dns records. I have told different approaches like First-in-First-Out, less frequently used,least recently used… He asked me to tell the strategy and code it. I told LRU and implemented this.
+   https://www.geeksforgeeks.org/implement-lru-cache/
+

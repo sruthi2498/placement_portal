@@ -1,0 +1,15 @@
+Fibonacci coding encodes an integer into binary number using Fibonacci Representation of the number.  The idea is based on Zeckendorf’s Theorem which states that every positive integer can be written uniquely as a sum of distinct non-neighbouring Fibonacci numbers (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 141, ……..). 
+The Fibonacci code word for a particular integer is exactly the integer’s Zeckendorf representation with the order of its digits reversed and an additional “1” appended to the end. The extra 1 is appended to indicate end of code  (Note that the code never contain two consecutive 1s as per Zeckendorf’s Theorem. The representation uses Fibonacci numbers starting from 1 (2’nd Fibonacci Number).  So the Fibonacci Numbers used are 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 141, …….
+Given a number n, print its Fibonacci code.
+Examples:
+We strongly recommend you to minimize your browser and try this yourself first.
+The following algorithm takes an integer as input and generates a string that stores Fibonacci Encoding.
+Find the largest Fibonacci number f less than or equal to n. Say it is the i’th number in the Fibonacci series. The length of codeword for n will be i+3 characters (One for extra 1 appended at the end, One because i is an index, and one for ‘\0’). Assuming that the Fibonacci series is stored: 
+Below is C implementation of above algorithm.
+Run on IDE
+Output: 
+Illustration
+
+Field of application:
+Data Processing & Compression – representing the data (which can be text, image, video…) in such a way that the space needed to store or transmit data is less than the size of input data. Statistical methods use variable-length codes, with the shorter codes assigned to symbols or group of symbols that have a higher probability of occurrence. If the codes are to be used over a noisy communication channel, their resilience to bit insertions, deletions and to bit-flips is of high importance.
+Read more about the application here.

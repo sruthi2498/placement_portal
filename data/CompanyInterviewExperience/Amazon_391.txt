@@ -1,0 +1,27 @@
+Given two integers ‘n’ and ‘sum’, find count of all n digit numbers with sum of digits as ‘sum’. Leading 0’s are not counted as digits.
+1 <= n <= 100 and
+1 <= sum <= 500
+Example: 
+The idea is simple, we subtract all values from 0 to 9 from given sum and recur for sum minus that digit.  Below is recursive formula. 
+Below is a simple recursive solution based on above recursive formula.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The time complexity of above solution is exponential. If we draw the complete recursion tree, we can observer that many subproblems are solved again and again. For example, if we start with n = 3 and sum = 10, we can reach n = 1, sum = 8, by considering digit sequences 1,1 or 2, 0.
+Since same suproblems are called again, this problem has Overlapping Subprolems property. So min square sum problem has both properties (see this and this) of a dynamic programming problem. 
+Below is Memoization based the implementation.
+
+Run on IDE
+Run on IDE
+Output: 
+Thanks to Gaurav Ahirwar for suggesting above solution.
+ Another Method 
+We can easily count n digit numbers whose sum of digit equals to given sum by iterating all n digits and checking if current n digit number’s sum is equal to given sum, if it is then we will start increment number by 9 until it reaches to number whose sum of digit’s is greater than given sum, then again we will increment by 1 until we found another number with given sum.
+Run on IDE
+
+Time Complexity:  O(sum)
+Space Complexity: O(1)

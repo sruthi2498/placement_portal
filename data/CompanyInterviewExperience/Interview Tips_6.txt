@@ -1,0 +1,41 @@
+ 
+Amadeus Software Labs India LTD, Bangalore recently visited Thapar Institute of Engineering & Technology (TIET) with two different profiles of Software developer and Quality Assurance.
+Initial eligibility was:
+Upon receiving the details from the interested students they shortlisted 219.
+which had the cutoffs of CGPA 7.75 and 80% in 10th as well as 12th.
+The unique part was that i wasn’t shortlisted for the test because i couldn’t meet the one criteria of 80% in my 10th score (a piece of sheet that i attempted 6 years ago). So i requested the HR of Amadeus in pre-placement talk. After a long discussion they allowed me to sit for the online exam.
+Round 1: [ONLINE TEST]
+They used a platform by SHL Test for online assessment.
+Which included Verbal Reasoning & Numerical Reasoning. 19 mins for 30 verbal reasoning questions, 25 mins for 18 numerical reasoning questions
+Test was of medium to hard level, although was easily manageable for me as i practiced all the mock tests available on SHL’s website. I strongly recommend you all to solve them here before going for the final test.
+Few pointers to remember:
+38 students were shortlisted after this round for interviews.
+Round 2: [1st Technical interview]
+I was called in as the 1st interview for the day, the interview was taken by two senior member of Amadeus labs. They were quite impressed by my resume because i used my graphic designing skills to make it professional and yet stand out from the crowd. My lucky day was already on good start. Then, they started with standard “Introduce Yourself“.
+Then they started discussing my prominent project in which i used natural language processing and machine learning. A good 15 min in-depth discussion went on it. Then they asked me a simple OOPS question “What is polymorphism? Explain it with an example that is not in any book”, so i used basic car architecture as parent class & car brands as child classes which translated into runtime polymorphism. More on polymorphism can be read here.
+Next were some system design questions:
+Then they gave me a situation of a fraudulent debit transaction that happened in the bank account of a user, “how will you deal with it?” (basically testing if had a Quality Assurance aspect as well)
+I gave two possibilities. Firstly, if some third person has used the ATM pin of affected user to debit money, then there is no issue with our codebase. This has to be dealt with bank itself. Secondly, if there were number of fraudulent transaction in a small and same time span then we need to find the bug in our codebase. modular code testing, exception handling is what i suggested.
+They asked about my favourite subjects, then they asked about best practices for software development. “Agile software development cycle” was my only answer.
+Then the interview ended with my future plans and few questions from my side.
+Total duration of this interview: 40 mins
+Round 3: [2nd Technical interview]
+After 15 mins i was called in for 2nd interview which was taken by the Director of development in Amadeus.
+Started off with “how was your 1st interview?”, family background and interests. He was also intrigued by my resume and asked my motive behind making it like that. Then he went straight to the technical questions.
+What is polymorphism? i was so happy that he repeated the question from previous interview, i swiftly answer it with same example, although i was a little sad at the same time because i was waiting for something challenging. I guess as i mentioned earlier it was my lucky day, also wait a little, it gets even better.
+Next question was how will you implement a dictionary application? (Deja vu) i’m just repeating myself at this point.
+Although he did ask me to write the whole code for Tries,  which i did in 10min.
+https://www.geeksforgeeks.org/trie-insert-and-search/
+Then interview concluded with my future plans and me asking some questions about a deal of Amadeus with Adobe, which he answer very enthusiastically. Overall positive interview.
+Total duration of this interview: 30 mins
+Round 4: [HR interview]
+This one was standard HR interview and was taken by the Director of Culture & Human Resources of Amadeus.
+Total duration of this interview: 20 mins
+Results
+Then after some time they handed out their employee forms to be filled by select students indirectly implying that they were possibly selected.
+I was fortunate enough to be offered (Full Time + Internship) as a Software Developer in R&D at Amadeus Labs. I would like to thank geeksforgeeks which helped me a lot in interview preparation.
+In the end they selected total of 27 students, out of which 3 were offered internship, 3 were offered QA profile (FTE+Intern) and rest of the students were offered Software Developer profile (FTE+Intern).
+This article is contributed by Ajay Jindal.
+Feel free to ask any questions:
+LinkedIn: https://www.linkedin.com/in/ajay-jindal/
+

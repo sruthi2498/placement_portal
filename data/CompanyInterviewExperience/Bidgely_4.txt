@@ -1,0 +1,39 @@
+Interview was for both Banglore and US profile.
+Round 1- Online Round 45 min
+Part 1-(15 min)
+6 objective questions and time is very less.
+1-In a leap year, probability to have 53 Saturdays and 53 Sundays.
+2-Sum of integers b/w 100 and 1000 divisible by 16.
+3-no. of open areas formed outside an ellipse by 12 nonparallel tangents.
+4-given 3 sides of quadrilateral, find the fourth side given that quadrilateral formed by joining the midpoints is rectangle.
+5- number of permutations of 1,2,3…10 such that any number  displaces from its position by almost 1 unit e.g. 2 can come at positions  1, 2 and 3.
+Hint- Use Fibonacci
+6-Given 10 bags containing infinite no. of coins. One bag contains coins heavier than other 9. Find ratio of the minimum no. of comparisons required to identify the heavier bag in case 1- a digital balance is given & case 2 – Beam balance is given.
+Ans is 1:3
+Part2-(30 min 2 coding questions)
+1-Given a string, count number of all palindromic subarrays.(O(n3) also worked).
+2-Given string of comma-separated integers find out smallest no. that can’t be formed via subset of integers present in given string.
+https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/
+You have to solve atleast one coding question to go to the next round. It doesn’t matter how many MCQs you have solved.
+After this round 8 candidates were shortlisted.
+Round 2 (Skype)
+ Asked about projects in detail. Then following questions:
+1- You are walking on a road. The probability that a person sitting there sees you in 20 min time is 0.9. What is the probability that he will see you in 5 min time.
+2- Given thousands of points lying on a line with some error(some points do not lie on line) find equation of line.
+3-Two trains are are 100km apart and moving towards each other at a speed of 50 km/h. Now, from train 1 a man starts running at speed of 100km/h, reaches train 2 and then again comes back and goes again and continues till trains collide. Find the distance travelled by the man.
+4- An extremely simple question – In least possible comparison, how to check whether a string is palindrome.
+5- Print all possible permutations of a string.
+Round 3 (Skype)-
+only two questions were asked
+1. Given 9 balls out of which 1 is lighter than other 8. Find out the minimum number of times you have to use a weighing machine to detect the lighter ball.
+2- Data structure used for storing contacts in mobile phone.
+After this round I was selected for US profile interview and 2 candidates were selected for Bangalore (one for software engineering and one for Data science).
+Round 4(Skype call from US )
+1- why you want to join Bidgely.
+2-Tell about any software you have made.
+I had worked on an project of software engineering course. So he asked about it in-depth.
+3- Some questions regarding my Internship at the end of 2nd year.
+4-Given an integer n, print square of all integers from 1 to n (1^2,2^2,…,n^2). At architecture level multiplication is an exorbitant process so do something else .
+Then after this question he went through my CV and asked some questions about my academic achievements for ex. I have secured international rank 1 in IOS(International Olympiad of Science), so asked in which class, the organisation and some other relevant questions.
+All thanks to geeksforgeeks for helping me with my preparation.
+It really enhances your thought process.

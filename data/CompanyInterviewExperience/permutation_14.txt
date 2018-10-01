@@ -1,0 +1,12 @@
+Given an array of digits of length n > 1, digits lies within range 0 to 9. We perform sequence of below three operations until we are done with all digits
+We perform above sequence of operations linearly with remaining digits. 
+The task is to find how many permutations of given array that produce positive result after above operations.
+For Example, consider input number[] = {1, 2, 3, 4, 5}. Let us consider a permutation 21345 to demonstrate sequence of operations. 
+Examples:
+Asked in :  Morgan Stanley
+
+We first generate all possible permutations of given digit array and perform given sequence of operations sequentially on each permutation and check for which permutation result is positive. Below code describes problem solution easily.
+Note :  We can generate all possible permutations either by using iterative method, see this article or we can use STL function next_permutation() function to generate it.
+Run on IDE
+Output:
+If you have better and optimized solution for this problem then please share in comments.

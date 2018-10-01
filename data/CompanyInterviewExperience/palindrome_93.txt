@@ -1,0 +1,14 @@
+Given a string, Check if characters of the given string can be rearranged to form a palindrome. 
+For example characters of “geeksogeeks” can be rearranged to form a palindrome “geeksoskeeg”, but characters of “geeksforgeeks” cannot be rearranged to form a palindrome.
+A set of characters can form a palindrome if at most one character occurs odd number of times and all characters occur even number of times.
+A simple solution is to run two loops, the outer loop picks all characters one by one, the inner loop counts number of occurrences of the picked character. We keep track of odd counts. Time complexity of this solution is O(n2).
+We can do it in O(n) time using a count array.  Following are detailed steps.
+1) Create a count array of alphabet size which is typically 256. Initialize all values of count array as 0.
+2) Traverse the given string and increment count of every character.
+3) Traverse the count array and if the count array has more than one odd values, return false.  Otherwise return true.
+Below is the implementation of above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

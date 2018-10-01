@@ -1,0 +1,8 @@
+Given a binary tree and value k. delete all the leaf nodes with value equal to k. If a node becomes leaf after deletion, then it should be deleted if it has value k.
+Examples:
+
+1. Use PostOrder traversal.
+2. When we encounter leaf nodes, then we check whether it is leaf node or not.
+3. If it is leaf node and value equal to k, then delete it.
+4. Else, Recurse for other nodes.
+Run on IDE

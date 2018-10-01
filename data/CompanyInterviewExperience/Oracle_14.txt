@@ -1,0 +1,45 @@
+I had applied for the role Application Developer (Java development) in Oracle’s job portal. I was contracted via mail a month later. I got interview invite for a weekend drive. 
+
+The job location was at Hyderabad, but the interview was conducted in Chennai. There were 3 problem solving rounds, 1 design round and 1 video conference manager round.
+In all the rounds, enough time was given to think through the problem and write the code and the interviewers were very friendly and made sure that you are comfortable.
+
+Round 1 :
+
+Puzzle :
+
+You are given 4 pair of socks, Red, Green, Blue and Yellow respectively. Arrange the 8 individual socks in a manner such that there are 4 socks between the Yellow ones, 3 between the Blue, 2 Between the Green and 1 between the Red.
+
+Pen and paper coding:
+Given an integer n, print the following structure. (Note the space between the stars)   
+                *
+              * *
+            * * *
+          * * * *        (n=4)
+Given a mobile number and some conditions for a fancy number, find if the given number is fancy. The conditions are
+Round 2 :
+You are given an array of integers. Each integer in the array only ranges from -10 to +10. Find the minimum possible.and the maximum possible product obtained by multiplying the array elements. 
+Example: [-1 -2 10 -10]
+Maximum product: 10*-10*-2 = 200
+Minimum product: 10*-10*-2*-1=-200
+Few Java OOPS questions, more like a rapid fire. The interviewer kept asking questions one after other.
+What do you know about Machine Learning and deep learning? 
+How many squares are there in a chessboard? (Na. Not 64)
+Round 3 :
+Write a piece of code that causes deadlock and explain how to rectify the deadlock.
+You are given an array containing prices of stocks for n days. You can make 2 transactions. ( Buy? Sell, again Buy? Sell).
+Find the maximum profit.
+You are given an array containing 0’s and 1’s. Find the position of the one 0 that if you replace with 1, you will have maximum consecutive 1’s.
+You are given a string, sat ABC. Find all possible subsets of the string. In this case, it would be A,B,C,AB,BC,AC,ABC. ((2^n)-1 combinations)
+Round 4:
+Was asked to specify few DB tables I’ve worked with, with primary and foreign keys.
+I specified Product, Vendor, Warehouse, etc,.
+Then I was asked to design a product search page, end to end. Had to write code in pen and paper for everything including jsp and controller. 
+Round 5 :
+This was the final round. Since I was interviewed at Chennai for a position at Hyderabad,  this was a video conference round for me with the project manager. 
+About myself and my current work
+How do you find the 4th Max salary from an employee table? 
+You have Rs.100. There are 3 items A, B and C. A costs Rs.10 per piece, B Rs.5 per piece and C 25 paise. Using Rs.100 fully, you have to buy A,B and C such that the total count of items you get is also 100, with minimum 1 count from each item. What is the count of each item you will buy? 
+You have four Sevens. 7,7,7,7. You can use any .,+,-,/,*. You have to use all the sevens and any of these operators and get the result 100. 
+I completed my first 4 rounds in a single day. 
+
+

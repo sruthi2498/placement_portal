@@ -1,0 +1,39 @@
+Recently I appeared for Oncampus Amazon Interviews for SDE position and here is my experience.
+Round 1: 1.30 hour Online Written Test
+It had 20 MCQ questions on C/C++ and 2 coding questions. The coding questions were:
+Q1. You are given a string that represent an expression of digits and operands. Eg. 1+2*3 , 1-2+4. You need to evaluate the string or the expression. NO BODMAS is followed. If the expression is of incorrect syntax return -1.
+Test cases :
+a) 1+2*3 will be evaluated to 9.
+b) 4-2+6*3 will be evaluated to 24.
+c) 1++2 will be evaluated to -1(INVALID).
+Also, in the string spaces can occur. For that case we need to ignore the spaces. Like :- 1*2 -1 is equals to 1.
+Q2. You are given an array of both negative and positive integers. You need to rearrange the array such that positive and negative numbers alternate. Also, the order should be same as previous array and only O(1) auxiliary space can be used and time complexity O(n).
+eg. -2 3 4 5 -1 -6 7 9 1
+result – 3 -2 4 -1 5 -6 7 9 1.
+Round 2:
+Q1. Given a Linked list , print yes if it is palindrome else print no.
+Q2. Print the level order traversal of the binary tree in the spiral form.
+Round 3(F2F):
+Discussion about project.
+Some question on DBMS, OS.
+Q1: Maximum of all subarrays of size k(Expected Time Complexity O(N).
+Input :
+arr[] = {1, 2, 3, 1, 4, 5, 2, 3, 6}
+k = 3
+Output :
+3 3 4 5 5 5 6
+Q2: Given Two sorted array of size size n each. Find the Kth largest element in these two array (Expected Time Complexity Log(n))
+Round 4(F2F)
+Detail Discussion about project
+Q1.website having several web-pages. And also there are lot many user who are accessing the web-site.
+say user 1 has access pattern : x->y->z->a->b->c->d->e->f
+user 2 has access pattern : z->a->b->c->d
+user 3 has access pattern : y->z->a->b->c->d
+user 4 has access pattern : a->b->c->d
+and list goes on for lot many users which are finite and numbered.
+Now the question is we have to determine the top 3 most occurring k-Page-sequence.
+for the above example result will be : (k=3) a->b->c , b->c->d , z->a->b.
+Q2: Given two array , one of size m+n and contains m element and other position are empty , 2nd array is of size n and contains n element.
+both array are sorted , now merge the second array to first one such that the resultant array is sorted. Expexte time complexity(m+n).
+I would like to thanks geeksforgeeks for providing such a platform to learn algorithm and data structures… 🙂 🙂
+

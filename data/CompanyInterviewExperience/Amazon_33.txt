@@ -1,0 +1,12 @@
+Given an array of size N and a Linked List where elements will be from the array but can also be duplicated, sort the linked list in the order, elements are appearing in the array. It may be assumed that the array covers all elements of the linked list.
+arr[] =
+
+list =
+
+Sorted list =
+ 
+Asked in  Amazon 
+
+First, make a hash table that stores the frequencies of elements in linked list. Then, simply traverse list and for each element of arr[i] check the frequency in the has table and modify the data of list by arr[i] element upto its frequency and at last Print the list.  
+Run on IDE
+Output : 

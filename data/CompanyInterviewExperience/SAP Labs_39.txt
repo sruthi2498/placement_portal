@@ -1,0 +1,69 @@
+This was for a Developer Specialist (JAVA,JAVASCRIPT) position(4-6 yrs). It was a very long process but was an awesome one!!!
+Round 1 (Telephonic) [ > 1hr]
+1) Why main method is void in JAVA?
+2) Are string parameters mandatory in main method? At what time are the parameters read?
+3)Difference between sleep and wait
+4)Difference between yield vs join
+5)Checked and unchecked exceptions.
+6) Concurrent hash map.
+7)Difference between isInstance and Instance of
+8)When to use reflection and name few methods?
+9)Fail fast vs fail safe iterator
+10) JVM JRE and JDK.What does rt.jar contain?
+11 )When to use LinkedHash Map and Tree map? Which is better for insertion,deletion and search?
+12) What is static method?Where are static variable stored in memory?
+13) JAVA memory model.
+14)JAVA garbage collection process.What is survivor space?
+15)When to override toString() method?
+16)Design a DS which does the following operations:
+1)Insert,2)Delete,3)Search in O(1) complexity.
+Few general questions about my previous experience.hobbies etc
+After 3-4 hrs I got an update that I am through the telephonic screening and have to attend F2F.
+Round 2 F2F( 90 min)
+After introduction,few questions were in JAVA then he started asking some coding questions.
+1)Write a recursive program to find distance between 2 nodes in a binary tree.
+Modify it to know the difference between parent and the root.
+2) Write a program “isPerfectSquare” without using SQRT, * and / operators.
+3) Write an infinite stack for doubly linked list.
+4)How to design a chess board? ->The discussion went on for almost 30 min.The solution was an incremental improvement and the interviewer seems to be very satisfied.
+Round 3 F2F( 90 min)
+1)What is strategy pattern? Explain and implement it.
+2)What is Dependency Injection?Which pattern supports it?
+3) Explain heap sort end to end with an example. Implement executable code for it.
+4)DeadLock,Race Condition,Mutual exclusion.
+5)Write a JAVA program to implement deadlock.Resolve it too.
+Round 4 F2F( 60 min)
+This was pure design round and was quite challenging.
+
+1)How to create REST API for a job scheduler?
+2) When to use IS-A and when to use HAS-A relationship? Difference between Compostion,Aggregation,Association,Specialization,Realization,Generalization.
+3)Design REST API for checkout option in a shopping cart and what is the API designed to generate the Order ID
+4) 1 JOIN query in SQL.
+Round 5 F2F(90 min) 
+1)Write an SQL query to remove duplicate rows in a table.
+2)Draw a UML class diagram for a FILE/FOLDER structure.
+3) Implement OR and AND operation using Conditional operator.
+4) Find the nth largest element in Binary Search Tree (Sol :Traverse inorder n times)
+5) Construct a binary tree for Infix expression without using stack.
+Round 6(90 min) (Techno-Managerial Round -F2F)
+1) some puzzles
+2) explain about project.some indepth questions on it.
+3)How has quora implemented its architecture.
+4)How is friends of friends feature implemented in Facebook?
+5)What are the best ways to design REST API?
+6) Few details about background ,SAP etc
+Round 7(45 min) (Techno-Managerial Round -Telephonic)
+1) How is hash map implemented in JAVA?
+2)Why have column-oriented databases evolved?Explain it.
+3) Few more questions on JAVA.
+4) Some behavioural questions giving a hypothetical situation (tricky)
+5) Biggest challenging task I have done till now technically.
+Round 8 ( HR -telephonic)
+1) What are your strengths and weakness?
+2)Why SAP?
+3)Notice period.
+4)Expected Salary.
+Tips:
+1)Questions in this firm are not that difficult like Amazon and other firms but the subjects covered are broader than what other companies ask.(Not limited to DS and Algo)
+2) Even though you are proficient in many topics/technologies as mentioned in your resume, the interviewer would give you an option to choose the topic of your choice.
+3)No on is perfect !!! All the interviewers were very helpful and were giving tips/clues during the problem solving.Please ask if you need more details about the question rather than keeping mum.Aall All the best Folks 🙂

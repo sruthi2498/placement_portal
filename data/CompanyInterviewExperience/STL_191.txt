@@ -1,0 +1,7 @@
+std::forward_list::reverse()  is an inbuilt function in CPP STL which reverses the order of the elements present in the forward_list.
+Syntax:
+Parameter: The function does not accept any parameter.
+Return value: The function has no return value. It reverses the forward list. 
+Below program demonstrates the above function: 
+Program 1:
+Run on IDE

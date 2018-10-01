@@ -1,0 +1,24 @@
+I recently got interviewed for a position in Cisco. The organization came to our college for on-campus recruitment. 
+First round:
+The first round had 30 technical and 20 easy aptitude questions to be answered in an hour. It was intended to test how fast you can solve problems. Majority of the technical questions were from Electronics, Computer architecture, and some questions from C and data structure. 
+First Face to face interview:
+The interviewer was really a nice person and she wanted to know where really you are good at. First, She handed me a C code snippets asked me to explain what the snippet does. Those were very easy.
+Then she asked me to perform nibble wise swap in a byte of data. I considered it as a string and did normal swap of data. She wasn’t happy and asked me to try some other method. Suddenly, I thought of doing it in bit-wise
+num = num>> 4 | num<<4;
+I understood that they want their problems to be solved using bit-wise operations.
+She was very happy with the solution. Then,  
+1, given a string which represents a decimal number return its binary representation.
+2, Set a particular bit in a number.
+
+Then she inquired about my projects, hobbies, blah blah. The session ended with a logical puzzle. Some of my friends were asked to write socket programs, explain the characteristics of socket, binding.
+
+Second face to face interview:
+Luckily, the interviewer I got this time was even more friendly.
+Given a flash memory where you can perform read or write only sector-wise (you can’t read a particular byte/ word in a sector). Write a function to write a word to particular sector. The answer is very simple if you use bit-wise operation.
+Then he asked what happens when a CPU is powered, how bootstrap works and interrupt vectors.
+He too was very happy and the interview was very short when compared to others. My friends were interviewed for more than one and half hour.
+Final HR round:
+My friends who attended HR interview told me that it was ‘stress’ interview where interviewer tests your patience and see how you behave under pressure. About unfortunately I didn’t undergo any pressure test. The interview was like 3-4 minutes, he asked general questions like “Why CISCO?”, “How you see yourself in CISCO after 5 years”.
+Then results came, I was hired 🙂
+Run on IDE
+

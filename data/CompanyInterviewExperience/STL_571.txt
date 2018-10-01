@@ -1,0 +1,25 @@
+The introduction of array class from C++11 has offered a better alternative for C-style arrays. The advantages of array class over C-style array are :-
+ 
+Operations on array :-
+1. at() :- This function is used to access the elements of array.
+2. get() :- This function is also used to access the elements of array. This function is not the member of array class but overloaded function from class tuple.
+3. operator[] :- This is similar to C-style arrays. This method is also used to access array elements.
+Run on IDE
+Output:
+ 
+4. front() :- This returns the first element of array.
+5. back() :- This returns the last element of array.
+Run on IDE
+Output:
+6. size() :- It returns the number of elements in array. This is a property that C-style arrays lack.
+7. max_size() :- It returns the maximum number of elements array can hold i.e, the size with which array is declared. The size() and max_size() return the same value.
+Run on IDE
+Output:
+8. swap() :- The swap() swaps all elements of one array with other.
+Run on IDE
+Output:
+ 
+9. empty() :- This function returns true when the array size is zero else returns false.
+10. fill() :- This function is used to fill the entire array with a particular value.
+Run on IDE
+Output:

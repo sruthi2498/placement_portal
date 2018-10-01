@@ -1,0 +1,15 @@
+Android is an operating system which is build basically for Mobile phones. It is based on the Linux Kernel and other open sources softwares and is developed by Google. It is used for touchscreen mobile devices such as smartphones and tablets. But nowadays these are used in Android Auto cars, TV, watches, camera,etc. It has been one of the best-selling OS for smartphones. Android OS was developed by Android Inc. which Google bought in 2005. Various applications (apps) like games, music player, camera, etc. are build for these smartphones for running on Android. Google Play store features more than 3.3 million apps. The app is developed on an application known as Android Studio. These executable apps are installed through a bundle or package called APK(Android Package Kit). 
+The four major app components are:
+The activity is implemented through the following Syntax:
+Syntax:
+
+Syntax:
+
+The above figure represents the various structure of an app. 
+
+Basic Layout Can be defined in tree structure as:
+The Lifecycle of the Android App can be shown through this diagram:
+
+States of Android Lifecycle
+To know more about Android Click :Here
+To know about the Installation and Setup Click :Installation

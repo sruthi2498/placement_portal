@@ -1,0 +1,10 @@
+Syntax: 
+Parameters:  The function accepts three parameters which are described as below: 
+Return Value:  The function returns the converted integral number as a value of type long int.
+Run on IDE
+Syntax: 
+Return Value:  The function returns the converted integral number as a value of type long long int.
+Run on IDE
+Errors and Exceptions: If no conversion could be performed, an invalid_argument exception is thrown. If the value read is out of the range of representable values by a long int, either an invalid_argument or an out_of_range exception is thrown.
+Run on IDE
+Output:

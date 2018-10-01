@@ -1,0 +1,19 @@
+It was Amazon Delhi drive held in Jan 2015. This was conducted for various openings for Bangalore location.
+Round 1: Conducted by SDE-1
+1) Tell me about your work experience.
+2) Store deepest right leaf nodes in a list. There can be more than one right leaf   which are deepest and at same level. Approach was to find deepest right leaf  node level and connecting all right leafs at that level in a linked list by inserting  new node at beginning.
+3) Count number of balanced brackets ().
+Round 2: Conducted by SDE-2:
+1) Stock buy sell to maximize profit
+2) In running stream of integers find k largest integers at any point of time. (hashtable plus min heap approach made by day)
+Round 3: Conducted by SDM:
+1) Print matrix spirally from any point and using given direction. (This was very difficult to solve because usually the problem is simply print matrix spirally)
+2) He asked about most challenging faced so far. (At some point of time I realized I was telling conflict but soon concentrated to tell a challenge. Please prepare behavioral questions beforehand and be specific. Nobody is sitting there to listen a story)
+Round 4: Conducted by SDM:
+1) Tell me about your entire work experience briefing each project starting from latest. He stopped at some points and asked tech questions.
+2) What is the most conflicting situation faced and how you handles it?
+3) What is the most innovative input you provided where you were appreciated by your manager?
+4) Implement garbage collector. (Had no idea how to do that, but took some time and was able to tell an approach to maintain reference count in hashtable. He asked to code the approach)
+Three rounds were completed on a day and fourth and final round was telephonic. My last round turned out to be negative because I was not able to write complete code in given time.
+Still the problem asked in round 1 and round 2 were new to me and was able to solve those using different approaches which I have learned from Geeks for Geeks. 🙂
+

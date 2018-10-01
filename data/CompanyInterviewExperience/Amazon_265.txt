@@ -1,0 +1,37 @@
+AMAZON came to our college for both FTE’s and two month summer interns.
+
+The First Round was an Online Coding Round along with MCQ’s.Remember to attempt some MCQ’s correctly in order to improve your chances in getting through this round as the Coding questions may not be very difficult.
+Q1. Find the next greatest number using digits for a given number. STL usage is allowed!
+Q2. In a given array A find the maximum value of |Ai – i| – |Aj – j| where i not equal to j. This is pretty simple!
+MCQ’s were standard and were from permutation and combination and probability mostly.Also outputs for code snippet.
+There is a 5:1 selection ratio here.
+
+The Second Round : Face 2 Face Interview 1
+Asked for the favorite data structure and questions on them. I answered trees and linked list.
+So, the questions were from the basics of trees.
+Q1. Check if a given binary tree is a Binary Search Tree.
+Then questions stemmed out from the in-order successor part and the in-order successor had to be coded with and without using the parent pointer.
+Q2. Implement Stack using Arrays Linked Lists and Queues. And comment on their advantages and disadvantages.
+Q3. Implement Queues using Stacks and comment on the complexity.
+Questions were simple enough but code was required.
+20 people out of 31 were selected.
+
+The Third Round : F2F Interview 2
+A different interviewer in the same setting.
+Found the questions to be of higher standard compared to the previous round and more time consuming.
+Q1. Maintain the First Non-Repeating character in a stream of incoming and out going characters or digits simply in O(1).
+Gave some solutions for O(n) at a particular instant of time.
+But used a Hash and Queue but that did not allow maintaining the first non-repeating character as the elements could not be accessed randomly.
+There were a lot of hints and finally i understood that the interviewer was hinting at a deque where the hash value is the node pointer in deque.
+I just had to sum up the small things and give a final solution with all the bits and pieces arranged.
+Not Very Satisfactory.
+Q2. Cloning of a Binary tree with random pointer:
+       Did the cloning of the normal binary tree but could not do it for the random pointers because I need the links and paths.
+Gave a O(nlogn) solution storing all the paths from the node to its random pointer node.
+Finally, I came up with a Hash Map Solution which seemed fine.
+The interviewer told me to practice more qustions and increase the depth of knowledge in Data Structures.
+This was all for the interview!
+Though the questions were not common for me, these are standard questions and can be found in gfg.
+But somehow I kept thinking and collected the hints for the answer and summed it up.
+I thank the huge amount of online resource that is available for learning and practice, especially geeeksforgeeks.org.
+

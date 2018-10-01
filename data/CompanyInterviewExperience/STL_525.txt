@@ -1,0 +1,9 @@
+Given a string, convert the whole string to uppercase or lowercase using STL in C++.
+Examples:
+
+Functions used :
+ transform   : Performs a transformation on given array/string.
+toupper(int c) : Returns upper case version of character c. If c is already in uppercase, return c itself.
+tolower(int c) : Returns lower case version of character c. If c is already in lowercase, return c itself.
+Run on IDE
+Output: 

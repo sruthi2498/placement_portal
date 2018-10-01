@@ -1,0 +1,16 @@
+We are given a string and we have to use shell script print it in the reverse order.
+Asked in FICO
+Examples:
+Algorithm
+
+Run on IDE
+Output:
+Reverse a string in shell scripting using Commands
+Note: The rev command is not present in all flavors of Unix.
+
+This logic is the common logic used in any programming language to reverse a string: Start from the last position of the string and keep printing a character till the first position is reached.  We loop on the string starting from the last position and moving towards the beginning. The length command gives the length of the argument passed to it. With no argument, length gives the length of the current line which is $0. The substr command in awk extracts one character at a time and is appended to the resultant variable x which is printed at the end using the END label.
+
+To understand this command properly, break it up at every pipe and observe  the output. The first sed reads a character(.) and appends a newline(\n) character behind every matched character(&). tac command reverses the contents of a file or the standard input. The second sed command now joins all the lines together.
+Note: The tac command is not present in all the Unix flavors.
+reverse function reverses all the elements present in a list. In scalar context as used here, it reverses a string as well. The chomp command is used to remove the newline character in the string.
+

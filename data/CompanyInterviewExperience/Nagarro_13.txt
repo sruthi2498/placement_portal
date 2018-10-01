@@ -1,0 +1,17 @@
+Nagarro software company visited our campus. I am writing this so that it might hep others around 290 students appeard for this.
+Round 1: 
+written round consist of two papers both pen and paper based and answers to be fill in omr. paper 1 consist of analytical questions like profit loss, speed, 10th class geometry problems based questions  there were total 25 questions.
+Paper2 consist of only coding input/output questions of c there were 20 questions
+Round 2:
+there were three questions u have to write only pseudo code for that .
+1-> given a starting point in a 2d array of size X  Y you have to rotate subarray of size N staring from given starting point.
+2-> there are a lot of strings like “ab” , “bc”,”cd”,”ad” and u have to find the longest string can be made like ab+bc+cd = abcd = 4(answer) but keep in mind that ending character of first string should be first character of next string.
+3-> this questions also on array given an array of size m * n .and every row of array is sorted and contains unique element but different rows can contain same element present in other row . u have to sort the array and remove the duplicates and store in 1 1D array .
+Technical round:
+Cross questions based on pseudo code u have written and on their complexities. and then he asked me another 2 questions
+1- given a string consisting of various words . reverse all the string and words by 2 methods.
+2- given an sorted array of size n and there is another array of 2n also contain elements in sorted order . merge these sorted arrays and remove duplicates if any .the resultant array should also be in sorted order.
+do this by 3 methods.
+HR round: 
+Basic questions like tell about yourself and questions about project.
+

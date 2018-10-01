@@ -1,0 +1,29 @@
+We recommend reading following posts as a prerequisite of this post.
+K’th Smallest/Largest Element in Unsorted Array | Set 1
+K’th Smallest/Largest Element in Unsorted Array | Set 2 (Expected Linear Time)
+Given an array and a number k where k is smaller than the size of the array, we need to find the k’th smallest element in the given array. It is given that all array elements are distinct.
+Examples:
+In previous post, we discussed an expected linear time algorithm. In this post, a worst-case linear time method is discussed. The idea in this new method is similar to quickSelect(), we get worst-case linear time by selecting a pivot that divides array in a balanced way (there are not very few elements on one side and many on another side).  After the array is divided in a balanced way, we apply the same steps as used in quickSelect() to decide whether to go left or right of the pivot.
+Following is complete algorithm.
+In above algorithm, last 3 steps are same as algorithm in previous post.  The first four steps are used to obtain a good point for partitioning the array (to make sure that there are not too many elements either side of pivot).
+Following is C++ implementation of above algorithm.
+Run on IDE
+Output:
+Time Complexity: 
+The worst case time complexity of the above algorithm is O(n).  Let us analyze all steps.  
+The steps 1) and 2) take O(n) time as finding median of an array of size 5 takes O(1) time and there are n/5 arrays of size 5.
+The step 3) takes T(n/5) time.  The step 4 is standard partition and takes O(n) time.
+The interesting steps are 6) and 7). At most, one of them is executed.  These are recursive steps.  What is the worst case size of these recursive calls. The answer is maximum number of elements greater than medOfMed (obtained in step 3) or maximum number of elements smaller than medOfMed.
+How many elements are greater than medOfMed and how many are smaller?
+At least half of the medians found in step 2 are greater than or equal to medOfMed. Thus, at least half of the n/5 groups contribute 3 elements that are greater than medOfMed, except for the one group that has fewer than 5 elements. Therefore, the number of elements greater than medOfMed is at least.
+
+Similarly, the number of elements that are less than medOfMed  is at least 3n/10 – 6. In the worst case, the function recurs for at most n – (3n/10 – 6) which is 7n/10 + 6 elements.
+Note that 7n/10 + 6 < n for n > 20 20 and that any input of 80 or fewer elements requires O(1) time. We can therefore obtain the recurrence
+
+We show that the running time is linear by substitution. Assume that T(n) cn for some constant c and all n > 80. Substituting this inductive hypothesis into the right-hand side of the recurrence yields 
+since we can pick c large enough so that c(n/10 – 7) is larger than the function described by the O(n) term for all n > 80. The worst-case running time of is therefore linear (Source: http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap10.htm ).
+Note that the above algorithm is linear in worst case, but the constants are very high for this algorithm. Therefore, this algorithm doesn’t work well in practical situations, randomized quickSelect works much better and preferred.
+Sources:
+MIT Video Lecture on Order Statistics, Median
+Introduction to Algorithms by Clifford Stein, Thomas H. Cormen, Charles E. Leiserson, Ronald L.
+http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap10.htm

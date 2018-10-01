@@ -1,0 +1,20 @@
+
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.
+begin() function is used to return an iterator pointing to the first element of the list container. It is different from the front() function because the front function returns a reference to the first element of the container but begin() function returns a bidirectional iterator to the first element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Time Complexity : O(1)
+end() function is used to return an iterator pointing to the last element of the list container. It is different from the back() function because the back() function returns a reference to the last element of the container but end() function returns a bidirectional iterator to the last element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Time Complexity : O(1)

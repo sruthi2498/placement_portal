@@ -1,0 +1,22 @@
+We know Fibonacci number, Fn = Fn-1 + Fn-2. 
+First few Fibonacci numbers are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, ….  . 
+Here are some interesting facts about Fibonacci number : 
+1. Pattern in Last digits of Fibonacci numbers :
+Last digits of first few Fibonacci Numbers are : 
+The series of last digits repeats with a cycle length of 60 (Refer this for explanations of this result). 
+Run on IDE
+Run on IDE
+
+2. Factors of Fibonacci number : On careful observation, we can observe the following thing :
+Refer this for details.
+Run on IDE
+Output:
+3. Fibonacci number with index number factor : We have some Fibonacci number like F(1)  = 1 which is divisible by 1, F(5) = 5 which is divisible by 5, F(12) = 144 which is divisible by 12, F(24) = 46368 which is divisible by 24, F(25) = 75025 which is divisible by 25. This type of index number follow a certain pattern. First, let’s keep a look on those index number :
+1, 5, 12, 24, 25, 36, 48, 60, 72, 84, 96, 108, 120, 125, 132, …..
+On observing it, this series is made up of every number that is multiple of 12 as well as all the number that satisfies the condition of pow(5, k), where k = 0, 1, 2, 3, 4, 5, 6, 7, …….
+Run on IDE
+Output:
+4. Value of  f(n-1)*f(n+1) – f(n)*f(n) is (-1)n. Please refer Cassini’s Identity for details.
+Reference :
+http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibmaths.html
+

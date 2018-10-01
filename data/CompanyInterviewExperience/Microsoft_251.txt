@@ -1,0 +1,22 @@
+Here goes my experience.
+Skype Round:
+1) Level order traversal of a binary tree. Extend or modify the code to zig zag traversal.
+https://www.geeksforgeeks.org/level-order-tree-traversal/
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+Face to Face Round 1 : 
+1) Questions about my previous work.
+2) Sort an array of 0’s, 1’s, 2’s.
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+Face to Face Round 2 :
+1) Print last n lines of a file
+https://www.geeksforgeeks.org/print-last-10-lines-of-a-given-file/
+2) Right and Top view of a binary tree
+https://www.geeksforgeeks.org/print-right-view-binary-tree-2/
+https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+Face to Face Round 3 ( Hiring Manger) :
+1) Questions about my previous company work and why would I want to shift.
+2) Given a matrix which is spirally sorted. Remove an element and insert another element without messing up with the sorted order. More importance was given to coding
+Face to Face Round 4 ( Bar Raiser ) :
+1) Given an array filled up with 1 to n^2 in randomized order. Fill it in a square matrix of size n.
+2) Give test cases for atoi function.
+A big Thanks to GeeksforGeeks for providing such a brilliant platform for interview preparation. Keep up the good work 🙂

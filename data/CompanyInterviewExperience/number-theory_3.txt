@@ -1,0 +1,14 @@
+Given two numbers sa and sb represented as strings, find ab % MOD where MOD is 1e9 + 7.  The numbers a and b can contain upto 106 digits.
+Examples:
+Input  : sa = 2, sb = 3
+Output : 8
+Input : sa = 10000000000000000000000000000000000000000000
+        sb = 10000000000000000000000000000000000000000000
+Output : 494234546
+As a and b very large (may contain upto 10^6 digits each). So what we can do, we apply Fermat’s little theorem and property of modulo to reduce a and b.
+Reduce a:
+As we know, 
+Reduce b:
+How to reduce b, We have already discuss in Find (a^b)%m where ‘b’ is very large
+Now finally we have both a and b are in range of 1<=a, b<=10^9+7. Hence we can now use our modular exponentiation to calculate required answer.
+Run on IDE

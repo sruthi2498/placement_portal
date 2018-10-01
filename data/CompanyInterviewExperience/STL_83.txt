@@ -1,0 +1,9 @@
+The unordered_multiset::emplace_hint() is a built-in function in C++ STL which inserts a new element in the unordered_multiset container. It starts searching from the position provided in the parameter for the insertion point of the element. The position only acts as a hint, it does not decide the position at which the insertion is to be done. The insertion is done automatically at the position according to the container’s criterion.  It increases the size of the container by one. 
+Syntax: 
+Parameters:  The function accepts two mandatory parameters which are described below: 
+Return Value: It returns an iterator which points to the newly inserted element. 
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

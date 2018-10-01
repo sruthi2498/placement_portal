@@ -1,0 +1,10 @@
+Given a range [L, R], we need to find the count of total numbers of prime numbers in the the range [L, R] where 0 <= L <= R < 10000.  Consider that there are a large number of queries for different ranges.
+Examples:
+A simple solution is to do following for every query [L, R]. Traverse from L to R, check if current number is prime. If yes, increment count. Finally return the count.
+An efficient solution is to use Sieve of Eratosthenes to find all primes up to given limit. Then we compute a prefix array to store counts till every value before limit. Once we have prefix array, we can answer queries in O(1) time. We just need to return prefix[R] – prefix[L-1].
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

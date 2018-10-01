@@ -1,0 +1,16 @@
+A permutation, also called an “arrangement number” or “order”, is a rearrangement of the elements of an ordered list S into a one-to-one correspondence with S itself. A string of length n has n! permutation.
+Source: Mathword
+Below are the permutations of string ABC.
+ABC ACB BAC BCA CBA CAB
+We have discussed C implementation to print all permutations of a given string using backtracking here. In this post, C++ implementation using STL is discussed.
+
+
+Below is C++ implementation.
+Run on IDE
+Output : 
+ 
+
+We first sort the string, so that it is converted to lexicographically smallest permutation.  Then we one by one call next_permutation until it returns false.
+Run on IDE
+Output : 
+Note that the second method always prints permutations in lexicographically sorted order irrespective of input string.

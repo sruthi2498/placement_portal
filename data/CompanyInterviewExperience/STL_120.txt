@@ -1,0 +1,9 @@
+The multiset::find() is a built-in function in C++ STL which returns an iterator pointing to the lower_bound of the element which is searched in the multiset container. If the element is not found, then the iterator points to the position past the last element in the set. 
+Syntax:
+Parameters: The function accepts one mandatory parameter element which specifies the element to be searched in the multiset container. 
+Return Value: The function returns an iterator which points to the element which is searched in the multiset container. If the element is not found, then the iterator points to the position just after the last element in the multiset.
+Below program illustrates the above function. 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

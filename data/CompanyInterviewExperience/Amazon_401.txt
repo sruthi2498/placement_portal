@@ -1,0 +1,48 @@
+Amazon visits our campus for recruitment. Here I am sharing my experience of the whole process.
+Round 1:
+First there was an online round on hackerrank and consisted of 20 mcqs and two coding questions.
+mcqs were mainly from c/c++ input/output DS, OS .Here are those two coding questions:
+ 
+Ques1: An array containing heights of building was given. Its a rainy season. Calculate the amount of water collected between all the buildings.
+Input: 1 5 3 7 4 2
+Output: 2
+Ques2: Two strings are given check if anagram of one string is contained in other string.
+ 
+Round 2(F2F 1):
+Three coding questions were asked, all from geeks.
+Ques1: In a party of N people, only one person is known to everyone. Such a person may be present in the party, if yes, (s)he doesn’t know anyone in the party. We can only ask questions like “does A know B? “. Find the celebrity.
+https://www.geeksforgeeks.org/the-celebrity-problem/
+Twist: this time celebrity may or may not know some persons in the party. Suggested him O(n^2) approach. Using stack we can minimize comparisons.
+Ques2: Given an unsorted array that contains even number of occurrences for all numbers except two numbers. Find the two numbers which have odd occurrences in O(n) time complexity and O(1) extra space. Told him that I know its approach already. He asked me for the approach.
+https://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/
+Ques3: An array of size n-1 is given contains numbers from 0 to n. Find the two missing numbers in O(n) time and O(1) space. Suggested him method given in :
+https://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/
+ 
+Round 3(F2F 2):
+He starts with my introduction and some questions on classification as in my machine learning project I have made a classifier.
+Ques 1: Find next Greater element for each element of the given array.
+https://www.geeksforgeeks.org/next-greater-element/
+Ques 2: Find if a binary tree is BST or not. Suggested method 3 given in this post.
+https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+Ques 3: Given a matrix calculate minimum cost path to reach from top-left to bottom-right. Suggested him the dp approach then he asked me if this will work with negative edges or not. I said yes it would work.
+He then twisted the question a bit…now one can move in either of the four direction left,top,right and bottom and can contain negative edges. Suggested him recursive approach having exponential time complexity. Asked me in which case it won’t work. After sometime told him if it contains negative cycle. I think it can easily be done with graphs.
+Ques 4: coins are lined up (eg. 100 200 50 2) Two players playing this game can pick a coin from either of the left or right end. Player with maximum sum will win. Both players are optimally playing the game. You have to tell that whatturn(1 or 2) should be chosen in order to win. Like in above example if you play first then can select coin 2(you want to get that 200 coin to win).
+ 
+Round 4(F2F 3):
+He started will “tell me about yourself” and then he asked me about “Virtualization” one of my project. A long discussion on the same. Questions like what happens if he wants to have a trace of his previos work and other project related questions.
+Ques 1: Sort a 2GB file line by line. Avoid use of extra space (or use minimum space).
+Suggested him solution with trie but he said it would take space if there are no common prefixes. Then i gave him a solution with hashing(store hash value per line and sort it) but he was not satisfied with time complexity) then finally suggested counting sort. As we can have only 256 different characters at max in any line. Time complexity was O(n*m) n no of lines and m no of characters per line. Satisfied =D.
+Ques 2: He gave me a small code to debug. Below code is having four bugs.
+Unsigned inti;
+For(i=100,i<=0,–i)
+Printf(“%d\n”,i);
+Ques 3: What happens when you hit your college url. Describe all steps. Then he asked some questions on networks like http, tcp, port, switches etc.
+Ques 4: Print all permutations of a string. Asked me for the approach and code it.
+Round 5(F2F 4):
+Long discussion on my summer internship project. Project was on “Machine Translation” (translation of one language document into other language). Mine was converting English to Hindi. Asked me for the approach and discussion on the same.
+Then he gave me this problem.
+There are number of clients requesting pages of a service. Find number of pages requested by clients in each 5 minutes. Gave a solution with queue using linked list and map.
+Then a long discussion on my minor project which was on machine learning. The interviewer was having deep knowledge on machine learning So he asked me a lot on the same. Then he asked me if I have studied it as a subject. I said no. He said “that is what I wanted to know”. He was impressed with my projects.
+ 
+Hope this experience would help you to prepare for the company. GFG helped me a lot, a great site with almost all stuff to prepare for the interview. Best of luck J keep coding J
+

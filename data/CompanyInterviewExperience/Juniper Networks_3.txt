@@ -1,0 +1,39 @@
+Telephonic round:
+Multithreading, current project, prev company project, packet transfer over network
+Deadlock, situation for deadlock, min thread/resource required for dead lock, how to overcome from deadlock, critical section
+Round 1:
+Sum of 2 is x in array
+List palindrome
+Mutex semaphore
+Project
+Airline design for connectivity
+Hash map
+Round 2:
+Area of rectangle
+Two rectangle intersecting area
+mutex semaphore
+TCP flow
+IP header
+Project
+Difference between message passing and shared memory
+Round 3:
+ARP
+Routing – how many interfaces / assign ip address to each router / update routing table
+Project arch
+Mutex semaphore
+Synchronization techniques
+Power of 2
+Socket – client server arch
+Get/get-next implementation
+Round 4:
+Most challenging job so far
+Project implementation
+Bit map implementation / get empty position in 2000 bits / why char, why not int or uint
+Little / big endian
+htons implementation
+Swap nibbles aabbccdd -> ddccbbaa
+Mutex semaphore
+Memory leak – how to find leak during system start up
+Round 5:
+Array of 10 char pointers
+Write function to allocate memory for each char pointer

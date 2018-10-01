@@ -1,0 +1,33 @@
+I was interviewed for SDE – II position @ Flipkart. Below is my experience.
+Round 1 : Telephonic Round (around 90 minutes)
+He started with his and mine introduction, the products i have worked on, the challenges i have faced during its development ( basic questions). Then he asked me 2 questions.
+1. Find the LCA (least common ancestor of 2 nodes) in a Binary Tree
+node structure – > data, left child, right child, parent.
+2. Design a data structure which would allow you to perform the following 2 operations supported in O(1) complexity.
+a. Insert an element.
+b. Return a random number from the numbers inserted so far. A random function is given which generates a random number.
+c. Delete(int num) finds and delete a number from the ones inserted so far.
+Round 2 : Machine Coding round. ( 90 – 120 minutes)
+Design the snake and ladder problem.
+Full working code was required. They gave us more than 2 hours to complete. 
+Discussion on the code written and how i have implemented.
+Round 3 : Problem Solving Round ( 45 – 60 minutes)
+1. Level order Traversal of a Binary Tree.
+2. You are given a string of 0’s and 1’s you have to find the number of substrings in the string which starts and end with a 1.
+eg : input : 0010110010
+output : 6
+3. You are given a mapping like a -> 1, b-> 2… z-> 26.
+You have to print all possible combinations of a given number using the above information.
+eg : input : 121
+output : aba,la,au
+4. String Compression Algorithm.
+You have to compress a string in the following format.
+eg : input : aasasatb
+output : 2a2sa1t1b
+Round 4 : Hiring Manager (40 minutes)
+General talk around what they do and what they expect from an engineer.
+Gave me a puzzle : http://www.mathsisfun.com/puzzles/planes-around-the-world-solution.html
+
+I would like to thank GeeksForGeeks for helping me in the preperation, i dont know the result so far but am very content with my overall experience during the interview.
+Thanks and best of luck to all other geeks. 
+

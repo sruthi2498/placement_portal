@@ -1,0 +1,9 @@
+Given a stack with push(), pop(), empty() operations, delete middle of it without using any additional data structure.
+
+The idea is to use recursive calls. We first remove all items one by one, then we recur. After recursive calls, we push all items back except the middle item.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

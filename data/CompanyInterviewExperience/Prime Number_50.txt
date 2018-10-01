@@ -1,0 +1,14 @@
+A Twin prime are those numbers which are prime and having a difference of two ( 2 ) between the two prime numbers. In other words, a twin prime is a prime that has a prime gap of two. 
+Sometimes the term twin prime is used for a pair of twin primes; an alternative name for this is prime twin or prime pair. Usually the pair (2, 3) is not considered to be a pair of twin primes. Since 2 is the only even prime, this pair is the only pair of prime numbers that differ by one; thus twin primes are as closely spaced as possible for any other two primes.
+The first few twin prime pairs are :
+FACT : There are 409 Twin primes below 10, 000.
+Every twin prime pair except (3, 5) is of the form (6n – 1, 6n + 1) for some natural number n; that is, the number between the two primes is a multiple of 6.
+Examples :
+
+Prerequisite : Primality Test | Set 1 (Introduction and School Method)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

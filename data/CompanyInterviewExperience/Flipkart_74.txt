@@ -1,0 +1,31 @@
+1st round ( machine coding round)
+Write down code in any language for a simple employee hierarchy which has 3 types of employees.
+1. CEO
+2. Manager
+3. employee
+where an employee can have only 1 mgr, and a mgr has 1+ employees.
+We were asked to input employee details(name ,id, salary,rating etc) in any order (employees might be input before his manager), create the hierarchy and implement these functionality:
+1. Print hierarchy given any employee/mgr/ceo (used an n-ary tree + hash table)
+2. Given a bonus and performance rating of each employee divide it to the lowest level employees(in the hierarchy ) in the ratio of their rating. i.e 100 divided among 2:3 is 40 and 60. and print the bonus of each ( simple recursive solution)
+3. Top 10 employees with ratio of bonus:salary (used maxheap)
+Write working code, modular, extensible, corner case handling etc. was arnd 1.5 – 2 hrs
+2nd round
+discussion on your solution of the 1st round, how can you optimize it, then review of the written code
+3rd round
+Ds and algo
+1. snakes and ladders problem
+2. median in a stream of integers
+3. string searching (KMP / suffix tree was needed : not code just the logic)
+4. Given any language , you use libraries , which might  use more lib etc . Find the order of building the libraries (Topological sort)
+5. Given a server with a stack with some initial state say 1 Users can modify the stack using regular ops eg push 2 , pop etc and each op causes a version change. i.e          version 1 : 1 , version 2 : 2,1 , version 3 : 3,2,1 , version 4 : 2,
+You have to design it s.t person can ask for any version of the stack (keep copies every k times and keep the ops in an nonvolatile memory)
+4th round
+Design a new kind of an  online poker game
+give all entities and relationships in depth
+further in depth discussion of how to make it more HA friendly, how to
+handle players crashing etc
+5th round
+HM round
+in depth discussion of projects and general questions eg when you disagreed with your mgr etc
+Process was crisp and took place from 10am – 5 pm on a weekend in Bangalore
+

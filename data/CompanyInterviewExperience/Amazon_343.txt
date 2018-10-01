@@ -1,0 +1,12 @@
+Telephonic interview:
+1. Given a string, display the words in reverse order
+I/p: I work at xyz
+O/p: xyz at work I
+2. Given a linked list modify the linked list as below
+I/p: a x b c y z
+O/p: a b c x y z
+3. What is virtual memory
+4. If I am designing a media player and I want to store songs and play them in random order
+a) what data structure will you use to store songs?
+b) how will select the next song to play in a way which prevents the same song being played in consecutive turn 
+

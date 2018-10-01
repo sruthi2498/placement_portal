@@ -1,0 +1,9 @@
+Given a non-negative number n. The problem is to find the smallest number k such that the product of digits of k is equal to n. If no such number k can be formed then print “-1”.
+Examples:
+Source: Asked in Amazon Interview
+
+Approach: For each i = 9 to 2, repeatedly divide n by i until it cannot be further divided or the list of numbers from 9 to 2 gets finished. Also, in the process of division push each digit i onto the stack which divides n completely. After the above process gets completed check whether n == 1 or not. If not, then print “-1”, else form the number k using the digits from the stack containing the digits in the same sequence as popped from the stack. 
+Run on IDE
+Output:
+Time Complexity: O(num), where num is the size of the stack.
+We can store the required number k in string for large numbers.

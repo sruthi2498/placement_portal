@@ -1,0 +1,11 @@
+Given a string  ‘str’ of digits and an integer ‘n’, build the lowest possible  number by removing ‘n’ digits from the string and not changing the order of input digits.
+Examples: 
+The idea is based on the fact that a character among first (n+1) characters must be there in resultant number.  So we pick the smallest of first (n+1) digits and put it in result, and recur for remaining characters. Below is complete algorithm.
+Below is C++ implementation of above algorithm.
+Run on IDE
+Output:
+Below is an optimised code in C++ contributed by Gaurav Mamgain
+Run on IDE
+Output:
+Time Complexity: O(n)
+Space Complexity: O(n)

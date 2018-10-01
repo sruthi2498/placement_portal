@@ -1,0 +1,45 @@
+Round 1 ( Coding Round + MCQs ):
+Platform : Hackerearth
+Question 1 : http://www.geeksforgeeks.org/maximize-number-0s-flipping-subarray/
+Question 2 : http://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+The test cases were very weak and any brute force solution got accepted.
+20 MCQs based on OS, DBMS. The questions were very similar to those present on Geeksquiz.
+Round 2 ( Telephonic Interview 1, duration – 1 hour) :
+Question 1 : http://www.geeksforgeeks.org/find-smallest-range-containing-elements-from-k-lists/
+Question 2 : Delete operation on a BST.
+Round 3 ( Telephonic Interview 2, duration – 35 mins ) :
+Question 1 : http://www.geeksforgeeks.org/adding-two-polynomials-using-linked-list/
+Question 2 : https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+After this round I was invited for onsite interviews at Amazon Bangalore Office.
+Round 4 : ( F2F , duration – 45 mins )
+Question 1 : http://www.geeksforgeeks.org/sort-array-according-order-defined-another-array/
+This question can be easily solved using a custom compare function combined with merge sort, I figured this out later on . I had proposed a different solution based on 2 hashmaps. Time complexity was O( n log n ). My approach was a little complex and lengthy, so the interviewer did not ask me to code this.
+Question 2 : Reverse a linked list.
+He asked me to dry run my code and checked all corner cases.
+Round 5 : ( F2F, duration – 1 hour, 2 interviewers )
+Question 1 : Design LRU Cache.
+I designed it using unordered_map and doubly linked list. I coded my own DLL class. After that they framed different test cases and asked me to explain how my code was handling those cases.
+They asked some questions about how hashmap is implemented.
+Question 2 : You are given a string and 2 operators ( & , | ). Return the total number of ways in which you can evaluate to true using the given string and operator set.
+Example  : Input : TF
+                  Output : 1
+                  Input : TFF
+                  Output : 2  ( T | F & F ,    T | F | F )
+I solved it using parenthesization and memoization. Time Complexity – O ( n3 ).
+I used a 3-D array to memoize.
+dp[i][j][0] : Number of ways to form 0 using substring( i, j )
+dp[i][j][1] : Number of ways to form 1 using substring( i, j )
+Interviewer stressed to use only a single 2-D array so I had to include the following  precomputation to calculate the total number of ways to parenthesize a string of length n, lets say F( n ).
+F( n ) = 1 + summation ( F( i ) * F ( n – i ) ) i varies from 1 to n-1 .
+Round 6 ( F2F, duration – 45 mins )
+Interviewer warned me to inform him in case I had already encountered any of these questions.
+Question 1 : https://www.geeksforgeeks.org/minimum-steps-to-reach-a-destination/
+ I told him that I had already solved this question using BFS. He asked me to explain the approach, but did not ask to code.
+Question 2 : http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+He was expecting an O ( n ) solution. I solved it using 2 pointer approach. He asked me to dry run my code and handle cases when array values are negative or zero.
+Question 3 : http://www.geeksforgeeks.org/maximum-sum-linked-list-two-sorted-linked-lists-common-nodes/
+I told him that this is a classical problem and I have solved it earlier. Told him the approach and handled all corner cases.
+Round 7 ( F2F, 2 interviewers, duration – 30 mins ):
+Detailed discussion about my project. Some random questions about the technologies I had used.
+Question 1 : https://www.geeksforgeeks.org/remove-all-nodes-which-lie-on-a-path-having-sum-less-than-k/
+

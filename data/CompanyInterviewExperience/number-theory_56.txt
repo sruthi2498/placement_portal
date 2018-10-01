@@ -1,0 +1,15 @@
+Given two positive integer N, M. The task is to check if N and M are friendly pair or not.
+
+In number theory, friendly pairs are two numbers with a common abundancy index, the ratio between the sum of divisors of a number and the number itself i.e ?(n)/n. S o, two number n and m are friendly number if
+ ?(n)/n = ?(m)/m.
+where ?(n) is the sum of divisors of n.
+Examples:
+
+The idea is to find the sum of divisor of n and m. And to check if the abundancy index of n and m, we will find the Greatest Common Divisors of n and m with their sum of divisors. And check if the reduced form of abundancy index of n and m are equal by checking if their numerator and denominator are equal or not. To find the reduced form, we will divide numerator and denominator by GCD.
+Below is the implementation of above idea :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

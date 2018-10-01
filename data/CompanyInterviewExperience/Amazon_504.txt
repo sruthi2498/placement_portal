@@ -1,0 +1,16 @@
+Round 1:
+1. Incoming stream of characters () defines an onion of depth 1, (()) of 2.  Find all onions with their in an incoming stream of characters. Discuss complexity.
+Stream can be (()) () )) ((( (
+2. Biggest challenge faced / where you innovated?
+Resume Project:
+i. Demonstrate High Level Design
+3. Parking Lot Problem A, B , C lots with different car sizes.  Efficient way of allocating available slot.
+A: Maintain linked list of available slots. Complexity discussion.
+Round 2:
+1. Matrix of 1s and 0s. 1s are sorted in beginning of each row.  Find
+an efficient way of finding the row with maximum 0s in it.
+A: Find row which has lowest sum. Complexity discussion. 
+2. How to find two sets(of size m,n) are dis-joint(have no elements common) efficiently
+A: Use hash map. Complexity is O(n) in worst case.
+Follow up Q: How are hash maps stored in memory?
+

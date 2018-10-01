@@ -1,0 +1,13 @@
+Given an odd integer n, find a matrix of size n x n with following conditions:
+Example : 
+The idea is to first decide positions of 1s. Once possible arrangement of 1s for n = 5 is,
+Once we have decided 1s, task of filling remaining items is simple. We fill remaining entries column by column. For every 1, we traverse its column and fill all entries below it with 2, 3,…p and fill all entries above it with p+1, .. n. We get following.
+To decide initial positions of 1s, we traverse all rows and keep track of two column numbers “left” and “right”.
+1) “right” starts with n-1 and keep decrementing after every alternate row.
+2) “left” starts with 0 and keep incrementing after every alternate row. 
+Below are implementations of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,10 @@
+Find and print the uncommon characters of the two given strings in sorted order. Here uncommon character means that either the character is present in one string or it is present in other string but not in both. The strings contain only lowercase characters and can contain duplicates. 
+Source: Amazon Interview Experience | Set 355 (For 1 Year Experienced)
+Examples:
+
+Naive Approach: Using two loops. For each charactrer of 1st string check whether it is present in 2nd string or not. Likewise, for each character of 2nd string check whether it is present in 1st string or not. Time Complexity O(n2) and extra would be required to handle duplicates.
+Efficient Approach: Use hashing. Use a hash table of size 26 for all the lowercase characters.
+Initially, mark presence of each character as ‘0’ (denoting that the character is not present in both the strings). Traverse the 1st string and mark presence of each character of 1st string as ‘1’ (denoting 1st string) in the hash table. Now, traverse the 2nd string. For each character of 2nd string, check whether its presence in the hash table is ‘1’ or not. If it is ‘1’, then mark its presence as ‘-1’ (denoting that the character is common to both the strings), else mark its presence as ‘2’ (denoting 2nd string).
+Run on IDE
+Output:
+Time Complexity: O(m + n), where m and n are the sizes of the two strings respectively.

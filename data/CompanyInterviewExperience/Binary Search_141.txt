@@ -1,0 +1,34 @@
+An element in a sorted array can be found in O(log n) time via binary search. But suppose we rotate an ascending order sorted array at some pivot unknown to you beforehand.  So for instance, 1 2 3 4 5 might become 3 4 5 1 2. Devise a way to find an element in the rotated array in O(log n) time.
+
+All solutions provided here assume that all elements in array are distinct.
+The idea is to find the pivot point, divide the array in two sub-arrays and call binary search.
+The main idea for finding pivot is – for a sorted (in increasing order) and pivoted array, pivot element is the only element for which next element to it is smaller than it.
+Using above criteria and binary search methodology we can get pivot element in O(logn) time
+Below is the implementation of the above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity O(logn).  Thanks to Ajay Mishra for initial solution.
+Improved Solution:
+We can search an element in one pass of Binary Search.  The idea is to search
+Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Gaurav Ahirwar for suggesting above solution.
+How to handle duplicates?
+It doesn’t look possible to search in O(Logn) time in all cases when duplicates are allowed.  For example consider searching 0 in {2, 2, 2, 2, 2, 2, 2, 2, 0, 2} and {2, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}. It doesn’t look possible to decide whether to recur for left half or right half by doing constant number of comparisons at the middle.
+
+Similar Articles:
+Find the minimum element in a sorted and rotated array
+Given a sorted and rotated array, find if there is a pair with a given sum.
+Please write comments if you find any bug in above codes/algorithms, or find other ways to solve the same problem.

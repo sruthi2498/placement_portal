@@ -1,0 +1,12 @@
+There is a hierarchical structure in an organization. A party is to be organized. No two immediate subordinates can come to the party. A profit is associated with every person. You have to maximize the total profit of all the persons who come to the party.
+Hierarchical Structure
+In a hierarchical organization, all employees(except the one at the head) are subordinates of some other employee.
+Employees only directly report to their immediate superior. This allows for a flexible and efficient structure.
+
+For purposes of this problem, this structure may be imagined as a tree, with each employee as its node.
+Examples:
+Approach:
+Given the profit from each employee, we have to find the maximum sum such that no two employees(Nodes) with the same superior(Parent) are invited. This can be achieved if each employee selects the subordinate with the maximum contribution to go.
+In the program, the hierarchy of the company is implemented in the form of a dictionary, with the key being a unique employee ID, and data being an array of the form [Profit associated with this employ, [List of immediate Sub-ordinates]].
+For each Employee, the subordinate with the highest profit associated is added to the total profit. Further, the Employee at the head is always invited.
+Run on IDE

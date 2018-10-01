@@ -1,0 +1,19 @@
+Write a removeDuplicates() function which takes a list sorted in non-decreasing order and deletes any duplicate nodes from the list. The list should only be traversed once. 
+For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicates() should convert the list to 11->21->43->60. 
+Algorithm:
+Traverse the list from the head (or start) node. While traversing, compare each node with its next node. If data of next node is same as current node then delete the next node. Before we delete a node, we need to store next pointer of the node 
+Implementation:
+Functions other than removeDuplicates() are just to create a linked linked list and test removeDuplicates().
+
+Run on IDE
+Run on IDE
+
+
+Time Complexity: O(n) where n is number of nodes in the given linked list.
+Recursive Approach :
+Run on IDE
+ output
+Related Article : 
+Remove all occurrences of duplicates from a sorted Linked List
+References:
+cslibrary.stanford.edu/105/LinkedListProblems.pdf

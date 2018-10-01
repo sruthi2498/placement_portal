@@ -1,0 +1,28 @@
+Priority queues are a type of container adaptors, specifically designed such that the first element of the queue is the greatest of all elements in the queue.
+This function is used to insert a new element into the priority queue container, the new element is added to the top of the priority queue.
+Syntax :
+Examples:
+Note: In priority_queue container, the elements are printed in reverse order because the top is printed first then moving on to other elements.
+
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. Parameter should be of same type as that of the container, otherwise an error is thrown.
+Run on IDE
+Output:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Application :
+Given a number of integers, add them to the priority queue using emplace() and find the size of the priority queue.
+Algorithm
+1. Insert the given elements to the priority queue container one by one using emplace().
+2. Keep popping the elements of priority queue until it becomes empty, and increment the counter variable.
+3. Print the counter variable.
+Run on IDE
+Output:
+Time Complexity : O(1)
+emplace() vs push()
+When we use push(), we create an object and then insert it into the priority_queue. With emplace(), the object is constructed in-place and saves an unnecessary copy. Please see emplace vs insert in C++ STL for details.
+Run on IDE
+Output :

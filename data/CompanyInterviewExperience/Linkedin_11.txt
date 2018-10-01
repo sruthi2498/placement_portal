@@ -1,0 +1,16 @@
+Below is my interview experience with linkedin India for software development intern.
+First there was an online round on hackerrank where they asked 4 simple coding questions about DP, strings and stacks. In this round the selected 3 candidates.
+Then there were 2 telephonic rounds, both were technical, both simple.
+In first round they asked me 2 coding questions where he asked me to code as close as possible to the actual one.
+First question was you are given a array of string followed by two words. You have to find the minimum distance between the two words in the given array of string. For example:
+(“the”, “quick”, “brown”, “fox”, “quick”)
+distance(“fox”,”the”) == 3
+distance(“quick”, “fox”) == 1
+Second qustion:Given two sorted array of Strings, Implement a merged sorted array of string
+Then in the second round they asked a little about tree and told me to code 2 codes.
+First one : You are supposed to do a level order traversal of a binary tree(not necessarily complete) and have to print a special character(say ‘$’) after completion of each level.
+Second: Given a number print all the combination in which no. can be printed.
+for eg.
+After this round they selected 2 candidates including me.
+Tips for the interview: Just be relaxed interview will be simple you just need be calm and do not make small mistakes like ‘;’. Interviewer’s? main focus will be on end cases, so keep all end cases in mind while coding. Before start anything keep clear what you are going to code. Finally think out loud. Best of luck.
+

@@ -1,0 +1,7 @@
+Given a string of length n. Find the minimum number of possible cuts after rearranging the string (if required), such that each cut is a palindrome and length of every cut is equal. That is, find the minimum number of palindromes of equal lengths that can be obtained by partitioning the given string if rearrangement of string is allowed before partitioning.
+Examples:
+
+If we observe carefully, our problem reduces to calculating characters with odds and even counts. Below are the possible cases,
+Below is the implementation of above idea:
+Run on IDE
+Output:

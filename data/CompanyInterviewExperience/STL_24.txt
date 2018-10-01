@@ -1,0 +1,11 @@
+The towlower() is a built-in function in C/C++ which converts the given wide character into lowercase. It is defined within the cwctype header file of C++. 
+Syntax:
+Parameter: The function accepts a single mandatory parameter ch which specifies the wide character which we have to convert into lowercase.
+Return Value: The function returns the lowercase equivalent to c, if such value exists, or c (unchanged) otherwise. The value is returned as a wint_t value that can be implicitly casted to wchar_t.
+Below programs illustrates the above function.
+Program 1:
+Run on IDE
+Output: 
+Program 2:
+Run on IDE
+Output: 

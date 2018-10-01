@@ -1,0 +1,8 @@
+Given two integers L and R. Find the number of perfect powers in the given range [L, R].  A number x is said to be perfect power if there exists some integers a > 0, p > 1 such that x = ap.
+Examples :
+Prerequisites : Check if a number can be expressed as x^y, Binary Search and Perfect power (1, 4, 8, 9, 16, 25, 27, …)
+Approach :  Let’s fix some power p. It’s obvious that there are no more than 1018/p numbers x such that xp doesn’t exceed 1018 for a particular p. At the same time, only for p = 2 this amount is relatively huge, for all other p ≥ 3 the total amount of such numbers will be of the order of 106. There are 109 squares in the range [1, 1018], so can’t store them to answer our query.
+Either, generate all of powers for p ≥ 2 and dispose of all perfect squares among them or generate only odd powers of numbers like 3, 5, 7, etc. Then answer to query (L, R) is equal to the amount of generated numbers between L and R plus some perfect squares in range. 
+Hence the final answer would be sum of number of perfect squares in the range and difference  of upper value of R and lower value of L (using binary search).
+Below is the implementation of above approach in C++.
+Run on IDE

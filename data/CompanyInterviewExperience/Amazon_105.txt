@@ -1,0 +1,68 @@
+Amazon visited my Campus few days back .Here is my interview experience.
+There was 1 online round and 3 FTF and  a bar raiser.
+Online  Round (conducted on Hacker Earth)
+20 MCQ questions and 2 Coding Questions
+MCQ question-each 1 mark(-0.25 mark for wrong answer)
+Coding Questions- each 10 mark
+1.    Given a string you have to partition the string in such a manner that each part of the partitioned string is a palindrome in itself and you have to count the number of such partition.
+For eg: given string NITIN
+    N ITI N
+    N I T I N
+    NITIN
+Output-3
+2. You are given with a large paragraph and N words.
+You have to find a min length subparagraph of the paragraph which contain all those N words in any order. Here length of a paragraph is the count of words in the paragraph.
+First Technical 
+Second Technical 
+ We have n machines in which n tasks can run, and we have common cooling time t(in cycles) for all the machines.Certain conditions need to be followed –
+1. Task can run only on its assigned machine.Each task is assigned its own separate machine.
+Eg.Task1 runs on Machine1. Task2 can run on machine2.Task3 on machine3.
+2. Initially all machines are cool and tasks can run on them.
+3. At a time,only 1 task can run on its assigned machine.No 2 tasks can run simultaneously even on their assigned machines.
+4. Machine needs to be cooled for the cooling time period t after its task’s run is over.
+5.Each task takes 1 cycle to run and machine takes t cycles to cool.
+We are given an array which contains the order in which tasks are going to run on the machines. So we need to find out how much cycles in total it would take to run those tasks.
+Eg.
+n = 3
+int arr[] = {3 ,1, 2, 1, 2}
+int t = 2(cooling time)
+Output=6
+Explanation-
+In the start task 3 can run on third machine(T0)
+Task 1 runs on first machine(T1)
+Task2 on second machine(T2)
+Now task 1 waits since cooling time is 2 (T3 gone in waiting)
+Task 1 runs now(T4)
+Task 2 runs on second machine as cooling time of second  machine has passed (T5)
+Total cycles consumed to run all tasks =6 cycles   
+ 
+.   We are given two unsorted arrays, size can be different we need to swap two elements one from first array and second from second array such that the sum of each individual array becomes equal after swapping.
+Eg
+int a[] = {4, 3, 5}
+int b[] = {9, 1, 6}
+Output-{4, 6}
+4 from array a and 6 from array b are swapped to get  equal sum of each array as 14.
+Third Technical
+Few questions from my project.Then he asked me about structure of C program.
+Page fault and swap space.
+
+       Eg- target node = 4
+
+Output-    
+Bar Raiser-
+Given initial capital W and n projects and the capital being used in each and the profit earned from each.You need to select  k projects out of these n projects such that at the end your capital is maximised.
+Eg-
+W=3
+int capital[] = {9,2,3,1}
+int profit[] = {13,5,2,7}
+int k = 2
+output- 13
+Explanation- We choose project with capital 1 and new capital becomes(3+7-1=9)
+now we choose project with capital 9 and gets profit of 13 so final capital becomes(9+13-9=13)
+I gave answer by initially sorting the array according to capital and then selecting those projects which have capital required less than or equal to  initial capital and insert them in max heap, after extracting the top node decrease k and  my capital would change and now i can insert new projects from remaining  in my max heap which have capital required less than or equal to new capital and repeat this step till k becomes 0.
+Verdict-SELECTED 😀
+GEEKSFORGEEKS, indeed was a great help :D.
+Tips-Don’t panic ..keep trying different approaches ..they will help you when you are stuck..Try to do as many experiences from geeks.Do all the questions under Amazon tag from geeksforgeeks.
+
+
+

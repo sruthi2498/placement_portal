@@ -1,0 +1,21 @@
+Round 1: Machine Coding – 90 mins (You need to code this on the interview site)(Any programming language)
+Best Selling Price
+You need to make a program in which
+1.) You can add a product -> addProduct(“p1”)
+2.) A user can purchase a product -> purchase(“u1″,”p1”)
+3.) A user can return a product -> returnProduct(“u1″,”p1”)
+4.) A user can be blacklisted and all of his purchases will be marked null -> blackListUser(“u1”)
+5.) Display the best selling product -> bestSelling()
+Best selling product will be the one which have been bought by most number of unique users.
+Bonus: Display the best selling products for each category.
+Evaluation: After you are done with your code, two Flipkart SDEs will run test cases on your code and evaluate it. They will also ask some questions around your code.
+Round 2: Face to face interview – DS and Algo <1 hour almost>
+The interviewer asked me to solve following problems:
+1.) You have User’s web access pattern in the form of URLs for a specific website. How will you determine whether the user actually backtracked to the home page from some webpage of the website.
+So a user is currently accessing the website, hence we are receiving continuous stream of inputs from the user in the form urls 
+assume “1” is a url, “2” is a url and so on, the patterns can be:
+1 2 3 4 5 4 3 2 1 4 5 6 7 …….. 
+Assume 1 is the homepage, so the user backtracked to the home page 1 2 3 4 5 4 3 2 1
+2.) You are given with the co-ordinates of warehouses of our delivery network. Some of these warehouses are near a River which is about to get flooded. Tell one approach through which we can quickly detect which warehouses may be affected by this flood so that we can secure them quickly.
+Round 3: Hiring Manager Round <40 minutes almost>
+I was asked to introduce myself, what I like the most about my current job, what all are the projects I worked on and how, why e-commerce.

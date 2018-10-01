@@ -1,0 +1,10 @@
+Consider a matrix with rows and columns, where each cell contains either a ‘0’ or a ‘1’ and any cell containing a 1 is called a filled cell. Two cells are said to be connected if they are adjacent to each other horizontally, vertically, or diagonally .If one or more filled cells are also connected, they form a region. find the length of the largest region.
+Examples:
+Asked in : Amazon interview
+
+Idea is based on the problem or  finding number of islands in Boolean 2D-matrix 
+A cell in 2D matrix can be connected to at most 8 neighbors. So in DFS, we make recursive calls for 8 neighbors. We keep track of the visited 1’s in every DFS and update maximum length region.
+Below is C++ implementation of above idea.
+Run on IDE
+Output:
+Time complexity: O(ROW x COL)

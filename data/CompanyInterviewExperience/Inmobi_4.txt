@@ -1,0 +1,10 @@
+Round 1:
+Discussed about projects
+Find two elements in BST such that their sum is k
+Given an array, find minimum positive integer missing in O(n) time
+Round 2:
+Write a program for binary search. Discussed if any memory overflow problems occurs and how to resolve them. Left shift an unordered array by k times in O(n) time.
+Round 3:
+An island is represented in an 2d array of size mxn. If robot moves out of island it gets destroyed and robot is allowed to move top, down, left, right. Given a robot position (x, y) and k steps, what is the probability of robot getting survived in the effort of making k steps. 
+Given a subroutine which can be called in the flow of multi threaded web application. Track the number of times this subroutine is called without using synchronized keyword.
+Best Regards

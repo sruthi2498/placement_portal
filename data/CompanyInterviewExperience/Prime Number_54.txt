@@ -1,0 +1,15 @@
+Given an array of N elements, find the minimum number of insertions to convert the given array into a co-prime array. Print the resultant array also.
+Co-prime Array : An array in which every pair of adjacent elements are co-primes. i.e,  .
+Examples :
+
+Observe that to make a pair to become co-primes we have to insert a number which makes the newly formed pairs co-primes. So, we have to check every adjacent pair for their co-primality and insert a number if required. Now, what is the number that should be inserted?Let us take two numbers a and b. If any of a or b is 1, then GCD(a, b) = 1. So, we can insert ONE(1) at every pair. For efficiency we use euler’s gcd function .
+
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n).

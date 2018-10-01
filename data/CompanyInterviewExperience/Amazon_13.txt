@@ -1,0 +1,27 @@
+Round: I 
+An Array arr={7, 7, 8, 8, 9, 1, 1, 4, 2, 2} has numbers appearing twice or once. Duplicates appear side by side everytime. Might be few numbers can be occur one time and just assume this is a right rotating array (just say an array can rotate k times towards right). Aim is to identify numbers that occured once in array.   
+Run on IDE
+Input:
+7, 7, 8, 8, 9, 1, 1, 4, 2, 2
+Output:
+9
+4 
+Round II: 
+In second round  a question asked was asked regarding BST. Sum of key elements in individual path of BST (just say this sum as path_ weight)  and threshold path weight is given as input. If any of the pathweight is less than oversold path weight then that should be deleted from the tree.
+Example :
+Input:
+Consider the below tree as input and threshold path weight is 110.
+
+Output:
+Below are the no of paths the input tree can make
+path 1 : 50 -> 30 -> 20, Sum = 100
+path 1 : 50 -> 30 -> 40, Sum = 120
+path 1 : 50 -> 70 -> 60, Sum = 180
+path 1 : 50 -> 70 -> 80, Sum = 200
+In the current scenario path is less than the threshold path weight (100 < 110), So we have to destroy the path 1.
+Tree after destroying the path 1.
+
+Program for above task:
+Run on IDE
+In addition to the existing code for BST in geeksforgeeks and below function will implement the above task.
+https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/

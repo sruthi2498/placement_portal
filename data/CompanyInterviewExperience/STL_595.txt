@@ -1,0 +1,12 @@
+We have discussed about unordered_set in our previous post   the problem with unordered_set is that, it is not possible to store duplicate entries in that data structure. For example if we have some value v already in unordered_set, inserting v again will have no effect.
+    To handle this duplication unordered_mulitset should be used, it can store duplicate elements also. Internally when an existing value is inserted, the data structure increases its count which is associated with each value. As count of each value is stored in unordered_multiset, it takes more space than unordered_set (if all values are distinct).
+    The internal implementation of unordered_multiset is same as that of unordered_set and also uses hash table for searching,  just the count value is associated with each value in former one. Due to hashing of elements it has no particular order of storing the elements so all element can come in any order but duplicate element comes together. All operation on unordered_multiset takes constant time on average but can go upto linear in worst case.
+    Unordered_multiset supports many function which are demonstrated in below code :
+Run on IDE
+Output : 
+    As we can see most of the operation work similar to that of unordered_set but some things to note are:
+equal_range(val) function returns a pair of  type where first iterator points to first position of val and second points to last position of val in data structure.
+erase(val) function deletes all its instances from the data structure for example if some value v has occur t times in unordered_multiset and when erase is called, v is deleted completely which is not a expected behavior many times.
+We can delete only one copy of some value by using find function and iterator version of erase, as find function returns iterator to first position of found value we can pass this iterator to erase instead of actual value to delete only one copy, the code for doing this is shown below :
+Run on IDE
+Output :

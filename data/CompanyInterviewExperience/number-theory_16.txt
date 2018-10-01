@@ -1,0 +1,8 @@
+Given a number n, the task is to print first n Fibonacci numbers.
+Prerequisite : Program to print first n Fibonacci Numbers | Set 1
+Examples :
+
+
+N-th Fibonacci Number = [(1 + √5)n – (1 – √5)n)] / [2n * √5]
+Run on IDE
+Note :  The above program is costly compared to method 1 as it causes power computations in floating point. Also, it may not work perfect due to floating point precision errors.

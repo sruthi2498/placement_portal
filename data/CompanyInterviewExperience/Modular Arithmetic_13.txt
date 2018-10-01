@@ -1,0 +1,30 @@
+Given value of N and K. The task is to find the sum of series till N-th term whose i-th term is given by  Ti = i k + ( i – 1 )k. Since the sum of the series can be very large, compute its sum modulo 1000000007.
+Example:
+Naive Approach  A simple solution is to generate all terms up to n and add them. The time complexity will be O(N). Since N is very large, the approach will result in TLE. 
+ Better solution 
+Let’s have a look at the series pattern.
+
+Consider N = 4, K = 3
+Then the series will be :
+13 – (1 – 1)3 + 23 – (2 – 1)3 + 13 – (3 – 1)3 + 43 – (4 – 1)3
+i.e   13 – 03 + 23 –  13 + 33 – 23 +  43 – 33
+Rewriting the same powers together, we get.
+03 + 13 – 13  +  23 –  23 +  33 –  33 +  43 
+i.e  03 + 13 –  13 + 23 – 23 + 33 – 33 + 43 
+So the final result will be 43  ( i.e  nk )
+Hence the final formula stands at NK
+
+Below is the naive way to calculate NK. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(K) 
+NK can be calculated in O(log N) using Modular Exponentiation.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+ Time Complexity: O(log n)

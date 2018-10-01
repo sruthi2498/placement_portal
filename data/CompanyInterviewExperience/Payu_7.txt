@@ -1,0 +1,25 @@
+Given an input number of sections and each section has 2 plots on either sides of the road. Find all possible ways to construct buildings in the plots such that there is a space between any 2 buildings.
+Example : 
+We strongly recommend to minimize your browser and try this yourself first
+We can simplify the problem to first calculate for one side only. If we know the result for one side, we can always do square of the result and get result for two sides.
+A new building can be placed on a section if section just before it has space.  A space can be placed anywhere (it doesn’t matter whether the previous section has a building or not).
+Below is the implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(N)
+Auxiliary Space: O(1)
+Algorithmic Paradigm: Dynamic Programming
+Optimized Solution:
+Note that the above solution can be further optimized.  If we take closer look at the results, for different values, we can notice that the results for two sides are squares of Fibonacci Numbers.
+N = 1, result = 4   [result for one side = 2]
+N = 2, result = 9   [result for one side = 3]
+N = 3, result = 25  [result for one side = 5]
+N = 4, result = 64  [result for one side = 8]
+N = 5, result = 169 [result for one side = 13]
+…………………….
+…………………….
+In general, we can say 
+Therefore, we can use O(LogN) implementation of Fibonacci Numbers to find number of ways in O(logN) time.

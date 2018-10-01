@@ -1,0 +1,8 @@
+Given an array arr[] such that 1 <= arr[i] <= 10^12, the task is to find prime factors of LCM of array elements.
+Examples:
+
+A simple solution for this problem is to find LCM of n elements in array. First initialize lcm = 1, then iterate for each element in array and find the lcm of previous result with new element using formula LCM(a, b) = (a * b) / gcd(a, b) i.e., lcm  = (lcm  * arr[i]) / gcd(lcm, arr[i]). After finding LCM of all n elements we can calculate all prime factors of LCM.
+Since here constraint are large, we can not implement above method to solve this problem because while calculating LCM(a, b) we need to calculate a*b and if a,b both are of value 10^12 so it will exceed the limit of  integer size. We proceed for this problem in another way using sieve of sundaram and prime factorization of a number. As we know if LCM(a,b) = k so any prime factor of a or b will also be the prime factor of ‘k’.
+Below is C++ implementation of above idea.
+Run on IDE
+Output:

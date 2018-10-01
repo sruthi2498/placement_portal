@@ -1,0 +1,9 @@
+bitset::flip() is a built-in STL in C++ which flips the bits. If no parameter is passed in the function, then it flips all the bit values converting zeros to ones and ones to zeros. If a parameter position is passed, it flips the bit at the position only.
+Syntax: 
+Parameter: The function accepts a parameter pos which is not mandatory. If a parameter pos is passed, it flips the bit at the index pos only(the index pos is calculated starting from the right). In case no parameter is passed, it flips all the bit values converting zeros to ones and ones to zeros.
+Return Value: The function flips all the bit values according to the parameter passed or not and returns the new binary representation of the number. 
+Below programs illustrates the bitset::flip() function. 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

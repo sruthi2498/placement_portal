@@ -1,0 +1,28 @@
+Company – STB team, Microsoft IDC.
+Location – Hyderabad.
+First interview
+1. A quick introduction.
+2. Few questions on multi-threading like –
+…a. What is race condition?
+…b. What is critical section?
+3. Write a code to find out longest substring without any repetition of characters with O(n) complexity.
+Ex.
+String – abcdefghaxyzpbn
+Output string – bcdefghaxyzp
+4. Two linked lists are merged at one point. Find the merging node.
+
+Second Interview
+1. A quick introduction
+2. Few project related questions mentioned in resume.
+3. If you have huge log file, you need to print last ‘n’ lines from the log file. Write a code for it assuming regular file read operations.
+He was also expecting that the page hit is minimum.
+I had provided a solution which would read the file one by one and then will store it in a ‘n’ size circular linked list.
+4. If you have a m*n floor, find out a ‘k’ size square tile which will take care of filling the complete floor without breaking of tile.
+Use GCD logic.
+
+Third interview
+1. A quick introduction and he also asked what was asked in previous interviews.
+2. We have a m*n matrix, every element in row is in increasing order and every element in column is in increasing order. Find out a position of element ‘k’ from the matrix with O(m+n) complexity. Write a code for it.
+3. We have a ‘n’ steps and a ball which take either 1 step at a time or 2 steps at a time. Find out the number of possible ways it covers exactly ‘n’ steps.
+Run on IDE
+

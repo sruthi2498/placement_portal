@@ -1,0 +1,7 @@
+In C++ vectors, we can access last element using size of vector using following ways.
+1) Using size()
+Run on IDE
+Output : 
+1) Using back() We can access and modify last value using  back().
+Run on IDE
+Output : 

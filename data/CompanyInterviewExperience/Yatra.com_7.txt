@@ -1,0 +1,10 @@
+Given two strings return the value of least number of manipulations needed to ensure both strings have identical characters, i.e., both string become anagram of each other.
+Examples:
+Question Source : Yatra.com Interview Experience | Set 7
+
+The idea is to create a extra count array for both the strings separately and then count the difference in characters.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

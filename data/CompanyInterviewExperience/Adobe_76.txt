@@ -1,0 +1,37 @@
+Following is my Interview experience in Adobe Bangalore for the profile of White Box Test Engineer.  
+Written Round
+There were two parts technical and aptitude
+1. Aptitude questions(MCQ) were fairly easy,simple mathematical,geometrical problems,profit and loss etc Also Logical questions with paragraph..(R.S. aggarwal is enough)
+2. 30 Technical question(MCQ) related to C and C++ , 2 programming questions(String permutation and Reversing linked list) , one question about two phase commit protocol and difference between hub and switch
+After  30 days of long wait, I got call that I have been shortlisted for the Further rounds.
+F-2-F Round 1:
+Starts with Brief introduction.
+1. Questions related to my previous company work,meaning of Unit testing,Integration Testing,Which Software Model is used etc.
+2. Test Cases of Mobile for rural area for hardware as well as software point of view. Long discussion on this.
+3. Design a clock in which if you want to know about time in any region of this world, you can know .Hardware given is such that it has already built calculation device inside it. Long Discussion on  various approaches.
+4. famous Puzzles a) Measuring 4 liter water from 3 and 5 liter. b) 3 bulbs 3 switches, here is the link http://www.programmerinterview.com/index.php/puzzles/3-switches-3-bulbs/
+After this Next 2 rounds are video conferencing(V.C.) rounds as Hiring was for Noida campus.
+V.C. Round 2:(Hiring Manager Round)
+Starts with Brief introduction.
+1. Write a C/C++ function for removing extra spaces in given sentence.
+2. Write a various test cases for checking the functionality of Adobe reader while saving it .Long discussion on it.
+3. Find a 3 digit Number abc such that abc=a!+b!+c!. Ans is 145.He then ask me the approach how i got it.
+After this he briefly explain the Job profile in which I have to work if I got selected. He also asked  about testing methodology that I have been doing in my current company.
+
+F-2-F Round 3 H.R.:
+After Hiring manager round, There was H.R. round. He was a really cool guy. He asked me about previous interviews how it went. Then he asked me about my long term plans if i got selected, about my family, My qualifications etc.
+ He also asked me about C.E.O. of adobe.
+V.C. Round 4: 
+1. Write a C code for converting a string from a2b2c5 to aabbccccc. Then make it generalize. Various Test cases of it
+2. About testing tool that i used in my current company, Various functionality of It.
+3. Puzzle : There is a pond in which there is x kg ice on 1st November, it becomes 2x on 2nd November then 4x,8x,16x,32x and so on.Like this whole pond is filled with ice on last day i.e. 30th November. On which day pond was filled with half the ice  ?
+4. Puzzle: you have 100 coins on table, 60 heads and 40 tails. With your eyes closed, how can you separate the coins into 2 groups such that each group has same number of tails.
+5. Write a C function to convert array {1,3,5,7,2,4,6,8} to {1,2,3,4,5,6,7,8}.Then make it generalize. Various Test cases of it.
+Many C/C++ concept were discussed on this round like friend function, Inheritance etc.
+F-2-F round 5:
+
+Starts with Brief introduction.
+1. About some commands in UNIX , use of wild card character etc. Then he asked me how you open notepad without using mouse.(simple),then he explain the internal logic behind this like what will happen if you press ctrl+s,ctrl+o etc. After this He gave me array of strings such that each string must have ‘$’ character, I have to write a C code to find whether there exist two strings having same character just after $.(also simple).
+2. Difference object oriented concept like function overloading. why C does not support function overloading as there is a concept of variable number of arguments in C? , explain with example.
+3. Different searching methods and its complexity, Hashing. How you search words in dictionary?
+

@@ -1,0 +1,8 @@
+std::equal() helps to compares the elements within the range [first_1,last_1) with those within range beginning at first_2.
+Syntax 1:
+Run on IDE
+Output:
+Syntax 2:
+Run on IDE
+Output:
+Related Articles:

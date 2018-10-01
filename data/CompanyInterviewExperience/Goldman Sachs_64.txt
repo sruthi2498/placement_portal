@@ -1,0 +1,28 @@
+The pre-interview selection round had common Aptitude Questions and a Coding question. 
+For Apti we had 20 questions – Solving Time (30 minutes) ( Questions were moderate not so easy again not so difficult )
+For Coding – 1 question – Solving Time (1 hour ) ( Coding question was very easy )
+Here’s the question as far as I remember:
+A binary tree has to be filled with characters ‘S’ and ‘D’. ‘S’ means alive nodes and ‘D’ means dead nodes. ‘S’ node bears 2 children or 1 child and ‘D’ node bears no child at all. For indicating no nodes we use the character ‘X’.
+The tree input was given in level order.
+Output: Find the level which contains maximum number of ‘S’ 
+Solution hints:
+Find a) number of nodes from the tree b) level of the tree from the given nodes c) construct a for loop such that it iterates through each level and keep a count of the number of S encountered d)Print the level which has the maximum ‘S’
+Interview Experience:
+1st Technical cum HR interview:
+Asked about the code and approach.
+How can you optimize the approach?
+Being in Electronics and Telecommunication why would you like to pursue a career in a Software firm?
+( Ans: No previous coding knowledge until I joined college, regular participant in online coding competitions, competition for Hardware companies was tough etc etc )
+ Between 1 to 100 natural numbers, write a code to find all the possible triplets which satisfy Pythagoras’ Theorem!
+After writing the code, asked about complexity of the code? 
+Puzzle:
+a) 8 litres of water in a jug. How can you have 4 litre, given a 5 litre and a 3 litre jug?
+b) Burning Rope Problem
+2nd Technical cum HR interview:
+Asked about my project in detail.
+Write a code to implement Bubble Sort!
+Write a code to find whether a string is a Palindrome or not?
+Given a large string! Find the largest palindrome sequence!
+Verdict: Converted.
+Advice: Be to the point and talk smartly.Communication is the key for Goldman, so better be good at it.
+

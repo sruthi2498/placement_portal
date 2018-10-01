@@ -1,0 +1,26 @@
+Expedia recently came to our campus for FTE.
+
+Round 1: Online test on HackerRank (75 min)
+3 coding questions (Arrays/ Implementation based)
+17 students were shortlisted after this round
+
+Round 2: Technical Interview
+– Tell me about yourself
+– I had mentioned 4 projects on my CV, discussed all 4 (20 min)
+– Coding questions
+  1) Find majority element in the array. Discussed various approaches and wrote complete code for Moore’s voting algorithm https://www.geeksforgeeks.org/majority-element/
+  2) Write an optimal program that would determine the total number of stops an elevator would take to serve N number of people.
+– There is an elevator in a building with M floors. This elevator can take a max of X people at a time or max of total weight Y and maximum number of floors in the building is Z, Input is in the form of two arrays: 1. weights of persons, 2. the floor they need to stop at
+– In a country where everyone wants a male child, each family continues having babies till they have a male child. After some time, what is the proportion of Male to Female in the country? (Assuming probability of having a boy or a girl is the same)
+– What is Composition in OOP? Difference between composition and inheritance
+
+Round 3: Technical Interview
+– Coding questions:
+   1) https://www.geeksforgeeks.org/flattening-a-linked-list/
+   2) Find path between any two nodes in a binary tree.
+– Assuming a stream of incoming integers (Can be very long integers and no range specified), which data structure would you use to optimize random access. Very long discussion on the same(25-30min)
+
+Round 4: HR Interview
+– A stream of tags (mentions/hashtags) are coming into your system as input, design an efficient data structure to store and process them in the most optimal way.
+– Given a list of tasks with their priorities and time required by each for execution, what scheme would you propose to schedule them efficiently?
+– Describe anything interesting you’ve worked on. Very long discussion on the same.

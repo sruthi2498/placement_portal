@@ -1,0 +1,13 @@
+Given n coordinate (x, y) of points on 2D plane and Q queries. Each query contains an integer r, the task is to count the number of points lying inside or on the circumference of the circle having radius r and centered at the origin.
+Examples :
+
+The equation for the circle centered at origin (0, 0) with radius r, x2 + y2 = r2. And condition for a point at (x1, y1) to lie inside or on the circumference, x12 + y12 <= r2.
+A Naive approach can be for each query, traverse through all points and check the condition. This take O(n*Q) time complexity.
+An Efficient approach is to precompute x2 + y2 for each point coordinate and store them in an array p[]. Now, sort the array p[]. Then apply binary search on the array to find last index with condition p[i] <= r2 for each query.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n log n) for preprocessing and O(Q Log n) for Q queries.

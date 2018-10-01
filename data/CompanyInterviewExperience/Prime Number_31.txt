@@ -1,0 +1,18 @@
+It says that there is always one prime number between any two consecutive natural number’s(n = 1, 2, 3, 4, 5, …) square. This is called Legendre’s Conjecture.
+Conjecture: A conjecture is a proposition or conclusion based upon incompleate information to which no proof has been found i.e it has not been proved or disproved.
+
+Mathematically,
+ there is always one prime p in the range  to  where n is any natural number.
+for examples-
+2 and 3 are the primes in the range  to .
+5 and 7 are the primes in the range  to .
+11 and 13 are the primes in the range  to .
+ 17 and 19 are the primes in the range  to .
+Examples:
+Explanation: Here 42 = 16 and 52 = 25
+Hence, prime numbers between 16 and 25 are 17, 19 and 23.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

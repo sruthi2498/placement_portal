@@ -1,0 +1,11 @@
+Given a robot which can only move in four directions, UP(U), DOWN(D), LEFT(L), RIGHT(R). Given a string consisting of instructions to move. Output the co-ordinates of robot after the executing the instructions. Initial position of robot is at origin(0, 0).
+Examples:
+Source: Goldman Sachs Interview Experience | Set 36 .
+
+Approach: Count number of up movements (U), down movements (D), left movements (L) and right movements (R) as countUp, countDown, countLeft and countRight respectively. Final x-coordinate will be
+(countRight – countLeft) and y-coordinate will be (countUp – countDown).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

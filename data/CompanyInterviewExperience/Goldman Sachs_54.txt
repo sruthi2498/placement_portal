@@ -1,0 +1,27 @@
+Following are the details of my interview with Goldman Sachs.
+Round 1: Online Coding Round conducted on Hackerrank (1.5 hours)
+The online test was of 100 points
+It comprised 5 MCQs of 10 points each, with penalty of 3 point each for wrong answer.
+There were 2 coding questions of 15 and 35 points respectively.
+First Coding Question –
+Given a sentence, find the even length word of maximum length. In case of a tie, find the word which occurs earlier in the sentence. In case no such word exists, print “00”.
+Second Coding Question – 
+A greedy question almost similar to this question.
+21 students were shortlisted after this round. 
+Round 2: F2F Technical Round 1 (30 minutes)
+11 students were shortlisted for the next round.
+Round 3: F2F Technical Round 2 (1 hour 15 minutes)
+Approach –
+Make a vector corresponding to each of the word present, which shall store its occurrences in the increasing order in the sentence.
+Now, whenever a query is input, choose the vector corresponding to the word which has less number of elements.
+Let the two vectors be A and B respectively ( Size of A <= Size of B )
+Traverse the vector A, and for each of the element, find the value just smaller to it, and the value just larger than it in vector B.
+This can easily be carried out using Binary Search. Find minimum difference over the entire traversal of vector A.
+The interviewer carried out dry run on my solution, and checked it on several corner cases. He was satisfied with my solution.
+Approach-
+Identify the node which has 2 parents by making use of some visited array.
+Now, find LCA of both the parents.
+The value of LCA shall tell us if the corrupted node should lie on its left or on its right.
+By this, we can remove the link of the wrong parent.
+Round 4: HR Round (25 minutes)
+Thanks Geeksforgeeks for being a perfect platform for practice. 🙂 

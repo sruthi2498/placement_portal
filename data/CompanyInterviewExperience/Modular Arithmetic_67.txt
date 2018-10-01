@@ -1,0 +1,12 @@
+Given four numbers A, B, C and M, where M is prime number. Our task is to find ABC (mod M).
+Example:
+A Naive Approach is to calculate res = BC and then calculate Ares % M by modular exponential. The problem of this approach is that we can’t apply directly mod M on BC, so we have to calculate this value without mod M. But if we solve it directly then we will come up with the large value of exponent of A which will definitely overflow in final answer.
+An Efficient approach is to reduce the BC to a smaller value by using the Fermat’s Little Theorem, and then apply Modular exponential.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(log(B) + log(C))
+Auxiliary space: O(1)

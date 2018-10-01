@@ -1,0 +1,28 @@
+Walmart Labs Interview Experience – On campus
+1st round (Online Test)
+It was an online test of 90 minutes and was conducted on Hackerearth. It consisted of 10-12 MCQ’s and 3 coding questions. MCQ’s consisted of general aptitude questions, questions related to networking, programming, C input/output  etc .
+One coding question was – given arrival and departure time of guests in a party … find no of plates or something .Similar to  this https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/ . (30 marks)
+2nd (20 marks) adhoc dont remember
+3rd (50 marks ) dont remember 
+IMP POINT – There was cutoff for both mcq and coding questions so u need to clear both of these sectional cutoff .
+
+2nd round (Technical Interview) 1.5 hours
+1.Started off with discussion on my projects . He scanned my resume and asked questions based on my projects . I had done web designing so he asked me to draw the schema of my database used and asked abt the tables nd data in them .. why this .. why that .. .The interviewer kept on asking abt web designing like scaling website , distibuted servers , and lot of other new questions . He wanted to know how I would scale my website for millions of people . Since walmart is all abt a serving for a lot of people so be prepared for such questions . 
+2. Hashing , probing , collision , hashing with chaining , cache memory with discussion , LRU cache with written code(on paper) , Hashtable , Hashmap implementation with code (on paper) .
+3. Image compression …DCT nd DWT differences , JPEG nd JPEG 2000 . 
+4. Google autosuggest .. Trie tree with code (on paper) , he asked me to further optimize then I told ternary tree nd explained operations with an example . 
+5. Some questions on DAG I don’t remember .
+3rd round (technical interview ) 40 min
+1. Standard Josephus problem with code (on paper) .
+2. Given a sorted 2-D array (row and column wise sorted) find 6th largest element with code (on paper) .
+3. Puzzle – given 10 coconuts arrange them in 5 straight lines such that each line contains 4 coconuts.
+4. A little discussion on projects and internships .
+5. Then out of nowhere he asked me to prove (a+b)^2 identity geometrically . I ended up with a approach similar to the actual proof . So he was quite happy .
+4th round (technical ) 30 min
+1. Detailed discussion on project , internships .
+2. Some HR questions were also there .
+5ht and final (HR round) 5-10 minutes 
+1. Common HR questions why Walmart , strength , weakness , about urself apart from resume etc .
+For walmart – Prepare what u have written in ur resume .. they really look deeply into resume . Keep discussion going on with the Interviewer . 
+Thanks geeks4geeks 🙂
+

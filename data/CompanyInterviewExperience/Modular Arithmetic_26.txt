@@ -1,0 +1,18 @@
+Given an array of N non-negative integers, task is to find the maximum size of a subarray such that the pairwise sum of the elements of this subarray is not divisible by a given integer, K. Also, print this subarray as well. If there are two or more subarrays which follow the above stated condition, then print the first one from the left. 
+Prerequisite : Subset with no pair sum divisible by K
+Examples :
+Naive Approach :
+The naive method would be to consider all the subarrays. While considering a subarray, take elements pairwise and compute the sum of the two elements of the pair. If the computed sum is divisible by K, then ignore this subarray and continue with the next subarray. Else, compute the sum of other pairs of this subarray in a similar fashion. If no pair’s sum is a multiple of K, then compare the size of this subarray with the maximum size obtained so far and update if required.
+The time complexity of this method would be O().
+Efficient Approach(Using Hashing) :
+We create an empty hash table and insert arr[0] % k into it.  Now we traverse remaining elements and maintain a window such that no pair in the window is divisible by k. For every traversed element, we remove starting elements while there exist an element in current window which makes a divisible pair with current element.  To check if there is an element in current window, we check if following.
+1) If there is an element x such that (K – x % K) is equal to arr[i] % K
+2) OR arr[i]  % k is 0 and it exists in the hash.
+Once we make sure that all elements which can make a pair with arr[i] are removed, we add arr[i] to current window and check if size of current window is more than the maximum window so far.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(n)

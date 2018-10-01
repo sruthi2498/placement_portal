@@ -1,0 +1,8 @@
+Given two strings where first string may contain wild card characters and second string is a normal string.  Write a function that returns true if the two strings match.  The following are allowed wild card characters in first string.
+For example, “g*ks” matches with “geeks” match. And string “ge?ks*” matches with “geeksforgeeks” (note ‘*’ at the end of first string).  But “g*k” doesn’t match with “gee” as character ‘k’ is not present in second string.
+Run on IDE
+Run on IDE
+
+Exercise
+1) In the above solution, all non-wild characters of first string must be there is second string and all characters of second string must match with either a normal character or wildcard character of first string.  Extend the above solution to work like other pattern searching solutions where the first string is pattern and second string is text and we should print all occurrences of first string in second.  
+2)  Write a pattern searching function where the meaning of ‘?’ is same, but ‘*’ means 0 or more occurrences of the character just before ‘*’.  For example, if first string is ‘a*b’, then it matches with ‘aaab’, but doesn’t match with ‘abb’.  

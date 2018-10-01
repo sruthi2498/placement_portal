@@ -1,0 +1,33 @@
+Accolite came to our campus to hire candidates for the role of a software engineer.
+Round 1 and Round 2:
+Round 1 was a pen and paper test and Round 2 was an online test. We had 30 MCQs to be answered in 30 minutes.
+The pattern was the same in both the rounds.
+Logical Reasoning and Quantitative aptitude questions were quite tricky. The key factor was time management.
+Technical questions were predominantly from computer networks, operating systems, data structures, signals etc.
+The written test required us to mark answers on the front page of the booklet. The online test had a timer for every single question and we weren’t allowed to revisit a question once answered.
+Around 600 students appeared for the test. An aggregate of the scores of both the rounds were taken and around 100 students were shortlisted.
+ Round 3:
+This was a written test. We had to write the code for 3 questions in 45 minutes. There were two sets of questions. My set of questions were :
+    1. https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+    2. https://www.geeksforgeeks.org/remove-bst-keys-outside-the-given-range/
+    3. https://www.geeksforgeeks.org/hosoyas-triangle/
+This was an elimination round and around 25-30 were shortlisted.
+Round 4: Technical Interview
+This was a one-on-one interview. The interviewer asked me the typical “Tell me about yourself” question. I gave him two perspectives- how I was when it came to work and how I am as a person and my areas of interests and passion. He asked me about one of my project and then proceeded to ask me coding questions. He asked me 3 questions for which he wanted me to suggest all possible approaches and write the code on a paper. He asked me questions whenever I got stuck. The key here was to keep telling him what I thought before putting it onto paper. The questions were quite simple:
+    1. https://www.geeksforgeeks.org/find-element-array-sum-left-array-equal-sum-right-array/
+    2. https://www.geeksforgeeks.org/sum-of-two-linked-lists/
+    3. https://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/
+This was again an elimination round and around 12 were shortlisted from the 25-30 who appeared. This round lasted for an hour.
+Round 5: Technical Interview
+This Round was more of a test to our communication skills and technical thinking skills. This round lasted for more than 1.5 hours.
+The interviewer looked into my resume and asked me questions about the kind of person I am. I said I was a team player and he asked me to give examples of different kind of situations a team player might encounter and how one would deal with it. Also he asked me what my favourite subject was and I said it was Mobile computing. After asking why and hearing my explanation, he asked me to design a communication network keeping in mind all the constraints and technologies in existence and wanted me to deliver an improvised model.
+Every time I suggested an approach he would give me different aspects, scenarios and a new set of constraints and I had to rethink and come up with modifications.
+Next, he asked me to design a system with 3 elevators. The difference between this and the typical “Design an elevator” question was that next 45 minutes were dedicated to discussing the elevator. His questioning  was extremely tricky and every data structure I suggested wasn’t accepted until I defined my own structure. It was mentally exhausting.
+
+Round 6: Technical Interview
+This was a simpler version of round 4. The interviewer asked me questions on hashing and one question on trees. I had to write the code on a paper again. The questions were:
+    1. https://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
+    2. https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/
+    3. https://www.geeksforgeeks.org/count-number-subarrays-given-xor/
+    4. https://www.geeksforgeeks.org/print-nodes-odd-levels-tree/ (I had to suggest all approaches- with and without queue)
+After all these rounds 9 of us were hired.

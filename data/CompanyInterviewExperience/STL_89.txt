@@ -1,0 +1,12 @@
+Syntax: 
+Parameters: The function accepts two mandatory parameter which are described below: 
+Return Value :This function returns an iterator that points to the newly inserted element. 
+Below program illustrates the above mentioned function: 
+Run on IDE
+Output: 
+Syntax: 
+Parameters: The function accepts one mandatory parameter element which is to be inserted at the start of the container. 
+Return Value: It returns nothing. 
+Below program illustrates the above function. 
+Run on IDE
+Output: 

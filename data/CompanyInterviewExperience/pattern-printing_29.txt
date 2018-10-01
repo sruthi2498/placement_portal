@@ -1,0 +1,13 @@
+Given a matrix, print it in Reverse Wave Form. 
+Examples :
+
+Approach :To get the reverse wave form for a given matrix, we first print the elements of the last column of the matrix in downward direction then print the elements of the 2nd last column in the upward direction, then print the elements in third last column in downward direction and so on. For example 1, the flow goes like :
+
+Below is the implementation to print reverse wave form of a matrix :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

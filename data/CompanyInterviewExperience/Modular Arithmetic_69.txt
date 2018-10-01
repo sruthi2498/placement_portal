@@ -1,0 +1,14 @@
+In number theory, given an integer A and a positive integer N with gcd( A , N) = 1, the multiplicative order of a modulo N is the smallest positive integer k with A^k( mod N ) = 1. ( 0 < K < N ) 
+Examples :
+
+IF we take a close look then we observe that we do not need to calculate power every time. we can be obtaining next power by multiplying ‘A’ with the previous result of a module .
+Run a loop from 1 to N-1 and Return the smallest +ve power of A under modulo n which is equal to 1.   
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(N) 

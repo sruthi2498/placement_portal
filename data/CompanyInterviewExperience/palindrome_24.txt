@@ -1,0 +1,11 @@
+Given a sentence str. The problem is to remove all the palindromic words from the given sentence.
+Examples:
+
+Approach: One by one extract all the words. Check if the current word is not a palindrome then add it to the final string.
+Algorithm:
+isPalindrome() function is used to check whether the given string is palindrome or not. Refer this post. 
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity: O(n).

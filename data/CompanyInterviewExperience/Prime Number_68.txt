@@ -1,0 +1,11 @@
+Given a huge integer value n, find the largest integer value x such that x <= n and all the digits of x are prime.
+Examples:
+
+We know that the prime digits are 2, 3, 5 and 7. Also since we have to manipulate each digit of a very large number it will be easier if we do it as a string.  The main idea is to find the first non-prime digit and then
+find the first digit greater than 2 in its left. Now we can replace the found digit with the prime digit that is just less than it. If the digit is 2, we have to erase it and replace the next digit with 7.  After this we can replace the remaining digits to its right by 7.
+Following is the implementation of the above algorithm:
+
+Run on IDE
+Run on IDE
+
+The time complexity of the above program is O(N) where N is the length of the string.

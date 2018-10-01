@@ -1,0 +1,74 @@
+Round -1 on hacker rank
+1) Find the first repeating word in a sentence.
+ – Use a set to store word by word and insert would return false when it is duplicate.
+ – Use a hashmap to store the counts and detect the duplicates.
+2) Given a list of coordinates what is the minimum size of the rectangle so that k number of points lies inside the rectangle.
+ – Could not find completely correct answer solution written only passed 6 test cases.
+Round – 2
+1) Print path to a node from root in a binary tree.
+ – Easy question asked to write the code and checking if we cover the edge cases.
+2) Find the median of continuous stream of numbers.
+ – More frequently asked in amazon interview questions
+3) Delete a node in a linked when you have nothing other than the pointer to the node you want to delete.
+ – Traversing to find the node we want to delete is not a viable approach, could get the idea of copying from the next node and as we prev pointer to the node we want to delete it’s good.
+ – Edge case what if the node is last node of the linked list.
+4) Data structure to pick to store the words of a dictionary.
+ – Hash maps are not the optimal solution as you end up allocating memory for each word.
+ – Tries are the best possible data structures to pick
+5) How tries are better option than the Hash Maps for storing the words of a dictionary?
+6) Load factor of hash map and how does it affect the performance of the hash map.
+7) Asked questions on equals and hash code contract of the hash maps.
+8) Times when you decide to pick a linked list or Array List.
+ – When you requirements is you perform more number of deletes and insertions  rather than the search.
+9) Asked the difference between concurrent hash maps and Collections.synchronized(hashmap)
+ – Fumbled a bit as i was not aware of the lock striping that happens in the conccurent hashmaps.
+10) Explain on fail fast and fail safe iterators.
+11) is static overriding allowed if not why ?
+ – Not possible as static methods are binded at compile time and nonstatic methods are binded at the run time.
+12) Asked about thread pools and why use them ?
+Round – 3
+1) Asked me to write the code for the deadlock creation
+– Wrote 2 runnables where they call nested synchronized locks in the reverse order/
+2) how to prevent dead locks ?
+3) Asked some question related to threading
+4) Given list of words of a dictionary {cat, rat, mat,map} given 2 words cap – map
+you can change only one character at a time
+eg: cap – cat – mat – map
+“http://paste.ofcode.org/6Cb2DFbwHXB2nG3xJEze2n” – code logic i suggested.
+5) Questions on sharing objects using serialaization.Also spoke of using gson to Json utility for sharing objects across applications
+Round – 4
+1) Asked me to write code for the singleton pattern
+ – Wrote code for the doubly checked singleton pattern
+2) Asked me if i know decorator pattern
+ – I said i had no idea of it.
+3) Asked me on Robot capable of moving in different directions but it should have the capability to make the steps back
+ – It didnt click stack is the data structure i should use, Interviewer gave the hint of stack.which is the appropriate data structure to make the steps back.
+4) Asked a small question on if there are other objects which cannot be serialized that we have to use in our class which is expected to
+be serializable how do we do it ?
+Round – 5 (F2F)
+1) Asked questions on Message queues, How did you perform request response implementation using the message queues ?
+2) What is JMS how is it different from other tool vendors like active mq and so on ?
+3) Asked significance of queues and topics.
+4) Given a list of users and their phone numbers each user can have multiple number of phone numbers
+   How to get the m users having highest number of phone numbers
+   – Data storage structure suggested was HashMap>?
+   – Interviewer gave me hint that i can get the entry map as list with in the hashmap
+   – So i wrote a comparator to compare the sizes of the arraylist in the entry map object.
+   – Called collections.sort();
+5) Asked to print the right side view of a binary tree.
+  – Suggested to do a breadth first traversal on binary tree using queue and pull the last element.
+  – He asked how will you find the last element of the queue ??
+  – He suggested how about using stack to perform the breadth first traversal of the binary tree.
+6) Asked on how do you get the thread dumps
+  – said i use jstack command line tool to get the dumps.
+Round -6 (F2F)
+1) Robot is some where inside the rectangle,it can do only operations such as move forward,backward,left and right.
+   Asked to find the area of the rectangle.
+2) After that he said the rectangle inside is filled with the obstacles of arbitary size so now how to find the area.
+   said assuming my rectangle can be broken into smallest units called pixels if i could what all pixels robot can cover i can get the area.
+   But could not write the code on how to do it.
+   He said this is similar to breadth first search that we do on a graph connected by points.
+   But it didnot click.
+3) Asked on how to make applications scalable using redis.
+  I said i had no idea of it.  
+Source: http://pavanraj84.blogspot.in/2015/08/my-interview-questions-at-quickr.html

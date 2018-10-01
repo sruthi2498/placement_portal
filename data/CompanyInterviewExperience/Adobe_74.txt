@@ -1,0 +1,37 @@
+Written round:
+Same test every-time.
+1st round:
+He asked me to write code for hello world in C. Then he asked where this printf is stored and how compiler knows where to check that thing. If printf declaration is moved to the program will it get executed. I told him that I am not aware of these things.
+https://www.geeksforgeeks.org/connect-nodes-at-same-level/ without using extra space.
+Design a transaction system for a bank with many atms across. He asked me if you want to deal with the bank how will you explain them the model and all the software and hardware requirements. He wanted a multithreaded client- server interaction model and the database requirements.
+2nd round:
+Reverse a string. Reverse a paragraph word-wise.
+Inorder and level order traversal and queue operations complexity.
+Why inheritance is used. What is virtual memory and thrashing. 
+3rd round:
+Implement a push pop operations in a stack. Implement a queue using stacks. Remember there is further optimization, he asked me for that.
+Explain virtual memory and how mapping is done.
+Explain multithreading and how global, static etc variables are stored and accessed by threads.
+Write complete code for the number of ways a frog can reach nth step by jumping 1 or 2 steps.
+4th round:
+Replace a string with another string in a paragraph. Which data structure you will use. Complete code.
+There are balls of red, blue and green color. How will you sort them.
+Implement a generic swap function. I wrote a function which swap the pointers but he wanted me to swap the complete memory blocks not just the pointers.
+Indirectly he was asking me to implement memcpy function.
+5th round:
+Implement a contiguous 2-d matrix dynamically in C. 
+Spiral order traversal of a matrix. Complete code and he ran it for a 4×4 matrix.
+Calculate Fibonacci for nth term. He was asking to optimize the traditional solution.
+6th round: Director round
+Write a function which returns 1 when 2 is passed and return 2 when 1 is passed.
+1 number is missing from an array(1 to n). find that
+He just wanted sum of n terms minus sum of array solution.
+Now correlate the above two problems.
+He asked me what I do at my home after office.
+I told him that I read news, quora and some articles. So he asked if I remain updated with the news and then asked me questions like J&K election results, CM of some states and latest android version.
+What if I do if I would have everything.
+Why not go for further studies.
+7th round: HR
+Tell me about yourself. Current CTC and notice period.
+I would suggest to go through pointers and how the things actually work from scratch like they would ask you to implement any generic library in-built function. Also read OS and oops concepts. If you don’t know any topic simply tell them.
+

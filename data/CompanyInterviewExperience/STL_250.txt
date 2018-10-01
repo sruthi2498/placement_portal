@@ -1,0 +1,41 @@
+Bitset: A bitset is an array of bool but each Boolean value is not stored separately instead bitset optimizes the space such that each bool takes 1 bit space only, so space taken by bitset bs is less than that of bool bs[N] and vector bs(N). However, a limitation of bitset is, N must be known at compile time, i.e., a constant (this limitation is not there with vector and dynamic array)
+std::bitset::to_ullong
+This function Converts the contents of the bitset to an unsigned long long integer. The first bit of the bitset corresponds to the least significant digit of the number and the last bit corresponds to the most significant digit.
+Syntax:
+Here bit is a number in bits (i.e., 101 for 5)
+
+Parameters:
+Return:
+Exceptions:
+Examples:
+# CODE 1 :
+#include
+#include
+#include
+using namespace std;
+int main()
+{
+    bitset<numeric_limits::digits> b(10);
+    cout << b << endl << b.to_ullong();
+    return 0;
+}
+[/sourcecode]
+OUTPUT:
+# CODE 2 :
+Run on IDE
+OUTPUT:
+std::bitset::to_ulong
+This function Converts the contents of the bitset to an unsigned long integer. The first bit of the bitset corresponds to the least significant digit of the number and the last bit corresponds to the most significant digit.
+Syntax:
+Here bit is a number in bits (i.e., 101 for 5)
+
+Parameters:
+Return:
+Exceptions associated:
+Examples:
+# CODE 1 :
+Run on IDE
+OUTPUT:
+# CODE 2 :
+Run on IDE
+OUTPUT:

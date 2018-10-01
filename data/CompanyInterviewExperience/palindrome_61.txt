@@ -1,0 +1,10 @@
+Given a string of size n. The task is to find the length of the largest substring which is not palindrome.
+Examples:
+
+A simple solution is to consider every substring and check if it is palindrome or not. Finally return length of the longest non-palindromic substring.
+An efficient solution is based on below approach. 
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)

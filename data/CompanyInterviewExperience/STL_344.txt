@@ -1,0 +1,32 @@
+
+Priority queues are a type of container adaptors, specifically designed such that the first element of the queue is the greatest of all elements in the queue.
+empty() function is used to check if the priority queue container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if a parameter is passed
+2. Shows no exception throw guarantee.
+Run on IDE
+Output:
+Application : Given a priority queue of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the priority queue is empty, if not add the top element to a variable initialised as 0, and pop the top element.
+2. Repeat this step until the priority queue is empty.
+3. Print the final value of the variable.
+Run on IDE
+Output:
+size() function is used to return the size of the priority queue container or the number of elements in the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. Shows error if a parameter is passed.
+2. Shows no exception throw guarantee
+Run on IDE
+Output:
+Application : Given a priority queue of integers, find the sum of the all the integers.
+Algorithm
+1. Check if the size of the priority queue is 0, if not add the top element to a variable initialised as 0, and pop the top element.
+2. Repeat this step until the sizeof the priority queue becomes 0.
+3. Print the final value of the variable.
+Run on IDE
+Output:

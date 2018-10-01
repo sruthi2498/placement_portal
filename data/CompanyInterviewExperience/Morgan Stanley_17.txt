@@ -1,0 +1,10 @@
+Given a Binary Tree, print the nodes level wise, each level on a new line.
+We have discussed one solution in below article.
+Print level order traversal line by line | Set 1
+In this post, a different approach using two queues is discussed. We can insert the first level in first queue and print it and while popping from the first queue insert its left and right nodes into the second queue. Now start printing the second queue and before popping insert its left and right child nodes into the first queue. Continue this process till both the queues become empty.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+

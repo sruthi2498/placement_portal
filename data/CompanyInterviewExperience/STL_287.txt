@@ -1,0 +1,11 @@
+
+Map is dictionary like data structure. It is an associative array of (key, value) pair, where only single value is associated with each unique key.
+map::clear()
+clear() function is used to remove all the elements from the map container and thus leaving it’s size 0.
+Syntax:
+Return Value: None
+Examples:
+
+Run on IDE
+Output:
+Time complexity: Linear i.e. O(n)

@@ -1,0 +1,16 @@
+Given two sorted lists, merge them so as to produce a combined sorted list (without using extra space).
+Examples:
+We have discussed different solutions in below post.
+Merge two sorted linked lists
+In this post, a new simpler solutions are discussed.  The idea is to one by one compare nodes and form the result list.
+
+Method 1 (Recursive) 
+
+Run on IDE
+Output: 
+ 
+
+Method 2 (Iterative) 
+
+Run on IDE
+Output: 

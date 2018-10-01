@@ -1,0 +1,24 @@
+Recently I had an interview at amazon for SDE 2 role and here is my experience:
+Round 1:
+1. Given a binary tree, print the nodes in zig-zag form.
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+2. Given a binary tree, return the farthermost nodes.
+Round 2:
+1. Implement meeting booking system like outlook.
+Round 3:
+This was bar-raiser round.
+1.  Millions of words are coming in stream and there is a typo in some words.Assign each words in some cluster which is most closer to the word. Example: iphone, ipone, abiphone, iphoe should be in one cluster.
+2. Design Data warehouse placement system.
+Lots of behavioral questions: why amazon,what is most critical feedback you got from manager, when did you get above and beyond feedback and why.
+Round 4:
+Detail discussion on project which I have worked on.At each point interviewer was asking why you did this way, why not some other way.
+Design producer/consumer live and offline video streaming system.
+Design comment system.
+Lots of behavioral questions
+Round 5:
+1. Return all the possible decoding of the given digit sequence where 1 denotes a, 2 -> b, 3->c so on. Example: input 121 output ‘aba’, ‘la’, ‘au’.
+2. https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+ 
+
+
+

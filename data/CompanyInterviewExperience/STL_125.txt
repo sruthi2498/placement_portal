@@ -1,0 +1,13 @@
+std::vector::insert() is a built-in function in C++ STL which inserts new elements before the element at the specified position, effectively increasing the container size by the number of elements inserted.
+Parameter:The function accepts two parameters specified as below:
+Return value: The function returns an iterator which points to the newly inserted element.
+Below program illustrates the above mentioned function:
+Run on IDE
+Parameter:The function accepts three parameters specified as below:
+Return value: The function returns an iterator which points to the newly inserted element. 
+Below program illustrates the above mentioned function:
+Run on IDE
+Parameter:The function accepts three parameters specified as below:
+Return value: The function returns an iterator which points to the newly inserted element. 
+Below is the illustration of above function: 
+Run on IDE

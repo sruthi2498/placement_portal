@@ -1,0 +1,21 @@
+Here is a brief description of my Interview Experience of TinyOwl Technologies
+ROUND 1: ONLINE TEST (Hackerrank Platform)
+1 coding question to be done in 1 hour. Difficulty: Easy
+1) Given a set of strings, we have to determine whether the strings represent valid IPv4 addresses/IPv6 addresses or neither of the two. (Basically, it was a String manipulation question).
+ROUND 2: TECHNICAL INTERVIEW 1 (20 min)
+Difficulty: Easy
+1) Given an array with integer data items, we need to find the minimum number of jumps needed to reach the end of the array where the number of cells we can jump at each step is equal to or less than the integer data item at that array index.
+2) To find the lowest common ancestor of two nodes in a binary search tree.
+3) Basic questions on Databases, Tables and SQL queries.
+Questions based on resume.
+ROUND 3: TECHNICAL INTERVIEW 2 (1.5 hrs)
+Difficulty: Average
+1) Implement a queue using stacks.
+2) Breadth-first search in a Binary Tree.
+3) Search an item in a matrix where all the elements are in ascending order both row and column-wise. Implement it using the best time complexity(worst-case).
+4) Basic implementation of a priority queue.
+5) Ranking of search results based on input keyword.
+6) Questions related to web error status codes, server applications.
+7) How to monitor CPU/Memory usage of various processes in Linux.
+Questions based on resume.
+

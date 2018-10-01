@@ -1,0 +1,49 @@
+Samsung R&D Bangalore visited our campus. (Eligible branches – CSE & ECE). There were 4 rounds.
+Round 1: 3hrs-Coding Round.
+Round 2: 1st Technical Round.
+Round 3: 2nd Technical Round.
+Round 4: HR.
+Round 1: Online Coding Round
+This was a 3 hours coding round in which we had to code 1 problem having 10 test cases. Only those students were selected for the next round who passed all the test cases.
+Note- You can compile your code as many numbers of times as you want, but a maximum of 5 submissions were allowed to test on the given test cases.
+The question was similar to https://www.geeksforgeeks.org/bipartite-graph/. The only variation was to print either of the set of the vertices that are colored with the same color. And if the graph is not bipartite print “-1”. Test cases also included the cases when a graph is not connected.
+After this round, 20 students were shortlisted.
+Round 2: Technical Round 1
+Before the start of the interview. The interviewer had thoroughly gone through my resume.
+1) As I have mentioned MATLAB(Signal Processing) in my resume. He asked me about the physical relevance of Fourier transform. And, then asked me the basic concept of Fourier series.
+2) Explain and give an example of a function pointer. And then told me to write function pointer for a function that takes an integer as a parameter and returns character.
+https://www.geeksforgeeks.org/function-pointer-in-c/
+3) Make a pointer that can point to an array of integers. And, also asked to dynamically allocate a 2-d array.
+https://www.geeksforgeeks.org/pointer-array-array-pointer/
+https://www.geeksforgeeks.org/dynamically-allocate-2d-array-c/
+4) The difference between dynamic programming and divide and conquer. I explained it with the example of Fibonacci series and merge sort respectively.
+5) What does a linker do? .And, then he asked me that if we don’t include the header file and use its function. What kind of error will it show?
+6) Only the logic of the below-mentioned problem.
+https://www.geeksforgeeks.org/multiply-large-numbers-represented-as-strings/
+7) Then, this question came up as a follow-up question. Asked the logic only.
+https://www.geeksforgeeks.org/divide-large-number-represented-string/
+8) Tell me the hardest part you have done in your project. And, the reason why you considered it hard. He meant to know, the reason why you were struggling.
+9)What is media access control and name the layers in OSI model?
+10)As I have mentioned AWS-IoT in my resume. He asked me about the AWS-IoT and MQTT protocol.
+Round 3: Technical Round 2
+At the start, He asked me to introduce myself in 30 seconds mentioning only technical part.
+1) Find a minimum number of coins that make a change. Only Dynamic Programming based solution.
+https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
+2) How many ways we can make a change. Only Dynamic Programming based solution.
+https://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/
+3) Explain dangling pointer. And write a code to illustrate dangling pointer.
+https://www.geeksforgeeks.org/dangling-void-null-wild-pointers/
+4) An output question.
+
+5) Collections in Java. Very basic. As I mentioned, Core Java in my resume.
+6) Basic HTML. For example, where is script tag in HTML?
+7) General discussion on how to design a smart city.
+8) What technologies you have worked on. And what particular technology you look forward to work on.
+Round 4: HR
+1) Tell me about yourself.
+2) What differentiates yourself from others.
+3) What excites you about Samsung.
+4) Whether you have worked on any of the Tech Buzzwords like ML, AI, IoT etc.
+5) As I’m an ECE student, She asked me why are you looking for a software job and making the transition.
+6)And then she asked me if I had any questions. I asked her a couple of questions and after that, she told me to wait for the results.
+Tips: Know everything you have mentioned in the resume. And, as they will be checking your thought process. Never stop or give-up on any question.

@@ -1,0 +1,22 @@
+Given three integers a, b and m. Find an integer k such that  where a and m are relatively prime. If it is not possible for any k to satisfy this relation, print -1.
+A Naive approach is to run a loop from 0 to m to cover all possible values of k and check for which value of k, the above relation satisfies. If all the values of k exhausted, print -1. Time complexity of thuis approach is O(m) 
+An efficient approach is to use baby-step, giant-step algorithm by using meet in the middle trick.
+Baby-step giant-step algorithm
+Given a cyclic group G of order ‘m’, a generator ‘a’ of the group and a group element ‘b’, the problem is to find an integer ‘k’ such that 
+So what we are going to do(according to Meet in the middle trick) is to split the problem in two parts of  each and solve them individually and then find the collision.
+Let's see how to use above algorithm for our question:-
+First of all we have to write , where  Obviously, any value of k in the interval [0, m) can be represented in this form, where  and 
+Replace the ‘k’ in above equality, we get:-
+
+
+
+Run on IDE
+Time complexity: O(sqrt(m)*log(b))
+Auxiliary space: O(sqrt(m))
+A possible improvement is to get rid of binary exponentiation or log(b) factor in the second phase of the algorithm. This can be done by keeping a variable that multiplies by ‘a’ each time as ‘an’. Let’s see the program to understand more.
+Run on IDE
+Time complexity: O(sqrt(m))
+Auxiliary space: O(sqrt(m))
+Reference:
+ http://e-maxx-eng.appspot.com/algebra/discrete-log.html
+https://en.wikipedia.org/wiki/Baby-step_giant-step

@@ -1,0 +1,30 @@
+Hi,  I was interviewed at Flipkart few days back. I was contacted by one of their head hunters. The process was as follows : 
+2 – Telephonic interview
+1 – Machine Coding Round
+1 – Problem Solving Round
+1 – Hiring Manager Round
+Last 3 rounds were at their office.
+Telephonic-1 : 
+ He asked about my previous projects in detail and then asked one problem.
+ Find the next smallest palindrome give a number. He asked me to write the complete working code.
+Telephonic-2 : 
+Started straight away with the problems.
+1. Find the median of a stream of integers. I knew the solution and discussed the heap solution for it.
+2. Given an array of integers, find a triplet having sum equal to K.
+3. Given an array a1, a2, a3 …. ,an, b1, b2, b3, ……bn. Rearrange this array to a1, b1, a2, b2, ….an,bn. This needs to be done inplace.
+Onsite Rounds (f2f)
+Machine Coding Round : 
+This was the most exciting round. Problem was to do 3 operations on very large numbers.
+1. Addition 2. Subtraction 3. Multiplication
+Input can be positive or negative. In this round, focus was on Design and Coding Skills.
+I was given 1 hr 30 mins to code for the problem. I completed in around 1hr 15 mins. Then he asked me extend my code for decimal numbers as well. I told him the approach. Then he asked me how will i do the division as well.
+Problem Solving Round –
+In this round he started with the discussion of Machine round problem. Then he asked me a simple problem. Find the first occurrence of a digit(1-9) other than zero in a stream of integers in less than o(n). Given i can’t have the access to the memory location where stream is written. 
+He basically wanted to know how i think and how many approaches i can think of, and whether i can challenge him or not that its not possible. and yes i did.
+Then he asked a stock span problem. Given stock prices in an array. Find the buying and selling time so that profit earned is maximum.
+Hiring Manager round – 
+He asked me some behavioral questions.
+Why do you want to join Flipkart. Then What would you do if something goes wrong on production, and you are unable to find the bug, etc.
+Them he discussed the projects i had done in my previous company.
+I would like to thank GeeksforGeek team for building such an awesome site and platform for interview preparation and helping out the geeks over there to grab good opportunities in the industry.
+

@@ -1,0 +1,18 @@
+Round 1:
+The first round consist of 20 Computer Science Fundamentals MCQ and two coding questions. In MCQ importance were given to data structures and OS.
+Coding Question 1 : Given a source and destination in a NxN maze find the shortest path between them, some of the cells are occupied and one cannot find path through them.
+Coding Question 2 : Given d,  a,  b and an array of integers. You can add/subtract a and b to d any number of times. You have to find the count of array elements which can be formed by applying these operations to d.
+30 Students got selected for next round.
+Round 2 (F2F Interview):
+The interviewer asked me to tell about myself and asked one question related to my project.
+Then two problem were asked.
+Problem 1 : Search in a row wise and column wise sorted matrix. Interviewer was expecting an O(n) solution.
+Problem 2 : Sum of leaf nodes at minimum level. Interviewer was expecting an O(n) solution.
+Interviewer was very friendly and was giving time for solving a problem. They were focusing on reducing the complexity of the code and once we achieved the logic for best possible complexity we were told to write a code for it. This round lasted around 45 minutes.
+Round 3 (F2F Interview):
+The interviewer started by asking questions about my projects. He took a brief of all the projects in my CV. Then he started asking some basic concepts of OOP about polymorphism ( run time and compile time ) and inheritance. After this he told me to tell design database tables for one of my projects with some added constraints to it. Then OS concepts were asked related to paging and their algorithms. This computer science fundamental related interview goes for around 45 minutes.
+Then some coding questions were asked.
+Problem 1 : Design an algorithm for splitwise app. https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/. He was expecting an O(n2) solution but i was stuck at O(n3) solution. I was not asked to write a code for this approach.
+Problem 2 : Given a linked list make an AVL tree. I gave a solution in which I sort a linked list and then went to middle element make it as root and now I am left with right subtree and left subtree and same process is repeated recursively. He seamed pretty satisfied with the solution and then told me to write a code for the recursive part.
+This round lasted around 1 hour and 30 min. Interviewer were very much interested in the approach rather then just answers.
+I was told that no further rounds will be there for me and results will be circulate through mail. Finally I got selected

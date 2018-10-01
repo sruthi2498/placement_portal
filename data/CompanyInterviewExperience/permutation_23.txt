@@ -1,0 +1,34 @@
+Permutation refers to the process of arranging all the members of a given set to form a sequence. The number of permutations on a set of n elements is given by n! , where “!” represents factorial.
+The Permutation Coefficient represented by P(n, k) is used to represent the number of ways to obtain an ordered subset having k elements from a set of n elements.
+Mathematically it’s given as:
+
+Image Source : Wiki
+Examples :
+The coefficient can also be computed recursively using the below recursive formula:
+If we observe closely, we can analyze that the problem has overlapping substructure, hence we can apply dynamic programming here. Below is a program implementing the same idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Here as we can see the time complexity is O(n*k) and space complexity is O(n*k) as the program uses an auxiliary matrix to store the result.
+Can we do it in O(n) time ?
+Let us suppose we maintain a single 1D array to compute the factorials up to n. We can use computed factorial value and apply the formula P(n, k) = n! / (n-k)!.  Below is a   program illustrating the same concept.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+A O(n) time and O(1) Extra Space Solution
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Shiva Kumar for suggesting this solution.

@@ -1,0 +1,25 @@
+Following is my interview experience for NVIDIA internship.
+I faced three telephonic rounds in my room. 
+Round 1:
+Round 1 was a combination of HR and Technical.
+In this round, I was asked about myself and about my Project. The interviewer was all the time asking about my project during 20 min (because my project was related to NVIDIA), and in last 15 minutes, he asked me simple questions on C/C++.
+Question 1 You are given two Vectors of number, how will you get Dot product? [Dot product of vectors :)]
+Question 2: How will you allocate dynamic memory for two dimensional array 🙂
+Question 3 : Do you Know ASM Language (I said very little). So he asked me to do Question 1 in ASM (I have told him basic logic that how can we do it in ASM)
+Now he asked me, if Numbers in Vectors are n=16 bit long then the resultant Number of bits?
+[Ans: 3n-2 where n is number of bits in numbers]
+Round 2: 
+1. Difference between Macro and Function 🙂 [he required a deep knowledge of it, so I answered in terms of Compile time execution, run time execution, Stacks and Instruction pointer (Program Counter)]
+2. Write a function to calculate Compound Interest with restriction. [I told him sorry sir I forget formula of it, so he gave me formula for compound interest, t = P.(1+(r/n)^nt]
+3.You have a silver rod of 7 inches, now a person visit your home and ask for 1 inch of rod every day in a week. How much minimum number of cuts required in a Week? [Ans. Is in power of Two 1,2,4 (can you find why? Try ok)]
+Tip:- Questions Like this, always have ans in “Power of Two” 🙂
+4. A program in CUDA C (Project).
+5. How many number of Zero’s are there in  100!,  and how will you calculate it?
+[Easy one: Divide by 5 again and again and add all them] so he asked me how I come to know, so I explained.
+Round 3:
+This round was totally based on my project and two aptitude question asked to me at last
+1. You have given a number such that
+N = 1! + 2! +…………+58! now what is the reminder after dividing it by 56?
+[Ans. apply 56 divisible method (break 56 in two co-prime number 7 and 8) then divide by them and calculate it ]
+2. You have Given a Cuboid Cake and a little child comes and cuts a little cuboid piece of cake , Now your task is to divide the remaining Cake in One shot in two equal Parts [first I gave him 2 wrong ans. he said me ‘try again’ and at last, I have him a correct ans. Answer:- Cut the cake with line joining the mid-point of that rectangle and cake.
+Finally I asked two questions related to the new release of Architecture Keplar. The interviewer was cool guy.

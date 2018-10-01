@@ -1,0 +1,14 @@
+Sigtuple (company) came to our campus for placement 2017-2018 .I have experience about process of selection. There are two round .
+IN  FIRST ROUND was online there were 17 questions. In which two are coding and 15 are technical . some of them are..
+1 A bag contains (x) one rupee coins and (y) 50 paise coins. One coin is taken from the bag and put away. If a coin is now taken at random from the bag, what is the probability that it is a one rupee coin?
+ Ans x/(x+y)
+ 2 There is 15 boy and 10 girls . you have to chose 3 people for making a team. what is the probability that there are 2 boy 1 girl chosen for a team .
+Ans 21/46
+Others question are from data structure and algorithm. mostly  related to time complexity.One question from entrance exam  .
+3  Three concurrent processes X, Y, and Z execute three different code segments that access and update certain shared variables. Process X executes the P operation (i.e., wait) on semaphores a, b and c; process Y executes the P operation on semaphores b, c and d; process Z executes the P operation on semaphores c, d, and a before entering the respective code segments. After completing the execution of its code segment, each process invokes the V operation (i.e., signal) on its three semaphores. All semaphores are binary semaphores initialized to one. Which one of the following represents a deadlockfree order of invoking the P operations by the processes?(2013)
+Ans  X: P(b)P(a)P(c) Y:P(b)P(c)P(d) Z:P(a)P(c)P(d)
+Coding questions
+1. Find the smallest positive integer value that cannot be represented as sum of         any subset of a given array.
+Example
+2. Find the longest sub sequence of dancing array.(dp).
+Second round is interview..

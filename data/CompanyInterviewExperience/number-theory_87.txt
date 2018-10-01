@@ -1,0 +1,21 @@
+Given a positive integer n and the task is to find the sum of series 1*2*3 + 2*3*4 + 4*5*6 + . . .+ n*(n+1)*(n+2).
+Examples:
+
+Method 1: In this case loop will run n times and calculate the sum.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Method 2: In this case we use formula to add sum of series.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(1)
+How does this formula work?

@@ -1,0 +1,41 @@
+1st round(coding)
+1) Given a tree, in which leaf nodes for a doubly linked cycle Print cycle.
+2) Tell me if binary tree is BST?
+2nd round(problem solving)
+1) Given a sorted array, being rotated; Find an element in it.
+2) Given a sorted array, being rotated; Give me sorted array.
+3) Given a stream of integers, give me median at any time.
+4) From me:
+              You look younger, whats your designation & experience?
+              Where did you work before?
+              Why you moved to myntra from amazon?
+3rd round (problem solving)
+Given an array of numbers, give me a wave.
+              Input: a0 a1 a2 .. an-1
+              Mathematical expression for wave: ai>=aj<=ak>=al<=am   for all i, j,k,l .. m belong to [0,n-1]
+
+4th round (general discussion)
+1) His info, team info & company
+2) My info & work
+3) What are my favorite tasks & contribution?
+4) What are technical challenges that you solved?
+5) Where do you want to work & what interests you?
+6) From me:
+              Whats your role?
+              Where did you work before?
+              What are +ve & -ve’s of myntra, you think?
+              Why you left your previous job?
+              How is work life at myntra?
+7) Why myntra?
+5th round (VP)
+1) His info, teams info & company
+2) My info
+3) Give me a flow of your work & company
+4) Whats your contribution?
+5) Tell me something, you haven’t highlighted in the previous interviews
+6) How you keep yourself information-aware?
+7) What you do in free time & whats your initiatives in technology?
+8) Discussion of mobile technology
+9) Why myntra?
+10) Whats your choice of work?
+

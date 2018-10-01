@@ -1,0 +1,22 @@
+We have discussed List and some of its functions in the following article: 
+List : Sequence Containers
+Some more useful functions are discussed in this article
+1. emplace(position, value) :- This function is used to insert an element at the position specified.
+2. emplace_back(value) :- This function adds value at end of list. It is different from push_back() by the fact that it directly creates element at position whereas push_back() first makes a temporary copy and copies from there. emplace_back() is faster in implementation than push_back() in most situations.
+3. emplace_front :- This function adds value at beginning of list. It is different from push_front() by the fact that it directly creates element at position whereas push_front() first makes a temporary copy and copies from there. emplace_front() is faster in implementation than push_front() in most situations.
+Run on IDE
+Output:
+
+4. merge(list2)  :- This function is used to merge list2 with list1. If both the lists are in sorted order, then the resulting list is also sorted.
+5. remove_if(condition) :- This function removes the element from list on the basis of condition given in its argument.
+Run on IDE
+Output:
+
+6. unique() :- This function is used to delete the repeated occurrences of the number. List has to be sorted for this function to get executed.
+7. splice(position, list2) :- This function is used to transfer elements from one list into another.
+Run on IDE
+Output:
+
+8. swap(list2) :- This function is used to swap one list element with other.
+Run on IDE
+Output:

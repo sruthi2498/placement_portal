@@ -1,0 +1,7 @@
+Amazon conducted interview in their Bangalore office. There were many candidates lined up for interview.
+Round 1
+1. Create a class which is collection of integers. Create methods to add an element, retrieve an element and addToAll method in O(1) time.
+2. Given 52 cards of deck, write a method to shuffle them and produce a permutation of cards such that every call to this method will produce a distinct permutation. Ex- on call 52! times it should print all distinct 52! permutations.
+3. Find median of BST without using extra memory.
+The interviewer was always going in some other direction from the solution/things suggested to him. He was not ready to understand the things and it got difficult for me to make him understand the things. Got rejected after this round. Felt very bad, a girl candidate was asked very easy questions one of them was reversing a list.
+

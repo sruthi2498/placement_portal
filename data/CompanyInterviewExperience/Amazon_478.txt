@@ -1,0 +1,12 @@
+We have already discussed 2 different ways to clone a linked list. In this post, one more simple method to clone a linked list is discussed. 
+The idea is to use Hashing.  Below is algorithm.
+1. Traverse the original linked list and make a copy in terms of data.
+2. Make a hash map of key value pair with original linked list node and copied linked list node.
+3. Traverse the original linked list again and using the hash map adjust the next and random reference of cloned linked list nodes.
+Below is the implementation of above approach.
+
+Run on IDE
+Run on IDE
+
+Time complexity : O(n)
+Auxiliary space : O(n)

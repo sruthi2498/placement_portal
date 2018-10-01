@@ -1,0 +1,49 @@
+Recently Morgan Stanley Visited Our Campus and this is my Interview Experience
+
+Round 1:
+This round consisted of 15 mcq(contains both aptitude and technical) and 2 coding questions,aptitude questions are pretty hard so practice is required for solving aptitude questions and techincal mcqs are easy which includes data structures and c++ questions(program will be given and we should guess the output).
+Coding Questions:
+1) Given a number which is odd initially and we can swap any two digits and we can swap only  once.Now the problem is that we have to find the maximum possible even number that can be formed using the above constraints
+Example
+ input:121
+ output:112
+2)Given two arrays one represent elements and another array represents frequency of elements in the input sequence and now you can remove m items from the given input sequence.u have to tell the minimum number of distinct elements that you can be possible after removing m elements
+Both the questions are easy and we are given 1:30hr to solve both mcq and coding questions.I solved both coding questions.
+
+Round 2:
+This round basically focuses on problem solving skills.
+1)Given an array which contains people id’s along with the date which represents people who are logging in for a particular website at that time.Now we have to answer the following questions
+ a)Find the number of unique users that logged in to the website till now
+ b)Find the number of people who are logged in more than five times
+ c)Find the day which has more number of users logged in till now
+  and many more like this
+2)In this question i was asked to explain the working of AVL tree along with the code
+3)Binary search in Linked list many questions regarding the time complexity and also we have to return the index at which the element is present in the linked list
+4)Few questions regarding my projects
+5)Few Concepts of operating systems like context switch and also regarding paging,Segmentation and few file management questions
+6)Some Concepts of c++ regarding virtual functions and how complier actually implements it.
+7)And few more questions which i don’t remember know
+
+Round 3:
+This is a Group activity round we are given with some lego blocks and we have to come up with a idea.In this round they are focusing on Team management skills
+
+Round 4:
+This is a design round where we have to design a parking lot system the interviewer basically wants us to identify the classes and the  interaction between classes.Many questions are asked in this round almost this lasted for one hour and after this the interviewer basically concentrated on c++ concepts and os concepts
+some questions on c++ are
+ suppose we are having a class named student
+ what is the difference between
+ student obj1; and
+ student *obj2=new student() and also which one u will prefer and why
+and many more questions regarding memory allocation.
+overall this round lasted for 1:30hr
+
+Round 5:
+Finally i was able to reach HR round in this round i was asked some basic hr questions
+1)why Morgan Stanley
+2)Why should i hire you
+3)Where do you see yourself after 3 years
+4)What is your long term dream and many more questions like this
+
+Note:
+Every round is an elimination round one has to answer well in order to go to further round
+Finally I thank geeksforgeeks for providing the valuable information necessary for the students who want to reach the top level in their respective field.

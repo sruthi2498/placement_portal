@@ -1,0 +1,20 @@
+There were 4 rounds in total.
+ 
+Round 1:
+Hackerrank round consisting of 2 questions.
+Q1: Given an array of integers indicating number of work hours per month, find min number of months to work, so that total work hours reaches a given ‘k’.
+Q2: Given a string of 1s and 0s. Find largest substring having equal number of 1s and 0s.
+Round 2:
+Machine coding round:
+Given a list of Jobs, (Each job contains duration, deadline before which it should be completed, Priority, User Level(Root>Admin>User)) and number of threads,
+Write code in any language of your choice to schedule jobs in SJF(Shortest Job first), FCFS(First come first serve), FPS(First priority Scheduling), and EDF(Elapsed deadline Scheduling) scheduling algorithms.
+EDF: Schedule jobs giving priority to Job which is closest to deadline.
+Bonus: Implement Round Robin scheduling with time slice of 10 for each of these algorithms.
+Code should work end to end, with error handling. Given time was 90 minutes.
+Round 3:
+Data Structures round:
+Q1: Stock sell, buy problem.
+Q2: Given matrix of 1s and 0s, if 1s indicate land and 0s indicate sea, find number of islands.
+Q3: Implement LRU cache with insert in constant time and Get in constant time.
+Q4: Implement level order traversal and extend it to wave traversal of Binary Tree.(Lowest and leftmost element, then highest and just right to leftmost, then lowest and just right to previous element and so on..)
+Got eliminated in this round.

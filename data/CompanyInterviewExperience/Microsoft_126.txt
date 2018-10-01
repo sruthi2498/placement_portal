@@ -1,0 +1,15 @@
+Given an array of both positive and negative numbers, the task is to find out the subarray whose sum is closest to 0.
+There can be multiple such subarrays, we need to output just 1 of them.
+Examples:
+Asked in : Microsoft
+
+A  Naive approach is to consider all subarrays one by one and update indexes of subarray with sum closest to 0.
+Run on IDE
+Output:
+Time Complexity: O(n2)
+An Efficient method is to perform following steps:-
+Run on IDE
+Output:
+Time Complexity: O(n log n)
+Reference:
+https://www.careercup.com/question?id=14583859

@@ -1,0 +1,32 @@
+Given two integers ‘n’ and ‘m’, find all the stepping numbers in range [n, m]. A number is called stepping number if all adjacent digits have an absolute difference of 1. 321 is a Stepping Number while 421 is not.
+Examples :
+
+
+Method 1 : Brute force Approach
+In this method, a brute force approach is used to iterate through all the integers from n to m and check if it’s a stepping number.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2: Using BFS/DFS
+The idea is to use a Breadth First Search/Depth First Search traversal.
+How to build the graph?
+Every node in the graph represents a stepping number; there will be a directed edge from a node U to V if V can be transformed from U. (U and V are Stepping Numbers) A Stepping Number V can be transformed from U in following manner.
+lastDigit refers to the last digit of U (i.e. U % 10)
+An adjacent number V can be:
+By applying above operations a new digit is appended to U, it is either lastDigit-1 or lastDigit+1, so that the new number V formed from U is also a Stepping Number.
+Therefore, every Node will have at most 2 neighboring Nodes.
+Edge Cases: When the last digit of U is 0 or 9
+Case 1: lastDigit is 0 : In this case only digit ‘1’ can be appended.
+Case 2: lastDigit is 9 : In this case only digit ‘8’ can be appended.
+What will be the source/starting Node?
+Note: For node 0, no need to explore neighbors during BFS traversal since it will lead to 01, 012, 010 and these will be covered by the BFS traversal starting from node 1.
+
+Example to find all the stepping numbers from 0 to 21
+BFS based Solution: 
+Run on IDE
+Run on IDE
+DFS based Solution
+Run on IDE
+Run on IDE
+Output:

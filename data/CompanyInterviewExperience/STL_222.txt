@@ -1,0 +1,9 @@
+The bitset::any() is an inbuilt function in C++ STL which returns True if at least one bit is set in a number. It returns False if all the bits are not set or if the number is zero.  
+Syntax: 
+Parameter: The function does not accepts any parameter. 
+Return Value: The function returns a boolean value. The boolean value thus returned is True if any of its bits are set. It is False if none of its bits are set. 
+Below programs illustrates the bitset::any() function. 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

@@ -1,0 +1,9 @@
+Round 1: 
+This was on HLD, I was asked a question on how to design an online chess game. The questions asked were how will you assign a player to another player who wants to play. You need to think about how to divide your players into multiple groups of ratings, so that a newbie is not playing a grand master, rather with someone who is of his level only. Then the question was how will you design your system when a player comes in and say I want to play, and the max wait time is 1 min, you need to find a player suitable for his level and think about multiple race conditions.
+Round 2: 
+This was DS round and I was asked two questions
+Question1: https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/
+Question 2: You are given 2 words with equal number of characters. Find an algorithm to go from first word to second word, changing one character at each step, in such a way that each intermediate word exist in a given dictionary.
+Example:
+Words are pit, map. A possible solution:
+pit, pot, pet, met, mat, map

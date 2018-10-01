@@ -1,0 +1,27 @@
+A number ‘n’ is called Bleak if it cannot be represented as sum of a positive number x and set bit count in x, i.e., x + countSetBits(x) is not equal to n for any non-negative number x.
+Examples : 
+Method 1 (Simple)
+Below is the implementation of the simple approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of above solution is O(n Log n).  
+ 
+Method 2 (Efficient)
+The idea is based on the fact that the largest count of set bits in any number smaller than n cannot exceed ceiling of Log2n.  So we need to check only numbers from range n – ceilingLog2(n) to n.
+Below is the implementation of the idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(Log n * Log n)
+Note: In GCC, we can directly count set bits using __builtin_popcount(). So we can avoid a separate function for counting set bits.
+Run on IDE
+Output : 

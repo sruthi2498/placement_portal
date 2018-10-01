@@ -1,0 +1,55 @@
+Veritas visited our college for campus hiring. The CTC offered was 9.26 LPA. There were total 105 candidates eligible for the recruitment test. The selection process included aptitude test, 2 tech interviews and HR interview.
+ROUND 1:(Aptitude+Technical test)
+Aptitude test was on HackerRank.
+It had 20 mcqs based on CS concepts, C/C++ output questions, oops concepts(constructor, inheritance, overloading, overriding), etc.
+There were also 2 coding questions :-
+Q.1 Write a function to detect a loop in the linked list. return “YES” or “NO”.
+Detect loop in the linked list
+Q.2 Write a function to delete all those nodes in the linked list which contain data greater than a value k. return head node.
+My approach was to
+1) Traverse the linkedlist using two pointers prev & curr.
+2) When curr value is greater than k, make prev->next point to curr->next.
+3) Delete curr node.
+4) Make new curr point to prev->next.
+5) Repeat till curr is not NULL.
+There were some more edge cases to be covered.
+Round 1 was easy. Around 30 students out of 105, were shortlisted for the Tech interview. All those who passed all the test cases of both the coding questions easily were selected, few with partial submission were also selected.
+ROUND 2: Technical Interview
+Q.1 Tell me about yourself. (Just a formality, interviewer is thinking about questions to ask)
+Q.2 Rate yourself out of 10 in following subjects:
+    C, C++, OOPS, OS, System programming / Compiler Design, Quality Testing.
+Q.3 Storage Classes
+Q.4 Stack and Heap memory representation
+Q.5 Bombarding of OOPS Concepts
+Inheritance in depth,
+access specifiers,
+difference between privately, publicly, protected inherited
+Output questions
+Q.6 Pointers in depth. much attention paid to syntax.
+dereferencing
+double pointers
+Q.7 This question on ternary search
+Q.8 Middle element in linked list
+Q.9 Explain all sorting techniques you know.
+Q.10 Write code for Insertion sort
+Q.11 Merge sort linked list
+ ROUND 3: Technical Interview-II
+Q.1 Tell me about yourself.
+Q.2 Projects Discussion.
+Q.3 Booting process in OS.
+Q.4 Linux commands.
+Q.5 Process vs Threads
+Q.6 Mutex vs Semaphore
+Q.7 Paging in OS in depth
+Q.8 Practical use of paging and segmentation.
+Q.9 Reverse words in a sentence without using any extra space.
+ ROUND 4: HR Interview
+Q.1 Tell about yourself.
+Q.2 Extra curriculars.
+Q.3 Why veritas?
+Q.4 Areas who need to improve?
+Q.5 Where do you see yourself after 5 years?
+Q.6 Strengths and weaknesses.
+Some more typical HR questions.
+Then they say “YOU ARE SELECTED”
+All of the students who made it till the HR Round were selected. Overall, 7 were selected from 30.

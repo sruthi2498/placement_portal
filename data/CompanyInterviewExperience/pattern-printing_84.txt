@@ -1,0 +1,10 @@
+Print simple patterns like below using single line of code under loop. 
+Examples:
+
+setw(n) Creates n columns and fills these n columns from right. We fill i of them with a given character, here we create a string with i asterisks using string constructor.
+setfill() Used to set fill character in a stream. Here we use it to fill remaining n-i-1 places with space (or ‘ ‘) in n columns.
+Run on IDE
+Output:
+Please refer below post for one more approach.
+Print pattern using only one loop | Set 2 (Using Continue)
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks( We know you do! ) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

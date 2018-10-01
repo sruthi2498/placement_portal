@@ -1,0 +1,22 @@
+Given a set of N integers. Find how many subsets of given array have sum between A and B(inclusive).
+
+Constraints:
+1 ≤ 34 ≤ N,
+-2 * 107 ≤ arri ≤ 2 * 107
+-5 * 108 ≤ A, B ≤ 5 * 108
+
+Examples:
+Method 1 (Brute Force): We can generate all subsets of the given numbers i.e. Power Set and find the number of subsets that would give a sum between A and B. But this will have 234 operations atmost, which is not very efficient. Hence, below is an efficient approach to solve this problem.
+Method 2 (Meet In The Middle): This basically reduces time complexity from O(2N) to  O(2N/2)
+We divide the set into two sets [0…N/2] and [(N/2 + 1)…(N-1)] and generate all subsets sums individually for the two sets which will be 2 * 217 operations. Now, what we can do is to find the combinations of these sets that would give the desired sum. This again can be done in an efficient way, sort one of the summed up set and binary search the values that will yield the sum for the particular value of the other set. Sort the second set and for each element in the first set, search for the lower bound of A – S2[i] (let say ‘low’) and upper bound of B – S2[i]
+ (let say ‘high’). Subtract (high – low) to get the desired answer.
+
+For e.g S = { 1, 2, -1, 0 }, A = 1, B = -1.
+After dividing S into two sets, S1 = { 1, 2 } and S2 = { -1, 0 }.
+Power set of S1 = { {0}, {1}, {2}, {1, 2} } and Power set of S2 = { {0}, {-1}, {0}, {-1, 0} }
+Subset Sum of S1 = { 0, 1, 2, 3 } and Subset Sum of S2 = { 0, -1, 0, -1 }
+Now sort the S2 { -1, -1, 0, 0 } and for every value in S1, we binary search values that would yield the desired sum. For 0 we search for (-1) – 0 = -1 for lower bound and 1 – 0 = 1 for upper bound in S2, for 1 we search for (-1) – 1 = -2 and 1 – 1 = 0 in S2 and so on.
+
+Below is the implementation in C++.
+Run on IDE
+Time Complexity: O(2 * 2N/2), where N is the size of set.

@@ -1,0 +1,16 @@
+set and map in STL are similar in the sense that they both use Red Black Tree (A self balancing BST). Note that the time complexities of search, insert and delete are O(Log n). 
+Differences:
+The difference is set is used to store only keys while map is used to store key value pairs.  For example consider in the problem of printing sorted distinct elements, we use set as there is value needed for a key. While if we change the problem to print frequencies of distinct sorted elements, we use map.  We need map to store array values as key and frequencies as value.
+Run on IDE
+Output:
+Run on IDE
+Variations of set and map:
+Set and Map, both stores unique values and sorted values as well. But If we don’t have such a requirement, we use multiset/multimap and unordered_set/unoredred_map.
+Multimap: Multimap doesn’t allow elements to stored by indexing.
+Run on IDE
+Multiset:
+Run on IDE
+Unordered_set:
+Run on IDE
+Unordered_map:
+Run on IDE

@@ -1,0 +1,11 @@
+Permutation is an arrangement of  objects in a specific order. Order of arrangement of object is very important. The number of permutations on a set of n elements is given by  n!.  For example, there are 2! = 2*1 = 2 permutations of {1, 2}, namely {1, 2} and {2, 1}, and 3! = 3*2*1 = 6 permutations of {1, 2, 3}, namely {1, 2, 3}, {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 1, 2} and {3, 2, 1}.
+Method 1 (Backtracking) 
+We can use the backtracking based recursive solution discussed here.
+Method 2  
+The idea is to one by one extract all elements, place them at first position and recur for remaining list.
+Run on IDE
+Output:
+Method 3 (Direct Function) 
+We can do it by simply using the built-in permutation function in itertools library. It is the shortest technique to find the permutation.
+Run on IDE
+Output:

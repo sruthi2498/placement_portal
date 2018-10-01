@@ -1,0 +1,30 @@
+Nutanix Technologies came to our campus BITS Goa for On-Campus Recruitment process. They conducted multiple rounds of screening to finally select 3 Candidates.
+Online Test: Hackerrank platform
+We were allotted 1 hr to solve two problems.
+1st question: Given n tailors with particular skill values (positive integer array) and m tasks (positive integer array), we need to find how much time will the tailors would take to complete m task working together.
+A tailor can do 1 task if his skill value >= task value. Completing 1 task by 1 tailor takes 1 hr. eg Tailor: 4 5 6 task: 5 5 6 will take 1 hr if tailor with skill 4 5 6 are given task NULL 5 5 / NULL NULL 6 (2 hrs) : then the tailors can distribute the task and take one each as per skill value such that the time consumed is minimum (2 hr in this case).
+This was a beautiful problem on Binary Search. It could be modeled to https://www.spoj.com/problems/AGGRCOW/ where you need to apply binary search on the answer itself ( i.e time of completion).
+2nd Question: This was a dynamic programming problem
+The question had a story with it. I am just telling the crux of the problem. Given a 2D matrix having either * (means available ) or # (means unavailable) block. An integer k was given. All the continuous k available blocks either vertical or horizontal needs to be considered. There will be some set of (continuous) blocks that can overlap having continuity more than equal to k. The task was to find the maximum number of overlaps any block can have based on the input matrix. Understanding the question was very important in order to solve it.
+The answer required to make 3 2D matrices of equal dimension as the input. 1 for vertical continuos block count(>=k). 1 for horizontal and 1 for all the final overlaps.
+Any student who could solve 1 complete problem and other at least half test cases, was short listed. There were 14 such candidates shortlisted from this round including me.
+Round 0: Debugging Round
+Out of 14 students, half of us were to be eliminated from this round. We were given 2 c++ object-oriented codes on OS concepts of Semaphore and Mutex lock. This was not OOP debugging, But debugging based on logical errors of OS synchronization. We were asked to point out the errors and suggest corrections. There were semicolons missing at few places but it was told to only point out logical errors
+In the first problem, we had to think about Mutex lock and exception handling.
+In the second problem, a small tweak was made in the Producer-Consumer problem of Semaphore.
+out of total 10 errors, I was able to point 4 /6 and 4/4 errors for the two questions. The approaches were discussed in one of the rounds later. The interviewer told me that I was one of the top scorers of this round.
+Round 1: Technical Round
+The interviewer had a stopwatch. As soon as he explained each problem, the timer was started. (He wasn’t supposed to mention this. I just noticed)
+1st Ques: Construct BST from its given level order traversal
+2nd Ques: https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+It took me a while to figure out the approach for the 1st problem. The interviewer gave a small hint which led me to the correct solution approach. I solved the second problem very quickly though. He asked me to write pseudo-code for both the problems. I did that and was quite happy.
+Round 2: Resume Round
+This round was Resume based round along with a bit HR questions too.
+The interviewer was a 23 years experienced engineer working with Nutanix and asked really smart questions based on what I was explaining on my projects and case study. ( Btw this is the only round where GFG can’t help you 😛 ) The session went on for 40 – 45 mins. Towards the end, he told me that he liked how passionately I was explaining my work and contributions in the case study and projects mentioned in Resume. This was very engaging round and many of his questions were trying to check which department of the company I can fit well. He was happy after the end of interview.
+Round 3: Design Round
+Before the beginning of this round, The interviewer discussed my Debugging round approaches and pointed where I missed on errors.
+In this round, I was asked to implement an LRU cache using an appropriate data structure. https://www.geeksforgeeks.org/lru-cache-implementation/
+After that, he asked for more algorithms which can be used for caching and ways to implement them. I told him LFU (Least frequently used). Then the discussion went on with the difference between the two techniques, pros and cons and further tweaks to the problem.
+By the end of the round, he asked if I had any questions for him. I had a few questions which he answered properly also giving me advice as a mentor for my career ahead in software engineering.
+All the interviewers tried to help me while getting towards the answer when I was stuck. I found the overall interview with the NUTANIX team very informative and rounds were conducted very smoothly. Finally I was 1 of the 3 candidates selected for NUTANIX Technologies, Banglore 🙂
+This article is contributed by Shrehal Bohra

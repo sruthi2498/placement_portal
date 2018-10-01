@@ -1,0 +1,87 @@
+
+Round 1: Online Coding Test (Duration: 1 hour 30 minutes)
+Question 1: Given a matrix of n*n size, the task is to print its elements in diagonally pattern.
+Question 2: Lazy Bartender
+    There are N number of possible drinks.(n1,n2..)
+    Has C number of fixed customers.
+    Every customer has fixed favorite set of drinks.
+    Bartender has to create least possible number of drinks to suffice need of all the customers
+    Example:
+    Cust1: n3,n7,n5,n2,n9
+    Cust2: n5
+    Cust3: n2,n3
+    Cust4: n4
+    Cust5: n3,n4,n3,n5,n7,n4
+    Output: 3(n3,n4,n5)
+Discussions about Lazy Bartender on Career Cup
+The online coding round was supposed to be taken from home. HR shared the link and gave 3 days of time to attempt once and submit.
+I solved first problem and got selected for Interview Process.
+Round 2: Technical Round (Duration: 1 hour)
+Question 1:
+Next Greater Element
+I started with naive approach and finally we discussed the solution using stack.
+We also discussed about complexity of each of the approaches.
+Question 2:
+Interviewer: Do you know HashMap?
+Me: Answered all the information related to HashMap. Explained how singly linked list is maintained internally for each bucket. Discussed about complexity of insertion and retrieval.
+Interviewer: Order of insertion is not maintained in HashMap. Write code to maintain the order of insertion.
+Me: We can directly use LinkedHashMap in Java. This Data Structure suffices the requirement.
+Interviewer: How does LinkedHashMap work internally?
+Me: Explained the internals of LinkedHashMap. Elaborated how it maintains doubly linked list to maintain the order of insertion on top of HashMap mechanism. This is helpful to know internals of Java Data Structures
+Question 3:
+Have you ever faced conflict in your team? For example, if your team member is trying to implement sub optimal solution and you don’t want him/her to do so. How have you handled this situation?
+Question 4:
+Largest Sum Contiguous Subarray
+Discussion included naive approach, solution using maintaining single variable and complexity of each.
+For questions 1 and 4, interviewer asked me to write production ready code on paper. Expectation included to cover all the corner cases and input check and all.
+Round 3: Technical Round (Duration: 1 hour)
+Interviewer: Tell me Data Structure of your choice. I’ll ask questions on that.
+Me: Can we have questions on Linked List?
+Question 1:
+This interviewer also started with Hashmap. Again we had all the discussion which I had in Round 3 Question 2.
+Design your own Data Structure for LinkedHashmap and write production ready code for insertion of elements.
+Question 2:
+Why Amazon?
+Question 3:
+Imagine we have a big box open at top and some small boxes are put inside it. The one of the side view of the box be like.
+
+Now, as shown in the image, currently gravity is acting downwards.
+Some environment change happens and now gravity starts acting rightwards of the shown image.
+Let us consider initial data in an array. For example, the array content from the figure would be [3,2,3,2,1,4].
+Think of final positions of the all boxes (Final elements in array) and design algorithm to solve the problem. We can just discuss the algorithm. No need to write code.
+We discussed about final positions of boxes on paper and finally I figured out that it is nothing but a sorting of array. I answered to have to go with Merge sort. Interviewer asked me why not Quick sort? We discussed about complexity of both the algorithms and issues occurring due to selection of pivot in Quick sort.
+Round 4: Design Round (Hiring Manager) (Duration: 1 hour)
+Question 1:
+Interviewer asked me to choose area from which he can ask design question.
+1. Online Gaming
+2. Inventory Management
+3. Taxi services like Ola, Uber.
+I chose second option.
+Interviewer asked me to Design automated parking lot
+We started with classes to be used. Discussed database structure. Many other aspects like what if I own many parking lots. What if only one vehicle is coming at a time? What if I have multiple lanes to enter parking. What if many vehicles are coming at a given time?
+We discussed synchronization of thread, thread pooling, thread queuing. 
+Question 2:
+Tell me about your current work. 
+Round 5: Behavioral Round, Bar raiser (Taken by two highly experienced people) (Duration: 1 hour)
+Question 1:
+Introduce yourself.
+Question 2:
+Discussions about my previous project with previous employer.
+Question 3:
+1. Discussions about my current work with current employer. They asked me complete in and out about my current project. I answered the question with inclusion of many design patterns which are implemented in my project.
+2. Tell us something which you have contributed to project. I had implemented some IPC on the top of available framework. They asked me how IPC work internally? How will you implement it if infrastructure is not provided. I explained the OS concepts behind IPC.
+3. If trade off needs to be done on quality of product being released or to follow release date, which one will you choose.
+4. How do you handle conflict in your team?
+Question 4:
+Do you know furniture? If yes, design one. (Too vague question)
+We discussed more about requirements as I was not clear about it at all. Came up with some classes of furniture.
+Write a SQL query to retrieve furniture from database whose dimensions(Width,Height,Length) match with the given dimension. Initially, I wrote a strict SQL query to match exact dimension. Then, interviewer asked me how Google search will work if you search for furniture with above dimension. I answered that it gives other furniture with similar dimension as well. I modified my earlier query to have something similar to Google result.
+Result:  I got selected.
+Note:
+1. Each interview started with brief introduction of the interviewer and mine.
+2. Each interviewer was friendly and supportive. There was no pressure, tension at the time interview. It was like a normal technical discussion. Interviewer gave hints to find the answers whenever required.
+3. We discussed about interviewer’s work at Amazon in each round.
+4. After every round, I asked for area of improvement in me. Like it can be anything, what should I read more, which skill should I develop. (It is not something about interview feedback, as I know that it is always kept confidential from interviewee).
+5. Don’t start solving problem as soon as interviewer gives you one. Ask questions if you are not clear about the requirement.
+6. Round 5 was meant for checking interviewee’s behavior in different situation.
+7. Most of the times, interviewer is not expecting the correct answer but is evaluating your thought process. Keep talking whatever is going on in your mind. Most important prepare your resume very well. 

@@ -1,0 +1,27 @@
+Salesforce visited MNIT, Jaipur on Aug 28-29.There was an online round  conducted on hackerrank platform.It consisted of MCQs (technical) and 2 coding questions.
+1st: Can the given string be converted to palindrome with only 1 swap allowed. (Almost all the students got 3 out of 4 test cases passed.)
+2nd: Given two dates (can be of different years), calculate the number of days between them (taking care of leap years).
+14 students were selected for the interview rounds which held on the next day.
+Round 1:Initially, I was asked to introduce myself and their was a quick review of my resume.He asked me 2 coding questions.
+1st: Spiral order traversal of binary tree.I was asked to write the complete final function that would work.  https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+2nd: The question was : https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/ , however he changed the language of question. Firstly  I told him dynamic programming based approach with time and space complexity as O(1), then he asked me to minimize space complexity and after telling him of O(1), he further kept on changing the question by making it more complex and asked me to give optimized space complexity solution (as time complexity was already optimized).
+Then he asked me whether I have any questions for him or not. I asked 3-4 questions which was answered very nicely. The interview went for around 30 mins. Around 7-8 people were moved to the next round.
+Round 2:
+I was the first person called for the 2nd round and was welcomed with a warm handshake. He asked me how was my last interview and the questions asked there.Then he took a glimpse of my resume and asked me about one of my project (GUI application).He started  asking questions about API’s and framework but as I had only basic knowledge of GUI (since I studied only core java), I said him clearly that I don’t know much about it so he started by asking questions based on core java.
+Then he asked me to explain pre-order traversal of binary tree with its proper code (iterative+recursive). https://www.geeksforgeeks.org/iterative-preorder-traversal/
+Next question asked was: https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+I told him of  O(m+n) approach .It was followed by a lot of discussion as then, I was asked to optimize its complexity (since it was sorted one). I told him some approaches by using binary search but then he got the cases where my approach was giving O(m+n) only. He also gave me hint for its minimization but I was not able to catch it. This question took about 15-20 mins and at the end he asked me to write complete working code of the former solution (O(m+n) complexity).
+The last question which was marked to be my bonus question was of bitwise programming. Question: https://www.geeksforgeeks.org/program-to-find-whether-a-no-is-power-of-two/
+I started by giving O(n) approach, followed by O(log n) and finally giving him what he wanted…O(1) approach.
+This round took about 1.15 hr.
+Round 3:
+This was an Object oriented + HR round. I was given a real world problem of College administration system consisting of various Courses, Faculties and Students .A student can have any number of courses and each course can be taught by any no. of teachers, every teacher can teach any no of courses too and a lot many features. I  designed and implemented it by using classes and OOPs concepts and finally made 3 classes namely Student, Teacher, Courses, where Courses class will make use of array of remaining 2 classes.She seemed satisfied right from the beginning of my approach.The plus point I got was that the previous student was not able to give satisfactory solution to her of the same problem.
+Later, she asked questions like: the most challenging task which I faced in any of my projects. I told her about one of the  major problem I faced and the way I tackled it and she seems to be quite impressive with my solution (as what she said..!)..
+Next she asked me about any project which required team work, how is it while working with the team, its pros and cons followed by a very friendly discussion. The round lasted for about 30 mins and 4 students were selected for final HR round.
+HR Round:
+This round was of merely 5-7 mins .Questions asked were like:
+At the end, 3 students were selected for internship at Salesforce. We were invited for dinner in 5 star hotel on the same night..!
+Overall, the interviewers were very frank and helpful .In any of the interview, I never felt of any nervousness or hesitation and after every round I was confident from inside that I’ll certainly get the chance to move further.
+But as an advice, I’ll strongly recommend not to make any expectations before your final selection .Just believe in your knowledge and have patience and you’ll certainly get what you deserve.
+All the best geeks..!
+This article is contributed by Tarishi Jain.

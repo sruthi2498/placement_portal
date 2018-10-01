@@ -1,0 +1,8 @@
+Given an array arr[] of N positive integers. The task is to write a program to count the number of prime elements in the given array.
+Examples:
+Naive Approach: A simple solution is to traverse the array and keep checking for every element if it is prime or not and keep the count of the prime elements at the same time.
+Efficient Approach: Generate all primes upto maximum element of the array using sieve of Eratosthenes and store them in a hash. Now traverse the array and find the count of those elements which are prime using the hash table. 
+Below is the implementation of above approach:
+
+Run on IDE
+

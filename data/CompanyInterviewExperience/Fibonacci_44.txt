@@ -1,0 +1,27 @@
+Write a tail recursive function for calculating the n-th Fibonacci number. 
+Examples :
+Prerequisites :  Tail Recursion,  Fibonacci numbers
+A recursive function is tail recursive when the recursive call is the last thing executed by the function. 
+
+Writing a tail recursion is little tricky. To get the correct intuition, we first look at the iterative approach of calculating the n-th Fibonacci number.
+Here there are three possibilities related to n :-
+First two are trivial. We focus on discussion of the case when n > 1.
+In our iterative approach for n > 1,
+We start with
+For n-1 times we repeat following for ordered pair (a,b)
+Though we used c in actual iterative approach, but the main aim was as below :-
+We finally return b after n-1 iterations.
+Hence we repeat the same thing this time with the recursive approach. We set the default values
+Here we’ll recursively call the same function n-1 times and correspondingly change the values of a and b.
+Finally, return b.
+If its case of n == 0 OR n == 1, we need not worry much!
+Here is implementation of tail recurssive fibonacci code.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Analysis of Algorithm
+

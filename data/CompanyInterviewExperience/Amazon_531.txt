@@ -1,0 +1,36 @@
+Recently I got interviewed with Amazon for SDE1 position and here is my interview experience which I would like to share with others.
+Telephonic round:
+1. An array is given with element name and their respective pH values. Print the combination of 2 elements which make a neutral compound.
+A discussion started and best solution was O(n) time complexity and O(1) space complexity.
+Then I got call for F2F interviews and here are those-
+
+Round 1:
+1. Print Matrix in spiral form.
+2. A store have n customers and any 1 can visit them any time through out the year.Data is stored in a file.Design a data structure to find given person visited on so n so date or not.
+Round 2:
+1.There are N packages P1, P2…Pn. A package may depend on another or many other for its compilation. Given a matrix of dependency, find a sequence of package compilation.
+2.A 2D matrix is given, with each elements representing number of gold coin at that position. I have to travel from (0,0) to last element of matrix collecting maximum no. of coins.I can travel either right of an element or down of it.
+3.In Galaxy there are trillions of stars. I am provide distance of every star from earth. Tell me nearest 1Million stars to earth, provided with best time and space complexity.
+
+Round 3:
+1. Implement LRU.
+2.In Android phones we have 3X3 grid for making a pattern. Given a length, find number of combinations for that length in that grid.
+Round 4:
+1. Project deep discussion.
+2. Few given scenarios and how you will tackle.
+3. Strengths and weaknesses.
+4. Given a file with many statements. Print all the strings with their anagrams through the file.Logic to check anagrams and to store them.
+
+Round 5(Bar Raiser):
+1. Behavioral Questions like
+>Why you want to leave your organization?
+>What is most challenging work you have done till date?
+>Why you want to join Amazon?
+etc.
+2. Which data structure you know?
+3.Say I have few words and their meaning, and I want to store them which DS will you use and why.
+I started with Hashmap and we kept on discussing about pros and cons.Finally ended up with trie.He asked me to write code for it, for adding new word and for fetching meaning from Trie.
+The whole process started in 1st week and yesterday got a call from HR for I am invited to be part of Amazon.
+Thank you geeksforgeeks for providing such a nice platform to learn and share.
+
+

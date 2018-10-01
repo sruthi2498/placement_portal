@@ -1,0 +1,12 @@
+The strtoimax() function in C++ interprets the contents of a string as an integral number of the specified base and return its value as an intmax_t(maximum width integer). This function also sets an end pointer that points to the first character after the last valid numeric character of the string, if there is no such character then the pointer is set to null. This function is defined in cinttypes header file.
+Syntax:
+Parameters:
+he numerical base (radix) that determines the valid characters and their interpretation in the string
+
+Return Type The strtoimax() function returns two values which are described below:
+Below programs illustrate the above function: 
+Program 1:
+Run on IDE
+Program 2:
+Program to convert multiple values at different base
+Run on IDE

@@ -1,0 +1,12 @@
+Given N X N matrix filled with  1 , 0 , 2 , 3 . Find whether there is a path possible from source to destination, traversing through blank cells only. You can traverse up, down, right and left.
+Note : there is only single source and single destination(sink).
+Examples:
+Asked in: Adobe Interview
+
+Simple solution is that find the source index of cell in matrix and  then recursively find a path from source index to destination in matrix .
+algorithm :
+Efficient solution (Graph)
+The idea is to use Breadth First Search. Consider each cell as a node and each boundary between any two adjacent cells be an edge. so total number of Node is N*N.
+below c++ implementation of above idea
+Run on IDE
+Output:

@@ -1,0 +1,9 @@
+Given two numbers N and K. Find the number of ways to represent N as the sum of K Fibonacci numbers. 
+Examples:
+Approach: The Fibonacci series is f(0)=1, f(1)=2 and f(i)=f(i-1)+f(i-2) for i>1. Let’s suppose F(x, k, n) be the number of ways to form the sum x using exactly k numbers from f(0), f(1), …f(n-1). To find a recurrence for F(x, k, n), notice that there are two cases: whether f(n-1) in the sum or not.
+So the recurrence relation will be:
+F(x, k, n)= F(x, k, n-1)+F(x-f(n-1), k-1, n)
+Base cases:
+Also, there are other cases that make F(x, k, n)=0, like the following:
+Below is the implementation of above approach:
+Run on IDE

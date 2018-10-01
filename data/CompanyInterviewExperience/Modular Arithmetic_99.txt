@@ -1,0 +1,20 @@
+Euler’s Totient function Φ(n) for an input n is count of numbers in {1, 2, 3, …, n} that are relatively prime to n, i.e., the numbers whose GCD (Greatest Common Divisor) with n is 1.
+For example, Φ(4) = 2, Φ(3) = 2 and Φ(5) = 4.  There are 2 numbers smaller or equal to 4 that are relatively prime to 4,  2 numbers smaller or equal to 3 that are relatively prime to 3. And 4 numbers smaller than or equal to 5 that are relatively prime to 5.
+We have discussed different methods for computation of Φ(n) in previous post. 
+How to compute Φ for all numbers smaller than or equal to n?
+Example: 
+We strongly recommend you to minimize your browser and try this yourself first.
+A Simple Solution is to call Φ(i)  for i = 1 to n. 
+An Efficient Solution is to use idea similar to Sieve of Eratosthenes to precompute all values/.  The method is based on  below product formula.
+
+The formula basically says that the value of Φ(n) is equal to n multiplied by product of (1 – 1/p) for all prime factors p of n.  For example value of  Φ(6) = 6 * (1-1/2) * (1 – 1/3) = 2.
+Below is complete algorithm:
+Below is the implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+The same solution can be used when we have large number queries for computing totient function.  

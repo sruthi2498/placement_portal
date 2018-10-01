@@ -1,0 +1,31 @@
+Given an array of A of n integers and an array B of m integers find the Maximum Contiguous Subarray Sum of array A such that any element of array B is not present in that subarray
+Examples :
+
+Input : A = {1, 7, -10, 6, 2}, B = {5, 6, 7, 1}
+Output : 2
+Explanation Since the Maximum Sum Subarray of A is not allowed to have any element that is present in array B.
+The Maximum Sum Subarray satisfying this is {2} as the only allowed subarrays are:{-10} and {2}. The Maximum Sum Subarray being {2} which sums to 2
+Input : A = {3, 4, 5, -4, 6}, B = {1, 8, 5}
+Output : 7
+Explanation
+The Maximum Sum Subarray satisfying this is {3,  4} as the only allowed subarrays are {3}, {4}, {3, 4}, {-4}, {6}, {-4, 6}. The Maximum Sum subarray being {3, 4} which sums to 7
+Method 1 (O(n*m) approach):
+We can solve this problem using the Kadane’s Algorithm. Since we don’t want any of the elements of array B to be part of any subarray of A, we need to modify the classical Kadane’s Algorithm a little.
+Whenever we consider an element in the Kadane’s algorithm we either extend current subarray or we start a new subarray.
+Now, in this problem when we consider any element, we check by linearly searching in the array B, if that element is present in B then we set curr_max to zero which means that at that index all subarrays we considered upto that point would end and not be extended further as no further contiguous arrays can be formed, i.e
+
+If Ai is present in B, all subarrays in A from 0 to (i – 1) cannot be extended further as, the ith element can never be included in any subarray
+If the current element of array A is not part of array B, we proceed with the Kadane’s Algorithm and keep track of the max_so_far.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of this approach is O(n*m)
+Method 2 (O((n+m)*log(m)) approach)
+The main idea behind this approach is exactly the same as that of method 1. This approach just makes the searching of an element of array A, in array B, faster by using Binary Search
+Note: We need to sort the Array B to apply Binary Search on it.
+Run on IDE
+
+Time Complexity of this approach is O(nlog(m) + mlog(m)) or O((n + m)log(m)).
+Note: The mlog(m) factor is due to sorting the array B.

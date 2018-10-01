@@ -1,0 +1,65 @@
+There was Total 5 Round.
+1.Aptitude And technical MCQs.
+2.Coding Round (Subjective Type).
+3.Technical Round-1.
+4.HR Round.
+5.Technical Round-2. 
+Round 1:
+There were 50 MCQs (Aptitude +Technical+Logical+English).
+28 Out of 57 shortlisted for coding Round.
+Round 2:
+There were 5 Coding Questions.
+1. 
+2.Sort string Array without using inbuilt function(Hint : Use CompareTo() Method in comparison And Override sort function with your Own Code).
+3.Given a sorted array and a number x, find the pair in array whose sum is closest to x.
+4.Reverse A linklist without using Extra Data Structure.
+5.Merge Two ursorted list in sorted single linklist.
+13 Shortlisted for Further Round.
+Technical -1:
+1.Tell Me About Yourself.
+2.Which language You prefer(C++/Java).
+3.Rate  Yourself in Java, DBMS, SQL.
+4.Difference Between Java And C++.(I just told him 1 difference, discussion started with a counter question).
+5.How Can you say java is platform Independent.(He Wanted JVM explanation in details), And Some Counter Question on byteCode And Based On compiler And interpreter.
+6.Explain C Compilation Steps And Whats The Difference Between Java And C programs Compilation Process.
+7.Given 3 Tables And Ask A Simple Query, and every time, he modified the same query with some new concept and covered all topic (Group by, order by, between, in, not in, subquery).After 5-6 query, He asked me A Query Which stuck me, I take 4-5 minutes and broken into subqueries then solved (Hint: Break And JOIN).
+8.Given same 3 table, in Which normalization form and solved further.
+9.Based on above Question, How you Identifies All Constraints in the table.
+10. Questions on  Key (Primary, Candidate, Super, Alternate)And Relation between these key.
+11.Some Question on String In java.
+12.diff Between == And EqualTo() in Java,How Override it ,and from Which class its inherits.
+13.some Output question related to above question based on the string.
+14.Why String is immutable in java,(Counter Question Explain Literal String Pool).
+15. 2 Simple Puzzle (from Geeks).
+16.Reverse Linklist (From Coding Round )
+17.intersection Point Of LinkList.
+18.Detect Loop in linkedList.
+19.Given only a pointer/reference to a node to be deleted in a singly linked list, how do you delete it?
+20.nth node From last in single Traversal.
+HR Round
+After Waiting OF 30-45 min, they call me to HR Round.
+1.Tell me about Yourself.
+2.Why LibSYS?
+3.Who Inspire You?
+4.Strength And Weakness?
+Technical Round 2:
+We all Waited For the final Result But they call 3 students for 2nd Technical.
+1. Given A Pattern Write Code.
+ 
+  (Consider Spaces).
+2. Given An expression Convert Into Prefix And Postfix.
+3. Rate Yourself in java.
+4. 4-5 SQL Query (topic:Subquery and JOIN,TOP).
+5. What is Polymorphism, And how can you achieve.
+6. Diff B/w Function Overloading And Overriding with Example.
+7. What is Multithreading, Then given a code and write the output(Undefined output)?
+8. Counter question, how you solve above code to correct output (Synchronized Method).
+9. Binary search And linear search.
+10.A puzzle: related To binary search.
+11.How you search an Element in BST.
+12.Example Of HashMAP.
+13.what is indexing in DBMS, Advantage, And Disadvantage of it.
+14.Puzzle: Three Bulb And Switch Puzzle(Geeks).
+After 1 Hour They Told Us That Result Should Be Declared by next day.
+Next Day: Result Declared And Only 1 Student selected That’s Me
+Tips: Be Confident, Ready With Counter Questions,Clear your Basics concepts.

@@ -1,0 +1,10 @@
+Given a number n, find n’th smart number (1<=n<=1000). Smart number is a number which has at least three distinct prime factors. We are given an upper limit on value of result as MAX
+For example 30 is 1st smart number because it has 2, 3, 5 as it’s distinct prime factors. 42 is 2nd smart number because it has 2, 3, 7 as it’s distinct prime factors.
+Examples:
+
+The idea is based on Sieve of Eratosthenes. We use an array to use an array prime[] to keep track of prime numbers.  We also use the same array to keep track of the count of prime factors seen so far.  Whenever the count reaches 3, we add the number to result. 
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Output:

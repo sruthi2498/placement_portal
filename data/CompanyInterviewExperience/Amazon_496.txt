@@ -1,0 +1,23 @@
+Round 1:
+1. Print level order traversal of binary tree in iterative & recursive way.
+      Print each level in next line. –> I used 2 variables for this.
+2. convert HEAD -> TAIL and print all words in successful transformation path.
+      constraints: Only one character can be changed at a time.
+Transformed words should be valid. It can be checked using dictionary.
+Round 2:
+1. Check if tree T1 is a subset of tree T2.
+2. find Kth minimum element in a row-wise and column-wise sorted 2-d array.
+Round 3:
+1. Project Role and related discussion
+2. Find distance between two nodes in a binary tree.
+Round 4: 
+1. Design an Email client. should be having all features of email-client.
+2. Transfer one file data from one PC to another PC. To transfer data some network entity is being used which cost some value. You need to reduce this cost of transferring the data. —> I used compression technique to replace repetitive data with some key on first PC and put it back on another PC.
+3. How smart mobile/tv apps gets updated
+4. Project role.
+Round 5 (Hiring Manager):
+1. Project Role deeply.
+2. Any critical problem you have faced.
+3. C++ -> polymorphism, abstract class, abstraction, overloading, compiler given default n copy constructor.
+4. Spiral matrix puzzle.
+

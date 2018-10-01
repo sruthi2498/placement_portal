@@ -1,0 +1,71 @@
+Given a rectanglular floor of (M X N) meters is to be paved with square tiles of (s X s). The task is to find the minimum number of tiles required to pave the rectangular floor. 
+Constraints:
+Examples:
+
+Input: 2 1 2
+Output: 1
+length of floor = 2
+breadth of floor = 1
+length of side of tile = 2
+No of tiles required for paving is 2.
+Input: 222 332 5
+Output: 3015
+
+Approach:
+It is given that edges of each tile must be parallel to edges of the tiles allows us to analyze X and Y axes separately, that is, how many segments of length ‘s’ are needed to cover a segment of length’ and ‘N’ — and take product of these two quantities. 
+, where ceil(x) is the least integer which is above or equal to x. Using integers only, it is usually written as 
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+// C# implementation of above approach
+using System;
+class GFG
+{
+// Function to find the
+// number of tiles
+static int solve(int M, int N, int s)
+{
+	// if breadth is divisible
+	// by side of square
+	if (N % s == 0)
+	{
+		// tiles required is N/s
+		N = N / s;
+	}
+	else
+	{
+		// one more tile required
+		N = (N / s) + 1;
+	}
+	// if length is divisible
+	// by side of square
+	if (M % s == 0)
+	{
+		// tiles required is M/s
+		M = M / s;
+	}
+	else
+	{
+		// one more tile required
+		M = (M / s) + 1;
+	}
+	return M * N;
+}
+// Driver Code
+static void Main()
+{
+	// input length and breadth of
+	// rectangle and side of square
+	int N = 12, M = 13, s = 4;
+	Console.WriteLine(solve(M, N, s));
+}
+}
+// This code is contributed
+// by mits
+
+Using ceil function:
+
+Run on IDE
+Run on IDE

@@ -1,0 +1,14 @@
+std::next_permutation
+It is used to rearrange the elements in the range [first, last) into the next lexicographically greater permutation. A permutation is each one of the N! possible arrangements the elements can take (where N is the number of elements in the range). Different permutations can be ordered according to how they compare lexicographically to each other.
+Syntax: 
+Application : next_permutation is to find next lexicographicaly greater value for given  array of values.
+Examples:
+Run on IDE
+Output:
+std::prev_permutation  
+It is used to rearranges the elements in the range [first, last) into the previous lexicographically-ordered permutation. A permutation is each one of the N! possible arrangements the elements can take (where N is the number of elements in the range). Different permutations can be ordered according to how they compare lexicographicaly to each other.
+Syntax : 
+Application :  prev_permutation is to find previous lexicographicaly smaller value for given  array of values.
+Examples:
+Run on IDE
+Output:

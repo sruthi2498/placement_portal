@@ -1,0 +1,35 @@
+ROUND 1: First round was aptitude round, 10 question in 30 minute. Level of difficulty: easy. For each correct answer 2 marks will be awarded and for each wrong one 1 marks will be dedicated.
+They had already announced the cut-off for the next round, it was 14.
+I solved 9 all of them where correct.
+Out of 150+ approx. 70-80 cleared the round 1.
+ROUND 2: Written coding round: In this round we have to write code on paper.
+There were two section (A and B) we have to solve either of the section in 45minute.
+Section A: https://www.geeksforgeeks.org/backttracking-set-2-rat-in-a-maze/
+Section B: It contain two questions:
+1.  https://www.geeksforgeeks.org/two-elements-whose-sum-is-closest-to-zero/
+2.  https://www.geeksforgeeks.org/sort-elements-by-frequency/
+ROUND 3: 44 were sort listed for the interview.
+My name was called after waiting for the whole night around 7a.m.
+Only one interviewer he was very friendly He asked to explain my solution I explained and he looks satisfied. Then he asked me two puzzle.
+Puzzle 1: You have two candles. Each burn for 60 minutes. How can you measure 45 minutes using this?
+Puzzle 2:  https://en.wikipedia.org/wiki/Bridge_and_torch_problem (data was different)
+Then he asked me three coding question one by one and also I have to code them on paper.
+Q1: Two array of size n and n+m. First array   is completely filled and sorted, Second array is containing m element in sorted order. Now the question is to sort the second array such that it will contain the element of first array with the following condition.
+Conditions:
+1. 2nd array should remain sorted always.
+2. Can’t use any auxiliary array.
+3. Can’t use any shorting algorithm (like copy the element in 2nd array then sort it).
+I solved it in second attempt. 
+Q2: There is an array (1-D) of size 2m containing some random number and there is also a 2-D array of size m*m you have to fill the 2-D array in following manner.
+
+1st represent the first element of 1-D array.
+Q3: There are two string, first string containing character and two special (* and _) e.g.: qw*ty_bc
+Second string contain only character e.g.: qwertyabc
+Now you have to check if the string is valid or not where ‘_’ can replace only one character and * can replace more than one character. In above example string is valid.
+Last question was easy although I missed some edge cases which was pointed by my interviewer.
+H.R Round:
+Normal HR talk 
+Thank you G4G.
+
+
+

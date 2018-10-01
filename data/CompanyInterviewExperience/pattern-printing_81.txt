@@ -1,0 +1,12 @@
+Given a number n, print triangular pattern.  We are allowed to use only one loop.
+Example:
+We use single for-loop and in the loop we maintain two variables for line count and current star count. If current star count is less than current line count, we print a star and continue.  Else we print a new line and increment line count.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Please refer below post for one more approach.
+Print pattern using only one loop

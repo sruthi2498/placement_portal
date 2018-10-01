@@ -1,0 +1,37 @@
+Hi, Snapdeal visited our campus recently, and here’s my interview experience!
+Written Round:
+20 Aptitude Questions.
+2 Coding Questions – 1. Given points of two lines A(x1,y1  x2,y2)  &  B(x3,y3  x4,y4)  find whether the points intersect or not!
+                                        2. Overlapping paintings, find no. of paintings that can be seen distinctly, extreme co-ordinates of paintings are given!
+First Round Interview :
+    Formal Intro!
+    Coding :
+    1. Given a binary search tree, and a number k, find two nodes in the tree such that their sum adds upto k!
+    2. Print a binary tree in zig-zag order!
+I was asked to code both using Java!
+Some simple puzzles.
+Second Round Interview :
+    1. Tell me the logic of the program written in the first round!Improve it, try for O(n) complexity!
+    2. Write a recursive function for nth fibonacci number!
+        Now make some changes in the same code in order to get O(1) complexity in most cases.(Use Dynamic Programming!)
+    3. Given a 2-d array  with sorted rows and columns, write efficient code for searching a number!
+    Puzzle : a glass, a tap given! fill the glass half without the use of any measuring instruments!
+Third Round Interview :
+    Write a program to print “Hello” and “World” infinitely using two threads, such that one thread prints the String “Hello” and the other prints “World”!
+        – Why sleep() cannot be used?
+        – Why have you used synchronized keyword?
+        – How will a deadlock occur in this program?
+        – What will be the solution for breaking the deadlock?
+    Write a program in Java to find whether a given tree is a subtree of another one or not! both iterative as well as recursive!
+Fourth Round Interview : HR Round
+    Tell me something about yourself!
+    How were the interviews?
+    How were the interview questions?
+    What are the demerits in SnapDeal?
+    Rank SnapDeal?
+    Suggestions?
+    Questions?
+I would like to thank geeksforgeeks for a exhaustive set of interview questions and study material, which indeed has helped me a lot!
+If  you like GeeksforGeeks and would like to contribute, you can also write an article and mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+

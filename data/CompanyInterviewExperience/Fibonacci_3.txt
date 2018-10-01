@@ -1,0 +1,61 @@
+The tetranacci numbers are a generalization of the Fibonacci numbers defined by the recurrence relation
+ T(n) = T(n-1) + T(n-2) + T(n-3) + T(n-4) 
+with  T(0)=0, T(1)=1, T(2)=1, T(3)=2,  
+For n>=4. They represent the n=4 case of the Fibonacci n-step numbers. The first few terms for n=0, 1, … are 0, 1, 1, 2, 4, 8, 15, 29, 56, 108, 208, … 
+Given a number N. The task is to find the N-th tetranacci number.
+Examples:
+A naive approach is to follow the recurrence for finding the number and use recursion to solve it.
+Below is the implementation of the above approach.
+
+Run on IDE
+// A simple recursive Java
+// program to print the nth
+// tetranacci numbers.
+class GFG
+{
+// Function to return the
+// N-th tetranacci number
+static int printTetraRec(int n)
+{
+	// base cases
+	if (n == 0)
+		return 0;
+	// base cases
+	if (n == 1 || n == 2)
+		return 1;
+	// base cases
+	if (n == 3)
+		return 2;
+	else
+		return printTetraRec(n – 1) +
+		       printTetraRec(n – 2) +
+		       printTetraRec(n – 3) +
+		       printTetraRec(n – 4);
+}
+// function to print the
+// Nth tetranacci number
+static void printTetra(int n)
+{
+	System.out.println(printTetraRec(n) + ” “);
+}
+// Driver code
+public static void main(String[] args)
+{
+	int n = 10;
+	printTetra(n);
+}
+}
+// This code is contributed by mits
+Time Complexity: O(4N) 
+A better solution is to use Dynamic Programming (memoisation) as there are multiple overlaps.
+Given below is the recursive tree for N=10.
+In the above partial recursion tree, rec(8), rec(7), rec(6) has been solved twice. On drawing the complete recursion tree, it has been observed that there are many subproblems which are solved again and again. So this problem has Overlapping Substructure property and recomputation of same subproblems can be avoided by either using Memoization or Tabulation.
+Below is the implementation of the above approach
+Run on IDE
+Time Complexity: O(N)
+Auxiliary Space: O(N)
+The time complexity of above is linear, but it requires extra space. Space used can be otpimized in above solution by using four variables to keep track of the previous four numbers.
+Below is the implementation of the above approach
+Run on IDE
+Time Complexity: O(N)
+Auxiliary Space: O(1)

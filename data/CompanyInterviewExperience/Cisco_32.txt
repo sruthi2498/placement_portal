@@ -1,0 +1,39 @@
+I recently got interviewed for a position in Cisco. The organization came to our college as part of their University recruitment program. The following is my interview experience. Hope this would help you !!
+Round 1
+This was aptitude + technical round. 20 question from aptitude and 30 questions technical. We were given 60 minutes to solve the question. NO NEGATIVE MARKING. 
+The aptitude question were relatively easy. There was a cat and tunnel problem. A question on Venn diagrams was calculation based, 4 different event on Venn diagram. Some questions on ratio and proportion, probability, and arrangement, time and work, time speed distance, number system. One can easily crack this section if one has practiced questions from any quantitative aptitude practice material. 
+The aptitude part was such that many were able to crack it, but the technical part was the actual make or break part. The questions were vary basic questions but from a wide variety of areas such as electronics – analog and digital. Questions on FET, BJT, MOS, K-map, microprocessor, networking etc, along with data structures, operating system, and algorithms were there. These questions touched the basic concepts of all the areas we had studied in our curriculum so far. 
+Some of the questions I still remember:
+The data structure question was on inserting a node in middle of linked list, wherein we were given four options and we had to chose the correct code for the corresponding operations. 
+The algorithms question was based on time complexity. Say there is a program whose time complexity is O(n^2.5), then which of the following can’t be true.  Following this there were four statements, of which three said that the time would grow proportional to <=n^2.5. And one said that in some cases it may grow with n^2.6, which was definitely incorrect due to the time complexity being specified on Big-O notation which gives the upper bound on running time of the program. 
+
+Question on simplify the expression, was easily doable with K-Map
+
+Question on determining the min number of NAND gates required to represent an expression with an expression being given in SOP form. 
+
+Question on FET- which terminal of FET is forward biased and which is reversed ?
+27 got shortlisted in this round.
+ 
+Round 2
+My first technical interview round- around 1 hour 15 min. The interviewer glanced at my resume.  First question- tell me about yourself 
+Then he came onto the projects. He asked question on what I did in the project, how I did it and what all I gained from it.
+Then some questions on networking basic-7 layers of networking, OSI architecture, difference between frame and packet, routing and switching. 
+Then he asked Kruskal minimum spanning tree algorithm and its application in networking. Then some question on bit magic- counting set bits in an integer, finding absolute value of integer, some questions on OOP- encapsulation, polymorphism. Then what is data encryption and its difference from encapsulation. Encapsulation in Java. Polymorphism in Java example. 
+Round 3
+My second technical interview round- around 45 min Again the interviewer came onto projects. He asked me about cryptography, and data transmission, TCP, UDP. 
+Why TCP better than UDP? What is flow control and congestion control? How do networks ensure congestion control?
+What is the difference between Router and Bridge and Gateway?
+What is the difference between router and switch?
+How does a network ensure that all the packet reach in correct order, which layer is responsible for it. If you were to do be made responsible for packet delivery in correct order how would you ensure without the help of any underlying layer. Explain AES, DES and triple DES(I was asked this because of my project on cryptography). How would you ensure that all your data AES-encrypted is not decrypted using any other mechanism for a software implementing all three mechanism mentioned above. I answered some way out but the interviewer kept on finding faults in each of the ways. 
+Finally he asked me draw my attention on Google, how does it encrypt mails using different schemes and how client server architecture works, and then I was able to get through to the authorization technique he was seeking for as the answer along with different port number and process id for different schemes. This earned me some brownie points. But in the entire interview, the interviewer kept on dis-agreeing to the answers so as to check one’s confidence level. 
+Then he asked me to check if string is palindrome or not. Then a question on DP. Then a question on recursive programming. Then another on in-line functions-their internal implementation and difference from macros. Some question on OS- processes and thread, what is the difference between them, concurrency and what is semaphore. What is starvation. What is masters theorem – explain the underlying cases. I managed to keep my calm till the end and answered many of the question correctly.
+Round 4
+My third technical interview round- around 30 min. The interviewer asked me about layers in OSI and IP architecture and complete details of application of each layer along with protocols used in them. Then he asked me about the NIC -how it works and the internal implementation. What happens when you connect a pc over a new network. What is CSMA-CD with example.
+Quick sort-pivot selection. What is Counting sort. What is hashing. Explain all types pf hashing schemes. How does free determine how many numbers to de-allocate.
+Question on determining the subnet mask over a large network consisting of several sub-networks with a specified IP range available to ISP.
+Round 5
+My last round -HR round general questions. How important Is this job fr you? What if you don’t get it?
+What are your other interest? I am the Microsoft student partner of my alma mater, so he asked what was the procedure. What all were the difficulties? What can you do if I make you the Cisco student partner. This was followed by my contribution in college events. What kind of expectation you have from this job and what would you gain, of which you have been deprived of so far. Tell me your one major quality and link it to recent event
+I answered all the question, and he was satisfied with responses. 
+Finally, despite not being a computers-major student, HIRED 🙂 
+Run on IDE

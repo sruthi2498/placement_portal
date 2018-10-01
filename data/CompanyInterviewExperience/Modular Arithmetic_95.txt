@@ -1,0 +1,15 @@
+We are given two arrays num[0..k-1] and rem[0..k-1]. In num[0..k-1], every pair is coprime (gcd for every pair is 1). We need to find minimum positive number x such that: 
+Example:
+We strongly recommend to refer below post as a prerequisite for this.
+Chinese Remainder Theorem | Set 1 (Introduction)
+We have discussed a Naive solution to find minimum x.  In this article, an efficient solution to find x is discussed.
+The solution is based on below formula.
+Example:
+Refer this for nice visual explanation of above formula.
+Below is the implementation of above formula.  We can use Extended Euclid based method discussed here to find inverse modulo.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

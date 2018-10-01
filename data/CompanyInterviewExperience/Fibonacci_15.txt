@@ -1,0 +1,28 @@
+Given a number N, find the number of ways to construct an array of size N such that it contains only 1s and 0s but no two consecutive indexes have value 1 in them.
+Examples:
+Naive Approach:
+The basic brute force approach would be to construct all the possible ways that the array can be filled with 1s and 0s, and then checking if there are any two consecutive 1s in the array if there are, do not count those arrays.
+Since each element has 2 possible values, 1 and 0, and there are n total elements, the total number of arrays without any restriction will be of exponential order i.e 2n.
+Efficient Approach:
+If we observe a bit closely, we can notice that there is a pattern forming in the input and output.
+For n = 1, number of ways is 2 i.e. {0}, {1}
+for n = 2, number of ways is 3
+Similarly,
+for n = 3 number of ways is 5
+for n = 4 number of ways is 8
+and so on…
+Let T() be the function which gives the number of ways the array of size n can be filled, then we get the following recurrence relation
+T(n) = T(n-1) + T(n-2)
+And this is the recurrence relation of Fibonacci series<.
+Hence, the output for any n is equal to the (n+2)th term of the Fibonacci series starting from 1.
+i.e. 1 1 2 3 5 8 11…
+So now we just need to compute the Fibonacci sequence up to the (n+2)th elements and that will be the answer.
+Time complexity is O(n)
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+We can further optimize above solution to work in O(Log n) using matrix exponentiation solution for finding n-th Fibonacci number (Please see methods 4, 5 and 6 of Program for Fibonacci numbers ).

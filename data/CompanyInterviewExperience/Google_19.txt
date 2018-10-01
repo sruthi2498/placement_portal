@@ -1,0 +1,16 @@
+Given a Binary Search Tree, find median of it. 
+If no. of nodes are even: then median = ((n/2th node + (n+1)/2th node) /2
+If no. of nodes are odd : then median = (n+1)th node.
+For example, median of below BST is 12.
+ 
+More Examples:
+Asked in : Google
+
+To find the median, we need to find the Inorder of the BST because its Inorder will be in sorted order and then find the median i.e. 
+The idea is based on K’th smallest element in BST using O(1) Extra Space
+The task is very simple if we are allowed to use extra space but Inorder traversal using recursion and stack both uses Space which is not allowed here. So, the solution is to do Morris Inorder traversal as it doesn’t require any extra space.
+Run on IDE
+Output:
+Reference:
+https://www.careercup.com/question?id=4882624968392704
+

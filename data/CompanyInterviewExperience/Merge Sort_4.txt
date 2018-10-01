@@ -1,0 +1,15 @@
+Given an array of n numbers, the task is to answer the following queries:
+Examples:
+
+The key idea is to build a Segment Tree with a vector at every node and the vector contains all the elements of the sub-range in a sorted order. And if we observe this segment tree structure this is somewhat similar to the tree formed during the merge sort algorithm(that is why it is called merge sort tree)
+We use same implementation as discussed in Merge Sort Tree (Smaller or equal elements in given row range)
+Firstly, we maintain a vector of pairs where each pair {value, index} is such that first element of pair represents the element of the input array and the second element of the pair represents the index at which it occurs. 
+Now we sort this vector of pairs on the the basis of the first element of each pair.
+After this we build a Merge Sort Tree where each node has a vector of indices in the sorted range.
+When we have to answer a query we find if the Kth smallest number lies in the left sub-tree or in the right sub-tree. The idea is to use two binary searches and find the number of elements in the left sub-tree such that that the indices lie within the given query range.
+Let the number of such indices be M.
+If M>=K, it means we will be able to find the Kth smallest Number in the left sub-tree thus we call on the left sub-tree.
+Else the Kth smallest number lies in the right sub-tree but this time we don’t have to look for the K th smallest number as we already have first M smallest numbers of the range in the left sub-tree thus we should look for the remaining part ie the (K-M)th number in the right sub-tree.
+This is the Index of Kth smallest number the value at this index is the required number.
+Run on IDE
+Thus, we can get the Kth smallest number query in range L to R, in O(n(logn)2) by building the merge sort tree on indices.

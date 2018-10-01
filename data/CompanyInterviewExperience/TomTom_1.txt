@@ -1,0 +1,25 @@
+There were 16 candidates from our college shortlisted for the internship drive.
+Round 1:
+Coding round: 1 hour time was given to solve the problems which was quite enough.
+1).Simple array index based question – Given an array(zero indexed)containing only one -1 and all remaining elements are between 1 to n-1.Find the number of elements required to reach -1(including -1) starting from index 0,considering array elements as an index for next iterations (eg. In A:(2,4,3,-1) ,the function will return 3)
+2).Find number of perfect squares from A and B (both inclusive)(Max Range -1000000 to 1000000)
+Suggestion: I would suggest to do practice from sites like hackerrrank, codechef, codility as it will give confidence to solve problems. 
+They decided to take interviews of all the candidates. 🙂
+Round 2:
+Technical Interview ( 2 members’ Panel ) : ( 1 hr 15 minutes )
+1).Greetings (both were very cool and funny).
+2).Tell me about yourself and about your technical background.
+3).What is the first coding problem asked in round 1 ?  I had used while loop to solve the problem. He further asked to solve the same using recursion. I solved it using static variable that stores the count. He asked why static variable. Basically I did it for avoiding revert recursive back calls from stack (tail recursion). Can you do it without using static variable? I did it.
+4).Given an array A and number K. Find number of distinct pairs of elements ( A,B ) in which A-B=K. First applied brute force logic O( n2 ). He further asked to optimize the code. Used logic of sorting and binary search (i.e for every A we need to search B=(A-K) from remaining array) O( nlogn ).
+5).Project discussion (last for 15-20 minutes).
+6).What is Jason?  Write an empty jason for any object. Then he asked to write jason for Employee object.
+7).What was your role in Project?
+8).My project was in Python. He asked the difference between C++ and Python. Why not C++ to do the same project. Why machine learning why not other technologies? And many questions like that.
+9).They checked my hackerrank profile. I had commented on SQL question on hackerrank. They asked questions regarding that.
+10).Given an Employee table having employee ID,employee name and Gender. Database has wrong data having all males marked as female and all females marked as males. Write an SQL query to correct the database.  –Used CASE in SQL to update the database as per their expectation. 🙂
+11).Discussion regarding work in the company.
+I was told to wait for some time. Further they conveyed that results will be declared within two days.
+Finally 3 candidates got selected for the internship and I was one of them 🙂
+Suggestion : Be precise. Only tell whatever you know.Know yourself before the interview.
+Be calm & answer politely.
+All the best!

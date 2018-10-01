@@ -1,0 +1,12 @@
+Only user-defined functions. No inbuilt functions at all.
+No scanning for inputs, directly assign to vars.
+Level 1: (2 hours – pen & paper)
+1.Solve the equation X power Y with given values. 
+2.Find the distance between two gievn points and round it to the nearest number.
+3.Count the numbers of characters in the given string treating ‘$’ as escape sequence. If ‘$’ is preceeded by ”, consider it as normal ‘$’ and not the escape sequence. If ” occurs, treat it as single ”.
+4.Given a 2D matrix, find the sum of all the elements.
+Level 2:
+Finish one question to get the next type. Total 5 questions. (3 hours – machine round)
+1.Solve the equation (XpowerY/Z!) + (Z/(X!+Z)) with given values of X, Y, Z. X and Z cannot be negative.
+2.Batman, Spiderman and Superman are going to start a business. The total investment is 1000M$. Anyone can add new investment to their existing investment. They can transfer investments between themselves. The program should be in OOP style and should have a menu for user to do all operations. (Something similar to below example.) 
+I couldn’t get the 3rd question as I ran out of time. Need to complete 3 questions to qualify for next round.

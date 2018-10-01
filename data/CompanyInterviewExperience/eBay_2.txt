@@ -1,0 +1,55 @@
+Online Aptitude Round:
+20 Maths and Logical aptitude ( Hard )
+20 Programming aptitude ( C , C++ , Java, OS)
+The results were announced and 30 people were shortlisted.
+Round – 1 (Technical -1)–(45Mins)
+This round is based on Data Structure, OS, DBMS and Java. More on Practical Questions 
+1) What data Structure Google is using for searching pattern. (Explain Trie and approach how u will code)
+2) What data Structure Google is using for Storing Data.
+ 
+ – Write a Program  to convert URL to Tiny URL
+ – Write a program to extract name from string. (Easy one)
+     Example –  My name is @satyajit —-satyajit( after @ will be the name and it will end by space)
+                      Give optimized solution 
+OS Questions
+1) What is Thrashing? Explain
+2) What is deadlock? Explain all conditions 
+DBMS Questions
+1) ACID properties Explain with an example
+2) Mongodb, NoSQL and SQL discussions for long time.
+Explain Project and  Be good in ur Project what you have done..
+Java Questions 
+1) What is Hashmap ? how it implemented ?
+2) What is arraylist  ? Difference between array and arraylist ?
+3) What is difference between  int and Integer in java?
+4) Difference between Hashtable and Hashmap ?
+Be good in java
+12 People Shortlisted for next round .
+Round -2 (Technical -2 ) (1.30 Hrs )
+This round is fully Data Structure, Practical Problems and there were 3 people conducting this round.
+So learn Data Structure Such a way that you could be able to relate With real time Problem.
+1)	Write a Program to Reverse words in a String
+Example: My name is abcd-  Output Should be –  abcd is name My .
+2)	Write a Program to find the Mirror of a Tree – Proper code required (Try to Give variable name According to the Meaning )
+3)	Write a Program to find the Largest Binary Search tree in a Binary tree (Give optimized one)
+What is data type? What is advantage of Having data type? what will happen if we do not have data type
+Advantage and disadvantage.
+What is normalization ? Explain all types .
+How will you sort 20 Gb file ? You have 4 Gb Ram ? Try to come up with solution 
+Do u know abt External sorting ?I said No. Then He said Ok.
+What will happen when you press a key in keyboard ?how it works internally ?
+He asked Two Puzzles 
+1) Gold  bar Problem
+2) 3 Jars Problem
+Explain AVL tree – Write the Function for Left_Right Rotation ( I took time for this Question Never expect they will ask code for Avl tree )
+HR Round (45 Mins)
+It was different from other HR interviews. There were 3 people conducting this round. They gave Many Situations Try to come up with solution 
+First tell urself
+1)	 How do you find the total Number of cars In Coimbatore.
+      Like that he gave me many situations.
+2)	If Many Hackers are trying to Hack eBay server.. You are the manager of eBay. How will you Handle this situation.
+Your Strength and weakness .
+Why so interested in coding  ?
+And many behavioral Questions….
+Thanks to geeksforgeeks for helping me prepare for technical interviews.
+

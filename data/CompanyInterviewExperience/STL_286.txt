@@ -1,0 +1,10 @@
+In C++ vectors are dynamic arrays. Unlike arrays, they don’t have a fixed size. They can grow or shrink as required. Vectors are assigned memory in blocks of contiguous locations. When the memory allocated for the vector falls short of storing new elements, a new memory block is allocated to vector and all elements are copied from the old location to the new location. This reallocation of elements helps vectors to grow when required. However, it is a costly operation and time complexity is involved in this step is linear.
+std::vector class provides a useful function reserve which helps use specify the minimum size of the vector.It indicates that the vector is created such that it can store at least the number of the specified elements without having to reallocate memory. 
+std::vector::reserve
+ 
+Each vector object has two parameters–size and capacity. The size denotes the number of elements currently stored in the vector while capacity is the maximum number of elements that the vector can store without reallocation. Evidently capacity >= size. When the vector runs out of space to store new elements i.e when size is becoming greater than capacity, the runtime library will request fresh memory from the heap and once memory is allocated, it will copy all elements in the vector from their old addresses to the newly allocated memory address. A call to the function reserve modifies the capacity parameter of the vector and so the vector requests sufficient memory to store the specified number of elements.
+Here is a program to demonstrate the performance improvement that can be obtained by using reserve function. In this program, we fill two vectors with a large number of elements and count the time taken to perform this step. For the first vector, we don’t specify the capacity, while for the second vector we specify the capacity using reserve().
+Run on IDE
+Output: (Machine Dependent)
+Note:
+It is guaranteed that reserving space beforehand will take less time than trying to insert the elements without specifying the size of the vector. Further, it adds semantic utility to the code and we get to know at least how large the vector is going to be.

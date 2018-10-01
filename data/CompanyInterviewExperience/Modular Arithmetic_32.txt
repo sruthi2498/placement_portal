@@ -1,0 +1,14 @@
+Given two positive integer x and y. we have to find the value of y mod 2x. That is remainder when y is divided by 2x.
+Examples:
+
+To solve this question we can use pow() and modulo operator and can easily find the remainder.
+But there are some points we should care about:
+keeping in mind the above points we can approach this problem as :
+Note:  As python is limit free we can directly use mod and pow() function
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Compute modulus division by a power-of-2-number

@@ -1,0 +1,20 @@
+The selection procedure consisted of an online round followed by two Personal Interviews.
+Online Round:
+The first round had 20 MCQs and two coding questions. The MCQs were based on the concepts from OS, DSA, compilers, architecture etc.
+The coding questions were:
+1. Given an array of positive and negative numbers, arrange them in an alternate fashion such that every positive number is followed by negative and vice-versa maintaining the order of appearance.
+2. Given a n x m matrix, print the elements diagonal wise from top to bottom.
+First round of PI :
+1. Given a number n find the number of balanced parentheses expressions of that length.
+Input: 2
+Output: 1 which is (),
+Input: 4
+Output: 2 which are (()) and ()().
+I gave a complex solution involving segment tree in which he pointed out the mistakes and then asked to write a code to check if a given expression is balanced or not.
+2. Tell something about LRU. What DS will you use for it? Write pseudo code for it.
+(Hint : Quite simple..Use doubly LL)
+Second round of PI: 
+The interviewer introduced himself first and then asked me about myself.
+We had a discussion on my projects.
+1. Given two binary trees, write pseudo code to determine if one is a subtree of the other. I answered it and then he modified the question to check if the other tree elements are the subset of the elements of the first tree. (Hint: Inorder traversal)
+2. Given a sorted circular linked list which is rotated at some point, write pseudo code to insert a new node. Ex: 8 1 2 5 7 and insert 6.

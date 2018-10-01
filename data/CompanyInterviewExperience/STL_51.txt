@@ -1,0 +1,8 @@
+wcstombs() is a builtin function in C++ STL which converts a wide character string to its equivalent multibyte sequence. It is defined within the cstdlib header file of C++.
+Syntax
+Parameters:
+Return Value:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

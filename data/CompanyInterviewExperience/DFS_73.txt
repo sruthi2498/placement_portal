@@ -1,0 +1,9 @@
+Given a dictionary, a method to do lookup in dictionary and a M x N board where every cell has one character. Find all possible words that can be formed by a sequence of adjacent characters. Note that we can move to any of 8 adjacent characters, but a word should not have multiple instances of same cell.
+Example: 
+
+The idea is to consider every character as a starting character and find all words starting with it. All words starting from a character can be found using Depth First Traversal.  We do depth first traversal starting from every cell.  We keep track of visited cells to make sure that a cell is considered only once in a word.
+Run on IDE
+Output: 
+Note that the above solution may print the same word multiple times.  For example, if we add “SEEK” to the dictionary, it is printed multiple times.  To avoid this, we can use hashing to keep track of all printed words.
+In below set 2, we have discussed Trie based optimized solution:
+Boggle | Set 2 (Using Trie)

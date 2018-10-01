@@ -1,0 +1,8 @@
+Write a function which returns 1 that 2 is passed and return 2 when 1 is passed.
+Source: Adobe Interview Experience | Set 19 (For MTS)
+A simple solution is to compare the passed value with 1 and 2.
+Run on IDE
+Another solution is to use subtraction
+Run on IDE
+We can also use bitwise xor operator.
+Run on IDE

@@ -1,0 +1,24 @@
+Recently salesforce visited our campus and took the following rounds for the final selection.
+Round 1:
+Written aptitude round containing basic questions on C and C++ programming.The questions were easy.
+Around 10 students were selected for second round.
+Round 2(Online coding at ideone.com:
+1.Write  a program to find the number of valid parenthesis in a given expression.
+For eg:
+((()))) contains 3 valid parenthesis and hj()(i()) contain 2 valid parenthesis.
+I solved it using stack.
+2.Write a program to print the output solution for the rat so that he can reach his hole assuming that there is  a unique path possible.(1 represents that path is possible and 0 means that path is not possible).
+input :
+Output:
+It was a simple question and solved it using two nested for loops.
+Around 6 students were selected after this round.
+Round 3(Technical):
+He asked me two tough questions:
+1.You are a given an integer .You have to print all the possible valid parenthesis for this integer.
+For eg for n=2,we have o/p= ()() ,(()),etc
+I solved it using this approach.I first print all the possible permutations for a string possible using that integer and then finally check if it is a valid parenthesis,then print it.
+2.FInd the angle between hour and minute hand when time is 3:15 assuming an analog clock.
+I was not selected after this round but i want to thanks geeksforgeeks for helping me in this interview.
+
+
+

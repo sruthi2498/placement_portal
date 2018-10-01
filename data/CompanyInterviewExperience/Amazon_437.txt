@@ -1,0 +1,14 @@
+Given a Linked List. The Linked List is in alternating ascending and descending orders. Sort the list efficiently. 
+Example:
+A Simple Solution is to use Merge Sort for linked List. This solution takes O(n Log n) time. 
+An Efficient Solution works in O(n) time.  Below are all steps.
+1. Separate two lists.
+2. Reverse the one with descending order
+3. Merge both lists. 
+Below are C++ and Java implementations of above algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to Gaurav Ahirwar for suggesting this method.

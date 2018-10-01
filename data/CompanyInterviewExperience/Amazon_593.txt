@@ -1,0 +1,24 @@
+Given an unsorted array, trim the array such that twice of minimum is greater than maximum in the trimmed array. Elements should be removed either end of the array.
+ Number of removals should be minimum.
+Examples: 
+
+
+Naive Solution:
+A naive solution is to try every possible case using recurrence.  Following is the naive recursive algorithm. Note that the algorithm only returns minimum numbers of removals to be made, it doesn’t print the trimmed array. It can be easily modified to print the trimmed array as well.
+Following is C++ implementation of above algorithm.
+Run on IDE
+Output: 
+Time complexity: Time complexity of the above function can be written as following
+An upper bound on solution of above recurrence would be O(n x 2n).
+Dynamic Programming:
+The above recursive code exhibits many overlapping subproblems.  For example minRemovals(arr, l+1, h-1) is evaluated twice.  So Dynamic Programming is the choice to optimize the solution.  Following is Dynamic Programming based solution.
+Run on IDE
+Time Complexity: O(n3) where n is the number of elements in arr[]. 
+Further Optimizations:
+The above code can be optimized in many ways.
+1) We can avoid calculation of min() and/or max() when min and/or max is/are not changed by removing corner elements.
+2) We can pre-process the array and build segment tree in O(n) time. After the segment tree is built, we can query range minimum and maximum in O(Logn) time.  The overall time complexity is reduced to O(n2Logn) time.
+A O(n^2) Solution
+The idea is to find the maximum sized subarray such that 2*min > max.  We run two nested loops, the outer loop chooses a starting point and the inner loop chooses ending point for the current starting point.  We keep track of longest subarray with the given property.
+Following is C++ implementation of the above approach. Thanks to Richard Zhang for suggesting this solution. 
+Run on IDE

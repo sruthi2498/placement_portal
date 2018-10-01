@@ -1,0 +1,13 @@
+Given an infinite sorted array consisting 0s and 1s. The problem is to find the index of first ‘1’ in that array. As the array is infinite, therefore it is guaranteed that number ‘1’ will be present in the array.
+Examples:
+
+Approach: The problem is closely related to the problem of finding position of an element in a sorted array of infinite numbers. As the array is infinte, therefore we do not know the upper and lower bounds between which we have to find the occurrence of first ‘1’. Below is an algorithm to find the upper and lower bounds.
+Algorithm:
+Here h and l are the required upper and lower bounds. indexOfFirstOne(arr, l, h) is used to find the index of occurrence of first ‘1’ between these two bounds. Refer this post.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Let p be the position of element to be searched. Number of steps for finding high index ‘h’ is O(Log p). The value of ‘h’ must be less than 2*p. The number of elements between h/2 and h must be O(p). Therefore, time complexity of Binary Search step is also O(Log p) and overall time complexity is 2*O(Log p) which is O(Log p).

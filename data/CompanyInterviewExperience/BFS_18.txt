@@ -1,0 +1,15 @@
+N-ary tree refers to the rooted tree in which each node having atmost k child nodes. The diameter of n-ary tree is the longest path between two leaf nodes.
+Various approaches have already been discussed to compute diameter of tree.
+1. Diameter of an N-ary tree
+2. Diameter of a Binary Tree in O(n)
+3. Diameter of a Binary Tree
+4. Diameter of a tree using DFS
+This article discuss another approach for computing diameter tree of n-ary tree using bfs.
+
+
+Step 1: Run bfs to find the farthest node from rooted tree let say A
+Step 2: Then run bfs from A to find farthest node from A let B
+Step 3: Distance between node A and B is the diameter of given tree
+
+Run on IDE
+Output:

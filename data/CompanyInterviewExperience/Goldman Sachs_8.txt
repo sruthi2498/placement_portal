@@ -1,0 +1,18 @@
+Problem Statement: Two persons are supposed to meet a spot in a time interval of one hour. The person who comes first will wait for a maximum of 15 minutes for the second person. What is the probability that they will meet?
+Solution: The question can be solved in many ways. Let’s discuss one of them:
+It is assumed that the first man arrives the spot during the first 45 minutes i.e first 3/4 hour. The probability that he will arrive during the first 45 minutes is
+ .
+Then he will wait for 15 minutes and probability that the second person ill come in next 15 minutes is
+.
+Hence if the first person comes during first 15 minutes, probability that they meet each other is
+.
+If the first person does not come  during first 45 minutes, he will come at next 15 minutes . Probability that he comes during the last 15 minutes is
+ .
+If he comes during last 15 minutes, he waits for  hours on average. 
+(This can be shown by the following logic).
+Suppose he arrives at the 45th minute. Then he will wait for the next 15 minutes which has a probability of . Again if he arrives at 60th minute he will not wait anymore. 
+So In case, the first person comes during the last 15 minutes, the probability that the next person comes is .
+So, in this case probability that they will meet each other is  .
+So, the total probability that they will meet is  .
+Note that any person can come before anyone. But we have considered only one case.
+So, the total probability that they will meet each other is .

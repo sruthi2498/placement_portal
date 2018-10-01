@@ -1,0 +1,20 @@
+Recently Amazon visited our campus for Internship and Full time.
+Coding Test: Was an online test which comprised of 2 coding questions and 20 MCQs.
+MCQs were basically based on pointers, output related, OS etc. For pointers and output related questions one should practice from www.geeksforgeeks.org/quiz-corner-gq/ which is quite enough if one thorough through most of the questions. One of the coding question was based on Dynamic Programming and other on String manipulation. The questions were more on moderate to difficult level, even if you are not able to devise the most optimal solutions go for the most naive solution as marks are allotted for each test case. (Some people even used if else statements to run the most trivial test cases and it worked for them).
+Around 70 students sat for the test and 10 were selected for the next round. I attempted around 17 MCQs and I think 13 or 14 of them were correct while I partially did the 2 coding questions using the naive approach.
+Round 1: In the first round, the interviewer asked me to introduce myself, and some projects I wrote in my CV. (Just don’t blabber anything in your CV).
+Question 1-: Zig Zag traveral in a binary tree. (https://www.geeksforgeeks.org/zigzag-tree-traversal/)
+Question 2-: Finding the next higher palindromic number using the same set of digits. (https://www.geeksforgeeks.org/next-higher-palindromic-number-using-set-digits/)
+Question 3-: There was one more question based on maps
+Question 4-: Difference between map and unordered_map
+Round 2: Asked to introduce, and what projects I have done till now
+Question 1-: Finding compliment and 2s compliment of a binary number (Didnt have to code it just find it for say 100011)
+Question 2-: Some questions based on DBMS (basic queries)
+Question 3-: A variant of Binary tree traversal. I was given a tree and the output was given had to identify the type of traversal and then code it out.
+It was right_subtree->left_subtree->root
+Question 4-: Stock buy sell to maximize profit problem (https://www.geeksforgeeks.org/stock-buy-sell/)
+Followed by some random discussion about amazon and its products.
+In general interviewers were friendly and ready to help whenever i got stuck.
+Cheers!                                        
+
+

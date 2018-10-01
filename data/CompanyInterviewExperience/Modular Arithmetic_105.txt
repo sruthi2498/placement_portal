@@ -1,0 +1,10 @@
+Given a big number ‘num’ represented as string and an integer x, find value of “num % x” or “num mod x”.  Output is expected as an integer.
+Examples : 
+The idea is to process all digits one by one and use the property that xy (mod a) ≡ ((x (mod a) * y) (mod a)). Below is the implementation.
+Thanks to utkarsh111 for suggesting the below solution.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,8 @@
+The list::end() is a built-in function in C++ STL which is used to get an iterator to past the last element. By past the last element it is meant that the iterator returned by the end() function return an iterator to an element which follows the last element in the list container. It can not be used to modify the element or the list container.
+This function is basically used to set a range along with the list::begin() function.
+Syntax: 
+Parameters: This function does not accept any parameter, it simply returns an iterator to past the last element.
+Return Value: This function returns an iterator to the element past the last element of the list.
+Below program illustrates the list::end() function. 
+Run on IDE
+Note: This function works in constant time complexity.

@@ -1,0 +1,16 @@
+Given an array that represents a tree in such a way that array indexes are values in tree nodes and array values give the parent node of that particular index (or node). The value of the root node index would always be -1 as there is no parent for root. Construct the standard linked representation of given Binary Tree from this  given representation.
+Expected time complexity is O(n) where n is number of elements in given array.
+
+We strongly recommend to minimize your browser and try this yourself first.
+A Simple Solution to  recursively construct by first searching the current root, then recurring for the found indexes (there can be at most two indexes) and making them left and right subtrees of root. This solution takes O(n2) as we have to linearly search for every node.
+An Efficient Solution can solve the above problem in O(n) time. The idea is to use extra space.  An array created[0..n-1] is used to keep track of created nodes.   
+createTree(parent[], n)
+createNode(parent[], i, crated[])
+Following is C++ implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+<
+Similar Problem: Find Height of Binary Tree represented by Parent array

@@ -1,0 +1,23 @@
+Given an array a[] and an element x, find number of occurrences of x in a[].
+Examples:
+
+If array is not sorted
+The idea is simple, we initialize count as 0. We traverse array in linear fashion. For every element that matches with x, we increment count.  Finally we return count.
+Below is the implementation of the approach.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+If array is sorted
+We can apply method for both sorted and unsorted. But for sorted array, we can optimize it to work in O(Log n) time using Binary Search.  Please refer below article for details.Count number of occurrences (or frequency) in a sorted array.
+If there are multiple queries on a single array
+We can use hashing to store frequencies of all elements. Then we can answer all queries in O(1) time.  Please refer Frequency of each element in an unsorted array for details.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

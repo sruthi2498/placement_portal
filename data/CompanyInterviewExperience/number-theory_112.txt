@@ -1,0 +1,26 @@
+Fermat’s little theorem states that if p is a prime number, then for any integer a, the number a p – a is an integer multiple of p. 
+
+Here p is a prime number
+ap ≡ a (mod p).
+Special Case: If a is not divisible by p, Fermat’s little theorem is equivalent to the statement that a  p-1-1 is an integer multiple of p.
+                     ap-1 ≡ 1 (mod p)
+                                     OR
+                      an-1  % p = 1
+Here a is not divisible by p. 
+
+Take an Example How Fermat’s little theorem works
+Examples:
+Use of Fermat’s little theorem
+If we know m is prime, then we can also use Fermats’s little theorem to find the inverse.
+am-1 ≡ 1 (mod m)
+If we multiply both sides with a-1, we get
+ a-1 ≡ a m-2 (mod m)
+Below is the Implementation of above
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Some Article Based on Fermat’s little theorem

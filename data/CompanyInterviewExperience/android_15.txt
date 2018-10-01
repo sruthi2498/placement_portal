@@ -1,0 +1,12 @@
+After successfully Setting up an Android project, all of the default files are created with default code in them. Let us look at this default code and files and try to run the default app created. 
+The above java file shows us the default code that is present when an app is created. An activity is created that extends AppCompactActivity class.
+The “res” folder contains “layout” subfolder, which includes the xml files of the projects.
+
+You can find the activity_main.xml file under the layout folder. This the XML file corresponding to the MainActivity. There is an onCreate function that overrides a function of AppCompactActivity class. onCreate(Bundle) is where you initialize your activity. When the activity is first started, then both onCreate() methods are called. But after the first start of Activity, the onCreate() of application will not be called for subsequent runs.
+
+There is a TextView widget by default. This “TextView” is basically the Text field that displays the text specified. It has various attributes. For now, consider the default attributes present. The layout_width and layout_height are the width and height of the widget occupied in the screen. The attribute “wrap_content” refers to width or height being restricted to the content of the text.
+The text attribute takes a string in quotations ( i.e., “ ” ). The content within this is displayed on the screen.
+
+Now, click the “Run” option at the Toolbar at the top. You can observe the option being highlighted in the image below. 
+The image below shows the working of the first app, My Application. You can find all the basic functionalities that your phone has, on the emulator, like Home button, back button, power, etc.
+

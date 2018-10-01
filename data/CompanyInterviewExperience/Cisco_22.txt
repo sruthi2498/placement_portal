@@ -1,0 +1,13 @@
+Written Test:
+1) 15 Aptitude Questions
+2) 25 CS Fundamentals & Couple of output questions.
+3) Coding Question: A thief trying to escape from a jail has to cross ‘N’ walls each with varying heights. He climbs ‘X’ feet every time. But, due to the slippery nature of those walls, every times he slips back by ‘Y’ feet. Now the input is given as (N, {H1, H2, H3,….Hn}, X, Y}. Calculate the total number of jumps required to cross all walls and escape from the jail.
+F2F 1
+1) Calculate the number of bits set to 1 in a binary number.
+2) Unsorted array and a position ‘P’. Return the element that is likely to come to the given location upon sorting the array. Do it 0(n).
+3) Many question regarding UNIX N/W programming. Doesn’t need to worry. If you know already is advantageous.
+4) Shared memory, OS concepts, IPC mechanisms. Which among is the fastest IPC
+F2F 2
+1) Questions related to projects.
+2) Given a big C program, point out various storage classes.
+

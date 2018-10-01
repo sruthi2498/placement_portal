@@ -1,0 +1,38 @@
+Round 1 (Online Coding Test):
+There was an online coding round which was the first round. It was conducted on cocubes platform. There were 3 coding questions, one of 3 marks and two of 5 marks. The 3 mark question was based on array.
+Mine was :
+1. There’s a array and you need to find the second minimum of odd indices of the array and second maximum of even indices of the array. Then two return their sum.
+Question can be done in Linear Time .
+2. Given a Binary Tree and a node(value of node) you need to find length of closest Leaf from that node. If the given node is not present in binary tree then return -1 and if node is itself a leaf then return 0 .
+Solution Approach->
+step 1: Check whether the given node is present or not (using any of BFS or DFS)
+step 2: Find length of leaf closest below the given node (say z)
+step 3: Find length of node from root of Binary tree (say x)
+step 4: Find length of closest leaf from root of BT(using BFS say y)
+step 5: return (min(z, (x+y))
+ 
+3. There’s a binary tree. You need to find the minimum number of jumps needed to reach the second node from the first one. You need to implement the function which takes the root of the tree and the value of nodes as arguments.
+If any of the nodes is not present in the tree then return -1.
+Basically based on Lowest Common Ancestor(LCA) approch .
+step 1: Check whether both are present in tree or not if(not present) return -1
+step 2:Find LCA to both nodes.
+step3: return (length of first node from LCA + length of second node from LCA)
+ 
+Total 322 students appeared the online coding round and around 84 students got selected for the next rounds.
+Round 2 (Technical GD):
+Next round was a group fly round. You will be given 3 questions (one by one) and you need to write the code on paper. They gave one problem and 20-30 minutes to solve.
+Problems were given from different groups. My group had 8 members out of which 5 are eligible for next round.
+Result of fly was declared immediately after the completion of round.
+Around 60 students got selected for the next round .
+Round 3 (Tech):
+The next round was a Personal Interview (FACE2FACE) (2 Interviewer)
+In this Round, i was asked to write a code for Rotations of AVL Tree and then they were asking about project and use of project in real life .Mine was completed in about 25 minutes.
+Almost 55 students cleared this round as was based on general compi and basics of projects.
+Round 4 (Tech cum HR):
+The next round was another Personal Interview (FACE2FACE) (1 Senior Interviewer)
+This was the final Round (HR cum Technical).
+Questions like why this GPA were asked and then all the discussions were based on projects and algorithms.
+The round was a bit longer (i guess 50 minutes) but was quite interactive.
+ 
+Finally, 38 students were selected for SRIB internship. Fortunately we didn’t face any Proper HR round before final selection!
+TIPS-

@@ -1,0 +1,22 @@
+  Round One:
+    1. Find Min and Max of an array in only one traversal.
+    2. Given a chessboard find maximum number of squares present. 
+    3. Job description.
+    4. Difference between deep and shallow copy.
+    5. What is C++
+    6. What’s “preinitialization”  
+ Round Two:
+    1. reverse a linked list
+    1.1 Use Recursion
+    2. Copy constructor, operator = different used cases, code
+    3. Deep Copy, Shallow Copy Used cases
+    4. Different versions of polymorphism, how to solve the problem of multiple inheritance.
+    5. Deep look into Virtual concepts, inheritance.
+    6. Template classes, WAP operator= for template class such that it behaves differently for int and char *
+    7. Given a tree, WAP such that a matrix is generated so that: 
+    Hint: Preorder
+    8. Given an array, 1 2 0 5 4 88 0 0 0 6
+    make it, 1 2 5 4 88 6 0 0 0 0
+    9. Gave me class hierarchy, List the number of VTables created
+    10. When to use List and when to use Vector of STL
+    11. Given a string “I LOVE INDIA”, print “INDIA LOVE I”

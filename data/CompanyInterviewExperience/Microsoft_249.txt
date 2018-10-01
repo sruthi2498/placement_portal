@@ -1,0 +1,27 @@
+R1 Telephonic
+1) Given a large int array, sort it. The ints are in the range 1-10.
+2) In a 2-D array of 0’s and 1’s find the row with max 1’s, given that the array is sorted row wise.
+R2 F2F
+1) Find the maximum contiguous sum in an array. Had to write test cases as well.
+2) don’t remember
+R3 F2F
+1) On a screen, there are multiple rectangles drawn, when a user clicks on any point, find the smallest rectangle enclosing this point.
+2) Design poke feature in Facebook
+R4 F2F
+1) Implement file read operation asyncronously.
+2) there are N large log files in sorted by timestamp. Merge them.
+3) there are N large files containing operations sorted based on name to be done on an address book.
+   Address book is stored as name value pair in another file which is sorted based on name. Apply these operations and store in a new address file.
+   Had to write code and test cases for this.
+R5 F2F (Hiring Manager)
+1) some discussion on foreground and background thread.
+2) What is common in 2 threads of the same process and what is the difference.
+3) how would you communicate between 2 processes.
+4) can we create connection between 2 processes similar to tcp connection.
+5) difference between tcp and udp.
+6) are packets lost in tcp if network is never lost.
+7) create a macro for reversing an int in terms of byte e.g. an int has 4 bytes numbered 1234 the macro should return 4321.
+8) in a 2-D array of chars, if a user selects any 4 boxes, check if these are continuous or not. continuous boxes are those which lie in 3×3 sub array surrounding the box.
+9) design auto complete feature.
+Some other OS questions on threads only.
+

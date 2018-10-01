@@ -1,0 +1,16 @@
+Following is a typical recursive implementation of Merge Sort 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Iterative Merge Sort:
+The above function is recursive, so uses function call stack to store intermediate values of l and h. The function call stack stores other bookkeeping information together with parameters. Also, function calls involve overheads like storing activation record of the caller function and then resuming execution.  Unlike Iterative QuickSort, the iterative MergeSort doesn’t require explicit auxiliary  stack.
+The above function can be easily converted to iterative version.  Following is iterative Merge Sort. 
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Time complexity of above iterative function is same as recursive, i.e., Θ(nLogn).  
+References:
+http://csg.sph.umich.edu/abecasis/class/2006/615.09.pdf

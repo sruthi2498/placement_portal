@@ -1,0 +1,8 @@
+This function is used to set the base to octal, decimal or hexadecimal. It sets the basefield format flag for the str stream to the specified base
+std::oct : When basefield is set to octal, integer values inserted into the stream are expressed in octal base (i.e., radix 8). For input streams, extracted values are also expected to be expressed in octal base when this flag is set.
+std::hex : When basefield is set to hex, integer values inserted into the stream are expressed in hexadecimal base (i.e., radix 16). For input streams, extracted values are also expected to be expressed in hexadecimal base when this flag is set.
+The basefield format flag can take decimal values (each with its own manipulator). This is an I/O manipulator. It may be called with an expression such as out << std::oct, std::hex or std ::dec for any out of type std::basic_ostream or with an expression
+ Syntax :
+Examples:
+Run on IDE
+Output:

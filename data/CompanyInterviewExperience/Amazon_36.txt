@@ -1,0 +1,13 @@
+Given a decimal number m, convert it into a binary string and apply n iterations, in each iteration 0 becomes “01” and 1 becomes “10”. Find ith(based indexing) index character in the string after nth iteration.
+Examples :
+
+
+1. Change a decimal number into binary and store in string s.
+2. Run loop n times in each iteration. Run another loop of string
+   length s to convert 0 to “01” and 1 to “10” and store in another string s1.
+   After completion of each iteration, assign string s1 to s.
+3. At last Return the value of ith index in string s.
+Run on IDE
+Run on IDE
+Run on IDE
+Refer Set-2 for an optimized solution. 

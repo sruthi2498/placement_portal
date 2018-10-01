@@ -1,0 +1,18 @@
+
+Round 1 :
+1. Given 2 array of size m , n , find the pair from diff array with minimum difference 
+2. given the dialer of a feature phone and a dictionary of words , find the string suggestions after dialing n numbers .
+3. Verify if the Tree validates the definition
+parent_node.data = left_node.data + right_node.data
+
+Round 2 :
+1 . how to handle server scaling up to sudden increased of request 
+2 . how to handle scaling the data
+3. Design BookMyShow tables .
+
+Round 3 : 
+1 . given an array of Strings , not necessarily in any order , find out if the string create a chain , such that first last char of a string is the first character of another and thus making a chain including at least all string
+2 . Given a party with n people , a given function Knows() , such that
+A knows B : true if a knows B
+A Celebrity would be a person who knows no one but is known by all
+Find out the celebrity if he exists in the party. I would like the mail id to be kept confidential.

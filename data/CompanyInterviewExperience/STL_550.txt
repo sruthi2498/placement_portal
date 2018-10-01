@@ -1,0 +1,8 @@
+Given an array of n elements such that elements may repeat. We can delete any number of elements from array. The task is to find minimum number of elements to be deleted from array to make it equal.
+Examples:
+
+In this problem we need to minimize the delete operations. The approach is simple, we count  frequency of each element in array, then find the frequency of most frequent element in count array. Let this frequence be max_freq. To get the minimum number of elements to be deleted from array calculate n – max_freq where n is number of elements in given array. 
+Run on IDE
+Output:
+Time complexity : O(n)
+Note : Here we can optimize the extra space to count frequency of each element to O(1) but for this we have to modify our original array. See this article.

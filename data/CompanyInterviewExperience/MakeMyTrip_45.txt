@@ -1,0 +1,42 @@
+Round 1 : Written :
+Q1. Given a stream of around billion numbers in an array, which has approximately only 1000 unique numbers. Print the unique numbers. Complexity should be less than O(n).
+Eg:
+Input: 1,1,1,1,….2,2,2,…3,4,4,4,4……1111,1111,………..
+Output : 1,2,3,4,1111
+Q2: Write a program to print the frequency of all words in a given paragraph.
+Q3: Write a program to reverse the string word wise.
+    Eg: I/P : “I am a boy”
+          O/P: “boy a am I”
+Q4: Write a program to explain producer consumer program using threads.
+Q5: (Only theory) What data structures will you use to design a garbage collector.
+Round 2:  F2F
+Q1: Given an array in which all numbers except two are repeated once. (i.e. we have 2n+2 numbers and n numbers are occurring twice and remaining two have occurred once). Find those two numbers in the most efficient way
+Q 2 : Given a linked list with next and arbitrary pointers, clone it.
+Q 3 : A lot of questions around Spring, Hibernate, REST, Dependency Injection, AOP etc.
+Q4 : Reverse a  linked list in groups of n.
+Round 3: F2F
+Q1: Vertical level order traversal of a tree.
+Q2: Reverse the second half of the linked list in the most efficient way.
+Q3: Find the merging point of two linked list.
+Q4: Write a function to generate all possible n pairs of balanced parentheses.
+For example, if n=1{}
+for n=2
+{}{}
+{{}}
+Q5 : Again a lot of drilling questions on Java, Spring, MVC, Singleton, Hibernate, REST.
+
+Round 4 : F2F (Manager/Architect)
+This round had questions more around various technology stacks,
+Design Patterns ( Interceptor, Singleton, Publisher Subscriber, MVC etc etc )
+UI Templates
+REST
+Spring
+Java
+In memory database
+Log appenders
+Round 5: F2F ( H.R. )
+Generic questions like why do you want to join Makemytrip.
+What are your career aspirations.
+How do you think it aligns with MMT.
+Thanks to geeksforgeeks for the awesome database of questions, that helped me clear the interview.
+

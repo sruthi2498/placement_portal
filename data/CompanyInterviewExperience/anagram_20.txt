@@ -1,0 +1,21 @@
+Given two numbers you are required to check whether they are anagrams of each other or not in binary representation.
+Examples:
+
+Simple Approach:
+Run on IDE
+Run on IDE
+
+Time Complexity : O (n log n)
+Auxiliary Space : O (1)  Although Auxiliary Space is O(1) still SIZE array spaces are getting used to store binary representation of each number.
+ 
+Efficient Approach:
+Just measure the number of 1’s present in the bit representation of both the numbers, if number of 1’s present in their bit representation are same then they are anagrams in their bit representation else they are not.
+
+Run on IDE
+
+
+Run on IDE
+
+Note that the above code uses GCC specific functions. If we wish to write code for other compilers, we may use Count set bits in an integer.
+Time Complexity : O (1)
+Auxiliary Space : O (1)  No extra space is getting used.

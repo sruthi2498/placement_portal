@@ -1,0 +1,8 @@
+You are given a undirected graph G(V, E) with N vertices and M edges. We need to find the minimum number of edges between a given pair of vertices (u, v).
+Examples:
+The idea is to perform BFS from one of given input vertex(u). At the time of BFS maintain an array of distance[n] and initialize it to zero for all vertices. Now, suppose during BFS, vertex x is popped from queue and we are pushing all adjacent non-visited vertices(i)  back into queue at the same time we should update distance[i] = distance[x] + 1;.
+    Finally distance[v] gives the minimum number of edges between u and v.
+ Algorithm: 
+Run on IDE
+Run on IDE
+

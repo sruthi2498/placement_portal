@@ -1,0 +1,48 @@
+Round 1- Coderpad:
+1) Find smallest element in sorted rotated array
+2) Child can take 1, 2, 3 steps. Total steps he has to take is n. Find no. Of ways he can traverse those steps.
+Telephonic round 1:
+1) project related questions
+2) rabbit mq how it works
+3) have you used any data structures
+4) middle elment in linked list
+5) loop in a linked list
+6) 5th element from last of linked list
+7) given an array 1-n elements with one element duplicate. Find that element.
+8) tree given with 2 nodes having same child. Find that sort of thing in tree.
+9) find the common ancestor of 2 nodes in binary tree
+Telephonic round 2:
+Why Java is better than other languages.
+1) given an array, need to go from 0-n, with atmost no. Of steps as a[i]. Find minimum steps we need for given array.(this was a dp solution)
+2) angle between hour hand and minute hand at a given time.
+3) problems you faced in your previous projects.
+F2F 1: 2 interviewers
+1) create a data structure with pop(), push(), top(), min() in O(1)
+2) largest contiguous substring with no repeating elements.
+3) need to store phone numbers such that we will search all numbers starting from 987, or 98765 like this.
+F2F 2:
+1)  Create filesystem where we get different versions of sme file. We need to return the last file version recieved today
+2) sorted array with duplicate elements. Return the start
+And end of target value
+3) given a rod, and length wise cost. Return maximum profit we can get.
+F2F 3:
+All questions related to projects
+If you are architect what reviews will u give
+Load balancing
+What do u use from sdlc in your daily life in you current organisation
+What do people do, when on site-
+F2F4:
+Why Goldman
+Why do you want to change so early
+What is the best technology you have learned in current organisation
+Discussion on that technology.
+Project on that technology.
+Hashmaps. How hashmap work.
+Give a csv file of 10gb data, we need to sort on basis of 4 column and rewrite in other csv file. Ram of system is 2gb.
+F2F 5:
+Alot ques on Java, like why string is immutable ?
+Hashmaps
+Contract between hashcode and equals
+Segregate odd and even no.s in array, from start and end.
+Write test function if the array is segregated.
+Balanced tree. Insert function. Height of tree.

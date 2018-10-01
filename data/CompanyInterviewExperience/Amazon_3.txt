@@ -1,0 +1,27 @@
+Given an array arr that has numbers appearing twice or once. The task is to identify numbers that occurred only once in the array.  
+Note: Duplicates appear side by side every time. Might be few numbers can occur one time and just assume this is a right rotating array (just say an array can rotate k times towards right). Order of the elements in the output doesn’t matter.
+Examples:
+Method-1:  Using Sorting.
+Below is the implementation of above approach:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(Nlogn)
+Space Complexity: O(1)
+Method-2:  (Using Hashing): In C++, unordered_map can be used for hashing. 
+Below is the implementation of above approach:
+
+Run on IDE
+Time Complexity: O(N)
+Space Complexity: O(N)
+Method-3: Using given assumptions.
+It is given that an array can be rotated any times and duplicates will appear side by side every time. So after rotating the first and last element will appear side by side.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N)
+Space Complexity: O(1)

@@ -1,0 +1,31 @@
+I am happy to contribute to a community that helped me learn so much 🙂 This mail contains info about a recent interview I had with Amazon.
+Question 1
+Problem statement: Given an Amazon reviews paragraph containing several words, find the minimum distance between two given words.
+Example: Following is a hypothetical paragraph in an amazon review –
+“Amazon is the best company to work for. The amazon is a beautiful forest.”
+Find the minimum distance between ‘Amazon’ and ‘The’
+Given: You are given the position of each word in the paragraph. Meaning, you know that word ‘Amazon’ occurs at positions 1 and 10, and ‘The’ occurs at 3 and 9. You do not have to parse the paragraph to gather this info.
+Sub questions :
+*Which data structure will you use to store the given info?
+*Compute the minimum distance in the most efficient way.
+*Give a working code for the same.
+Question 2
+Problem statement: In a binary tree, a chain can be defined as sum of length of the left node series, right node series, and 1. Find the length of longest chain in the tree.
+Example: Refer to the image given below –
+Chain length of node 1 = 3 + 2 + 1 = {count of 3 corresponds to node 2 , node 4, node 8 ; count of 2 corresponds to node 3, node 7 ; 1 corresponds to node 1 itself}
+Similarly, chain length of node 2 = 2 + 1 + 1
+The max chain length here is of node 1 which is 5. So, the output should be 5.
+
+Sub questions:
+* Provide a solution, optimize it, give a working code or pseudo code or an algorithm for the same.
+Question 1: Given two valid dictionary words, find the minimum number of steps required to transform first word to second word. Following are the transformation rules –
+1. You can, in a single step, change a single letter in the word.
+2. Each transition should result in a valid word. Assume you have been provided a helper function boolean isValid (String word) which tells you if a word is valid or not.
+3. This must be done with minimum transitions.
+Example: Transform CAT to TOY. One of the several possible transformations is CAT -> CAR -> TAR -> TOR -> TOY
+Question 2 : Assume you have been given a binary tree such that the angle between horizontal and the line joining node to it’s left child (or right child) is 45 degree. This essentially means node 5 and 6 in the tree figure above collapse into a single node. A vertical for a tree is defined as shown in the figure below. Given a binary tree of the kind defined above, find the number of verticals that can be drawn.
+Example: Refer to the diagram below to get an idea on verticals.
+
+?
+Sub questions:
+* Provide a solution and also provide a working code for the same.

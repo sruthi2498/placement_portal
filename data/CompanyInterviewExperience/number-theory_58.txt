@@ -1,0 +1,10 @@
+Any odd integer greater than 5 can be expressed as a sum of an odd prime (all primes other than 2 are odd) and an even semiprime. A semiprime number is a product of two prime numbers. This is called Lemoine’s conjecture.
+Examples :
+ 7 = 3 + (2 × 2),
+ where 3 is a prime number (other than 2) and 4 (= 2 × 2) is a semiprime number.
+ 11 = 5 + (2 × 3)
+ where 5 is a prime number and 6(= 2 × 3) is a semiprime number.
+ 9 = 3 + (2 × 3) or 9 = 5 + (2 × 2)
+ 47 = 13 + 2 × 17 = 37 + 2 × 5 = 41 + 2 × 3 = 43 + 2 × 2
+Run on IDE
+Output :

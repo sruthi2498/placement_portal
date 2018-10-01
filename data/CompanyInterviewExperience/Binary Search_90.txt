@@ -1,0 +1,10 @@
+Given an array representing n positions along a straight line. Find k (where k <= n) elements from the array such that the maximum distance between any two (consecutive points among the k points) is maximized.
+Examples :
+
+A Naive Solution is to consider all subsets of size 3 and find minimum distance for every subset. Finally return the largest of all minimum distances.
+An Efficient Solution is based on Binary Search. We first sort the array. Now we know maximum possible value result is arr[n-1] – arr[0] (for k = 2). We do binary search for maximum result for given k. We start with middle of maximum possible result. If middle is a feasible solution, we search on right half of mid. Else we search is left half. To check feasibility, we place k elements under given mid distance.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

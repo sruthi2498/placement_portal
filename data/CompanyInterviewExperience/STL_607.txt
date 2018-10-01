@@ -1,0 +1,16 @@
+In C++ STL, there is priority_queue that can directly be used to implement Max Heap.  See below example.
+Run on IDE
+Output : 
+Since elements are printed in descending order, we have a max heap by default.
+ 
+How to implement Min Heap?
+priority_queue supports a constructor that requires two extra arguments to make it min heap.
+`
+Below is an example for integers.
+Run on IDE
+Output : 
+ 
+How to make a min heap of user defined class?
+Let us consider below example where we build a min heap of 2 D points ordered by X axis.
+Run on IDE
+Output : 

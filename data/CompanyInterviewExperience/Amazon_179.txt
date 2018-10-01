@@ -1,0 +1,63 @@
+Recently, I was interviewed by Value Added Services team for SDE II position at Amazon Hyderabad campus.
+Telephonic Round: 1:15 Hours
+1) Given a set of words, print anagrams
+2) Questions about sorting algorithms.
+     	i) What sorting algorithm should be used for sorting strings?
+      ii) When merge sort is preferred over quick sort?
+3) This question is based on Topological sorting. Question was framed over working of Maven/Gradle. Given the dependencies of the packages to be installed.
+For example,
+A -> B, C, D (Which means A depends upon B, C & D. Hence, B,C & D should be installed before installing A)
+B -> F
+D -> E
+Print the order in which packages should be installed.
+Later this question is modified and asked:
+Given an order of packages, tell whether with the given dependencies, is it possible to install packages in the given order or not.
+Round 2: (Face to Face) 1:20 Hours
+Each of the f2f interviews were taken by the two interviewers. One was asking questions and other was observing the behavior of the candidate 🙂
+This round almost covered everything from Current Project to Data Structures and Problem solving to Behavioral questions to High level designing.
+Asked the architecture of the product that I am currently working on. Asked me to draw the block diagram and the interactions among the different components for 20mins.
+Later moved to Data Structures and Problem solving questions.
+1) Given an array find the maximum contiguous sum. Array can have +ve and -ve elements.
+2) Sum of two linked lists and store the result in the third one.
+Behavioral Questions:
+1) How did you help your colleague?
+2) Tell an instance when you proposed some approach but your team lead did not like and how did you convince him.
+Design question: Design BookMyShow website. Asked me, how will I design UI pages?
+What things I did not like about BookMyShow? And then designing of DB, tables, constraints, etc.
+I nailed this round completely.
+Round 3: (Face to Face) 1:30 Hours
+Asked about my current project.
+This round of mine did not go well. It was a purely about Data Structures.
+1) Given a binary tree, find the maximum BST subtree with the root of the max BST.
+I gave initial approach where I wanted to traverse the tree in Inorder and store it in an array.
+After that find the subarray where elements present in increasing order. Interviewer showed some issues with that approach.
+Later modified the approach to bottom-up approach. Approach was fine but I could not write clear and running code.
+2) Interviewer was confused whether to send me to the next round or not. He asked me one more question:
+Given an sorted array of alphabets find the count of each element. Told him the approach with Binary search and he was satisfied.
+Round 4: (Face to Face) 1:30 Hours
+Asked about my current project.
+This round was totally on designing.
+1) Given a piece of paper with some Java code. I need to review the code and provide the comments as a reviewer.
+2) Design survey monkey like website.
+More emphasis was on Admin related activities of creating/editing a survey, showing all the surveys created by the admin user.
+Generate a unique link to each of the survey created by the admin.
+Started from UI pages designing to what information should be sent through Ajax calls to server for each of CRUD operations on survey.
+Structure of each table to store the survey information. How will I as a developer create a layered architecture at server side.
+Layered architecture: Ajax -> Servlet -> Class for CRUD operations on surveys –> Transaction Handler –> Persistence layer
+This round was very satisfying round and everything happened properly.
+Round 5: (Face to Face) 1:00 Hour
+This round was taken by the manager of Value Added service team.
+He was very friendly and gave his own introduction.
+Asked about my current project.
+1) Given an array of alphabets and a dictionary of english words.
+I need to find the maximum possible valid dictionary word can be formed from these alphabets.
+I went through Trie approach of storing the dictionary words.
+2) Design Outlook meeting request handler, a low level design question.
+I gave some solution and he seemed to be satisfied.
+3) Behavioral Question: Tell some instance, when you proposed some idea and it was rejected by your Product Manager.
+Reason for the rejection of the idea.
+For SDEII, more than Data Structure and Problem solving, Amazon looks for designing and approach.
+All the interviewers were very friendly and they help during the interview process.
+Always try to understand what interviewer is looking for from the given question. If it is not clear, ask them clearly with no heistation.
+
+

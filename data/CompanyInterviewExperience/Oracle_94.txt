@@ -1,0 +1,34 @@
+On line test consist of 4 sections analytical, quant, computer science and English. 
+Coding on paper(45 min): 
+Based on scores they shortlisted for ST, APPS and Finance profile. myself shortlisted in ST profile.
+On interview day
+0th round(no elimination):
+given 3 questions:
+1. Given array of 14 integers and asked to build max and min heap pictorially.
+2. Given array of integers and element find whether sum of any two elements equal to given number.
+3. Given array of rotated sorted integers and asked to search for an element.
+I completed these questions in 35 min and returned paper then immediately they called for interview.
+1st round(1hr30min):
+1. Difference between java and c
+2. Questions based on above 3 questions (how you solved)
+3. He asked me “given a big file and i want count of all words in file” define your own data structure for it and implement algorithm to it.
+Once implemented asked me to implement efficiently.
+For both algorithms time complexity.
+4. Given around 10 sql queries i wrote the queries and then he given 2 tables and asked me the output for all the queries.
+5. Given a complete binary tree and if you wants to insert a new element how to do it. I told him if tree represented in array representation then 2i and 2i+1 concept. Then he asked me another way then i said using queue.
+6. In both using array and using queue representation how you will implement max/min heap.
+2nd_round(1hr):
+Completely on resume.
+In detail explanation about previously done projects.
+Questions based on oops concepts.
+3rd_round(50min):
+Questions based on structures unions and structure padding.
+He given array of elements and asked me to build binary tree, Binary search tree, avl tree.
+Asked questions on all trees.
+Then questions based on current project.
+HR_round(around 15min):
+Tell me about your self which you did not mentioned in your resume.
+Out of all the projects which you did which one you like most and why.
+And job location priority etc.,
+I hope this may helpful to some one. Thank you guys without your help i cant make it.
+

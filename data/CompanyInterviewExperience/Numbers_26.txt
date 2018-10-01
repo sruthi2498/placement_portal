@@ -1,0 +1,28 @@
+Given a natural number n, find the number of ways in which n can be expressed as a sum of natural numbers when order is taken into consideration. Two sequences that differ in the order of their terms define different compositions of their sum. 
+
+Examples:
+A Simple Solution is to generate all compositions and count them.
+Using the concept of combinatorics, it can be proved that any natural number n will have 2^(n-1) distinct compositions when order is taken into consideration.
+One way to see why the answer is 2^(n-1) directly is to write n as a sum of 1s:
+n = 1 + 1 + 1 +…+ 1 (n times).
+There are (n-1) plus signs between all 1s. For every plus sign we can choose to split ( by putting a bracket) at the point or not split.  Therefore answer is 2^(n-1).
+For example, n = 4
+No Split
+4 = 1 + 1 + 1 + 1   [We write as single 4]
+Different ways to split once
+4  = (1) + (1 + 1 + 1)  [We write as 1 + 3]
+4  = (1 + 1) + (1 + 1)  [We write as 2 + 2]
+4  = (1 + 1 + 1) + (1)  [We write as 3 + 1]
+Different ways to split twice
+4  = (1) + (1 + 1) + (1)  [We write as 1 + 2 + 1]
+4  = (1 + 1) + (1) + (1)  [We write as 2 + 1 + 1]
+4  = (1) + (1) + (1 + 1)  [We write as 1 + 1 + 2]
+Different ways to split three times
+4  = (1) + (1) + (1) + (1)  [We write as 1 + 1 + 1 + 1]
+Since there are (n-1) plus signs between the n 1s, there are 2^(n-1) ways of choosing where to split the sum, and hence 2^(n-1) possible sums .
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

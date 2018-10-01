@@ -1,0 +1,25 @@
+Samsung Semiconductor India R&D, Bangalore had visited our campus for placements. Only ECE students were allowed. There was an online coding round conducted, followed by 2 Technical rounds and an HR round.
+Online Coding Round:
+It was a 3 hour long test during which we had to solve one question having 50 test cases. Only those students passing all 50 test cases were shortlisted for the technical interviews. The question was as follows.
+You are given a 7×5 grid as follows,
+0 1 0 2 0
+0 2 2 2 1
+0 2 1 1 1
+1 0 1 0 0
+0 0 1 2 2
+1 1 0 0 1
+x x S x x
+
+Where,
+0 denotes that the cell is empty
+1 denotes that the cell has a coin
+2 denotes that an enemy is present in the cell
+The highlighted zone (yellow) denotes the control zone. We need to control the spaceship (S) in order to obtain the maximum number of coins possible. The spaceship’s initial position will be in the center and we can only move the spaceship one cell to the right or left, or choose to not move it at all. After every turn, the non-highlighted part (blue) will move down by one unit.
+We have a bomb but can only use it once. When the bomb is used, all enemies present in the 5×5 cell region above the control zone are removed and are replaced with 0’s.
+If the spaceship encounters an enemy, or the entire grid has come down, the game is over.
+Technical Interview 1:
+Technical Interview 2:
+Some of the people who were interviewed before me weren’t asked the Fourier Series and Fourier Transform questions. They were given a question and had to write the code on paper. The question was based on 0-1 Knapsack problem.
+HR Interview:
+After this, the HR asked if I had any questions following which the interview was over. When the results were announced, I was one of the 6 chosen for the full time role at SSIR, Bangalore.
+ 

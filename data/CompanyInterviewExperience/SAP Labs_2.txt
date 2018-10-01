@@ -1,0 +1,74 @@
+SAP Labs India visited our campus on 11’th Aug 2018 offering full time as well as internship (2 months, 6 months)
+Following was the procedure for Internship:
+Computers, IT, Extc and some other E branch were allowed with 7+cpi criteria for online test on Hackerrank.
+This consisted of 25mcqs and 3 coding questions having sectional cutoff with an overall allowed time of 75 mins.
+Mcqs were all technical with a high emphasis on Java, DBMS, Oops, DS, Algorithms [ 1 question maybe from Design Patterns, OS or Networking ]. The questions covered topics where theory, code and solving on paper would all be covered.
+After that, there were 3 coding questions, with multiple sets for participants. A few of them were:
+1) array triplet sum below target->count-triplets-with-sum-smaller-than-a-given-value
+2) similar to->number-of-palindromic-permutations
+3) maximum size substring with at most k normal characters where we are given the string and a 26 space-separated values indicating if the character is normal or special. 
+4) given a directed weighted graph with each node having a happiness value, find the shortest cost loop with maximum happiness value.
+5) given the size of the key, the key and time window available, output whether the hacker can crack it or not. Also, they had given a way to find the strength of a key.
+
+Over 200 had given the test for internship and they sent a list of 9 selected students the same night and the interview was scheduled the next day.
+     They began sharply at 9 am with the PPT and to be honest was awestruck by their technology and portfolio because the earlier PPT I had attended were Morgan Stanley and Samsung. They began with final year at 10 and with interns at 12 pm. There were 3 rounds each having elimination.
+
+Round 1: Tech Interview, 1 to 1
+9 candidates
+They had our resume and a 3/4 side sheet with 10+ rows where I later saw marks in the HR round, thus ensuring every candidate is evaluated on all desired topics. It lasted just over an hour.
+1st came the icebreaker-Tell me something about yourself. She began by asking my preferred language to which I replied with C/C++ and familiar with Java, Python.
+She initially tested me by asking the basic concepts of the languages as well as their differences. Multiple OOPs questions, Memory allocation, keyword related questions followed. Some of them were:
+
+1)Procedural vs oops
+2)Encapsulation and the resulting visibility cases
+3)Abstraction
+4)Aggregation Composition Generalisation Specialization 
+5)Abstract classes, interfaces, virtual functions, diamond problem, Inheritance 
+6)Polymorphism in details with examples and problems
+7)Multithreading, synchronization, thread methods, locks, Acid properties and the locking mechanism solution with their cases, deadlocks
+8)Exception handling in the various languages
+9)Calloc vs Malloc with code
+10)A deep discussion with code about pointers, references and multiple types of pointers
+11)Final vs finally vs finalize
+12)Java garbage collector
+13)Another code with friend functions, classes and inline functions and other with final, static, access specifiers in play
+
+In the middle of all this, I was also asked to write complete codes for simple programs like palindrome distance, solutions to a^2+b^2=c^2+d^2 up to 1000 and heapsort
+
+14)Hashset vs hashmap
+15)General Questions on circular linkedlist, priority queue, binary tree, bst, avl, segment and expression trees
+16)SQL objects? Tables, views, indexes 
+17)Various type of keys
+18)Schema and ER diagram of my project
+19)Write various queries on given data such as to find n’th highest row, order group having where, foreign keys, joins, views, savepoint rollbacks etc
+20)Normalisation and denormalization
+21)She also asked about CPU scheduling in which I just explained fcfs and told her that we had OS in the same semester so not finished
+
+Finally, she asked if I had something to ask?
+
+Round 2: Tech Interview, 1 to 1
+7 candidates
+
+The interviewer seemed senior and straight away asked me about my other project details
+As my project included multivariable regression, he asked a few questions about formulation and gradient descent, normalization, overfitting
+Later he asked me to write a code to call a public static method to another package
+Then he asked me to debug some Java codes
+A puzzle was also given where I was asked to divide an L shape into 4 equal shapes
+It was just 20 minutes and then he was done and asked if I had any questions. I was a bit scared as I had messed up the package question and was expecting a long interview after round 1. But he said he didn’t want me to answer anything else as all other things were covered(the sheet:p)
+
+Round 3: HR Interview, 2 on 1
+5 candidates
+There were 2 lady interviewers. They began by asking about my day.
+The later questions were all a reply to my previous answers
+What do you do when you are free (don’t say coding)?
+About my other experience as mentioned on my resume. She asked me about my experiences and achievements as a teacher and design officer which I’d mentioned.
+She asked me about my strengths and weaknesses
+What if they reject me?
+What were my preferences in projects and location were
+Why SAP?
+What if I get rejected?
+Who is my role model and why?
+What was my expectation
+But this was really a free-flowing round which lasted for around 45 mins
+ 
+ After 3 hrs they announced the results and 4 candidates were selected(2CS, 2IT)

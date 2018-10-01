@@ -1,0 +1,14 @@
+Given a string of lowercase alphabets and a number k, the task is to print the minimum value of the string after removal of ‘k’ characters.  The value of a string is defined as the sum of squares of the count of each distinct character. For example consider the string “saideep”, here frequencies of characters are s-1, a-1, i-1, e-2, d-1, p-1 and value of the string is 1^2 + 1^2 + 1^2 + 1^2 + 1^1 + 2^2 = 9.
+Expected Time Complexity : O(n)
+Examples:
+Asked In : Amazon
+
+One clear observation is that we need to remove character with highest frequency.  One trick is the character ma
+A Simple solution is to use sorting technique through all current highest frequency reduce up to k times. For After every reduce again sort frequency array. 
+A Better Solution used to Priority Queue which has to the highest element on top.
+Below is the implementation of the above idea.
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)

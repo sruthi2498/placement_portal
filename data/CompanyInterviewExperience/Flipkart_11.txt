@@ -1,0 +1,33 @@
+Written Test:
+3 questions on hackerrank :
+1)  N days and M employees are there. A matrix of N*M is given consisting of characters ‘Y’ and ‘N’ only. each row represents a day in which each cell tells whether the mth employee is present on that day or not.  You have to tell the maximum continuous days on which all the employees were present. Similar Question : Length of largest region in Boolean Matrix.
+2) n items were there in a bag with a id number. Id numbers of the items were not distinct i.e. can be repeated. you can take out at most m items from that bag. You have to take out items in such a way that the unique ids of remaining items are minimum.
+3) You were given m sentences and n Phrases.  You have to tell which sentence contains all the phrases.
+for eg.
+2
+hello everyone
+bye everyone
+1
+hello
+output:
+1
+Exp:  As first sentence contains all the phrase of first phrase.
+
+Round 1: Technical round (F2F)
+1) Optimal Game strategy
+2) pair of indices given .  You  can swap infinite times between these indices.  Output the smallest lexicographical string after doing these operations.
+
+Round 2: Technical Round (F2F)
+1) Implement Search engine with autocomplete feature.
+2)Temple Offerings
+3) Project Discussions
+
+Round 3: HR
+1)Project Discussions
+Personally this round was fantastic.The interviewer was awesome .
+LRU implementation
+Favourite Subject
+Finally I got selected. Overall 6 people were selected out of 34.
+THANK YOU  for reading this article .
+Hope this helps.
+This article is contributed by Rishi Gupta.

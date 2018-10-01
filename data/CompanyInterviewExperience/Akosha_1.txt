@@ -1,0 +1,25 @@
+I recently got a call from Akosha Bangalore for on-site interview. This Interview had three round, two technical and one manager round. 
+Round 1: Written Test : 30 Min
+*20 MCQ
+*Two programming questions : only one need to attend 
+Round 2: Technical Interview : 1 hour 30 Min
+This round totally focused on technical knowledge including data structure, algorithms, web services, Protocols etc.
+*Discussion on recent project in detail
+*Role and responsibility in recent project
+*Linked list random pointer problem: https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+* Restful apis discussion, design etc.
+* HTTP protocol discussion
+* GET/POST/PUT/DELETE methods discussion
+* Difference between POST/GET and POST/PUT when to use what
+* (interesting question) You have a rest api for Post method, Suppose you embedded this api in your application and this api usually takes 2 hour to respond back . How will you handle this situation?
+          — Lots of discussion were done on timeout, sync call, aysnc call etc
+    But I was not able to give what he was seeking to.
+Round 3: Manager  Round: 1 hour 30 Min
+* General behavioral questions
+* Why you want to leave ur current company so early
+* What you liked so far in development
+etc
+I got the offer from company but they were paying sameas what I’m getting currently. More over HR is very bad, she has no sense of talking.
+After few days I reject the offer (due to their bad behavior, they call me 2’s in a day(7-8 days) from different sources just to say resign asap) 
+I would to say thanks to Geeksforgeek for such a wonderful platform for tech guys.  
+

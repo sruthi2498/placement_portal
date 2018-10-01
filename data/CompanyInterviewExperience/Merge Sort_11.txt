@@ -1,0 +1,7 @@
+As we know, Mergesort is a divide and conquer algorithm that splits the array to halves recursively until it reaches an array of the size of 1, and after that it merges sorted subarrays until the original array is fully sorted.  Typical implementation of merge sort works in O(n Log n) time in all three cases (best, average and worst).
+We need to reduce the best case performance from O(n log n) to O(n). 
+
+The idea is to consider the case when array is already sorted. Before merging, just check if arr[mid] > arr[mid+1], because we are dealing with sorted subarrays. This will lead us to the recursive relation T(n) =  2*T(n/2) + 1 which can be resolved by the master’s theorem, so T(n) = n. 
+Examples:
+Run on IDE
+Output:

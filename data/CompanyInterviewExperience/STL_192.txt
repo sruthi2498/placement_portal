@@ -1,0 +1,6 @@
+forward_list::cbefore_begin() is an inbuilt function in CPP STL which returns a constant random access iterator which points to the position before the first element of the forward_list. The iterator obtained by this function can be used to iterate in the container but cannot be used to modify the content of the object to which it is pointing, even if the object itself is not constant.
+Syntax:
+Parameters: The function does not accept any parameter.
+Return value: The function returns a constant random access iterator which points to the position before the first element of the forward_list.
+Below program demonstrates the above function: 
+Run on IDE

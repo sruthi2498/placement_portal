@@ -1,0 +1,14 @@
+Given a Binary Tree, check whether the Binary tree contains a duplicate sub-tree of size 2 or more.
+Note : Two same leaf nodes are not considered as subtree size of a leaf node is one.
+Asked in : Google Interview
+
+
+Tree with duplicate Sub-Tree [ highlight by blue color ellipse ]
+[ Method 1]
+A simple solution is that, we pick every node of tree and try to find is any sub-tree of given tree is present in tree which is identical with that sub-tree. Here we can use below post to find if a subtree is present anywhere else in tree.
+Check if a binary tree is subtree of another binary tree 
+[Method 2 ]( Efficient solution )
+An Efficient solution based on tree serialization and hashing.  The idea is to serialize subtrees as strings and store the strings in hash table.  Once we find a serialized tree (which is not a leaf) already existing in hash-table, we return true.
+Below c++ implementation of above idea.
+Run on IDE
+Output:

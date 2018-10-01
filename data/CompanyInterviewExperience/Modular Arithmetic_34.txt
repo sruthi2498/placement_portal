@@ -1,0 +1,12 @@
+Given an array and a number k, find the largest sum of contiguous array in the modified array which is formed by repeating the given array k times. 
+Examples : 
+A simple solution is to create an array of size n*k, then run Kadane’s algorithm. Time complexity would be O(nk) and auxiliary space would be O(n*k)
+A better solution is to run a loop on same array and use modular arithmetic to move back beginning after end of array.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output : 
+Can we use the repeating property of array to get a better solution ?

@@ -1,0 +1,19 @@
+A perfect power is a number that can be expressed as power of another positive integer. 
+Given a number n, find count of numbers from 1 to n that are of type xy where x >= 1 and y > 1
+Examples :
+A simple solution is to go through all powers of numbers from i = 2 to square root of n.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Efficient Solution 
+We divide output set into subsets.
+Even Powers : Simply we need to square root n. The count of even powers smaller than n is square root of n.  For example even powers smaller than 25 are (1, 4, 9, 16 and 25).
+Odd Powers : We modify above function to consider only odd powers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

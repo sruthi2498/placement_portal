@@ -1,0 +1,27 @@
+Online Written Test 
+20 MCQ +  5 Coding Questions 
+F2F 1
+1. There are two sorted arrays . Find the median of array obtained by Merging these two arrays.
+https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
+2. Find Transpose of a Matrix.
+3. Tell me about Garbage Collection . I told him about GC process and different types of GCs available. Then Interviewer asked about Mark and Sweep Algorithm.   
+4. Fill 4 Lt using 5 Lt and 3 Lt Jars.
+F2F 2
+1.  There are tuples given  for each users of a  website (Si,Ei) where Si denotes the when the user entered the website and Ei denotes when the user exits the website .Find the maximum number of users active of website at any time duration.
+2. Given an array that contains both positive and negative integers, find the product of the maximum product subarray
+https://www.geeksforgeeks.org/maximum-product-subarray/
+3. Rotate a Matrix clockwise by 90 degree. 
+4. Puzzle : There are n Prisoners standing in a line with increasing height such that each prisoner can see the hat color of prisoners standing ahead of him but he cannot see his own hat color. Hats are of only two color , Red or Blue. Now each prisoner has to say his hat color. If he is right, he lives otherwise the Jailer will shoot him. Find the strategy to save maximum number of prisoners. 
+5. 
+We want to execute this class in Multi threaded environment such that each thread should have same initial value as 0 .
+Ans: I told him to use ThreadLocal Variable and store i in it . Then we started discussing on Thread Local Variable and Java Memory Model. 
+F2F3
+1. There is a binary stream coming . You need to print true or false based on the fact whether the number formed is divisible by 5 or not. 
+Hint:I used state machine
+2. Print all subset of a Set . 
+3. Implement Dictionary .
+I used Ternary Search Tries.
+4. What is Adapter Design Pattern . Give an Example and draw class diagram. 
+F2F4 (Director Round- Telephonic) 
+It was very short (15-20 mins). Comprised general discussion of my project , the internal architecture of framework i am using. Few Scalablity concepts. 
+

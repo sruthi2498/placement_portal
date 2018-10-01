@@ -1,0 +1,18 @@
+Round 1:
+Validate an infix arithmetic expression string (braces and brackets are similar to parentheses): (1+2)*{[90*3]-[67+8-9]}
+Proposed Ans: Djikstra’s Shunting yard
+Interviewer’s Ans: Parser Tree
+Round 2:
+Given a shelf of books, categorise those books according to any particular property of a book e.g. Alphabetic increasing author’s name, category, date of publish etc. The value of the property of the book has to be fetched from an external service and the call is expensive.
+Constraints: O(1) space, the calls to get the priority of a book should be as minimized as possible.
+Proposed Ans: Quick sort with a priority map associated with the property of the book, a modified partitioning scheme where every element’s priority is fetched once, total of nlogn calls.
+Constraint variation: Minimum swaps.
+Proposed Ans:
+1. Selection sort with O(n^2) time and O(1) space. – n swaps
+2. Bucket sort with O(n) space and time. – 0 swaps
+Round 3:
+Given a very long string and a transformation map, replace all the occurrences of any needle strings with their resultant transformations e.g.
+Run on IDE
+Proposed Ans: Naive solution by processing character by character and replacing the suffix if it matches with any of the needles.                                        
+
+

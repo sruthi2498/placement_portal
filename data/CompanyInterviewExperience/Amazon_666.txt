@@ -1,0 +1,70 @@
+I recently attended a walk-in for Software development Engineer (SDE- 1) at Amazon, Bangalore. 
+Here is my experience of Amazon interview.
+As I was from the same city, there was no phone interview.  I have listed down all questions that I remember.
+Round 1: Data Structures, Algorithms and coding (1 hour)
+Interviewer just started off with questions without introduction and stuff.
+1) Given a singly linked list, swap every 2 nodes, for odd number of input; retain the last node as it is.
+Eg: Input:  5 13 15 18 20 11 6 7
+Output: 13 5 18 15 11 20 7 6
+I was asked to write the code straight-away.
+Wrote the same, verified boundary cases and discussed.
+2)  Given a binary tree, find the number of pairs where sum of 2 nodes’ values equal to k
+Eg:
+Say k=7, output =2 ( 2+5, 3+4)
+Suggested an approach where I’d use inorder traversal of this,
+Then interviewer asked me to solve the simplified problem, find k in sorted array instead of tree.
+Got solution for this one, to have 2 pointers at each end, and traverse accordingly.
+I was asked the approach for extending same to BST.
+Then, I implemented the same for BST using stack.
+Round 2: Data Structures, Algorithms and coding (1 hour)
+1)      Given input as k sorted arrays, generate a single sorted list as output.
+Eg:
+Array1: 1 5 8 9 11 ….
+Array2: 2 12 24 44 …..
+.
+.
+Arrayk: 3 15 79 115 ….
+Output: Array1: 1 2 3 5 8 9 11 12 15 ….
+Discussed the approach, and complexity, then wrote the code for the same.
+2)   Given a function isGreater, compare user defined objects and then return the object that is greater than all other objects.
+Twist: obj1 > obj2 and obj2 > obj3 does not mean obj1>obj3
+I asked for the use case for the same, as I was not convinced with the problem.
+He gave an example of games/ 1 team winning another.
+Discussed the approach and then wrote the code.
+3)      Given an input sentence, output the non repeated words in the sentence.
+4)      How are maps implemented?
+Interviewer then clarified my questions about Amazon.
+Both first and second rounds were at similar difficulty level.
+If the interview feedback was bad for any of these, the candidate was eliminated. If at least 1 of these went well and other “not sure”, then too candidate is called for next rounds.
+Round 3: Hiring Manager round (1 hour 40 minutes)
+Discussed on my current roles and responsibilities
+why do you want to join to Amazon?
+What are your accomplishments in your role so far?
+What are the things that you’re not good at and need to improve?
+Serialization of Binary tree. Given 1 traversal is it possible to re-construct the binary tree.
+Write code to reconstruct the tree given any 2 traversals.
+I took in-order and post-order traversal, discussed the approach and wrote recursive solution.
+Was then asked the approach for iterative.
+Round 4: Culture Fit Round
+This surprisingly had a data structure question first.
+1)      Given a n (large number) lists of customers who visited n webpages on n (large number) days, design a data structure to get customers who have visited the website on exactly “k” days and should have visited at least “m” distinct pages altogether.
+Was then asked to improvise the solution as much as possible
+2)      Details on my previous project and job profile
+3)      Challenging situation faced
+4)      Why should we hire you?
+Then, he answered some of my questions.
+Round 5: Coding, Algorithm and data structures (Technical round with a senior developer)
+Started with questions straight away
+1)      Least common ancestor of a binary tree  (Solution and Code)
+2)      Given a 2 dimensional array sorted vertically and horizontally, search for an element and return true if the element is present. (Algorithm, Code and Complexity)
+Example
+3)      Something on count sort.
+4)      Print binary tree in zig-zag order..
+5)      Gold box problem (Approach)
+There are ‘n’ gold boxes placed in a row, each having different number of gold coins.
+2 players play a game, where the motive is to collect the maximum number of gold coins. Each player can see how many coins are present in each box, but can get a box from either end only, on his turn.
+Design a strategy such that Player1 wins (Assuming both players play smartly)
+I got the hiring call after couple of days, after my last round of interview.  They said feedback was very positive and they’re happy to hire me.  
+Was so happy 🙂 🙂 Thank you..
+Run on IDE
+

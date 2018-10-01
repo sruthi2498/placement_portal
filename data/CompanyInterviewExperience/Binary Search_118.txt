@@ -1,0 +1,13 @@
+Given a number n, find the cube root of n.
+Examples:
+
+We can use binary search. First we define error e. Let us say 0.0000001 in our case. The main steps of our algorithm for calculating the cubic root of a number n are:
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(Log n)

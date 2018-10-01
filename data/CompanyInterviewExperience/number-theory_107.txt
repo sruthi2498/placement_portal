@@ -1,0 +1,24 @@
+Given n, find sum of squares of first n natural numbers.
+
+Examples :
+
+Naive approach :
+A naive approach will be to run a loop from 1 to n and sum up all the squares.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Efficient Approach :
+There exists a formula for finding the sum of squares of first n numbers.
+1 + 2 + ……….. + n = n(n+1) / 2
+12 + 22 + ……… + n2 = n(n+1)(2n+1) / 6
+How does this work?
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

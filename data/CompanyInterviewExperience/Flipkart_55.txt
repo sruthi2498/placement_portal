@@ -1,0 +1,20 @@
+Flipkart has done a drive in Delhi.
+Round 1: Machine Coding
+You are given some equations which may contain > or = on different-different operand. For example there are valid input and invalid (a=5, b<a=50)
+Highlighted one are invalid because they come they ask for overwrite the data (a>b>c = 5; C has e and f so we can overwrite.
+Input: You are given those string in string array
+Output:
+Construct JSON
+Print it
+If you print in same as above (nice manner) +point
+I solved this problem using Trie
+One can see my implementation at here: https://github.com/nitsgupta/practice/tree/master/JAVA/JsonBuilder
+Round 2: Face To Face Algo DS
+1. Do a level order traversal for a tree where order of printing is reversed on each level.
+First i gave O(n2) solution they asked for less complexity solution. I then gave BFS solution by keeping a FIFO queue.
+2. You are given a file of parent child relations. Data is huge consist of millions of lines.
+Provide a data structure to keep data in the memory.
+Provide a solution to keep data in permanent storage.
+3. You are given a 2*2 matrix which contains cost of visiting each cell. You have to find lowest cost path from 0,0 to m,n where cost is minimum.
+You can move only in down and right direction.
+I gave a DP solution with complexity O(mn)

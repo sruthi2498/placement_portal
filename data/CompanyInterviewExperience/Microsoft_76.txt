@@ -1,0 +1,21 @@
+Round 1(Online round):
+This was basically an online round consisting of three coding questions and 90 minutes were given. One was simple ad-hoc, other was string manipulation and the last one was LCA (lowest common ancestor).
+https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/ .
+Round 2(Group-Fly Round): We were given two questions to write code in 45 minutes. First question was that we were given an expression and to reverse the expression of the string for
+ex:
+https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+Second question : It was a question based on Longest Increasing subsequence rather it had to find LIS in a 2-d matrix and it could start from any position and can move in any four direction.
+For ex:- input : –  {{9, 9, 8},{6, 9, 7}, { 2, 1, 7}}
+output : 4           1->2->6->9
+https://www.geeksforgeeks.org/longest-increasing-subsequence/
+Round 3 (Technical Interview): It was vis-a-vis interview. The interviewer asked me about my projects. Then he asked me Page Thrashing in OS, simple questions based on Deadlock. Later on he also asked me to show NAND and NOR are universal gates and to convert an expression using one of the universal gates. Later on he asked me Next Greater number with same set of digits .
+https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+Round 4 (Technical Interview): I was called for the second interview where I was askeda tough question on Probablity and then Dynamic Programming i.e. LCS.
+https://www.geeksforgeeks.org/longest-common-subsequence/
+Round 5 (Technical Interview):  It was the last interview where I was asked whether I was comfortable with linked lists. The questions was that the structure of the node is changed i.e.
+you have to assign next Greater to the correct node .
+For example:-
+output:- linked list in which node value 7  nextGreater points to node value 8, node value 3  nextGreater points to node value 7 and node value 8  nextGreater points NULL since there is no greater element than 8.
+Note :- The interview experience was quite good and they focused on all the core  concepts of computer science subjects. Keep calm and stay polite. GeeksforGeeks was a lot of help to me as it helped me a lot in my preparation.
+
+

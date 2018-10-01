@@ -1,0 +1,18 @@
+A Tic-Tac-Toe board is given after some moves are played. Find out if the given board is valid, i.e., is it possible to reach this board position after some moves or not.
+Note that every arbitrary filled grid of 9 spaces isn’t valid e.g. a grid filled with 3 X and 6 O isn’t valid situation because each player needs to take alternate turns.
+
+Input is given as a 1D array of size 9.
+Basically, to find the validity of an input grid, we can think of the conditions when an input grid is invalid. Let no. of “X”s be countX and no. of “O”s be countO. Since we know that the game starts with X, a given grid of Tic-Tac-Toe game would be definitely invalid if following two conditions meet
+a) countX != countO AND
+b) countX != countO + 1
+Since “X” is always the first move, second condition is also required.
+Now does it mean that all the remaining board positions are valid one? The answer is NO. Think of the cases when input grid is such that both X and O are making straight lines. This is also not valid position because the game ends when one player wins. So we need to check the following condition as well
+c) If input grid shows that both the players are in winning situation, it’s an invalid position.
+d) If input grid shows that the player with O has put a straight-line (i.e. is in win condition) and countX != countO, it’s an invalid position. The reason is that O plays his move only after X plays his move. Since X has started the game, O would win when both X and O has played equal no. of moves.
+e) If input grid shows that X is in winning condition than xCount must be one greater that oCount.
+Armed with above conditions i.e. a), b), c) and d), we can now easily formulate an algorithm/program to check the validity of a given Tic-Tac-Toe board position. 
+Another way to find the validity of a given board is using ‘inverse method’ i.e. rule out all the possibilities when a given board is invalid.
+Run on IDE
+Run on IDE
+Output: 
+Thanks to Utkarsh for suggesting this solution.

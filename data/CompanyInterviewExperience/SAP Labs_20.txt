@@ -1,0 +1,36 @@
+Hi All. SAP Labs visited our campus. The whole process was divided in 5 rounds :
+1) Aptitude and coding round
+2) Technical interview 1
+3) Technical interview 2
+4) Managerial interview
+5) HR interview
+The aptitude and coding roundlasted for 70 mins. It consisted of 25 aptitude (maths + logical reasoning) questions to be solved in 25 mins. After this there were three coding questions.
+First was partial coding, where some part of code was already written and we had to complete 2 functions. The question was to identify whether given 3 integers belong to an AP or a GP. The main function was implemented we had to implement the is_AP or is_GP methods.
+Second was debugging round. A problem statement was given and its code was written, which produced improper output. In our test, there was an error in the shorthand “+” operator in the code.
+Third was complete coding round. A problem statement was given and code for it was to be written. The difficulty level was moderate.
+Platform used for this test was mettl.
+They selected 27 people out of around 400 for interviews.
+We got results and asked to attend the pre-placement talk and interview.
+The first technical interview lasted for 1.5 hrs.He asked me to tell about myself and he was asking what are my hobbies and areas of interest.
+After all this stuff he asked me what are the subjects in which you are good in, and I mentioned C, Java, DBMS, Data Structures qnd C++.
+So he started the round with a java question which is regarding string and asked me to write a program where user gives many inputs and we have to concatenate some strings and return back, this was very simple.
+He asked me difference between arraylist and linkedlist and I mentioned them,then he asked where will you use each of them in real life and i gave some examples for that, then he asked me what is hashmap and how does this work and all.
+Then he askedhow can we put three value in a hashmap and some questions related to that.
+After this he moved to C and started asking questions from that
+what is volatile , what is struct and union i answered all of them
+Now he moved to data structures and asked me to construct a linked list and return only those nodes whose value is even.
+After writing the program he gave an extension of that, we need to delete the node containing even values and we need to make a new linkedlist of only even nodes. After writing program for both he moved to DBMS and started asking questions
+like what is normalization and he gave a scenario and asked me to implement the same after implementing he asked me to write a query depending on joins and i wrote the query which is quite easy.
+After this he asked me to wait outside so that hr will come and contact me.
+I guess they didn’t eliminate anyone after this round.
+The second tech interview last for 40 mins. I explained about my project for 15mins and then they asked different questions regarding that and i answered all of them then they asked what are the mistakes you made in first round ,I told them the mistakes i made and they asked me questions in DBMS and SQL query and difference between outer join and inner join how and when to implement and some queries on date in SQL. How to find if a loop exists in linked list and real life implementation of stack and queue, they were satisfied with the answers and asked me to wait for hr to contact me.
+This time the third round was also technical it also lasted for 40 mins. He asked me in which language i was good in.
+I answered it as C and he asked me to if i know what was palindrome, I was shocked to listen that question in 3rd technical round and i said i know what it is after that he asked me to write a program and i wrote it.
+He told this is correct but don’t use any in-built functions, so i took another array and wrote a program using that.
+He said this is correct but i don’t want to allocate any new memory and to write program without this.Then i wrote a program with this condition then he told this is correct and to write in as few lines as possible.Then I wrote a program in 3 lines he was satisfied and asked me to wait for hr to contact me.
+The last round is HR interview she was asking many questions regarding my weakness and strengths, how do you see yourself after 5 years , what is your long term goal and you have been living in this city for these many years tell me what you like and what you dislike, why SAP labs, how many offers you have in hand, what are my hobbies and tell me about your family and some questions finally she asked me what would be my response if I am offered with tester position, I replied that I will be fine but I would be happy if i was offered developer position and they told that they will inform me later about that and he asked me what is the location I am interested in, I replied.
+Then she asked me if i had any questions I asked some of them and asked how was my performance she asked to wait for results.
+Then I was waiting for results with 3 others and finally we were called inside a hall and all the interviewers said “Welcome to SAPLABS”. Finally they took 4 members from our campus.
+TIPS:- Never give up when a problem is asked just give a try if you are not confident share your idea with the interviewer he will help in deciding whether you are on a correct path or on a wrong one. Try to know how will you implement the data structures and different concepts in real life.The whole idea of the interviewer is to see how much you can push yourself
+and how much effort you give when given a question to solve.
+

@@ -1,0 +1,61 @@
+Oracle visited our campus for the job profile of Application development and server technology. Sharing interview experience of server technology.
+Round-1: Online Test
+There were 4 sections in this round each further divided into some more subsections and each
+subsection had time limit separately.Total time given for this assessment was 2hrs.
+1) Verbal Ability (had 4 subsection including passage reading, grammar checking, fill ups etc)
+2) General Aptitude (DI,logical,Maths,Software Engineering)
+3) Coding Assessment (questions mainly consists of finding the output of given big code(only in c/c++) or what code is doing )
+4) Technical Assessment (DBMS, OS, etc)
+It was conducted on oracle platform. Questions were moderate ,only coding assessment questions were really tough and time was major concern. Among all rounds this was toughest to clear.They shortlisted around 90 students 30 for server technology and 60 for application development.
+Round-2: Technical Interview 
+Interviewer was trying to calm me down by asking basic questions from my resume initially, as I mentioned subject of interest as algorithm,he began by asking all the sorting algorithms I know, their best,avg, and worst case complexity. Then he asked me to write code for any one among them.Then he began asking questions related to:
+1. All the minute details of my resume including projects.
+2. Which is the best sorting algorithm and why?
+3. Questions related to basics of DBMS eq, normalization, 2NF, 3NF, acid properties, etc.
+4. Why generally we don’t normalize till BCNF?
+5. Write query to find second highest salary among all th e employees.
+6. What is cursor,trigger & view?
+7. What is the difference between view and table, can we apply insert,delete and update operation in view?
+Then he mentioned your second technical interview will be held in JAVA.
+Round-3: Second Technical Interview
+This round was bit difficult in 1 hr he asked me to write code for more than 12 questions.
+Mentioning all which I could remember:
+1. Given array of Integers output yes or no if array can be converted to another array in which no adjacent number should be same, expected time and space complexity 0(1).
+2. Given an array output all distinct numbers in the given array in the same order.
+3. Given 2 numbers output number of flips required(in bits) to convert one number to another expected time and space complexity 0(1).
+4. Given a string output yes or no if a string could be converted into palindrome.
+5. Print left view of tree.
+6. Longest common subsequence.
+7. Largest rectangular area in histogram .
+8. Largest Sum Contiguous Sub array.
+9. Given time eg 3:30 write code to print angle between hour and minute hand expected time and space complexity 0(1).
+10. How will you find whether tree is BST without using extra space.
+(then he told me write recursive program for it as i was not able to do without extra space)
+11. A node containing 3 members employee_id,salary,date of joining sort the link list on the basis of date of joining then increment salary by 10% for first 10 and for rest increment in by 20% (this question was asked to one of my friend).
+12. Technical questions like:
+In coding I was not able to code only 1 question thank-god I was shortlisted for next round. This round was major turning point.
+Round-4:Technical + HR Interview
+This round started with a puzzle
+1. How many Dosa would have been made today in this city and the logic behind your answer.
+2. How will you explain what is Internet in layman language.
+3. What have you learned in past 6 months.
+4. From where do you learn stuffs which is currently boom in market.
+5. What you do in your free time.
+6. How do you come to know about all the global companies and their status.
+Round-5: HR Interview
+This round consisted of almost all famous questions which needs to be tackled smartly, candidates got eliminated even in this round. so i would recommend to be prepared for such questions well in advance.
+1. Why Oracle?
+2. Why should we hire you?
+3. Your strength and weakness?
+4. What steps you are taking to overcome your weakness?
+5. Current project you are working on.
+6. A brief about your family.
+7. Your future plans, where do you see yourself after 4 years.
+Tips
+1. Please have strong hold in java.
+2. Don’t panic be relaxed, always keep a smile.
+3. Interviewer helps you in every possible way just keep telling them what approach you are thinking and try to understand hints given by them.
+At last they hired 4 candidate for Application development and 4 for server technology. By gods grace I made through it. I thank geeksforgeeks for helping me during my preparation. This site is the best.
+
+
+

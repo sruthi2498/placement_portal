@@ -1,0 +1,59 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the TCS interview.
+Solution:
+
+We can directly solve:
+=> f(-3) = a(-3)^4 – b(-3)^2 + (-3) + 5 = 2
+=> 81a – 9b – 2 = 2
+=> 81a – 9b = 0
+Now solving f(3),
+=> f(3) = 81a – 9b + 8
+=> f(3) = 0 + 8 = 8(Answer)
+Solution:
+
+Let each student get 1 chocolate each, so the total number of chocolates = 50 * 30 = 1500 chocolates.
+For first 10 days 20 students were present, so total chocolates consumed = 20 * 10 = 200 chocolates.
+Chocolates left = 1300. These are to be distributed for the next 20 days. Therefore in each day 1300 / 20 chocolates were to be consumed which = 65 chocolates per day.
+So the required answer = 65 – 20 = 45 chocolates.
+Solution:
+
+=> log(0.319) = log(0.318) + (log(0.318) – log(0.317))
+= 0.3364 + (0.3364 – 0.3332)
+= 0.3364 + 0.3332
+= 0.3396 (Answer)
+Solution:
+
+There are in all 20 places out of which if one girl sits in one position then the other girl may sit either to her left or right skipping one place, which is to be filled by a boy. So total number of ways the boys can sit = 18! ways and girls may alternate there sits so the total answer would be = 18! * 2 ways.
+Solution:
+
+We just need to calculate the percentage he scored in each paper.
+In paper A: (18/70) * 100 = 25.7%
+In paper B: (14/30) * 100 = 46.6% (Answer)
+Solution:
+ Let’ calculate the difference in the number of latitudes = 70 + 10 = 80 degrees towards east.
+We know 1 degree = 4 min, so 80 degrees = 80 * 4 = 320 mins
+320 mins = 5 hr 20 minutes
+Now the plane landed 10 hours later so time of landing = 12 hrs accoding to the starting place
+So time at destination = 12 hrs – 5 hrs 20 min = 6 hr 40 mins(Answer)
+Solution:
+ Let’s try to find the relative speed = 45 – 9 = 36km/hr
+= 36 * 5/18 = 10m/s
+Now the total distance needed to be covered by the train to completely cross the athlete = 240 + 120 = 360m
+So time = dist/speed = 360/10 = 36 seconds
+Solution:
+
+A completes 1/3rd of work in one-day and B completes 1/2 of work in one day. So the ratio of there work is:
+A:B = 2:3
+So A’s share = (2/5)*150 = 60 rupees(Answer)
+Solution:
+
+Let Rams and Shyams salary be ‘x’. The ratio of there salary according to the question is 2x:3y
+According to the question,
+(2x+4000):(3x+4000) = 40:57
+On solving we get 3x = 34000
+Therefore, the present salary of Shyam is Rs. 38000
+Solution:
+
+Let the sum of money be Rs ‘x’. So SI = 2x/5
+So, rate = (SI*100)/(P*Time)
+=> (2x*100)/(5*x*10)
+=> 4 % (Answer)

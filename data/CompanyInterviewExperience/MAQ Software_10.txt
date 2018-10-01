@@ -1,0 +1,55 @@
+ 
+MAQ Software Interview Experience (On-Campus FTE+Internship)
+There were four rounds.
+Round 1:
+This round was an offline written round.It consisted of 30 aptitiude questions and the given time was 30 mins.
+Topics:
+There was negative marking for wrong answers.
+Round 2:
+This round was an offline coding round. It consisted of two questions.Time alloted was 30 mins.
+Q1. Print matrix in a spiral order.
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+Q2. Snake-Ladder problem.
+https://www.geeksforgeeks.org/snake-ladder-problem-2/
+One could write pseudo code/algorithm/full code.
+Around 18 people were selected for the interview rounds based on the previous two rounds(but the weightage of the first round was more).
+There were total 2 interview/technical rounds.
+Technical interview round 1:(40 mins)
+1. Tell me about yourself.
+2. About the family background.
+3. Rate yourself in data structures(array,string,binary tree,BST etc).
+4. What is indexing in DBMS? Types of indexing? How you can implement indexing using B-tree and B+ tree? Lot of discussion on B-tree and B+ tree-insertion and deletion.
+5. What is BST? Give a real-life example.
+6. What are the types of link list? How to detect and remove a loop in link list?
+7. Lot of questions was asked based on my projects( Machine Learning and neural network).
+8. Given a range, count the no of times the 7th digit will occur. Implement in both recursive and iterative form.
+Eg: if range is 1-20, count=2
+9. Reverse a string in one pass.
+Eg: if input string is “my name is mohan”
+output is : “mohan is name my”.
+http://stackoverflow.com/questions/1009160/reverse-the-ordering-of-words-in-a-string.
+There were some HR questions like:
+1. What is your future goal.
+2. Preferred location(Mumbai/Hyderbad).
+3. Questions related to team management.
+7 students were selected for 2nd technical round.
+Technical interview round 2:(1 hr)
+1. Wap to print all permutations of a given string
+eg. Input string is “ABC”
+output will be:
+ABC
+ACB
+BAC
+BCA
+CBA
+CAB
+https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+2. Serialize and Deserialize a Binary Tree
+https://www.geeksforgeeks.org/serialize-deserialize-binary-tree/
+Write the full code with all base cases.
+3. Apple puzzle.
+https://www.youtube.com/watch?v=o6nbg69Ml4c
+4. How many squares in a chessboard.
+Total 4 students were selected from our campus.
+I thank GeeksforGeeks as it helped me a lot to prepare for interviews.
+

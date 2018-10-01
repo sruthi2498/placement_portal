@@ -1,0 +1,20 @@
+Given a natural number n, the task is to find sum of divisors of all the divisors of n.
+Examples:
+
+Using the fact that any number n can be expressed as product of prime factors, n = p1k1 x p2k2 x … where p1, p2, … are prime numbers.
+All the divisors of n can be expressed as p1a x p2b x …, where 0 <= a <= k1 and 0 <= b <= k2.
+Now sum of divisors will be sum of all power of p1 – p10, p11,…., p1k1 multiplied by all power of p2 – p20, p21,…., p2k1
+Sum of Divisor of n
+= (p10 x p20) + (p11 x p20) +…..+ (p1k1 x p20) +….+ (p10 x p21) + (p11 x p21) +…..+ (p1k1 x p21) +……..+
+   (p10 x p2k2) + (p11 x p2k2) +……+ (p1k1 x p2k2).
+= (p10 + p11 +…+ p1k1) x p20 + (p10 + p11 +…+ p1k1) x p21 +…….+ (p10 + p11 +…+ p1k1) x p2k2.
+= (p10 + p11 +…+ p1k1) x (p20 + p21 +…+ p2k2).
+Now, the divisors of any pa, for p as prime, are p0, p1,……, pa. And sum of diviors will be (p(a+1) – 1)/(p -1), let it define by f(p).
+So, sum of divisors of all divisor will be,
+= (f(p10) + f(p11) +…+ f(p1k1)) x (f(p20) + f(p21) +…+ f(p2k2)).
+So, given a number n, by prime factorization we can find the sum of divisors of all the divisors. But in this problem we are given that n is product of element of array. So, find prime factorization of each element and by using the fact ab x ac = ab+c.
+Below is the C++ implementation of this approach:
+Run on IDE
+Output:
+Optimizations : 
+For the cases when there are multiple inputs for which we need find the value, we can use  Sieve of Eratosthenes as discussed in this post.

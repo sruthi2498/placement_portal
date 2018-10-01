@@ -1,0 +1,53 @@
+Dear, I just got hired by Amazon in my campus placement drive. Below are the details of my selection process with amazon.
+Fist Round(Online):
+20 MCQ questions and 2 Coding Questions .
+Coding Questions :
+1. Merge overlapping intervals(Very well known repeating problem).
+2. Given a singly linked list you have to subtract the value of first node from the last node and so on until you reach the   middle node.
+Eg: Input:   5 -> 4 -> 3 -> 2 -> 1
+   Output:  4 -> 2 -> 3 -> 2 -> 1
+F2F-1:
+1) Given a sorted circular link list and a pointer to random node, now insert a new node. I did it , but i used if and else for some special cases in my code so he asked me to do it without if else for special cases (generic & simple code ).
+2) Given a pointer to node in tree and a root pointer. Print all the nodes which are at a distance k from the given node.
+F2F-2:
+1) He gave me task scheduling problem:
+Given a set of modules, some modules depend on previous modules and can only be executed, if the requirements of that module is complete. 
+so he asked me to give a schedule for above modules such that when a module is executed then all requirements of that module are complete.
+so answer would be D E C B A
+2) Given a string of letters from alphabet. Remove all pairs(2 consecutive same character) of characters which occur consecutively.And do it recursively on remaining string. 
+Hint: He asked me to use some data structure for it .
+3) Given a binary tree set the sibling pointers . I told him that i already know the question so he said code it .
+4) He asked me about hashing .
+4.1 He asked me about complexity . I told him about O(logn) and O(1) .
+4.2 Then he asked me about how do you get O(1). I told him my approach . He said how will you rehash it when required . I told him that i will use extra memory and copy the hash map . Then i Optimized and did it in-place using a Boolean field.
+4.3 Then he took this question to OS and asked me to do it using threads .
+4.4 Asked me what all problems you will need to take care about this problem while using threads and give solution to it.
+5) Discussion on my projects 
+F2F-3:
+He gave me 3 coding questions :
+1) Given a number n find the number of valid permutations of a string formed using characters ‘(‘ and ‘)’ . A string is valid if it has matching opening and closing parenthesis .
+Eg: given n=2 so you can have 2 possible  permutations which are valid (()) and ()() .
+2) Given a singly link list reverse every 3 nodes and if nodes are less than 3 then reverse them also. 
+3) Given a string of letters from alphabet insert frequency of each character in the string. 
+Time Complexity Required O(n) Space Complexity Required O(1)
+Fourth Round (Bar Raiser):
+It was a telephonic round with a collabedit screen shared on our laptops.
+1) Tell me something about yourself .
+2) He saw that i had given a seminar on cloud computing and sky computing so he started with cloud computing .Then he asked me why didn’t cloud computing exist 15 years ago .
+3) What do you understand by 32 bit and 64 bit OS ? . He asked for explanations in terms of hardware and software . Then he asked me that will a 16 bit program run on 64 bit OS without any problem . He asked me what can be the reason for problem faced .
+4) What happens when you type www.amazon.in in your browser ? . He asked me for the set of activities that take place during this time . Then he went into asking how do you get to know the IP address of your ISP . Then after a lot of discussion he was satisfied .
+5) Some questions about Complexity of a algorithm . Asked me to prove complexity of few sample codes .
+6) Some questions about storage space of a variable( data segment , stack , heap , BSS ). Some questions about Macro preprocessors and there problems & solutions .
+7) Some questions about error in sample code given (like returning non compatible pointer type or returning address of a local variable etc )
+8) In DOS and Linux shell when we press the up arrow we get the recently used commands . He asked me to implement this facility. Then he asked me to do it if memory bound was very tight .
+9) This was a question to check my analytic skills . We have customers using www.amazon.in for buying phones. Let say we have a user who visits www.amazon.in for buying mobile phone . He selects a mobile then fills his address details and then when he finally goes for payment then he gets to know that this phone is not available . So how can you improve the over all user experience . Then he asked me that will you suggest redirecting the user to some other site if the product is out of stock . 
+10) Some HR Questions like What are your areas of your Weaknesses ? What are you doing to improve on them ? 
+It was an amazing experience. Thanks a lot to GeeksforGeeks for helping me get my dream job 🙂
+Suggestions/Tips :
+1) Discuss your approach as many times as possible.
+2) Don’t start Coding the problem until the interviewer asks you to do it.
+3) Tell everything that you are thinking about the problem. They are more interested in knowing how you are approaching the problem.
+4) Asks for hints if you are stuck up. They will help you.
+5) If you don’t know answer to a question then please say it directly. It will save time for other questions.
+6) First be confident about your approach then only code it.
+

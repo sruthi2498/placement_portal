@@ -1,0 +1,37 @@
+I had a campus interview of Nvidia Software profile for their infrastructure team at Bangalore and here is my experience.
+Written Test
+15 questions on C/C++ that dealt with Bit manipulations, C++ concepts, Virtual functions, abstract classes, output programs, extern variables, Compilation errors etc.
+Around 10 questions on Data structures that had questions from sorting, heaps, and other concepts of DS.
+Around 8 questions on OS that included questions on semaphores, TLB, threads, process scheduling etc.
+8 questions on analytical ability that included a few quantitative puzzles and some logical reasoning.
+Overall the level of questions were good as all of them made us think.
+20 students were shortlisted for interviews. I had topped this list 😉
+Interviews were conducted by 2 separate teams. Each team interviewed a candidate at most once.
+Round 1:
+Before entering the room they had analyzed my CV.
+1) Why are your grades low in the first few sems? I explained that I did a few projects that diverted my focus from academics.
+2) They noticed that I had published a paper in electronics so they asked me to explain in depth the work done for it.
+3) Questions on a few more projects.
+4) Find the 3/4th node in a linked list.
+5) Which of the following sorting algorithms uses the least number of swap operations. a. Heapsort b. Selection sort c. Quicksort d. Insertion sort
+I had answered this question incorrectly in my written test so had to find the correct solution in front of them.
+6) Memory map of a C program.
+7) Concepts of C++ like Virtual functions, Inheritance, Constructors, static variables etc.
+8) How are virtual functions actually implemented. Ans- Virtual pointer table
+9) Given two different processes wanting to read each others variables that were defined in their source code. How can we implement that?
+10) Do you want to go for higher education?
+11) I was asked that even though I had a strong hardware profile why was I interested in NVIDIA software. I replied that both of my skillsets were strong and would be put to good use at NVIDIA which works on both of them.
+11) A few more DS questions that I don’t remember.
+I was shortlist for the second round
+Round 2:
+This was taken by a senior engineer
+1) Tell me about yourself. I tried to show them that I am passionate for NVIDIA.
+2) What is NVIDIA CUDA? I was asked this as I had mentioned it in my resume.
+3) Write a sample program in CUDA. I wrote a reduce function to sum an array.
+4) How do we synchronize threads in CUDA?
+5) Find output of a given program which had static variables in recursion.
+6) I had mentioned that I simulated multi-planetary orbits in a project and interviewer looked particularly interested in it so I was asked questions about ellipses, their foci. radius and eccentricity.
+7) Explain how virtual functions works by writing a sample program.
+8) What are virtual destructors? (I had no idea)
+9) Give an example of runtime polymorphism in C++. I said we can achieve this using function pointers. Not sure if correct.
+

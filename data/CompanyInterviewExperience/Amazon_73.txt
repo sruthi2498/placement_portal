@@ -1,0 +1,33 @@
+The online round was hosted in HackerEarth platform. It had 20 MCQ’s of 1 mark each and 0.25 negative mark and 2 coding questions of 10 marks each. The MCQ’s was mostly from Data Structures and Operating Systems, and few questions from networking, DBMS and 1 Java question. 
+After clearing online round there were 3 technical round and 1 bar raiser round. 
+Resume was taken before interviews. 
+Round 1: 
+In this round, the interviewer asked about my coding and scholastic achievement. 
+1. Favorite subject and questions on that topics.  
+2. Basic question on space and time complexity 
+3. Write a program to print all permutations of given string and discuss its working as well as space and time complexity in detail. https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/.  
+4. Write a program to find number of shapes in Boolean matrix. https://www.geeksforgeeks.org/find-number-of-islands/.  He asked me about time complexity and space complexity. At the beginning space complexity of my solution was O(mn). I presented 4 methods and reduced its complexity to O(1). I solved it by both dfs and bfs. 
+Round 2: 
+In this round, the interviewer asked me to introduce myself and short discussion on my resume project 
+1. Write a program for Lowest Common Ancestor in a Binary Tree. https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/.  
+2. Write programs for Fractional Knapsack and 0/1 knapsack code of recursive solution and its optimization (concept of dynamic programming). https://www.geeksforgeeks.org/knapsack-problem/.  
+3. Write a program and approach for Minimum no. of iterations to pass information to all nodes in the tree. https://www.geeksforgeeks.org/minimum-iterations-pass-information-nodes-tree/. I was very close to the solution and he was very impressed by my approach of recursion. He interrupted me between the solution and asked further questions. 
+4. Approach for K smallest element in array. https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/. I presented 3 solutions and heap solution then he asked me about heap and its time and space complexity. 
+5. Approach for Largest Rectangle in Histogram. https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/. I presented two solutions naïve solution and stack based solution. 
+Round 3: 
+In this round, the interviewer asked me about my resume project and deep discussion on my projects. 
+1. Write a program to find position of an element in a sorted array of infinite numbers. https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/. I presented 3 solutions in most optimized way. 
+2. Question on computer science fundamentals. Detailed explanation of virtual memory, paging page faults etc. 
+3. Write a program for Minimum Number of Platforms Required for a Railway/Bus Station. https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/. 
+4. Write a program to count set bit of a number. https://www.geeksforgeeks.org/count-set-bits-in-an-integer/. I presented 3 solutions and he was impressed by my last solution of using concept of last bit set using formula x&-x.  
+5. Last question similar to the concept of this question sort numbers stored in different machines. https://www.geeksforgeeks.org/sort-numbers-stored-on-different-machines/.  
+Round 4: 
+This round was based on designing problems.  
+Min Cash flow among friends. https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/. I solved by n^2 and nlogn complexity. In nlogn I used the concept of heap.  
+ 
+In each round interviewers were giving test cases to run on the programs and expecting very neat and clean code. 
+So I would recommend to have experience of competitive coding for depth knowledge of code and then follow geeksforgeeks. It has all the problems. 
+Before 2-3 of campus recruitment I would recommend to solve all problems of interviewbit with the help of geeksforgeeks. 
+
+
+

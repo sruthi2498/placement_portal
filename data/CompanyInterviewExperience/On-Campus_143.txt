@@ -1,0 +1,26 @@
+Airtel visited my campus (NSIT, New Delhi) for the position of Software Developer at Wynk.
+Round 1: Coding test on hackerrank. 2 questions were asked to be done in 1.30 hours.
+First Question – https://www.geeksforgeeks.org/minimum-insertions-to-form-a-palindrome-dp-28/
+Second Question – You are given a 2-D matrix with M rows and N columns.You are initially positioned at (0, 0) which is the top-left cell in the array. You are allowed to move either right or downwards. The array is filled with 1’s and 0’s. A 1 indicates that you can move through that cell, a 0 indicates that you cannot move through that cell. Return the number of paths from top-left cell to bottom-right cell.(i.e. (0, 0)to(M-1, N-1)). Since answer can be large thus you have to return ans%(10^9+7).
+20 students were shortlisted based on this test.
+Round 2:  He started off with my CV and in depth discussion of the projects. This was followed by a simple puzzle.
+https://www.geeksforgeeks.org/puzzle-23-days-of-month-using-2-dice/
+He next asked me the data structure, I was most comfortable with.
+On answering Linked Lists, I was asked to sort a given unsorted LL.
+He was convinced after my explanation of the pseudocode.
+He then asked,
+Given a matrix of randomly distributed 0s and 1’s, calculate the maximum number of islands and print the area of largest island. An island was formed by connecting 1’s and area is the number of cells 1s in the island.
+He just asked the approach so I used DFS to calculate number of islands.
+After this, i was asked another puzzle – https://www.geeksforgeeks.org/puzzle-7-find-the-jar-with-contaminated-pills/
+Some people were eliminated after this round.
+Round 3: This was supposed to be a purely technical round. But after having a deep discussion on my CV, I was asked HR questions like what are your Strengths, Why do you want to join WYNK, What do you know about WYNK, etc. Then he asked me difference between backend and frontend. That’s it!
+Round 4: I was one of those fortunate people who made it till the HR. HR was pretty chill. My HR interview lasted for 5-10 mins only. I was asked questions like-
+-> Tell me something about yourself which makes you stand out?
+-> Bugs of things you don’t like about WYNK app
+-> Memorable Experience of College life
+-> Why should we not hire you?
+That was all.
+After 30 mins, the results were declared and i got selected for the position.
+ 
+ 
+ 

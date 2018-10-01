@@ -1,0 +1,20 @@
+List has been discussed in many articles, but the sole purpose of this article is to cover all types of insertions that are possible to be carried in a list container and to give a detailed insight on the insertion operations.
+List and its many functions are defined under the header file “list” . Various list insertions functions are discussed below.
+assign() function is used to insert multiple elements in a list in a single operation. “assign()” works in following ways : 
+Run on IDE
+Output:
+
+
+Run on IDE
+Output:
+
+
+Run on IDE
+Output:
+
+
+. This function takes 3 elements, position, number of elements to insert and value to insert. If not mentioned, number of elements is default set to 1.    
+
+Run on IDE
+Output:
+

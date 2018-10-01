@@ -1,0 +1,49 @@
+Oyo conducted placement drive for SDE -1 at our college ( LNMIIT ). They first conducted the online round
+Online round consisted of 2 coding problems and around 20 MCQ’s
+First question was:
+Given a source and destination in a NxN maze find the shortest path between them, some of the cells are occupied and one cannot find path through them.
+https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path/0
+Second question was:
+Given d,  a,  b and an array of integers. You can add/subtract a and b to d any number of times. You have to find the count of array elements which can be formed by applying these operations to d.
+                                  30 students were selected for the F2F interviews out of 150.
+F2F Round 1:( 90 mins)  The interviewer asked me to tell about myself and my projects . Then he asked me to explain one of my project which was on ML. Then he shifted his focus towards data structure and algorithms .He asked 3 problems
+Problem 1 : https://www.geeksforgeeks.org/even-numbers-even-index-odd-numbers-odd-index/
+Problem 2 : https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
+Problem 3 : Given an array arr[] of size n and a number x . Count and print all sub-sequences with sum x.
+an easy version of this problem is attached below
+https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+The problems that were asked I found them a little bit tough to solve. Though i got to the exact solutions that was expected but i took my time and I found problem 2 to be toughest of the 3.
+Advice- Be confident and take your time and keep on telling interviewer about what you are thinking and what your thought process is .He is more keen to see your thought process rather than your final solution 
+                                          21 students were selected for the second round.
+ 
+F2F Round 2: (135-150 mins…..a very long round …even i was astonished …though in this round only the interviewer got very impressed from me) :
+Problem 1: https://www.geeksforgeeks.org/count-pairs-with-given-sum/
+Problem 2: https://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/
+Problem 3: https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+Problem 4: https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+Problem 5: https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array/
+Problem 6: https://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/
+Problem 7: https://www.geeksforgeeks.org/lru-cache-implementation/
+I answered every one of them and i found them quite easy and by now i was more confident then ever  and kept on answering with more confidence
+Now the interviewer shifted his focus on computer science fundamentals and asked me to explain the things that he is going to ask in detail
+he started with DBMS
+DBMS -Indexing, ACID properties, Normaliztion.
+then he moved on to OS
+OS- define Synchronization, define critical section, define deadlock, brief on bankers algorithm, method to remove deadlocks, define paging.
+Advice – Interviewers are always cool and they always ensure that the interviewee is comfortable.Its all about confidence and patience . Your hard work will always get rewarded.
+They decided to take 3rd round for some students . Some students were already placed by now. I am so unlucky af but as it turns out your patience and hard work is always rewarded .
+ 
+F2F Round 3:( 90 – 100 mins ) 
+He started with 2 problems on designing stuff . I am not able to recollect both of them exactly but one was on designing minesweeper game
+now he shifted his focus on data structures and algorithms
+Problem 1: https://www.geeksforgeeks.org/count-ways-reach-nth-stair-using-step-1-2-3/
+Problem 2: https://www.ideserve.co.in/learn/find-minimum-length-sub-array-with-sum-k
+now he asked some basic things in OS and DBMS which were already asked to me in my 2nd round also I answered them very quickly
+now he took a sort of HR round which lasted for 10 mins and basically he was asking about my self and also asked me if i want to ask something .I asked him about his work and daily life at oyo rooms
+Round 3 over . Now comes the best part . I was given FTE at oyo rooms and my happiness was on another planet 
+13 students were given offer at oyo rooms.
+Final Advice – Practice makes a man perfect.Keep on practicing and your hard work will always be rewarded.You just have to be patient and confident.
+ 
+ 
+ 
+ 

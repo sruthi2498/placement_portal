@@ -1,0 +1,11 @@
+Given a number n then print number in Digital form.
+Examples :
+Explanation:
+Take a matrix of size 5*5 and store 0 and 1 in the matrix. If matrix cell is 0 then it is used for space and if matrix cell is 1 then it is used either for horizontal or vertical line.
+If row number is even then print the horizontal (-)  line and if row number is odd then print the vertical ( | )  line.
+
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

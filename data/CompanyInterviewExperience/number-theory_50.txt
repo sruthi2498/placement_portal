@@ -1,0 +1,42 @@
+Given L and R, find a possible non transitive triplet (a, b, c) such that pair (a, b) is coprime and pair (b, c) is coprime but (a, c) is not coprime.
+Eg: (2, 5, 6) is a non transitive triplet as pair (2, 5) is coprime and pair (5, 6) is coprime but pair (2, 6) is not coprime
+Examples: 
+
+Input : L = 2, R = 10
+Output : a = 4, b = 7, c = 8 is one such triplet
+Explanation (4, 7, 8) is a possible triplet (while there are also other such triplets present in this range), Here, pair (4, 7) is coprime and pair (7, 8) is coprime but the pair (4, 8) is not coprime
+Input : L = 21, R = 47
+Output : a = 23, b = 25, c = 46 is one such triplet
+Explanation (23, 25, 46) is a possible triplet (while there are also other such triplets present in this range), Here, pair (23, 25) is coprime and pair (25, 46) is coprime but the pair (23, 46) is not coprime
+Method 1 ( Brute Force) : 
+We generate all possible Triplets between L and R and check if the property holds true that pair (a, b) is coprime and pair (b, c) is coprime but pair (a, c) isn’t.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of the Brute Force Solution is O(n3log(A)) where A is the smallest number of the triplet.
+Note: The log factor of the complexity is that of computing the GCD for a pair of numbers.
+Method 2 (efficient):
+Since we need only one such possible pair, we can use this to breakdown our complexity further.
+We just need to identify some cases and look to solve those to solve this problem.
+Case 1: There are less than 3 numbers between L and R.
+This Case is easy, we cant form any triplets so the answer is this case would always be ‘Not Possible’
+Case 2: There are more than three numbers between L and R.
+Now,
+Its a well known proof that consecutive numbers are always coprime. We can even prove this easily.
+So, if we take three consecutive numbers of the form 2k, 2k + 1, 2k + 2 we would always end up having a possible triplet because as proved above, pairs (2k, 2k + 1) and (2k + 1, 2k + 2) being pairs of consecutive numbers are coprime and the pair (2k, 2k+2) have their gcd as 2 (since they are even).
+Case 3: When there are exactly 3 numbers between L and R
+This is extension of case 3, now this case can have 2 cases,
+Case 3.1 When the three numbers are of the form 2k, 2k + 1, 2k + 2
+We have already looked at this case in case 2. So this is the only triplet and also is a valid triplet between L and R.
+Case 3.2 When the three numbers are of the form 2k – 1, 2k, 2k + 1
+We have already seen that (2k – 1, 2k) and (2k, 2k + 1) being pair of consecutive numbers are coprime pairs so we need to check if the pair (2k – 1, 2k + 1) is coprime or not
+It can be proved that the pair (2k – 1, 2k + 1) is always coprime as shown below
+Thus, in this case we wont be able to find any possible valid triplet.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity of this method is O(1).

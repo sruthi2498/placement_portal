@@ -1,0 +1,31 @@
+About Polycom
+Polycom is a multinational corporation that develops video, voice and content collaboration and communication technology. Polycom employs approximately 3,800 employees and had annual revenues of approximately $1.4 billion in 2013. It is the largest pure-play collaboration company in its industry. The company also licenses: H.264 video codecs, Siren codecs, session initiation protocol, Native 1080p high-definition cameras and displays, Native 720p and 1080p high-definition encoding/decoding, low-latency architecture and low bandwidth utilization, wideband advanced audio coding with low delay (AAC-LD), multichannel spatial audio with echo cancellation and interference filters to eliminate feedback from mobile devices, Optimized environmental conditioning to provide the audio and video experience; and inter-operation with legacy video conferencing (Source: http://en.wikipedia.org/wiki/Polycom)
+Round 1(Written)
+So, the procedure started with the written round, it had 60 questions consisting of quantitative aptitude, logical reasoning and technical(c/c++, operating systems, computer networks, data structures and algorithms).
+Around 120 sat for this round and they shortlisted 17.
+Round 2(Technical Interview 1)
+The interviewer started from the basics, and then gradually elevated the difficulty level(overall it was easy), the questions asked by him were-
+Q1. You are given a 32 bit unsigned integer and you have to set the 7th bit in the number.
+Q2. Create a structure for link list and insert two nodes in it(write the code). (Since i know STL as well, first i coded it in C and then used STL as well)
+Q3. You are given a pointer to a node in the link list(starting pointer is not given) and you have to delete that node.
+Q4. Clearly explain the TCP/IP protocol stack alongwith the functioning of each layer.
+Q5. How does a router routes a packet.
+Q6. How does a router uses longest prefix matching to route a packet.
+Q7. What is page fault.
+Q8. How does a page fault is serviced. (had to tell all about demand paging, modification/dirty bit of a modified page to be replaced)
+Then he asked me about any networking course i have taken in my Master’s coursework, i told him that i didn’t.
+
+Round 3(Technical Interview 2)
+The interviewer asked whether i am interested in networking or not, i told him yes i am, but i have only theoretical knowledge about all the protocols and procedures and have very little practical knowledge about it. He said it is enough to answer his questions.
+Q1. How ping is implemented(told him about the ICMP)
+Q2. How can you calculate the round trip time and bandwidth of the network using Ping.
+Q3. Can you measure congestion in the system using Ping and how?
+Q4. Explain different algorithms that applies in networking domain.
+Q5. How Minimum Spanning Tree is useful in Networking Domain.
+Q6. Define Articulation Points and what is its significance in networking.
+Q7. You are given an array of 0s, 1s and 2s, you have to sort it. (calculating the number of 0s,1s and 2s is not counted as the solution for this problem).
+Q8. What is Denial of Service attack and what is its remedy?
+Q9. What is Distributed Denial of Service attack?
+He was going through my resume and asked me about my GATE notes.
+Round 4(HR)
+They shortlisted 6 candidates and asked them to sit in a room and gave two sheets consisting of 50 statements each, the first sheet had 50 positive statements and the 2nd had 50 negative statements and we had to decide whether they are most significant/significant/least significant to us. (we had to answer any 15 of them).

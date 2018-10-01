@@ -1,0 +1,17 @@
+Recently Morgan Stanley visited our campus for jobs and interns. I had applied for the position of an intern and there were two rounds for us :
+Round 1 : Online Written Test – 90 mins
+Part 1: Aptitude and Language proficiency  :         45 mins
+            It consisted  of 10 questions on general aptitude . They were fairly easy but time consuming. After attempting these 10 questions, we were asked to choose any language of our choice – C, C++ or JAVA and based on the selection, there were 20 questions based on that language. For C, most of the questions were to predict the outputs. There was +1 for each correct answer and -0.25 for each wrong answer for all the 30 questions of both sections.
+Part 2: Coding:                                    45 mins
+            There were 3 coding questions.
+1. You have to generate an even number which is just larger than the given input number and using the same digits of the given number.
+2. Consider 2 = +1-2+3,  4 = -1+2+3. Any integer can be represented in this manner. For an input integer, print the number of terms needed to generate that number. For eg. it is 3 for 2 as well as for 4 in above examples.
+3. Given an 2D matrix and an angle (multiple of 90 degrees), print the matrix after rotating it by that angle.
+There are sectional cut-offs for each section( aptitude, language proficiency and coding), so do attempt sufficient number of questions from each section.
+Round 2 : Personal Interviews: 
+Personal interviews consist of two sections – technical interview and HR interview.
+For the technical interview, a mixture of questions were asked based on arrays, linked lists, trees and hash maps.
+Cant remember any specific one but were fairly easy.
+For the HR interview,  normal personal questions such as tell me about yourself, why Morgan Stanley , etc, were asked.
+TIP: Score good in coding round and technical interview to grab the opportunity. BEST OF LUCK.  🙂
+

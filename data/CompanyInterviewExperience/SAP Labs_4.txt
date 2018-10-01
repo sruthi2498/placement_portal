@@ -1,0 +1,21 @@
+
+SAP Labs visited our campus for 2-month intern for B.Tech students. They had a CGPA cutoff of 7. There was an online test as the first round for selection.
+Around 400 students sat for the test and only 11 were selected.
+Online Round 
+The test was of 1 hour and comprised of 20 questions spread across OOPS, Java(Important Data Structures default functions like PriorityQueue poll and offer functions), 2 aptitude questions and 2 coding questions
+Technical Interview Round 1
+I had a lot of projects and work experiences on my resume. Round 1 went totally as per what I was dictating. I told him briefly about all my projects and experiences in a storyline and he was pretty impressed. For the first 45 minutes, it was only me who was doing the talking and the interviewer was listening to me very patiently.
+He started to ask questions on MVC framework, RESTful APIs, Server side languages on the basis of the projects and resume.
+He then asked me about the use of static, concepts of OOPS, dynamic polymorphism.
+He asked me to write a simple recursive program and evaluate its time complexity.
+After all this discussion, he asked me to solve a design problem.
+It is a currency exchange company with branches all over India. When someone comes to inquire, the teller fetches the current currency rate and tells the person. When he exchanges money, all transactions have to be stored in the database with information about the person.
+Design a Database schema and flow for the purpose. 
+I took around 20 minutes to come up with a design for the same.
+Technical Interview Round 2
+We had a discussion over git and github. He asked me about various git commands. This round was a very procedural round he started off with Dynamic polymorphism and went on to DBMS. Asked me about reasons of normalization and Asked me to write a table in BCNF form.
+2 coding questions were asked: 
+With this, my 2nd round ended, I went to the HR Round, it had some very basic questions and I asked about the internship profile.
+At the end of the HR Round, I was told that I am selected, and Welcome to SAP.
+I would like to thank Geeksforgeeks for helping me out throughout the process and helping me prepare for the internship season.
+ 

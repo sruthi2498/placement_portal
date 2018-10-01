@@ -1,0 +1,10 @@
+Given an array arr[] and an integer k, we need to print k maximum elements of given array. The elements should printed in the order of the input.
+Note : k is always less than or equal to n.
+Examples:
+Method 1: We search for the maximum element k times in the given array. Each time we find one maximum element, we print it and repalce it with minus infinite (INT_MIN in C) in the array. The time complexity of this method is O(n*k).
+Method 2: In this method, we store the original array in a new array and will sort the new array in descending order. After sorting, we iterate the original array from 0 to n and print all those elements that appear in first k elements of new array. For searching, we can do Binary Search.
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n Log n) for sorting.
+Auxiliary Space : O(n)

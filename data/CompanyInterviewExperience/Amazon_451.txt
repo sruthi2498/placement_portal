@@ -1,0 +1,27 @@
+Given an array of integers, write a function that returns true if there is a triplet (a, b, c) that satisfies a2 + b2 = c2.
+Example:
+Method 1 (Naive)
+A simple solution is to run three loops, three loops pick three array elements and check if current three elements form a Pythagorean Triplet.  
+Below is the implementation of above idea :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of the above solution is O(n3).  
+ 
+Method 2 (Use Sorting)
+We can solve this in O(n2) time by sorting the array first.  
+1) Do square of every element in input array. This step takes O(n) time.
+2) Sort the squared array in increasing order. This step takes O(nLogn) time.
+3) To find a triplet (a, b, c) such that a2 = b2 + c2, do following. 
+Below is the implementation of above algorithm :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time complexity of this method is O(n2).
+

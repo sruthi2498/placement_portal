@@ -1,0 +1,18 @@
+unordered_map is an associated container that stores elements formed by combination of key value and a mapped value. The key value is used to uniquely identify the element and mapped value is the content associated with the key. Both key and value can be of any type predefined or user-defined.
+    Internally unordered_map is implemented using Hash Table, the key provided to map are hashed into indices of hash table that is why performance of data structure depends on hash function a lot  but on an average the cost of search, insert and delete from hash table is O(1). 
+Run on IDE
+unordered_map vs unordered_set : 
+In unordered_set, we have only key, no value, these are mainly used to see presence/absence in a set. For example, consider the problem of counting frequencies of individual words. We can’t use unordered_set (or set) as we can’t store counts. 
+unordered_map vs map : 
+map (like set) is an ordered sequence of unique keys whereas in unordered_map key can be stored in any order, so unordered.
+Map is implemented as balanced tree structure that is why it is possible to maintain an order between the elements (by specific tree traversal). Time complexity of map operations is O(Log n) while for unordered_set, it is O(1) on average. 
+Methods on unordered_map
+    A lot of function are available which work on unordered_map. most useful of them are – operator =, operator [], empty and size for capacity, begin and end for iterator, find and count for lookup, insert and erase for modification.
+    The C++11 library also provides function to see internally used bucket count, bucket size and also used hash function and various hash policies but they are less useful in real application.
+We can iterate over all elements of unordered_map using Iterator. Initialization, indexing and iteration is shown in below sample code :
+Run on IDE
+A practical problem based on unordered_map – given a string of words, find frequencies of individual words.
+Below is C++ solution using unordered_map.
+Run on IDE
+Methods of unordered_map : 
+Recent Articles on unordered_map

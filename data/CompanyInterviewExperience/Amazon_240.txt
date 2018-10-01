@@ -1,0 +1,28 @@
+Interviewed for Mumbai location.
+Round 1 (Written round – 45 min)
+1. Count the number of occurrences in a sorted array : https://www.geeksforgeeks.org/count-number-of-occurrences-in-a-sorted-array/
+2. In given range, print all numbers having unique digits. e.g. In range 1 to 20 should print all numbers except 11.
+3. Given a node, you can even find the next highest node in O(log(n)) time : http://stackoverflow.com/questions/20990808/bst-finding-next-highest-node
+Round 2 :
+1. Tell me about yourself
+2. A ‘plus’ pattern of size 1 is defined as following :
+Find size of largest plus pattern in given 2D mattrix which has only 0s &1s.
+Round 3:
+1. check if a binary tree is BST or not :https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+2. Min Cost path : https://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/
+3. Check if two linked lists merge : http://stackoverflow.com/questions/1594061/check-if-two-linked-lists-merge-if-so-where
+4. Count ways to reach nth stair : https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
+The guy opened geeksforgeeks link in front of me and was asking from there directly!
+Round 4 (Skype Round):
+1. Tell me about yourself.
+2. Tell me most challanging project you did. 30 min detailed discussion about project. (So, choose answer to this wisely 🙂
+3. Find the smallest window in a string containing all characters of another string : https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+4. How HashMap is implemented? (https://tekmarathon.com/2012/12/04/hashmap-internal-implementation-analysis-in-java/
+*This is most favourite question of Amazon*
+Round 5 (Skype round):
+1. Tell me about a situation when you had conflict with manager.
+2. Tell me about situation you screwed up something.
+3. What is the most technical challanging work you did?
+4. Implement LRU cache : https://www.geeksforgeeks.org/implement-lru-cache/
+
+

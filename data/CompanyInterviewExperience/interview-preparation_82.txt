@@ -1,0 +1,63 @@
+What is a Data Structure?
+A data structure is a way of organizing the data so that the data can be used efficiently. Different kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. For example, B-trees are particularly well-suited for implementation of databases, while compiler implementations usually use hash tables to look up identifiers. (Source: Wiki Page)
+ 
+What are linear and non linear data Structures?
+ 
+What are the various operations that can be performed on different Data Structures?
+ 
+How is an Array different from Linked List?
+ 
+What is Stack and where it can be used?
+Stack is a linear data structure which the order LIFO(Last In First Out) or FILO(First In Last Out) for accessing elements. Basic operations of stack are : Push, Pop , Peek 
+Applications of Stack:
+ 
+What is a Queue, how it is different from stack and how is it implemented?
+Queue is a linear structure which follows the order is First In First Out (FIFO) to access elements.  Mainly the following are basic operations  on queue: Enqueue, Dequeue, Front, Rear 
+The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added. Both Queues and Stacks can be implemented using Arrays and Linked Lists.
+ 
+What are  Infix, prefix, Postfix notations?
+Converting between these notations: Click here
+ 
+What is a Linked List and What are its types?
+A linked list is a linear data structure (like arrays) where each element is a separate object. Each element (that is node) of a list is comprising of two items – the data and a reference to the next node.Types of Linked List :
+ 
+Which data structures are used for BFS and DFS of a graph?
+ 
+Can doubly linked be implemented using a single pointer variable in every node?
+Doubly linked list can be implemented using a single pointer. See XOR Linked List – A Memory Efficient Doubly Linked List
+ 
+How to implement a stack using queue?
+A stack can be implemented using two queues. Let stack to be implemented be ‘s’ and queues used to implement be ‘q1’ and ‘q2’. Stack ‘s’ can be implemented in two ways:
+ 
+How to implement a queue using stack?
+A queue can be implemented using two stacks. Let queue to be implemented be q and stacks used to implement q be stack1 and stack2. q can be implemented in two ways:
+ 
+Which Data Structure Should be used for implementiong LRU cache?
+We use two data structures to implement an LRU Cache.
+
+ 
+How to check if a given Binary Tree is BST or not?
+If inorder traversal of a binary tree is sorted, then the binary tree is BST. The idea is to simply do inorder traversal and while traversing keep track of previous key value. If current key value is greater, then continue, else return false. See A program to check if a binary tree is BST or not for more details.
+ 
+Linked List Questions
+ 
+Tree Traversal Questions
+ 
+Convert a DLL to Binary Tree in-place
+See In-place conversion of Sorted DLL to Balanced BST
+ 
+Convert Binary Tree to DLL in-place
+See Convert a given Binary Tree to Doubly Linked List | Set 1, Convert a given Binary Tree to Doubly Linked List | Set 2
+ 
+Delete a given node in a singly linked list
+Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?
+ 
+Reverse a Linked List
+Write a function to reverse a linked list
+ 
+Detect Loop in a Linked List
+Write a C function to detect loop in a linked list.
+ 
+Which data structure is used for dictionary and spell checker?
+Data Structure for Dictionary and Spell Checker?
+You may also like

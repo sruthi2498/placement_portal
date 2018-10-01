@@ -1,0 +1,6 @@
+The set::max_size() is a built-in function in C++ STL which returns the maximum number of elements a set container can hold.
+Syntax:
+Parameters: This function does not accept any parameters.
+Return Value: This function returns the maximum number of elements a set container can hold. 
+Below program illustrates the above funnction: 
+Run on IDE

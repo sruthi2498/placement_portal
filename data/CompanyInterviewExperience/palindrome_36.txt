@@ -1,0 +1,7 @@
+Given a string and a limit k, find lexicographically next word which contains characters from a set of first K letters of the English alphabet and does not contain a palindrome as it’s substring of length more than one.  It may be assumed that the input string does not contain a palindromic substring.
+Examples:
+
+Approach : Our aim is to make lexicographically next word, so, we need to move from right to left. While traversing from right to left change last alphabet from right. While incrementing last alphabet make sure that formed string contains first k letters and does not contain any substring as palindrome.
+Below is the implementation of the above approach:
+Run on IDE
+Output:

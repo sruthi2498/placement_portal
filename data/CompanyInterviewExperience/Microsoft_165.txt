@@ -1,0 +1,57 @@
+Recently , Microsoft visited our campus for recruiting FTE for MS-IDC division.
+Around 150 students appeared for the test.
+
+Round 1(75 minutes):
+Online coding round hosted on HackerRank . Three coding questions were asked.
+Q1 : Given a Linked List of integers, write a function to modify the linked list in-place such that all odd numbers appear before all the even numbers in the modified linked list. The relative order of even and odd numbers should remain the same. https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
+Q2 : Given a floating point number, calculate its square root without using in-built sqrt() function.
+Q3 : Given a pattern string and a test string, implement RegEx substring matching. If the pattern is preceded by a ^, it will match with the starting position. Similarly, if it is preceded by a $, it will match the ending position. If no such markers are present, it will check whether pattern is a substring of test.
+Ex : ^coal
+       coaltar
+       Result : True
+       tar$
+        coaltar
+        Result : True
+        abcd
+        efgh
+        Result : False
+25 students were selected for the next round.
+Round 2(paper coding round):
+Q1 : Print boundary traversal of Binary tree in clockwise direction.(Note: check for leaf nodes in left and right traversal for a given tree).
+Q1 : Rotate a square image 90 degree clockwise. Optimize as much as u can.
+8 students were selected for further rounds.
+Round 3 – PI1
+Q1 : Discussed about the 1st question asked in paper coding round, i.e., Boundary traversal of Binary tree.
+Q2 : How to merge two BSTs . Asked me all the approaches that I was able to implement . Then asked me to do in O(logn), where n is total no. of nodes .
+Q3 : Asked me to write code to find a no. occurring greater than n/2 times in an array . Then asked me to prove the written algorithm , basically , he was asking how I was able to write that code and why is it working .
+7 students were selected for further rounds.
+
+Round 4-PI2
+Q1 : Asked me to implement seat booking process in BOOKMYSHOW.com . How to handle the cases where two persons are trying to access the same seat at almost same time . He told me to write class based solution asking about different functions that should be used to solve all the cases for booking procedure .
+Q2 : What is singleton class?
+Q3 : How to find the point of intersection of two line segments . Two end points of line segments were given.
+Q4 : How to find no. of 2’s between nos. 1 to n . He gave me few hints and finally , he was satisfied with my approach .
+Q5 : he asked me to implement fibonacci series considering every possible solution .
+And few more questions were asked , but I don’t remember them.
+6 students were selected for further rounds.
+Round 5:PI3
+Q1 : Write function for inorder traversal of Binary tree without recursion. That was easy !!
+Q2 : Asked me a puzzle question. An n*n board is given and one of the given cells is black . Also , L shaped pieces are given (equivalent to 3 cells of given matrix) , considering all possible rotations. I had to fill the entire grid using those pieces . Pieces can’t be placed on the black cell and no two pieces should overlap , not even partially . I gave an answer where I tried to increase the size of unaccesible cells( black cells and already placed pieces on board) to the size of the given board , but he asked me few cases where my answer failed. Then I said him we can do the exhaustive search of combinations using backtracking but it will take too much time . Then he gave me clue that instead of growing the size of unaccesible cells, try to decrease it. Finally , I concluded that it divide-n-conquer based solution considering base case as 2*2 board with 1 black cell.
+4 students were selected for further rounds.
+
+Round 6 : PI4
+Q1 : he told me to implement LRU Cache . I gave him all the solutions that can be possible . He was very helpful . He found flaws and told me to optimize it. I gave him 3 solutions and the final one is the one which you can find anywhere on the internet. But before that , he asked me to swap two nodes of a DLL using hashmap . I didn’t know what Lru Cache is initially . haha
+Round 7 : PI5 and final round
+Q1 : What’s your passion ? What you want to do in your life ? Hr-type question . 
+Q2 : He designed a new language with the words of English and stored them in an array of strings . Then he gave me two strings and told me to design strcmp function . I told him the best method in one go , but he tried to confuse me and he was successful . He gave me 5 mins to come up with another solution and tried new one . Lastly , I implemented the first approach I had in mind and he was satisfied with it. 
+Q3 : How to serialize and deserialize an n-ary tree . I told him the function for serializing and deserializing a binary tree but couldn’t come up with solution for the given problem.
+P.S : I was not comfortable with OS and DBMS , so I told them clearly  but they tried to ask indirectly all the basic questions of OS and DBMS , and told me to implement them using C/C++.
+Questions asked to my friends :
+Developing an algorithm for crossing bridges problem , where no. of elements is n.
+Intersection of two linked lists.
+Find if loop is present in linked list and also , find the start node of the loop in it .
+Class design for banking system. 
+Reverse linked list using both recursion and iteration .
+And many more.
+
+

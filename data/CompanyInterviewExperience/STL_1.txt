@@ -1,0 +1,7 @@
+The ‘=’ is an operator in C++ STL which copies (or moves) an unordered_set to another unordered_set and unordered_set::operator= is the corresponding operator function. There are three versions of this function. 
+Syntax
+Parameters:
+Return value: All of them returns the value of this pointer(*this) .
+Below program illustrates the unordered_set::operator= in C++.
+Program:
+Run on IDE

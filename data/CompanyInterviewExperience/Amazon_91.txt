@@ -1,0 +1,27 @@
+Round-1: 
+Platform: Hackerearth
+Time: 1.5 hrs
+The first round was an online coding round and 20 MCQs. MCQs were from general computer science topics like: data structures, algorithms, dbms, puzzles and some questions based on languages C, C++.
+Two coding questions were of 100 marks each and mostly based on implementation skills like forming cumulative arrays from both ends of the array, etc.
+Suggestion: Have a good command over c++ STL or Collection in Java.
+MCQs – +1 correct answer and -0.5 negative marking.
+13 people were shortlisted for the interview rounds.
+Round-2 
+There were 2 questions.
+First was a puzzle i.e. You are having n weights in a line eg: 12 13 2 1 6, a man is coming with a basket from behind the first weight. He can’t read which weight he is picking as he is illiterate and he can only keep 1 weight in the basket. But he can compare the current weight with the weight in the basket, if it is less or greater or equal and by making some decision he can swap the positions of the two. Initially the basket is empty. Moving from one weight to another adjacent weight takes 1 unit time. The man needs to arrange the weights in descending order in minimum time. And derive the formula for this minimum time taken.
+HINT: try first placing the smallest weight to the rightmost while moving right and then placing the largest weight to the leftmost while moving left. Idea: see every time we are  decreasing the path length by 2 (1 from both sides ) by placing the smallest and largest at the start and end respectively.
+Second was an algorithmic question : Trapping Rain Water can be found on geeksforgeeks.
+Link: https://www.geeksforgeeks.org/trapping-rain-water/
+Round-3 
+3 questions were asked in this interview round.
+Suggestion: Try to write clean code with all corner cases handled. 
+Question-1: Interviewer asked me which data structure i liked the most. I said Segment
+trees. So, I was instructed to write the build function for range sum query in an array of integers.
+Question-2: Find the maximum length of the subarray with sum zero in an array of integers.
+Subarray with sum zero : is formed when elements repeat in cumulative sum array and maximum length
+subarray can be obtained by maintaining first occurence of the element.
+Question-3: Find LCA (lowest common ancestor) of two nodes in a binary tree.
+https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+I thanks GeeksforGeeks for helping me in my preparations.
+
+

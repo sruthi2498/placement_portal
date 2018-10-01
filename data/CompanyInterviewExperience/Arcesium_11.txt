@@ -1,0 +1,73 @@
+Round – 1: Aptitude cum Technical Round.
+The first round had 20 Aptitude MCQs (20 min) and 15 Technical MCQs (15 min) with +1 and -0.25 marking scheme. The MCQs covered topics the included – DSA, Operating Systems, C, C++, Java basics. After this, there were 2 coding questions (45 min). Minimum cut off was set for each section. One question was of the Game Theory and other was of Dynamic Programming.
+Questions In The Coding Round:-
+Q1)
+A and B play a game. They are given an array of positive numbers. Each player in his turn picks up 2 numbers from the array such that the difference of the numbers does not exist in the array. He then places the difference into the array too thus increase the array count by 1. Then the next player repeats the same process. The game continues till there are no 2 numbers such that difference does not exist in the array. The one who’s not able to choose numbers loses. If A starts the game and the game proceeds optimally, find who’ll win the game.
+Q2)
+Given a string containing only lowercase alphabets, you have to convert it into a string such that it contains only vowels by doing minimum number of operations. In one operation, you could select a substring always starting from index 0, and move that substring forward or backward. Example of rolling forward or backward are given :
+Rolling Forward
+Input- axzf
+Let index chosen be 0 to 3 and moving it forward
+Output- byag
+Rolling Backward
+Input – axze
+Let index chosen be 0 to 2 and moving it backwards
+Output- zwyd
+12 students were selected from this round out of about 125.
+Unlike other interviews, all the rounds were of equal difficulty level, and there were no specific HR or Technical rounds. So for greater readability I’m summarizing the interview topic wise instead of round wise.
+Data Structures and Algorithm
+1. Detection and removal of loop in the linked list.
+https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+2. Intersection of two linked list.
+https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+3. Reversing of a linked list.
+https://www.geeksforgeeks.org/reverse-a-linked-list/
+4. Print ancestors of a node in a binary tree.
+https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/
+5. Write a program to convert a tree into its mirror tree.
+https://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/
+6. An array consist of consecutive numbers from a number x to a number y (len = y-x+1). One of the numbers due to some programming error has been replaced by another number. Find the number replaced and the number which is now there at its place.
+7. Find Kth node from the end of the linked list.
+https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+Note: Keep in mind the corner cases when the length of linked list was equal or smaller than k.
+Data base Management
+1.Two tables were given one was of student table storing student details and subject they had enrolled and another table of teacher which had teachers and the corresponding subjects that they taught.
+I was asked to write a query to find the names of students who have no teacher assigned to their subject.
+2. Questions on inner join, right outer join and left outer join.
+3. Two tables were given. One was of student having roll numbers of students and their names and one was having students marks in all subject with corresponding roll numbers. Write a query to find the name of student who secured highest sum of marks scored in all the subjects.
+OOPS
+1.Describe static keyword.
+2.Explain Friend class and friend function with examples.
+3.Describe singleton class and singleton design pattern.
+4.Explain virtual functions and inheritance. Focus was given on basic concepts and code was also asked to be written.
+5.Explain polymorphism and its types.
+6.Function of compiler and the what are different processes that take place from compiling till the execution of a program.
+7.There’s a company with 2 types of employees – Manager and Non Manager. Construct a class diagram along with relevant data members and methods to increase salary of both type of employees if increment in salary is different for both type of employees.
+Explain various parameters related to inheritance, object construction, data hiding and encapsulation.
+Also code the classes and the methods.
+8.Explain Virtual Destructor and its uses.
+9.What are dangling pointers?
+Operating System
+1.Explain about the difference between process and thread.
+2.Difference between multiprogramming, multitasking and multithreading.
+3.Difference between semaphores and mutexes.
+4.Explain deadlock and its various techniques to resolve it.
+Puzzles
+1.Complete the sequence
+1 1 2 4 8 16 …
+2.Random points are given on a page and you are at a starting point. You have to traverse each point once and tell the shortest path that will take you to the end.
+https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/
+3.You’ve been given 2 containers of capacities : 1L and 5L. There’s a well of infinite capacity filled with water and you’ve to measure 7 litres by using only the given two containers. No other container can be used.
+A few questions were asked on my projects that I had mentioned. I had mentioned photoshop and Android as my skills and I was asked about the type of layers and tootls that are used in photoshop. He also questioned about Android development.
+HR Specific Questions
+1.Describe Yourself.
+2.Where do you see yourself in 2 years.
+3.If you are given a chance to study a subject that you have already studied than which one you would choose.
+4.Which city do You know the most.
+I mentioned Faridabad as it was my home city and then he asked few tricky questions like how many autos are running in Faridabad and what is the population of Faridabad.
+Emphasis was not on giving correct answers but more on the approach that was used in solving the question.
+After all, only 1 student was selected for the internship at Hyderabad office.
+The interview experience was quite good and they focused on all the core computer science subjects. Several questions that were asked are straightaway pull ups from Geeksforgeeks and thus going through Geeksforgeeks has helpled me a lot to ace through the levels swiftly.
+
+
+

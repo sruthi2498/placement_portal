@@ -1,0 +1,11 @@
+Given a graph and a source vertex in graph, find shortest paths from source to all vertices in the given graph.
+We have discussed Dijkstra’s shortest Path implementations.
+The second implementation is time complexity wise better, but is really complex as we have implemented our own priority queue.
+The Third implementation is simpler as it uses STL.  The issue with third implementation is, it uses set which in turn uses Self-Balancing Binary Search Trees.  For Dijkstra’s algorithm, it is always recommended to use heap (or priority queue) as the required operations (extract minimum and decrease key) match with speciality of heap (or priority queue). However, the problem is, priority_queue doesn’t support decrease key.  To resolve this problem, do not update a key, but insert one more copy of it. So we allow multiple instances of same vertex in priority queue. This approach doesn’t require decrease key operation and has below important properties.
+Below is algorithm based on above idea.
+Below is C++ implementation of above idea.
+Run on IDE
+A Quicker Implementation using vector of pairs representation of weighted graph : 
+Run on IDE
+Further Optimization
+We can use a flag array to store what all vertices have been extracted from priority queue.  This way we can avoid updating weights of items that have already been extracted.  Please see this for optimized implementation.  

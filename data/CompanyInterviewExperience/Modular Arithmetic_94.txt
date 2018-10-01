@@ -1,0 +1,18 @@
+Given a number n, check if it is prime or not. We have introduced and discussed School and Fermat methods for primality testing.
+Primality Test | Set 1 (Introduction and School Method)
+Primality Test | Set 2 (Fermat Method)
+In this post, Miller-Rabin method is discussed. This method is a probabilistic method (Like Fermat), but it generally preferred over Fermat’s method.
+Algorithm:
+Example:
+Implementation:
+Below is the implementation of above algorithm.
+Run on IDE
+Run on IDE
+Run on IDE
+
+How does this work?
+Below are some important facts behind the algorithm:
+Next Article :
+Primality Test | Set 4 (Solovay-Strassen)
+References:
+https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test

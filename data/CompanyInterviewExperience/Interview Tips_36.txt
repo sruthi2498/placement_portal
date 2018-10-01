@@ -1,0 +1,15 @@
+Hope you liked my previous post “Top 25 Interview Questions”. Here comes the next 10.
+1) Design discussion on elevator.
+Hint: Ask questions related to elevator functionality; come up with a High Level design and Low level design. Be prepared for scheduling questions related to elevator.
+2) “n” points are given , find the number of quadruplets which form square.
+3) Questions related to memory management in Java.
+4) Mark and sweep algorithm and garbage collection in Java
+5) Construct tree from Inorder and Preorder
+6) Serialization in Java
+7) How to ensure that instance is never garbage collected?
+Hint: We can use singleton pattern. There’s a static reference to a singleton, so it won’t be eligible for garbage collection until the classloader is eligible for garbage collection.
+8) Questions related to classloader, rt.jar?
+9) Difference between String, StringBuffer and StringBuilder?
+10) Why String is immutable in Java?
+Note: Do discuss about security related issues in class loader.
+Thanks to GeeksforGeeks team for providing a nice platform. You guys are the best.

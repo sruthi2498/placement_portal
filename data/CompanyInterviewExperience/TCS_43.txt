@@ -1,0 +1,60 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the TCS interview.
+Solution:
+We need to search for a particular name in a phone book. So we need to apply a method in which we can easily search a number in a minimum count. So we divide the list into two equal halves, i.e., 305/2 = 152.5 or let’s take 152. Now we can decide whether to check for Danish in the upper or lower half of 152. This is decided by the starting letter of the name in a page. Proceeding in the similar manner we get,
+152/2 = 76
+76/2 = 38
+38/2 = 19
+19/2 = 9
+9/2 = 4
+4/2 = 2
+2/2 = 0
+So we get 0 at the 9th time, hence this is the minimum number of the count to find Danish. So total time taken = 9 * 2 = 18 minutes.
+Solution:
+Let the number of people liking golf = ‘A’
+Let the number of people liking football = ‘B’
+Let the number of people liking either golf or football = A U B = 38 – 20 = 18
+People liking both golf and football =  = A + B – AUB = 10 + 15 -18 = 7
+Solution:
+Total probability = 36
+We can get a sum of 3 or 4 in this many ways:
+=> (2, 1), (1, 2), (1, 3), (3, 1), (2, 2) = 5
+So probability = 5 / 36
+Solution: 
+Let the number of cakes = ‘x’ or ‘x/12’ dozen
+So, x/12 cost Anuj 12 rupees, or 1 dozen cost him = 144/x rupees
+Now, he gets two extra = 144/(x+2) in 1 rupees less,
+=> 144/x – 144/(x+2) = 1
+=> On putting 16, the equation is satisfied, hence the answer.
+Solution:
+Ram alone can complete the work in 2*4 = 8 days.
+Shyam alone can complete the work in 4*(3/2) = 6 days.
+Taking the lcm of 8, 6, 3 = 24
+Capacity of Ram = 24/8 = 3
+Capacity of Shyam = 24/6 = 4
+Capacity of Anil = 8 – (4+3) = 1
+Now in 2 days Anil can do 2 unit of work = 2/24 = 1/12 part of the work
+Solution:
+According to the question,
+3 * 2 – 1 = 5 = 
+5 * 2 – 1 = 9 = 
+9 * 2 – 1 = 17 = 
+Proceeding in the similar fashion, on 30 times we get 
+Solution:
+This can be solved by applying a simple formula = ab/(a+b)
+or, (9*7)/(9+7)
+or, 63/16 = 3.9375 = 4 (answer)
+Solution:
+Let’s consider this figure,
+
+We need to find the distance of AB,
+We know AC = 12 m and BC = 11-6 = 5 m
+So applying pythagoras theorem we get,
+AB =  = 13 metres
+Solution:
+To get the minimum value of f(m, n), put m = 1 and n = -1, we get
+f(, n) = 9
+Solution:
+This can be achiededv in the following different ways;:
+First, painting on opposite faces can be achieved in 1 way.
+Second, painting on adjacent faces can be achieved in 1 way.
+Therefore in 2 ways.

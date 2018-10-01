@@ -1,0 +1,9 @@
+Given an array of integers. Find the total number of subarrays whose product of all elements doesn’t contain repeating prime factor in prime decomposition of resulting number.
+A Naive approach is to run a loop one inside another and generate all subarrays and then take product of all elements such that it’s prime decomposition doesn’t contain repeating elements. This approach would definitely be slow and would lead to overflow for large value of array element.
+An efficient approach is to use prime factorization using Sieve of Eratosthenes.
+Idea is to store the Smallest Prime Factor(SPF) for all values (till a maximum) using Sieve. We calculate prime factorization of the given number by dividing the given number recursively with its smallest prime factor till it becomes 1.
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(MAX*log(log(MAX) + nlog(n))
+Auxiliary space: O(MAX)

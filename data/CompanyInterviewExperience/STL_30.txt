@@ -1,0 +1,11 @@
+The match_results::empty() is a inbuilt function in C++ which returns True if the smatch object contains no matches.
+Syntax:
+Parameters:This function accept no parameters.
+Retrun value: This function returns true when the object is default-constructed or else return false if any of the regex_match or regex_search finds atleast one match.
+Errors and Exceptions:
+Note: First element always contains the whole regex match while the others conatain the particular Capturing Group.
+Below programs illustrate the above method. 
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

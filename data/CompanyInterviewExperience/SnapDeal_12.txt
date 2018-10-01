@@ -1,0 +1,13 @@
+Snapdeal visited our campus for recruiting software engineers for Bangalore/Gurgaon location. Selection process consists of 4 rounds.
+Round 1: Algorithmic coding test was conducted on hackerank platform. Around 60 students gave online test. There were 4-5 coding questions to be done in 90 mins duration.
+After Round1, around 20 students were shortlisted for the next round of selection process.
+Round 2: Technical Round(25-30 min):
+First Interviewer asked me to introduce myself. Then he asked me questions on data structures & Algo. He asked me about tree data structures, why it is used, time complexities of various operations on tree, balancing of tree, AVL Tree. He asked me write AVL Tree insertion, deletion, update code. Then he jumps to BTree, B+Tree and asks me write code on paper for various operations. Questions were asked on indexing, various types of indexing, how it is used in databases, etc. Then he briefly asked about the project I done in my internship.
+After round1, 8 students were shortlisted for the next round.
+Round 3: Technical Round(30-40 min)
+Interviewer asked me how was my 1st round, I said it was great. He first asked me introduce myself. Then he asked about my projects mentioned in my resume. I done a project in machine learning on spam webpage detection. He was interested in that. He asked me what language, libraries I used to implement that project. Then he gave me real time scenario to predict whether an item is explosive or not. Then I approached this problem and asked information related to problem. He was impressed by the approach I target the problem. He asked me what machine learning model will be best and what are their pros and cons. Then he asked me question that given 100 sorted linked lists, you have to merge them and return single sorted linked list. I gave 3-4 solutions with their time & space complexities.
+After Round2, 5 were selected for the HR round.
+Round 4: HR Round(10 min)
+Interviewer asked me common HR questions like tell me about yourself, my family background, why do you want to join the company, what impact you can make in Snapdeal, why should we hire you. After that he congratulated me for the role of SDE at Snapdeal. I was very happy at that moment.
+
+

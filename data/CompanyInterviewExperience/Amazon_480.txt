@@ -1,0 +1,26 @@
+Applied for Chennai Kindle team, cleared few rounds but not happy with the overall interview process. Contacted again by Hyderabad office and scheduled an interview, asked me about my previous experience with Amazon. No telephonic, all F2F as I have already cleared few rounds earlier.
+Round 1 
+1.    Questions on my project with previous employer
+2.    https://www.geeksforgeeks.org/add-two-numbers-without-using-arithmetic-operators/
+3.    Given an unsorted array of integers, assume the elements are inserted into BST. Search for an element and print the path if found. If the element is left of previous in BST then path variable is 1 else 0. Eg:  
+Corresponding BST would be  
+Round 2
+1.    Count the decoding for a given digit string. Let say ‘A’ -> 1, B -> 2 and so on
+Eg : 
+2.    There is a printer printing characters continuously on paper, you need to cut the required message character by character from the printed paper efficiently
+Round 3
+1.    https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+2.    Given a 2D matrix consists of only 0’s and 1’s find the longest diagonal of all 1’s
+3.    Optimization on above question with slight variations.
+
+Round 4 (Bar Riser from US telephonic)
+1.    Given an array and an integer k, find the maximum for each and every contiguous sub array of size k Eg:  
+2.    https://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/ asked for minimum instead of maximum
+3.    Given an array of positive integers, form a largest decimal number by concatenating integers. Such that the largest number should be divided by 2, 3 and 5.
+Final Round (Manager)
+1.    Given a BST and a node (say target), find K nearest neighbors (https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/)
+2.    As my work with previous employer is very similar to the team I am interviewed for, not much questions rather it was more like a discussion
+Production level code on paper with all corner cases handled is expected in all rounds. The interviewers especially Hyderabad team are very friendly and helpful, talk out loud, they are ready to help and guide you to right direction. 
+Finally, I would like to thank GeeksforGeeks as it helped me a lot in cracking algorithm questions. It’s a great portal, keep up the great work, cheers 🙂
+
+

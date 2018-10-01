@@ -1,0 +1,24 @@
+Sumo Logic visited our campus summer internship program. All candidates above 65% were allowed to sit for online round.
+Round 0:  This one was a 1hr 30mins long online round. It comprised of two section:
+i) Aptitude: it had 10 questions which were to solve but required time
+ii) Coding: it had three programming questions :
+1) Given an island in form of an n*m matrix having positive value denoting height at each point on the island.The island is surrounded by water which can reach any cell if the height of that cell is less than the height of the cell in which water is. We have to find those cells where water is unreachable. Water can flow from one cell to any of the four direction – north,  south, east, west.
+ex- 1 2 3 4
+2 4 1 3
+1  0 2 2
+ans- mat[1][1]  i.e. the cell with value 4 is unreachable from all the four sides.
+2) This was an implementation problem. Given different chess moves of two players alternatively,  we have to output whether the present move is valid or not. although I don’t remember much, the initial orientation of the board always had only eight pieces each on both sides.
+3) This was a tough problem. Given a matrix of n*m having values 0 or 1. We have to find the largest rectangular area possible by swapping the minimum number of rows and column. We had to print the minimum steps as well as the area.
+almost 100 candidates sat for the round and 12 were selected. Luckily,  I got selected.
+Round 1: This was a F2F round.  All 12 candidates were interviewed simultaneously. It went for about 1.5 hrs.
+After the interview, we got to know all candidates were asked same 2 questions.
+1) Write a function to convert a string to a number. we were asked to handle all cases possible and generate some possible test cases for the same.
+2)  Given a string we need to check whether it is a valid JSON or not. It was hard for me to write the entire code in the given time but it didn’t matter. They were just checking your approach. the interviewer had a long chat with me. he kept on giving new cases and asked how will I handle that case.
+5 People were selected after this round.
+Round 2: This was also a F2F  round. This time too all candidates were interviewed simultaneously. the interviewer asked me to introduce myself then had a 5 min chat on my project.
+later he asked me one question:
+design a data structure that supports insert delete search and get random in constant time
+Initially, I gave an O(logn) approach. he then asked me to optimise it more. Later I came up with hashing.
+after that he asked some hr questions like my strengths, how will I add value to the company etc.
+Only 1 was selected for the summer internship.
+ 

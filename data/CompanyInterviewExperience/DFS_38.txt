@@ -1,0 +1,8 @@
+Given a weighting scale and an array of different positive weights where we have an infinite supply of each weight. Our task is to put weights on left and right pans of scale one by one in such a way that pans move to that side where weight is put i.e. each time, pans of scale moves to alternate sides. 
+Examples:
+
+This problem can be solved by doing DFS among scale states. 
+Please see below code for better understanding,
+Run on IDE
+Output:
+

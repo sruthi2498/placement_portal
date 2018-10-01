@@ -1,0 +1,57 @@
+SAP Labs had visited our campus for offering 6 months internship.
+ROUND 1:(Online Round) – 75 min
+It consisted of 5 sections.
+Section 1: Aptitude – 9 questions
+Section 2: 2 “C” codes to be debugged(Easy)
+Section 3: 2 coding questions(1 Easy and 1 Medium)
+Section 4: 2 questions on critical reasoning
+Section 5: English(Passage comprehension)
+Out of 90 students they have selected 25 for interview round. The interview process took one day. Two technical rounds and 1 HR round.
+ROUND 2: Technical(ONE on ONE) – about 1:20 min
+Interviewer was very friendly and he started the interview with two small puzzles.
+1. Find the angle between the minute and hours hand when time is 10:55.
+2. How to measure 4l of water from 5l and 3l jugs, given to you(initially empty).
+Tell me about yourself.
+He had gone through my resume and touched everything mentioned in resume.(Write only what you know in resume).
+Difference between C and Python.
+Difference between procedural language and object oriented language.
+What is Data Mining? Tell me what you about Data Mining.
+Difference between Arrays and Linked Lists and when you use Linked Lists.
+What are different types of Normal Forms? Explain why Normalization is used?
+What are basic concepts of Oops and explain difference between Runtime and Compiletime polymorphism.
+Asked few questions from Arduino C(I have used it in my project).
+Asked about my internship even though it was a management internship.
+Then he came to my projects and asked me to explain my both projects in detail and asked few questions in that.
+Now he asked two questions:
+1.(i) Write a query to retrieve the names of all students who have taken atleast one book from Library.
+  (ii) Write a query to find all books which are been issued.
+  (iii) Write a query to find all books taken by “Manohar”.
+   Design a database of library such that you should be able to answer all the above queries.
+   I had designed the database and shown him the primary and foreign keys in various tables and wrote queries in SQL and he asked to optimize the query, so that retrieval is fast and I had done it.
+2. Asked me to write a program to print the pattern
+
+Then he asked why do you what to join SAP?
+And asked me whether I had any questions for him.
+They had eliminated 12 from this round.
+ROUND 3: Technical(ONE on ONE) – 50min approx.  
+He gave me a situation where you are before a login page and you have to login with your UserId and password and once verified OK, you have to upload a 5MB file. Then he asked me to draw an usecase diagram to demonstrate what happens from logging in till uploading file. I have been asked to give him in detail what happens at the network and OS level.
+He asked me, what I know in networking and asked me to explain the whole ISO-OSI model.
+He asked me to write a program to find all the palindrome words in the given sentence.
+He asked me about BUS Topology and asked about the broadcasting type transmission that occurs.
+8 were selected to HR round.
+ROUND 4: HR Round(ONE on ONE) – 30 min approx.
+He asked about my family background and about my personal life at college.
+He asked what SAP Labs do?
+Who is CEO of SAP?
+Where is head quarters of SAP?(I didn’t answer any of the questions but told him why I wanted to work with SAP)
+Have you given interviews to any companies before this?
+What if we post you in Testing team rather than in Developing team?
+Why should we take you? Why do you want to do 6 months internship as you have chance to go as FTE to other companies?
+Describe your strengths in 3 words.
+Your Weakness.
+Willing to relocate?
+Some normal HR questions.
+And asked me if I had any questions for him.
+Do read about the company before you go to interview and pay attention to PPT.
+They did not eliminate anyone from HR round. And offered internship to all 8.
+Overall, it was a pleasant experience.

@@ -1,0 +1,38 @@
+Recently I got interviewed at infoedge for PHP-MYSQL (LAMP) developer profile their naukri .com site.
+Round 1
+It was a written round:
+7 ques, 20 marks in total, 40 mins
+Q1. Write a program to find intersection of 2 strings with non-repeating characters.
+Q2. Mention the differences between primary key and unique key.
+Q3. Write a function which intakes an integer array. Swap the max element and the second
+         Lowest element of the array keeping the position of rest of the elements as previous i.e unchanged.
+Q4. Puzzle: 9 balls with 1 heavier ball in them and a 2 pan balance is provided, find the minimum number of attempts required to find the heavier ball.
+            	Ans: 2  (According to me)
+Q5: How many print statements for  f(4,a,b,c) : 
+Ans: 31  (According to me)
+Q6.  Find Value of f(3,2)
+Ans: 9  (According to me)
+Q7. Write Sql queries to do following task:
+a)      Find all teachers who have courses other than math.
+b)      Find all student names who have atleast one subject taken by a lady teacher
+Tables such as COURSE, TEACHER, STUDENT etc  were given.
+Round 2
+Interview with VP-Tech
+After introducing himself as Abhishek he began his chain of questions which encompassed
+OOPS, RDBMS, DS, ALGO
+Q1. Can constructors be private. If yes then how to get an instance of  such a class
+            Basically a question about singleton class
+Q2. Write a query to fetch all the people with their birthdays today from a table which is as follows:
+            NAME | DAY OF BIRTH (INT) |MONTH OF BIRTH (INT)|YEAR OF BIRTH
+Ans: Select Name from table T where( DAY_OF_BIRTH=today AND MONTH_OF_BIRTH=this_month)
+Q3. What is indexing. How you will index the above  table data.
+Q4. Remove extra parenthesis to form the correct equation, write  full working code .
+            	Note: Redundant parenthesis are not to be removed only extra ones are to be removed 
+Ans .   Javacode:  done in O(n)
+Run on IDE
+Some other variants of this question which I found online:
+http://stackoverflow.com/questions/13204483/remove-extra-parenthesis
+http://www.careercup.com/question?id=12011927
+Q5. Write full working code for pattern
+After this round they told me to leave for the day and for next rounds we will let me know you, if I am through this round at a later date.
+

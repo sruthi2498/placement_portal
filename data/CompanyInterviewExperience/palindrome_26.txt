@@ -1,0 +1,12 @@
+Given a string str. Check if it is possible to convert the string into palindrome string by changing only one character.
+Examples:
+
+Approach : The idea is simple, we check character str[i] with str[n-i-1]. If there is a mismatch, we increment count. If count of mismatches exceed 1, we return false. Else we return true.
+Below is the the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

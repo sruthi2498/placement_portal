@@ -1,0 +1,31 @@
+Round 1:
+It was a 3 hours coding round and the maximum number of submissions allowed was 10, but we could compile it as much as we want.
+Attempt:1
+A Doctor travels from a division to other division where divisions are connected like a graph(directed graph) and the edge weights are the probabilities of the doctor going from that division to other connected division but the doctor stays 10mins at each division now there will be given time and had to find the division in which he will be staying by that time and is determined by finding division which has high probability.
+Input is number of test cases followed by the number of nodes, edges, time after which we need to find the division in which he will be there, the edges starting point, end point, probability.
+Note: If he reaches a point where there are no further nodes then he leaves the lab after 10 mins and the traveling time is not considered and during that 10min at 10th min he will be in next division, so be careful
+Attempt:2
+There is a source (S) and destination (D) and a spacecraft has to go from S to D. There are N number of wormholes in between
+which has following properties:
+Each wormhole has an entry and an exit.
+Each wormhole is bi-directional i.e. one can enter and exit from any of the ends.
+The time to cross the wormhole is given and the spacecraft may or may not use the wormhole
+to reach D.
+The time taken to travel outside wormhole between two points (x1, y1) and (x2, y2) is given by a formula
+|x1 – x2| + |y1 – y2|
+where, (x1, y1) and (x2, y2) are the coordinates of two points.
+The coordinates of S and D are given and we have to find the minimum time to reach D from S.
+Note: It’s not mandatory to consider all the wormholes
+Round 2:
+Tell me about yourself
+Discussion about project
+How did you solve the coding question(Round 1)
+Questions related to OOPS
+code to print the mirror of a tree, some questions related to tree
+questions related to OS, DBMS.
+Round 3:
+Tell me about yourself
+What are your interests
+Why SRI Noida
+And some basic HR questions.
+Interviewers are very friendly and there is high chance to get selected if u clear the coding round.

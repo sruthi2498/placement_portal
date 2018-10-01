@@ -1,0 +1,13 @@
+The asinh() is an inbuilt function in C++ STL which returns the inverse hyperbolic sine of an angle given in radians.
+Syntax:
+Parameter: The function accepts one mandatory parameter x which specifies the inverse hyperbolic angle in radian. It can be any value i.e. negative, positive or zero. The parameter can be of double, float or long double datatype. 
+Return Value: This function returns the inverse hyperbolic sine of the argument in radians.
+Below programs demonstrate the above function: 
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Errors and Exceptions: The function returns no matching function for call to error when a string or character is passed as an argument.
+Program 3:
+Run on IDE
+Output :

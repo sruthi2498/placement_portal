@@ -1,0 +1,6 @@
+Find the element in the given range of numbers. Returns an iterator to the first element in the range [first,last) that compares equal to val. If no such element is found, the function returns last.
+Function Template :
+Examples:
+Run on IDE
+Output:
+Related Articles: 

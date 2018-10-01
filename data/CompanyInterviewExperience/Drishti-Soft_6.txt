@@ -1,0 +1,9 @@
+This test consisted of two sections MCQ and PROGRAMMING.
+The section MCQ had 30 questions and was supposed to be solved in 30 minutes. It included only quantitative aptitude questions.These MCQs were of medium level.
+The section PROGRAMMING had in total 4 questions was supposed to be solved in 2 hours and 30 minutes.
+Q1.(Fresh coding) MAGIC NUMBERS-
+Given numbers from 1 to infinity(1,2,3,4,5,6,…)…first remove every 2 position number resulting in 1,3,5,7,9,11,13…then remove every third position number resulting in 1,3,7,9,13,…then every fourth position number…then fifth…then sixth..then seventh and so on.We were given a integer as input and we had to determine whether this number was present in the final list or not.
+Q2. Standard Josephus problem(i was using recursion in the code,but it resulted in run time error,So i was forced to write the iterative version).
+Q3.Debugging round-This section was tough and the given code was also long, than expected.A NxM matrix(consisting of only 0 and 1) was given and a routine was written to find the number of squares,whose all four boundary consisted of only 1’s.The sizes of squares .varied.Our job was to modify the code slightly(not heavily) so that it gives the desired output.
+Q4. API coding(Toughest of all) Few directory path (of linux) were given.We had to determine the number of times we will use “mkdir” command to create a particular folder.Prototype of all functions used, were given in the code.Using these functions we had  to write the code.It was tough,as the whole code was implemented using pointers and the given prototype was also long. 
+The only drawback was that C++ was not allowed,only C and Java.As C++ STL was not allowed,it was quite tough to handle the code.

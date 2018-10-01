@@ -1,0 +1,29 @@
+Microsoft had come to my campus for recruitment for both IT and IDC. Few selected students were given a preference between them. IF they didn’t qualify in one, they could go to the Other. I had chosen Microsoft IDC.
+First Round:
+It was conducted in cocubes.com. comprise of c,c++ and one java and one aptitude question.
+around 200 people were shortlisted for second round.
+Second Round:
+Two questions were asked.
+1) Given two arrays were digits of one array represent a number,maxmise the number by replacing it with elements of second array.
+eg:
+arr={3,1,4,5,6}
+rep={1,9,5,2,3}
+after replacement
+arr={9,4,4,5,6}
+one digit of rep can be used to replace only once.
+2)convert the leaves of a binary tree to a linklist using its right pointer.(in place)
+I had solved both and was selecetd to the next round along with 29 others
+Round three
+Find all substrings of a given string.
+space can also be part of the substring
+I had topped this round giving the most efficient solution.
+Round four: (Face to face)
+All contestant were asked the same question.
+1)https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+i gave the answer but was asked to justify my approach and was also asked to code in another approach.There were several questions asked to know the various approaches it can be done in.
+2)find sum pair in a sorted array.
+Again, i was asked questions regarding my approach
+Round 5
+Three of us were taken to a room. we were asked to code a DFA which checks the correctness of grammar of a sentence in C. The mentor was very helpful and friendly.
+Round 6
+HR round. Normal HR question like why should Microsoft hire you? etc.

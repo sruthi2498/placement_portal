@@ -1,0 +1,24 @@
+Given a set of numbers, find the Length of the Longest Arithmetic Progression (LLAP) in it.  
+Examples:
+For simplicity, we have assumed that the given set is sorted.  We can always add a pre-processing step to first sort the set and then apply the below algorithms.
+A simple solution is to one by one consider every pair as first two elements of AP and check for the remaining elements in sorted set.  To consider all pairs as first two elements, we need to run a O(n^2) nested loop. Inside the nested loops, we need a third loop which linearly looks for the more elements in Arithmetic Progression (AP). This process takes O(n3) time. 
+We can solve this problem in O(n2) time using Dynamic Programming.   To get idea of the DP solution, let us first discuss solution of following simpler problem.
+Given a sorted set, find if there exist three elements in Arithmetic Progression or not
+Please note that, the answer is true if there are 3 or more elements in AP, otherwise false.
+To find the three elements, we first fix an element as middle element and search for other two (one smaller and one greater). We start from the second element and fix every element as middle element. For an element set[j] to be middle of AP, there must exist elements ‘set[i]’ and ‘set[k]’ such that set[i] + set[k] = 2*set[j] where 0 <= i < j and j < k <=n-1.  
+How to efficiently find i and k for a given j? We can find i and k in linear time using following simple algorithm.
+Following is C++ implementation of the above algorithm for the simpler problem.
+Run on IDE
+See this for a complete running program.
+How to extend the above solution for the original problem?
+The above function returns a boolean value.  The required output of original problem is   Length of the Longest Arithmetic Progression (LLAP) which is an integer value. If the given set has two or more elements, then the value of LLAP is at least 2 (Why?).
+The idea is to create a 2D table L[n][n].  An entry L[i][j] in this table stores LLAP with set[i] and set[j] as first two elements of AP and j > i. The last column of the table is always 2 (Why – see the meaning of L[i][j]).  Rest of the table is filled from bottom right to top left.  To fill rest of the table, j (second element in AP) is first fixed.  i and k are searched for a fixed j.  If i and k are found such that i, j, k form an AP, then the value of L[i][j] is set as L[j][k] + 1.  Note that the value of L[j][k] must have been filled before as the loop traverses from right to left columns.
+Following is the implementation of the Dynamic Programming algorithm.
+
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n2)
+Auxiliary Space: O(n2)
+References:
+http://www.cs.uiuc.edu/~jeffe/pubs/pdf/arith.pdf

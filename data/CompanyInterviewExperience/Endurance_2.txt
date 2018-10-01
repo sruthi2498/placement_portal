@@ -1,0 +1,134 @@
+Endurance International Group came to our campus for full-time hires.
+Positions: Software Engineer and Operations Engineer
+It was open to all the branches. Approximately, 450 people sat for the interview process.
+There were 1 MCQ round, 1 coding round followed by 3 PI rounds.
+Round 1 (MCQ):
+Time: 45 minutes
+Questions: 45 multiple choice questions
+Format: we had to write down our answers on a piece of paper and then upload the answers on their website
+designed for the test.
+The questions were from OS, DBMS, Networking, DS and algorithms, C/C++. The questions tested basic concepts
+of Computer Science and were not too difficult.
+Approximately 100 people made it to the 2nd round.
+Round 2 (Coding round):
+Time: 2.5 hours
+Questions: 5
+We could use our own laptop using any IDE of our choice. No internet access was provided.
+We had to build a simple text processing tool using a language of our choice (C, C++, Java, Python
+Ruby, PHP,etc). Documentations were provided for each one of the languages mentioned.
+The questions were like this:
+Given a file contacts.txt:
+Amit,Shah,+9800123456
+Pramit,Singh,+9801345678
+Shalini,Shah,+9801341876
+Solve the following questions:
+1. If “program_name input_file column_no” is executed, print the column from to the input file.
+For example, ./awkward contacts.txt 1
+The output will be:
+Amit
+Pramit
+Shalini
+2. If “program_name input_file column_no pattern” is executed, print the strings from the given column only if the pattern is
+contained in them.
+For example, ./awkward contacts.txt 1 mi
+The output will be:
+Amit
+Pramit
+3. If “program_name input_file column_no ^pattern ” or “program_name input_file column_name pattern$” is executed, print
+the strings from the given column only if:
+         a) the strings starts with the given pattern (if ^pattern is provided)
+         b) the strings end with the given pattern (if pattern$ is provided)
+For example, ./awkward contacts.txt 1 ^Am
+The output will be:
+Amit
+4. Now, instead of input_file parameter, a directory name will be given. The program should process all the files contained
+in the directory as done in problem 1 to 3.
+we have a directory “test” and 2 files “contacts.txt” , “newcontacts.txt” inside it.
+test/contacts.txt:
+Amit,Shah,+9800123456
+Pramit,Singh,+9801345678
+Shalini,Shah,+9801341876
+test/newcontacts.txt:
+John,Doe,+9800123456
+Aman,Verma,+9801345678
+Shalu,Singh,+9801341876
+./awkward test 1 ^Sh
+Output:
+test/contacts.txt
+===================
+Shalini
+test/newcontacts.txt
+====================
+Shalu
+5. Now, do 1-4 for all the files in the subdirectories given directory name as a parameter. If no matches were found
+in any given file, make sure not to print anything corresponding to that file.
+test
+          subdir1
+                    a.txt
+                    b.txt
+          subdir2
+                    c.txt
+                    d.txt
+command: ./awkward test column_name ^pattern
+and pattern matched the files test/subdir1/a.txt and test/subdir2/b.txt
+output:
+test/subdir1/a.txt
+==================
+some_string1
+some_string2
+test/subdir2/b.txt
+==================
+some_string1
+some_string2
+Approximately 15 people made it to the PI.
+Questions were asked mainly from OS, DBMS and Networking. Questions were also asked on Projects and Internships which I have mentioned in my resume.
+A lot of questions were asked. I’ll try to add as many as I can remember.
+Round 3 (PI):
+. I was asked what I liked about Computer Science.
+. State the entire Boot process of Linux OS.
+. What is a kernel? State all the functions of the kernel. What is the difference between OS and Kernel?
+. What are different kinds of HTTP requests? What is the difference between PUT and POST?
+. How does email work? Mention the entire process of sending and receiving an email.
+. What is SMTP?
+. What are TCP/IP and UDP? what are the differences between them?
+. What are IMAP and POP3? What are the differences between them? Mention a sequence when using POP3 protocol
+would be useful.
+. What are ARP and RARP protocols?
+. Describe the OSI layers.
+. What is IP address? What is a MAC address? How do they differ?
+. What is the difference between router and switch?
+. Why is a MAC address necessary?
+. What is DNS? What kind of protocol is used to make a request to the DNS server?
+. What kind of protocols are used in Instant Messaging Applications? Why?
+. I had mentioned 3 projects in my resume. I was asked to explain the projects in the order of my preference. He asked
+me questions on topics related to the project. We had a detailed discussion about the projects and my role in each of these
+projects.
+. What is Normalization? Normalize a given table.
+. What is indexing in DBMS?
+. What is DDL and DML?
+. What is git? Difference between git fork and git merge.
+. I was asked which role (Software Engineer/Operations) I would prefer and why?
+
+Round 4 (PI):
+. What happens when I type in a URL on the browser address bar and hit “Enter” ? Describe the entire process.
+. How does a web server work?
+. How does a web server know which resources to fetch based on the request?
+. What is DNS? How does a OS know which DNS server to make a request to? Explain DNS hierarchy.
+. Explain root DNS server.
+. I was asked to explain the projects. Again, we had a detailed discussion on them.
+. Explain the email architecture. If an email is sent from a yahoo mail account to a gmail account, how does the email
+actually get sent?
+. What is virtual memory? What is the need for it?
+. How to know the memory usage in Linux?
+. How to know the memory usages by various processes in Linux?
+. What is a semaphore?
+. What is race-condition?
+. What is dead-lock?
+. What is indexing in DBMS? 
+Round 5 (PI):
+. Questions on a particular project mentioned in the resume.
+. Design a cache. I had to ask a lot of questions to get to know the specific requirements of the design. We had a detailed discussion about various approaches. Pros and cons of my design were discussed. I was asked various questions on my choice of data structures. Like, in one of my approaches I had mentioned heap. So, questions were asked about the insertion/deletion/updation in the heap data structure, how it achieves O(logn) for insertion/deletion.
+. Questions on threads and locks related to the cache design.
+. How would the design be modified if the cache were to be made available for use over a network?
+Thanks Geeksforgeeks.
+Hope it will be helpful to other aspirants. 🙂

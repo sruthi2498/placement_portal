@@ -1,0 +1,25 @@
+1st Round – 
+1. Write code to create a copy of linked list with random pointer.
+2. Print left side view of a binary tree.
+2nd round –
+1. There is a stream of integers incoming. You are only concerned about finding whether a number exists in a window of k numbers. Write code to find the number with minimum number of comparisons.
+2. Imagine you have four operations. ‘K’ (types k on screen), ‘select all’, ‘copy’, ‘paste’. Find out maximum number of K’s possible for given number of keystrokes.
+3rd round (Hiring Manager)- 
+1. Current position and work. Any challenges faced.
+2. Why do you want to move and join Amazon ?
+3. Suppose there is new UI feature given to you by Product Manager but you dont like it. If he insists that you implement it anyway, how will you handle this situation ?
+4. An array of numbers is give. Write algorithm to divide this array in two subarrays such that difference of sum between these subarrays is minimum.https://en.wikipedia.org/wiki/Partition_problem
+4th round (Senior manager) – 
+1. Questions around current job, challenges faced. Any instance of conflict and how you resolved it.
+2. Find out whether a tree is a balanced tree or not.
+3. Given an array of strings, sort it so that all anagrams come together.
+
+5th round ( team member )-
+1. Find out whether a tree is BST.
+2. Print all permutations of given string.
+6th round-
+1. Rotate a 2D array by 90 degrees.
+2. Print tree nodes in a level order. Each level on a newline.
+Result- HR said that you will offered a job. But a week later I got rejected. I found their process highly arbitrary.
+Practice code on paper and get to know on what criteria you are getting selected.
+

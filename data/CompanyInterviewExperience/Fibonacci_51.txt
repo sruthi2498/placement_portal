@@ -1,0 +1,16 @@
+Given a number n, find number of digits in n’th Fibonacci Numbers.  First few Fibinacci numbers are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ….
+Examples:
+A simple solution is to find n’th Fibonacci Number and then count number of digits in it. This solution may lead to overflow problems for large values of n.
+A direct way is to count number of digits in the nth Fibonacci number using below Binet’s Formula. 
+As mentioned in this G-Fact, this formula doesn’t seem to work and produce correct Fibonacci numbers due to limitations of floating point arithmetic. However, it looks viable to use this formula to find count of digits in n’th Fibonacci number.
+Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+References:
+http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html#section2
+https://en.wikipedia.org/wiki/Fibonacci_number

@@ -1,0 +1,29 @@
+Round 1: Hackerrank Round
+It was 2 hr coding round. Both the questions were on matrix.
+Question 1 : M x N matrix with cell value as either 0 or 1. A connection between two cells is possible if value of both cells is 1. You need to count the total no. of possible connections. This was a really easy one.
+Question 2 : Again M x N matrix. You have to count the total no. of cells which are either maximum or minimum or both in it’s row or column. Two different cells can have same value.
+For better understanding : a)If a cell has min/max value in row as well as column it’ll be counted only one and not twice.
+b) assume value (3, 4) is 6 and (5, 6) is also 6 and both are min/max values in row/column, then it’ll be counted twice.
+Round 2: Coder Pad Round in Java
+Questions were very easy. It was for one hr. Basic aim of this round was not to test coding skills but to check whether you can code in Java or not. He(the interviewer) was concerned with how I was using try catch block and asked to explain every line I was writing, and what if I place any line out/in of try/catch block. He asked to handle all corner cases, write test cases to check all those corner cases.
+Question 1 ) You have been given two arrays, find the dot product for it.
+Question 2) You have been given two fractions, you need to add those and reduce it to simplest form before returning answer from the method. Here suppose if denominator has not been passed then I had to throw error and catch it in main block. This was one of the test cases I wrote. I was asked to print ‘Passed’ if all test cases passed.
+He was asking questions related to java in between.
+Round 3: F2F round 1 (There were two interviewers )
+1) Explain Inheritance and polymorphism in detail with real life examples.
+2) He asked me to explain what I work on in current company and what frameworks I have used in Java.
+3) He used 3 classes each with some methods and variables inside it. I was asked questions like – use inheritance and explain how will you achieve this and that. This went on for around 15 minutes. He was paying attention to every minute detail.
+4) you have an array of length M. It contains integers from 1 to M+1 (Integers are not repeated in array). One of the no. is missing in array. How will you find that number.
+5)There are 6 couples(so total 12 people). Find the number of ways in which you can select 4 people( 2 M and 2 F) such that none of them is a couple.
+6) What are static inner classes ?
+7) How does linked list works internally ?
+Round 4: F2F round 4 (Two interviewers again)
+1) What are you skills ?
+2) You have 2 minutes, explain about your current team and current project.
+3) https://www.geeksforgeeks.org/stock-buy-sell/ <- this question. I was asked to write the pseudo code.
+4) You are given two arrays none of which is sorted. Tell me the most optimized solution for finding median of both arrays. Write pseudo code.
+5) What do you mean by worst case when it comes to finding complexity ?
+6) Explain worst case of mergesort and quicksort.
+7) What are the different notations of measuring time complexity?
+8) Take an array of you own ans explain merge sort in that step by step and also explain how xomplexity comes to nlog(n).
+ 

@@ -1,0 +1,18 @@
+Given a boolean 2D matrix, find the number of islands.
+A group of connected 1s forms an island. For example, the below matrix contains 5 islands 
+A cell in 2D matrix can be connected to 8 neighbors. 
+This is an variation of the standard problem: “Counting number of connected components in a undirected graph”.  We have discussed a DFS based solution in below set 1.
+Find the number of islands
+We can also solve the question using disjoint set data structure explained here.  The idea is to consider all 1 values as individual sets.  Traverse the matrix and do union of all adjacent 1 vertices.  Below are detailed steps.
+
+Approach:
+1) Initialize result (count of islands) as 0
+2) Traverse each index of the 2D matrix.
+3) If value at that index is 1, check all its 8 neighbours. If a neighbour is also equal to 1, take union of index and its neighbour.
+4) Now define an array of size row*column to store frequencies of all sets.
+5) Now traverse the matrix again.
+6) If value at index is 1, find its set.
+7) If frequency of the set in the above array is 0, increment the result be 1.
+Following is Java implementation of above steps.
+Run on IDE
+Output:

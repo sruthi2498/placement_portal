@@ -1,0 +1,23 @@
+Microsoft IDC Internship Selection Process
+Hi everyone! I sat for Microsoft IDC Internship Selection Process. The whole process comprised of 6 rounds as follows:
+Round 1
+This round was taken on-campus and it included 15 aptitude questions containing mostly problems related to general programming in C. The round was hosted on CoCubes.com. 46 students were shortlisted from around 150 students.
+Round 2
+This round was also taken on-campus and hosted by CoCubes.com. We were given to solve two coding problems on an online judge. The questions were:
+1.	To check a tree is BST or not.
+2.	Change one string to another with minimum number of changes (Sorry! I don’t remember the exact one).
+22 students were shortlisted from this round.
+Round 3 (Telephonic)
+The interviewer started with the introduction and went on asking questions from my resume. You must prepare your resume well and go through it thoroughly. Then after asking questions from my resume for around 20 minutes he asked a coding question. The question was:
+Given a series of numbers, print which number is repeated how many times?
+I gave brute force solution first by using arrays. Then he asked if we have million of numbers and negative numbers as well then which data structure will be used. I said hash table. He asked certain questions on hashing. Then he said if don’t care about time complexity and want to find in-place solution then what will be another method. I said first sort it and then count.
+He appeared to be impressed and I was selected for the 4th round. From our institute 9 students were shortlisted for the next round. For next rounds students from all over the country were called to Delhi and Bangalore. I was called to Delhi.
+Round 4
+There were around 60 students. They were divided into two groups of 30 each. I was in the latter group of 30. We were given two coding questions to be solved on paper. The questions were:
+1.	Compress a string in-place.
+2.	Define BST. Check a tree is BST or not.
+A total of 5 students from us were selected and I was lucky enough to be one of them. 10 students were selected from the former group of 30 students.
+Round 5 (Personal Interview)
+The interviewer started by asking a coding question: Given a rotated array, find the first element of the former un-rotated array. Then he asked some questions from Operating Systems. He then asked how to implement a queue from stacks.
+I was not lucky enough to clear this round but it was a motivating experience. 🙁
+

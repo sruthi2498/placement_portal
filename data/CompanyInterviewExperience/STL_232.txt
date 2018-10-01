@@ -1,0 +1,10 @@
+The for_each_n() function was added in the C++17 technical specification. Its idea has been borrowed from the use of map in Python or Haskel. This function can be called with or without an execution policy. The execution policy lets you decide whether to utilize the new parallelization capabilities optimized to run on multiple cores or simply run it sequentially as with the previous standards. Even ignore the execution policy as all the functions have overloaded counterparts that run sequentially.
+Simply put, for_each_n() helps apply a common function to all the elements of an array (or any other linear data-type). It essentially batches updates a range of elements starting from a given iterator and for a fixed number of elements from that iterator.
+ Syntax: 
+(Note: The given code requires C++17 or later and may not run in all C++17 environments.)
+Run on IDE
+Output:
+The true power and flexibility of for_each_n() can only be leveraged by the use of functors as its third argument.
+(Note: The given code requires c++17 or later and may not run in all c++17 environments.)
+Run on IDE
+Output:

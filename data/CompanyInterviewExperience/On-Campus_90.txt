@@ -1,0 +1,45 @@
+Expedia visited Our Campus for both Full timers And interns and I was sitting for an intern. The Process Consisted Of an online test Rounds followed by 3 interview rounds.
+Online Coding Test (1 Hr 30 min)
+They had 0 cut off and the test was conducted on HackerRank.
+The test consisted of 10 MCQs and 2 coding questions.
+MCQs were revolving around OS, OOPs, Data Structures and algorithms.
+The coding questions were as follows:
+Round 1:  Technical Interview (1Hr – 1Hr 30 min)
+Firstly she asked me to introduce myself and tell a few things which are not mentioned in my CV.
+Then asked me a coding question:
+Given a sorted and rotated array and an element, find the index of that element in a completely sorted array. (This question involved dealing with a lot of cases, finding if the array is left rotated or right rotated, then finding the point of rotation and then index of given element all by binary search. I was asked to code all this)
+While I was writing the code of the above question she asked me
+The next question was:
+https://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/
+Find the Number Occurring Odd Number of Times in an array
+(I gave her a solution with O(n^2) using 2 loops, a solution in O(n) using Hashmap and XOR solution which runs in O(n). Then she asked me if I can think of a solution with O(1) space complexity and less than 0(n) time complexity)
+Then a lot of questions on hashmaps:
+Next was, 
+A number is represented in Linked List such that each digit corresponds to a node in the linked list. Add 1 to it. I was asked to code this.
+Then this question was modified as: A number is represented in Linked List such that a few digits corresponds to a node in the linked list. Add 1 to it. Example: a number 2323499 is represented as 23->2->349->9 should have an output as
+23->2->350->0  ( the number of digits in each node is uneven and the result should have the same number of digits in each node as given node.)
+Then a puzzle: 10 coins puzzle
+https://www.geeksforgeeks.org/puzzle-24-10-coins-puzzle/
+The last question was:
+Reverse a stack without using extra memory. I was asked to tell the approach and then write the code.
+Round 2: Technical Interview (45 min – 1Hr)
+The interview started with a general introduction and some discussion on my hobbies.
+Then asked me to tell the approach and write algo for the DP question: Maximum size square sub-matrix with all 1s
+https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+Next question was same as : Minimum time required to rot all oranges given in geeksforgeeks with a slight change in the language. This is to be solved with BFS.
+https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
+Along with this, she asked me a lot of questions, some were:
+Then she asked me what all I know about the company and gave me a real-life problem:  Given flights starting and terminating stops for e.g.: Delhi to Mumbai, Delhi to Lucknow, Mumbai to Goa, Lucknow to Madurai, Madurai to Goa. Asked me about the data structure I will prefer and then how to optimize flight bookings i.e. find a flight lets say from Delhi to Goa with a minimum number of stops in between.
+All this was concluded with the famous rope puzzle:
+https://www.geeksforgeeks.org/puzzle-1-how-to-measure-45-minutes-using-two-identical-wires/
+Round 3: 
+HR Round (45 min – 1 Hr)
+This was the most interesting interview and was taken by the director. I really had fun during this. Firstly the interviewer asked me about my projects mentioned in my CV and its real-life applications.
+Most of my projects were in ML so he gave me some real-life problems industry face in performing validation on data.
+Then we had a 20 min long discussion on working of Amazon Recommender Systems. Then he asked me to suggest a couple of new features in Amazon based on ML/AI that can improve their business.
+Followed by a little discussion on how Machine Learning can be used to give a good experience to tourists.
+At last, he asked me about how I see myself growing up in the coming years.
+Finally, he asked me if I had any question for him.
+ 
+Results were announced after a few hours and I was selected 🙂
+ 

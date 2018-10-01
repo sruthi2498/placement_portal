@@ -1,0 +1,21 @@
+FactSet came to our college for recruitment. We were called for PPT. After the PPT was over, everyone was impressed with the presentation. Following the PPT there was a written coding test. After that there were 2 technical interviews and 1 hr interview.
+Round 1:
+This was pen and paper round and there were three questions of 25 marks, 15 marks and 10 marks.
+1.       Given two array x and y. Find no of pairs (x,y) where xy > yx in O(mlogm+nlogm).
+Solution- I tried to solve this problem by sorting the y array and then for every x find least element in y which is greater than element in x. However, I missed the exceptional cases. Like x=1 and others.
+2.       Given an array x, the numbers are in AP. However one term is missing. Find number which is missing in O(logn).
+Solution- I modified the binary search little bit and solved this problem. I found the common difference first. Then I used divide and conquer technique to solve this problem, like find the middle element using average of first and last elements. Then check whether the middle element which we got by averaging is same as the AP term by calculating using first term+ diff*index.
+3.       Given a tree. Print the bounded elements.
+Solution- Mark the elements in the left hand side boundary, mark the elements in right hand side boundary. Then print the non-leaf nodes and non-marked nodes.
+Round 2:
+This was the first technical interview. This interview only included simple questions. I was asked to use inorder traversal to print elements of a BST in reverse sorted order. I first told him that we can swap positions of left subtree traversal and right subtree traversal, but he told me that left subtree will be traversed before right subtree. So, I told him to push the elements in the stack then pop the elements. He asked to implement the stack. I started to write my program but he told me that I can’t use function return values to store the stack top. So he gave me hints to use static variable. I used it and solved this.
+Round 3:
+This was the 2nd technical interview. He first asked me to explain the codes which I wrote in the first round. After this the real interview started. This interview has three questions. All were coding questions.
+1.        First question was a dynamic programming problem in which a matrix was given with some values. We have to start from (0,0)  and end at (m,n) with the condition that we can only move forward and downward. Although I never came across this problem, I solved this within a minute or two. He was impressed by the solution.
+2.       I was asked to implement a stack in which we can find min element in O(1) at the same time push and pop operation should take O(1). Initially I tried to implement stack using array but later he hinted me to use linked lists. After this hint, I was able to solve this problem.
+3.       Last problem was to find duplicate occurrences in a telephone directory in minimum time complexity. I suggested a method to use hashing. He agreed that it’ll solve the problem but he wanted me to solve it using another method. He gave me hints that graphs can be helpful here, but I told him clearly that I’m not very comfortable with graphs after some time he ended the interview. I asked him what could be the solution with graphs. I was surprised to know that he even didn’t have the solution and he told me that he have to think to find solution.
+He was quite impressed by me after the interview.
+Round 4:
+It was basically HR round. I took only 10-15 mins. He asked me about my internship and project. My interests and about me. Why I want to join this company etc.
+I liked this company very much because the package was very good and 2 appraisals in a year. The perks and benefits employee get in this company. 
+

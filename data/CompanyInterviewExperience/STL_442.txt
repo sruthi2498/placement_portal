@@ -1,0 +1,16 @@
+std::unique is used to remove duplicates of any element present consecutively in a range[first, last). It performs this task for all the sub-groups present in the range having the same element present consecutively.
+It can be used in two ways as shown below:
+Run on IDE
+Output:
+Here, in this vector, all the sub-groups having consecutive duplicate elements has been reduced to only one element. Note that it doesnot matter whether the same element is present later on as well, only duplicate elements present consecutively are handled by this function.
+Run on IDE
+Output:
+Here, we have manipulated the binary function in such a way that only if two G are passed as arguments, then only they will be considered as same, and if any other character is present consecutively, then it will remain unaffected, and will not be removed (like r in arre, v in visiting).
+Where str::unique can be used ?
+So, std::unique can also be used to remove all the duplicate elements from a container. 
+Run on IDE
+Output:
+Explanation: Firstly, we sorted the array such that all the equal duplicate elements become consecutive and now applying std::unique to it such that the duplicacy is removed, and in this way we remove all the duplicate elements from a container, whether consecutive or not.
+Run on IDE
+Output:
+Explanation: As we know that std::unique returns an iterator to what should be the new end of the container after removing duplicate elements, so just counting the total no. of elements from beginning till this new end with the help of std::distance, should give us the total no. of unique elements in the container.

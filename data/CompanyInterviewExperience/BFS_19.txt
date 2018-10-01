@@ -1,0 +1,11 @@
+You are given a m litre jug and a n litre jug . Both the jugs are initially empty. The jugs don’t have markings to allow measuring smaller quantities. You have to use the jugs to measure d litres of water where d is less than n.
+(X, Y) corresponds to a state where X refers to amount of water in Jug1 and Y refers to amount of water in Jug2
+Determine the path from initial state (xi, yi) to final state (xf, yf), where (xi, yi) is (0, 0) which indicates both Jugs are initially empty and (xf, yf) indicates a state which could be (0, d) or (d, 0).
+The operations you can perform are:
+Examples:
+
+We have discussed one solution in The Two Water Jug Puzzle
+In this post a BFS based solution is discussed.
+We run breadth first search on the states and these states will be created after applying allowed operations and we also use visited map of pair to keep track of states that should be visited only once in the search.This solution can also be achieved using depth first search.
+Run on IDE
+Output:

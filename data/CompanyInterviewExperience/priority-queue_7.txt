@@ -1,0 +1,13 @@
+Given Nodes with their priority, implement a priority queue using doubly linked list. 
+Prerequisite : Priority Queue
+
+Approach :
+1. Create a doubly linked list having fields info(hold the information of the Node), priority(hold the priority of the Node), prev(point to previous Node), next(point to next Node).
+2. Insert the element and priority in the Node.
+3. Arrange the Nodes in the increasing order of the priority. 
+Below is the implementation of above steps :
+
+Run on IDE
+Related Article :
+Priority Queue using Singly Linked List
+Time Complexities and Comparison with Binary Heap: 

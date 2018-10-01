@@ -1,0 +1,9 @@
+Given a string, the task is to find the average of ASCII values of characters in the string.
+Examples:
+Source : Microsoft Internship Experience
+Approach : Start iterating through characters of the string and add their ASCII value to a variable. Finally, divide this sum of ASCII values of characters with the length of string i.e, total number of characters in the string.
+
+Run on IDE
+Run on IDE
+Time Complexity: O(l), where l is the length of the string.
+Auxiliary Space: O(1)

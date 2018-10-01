@@ -1,0 +1,37 @@
+Snapdeal visited our campus recently and here’s my interview experience.
+Round 1 (Online) :
+Test was on hackerrank. We had to do 22 MCQs and 3 coding problems which are as follows:
+1) Given a string of parenthesis only, check if it’s valid or not. https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+2)Find next greater number with same set of digits.
+https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+3) Given an array where each element is the money a person have and there is only Rs. 3 note. We need to check whether it is possible to divide the money equally among all the persons or not. If it is possible then find Minimum number of transactions needed.
+Round 2 (Technical F2F-1) :
+1> The interviewer introduced himself and then told me tell about myself.
+2> Discussion on the languages I am familiar with [C,C++ and C# in my case], then whether or not I’m strongly familiar with Java or any other Web Development Languages.
+3> Little discussion on Final Year Project and the summer training.
+4> Basics of DBMS, difference between RDBMS and DBMS, Keys and its types, indices, joins and its types with example, normalization and denormalization. [Some of my friends were asked about OOP Concepts as well]
+5> A simple program to check whether a number is palindrome or not.
+6> Different types of traversals of a tree, with example.
+7> Codes for Post-Order, In-Order and Level-Order Traversal of a binary tree.
+P.S : These questions were asked to my friends
+1> Intersection of 2 linked lists.
+2> Check whether or not a linked list has a loop.
+3> Left [or Right] view of a tree.
+4> Kth element from the end, of a linked list.
+5> Check if a linked list is palindrome or not.
+6> Boundary of a tree
+Round 3 (Technical F2F-2)
+1> Why e-commerce and not others.
+2> Find the number of connected components [islands] in a matrix formed with only 0’s and 1’s. [With Code]
+https://www.geeksforgeeks.org/find-number-of-islands/
+3> In a matrix of only 0’s and 1’s, where in each row, there are only 0’s first and then 1’s, find the row with maximum number of 1’s. [Start with right top corner O(m+n) ] [With Code]
+4> About a language apart from C and C++, so I said C#, and then discussion about Collections and Exception Handling in C#.
+Round 4 (HR F2F)
+All students who got selected for Technical Round 2, were selected for HR Round. 
+This round was a really good one, because the HR interviewer asked different questions to different people
+A few puzzles like 25 horse puzzle were asked and a few maths problems like number of rectangles in a chess board.
+He asked me to tell something about myself, which isn’t there in the resume.
+And mind well each and every word you speak, each and every conscious or sub-conscious gesture of yours is taken into account. [The HR round was one of the bests I’ve ever had, gave some feeling of the Roadies Interview XD]
+The most important thing for SnapDeal is that, don’t give up on the questions at all, because even if you don’t hit the solution, the interviewer provides lots of hints, and in the end, even though you give him an inefficient solution, but provide the proper code, you will be through :).
+I’d like to thank GeeksForGeeks community for sharing their knowledge which helped me secure this interview.
+

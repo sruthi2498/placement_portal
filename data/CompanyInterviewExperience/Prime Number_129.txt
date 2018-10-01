@@ -1,0 +1,42 @@
+Given a limit, print all primes smaller than or equal to the given limit.
+Examples : 
+We have discussed below algorithms for the above task.
+Sieve of Eratosthenes 
+Sieve of Sundaram 
+The sieve of Atkin is a modern algorithm for finding all prime numbers up to a specified integer. Compared with the ancient Sieve of Eratosthenes , which marks off multiples of primes, it does some preliminary work and then marks off multiples of squares of primes, that’s why it has a better theoretical asymptotic complexity with Complexity of (N / (log log N))
+The algorithm:
+Below is the implementation of above algorithm.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+How it Works:
+Lets see how it generate prime up to 20:
+Step 0:
+Status for all the numbers in the start is False. Special number is 2, 3 and 5 which are known to be prime.
+Step 1:
+Generate Values for the conditions.
+
+Step 2:
+Flipping the status according to condition.
+The above values of n in the table generated in x, y loop will be tested for modulo condition.
+Column 1:  if (colum1 value) % 12 == 1 or 5
+             then flip the sieve status for that number.
+We are taking mod with 12 in place of 60, this is because if we take mod 60 then we have to consider many r as 1, 13, 17, 29, 37, 41, 49, or 53  and for all these r, mod 12 is 1 or 5. (done only to reduce the expression size)
+Column 2:  if (colum2 value) % 12 == 7
+             then flip the sieve status for that number.
+Column 3:  if (colum3 value) % 12 == 11
+            then flip the sieve status for that number.
+Step 3 :    
+Checking for Square free Condition: If any number in our list in square of any number then remove it.
+Step 4 :
+Creating array of prime numbers for which status is true.
+i.e.  2       3    5    7    11    13    17    19
+Step 5 :
+Print the output on the screen.
+Sources:
+https://en.wikipedia.org/wiki/Sieve_of_Atkin
+http://primesieve.org/
+http://www.ams.org/journals/mcom/2004-73-246/S0025-5718-03-01501-1/S0025-5718-03-01501-1.pdf

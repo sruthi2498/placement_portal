@@ -1,0 +1,24 @@
+For Microsoft Bangalore CRM team.
+Experience: 1.8 years.
+Round 1:(Written test)
+1. Given a sentence say, “these are twelve pens and thirty two sheets” convert this sentence to “these are 12 pens and 32 sheets”. We were asked to do it inline. The interviewer called each one of us and asked us to explain the approach.we were asked to minimize the space and time complexity.
+Round-2(Technical)
+He asked me to Introduce myself and then started asking me what do I know about CRM.(Go through the website before attending the interview)
+1. Given a client and a server and each of them has a queue in it. Client has to copy the contents of the queue to the server once the internet connection is up. The amount of data which it can copy at one go is fixed(Say 5 units). Design an approach for this. Let’s say input queue is partitioned as 2MB,4MB,10MB,6MB and the fixed size of the window is 5MB. The output queue also has the same partitions as the input queue. (He was basically testing how i can use operating systems concepts, designing approach and data structures together).
+2.Deep discussion on the current project which i’m working on currently.
+3.Permutation of string with test cases.
+Round-3(Technical)
+He asked me to introduce myself.
+1.He asked me about the current project which im working on.. and a few questions on the technologies which were used in the project.
+2. Given N prisoners who are standing in a line and M hatred relationships among them say,P1 hates P2, P3 hates P1, P3 hates P5 etc.. If any of the hate relation contains invalid cases like P1 hates P3 and P3 hates P1 then return false. Output the final order in which the prisoner should stand in the line so that they don’t hurt each other. say, if P1 hates P3, P3 should stand behind P1 so that P1 cannot hurt him. He asked me to code for the same.
+3.Given a root, particular node and distance in a binary tree,.. say (struct node *root, struct node *n,int k) print all nodes which are at a distance of ‘k’ from node ‘n’. He asked me to write the code.
+Round-4:(Technical)
+He asked me to walk him through my resume.
+1. Why Microsoft?
+2. Why do u want to leave your current company?
+3. Deep discussion on the current project which I’m working on.
+4. Given a binary tree how to construct the mirror tree out of it. I gave a recursive solution. He asked me to write the code for it. He asked me to write the same without using recursion and test cases for the program.
+Round-5 (HR)
+1.Discussion on current compensation etc.
+Overall, it was really a good experience. GeeksForGeeks, you guys have made our lives so easy! Thanks a lot. 😀
+

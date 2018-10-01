@@ -1,0 +1,11 @@
+A P-smooth number or P-friable number  is an integer whose largest prime factor is less than or equal to P. Given N and P, we need to write a program to check whether it is P-friable or not. 
+Examples:
+The approach will be to prime factorize the number  and store the maximum of all the prime factors. We first divide the number by 2 if it is divisible, then we iterate from 3 to Sqrt(n) to get the number of times a prime number divides a particular number which reduces every time by n/i and store the prime factor i if its divides N. We divide our number n (by prime factors) by its corresponding smallest prime factor till n becomes 1. And if at the end n > 2, it means its a prime number, so we store that as a prime factor as well. At the end the largest factor is compared with p to check if it is p-smooth number or not.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference:
+http://oeis.org/wiki/P-smooth_numbers

@@ -1,0 +1,12 @@
+Below is my DBS (Asia’s Largest Digital Bank), Hyderabad Interview Experience.
+Round 1: First round was an online round which could be taken from anywhere consisting of 14 questions and the allotted time was 75 minutes. First 4 questions were basic coding questions and next 10 questions were MCQ consisting of  C, C++, Database, OS, Networking and one Aptitude question.
+Round 2: Those who cleared first round were invited to DBS office Hyderabad for Hackathon Round. The duration of Hackathon was 5 hours. People were divided into groups of six members and each group had a mentor who was observing the work, approach to the problem statement and how the group members are working as a team.Your mentor will decide in the end that who will proceed for the next round of interview from your team.Problem statement was to create a MVP(minimum viable product)  banking application which could be either a mobile application or web application.For everything there were points allotted like using DBS logo in your application can fetch you few points, a good user experience, backend tech etc were observed.We had to develop an application that can calculate EMI according to customer’s PlanId and also display the transaction details of the DBS customer.The required data in excel file was provided in the challenge.One must have strong Application Development Skills and data-driven mind to clear this round.
+Round 3: Students who cleared round 2 were interviewed by the group of panels, consisting of the mix of technical and HR interview and the interview was on a white-board :
+Question 1: Most efficient way to generate prime numbers till a given n value.
+Question 2: Self Introduction.
+Question 3: Find the median of a doubly Linked List
+Question 4: Tell the names of group members with whom you worked in previous round (Hackathon Round)
+Question 5: BFS and DFS
+Question 6: Why do you want to join DBS
+Question 7: One logical question on 100 bulbs where I was asked to tell how many of the light bulbs are illuminated after the 100th person has passed through the room?
+Question 8: Do you have any question from us ? What’s your expectation from us?

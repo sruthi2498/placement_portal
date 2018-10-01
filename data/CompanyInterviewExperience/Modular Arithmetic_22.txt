@@ -1,0 +1,12 @@
+Given a number N. Find the product of first N factorials modulo 1000000007.
+
+Constraints: 1 ≤ N ≤ 1e6
+
+Examples:
+Prerequisites: Modular Multiplication
+Approach: The basic idea behind solving this problem is to just consider the problem of overflow during multiplication of such large numbers i.e. factorials. Hence, it needs to be addressed by multiplying recursively to overcome the difficulty of overflow. Moreover, we have to take modulus at every step while computing factorials iteratively and modular multiplication.
+To find product of two large numbers under modulo, we use same approach as exponentiation under modulo.. In the multiplication function, we use + instead of *.
+Below is the implementation of above approach.
+Run on IDE
+Run on IDE
+Time Complexity: O(N * logN), where O(log N) is the time complexity of modular multiplication.

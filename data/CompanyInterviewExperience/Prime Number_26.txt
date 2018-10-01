@@ -1,0 +1,24 @@
+Given a number n, find the ordered prime signatures and using this find the number of divisor of given n.
+Any positive integer, ‘n’ can be expressed in the form of its prime factors. If ‘n’ has p1, p2, … etc. as its prime factors, then n can be expressed as :
+
+Now, arrange the obtained exponents of the prime factors of ‘n’ in non-decreasing order. The arrangement thus obtained is called the ordered prime signature of the positive integer ‘n’.
+Example:
+Explanation :
+It can be ascertained from the above discussion that the prime signature of 1 is { 1 }. Furthermore, all prime numbers have the same signature, i.e { 1 } and the prime signature of a number, that is the k-th power of a prime number (say, 25 which is the 2-nd power of 5), is always { k }.
+For example :
+Ordered Prime signature of 100 = { 2, 2 }, as 100 = 2^2 × 5^2
+Now adding one to each element gives { 3, 3 } and the product is 3 × 3 = 9,
+i.e the total number of divisors of 100 is nine.
+They are 1, 2, 4, 5, 10, 20, 25, 50, 100.
+
+Approach :
+1) Find the prime factorization of the number
+2) Store each exponent corresponding to a prime factor, in a vector
+3) Sort the vector in ascending order
+4) Add one to each element present in the vector
+5) Multiply all the elements
+
+Run on IDE
+Run on IDE
+Application :
+Finding the ordered prime signature of a number has utilities in finding number of divisors. In fact, the total number of divisors of a number can be inferred from the ordered prime signature of that number. To accomplish this, just add one to each element present in the ordered prime signature and then multiply those elements. The product, thus obtained gives the total number of divisors of the number (including 1 and the number itself).

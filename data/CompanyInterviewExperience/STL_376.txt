@@ -1,0 +1,8 @@
+We are given two arrays. We need to sort one array according to another. 
+Examples:
+We have discussed different ways in below post.
+Sort an array according to the order defined by another array
+In this post we are focusing on using the pair container present in STL of C++.
+To achieve our task we are going to make pairs of respective elements from both the arrays.Then simply use the sort function. The important thing to note is, the first element in the pairs should be from the array according to which the sorting is to be performed.
+Run on IDE
+Output:

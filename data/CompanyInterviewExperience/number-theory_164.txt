@@ -1,0 +1,25 @@
+Given a positive integer n, and that it is composite, find a divisor of it.
+Example:
+Brute approach: Test all integers less than n until a divisor is found.
+Improvisation: Test all integers less than √n
+A large enough number will still mean a great deal of work. Pollard’s Rho is a prime factorization algorithm, particularly fast for a large composite number with small prime factors. The Rho algorithm’s most remarkable success was the factorization of eighth Fermat number: 1238926361552897 * 93461639715357977769163558199606896584051237541638188580280321.
+The Rho algorithm was a good choice because the first prime factor is much smaller than the other one.
+Concepts used in Pollard’s Rho Algorithm:
+Algorithm:
+Illustration:
+Let us suppose n = 187 and consider different cases for different random values.
+Below is C/C++ implementation of above algorithm:
+Run on IDE
+Output: 
+How does this work?
+Let n be a composite (non-prime). Since n is composite, it has a non trivial factor f < n. In fact, there is at least one f <= √n .
+Now suppose we have to pick two numbers x and y from the range [0, n-1]. The only time we get x = y modulo n is when x and y are identical. However, since f < √n, there is a good chance x = y modulo f even when x and y are not identical (Birthday Paradox). 
+We begin by randomly selecting x with replacement from the set {0, 1, …, n-1} to form a sequence s1, s2, s3 … Defining &sacute;i = si mod f, our sequence now has each &sacute;i belonging to {0, 1, …, f-1}. Because both the sets are finite, eventually there will be a repeated integer in both. We expect to achieve the repeat earlier in &sacute;i, since f < n.     
+
+ 
+
+Now, say &sacute;i = &sacute;j for i ≠ j, then, si = sj modulo d. And hence, |si – sj| will be a multiple of f. As per assumed above, n is also a multiple of f. Together this means that GCD of |si – sj| and n will be positive integral multiple of f, and also our candidate divisor d! The catch here is that we just knew there had to be some divisor of n, and we didn’t even care of its value. Once we hit si and sj (our final x and y) then each element in the sequence starting with si will be congruent modulo f to the corresponding element in the sequence starting with sj, and hence, a cycle. If we graph the sequence si, we will observe the shape of Greek letter Rho (ρ).   
+At the heart of Rho algorithm is picking up random values and evaluating GCDs. To decrease the costly GCD calculations, we can implement the Pollard’s Rho with Floyd’s cycle detection (which can be understood with the tortoise-hare analogy where the tortoise moves through each element one at a time in order, and the hare starts at the same point but moves twice as fast as the tortoise). We shall have some polynomial f(x) for the same, start with random x0, y0 = x0, and compute xi+1 = f(xi) and yi+1 = f(f(yi)). Since we don’t know much about d, a typical choice for the polynomial is f(x) = x2 + c (modulo n) (Yes, ‘c’ is also be chosen randomly).
+Note:
+Time Complexity analysis: 
+The algorithm offers a trade-off between its running time and the probability that it finds a factor. A prime divisor can be achieved with a probability around 0.5, in O(√d) <=  O(n1/4) iterations. This is a heuristic claim, and rigorous analysis of the algorithm remains open.

@@ -1,0 +1,27 @@
+Online Coding Round
+Time 1 hour 30 minutes.
+1) Given an array of numbers, Rearrange the numbers to make the even and odd numbers alternate. If any one type is in excess, let it come in the end. 
+2) Given a binary tree, change the value of the node by the sum of the values of its children.
+I completed both the programs, first one passed 7 test cases, second one passed all test cases. I was shortlisted for the interviews
+1st Round F2F (Technical) 
+Asked what was my favorite project among the ones i have mentioned in my resume. Then he asked to explain Project, and then he asked few questions regarding it.
+He asked 2 questions. One was regarding linked lists. I forgot what those questions were.
+2nd Round F2F (Technical) 
+stack using 2 queues. I implemented and showed, he was happy.
+Given a matrix. Each cell is either marked with a * or nothing. One cannot go into the cells that are marked by a *. Given 2 points a and b in the matrix, Find out if point b is reachable from point a.
+I gave a solution solution, but i had missed marking the cells visited. He pointed out that it will be an infinite recursion. So i said i will mark it visited. He then told me to code it. I did. He was satisfied with it.
+Robot problem. Dynamic programming. I somehow solved it, he then asked for the code. I wrote it. He tried to understand himself, but he wasn’t able to. So i made him understand, he was happy and satisfied with it.
+3rd Round F2F (Technical)
+Questions on OOPs concept. Asked what a singleton class is. I answered, then he asked how can it be implemented in C++. I was weak in the C++ language, so he gave hints. I tried but he was not satisfied with my answer.
+Then he asked to a question regarding trees. Given a binary tree, you have to connect all the nodes in each level through extra pointers.
+I gave an approach using queue. He then asked how to do with constant space. I tried, but i had forgotten the algorithm. He tried giving hints, but i wasn’t able to solve.
+4th Round F2F (HR + Technical)
+He started off by asking how was the other interviews. Then he asked the typical “Tell me about yourself”.
+He asked me little about my favorite project. I selected the same one which i explained in the first interview.
+Next he asked, Given just a page of a Dictionary. It can be from anywhere, middle, end or start. The dictionary is for a language that one doesn’t know. You have to find out the order of the alphabets, which one comes before and which one comes after. I started with an approach using generic tree. He asked me why can’t graph be used. I thought a little and agreed, and started using graph. I explained him the inconsistencies that can occur. Later after few minutes of discussion, he told me, suppose he gives me a graph with letters in place of nodes, and says to find out the order of the alphabets. How would i go about doing it. I mentioned topological sort, but i said i don’t remember the algorithm properly. He gave a little hint, that reminded me, and i solved it.
+He gave a scenario. Suppose you type “www.amazon.com” and hit Enter. What goes on in the background after that. I gave a detailed explanation with Network layers, routing, CDN, Content Caching. I missed out NAT, so he asked me what it was and how it will be used.
+Then he gave me a list of list. It had integers. Like the one shown in picture below (in Attachment).
+
+He told me to print 1, 2, 3, 4… I did it using loops, But he wanted to optimize it, and said that i can modify the list if i wished. So i thought a little and got the idea. He asked me to write the code. I wrote, he saw and said there was a bug, but he had missed something, i explained him, so he was satisfied with the code.
+Only 7 people were there till the last round. The interviews were over by 10:40pm. They took 3 hours to come to the final list. They said that we all did very well. At 1:30 night they announced 3 names. I was not selected. All in all it was a good experience, but i was a little sad after the results came out.
+

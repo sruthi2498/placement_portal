@@ -1,0 +1,17 @@
+Given a directed and connected graph with n nodes. If there is an edge from u to v then u depends on v. Our task was to find out the sum of dependencies for every node.
+ 
+Example:
+For the graph in diagram,
+A depends on C and D i.e. 2
+B depends on C i.e. 1
+D depends on C i.e. 1
+And C depends on none.
+Hence answer -> 0 + 1 + 1 + 2 = 4
+Asked in : Flipkart Interview
+
+Idea is to check adjacency list and find how many edges are there from each vertex and return the total number of edges.
+
+Run on IDE
+Run on IDE
+
+Time complexity : O(V) where V is number of vertices in graph.

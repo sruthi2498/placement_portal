@@ -1,0 +1,9 @@
+The ratio_not_equal is an inbuilt function in C++ STL that checks if two given ratios are not equal or equal. 
+Syntax:
+Template Parameters: The function accepts two template parameters ratio1 and ratio2 which are to be compared.  
+Return value: The function returns true if the ratios are not equal otherwise it returns false.
+Program below demonstrates the function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

@@ -1,0 +1,34 @@
+Given a pattern containing only I’s and D’s. I for increasing and D for decreasing. Devise an algorithm to print the minimum number following that pattern. Digits from 1-9 and digits can’t repeat.
+Examples: 
+Source: Amazon Interview Question
+
+
+Below are some important observations
+Since digits can’t repeat, there can be at most 9 digits in output.  
+Also number of digits in output is one more than number of characters in input. Note that the first character of input corresponds to two digits in output.
+Idea is to iterate over input array and keep track of last printed digit and maximum digit printed so far. Below is the implementation of above idea.
+Run on IDE
+Run on IDE
+
+This solution is suggested by Swapnil Trambake.
+Alternate Solution:
+Let’s observe a few facts in case of minimum number:
+The idea is to iterate over the entire input array , keeping track of the minimum number (1-9) which can be placed at that position of the output.
+The tricky part of course occurs when ‘D’ is encountered at index other than 0. In such a case we have to track the nearest ‘I’ to the left of ‘D’ and increment each number in the output vector by 1 in between ‘I’ and ‘D’. 
+We cover the base case as follows:
+Now we iterate the input string from index 1 till its end and:
+Following is the program for the same:
+
+Run on IDE
+
+This solution is suggested by Ashutosh Kumar.
+ 
+Method 3 
+We can that when we encounter I, we got numbers in increasing order but if we encounter ‘D’, we want to have numbers in decreasing order. Length of the output string is always one more than the input string. So loop is from 0 till the length of the sting. We have to take numbers from 1-9 so we always push (i+1) to our stack. Then we check what is the resulting character at the specified index.So,there will be two cases which are as follows:-
+Case 1:  If we have encountered I or we are at the last character of input string,then pop from the stack and add it to the end of the output string until the stack gets empty.
+Case 2:  If we have encountered D, then we want the numbers in decreasing order.so we just push (i+1) to our stack.
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)
+This method is contributed by Roshni Agarwal. 

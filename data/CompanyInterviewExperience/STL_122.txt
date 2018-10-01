@@ -1,0 +1,9 @@
+The lldiv() is a builtin function in C++ STL which gives us the quotient and remainder of the division of two numbers.
+Syntax:
+Parameters: The function accepts two mandatory parameters which are described below: 
+Return value: The function returns a structure of type lldiv_t which consists of two members: quot and rem, where quot is the quotient and rem is the remainder. The struct is defined as follows:
+Below programs illustrate the above function: 
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

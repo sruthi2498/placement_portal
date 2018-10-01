@@ -1,0 +1,8 @@
+The interviewer first asked me to tell sumthing about myself. Then he asked my favorite subjects
+Ques 1 : what are virtual functions in C++? how are calls to virtual functions resolved at runtime?
+Ques 2: what is the need for virtual destructors? 
+Ques 3: if there are virtual destructors then why there are no virtual constructors?
+Ques 4: there are n mountains. you are given a 1d array A where A[i] represent the height of mountain i+1. how will you find a valley in that array.( A valley is a value in array which is smaller than both its left and right neighbors ).
+Ans 4  this question is similar to finding peak element in an array, given on geeks for geeks
+Ques 5 : he asked me the famous puzzle in which there are 1000 identical bottles. one of them contains poison. A person after drinking the poison dies after 24 hours. You have to identify the poisonous bottle in 1 day. minimum no of prisoners needed to find the poisonous bottle.
+ans 10( 1000 can be represented in binary using 10 bits .) 

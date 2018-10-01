@@ -1,0 +1,13 @@
+Written test: 
+It comprised three papers that were held back to back and took approximately three hours. The first two papers were subjective.
+….First one tested us on the concepts of probability. I don’t quite remember the questions but one of them asked us to find the Eigen values for a given matrix
+….Second one tested our coding skills. Few of the questions I can recollect:		
+Given a set of numbers, find the pairs whose sum is divisible by k.
+Given a number find the next largest palindrome number (e.g. if number is 100 then the next largest palindrome is 101).
+….The third paper tested our knowledge of computer science subjects. It was mainly focused on Networks and required us to know the basics of TCP/IP, time to live (TTL) etc.
+Interview Round:
+1) Tell me about yourself. (This was totally unexpected!)
+2) Find the probability that three points chosen on a circle lie on the same semi-circle.
+3) In a matrix a saddle point is defined as the point such that, it has the maximum value in a corresponding row and the minimum value in the corresponding column. Given a NXN matrix find the maximum possible saddle points.
+4) Given that you toss a fair coin, what is the expected number of tosses required before you get n consecutive heads?
+

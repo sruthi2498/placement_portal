@@ -1,0 +1,22 @@
+Given two lists list1 and list2 containing m and n items respectively. Each item is associated with two fields: name and price. The problem is to count items which are in both the lists but with different prices.
+Examples:
+Source: Cognizant Interview Experience | Set 5.
+
+Method 1 (Naive Approach): Using two nested loops compare each item of list1 with all the items of list2. If match is found with a different price then increment the count.
+Run on IDE
+Run on IDE
+
+Time Complexity: O(m*n).
+Auxiliary Space: O(1).
+Method 2 (Binary Search): Sort the list2 in alphabetical order of its items name. Now, for each item of list1 check whether it in present in list2 using binary search technique and get its price from list2. If prices are different the increment the count.
+Run on IDE
+Output:
+Time Complexity: (m*log2n).
+Auxiliary Space: O(1).
+For efficiency, the list with maximum number of elements should sorted and used for binary search.
+Method 3 (Efficient Approach): Create a hash table with (key, value) tuple as (item name, price). Insert the elements of list1 in the hash table. Now, for each element of list2 check if it is the hash table or not. If it is present, then check if its price is different then the value from the hash table. If so then increment the count.
+Run on IDE
+Output:
+Time Complexity: O(m + n).
+Auxiliary Space: O(m).
+For efficiency, the list having minimum number of elements should be inserted in the hash table.

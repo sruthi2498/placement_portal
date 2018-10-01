@@ -1,0 +1,25 @@
+Given a number ‘n’, write a function that prints the last digit of n’th (‘n’ can also be a large number) Fibonacci number. 
+Examples :
+Method 1 : (Naive Method) 
+Simple approach is to calculate the n’th Fibonacci number and printing the last digit. 
+Run on IDE
+Run on IDE
+Run on IDE
+
+Complexity:  O(Log n).
+Limitation of this implementation:
+Fibonacci numbers grow exponentially fast. For example, the 200’th Fibonacci number equals 280571172992510140037611932413038677189525. And F(1000) does not fit into the standard C++ int type.
+To overcome this difficulty, instead of calculating n’th Fibonacci number, there is a direct algorithm to just calculate its last digit (that is, F(n) mod 10).
+ 
+ 
+Method 2 : (Direct Method)
+Look at the final digit in each Fibonacci number – the units digit:
+Is there a pattern in the final digits?
+Yes!
+It takes a while before it is noticeable. In fact, the series is just 60 numbers long and then it repeats the same sequence again and again all the way through the Fibonacci series – for ever. The series of final digits repeats with a cycle length of 60 (Refer this for explanations of this result).
+So, instead of calculating the Fibonacci number again and again, pre-compute  the units digit of first 60 Fibonacci number and store it in an array and use that array values for further calculations. 
+Run on IDE
+Run on IDE
+Run on IDE
+
+Complexity:  O(1).

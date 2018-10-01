@@ -1,0 +1,24 @@
+First Round(Telephonic)
+Two questions of coding. They were easy to program. A link was shared on my email of google docs.
+Questions were :-
+1. Return an array of fibonacci sequence 
+2. String to number mapping is given find the smallest mapping of number.
+ for ex. 1=>a, 2=>b , 3=>c ……………
+ input is 234
+ find the smallest corresponding to it
+ brute force solution was required 
+Second round of interview(Telephonic)
+1. Basic questions on projects and resume.
+2. Basic questions on sql and table like find seconod set of top 10 elements in a table
+Third round
+Three questions were asked which were tough to handle
+1. HTML parser
+2. SQL  parser
+3. forgot but something on parser
+HTML parser
+A long file was given and we have to find the given html response code and the count of the code in the file 
+SQL parser
+A long file with data about the table formats and the entry in the tables with sql queries to extract the rows count from them that satisfy the criterion 
+Python language will help you to implement the questions easily. (A suggestion)
+
+

@@ -1,0 +1,13 @@
+Prerequisite : Dynamic Programming | Set 8 (Matrix Chain Multiplication)
+Given a sequence of matrices, find the most efficient way to multiply these matrices together. The problem is not actually to perform the multiplications, but merely to decide in which order to perform the multiplications.
+We have many options to multiply a chain of matrices because matrix multiplication is associative. In other words, no matter how we parenthesize the product, the result will be the same. For example, if we had four matrices A, B, C, and D, we would have:
+However, the order in which we parenthesize the product affects the number of simple arithmetic operations needed to compute the product, or the efficiency. For example, suppose A is a 10 × 30 matrix, B is a 30 × 5 matrix, and C is a 5 × 60 matrix. Then,
+Clearly the first parenthesization requires less number of operations.
+Given an array p[] which represents the chain of matrices such that the ith matrix Ai is of dimension p[i-1] x p[i]. We need to write a function MatrixChainOrder() that should return the minimum number of multiplications needed to multiply the chain.
+This problem is mainly an extension of previous post. In the previous post, we have discussed algorithm for finding optimal cost only.  Here we need print parenthssization also.
+The idea is to store optimal break point for every subexpression (i, j) in a 2D array bracket[n][n].  Once we have bracket array us constructed, we can print parenthesization using below code.
+Below is C++ implementation of above steps.
+Run on IDE
+Output:
+Time Complexity: O(n^3)
+Auxiliary Space: O(n^2)

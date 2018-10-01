@@ -1,0 +1,24 @@
+I was recently interviewed for SDE-II in Flipkart. A lot of emphasis was on designing and geeksforgeeks has been a lot of help. These are my interview questions:
+Round 1 : Machine Round (2-3 hours)
+Company hierarchy/bonus question.
+Write down code in any language for a simple employee hierarchy which has 3 types of employees.
+1. CEO
+2. Manager
+3. employee
+Where an employee can have only 1 mgr, and a mgr has 1+ employees.
+We were asked to input employee details(name ,id, salary,rating etc) in any order (employees might be input before his manager), create the hierarchy and implement these functionality:
+1. Print hierarchy given any employee/mgr/ceo (used an n-ary tree + hash table)
+2. Given a bonus and performance rating of each employee divide it to the lowest level employees(in the hierarchy ) in the ratio of their rating. i.e 100 divided among 2:3 is 40 and 60. and print the bonus of each ( simple recursive solution)
+3. Top 10 employees with ratio of bonus:salary (used maxheap)
+Had a discussion on the solution with various variants and edge/faulty cases.
+Round 2 : Problem Solving Round (1.5 hours)
+1. A solution was required to make a fantasy league with some budget allocated. Players will have some score/rating and the cost of player. Maximum score was to be achieved with eleven players.
+Had a lot of discussion on various approaches like backtracking, modified knapsack etc.
+2. A set of tasks is given of which some are dependent tasks. Solution was required to enable parallel processing of the tasks. (Used topological sort)
+Round 3 : Designing Round (1 – 1.5 hours)
+A library for game 2048 was to be designed. The game can have constraints/variations which shall be defined by the game designer. The variations can be adding same numbers or adding Fibonacci numbers etc. APIs were to be exposed to the game designer.
+Round 4 : Manager Round (45mins)
+A lot of behavioral questions. Discussion about the product and the work I do. Challenges faced etc.
+ 
+ 
+

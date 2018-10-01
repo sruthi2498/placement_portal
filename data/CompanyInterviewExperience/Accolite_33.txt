@@ -1,0 +1,21 @@
+Accolite visited our campus for full time Software development.
+First round: MCQ round consists of 30 questions 30 minutes. Questions on C aptitude, four to five general aptitude, two puzzle based aptitude questions. Around 120 wrote test, 10 were selected for next round.
+
+Second round: It took around 1 and half hour two people were there. All rounds were purely technical. Questions are,
+Tell me about yourself.
+Implementation of queue using two stacks and some modification on that.
+Finding pair in a given array such that sum is equal to given value. Then he modified for negative numbers.
+Check if a given tree is binary search tree or not with full code.
+Child sum problem on binary tree told to write code also. 
+One puzzle related to coin and two rooms.
+
+Third round: Only one question in this round. I have to design a dictionary of words such that if any word is entered then it should give meaning for all anagrams for that word. We discussed for one hour. First I told about using try data structure to make dictionary and generate all anagrams of that word then searching each words. But he is not satisfied. Then I came up with some modification in structure of try data structure still not satisfied. Then I come up with multilevel hashing Technique. He somewhat satisfied.
+
+Fourth round: It was final round and only two people were selected for this.
+Puzzle: There will be 17 buckets and some 2197(don’t remember exact number) apples. You have to put these apples in buckets such that if I ask any number of apples then just give any number of buckets such that apples in those buckets should equal to that value. Hint, arranged as bits arranged in binary representation of numbers.
+Finding loop in a linked list. He first asked you already know this question I told yes sir. Then he asked will it work if by changing fast pointer and slow pointer with difference of 3, 4, 5 nodes. 
+Addition of two linked lists with full code. Numbers are in reverse order and all border conditions should be considered like, lengths are not equal. First he told to write for positive numbers I wrote using recursion. Then he told to write negative numbers.
+We both were told to wait outside. After few minutes they told only I am selected.
+Thanks geeksforgeeks. 
+
+

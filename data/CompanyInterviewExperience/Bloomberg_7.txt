@@ -1,0 +1,33 @@
+Click here to see the documentation of the first phone interview.
+The video conference came after passing the phone interview, it was held on Skype with 2 interviewers from Bloomberg: Freddy and Chad.
+The call started by both of them introducing themselves, and so did I, and I was, again, asked to say what I know about bloomberg, and why I want to work there.
+The interviewers then jumped to the first question, it was direct, for the following code, answer the given 9 questions.
+Run on IDE
+The second question was as follows:
+The shown code is built to print out the current date, but for some reason, it doesn’t.
+You are required to figure out the reason.
+Run on IDE
+At the beginning the code looked fine to me, the only thing I thought would be the problem, is the declaration of the char array buf on the stack instead of the heap.
+So, I suggested that dynamic allocation should solve the problem and that we should use malloc(80*sizeof(char)) instead of buf[80]
+The interviewers said it was the correct step, but he still needs a reason.
+The interviewers gave a hint, that in case a breakpoint was set just before the printf if, the debugger shows that date does hold the correct result, so the problem is in printf.
+After I had enough time, the interviewer decided to give me the answer to move next.
+The problem was that when printf is called, it needs a part of the stack, and this may affect the stack-reserved array of characters buf.
+The next question was a follows:
+Given an integer n, return the number of ways it can be represented as a sum of 1s and 2s, order matters.
+I suggested we use a recursive function to compute it.
+And then suggested to use some sort of memoization.
+The code was as follows:
+Run on IDE
+I then realized the problem forms linear recurrence, where f(n) = f(n-1) + f(n-2), so it can be solved using matrix exponentiation.
+I spend around 15 minutes explaining the solution to the interviewers, and they didn’t seem to understand a word of it.
+The running time complexity of the solution is O(log(n)), same as the memory complexity.
+There was another solution that I didn’t have time to say, which has a time complexity of O(n) and a memory complexity of O(1), which models this problem to the fibonacci problem.
+The last question was so trivial, I was asked to reverse a string in place, I used the 2 pointers, here was the code:
+Run on IDE
+Finally I was asked to use this code to reverse words within a sentence, in place, here was the code:
+Run on IDE
+Result: Rejected.
+Summary: The interviewers are not so good with problem solving, they are good implementers just it, so type neat and clean code, use the obvious ideas, don’t do complicated solutions, because they most probably won’t get it.
+If I made one mistake in this interview, I would say it was using matrix exponentiation rather than the easier linear-time constant-memory solution.
+Good Luck with that, passing this video conference means you are going to London for an onsite, final interview, so you have another reason to do your best.

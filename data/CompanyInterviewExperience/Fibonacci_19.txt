@@ -1,0 +1,3 @@
+In our previous post on fibonacci series, we have seen many approaches to generate fibonacci numbers. In this approach, we shall be generating fibonacci numbers with the help of boost library. The program simply uses the “boost/multiprecision/cpp_int.hpp” boost library in which big_int is defined. The fibonacci numbers beyond the range of long long int can also be generated using the boost library. Below is the C++ implementation to generate fibonacci numbers using the boost library.
+Run on IDE
+Output : 

@@ -1,0 +1,69 @@
+HSBC came to our college for SDE profile Hiring.
+1st Round:
+Four Coding Questions to be done in 2 hours;
+1. Quick Sort on Doubly linked list
+2. Sort n numbers in range from 0 to 2^n-1 in linear time
+3. Find length of longest consecutive path from a given string character.
+4. Given two strings str1 and str2 and below operations that can performed on str1. Find minimum number of edits (operations) required to convert ‘str1? into ‘str2?.
+After 1 hour results were announced. Among 80 students of CS/IT, they shortlisted 7 of us. The people who were able to do 3 or more codes were shortlisted.
+2nd Round: 
+Technical Round (Very Tough )
+1. what does space complexity means?
+2. What is Dijkastra Shortest path Algorithm.
+3. The Activity selection problem- full working code
+4. K centres Problem- – full working code
+5. Prims MST for adjacency list representation- – full working code
+6. Given a string ‘str’ of digits, find length of the longest substring of ‘str’, such that the length of the substring is 2k digits and sum of left k digits is equal to the sum of right k digits.- – full working code
+7. Given a string, find the longest substring which is palindrome.- full working code
+    if the given string is “forgeeksskeegfor”, the output should be “geeksskeeg”
+    if the given string is “abaaba”, the output should be “abaaba”
+    if the given string is “abababa”, the output should be “abababa”
+    if the given string is “abcbabcbabcba”, the output should be “abcbabcba
+8.  Explain the concept of Reentrancy?
+9. Explain Beladys Anomaly?
+10. What is Thrashing
+11. what are short, long and medium term scheduling
+12. Difference between Micro- Kernel and Macro kernel.
+13. Typical elements of a process Image.
+14. What is Translation lookaside buffer.
+After this round, 3 students were shortlisted out of 7 of us.
+I was luckily one of them.
+3rd Round:
+1. Can you explain PDCA cycle where testing fits in?
+2. Difference betweeb white box, black box and grey box testing
+3. what is usability testing
+4. On what basis is the acceptance plan prepared?
+5. what is Risk based Testing
+6. Which is the best testing Model
+7. Difference between Defect and a Failure?
+8. When do we use decision table testing
+9.He gave me a code and asked to find how many tests are required for 100 % decision coverage
+10. What is component testing
+11. What is functional system testing
+12. When Regression testing should be performed
+13. What is negative and positive testing
+14. Difference between re-testing and regression testing
+15. What is the most challenging situation you had during testing?
+After this Round of us only i was shortlisted for the next round. 🙂 🙂 
+
+4th Round:
+1. Describe Normalisation with examples.
+2. What happens when we paste a web address in a browser
+3. Explain different types of joins with examples
+4. What is view in DBMS?
+5. Gave a 8 -loop nested quer  and he asked that what the SQL code was doing
+6. What is JRE,JDK and JVM?
+7. How will you reverse a linked list in O(1) time.
+8. Reverse a linked list .
+9. Reverse a BST using recursion
+10. Concatenate two BST
+11. What is a Gateway or a Router
+12. What is maximum length allowed for a UTP cable
+13. How does a network topology affect your decision in setting a network
+14. What is private and public IP
+15. Importance of OSI physical layed
+16. What is WAN and NIC
+17. Importance of implementing a fault tolerance system.
+18. What is NoS and DOS?
+I was not able to answer the Networks questions properly and so they rejected me too 🙁 🙁
+Thanks a lot GeeksForGeeks. I was able to clear 3 rounds only because of the GeeksForGeeks Website 🙂

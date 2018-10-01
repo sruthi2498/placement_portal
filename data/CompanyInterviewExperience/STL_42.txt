@@ -1,0 +1,9 @@
+The unordered_multimap::size() is a built-in function in C++ STL which returns the size of the unordered_multimap. It denotes the number of elements in that container.  
+Syntax: 
+Parameters:  The function does not accept any parameters. 
+Return Value: It returns an integral values which denotes the size of the containers.
+Below programs illustrates the above function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

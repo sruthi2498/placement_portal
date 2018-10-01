@@ -1,0 +1,13 @@
+Round 1
+An online test on java/ajax & struts
+Round 2
+1) How would you implement snakes and ladder game?(Hint: Use arrayList)
+2) How would you come to know if a number is a power of 2? Code.
+3) Given an arrayList, get the number which is lonely or does not have any duplicates. What is the time complexity here.
+4) How will you implement a functionality where updating the DB updates the value on the UI without entire page refresh
+Round 3
+1) Consider a square matrix with elements 0s & 1s in it. The rows are sorted while columns are not. Calculate the row with the maximum sum. (Hint : you don’t need to iterate through all the rows & columns to get the answer)
+2) Consider an array: 
+Explanation : Since both 2 & 5 are repeated elements but since the index of 2 is less than that of 5, hence the answer is 2.
+
+

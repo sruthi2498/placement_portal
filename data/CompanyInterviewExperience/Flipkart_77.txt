@@ -1,0 +1,61 @@
+Flipkart recently visited our campus for written test for December placements.
+Hosted on : cocubes.com
+Time : 90 mins
+No objective questions.
+Two coding questions only. We have to complete the function only.
+Ques:
+Given a mxn grid, each of it’s element be either ‘.’, ‘R’, ‘G’ or ‘B’,
+where ‘.’ -> empty, ‘R’ -> Red, ‘G’ -> Green, ‘B’ -> Blue
+A Blue strip has width 1 and length greater or equal to one.
+A Red strip has length 1 and width greater or equal to one.
+If a Red strip and a Blue strip overlaps, the overlapped portion will become ‘G’.
+Find the minimum number of strips required to cover the whole grid.
+1<= m,n <=100
+
+Ex.
+Input
+2 4
+..B.
+..B.
+Output
+1
+
+Input
+5 5
+..B..
+..GRR
+..B..
+R....
+R....
+Output
+4
+
+Input
+5 5
+..B..
+..GRR
+..B..
+B....
+B...G
+Output
+5
+
+Explanation:
+Blue strips are vertical.
+Red strips are horizontal.
+Ex 1:
+Only 1 vertical strip from (0,2) to (1,2). [Indexing from (0,0)]
+Ex 2:
+1 vertical strip from (0,2) to (2,2)
+1 horizontal strip from (1,2) to (1,4)
+1 horizontal strip from (3,0) to (3,0)
+1 horizontal strip from (4,0) to (4,0)
+so total — 4
+Ex 3:
+1 vertical strip from (0,2) to (2,2)
+1 horizontal strip from (1,2) to (1,4)
+1 vertical strip from (3,0) to (4,0)
+1 horizontal strip from (4,4) to (4,4)
+1 vertical strip from (4,4) to (4,4)
+so total — 5
+

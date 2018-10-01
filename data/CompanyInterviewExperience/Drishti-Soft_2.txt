@@ -1,0 +1,45 @@
+Had applied Off campus. They had asked us to bring our own laptops. 
+Round 1 – Online round.
+3 hours 
+30 MCQ questions based on Quantitative aptitude. ( Ideally to be done in 30 mins)
+Questions on Profit-Loss , Ratio , time-work, volumes – surface area. The level of questions was high.
+4 Programming questions  – Choice was between C and Java
+Q1 was very easy. We are given a no ‘n’, we need to count how many times 2 comes between 1 to ‘n’ in that range.
+eg : – 19 . Between 1 – 19 , 2 , 12 contain 2 so the answer will be 2.
+My approach was using modulus, check each digit and put this in the loop.
+However 8/10 cases passed.
+Q2  was dynamic programming. Find the length of the largest subsequence which first increases and then decreases. eg : –  8 1 2 3 4 5 6 7 6 5 . In this case length will be 9 . 1 -7 increasing and 6-5 decreasing.
+ I was clueless, how to do this question.
+Q3 – Linux file system structure program.
+We were given that the following directories already exist . we had to find out how many mkdir calls we need to make. The directories were taken in the form of 2D character arrays. Say :
+home , tmp
+so for the path
+/home / abc – 1 for this (1 mkdir call for abc because home already exists)
+/ temp / xyz / wvu – 2 for this ( temp already exists , 2 mkdir calls for xyz, wvu)
+Q4 : A program to reverse a linked list  till k nos was given . We had to find the bug in it . Run time error was coming .
+The insert function in the list was entering this way
+eg : input is 1 2 3 4 5 6 7 8 9
+The values were getting entered in the list as
+9 8 7 6 5 4 3 2 1 . Head pointing to 1
+Our expected output for 1 2 3 4 5 6 7 8 9 with k = 4 ( The no till which we need to reverse)
+4->3->2->1 ->8->7->6->5->9->8
+Basically a no k was given till which we had to reverse.
+
+Round 2 was Debugging round.
+Rat in the maze problem was given . A person could go only 4 directions from the maze.
+It was something like : 
+ABC decides to make cube but only has the budget to make a square maze. Its a perfect maze, every room has a square base and there are 4 doors (1 on each side of the room). There is a big number written in the room. A person can only move from one room to another if the number in the next room is larger than the number in his current room by 1. Now,ABC assigns random integer numbers to all the rooms and then places S2 people in the maze, 1 in each room where S is the side length of the maze. The person who can move maximum number of times will win. Figure out who will emerge as the winner and the number of rooms he will be able to move. In case there are multiple such people, the person who is in the smallest assigned number room will win.value of integer <= 1000.If a person moves from current room to another then the length will be 2.
+
+There was some problem in dx dy ->directions. It was taking us diagonally. We are allowed to move only top down left right. Boundary condition was also being violated, we had to put the ifs. Also the function wasn’t modifying the values so we had to store value in array rather than local variables. It was calculating the MAX..but the condition was put that of MIN. Also we had to modify the VISITED array.
+The round lasted for 2 hours. 4:30-6:30.
+They gave us dinner. Then Design round started.
+We had to design a client server application in which client was sending to server and server was returning to the receiver. 
+A server.jar file was also given.
+this lasted till 11:45 PM. Started around 9-9:30
+
+Next day Project round.
+It was very rigorous. First he asked for overview of all the projects done in engineering so far. On a piece of paper, had to explain him the workflow. He then asked to choose 1 project of choice and went into details. He asked to write the code of various modules / classes on a piece of paper. He then asked detailed questions. Focused mainly on error handling. Lasted for 2 hrs.
+Last Round was HR
+Just a general discussion on strengths weakness , family , goals in life.
+All the interviewers very friendly and helpful
+

@@ -1,0 +1,18 @@
+Given three numbers x, y and p, compute (xy) % p.  
+Examples :
+We have discussed recursive and iterative solutions for power.
+Below is discussed iterative solution.
+Run on IDE
+The problem with above solutions is, overflow may occur for large value of n or x.  Therefore, power is generally evaluated under modulo of a large number.
+Below is the fundamental modular property that is used for efficiently computing power under modular arithmetic.
+Below is the implementation based on above property.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of above solution is O(Log y).
+
+Modular exponentiation (Recursive)

@@ -1,0 +1,13 @@
+std::front_inserter constructs a front-insert iterator that inserts new elements at the front of the container to which it is applied. It is defined inside the header file .
+A front-insert iterator is a special type of output iterator designed to allow algorithms that usually overwrite elements (such as copy) to instead insert new elements automatically at the beginning of the container. It is the exact opposite of std::back_inserter.
+Syntax:
+Run on IDE
+Output:
+How is it helpful ?
+Run on IDE
+Output:
+Explanation: Here, we started copying v1 into v2 but from the beginning, so every time a new element came it was inserted in the beginning, in this way, the last element inserted became the first element in the new container, and in this way we were able to reverse the contents of the container.
+
+Points to Remember:
+Run on IDE
+Output:

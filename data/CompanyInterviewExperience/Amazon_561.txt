@@ -1,0 +1,38 @@
+I had my Amazon Interview some days back and now I am posting my experience here.
+Round 1 (Apt)
+20 mcq question and 2 coding questions were there
+Mcq consisted of questions from C, Data Structure, OS, and so on
+Coding Question 1 – Given a String and a pattern find all anagrams of the pattern in the original string. You need to print all the index of the location where the match was found
+Ex –
+INPUT –   ABDACDBACA
+ABCD
+OUTPUT – 1 3 4 5  (at index 1 BDAC , at index 3 ACDB and so on )
+Coding Question 2 – Given an array containing zero and non zero digits you need to shift all the zeroes to the right of the array. Output should be number of non zero elements present in array and minimum number of swaps needed to do so.
+Ex –
+INPUT – 1 0 -6 5 0 0 2 0
+OUTPUT – 4 (number of non zero elements)
+1 (swap 2 with 0 present at index 1)
+1st PI
+Started with a general introduction with the interviewer. Some basic introductory questions like Tell me something about yourself and after we were settled he started asking question
+1 . Given a binary tree store the vertical sum of the tree in a list.
+2. Given a number you need to output the minimum number of factors needed to represent that number such that none of the factors is divisible by a perfect square.
+EX-
+INPUT – 8
+So number of factors of 8 (2*2*2 , 4*2 , 8) (NOTE : do not consider 1 because it is divisible by all numbers) So minimum factor will be 1 (8) but it is divisible by 4 so not allowed then minimum is 2(4 * 2) but again 4 is divisible by 4 so not allowed so finally answer is 3 (2*2*2)
+OUTPUT – 3
+You need to explain the logic of both the programs and then have to code both of them
+2nd PI
+General Introduction about myself and asked me my Weakness and strongness and again once we were comfortable started asking questions
+() – onion of size 1
+(()) – onion of size 2
+((())) – onion of size 3
+So suppose if input is (()()) so output will be 2 because there are only two onions present in it
+Again Complete coding of the two functions was needed
+Then he started asking questions on subjects – OS , Networking and a SQL query
+3rd PI
+Started with introduction and then he gave me question
+INPUT – 00101111011101011000
+OUTPUT – 01001110000011111110 (Number of 0’s and 1’s in the input and output must be same so if you run out of any of them then just simple print the remaining number)
+Coding of both the program’s was needed
+4th PI (Bar Raiser)
+

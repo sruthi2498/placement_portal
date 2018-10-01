@@ -1,0 +1,29 @@
+Recently LinkedIn came to our college campus to hire FTE’s. The profile was SRE (Site Reliability Engineer). Here I am sharing my Interview Experience.
+The process included 1 Online Coding round , 2 face to face Technical interviews , 1 face to face HR interview followed by a final telephonic HR.
+Online Coding Round
+Around 130 students gave this coding test conducted on campus on Hackerrank. It consisted of 40 questions out of which 37 were MCQ and 3 were Coding Questions. Test Duration was 2 hours.
+MCQ Questions were based on Networking and Linux/UNIX to a large extent. Some questions on topics like DBMS, OS, OOPs and DS were also asked. Questions on Networking and Linux were a bit challenging, rest were easy. Someone who has prepared these topics well enough could answer most of them.
+Coming to the 3 coding questions :
+Q1
+Given a string which consists of integers separated by commas, find the longest sub-sequence such that elements in the sub-sequence are consecutive integers, the consecutive numbers can be in any order.
+We had to print the numbers in that sub-sequence in increasing order. The only tricky part here was that the input was in the form of string not array of integers.
+Example Input : String = “1, 9, 3, 10, 4, 20, 2”
+Required Output : 1 2 3 4
+No of test cases : 3
+Q2
+Given a string find the number of unique sub-strings. I did this using maps in O(n^2) time complexity. You had to create trie to do it in linear time.
+Count Distinct Substrings
+No of test cases : 10
+Q3
+Given a string, print all unique strings of length k formed using characters of the given string in such a way that the characters in it are in increasing order.
+No of test cases : 3
+5 students were shortlisted after this round for the further process which was carried out at LinkedIn’s Bangalore Office.
+On Site Rounds –
+Technical Round 1
+Round duration was 1 hour. Questions related to OOP’s, DBMS, OS, basic Linux/Unix and networking were asked. Focus was more on networking and networking aspects of system design were asked, hardly any theoretical questions on networking were asked.
+DBMS and OS were relatively simple.
+System Design Round
+Again round duration was 1 hour. After a quick intro from both sides, the interviewer gave me a file server system to design. Basically he wanted me to arrive at the final and correct architecture of the system and then expected me to handle the scalability problem at each component.
+Host Manager Round
+Two senior-most panelists took this interview. They first asked me to introduce myself. They asked about my projects and wanted me to list some problems that I faced during it. They asked about my freelance projects that I had mentioned in my profile. 2-3 practical questions were also asked to check if the interviewee is able to think outside the theoretical knowledge. Focus was mainly to check the confidence level and communication skills of the Interviewee. At last they gave me a chance to ask few questions. This lasted for 1 hour.
+

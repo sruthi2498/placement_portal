@@ -1,0 +1,24 @@
+
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.
+empty() function is used to check if the list container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application :
+Given a list of integers, find the sum of the all the integers.
+Algorithm
+Run on IDE
+Output:
+size() function is used to return the size of the list container or the number of elements in the list container.
+Syntax :
+Examples:
+Errors and Exceptions
+Run on IDE
+Output:
+Application :
+Given a list of integers, find the sum of the all the integers.
+Algorithm
+Run on IDE
+Output:

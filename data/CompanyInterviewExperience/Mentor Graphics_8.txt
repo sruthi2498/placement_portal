@@ -1,0 +1,38 @@
+Interview 1 (45 mins)
+Q1) write a function that returns a different string every time it is called.
+Answer
+just return the time in the form of a string.
+Then the question was changed – what if two different computers were calling the same function at the same time?
+Answer
+append the computer ID (or IP) to the string.
+Then the question was again changed- what if the same computer was calling the same function at the same time
+Answer
+append the processor ID to the string
+Q2) given an integer calculate the number of times the binary representation bits change.
+Eg in 43 i,e, 0000101001 we have 5 changes from 0 to 1 or 1 to 0 (the 1st, 3rd, 4th, 5th and 6th bit from the right).
+Answer
+just start from the rightmost bit and keep moving left and see the number of toggle
+O(log n) time.
+Then he modified the question- reduce the number of comparison by using extra space.
+Answer
+store the number of toggles for all numbers between 0 to 255 in an array, where array [i] represents the number of toggle in the interger i. Eg array[43]’s value is 5
+now divide the 32 bit number into four 8 bits numbers. Calculate the number of toggles in the each of them (through the hash map) and just check the last and first bit of each of those 8 bits number, if they differ from the next bit then add 1 to the count.
+Then lunch break
+Interview 2
+Q1) given an array of integer, find the longest sequence of consecutive natural number in the array such that all numbers less than every number in the sequence occurred before it in the array.
+Eg if the array is
+4,7,5,9,11,6,8,14,13,12,1
+the answer is 3 – 4,5,6 (though the longest consecutive list is 11-14, 13 occurs after 14)
+Answer
+start from the left and keep storing them in a hash map, where the key is the number itself and the value is the longest consecutive list ending on it.
+To set the value of a number, find the value of the current key -1 . If it is present add one to value and store it in current key’s value otherwise set it to 1.
+Q2) design a data structure to find the number of occurrences of a string.
+just use a trie where count represent count
+Q3) some question on suffix tree. I don’t remember it.
+Q4) Design a system which receives a lot of entries (in millions) in a flip flop (with some stops in between) and do the following function- 1) calculate the value of the flip flop at the kth time
+2) kth positive edge.
+Then we used hash map for this, but the memory constraint is a problem, so he said that the number of stop were very few, so the answer was to use a BST that has the key as the time where the stop occurred.
+(i understand that it is a little hard to understand but the question was pretty easy)
+Interview 3
+Q1) design a B+ tree and code it.
+Good luck with the interview and keep studying GeeksForGeeks, if you know this website well then there isn’t much you need to do to get selected in any company.

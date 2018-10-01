@@ -1,0 +1,5 @@
+Given a Sudoku Board configuration, check whether it is valid or not.
+Examples:
+The basic idea is to check whether each row, column, and the 3×3 box is valid or not on the basis of following points:
+Below is the C++ code.
+Run on IDE

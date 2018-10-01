@@ -1,0 +1,6 @@
+Write a method to replace all the spaces in a string with ‘%20’. You may assume that the string has sufficient space at the end to hold the additional characters, and that you are given the “true” length of the string.
+Examples:
+A simple solution is to create an auxiliary string and copy characters one by one. Whenever a space is encountered, place %20 in place of it.
+A better solution to do in-place assuming that we have extra space in input string.  We fist count number of spaces in input string. Using this count, we can find length of the modified  (or result) string. After computing new length we fill the string in-place from end.
+Run on IDE
+Output:

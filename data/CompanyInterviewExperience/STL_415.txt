@@ -1,0 +1,15 @@
+std::partial_sort is used for sorting the range within the entire container. So, if we want to keep the original container intact and just copy the sorted sub-part of the container into another one, then for that purpose, we can use std::partial_sort_copy.
+Just like std::partial_sort, partial_sort_copy() can be used in two ways as shown below:
+Syntax:
+Run on IDE
+Output:
+Here, since, we declared v1 to be of size 3, so only three elements were stored in it.
+
+Syntax:
+Run on IDE
+Output:
+Where to use it ?
+Run on IDE
+Output:
+So, here v remained the same, and its sorted form is stored into v1.
+

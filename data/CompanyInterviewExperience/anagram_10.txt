@@ -1,0 +1,7 @@
+Given two strings in lowercase, the task is to make them Anagram. The only allowed operation is to remove a character from any string. Find minimum number of characters to be deleted to make both the strings anagram?
+If two strings contains same data set in any order then strings are called Anagrams.
+Examples:
+
+This problem has existing solution please refer Remove minimum number of characters so that two strings become anagram link. We will solve this problem in python quickly using Counter() and Dictionary Data Structure and intersection property of Set data structure. Approach is very simple,
+Run on IDE
+Output:

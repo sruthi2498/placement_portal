@@ -1,0 +1,9 @@
+Amazon written round – Time 1 hour.
+1. Given an array of 0s and 1s, find the position of 0 to be replaced with 1 to get longest continuous sequence of 1s. 
+2. Given an unsorted array, find the k smallest elements 
+3. Find the minimum distance between any 2 given nodes in a tree.
+
+Minimum distance between 2 and 11 is 3
+2–>5–>6–>11
+
+

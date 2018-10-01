@@ -1,0 +1,44 @@
+I got a call from amazon for opening in SDE – I. It started with a online screening round and followed by one telephonic and then 3 face to face interview and again a telephonic interview.
+Online screening :
+There were 20 multiple choice questions from Computer science fundamentals (OS, DS, DBMS, Networks etc.) and basic input/output questions, some aptitude questions and 2 coding questions:-
+1. Given an array find the minimum difference between any pair.
+2. Write a function that returns true if a given undirected graph is tree and false otherwise. http://geeksquiz.com/check-given-graph-tree
+Telephonic Interview :
+Interview started with brief introduction about me and my projects, then started with coding questions.
+1. Given two trees return yes if the order of leaves in tree are mirror image of each     other.
+2. Given an array of n numbers. another array with same elements but numbers are shuffled and one element is removed. Find the missing element.(without using any extra space and in O(n) ).
+   Then if both the array are sorted then how to find the missing element. (without extra space and in O(log n)).
+Then they called me for onsite interview and 3 face to face interview were conducted there.
+Face-to-Face Interview 1 :
+He started with a brief introduction and asked me my about my projects in detail.
+then moved to coding questions:-
+1. Arrange Linked List elements in zig-zag pattern such that
+	a < b > c < d > e ……
+	(without using extra space and Time complexity O(n)).
+	Don’t forget to handle edge cases.
+https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion (This is array implementation of same question).
+2. Given a binary tree. return sum of all Left Leaf nodes.
+	Left leaves meaning leaf node which is left child of his parent.
+https://www.geeksforgeeks.org/find-sum-left-leaves-given-binary-tree/
+
+Face-to-face Interview 2 :
+1. Given two nodes of a binary tree,check they are cousins or not. (Both Iterative       and recursive solution).
+https://www.geeksforgeeks.org/check-two-nodes-cousins-binary-tree
+2. Given an array with N elements (numbers from 0 to N-1). Find all duplicate             elements.
+	I gave a solution with hashing, he asked me to do without extra space.
+	Then I gave solution with sorting the array, he asked me to do with only                   single traversal and without extra space.
+
+Face-to-face Interview 3 :
+	Started with brief introduction and some questions from my projects and CS fundamentals (OS,Networks).
+1.Given an input string and a dictionary of words, find out if the input string can be    segmented into a space-separated sequence of dictionary words.                         https://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem
+
+Telephonic Interview :
+	The interviewer asked me to introduce myself, and after that he asked some behavioural question like-
+		Have you got offer from any other company ?
+		Why are you intersted in joining AMAZON ?
+1. Design a Elevator. How you store the input from users inside the elevator, outside the elevator. How the elevator will take decision whether to go up,down or stop.
+2. There is an event in the auditorium and Given capacity of the auditorium (NxM).
+	every group of person booked ticket and all the tickets are booked, Now you have to assign seat number to all of them such that minimum number of group split.
+	We can solve this using this https://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem.
+Thanks a lot geeksforgeeks.
+

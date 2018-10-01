@@ -1,0 +1,8 @@
+There can be some instances where you need to return multiple values (may be of different data types ) while solving a problem. One method to do the same is by using pointers, structures or global variables, already discussed here
+There is another interesting method to do the same without using the above methods,  using tuples (for returning multiple values ) and pair (for two values).
+We can declare the function with return type as pair or tuple (whichever required) and can pack the values to be returned and return the packed set of values. The returned values can be unpacked in the calling function.
+Tuple
+Pair
+Note : Tuple can also be used to return two values instead of using pair .
+Run on IDE
+Output:

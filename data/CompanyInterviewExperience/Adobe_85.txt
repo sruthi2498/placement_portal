@@ -1,0 +1,95 @@
+Written:
+Aptitude: Objective 50 min 45 questions
+LR- 2 passages-5 each
+DI- 1 paragraph- 5 each
+Mathematical
+Easy only. Just time concern for those who are out of touch. My suggestion will be to do the LR in the end.
+Java WhiteBox test: Subjective 45 min 20 questions
+java-15
+j2ee-5
+1) What is package and how is it used.
+2) When is thread’s run method invoked.
+3) What is synchronised method and synchronised statements
+4) What is the difference in class hierarchies of Reader/Writer and InputStream and OutputStream
+5) What is transient
+6) Which is illegal
+int i=0;
+float f=45.0;
+double d=49.0;
+7) 
+8) What are wait(),notify(),notifyAll()
+9) what is finally in try-catch-finally blocks
+10) What is thin-client application
+11) Difference between >> and >>>
+O/P questions related to string.concat, equals methods. Error pointing codes with options
+F2F Round 1:(1.2 hr)
+1) Brief intro about work.
+2) Why do you want to shift when Mobile (and ecommerce) are already the most happening things.
+3) Test cases for mail attachment(word doc) not being opened scenario
+4) WAP to convert a binary to decimal.(i wrote by taking the parameter as String, he asked me to do by taking as int)
+5) WAP to print sum of first ‘n’ prime numbers
+6) 
+What is the output?
+7) Explain a project you have been recently been part of and what are the test cases you have gone through.
+8) What is the testing framework you have used in Android.What is the approach you follow while testing any product.How do you test a method which does not return any value.
+9) What are the operating systems you have worked on.Do you know Unix.
+10) What are the main things that you need to look at while making a mobile application to that of a desktop application
+11) What is the toughest bug you have fixed.
+12) What is memory leak
+13) What is the difference between instance variable and local variable
+14) If i write java in command prompt from anywhere in system, will it work?If not, how to make it work.
+15) Why is the class name same as filename in Java.Is there any use.
+ Can a file have more than two classes.What will be the name of that file?
+How many class files will be generated when we compile.
+16) Why is Java platform independent.
+17) Is JVM platform dependant?On what factors it depends?
+18) What are the best practices you have followed in your project.
+He asked me if i have any questions.I asked more about the role and team. He explained in detail about the team and also about Adobe subscription model.We had a general discussion over this business decision.
+F2F Round 2:(30 min)
+1) Brief intro
+2) WAP to find out factorial of a number
+He asked for recursion as well.
+Asked me to write the testcases and handle the overflow condition and border cases in the code.
+Discussed which approach is better and when to use which.
+3) Do you know Unix
+4) Do you know any other mobile platform apart from Android. Do you know any application platform which enables building apps across channels (desktop,android,ios,cloud…)
+He asked me if i have heard about PhoneGap and later explained it. He asked me if i have any questions. I asked if they have a mobile team separately.He said yes and explained their work a bit.
+F2F Round 3:(1 hr)
+1) Brief intro
+2) What is binary search.
+3) Write a code for ternary search. Is it better than Binary? He asked me to generalize the search and asked me which is the optimum.
+4) What is registry.
+5) Do you know Unix
+6) I have a hard disk of 100 gb.It has one and only file of 80 GB (database backup).
+What happens if i delete it and it goes to recycle bin.
+Follow-up questions:
+Is the memory freed from the hard disk.
+What happens if i move it from one drive to another.
+What happens in case of permanent delete.
+What happens when we format the disk.
+7) What is virtual memory.
+8) Puzzle:10 containers with 100 balls each but one container defective.Find out the defective container in minimum weighings.
+He asked me for questions. I asked them if there will be option to shift to developer position.He said yes and explained about their open culture.Also explained how they interact and work closely with developers.
+Director round:(40 min)
+1) How was the day.
+2) What is the most interesting question you have been posed today.
+3) What is it that you have learnt today.
+4) Give me a brief about your work.
+5) Why do you want to shift from Development to Testing.
+  He said he will concentrate on only problem solving, aptitude and attitude-
+1) Gmail wants to provide a new enhanced service which offers auto-backup , promotional mails filtered,extra space for mail box etc which costs 50 rs per month.
+They want to run a provisioning program which shows a popup to certain customers having options-
+1) Yes and then redirected to payment and all
+2) Remind me after 2 weeks.
+3) No
+4) Not happy with the service offered.
+Asked me to test this model.
+ Later he asked me the factors which i will consider for choosing set of customers for this program.
+2) Have you worked on Unix.
+3) What is registry.
+I have installed msword in my pc.Copied the C/program files/ folder into pen drive and pasted in another pc.Will it work? Why /Why not?
+4) What is SaaS. Examples.
+  There is one fb user in India and another in US.When they communicate, do they connect to same server. If not then how does the communication happen?What is the data that is being transferred.
+ This round felt like a stress test and went very badly. Couldn’t ask for any good questions when he offered. 🙁
+(My suggestion will be , answer only if you know and you are sure about it otherwise dont even try)
+

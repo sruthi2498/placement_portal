@@ -1,0 +1,8 @@
+Given a string of both uppercase and lowercase alphabets, the task is to print the string with alternate occurrences of any character dropped(including space and consider upper and lowercase as same).
+Examples:
+Asked in: Microsoft
+As we have to print characters in alternate manner, so start traversing the string and perform following two steps:-
+Run on IDE
+Run on IDE
+Run on IDE
+

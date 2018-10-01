@@ -1,0 +1,8 @@
+We are given a matrix that contains different values in its each cell. Our aim is to find the minimal set of positions in the matrix such that entire matrix can be traversed starting from the positions in the set.
+ We can traverse the matrix under below conditions:
+Examples:
+From the above examples, we can easily identify that in order to use minimum number of positions we have to start from the positions having highest cell value. Therefore we pick the positions that contain the highest value in the matrix. We take the vertices having highest value in separate array. We perform DFS on every vertex starting from the highest value. If we encounter any unvisited vertex during dfs then we have to include this vertex in our set. When all the cells have been processed then the set contains the required vertices.
+How does this work?
+We need to visit all vertices and to reach largest values we must start with them. If two largest values are not adjacent, then both of them must be picked. If two largest values are adjacent, then any of them can be picked as moving to equal value neighbors is allowed.
+Run on IDE
+Output:

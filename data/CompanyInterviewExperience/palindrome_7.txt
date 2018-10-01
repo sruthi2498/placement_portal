@@ -1,0 +1,10 @@
+Given a positive number n. The task is to check if the mirror image of the number is equal to given number or not if displayed on Seven Line Segment. A mirror image of a number is a reflected duplication of the number that appears almost identical but is reversed in the direction perpendicular to the mirror surface.
+Examples:
+
+Observe each digit when displayed on seven line segment, only digit 0, 1, 8 remain same in their mirror image. So, for a number to be equal to its mirror image, it should contain only 0, 1, 8 digits. Also, observe, for two number to be equal their corresponding position digit should be same. Therefore, mirror image should also contain the same digit on their corresponding digit position. So, the number should also be a palindrome.
+Below is implementation of this approach:
+
+Run on IDE
+Run on IDE
+Output
+

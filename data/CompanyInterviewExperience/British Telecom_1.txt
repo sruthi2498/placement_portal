@@ -1,0 +1,13 @@
+First Round (written)
+There were multiple choice questions on Aptitude and Java. Three marks for correct answer and -1 for wrong answers.
+1. Aptitude questions were lengthy and tough. But the cutoff will be less.
+2. Java questions were comparatively easy. A lot of questions were from multi-threading.
+
+Second Round (Technical interview)
+1. What is object immutability? How to create immutable objects in Java? Uses of immutable objects.
+2. Difference between synchronous and asynchronous communication? Explain asynchronous communication protocols. (Like message queues)
+3. Write a fully functional thread-safe singleton design pattern. How can we break the singleton property?
+4. Given a m*n grid like a chess board. Derive a formulae for the number of squares in it.
+
+Third Round (HR interview)
+Discussed my current pay and expected number.

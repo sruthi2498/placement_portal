@@ -1,0 +1,19 @@
+Consider the problem of adding contents of two arrays into a third array. It is given that all arrays are of same size.
+Following is simple C++ program without transform().
+Run on IDE
+Output : 
+Using transform function of STL, we can add arrays in single line.
+Run on IDE
+Output : 
+
+transform() in C++ is used in two forms:
+Following is C++ example.
+Run on IDE
+Output : 
+The example mentioned above for adding two arrays is an example of transform with binary operation.
+
+More examples:
+We can use transform to convert a string to upper case (See this) 
+We can modify above examples for vectors also. 
+Related Topic:
+Functors in C++

@@ -1,0 +1,76 @@
+Goldman Sachs visited our campus for the very first time for FT and internship.
+The selection process consisted of an online round followed by 4 F2F Technical rounds.
+Online Round-
+The online round was hosted on hacker-rank platform. It had 5 MCQs(10 marks each) and two coding questions(15+35 marks).
+** Note: The MCQs and the Coding part (both 50-50) have their own sectional cutoffs. So answer accordingly to clear off the cutoffs in both the sections. 
+* MCQs were basic OOPS and data structure, but do not take them lightly.
+* Coding questions –
+1 – Creating staircase would require square blocks. The first stair would require one block, the second stair (height 2) would require two blocks and so on. You are given a value N -(the number of blocks). Output the max height of the staircase that can be made from these blocks. (A staircase of height 4 means sequence of 1,2,3,4 blocks to create a valid staircase.)
+Ex.
+N = 12
+Ans = 4
+2 – Given an array of size N and the ‘N’ elements of the array. A value k is given. Find the number of sub-arrays with product of the sub-array less than or equal to the given value ‘k’.
+Ex.
+N = 3
+Array -> 1,2,3
+K = 4
+Ans = 4
+Face2Face-
+As i mentioned each section had its own cutoff, only seven students were shortlisted for the F2F rounds.
+1st Round:
+The interviewer was really cool. He asked me to “tell something about myself”.
+Then he asked a simple question on arrays.
+* Given a rotated array (sorted and rotated by a factor). Find the pivot at which the array is rotated. (All approaches till further optimization is not possible)
+* Given an array, find the pivot/position where the left sum of the array is equal to the right sum. (He gave constraints in between to make me optimize my solution)
+* Given an array find the minimum length sub-array with a given sum.
+  I gave the solution quickly so he modified the question to subset sum problem, i.e. Find the minimum size of set with the elements of the array to produce the given sum.
+2nd Round:
+The interviewer I faced in this round was one of the most serious and the most professional looking.
+He asked questions based on my CV, my internship. Then he asked some theory questions on OOPS concept, some were really interesting like he went really thorough asking about Polymorphism and Virtual functions and how it works.
+Then he asked about the questions asked in the online round and how I solved it.
+The he suddenly asked some(2-3) HR questions which i was not at all prepared of.
+* Suppose you are one of the five members of a group that has been assigned a project. You are the one from IT department and the rest four are from CSE. They all know each other well but not you. How would you cope up?
+* Suppose you receive a mail from one of your professor having the grades of the students of your class. You and one of your friend saw it. Following this you receive another mail from your professor saying “Do not open the file, I sent it by mistake”. What would you do?
+3rd Round:
+Again, I was in front of an Interviewer who looked really cool and he made me sit on the Interviewer seat while he sat on the interviewee seat. He started the interview by asking about my internship and my project, asked many question based on them.
+Then he gave some coding questions.
+* Given a staircase with N stairs. You are allowed to jump 1,2,3 steps. Now you have to find the number of ways to reach the top. He added constraints after i gave my answer.
+Asked about how Recursion works in memory.
+* Given a string on length N. You can swap only the adjacent elements and each element can be swapped atmost once.
+Find the no of permutations of the string that can be generated after performing the swaps as mentioned.
+Ex –
+string – “12345”
+Ans = 8
+Explanations- (All the permutations)
+12345
+21345
+13245
+12435
+12354
+21435
+13254
+21354
+* Given two numbers, find the sum of fibonacci numbers between these numbers. Including the two.
+Ex, Given n and m find the sum of all ith fibonacci numbers such that n <= i <= m.
+I gave the optimized approach using the Matrix exponentiation method (Nth Fibonacci).
+He then asked me to prove the accuracy of the same.
+He again added, can you still optimize the code in any way.(i hope this was just a bluff cuz he was amazed after i said yes). He curiously asked me about the optimized approach.
+I mentioned the Dijkstra Fibonacci Algorithm. Further he asked me to prove the accuracy of this code too.
+I did, and he seemed real impressed with me.
+4th Round:
+The round started with a formal introduction of both of us. She then asked me to tell her “something about myself”.
+After that she asked me to tell her about any of the projects I am involved in. I described briefly both of my projects out of which The DronePi took her interest and she asked more about it.
+Asked in detail about PID and how do we come up with the solutions as a team when we face any challenge.
+After that she asked what Data Structures am I familiar with. Following which she gave me a question on trees.
+* Given a BST, find the nodes in the path from node A to node B.
+  I gave all the optimized approaches i could think of and i guess that impressed her.
+She asked me if I knew the answer to the question beforehand. I nodded in response as it was a standard question.
+So she modified the question a bit,
+* Given a n-ary tree,
+  Find the LCA of two given nodes.
+I told 4 approaches that i knew based on decreasing time complexities.
+(DFS, DFS with Preprocessing, Square-root Decomposition, RMQ)
+* A standard DP problem, A matrix is given.. You have to start from the first row and you have to reach the bottom row and at each step you can jump to the adjacent column while going down. i.e if current position is a[i][j] then next would be either a[i+1][j-1] or a[i+1][j+1].
+Find the minimum sum to reach the bottom.
+After this she asked me some random question,
+* You have with you the answers to all the questions to tomorrows exam. What would you do?

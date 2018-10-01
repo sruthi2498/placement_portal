@@ -1,0 +1,38 @@
+Recently i was interviewed at Adobe(off-campus) Software-Engineer position and got placed. I would like to thank the whole GeeksforGeeks team for providing such a great platform for preparing interviews. Below is a detailed description of all the rounds.
+1st Round(Online) : Aptitude Test:45 minutes(Objective Only). Technology Test:C/C++ or Java(only one)(Objective+Subjective) 45 minutes.The questions were easy in both aptitude and technology test.Platform was hackerrank. Coding questions included :binary to decimal,generating a unique set of numbers in a given range every time etc.The output questions were of medium difficulty.Just manage your time for this round.It is easy to clear. 🙂
+
+Face To Face :
+ Well after around 15-20 days,I got a mail that i have been selected for the face to face rounds.
+1st: Started with introduction.The interviewer was very cool.After sometime,he started with questions.
+         i). Given a string,print all the sub-strings that are palindrome.
+        ii). OS: Explain Deadlock and Virtual memory.
+       iii). Implement Virtual Memory(by code).
+       iv). A scenario::Suppose you have: browser–>cache–>database model.Now,suppose a bug fix has been done on this model.After bug fixing, it has been found that a request–.>response that earlier took 1ms now takes 25 ms.How will you identify what is wrong with the model and in which part?
+ 
+2nd: Again started with a bit of intro…Then onto questions..
+    i). Binary To Hexadecimal.(Directly).
+    ii).
+    iii). Asked about Adobe products.Discussed for some time about Adobe CC.
+Well i was a bit nervous after this round.I had to wait more than 2 hours.after that my 3rd round began
+3rd: Directly went to questions.
+      i). http://quiz.geeksforgeeks.org/puzzle-11-1000-coins-and-10-bags/. (Was asked the optimal solution).
+      ii). Zig Zag Level Order Traversal: https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+      iii). http://quiz.geeksforgeeks.org/puzzle-gold-or-silver/ (Replaced gold and silver with apples and oranges).
+      iv). Loop Linked-List: https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+      v). What is host file in windows?
+      vi). What is loopback address and its significance?
+     vii). What is windows registry?
+     viii). Difference between 32-bit and 64-bit windows.
+Well after this round i was told to go home for that day.I feared being rejected but all was well as i was again called the next day for the 4th and final round.?
+4th: The interviewer was the senior most of all.
+    He started off with my intro.Then moved onto my projects.He told me to describe one of my project and was pleased.He then asked me about what practical usage of my project is and some other questions from my other projects.Then he gave lots of scenarios:
+     i). Wireless keyboard not working.Give possible reasons..
+     ii). Adobe Photoshop Blurring Effect:Tell what type of image you will take to ascertain that Blur Effect happens actually or not..
+    iii). Improve Uber/Ola by adding one missing feature.(at least)
+   iv). Improve Whatsapp by adding one missing feature again..
+    Asked about why i want to leave my current organization.What my plan for future?And last of all–> Any questions?
+After 1 week i got a confirmation call that i have selected for Adobe.I am really overjoyed and i would like to give credit to my friend(with whom i do coding) and geeksforgeeks for my achievement. 🙂
+Those who are preparing for interviews, I would like to advise them.
+a). Be focused,try to grasp in one go any question.
+b). Don’t hurry and give wrong answers.Instead take time(not too much) and give correct answer.
+And last of all prepare from geeksforgeeks. It is such a platform that will help you in coding and other topics. Apart from that for coding, do interviewbit, hackerrank..

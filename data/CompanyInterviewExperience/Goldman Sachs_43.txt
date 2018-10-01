@@ -1,0 +1,70 @@
+Round 1: HackerRank Test – 90 min
+1: Find the total lattice points on circumference of circle.
+Ref: https://www.geeksforgeeks.org/circle-lattice-points/
+2: Question on Graph DFS (not exactly remember the question)
+Suggestion: Read the questions more than once if not clear. Note down the constraints. Don’t panic, stay calm. Enough time to solve both the questions.
+Note: To qualify for next round both questions need to be solved.
+Round 2: CoderPad Round
+CoderPad Round is also a coding round in which you have to code live i.e screen is shared between you and the interviewer and the interviewer will be on a call with you.
+1: Find first non-repeating character in an array.
+Ref: https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+2: Form the largest possible number from the array of number.
+Ref: https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/
+Suggestion: Start with discussing the different algorithms with the interviewer then start coding. Interviewer will give you hint so no need to worry 🙂
+Note: The code should be sytactically and logically correct as the code will be compiled by the compiler and you have to pass all the test cases. Atleast one question should be solved completely in order to qualify for the next round.
+Round 3 : Telephonic Interview – 45 min
+In this round you will be basically asked question from your technical skills and few questions related to data structures.
+Java questions asked:
+1. OOPs concept.
+2. Abstraction vs Interface
+3. HashMap internal implementation.
+4. Equals and Hashcode concept.
+5. Set vs List
+6. ArrayList vs LinkedList
+7. Final keyword
+Design questions:
+1. Design Conference Room Allocation system considering the time and number of rooms available constraints.
+Algorithms:
+1. Tree – Preoder, PostOrder, Inorder
+2. Graph – DFS vs BFS
+Round 4: Telephonic Interview (Senior person from New York HO) – 45min
+In this round questions were mainly asked on the behavioral skills and few design and algorithms.
+Behavioral questions:
+Questions on your experience like:
+1. Challenges faced in past developing any applications. How did you handle it and conclusion.
+2. Situation when you have to change your work lifestyle.
+3. Situation when you conflict with your manager and how did you handle it.
+Design questions:
+1. Design Snake And Ladder Game.
+Algorithms: Given circular linked list, detect loop in it.
+Ref: https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+Suggestion: Discuss with them like friends. Tell them all the approaches that comes to your mind. They are not going to ask you to code the solutions.
+Note: Above 2 telephonic interview was back to back. 
+Round 5-8 (In Person)
+Round 5:
+Questions on Java concepts and multithreading.
+They will give you a problem statement and ask you to design the solutions and write the code on paper.
+Algorithms:
+1. Min flip to make binary string alternate.
+Ref: https://www.geeksforgeeks.org/number-flips-make-binary-string-alternate/
+2. Maximum possible stolen value from houses.
+Ref: https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
+Round 6:
+Java questions:
+1. JVM internal architecture.
+2. Memory allocation in Java (Stack vs Heap)
+3. Fibonacci Series for very large n.
+4. Water Jug Puzzle
+5. Given X and Y, wap to output X if the input is Y and Output Y if the input is X. No use of conditional operator allow.
+Solution : Use +, ^ operator.
+6. Design Snake and Ladder – you have to identify all the classes and its member variable and methods and relationship among different classes.
+Round 7:
+All questions from your resume and few database concepts and Puzzles.
+Discussion on the roles and responsibility in current organization. 
+Round 8 (Hiring Manager)
+Situational Based questions, Behavioral questions and few puzzles.
+Ref: https://www.geeksforgeeks.org/puzzle-round-table-coin-game/
+Variant of this questions on Square table instead of Round Table.
+Note: The process is very long and takes too much time so even if you are not prepared you will get enough time to prepare yourselves in between the process. So stay calm and keep preparing yourselves 😉
+In my case process took almost 2 months. Process vary between 6 – 12 rounds depending upon your performance and company requirements.
+Hope this will help you guys and all the best 🙂 

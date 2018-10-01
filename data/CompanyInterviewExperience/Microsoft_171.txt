@@ -1,0 +1,30 @@
+Round 1 : (1hr 15 min)
+Online test on CoCubes contains 3 Coding Questions
+1) Find the number of times “carry” is 1 while performing addition on two numbers
+2) Given an array of integers, shift all the numbers that are ‘-ve’ to the left and ‘+ve’ to the right ‘in-place’ (maintain the order of all the -ve  numbers same as of the given array and the order of all the +ve  numbers same as of the given array ) 
+3)Find the sum of all nodes that have no child at minimum level. Return -1 if root is NULL 
+Around 65 students were selected to Round2
+Round 2 : Group Fliers(around 45 min)
+We have to take ‘n’ polynomials as input and we had to write functions for
+Sort(P), Add(P1,P2), Sub(P1,P2), Multiply(P1,P2)
+(Implemented Sort function according to the indices of the polynomial and all the functions optimized by space and time)
+Around 28 students got selected for technical interview
+Round 3 : Technical Interview(around 40-45 min)
+1)Tell about yourself
+2)What are the courses you have done?
+3)Suppose you have details of some stock market(Day & price were given), you will earn profit only if you buy stocks cheaper than the amount you sell them for.Write a program to find maximum profit that could be attained (using only one loopO(n) time and O(1) space)
+4) Difference between Processes & Threads?
+5) Suppose there is a sorted array and you are given the array by rotating k units.Find k by writing a program (O(logn) time) 
+Round 4 : HR INTERVIEW(around 30 min) (On skype)
+1) Tell about yourself
+2) Previous intern experience and the details of the work assigned
+3) What are the courses you have done and favourite course
+4) Explain all sorting algorithms and decide which one is better 
+5) What projects have you done
+6) Languages used.
+7) Which was the most difficult task while doing your projects
+8) How do you implement a library of books in json data(which fields were needed and stuff like that)
+9) Why Microsoft & Do you think you are eligible for it
+10) Goals and things you would like to achieve in future 
+Overall, the experience was nice. And the interviewers were friendly.
+Thanks GFG.

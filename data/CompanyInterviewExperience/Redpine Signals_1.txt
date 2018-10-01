@@ -1,0 +1,63 @@
+Written Test:
+Questions asked  From fallowing concepts:
+1.   Aptitude
+2.   C aptitude  Questions  (very easy vectorians easily crack those)
+3.   OS  basic commands
+Q1.  How will you copy all files in one directory (which consists of sub-directiories also) to another directory.Ans :cp –R  dir1 dir2
+4. General Knowledge Questions
+1.”Pucket” word used in which Sport?
+2. What is the Tata company JLR? Ans:Jarguon  Land Rover
+3. What is LTE? Ans:Long Term Evaluation (4G Technology)
+FIRST TECHNICAL ROUND:
+Questions on C programing :
+1.   Explain about storage classes in C?
+2.   What is the use of header file?
+3.   One variable defined in one file and if u want to use that variable in two or more files   what will you do?
+4.   Output of the fallowing  c  code 
+Ans:Error
+5.   Explain dynamic memory allocation? What is the difference between malloc() and calloc() ?
+6.   What is function pointer?declare function pointer to function which accepts two integers and returns float ?practical use of function pointer?
+7.   Write a program to find the position of first non-zero bit?
+8.   Where local,static and global variables stored in the  primary memory?
+Questions on operating system:
+1.   what is semaphore and binary semaphore?
+2.   What is API? how system call works?
+3.   Explain about IPC techniques?
+4.   What will happen when Interrupt occur?
+5.   How interrupt handles in OS?
+6.   Explain open() system call and file descriptor?
+7.   What is preemptive and Non-preemtive scheduling ?
+8.   Explain Dead lock conditions
+9.   What is ISR?
+10.                What is Virtual memory and Physical Memory?
+SECOND TECHNICAL ROUND
+Questions on Embedded Systems
+1.   Tell me about yourself
+2.   What is Embedded system?
+3.   Difference between Embedded and Non Embedded Systems?
+4.   Draw Block diagram of Embedded system and Explain Each component present in the embedded system.
+5.   Explain about SPI and I2C Protocols and what is the difference between them? And where they used in practical?
+6.   Explain about UART Interface and what is the speed of UART?
+7.   Which has the fast data rate among UART,USB,SPI and I2C ?
+8.   What is RTOS?
+9.   Explain about Soft real time system and Hard Real Time system?
+10.                Explain About LINUX Device Drivers.
+11.                Explain Vector Project In Detail
+Questions on NETWORKING:
+1.   Explain about OSI reference Model and Explain Each Layer in it?
+2.   Why TCP/IP called so instead of calling TCP and IP individually?
+3.   Explain TCP/IP reference Model? Explain about Each Layer?
+4.   What is Protocol?
+5.   What is SMTP protocol and where it is Present?
+6.   Difference between TCP and UDP?
+7.   Where IP protocol Present?
+8.   What is MAC Address how many bits it is?
+9.   In which Layer MAC address Present?
+HR ROUND:
+Simple Questions:
+1.   Tell me About Yourself.
+2.   What you know about Redpine signals?
+3.   Why we hire you?
+4.   How is the Vector Training? When your course Completed?
+5.   What is most memorable event in your life?
+6.   Any questions to ask?

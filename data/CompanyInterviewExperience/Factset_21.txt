@@ -1,0 +1,28 @@
+I find GeeksforGeeks very helpful! It helped me prepare for my FactSet interview. Here’s my interview
+experience for FactSet which came to my college for recruitment.
+Round 1 (Written Coding) :
+3 coding questions. (Pen and Paper mode Examination)
+-print the element that is common in all rows of a matrix
+ -Find median of two sorted arrays. O(logM + logN)
+-Zig-zag traversal of binary tree.
+Round 2(technical interview):
+2 interviewers were there and the interview went on for about 60 minutes. Questions they asked were
+mainly programming and puzzles and some of the operating system and database concepts.
+-Given an array and a number k, find all pairs of numbers in array whose sum is least near to k.
+-How to find intersecting point of two linked lists. (most efficient way).
+-Design Database schema for supermarket (Reliance Fresh) taking care of all the factors about details of
+discounts and offers to customers.
+-puzzle as follows:
+__ __ __ __ __ __ __ __ __ __
+0 1 2 3 4 5 6 7 8 9
+Fill numbers in the above blank from 0-9 such that number X coming over any number Y means Y should
+be in X blanks. For eg: if 2 comes over 0 means 0 should be present in 2 blanks.
+Round 3 (technical interview + HR):
+2 interviewers and 60 minute duration. It was mixture of both technical and HR round.
+-Tell me about youself?
+-Given a matrix of characters and a string, find the first index of string in matrix. String can be horizontally,vertically, diagonally present in any direction.
+-Questions on hashing and combining it with networks. How to implement it and its uses in various
+fields.
+-Brief discussion of project done in internship and questions over it.
+
+

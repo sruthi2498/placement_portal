@@ -1,0 +1,69 @@
+Hi!! I Recently attended Zoho off campus. I’st round in Madurai and remaining rounds in Chennai campus.
+Round 1: C AND APTITUDE [ 2 HRS ]
+TECHNICAL : 20 C Output questions. Questions pointers, Matrix, Arrays, strings. Practice all C output questions set in geeksforgeeks which is more than enough. https://www.geeksforgeeks.org/tag/c-output
+APTITUDE : 15 Puzzles. Practice Logical reasoning questions.
+Got mail after 2 weeks for second round.
+Round 2: SIMPLE CODING [ 3 HRS ]
+Coding in system. Allowed to use c/c++/java. They expected the optimized solution for all the questions. Needs to discuss the approach before start solving each question.
+People who completed 4 and above are selected for next round on same day. Try to optimize your solution as much as possible. They will ask you to optimize till you come up with an expected time complexity solution.
+Round 3: Advanced Programming round [ 3 HRS ]
+This round is mainly based on data structure and oops concepts.
+No inbuilt collections are allowed. You need to implement on your own.
+Needs to discuss your approach before start solving the problem.
+Design  a system with following functionalities,
+EXAMPLE 1:
+SET a 20
+GET a                              20
+SET b 30
+GET b                              30
+SET a 10
+GET a                              10
+UPDATE c 40                No variable named “c”
+SET c 30
+COUNT 30                     2
+COUNT 40                     null
+UNSET a
+GET a                              null
+EXAMPLE 2:
+GET a                              null
+SET a 30
+GET a                              30
+EXAMPLE 3:
+SET a 30
+BEGIN
+GET a                              30
+SET a 40
+GET a                              40
+SET b 40
+GET b                              40
+ROLLBACK
+GET b                              null
+GET a                              30
+EXAMPLE 4:
+BEGIN
+SET a 40
+SET b 40
+SET c  50
+COUNT 40                      2
+BEGIN
+COUNT 40                      null
+COMMIT
+COUNT 40                      2
+BEGIN
+SET c 10
+GET c                                10
+ROLLBACK
+GET c                                50
+Run on IDE
+I used stack to solve the above modules.
+4 of us completed all the modules and called for technical round on next day.
+Round 4: TECH 1  [ around 30 minutes ]
+Discussion about current project. Most of the questions are about tech skills you mentioned in the resume.
+Be clear with things you added in your resume. If they find you are good enough they will send you to HR else this is the end of the line.
+3 of us called for hr round.
+Round 5: HR ROUND [ 10 mins ]
+Why you are leaving your current job in short span ? [ 1 yr experience ]
+Why Zoho?
+Where will you stay? [ they expect you to stay within 10-15 km from office as it is mentioned in interview call letter itself]
+Discussion about package.
+After 4 days, got call from hr saying “You make it into the team” 🙂 . All 3 are selected in HR round.

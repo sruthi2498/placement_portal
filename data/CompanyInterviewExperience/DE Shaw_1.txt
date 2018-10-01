@@ -1,0 +1,33 @@
+Given a string of lowercase English alphabets, find the number of counterclockwise shifts of characters required to make the string palindrome. It is given that shifting the string will always result in the palindrome.
+Examples:
+Input: str = “baabbccb”
+Output: 2
+Shifting the string counter clockwise 2 times,
+will make the string palindrome.
+1st shift : aabbccbb
+2nd shift  :abbccbba
+Input: bbaabbcc
+Output: 3
+Shifting the string counter clockwise
+3 times will make the string palindrome.
+1st shift : baabbccb
+2nd shift : aabbccbb
+3rd shift : abbccbba
+Naive Approach: A naive approach is to one by one shift character of the given string counter-clockwise cyclically and check if the string is palindrome or not.
+Better Approach: A better approach is to append the string with itself and iterate from the first character to the last character of the given string. The substring from i to i+n (where i is in range [0,n-1]) in the appended string will be the string obtained after every counterclockwise shift. Check for the substring if it is palindrome or not. The number of shift operations will be i.   
+Below is the implementation of above approach:
+Run on IDE
+Time Complexity:  O(N2)
+Auxiliary Space:  O(N)
+Efficient Approach: An efficient approach is to use Cumulative Hash. The string is shifted cyclically according to the method explained above and the hash value of this string is compared to the hash value of the reversed string. If both values are same then current shifted string is palindrome otherwise string is again shifted. The count of shifts will be i at any step. To calculate value of both strings below hash function is used:
+
+H(s) = ∑ (31i * (Si – ‘a’)) % mod, 0 ≤ i ≤ (length of string – 1)
+where, H(x) = Hash function
+      s = given string
+      mod = 109 + 7
+
+Iterate for all the substrings and check for if it is a palindrome or not using the hash function stated above and the cumulative hash technique.  
+Below is the implementation of above approach:
+Run on IDE
+Time Complexity: O(N)
+Auxiliary Space: O(N)

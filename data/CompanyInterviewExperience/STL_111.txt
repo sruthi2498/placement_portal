@@ -1,0 +1,10 @@
+Syntax:
+Parameters: The function does not accept any parameters.
+Return value: It returns a constant random access iterator which points to the beginning of the list.
+Below programs illustrate the above function: 
+Run on IDE
+Syntax:
+Parameters: The function does not acceps any parameter.
+Return value: It returns a constant random access iterator which points to the end of the list.
+Below program illustrates the function:
+Run on IDE

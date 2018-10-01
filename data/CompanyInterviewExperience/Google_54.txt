@@ -1,0 +1,120 @@
+MCQ Questions: 20 (+4, -1)
+Subjective Question: 1
+1) Given four matrices
+P = 20×10
+Q = 10×5
+R = 5×10
+S = 10×10
+Find minimum no. of multiplication required for PxQxRxS?
+a) 4000
+b) 2500
+c) 3000
+d) None Of These
+2) Two n-size arays are given . n1 in decreasing order and n2 in increasing order. If c1 is time complexity for n1 using quicksort and c2 is time complexity for n2 using quicksort. Then –
+a) c1 > c2
+b) c1 < c2
+c) c1 = c2
+d) None of these
+
+
+3) If there is a N sorted array then what is time complexity of finding 2 no.s having sum less than 1000.
+a) O(1)
+b) O(n^2)
+c) O(n)
+d) O(logn)
+4) There are some process . In which of the scheduling algo CPU utilization is minimum. If I/O burst time is 90ms and CPU burst time is 10ms.(question is very long to remember)
+5) 
+6) Find the least significant digit of 2^3*google where google=10^100.
+a) 2
+b) 4
+c) 6
+d) 8
+7) Let w(n) and A(n) denote respectively, the worst case and average case running time of an algorithm executed on an input of size n. which of the following is ALWAYS TRUE?
+a) A(n) = Omega(W(n))
+b) A(n) = Theta(W(n))
+c) A(n) = O(W(n))
+d) A(n) = o(W(n))
+8) Consider a complete undirected graph with vertex set {0, 1, 2, 3, 4}. Entry Wij in the matrix W below is the weight of the edge {i, j}.
+What is the minimum possible weight of a spanning tree T in this graph such that vertex 0 is a leaf node in the tree T?
+a) 7
+b) 8
+c) 9
+d) 10
+9) In the graph given in question 8, what is the minimum possible weight of a path P from vertex 1 to vertex 2 in this graph such that P contains at most 3 edges?
+a) 7
+b) 8
+c) 9
+d) 10
+10) A hash table of length 10 uses open addressing with hash function h(k)=k mod 10, and linear probing. After inserting 6 values into an empty hash table, the table is as shown below. 
+Which one of the following choices gives a possible order in which the key values could have been inserted in the table?
+a) 46, 42, 34, 52, 23, 33
+b) 34, 42, 23, 52, 33, 46
+c) 46, 34, 42, 23, 52, 33
+d) 42, 46, 33, 23, 34, 52
+11) How many different insertion sequences of the key values using the same hash function of question 10 and linear probing will result in the hash table shown above?
+a) 10
+b) 20
+c) 30
+d) 40
+12) The recurrence relation capturing the optimal time of the Tower of Hanoi problem with n discs is
+a) T(n) = 2T(n – 2) + 2
+b) T(n) = 2T(n – 1) + n
+c) T(n) = 2T(n/2) + 1
+d) T(n) = 2T(n – 1) + 1
+13) Given three semaphores, S0, S1 and S2 initialized as S0=1, S1=0, S2=0 and processes P0, P1 and P2. 
+Find out how many times the process P0 executes printf statement.
+a) At least twice
+b) Exactly once
+c) Exactly twice
+d) Exactly thrice
+14) Given the following program construct 
+Given 4 test cases, find out which one among the following covers all the 4 statements
+T1: a, b, c and d are same.
+T2: a, b, c and d are all distinct.
+T3: a == b and c != d.
+T4: a != b and c==d.
+a) T1, T2 & T3;
+b) T1, T4.
+c) T2, T4.
+d) T1, T2 & T4.
+15) Which of the following statements are true?
+I. Shortest remaining time first scheduling may cause starvation
+II. Preemptive scheduling may cause starvation
+III. Round robin is better than FCFS in terms of response time
+a) I only
+b) I and III only
+c) II and III only
+d) I, II and III
+16) Sequences of logical pages access :
+1 2 3 2 4 1 3 2 4 1
+Implemented Optimal,LRU,FIFO Page replacement techniques.
+Then no. of page faults in :
+a) Optimal < LRU < FIFO
+b) Optimal < FIFO < LRU
+c) Optimal = FIFO
+d) None
+
+17) Find the no. of page faults for Optimal Page replacement technique in the given sequence of question no. 16.
+a) 5
+b) 6
+c) 7
+d) 8
+18) Given a simple graph of 6 nodes (note- it’s a simple graph) then tell which of the following is a set of valid graph degrees.
+a) 4,4,1,1,1,1
+b) 4,4,2,1,1,1
+c) 4,4,2,2,1,1
+d) None
+19)  
+What is the complexity of calculating gcd(n, m) in worst case?
+a) O(lgn)
+b) O(lgm)
+c) O(lg(lgn))
+d) O(lg(lgm))
+20) 
+a) hello
+b) hallo
+c) allo
+d) empty string
+SECTION B – Subjective Question
+A knight's tour is a sequence of moves of a knight on a chessboard such that the knight visits every square exactly once. Find all the distinct tours of a knight placed on (x,y) of a NxN chessboard.
+X,Y Knight can go to 8 positions.(default rule). Write a running code.

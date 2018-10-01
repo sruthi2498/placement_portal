@@ -1,0 +1,13 @@
+Round 1 (Online Coding and MCQs):-
+The test was held on HackerEarth and was of 60 minutes. It consisted of 1 Coding Problem (30 Marks) alongwith 10 MCQs (2 Marks Each). The Coding Problem was of medium difficulty. It was a DP Problem somewhat similar to Minimum Number of Jumps Problem but having some variations.
+The exact problem statement goes like this :
+A string is given consisting of ‘*’ and ‘#’ like “###**##”. Here, ‘#’ means free and ‘*’ means trapped, We can’t move further if we land on a trapped index. There were two numbers r1 and r2 given in input, and a free index (i – one based indexing) was known to be a special index (i) if it satisfied the condition that (Number of Primes up to i)/i > r1/r2. If it is a non-special free index, we have two options, either jump one cell forward or two cells forward but in case of a special index, we have an additional option along with these options that we can make a jump to (number of primes up to i) cells forward. We have to tell the minimum number of jumps needed to reach the last cell/index.
+I did this using Sieve of Eratosthenes for checking special indices, and DP for solving the actual problem.
+We had 4 choices of languages – C, C++, Java, Python and Cut/Copy/Paste was disabled.
+The MCQs were based on basic knowledge of Data Structures, OOPS, Operator Precedence, Trees, and Aptitude. I felt them to be on the easier side.
+Scoring 40+ should make you clear through the first round.
+I cleared this round (in total 8 students out of 145 were selected) and then we were called for direct HR Interview, there was no Technical Interview. 
+Round 2 (F2F HR Interview) :-
+It was a normal conversational Interview. The Interviewer started by asking me to introduce myself, then about the test experience, the interface, difficulty, etc. Then, he continued by seeing my CV. He asked me about what I did in my 2 years in college, and what all technical skills have I developed after coming to college. Then, the much-expected question – Why should we hire you and why do you want to join WalmartLabs. Then, he asked me to rate myself on the basis of online test performance. I told him that i would have scored 48/50 as I am taking 2 marks as an error. Then he said that so you are taking 2% error to which I corrected him saying that it’s 4% error right? Then he asked whether I want to ask the interviewer some question which I did and then he said that he’s done and that (We’ll let you know). The Interview lasted around 10-12 minutes and the interviewer looked quite satisfied, next day results came and I was offered an Internship Opportunity @WalmartLabs.
+In total 6 students out of 8 were selected.
+I would like to thank G4G for helping me in my Interview Preparation.

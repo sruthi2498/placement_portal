@@ -1,0 +1,29 @@
+Round 1(Telephonic)
+1. Dynamic memory allocation for 2d array
+2. How polymorphism works in C++(Vptr and Vtable implementation)
+3. Rope burning puzzle (Measure 45 mins)
+Round 2(Skype)
+1. Find maximum repeating element in array. Elements will be always <= k where k is 0 <= k <= n
+2. There is online catalogue of songs (Like Saavn or Gaana). How you will show favorite songs every day to users. Efficient algorithm required. (K max solution/ Min heap solution)
+
+Round 3 (F2F)
+1. Again, how polymorphism works. Draw vtable and vptr
+2. Producer consumer problem with synchronization (Full code)
+3. Difference between mutex, semaphore and condition_variable.
+4. Design parking lot system
+5. Zigzag traversal of binary tree
+Round 4 (F2F)
+1. He asked producer consumer problem but I told that same question is asked in previous round.
+Then interviewer went asking lots of question related to producer and consumer. Lots of discussions like what is writer is not there and only reader is there and you need to find out how many readers are currently reading from buffer.
+2. Discussions about C++11 features. How thread and aysnc is different
+3. Design your own shared_ptr(How you will handle ownership)
+4. Check If binary tree is symmetrical.
+5. Find element in rotated sorted array and then optimize it.
+Round 5(Hiring Manager)
+1. You are given a rotate function which basically will take any object like (2d image, 3d image, audio, video) and will rotate it by 180 degrees. You need to design the functionally. You only know what type of object is there. (Factory design pattern).
+2. Expression evaluation (Only constraint was that each operand will have different units). For ex-40 inches + 2*2cm +11/2mm + 12*2/6cm. You will have final unit which you need to convert.
+3. 1 Puzzle
+Round 6 (Director round)
+1. Why you want to leave current company and other behavioral questions.
+2. Design restaurant finder app. You just have User’s location and you need to find out all the nearby restaurants. You don’t have any external geolocation API. Lots of discussions about how you will divide the area and how you will store the data.
+

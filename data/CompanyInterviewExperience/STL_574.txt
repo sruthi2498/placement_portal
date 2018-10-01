@@ -1,0 +1,18 @@
+In case of arrays, there is no much choice to copy an array into other, other than iterative method i.e running a loop to copy each element at respective index. But Vector classes has more than one methods to copy entire vector into other in easier ways.There are basically two types of copying :-
+Method 1 : Iterative method.
+This method is a general method to copy, in this method a loop is used to push_back() the old vector elements into new vector.They are deeply copied
+Run on IDE
+Output:
+In the above code, on changing the value at one vector did not alter value at other vector, hence they are not allocated at same address, hence deep copy.
+Method 2 : By assignment “=” operator.
+Simply assigning the new vector to old one copies the vector. This way of assignment is not possible in case of arrays.
+Run on IDE
+Output:
+Method 3 : By passing vector as constructor. At the time of declaration of vector, passing an old initialized vector, copies the elements of passed vector into the newly declared vector. They are deeply copied.
+Run on IDE
+Output:
+Method 4 : By using inbuilt functions 
+Run on IDE
+Output :
+Run on IDE
+Output:

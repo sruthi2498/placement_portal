@@ -1,0 +1,28 @@
+Round 1 (Written Test) :  Test had 3 questions:
+a. Calculate the sum of two integers and if the number of digits in sum equal to one of the integer then return sum else return n.
+b. Find if a number has binary palindrome and count the number of set bits
+c. Connect nodes at same level in a binary tree
+Round 2 (Group Fly round) :
+They divided all the shortlisted students in groups of 2 and per 6 students one interviewer was assigned. It had 2 questions that need to be solved in 40 mins.
+Tip:  Ask various questions with you interviewer and discuss your approach.
+a. Given a 2D array with characters you have to find whether a given string exists in the matrix or not. You can move only in left-> right or top->right direction. (Backtracking/Recursion)
+b. Given a BST, there is a bad node that violates the property of BST. So you need to find that node and correct it.
+Round 3(F2F) : The interviewer first asked me about my project every minute detail of it. Then he asked about the database structure of the project – every single table and asked me to make it better. He then asked me to write some of the SQL queries related to that database.
+Data structure : Find a duplicate element in the array where the range of elements is 1 to n. I gave that negative element approach but he asked me to optimise it to less than O(n). I couldn’t do that part but he then wrapped up the interview.
+Round 4 (F2F) : Design Question for Token management.
+He asked me to design a system where tokens are automatically generated and counters are assigned to them.E.g SBI bank/customer center. He told me to write the classes that are involved for this. The interviewer was very helping and he made me think. He really liked my approach and told me to continue with it.
+Solution : I created 3 classes for the system Counter(counter_id, current_token, state)     Token(Token_id) TokenManager (List, List). Methods like assignCounter(), findFreeCounter() etc. were explained. He was very particular about class and method names and told me to change  one or the other name. It was 1hour 30 minutes long discussion.
+In the end, he told me it was long though great discussion and it’s good to have you here. 🙂
+Round 5(F2F) :
+The interviewer was a serious guy and asked me to subtract two strings in a way that the chars in second string should be removed from the first string(in-place). Assume string to be char array.
+Approach 1: Add all the chars of second string to a hashset and for every char that matches take the  substring before it and after it. O(n^2).
+Approach 2: Queue based add all the chars that are not present into the queue and add it back to the char array. O(n) time O(n) space.
+Approach 3 : He asked me to improve it further and I gave an O(n) solution using 2 pointers.
+Run on IDE
+He was happy with my solution and then asked to discuss a design question.
+He then asked me to design an order management system of MC-Donalds. What are the APIs available, which are client, server and how kitchen gets to know about the new order.
+And then after 5 minutes we got our results and it was really a very proud moment.
+Tip : You need to have a lot of patience because interview rounds takes a lot of time. It was a 12 hours process so be calm and patient. All the best pals……
+
+
+

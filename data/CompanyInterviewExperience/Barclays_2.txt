@@ -1,0 +1,8 @@
+Find the slope of the given number num. Slope of a number is the count of the minima and maxima digits in it. A digit is called a minima if the digit is lesser than the digit before and after it. Similarly a digit is called a maxima if the digit is greater than the digit before and after it.
+Examples:
+Source: Barclays Interview Experience (On Campus).
+Approach: Traverse the digits of the given number from the 2nd digit up to the 2nd last digit. For each digit check whether the digit is greater or smaller than digits before and after it. Get the count of such digits.
+Run on IDE
+Run on IDE
+
+Time complexity: O(n).

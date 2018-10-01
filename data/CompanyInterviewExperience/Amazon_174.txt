@@ -1,0 +1,9 @@
+Given a singly linked list, Your task is to remove every K-th node of the linked list. Assume that K is always less than or equal to length of Linked List.
+Examples :
+
+The idea is traverse the list from beginning and keep track of nodes visited after last deletion. Whenever count becomes k, delete current node and reset count as 0.
+Below is C++ implementation.
+Run on IDE
+Output:
+Time Complexity : O(n)
+

@@ -1,0 +1,21 @@
+Amazon visited my campus in August 2017. Apart from online screening round, there were 4 technical rounds – 3 F2F and 1 telephonic.
+The online round was hosted in HackerEarth platform. It had 20 MCQ’s of 1 mark each and 0.25 negative mark and 2 coding questions of 10 marks each. The MCQ’s was mostly from Data Structures and Operating Systems, and few questions from networking, DBMS and 1 Java question.
+Round 1:
+In this round, the interviewer didn’t look at my Resume and moved on to technical problems.
+1. Given an array with integers first increasing then decreasing order, you have to search an element in O(log n).
+2. Given BST with 2 nodes being swapped with each other, find these 2 nodes.
+3. Reverse singly linked list using both ways- iterative and recursive.
+Round 2:
+Interviewer asked me to introduce myself then to explain one specific project(pointed by him) in detail. Then he asked me 4 questions.
+1. Given integer matrix, have to find total connected components, connected in such a way that adjacent numbers should have the absolute difference of 1.
+2. Find next greater element of each element in array
+3. Given a graph with edge weights of 1 or 2, have to find minimum distance between a source and destination vertex.
+4. Given array having integers showing the burst times of processes, I am given 3 threads to complete all processes and a thread takes exact time to complete a process equal to its burst time, I have to assign some contiguous processes to threads such that maximum among the total time of all threads is minimum.
+Example: 9 10 9 8 7 9 then 3 threads can be assigned as (9 10), (9 8), (7 9).
+As I had to code the first 3, the interviewer probably noticed me being tired, he only asked me the algorithm for 4th one.
+Round 3:
+Here, the interviewer first introduces herself and then asked about me, then told me to explain any one of my projects. After that she asked me few basic computer science questions followed be 2 DS/Algo problems.
+1. How are recursion and iteration handled by the compiler.
+2. How differently are a linked list and array stored in memory.
+3. Difference between multiprocessing and multithreading.
+4. All normal forms in DBMS.

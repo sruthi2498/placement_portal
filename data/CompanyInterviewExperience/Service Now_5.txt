@@ -1,0 +1,21 @@
+Service Now visited our campus for both offers at Hyderabad and USA. I sat for the international interview procedure on day 0 of our campus. Here is my interview experience.
+1st round (Written) :
+MCQ questions were from all core subjects (30 questions : 45 Minute) The questions I remember I updated here https://docs.google.com/document/d/1L1IrxEp4ZS8F72t6QqeT8zEYVVe8c7M5ndQWi3J0K1Q/edit#
+2nd round:
+        1. Describe internship work.
+        2. https://www.geeksforgeeks.org/dynamic-programming-set-11-egg-dropping-puzzle/
+           What is the solution to the problem with 100 storeys and 2 eggs?
+         3.   How do we find count of numbers between (a,b) both inclusive with no consecutive ones in the binary representation? They asked me 3 different approaches for this problem.
+        4. Difference between object oriented programming, functional programming, logic programming ?
+        5. A question about builder pattern where I had to create a pizza having veg or non-veg crust , different sauce topping , different crust draw the class diagram and write a code calculating total cost?
+        6.    Difference between abstract class and interface what is the problem if I use abstract    class when there are no implemented methods?
+        7.    If a variable is protected  in parent class and another variable with same name with public is declared in child class is this allowed is the  reverse also allowed and how would you access parents variable in child class?
+        8.    Detecting a loop in a singly linked list what are the stopping condition if there is no loop?
+        9.    In a circularly linked list how would you ensure at least one node is left always even if you remove all the nodes ? Ans :insert a dummy node at the start.
+3rd round (HR+puzzles) :
+        1.    Given a container and 3 shapes of balls small , medium , large using each type of ball at least once how do you fit these balls so that the space wasted is minimized he was looking for a programmatic way of solving the problem?(I couldn’t answer this question)
+        2.    How to reduce the time of booting of the processor where we have no control on hardware devices but can only modify software (he was looking for more points here)?
+        3.    There are 9 balls one ball is lighter out of them and we have a balance how would you find lighter ball in 2 weightings? (I told i knew this question so he moved on)
+        4.    As all of my internship projects are on the back end with no design projects he asked me if I Had done any front end design projects? I said no.
+        5.    General HR questions like Introduce yourself, Why would you want to join Service Now, Where do you see yourself after  5 years? 
+I would like to thank Geeks for Geeks very much which helped me during the time of preparation for placements. 

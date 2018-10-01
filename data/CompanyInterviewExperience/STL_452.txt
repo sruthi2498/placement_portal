@@ -1,0 +1,8 @@
+Competitive programming often involves computation of Least Common Multiple (LCM) of two numbers. One way of doing that is using boost::math::lcm(), which we discussed in the post – Inbuilt function for calculating LCM in C++ .
+But, recently, C++ in its latest version C++17 has also included another in-built function for computation of LCM, std::lcm(). This function is defined inside the header file .
+Syntax:
+Remember, since this feature has been defined in latest version of C++, so using this function in compilers not supporting C++17, will throw an error.
+Run on IDE
+Output:
+Important Points:
+Reference:

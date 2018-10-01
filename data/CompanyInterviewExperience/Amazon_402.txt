@@ -1,0 +1,63 @@
+Amazon came to our college. Here is my interview experience. There were total 5 rounds.
+First Round (1.5 hr)-
+It consist of two sections
+-> Mcq (20 questions)
+-> Two coding questions
+1) Given two string Str1 and Str2, Find whether any anagram of Str2 is a sub-string of string Str1 (Case Insensitive) then return True otherwise False.
+Test case :if Str1 = Amazon and Str2 = omaz, Output: True
+2) Given n non-negative integers representing buildings where the width of each bar is 1, compute how much water it is able to trap after raining
+For example,
+Given [0,1,0,2,1,0,1,3,2,1,2,1], return 6.
+Round 2(2 hr)
+1.Introduce yourself.
+2.Short discussion of project on machine learning as interviewer is working on machine learning stuff.
+3.A tree is stored in an array such that value stored at  index I is parent of node I. Firstly gave an nlog(n) approach as it came to mind first. He said to code it(coded it), then he insisted to optimize the solution with worst case time complexity O(n), then we discuss the DP solution he agreed on the logic and asked to code it (coded it).
+3.Find lowest common ancestor in a binary search tree of nodes A and B. He asked if I have seen this problem already I replied in affirmative, so he asked me to code it quickly, I coded it. But he asked what if node A or B or both are not present, I said this code wont work but we can first check it both nodes A and B present then we can use this code, he was convinced n moved to next code.  
+5.Find max distance between any two nodes of a binary tree with at most a single bent. We discussed a lot over this question then he asked to code my approach which we discussed, while coding I found it was the wrong one, I told him that this approach wont work. At last he said to leave this problem n moved to next.(only questions I couldn’t solve) 
+6.find loop in LL.
+7.find frequency of words in a paragraph I suggested at first a hash than trie n he was satisfied with the answer.
+8.Again a short discussion on the project.
+Round 3(Design questions) (1.5 hr)
+1.) Suggest auto correct  if a word is misspelt.
+         i)only one character is replaced by wrong character like cht then suggestion can be cat.
+         ii)the word written is prefix of other word.
+Used trie.
+2.) A service is requested by fixed number of customers (limited 5-10 ). If the service fails at time n. Find frequency of requests made by each customer 10 minutes prior to failure of service. I suggested a DS made up of queue and map.
+3.)given a set of classes and their dependencies, return if this given set can be BUILD(compiled) with or with out error.
+class A:B C
+class B:D
+class C:E F
+class D
+class E:A
+class F:G
+class G:A
+return error as classes A,C,E depends on each other.
+I said questions same as find loop in a graph he agreed n asked to code.)coded it)
+round 4(subject round)(2hrs)
+1.)The answer sheets of previous interviews are passed on to next interview as my 3rd interviewer did not had my answer sheet of 2nd interview he asked me about the questions asked to me in the last interview.
+2.)consider a service running on a server for a customer c1,but customer c1 times out after s sec for what so ever be the reason so customer again fires the same request ,so server is running duplicate query hence it gets overloaded, resolve this glitch. Some how I managed to give a solution which he said is very similar to the solution he himself implemented to resolve this glitch.
+3.)given a tree find sum of all the numbers formed by appending the data of nodes from root to leaf node. In a single traversal of the tree.
+Eg: 
+I solved it using a reference variable to store final solution and an variable passed as value to store up to current node*10,thus add data of current node to this variable to get number formed till this node if current node is a leaf then add it to variable passed as reference.
+4.)Any idea about scheduling algorithms and there types.
+5.)Given a matrix of 0’s and 1’s,find the maximum size of the square formed by 0’s.
+1 1 1 1
+1 0 0 0
+1 0 0 1
+0 0 0 0
+Return 2.
+coded it by flipping all zeros to ones and ones to zeros than ques similar as given on GFG.
+6.)what is mutex?
+7.)given words of a lexicographical order of an alien language find order of characters in the language.
+I said I have seen this problem it is of topological sorting and he proceeded to next question.
+8.)multiple producers single consumer problem. 
+9.) Find all possible interpretations of an array of digits. I proposed a solution I was asked to code it I coded it but he pointed out an error for test case containing zeros like 10,20,2010,so I handled the case of zero.
+Round 5(45 min)
+1.)I was asked to tell about my projects which was not the one I discussed in first round (either they had an discussion about it prior to my interview or coincidence).
+2.)I had one project on web crawler so I was asked what changes will you make to this project to scale it.
+3.)another project was an android game similar to duck shooting(video game) was asked to tell the difference between the 2.
+4.)I was asked to tell how to copy last 10 lines from a file, he kept on asking for other methods (I answered around 10 different ways).     
+5.)add and subtract two numbers without using + or – operator.i was asked to code it.i used xor and binary and to solve it, then he asked to prove this method works.
+7.)convert 777 to binary.
+
+

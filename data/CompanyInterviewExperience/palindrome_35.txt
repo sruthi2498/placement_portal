@@ -1,0 +1,8 @@
+Given a non-negative palindromic number num containing n number of digits. The problem is to apply at most two swap operations on the number num so that the resultant is the largest possible palindromic number.
+Examples:
+
+Approach: If n < 3, then num itself is the largest possible palindromic number. Else calculate mid =  (n / 2) – 1. Then create an array rightMax[] of size (mid + 1). rightMax[i] contains the index of the greatest digit which is on the right side of num[i] and also greater than num[i] and 0 <= i <= mid. If no such digit exists then rightMax[i] = -1. Now, traverse the rightMax[] array from i = 0 to m, and find the first element having rightMax[i] != -1. Perform the swap(num[i], num[rightMax[i]]) and swap(num[n – i – 1], num[n – rightMax[i] – 1]) operations and break.
+Run on IDE
+Output:
+Time Complexity: O(n).
+Auxiliary Space: O(n).

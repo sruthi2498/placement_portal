@@ -1,0 +1,44 @@
+Adobe Interview Experience (On-Campus)
+Round 1:
+========
+1) Coding round: 3 questions, 90 mins: 
+a) Given k,n,m. where k is no. of coconuts you initially have. n is the some no. such that if you have >=n coconuts, you becomes stressed otherwise you become normal. m is the no. of shops.You go from 1st shop to m-th shop without skipping any shop. At i-th shop, either you buy Si coconuts or sell Si coconuts. If you are stressed then you must become normal at next shop. If you have less than Si coconuts and you want to sell then you must sell all the coconuts you have. The task is to calculate maximum possible changes of your mood from stressed to normal or vice-versa.
+My solution: Used DP.
+b) You have n nodes and m edges with their weights given. If no edge is given from node i to node j, you should assume there an edge with weight=1. You have to calculate the min cost of path from node 1 to node n.
+My solution: Could be done by Dijkstra, but Floyd Warshall was working for all test-cases hence saved my time by using Floyd Warshall.
+There was one more question.
+2) Apti Round: 45 questions, 50 mins.
+1st F2F Interview:
+======================
+-Asked how you solved the coding questions. When I came on Dijkstra, It was a complete discussion on its algorithm and Time Complexity.
+-A brief on my projects.
+-OOP-Inheritance, Polymorphism, Abstraction.
+-Discussed Hashing
+-A problem on Spoj is encrypted using substituting cipher(substitued an english alphabet with another english alphabet). All spaces and punctuation marks are deleted. How will you get the original problem statement.
+-Discussed Heap
+-Find 2nd largest element in given array using min. no. of comparisons. I told him solution with 2n comparisions, but he kept insisting me to think more and reduce the comparisons.
+2nd F2F Interview:
+======================
+-1 question on linked list
+-https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-sumtree/
+-How to synchronize 2 threads, one which is downloading contents of a site while loading the website and another UI based thread which is showing the percentage completeness. Without using Java Synchronization concept.
+-Discussed on sync on Dropbox. You are uploading something on Dropbox. Suddenly network connection is lost. After that you have modified file and then network is connected. What should you code on Client-side to resume it instead of restarting. It can be the case that the part of file that was uploaded is modified and you should resend the modified one.
+3rd F2F Interview: (With Director)
+==================
+– An array is given of size m. First n elements (n < m) are filled and rest contains junk. Write code for linear search to find an element x in first n elements. There would be 2 comparisons per iteration: (i < n) in for loop and (arr[i]==x). You have to reduce the no. of comparisons to 1 comparison/iteration.
+– A two-balls question on trigonometry.
+-Two balls with same weight and same diameter are there. One is solid and other is hollow. Distinguish between them.
+-Archimedes principle.
+-Why Mirage happens.
+-Explain concept of TIR(Total Internal Reflection).
+My solution for array question:
+arr[n]=x;
+for(int i=0;;i++) if(arr[i]==x) break;
+if (i < n) return i;
+else return -1;
+HR Round:
+=========
+Think of a real-life society problem and think of some innovative technology you can build to solve that.
+All interviewers were very-friendly. Hindi was permitted except HR Round. It was an enjoyable experience.
+Thanks Geeksforgeeks for Trees and Linked List.
+

@@ -1,0 +1,32 @@
+I applied here from their career page and was asked to attend 5 rounds and I cleared all of them and landed into a full time Software Engineer job 🙂
+Round 1:
+It was 5 question screening round which was meant to know about my expectations from the organization.
+Round 2:
+Online Coding round on Hackerrank
+3 coding coding questions:
+– Run length Encoding of string with slight modification
+– Finding buying day and selling day for a given set of days such that the profit of the buyer is maximum .
+– Given a set of keywords and a long string, break the long string such that the split words are from the keywords only
+Questions were fairly simple but test cases were very nice.
+Round 3:
+1st Interview 
+The interview went for about 1 hr and was completely technical. The questions asked were:
+– Given a binary tree how would you identify whether it is a Binary Search tree or not?
+I gave the answer using inorder traversal.
+– given a bst, convert it to a binary tree such that each element is replaced by the sum of all the elements greater than it?
+– Given an employee table with employee name and salary find the 2nd highest salary.
+I gave the vague answer of using inner query then he asked if instead of 2nd its nth highest then what would I do. After sometime I asked for the keyword (which was LIMIT) and then I wrote the query which was almost syntactically correct.
+– The answer to the question of binary tree, he asked me if I could solve it without using any space (my previous solution took O(n) space)?
+I was writing the solution and in between he said to stop and asked me if I have any question.
+Round 4:
+Java application development
+Imagine we have an Email Queue table in our database with each row representing an email that needs sending. Table Name: EmailQueue Columns: id, from_email_address, to_email_address, subject, body (you can also add columns as you wish, but at minimum it should have these columns). Write a java program that will read from this table and send the emails over an SMTP server (not local unix mail). For the SMTP sending you can use a pre-existing library of your choice, if you wish. Please take into consideration the following:
+Round 5:
+Final interview
+It was of about 1 hr on soft and technical skills. Questions asked include:
+– Tell be about yourself?
+– given an array. find the pattern it follows? there can be 4 patterns only: increasing, decreasing, increase then decrease and decrease then increase.
+– Given an array of distinct positive numbers find the maximum sum of elements such that no 2 elements occurring in the maximum sum set is adjacent to each other.
+I gave an incorrect answer and then I realised it, so I asked to rectify and she allowed me to do so.
+– How can you improve suggestions of coupons to the users?
+This discussion went for about 20 mins.

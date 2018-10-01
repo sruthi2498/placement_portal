@@ -1,0 +1,6 @@
+The std::swap function is used to swap two elements where as the std::vector::swap function can swap all elements of two different vector containers.
+Below are some major key differences between std::swap and std::vector::swap,
+Program 1: To illustrate swapping of two vectors using std::swap().
+Run on IDE
+Program 2: To illustrate swapping of two vectors using std::vector::swap().
+Run on IDE

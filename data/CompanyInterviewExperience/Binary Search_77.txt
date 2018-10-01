@@ -1,0 +1,13 @@
+Given a sorted array of n distinct integers rotated at some point. Given a value x. The problem is to count all the elements in the array which are less than or equal to x.
+Examples:
+
+Naive Approach: One by one traverse all the elements of the array and count the one’s which are less than or equal  to x. Time Complexity O(n).
+Efficient Approach: Prerequisite of a modified binary search which can return the index of the largest element smaller than or equal to a given value in a sorted range of arr[l…h].
+Refer this post for the required modified binary search:
+Steps:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(logn)

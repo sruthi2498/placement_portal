@@ -1,0 +1,5 @@
+Round 1: 3 Questions
+Q1. https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
+Q2. Broadcast Tree Algorithm and its order given at
+http://mpitutorial.com/tutorials/mpi-broadcast-and-collective-communication/No code for it.
+Q3. Given an array of billion of numbers. Billions of queries are generated with parameters as starting and an ending index. Both these indices lie within that array. Find the maximum number between these two indices in less than O(N).

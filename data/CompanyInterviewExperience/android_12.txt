@@ -1,0 +1,17 @@
+Gradle is a build system (open source) which is used to automate building, testing, deployment etc. “Build.gradle” are scripts where one can automate the tasks. For example, the simple task to copy some files from one directory to another can be performed by Gradle build script before the actual build process happens.
+Why is Gradle needed?
+Every Android project needs a gradle for generating an apk from the .java and .xml files in the project. Simply put, a gradle takes all the source files (java and XML) and apply appropriate tools, e.g., converts the java files into dex files and compresses all of them into a single file known as apk that is actually used.
+There are two types of build.gradle scripts
+Top-level build.gradle
+It is located in the root project directory and its main function is to define the build configurations that will be applied to all the modules in the project. It is implemented as:
+Run on IDE
+The top-level build.gradle supports various build configurations like:
+Run on IDE
+       This line adds the plugins as a classpath dependency for gradle 3.0.1.
+       
+Module-level build.gradle
+Located in the project/module directory of the project this Gradle script is where all the dependencies are defined and where the sdk versions are declared. This script has many functions in the project which includes additional build types and override settings in the main/app manifest or top-level build.gradle file. It is implemented as:
+Run on IDE
+The Module-level build.gradle supports various build configurations like:
+Both the top-level and module-level build.gradle files are the main script files for automating the tasks in an android project and are used by the Gradle for generating the APK from the source files.
+References: https://developer.android.com/studio/build/

@@ -1,0 +1,7 @@
+Given a limit N, we need to find out the count of binary digit numbers which are smaller than N. Binary digit numbers are those numbers which contains only 0 and 1 as their digits as 1, 10, 101 etc are binary digit numbers.
+Examples:
+
+One simple way to solve this problem is to loop from 1 till N and check each number whether it is a binary digit number or not. If it is a binary digit number, increase the count of such numbers but this procedure will take O(N) time. We can do better, as we know that count of such numbers will be much smaller than N, we can iterate over binary digit numbers only and check whether generated numbers are smaller than N or not.
+	In below code, BFS like approach is implemented to iterate over only binary digit numbers. We start with 1 and each time we will push (t*10) and (t*10 + 1) into the queue where t is the popped element, if t is a binary digit number then (t*10) and (t*10 + 1) will also binary digit number, so we will iterate over these numbers only using queue. We will stop pushing elements in the queue when popped number crosses the N.
+Run on IDE
+Output:

@@ -1,0 +1,49 @@
+0th Round: (Online): 20 MCQs + 2 Coding Questions In hackerrank platform:
+MCQs Topics:
+Quantitative aptitude(speed,mixture,ratio etc)
+C apps (find o/p time complexity)
+Os,DBMS
+MCQs based on quants was little bit challenging.
+Coding Questions:
+1) Size of Largest subarray with given sum.
+2) Reverse Individual words in a string.
+i/p : This is a game
+O/p: game a is This
+After this round 39 were short listed.
+There were 4 rounds of interviews(all technical)
+
+Round 1:(1 hr written round)
+1)zigzag traversal of a binary tree.
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+2) Find the size of largest  island from a group of islands.
+A variation of: https://www.geeksforgeeks.org/find-number-of-islands/
+There were 13 people 39 were divided to thirteen groups and one was eliminated in each group.
+Round 2:(1 hr Face to face)
+ First question was tell me about yourself.
+Thoroughly went through my resume.
+Asked me about my projects and internship experience.
+Then a question came in Arrays.
+Q) Replace every element by its Immediate greater element 
+Then os questions came.
+1) what is virtual memory?y is it so called?
+2) paging and segmentation concepts.(in and out)
+3) size of virtual memory.
+Then he asked me “do u hav e any questions?” . I asked few questions in Amazon cloud drive.
+Round 3:(1hr 15 min Face to face)
+First question was  “tell me about yourself”.
+Then the Questions came:
+1.Find Minimum in each k sized window. 
+I told him the Queue approach he is not satisfied. Then I started with dequeue ,he stopped me and asked me to use data structure other than queue. I told him min heap approach. He seemed to be satisfied .He asked me to write a production level code for that.
+2. A new tree data structure is given in which each node has two values top and bottom, when all the nodes are arranged in tree, the top vales of all  nodes must follow BST while the bottom values must follow min heap.  elements can be inserted in any order(not the order of arrival).
+I gave my solution. He was satisfied and asked me to write a production level code for that.
+Finally, “do u have any questions?”
+Round 4:(1hr 30 min Face to face)
+1. The celebrity problem: https://www.geeksforgeeks.org/the-celebrity-problem/
+2. Count possible decoding sequence: https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+3. We are receiving a stream of data from a social network, how will you display k max persons based on number of friends?
+He was satisfied with my approach of max heap.
+Finally, “do u have any questions?”
+After each interview some were eliminated.
+Thanks to geeks for geeks.
+
+

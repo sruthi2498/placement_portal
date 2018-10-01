@@ -1,0 +1,12 @@
+Given a gold mine of n*m dimensions. Each field in this mine contains a positive integer which is the amount of gold in tons. Initially the miner is at first column but can be at any row. He can move only (right->,right up /,right down\) that is from a given cell, the miner can move to the cell diagonally up towards the right or right or diagonally down towards the right. Find out maximum amount of gold he can collect.  
+Examples:
+Source Flipkart Interview 
+Create a 2-D matrix goldTable[][]) of the same as given matrix mat[][].  If we observe the question closely, we can notice following.
+If we are at the first row or last column, then we are unable to move right-up so just assign 0 otherwise assign the value of goldTable[row-1][col+1] to right_up. If we are at the last row or last column, then we are unable to move right down so just assign 0 otherwise assign the value of goldTable[row+1][col+1] to right up.
+Now find the maximum of right, right_up, and right_down and then add it with that mat[row][col]. At last, find the maximum of all rows and first column and return it.
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity :O(m*n)
+Space Complexity :O(m*n)

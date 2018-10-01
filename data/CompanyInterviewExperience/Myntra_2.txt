@@ -1,0 +1,42 @@
+Process : There was an online round out of which top 30 students were selected. It was followed by 3 technical interviews and 1 technical interview.
+Online Round :
+30 mins for MCQ
+There were 20 MCQ covering probability , Combinatorics , OS Concepts , DBMS Concepts , Output Questions and Debug questions.
+There were three coding questions – 90 Minutes
+1. There are 2 players , say A and B . There are m+n+1 cards and A gets m cards and B gets n cards. 1 card is left behind. A personality is linked with each card. The game begins as A begins to guess the left out card . If B has the card, he has to show the card. Else the judge checks the result if A is sure of his guess. Next turn goes to B . The game proceeds in this way. Now , what is the probability that A will win ? The probability must be accurate to 9 decimal places. 
+input
+5 // the number of cards taken by A
+5 // the number of cards taken by B
+Output
+0.500000000 // Probability
+2. Alice has to go to work from his home. He finds it somehow the first day and keeps a note of it . In the office she finds the path to be longer and shortens it. 
+Given a string of the long path, shorten it. The result must be sorted lexicographically .
+Example : SSNE to be simplified as ES
+S stands for South, N for North, W for west , E for east.
+ 3. Given an array and a number K , select an index i such that you have to decrement that index’s value by k and increment rest of the values in the array such that the number of distinct elements is minimized. if this process is done any number of times(may be done with the same index i any number of times, or can change), find the number that occurs the maximum number of times at the end.
+Tech Interview 1 :
+1. Given a URL say “www.geeksforgeeks.org” what is the sequence of activites that goes through ? I explaned Starting from IP resloving till the response received
+2. Some basic concepts in DBMS like Normal Forms, Transactions, etc
+3. Given the function declaration 
+int func(int min, int max, int sum);
+write the code to count the number of ways the sum can be obtained using the values find between min and max(both inclusive )
+Example : int func(1,3,5) Output : 5
+1+1+1+1+1 ,
+1+1+1+2
+1+1+3
+2+3
+1+2+2
+Find the time and space complexity for your solution.
+Tech Interview 2 :
+1. Find LCA of two nodes , given their datahttps://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+Also address the case when duplicates are found in the tree. Prove time complexity of your solution mathematically.
+2. Partition Problemhttps://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/
+You have to print the subarray too.
+Prove time complexity of your solution mathematically.
+Tech Interview 3 :
+Here we discussed some stuff about my project. Coding questions were on simple bit manipulation like set the nth bit from right, Bit masking, Bit flipping , etc., Some questions like how a .exe file would look like ? What will compilers do ? What is the work of a preprocessive directive ?
+HR interview :
+Some questions about my internship and my projects.
+
+
+

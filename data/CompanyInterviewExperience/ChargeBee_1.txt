@@ -1,0 +1,24 @@
+1. Given an array and a set of operations on it, perform those in sequence to the array.
+Example : given array : 12345
+Operations to be performed in order : L1,R2,R1,L3
+L1 : shift left once,R2 : shift right twice…etc
+2. Given an array of size n of integer type containing the integers from 1 to n (both including), print how many times each integer is repeated. There is no rule that every integer in the range 1 to n will be present in the array. Solve the problem using only one additional variable.
+Example : n= 5
+Array : 12341
+Answer : 1 – 2 times
+2 – 1 time
+3 – 1 time
+4 – 1 time
+3. Print this pattern
+* * * * *
+* * *
+*
+* * *
+* * * * *
+4. A code is given which prints the sum of even and odd numbers in the given set of numbers. Identify the error and rectify it.
+5. Given two integers m and n,write code for m power n without using exponent operation.
+6. Doubly linked list insertion and deletion.
+7. Measure 9 min using two 4 min and 7 min sand glass.
+8. https://www.geeksforgeeks.org/the-celebrity-problem/
+9. 2 DBMS queries.(don’t remember)
+10.http://www.mathsisfun.com/puzzles/the-fly-and-the-trains-solution.html

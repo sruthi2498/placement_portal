@@ -1,0 +1,17 @@
+Given a string of odd length, print the string X format.
+Examples : 
+We strongly recommend you to minimize your browser and try this yourself first.
+The idea is to use two variables in a single loop, the first variable ‘i’ goes from left to right and second variables ‘j’ goes from right to left.  The upper part of Cross (or X) is printed before they meet.  The central character is printed when they meet and lower parted is printed after they cross each other.  In the upper part  str[i] is printed before str[j] and in the lower part, str[j] is printed before str[i].
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Alternative Solution :
+
+Run on IDE
+Run on IDE
+

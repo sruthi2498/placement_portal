@@ -1,0 +1,6 @@
+The set::find is a built-in function in C++ STL which returns an iterator to the element which is searched in the set container. If the element is not found, then the iterator points to the position just after the last element in the set. 
+Syntax:
+Parameters: The function accepts one mandatory parameter element which specifies the element to be searched in the set container. 
+Return Value: The function returns an iterator which points to the element which is searched in the set container. If the element is not found, then the iterator points to the position just after the last element in the set.
+Below program illustrates the above function. 
+Run on IDE

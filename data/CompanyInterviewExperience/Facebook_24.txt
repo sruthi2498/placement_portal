@@ -1,0 +1,21 @@
+Recently facebook visited our campus. There was an online round first. 7 people were shortlisted for the telephonic interviews. And then there were 2 telephonic interviews taken by people from the US.
+Online Round
+2 coding questions were given, and the time was 75 minutes.
+1. There are n trees in a circle. Each tree has a fruit value associated with it. A bird can sit on a tree for 0.5 sec and then he has to move to a neighbouring tree. It takes the bird 0.5 seconds to move from one tree to another. The bird gets the fruit value when she sits on a tree. We are given n and m (the number of seconds the bird has), and the fruit values of the trees. We have to maximise the total fruit value that the bird can gather. The bird can start from any tree.
+I forgot the examples, sorry:(
+2. You are given the encoding for a base 58 number. You have to convert all the numbers from 1 to n to a base 58 number using the encoding given.
+The questions were not difficult, and the shortlisting basis was very strange. My friend finished much before me, but he was not shortlisted. I think they looked at your CV and projects.
+1st telephonic round
+Introduce yourself and tell me about your projects. Then he asked me 2 algorithmic questions.
+1. You are given the start time and finish time of n intervals. You have to write a a function that returns boolean value indicating if there was any overlapping interval in the set of existing intervals. (Sort and check, time complexity O(nlogn))
+2. You have 2 sparse vectors (large number of 0’s). First tell me a way to represent and store them, and then find the dot product.
+(To store them, we should store the value and index of those indexes that have a non-zero value, and then finding the dot product is very straight forward).
+2nd telephonic round
+The interviewer was not the same. Introduce yourself and tell me about your projects. Even he asked me 2 algorithmic question.
+1. You have an array of n elements, and a sum. Check if any 2 elements in the array sum to the given sum. ( Expected time complexity O(n). Use hashing)
+2. Extended the previous problem to sum of 3 elements in the array summing up to the given sum.
+A few pointers:
+? Always explain what you’re doing and why.
+? First explain the algorithm and then start coding.
+? If he gives a hint, take it and use it.
+Thanks geeksforgeeks.org

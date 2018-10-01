@@ -1,0 +1,11 @@
+Given a positive integers ‘q’ and ‘n’. For each query ‘q’ find whether a number ‘n’ have exactly four distinct divisors or not. If the number have exactly four divisors then print ‘Yes’ else ‘No’.1 <= q, n <= 106 
+Simple approach is to count factors by generating all divisors of a number by using this approach, after that check whether the count of all factors are equal to ‘4’ or not. Time complexity of this approach is O(sqrt(n)).   
+Better approach is to use Number theory. For a number to be have four factors, it must satisfy the following conditions:-
+We can use sieve of Eratosthenes such that we will pre-calculate all the prime factor from 1 to 106. Now we will mark all numbers which are the product of two prime number by using two ‘for loops’ i.e, mark[p * q] =true. Meanwhile we will also mark all numbers(cube root) by taking cube of number i.e, mark[p * p * p] = true.
+After that we can easily answer each query in O(1) time.
+Below is pseudo code, have a look for better understanding
+
+Run on IDE
+Run on IDE
+
+Time complexity: O(1) for every query.

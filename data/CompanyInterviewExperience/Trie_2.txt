@@ -1,0 +1,17 @@
+Given a string array of M words and a dictionary of N words. The task is to check if the given string of words can be formed from words present in the dictionary. 
+Examples:
+dict[] = { find, a, geeks, all, for, on, geeks, answers, inter } 
+Input: str[] =  { “find”, “all”, “answers”, “on”, “geeks”, “for”, “geeks” };
+Output: YES
+all words of str[] are present in the dictionary so the output is YES
+Input: str = {“find”, “a”, “geek”}
+Output: NO
+In str[], “find” and “a” were present in the dictionary but “geek” is not present in the dictionary so the output is NO
+A naive Approach will be to match all words of the input sentence separately with each of the words in the dictionary and maintain a count of the number of occurrence of all words in the dictionary. So if the number of words in dictionary be n and no of words in the sentence be m this algorithm will take O(M*N) time. 
+A better approach will be to use the modified version of the advanced data structure Trie the time complexity can be reduced to O(M * t) where t is the length of longest word in the dictionary which is lesser than n. So here a modification has been done to the trie node such that the isEnd variable is now an integer storing the count of occurrence of the word ending on this node. Also, the search function has been modified to find a word in the trie and once found decrease the count of isEnd of that node so that for multiple occurrences of a word in a sentence each is matched with a separate occurrence of that word in the dictionary.
+Below is the illustration of the above approach:  
+Run on IDE
+An efficient approach will be to use map. Keep the count of words in the map, iterate in the string and check if the word is present in the map. If present, then decrease the count of the word in the map. If it is not present, then it is not possible to make the given string from the given dictionary of words. 
+Below is the implementation of above approach :
+Run on IDE
+Time Complexity: O(M)

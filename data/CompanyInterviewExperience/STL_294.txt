@@ -1,0 +1,11 @@
+Multisets are a type of associative containers similar to set, with an exception that multiple elements can have same values.
+This function is used to exchange the contents of two multisets but the sets must be of same type, although sizes may differ.
+Syntax :
+Examples:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Run on IDE
+Output:
+Time complexity: Constant

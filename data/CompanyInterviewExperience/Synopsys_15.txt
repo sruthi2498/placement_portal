@@ -1,0 +1,37 @@
+Reached out via referral in November, team I was interviewed for develops in house software. The overall process took 2 weeks, 2 telephonic followed by F2F. In all the rounds minimum 3 puzzles were asked, listed down only algorithm and programming questions. 
+Telephonic
+Round 1 
+1.	Fibonacci sequence expecting DP solution and corner cases like negative input, etc.
+2.	Implement strcpy library function from C. Priority is on heap allocation, checking null terminated string, etc
+3.	Strcpy() vs Memcpy()  
+Round 2
+1.	Given a huge file of strings, print words from EOF to start
+F2F
+Round 3
+1.	Height and Balance factor for binary tree.
+2.	https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+Round 4 
+1.	Size of a binary tree
+2.	#define Vs typedef
+3.	int main() Vs void main() Vs main(), why return statement is necessary in main()
+4.	Merge two sorted array, recursive approach for the same using LinkedList (https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/) 
+Round 5
+1.	How negative numbers are represented in memory
+2.	What is integer overflow, how to avoid it
+3.	https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+Round 6
+1.	Pascal triangle based question
+2.	https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+Round 7
+1.	Given a student table with marks, find Nth rank student
+2.	What is the possible pattern for static variables
+3.	Initialized and uninitialized static variables, where are they stored in memory expecting explanation with BSS and Data segment
+4.	https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+5.	String is represented in a linked list, how to effectively check whether the string is a palindrome (https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/)
+Round 8 (HR)
+1.	Usual HR questions, Why Synopsys, What will you do if you get offer from Google/Facebook, etc
+2.	2 more puzzles again 
+Pseudo code on paper with proper handling of corner cases is expected. All F2F happened in a day each round typically lasted an hour. Puzzles are given equal importance as that of algorithm design.
+Thanks GeeksforGeeks for providing a wonderful platform to share and learn, keep up the great work, cheers 🙂
+
+

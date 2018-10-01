@@ -1,0 +1,8 @@
+Given an array of positive integers. Sort the given array in decreasing order of number of factors of each element, i.e., element having the highest number of factors should be the first to be displayed and the number having least number of factors should be the last one. Two elements with equal number of factors should be in the same order as in the original array.
+Examples:
+
+We have already discussed a structure based solution to sort according to number of factors. 
+The following steps sort numbers in decreasing order of count of factors.
+Run on IDE
+Time Complexity: O(n*sqrt(n))
+Auxiliary Complexity: O(n)

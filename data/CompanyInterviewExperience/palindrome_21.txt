@@ -1,0 +1,98 @@
+Given a String s, count all special palindromic substrings of size greater than 1. A Substring is called special palindromic substring if all the characters in the substring are same or only the middle character is different for odd length. Example “aabaa” and “aaa” are special palindromic substrings and “abcba” is not special palindromic substring.
+Examples :
+
+Simple Solution is that we simply generate all substrings one-by-one and count how many substring are Special Palindromic substring. This solution takes O(n3) time.
+Efficient Solution 
+There are 2 Cases :
+Case 1: All Palindromic substrings have same character :
+We can handle this case by simply counting the same continuous character and using formula  K*(K+1)/2 (total number of substring possible : Here K is count of Continuous same char).
+Case 2:
+We can handle this case by storing count of same character in another temporary array called  “sameChar[n]” of size n. and pick each character one-by-one and check its previous and forward character are equal or not if equal then there are min_between( sameChar[previous], sameChar[forward] ) substring possible.
+Below is the implementation of above idea
+
+Run on IDE
+Run on IDE
+# Python3 program to count special
+# Palindromic substring
+# Function to count special
+# Palindromic susbstring
+def CountSpecialPalindrome(str):
+	n = len(str);
+	# store count of special
+	# Palindromic substring
+	result = 0;
+	# it will store the count
+	# of continues same char
+	sameChar=[0] * n;
+	i = 0;
+	# traverse string character
+	# from left to right
+	while (i < n):
+
+		# store same character count
+		sameCharCount = 1;
+
+		j = i + 1;
+
+		# count smiler character
+		while (j < n):
+			if(str[i] != str[j]):
+				break;
+			sameCharCount += 1;
+			j += 1;
+		
+		# Case : 1
+		# so total number of substring 
+		# that we can generate are :
+		# K *( K + 1 ) / 2
+		# here K is sameCharCount
+		result += int(sameCharCount * 
+		             (sameCharCount + 1) / 2);
+
+		# store current same char 
+		# count in sameChar[] array
+		sameChar[i] = sameCharCount;
+
+		# increment i
+		i = j;
+
+	# Case 2: Count all odd length 
+	# Special Palindromic substring
+	for j in range(1, n):
+	    
+		# if current character is equal 
+		# to previous one then we assign 
+		# Previous same character count 
+		# to current one
+		if (str[j] == str[j - 1]):
+			sameChar[j] = sameChar[j - 1];
+
+		# case 2: odd length
+		if (j > 0 and j < (n - 1) and 
+	       (str[j - 1] == str[j + 1] and 
+	        str[j] != str[j - 1])):
+			result += (sameChar[j - 1]
+			        if(sameChar[j - 1] < sameChar[j + 1]) 
+			        else sameChar[j + 1]);
+
+	# subtract all single
+	# length substring
+	return result-n;
+
+# Driver Code
+str = "abccba";
+print(CountSpecialPalindrome(str));
+
+# This code is contributed by mits.
+
+
+
+[tabby title="C#"]
+
+
+
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(n)

@@ -1,0 +1,35 @@
+Online Round
+This round had 5 mcq’s and 2 coding questions.
+The mcq’s were mostly on quantitative aptitude like profit and loss, age, train, ratio and proportions.
+The coding questions were as follows:
+1.      Given an array of integers, find the maximum difference between any two elements such that the larger element is always at higher index than the smaller one.
+https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+2.      Given a set of length of N sticks, a cut operation is performed such that each rod is cut by the minimum in that set in every step. Repeat the same till no rods are left and output the number of rods cut in each step.
+https://www.hackerrank.com/challenges/cut-the-sticks
+This round was for 1.5 hours and overall 25 were short listed for interviews.
+
+Personal Interview:  Round 1  
+1.      Given the pre-order and post-order traversals of binary tree, write a code to construct the tree.
+2.      Code to reverse a linked list in all approaches you can think of( recursion, iterative, stack etc) 
+3.      Code of reverse a linked list in groups of given size ‘k’, say if k=3 reverse every 3 nodes. 
+4.       Few questions on OS about CPU scheduling, explain different scheduling algorithms.
+
+Personal Interview : Round 2 
+1.      Find the second largest element in an array, I said heap sort (maintain a min heap) so I was asked to write a code for heap sort. 
+2.      In an n*n 2d matrix, starting from the very first element i.e  array[0][0] , the only possible ways to move is directly to the element below it or diagonally right of the element. Also as we move, keep adding the elements in the path. Give an approach to reach the last level in the matrix with minimum sum.
+         Always start at 1, can go either to 23 or 45. If 23, then sum till then would be 24 else 46 and so on.
+3.      Given a binary tree, find the maximum sum between any two leaf nodes (of course leaf nodes not given)  i.e the maximum sum of the nodes in path between the two leaf nodes (including the leaf nodes).
+Note : The leaf nodes can be such that they may belong to the same subtree, or different.
+4.      Given an array of elements which is unsorted and a sum ‘k’, find if a subsequence exists such that the sum of the elements in the subsequence add to the sum ‘k’. O(n) solution was expected.
+Few questions related to my Internship projects were asked.
+
+Personal Interview : Round 3 
+1.      Design any category under the ‘Book My Show’ application. So I chose movies, was asked to draw a data model to represent all entities and relationships between them, also to bring it to a normalized form. Few more specifications and requirements were added, so had to design to handle those.
+2.      Questions like Why Myntra, my strengths, weaknesses, area of interest, what made me take Computer Science and Engineering.
+Few questions related to my Internship projects were asked –  difference between C and C#  mainly in terms of executable files etc.
+
+HR Round
+This was a casual friendly talk with same set of questions like Why Engineering, How do you see yourself in the next 5 years and so on.
+Finally they hired 3 students :-p
+I would like to give credits of my success to GeeksForGeeks for its wonderful collection of questions.
+

@@ -1,0 +1,16 @@
+After successfully installing the Android studio and opening it for the first time, a number of options appear as shown in the below images. 
+Below are the steps to start and set up a new android project in Android Studio.
+
+
+
+By default, the application name appears as “MyApplication”. Click on “Next” after filling the Application name field, leaving the other fields to their default values.
+
+
+
+
+
+
+Click on “Finish”.
+
+Then, a default app is created with all default files. And you can now start writing the application code.
+

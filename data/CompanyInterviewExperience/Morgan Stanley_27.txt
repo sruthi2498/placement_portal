@@ -1,0 +1,43 @@
+I was gone through  the Interview Process of Wissen Infotech for Morgan Stanley client.
+First Round :
+3 programming Questions
+i) Your are programmer of JDK developement team.You have to override the
+toString Method of Integer class.In Integer class the value of int is passed through a variable called data.Please remember that valueof function internally call toString method Integer class. 
+ii) Maximum Profit By selling once the share
+https://www.geeksforgeeks.org/maximum-difference-between-two-elements/
+iii) There are Two methods one for inserting the data in database and other for fetching the data from database.
+a) persist() -for inserting data.
+b) get()- for getting the data from DB
+persist() function is taking time in inserting the data.
+Write methods  that will not allow the data to be fetched until data is inserted.
+(Apply Producer Consumer  Problem)
+Second Round  (face to face)
+1. Employee table given
+Emp_Id  Employee_Name Manager_Id
+Write query for Printing  Employee_Name reports to Manager_Name
+2. How to implement ThreadPool.
+3. What is difference between different type of Thread pools
+(FixedThreadPool,  ScheduledThreadPool, CachedThreadPool..)
+4. How ConcurrentHashMap Work.
+5. Other Normal Java Question.
+6. Suppose we created 5 Threads through FixedThreadPool(5) and assigned only 3 task to 3 threads.Will the other 2 Thread created in memory or not?
+7. Difference between Concurrency and Parallelism.
+Third Round
+1. You have to design the database for Order taking system. Describe all the tables like Customer table, Order table, Item table their Primary key and Foreign key.
+2 One Simple code for  paint all pixel which comes in given boundary.
+ isFill(int i,int j)
+Fill(int i,int j) given.
+Fourth Round by Client Morgan Stanley
+1. What is thread, how it is useful?
+2. Implement Queue using stack?
+3. There is a trade file having million records that have size 1 GB  and you have 256 mb ram how would you process.
+4. https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
+5. How would you implement Connection Pool.
+6. What is difference between Stored Proc and Query.
+7. There is source and destination station having some mediator stations that have some value to reach from one station to other station . You have to calculate minimum value to reach source to destination.
+8. red black tree.
+9. Basic Java Questions.
+10. You have to design  Pizza factory class  that have type  veg and non veg type with different toppings.
+11. Trie data structure Implementation
+Nice Experience
+Thanks  GeeksForGeeks —No word are there to write for your contribution

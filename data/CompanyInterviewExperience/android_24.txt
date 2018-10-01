@@ -1,0 +1,29 @@
+This article is divided into 2 Parts. I am assuming reader has basic knowledge of Android and java.
+There are two libraries for caching image in android : 
+1) Picasso
+2) Glide
+Glide, like Picasso, can load and display images from many sources, while also taking care of caching and keeping a low memory impact when doing image manipulations. Official Google apps (like the app for Google I/O 2015) are using Glide. In this article, we’re going to explore the functionalities of Glide and why it’s superior in certain aspects.
+ Introduction 
+Glide is an Image Loader Library for Android developed by bumptech and is a library that is recommended by Google. It has been used in many Google open source projects including Google I/O 2014 official application. It provides animated GIF support and handles image loading/caching. Animated GIF support is currently not implemented in Picasso.
+How to Use Glide Android Library?
+1) For using Glide in android project, we have to add dependency in gradle file. So, For adding dependency open app/build.gradle file in the app folder in your Android project and add the following lines inside it.
+Note : Add these lines inside dependencies{} 
+Glide also needs Android Support Library v4, please don’t forget to import support-v4 to your project like above as well. But it is not kind of a problem since Android Support Library v4 is basically needed in every single new-age Android project
+Now sync your gradle once again.If you get any type of error then you may check the error on stackoverflow
+2) Now add InternetPermission inside Android.Manifestfile. Open the manifest.xml file and add the following line.
+3) Open the layout file for the main Activity. We need to add an ImageView to the layout. It doesn’t need to be fancy. The following code snippet shows you what I mean.
+4) Now Navigate to the main Activity file and Add  the following code block to the onCreate method.
+In the first line we are getting ImageView instance from the layout. And then load the image from the above remote url using Glide library.
+Advanced Usage
+For any real time application, we must think of all possible cases. In the above code, we just store the image from the server link into the imageView.There are some more cases.
+Here we are using Glide to fetch a remote image and overriding(resizing) it using before displaying it in an image view.
+
+If your application relies on remote assets, then it’s important to add a fallback in the form of a placeholder image. The placeholder image is shown immediately and replaced by the remote image when Glide has finished fetching it.
+
+We already saw how the placeholder method works, but there’s also an error method that accepts a placeholder image. Glide will try to download the remote image three times and display the error placeholder image if it was unable to fetch the remote asset.
+
+Multiple Transform : 
+Circle crop :
+Rounded Corners : 
+Reference : 
+https://github.com/bumptech/glide

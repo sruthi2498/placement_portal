@@ -1,0 +1,26 @@
+Given a sorted array with possibly duplicate elements, the task is to find indexes of first and last occurrences of an element x in the given array.   
+Examples:
+
+The Naive Approach is to run a for loop and check given elements in array.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+ 
+An Efficient solution of this problem is to use binary search.
+1. For first occurrence of a number  
+2. For last occurrence of a number 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Time Complexity : O(log n)
+Auxiliary Space :  O(1) if we use iterative Binary Search is used (Readers can refer Binary Search article for iterative Binary Search)
+Extended Problem : Count number of occurrences in a sorted array

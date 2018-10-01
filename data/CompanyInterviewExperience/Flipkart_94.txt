@@ -1,0 +1,49 @@
+I recently attended Flipkart interviews(off campus). I would like to share my experience with everyone. 
+Round 1 : Telephonic Interview
+1) Print the left view of a tree.
+2) Given set of words that are lexographically sorted, find the grammar.
+Eg:
+abc
+acd
+bcc
+bed
+bdc
+dab
+The order of letters for the given example would be
+a->b->c->e->d
+Round 2: Telephonic Interview
+1) Find the largest basin size in a given matrix.
+9 9 9 8 8 8
+8 8 8 7 7 7
+ 7 7 7 7 7 7
+8 8 8 8 9 9
+5 5 5 5 6 3
+5 5 5 3 3 3
+For the above example, the highlighted values form the maximum size basin.
+2) Given a sentence and a set of characters. Find the minimum window within which the set of characters can be found in the sentence in any order.
+3) In a client-server architecture, there are multiple requests from multiple clients to the server. The server should maintain the response times of all the requests in the previous hour. What data structure and algo will be used for this? Also, the average response time needs to be maintained and has to be retrieved in O(1).
+The HR sent a mail within 2 days that I was shortlisted for the onsite interviews.
+They arrange flight travel to Bangalore, cab facility and accommodation if required.
+In-House Round 1: Coding Round (2 hours)
+I was asked to write code to parse an XML and do the following options by not hardcoding any value.
+      1) Validate the XML.
+      2) Given a level number, print all values of tags in the same level.
+      3) Search
+        • a tag name for a given value
+        • for value of any tag given a value of tag at any sub levels.
+First there was discussion as to how to go about the problem and the algorithm. Then 1 hour for coding the solution. Finally the code was evaluated and some extensions to the solutions were discussed
+In-House Round 2: Hiring Manager (45 mins)
+The Hiring Manager was on leave and hence had the interview via phone. This round was a cultural fit round. The manager checks whether we will fit into the company’s work environment. Few questions like,
+1) Some unix commands since they work extensively on UNIX platforms.
+2) Achievements.
+3) Details on previous projects.
+4) Most challenging situation.
+5) Estimations that need to be done for a project and considerations
+Some more questions like these.
+In-House Round 3: PS & DS Algo (1 hour)
+1) Merge k sorted arrays.
+2) Given a tree with edge weights, find any path in the tree with maximum sum of edges.
+3) Given a maze, a start point and end point find the shortest path to reach the end point from the starting point.
+4) Given a polygon and a point, find whether the point lies within the polygon or not.
+After a week, the HR contacted me and I got through the interviews. 🙂 🙂
+Excellent facilities and salary package for candidates who get selected.

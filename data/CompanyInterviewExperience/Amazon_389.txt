@@ -1,0 +1,23 @@
+First Round: 20 MCQs, 2 Coding questions. Platform – HackerRank.
+Coding Questions:
+1. A magic number is one that can be represented as a sum of powers of 5. For example 30 = 5^2 + 5^1. Given n, return the nth magic number.
+2. Given a set of words as dictionary, find out whether a given string can be formed using any permutation of the words from the dictionary. The words given in the dictionary cannot be altered, more specifically anagrams of the given words cannot be used to form the given string,
+Technical Interview 1: 
+1. Given an array which is sorted row wise as well as column wise, how would you find a given element? 
+2. Given an n-ary tree, print the spiral traversal of the tree.
+3. Given an array, and a number K, find the largest of all consecutive windows of the size K. For example, for the array [2 , 9, 3, 4, 1, 6] and K = 3,
+Output: 9, 9, 4, 6.
+4. Given an array, you can only ROTATE the array as many times you want. Return the maximum of summation of (i*A[i]). 
+Technical Interview 2:
+1. Implement a circular queue using an array of a fixed size. Handle all boundary cases. This question was followed by some Operating system questions based on it.
+2. Given an array, divide it into two subsets such that the difference between the sum of subsets is minimized. Also, return the subsets.
+3. Discussions on the same dictionary problem asked in the online coding round.
+Technical Interview 3:
+1. Given a threaded binary tree with all the threads pointing randomly anywhere, fix all the threads without using any extra space.
+2. Questions on operating system, DBMS, automata theory etc.
+Technical Interview 4:
+1. Given a binary matrix (A matrix consisting of only 0’s and 1’s), where 1 represents land and 0 represents water, Find the number of islands.
+2. Given a paragraph and a sentence, find the smallest sub-string in the paragraph which contains all the words in the sentence, return the smallest starting index of the occurrence of such sub-string if there exist more than one sub-strings of the same smallest length.
+Project based questions were also asked in between all the interviews.
+
+

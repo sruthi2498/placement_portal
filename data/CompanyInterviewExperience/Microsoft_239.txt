@@ -1,0 +1,18 @@
+Round 1 (45 mins)
+1) There was a detailed discussion on the project i did at Microsoft and also over the two projects mentioned in my resume.
+2) There is a Bing log file containing the domain names. Design a cache memory system for faster dns look ups.( i suggested a Trie and a min heap based solution).
+I was asked to make it space efficient. (I replaced trie with map)
+3)There is a turn based 2 player game in which there are 9 pins and each player is allowed to pick either 1, 2 or 3 pins only. The last player to pick the pin is the loser.
+Design winning strategy for such a game.
+4) Generalize the above solution for n pins.
+Round 2 (45 mins)
+1)There is a large file with system memory limitations. How will you store it (i suggested Distributed system) and how will u work on it.
+2)Suppose the large file contains name, address, Dob, pan no etc as attributes. Design class interface for such a system.The question was re framed again  with more conditions which i am unable to recall now.
+2)There was a detailed discussion over how the stl map data structure is implemented.
+3) Discussion over hashing and collision resolution techniques.
+Round 3(40 mins)
+Discussion over my project followed by these questions:
+1) Write the code to delete nodes in a binary tree which don’t lie in any path from root to leaf with sum>=k.
+2)There is a rotated and pivoted array. Write the code to determine how many times the array is rotated. (i did it in O(log n)).
+All thanks to geeks4geeks for helping me prepare for technical interviews.
+

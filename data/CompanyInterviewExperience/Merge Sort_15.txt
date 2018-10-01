@@ -1,0 +1,9 @@
+Given two Linked Lists, create union and intersection lists that contain union and intersection of the elements present in the given lists. Order of elements in output lists doesn’t matter.
+Examples:
+There were three methods discussed in this  post with an implementation of Method 1.
+In this post, we will see an implementation of Method 2 i.e. Using  Merge sort.
+Just like Method 1, This method also assumes that there are distinct elements in the lists.
+Run on IDE
+Output:
+Time complexity of this method is O(m Log m + n Log n).
+In the next post, Method-3 will be discussed i.e. using hashing.

@@ -1,0 +1,47 @@
+For Round 1 students were selected based on CGPA and Entrance Examination’s ranks
+Round 1: Offline Objective Test
+Total 20 Questions with time limit of 40 mins.
+The paper consisted questions from DS, OS, C++, C.
+Level of the paper was medium.
+It was Primarily based on Concepts of all these subjects, if you have Depth knowledge of all concepts then you won’t find any question difficult at all.
+
+Round 2: Technical Interview (1.5 hour)
+Q1. If you were interviewer and I was interviewee what would you ask ?
+I told him a few questions and then he asked me to answer them all (thankfully I have seen it coming from the beginning it self 😉 , so I had already told him only the questions in which I was Confident)
+Q2. You are Given a Binary Tree and you have to update it such that for each node Difference between height of its left subtree and height of its right subtree is maximum.
+Q3. He changed his last Question when he realized I am doing it right way and said now you only need to return the data at node in the tree which has the highest difference between height of its left subtree and height of its right subtree.
+Q4. Given a Square Matrix print its values in Spiral Form.
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+
+Round 3: Technical Interview (1 hour)
+Q1. Reverse a Stack.
+He kept asking me to give more and more possible solution until I gave him every possible solution I could think of.
+Q.2 String Permutation.
+I gave him Iterative Solution Which he then asked to improve so I gave him Recursive solution.
+He then asked some OS questions (As I have mentioned it at first place in my Area of Interest)
+Discussion on Projects.
+In both technical interviews there were many small theoretical questions which I don’t think I need to include here.
+
+Round 3: HR (Telephonic) (30 mints)
+1. Tell me about yourself, your family and your education.
+2. What are your hobbies?
+3. What else do you like except programming?
+4. What is it that you want in your job?
+5. How long do you plan to work if us if selected?
+6. Why Teradata?
+7. What do you know about Teradata?
+8. Did you ever encountered any person who you feel was hard to handle? how did you handled him?
+9. What makes you different from other candidates?
+10. Tell me 3 reasons why should we hire you.
+11. Do you consider yourself as hard worker or smart worker?
+12. What do you think who are important in a company hard workers or smart workers?
+13. What is the primary thing that you are looking for in the job money or job profile?
+Tips:
+Keep your concepts very clear.
+Be confidant.
+Be honest
+Try to be as interactive with interviewers as possible.
+Be clear how you will proceed before you start writing your code.
+Check your code for errors and bugs before you present it to the interviewer, its never a good idea to present a code with errors & bugs because they will always find the smallest bugs in your code.
+Before you start writing code, tell them what are all the possible solutions and which one you are choosing and why.
+Thank You geeksforgeeks.org.

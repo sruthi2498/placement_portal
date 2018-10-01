@@ -1,0 +1,56 @@
+Recently Mahindra comviva visited our campus for its placement drive. 
+Round1: Online Aptitude (Quantitative Ability based questions/Technical including C, OS, DBMS, OOPS concepts/English included antonyms, synonyms and Comprehension) round taken by AMCAT.
+Note: R.S. Agrawal can be preferred for preparation of this round.
+
+ Round 2: 1st Technical round questions:
+           UNIX/LINUX + DS + OOPS
+1.   Do you know about Linux/Unix. I said yes. So he said write 10-unix commands.
+2.   Then he asked me command to see the “version” of your kernel.
+3.   Command to see the name of your system/kernel/version
+4.   Write the for loop syntax in SS.
+5.   Write the if-then-else statement in SS.
+6.   Implement the string reverse function in C-language.
+7.   Data structure: Then he gave me a LL based question to delete/remove a node from the middle of a singly Linked List.
+8.   Then he asked about a few OOPs questions:
+What is Polymorphism, over-loading, over-riding ?
+ Java:
+What is Finally class (which should have been final class)
+Implement exception-handling
+Implement construct destructor in java
+ C++:
+What is Polymorphism.(I answered in the most typical way i.e. by explaining that poly-morphism is composed of 2 words… bla bla blah!! 🙂 )
+What is virtual function?
+What is static Binding (I explained him binding first then nailed the question.)
+ DBMS:
+(i)What are DBMS collections?
+ (ii)After getting answers to the above questions he then said let’s see the DBMS part.
+    So he asked me to create a table by giving the description of the table like
+    id (numeric, primary key)
+    name (100 characters long)
+    dob (date type)
+   (iii) What is RDBMS (he meant difference bet DBMS & RDBMS)
+(iv)Give an example of the two (I gave DBMS as FOXPRO and RDBMS as ORACLE)
+ Then he asked me to create a table (he meant to modify a pre-existing table) to add the
+primary key attribute to a column.
+I answered this question as:
+“MODIFY TABLE CUSTOMER ID AS PRIMARY KEY”
+Finally, he said to me that “Okay Akash, it was nice meeting you.”
+So that was the end of 1st tech round.
+Round 3: 2nd Technical round: 
+I was waiting for the interviewer. He came in and greeted me.
+Then he sat next to me and then he asked me to design the “IRCTC’s” website.
+Design the layout.
+Implement “Insert.php”
+Implement “Valiate.php”
+ And write 20 unix commands… all in 10 minutes (+2 MINUTES WHEN HE SAW ME STILL BUSY).
+ That was the end of 2nd tech round.
+ Round 4: HR round:
+This round had only a couple of questions as:
+Tell me why do you want to join the IT sector and what do you want?
+What is your family background?
+Tips:
+Apti:
+Practice questions from Indiabix, RS agrawal,etc.
+Interviews:
+Keep patience in yourself and answer only as much it is asked for (keeping your answer short & crisp)
+🙂

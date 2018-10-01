@@ -1,0 +1,45 @@
+Round-1 (Online Coding Test)
+The first round comprised of 3 coding questions and it was conducted on hackerearth platform (Test Duration: 1 hour 30 minutes): –
+Question 1: Count number of inversion in an array in less than O(n^2) time complexity.
+Solution: https://www.geeksforgeeks.org/counting-inversions/
+Question 2: Check if a string is valid or not. A string is valid if on removing two different characters at a time, you are left with just one character in the end. If the string is empty it is not valid. If the string is valid print the remaining character.
+Input: aaabb
+Output: Yes
+ a
+Input: aabb
+Output: No
+Solution: If count of any character is more than half of length of the string, then only it is a valid string. Time Complexity: O(n)
+Question 3: Given two strings s1 and s2, where s2 is a palindrome, how many substrings(s2) are there if we are allowed to arrange s1 in any order.
+Input: aabb aba
+Output: 1
+Input: aabbaabb aba
+Output: 2
+Explanation: If we arrange s1 as abab, we will have 1 substring that is s2 (aba). Similarly, if we arrange s1 as ababbaba, we will have 2 substrings that are s2(aba).
+Solution: Find the count of each character in s1. Find the count of each character in s2. Find minimum of (count of ‘x’ in s1/count of ‘x’ in s2), where x is any character present in both s1 and s2. Time Complexity: O(n).
+Round-2 (Technical Interview Round-1)
+1) https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
+2) Given a number that generates random numbers in range 1-5(including both), use this function to create a function that generates random numbers in range 1-7(including both).
+3) Find complexity of a given code.
+4) https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
+5) Discussion on my projects and internship.
+Round-3 (Technical Interview Round-2)
+1) Discussion on projects and internship.
+2) https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
+3) Similar to https://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/ but we don’t have to consider left child of any node.
+4) https://www.geeksforgeeks.org/puzzle-elevator-puzzle/
+5) Indexing, types of indexing and their overhead. B+ trees and complexity related questions.
+Round-4 (Managerial Round)
+1) He asked about my future plans, projects and then asked me to ask questions about Walmart labs.
+Round-5 (HR Round)
+1) Tell me something about yourself.
+2) Discussion about internship.
+3) My future plans and what I have done to achieve them.
+4) If I want to pursue MS or not.
+5) What I know about Walmart and other generic HR questions.
+ At last 7 students were selected for 6 months internship and 2 students were selected for 6 months internship+ full-time job in Bangalore.
+The interview experience was quite good and they focused on all the core computer science subjects. Geeks for geeks was a lot of help to me as it helped me in my placement preparation and provided almost all content that was necessary for placement preparation.
+This article is contributed by Anshika Singh.
+ 
+
+
+

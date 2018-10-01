@@ -1,0 +1,8 @@
+Given an array of N positive integers. Count the number of pairs whose sum exists in the given array. While repeating pairs will not be counted again. And we can’t make a pair using same position element. Eg : (2, 1) and (1, 2) will be considered as only one pair.
+Please read all examples carefully.
+Examples:
+
+The idea is to map of pairs to find unique elements. We first store elements and their counts in a map. Then we traverse array elements, for every pair of elements (arr[i], arr[j]), we check if (arr[i] + arr[j]) exists in array. If exists, then we check if it is already counted using map of pairs. If not already counted, then we increment count.
+Run on IDE
+Output:
+Asked In : DailyHunt

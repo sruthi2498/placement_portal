@@ -1,0 +1,14 @@
+Regex is the short form for “Regular expression”, which is often used in this way in programming languages and many different libraries. It is supported in C++11 onward compilers.
+ 
+regex_match() -This function return true if the regular expression is a match against the given string otherwise it returns false.
+Run on IDE
+Output:
+ 
+regex_search() – This function is used to search for a pattern matching the regular expression
+Run on IDE
+Output:
+ 
+regex_replace()  This function is used to replace the pattern matching to the regular expression with a string.
+Run on IDE
+Output:
+So Regex operations make use of following parameters :-

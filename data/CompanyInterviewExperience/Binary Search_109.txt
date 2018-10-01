@@ -1,0 +1,11 @@
+Given hypotenuse and area of a right angle triangle, get its base and height and if any triangle with given hypotenuse and area is not possible, print not possible.
+Examples:
+
+
+	We can use a property of right angle triangle for solving this problem, which can be stated as follows,
+Now if given area is less than this maximum area, we can do a binary search for length of base, as increasing base will increases area, it is a monotonically increasing function where binary search can be applied easily.
+	In below code, a method is written for getting area of right angle triangle, recall that for right angle triangle area is ½*base*height and height can be calculated from base and hypotenuse using pythagorean theorem.
+Run on IDE
+Output:
+One more solution is discussed in below post.
+Check if right angles possible from given area and hypotenuse

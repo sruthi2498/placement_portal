@@ -1,0 +1,32 @@
+Recently Smartprix conducted a pool placement drive.
+There were two rounds:
+1. Logical / Technical ability Test
+2. Coding Round
+First Round:
+First round was divided in two tests,
+1. Logical Ability Test: The test consists of 20 questions in 30 minutes, there was negative marking 3marks rewarded for each correct and 1 mark deducted for each wrong answer. Most of the questions were based on pattern matching. Apart from that, questions from series, missing term and blood relations were also there. All over there were intermediate level question.
+2. Technical MCQ Test: This test consisted of 10 questions in 30 minutes. Questions were from c++ and java. Some were output based while some were on logic testing. Questions were of middle level.
+Out of around 650 students 63 students were selected for next round – Coding round.
+Second Round:
+This round had 2 coding questions which should be done in 3 hours .The level of questions were quite decent. Basically questions were based on practical problems that you are most likely to face at work.
+Question1. Key Stroke: Write a program to simulate a keyboard with given Keys and their operation .Type of keys to simulate were: Alphanumeric space: print it as it is and shift cursor.
+@ = toggles caps lock on if off and vice versa, initially it is off.
+# = inserts a new line at cursor position and shift cursor.
+/ = deletes one character at left and points cursor at that position.
+? = works as down arrow if cursor is at last line nothing changes.
+^ = works as up arrow if cursor is at first line nothing changes.
+This question was of 210 marks.
+Examples:
+Run on IDE
+This question was of 250 marks.
+Question2. This program was something like executing commands of assembly language in your program. Set of commands given were:
+1. ECHO 1: prints the number. Eg. ECHO 1 prints 1
+2. Exit: exits the program.
+3. SET a 0: assign variable a value 0.
+4. ADD 2 3 z: this means z = 2+3 assign sum of first two values to third one.
+5. GOTO and LABEL: works as label and Goto defined in c language but label can be before or after goto
+6. IF and END: If IF condition is true then statements between IF and END commands get executed otherwise not. Eg. IF a 10 statement1 statement2 END i.e., if a=10.
+7. CONTINUE: works as defined in c language.
+Variable names will only be alphabetic [a-z] and default values of variables is 0 no need to define or set before use.
+Examples:
+Run on IDE

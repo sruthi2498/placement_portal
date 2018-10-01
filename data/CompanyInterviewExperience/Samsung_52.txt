@@ -1,0 +1,29 @@
+Coding Question for Shortlisting:
+Given a graph, find out if it can be colored using 2 colors. Different colors for alternate nodes (3 hours) people who passed all 10 test cases were shortlisted.
+Note- You can compile your code as many number of times as you want, but a maximum of 5 submissions were allowed to test on the given test cases.
+Interviews (On campus-Day1)
+Round 1 (Technical around 50 mins):
+1. Introduce yourself.
+2. Went through my CV, asked me questions about my Experiences, Projects, Courses (specifically Networks).
+3. Which language are you comfortable with, I said C++.
+4. Wrote a few codes on run-time polymorphism and asked me to write the outputs.
+e.g. virtual destructor, inheritance with virtual keyword.
+5. Asked me what pure virtual classes are?
+6. A few codes on pointers, asked me the outputs.
+e.g. const pointers and pointers to const.
+7. Asked me how I solved the coding round question- I said BFS, didnt ask about it any further.
+8. Asked if I knew Dijkstra’s Algorithm, I said yes, asked if I could write the pseudo code- I wrote it fast, Asked to explain why Dijkstra’s algo fails when -ve weights are there in the graph.
+9. Asked to write my own typedef operator- I used function template to write a generic function.
+10. OOPS-
+Critical Section, Mutex , Semaphores, Paging, Techniques to swap out pages (Least recently used, least frequently used).
+11. Do you have any questions- I asked about ongoing projects, and R&D work.
+
+Round 2 (HR 20 mins):
+1. You have been to korea, tell me what you observed about their culture and Samsung in korea.
+2. Asked a few questions about what I did since beginning of college, when my CPI started dipping and so on.
+3. He draw an abstract figure and asked me what I thought the object was, continued to ask me to think of more and more objects many times. Grilled me each time I answered any object.
+4. Why Samsung?
+5. Any questions? – I asked about work life balance.
+6. Congratulations.
+
+

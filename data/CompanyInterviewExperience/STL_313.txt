@@ -1,0 +1,12 @@
+
+Array classes are generally more efficient, light-weight and reliable than C-style arrays. The introduction of array class from C++11 has offered a better alternative for C-style arrays.
+empty() function is used to check if the array container is empty or not.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output :
+Run on IDE
+Output :

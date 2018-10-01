@@ -1,0 +1,61 @@
+Interview 1: 
+Before the interview began we were asked to solve 6 questions
+In the first interview i was asked how i solved Q4) replace all spaces with ‘%20’ and Q6) nth node from the end of a linked list.
+and then we discussed in details about a project I did with my previous employer.
+and then He asked a few questions ->
+Q1) Dynamic Programming | Set 21 (Variations of LIS) – GeeksforGeeks -> 1. Building Bridges: Consider a 2-D map with a horizontal river passing through its center. There are n cities on the southern bank with x-coordinates a(1) … a(n) and n cities on the northern bank with x-coordinates b(1) … b(n). You want to connect as many north-south pairs of cities as possible with bridges such that no two bridges cross. When connecting cities, you can only connect city i on the northern bank to city i on the southern bank.
+Q2) Write a C program to print all permutations of a given string – GeeksforGeeks -> Print all permutations of a string
+Q3) Given the arrival and departure time of various trains in a station. Calculate the minimum number of platforms required such that no train has to wait for another train to vacate the platform.
+The question basically means calculate the maximum number of trains that would be present in the platform at any given time.
+Answer
+sort the arrival time and sort the departure time, keep a count initialized to 0. compare the first element of the arrival time with the first of departure, increase the value of count if the value at current Index at arrival is less than the value index at departure and increment the arrival index, and vice versa. Keep the maximum count that you see.
+
+Round 2
+Q1) given the x,y,z coordinates of a billion stars (basically the entire array can’t fit in the RAM) calculate the k closest.
+Answer -> use a max heap that contains the k minimum distances.
+Time-> n(log k)
+then the question was changed to -> now that we have several computers which can combine to fit the entire set of stars, how will you then solve it?
+Answer-> use selection algo (similar to step 1 of quick sort) to find the k closest stars in each of the computers. Time -> O(n) and then use the k in the those m computers to find the minimum k. One way is to sort all them individually. and then create a min heap to calculate k minimum.
+O(k^2 log k)
+Q2)  Symmetric Tree (Mirror Image of itself) – GeeksforGeeks -> How to check if the tree is the mirror of itself
+Then the question was extended to a n-ary tree.
+Answer -> Please read the above link before reading this answer– We create a the n ary tree like this->
+then we have the number of children of each node as nodeName->child.size();
+we use it to compare the first child of the node with the last child, 2nd with 2nd last and so on and follow the steps which were written in https://www.geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself/
+
+Round 3
+Q1) Write a C code to evaluate an expression tree.
+Answer-> It has to be done in a post order traversal method, since the value of the left subtree is independent of the right subtree.
+Q2) Articulation Points (or Cut Vertices) in a Graph – GeeksforGeeks -> Check for Articulation points
+Q3) Given a stream of number, like 1,3,5,4,6,9 print 1,3-6,9
+Answer-> create a hash map that contains the value of the ending index of the previous sequence.
+key is the number and the value is the index where it occurs.
+when we get 4, we have to check for the index of 3 and 5. (One above and one below)
+the value at 3 is 1 and 4’s index is 3, so they can’t be paired.
+We then check for 5. 5’s index is 2 and 4’s is 3, since they are together, they can be paired.
+and then we check for 3 again, 3’s index is 1 and 4’s index is 2-3, so they can match
+We go on. I don’t think I answered the questions the way it was asked, but he seemed ok with the answer I gave.
+Next he modified more to include distributed systems in it. And asked me if there were several systems which received the input in round robin manner, how would I implement the above algorithms. I had no idea about this.
+After round 3, I was called by Amazon and told that my first two rounds were positive but round 3 wasn’t. Round 3 was the hiring manager round, and he wasn’t happy that I had little idea about RAID ( Standard RAID levels – Wikipedia, the free encyclopedia )
+So I had another hiring manager round.
+Round 4
+https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
+Find a pair with a given sum in a bst
+more questions on what happened in Round 3 and why I want to leave my current firm.
+Round 5 (Bar Raiser)
+Questions like
+1) tell me a time when you had a different opinion than the rest of the team.
+2) tell me a time when you were thinking that the problem is something else, but it turned out to be something else
+3) tell me a time when your opinion were discarded.
+4) tell me a time when you had to work on a very short notice.
+Coding questions-
+1) given that we can form packs of 6,9 and 20 pens. Given a number x, calculate if we can form combinations of packs to form those many pens. Eg 24 pens can be formed by having 2 packs of 9 pens and 1 of 6 and 23 pens can’t be formed.
+Answer
+Dynamic Programming with the recursive function
+DP[i]=DP[i-6]||DP[i-9]||DP[i-20];
+2) Design an escalator system. Which classes would you make, etc.
+After Round 5, they didn’t find me a cultural fit so they conducted a Round 6.
+Round 6
+Questions like- tell me something about yourself,
+a time when you helped someone
+A time when you shared a different opinion from your manager.

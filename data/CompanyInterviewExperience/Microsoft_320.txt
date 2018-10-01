@@ -1,0 +1,18 @@
+Given two strings ‘X’ and ‘Y’, find the length of the longest common substring. 
+Examples : 
+
+Let m and n be the lengths of first and second strings respectively.
+A simple solution is to one by one consider all substrings of first string and for every substring check if it is a substring in second string.  Keep track of the maximum length substring. There will be O(m^2) substrings and we can find whether a string is subsring on another string in O(n) time (See this). So overall time complexity of this method would be O(n * m2)
+Dynamic Programming can be used to find the longest common substring in O(m*n) time.  The idea is to find length of the longest common suffix for all substrings of both strings and store these lengths in a table. 
+Following is the implementation of the above solution.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(m*n)
+Auxiliary Space: O(m*n)
+References: http://en.wikipedia.org/wiki/Longest_common_substring_problem
+The longest substring can also be solved in O(n+m) time using Suffix Tree.  We will be covering Suffix Tree based solution in a separate post.
+Exercise: The above solution prints only length of the longest common substring. Extend the solution to print the substring also.

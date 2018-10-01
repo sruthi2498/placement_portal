@@ -1,0 +1,25 @@
+We are given an array of positive integers. Find the pair in array with maximum GCD.
+Examples:
+Method 1 (Brute-force): The simplest method to solve this problem is to use two loops to generate all possible pairs of elements of the array and calculate and compare the  GCD at the same time. We can use the Extended Euclidean algorithm for efficiently computing GCD of two numbers.
+Time Complexity: O(N^2 * log(max(a, b)))
+Here, log(max(a, b)) is the time complexity to calculate GCD of a and b.
+Method 2 : (Efficient) In this method, we maintain a count array to store the count of divisors of every element. We will traverse the given array and for every element we will calculate its divisors and increment at the index of count array. The process of computing divisors will take O(sqrt(arr[i])) time, where arr[i] is element in the given array at index i. After the whole traversal, we can simply traverse the count array from last index to index 1. If we found an index with value greater than 1, then this means that it is divisor of 2 elements and also the the max GCD.
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(N * sqrt(arr[i])) , where arr[i] denotes the element of the array.
+Method 3 (Most Efficient): This approach is based on the idea of Sieve Of Eratosthenes.
+First let’s solve a simpler problem, given a value X we have to tell whether a pair has a GCD equal to X. This can be done by checking that how many elements in the array are multiples of X. If the number of such multiples is greater than 1, then X will be a GCD of some pair.
+Now for pair with maximum GCD, we  maintain a count array of the original array. Our method is based on the above problem with Sieve-like approach for loop. Below is the step by step algorithm of this approach:
+Below is the implementation of above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

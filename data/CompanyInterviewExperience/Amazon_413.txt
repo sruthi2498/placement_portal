@@ -1,0 +1,35 @@
+Hello I have applied for Amazon after completing my 1 yr at job and got a call for a full day interview.
+Interview happens as in following rounds :
+Round 1( Technical):
+	1.)I was straight away asked to write code for detecting loop in a linkedlist without any formal introduction and all https://www.geeksforgeeks.org/write-a-c-function-to-detect-loop-in-a-linked-list/ .
+	After telling my approach he asked me to give a proof of it to which I got shattered but then he gave me a hint and later discussing it we got to the proof but it wasn’t a full-valid proof. But later on it I found http://math.stackexchange.com/questions/412876/proof-of-the-2-pointer-method-for-finding-a-linked-list-loop
+	After it he asked me to detect starting point of the loop. Again which is geeksforgeeks. I wrote the full code on a paper and understand him my approach which is very similar to geeksforgeeks one. https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+	2.)He gave me another question from g4g which I haven’t read before
+		Sort one matrix based on another matrix. I gave him one brute force approach, then he asked me to optimise it and then we discussed a bit an finally I came up with O(nlogn) approach. However this is https://www.geeksforgeeks.org/sort-array-according-order-defined-another-array/
+I was a bit hesitant after 1st round as I’ve mumbled upon the proof of detecting loop in linkedlist until he gave me some hint. However, I was called after 2-3 long hours of waiting for my 2nd round of interview.
+Round 2(Technical):
+	He was a very senior guy and a very cool and calm personality. He entered the room and said sorry to me for such a long wait and then started with formal introduction as to What you do in your present company and why do you want to leave it at such an early stage.
+	1.)He asked me to check whether a given tree hold children sum property or not. Another g4g question https://www.geeksforgeeks.org/check-for-children-sum-property-in-a-binary-tree/.
+	As soon as I heard the problem, I tld him my approach and coded it on a paper. He then to calrify if I haven’t crammed it asked me to explain him the recursion and dry run it on different examples. I did that explaining him completely the edge cases and every aspect of that recursion. He was impressed 🙂
+	Then he started telling about his experience of startups and that of Amazon
+	2.) He asked me another question :
+	Given a stock market price for each day in an array. Give the ans as to when you will buy stocks and when you will sell so as to make the maximum profit.
+	I think for a while and gave him my approach which he was quite impressed.
+After that HR asked me to leave and said that you’ll be informed about the result and further rounds.I got a call and was asked to come for Hiring manager Round
+Round 3 (Hiring Manager):
+	He is the manager of the team for whose team interviews are going. So he started of with the formal discussion as to what are my technical interests and what did I learn in my previous jobs. Then he starts discussing my CV and asked e t pick any 2 projects at which I’m confident enough.
+	As I wrote technical paper on the work I did in my last job, so he started discussing over that and asked me different ways of solving that problem and hw could I optimize it further. Then he asked me some of the behavioral questions as of why are you leaving when such a good work is there. I told him the concern about salary. It went fine and I thought that I impressed him.
+	Later on HR told me to wait for another 4 hrs for Sr Manager round.
+Round 4 (Sr Manager):
+	He is a very senior person in the Amazon. probably their head of some main division. He started off with very behavioural questions as to why leaving so early and why Amazon. It was very hard t convince him as his expressions were not changing at that time. He fired me a series of such questions as to what is the most difficult task I have performed till yet technically. He was hoping for answers specific to work related. What are your weakness and strengths and what are you doing to improve yourself.
+	Then he jumped to my CV and asked me for each and every single detail written in my CV( so please make your CV as small and as specific to your strong pints as you can). He asked my role in different projects I have done and in the technical paper I have written along with others. he even asked my college projects(even the 2nd sem project which I forgot to take off from my CV) to the depth and asked for the specific details( He knew about everything regarding my projects ).
+	Then after this discussion I thought it would get over, but he has some other plans. He asked me to give a solution to some coding problems:
+	1. Check how many Parenthesis are balanced in an array of parenthesis.This was easy but then he asked me to scale it such that your array can’t reside it on one memory. To this I said do parallel processing, he gave me freedom of number of clusters on which I can store and compute and then it took some time to me to come up with scaled algorithm. That was quite interesting and energetic enough. All my tiredness went off.
+	2. In a string detect the smallest window length with highest number of distinct characters. For eg.
+		A = “aabcbcdbca”, then ans would be 4 as of “dbca”
+	Finally I gave him some solution which was incomplete, he asked me to relook at my solution and I found the mistake but didn’t asked me to code it.
+I would like to thanks G4G to be such organized forum with the help of which, we can get what are the current trends in interviews and also what they expect.
+Don’t copy the solution from g4g but get the approach as that will help you to solve newer problems ;). In other words train your model rightly, Don’t overfit it, else your accuracy will be compromised 😉
+Thanks.
+
+

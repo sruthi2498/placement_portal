@@ -1,0 +1,7 @@
+Given a string consisting of 1 and 0, the task is to find out the maximum power of jump required to reach the end of the string. At a time you can jump from one 1 to next 1 or from one 0 to next 0.
+Note: Power of jump is defined as the distance between two consecutive 1’s or two consecutive 0’s.
+Examples:
+
+Approach:  
+Run on IDE
+Time Compexity : O(n) where n is the length of the string

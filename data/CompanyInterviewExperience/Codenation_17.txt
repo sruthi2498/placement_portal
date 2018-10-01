@@ -1,0 +1,22 @@
+Write a function rotate(arr[], d, n) that rotates arr[] of size n by d elements. 
+Example : 
+
+Rotation of the above array by 2 will make array
+
+The first 3 methods to rotate an array by d elements has been discussed in this post.
+Method 4 (The Reversal Algorithm) :
+Algorithm :
+Let AB are the two parts of the input array where A = arr[0..d-1] and B = arr[d..n-1]. The idea of the algorithm is :
+Example :
+Let the array be arr[] = [1, 2, 3, 4, 5, 6, 7], d =2 and n = 7
+A = [1, 2] and B = [3, 4, 5, 6, 7]
+Below is the implementation of the above approach :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)

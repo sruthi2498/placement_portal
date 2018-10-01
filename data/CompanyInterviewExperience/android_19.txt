@@ -1,0 +1,15 @@
+A toast provides a simple popup message that is displayed on the current activity UI screen (e.g. Main Activity).
+Example :
+
+Syntax :
+Run on IDE
+We can also create toast with single line by passing variables directly to makeText() function. This method takes three parameters context, popup text message, the toast duration. After creating Toast object you can display the toast by using show() method.
+Example :
+Run on IDE
+Creating a Custom Toast :
+If you are not satisfied with simple Toast view in Android, then you can go ahead to make a custom Toast. Actually, custom Toast is a modified simple Toast that makes your UI more attractive. So that when you create a custom Toast then two things are required, one is XML (custom_toast.xml) required for layout view of custom Toast and another is activity class (custom_activity.class) file where you can write Java code. Java class file passes the root View object to the setView(View) method.
+custom_toast.xml
+Run on IDE
+This is a XML layout for example purposes, so if you want your own design then you can create your own XML.
+Custom_Activity.class
+Run on IDE

@@ -1,0 +1,30 @@
+Online round:
+There were two coding questions along with 20 MCQs.
+Question 1: Simple Maze problem to find the minimum distance in a maze.
+https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path/0
+Question 2: Given d, a, b and an array of integers.You can add/subtract a or b to d any number of times. You are supposed to find the count of numbers in the array which can be formed by applying these operations to d.
+I solved both the questions.First one using simple BFS and second one making an equation out the given variables and then finding whether integeral roots exist for that number or not using GCD.
+(ax+by+d)=array[i]; if x and y exist as integeral roots then count + 1 for array[i].30 students got selected after online round.
+F2F Round 1:(Techinal Interview)
+
+The interviewer asked me to tell about myself and my projects(about 10 minutes).
+Problem 1– He gave me a data structure design question where I have to design a data structure with following 5 operations- insert, delete, find minimum, find maximum, find the middle element. I told him my approach. I tried to explain all the trade offs and after a little discussion  I was asked to write the code. It took about 30-40 minutes on this question and I was satisfied with my solution.
+Problem 2– I was given a Binary Search Tree and I have to store it in a link list(may be doubly, circular which I have to decide which to use)and then retrieve the tree back from it.
+I cleared 1st round :). 22 students got shortlisted for second round.
+F2F Round 2:(Techinal Interview)
+The interview started with my resume and projects.Then he asked me questions from Operating System.
+Question 1: Difference between Process and Thread.
+Question 2: Difference between Starvation and Deadlock.
+Question 3: How can you prevent deadlock.
+Question 4: What is Paging ?
+I answered all the questions well.Then he moved to algorithm part.
+Question 5: Given an array of strings and you have to find the count of strings starting with “do”.
+I told my approach and was asked to write the functions( both insert and search).
+Question 6: Given weights and values of n items, we need to put these items in a bag of capacity W to get the maximum total value in the bag.
+Question 7: Two rope puzzle was asked. I was not able to answer the question, discussed few things making some assumptions.
+https://www.geeksforgeeks.org/puzzle-1-how-to-measure-45-minutes-using-two-identical-wires/
+Question 8: https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/
+I answered the question with minimum complexity and my interview was over.It took about 1 hour 10 minutes in this round.
+Some students got their third round and some  were already placed by now. I was waiting for my result and after a long wait of 4-5 hours I got selected .I got SLI+FTE. 13 students were given offer by OYO.
+
+ 

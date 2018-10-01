@@ -1,0 +1,19 @@
+Forward list in STL implements singly linked list. Introduced from C++11, forward list are useful than other containers in insertion, removal and moving operations (like sort) and allows time constant insertion and removal of elements.It differs from list by the fact that forward list keeps track of location of only next element while list keeps track to both next and previous elements.
+begin() function is used to return an iterator pointing to the first element of the forward list container. begin() function returns a bidirectional iterator to the first element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Time Complexity : O(1)
+end() function is used to return an iterator pointing to the last element of the list container. end() function returns a bidirectional iterator to the last element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+Time Complexity : O(1)

@@ -1,0 +1,12 @@
+This is one of the most used techniques in competitive programming. Let us first consider below simple question.
+What is the minimum time complexity to find n’th Fibonacci Number?
+We can find n’th Fibonacci Number in O(Log n) time using Matrix Exponentiation. Refer method 4 of  this  for details. In this post, a general implementation of Matrix Exponentiation is discussed.
+So we can simply multiply our Second matrix n-2 times and then multiply it with the third matrix to get the result. Multiplication can be done in (log n) time using Divide and Conquer algorithm for power (See this or this)
+Let us consider the problem of finding n’th term of a series defined using below recurrence.
+We can find n’th term using following :
+Below is the implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of this solution : O(log n)

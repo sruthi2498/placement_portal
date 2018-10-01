@@ -1,0 +1,43 @@
+MakeMyTrip recently visited our campus. There were 5 rounds.
+
+Online Round ( 1 Hour )
+This round consisted of 20 aptitude questions and 3 coding Questions.
+Coding Questions:
+1. Next smallest palindrome
+https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/
+2. Given a number find the inverse of it such that (number * inverse)modulo 10^9+7=1
+input 2
+output 5*10^8+3
+3. Check whether frequency of alphabets on first half of string is equal to frequency on second half.
+input: HELHE, HEALE,HEAHAE
+Output: Yes,No,Yes
+Technical Interview 1
+Firstly the interviewer asked me to introduce myself, asked me about my projects.
+Then he moved on to coding questions and puzzles
+All the questions below were in random order.
+1. Coding question :
+Full codes to be written
+a>  Algorithm to check whether sudoku is solved or not
+b> Given a  list of songs design an algorithm such that random song is selected every time and no song repeats until the list is exhausted. (Optimise space and time complexity)
+c> Rotation of an array. (Similar to https://www.geeksforgeeks.org/turn-an-image-by-90-degree/  but rotation of degree was also a variable. Had to do in O(1) space complexity)
+5. Puzzles:
+1. 25 horses puzzle
+2. http://www.xkcd.com/blue_eyes.html
+3. Two containers of 3L and 5L. Get 4L water using them
+4. https://sbjoshi.wordpress.com/2008/06/04/puzzle-burning-ropes/
+5. Bicycle with 2 tyres and 1 spare tyre. Each tyre can cover a distance of 25KM. Find Maximum distance that can be travelled
+Technical Interview 2
+Coding Questions:
+1. Given a number permute the digits to get largest number possible.
+2. Print 1 
+3. Transpose of a matrix n times.
+Puzzles and other questions
+1. Things to keep in mind while making a missile.(Software point of view)
+2. http://www.crazyforcode.com/bad-king-wine-bottles-puzzle/
+HR Round
+Basic details, family background and why do you want to join this company? Where do you see yourself
+after 5 years and questions about weakness and strengths.
+Guess Estimate Round
+1) Approximate the number of petrol pumps in India
+
+

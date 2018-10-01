@@ -1,0 +1,67 @@
+Hi ! This is Aditya from IMS Engineering College, Ghaziabad.
+Similiar to last year, TCS invited Codevita contestants (Probably the top 1000s, not sure about this) for a direct interview(JP : Assistant System Engineer). I had 254 rank and was called to Noida Office on Aug 18. I hope this artice helps you in cracking the interview. Please share your views in the comment section.
+I was interviewed by a panel of two. I guess it was a combined Technical & HR round. I’ll refer the two interviewees by I1 and I2 for ease. I1 was asking only the technical questions but I2 asked some HR kind of questions too.
+I have mentioned only those of my responses, which I think could be relevant to you. Others are just dotted lines.
+I2 : When did you come ?
+……
+He had my TCS Application Form in his hand. Looked on the achievement section .
+You have good ranks in many programming competitions (Seemed impressed). Do you have any offers ?
+Me : No.
+I2 : You have solved two questions in Python and two in C++, why so ?
+Me : ………… I told that I use both as per the ease.
+I2 : So can you tell me something that can be done in Python but not in C++ ?
+Me : I didn’t know anything as such so told him the same.
+I1 : Can you write database connectivity code in Python ?
+….I wrote…..Referring to my answer he asked the meaning of arguments HOST_NAME, DB_NAME, DB_PASS.
+.. What’s that Connection Object ?
+I2 : What’s a Cursor ? 
+………….
+I1 : Can you implement bubble sort using linked list ? Write code.
+….. I was writing the rough code…
+How are you thinking ? Tell me the approach.
+……….
+I2 : Tell me about 5 technologies which are trending nowadays.
+…He interrupted me at “Data Science”.
+What is Data Science ?
+….
+I2 : Have you ever faced a situation where you got totally stuck for some times and later adapted some other ways and got out of it.
+Me : Told him about the hard times I faced in my internship.
+I1 : Have you heard of dynamic programming ?
+Me : … Yes …
+What is it ?
+……. was stopped at “Memoization”
+I1 : What is “Memoization” and why do you use it ?
+………
+I2 : What’s UML ?
+…….
+I3 : In which phase it is used in Software Design ?
+.. I got little bit less cofident here…..But somehow managed to say somethig.
+I2 : What are Semaphores in OS ?
+….
+I2 : Explain Deadlock.
+…….while answering I used Dining philospher term. He then asked,
+What’s Dining Philospher problem ?
+I1 : Can you apply dynamic programming in Binary Search ?
+Me : …told him how its possible, also that it won’t be feasible. He wasn’t fully satisfied.
+I2 : What are the phases in Software Development life cycle ?
+… while I was answering  …he asked
+Explain any two Life cycle Models.
+Me : Could explain only one cofidently.
+I2 : OK, so lets suppose the company wants you to deliver a presentation on a topic. How long would it take for you to prepare ?
+Me : Sir, it depends on the topic. If its something of my domain, it would take like 1 or 2 day.
+I2 : Let’s say “Machine Learning”. You have no touch in it I guess.
+Me : Yes sir, it would take me aroung 10 days to prepare for a quality delivery.
+I2 : OK. And how long would you work for each day ?
+Me : Like 7-8 hours.
+I2 : 7-8 Hours ? Are you sure ? Can you sit that long ? ( He was shocked and asked this two times )
+Me : Yes Sir, I can. For sure.
+I2 : OK. Let’s see.
+I1 : Nice meeting with you ! ( I got overwhelmed) …
+Me : Same here sir.
+Results declared after two weeks. I was rejected. 10 out of 20 from my college were selected (With invitation to digital profile interview).
+Suggestions : Don’t overthink, selection is truly out of your reach. It all depends on their perception. You may get selected even if you solved just one sum. Many of my friends were asked just one or two questions in Technical round. Many of them were asked many. They may even ask you just to explain one of your codes and pass you to further rounds or may throw a lot of questions on you. The hiring process of TCS is just random and unpredictable as per my view point. One of my friends was asked to write a prime number program and was called for digital profile interview. So everything is just unpredictable. Don’t think about what’s gonna happen.
+All the very best !
+ 
+ 
+ 
+ 

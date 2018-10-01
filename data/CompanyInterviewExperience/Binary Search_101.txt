@@ -1,0 +1,15 @@
+Given a number n. The task is to find the smallest number whose factorial contains at least n digits.
+Examples:
+
+In the article for Count digits in a factorial of a number, we have discussed how we can efficiently find the number of digits in factorial.
+We used the below formula to find the number of digits
+Now we need to determine the interval in which we can find a factorial which has at least n digits. Following are some observations:
+Hence if we search from 0! to n! to find a result having at least n digits, we won’t be able to find the result for smaller numbers.
+For example suppose n = 5, now as we’re searching in [0,n] the maximum number of digits we can obtain is 3, (found in 5! = 120). However if we search in [0, 2*n] (0 to 10), we can find 8! has 5 digits.
+Hence, if we can search for all factorial from 0 to 2*n , there will always be a number k which will have at least n digits in its factorial.(Readers are advised to try on their own to figure out this fact)
+Thus we can do a binary search between 0 to 2*n to find the smallest number having at least n digits.
+Run on IDE
+Run on IDE
+
+Complexity Analysis
+The complexity for the binary search is O(log(2*n)), if we ignore the complexity of the logarithmic function. Hence overall complexity is O(log(n)).

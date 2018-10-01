@@ -1,0 +1,12 @@
+Given a string str of size n. The problem is to print all the palindromic permutations of str in alphabetic order if possible else print “-1”.
+Examples :
+
+Prerequisites: Lexicographically first palindromic string and Next higher palindromic number using the same set of digits.
+Approach: Following are the steps:
+Note that the string str is always manipulated so as to get the palindromic strings using the steps mentioned above.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(m*n), where m is the number of palindromic permutations of str.

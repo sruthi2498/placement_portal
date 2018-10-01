@@ -1,0 +1,31 @@
+From C++11 onwards, some new and interesting algorithms are added in STL of C++. These algorithms operate on an array and are useful in saving time during coding and hence useful in competitive programming as well.
+
+all_of()
+This function operates on whole range of array elements and can save time to run a loop to check each elements one by one. It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
+Run on IDE
+Output:
+In the above code, -6 being a negative element negates the condition and returns false.
+
+any_of()
+This function checks for a given range if there’s even one element satisfying a given property mentioned in function. Returns true if at least one element satisfies the property else returns false.
+Run on IDE
+Output:
+In above code, -6 makes the condition positive.
+
+none_of()
+This function returns true if none of elements satisfies the given condition else returns false.
+Run on IDE
+Output:
+Since all elements are positive, the function returns true.
+
+copy_n()
+copy_n() copies one array elements to new array. This type of copy creates a deep copy of array. This function takes 3 arguments, source array name, size of array and the target array name.
+Run on IDE
+Output:
+In the above code, the elements of ar are copied in ar1 using copy_n()
+
+iota()
+This function is used to assign continuous values to array. This function accepts 3 arguments, the array name, size, and the starting number.
+Run on IDE
+Output:
+In the above code, continuous values are assigned to array using iota().

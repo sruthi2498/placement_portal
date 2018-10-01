@@ -1,0 +1,15 @@
+
+Given a N X N matrix (M) filled with 1 , 0 , 2 , 3 . Find the  minimum numbers of moves needed to move from source to destination (sink) . while traversing through blank cells only. You can traverse up, down, right and left.
+A value of cell 1 means Source.
+A value of cell 2 means Destination.
+A value of cell 3 means Blank cell.
+A value of cell 0 means Blank Wall.
+Note : there is only single source and single destination.they may be more than one path from source to destination(sink).each move in matrix we consider as ‘1’  
+Examples:
+Asked in: Adobe Interview
+.
+
+The idea is to use Level graph ( Breadth First Traversal  ). Consider each cell as a node and each boundary between any two adjacent cells be an edge . so total number of Node is N*N. 
+Below is C++ implementation of above idea.
+Run on IDE
+Output:

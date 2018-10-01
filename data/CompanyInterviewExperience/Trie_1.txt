@@ -1,0 +1,17 @@
+Suppose there is a  queue of n users and your task is to assign a username to them. The system works in the following way. Every user has preferred login in the form of a string ‘s’ s consists only of small case letters and numbers. User name is assigned in the following order s, s0, s1, s2….s11…. means first you check s if s is available assign it if it is already occupied check for s0 if it is free assign it or if it is occupied check s1 and so on… if a username is assigned to one user it becomes occupied for other users after him in the queue.
+Examples:
+
+Input: names[] = {abc, bcd}
+Output: user_names[] = {abc bcd}
+Input: names[] = {abc, bcd, abc}
+Output: user_names[] = {abc bcd abc0}
+Input : names[] = {geek, geek0, geek1, geek}
+Output : user_names[] = {geek geek0 geek1 geek2}
+For first user geek is free so it is assigned to him similarly for the second and third user but for fourth user geek is not free so we will check geek0 but it is also not free then we will go for geek1 but it is also not free then we will check geek2 it is free so it is assigned to him.
+
+We solve this problem using Trie. We do not use usual Trie which have 26 children but a Trie where nodes have 36 children 26 alphabets(a-z) and 10 numbers from (0-9). In addition to this each node of Trie will also have bool variable which will turn into true when a string ending at that node is inserted there will be a int variable as well lets call it add which will be initially -1 and  suppose the string is geek and this int variable is equal to -1 then it means that we will directly return geek as it is asked for the first time but suppose it is 12 then it means that string geek, geek0…..geek12 are already present in the Trie.
+Steps
+Step 1: Maintain a Trie as discussed above.
+Step 2: For every given name, check if the string given by user is not in the Trie then return the same string else start from i=add+1 (add is discussed above) and start checking if we concatenate i with the input string is present in the Trie or not if it is not present then return it and set add=i as well as insert it into Trie as well else increment i
+Suppose string is geek and i=5 check if geek5 is in Trie or not if it is not present return geek5 set add for geek = 5 insert geek5 in Trie else if it is not present follow same steps for geek6 until you find a string that is not present in the Trie.   
+Run on IDE

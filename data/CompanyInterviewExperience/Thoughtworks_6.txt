@@ -1,0 +1,91 @@
+Thoughtworks Technologies India Private limited, visited our college July 2015, we had tremendous experience at recruitment process throughout.
+(pretty Long Article, plz bare with me till end, at the end you will find it useful)
+Experience:
+Round one: Rapid Programming:
+(Hands On Programming not Online, you can Use your Laptop) In this round they will ask to solve 5 programs in 30 min.
+This round is for testing your speed of programming and this is major elimination round.You should able to solve at least 3 programs out of 5. in this round they ask simple questions like prime no,String manipulation, anagram etc minimum sum, maximum sum etc. If you have good practice of programming then it is easy to crack this round.
+In Our college we 210 people participated and out of that we 52 people shortlisted.
+Round Two:Object Oriented Programming Round:
+(Hands On Programming not Online , you can Use your Laptop)
+    This round is to test your Object Oriented programming skills. In this round they asked to solve one program in 90 min. You should be able to make use of abstraction, polymorphism and inheritance in in your design.
+Thoughtworks is a company which gives emphasis to good design skills. In this round they will see your programming approach/design. Some thoughtwokers also help during solving problem , they seat with us look how we approach towards solution.
+        In This round they will not see only Output of program but will emphasize on how good your code is, how much extensible is, how much language constructs we have used.
+        In my case my program was giving Exception, Still i have shortlisted for next round.
+ Among 52 people we 21 get shortlisted for next round.
+https://www.thoughtworks.com/insights/blog/you-need-understand-problem
+Some Problem Statements i found on Internet when i was studying for it.
+1) Mars Rover Problem Statement:
+http://www.techinterviewpuzzles.com/2010/09/mars-rovers-thoughtworks-puzzles.html
+2) IPod Inventory:
+https://github.com/ashish161/Inventory-MinCost
+3) Hotel management:
+Problem Statement : 
+A well renowned hotel has three branches in miami. Namely x,y and z (Actually they gave names). Each has two types of customers. Regular and Rewardee. Also each branch has its own ratings x is given a 3 star rating while y has 5 star rating and z has 4 star rating. Each hotel has specific rates for weekend and weekdays. x charges $100 for regular customers on weekdays and $120 on weekends While it is $90 for rewardee on weekdays
+and $60 on weekends. Similarly y charges $130 for regular customers on weekdays and $150
+on weekends. While its $100 for rewardee on weekdays and $95 on weekends. While z charges $195 for regular customers on weekdays and $150 on weekends. While its $120 for rewardee on weekdays and $90 on weekends.
+Now when the customer requests for a particular detail you need to find which hotel would yield the customer profit.
+In case of tie between hotels compare the ratings and provide the result.
+Input format: regular:16Mar2010(sun),19Mar2010(wed),21Mar2010(Fri)
+(This is the format of the question but not sure about the values).
+4) Sales Tax:
+Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical products that are exempt. Import duty is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions.
+When I purchase items I receive a receipt which lists the name of all the items and their price (including tax), finishing with the total cost of the items, and the total amounts
+of sales taxes paid. The rounding rules for sales tax are that for a tax rate of n%,
+a shelf price of p contains (np/100 rounded up to the nearest 0.05) amount of sales tax.
+Write an application that prints out the receipt details for these shopping baskets?
+Input 1:
+1 book at 12.49
+1 music CD at 14.99
+1 chocolate bar at 0.85
+Input 2:
+1 imported box of chocolates at 10.00
+1 imported bottle of perfume at 47.50
+           This are some problem statements i provided , you surf on net to have more.
+To crack this round you have to have sound knowledge of Object oriented Principle. This is also a major elimination round.
+I programmed Sales tax problem in this round got shortlisted for Next round.
+Out of 52 we 21 got shortlisted.
+Round Three: Technical Interview 1:
+This round started very next day of first two rounds so to crack this round i prepared whole night as my revision was remaining.The Interview panel was of two peoples.Interview started with as usual introduce yourself question? In answer i given emphasis as my favorite subjects and what project i did till that time. So interview started with project. I explained my project idea and how i given solution.
+They directly went to database design of project and asked me to give database design. I drown ER diagram and explained well but my design was not so normalized so they asked me to convert the same design to normalized form. So i converted to well normalized form then they asked me some nested and complex queries on same design.Then interview moved to Data structure as i already said that my favorite Subject is DS. The first was on array and asked me to write code or algorithm. you have given array, find magic number(it is number in array which have same index as number). After giving solution they asked me to find complexity of same code.(When you write code in front of them they will observe your coding style) Then next question was general problem and you have to give solution as algorithm which was again same as above bit difficult. the pattern i observed here is complexity of questions goes on increasing as u move further in interview. Then they went to Tree and asked some question, and one of them was find weather tree is complete or not?give solution and find complexity, i given recursive solution but unable to find complexity.
+Then they asked me that do you like “OOP” i said “YES”, then again they asked to design tree Data structure using OOP principle. I tried my best to solve same.
+My interview was not so good still they liked my design so got shortlisted for next round. Out of 21 we 11 people got shortlisted.
+Round Four :Technical Interview 2
+Before starting of interview they collected our resume and depending upon that assigned special panel:
+The interview Started with OOP problem solution: They given me the problem of card game asked to give programming solution. I started giving solution they also helped me lot to solve the same problem. The same discussion went around 40 min. To solve problem , after getting satisfied they ended up discussion.
+After that, as i was working as president of Walchand Linux Users’ group in my college and it was mentioned on resume  so interview went to linux. Some of questions on linux they asked:
+Which OS you use on your laptop?
+Why you like linux rather than Windows?
+What is apt-get in linux?
+What happen in background when you install package or application on linux?
+Which command is used to list out all files in directory explain with some option?
+What are permissions to file in linux and command to assign it?
+Which command is used to see all running all program?
+Which command is used to get process id of process, and how to end that process?
+How to kill process if we are not able to kill using normal >kill pid command?
+What is piplining in linux?
+How to make use of piplining and give some example command making use of piplining?
+and so on..
+With this questions my interview ended from linux, they they asked some HR questions like Why you want to join Thoughtworks? Etc.
+As thoughtworks doesn’t work much on Linux platform still they asked on linux that means “they will not see totally what they want but also what you have unique with you”
+Some Of Observation and Suggestions of Interview Questions:
+Be loyal in interview give them respect.
+If you didn’t get question properly, then ask multiple time.
+Be confident, they are very friendly.
+If you are not comfortable then take your time to be.
+Don’t answer the questions directly, first analyse that what they expect from you and then answer.
+If you don’t know at all they frankly say,”Sir/mam i didn’t gone through this concept but i will study this afterwords” rather than saying “Don’t know”
+If you know some part of answer but unable to remind then you can take time and also ask from hint sometime.
+Don’t give fake answer, they can reject you on same time. And don’t try to make them fool.
+This round was so good and i got shortlisted!!!!!, among 11 we 6 get shortlisted for next round;
+Round 5: Logical Reasoning Test:
+In This round they gave us booklet of questions, the questions were on flowchart and we have to find the answer.
+Search for flowchart on Internet Practice them they are so easy.
+At WCE we 6 people got shortlisted and all cracked round.
+Round 6: HR Interview :
+This round was on Skype and on General social discussion. My interview started at 11 pm and ended at 1 am.
+In this interview they asked me opinion on some social issues, like BJP, Madarsa issue, India Bangladesh agreement, casteism in india etc. It was general discussion.
+They will observe your attitude, and also check how social you are.
+After This whole process of Thoughtworks we 6 people were waiting for result and at second day we got result as all 6 people got selected !!!!!!!
+Thoughtworks is very good company and called as india’s google. Prepare well for it,,,,
+Best Of Luck!!!!!
+I got Offer for joining in May 2016 after finishing my college. now working in TW, The Best place to work, Best peoples to work with.

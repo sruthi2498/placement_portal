@@ -1,0 +1,30 @@
+Given a natural number n, print all distinct divisors of it.
+Examples :
+Note that this problem is different from finding all prime factors.  
+A Naive Solution would be to iterate all the numbers from 1 to n, checking if that number divides n and printing it.  Below is  program for the same:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+Can we improve the above solution?
+If we look carefully, all the divisors are present in pairs. For example if n = 100, then the various pairs of divisors are: (1,100), (2,50), (4,25), (5,20), (10,10)
+Using this fact we could speed up our program significantly.
+We, however have to careful if there are two equal divisors as in case of (10, 10). In such case we’d print only one of them. 
+Below is a implementation for the same:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(sqrt(n))
+Auxiliary Space : O(1)
+However there is still a minor problem in the solution, can you guess?
+Yes! the output is not in a sorted fashion which we had got using brute-force technique.  Please refer below for a O(sqrt(n)) time solution that prints divisors in sorted order.
+Find all divisors of a natural number | Set 2

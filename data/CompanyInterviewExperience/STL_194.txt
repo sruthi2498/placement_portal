@@ -1,0 +1,14 @@
+The acos() is an inbuilt function in C++ STL which returns the inverse cosine of a number (argument) in radians. The value which is returned by the acos() function always lies between – to +
+Syntax :
+Parameters :This function accepts one mandatory parameter x which specifies the value whose inverse cosine should be computed. It must lie between -1 and +1, else a domain-error is thrown. The parameter can be of double, float or long double datatype. 
+Return :The function returns a numeric value between – and +. It is the counterclockwise angle which is measured in radian. 
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE
+Errors and Exceptions: 
+Below programs illustrate the errors and exceptions of the above method: 
+Run on IDE
+Output:
+Program 4:
+Run on IDE

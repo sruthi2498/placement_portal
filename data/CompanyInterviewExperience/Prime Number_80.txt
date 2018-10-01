@@ -1,0 +1,14 @@
+We are given a number n. Our task is to check whether the number is circular prime or not.
+Circular Prime : A prime number is said to be a circular prime if after any cyclic permutations of the digits, it remains a prime.
+Examples:
+
+The idea is simple, we generate all permutations of given number and check each permutation for prime. To generate permutations, we one by one move last digit to first position.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Optimizations:
+Clearly numbers containing 0, 2, 4, 5, 6, or 8 can never be circular primes as numbers ending with these will always be divisible by 2 or 5. Hence one of their permutation will not be a prime.  While counting digits in first step, we can also check if current digit is one of these.

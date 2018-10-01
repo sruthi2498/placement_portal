@@ -1,0 +1,18 @@
+Given a number ‘n’ and our goal is to find out it is palindrome or not without using
+any extra space. We can’t make a new copy of number .
+Examples:
+A recursive solution is discussed in below post.
+Check if a number is Palindrome
+In this post a different solution is discussed.
+1)  We can compare the first digit and the last digit, then we repeat the process.
+2) For the first digit, we need the order of the number. Say, 12321. Dividing this by 10000 would get us the leading 1. The trailing 1 can be retrieved by taking the mod with 10.
+3 ) Now, to reduce this to 232. 
+4 ) And now, the 10000 would need to be reduced by a factor of 100.
+Here is the implementation of the above algorithm :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

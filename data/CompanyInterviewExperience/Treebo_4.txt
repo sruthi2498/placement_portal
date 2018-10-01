@@ -1,0 +1,30 @@
+WRITTEN ROUND –
+1)    Variation of Array Partitioning (Solved using DP)
+2)    OZ graph , Graph related ques solved using BFS
+ROUND 1-
+1)    Replace each element in an array with multiplication of all others except that , division operator is not allowed.
+2)    You are given an infinite array  you need to find minimum number of jumps required to reach the end. You can move in both direction -ve and +ve array is b/w -infinity to + infinity
+Variation to this
+           Array – 1 2 3 4 5
+           I = 2  a[i] = 3 so u can strictly move 3 steps ahead or 3 steps backward .
+                        Given a position , find if it can be reached
+3) Given a number n  generate all pair of valid parentheses .
+                        If asked for count use nth catalan number
+ROUND 2
+Given n number of arrays find the minimum range such that  it contains at least one element from each array.Most optimized solution.
+There was a lot of discussion on that
+ROUND 3 –
+1)    Print path with maximum sum in binary tree
+2)    Design an api similar to Inshorts app (news app).
+3)    LRU Cache implementation
+2-3 more question were there I dnt remember exactly
+ROUND 4 : Head of Engineering.
+1)    Mean median mode and some discussion on statistics
+2)    Question on session management and cookies
+3)    Hour and minute hand angle
+4)    Given an array with Avg A , now divide this array into 2 parts such that the avg ( A1) of first part is equal to Average of the other part        A1=A2
+ROUND 5 : CTO round
+1)    Design question.Dont remember the ques
+2)    Discussion on cookies
+3)    Few more question How http works  
+Whole interview was wrapped up in a day continuously,each round took at least 1 hour, and next day the offer was given.

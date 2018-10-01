@@ -1,0 +1,10 @@
+Given a string on length N. You can swap only the adjacent elements and each element can be swapped atmost once. Find the no of permutations of the string that can be generated after performing the swaps as mentioned.
+Examples:
+Source: Goldman Sachs Interview
+Consider any i-th character in the string. There are two possibilities for this character:
+1.) Don’t swap it, i.e. don’t do anything with this character and move to the next character.
+2.) Swap it. As it can be swapped with its adjacent,
+……..a.) Swap it with the next character. Because each character can be swapped atmost once, we’ll move to the position (i+2).
+……. b.) Swap it with the previous character – we don’t need to consider this case separately as i-th character is the next character of (i-1)th which is same  as the case 2.a.
+Run on IDE
+Output:

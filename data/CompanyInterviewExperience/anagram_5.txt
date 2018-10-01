@@ -1,0 +1,14 @@
+Given two strings str1 and str2 of length n1 and n2 respectively. The problem is to count all the subsequences of str1 which are anagrams of str2. 
+Examples:
+
+Approach: Create two arrays freq1[] and freq2[] each of size ’26’ implemented as hash tables to store the frequencies of each character of str1 and str2 respectively. Let n1 and n2 be the lengths of str1 and str2 respectively. Now implement the following algorithm:
+Let freq1[i] is represented as n and freq2[i] as r. Now, binomialCoeff(n, r) mentioned in the algorithm above is nothing but binomial coefficient nCr .Refer this post for its implementation.
+Explanation:
+Let frequency of some character say ch in ‘str2’ is ‘x’ and in ‘str1’ is ‘y’. If y < x, then no subsequence of 'str1' exists which could be an anagram of 'str2'. Otherwise yCx gives the number of occurrences of ch selected which will contribute to the total count of required subsequences.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n1 + n2) + O(max), where max is the maximum frequency.

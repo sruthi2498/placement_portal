@@ -1,0 +1,41 @@
+Let us consider the below traversals:
+Inorder sequence: D B E A F C
+Preorder sequence: A B D E C F
+In a Preorder sequence, leftmost element is the root of the tree. So we know ‘A’ is root for given sequences. By searching ‘A’ in Inorder sequence, we can find out all elements on left side of ‘A’ are in left subtree and elements on right are in right subtree.  So we know below structure now.
+We recursively follow above steps and get the following tree.
+Algorithm: buildTree()
+1) Pick an element from Preorder. Increment a Preorder Index Variable (preIndex in below code) to pick next element in next recursive call.
+2) Create a new tree node tNode with the data as picked element.
+3) Find the picked element’s index in Inorder. Let the index be inIndex.
+4) Call buildTree for elements before inIndex and make the built tree as left subtree of tNode.
+5) Call buildTree for elements after inIndex and make the built tree as right subtree of tNode.
+6) return tNode.
+Thanks to Rohini and Tushar for suggesting the code.
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity: O(n^2). Worst case occurs when tree is left skewed. Example Preorder and Inorder traversals for worst case are {A, B, C, D} and {D, C, B, A}.
+Efficient Approach : 
+We can optimize the above solution using hashing (unordered_map in C++ or HashMap in Java). We store indexes of inorder traversal in a hash table. So that search can be done O(1) time.
+
+Run on IDE
+Time Complexity : O(n)
+Another approach : 
+Use the fact that InOrder traversal is Left-Root-Right and PreOrder traversal is Root-Left-Right. Also, first node in the PreOrder traversal is always the root node and the first node in the InOrder traversal is the leftmost node in the tree.
+Maintain two data-structures : Stack (to store the path we visited while traversing PreOrder array) and Set (to maintain the node in which the next right subtree is expected).
+1. Do below until you reach the leftmost node.
+        Keep creating the nodes from PreOrder traversal
+            If the stack’s topmost element is not in the set, link the created node to the left child of stack’s topmost element (if any), without popping the element.
+            Else link the created node to the right child of stack’s topmost element. Remove the stack’s topmost element from the set and the stack.
+        Push the node to a stack.
+
+2. Keep popping the nodes from the stack until either the stack is empty, or the topmost element of stack compares to the current element of InOrder traversal. Once the loop is over, push the last node back into the stack and into the set.
+
+3. Goto Step 1.
+
+Run on IDE
+Output :
+Thanks Hardik Agarwal for suggesting this approach.
+Construct a Binary Tree from Postorder and Inorder
+Please write comments if you find any bug in above codes/algorithms, or find other ways to solve the same problem.

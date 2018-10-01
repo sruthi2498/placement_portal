@@ -1,0 +1,8 @@
+Given a binary tree, where every node value is a Digit from 1-9 .Find the sum of all the numbers which are formed from root to leaf paths.
+For example consider the following Binary Tree.
+The idea is to do a preorder traversal of the tree.  In the preorder traversal, keep track of the value calculated till the current node, let this value be val.  For every node, we update the val as val*10 plus node’s data.
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: The above code is a simple preorder traversal code which visits every exactly once. Therefore, the time complexity is O(n) where n is the number of nodes in the given binary tree.

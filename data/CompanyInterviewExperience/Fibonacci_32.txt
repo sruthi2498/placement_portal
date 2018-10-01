@@ -1,0 +1,12 @@
+Given a number, find the numbers (smaller than or equal to n) which are both Fibonacci and prime.
+Examples:
+
+A simple solution is to iterate generate all fibonacci numbers smaller than or equal to n. For every Fibonacci number, check if it is prime or not. If prime, then print it.
+An efficient solution is to use Sieve to generate all Prime numbers up to n. After we have generated prime numbers, we can quickly check if a prime is Fibonacci or not by using the property that a number is Fibonacci if it is of the form 5i2 + 4 or in the form 5i2 – 4. Refer this for details.
+Below is the implementation of above steps
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

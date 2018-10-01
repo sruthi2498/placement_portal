@@ -1,0 +1,24 @@
+I recently sat in on-campus interview for MAQ Software. The whole interview process comprised of the following rounds. 
+Round 1:
+It comprised of general aptitude questions and two coding questions. It was an offline test. The coding questions were:
+1.	Given an array A[] consisting of 0’s, 1’s and 2’s, give an algorithm for sorting A.
+2.	N-Queen Problem.
+After this round around 40 students were shortlisted from around 150 students.
+After this there were three more rounds and each round was an elimination one.
+Round 2:
+1.	The interviewer started by having a look at my CV. He asked for a firm technical introduction.
+2.	He asked question about my projects. As I have had my intern from a very good place, he appeared impressed from the very start.
+3.	After having a technical discussion about my CV. He gave me two questions to code as following:
+    a.)	Given a linked list find whether loop exists or not. Find the starting point of loop.
+    b.)	Given a very big string, find whether the given substring exists or not in minimum time and space complexity.
+After this round around 15 students were shortlisted. 
+Round 3:
+1.	The interviewer was a young guy. He too had a look at my CV and appeared impressed.
+2.	He discussed in detail about the two major projects done during my internship.
+3.	He sat smiling at me with a friendly look and said that yes you have had actually done a lot of work. In the end for formality sake he gave me one question to code. The question was to find the in-order successor in a binary tree. He later told me that the tree is BST.
+After this round around 5 students were shortlisted.
+Round 4:
+This was supposed to be the HR round but out of surprise the interviewer started by giving me a question to code. The question was to print all the combinations of balanced parenthesis for a given value n. For example if n=2, we will have ()(), (()) as two balanced pairs possible.
+After I approached this question with the right solution he just asked about my family. After that he said to wait.
+After half an hour the results were announced. A total of three students were hired and I was amongst one of them. 🙂
+

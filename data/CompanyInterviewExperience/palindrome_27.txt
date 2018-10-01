@@ -1,0 +1,17 @@
+Given a string, count how many maximum-length palindromes are present.(It need not be a substring)
+Examples:
+
+Approach A palindrome can be reprsented as “str + t + reverse(str)”.
+Note: “t” is empty for even length palindromic strings.
+Calculate in how many ways “str” can be made and then multiply with “t” (number of single characters left out).
+Let ci  be the number of occurrences of character in the string. Consider the following cases:
+1. If ci is even. Then a half of every maximum palindrome will contain exactly  letters fi = ci / 2.
+2.If ci is odd. Then a half of every maximum palindrome will contain exactly  letters fi = ci – 1/ 2.
+Let k be the number of odd ci. If k=0, the maximum palindromes length will be even; otherwise it will be odd and there will be exactly k possible middle letters i.e., we can set this letter to the middle of palindrome.
+The number of permutations of n objects with n1 identical objects of type 1, n2 identical objects of type 2,, and n3 identical objects of type 3 is  n! / (n1! * n2! * n3!) .
+So here we have total number of characters as fa+fb+fa+…….+fy+fz . So number of permutation is (fa+fb+fa+…….+fy+fz+)! / fa! fb!…fy!fz!.
+Now If K is not 0, it’s obvious that the answer is k * (fa+fb+fa+…….+fy+fz+)! / fa! fb!…fy!fz!
+Below is the implementation of the above.
+Run on IDE
+Output:
+Time Complexity : O(n)

@@ -1,0 +1,14 @@
+Given two integers, n and k. Initially we have a sequence consisting of a single number 1. We need to consider series formed after n steps. In each step, we append the sequence to itself and insert the MEX(minimum excluded)(>0) value of the sequence in the middle. Perform (n-1) steps. Finally, find the value of the k-th index of the resulting sequence.
+Example:
+
+A simple solution is to generate the series using given steps and store in an array. Finally, we return k-th element of the array.
+An efficient solution is to use Binary Search. Observe that the middle element of our resulting sequence is n itself. Length of the sequence is 2n – 1, because lengths will be like (1, 3, 7, 15….2n -1). We use Binary search to solve this problem. As we know that the middle element of a sequence is the number of the step(from 1) performed on it.
+In fact, every element in the sequence is a middle element at one or other step.
+We start searching the element from step n and compare the middle index with ‘k’ if found we return n, else we decrease n by 1 and update our range of our search.
+we repeat this step until the index is reached.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity:O(log n)

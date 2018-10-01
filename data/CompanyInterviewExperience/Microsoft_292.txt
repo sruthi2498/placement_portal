@@ -1,0 +1,20 @@
+Given a boolean expression with following symbols. 
+And following operators filled between symbols 
+Count the number of ways we can parenthesize the expression so that the value of expression evaluates to true. 
+Let the input be in form of two arrays one contains the symbols (T and F) in order and other contains operators (&, | and ^}
+Examples: 
+Solution:
+Let T(i, j) represents the number of ways to parenthesize the symbols between i and j (both inclusive) such that the subexpression between i and j evaluates to true.
+
+
+Let F(i, j) represents the number of ways to parenthesize the symbols between i and j (both inclusive) such that the subexpression between i and j evaluates to false.
+
+
+Base Cases:
+If we draw recursion tree of above recursive solution, we can observe that it many overlapping subproblems.  Like other dynamic programming problems, it can be solved by filling a table in bottom up manner. Following is C++ implementation of dynamic programming solution.
+Run on IDE
+Output: 
+Time Complexity: O(n3)
+Auxiliary Space: O(n2)
+References:
+http://people.cs.clemson.edu/~bcdean/dp_practice/dp_9.swf

@@ -1,0 +1,38 @@
+I attended the referral drive in Delhi, so we had to report to 10:00 AM at Amazon’s office.
+ROUND 1: Written – Pen & Paper (11:00 – 12:00 PM)
+You have to write a short description first of your approach, put comments if necessary to explain that line’s logic. Full Optimize Code should be written covering all the edge cases. Also mention the complexities.
+Q1. Sorted Array to Balanced BST.
+Q2. Detect and Remove loop in linked list.
+ROUND 2: Face to Face (02:00 – 03:30 PM)
+This was the Technical Round, start with your basic approach and then move further to optimized ones. Interviewer will expect you to write fully fledged code (the optimized approach one) covering all the edge cases and also derive it’s complexities. If he’s not satisfied with any of the space and time complexities he will urge you to provide him that solution, and this happens a lot in Amazon’s interviews.
+Q1. Given a number N, you can do three operations like (N-1, N/2, N/3) find the minimum number of steps in which N can be reduced to 1 using these three operations.
+Minimum Steps to reach 1.
+First gave him recursive approach, gave him space time complexities. Then told him dp one and it’s space time. Then he told me to code the dp approach.
+Q2. Max Sum Path across two sorted arrays.
+Gave him the solution using space O(m+n) and time O(m+n), wrote the code for it. Then he demands to solve it in O(1) space and O(m+n) time, spend some time and coded it too.
+ROUND 3: Face to Face (05:00 – 06:30 PM)
+Again Technical Round, this round was more DS specific, we have to write fully optimized code which will cover all test cases.
+Q1. Width of a Binary Tree
+Gave him many approaches, had discussions on Level Order traversals as well. At the end wrote the code for it.
+Q2. Print Vertical Order Traversal
+Told him the approach using Maps of STL but for that i had to sort it for displaying in the correct order, which would take extra time complexity, so came up with the solution of adding the results direct to array without using Hashmaps. (as the HDs are consecutive -2, -1, 0, 1, 2 so you can also take array and manipulate some insertions there).
+Round 4: Hiring Manager Round (07:30 – 09:00 PM)
+Q1. Started with a technical question : Kth largest element in a stream of integers.
+Have to wrote the code using Heap along with all the util functions of Heaps as well.
+Q2. Tell me something about yourself, about your company, what kind of projects did you do, what extraordinary did you do, Was there any kind of appreciation received in your current company.
+Q3. Told me about the work his team is doing, asks me some behavioral questions like, Was there any kind of conflict between you and your manager at some point of time, how did you resolve that ? What would you do if the deadline marked by you to complete a task has been passed ?
+After 1 week…
+ROUND 5: Hiring Manager Round (Telephonic : 1 hr)
+Started asking about myself and getting to know me by asking deeper about my background. This round was “dive deep” anything you utter from your mouth he will drill into it.
+Q1. Technical Question : Have you studied Data Compression. What are it’s various techniques. I listed Huffman and Run Length.
+1.a) He told me to code Run Length.
+1.b) Then told me to do an in-place Run Length encoding given a string of chars.
+It fails some cases where the original string as many unique characters so that the string length would increase and thus cannot be converted in-place. I told him so and suggested i would take a vector in case of any additions is to be made. He then asks for these strings where compressed length is increase how can we identify that.
+1.c) Identify the strings which cannot be compressed using this method and compress those which can be. Wrote code and explain it to him.
+1.d) What can be the practical applications of this algorithm, i told him that warehouses like AWS Redshift already does Data compression, listed him some other useful one’s like they already use for Dates Column.
+Q2. Projects discussions, and have to explain one project to him in detail. he posed several design flaws in my project and asked me for their solutions. This part was very critical as he drilled me to some cases and i had to come up with some technical solution or to correct him if it was a invalid business use case.
+In this way he also checked how much knowledge i have of business apart from technical.
+After 5 days : Congratulations from Amazon.com we will be going to offer employment offer for you 🙂
+Status : Selected
+
+

@@ -1,0 +1,32 @@
+Write a program to reverse digits of an integer.
+
+Examples :
+ITERATIVE WAY
+Algorithm:
+Example:
+  num  = 4562
+  rev_num = 0
+  rev_num = rev_num *10 + num%10  =  2
+  num = num/10 = 456
+  rev_num = rev_num *10 + num%10  =  20 + 6 = 26
+  num = num/10 = 45
+  rev_num = rev_num *10 + num%10  =  260 + 5 = 265
+  num = num/10 = 4
+  rev_num = rev_num *10 + num%10  =  265 + 4 = 2654
+  num = num/10 = 0
+Program:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+RECURSIVE WAY
+Thanks to Raj for adding this to the original post.
+
+Run on IDE
+
+Reverse digits of an integer with overflow handled
+Note that above above program doesn’t consider leading zeroes.  For example, for 100 program will print 1.  If you want to print 001 then see this comment from Maheshwar.
+Try extensions of above functions that should also work for floating point numbers.

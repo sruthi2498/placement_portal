@@ -1,0 +1,48 @@
+ 
+Technical attitude test(Round 1)
+This round consisted of 30 aptitude questions based on general aptitude and computer science fundamental subjects like operating system, dbms, c/c++, sql, computer networks.
+Around 300 students sat for this test and 41 students were shortlisted for the next coding round.
+Coding round(Round 2)
+This round consisted of 1 programming question which had to be solved in a timespan of 90 minutes.
+The test was conducted on codility platform.
+The coding question was that we are given a rectangle which is of size 26×26 and we have been given some battle ships and their is another person who does not knows what is the position of these battle ships and he randomly hits those battle ships and the positions that the person hits are given.
+The battle shop can be of maximum 4 size and we were given the top left and bottom right corner of the battle ship.
+We had to return what is the number of battle ships that are hit and are sunk.
+The battle ship is said to be sunk of all the coordinates of the battle ships in the matrix have been hit and if some coordinates are hit then the battle ship is only hit but not sunk.
+For example
+Ship – {1A 2B, 3A 3A}
+Hits – {1A 3A 5C 1B}
+In this example there are 2 battle ships and the second person has made 4 hits.
+The position of the ships are from index (1, 1) to (2, 2) and the position of second ship is from (3, 1) to (3, 1).
+The battle ship 1 has been hit and battle ship 2 has been sunk.
+11 students were shortlisted for further rounds of interview.
+Technical interview (Round 3)
+This was a technical interview
+1. You hace been given a array which is sorted and rotated and you have to search a element from that array.
+2. There is a orchid of apple trees and all the trees are standing in a line and they have apples on them.
+There are 2 people and they have a number k and l that means they can pluck apples from k and l consecutive trees and we had to maximize the number of apples that they can pluck from the trees provided that they cannot overlap their interval of trees.
+3. Implement three stacks in a array.I was able to implement a basic solution and then he extended the problem to implement k stacks in a array.
+4. What all you have learnt in your college apart from computer programming.
+5. He asked what is the advantage of a RDBMS software over a file based databases management software.
+Out of 11 students only 3 students were shortlisted for further rounds of interview.
+Aptitude and personally assessment test (Round 4)
+It was a 50 minutes short test which had 50 general aptitude and English questions that had to be solved in 22 minutes.
+Then I had to solve a good number of psychometric based questions that judge a person’s personality.
+Only 2 students reached round 4 that was technical interview round.
+Technical cum HR Interview (Round 4)
+It was a 1 hour round with the director of technology, Cvent.
+1. He asked me about my introduction.
+2. He asked what I liked and disliked about the company ppt?
+3. In what all companies have you applied till date?
+4. What is your dream company?
+5. Why do you want to join Cvent?
+6. Are you happy joining Thapar university and what was your dream college before joining Thapar?
+7. He asked a technical question that you have been given a 10×10×10 cube consisting of 1000 cubes of size 1. He asked what all types of cubes you can see from all the sides of the cubes. He asked me to drive a formula for a n×n×n cube.
+8. He asked me about my favorite subjects and then i told him that i am comfortable in operating system, data structures and algorithms and database management.
+9. He asked questions about databases and concepts such as inner join, outer join etc.
+10. He asked whether I had any questions for him?
+I asked what is the role of machine learning and artificial intelligence in the Cvent company?
+Finally I was the only one to be selected for 6 months internship and full time offer at Cvent.
+I would like to thank geeksforgeeks for helping me out in preparing for the company as well as providing an excellent resource for placement preparing.
+Being their campus ambassador helped me a lot in acquiring great knowledge and sharing it with my juniors.
+This article has been contributed by Ashish Madaan.

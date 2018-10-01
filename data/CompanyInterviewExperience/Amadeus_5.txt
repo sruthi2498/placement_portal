@@ -1,0 +1,34 @@
+Amadeus Labs Bangalore visited our campus. The placement procedure was as follows: an online test on SHL on 8th followed by interviews on 9th.
+
+Online Test – It consisted of two sections: verbal reasoning and numerical reasoning. 19 minutes were given for 30 verbal reasoning questions and 25 minutes for 25 numerical reasoning questions. As it is evident, the time was minimal. Also, one couldn’t go back to a previous question. I practised a bit on SHL.
+113 students took this test. 24 out of them were shortlisted for interviews.
+Round 1 – This round was based purely on technical knowledge and went on for about 45 minutes.
+The interview began with a formal introduction.
+The interviewer started reading my resume and found one of the projects that I had undertaken to be fascinating. It was a taxi dispatch system and used Dijkstra’s shortest path algorithm to accomplish its purpose. He asked me to code the algorithm used. I did it in about 10 minutes and he suggested some improvements thereafter.
+He asked me what I knew about sorting. I named a few algorithms used for sorting. He then asked me what merge-sort is. As soon as I started to explain the idea behind the algorithm, he asked me to code it which I did in about 5 minutes. He then performed a dry run of the code.
+He then sought to test my knowledge of OOP. He inquired from me what multiple inheritance is. I couldn’t recall it at the moment and told him multi-level inheritance instead. He told me that I was not familiar with the concept. He then moved on to ask me about polymorphism. I told him about the types and how they are implemented. He then asked me a problem concerning virtual functions.
+A puzzle was given. Spherical balls of given dimensions needed to be fitted into a cube of given dimensions efficiently. I gave a solution and he asked me why it was the most efficient one. I answered that any other configuration would lead to wastage of space and therefore, efficiency would be compromised.
+The next topic was DBMS. He asked me to draw an ER diagram for an attendance management system. I took about 10 minutes to come up with it.
+The interviewer then encouraged me to ask him something.  As I had attended the pre-placement talk the day before, I knew he had worked in Silicon Valley, California for 10 years. I, therefore, asked him what companies he had worked for and differences, if any, he found between the silicon valleys of India and the US.
+Round 2 – This round tested overall personality. The interviewer was one of the directors of Amadeus Labs Bangalore under whom about 250 people work.
+He began with asking a brief introduction. He proceeded on by asking how many interviews I had previously given and wanted to know if I had learned anything from them. Rushing to the solution without giving due thought to its every aspect was the answer I gave. He seemed impressed.
+The first glances of my CV lead him to ask this: how did you manage to maintain such a high CGPA? I told him being attentive in the classroom was the only thing I followed. I added how doing so significantly reduced the time one had to devote at home to studying. Also, I told him how I used to sit only on the benches of the first three rows. This made him ask another question. “Assuming you were sitting on of the seats of the first three rows in the talk yesterday, can you tell me what I spoke of exactly?” At first, it didn’t strike me but as I proceeded, it suddenly dawned upon me. He had told that Amadeus acted as a middle entity between travel agencies and travel providers.
+Parsing through my resume, he found that I had been athletic during my yesteryears. He then gave me a task of organising a sports event in the campus. He was interested in the objective which I would keep in mind for the event. Attention to physical fitness with academics seemed like an appropriate response. I went with it. Also, I presented the example of one of my friends who fell on track before even completing one round of it.
+He then moved on to technical aspects. He asked the following two questions in series:
+1.     An application is slow. What can be the possible reasons?
+2.     How is inter-process communication accomplished?
+I was able to give 5 or 6 points for each of the questions.
+He then saw that I had cleared JEE Advanced 2013. He inquired why the rank in JEE Main 2013 was high relatively. I told him the weight-age of class 12 marks had had a severe effect on it. I continued by saying that I had scored decently in PCM but Physical Education spoiled the show. He immediately noted down my marks in PCM.
+At last, he inquired if I wanted to ask him something. I was waiting for this to happen. I inquired what his work entailed at Amadeus Labs. He told me his focus was to create an environment conducive for innovation. “Is there something you’d like to change in your company?” He thought about it for a second and replied, “many things”.  
+This round went on for about 30 minutes.
+Round 3 – This round was the hiring round (HR). The Talent Acquisition Head was the interviewer.
+She asked me to tell something about myself.
+“Why should we hire you?” I answered by saying that I was always ready to learn. I added, “If I am the smartest person in the room, I wouldn’t want to be in that room.”
+“How did the previous rounds go?”  “Good”, I replied.  Smiling, she said, “very good”.
+“Why do you want to join Amadeus?” I began by saying that I was impressed by the connection the speakers were able to make with the audience during the talk. None of the talks previously had been able to do it. Every company flaunted their work environment but if I believed anyone, it was Amadeus. She exclaimed, “Really?”
+She then inquired about my relocation status. I said I’d be more than happy to do it. As I had been staying at my parents’ since birth, I told her I wanted to be independent.
+Eventually, she asked me if I had any questions for her. I asked about the particulars of her job. “Do you visit campuses all over India to hire students every year?” She replied she handled all the hiring decisions, on-campus or off-campus. I also asked how it was made sure at Amadeus that an error didn’t inadvertently creep in as the accuracy needed to be paramount due to monetary involvement in transactions. The discussion then travelled towards MH370 as Amadeus manages airlines and airports also.
+This round took about 15 minutes.
+
+Result: After an excruciating wait of 5 hours for the result, they announced that 10 students were selected: 5 as Dev, 3 as QA and 2 as interns. 
+

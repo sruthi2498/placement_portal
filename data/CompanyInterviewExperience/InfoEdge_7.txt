@@ -1,0 +1,38 @@
+Recently I got interviewed by InfoEdge. It was off-Campus drive at Noida. 
+There were 5 rounds: 
+1 Aptitude (Quants+Technical)
+3 Technical rounds
+1 HR round
+Round 1 : Written (Aptitude)
+There were 30 question to solve in 30 minutes. Questions were from work and time, profit loss, time and distance, pipes and cisterns, probability, Permutation and combbination, c,c++,DBMS etc.
+Round 2: Technical Interview 1
+1.Write a program to find frequency of each character in a string.
+2.Briefly explain Class, Object, Methods, Member variables, Encapsulation, Abstraction.
+3.Make a Queue using Stack.He asked to optimize number of push and pop operations.
+4.Make a Stack using Queue.
+Round 3: Technical Interview 2
+1. Introduce yourself.
+2.Then he asked me about my projects. Detailed discussion on both projects.
+3.Write a program which takes decimal number as input and gives Roman number as output.
+Ex: i/p: 8 o/p: VIII
+i/p: 43 o/p:XLIII
+range of numbers can vary from 1 to 1000.
+4. Design problem: Design database for facebook page subscribers. Write classes and functions involved to implement this. Further he added to implement facebook notification system.
+Round 4: Technical Interview 3
+First interviewer asked me favorite subject. I said Data Structure.
+1.Write a program which takes a String and an Integer as input and gives output as follows:
+i/p: aaaabbbcc 2 o/p abcc
+i/p: aabbcc 2 o/p aabbcc
+i/p: aaabbbbbccdddd 3 o/p:aaabccd
+i/p abcddd 3 0/p abcddd
+2.Given an array of size n. It contains numbers in the range 1 to n+2.Each number in the range is present in array except 2 numbers. Find the missing numbers.
+3.Question on Asymptotic Analysis.
+4. Difference between compiler and interpreter. Advantage and disadvantage of each. Complete working of compiler and interpreter.
+5.What is HTTP, TCP/IP. Detailed discussion on both.
+6. Difference between HTTP and HTTPS. What is SSL. Explain in detail.
+7.What is fork system call. What will happen to the child process if parent process get terminated.
+8. Explain Copy on write.
+9.How to count number of objects created by new and created by malloc.
+10.What is copy constructor? Why const keyword is used in copy constructor. Why reference is used as parameter in copy constructor.Some more questions on operator overloading, type conversion etc.
+Round 5: HR round
+Simple behavioral questions

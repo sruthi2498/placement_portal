@@ -1,0 +1,8 @@
+We need to make a string of size n. Each character of the string is either ‘R’, ‘B’ or ‘G’. In the final string there needs to be at least r number of ‘R’, at least b number of ‘B’ and at least g number of ‘G’ (such that r + g + b <= n). We need to find number of such strings possible.
+Examples:
+Asked in :  Directi
+
+Run on IDE
+Run on IDE
+
+To handle n with large numbers, we can use the concept of Large Factorial.

@@ -1,0 +1,15 @@
+One Interview Only (Technical + HR)
+1. Tell me about yourself. Your favorite subjects(I mentioned DS, OS, OOPs, DBMS)
+2. Tell difference between declaration and definition in C.(background process in memory)
+3. What are disadvantages of recursion?What actually happens in background. (Told about stackoverflow). How can we prevent stackoverflow?
+4. What actually happens in background when we compile a C program?Want to know phases of compiler?(Told about two, Lexical analysis and Intermediate code generator)
+5. How many files are created when we compile and run a C program?What each file contains and the role of each?
+6. Syntax in C program is checked by which phase of compiler.
+7. Brief discussion on macros and function in terms of space and time.Which is better is which scenario.
+8. Explain your project.(Mine project was on database in Mysql)
+9. Tell the port number in Mysql on which your project worked.(even I was not knowing what is port number).
+10. What is BLOB?Full Form of BLOB?Why it is used?
+11. Difference between BLOB and TEXT?(Want to know background details as well).
+12. Asked about output of three program(related to file handling, calloc and malloc, and one simple)
+RESULT: NOT SELECTED
+ADVICE: Be thorough with each and every details of project and basics of everything. 🙂

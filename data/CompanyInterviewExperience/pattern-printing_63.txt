@@ -1,0 +1,11 @@
+Given a number n and using 0-n numbers you have to print such a pattern.
+Examples:
+
+The idea here is to count the space in beginning of string. In this pattern there are ((2 * n) + 1) rows. In rows form 0 to n number of spaces is (2 * (n – i)). In row number from (n + 1) to (2 * n), number of space is ((i – n) * 2).
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

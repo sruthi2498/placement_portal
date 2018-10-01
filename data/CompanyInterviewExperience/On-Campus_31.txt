@@ -1,0 +1,21 @@
+Round 1: It was a written test with three sections:
+Questions were easy in Software section. It consisted of questions from topics like Structural Padding, References, Expression Tree.
+In Digital section, there were questions like
+1.Re-creating a given circuit using only 2 input NAND gates.
+2.Realising a Boolean expression using MUX.
+3. Design questions on MUX.
+4.Minimizing the number of gates used in a circuit.
+Analytical section consisted of Puzzles like Travelling Bee, 100 wine bottles and simple aptitude questions related to Mixing and Alligations.
+They told us to write on first page of the answer sheet, the topics in which you are good and accomplishments that you want them to know.
+Round 2: Around 28 students were shortlisted which includes students from both Software and Digital Profile.
+There were 4 panels for 1 on 1 interview. Specific questions were asked related to what that student have written on his answer sheet. Questions were mostly based on:
+After this round, around 8 students were sent to second round of personal interview and around 9 were sent for another test. The test consisted of questions on DFS. I dont know much about that test since I was sent for 2nd round directly.
+The 2nd round was 2 on 1 Interview. They asked questions from your Resume. The questions were focused on difficulties faced in your project and how you overcame it.
+Then they asked me question from Dynamic Programming. The question was Max Sum Path in a 2-d Matrix.
+I solved it and they seemed convinced. Then they asked me to solve the same question using Graphs. After some time of thinking, I solved it using Djikstra’s Algorithm.  Instead of updating minimum distance on a node, update maximum sum so far for this node. They were convinced.
+Then they asked some questions on Classes like Virtual Constructors, Virtual Destructors, V-Table and V-Ptr,  some questions onDigital Circuits like Design 4×16 MUX using minimum number of 2×4 MUX and some puzzles related to topics of Probability, Brute Force.
+After this round, around 10 people were sent for the HR round.
+Round 3 (HR) : In HR round, they asked about basic HR questions like plans for further studies and all. Some questions related to your PORs on Resume.
+After a hectic and long day, they selected 6 students, 4 for Software Profile and 2 for Digital Profile and I was one of the 4 students that got selected in Software Profile. It was like dream come true and was the happiest day of my life 🙂
+So, students preparing for Mentor Graphics, Make sure to brush up your basics on Pointers and Digital. They want the candidate to have strong knowledge of Algorithms and If you are targeting for Software Profile, you should also have some basic knowledge related to digital circuits.
+So, Students preparing for Mentor Graphics, Wish you Luck and Prepare Well!!

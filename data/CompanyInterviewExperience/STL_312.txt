@@ -1,0 +1,10 @@
+Priority queues are a type of container adaptors, specifically designed such that the first element of the queue is the greatest of all elements in the queue.
+This function is used to swap the contents of one priority queue with another priority queue of same type and size.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It throws an error if the priority queues are not of the same type.
+2. It throws an error if the priority queues are not of the same size.
+2. It has a basic no exception throw guarantee otherwise.
+Run on IDE
+Output:

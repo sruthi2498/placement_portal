@@ -1,0 +1,35 @@
+1st Round (Written)[45 minutes]:
+32 MCQ Questions including Aptitude, English, Databases, Operating Systems and Computer Networks, OOPS, DSA concepts.
+– DSA: questions included choosing the right code snippet for completing a code. Topics covered here were Graph, basics of C, etc.
+– Aptitude: Counting (P & C), large numerical calculations and approximations, relations deduction from given statements, etc.
+– English: Reading comprehension, choosing the most suitable sentences.
+– OOPS: Mostly Java related OOP concepts and basics
+– DBMS, CN, OS basics.
+2 CODING Questions[30 minutes, 15 minutes]:
+Languages allowed: C, C++, Java.
+1. Related to bit manipulation, was tedious. Be thorough with geeksforgeeks bit manipulation section.
+2. Given a table (country_id, country_name, and other attributes), and another table who won a medal with (player_id, country_id, and other attributes). Print number of medals won by each country in descending order.
+No negative marking. And switching between sections was not allowed.
+2nd Round (Interview)[Roughly 30 minutes]:
+– Tell me about yourself
+– Finding locations of special characters and vowels without using if-else, or, and, exor, == operations.
+– Given a database with employee table with attributes like (emp_id, emp_name. manager_id, etc.) find an employee with a name “Akash” who is not a manager. He wanted me to ask all the relevant niches required to solve it.
+– Some more problems where he asked me the data structure I would use to solve it.
+– Basic problems related to graph and trees.
+– OOPS related questions, math and puzzles.
+3rd Round (Interview)[Roughly 30 minutes]:
+– Introduce yourself
+– Why Fidelity?
+– Which track do you want to join? I chose software engineering.
+– Why software engineering?
+– What did you do during internship?
+– How would you read last N lines of a file?(UNIX command)
+– What is grep used for?
+– Inheritance, Diamond problem.
+– Questions from my side
+4th Round(H R Interview)[Roughly 40 minutes]:
+– Introduce yourself.
+– A complete discussion on my resume: projects, achievements, etc.
+– Behavioural questions.
+– Where do you want to work(Bangalore, Chennai)? Why?
+TIPS: Candidates were filtered out at each stage, take every round seriously. Be thorough with everything you write in your resume.

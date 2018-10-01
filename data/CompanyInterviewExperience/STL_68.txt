@@ -1,0 +1,11 @@
+The unordered_multimap::load_factor() is a built-in function in C++ STL which returns returns the current load factor in the unordered_multimap container. The load factor is the ratio between the number of elements in the container (its size) and the number of buckets (bucket_count):
+load_factor = size / bucket_count
+The load factor influences the probability of collision in the hash table (i.e., the probability of two elements being located in the same bucket). The container automatically increases the number of buckets to keep the load factor below a specific threshold (its max_load_factor), by causing a rehash each time when an expansion is needed.
+Syntax:
+Parameter: The function does not accept any parameter. 
+Return Value: The function returns the current load factor. It can be of integer or double type.  
+Below programs illustrate the unordered_multimap::load_factor() function:
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

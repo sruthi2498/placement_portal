@@ -1,0 +1,21 @@
+Amazon visited our campus to offer internship for 6 months. There were 3 rounds – an online coding round and 2 face to face interviews.
+Online coding Round(Duration:1 hr 30 mins)
+This round was conducted on hackerrank.com. There were 20 mcq’s related to computer science and aptitude.Many of these questions are there in the MCQ section of GeeksForGeeks. And there were 2 coding questions:
+1. Given a txt[0..n-1] and pat[0..m-1], write a function search(char txt[],char pat[]) that prints all occurences of pat[] and its anagrams in txt[].
+2. (Cluster Program) You are given a 2d matrix containing 0s and 1s. From a given position in matrix, you can move in all the 8 directions i.e. (i+-1,j),(i,j+-1),(i+-1,j+-1). You have to print the number of clusters of 1’s in the matrix. Two 1’s lie in a cluster if and only if we can move directly from one 1 to another.
+Face to Face Interview-1(Duration:1 hr)
+Interviewer started asking questions straight away without any introduction. He asked me the worst case complexities of Quick sort and Merge sort. Then asked me 2 questions related to trees:
+1. Given an array that contains post-order traversal of a binary tree. Can you construct a single tree? I said no. Then he asked if i can make a binary search tree from the array to which i said yes. Then after discussing the approach, he asked to write the code.
+2. Then he asked me to write the code for level-order traversal of a tree. Also asked me to calculate the complexity of the code.
+Face to Face Interview-2(Duration:about 1hr 30mins)
+Interviewer started with the general introduction. Then he started asking questions.
+1. Given n appointments with the start time, end time and a boolean variable hasConfilct, we have to set the boolean variable hasConflict of those appointments that conflict with the other appointments.
+I have to set the the hasConflict of Appointment 1 and 2 as true.
+Initially, I did it in O(n^2). But then he asked me to optimize the solution. After some discussion, I was able to solve it in O(nlogn).
+2. Given that at Amazon.in the details page of an item shows only one field that is dynamically picked up from the database, we have to improve the performance according to the line:
+“80% of the users visit details page of 20% of products.”
+I said we could store these 20% on the web server so that we don’t have to fetch the item details from database everytime. He asked me where and how will i store it. I answered Main memory and will use BST to store it. Then after a lot of discussion(about 30 mins) on how will the get and put operations be used, he was satisfied with the solution.
+3. Given a linked list placed in memory, what problems can arise if simultaneous operations are performed on the list. From here he started asking about threads because the answer was related to it.
+4. When a single threaded application is converted to multi-threaded applications, what kind of changes operating system has to make?
+5. What steps are taken when the os shifts from one-thread execution to another?
+Finally, I was hired. Thanks to GeeksForGeeks for helping me throughout my interview preparation.

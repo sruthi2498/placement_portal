@@ -1,0 +1,10 @@
+Given a number n, check it is the  Stella Octangula number  or not. A number of the form  where n is a whole number(0, 1, 2, 3, 4, …) is called Stella Octangula. First few Stella Octangula numbers are     0, 1, 14, 51, 124, 245, 426, 679, 1016, 1449, 1990, …
+ Stella octangula numbers which are perfect squares are 1 and 9653449.
+Given a number x, check if it is Stella octangula.
+Examples:
+A simple solution is to run a loop starting from n = 0. For every n, check if n(2n2 – 1) is equal to x. We run the loop while value of n(2n2  – 1) is smaller than or equal to x.
+An efficient solution is to use Unbounded Binary Search. We first find a value of n such that  n(2n2  – 1) is greater than x using repeated doubling. Then we apply Binary Search.
+
+Run on IDE
+Run on IDE
+Run on IDE

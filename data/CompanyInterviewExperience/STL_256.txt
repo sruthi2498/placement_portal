@@ -1,0 +1,17 @@
+An array is given of n length, and we need to calculate the next greater element for each element in given array. If next greater element is not available in given array then we need to fill ‘_’ at that index place.
+Examples :
+Asked in : Zoho
+A simple solution is to use two loops nested.  The outer loop picks all elements one by one and inner loop finds the next greater element by linearly searching from beginning to end.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity : O(n*n)
+Auxiliary Space: O(1)
+An efficient solution is to one by one insert elements in a set (A self balancing binary search tree). After inserting into set, we search elements. After we find iterator of the searched element, we move iterator to next (note that set stores elements in sorted order) to find element which is just greater.
+Run on IDE
+Time Complexity : O(n Log n). Note that self balancing search tree (implemented by set in C++) insert operations take O(Log n) time to insert and find.
+Auxiliary Space: O(n)
+We can also use sorting followed by binary searches to solve the above problem in same time and same auxiliary space.

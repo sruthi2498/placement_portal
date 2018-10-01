@@ -1,0 +1,19 @@
+1. What is caching and how it is used. Types of cache eviction policies. Any cache you might have used for your project. Explain.
+2. Implement LRU cache.
+We first had discussion over different ways for implementation and then wrote the code using circular dll and map.
+3. Any tradeoffs you have made in your past in any of your projects. Explain
+Round 2
+1. Design gaming platform. A number of games can be hosted on this platform. User can login and select a particular game. Discussed both HLD and LLD.
+Round 3
+1.Discussed on last mile delivery challenge in case of peak seasons. LLD for third party delivery vendor for registration and notification system .
+2. Any good practice that you have introduced in your team.
+Round 4
+1. Search an element in a sorted rotated array in a single pass
+2. Extension of rat in a maze problem. Maximum cheese the rat can eat in a maze.
+3 . Discussed in detail project from all my previous company.
+Round 5
+1. Discussed the current project in detail.
+Asked to redesign the current project to make it more scalable.
+2. Redesigned the database of current project.
+3. Design Swiggy.
+4 . Discussion on a previous project where i used spark and discussion on alternatives i consider before using spark to solve that problem.

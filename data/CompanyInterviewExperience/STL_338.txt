@@ -1,0 +1,28 @@
+
+Array classes are generally more efficient, light-weight and reliable than C-style arrays. The introduction of array class from C++11 has offered a better alternative for C-style arrays. 
+This function is used to reference the first element of the array container. This function can be used to fetch the first element of an array.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the array container is empty, it causes undefined behaviour.
+2. It has a no exception throw guarantee if the array is not empty.
+Run on IDE
+Output:
+This function is used to reference the last element of the array container. This function can be used to fetch the last element from the end of a array.
+Syntax :
+Examples:
+Errors and Exceptions
+1. If the array container is empty, it causes undefined behaviour.
+2. It has a no exception throw guarantee if the array is not empty.
+Run on IDE
+Output:
+
+begin() and end() function return an iterator(like a pointer) initialized to the first or the last element of the container that can be used to iterate through the collection, while front() and back() function just return a reference to the first or the last element of the container.
+Application
+Given an array of integers, print the difference between the first and the last element.
+Algorithm
+1. Compare the first and the last element.
+2. If first element is larger, subtract last element from it and print it.
+3. Else subtract first element from the last element and print it.
+Run on IDE
+Output:

@@ -1,0 +1,19 @@
+Given a really large number, break it into 3 whole numbers such that they sum up to the original number and count number of ways to do so.
+Examples :
+A total of 10 ways, so answer is 10.
+Naive Approach: Try all combinations from 0 to the given number and check if they add upto the given number or not, if they do, increase the count by 1 and continue the process.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n3) 
+Efficient Approach: If we carefully observe the test cases then we realize that the number of ways to break a number n into 3 parts is equal to (n+1) * (n+2) / 2.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(1) 

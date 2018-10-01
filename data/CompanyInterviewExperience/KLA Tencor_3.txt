@@ -1,0 +1,25 @@
+Before my interview scheduled i tried but could not find any recent interview of KLA Tencor, so i am sharing my own to help you guys. For FRESHERS (MTech(CSE)…software engineer). 
+Round one: Written test on hackerrank scheduled by HR on telephone
+25 objective + 2 programs…..Level of objective test was good. C/C++/ 5 Aptitude/one ques on self join. I followed geeksQuiz site and manag to do 20 question out of 25. Concentrate more on C++.
+Program 1: int fun(char **str1, char ***str1){………………}
+                   A function is given with array of string as input through ” **str1 ” and return output as ” ***str1 “.
+                   Test case: “Abac Cbaa”—————-> Out put is PASS else FAIL.
+                    Reasoning: 1)No. of elements after space and before space are equal
+                                 2)Same characters are present before and after space so PASS ( Do not                                           care about case sensitivity).
+                     Output:    **Str1[i]=PASS corresponding to *str1[i] string.
+                     Solution: traverse array of strings and for each string elements convert either to                                      lower or smaller alphabet. And then EXOR the elements. If left character                                         after Exoring is ” ” (space) then result is PASS.
+Program 2: Matrix input and a program like K -Map but also consider diagonal elements. count number of groups and output count.
+I did Program 1 and got call for telephonic interview.
+Guys team of KLA Tencor is like a friend. They will take you very seriously and will help you alot..so please ignore tension of facing interviewer all you have to do is “C++”. Make your self expert in C++ concepts.
+ques 1: How will you add/multiply very large number.
+ques 2: why you need operator overloading
+ques 3: How default ” = ” operator and copy constructor is used and why we need to use them explicitly
+ques 4: Explain ” +” operator overloading.
+ques 5:  obj2 = obj1….will destructor work for obj2?
+ques 6: If new and malloc both allocated in heap then how to access  them separately? How to count number of objects created by new and created by malloc.
+ques 7: How to compare two objects. Equal method belong to which class.
+quest 8: In which case garbage collector cannot work explicitly.
+I only had basic knowledge of C++…so out of first round.
+Guys If you want to make in this company……C++ is must.
+Please enjoy reading GEEKFORGEEKS
+………………………………..

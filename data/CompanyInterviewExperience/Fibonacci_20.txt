@@ -1,0 +1,12 @@
+Like Fibonacci word, a Tribonacci word. is a specific sequence of digits. The Tribonacci word is formed by repeated concatenation in the same way that the Fibonacci word is formed by repeated addition. But unlike the fibonacci word, Tribonacci word is formed by repeated addition of last three terms and it has its first three terms different from each other.
+The task is to find nth Tribonacci word for a given number n.
+Examples:
+
+Just like in program of Fibonacci word, we use the iterative concept of finding nth Fibonacci word here for finding nth Tribonacci word we can use the iterative concept. So for finding nth Tribonacci word we will take three string Sn_1, Sn_2 and Sn_3 which represent S(n-1), S(n-2) and S(n-3) respectively and on each iteration we will update tmp = Sn_3, Sn_3 = Sn_3 + Sn_2 + Sn_1, Sn_1 = Sn_2 and Sn_2 = tmp  in this way we can find nth tribonacci word.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

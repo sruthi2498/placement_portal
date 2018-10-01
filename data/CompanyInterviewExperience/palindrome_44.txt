@@ -1,0 +1,11 @@
+Given a String find the minimum number of reduce operations required to convert a given string into a palindrome. In a reduce operation, we can change character to a immediate lower value. For example b can be covered to a.
+Examples :
+
+The idea is simple. We traverse string from left and compare characters of left half with their corresponding characters in right half. We add difference between to characters to result.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

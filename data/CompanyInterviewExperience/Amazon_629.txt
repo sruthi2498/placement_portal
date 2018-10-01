@@ -1,0 +1,32 @@
+Hi geeks, I recently hired for amazon. I just want to share my Interview experience with You all.
+Totally 1 Written + 5 F2F
+Written round:
+Q1: Convert a sorted integer Array to balanced binary search tree. This is very simple one and I could do it in O(n) time and O(1)extra space.
+Q2: Write a Program to reverse every k nodes of singly linked list without using extra space. Constraint: k>=2
+F2F round 1:
+Q1: Find the largest element in the sorted rotated integer array in o(log n) time.
+Q2: Find Height of a Binary Tree. This is very easy question, so I did quickly.then he move on to next one.
+Q3: Find your own method to balance an unbalanced binary tree.(you must not use existing methods like AVL, red black or b trees).
+Hint: There is no restriction on placing nodes. You can remove any node from any place and put it in any place.
+I devised an algorithm which will make use of two lists. One list contains nodes far away from the root and this is sorted in decreasing order of levels and left to right if nodes are in same level. Other list contains nodes which are not fully filled. This is sorted increasing order of levels and left to right if nodes are in same level .
+Remove the first node (listed in list1) and insert as a child of first node in list2.add this node also in list 2. Do this operation until the height of the tree becomes log(n). Interviewer was impressed with this and finished the interview.
+F2F round 2:
+Q1: There is a file which contains N words. There may be M anagrams in that file, K words on each anagrams. K>=1, M>=1, N>=1. You need to write an algorithm which will create one list for each anagram with k words and group all M lists with one data structure (This is the main area.we need to think a data structure which will minimize the space and time complexity of word Finding appropriate List and Inserting word).
+I could do the insertion in O(1) time by keeping track of tail pointer in each list. But finding the appropriate list needs o(n) in case of linked list, o(log(n)) in case of binary search tree. Using hash table, you can do this in o(1), but writing a hash function is difficult and inefficient in terms of time. Then I suggested Trie data structure.with this, we can reduce the time complexity well. But space complexity will be more. I told all the ideas to interviewer. They were much satisfied with this. And moved to next question(without writing code J)
+Q2: Find min and max element of an unsorted integer array.
+Very simple question you can do two pass on the array and find it, but number of comparisons will be o(2n). He asked me to reduce it.
+I gave an algorithm which will do the same in O((n/2)*3) which is fairly less than o(2n). They were impressed on my solution and asked weather I have any question .
+F2F round 3: (CS fundamentals and system programming)
+Questions were in C++ patterns, Network Programming, Linux, since I did project on networking, Linux I could perform well in this round.
+F2F round 4: (Hiring manager round):
+Interviewer was keen on testing cultural fit. Nearly 10 to 15 questions on my previous project,
+Why amazon?
+Why you want to leave previous company?
+What initiative you took in prevous company?
+How will you manage conflict with your manager?
+How will you demonstrate ur product to customer?
+F2F round 5: (bar raiser)
+This also had cultural fit questions and then a data structure question.
+Qn: Find the distance between two nodes in a binary tree, no parent pointers are given. I could solve this in post order traversal in o(n) time complexity. He asked me to code in home and send it via mail.
+Geeks for geeks is my Wikipedia for interview preparations. Thanks to geeks for geeks.
+

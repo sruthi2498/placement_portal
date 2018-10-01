@@ -1,0 +1,12 @@
+Given two sorted arrays, A and B, where A has a large enough buffer at the end to hold B.
+Merge B into A in sorted order.
+Examples:
+
+One way is to merge the two arrays by inserting the smaller elements to front of A, but the issue with this approach is that we have to shift every element to right after every insertion.
+So, instead from comparing which one is smaller element, we can compare which one is larger and then inserting that element to end of A.
+Below is the solution for above approach.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity is O(m+n).

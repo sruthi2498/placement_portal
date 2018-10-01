@@ -1,0 +1,20 @@
+Since there is only one interview experience of CouponDunia i think this gonna help students who will opt for it.  
+You must be good enough in writing the codes at the moment because in each interview they made us write full functions.
+Interview process had 3 rounds. 1 coding round of 90 min. with 3 questions. And then two skype interviews.
+Round 1:
+Q1. fishes of different length are given. you have to find out how many fishes can she get of length 10 by making cuts on fish, where number of cuts are limited? ex. 20 30 15(lengths) and number of cuts=3
+Ans. : 5 (20—-2(one cut of 10 10) and 30—-(2 cuts of 10 10 10))
+Q2. minimum jump to reach the destination problem.
+round 2:
+Q1. tell me about yourself?
+Q2. given a string, find the length of longest string where no character repeats twice?
+Q3. There is a dictionary with few words each of length 3 and start and finish word is given. You can reach from one word to another word by changing only one digit. Like from cat, you can reach to hat or bat or cap. What is the minimum number of steps should be taken to reach finish word from start word.
+Q4. given an array. find the pattern it follows?
+there can be 4 patterns only: increasing, decreasing, increase then decrease and decrease then increase.
+round 3:
+Q1. tell me about yourself?
+Q2. print the bottom view of the tree?
+Q3. given a bst, convert it to a binary tree such that each element is replaced by the sum of all the elements greater than it+ its own sum?
+Q4. add two numbers without using arithmetic operators?
+Q5. quicksort takes O(n2) when elements are sorted what is the solution to reduce it to O(nlogn)?
+the interview was quite easy. GUYS I WOULD LIKE TO FOCUS THAT PREPARE “tell me about yourself” VERY WELL. Tell them about why u r so excited about joining there company, whether they ask you or not.

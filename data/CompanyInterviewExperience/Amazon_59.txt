@@ -1,0 +1,16 @@
+this was a pool campus conducted by amazon for internship .based on the internship performance students will be give pre-placement offers or pre-placement interview.
+online round: online round was conducted at respective colleges in batches…there  were 20 technical mcq’s on DBMS, OS, CN,C, OOPS,DS,input/output questions, mostly from geeksquiz and 2 coding questions which were considerably easy.time given – 1 hr 30 minutes.
+1. given a point  (x,y) which is position of a friends house on a coordinate plane. and  a person starts from(0,0),and can move only on x-axis. each time he moves double the steps from previous step and in opposite direction.he starts by taking 1 step in positive x axis.  each step he takes 1 second. given a time n. we have to find the distance between his friends house and his position after n seconds.
+2.given a string and an integer m that denotes number of changes that can be made on the given string.we have to find maximum length of a sub string that can be formed by doing m number of changes such that all alphabets in the substring are same.
+Online was conducted on hackerearth platform. MCQs had negative marking +1 and -0.25. there was no detection of points for wrong submission in coding questions.
+From my college 13, students were selected for 2nd round, and in total 70 students from my city.they did not reveal any cut off criteria but student who solved atleast 1 coding question completely and atleast 8 to 10 (just an assumption) mcq’s correctly were selected for next round.
+Round 1: This was face to face technical interview coducted for all the colleges together. they gave 2 questions and we were asked to write the entire working code and to optimize the solution, the interviewers were friendly and helped us if we got stuck anywhere.after this round 30 students were selected for next round out of 70.
+this round took around 1 hr 15 min.
+Round 2: This round was also a face to face technical interview.the interviewer asked me to introduce myself while he was entering some details in his lappy.then he asked me who took my 1st round. i din knew the name of my 1st round interviewer.he was smiling and said “relax, i was just casually asking”. i was given 2 coding question. for the 1st question he just asked to explain the approach and optimize it and for the 2nd question he asked to write the entire working code and explain it.this round took around 45 min.
+1.given an array we have to find the median of the array when it is sorted but we should not sort it.
+2.https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
+ 
+Round 3:  This round was conducted only for those students for whom they were doubtful. fortunately i was selected in 2nd round itself.
+ 
+Interviewers were friendly. They helped us giving hints wherever we got stuck.
+My advice is be confident. don’t give up, if you are stuck anywhere. Tell them atleast a brute force approach and they will give you hints to optimize it. Don’t be scared, practice questions from geeksforgeeks, almost all of them were asked from geeksforgeeks collection.

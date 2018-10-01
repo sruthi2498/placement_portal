@@ -1,0 +1,37 @@
+Firstly, an online round was conducted. It consisted of verbal and aptitude questions only. No technical or coding questions.
+Shortlisted 48 out of around 100 students for the interviews.
+There were 2 rounds of interviews.
+
+1. Technical Interview
+The interviewer covered almost all the topics that are generally asked in the technical interviews. The asked questions were:
+*Explain in brief about your summer internship project.
+*Differences between SOAP and REST.
+*Do you know any scripting languages?
+*What do you mean by time complexity? What is big O notation?
+*What is the time complexity of the famous sorting algoritmhs?
+*How would you find the second largest element in an unsorted array? n’th largest element? Time complexiy in both the cases.
+*A recursive code was given. Give the output or tell whether the code would generate any compilation/runtime error.
+*Find whether 2 given strings are anagrams. (Written Code)
+*Given a dictionary, containing valid English words, find the minimum number of swaps required to convert one string to another. In one swap, you can only change one letter of the string, such that the new string formed is a valid English word. Hint:- Use graph, where every node is the valid English word, and 2 nodes are connected, if only 1 swap is required to convert one word to another. (Written Code)
+*What is multithreading? How is it efficient?
+*What is OS?
+*What are threads and processes?
+*What are collections in Java?
+*Common questions on OOPS, like what is inheritence, polymorphism, operator overloading, abstract functions, abstraction etc.
+*Puzzle: There are different number of pairs of socks of different colors, c1, c2, c3, …., c20, such that there is 1 pair of c1, 2 pairs of c2, 3 pairs of c3, …., 20 pairs of c20. What is the maximum number of socks you need to take out such that a pair is made, containing both the pieces of same color.
+and many more technical questions.
+
+2. HR Interview
+*Tell me about yourself.
+*Tell me one point you liked about Fidelity, in the presentation.
+*Why Fidelity?
+*What other companies’ interviews have you given?
+*Why should we hire you?
+*Do you have any post-graduation plans?
+*Would you like to work on new, modern technologies, or the conventional technologies, which have been used for years? Why?
+*Have you ever lied?
+*What are your strengths and weaknesses?
+*Your preferred joining location. Why?
+and many more HR related questions.
+Selected 9 students.
+

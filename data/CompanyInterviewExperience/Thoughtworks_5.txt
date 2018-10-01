@@ -1,0 +1,63 @@
+The ThoughtWorks campus drive was held and it continued for 3 days.  No CGPA restrictions were imposed on students. Around 350-400 students appeared for the campus drive.
+The selection process had 6 rounds in total.
+1. Short Coding round
+2. Long coding round
+3. Technical Interview 1
+4. Technical Interview 2
+5. Skype Interview
+6. Phone Interview
+For the coding rounds we used our laptops and a few of them used the college lab systems.Also all the rounds are elimination rounds.You don’t get a second chance. Ruthless, right?
+The rounds(as it happened) are described below.
+Short Coding
+In this round, a small coding question was given to solve. Time limit was 20 minutes.The question was – ” Given an even list of integers fold it in such a way that the new list consists of the elements that have been obtained after adding the first and last element, second and second last element , third and third last element and so on”. Here, list is not a linked list. Its a normal array.
+Pretty basic stuff. Only the correct output was required to make it to the next round.
+Long Coding Round
+110 people made it to this round. This is the round where your object modelling skills come into play. We were expecting an OOP problem with a time limit of 1.5 hours(which is the generic TW style) but TW decided to surprise us. They handed us a paper with a coding problem on it. We had to show them the output within 30 minutes. It was a simple program where the scores of one round of a tennis game was fed to us(as input from console,obviously) and we had to display the player’s name that wins. It was not difficult to implement but they wanted us to pass all the test cases and also take care of the edge cases.
+Many students could not solve this problem and were eliminated instantly. The people who solved the problem were now asked to redo the same problem but this time they had to use object modeling (should have seen it coming, haha, because its TW). They wanted us to take good care while declaring variable names and methods and also wanted proper classes that relate to each other. The time limit was surprisingly 40 mins.
+One important thing to understand here is that when TW gives you an OOP problem to solve, you don’t need to emphasize on finding the solution. Instead, work on making your class model right. That is what they look for.
+22 people made it to the next round.
+Technical Interview 1
+This was held the very next day. All 22 people were interviewed by 2 ThoughtWorkers. This is where you are drilled on almost everything , especially object modelling.
+I was probably the last one to go in for the interview.
+They started with :
+1. Tell me about yourself
+2. The next question was a database design question. The question was :
+When a flight finishes a trip , it is moved into a hangar or an open space where it is properly serviced, example, cleaning, filling fuel, etc. before it is assigned on another trip. Suppose TW is assigned this duty of servicing the airplane. How would you design a database that would help TW take care of this entire operation and also generate revenue by keeping track of the amount of time an airplane spends on TW services and charge the airlines for the services.
+Handle ambiguity for this problem. For example
+“Are we talking about multiple airports or a single airport?”
+“Are open spaces and hangars essentially the same ? ”
+“Are there multiple levels? ”
+“What kind of services are we talking about here? ”
+“Can the same services be provided to the planes in open spaces and hangars? ”
+“Size of the hangar/open space”
+Then they moved to data structures and algorithms.
+3. Find peak elements in an array. Given an array , reorder the array in alternate positions of peaks and valleys.
+4. Give a data structure that would give us a peak element in O(1) time.
+5. Some tree questions.
+6. How would you find the nonveg restaurants in Siliguri? (No, the answer is not Zomato :p). Since I gave a graph solution with BFS , he asked me what would be a better option if the search was made from Chennai.
+7. Difference between BFS abd DFS.
+8. The 25 horse puzzle(standard Google question).
+Technical Interview 2
+Only 9 people made it to this round.
+They asked me to introduce myself again.
+The questions were:
+1. Discussions on multithreading : Java’s multithreading mechanism, shared resource, monitor.
+2. How does Java give threads access to a shared resource. Discussions on synchronization.
+3. One of the interviewer gave me a small code snippet and asked me to explain the process of synchronisation. Was synchronisation even necessary in that particular code?
+4. Questions on different collection classes in JAVA
+5. Search an element in a sorted rotated array. Do it in O(log n) time.(code on paper)
+6. The candle puzzle
+The technical interviews are extremely thorough and exhausting but if you know your stuff properly then you’ll enjoy it. The interviewers are extremely friendly and help you if you’re stuck somewhere. Interviews are basically discussion alike, they want to test your capability more than your knowledge. Handling ambiguity is extremely important, they want you to clarify your doubts. Before jumping to a solution, think it through. Both of my technical interviews were around one and a half hours each.
+Some interesting technical questions asked to the other interviewees were:
+1. Design class model for our galaxy.
+2. How does Youtube work?
+3. Design an Icecream parlour.
+4. Code up solutions to LinkedLists like folding, find intersection,detect cycle, find kth to last element using only 1 traversal.
+5. Philosophers dining problem.
+Skype Interview
+8 people made it to this round. In this round a ThoughtWorker joined me on a Skype call.
+This round was based on TW’s third pillar of social and economic justice. He wanted to know my opinion on some of the most relevant stuff with economic and social justice. Interviewer was extremely easy to talk to and this round lasted around 45-50 minutes.
+Phone Interview
+This round had generic HR questions to be pounded on me. They were pretty normal that you would find in any other HR interview round. This round lasted for about 40 minutes.
+At the end of the day, all 8 of us were offered the position of an Application Developer at ThoughtWorks.
+ThoughtWorks is an extremely good company to work for. They look for developers who are not only good at what they do but also capable of thinking out of the box. If you are appearing for TW make sure to flex your OOP muscles.

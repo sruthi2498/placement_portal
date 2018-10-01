@@ -1,0 +1,11 @@
+Heap’s algorithm is used to generate all permutations of n objects. The idea is to generate each permutation from the previous permutation by choosing a pair of elements to interchange, without disturbing the other n-2 elements.
+Following is the illustration of generating all permutation of n given numbers.
+Example:
+Algorithm: 
+Implementation: 
+
+Run on IDE
+Run on IDE
+
+References:
+1. “https://en.wikipedia.org/wiki/Heap%27s_algorithm#cite_note-3

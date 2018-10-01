@@ -1,0 +1,17 @@
+Array classes are generally more efficient, light-weight and reliable than C-style arrays. The introduction of array class from C++11 has offered a better alternative for C-style arrays.
+begin() function is used to return an iterator pointing to the first element of the array container. begin() function returns a bidirectional iterator to the first element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:
+end() function is used to return an iterator pointing to the last element of the array container. end() function returns a bidirectional iterator to the last element of the container.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a no exception throw guarantee.
+2. Shows error when a parameter is passed.
+Run on IDE
+Output:

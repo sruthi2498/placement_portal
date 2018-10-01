@@ -1,0 +1,48 @@
+Hello friends, Amazon recently visited our campus hiring for SDE. They are usually the first or second company to visit our campus, which gives little time for preparation. so better prepare yourself in summer vacations (read g4g).
+I had great fun preparing for the Amazon, and really enjoyed myself through the interview process. The process spanned across two days. The interviewers were really nice and I really felt really comfortable throughout the interview process.
+Let me share my experience with you.
+First round (1 hour 30 mins) (Apti + coding):
+This was the online round, conducted on hackerank.
+20 questions were asked from C/C++/Java outputs, OS, DS, Algorithms, etc.
+and 2 coding questions were asked.
+Q1) Given a linked list, check whether it is palindrome or not.
+https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+Q2) Given a matrix of NxM, consisting of alphanumeric characters, print the matrix spirally.
+https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
+After this round around 30 students were selected from 250 students.
+F2F 1:(1 hour 30 mins) (Technical):
+This round started with some basic questions like ‘tell me about yourself’ and some questions on my projects.
+after that coding questions were asked:
+Q1) Given a matrix of NxM.
+Now consider a submatrix in it having top-left coordinates as (x1,y1) and bottom right coordinates as (x2,y2).
+Now many queries are performed in which (x1,y1) & (x2,y2) are entered.
+We have to find the sum of elements in this sub-matrix in O(1) time complexity for each query.
+Eg:
+1 2 3 4
+5 6 7 8
+9 1 0 2
+3 4 1 5
+(0,0)-(1,2) : 24
+(1,1)-(2,2) : 14
+Q2) We are given an alien language, in which we dont know the arrangement of the letters.
+Now we are given some words of that alien language in dictionary order.
+using those words we need to find the order the the letters of the alien language.
+https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+Q3) We are given the preoder traversal of a BST, we need to create the BST using the given traversal.
+But we can’t use inorder traversal(i.e. sort the elements and use the array.)
+and also we need to create the BST in single traversal of the preorder list.
+Q4) We need to reverse a Linked List using single pointer. (in other words : recurrsively)
+He asked me to write the code for reversal.
+After this round some students were selected for second round of the interview process.
+Luckily i was among them.
+F2F 2:(1 hour) (Technical):
+This round also consisted of coding questions:
+Q1) Given a tree, print the tree in Zig-Zag manner.
+https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+Q2) Given a sorted array, we need to find that element whose value is equal to that of its index value.
+He asked me to do it in log(N) time complexity.
+Q3) Given a tree, now the given tree is special as in this tree all node has only 1 pointer which points to its parent.
+Now, in this tree we are given any 2 nodes, and we need to find their lowest common ancestor(LCA).
+Hint: This question is similar to intersection of 2 linked lists.
+In the end he asked me if i had any questions to ask.
+Thanks to geeksforgeeks 🙂

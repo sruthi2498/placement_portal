@@ -1,0 +1,246 @@
+Given a number N, the task is to print the following pattern:-
+Examples:
+Approach:  The common observation is that the square thus formed will be of size (2*N-1)x(2*N-1). Fill the first row and column, last row and column with N, and then gradually decrease N and fill the remaining rows and columns similarly. Decrease N every time after filling 2 rows and 2 columns. 
+Below is the implementation of the above approach:
+
+Run on IDE
+// Java program to print
+// the spiral pattern
+class GFG
+{
+// Function to print the pattern
+static void pattern(int value)
+{
+// Declare a square matrix
+int row = 2 * value – 1;
+int column = 2 * value – 1;
+int[][] arr = new int[row][column];
+int i, j, k;
+for (k = 0; k < value; k++)
+{
+
+	// store the first row
+	// from 1st column to last column
+	j = k;
+	while (j < column - k) 
+	{
+		arr[k][j] = value - k;
+		j++;
+	}
+
+	// store the last column
+	// from top to bottom
+	i = k + 1;
+	while (i < row - k)
+	{
+		arr[i][row - 1 - k] = value - k;
+		i++;
+	}
+
+	// store the last row
+	// from last column 
+	// to 1st column
+	j = column - k - 2;
+	while (j >= k)
+	{
+		arr[column – k – 1][j] = value – k;
+		j–;
+	}
+	// store the first column
+	// from bottom to top
+	i = row – k – 2;
+	while (i > k)
+	{
+		arr[i][k] = value – k;
+		i–;
+	}
+}
+// print the pattern
+for (i = 0; i < row; i++) 
+{
+	for (j = 0; j < column; j++) 
+	{
+		System.out.print(arr[i][j] + " ");
+	}
+	System.out.println();
+}
+}
+
+// Driver code
+public static void main(String[] args) 
+{
+	int n = 5;
+	pattern(n);
+}
+}
+
+// This code is contributed
+// by ChitraNayal
+
+
+
+[tabby title="Python 3"]
+
+# Python 3 program to print 
+# the spiral pattern
+
+# Function to print the pattern
+def pattern(value):
+    
+	# Declare a square matrix
+	row = 2 * value - 1
+	column = 2 * value - 1
+	arr = [[0 for i in range(row)] 
+	          for j in range (column)]
+
+	for k in range( value):
+
+		# store the first row
+		# from 1st column to 
+		# last column
+		j = k
+		while (j < column - k):
+			arr[k][j] = value - k
+			j += 1
+
+		# store the last column
+		# from top to bottom
+		i = k + 1
+		while (i < row - k):
+			arr[i][row - 1 - k] = value - k
+			i += 1
+
+		# store the last row
+		# from last column 
+		# to 1st column
+		j = column - k - 2
+		while j >= k :
+			arr[column – k – 1][j] = value – k
+			j -= 1
+		# store the first column
+		# from bottom to top
+		i = row – k – 2
+		while i > k :
+			arr[i][k] = value – k
+			i -= 1
+	# print the pattern
+	for i in range(row):
+		for j in range(column):
+			print(arr[i][j], end = ” “)
+		print()
+# Driver code
+if __name__ == “__main__”:
+	n = 5
+	pattern(n)
+# This code is contributed
+# by ChitraNayal
+// C# program to print
+// the spiral pattern
+using System;
+class GFG
+{
+// Function to print the pattern
+static void pattern(int value)
+{
+// Declare a square matrix
+int row = 2 * value – 1;
+int column = 2 * value – 1;
+int[,] arr = new int[row, column];
+int i, j, k;
+for (k = 0; k < value; k++) 
+{
+
+	// store the first row
+	// from 1st column to 
+	// last column
+	j = k;
+	while (j < column - k) 
+	{
+		arr[k, j] = value - k;
+		j++;
+	}
+
+	// store the last column
+	// from top to bottom
+	i = k + 1;
+	while (i < row - k) 
+	{
+		arr[i, row - 1 - k] = value - k;
+		i++;
+	}
+
+	// store the last row
+	// from last column 
+	// to 1st column
+	j = column - k - 2;
+	while (j >= k)
+	{
+		arr[column – k – 1, j] = value – k;
+		j–;
+	}
+	// store the first column
+	// from bottom to top
+	i = row – k – 2;
+	while (i > k)
+	{
+		arr[i, k] = value – k;
+		i–;
+	}
+}
+// print the pattern
+for (i = 0; i < row; i++)
+{
+	for (j = 0; j < column; j++) 
+	{
+		Console.Write(arr[i, j] + " ");
+	}
+	Console.Write("\n");
+}
+}
+
+// Driver code
+public static void Main()
+{
+	int n = 5;
+	pattern(n);
+}
+}
+
+// This code is contributed 
+// by ChitraNayal
+
+
+[tabby title="PHP"]
+
+= $k)
+		{
+			$arr[$column – $k – 1][$j] = $value – $k;
+			$j–;
+		}
+		// store the first column
+		// from bottom to top
+		$i = $row – $k – 2;
+		while ($i > $k)
+		{
+			$arr[$i][$k] = $value – $k;
+			$i–;
+		}
+	}
+	// print the pattern
+	for ($i = 0; $i < $row; $i++)
+	{
+		for ($j = 0; $j < $column; $j++)
+		{
+			echo $arr[$i][$j] . " ";
+		}
+		echo "\n";
+	}
+}
+
+// Driver code
+$n = 5;
+pattern($n);
+
+// This code is contributed 
+// by ChitraNayal
+?>

@@ -1,0 +1,82 @@
+I interviewed at Infinera for the post of Layer 3 Routing/Signaling Developer. 
+OVER ALL PROCESS:
+First there was a written round. Then we had three technical, one managerial and one HR rounds. Interview questions were good, and the interviewers were very friendly and easy to move with.
+Background: I had worked with timers, and IPv6. Hence most technical questions were relevant to my resume. Almost all questions were very basic and easily answerable. Apart from resume, they expected only multi-threading, socket programming and C++ knowledge.
+ROUND 1: WRITTEN :
+In the written round, there were 30 questions. The questions were grouped into easy and hard sections. Easy section had one mark for each question. Hard section 3 marks for a question. No negative marking.
+We had some few puzzles.
+1. What is the angle between the minute and hour hand when time is 03.15 ?
+2. That poison in 1000 bottles and to be found in one hour problem from http://geeksquiz.com/puzzle-19-poison-and-rat/
+3. You have to measure from 1kg to 40kg. What is the least number of weights you should use?
+4. A man climbs uphill in 12 hours from 06am to 06pm , in variable speed and resting at various points. He rests for the night, and starts descending again in variable speeds and resting at various points. He took 12 hours, same 06 am to 06pm of next day to get downhill.What is the probability that he was at the same place at the same time of the day during his uphill and downhill travel?
+Then we had questions related to vectors, copy constructors, exception handling and overloading in C++. Most of the technical questions were
+“Find the output of the following code snippet” format. Few that I remember are :
+5. what is the output of (0x0A0A0A0A >> 1)
+6. Dead child process ID is returned by which socket function?
+7.
+8.
+Then some networking related questions were there. They were all easy to answer. So, I remember only these two.
+9. What is the class of Multicast Address in IPv4?
+10. What does ARP do?
+Then First Technical Round started with Tell me about your self. It was a white board discussion. Then the following questions :
+1. What is Secure Neighbor Discovery? How it works?
+2. Explain in detail how a packet from external, does ARP and reaches the relevant host.
+3. How does DHCP work?
+4. What is raw socket?
+5. What are the various scopes in IPv6 and explain where they are employed.
+6. Write the TCP socket client server architecture and explain it. (I drew it)
+7. What is little and big endian. Give examples of little and big endian machines. Why did all agree on having big endian as network byte order?
+Then I was asked to write a program to find the endianess of a machine. I told the logic. But the interviewer gave me a paper and a pen and asked me to write a full program that will work if typed in system.
+Then he asked program to find the size of a structure without using sizeof () operator. Again had to write full program for it. I wrote it as a function, interviewer said that he had expected it to be written as a macro, but accepted my answer.
+Then another program to implement my own version memcopy using void pointers. I made mistakes by accessing void pointer directly. The interviewer was kind enough to guide me by pointing out my mistakes.
+Then Second Technical Round was there. Again started with my project experience. The interviewer was very soft spoken and prompted whenever I was trying to bring out something. And also, he gave enough time to think and answer.
+8. How do you implement timer in C coding?
+9. Who manages timers? Kernel or User?
+10. What is the maximum number of timers that a process can have?
+11. What is PIM sparse mode? Explain in detail.
+12. What is the use of a Rendez-vous point? What does is its function?
+13. What are mutex and semaphores? What is the difference between them ?
+14. What is multi-threading?
+15. Have you written any tools in scripting?
+16. What is a tree? Why is that data structure used? Applications.
+17. Compare a tree and a Linked List.
+Then Third Technical Round was very short and it was like rapid fire round to judge your technical strength.
+18. What is routing? Give some examples of routing protocol.
+19. What is STL? Give me some applications of it.
+20. What is timer? How do you implement it?
+21. How is one clock tick measured in kernel?
+22. What is difference between IPv4 and IPv6?
+23. Give me some applications of raw socket.
+24. What is new in DHCP6, that was not there in DHCP.
+25. Difference between TCP and UDP.
+26. What is dynamic casting?
+27. When is memory allocated from stack and heap?
+28. How does Valgrind work to find memory leaks? Tell with respect to internal working of Valgrind.
+Finally he asked “Are you a hard worker?” I was really shocked  with this question, as I had not heard it before.
+Then finally managerial round. It was also like an extension of technical round.
+29. How does IPv6 resolve address? Is it resolved in kernel space or user space?
+30. What is a routing table? What data structure will you use for it?
+31. Tell me about your rapport with your TL. How do you interact with your tech lead?
+32. What is your ambition? Where do you see yourself in 5,10,15 years?
+33. You got into software as a fresher. What were your expectations vs reality? Are you disappointed with anything?
+34. How many lines of code have you written in your career so far?
+35. What was your ambition when you were in school?
+36. Why did you do Engineering?
+37. Has any of your code/fix that you gave come back to you as faulty/with issues?
+Then finally I had HR round. It was very short.
+38. Why are you looking for job change?
+39. How long have you been looking for job change?
+40. Do you have any plans for doing higher studies?
+41. What is your expected CTC?
+42. Do you have any references within our company?
+Those who attended with me also said they had questions from their resumes only and relevant to their profiles. Some of their questions are :
+1. How do you find and eliminate loops in linked lists?
+2. Given n, what is the probability that n is a twin prime?
+3. What are function pointers? Applications of function pointers.
+4. Scheduling mechanisms in Linux. How it happens?
+5. How does RTOS work? And related questions.
+6. Write a program to reverse words in an input sentence.
+7. Another program to print the sentence in reverse order with words intact, after removing spaces.
+CONCLUSION:
+Finally the interview process was over. It started at 10am and went on till 04 pm. All the interviewers were very easy to move with and friendly. They provided tea/biscuits/water bottle throughout the day and also gave us all lunch. They also provided paper and pen for the tests, but the interviews were mainly whiteboard for me. The office was in MG road, and it was easy to find via Google Maps itself.
+In all rounds, I went ahead and asked the interviewer for feedback and about their expectations. They were approachable and answered affably. I asked them questions, at the end of interview to interact with them. I asked them if I had made any mistakes during the interview, and tried to learn from them. Being my first ever interview, it was not like a very scary process for me.

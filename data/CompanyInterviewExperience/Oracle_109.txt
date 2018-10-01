@@ -1,0 +1,7 @@
+Write code to convert a given number into words. For example, if “1234” is given as input, output should be “one thousand two hundred thirty four”.
+Following is the implementation for the same.  The code supports numbers up-to 4 digits, i.e., numbers from 0 to 9999.  Idea is to create arrays that store individual parts of output strings. One array is used for single digits, one for numbers from 10 to 19, one for 20, 30, 40, 50, .. etc, and one for powers of 10.
+The given number is divided in two parts: first two digits and last two digits, and the two parts are printed separately.
+Run on IDE
+Run on IDE
+Run on IDE
+

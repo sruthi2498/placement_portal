@@ -1,0 +1,16 @@
+as we know, internally unordered_map is implemented using hash table so, a bucket is a slot in the internal hash Table to which elements are assigned based on the hash value of their key. Buckets are numbered from 0 to (bucket_count-1). Hence this function returns the bucket no. where element with key is located in unordered_map.
+Time Complexity: O(1).
+Syntax:
+There are two more functions regarding bucket:
+1. std::bucket_count: This function is used to count the total no. of buckets in the unordered_map. No parameter is required to pass into this function.
+Time Complexity: O(1).
+Syntax:
+2. std::bucket_size: This function count the number of elements present in each bucket of the unordered_map.
+Time Complexity: Linear in the bucket size.
+Syntax:
+Run on IDE
+Output:
+We can also print all the elements present in each bucket of the unordered_map.
+Run on IDE
+Output:
+Use of bucket in std::unordered_map: There is a number of algorithms which require the objects to be hashed into some number of buckets, and then each bucket is processed. Let say, you want to find duplicates in a collection. You hash all items in the collection, then in each bucket you compare items pairwise. A bit less trivial example is Apriori algorithm for finding frequent itemsets.

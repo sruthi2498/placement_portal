@@ -1,0 +1,39 @@
+Goldman Sachs visits our campus every year for both campus placements and internships. Of late, their process has become pretty stable, they generally conduct a three part test online, followed by interviews on day 1 (December 1). I applied via the campus placement cell, was shortlisted for interview, and eventually was given an offer (which I accepted). This is an overview of both the test as well as the interview process I went through.
+Held on Hackerrank, you are allowed to switch between sections. Each section has a separate timer, which will stop when you switch. One strategy could be to sacrifice some section (ML, since it was shit) and use that time for the other questions. Two sections can be done fully if you have some luck and you manage your time properly. Also note, GS will not use the entire test result to shortlist. Different teams will look at different things, so if you do really well in one section or two sections, you have a good shot at interview. 
+ 
+60 minutes, 5 MCQs, 2 coding questions. Each MCQ was +10/-3, Coding questions were +20, +30 with partial marking (although it wasn’t specified how much, and Hackerrank does show how many test cases passed)
+(30) points
+You are given a list of n tourist bookings (start date, duration), and the total number of tourists that can simultaneously be in the country. When processing bookings, you have to check if the current number of tourists existing are more than number allowed, and if so, deny the booking. O(n^2) was obviously giving TLE, it is possible to do it in O(nlogn)
+(20) points
+You are given a number (in the form of a string) and an integer k. You have to output the maximum palindromic number that can be formed from the given number and by using at most k changes to the number (replacing digits is the only allowed operations). Output -1 if it is not possible to get a palindrome. 
+ 
+MCQs : 
+ 
+ 
+10 questions. 9 MCQs and one numerical type, all were +10, the MCQs had -3, numerical had no negatives.
+Shortlists are based both on your resume as well as test scores. Depending on how well you did in each section, different teams will shortlist you for interviews. For me, I had attempted 5 out of 5 coding MCQs correctly (And gotten one wrong), and 9 out of 10 quant questions(all 9 correct). I got a few tests cases right on the first coding question, that may have given me some more marks partially. ML section was totally garbage. This was enough to get me a shortlist in both the teams that look for coding skills (GS Technology) and teams that look for quant skills.
+ 
+As mentioned, depending on how many teams look at you, you may have multiple shortlists. I had 2 coding interviews (by the Technology team) and 4 quant interviews. I believe of each kind, the first is a screening test, and the second is a selection test. My interview order was Qp/Q1/Q2/Tp/T1/Q3, where Q/T indicate Tech/Quant, and p indicates prelims round whereas the number indicates a particular team specific round. At each interview, try to catch the name of the divisions they work at, and try to ask them about the work there. If your interviews are going moderately well, you may be given a shot at multiple teams, and it is a good way to figure out what team interests you the most, and try and make that clear during the interviews.
+Interview one :
+ 
+The rest of the interview was a brief overview of the team, what they did. I asked some questions about the kind of scale they faced. The interviewer talked about a project he was working on, which was ensuring synchronisation on a global scale in milliseconds. This seemed pretty neat to me, but I had explained already that I had no systems exposure, and I would prefer a quant team over a tech team.
+Interview two :
+ 
+In both interviews, the interviewer will talk about their teams. This is a good opportunity to ask specific questions. As I didn’t have any background in databases or networks, I couldn’t really appreciate the scale or the impact their team was having, so I just asked generic questions about work etc.
+ 
+ 
+Interview one :
+Basic probability puzzles. I got them to skip all the puzzles I had come across, so it wasn’t really a big deal.
+ 
+Interview two :
+Another round of probability puzzles. Again, mostly easy stuff. I don’t remember any specific puzzle from this, because this happened in between other interviews and I was pretty much on auto-pilot and have no clue what happened. Just make sure you approach the questions from the basics, and talk to the interviewer all the time.
+ 
+Interview three :
+This was more of a discussions session. I was asked one puzzle, and later on discussions about the work at the team of the interviewer.
+He then explained the work of his team, and what sort of models they used. This was a very interesting conversation for me, I did not realise the scale of operations of this particular team, and I managed to ask a few questions about it because it was genuinely intriguing.
+ 
+Interview four :
+This was a puzzle round, coupled with some generic questions about what my weaknesses and strengths were, along with discussion on the teams work. Some questions that I recall :
+ 
+ 
+In all the quant interviews (barring the third), I was also asked a lot of other puzzles. Most of these were things I had seen earlier (tiling with squares with shaded triangles, breaking a stick and forming triangle, ants colliding on a triangle etc). For all of these, I asked them to change to a different question. I initially thought this would reflect badly on me as a candidate, but I’m not too sure now. I think it is good if you tell them beforehand that you have seen a puzzle. In the worst case, they will ask you to show them the solution, in the best case you will get a different puzzle to solve. Always try and clarify all aspects of the question with your interviewer, and never hesitate from thinking out loud or giving partial solutions. They are interested more in how you are able to get from a simple naive inefficient solution to an optimised one.

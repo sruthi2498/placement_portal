@@ -1,0 +1,6 @@
+You are given a string, find its rank among all its permutations sorted exicographically.
+Examples:
+We have already discussed solutions to find Lexicographic rank of string 
+In this post, we use the STL function “next_permutation ()” to generate all possible permutations of the given string and, as it gives us permutations in lexicographic order, we will put an iterator to find the rank of each string. While iterating when Our permuted string becomes identical to the original input string, we  break from the loop and the iterator value for the last iteration is our required result.
+Run on IDE
+Output:

@@ -1,0 +1,21 @@
+This was a drive for SDE-1 and SDE-2 .
+HackerRank Round:
+This was an one hour test with two questions on hackerrank platform
+After this round around 25 candidates were selected for the next round.
+Machine Coding Round:
+Candidates were divided into groups and each group was given different problems to solve. Full working code was required with any candidate’s preferred language. It was 90 min round.
+a. Read Operation : – Minimum time to read a particular key from cache system. This should be followed by writing the key in all levels above it. Eg. if “key” is found at level ‘i’, add this key to cache present at 1 to i-1 level.
+b. Write Operation: – Any write Operation should write  in cache of all levels.
+You can choose any algorithm for cache management like LRU, MRU.
+BONUS POINTS:-
+a. Show the current usage of each level cache.(Number of elements vs total Capacity of cache)
+b. Average read time and average write time.
+There was a long discussion on the code written and several test cases were given to check all boundary conditions.
+After this round, around 12 candidates were selected.
+ 
+Algorithm and Problem Solving Round:
+Two questions were asked, whose pseudo code was to be written.
+After this round around 6 candidates were selected for final Hiring Manager Round.
+Hiring Manager Round:
+Discussion on Projects. Current role in the company and implementation process in the company. Discussion on various teams and their work in the company.
+

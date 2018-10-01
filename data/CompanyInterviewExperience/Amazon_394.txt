@@ -1,0 +1,57 @@
+I recently had interviews with Amazon.com, Bangalore.
+Here’s my interview experience
+Written round:
+1) Insert a number at its correct position in a sorted circular linked list.
+2) Convert a Binary Search Tree into a Binary tree where value of
+each node in the tree is equal to sum of all nodes greater than it.
+3) Clone a Binary Tree with random pointer.
+Face to Face Round 1 (Technical ~ 1 hour)
+1) Given an array indicating stock prices on each day for a n days. At any given day,you could:
+a) Buy only one stock.
+b) Sell any number of stock(s) from what you have bought.
+c) Do nothing.
+Find the maximum possible profit that you could achieve by doing transactions given the price array for n days.
+2) Given a m*n matrix with LEDs, having each cell representing the state of the LED as either ON(1)or OFF(0). Given a cell position, state of all the adjacent (in all 8 direction) cells sharing the same state as the given cell toggles and the effect cascades. Represent the final state of the matrix.
+3) Given a deck of n cards, in each iteration the top card is removed and pushed to the end and the second card is removed from the deck. For eg: In 1st iteration, 1st card will added to the end and 2nd card will be removed, again 3rd card will be added to the end and 4th card will be removed and so on. Find the last card which will be remained.
+Face to Face Round 2 (Technical ~ 1:30 hours)
+1) Given a boolean matrix with every row sorted, find the row with maximum number of 1s.
+2) Given a paragraph and two words A and B, find the minimum distance between a occurrence of A and B.
+3) Given two valid three letter dictionary words, find the minimum number of steps required to transform first word to second word. Following are the transformation rules –
+a) You can, in a single step, change a single letter in the word.
+b) Each transition should result in a valid word. Assume you have been provided a helper function boolean isValid (String word) which tells you if a word is valid or not.
+c) This must be done with minimum transitions.
+Example: Transform CAT to TOY. One of the several possible transformations is CAT -> CAR -> TAR -> TOR -> TOY
+4) Sort a linked list which is in alternating ascending and descending orders.
+For eg :
+5) Find the next greater element for each element of an unsorted array.
+Some Computer Science Fundamentals now :
+1) Explain what happens in the background when you enter “ls” command on unix shell.
+2) Difference between process and threads.
+3) What is semaphore and mutex. What is Readers-Writers problem? Explain solution with code.
+4) Difference between TCP and UDP.
+Few more questions which I don’t remember now.
+Face to Face Round 3 Fa(Hiring Manager ~ 1 hour)
+1) Tell me about yourself.
+2) Why do you want to change your current company? Why Amazon?
+3) Tell me about your current Projects. What is your role? Tell me architecture of this project.
+4) Scanned through my resume and asked about everything mentioned in it.
+5) Design question : Design an autocomplete library for a keyboard in a mobile device which does following tasks:
+a) Autosuggest words while typing from the inbuilt dictionary.
+b) Suggest words based on your previous inputs:
+For eg: If you frequently type “Thank you”, so if you type “Thank” then your library should suggest “you” as first result.
+I was asked to tell which data structure would I use and write classes and ethods for this library.
+Face to Face Round 4 (Bar raiser ~ 1:30 hours)
+This round was taken by two guys from different teams and both of them were bar raisers of their respective teams. I was asked to use the whiteboard in this round.
+1) Both of them gave a brief description about themselves.
+2) Tell me about yourself.
+3) Why do you want to change your current company? Why Amazon?
+4) Tell me about your current Projects. What is your role? Draw the architecture of this project.
+5) Then one of the interviewer gave a C code snippet and asked me what this piece of code does?
+What the problems that you see in this code?
+6) Connect all the siblings node in a binary tree.
+Follow up questions:
+a) Now connect all the non-siblings nodes as well (basically connect all nodes at the same
+level). ( cousins )
+b) Now write a recursive solution of the same.
+I took a long time in coming up with the recursive solution for this question, but eventually solved it.
+For each question I was asked write production level code.

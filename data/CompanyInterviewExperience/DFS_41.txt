@@ -1,0 +1,8 @@
+Given an undirected connected tree with N nodes (and N-1 edges), we need to find two paths in this tree such that they are non-intersecting and the product of their length is maximum.
+Examples:
+
+We can solve this problem by depth first search of tree by proceeding as follows, Since tree is connected and paths are non-intersecting, If we take any pair of such paths there must be a third path, connecting these two and If we remove an edge from the third path then tree will be divided into two components — one containing the first path, and the other containing the second path. This observation suggests us the algorithm: iterate over the edges; for each edge remove it, find the length of the path in both connected components and multiply the lengths of these paths. The length of the path in a tree can be found by modified depth first search where we will call for maximum path at each neighbor and we will add two maximum lengths returned, which will be the maximum path length at subtree rooted at current node. 
+Implementation Details:
+Input is a tree, but there is no specified root in it as we have only collection of edges. The tree is represented as undirected graph. We traverse adjacency list. For every edge, we find maximum length paths on both sides of it (after removing the edge).  We keep track of maximum product caused by an edge removal.
+Run on IDE
+Output:

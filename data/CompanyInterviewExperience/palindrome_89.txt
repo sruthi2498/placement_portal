@@ -1,0 +1,18 @@
+In Manacher’s Algorithm Part 1 and Part 2, we gone through some of the basics, understood LPS length array and how to calculate it efficiently based on four cases. In Part 3, we implemented the same.
+Here we will review the four cases again and try to see it differently and implement the same.
+All four cases depends on LPS length value at currentLeftPosition (L[iMirror]) and value of (centerRightPosition – currentRightPosition), i.e. (R – i). These two information are know before which helps us to reuse previous available information and avoid unnecessary character comparison.
+
+If we look at all four cases, we will see that we 1st set minimum of L[iMirror] and R-i to L[i] and then we try to expand the palindrome in whichever case it can expand.
+Above observation may look more intuitive, easier to understand and implement, given that one understands LPS length array, position, index, symmetry property etc.
+
+Run on IDE
+Run on IDE
+Output:
+Other Approaches
+We have discussed two approaches here. One in Part 3 and other in current article. In both approaches, we worked on given string. Here we had to handle even and odd positions differently while comparing characters for expansion (because even positions do not represent any character in string).
+To avoid this different handling of even and odd positions, we need to make even positions also to represent some character (actually all even positions should represent SAME character because they MUST match while character comparison). One way to do this is to set some character at all even positions by modifying given string or create a new copy of given string. For example, if input string is “abcb”, new string should be “#a#b#c#b#” if we add # as unique character at even positions.
+The two approaches discussed already can be modified a bit to work on modified string where different handling of even and odd positions will not be needed. 
+We may also add two DIFFERENT characters (not yet used anywhere in string at even and odd positions) at start and end of string as sentinels to avoid bound check. With these changes string “abcb” will look like “^#a#b#c#b#$” where ^ and $ are sentinels.
+This implementation may look cleaner with the cost of more memory.
+We are not implementing these here as it’s a simple change in given implementations.
+Implementation of approach discussed in current article on a modified string can be found at Longest Palindromic Substring Part II and a Java Translation of the same by Princeton.

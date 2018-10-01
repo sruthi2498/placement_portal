@@ -1,0 +1,8 @@
+Given a singly linked list, find if the linked list is circular or not.  A linked list is called circular if it not NULL terminated and all nodes are connected in the form of a cycle.  Below is an example of circular linked list.
+
+An empty linked list is considered as circular.
+Note  that this problem is different from cycle detection problem, here all nodes have to be part of cycle.
+The idea is to store head of the linked list and traverse it.  If we reach NULL, linked list is not circular.  If reach head again, linked list is circular.
+Run on IDE
+Output : 
+

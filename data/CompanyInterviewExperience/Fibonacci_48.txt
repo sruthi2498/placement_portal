@@ -1,0 +1,15 @@
+Given a limit, find the sum of all the even-valued terms in the Fibonacci sequence below given limit.
+The first few terms of Fibonacci Numbers are,  1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233 ,… (Even numbers are highlighted).
+Examples :
+
+A simple solution is to iterate through all prime numbers while the next number is less than or equal to given limit. For every number, check if it is even. If the number is even, add it to the result.
+An efficient solution is based on the below recursive formula for even Fibonacci Numbers
+Refer this more details of above formula.
+So while iterating over Fibonacci numbers, we only generate even Fibonacci numbers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

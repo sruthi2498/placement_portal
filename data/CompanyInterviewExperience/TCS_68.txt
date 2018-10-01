@@ -1,0 +1,16 @@
+In TCS 2017 campus placement, first round has introduced new pattern. This year onward, the test shall consist of 4 sections, instead of the earlier two. The duration, however, shall remain the same, i.e. 90 minutes. The details are:
+1. Verbal Test (10 Mins) : This shall be similar to previous year’s section.
+2. Quantitative Test (40 Mins) : This section will have only 20 questions now.
+3. Test on Programming Language Proficiency (20 Mins) : This section shall have MCQ based questions related to basic programming concepts (on C language).
+4. Coding Test (20 Mins) : This section shall require the student to solve a coding problem real time using an in built compiler (on C Language).
+To solve this 4th section you can’t use keywords like “scanf, getc, getch, getchar”  so to solve this type of coding problem. You have to use input from command line arguments.
+Sample Program to Print all Command Line argument integers
+Run on IDE
+Output:
+If command line arguments will be 24 50.
+Here is another sample question for this type of questions.
+Problem Statement : Write a C program to calculate the factorial of a non negative integer N. The factorial of a number N is defined as the product of all integers from 1 up to N. Factorial of 0 is defined to be 1. The number N is a non negative integer that will be passed to the program as the first command line parameter. Write the output to stdout formatted as an integer WITHOUT any other additional text. You may assume that the input integer will be such that the output will not exceed the largest possible integer that can be stored in an int type variable.
+Example:
+Run on IDE
+Output:
+In this, the programs asked in the exam are of moderate difficulty if you practice college’s first year C syllabus you should get good marks. Programs like Area of a circle, reversing a string, palindromes are asked.

@@ -1,0 +1,18 @@
+Given n strings and a weight associated with each string. The task is to find the maximum weight of string having the given prefix. Print “-1” if no string is present with given prefix.
+Examples:
+
+Method 1: (Brute Force)
+Check all the string for given prefix, if string contains the prefix, compare its weight with maximum value so far.
+Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Method 2 (efficient):
+The idea is to create and maintain a Trie. Instead of the normal Trie where we store the character, store a number with it, which is maximum value of its prefix. When we encounter the prefix again update the value with maximum of existing and new one.
+Now, search prefix for maximum value, run through the characters starting from the root, if one of character is missing return -1, else return the number stored in the root.
+Below is the implementation of the above idea :
+Run on IDE
+Run on IDE

@@ -1,0 +1,43 @@
+I recently gave interview for Amazon SDE-I role in Bangalore for AppStore team. 
+Online Test (Hacker Earth):
+1. Given a number N, you have to print “Prime” if its a prime number or “Not Prime” if its not.
+2. Given a string S, print the number of digits and number of english alphabets in it.
+eg :…..Input =  “a5$&45NdG”
+………Output =  3,  4
+3. Given a list of words, print them in lexicographical order, given the following priorities.
+…..a) If two words have same spelling,  lowercase characters take higher priority.
+…..b) The words can have spaces in them. A space takes higher priority over any alphabet.
+eg : Input = [“funny” , “fun”, “fuNny”]
+…..Output = [“fun”, “funny”, “fuNny”]
+I could not solve the third question fully. Got partial marks. 
+Round 1 :
+1. Given a large number (can contain upto 10^5 digits), find the number of substrings that are divisible by 8.   A substring cannot start with a 0 except if it is just 0.
+ex :   Input  = 10888 ,  output =    9    {0, 8, 8, 8, 88, 88, 888, 1088, 10888}
+Initially, I gave a brute force O(n^2) solution iterating over all substrings and then came up with O(n) solution.
+2.  The question was a bit vague. It ultimately boils down to finding the number of distinct elements in an array.
+I gave the solution using HashMap and he was satisfied.
+Round 2:
+1. https://www.geeksforgeeks.org/find-number-of-islands/  
+I gave the solution using dfs and he asked me to implement it. I wrote the solution but did not keep track of visited cells and my solution was running into an infinite loop. He pointed it out to me and I corrected it.
+2. https://www.careercup.com/question?id=5693863291256832
+I gave him a solution where I start with empty string and in each step I pick the most frequent character and add it. I also check if the character I am adding is same as the previous character. He was satisfied with my approach and did’t ask me to write code. He said this question is for testing problem solving skill.
+3. https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+He asked whether I came across this question and I said no. I gave the solution using bfs but I used HashMap which was not necessary. He asked me to think on using a simpler data structure. I struggled a bit but finally came up with set to store elements.
+Round 3 (Managerial):
+1. Tell me about yourself.
+2. Tell me a situation where you had conflict with your manager.
+And many more behavioral questions.
+3. A DBMS question about Amazon’s product catalogue. I had no clue how to approach this. She asked if I know any DBMS concepts and I said “No” and told her that I am from a Non-CS background.
+Overall I didn’t feel good about this round and my confidence went low. Luckily, my first two rounds went well and they decided to give me another chance by taking another coding interview.
+Round 4:
+1 http://stackoverflow.com/questions/2473114/how-to-find-sum-of-elements-from-given-index-interval-i-j-in-constant-time
+At first I gave a solution using segment tree (overkill ) . He asked me to think of a simple solution. And then I remembered the solution where we keep an auxiliary array to store the cumulative sums. Then the queries can be answered in constant time.
+2. https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/
+I already solved this problem previously and I immediately told him the solution using two-pointers.
+Round 5 (Managerial):
+1. Tell me about yourself.
+2. What was the hardest bug that you have encountered. How did you fix it.
+And many more behavioral questions.
+3. https://www.careercup.com/question?id=64946
+This is an object oriented design question. I practiced these type of questions before going to the interview from “Cracking the coding interview” book and felt comfortable during the interview.
+Compared to the first managerial round, this went pretty smooth. 

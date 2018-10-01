@@ -1,0 +1,31 @@
+What are C style strings?
+These strings are array of characters terminating with a NULL character. C style strings can be declared in following ways:
+Declaration and initialization
+Run on IDE
+Output:
+C style strings are operated with very useful functions like strcpy(), strlen(), strpbrk(), strcat(), strstr() and many more!(All these functions are member functions of ‘cstring‘ header ).  
+What is a std::string?
+C++ standard library contains functions and classes. String is one of its classes. Here we deal with an object of string class. This std::string takes care of itself and manages its own memory.
+Declaration and initialization
+Run on IDE
+Output:
+Converting C-String to a std::string.
+But why do we need this transformation? From a C string to a std::string? It is because
+And many more! Here is the code for it:-
+Run on IDE
+Output:
+The above conversion also works for character array. 
+Converting a std::string to a C style string
+Why do we need this transformation? From std::string to a C string?
+You can think of other reasons too!
+Here is the code for conversion:-
+Run on IDE
+Output:
+std::string also has a function c_str() that can be used to get a null terminated character array.
+Run on IDE
+Output:
+Both C strings and std::strings have their own advantages. One should know conversion between them, to solve problems easily and effectively.
+
+Related articles:
+C++ string class and its applications | Set 1
+C++ string class and its applications | Set 2

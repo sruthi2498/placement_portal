@@ -1,0 +1,7 @@
+I am a final year student of IIT Guwahati and the first phase of placements has just finished at our college. I was recruited by Directi but not before three grueling rounds of interview. I was also shortlisted by Microsoft, Facebook and Goldman Sachs as well but got rejected after the first round of interview from all the three companies :(. I will be posting questions relating to all the companies I was interviewed by as well as some interview preparation advice (which should be particularly useful for students sitting for on-campus placements). Following are Facebook interview questions
+Run on IDE
+Online Coding round:
+It boiled down to finding all possible simple paths (paths without cycles) between two vertices in a graph. 
+Round 1:
+1) Given a string, check if it is a palindrome by ignoring spaces. E.g. race car would be a palindrome.
+2) Given two very large strings, consisting of only digits, multiply the two strings and return the result as a string.

@@ -1,0 +1,23 @@
+Recently D.E Shaw visited our campus for internship and placements. They shortlisted 16 students out of 200 students on the basis of resume.
+Telephonic Interview (Round 1)-
+The call lasted for 40 mins
+Started with tell me about yourself. I had mentioned ACM ICPC rank in my resume.So he asked few questions about ACM ICPC (what is it ?how many rounds are there etc). After that he asked few questions based on my resume. Why have you migrated to python. I said as it can handle large numbers which other programming languages cannot. He then asked what if i want to perform addition, subtraction, multipication of numbers which are extremely large (say 1000 digits). I said by storing the numbers in character array. He then asked me give me the class declaration that you will use and then asked about overloading of operators, virtual base class, virtual functions,and virtual destructor. He then move on to data structures.
+1) given a linked list of even length say a,b,c,d,e,f. Rearrange it so that the list becomes:-a,f,b,e,c,d. Do it in o(n) time and constant space.
+2) Given an array: 1,3,2,5. Find out the minimum number of array elements that should be changed so that the all elements in the array are strictly greater than the previous elements
+output :1
+ie 1,3,4,5
+(2 can be changed to 4).
+He then asked some questions on journalling file systems, log based recovery etc.
+Telephonic Round 2:
+The call lasted for 45 mins.Started with discussion on my projects.Then asked me how much i know about python and java.
+He then asked few questions on normalisation of databases.After this he then moved on to data structures.
+1) an array contains elements from 1 to n .One number is missing.Find that out .i discussed about 4-5 methods with him.
+2) an array contains elements from 1 to n.One number has been replaced by some other number.Find out the missing and the repeating numbers (again about 4-5 methods were discussed).
+3) find out the first non repeating number in a string.
+4) Puzzle:-
+find out the minimum set of weights required to measure weights upto 20 kg
+I said: 1,2,4,8,16
+He then extended question to 40 kg
+I said: 1,2,4,8,16,32 (ie powers of 2)
+He then asked to do better. He gave me the hint that 2 can be measured using 1 and 3
+i then came up with the general solution ie powers of 3. 1,3,9,27 etc

@@ -1,0 +1,23 @@
+Fibonomial Coefficient
+In mathematics, the Fibonomial coefficients or Fibonacci-binomial coefficients are defined as
+
+where n and k are non-negative integers, 0 ≤ k ≤ n, Fj is the j-th Fibonacci number and n!F is the nth Fibonorial, where 0!F, being the empty product, evaluates to 1.
+The Fibonomial coefficients are all integers. Some special values are:
+
+
+
+
+
+Fibonomial triangle
+The Fibonomial coefficients are similar to binomial coefficients and can be displayed in a triangle similar to Pascal’s triangle. The first eight rows are shown below.
+
+The Recurrence Relation for Fibonomial Triangle:
+
+Given a positive integer n. The task is to print Fibonomial triangle of height n (or n + 1 rows).
+Examples:
+
+Below is the implementation of printing Fibonomial Triangle of height n:
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

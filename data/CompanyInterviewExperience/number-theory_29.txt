@@ -1,0 +1,18 @@
+Given a number n , the task is to find nth Centered Square Number. 
+Centered Square Number is a centered figurate number that gives the number of dots in a square with a dot in the center and all other dots surrounding the center dot in successive square layers. Nth Centered square number can be calculated by using formula n2 + (n-1)2.
+
+Examples :
+We can find n-th Centered Square Number using below formula.
+n-th Centered Square Number = n2 + (n-1)2
+How does this formula work?
+If we take a closer look, we can notice that the n-th Centered Square Number can be seen as sum of two consecutive square numbers (1 dot, 4 dots, 9 dots, 16 dots, etc).
+Below is the implementation :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+Reference : https://en.wikipedia.org/wiki/Centered_square_number

@@ -1,0 +1,23 @@
+1st Round (75 mins)
+Online coding round hosted on CoCubes:
+Round of to nearest 10s multiple. If units digit of the given number 10 26==>30
+Print the next smallest palindrome number for a given number. E.g 51==>55 66==>77 99==>101
+Delete n nodes after traveling m nodes in a linked list until the end of the list
+2nd Round (Group Fly) 30 mins
+Question – Given a BST print out all root to leaf paths whose sum equal to a given number. Also, write a full program which includes the construction of the tree and then find the paths.
+Answer -This was a written round and there was one question for which we had to write the full program. It is very important that you ask questions from the instructor about the problem, to have the full understanding of the problem and what they actually need. Don’t be in a hurry as mere solving is not important, your solution must be correct and optimized so it is highly advisable to tell out your approach to your mentor. I would say the deciding factors in this round generally boils down to the clarity you have about the problem and the things demanded in the solution, sometimes they even ask to write down the algorithm, measure the time complexity, give out proper test cases and then write a !! CLEAN CODE!!!. (Yes handwriting and clarity matters or else they might even not read your paper, they are humans too)
+3rd Round (F2F)
+Detect cycle in a linked list
+Find the rotation count in a rotated sorted array
+Write a single function which can check palindrome for both string and number. (Done using function overloading)
+Give practical example of polymorphism, from either agriculture, business, gaming, health, shipping industry. I gave him an example from the gaming industry where in a game there are different functions executed when a player hits any surface. This question test your thinking capability so be creative to answer such questions.
+Pay an employee using a 7 units gold rod? (Puzzle) https://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-units/
+Explain the algorithm for heapsort and implement it
+Implement YouTube So he told me to mainly focus on how I can handle scalability, Performance, Availability. To solve design questions you need to know the concepts involved which u can develop through making projects or practicing design questions. So I told him that to handle Performance I would use things like Multi-threading, Caching, Distributed Computing etc. For handling Availability, there are things like Replica Servers, Loosely Coupled Systems For Scalability, there are things like Multiple DBs, Horizontal Shradding, Vertical Shradding, Lazy Loading He asked me more question related to the design of the client-side application(web or native application)
+After this round, I was directly sent to the final round…. Lucky Me
+4th Round (Technical+HR)
+He asked me to tell him something about myself and was parallel looking into my CV. Asked me a lot of questions from my internships and projects. So only write things which u know very well. Like 90% of this round was focused around my CV
+Then he asked me to design a Chatbot as a similar project was there in my CV. He said to give a vhigh-levelevel design of the different components of the system.
+Rotate a matrix by 90 degrees clockwise
+How is Memory management done in python, or How memory management is different in python and C
+What are the new technologies you have learned in the last 3 months.

@@ -1,0 +1,19 @@
+Lists are containers used in C++ to store data in a non contiguous fashion, Normally, Arrays and Vectors are contiguous in nature, therefore the insertion and deletion operations are costlier as compared to the insertion and deletion option in Lists.
+This function is used to insert a new element into the list container, the new element is added to the beginning of the list.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. Parameter should be of same type as that of the container, otherwise an error is thrown.
+Run on IDE
+Output:
+Time Complexity : O(1)
+This function is used to insert a new element into the list container, the new element is added to the end of the list.
+Syntax :
+Examples:
+Errors and Exceptions
+1. It has a strong exception guarantee, therefore, no changes are made if an exception is thrown.
+2. Parameter should be of same type as that of the container, otherwise an error is thrown.
+Run on IDE
+Output:
+Time Complexity : O(1)

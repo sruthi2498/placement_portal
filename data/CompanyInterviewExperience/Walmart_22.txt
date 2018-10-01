@@ -1,0 +1,22 @@
+there were 5 rounds of interview with 3 technical round, 1 director round and 1 HR round.
+Round 1 (Technical)
+1st question :- https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+2nd Question :- Given an alien language dictionary where the words are sorted, we need to figure out the list and order of the alphabets for that language.
+Round 2 (Technical)
+1st Question :- They gave me a question for implementing wildcard pattern matcher. He specifically mentioned that he wanted a clean and optimized code.
+2nd Question :- Given a dictionary containing some words, and a start word and end word, you need to find the minimum number of conversion needed to convert start word to end word with the following restrictions :-
+ 1. Each intermediate word must be in the dictionary
+ 2. You can change only one character in the word to convert to another word.
+Example If You are given start word as ‘SAT’ and end word as ‘PAN
+and the dictionary contains words = [‘RAT’,’PAT’,’DAM’]
+then SAT -> PAT ->PAN is the answer
+3rd Question :- He asked me the design of distributive hashing, various problems and their solution
+Round 3:
+1st Question :- Given a string of bits, divide the string such that each string in the division is a binary representation of a power of 5.
+2nd Question : A 2D plane consists of circles, such that no circle partially overlap. You are given two points and you need to find the minimum number of circles you need to pass for reaching from one point to another
+Round 4
+Basically discussion with the director
+Round 5
+HR
+
+

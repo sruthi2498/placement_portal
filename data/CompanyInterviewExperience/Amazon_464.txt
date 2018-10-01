@@ -1,0 +1,31 @@
+In-house interview with Amazon Bangalore for SDE 1. Here’s my experience.
+Round 1:
+My first round was the HM round because no other panel members were free.
+1. Lots of questions my current project. Why I am looking for a job change.
+2. Write a calculator web application just like the one that comes with MS windows.
+      	Trick was to evaluate the expression according to the BODMAS
+      	Lots of dicussion on different approach using 2 stacks, arrays, lists, Tree
+      	with and without postfix conversion.
+      	Asked to explain all the approach on the White Board.
+Round 2:
+	1. Link all the level order nodes to makes a linked list with the first node of each level acting as the root of that linklist. 
+		Gave the answer using the 2 queue. (Level order transversal) with alternate queue for the alternate level
+		Than interviewer asked to solve the problem without using any other data structure (No stack or queue)
+2.  Question on Baggage claim token generations.
+       You have three containers, small, medium and large. Passenger comes in, checkin the luggage. You have to store the baggage in the appropriate container and generate a unique token number. Then passenger should get back the bag using the same token number. Trick was if small container is full store in medium if available or large. Now if the large bag comes in and there is now a empty space in small, than move the small bag back to small & store the large bag. How to generate the unique token number and move the baagage internally without changing the token number?
+      		Lookup should be in constant time complexity and insertion in minimum complexity.
+      		It looks easy but kind of tricky if you start solving because token number shouldn’t get changed if you move the baggage internally and space should not get wasted in the memory if baggage is removed.
+Round 3:
+	1. Find the size of the smallest substring in a given string that contains all the characters in given set in any order. 
+	2. Convert a sorted doubly linklist into Binary search tree (Inplace)
+Round 4(Bar Raiser Round):
+	1. Again Lots of questions on current project. My contributions.
+      		Most complicated problem I have ever encountered in my recent project and how I solved it.
+      		Subject I liked the most in the college and why and what I learnt from it.
+      		In my previous rounds, which question I found the most difficult one and why?
+      		If I will be given a chance to change any of the my answers to the questions asked in previous round, what question it will be and why?
+	      	Was I satisfied with my interview.
+		Technical question:
+		Do a spiral transversal of a 2D matrix 
+Thank you geeksforgeeks for providing the awesome platform for preparation. 			
+

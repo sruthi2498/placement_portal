@@ -1,0 +1,24 @@
+The Android software stack generally consists of a Linux kernel and a collection of C/C++ libraries that is exposed through an application framework that provides services, and management of the applications and run time.
+Android was created on the open source kernel of Linux. One main reason for choosing this kernel was that it provided proven core features on which to develop the Android operating system. The features of Linux kernel are:
+ The Linux kernel handles the security between the application and the system.
+ It efficiently handles the memory management thereby providing the freedom to develop our apps.
+ It manages the process well, allocates resources to processes whenever they need them.
+ It effectively handles the network communication.
+ It ensures that the application works. Hardware manufacturers can build their drivers into the Linux build.
+Running on the top of the kernel, the Android framework was developed with various features. It consists of various C/C++ core libraries with numerous of open source tools.  Some of these are:
+ The Android runtime consist of core libraries of Java and ART(the Android RunTime). Older versions of Android (4.x and earlier) had Dalvik runtime.
+ This cross-language, cross-platform application program interface (API) is used to produce 2D and 3D computer graphics.
+ This open source web browser engine provides all the functionality to display web content and to simplify page loading.
+ These libraries allow you to play and record audio and video.
+ These libraries are there for Internet security.
+It is the third section of the architecture. It provides one of the key components which is called Dalvik Virtual Machine. It acts like Java Virtual Machine which is designed specially for Android. Android uses it’s own custom VM designed to ensure that multiple instances run efficiently on a single device.
+The Delvik VM uses the device’s underlying Linux kernel to handle low-level functionality,including security,
+ threading and memory management.
+The Android team has built on a known set proven libraries, built in the background, and all of it these is exposed through Android interfaces. These interfaces warp up all the various libraries and make them useful for the Developer. They don’t have to build any of the functionality provided by the android. Some of these interfaces include:
+
+ It manages the activity lifecycle and the activity stack.
+ It provides access to telephony services as related subscriber information, such as phone numbers.
+ It builds the user interface by handling the views and layouts.
+ It finds the device’s geographic location.
+
+Android applications can be found at the topmost layer. At application layer we write our application to be installed on this layer only. Examples of applications are Games, Messages, Contacts etc.

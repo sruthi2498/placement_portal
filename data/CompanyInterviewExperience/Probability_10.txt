@@ -1,0 +1,16 @@
+Given N containers consisting of N copies of number A and N copies of number B. We need to arrange the numbers in the N containers in such a way that the probability of choosing a container randomly and drawing one copy of number A is maximum.  
+Examples:
+
+We need to look for an optimal arrangement of the N copies of number A and N copies of number B in N containers.
+So to maximize this, either we minimize the denominator (i.e., the total outcomes) or maximise the numerator (i.e., the total favorable Outcomes) keeping the other constant.
+Consider a possible arrangement where in the first (N-1) containers we put only copies of Number A, such that first (N-1) containers contain (N-1) copies of the Number A and no copy of number B. The left out copy of number A and the N copies of number B are then put in the last container.
+Probability (copy of A from any of the first (N-1) containers) = Pn-1 containers = 1
+Probability (copy of A from Nth container) = PN = 1⁄(N+1)
+Pmax = PN-1 containers * (N – 1) + PN
+∴ Pmax = N / (N + 1)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity of the above program is O(1).

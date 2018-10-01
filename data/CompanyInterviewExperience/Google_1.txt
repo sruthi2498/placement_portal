@@ -1,0 +1,15 @@
+Resume filter:  I got a call from a recruiter who asked about my work experience. She also asked some basic questions on complexity, worst case and best case for certain sorting algorithms.
+After this, I got around 20 days for 1st round of telephonic interview.
+ 
+Telephonic interview: It was a 45 min hangout call with a Google doc shared. He directly jumped onto the question.
+Q: Given a pattern containing only I’s and D’s. I for increasing and D for decreasing. Devise an algorithm to print the minimum number following that pattern. Digits from 1-9 and digits can’t repeat.
+After a short discussion on algo, I wrote the code on shared doc. He was comfortable with the code and we finished 5 min early.
+ 
+I was called for onsite interviews 20 days after this round.
+Round 1:  Given (x, y) coordinates, create a function such that each coordinate is uniquely mapped to an integer. Also make sure that given an integer, you should be able to find (x, y) coordinates. So F(x, y) = z and also that inverse F(z) = (x, y).
+Round 2: You are given an array of million numbers and provided a range of index (say left, right). For multiple queries, each with input left and right indexes, output the maximum in that range.
+Round 3: 
+Q1) Given a room with thief on left side of the room with finite number of sensors. He has to reach on right side missing the sensors. Each sensor is placed at any random point in the room and has its coverage in the radius r. Find out if the thief can reach to the right side without touching the range of any sensor.
+Q2) Given a bench with n seats and few people sitting, tell the seat number each time when a new person goes to sit on the bench such that his distance from others is maximum.
+Lunch break: I was accompanied by a Googler where we had an informal discussion about projects he is working on, work culture and other stuff.
+Round 4:  Given a string of 0 and 1, if possible, tell that how many splits would be required such that each split part is a number which can be represented as power of 5 in binary and tell the least number of splits.

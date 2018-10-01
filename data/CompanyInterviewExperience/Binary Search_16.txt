@@ -1,0 +1,30 @@
+Given an array of integers and an integer x. Find length of maximum size subarray having average of integers greater than or equal to x.
+Examples:
+
+A simple solution is to one by one consider each subarray and find its average. If average is greater than or equal to x, then compare length of subarray with maximum length found so far. Time complexity of this solution is O(n2).
+An efficient solution is to use binary search and prefix sum. Let the required Longest subarray be arr[i..j] and its length is l = j-i+1. Thus, mathematically it can be written as:
+
+(Σ (arr[i..j]) / l ) ≥ x
+==> (Σ (arr[i..j]) / l) – x ≥ 0
+==> (Σ (arr[i..j]) – x*l) / l ≥ 0   …(1)
+
+The equation (1) is equivalent to subtracting x from each element of subarray and then taking average of resultant subarray. So the resultant subarray can be obtained by subtracting x from each element of array. Let the updated subarray is arr1. Equation (1) can be further simplified as:
+
+Σ (arr1[i..j]) / l ≥ 0
+==> Σ (arr1[i..j]) ≥ 0   …(2)
+
+Equation (2) is simply Longest subarray having sum greater than or equal to zero. The Longest subarray having sum greater than or equal to zero can be found by method discussed in following article:
+Longest subarray having sum greater than k.
+The step wise algo is:
+1. Subtract x from each element of array.
+2. Find Longest subarray having sum greater than or equal to zero in updated array using prefix sum and binary search.
+Below is the implementation of above approach:
+Run on IDE
+Time Complexity:  O(nlogn)
+Auxiliary Space:  O(n)
+Another Approach :
+Use approach of https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/ just add a length variable and use the logic if the length is greater then previous saved length.
+Run on IDE
+Output:
+Time Complexity:  O(n)
+Auxiliary Space:  O(n)

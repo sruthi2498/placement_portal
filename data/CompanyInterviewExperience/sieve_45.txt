@@ -1,0 +1,10 @@
+A Pierpont Prime is a prime number of the form p = 2l.3k + 1. First few Pierpont prime numbers are 2, 3, 5, 7, 13, 17, 19, 37, 73, 97, 109, …
+Given a number n, the task is to print Pierpont prime numbers less than n.
+Examples:
+
+The idea is to find numbers having factor of power of 2 and 3 only. Now using Sieve of Eratosthenes find all prime number. Finally, print the common number of both the sequence.
+Below is implementation of this approach:
+
+Run on IDE
+Run on IDE
+

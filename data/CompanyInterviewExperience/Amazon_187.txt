@@ -1,0 +1,22 @@
+Recently I have gone through interview with Amazon Chennai for Amazon FIRE TV team. Here is my positive experience.
+Round 1(written):
+1. https://www.geeksforgeeks.org/run-length-encoding/
+2. https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/
+3. https://www.geeksforgeeks.org/count-substrings-with-same-first-and-last-characters/
+Round 2:
+1. https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+2. It’s a two player game. Both the players are equally intelligent to win the game. Give n no. of stones. A player can choose either 1 stone or k stones or l stone (1<k<l). Suppose player 'A' starts game then challenge was to identify the player who will win the game. Player who picks the last 1 stone or last k stone or last l stones win the game.
+Round 3:
+1. https://www.geeksforgeeks.org/counting-inversions/
+2. https://www.geeksforgeeks.org/print-matrix-diagonal-pattern/
+3. http://algorithms.tutorialhorizon.com/dynamic-programming-minimum-cost-path-problem/
+Round 4 (Bar Raiser)
+1. Detailed discussion on current company project.
+2. https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
+Round 5 (Hiring Manager)
+1. Design ATM machine.
+2. Design a queue using only one stack.
+3. Discussion on process & threads, Inter process communication, Lots of discussion on scheduling algorithm, their implementations, data structures used to implement scheduling algorithms, scheduling algorithms in real time distributed systems & implementation.
+4. Lots of behavioral questions like why amazon, why you are leaving current company.
+Finally got positive response from amazon with decent package.
+Thanks GFG for this wonderful site.

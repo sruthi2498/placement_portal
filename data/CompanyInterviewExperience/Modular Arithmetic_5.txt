@@ -1,0 +1,11 @@
+Given a number N. The task is to find the number of unordered coprime pairs of integers from 1 to N. There can be multiple queries.
+Examples:
+Approach: Here Euler’s Totient Function will be helpful. Euler’s totient function denoted as phi(N), is an arithmetic function that counts the positive integers less than or equal to N that are relatively prime to N.
+The idea is to use the following properties of Euler Totient function i.e.
+Now, find the sum of all phi(x) for all i between 1 to N using prefix sum method. Using this, one can answer in o(1) time.
+Below is the implementation of above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE

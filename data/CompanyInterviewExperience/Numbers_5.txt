@@ -1,0 +1,24 @@
+Given a number, the task is to find the hyperfactorial of a number.
+The result of multiplying a given number of consecutive integers from 1 to the given number, each raised to its own power is called hyperfactorial of a number.
+Examples:
+
+Input : 2
+Output : 4
+Input : 4
+Output : 27648
+H(4) = 1^1 * 2^2 * 3^3 * 4^4 = 27648
+
+A naive approach is two use two loops, one to find the summation of i^i and the other to find i^i. But the time complexity will be O(n2). 
+An efficient approach is to use the inbuilt pow() function or the O(log n) method to find i^i and then add it. 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time-complexity:O(N * log N) 
+Since hyper-factorials of number can be huge, hence the numbers will overflow. We can use boost libraries in C++ or BigInteger in Java to store the hyper-factorial of a number N.
+
+Run on IDE
+Run on IDE
+Run on IDE

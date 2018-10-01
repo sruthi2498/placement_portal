@@ -1,0 +1,24 @@
+The company visited us in September, 2018. It was on campus placement for T1. 
+Round 1: Online Test
+The test was hosted on Mettl. You can read up PrepInsta or any other such website regarding the questions generally on Mettl. There were 3 sections, for 90 mins total. Each section was not separated, so you could go back and forth between and you would have to manually manage time for each section. All sections included had a deadline of 90 mins.
+One:
+Aptitude- Data Interpretation (Bar and Line Graphs), Percentage, Combinations?, This was really really easy. Just normal logical stuff. Don’t even remember it all because they are so easy ?
+Verbal Ability and Reasoning – Spotting Errors, Ordering of Sentences, Sentence correction, Seating Arrangement, Direction Sense, Reading Comprehension
+Two:
+Technical- SQL. Majorly SQL. Read thoroughly. Queries and the theory stuff about Relational DBMS and Rollbacks. There were also a few related to Data Mining (OLAP, Star Schema, etc), DS (Max Heap, Arrays, Circular Linked Lists, etc)
+Three
+Coding – There were 2 questions, where everyone got different sets, obviously. I got:
+– Marbles in the Bag.
+There are 2 teams. Each team requires S1 and S2 number of marbles respectively to play the game. There are 4 colours of marbles Black, White, Green and Yellow. Each marble is numbered.
+Given 2 prime numbers X and Y as input, all the marbles whose number is
+Divisible by X is White
+Divisible by Y is Black
+Divisible by X*Y is Green
+And the rest are Yellow.
+Team1 can only have Black and Yellow marbles
+Team2 can only have White and Yellow marbles.
+Given S1, S2, X and Y, find the minimum number of marbles required in the bag for both the teams to be able to play the game.
+– Distinct Flowers
+From a list of N number of flowers, the girl selects first K flowers.  Among these K flowers, indicate how many selected are distinct considering that each type of flower is numbered and same type of flower is given the same number.
+Very easy, but yeah.
+ 

@@ -1,0 +1,6 @@
+The mktime() is an inbuilt  C++ function which converts the local calendar time to the time since epoch and returns the value as an object of type time_t.
+Syntax :
+Parameters: The function accepts a mandatory parameter pointer time_ptr that points to a tm object structure which contains a calendar time whihc is to be converted. 
+Return Value: The function returns two type of values as described below: 
+Below program illustrates the mktime() function: 
+Run on IDE

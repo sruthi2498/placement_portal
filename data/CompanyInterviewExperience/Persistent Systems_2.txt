@@ -1,0 +1,16 @@
+Round 1: F2F.
+Questions Asked:
+1. What is encapsulation and data abstraction?
+2. Create a class implementing Data – Abstraction, and Encapsulation.
+3. Use char * in your class.
+4. Create the instance of your class.
+5. Is the memory allocated to the class when the object is created? (Class_name <name>;)
+6. How dynamically memory is allocated in C++?
+7. In which part of the memory area are the objects located after creation?
+8. Are the class members initialized after object creation? Reason
+9. What are the default functions provided in c++?
+10. What is copy constructor?
+11. When is the user created copy constructor needed for a class?
+12. Difference between copy constructor and assignment operator?
+13. Reversal of linked list. (Was not able to tell)
+14. Pointers passing to a function in C and C++.

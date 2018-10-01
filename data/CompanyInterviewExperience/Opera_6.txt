@@ -1,0 +1,58 @@
+Day 1: Technical MCQ questions (90 mins)
+Round 1 consists of three sections-
+general question- contains questions on unix commands, languages etc.
+programming- questions on errors, output questions
+dbms- last section was sql queries, joins, rdbms, and dbms related
+Around 40 students were selected for next day process from 300.
+
+Day 2: 
+
+Round 1: F2F Technical interview (approx 40-45 min)
+1. Introduce yourself
+2. Tell me something about your project- Detailed discussion about the project can be done here
+3. A sorted array is given of 0’s, 1’s and 2’s. Write an optimized code for calculating number of 1’s.
+4. Tower of hanoi puzzle
+5. You are given an aaray with numbers 1 to 99. A number is missing. Write the code to find the number.
+6. Complexity question (i dont remember the exact question)
+7. Given two ropes that burns in 60 min. You need to calculate 45 min using those ropes
+8. SQL queries on Joins
+9. Given 7 balls of equal weight. One ball was heavy/Light weight among them. How many minimum number of times u need to weigh the balls to find that heavy/light weight ball.
+10. Given an array, unsorted , only one number is there in the array that is occuring twice, Write a optimized code to find that element in the array.
+11. Diff between Arraylist and linkedlist.
+
+Round 2- F2F Technical Interview (1 hr approx)
+1. Introduce yourself
+2. Discussion about the project. Your role in the project.
+3. Given two arrays (v large arrays) and values are in unsorted order. Find intersection of two arrays. (write optimized code).
+4. Given BST. Find all the nodes in the range n1 and n2(given). write the code
+5. Given BST, Write the code to convert the root data with the sum of its child nodes data. write the code.
+6. What are Interfaces. Give examples. (Not typical animal, dog example).
+7. What is polymorphism. Give examples.
+8. Given an Infinite seris of number. at any position you can be stopped. you need to find the 10th smallest number till that point. (constraints you cannot store the numbers in an array)- I suggested to use min heap but couldn’t do the code for it.
+9. Code to check valid parenthesis given an expression.
+10. If in previous question last parenthesis is removed still its a valid expression. Make changes in your code to accommodate that change, Eg. (2+3 is a valid expression without last braces.
+At last they ask if you have any questions.
+
+Round 3- Interview with the Director
+1. Introduce yourself.
+2. Questions on resume.
+3. Hobbies.
+4. What is your area of Interest- i said Web development (mistake) 😛
+5. Questions related to Area of interest
+What are web services
+What are web apps
+What are clients, servers.
+How web browsers work.
+Diff between writing WWW and not writing WWW in URL makes.
+What is Response design
+what happens when you type URL.
+I was eliminated after this round
+
+Round 4- F2F Technical
+1. Again Introduce yourself.
+2. What is your area of interest.
+My friends told their interest in OOps concept. so they were asked questions on that.
+What are OOps concept.
+What is encapsulation.
+Diff between data hiding and Abstarction. Give examples.
+Interfaces and abstract classes

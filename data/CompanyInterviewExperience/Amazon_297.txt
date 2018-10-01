@@ -1,0 +1,45 @@
+I would like to share my Amazon Interview Experience (for Internship) with your audience.
+1st Round (Online Coding Round):
+It was 90 min test on Hackerrank. It had 20 MCQs and 2 coding questions. The MCQs were from topics like time complexity, different sorting algorithms, dbms, os, 3-4 puzzles and apti, output of the code, etc. 
+The MCQs had negative marking of 0.50.
+Students of CSE, IT, ECE were allowed and there were around 160 candidates.
+Coding Questions:
+1. Find the first non-repeating character of the string.
+2. There is a square matrix of order n which is filled from 1 to n^2 in row major. Find the Kth element in spiral traversal of the matrix.
+Example: Given n=3 and K=5.
+Matrix:
+1 2 3
+4 5 6
+7 8 9
+Output: 9
+I solved both the coding questions and attempted 16 MCQs and qualified for the next round. It is very important to solve at least one coding question to qualify for the next round.
+Second Round (Personal Interview-I):
+Time: 40-50 minutes. 31 candidates were selected for this round.
+It started with tell me about yourself. Then the interviewer asked me my JEE(mains) rank and also what data structures I know. She asked me basic tree questions such as what is tree, what is bst, how many types of traversals are there and to name them. Next, she gave me this problem:
+1. You are given an array of elements, find out if the array represents Pre-order traversal of a BST.
+I thought on it for few seconds and gave her n^2 logic. Before she asked me to optimize it, I told her that I can try to optimize it.
+Then after thinking about it for few minutes, I told her my O(n) logic.
+After listening to my approach, she asked me to code it. I wrote the code without any error at one go. She asked me the time complexity and space complexity of my code after checking if its error free or not.
+After this, the interviewer asked me theoretical questions on OS such as what is critical section, mutex, semaphore, virtual memory, page fault, ways of preventing deadlock, etc. Then she made a simple table and asked me to write SQL query for it which was very easy. She asked me what is indexing in DBMS, difference between its types and if the query I wrote is case sensitive or not.
+Next the interviewer asked me if I know clone a linked list problem or not.
+I said, yes. So the interviewer changed the question.
+2. Given an array with both negative and positive numbers, find the maximum sum contiguous sub-array.
+I told the interviewer my approach (modification of Kadane’s algorithm). And she asked me to write the code. I wrote the code without any errors.
+
+Third Round (Personal Interview-II):
+Time: 80-90 minutes. 8 candidates were shortlisted for this round.
+First the interviewer went through my resume and asked me about my recent project. Then he asked me if I am comfortable with trees. I said yes. He asked me:
+1. https://www.geeksforgeeks.org/vertical-sum-in-a-given-binary-tree/
+I told him the approach and he asked me to write the code. I wrote the code without any error.
+Then he asked me theoretical questions. Started with virtual memory concepts, next he wrote a code and asked me if there was any error. Then he asked C/C++ questions based on malloc/calloc, new operator, etc. A tricky question on exception handling. There were many other theoretical questions which I don’t remember.
+2. Then he gave me this problem:
+There are n number of people required to do some tasks. Among these n persons, some x number of person require a key to start their work. There are infinite keys which are thrown one by one in front of people in every unit time. The time required by a person to pick up the key is one unit time. Furthermore, the interviewer mentioned conditions such as some particular person can only start after some other particular person finishes his task. The time required by a person to finish his task is one unit. He asked me to find the minimum time in which all people finish their task.
+After thinking for few minutes, I told the interviewer my approach using topological sorting in graph. Then he asked me to explain topological sorting in detail. Then he moved on to another question.
+3. You are in a forest and there are many paths. You need to get out of the forest. Which path do you choose?
+It was a problem of finding the minimum distance between source node and destination node in a graph.
+I told him my approach and then he asked me to explain dijkstra’s algorithm. Then the interviewer asked me the difference between dijkstra’s algorithm and floyd-warshall algorithm. Then he asked me about prim’s algorithm and kruskal’s algorithm.
+Then he gave me another interesting problem.
+4. For each node of a binary tree, you are given the node id and sum of the ids of its children. Find the node id of the root.
+After few minutes I came up with a wrong approach. As soon as I told the interviewer about it, I understood I was wrong. Then he told me to focus on the sum of the ids. Then within a minute I told him another approach. He asked me why this works, I explained him and he was satisfied.
+After that the interviewer asked me if I had any questions for him. At last, he again asked me about one of my project in which I used Alexa.
+Keeping calm will help you come up with a correct solution faster, ask questions to interviewers if you have any doubt, they are very friendly. Practice questions from geeksforgeeks. It helped me a lot. Thank you geeks.

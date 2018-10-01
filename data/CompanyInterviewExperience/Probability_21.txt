@@ -1,0 +1,9 @@
+From a pack of 52 cards, two cards are drawn together at random. What is the probability of both the cards being kings?
+(A) 1/15
+(B) 25/57
+(C) 35/256
+(D) 1/221
+ Answer: (D) Explanation: Number of ways to draw 2 cards from a pack of 52 cards = 52C2 = 1326.
+Number of ways to draw 2 kings from 4 kings = 4C2 = 6.
+Therefore, required probability = 6/1326 = 1/221.
+Quiz of this QuestionPlease comment below if you find anything wrong in the above post

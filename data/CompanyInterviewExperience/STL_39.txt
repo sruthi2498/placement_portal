@@ -1,0 +1,9 @@
+The smatch::max_size() is a built-in function in C++ STL which returns the maximum number of elements in the match_results object that can be held by the smatch container.
+Syntax:
+Parameters: This function does not accept any parameters.
+Return value: This function returns the maximum number of elements that can fit into the smatch container.
+Below programs illustrate the above function:
+Program1: 
+Run on IDE
+Program2: 
+Run on IDE

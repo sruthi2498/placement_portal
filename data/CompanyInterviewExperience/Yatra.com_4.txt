@@ -1,0 +1,11 @@
+Given two strings s1 and s2, we need to find the minimum number of manipulations required to make two strings anagram without deleting any character.
+Note:- The anagram strings have same set of characters, sequence of characters can be different.
+If deletion of character is allowed and cost is given, refer to Minimum Cost To Make Two Strings Identical
+Question Source: Yatra.com Interview Experience | Set 7
+Examples:
+Assumption: Length of both the Strings is considered similar
+
+Run on IDE
+Run on IDE
+Run on IDE
+

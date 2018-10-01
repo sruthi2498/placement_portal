@@ -1,0 +1,34 @@
+I recently cleared Intuit Interview.  It was a life changing experience and I am very happy to crack the interview for SSE. 
+Below are the questions asked :
+Round 1:
+Java basics:
+1. int v=2
+      v += v++
+      what is output of V?
+2. Design a compiler for throw and throws key words. OR, how does compiler interpret those keywords.
+3. Why string is immutable and then some tricky questions on that .
+4. Algorithms:
+    a. sorting of 0 and 1 in place in n time.
+    b.  stack option problem with maximum profit in O(n) complexity
+Round 2:
+Algorithm 1: Write a code to max sub array by considering elements not next to each other
+Algorithm 2: design a dice face such that one normal dice is played with the designed dice then the ouput of any value should have same probability.
+Some logical puzzle.
+Round 3: 
+Lot of OS questions and distributed system generic questions
+How to decide which DB to use in application
+Some design pattern
+Difference between Design pattern and framework
+My projects related questions and challenges
+Logical puzzle
+REST Framework questions.
+Round 4: 
+1. Program to sort handle 1GB data in a 64KB RAM.
+2. How to handle caching in distributed environment
+3. Challenges in my current project
+4. Logical puzzle (sorry dont remeber now).
+Round 5: With Director of the Product
+General Behavioral questions 
+Round 6 : 
+My projects and Behavioral questions 
+Finally after a week I got an offer letter.:)

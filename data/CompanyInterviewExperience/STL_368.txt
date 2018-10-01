@@ -1,0 +1,11 @@
+round is used to round off the given digit which can be in float or double. It returns the nearest integral value to provided parameter in round function, with halfway cases rounded away from zero. Instead of round(), std::round() can also be used .
+Header files used -> cmath, ctgmath
+Syntax : 
+Run on IDE
+Output:
+Here, in the above program we have just calculated the nearest integral value of given float or double value.
+which has been calculated accurately.
+ Possible Applications
+Run on IDE
+Output:
+Reference : www.mathworksheetcenter.com, www.cplusplus.com

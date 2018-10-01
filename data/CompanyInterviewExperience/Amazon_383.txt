@@ -1,0 +1,35 @@
+We had Amazon campus interview in our college offering an internship (performance based job conversion). 
+
+First round(online coding round) : 
+20 MCQs.
+2 coding questions.
+Second round(Technical Interview):
+I was asked to explain my work at an internship that I did. I explained for about 10 minutes. I was then given a binary search tree and asked to form a mirror of it i.e. every parent nodes left and right child should be swapped. I wrote a simple recursive code for it.
+Given a somewhat sorted array where the numbers are in ascending order first and then follow a descending order, find the index at which the order changes and return the number at that index. For example, i/p: 1234532, o/p: 5. I wrote down a modified binary search for it (had to take care of some corner cases). The interviewer was satisfied and I was sent to the next round.
+
+Third round(Technical Interview):
+I was asked to talk about one of the projects. I spoke about an artificial intelligence project that I did. He asked me some questions based on it. About 15 minutes.
+I was asked the same question as the first one in the online round except here I had to add only two numbers. I told him that but he asked me nonetheless to write the code down and explain it. I gave him the recursive solution as well as the easier stack-based solution as a replacement of recursion.
+Given positive numbers a1,a2…an, you can sum up the elements in the following way: 1*a(i%n)+2*a((i+1)%n)…+n*a((i+n)%n) where i ranges from 0 to n-1. Find the value of i at which this sum would be the maximum. For example, 5,6,7 the various sums can be 1*5+2*6+3*7, 1*6+2*7+3*5, and 1*7+2*5+3*6. The answer is 38.
+We can solve this in O(n). We initially calculate the sum for i being 0. We make the following observation.
+i=0, sum0 = 1*a1+2*a2+3*a3…n*an.
+i=1, sum1 = n*a1+1*a2+2*a3…(n-1)an
+sum1 = sum0 – (a1+a2+…an) + n*a1
+Generalizing the equation: sumi  = sumi-1 – (a1+a2+…an) + n*ai , where i ranges from 1 to n-1. The maximum of the sum0 to sumn-1 is the result.
+Next question, you need to create an application which listens to requests continuously. The application has a common file that it can access. For every request, some information from the file has to be retrieved and returned back. Would you spawn a new process for each request or a new thread. And why? I said thread since the main processing to be done is on a shared resource and by creating threads you do not need make a copy of the file as such resources can be shared between threads.
+What are the scheduling algorithms that you know in operating systems? What data structure would you use for each of the algorithms. I mentioned the following:
+First come First Serve : Queue.
+Priority based scheduling : Priority Queue.
+Shortest job First: Priority Queue ( this scheduling algorithm boils down to priority based scheduling)
+Round Robin : Circular Queue. Interviewer told me circular linked list suits the purpose better. I added that circular double linked list would be an even better answer because of more efficient deletion of an ith node. He told me you can do this operation efficiently in a single linked list itself. I thought for a while and agreed with him while also showing him how I would go about doing this operation in a single linked list.
+Given a computer with 1Gb ram and a 2Gb ram, the latter one would perform faster. Explain why would having more amount of ram would – in normal circumstances- fare better than lesser ram powered computer. Answer : paging. I also told him how in certain computations like external sorting, it would also be more efficient if you have more RAM.
+Given a matrix of 1’s and 0’s, where 1 represents an island and 0 water, find the number of islands formed. The interviewer was expecting me to come up with a dfs solution similar to this one. https://www.geeksforgeeks.org/find-number-of-islands/ (Unlike the problem given in link, the 1’s can be connected only horzontally or vertically). But I had a quick union find(disjoint set problem) solution in mind. Solution : http://ideone.com/AzvU8m
+
+Fourth round(Technical Interview):
+I was asked about my internship work, again. I described the same one as I did in the first round. He asked me some questions based on it. We spent about 20 minutes on it.
+Print the top view of a binary tree in order, from left to right. I took some time to figure it out. As I was arriving at the solution I kept explaining it out loud. I had previously done a problem on printing right view of a binary tree which had a similar approach. https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/
+Given a number n, print all the squares of numbers such that the square is less than equal to n. For example, if n is 30, o/p: 1 4 9 16 25. Do this without using *,^ or division operations.
+If we observe the sequence we get from the output, to arrive at the next number in the sequence, we add the next odd number. So, 0+1=1, 1+3=4, 4+5=9, 9+7=16 and so on.
+I have covered almost all of the questions asked to me. I had to wait for more than a week for the results. I got selected 🙂
+
+

@@ -1,0 +1,13 @@
+Count the total number of ways or paths that exist between two vertices in a directed graph. These paths doesn’t contain a cycle, the simple enough reason is that a cylce contain infinite number of paths and hence they create problem. 
+Examples:
+
+The problem can be solved using backtracking, that is we take a path and start walking it, if it leads us to the destination vertex then we count the path and backtrack to take another path. If the path doesn’t leads us to the destination vertex, we discard the path.
+Backtracking for above graph can be shown like this:
+The red color vertex is the source vertex and the light-blue color vertex is destination, rest are either intermediate or discarded paths.
+
+This gives us four paths between source(A) and destination(E) vertex.
+Problem Associated with this: Now if we add just one more edge between C and B, it would make a cycle (B -> D -> C -> B). And hence we could loop the cycles any number of times to get a new path, and there would be infinitely many paths because of the cycle.
+
+Run on IDE
+Run on IDE
+

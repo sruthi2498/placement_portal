@@ -1,0 +1,36 @@
+This article is divided into 2 Parts. I am assuming reader has basic knowledge of Android and java. There are two libraries for caching image in android : 
+1) Picasso
+2) Glide
+In this article, We will focus on Picasso library.
+ Introduction to Picasso library 
+Picasso is open source and one of the widely used image downloader library in Android. It is created and maintained by Square. It is among the powerful image download and caching library for Android.Picasso simplifies the process of loading images from external urls and display on your application.
+For example, downloading an image from server is one of the most common task in any application. And it needs quite a larger amount of code to achieve this via android networking API’s. By using Picasso, you can achieve this with few lines of code.
+How to Use Picasso Android Library?
+1) For using Picasso in android project, we have to add dependency in gradle file. So, For adding dependency open app/build.gradle file in the app folder in your Android project and add the following lines inside it.
+Note : Add these lines inside dependencies{} 
+Now sync your gradle once again.If you get any type of error then you may check the error on stackoverflow
+2) Now add InternetPermission inside Android.Manifestfile. Open the manifest.xml file and add the following line.
+3) Open the layout file for the main Activity. We need to add an ImageView to the layout. It doesn’t need to be fancy. The following code snippet shows you what I mean.
+4) Now Navigate to the main Activity file and Add  the following code block to the onCreate method.
+In the first line we are getting ImageView instance from the layout. And then load the image from the above remote url using Picasso library.
+More Implementation
+For any real time application, we must think of all possible cases. In the above code, we just download the image from the server link. But how to display that image in the app.How to resize it and what if the image loading failed? We need to have another image showing error message that image loading failed.This all matters for an app developer.
+1) Resize 
+Here we are using Picasso to fetch a remote image and resize it before displaying it in an image view.
+2) Placeholder
+If your application relies on remote assets, then it’s important to add a fallback in the form of a placeholder image. The placeholder image is shown immediately and replaced by the remote image when Picasso has finished fetching it.
+3) Error Fallback
+Picasso supports two types of placeholder images. We already saw how the placeholder method works, but there’s also an error method that accepts a placeholder image. Picasso will try to download the remote image three times and display the error placeholder image if it was unable to fetch the remote asset.
+4) Cropping 
+If you are not sure about the size of the image loaded from the remote server that what will be the size of the image. So in this above code snippet image is resized to 200X200 and center cropped.
+Troubleshooting
+OutOfMemoryError Loading Errors
+If an image or set of images aren’t loading, make sure to check the Android monitor log in Android Studio. There’s a good chance you might see an java.lang.OutOfMemoryError “Failed to allocate a […] byte allocation with […] free bytes” or a Out of memory on a 51121168-byte allocation.. This is quite common and means that you are loading one or more large images that have not been properly resized.
+First, you have to find which image(s) being loaded are likely causing this error. For any given Picasso call, we can fix this by one or more of the following approaches:
+1) Add an explicit width or height to the ImageView by setting layout_width=500dp in the layout file and then be sure to call fit() during your load: Picasso.with(…).load(imageUri).fit().into(…)
+2) Open up your static placeholder or error images and make sure their dimensions are relatively small (< 500px width). If not, resize those static images and save them back to your project.
+3) Try removing android:adjustViewBounds="true" from your ImageView if present and if you are calling .fit() rather than using .resize(width, height)
+4) Call .resize(width, height) during the Picasso load and explicitly set a width or height for the image such as:
+Picasso.with(…).load(imageUri).resize(500, 0).into(…). By passing 0, the correct height is automatically calculated.
+Reference : 
+https://github.com/square/picasso

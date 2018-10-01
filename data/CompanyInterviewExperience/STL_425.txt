@@ -1,0 +1,22 @@
+An iterator is an object (like a pointer) that points to an element inside the container. We can use iterators to move through the contents of the container. They can be visualised as something similar to a pointer pointing to some location and we can access content at that particular location using them.
+Iterators play a critical role in connecting algorithm with containers along with the manipulation of data stored inside the containers. The most obvious form of iterator is a pointer. A pointer can point to elements in an array, and can iterate through them using the increment operator (++). But, all iterators do not have similar functionality as that of pointers. 
+Depending upon the functionality of iterators they can be classified into five categories, as shown in the diagram below with the outer one being the most powerful one and consequently the inner one is the least powerful in terms of functionality.
+
+Now each one of these iterators are not supported by all the containers in STL, different containers support different iterators, like vectors support Random-access iterators, while lists support bidirectional iterators. The whole list is as given below:
+
+Types of iterators: Based upon the functionality of the iterators, they can be classified into five major categories:
+The following diagram shows the difference in their functionality with respect to various operations that they can perform.
+
+Benefits of Iterators
+There are certainly quite a few ways which show that iterators are extremely useful to us and encourage us to use it profoundly. Some of the benefits of using iterators are as listed below:
+Run on IDE
+Output:
+Explanation: As can be seen in the above code that without using iterators we need to keep track of the total elements in the container. In the beginning there were only three elements, but after one more element was inserted into it, accordingly the for loop also had to be amended, but using iterators, both the time the for loop remained the same. So, iterator eased our task.
+
+However, if we were using iterators for vectors to access the elements, then just changing the vector to list in the declaration of the iterator would have served the purpose, without doing anything else
+So, iterators support reusability of code, as they can be used to access elements of any container.
+
+Run on IDE
+Output:
+Explanation: As seen in the above code, we can easily and dynamically add and remove elements from the container using iterator, however doing the same without using them would have been very tedious as it would require shifting the elements every time before insertion and after deletion.
+

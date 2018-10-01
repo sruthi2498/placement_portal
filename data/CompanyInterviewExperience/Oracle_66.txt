@@ -1,0 +1,24 @@
+Consider a special family of Engineers and Doctors with following rules :
+We can represent the situation using below diagram:
+Given level and position of a person in above ancestor tree, find the profession of the person.
+Examples :
+
+Method 1 (Recursive)
+The idea is based on the fact that profession of a person depends on following two. 
+We recursively find the profession of parent, then use point 2 above to find the profession of current node. 
+Below is implementation of above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+ 
+ 
+Method 2 (Using Bitwise Operators)
+Level input isn’t necessary (if we ignore max position limit) because first elements are same.
+The result is based on count of 1’s in binary representation of position minus one.  If count of 1’s is even then result is Engineer, else then Doctor.
+And of course position limit is 2^(Level-1)
+Run on IDE
+Run on IDE
+
+Thanks to  Furkan Uslu for suggesting this method.

@@ -1,0 +1,8 @@
+The std::cbrt() is an inbuilt function in C++ STL which is used to calculate the cube root of number. It accepts a number as argument and returns the cube root of that number.
+Syntax:  
+Parameter:  The parameter can be of int, double, long double or long long type.
+Return Value:  It returns the cube root of the number num. The datatype of returned cube root is same as that of the parameter passed except when an integer is passed as parameter. If the parameter passed is integral then the cbrt() function will return a value of type double. 
+Examples:
+Below program illustrate the cbrt() function: 
+Run on IDE
+Output:

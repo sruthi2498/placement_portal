@@ -1,0 +1,31 @@
+Microsoft visited BITS Pilani, Hyderabad Campus for placements in August, 2018. The detailed process was as follows:
+Round 1: Online Coding, 75 Minutes, 3 coding questions from a Question bank ( 65/~150 shortlisted)
+
+The platform used was Co-Cubes. 3 questions were asked of 2, 3 and 5 marks respectively with varying difficulty.
+some of the other questions which were also asked were
+Round 2: Group Fly Round, 45 Minutes, 2 coding questions, Written Round ( ~20/65 shortlisted)
+
+This was a written round and we were expected to write fully functional code, without any bugs and errors. Library functions used, if any, had to be explained and if possible, code for that too (not that rigorous). Pseudo code and algorithms were also allowed.  All the assumptions made had to be explained as well.
+https://www.geeksforgeeks.org/look-and-say-sequence/
+https://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/
+Round 3: Technical Interview 1, ~1:15 Hrs
+
+The interviewer was very friendly and started by asking some questions related to my resume and summer internship . Then he started with some questions based on Data Structures and Algorithms
+e.g “/abc/def/../..” would yield “/” on normalisation and “/ghi/jkl/./..” would yield “/ghi”
+https://www.geeksforgeeks.org/simplify-directory-path-unix-like/
+I gave him an approach using stack and he was satisfied with it. Corner cases were very important.
+e.g 5x^12 + 6x^10 + 4x^5 + 6x^5 + 3x^3 + 2x^3 + 9 would result to 5x^12 + 6x^10 + 10x^5 + 5x^3 + 9
+I provided him with 3 approaches, one with trees, one with max heap and finally one with Linked lists, considering all the corner cases and continuously optimizing the code with respect to time and space complexity. He seemed happy with my approach.
+Next, he moved on to DBMS and OS. Some SQL queries and Synchronization problems were asked and I was asked to explain the Producer-Consumer problem in synchronization. A few ML questions were also asked.
+The interviewer then moved on to my projects and I was asked to draw the detailed ER diagram for one of my projects.
+Round 4: Technical Interview 2, ~1:15 Hrs
+Some more questions related to projects were asked along with a few puzzles. Some basic Coding questions were also asked.
+This round was a mix of technical and HR, as there were a lot of resume related questions. I was required to explain the project that I had done in my summer internship in detail, which technologies I had used, team structure, designing the project as well as why we had chosen to go with the said details.
+Round 5: HR / Design Round, ~1:30 Hrs
+
+This round was basically a mix of HR and creative design round. The interviewer wanted to check whether the candidate can think out-of-the box with regard to any given problem and come up with unique, optimized solutions.
+Questions like design a spectacle, Inventory Management System were asked and a lot of DBMS theory like 3 schema abstraction, data independence, ACID properties, concurrency control, 3 tier, 2 tier architecture were asked. I was required to draw each and every phase of the designing process.
+In the end, 4 candidates were selected for the the role and I was one of them!!!
+Some tips related to coding interviews which helped me a lot 
+Thanks!
+ 

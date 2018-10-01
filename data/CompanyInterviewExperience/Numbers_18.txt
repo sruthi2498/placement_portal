@@ -1,0 +1,17 @@
+You are given a number n, the task is to find nth octagonal number. Also, find the Octagonal series till n.
+An octagonal number is the figure number that represent octagonal. Octagonal numbers can be formed by placing triangular numbers on the four sides of a square. Octagonal number is calculated by using the formula (3n2 – 2n).
+Examples :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+We can also find the octagonal series. Octagonal series contains the points on octagonal.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

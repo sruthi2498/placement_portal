@@ -1,0 +1,60 @@
+Hi, I was recently interviewed for MTS at Adobe. Here is my interview experience:
+1)Online aptitude test
+2)Online technical test :
+It comprised of C MCQs and coding question(in any language).
+Coding questions were:
+1. To check if the parenthesis are balanced.
+2. Matrix has rows in the form of 1’s followed by0’s.Find the row with maximum number of 1’s
+3. Reverse a linked list
+4. Multiply two numbers using minimum number of additons
+5. Find if the number if palindrome or not?
+6. Find the number of pairs which sum up to a particular sum ‘K’. Numbers may be positive or negative
+7. Every number ending with 3, has at least one multiple of all 1’s.
+3)Written test (10 questions, 1hour):
+1. Given a boolean number in string form.WAP to output the 2’s complement of the number in the same form(string).
+2. Define a doubly linked list. WAP to reverse the list in place.
+3. Find gcd of 2 numbers using recursion.
+4. Write a function to find maximum of three numbers using ternary operator only.
+   Ans. 5.
+6. Some variable is declared in a file. It is now used in another file using extern keyword. What possible problems could arise?
+7. 1 output question of recursive function.,1 output question of #define, meaning of 2 pointer declaration were asked, 1 output question of 3d array.
+4) Technical Interview  1:
+1) Segregate balls of red, blue and black color stored in an array.
+https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+2)  Consider a directory Structure. Given a file object of outermost directory, print unique names of files.  You are given a predefined isFolder() method.
+3)  Consider an alarm system with operations:
+addEvent(eventId,time,callback()) – Callback function could be playing a ringtone on the alarm.
+removeEvent(eventId)
+updateEvent(eventId,time)
+executeEvent(time) – This will call the callback function of the event to be executed at the given time.
+Discussion on possible data structure to be used along with complexities of each so that executeEvent function is optimized i.e. takes least time.
+5) Technical Interview 2 
+1. Compare C and C++/Java. Discussion on polymorphism, method  overloading, method overriding, Constructor, handling errors, dangling pointer, memory leak. Suppose a class takes positive Integers only, what will happen if we try to create an object giving negative value. How to catch the error. How is the memory deallocated for the object. What is full form of PDF.
+2. What is thread? What problems arise with multithreaded applications? How are they solved? Difference between semaphore and mutex?
+3. Given 2 sorted arrays , find kth smallest element among them.
+4. Reverse a linked list in place, without returning the head pointer.
+https://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/
+6) Technical Interview 3:
+1. https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/
+2. https://www.geeksforgeeks.org/reverse-level-order-traversal/
+3. https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+ href=”https://www.geeksforgeeks.org/clone-linked-list-next-arbit-pointer-set-2/”>
+4. Given a binary search tree to be transmitted over a network, WAP to store the BST at sender side and recreate BST on receiver side.
+5. What data structure is used for dictionary. What are limitations of that data structure.
+7) HR Round:
+1. Tell me something about yourself.
+2. Why should we hire you.
+3. Why Adobe?
+4. What is your dream company?
+5. Family background.
+6. Adobe CEO, headquarters, when it was established.
+ 8) Director Round:
+1) Tell me something about yourself personally as well as professionally.
+2) Design a mobile app which tells nearest restaurants to your current location. Discussion on how restaurants should be stored on database. How should database be searched for restaurants based on current location. How it can be optimized in case of remote areas and dense population areas.
+3) Given n red balls, m blue balls and 3 containers, how would you distribute balls among the containers so that the probability of picking up the red ball is maximized.
+4) 4)WAP to read through a file and print tokens of length 5 comprising of alphanumeric characters only.
+5) Questions from resume.
+6) What is your strongest quality. Give an example of a situation.
+I would like to thank GeeksForGeeks which helped me a lot in my interview preparations.
+
+

@@ -1,0 +1,10 @@
+Given a simple expression tree, consisting of basic binary operators i.e., + , – ,* and / and some integers, evaluate the expression tree.
+Examples:
+
+As all the operators in the tree are binary hence each node will have either 0 or 2 children. As it can be inferred from the examples above , the integer values would appear at the leaf nodes , while the interior nodes represent the operators.
+To evaluate the syntax tree , a recursive approach can be followed .
+The time complexity would be O(n), as each node is visited once. Below is a C++ program for the same:
+
+Run on IDE
+Run on IDE
+

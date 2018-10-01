@@ -1,0 +1,43 @@
+I have recently attended an interview with Salesforce Hyderabad, for SDE-I position. There are 5 rounds in total, all are technical.
+I. Programming Round:
+1. Find the diameter of a binary treeHere the diameter is maximum number of nodes possible in the tree, formed by two leaf nodes.
+It can pass through the root or need not be.
+2. Rotate an m by m matrix by 90 degrees.
+3. Given an array containing positive and negative numbers, find all the sub arrays in it, whose sum is equal to zero.
+Solution: Maintain hashmap and insert the sum till now for every element and its index position –> HashMap
+For each element, check the following 3 cases:
+a) whether the element is “zero” ==> start and end indices both are “current index”
+b) whether the sum is “zero” ==> start index is 0 and end index is “current index”
+c) whether the sum is already present ==> start index is “map.get(sum)+1”, end index is “current index”
+II. Technical Round 1:
+1. Given a time in hours and minutes, find the angle between hours and minutes pointers in analog clock.
+2. Given two arrays of equal size. First Array represents in the arrival timings of trains and second array represents the departure timings of the same trains.
+Now with the above two arrays data, give the number of platforms required to accommodate the trains.
+3. Given an array containing integers, in which the elements are repeated multiple times.
+Now sort the array wrt the frequency of numbers. 
+4. Write code for Deadlock in Multi Threading.
+III. Technical Round 2:
+Given a url containing the domain name and product it, like:www.amazon.in/pid=1234
+By passing this url to utility functions, you can get all information about it.
+getProductName(url) –> Gives you the product name
+getProductPrice(url) –> Gives you the price of the product
+getRelatedProducts(url) –> Other products related to the current product, in which also user might be interested.
+Now given a product url, print the information about it completely, including all its related products.
+What is the data structure that you will consider to represent the above product data and write class structure for the same.
+IV. Presentation Round:
+A technical topic will be given and you have to speak on it in front of a group of 5-6 people.You will be given 1 hour of time to prepare, a system with internet.
+You can present the topic either on board or with ppt also.
+The aim of this round is to check the candidates learning capability on a new topic, his presentation skills.
+The topic given to me is “Apache Flink”
+Since I got mixed response for this round, they conducted another technical round.
+V. Technical Round 3:
+1. Design an LRU(Least Recently Used) Cache.
+What is Cache and define LRU Cache?
+What data structure do you use and what is the time complexity?
+Solution: Take one hashmap and linked list
+HashMap contains the key as data and value as its address in the linked list
+Linked list will maintain the elements in their usage order, with the last used item at the start of the list.
+This way the least recently used is at the end of the list always.
+2. Explain about HashMap internal implementation and write code for the same.
+
+

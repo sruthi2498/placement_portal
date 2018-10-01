@@ -1,0 +1,13 @@
+Given a positive integer n. The task is to find count of digits of number which evenly divides the number n.
+Examples:
+
+The idea is to find each digit of the number n by modulus 10 and then check whether it divides n or not. Accordingly, increment the counter. Notice that the digit can be 0, so take care of that case.
+Below is implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+

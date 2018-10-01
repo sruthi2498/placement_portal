@@ -1,0 +1,13 @@
+Given an positive integer n. Count the different numbers that can be generated using digits 1, 2, 3 and 4 such that digits sum is the number ‘n’. Here digit ‘4’ will be treated as ‘1’.  For instance,
+32 = 3 + 2 = 5
+1341 = 1 + 3 + 1 + 1 = 6
+441 = 1 + 1 + 1 = 3
+Note: Answer the value in mod = 109+7
+The approach is to use Dynamic programming. The problem is same as coin change and Ways to write n as sum of two or more positive integers problems. The only difference is that, instead of iterating up-to ‘n’, iterate only from 1 to 3 as according to question, only 1, 2, 3 and 4 digits are allowed. But since ‘4’ can be replaced with ‘1’ therefore iterate through 1, 2 and 3 and double the count of ‘1’ for compensation of digit ‘4’.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(n)
+Auxiliary space: O(n)
+Note: Asked in Directi coding round(2014 and 2017)

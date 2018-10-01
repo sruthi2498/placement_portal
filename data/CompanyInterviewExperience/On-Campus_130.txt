@@ -1,0 +1,25 @@
+Avaya had 3 rounds for selecting students.
+The eligibility criteria was 8.0 CGPA and above, with no live or dead ATKT
+1) Aptitude test
+The aptitude test was taken on the HirePro platform. There were three sections – Technical, Quantitative, and they has a new section called the “Upcoming technologies” section. All the test questions were Multiple Choice questions.
+The Quantitative section has basic mathematics questions on probability, HCF, LCM, ratios and percentages. The technical section tested basic OOP concepts. There were also some guess the output questions and find the error questions in C++. The questions in the “Upcoming Technologies” section were related to Machine Learning and Cloud Computing.
+Around 200 students gave the aptitude test, and 25 were shortlisted.
+2) Technical interview
+There were 4 technical panels who were taking interviews simultaneously. They had a list of topics that they wanted to test during the interview. The panel consisted of 2 people, who were very polite and friendly. My interview lasted for an hour.
+a. They asked about all the projects and internships that I had mentioned in my resume in great detail.
+b. Then they moved on to OOP. They asked me to implement polymorphism using any example, types of
+inheritance, and the types of constructors in C++.
+c. They told me to write a program to check the number of checked bits in a input byte.  https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+d. Operating Systems – Difference between process and thread, semaphores. They asked me why semaphores are used and why we cannot use a simple integer flag to stop any process from accessing shared resources.
+e. Difference between SQL and NoSQL and advantages of NoSQL.
+f. Types of keys in MySQL.
+3) HR Interview
+My HR interview, lasted for about 45-50 minutes. I was the only one who had a long HR interview, and the interview was more technical than HR.
+a. Tell me about yourself. Family background, etc.
+b. The HR panel also asked a lot of questions about my projects. c
+cThey asked me the advantages of NoSQL, and they tried to twist their questions in such a way that I would give up and say the RDBMS is better than NoSQL, but I did not give up.
+d My favorite subjects and why I like them.
+e Why is the UI of a banking application different from the UI of a shopping application like Flipkart, or Amazon.
+f Why Avaya?
+g. Any plans to go abroad for masters?
+ 

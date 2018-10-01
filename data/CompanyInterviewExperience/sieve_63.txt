@@ -1,0 +1,16 @@
+A Left-truncatable prime is a prime which in a given base (say 10) does not contain 0 and which remains prime when the leading (“left”) digit is successively removed. For example, 317 is left-truncatable prime since 317, 17 and 7 are all prime. There are total 4260 left-truncatable primes.
+The task is to check whether the given number (N >0) is left-truncatable prime or not.
+Examples:
+
+The idea is to first check whether the number contains 0 as a digit or not and count number of digits in the given number N. If it contains 0, then return false otherwise generate all the primes less than or equal to the given number N using Sieve of Eratosthenes.. Once we have generated all such primes, then we check whether the number remains prime when the leading (“left”) digit is successively removed.
+Below is the implementation of the above approach.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Worst Case Complexity: O(N*N) 
+Related Article :
+Right-Truncatable Prime
+References: https://en.wikipedia.org/wiki/Truncatable_prime

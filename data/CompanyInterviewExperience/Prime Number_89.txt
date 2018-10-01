@@ -1,0 +1,19 @@
+Given an array of n integers. Find minimum number to be inserted in array, so that sum of all elements of array becomes prime. If sum is already prime, then return 0.
+Examples :
+Naive approach: The simplest approach to solve this problem is to first find the sum of array elements. Then check if this sum is prime or not, if sum is prime return zero otherwise find prime number just greater then this sum. We can find prime number greater then sum by checking if a number is prime or not from (sum+1) until we find a prime number. Once a prime number just greater than sum is found, return difference of sum and this prime number.
+Below is implementation of above idea:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity:  O( N2 )
+Efficient Approach:  We can optimize the above approach by efficiently pre calculating a large boolean array to check if a number is prime or not using sieve of eranthoses.   Once all prime number are generated, find prime number just greater than sum and return the difference between them. 
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+
+Time Complexity:  O(N log(log N))

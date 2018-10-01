@@ -1,0 +1,9 @@
+Given a number n as string, find the nth even-length positive palindrome number .
+Examples:
+
+As, it is a even-length palindrome so its first half should be equal to second half and length will be 2, 4, 6, 8 …. To evaluate nth palindrome let’s just see 1st 10 even-length palindrome numbers  11, 22, 33, 44, 55, 66, 77, 88, 99 and 1001 . Here, nth palindrome is nn’ where n’ is reverse of n . Thus we just have to write n and n’ in a consecutive manner where n’ is reverse of n .
+Below is implementation of this approach .
+Run on IDE
+Run on IDE
+Run on IDE
+

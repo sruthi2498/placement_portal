@@ -1,0 +1,37 @@
+Informatica conducted campus recruitment drive for 1 year internship for CSE and IT students. 345 students were selected to appear for this drive (probably they have shortlisted candidates having CGPA>=8 points).
+Round 1: Online MCQ Test (45 minutes)
+This was an online MCQ test consisting of 30 questions to be solved, focused on subjects like Operating System, DBMS and Data Structure and Algorithms. There was no negative marking.
+Tip: Go through the previous years GATE question papers; around 30-40% questions were from previous years GATE papers.
+Results were declared in 10 minutes after the completion of this round. Out of 345, only 62 were selected for the next round.
+Round 2: Coding Test (90 minutes)
+This round was conducted to test our coding proficiency. Candidates were allowed to choose any language of their preference (C, C++, JAVA, C#, etc.). There were 4 questions (2 questions of 5 marks each and 2 questions of 10 marks each):
+1. Given an array with repeated elements, find the sum of all distinct (non-repeating) elements.
+Input: arr[]={2, 3, 1, 2, 6, 1}
+Output: 9
+Since 2 and 1 were repeated, they are not considered while calculating the sum.
+2. Given an array with n elements and an integer k. Divide the array into subarrays, each of them containing k ekements.
+For example:
+Input: arr[]={1, 32, 5, 6, 9, 3} and k=2
+The subarrays will have elements
+{132}, {56}, {93}.
+Now sort these subarrays as {56}, {93}, {132}. Merge these subarrays together and display them as the elements of original array in sorted order as
+Final output: arr[]={5, 6, 9, 3, 1, 32}
+3.Maximum non-contiguous subarray sum problem
+4. Lexicographic rank of a string
+A candidate who could solve a minimum of 2 questions was selected for the next round. Out of 62, only 26 could make it to the next round.
+Tip: Go through the typical programming questions given in websites like geeksforgeeks, hackerearth, etc.
+Round 3: Technical round
+This was a Face-to-Face Interview. The technical round was a series of 3 rounds, one of which was conducted on the same day and the other two rounds were conducted on the following day (Day 1 interviews went till 9:30 P.M).
+My interview went for around 1 hour. The interviewer asked me questions only on Data Structure that were totally conceptual.
+1. Given a linked list of nodes having a random pointer in addition to the next pointer, where the random pointer points to any random node; write a program to make an exact replica of that linked list.
+2. Write a program to reverse a linked list
+3. Given a random node in a linked list, find two linked lists reversed from that node.
+For example, if the linked list is A->B->C->D->E and the random node is C, then return C->B->A and E->D->C.
+Note: No header pointer was given, only the random node was given.
+4. Difference between an object and a pointer in JAVA.
+5. What is data structure? Which is the best data structure for organizing and storing data?
+There were some other questions like finding the shortest path and constraints on such algorithms.
+Sadly, I got eliminated after this round.
+Out of 26, only 13 could make it to the second technical round scheduled for the following day. The next day, only 8 could clear the second technical round, followed by third technical round.
+Round 4: HR Interview
+The 8 candidates had their HR Interview, after which only 5 were selected for their 1 year internship program.

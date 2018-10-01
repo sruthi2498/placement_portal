@@ -1,0 +1,19 @@
+Given two integer N or M find the number of zero’s trailing in product of factorials (N!*M!)? 
+Examples:
+
+As discussed in number of zeros in N! can be calculated by recursively dividing N by 5 and adding up the quotients.
+For example if N = 127, then
+Number of 0 in 127!  =  127/5 + 127/25 + 127/125 + 127/625
+                     =  25 + 5 + 1 + 0
+                     =  31
+Number of 0s in N! = 31. Similarly, for M we can calculate and add both of them.
+So, by above we can conclude that number of zeroes in N!*M! Is equal to sum of number of zeroes in N! and M!.
+         f(N) = floor(N/5) + floor(N/5^2) + … floor(N/5^3) + …
+         f(M) = floor(x/5) + floor(M/5^2) + … floor(M/5^3) + …
+         Then answer is f(N)+f(M)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

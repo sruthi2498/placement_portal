@@ -1,0 +1,31 @@
+I had around 1 year and 9 months of experience. And applied for SDE1
+First Round (F2F):
+1. What are data structures in which you are most uncomfortable.
+2. What is your favorite sorting algorithm. Give a dry run.
+3. Heap sort, dry run, Complexity of building heap, prove it.
+4. https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1 , extended for n-array tree.
+5. https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/  ( in single scan)
+Second Round (F2F):
+1. Tell me about yourself.
+2. What is the most challenging project you have done, your contribution.
+3. http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/
+4. http://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/
+Third Round (F2F):
+1. Tell me about yourself.
+2. Most challenging project, why it was challenging, your role in it.
+3. Implement a LRU cache, extended for LRU with ttl at each block.
+4. http://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+5. Full working code of Dijastra Algorithm and a dry run.
+Fourth Round: Hiring Manager (Telephonic)
+1 Tell me about yourself, company role and responsibility and many behavioral questions.
+2. Detailed discussion about previous projects.
+3. If you have indefinite budget and indefinite time, what type of project would do ?
+4. Design a notification system.
+Fifth Round: Bar Raiser 
+1. Tell me about yourself.
+2. Find smallest positive missing number from an array of positive numbers.
+3. Disagreement with your immediate supervisor, how your relation got affected after that        disagreement.
+4. Your one area which needs to be improved.
+5. Your strongest strength.
+6. A work in your project which made you proud.
+

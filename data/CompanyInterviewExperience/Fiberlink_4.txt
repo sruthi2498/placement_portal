@@ -1,0 +1,61 @@
+I applied at Fiberlink thorough a referral.
+Round 1 (Coding test): 1 question to solve at HackerRank with a time limit of 1 hour.
+Q. Find all distinct palindromic sub-strings of a given string.
+GeeksforGeeks link
+Round 2: (Telephonic Interview)
+– Basic data structures
+– OOPS concepts, private constructors, virtual functions
+– Given a stack, a version of a stack is the set current elements in the 
+You have to implement a function GetVersion(int) , which prints out the whole stack for a particular version.
+Need to optimize it to best possible solution.
+– How to find intersection point of two linked lists in single traversals for both lists.
+Round 3: (Telephonic Interview)
+–  Discussions on projects I have worked on in my current organization. They dig in really deep on to find out the level of work and understanding on the projects worked.
+Round 4: (Skype Interview)
+– Discussions on projects.
+– Questions on inheritence and polymorphism, other OOPS related questions
+– Allocating memory using calloc, malloc and realloc in C
+– How are virtual functions implemented internally in C++ ?
+– Given a stack, implement GetMax() which returns the maximum element in the stack
+– Sort an array containing 0, 1 and 2 (Dutch National Flag problem)
+– Find the element occurring more than n/2 times in an array
+Round 5: (Skype Interview)
+– Behavioral questions like Why do you want to change your job with less than 1 year of experience
+– Discussions on projects.
+– Given a string, find the longest substring having same characters. 
+– Given a building with infinite number of floors. The number of rooms on each floor are 20,21,20,21.. and so on starting from the ground floor. The room number starts from 1 and keeps on increasing. Given a room number, find the floor on which room lies and the position of room from the left. Write a code for it.
+– Other logical puzzles
+After clearing the above rounds, they called me up to Fiberlink Office, Bangalore for some F2F rounds.
+F2F Round 1 with manager: 
+– Project Discussions
+– Architectural Discussions on projects and improvements/ drawbacks
+– Core Java Questions
+– Discussions on how are packages created in Java
+– Questions on OOPS and design patterns
+– Some SQL queries on inner and self joins with aggregation operators
+– Questions on Areas of Interest, mine being networks asked about different networking concepts
+F2F Round 2 with Tech Lead:
+– Project Discussions
+– Basic SQL queries
+– Discussions on semaphores and monitors(to solve deadlock related problems)
+– Logical Puzzles
+– Count all possible paths from top left to bottom right of an MxN matrix GeeksforGeeks link
+– Other average data structure codes
+F2F Round 3 with Senior Tech Lead:
+– Project Discussions
+– Design a distributed system for a Content Delivery Network(CDN). Thorough discussions for this one
+– Open ended puzzles to test the approach to solve a problem
+– Mirror image of a tree GeeksforGeeks link
+– Flattening a linked list GeeksforGeeks link
+– Other discussions regarding the interests and domain I would like to work on.
+F2F Round 4 HR:
+1. Why you want to leave your current job/organization?
+2. Current CTC, expected CTC.
+3. How soon you can join?
+4. What do you expect from this job.
+After the HR interview, the HR told me that it has been very positive for me and that she has to do a formal discussion with all the interviewers for a final nod, and you can expect the offer structure by tomorrow (got the final offer letter after a week).
+Overall, the experience was really nice. The interviewers were amazingly curious and helpful. They are open to other approaches and answers rather than the one they know. A lot of questions were on projects you have worked upon. 
+————————————————————————————————————————————————————————————————————————————————
+Some words for the GeeksforGeeks team:
+Thanks to you guys for compiling up all the super awesome stuff out there at GeeksforGeeks.org. Even the app has been quite amazing. The recent update of the website to responsive design is splendid.
+Keep up the good work. 

@@ -1,0 +1,15 @@
+Round 1
+Q1. Multiply two 2d matrices 
+Q2  You are given a stack in which element are filled at runtime. And normal push and pop operation. Now write a function min which you minimum element in stack at any particular instance.
+Sol. https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/
+Round 2
+Q1 Given an array of size n contains element from 1 to n in any order(unsorted). Now one element is dublicate. Find that elemet without using extra space.
+https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
+Q2 Given an array which contain repeated eleemt in consecutive order.Now write a recursive function which remove consecutive elements from array.
+Q3 Givn an array find subarray which has zero sum.
+https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/
+Q4 Some talk on node js. and its event driven model.Why we use ngnix as proxy server.
+Q5. Find number of unique visitors on a website having traffic upto 0.5 million daily(let’s say). How will you number of unique visitors.
+Q6 Given a histogram find maximum area of rectangle.
+https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+

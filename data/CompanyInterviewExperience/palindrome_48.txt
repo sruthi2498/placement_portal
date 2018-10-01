@@ -1,0 +1,5 @@
+Given a matrix containing lower alphabetical characters only, we need to print all  palindromic paths in given matrix. A path is defined as a sequence of cells starting from top-left cell and ending at bottom-right cell. We are allowed to move to right and down only from current cell. We cannot go down diagonally.
+Order of elements in the output array doesn’t matter.
+The idea is simple. We start from top left (0, 0) and explore all paths to bottom right. If a path turns to be palindrome, we print it.
+Run on IDE
+Output : 

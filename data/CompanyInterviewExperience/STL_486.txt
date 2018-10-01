@@ -1,0 +1,20 @@
+The member function assign() is used for the assignments, it assigns a new value to the string, replacing its current contents.
+Syntax 1: Assign the value of string str.
+Run on IDE
+Output:
+Syntax 2: Assigns at most str_num characters of str starting with index str_idx. It throws out_of _range if str_idx > str. size().
+Run on IDE
+Output:
+Syntax 3: Assign the characters of the C-string cstr. It throws length_error if the resulting size exceeds the maximum number of characters.
+Run on IDE
+Output:
+Syntax 4: Assigns chars_len characters of the character array chars. It throws length_error if the resulting size exceeds the maximum number of characters. 
+Run on IDE
+Output:
+Synatx 5: Assigns num occurrences of character c. It throws length_error if num is equal to string::npos
+Run on IDE
+Output:
+Syntax 6: Assigns all characters of the range [beg, end). It throws length_error if range outruns the actual content of string.
+Run on IDE
+Output:
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks(We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

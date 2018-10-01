@@ -1,0 +1,21 @@
+Given x, y, z and n, find smallest n digit number which is divisible by x, y and z. 
+Examples:
+
+1) Find smallest n digit number is pow(10, n-1).
+2) Find LCM of given 3 numbers x, y and z.
+3) Find remainder of the LCM when divided by pow(10, n-1).
+4) Add the “LCM – remainder” to pow(10, n-1). If this addition is still a n digit number, we return the result. Else we return Not possible.
+Illustration :
+Suppose n = 4 and x, y, z are 2, 3, 5 respectively.
+1) First find the least four digit number i.e. 1000,
+2) LCM of 2, 3, 5 so the LCM is 30.
+3) Find the reminder of 1000 % 30 = 10
+4) Subtract the remainder from LCM, 30 – 10 = 20. Result is 1000 + 20 = 1020.
+Below is the implementation of above approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

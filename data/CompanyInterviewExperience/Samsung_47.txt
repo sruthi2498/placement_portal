@@ -1,0 +1,24 @@
+Recently Samsung Delhi visited our campus for Full-Time Campus Requirement. One month earlier they sent a ppt slide containing sample problems set on Graph, Backtracking, Dynamic Programming and Ad Hoc Problems from UVA and SPOJ. Cut-off was 7.0 CGPA and 60 % in 10th and 12th examination.
+Day started with a presentation. Then it was followed by  1 Online Round, and 2 interviews (Although it was scheduled for next day, but a surprise call they took it on same day)
+
+Round 1 (Online)-
+Check if a graph is bi-colourable.
+https://www.geeksforgeeks.org/bipartite-graph
+If Yes, print numbers of vertices with any one of the colour, followed by such vertices in sorted order. if No just print -1
+eg- 1# 3 1 2 5
+      2# -1
+Notes:
+No STL and Utilities are allowed. Even for sorting , Queue, Stack you have to implement yourself.
+Only 1 MB of Stack memory and 248 MB of Heap memory was allowed
+Round 2 (tech Interview)
+1. How much time you took to solve online questions.
+– In my case, initially I write code with Backtracking which resulted in Time Out, then I did it by BFS that’s why I took about 2:40 HRS.
+2. Why Backtracking did not work? What should one do to optimise it?
+3. Questions on DFS and BFS, which one is better and how for graph traversal?
+4. Questions on Global Variable and Static Variable. Memory allocation of these variables.
+Round 3 (HR Interview)
+Standard HR questions like tell me about yourself. Why we should hire you. Qualities your friends like in you. Your Likes and Dislikes. Discussion on Board Normalization. And one question based on life hack, tell me 5 different uses of empty plastic bottles (5 uses of staplers ). HR gave his feed.
+Tips-
+Average Interviews can be compensated with Quality questions from candidates, so don’t hesitate to ask. Do research on the firm. And do take part in presentation, ask questions from there also.
+
+

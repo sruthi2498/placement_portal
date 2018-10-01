@@ -1,0 +1,23 @@
+The problem is opposite of this post.  We are given a stack data structure with push and pop operations, the task is to implement a queue using instances of stack data structure and operations on them.
+
+A queue can be implemented using two stacks. Let queue to be implemented be q and stacks used to implement q be stack1 and stack2. q can be implemented in two ways: 
+Method 1 (By making enQueue operation costly) This method makes sure that oldest entered element is always at the top of stack 1, so that deQueue operation just pops from stack1. To put the element at top of stack1, stack2 is used.
+Run on IDE
+ 
+Method 2 (By making deQueue operation costly)In this method, in en-queue operation, the new element is entered at the top of stack1. In de-queue operation, if stack2 is empty then all the elements are moved to stack2 and finally top of stack2 is returned.
+Method 2 is definitely better than method 1.
+Method 1 moves all the elements twice in enQueue operation, while method 2 (in deQueue operation) moves the elements once and moves elements only if stack2 empty.
+Implementation of method 2:
+Run on IDE
+Run on IDE
+Run on IDE
+
+Queue can also be implemented using one user stack and one Function Call Stack.  Below is modified Method 2 where recursion (or Function Call Stack) is used to implement queue using only one user defined stack.
+The step 3 makes sure that the last popped item is always returned and since the recursion stops when there is only one item in stack1 (step 2), we get the last element of stack1 in deQueue() and all other items are pushed back in step 
+3. Implementation of method 2 using Function Call Stack:
+Run on IDE
+Run on IDE
+Run on IDE
+
+
+Please write comments if you find any of the above codes/algorithms incorrect, or find better ways to solve the same problem.

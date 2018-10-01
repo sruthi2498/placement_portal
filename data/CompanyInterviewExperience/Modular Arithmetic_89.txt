@@ -1,0 +1,21 @@
+Given a number ‘n’ and a prime ‘p’, find square root of n under modulo p if it exists.  It may be given that p is in the form for 4*i + 3 (OR p % 4 = 3) where i is an integer.  Examples of such primes are 7, 11, 19, 23, 31, … etc,
+Examples:
+Naive Solution :  Try all numbers from 2 to p-1. And for every number x, check if x is square root of n under modulo p.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of this solution is O(p)
+Direct Method :  If p is in the form of 3*i + 4, then there exist a Quick way of finding square root.
+Below is the implementation of above idea :
+
+Run on IDE
+Run on IDE
+
+Time Complexity of this solution is O(Log p)
+How does this work?
+We have discussed Euler’s Criterion in the previous post.
+We will soon be discussing methods when p is not in above form.

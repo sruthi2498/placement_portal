@@ -1,0 +1,9 @@
+A binary tree and a number k are given. Print every path in the tree with sum of the nodes in the path as k.
+A path can start from any node and end at any node and must be downward only, i.e. they need not be root node and leaf node; and negative numbers can also be there in the tree.
+Examples:
+Source : Amazon Interview Experience Set-323
+Kindly note that this problem is significantly different from  finding k-sum path from root to leaves. Here each node can be treated as root, hence the path can start and end at any node.
+The basic idea to solve the problem is to do a preorder traversal of the given tree. We also need a container (vector) to keep track of the path that led to that node. At each node we check if there are any path that sums to k, if any we print the path and proceed recursively to print each path.
+Below is the C++ program for the same.
+Run on IDE
+Output:

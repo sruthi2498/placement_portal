@@ -1,0 +1,14 @@
+Evaluate an expression represented by a String. Expression can contain parentheses, you can assume parentheses are well-matched. For simplicity, you can assume only binary operations allowed are +, -, *, and /.  Arithmetic Expressions can be written in one of three forms:
+Infix Notation: Operators are written between the operands they operate on, e.g. 3 + 4 .
+Prefix Notation: Operators are written before the operands, e.g + 3 4
+Postfix Notation: Operators are written after operands.
+Infix Expressions are harder for Computers to evaluate because of the addional work needed to decide precedence. Infix notation is how expressions are written and recognized by humans and, generally, input to programs. Given that they are harder to evaluate, they are generally converted to one of the two remaining forms. A very well known algorithm for converting an infix notation to a postfix notation is Shunting Yard Algorithm by Edgar Dijkstra. This algorithm takes as input an Infix Expression and produces a queue that has this expression converted to a postfix notation. Same algorithm can be modified so that it outputs result of evaluation of expression instead of a queue.  Trick is using two stacks instead of one, one for operands and one for operators. Algorithm was described succinctly on http://www.cis.upenn.edu/ matuszek/cit594-2002/Assignments/5-expressions.htm, and is re-produced here. (Note that credit for succinctness goes to author of said page)
+It should be clear that this algorithm runs in linear time – each number or operator is pushed onto and popped from Stack only once. Also see http://www2.lawrence.edu/fast/GREGGJ/CMSC270/Infix.html,
+http://faculty.cs.niu.edu/~hutchins/csci241/eval.htm.
+Following is the implementation of above algorithm:
+Run on IDE
+Run on IDE
+Output:
+Time Complexity: O(n)
+Space Complexity: O(n)
+See this for a sample run with more test cases.

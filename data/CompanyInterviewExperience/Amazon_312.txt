@@ -1,0 +1,31 @@
+I am 1.5 year experienced guy, currently working in one good Product Based company in Whitefield,Bangalore. I have spent 1.2 years in my present company and previously, I spent 6 months in TCS Pune.
+Recently, I got a chance to be interviewed by Amazon at Bangalore, through a referral (made friend from Facebook :p). I was preparing for Amazon from last 6-8 months from GeeksforGeeks.org. I must say, GeeksforGeeks is making life of people. I got an offer from Amazon by preparing from GeeksForGeeks.
+Questions :
+As I reached to 25th Floor of WTC, Brigade Gateway, we 25 people were asked to write code for these 3 questions on paper (OnSite Written Round) :
+1. Two numbers are represented by 2 linkedlists. Find the resultant linkedlist represented as sum of these given linkedlists.
+2. Given a number say 12345, find the immediate next number using the same digits, in this case 12354.
+3. 3 points of a triangle are given. Find if given forth point lies inside or outside of the triangle.
+F2F Round 1 :
+1. Given a Hotel and checkin/Checkout time of visitors, find the maximum numbers of rooms required. (different version of Trains/Platform question)
+2. Given sequentially placed boxes, each representing a number( which may be positive or negative), we need to select the numbers in order to have the maximum sum, having the constraint that if we seelct a given box, we cannot select adjacent box to it, but can select any other.
+Solution : let the boxes positions be the indexes of array and their values as array values. then if we select value at index 0, we cannot select value at index 1, but can select from index 2,3,, and so on.so we can apply Dynamic programming here.
+F2F round 2 (Hiring Manager Round):
+HR called me and gave me some tips before this Interview(I must say Amazon Interview people are really cool and make the candidate feel comfortable). He told me listen the question carefully and answer perfectly as this interview matter a lot.
+1. Asked about my experience and work in current company. (Discussion lasted for about 1 hour) as I explained in deep and he asked cross questions.
+2. Given 2 numbers, add them without using any arithmetic operator.
+Hint : Use Binary Operators (specifically ‘<<‘, ‘&’, ‘^’)
+Gave answers to this question and he was really impressed.
+(he was also very cool in nature)
+ 
+F2F Round 3 : 
+1. Discussion on my projects and work in current company.
+2. Given a general stack, design an advanced DS, such that getMin(),getMax() happens in o(1). Many cross questions on this. about optimizations and all.
+Then HR told me that all my interviews went well and they will call me for last round of Interview. 🙂
+
+Last F2F round (Bar Raiser):
+1. Given a file having many lines of text(words) and given a dictionary having an API function boolean isValid(String word), which will return true is a word passed to this function is valid word in dic.,and will return false if given passed argument is not a valid word in dic.
+Now read the file and check if each word as well as all possible words from its L to R and R to L combinations, are valid words in dic. or not.
+e.g. say first line in file is “My name is Gourav”, then in the word NAME, the possible valid words are NAME, AM(L to R), ME(L to R), MAN(R to L), AN(R to L).
+I implemented this simple questions in java code and used Hashmap to avoid processing of already processed words.
+2. Why Amazon ?
+3. Extraordinary work done in company which was out of scope of your designation.

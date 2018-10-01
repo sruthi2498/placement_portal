@@ -1,0 +1,47 @@
+Microsoft conducted online round in August 2018 at our institute. Around 270 students applied for the test.
+Round 1(Online): It was conducted on CoCubes and consisted 3 questions and time limit was 75 min. The questions were as follows:
+1. (2 marks) https://www.geeksforgeeks.org/find-the-first-repeated-character-in-a-string/
+2. (3 marks) https://www.geeksforgeeks.org/find-patterns-101-given-string/
+Question was similarSt to this question the difference was that there can be a case in which there can be no 0’s as well.
+3.(5 marks) https://www.geeksforgeeks.org/remove-bst-keys-outside-the-given-range/
+This round was bit easy for me and I solved all the problems within 20 mins.
+Advise: Always read previous interview experiences.
+Outcome: 68 out of 270 students made it to the second round i.e. group flyer
+Round 2( Group Flyer ) : Students were divided into groups of 7/8 students and provided a mentor.
+
+2 questions are given and you have to discuss the approach with the mentor and write the optimised approach on a paper.
+Question 1: https://www.geeksforgeeks.org/word-break-problem-using-backtracking/
+Variation of the above problem was given, one has to find the minimum number of words which one can use for making a given sentence.
+Question 2: Students of different heights are attending an assembly. The problem is that if a student has less or equal height than the student standing above him  then he/she cannot see the assembly. Task was to find the minimum number of students randomly such that maximum number of students can see the assembly.
+Ex: 9 1 2 3 1 5
+output : 2 students i.e. 9 and 1 has to be removed so that 4 students can see the assembly.
+I saw a pattern that its an implementation of LIS.
+Advise: Always discuss your approach with the mentor as much as possible and write a very neat and clean code on the paper. Always try to give the time and space complexity of the solution you are providing.This round is a group flyer but you have to code individually.
+Outcome: 30 out of 68 made it to the next round.
+3/4 face to face interviews are lined up and each round is an elimination round.
+Round 3(1st Technical F2F) : The interviewer seemed very friendly, he calmed me down by asking about me. He asked about my projects. I had live projects in my basket. He asked me to provide the link( do not lie about your projects it’s normal to have not done a good project). Moving forward he asked me Data Structures based questions.
+1. Find the grandparent of a given node in a Binary Tree.
+I gave a brute force implementation using O(n) space. He asked me to optimize my solution. I thought a while and gave my approach.
+Take two nodes i.e. parent and grandparent initialized as NULL. Call recursively for left and right subtrees when you find the given node return the grandparent. Before calling recursively make grandparent=parent and pass root as parent. return the left or right answer which ever is not NULL.
+He then asked me to write down the code on a paper.
+O(1) space if recursive stack used is not considered.
+2. https://www.geeksforgeeks.org/count-pairs-with-given-sum/
+I gave the unordered map based solution by hashing the frequency of numbers.
+O(n) time and O(n) space complexity.
+Advise: Always have a correct image of the questions in your head before writing a the final solution. Ask as much valid doubts as possible always give the brute force solution as soon it strikes your head. Then discuss the optimised solution with the interviewer and write code for it. Make test cases on your own and test it with your code, if something fails fix the code. Always discuss what you are doing, the interviewer always gives hints if you are going in the wrong direction. Always ask good questions if the interviewer gives you a chance to ask one. Have a smile on your face throughout and just don’t panic.
+Outcome: I along with 15-16 students made it to the next round.
+Round 4 (2nd Technical F2F) : This was a tough one for me and a decider you can say. He asked whether I am comfortable with data structures or not (obviously answer was yes) .
+Question 1: https://www.geeksforgeeks.org/the-celebrity-problem/
+Initially when I was given this problem it was not clear to me. I asked a lot of questions about how are the inputs given, can one person know many person’s etc. He asked me to write down the code. I was not really confident about my code and discussed a general approach he helped me by providing a hint that you must eliminate elements in each decision. I after a lot of struggle came up with the optimised solution using 2 pointer approach. He helped me reach the final solution. I was very relaxed after I gave the optimised answer, interviewer was satisfied.
+Question 2: https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
+This problem was a cake walk for me.
+2 OS based questions: What is deadlock? and What is page fault?
+Questions were very basic and needed basic OS knowledge.
+Advise: If nothing strikes you ask as many questions as possible because you are anyways out if you don’t ask one and don’t give the solution, luckily you might get a hint which you can use to reach a solution . Reaching a solution is very very important when many students are in the same league.
+Outcome: I made it to the next F2F round along with 9-10 students.
+Round 5 (3rd Technical F2F) : This round was to test my fundamental concepts. He gave me a problem which was that given n boxes with x1, x2, x3, ….xn balls in each of them. You need to reach a final state by transfering balls so that at the end every basket contains same number of balls . Tell whether one can reach the stable state or not. The condition was that if box n2 has x2 balls if box n1 is transfering to n2 then he has to transfer x2 balls or the same number of balls which is already present in any box has to be transfered in the same box.
+He discussed the approach with me, and asked me how will I predict whether a transfer is possible or not and whether it will reach a stable state or not. I used hashing to predict a given state then he asked me the implementation of hash table. I told him everything I knew about it. He was convinced. He asked me to ask any questions from him. This marked the end of this round.
+Round 6 (4th HR + Technical) : Asked about my academics, my projects which I did in Ruby on rails, asked about Semaphores its implementation. At the end he left me with a question i.e. Alien Dictionary. He asked me to ask any questions from him. This marked the end of this round.
+The interviews went on till 1 a.m. at night. The result came at 5:00 a.m. in the morning 5 students where offered FTE at MICROSOFT and I was one of them . It was the best day of my life.
+I thank GeeksForGeeks, regular practice on geeksforgeeks helped me alot during the interviews. Focus on finding a solution rather than knowing a solution during practice.
+Contributed by Yash Kapoor( iamaverage)

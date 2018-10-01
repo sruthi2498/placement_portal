@@ -1,0 +1,43 @@
+Given an array and a number k where k is smaller than size of array, we need to find the k’th smallest element in the given array.  It is given that ll array elements are distinct.
+Examples: 
+We have discussed a similar problem to print k largest elements. 
+
+Method 1 (Simple Solution) 
+A Simple Solution is to sort the given array using a O(nlogn) sorting algorithm like Merge Sort, Heap Sort, etc and return the element at index k-1 in the sorted array.  Time Complexity of this solution is O(nLogn).  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2 (Using Min Heap – HeapSelect)
+We can find k’th smallest element in time complexity better than O(nLogn). A simple optomization is to create a Min Heap of the given n elements and call extractMin() k times.
+The following is C++ implementation of above method.
+Run on IDE
+Output: 
+Time complexity of this solution is O(n + kLogn).
+Method 3 (Using Max-Heap)
+We can also use Max Heap for finding the k’th smallest element.  Following is algorithm.
+1) Build a Max-Heap MH of the first k elements (arr[0] to arr[k-1]) of the given array. O(k)
+2) For each element, after the k’th element (arr[k] to arr[n-1]), compare it with root of MH.
+……a) If the element is less than the root then make it root and call heapify for MH
+……b) Else ignore it.
+// The step 2 is O((n-k)*logk)
+3) Finally, root of the MH is the kth smallest element.
+Time complexity of this solution is O(k + (n-k)*Logk)
+The following is C++ implementation of above algorithm
+Run on IDE
+Output: 
+
+Method 4 (QuickSelect) 
+This is an optimization over method 1 if QuickSort is used as a sorting algorithm in first step.  In QuickSort, we pick a pivot element, then move the pivot element to its correct position and partition the array around it.  The idea is, not to do complete quicksort, but stop at the point where pivot itself is k’th smallest element.  Also, not to recur for both left and right sides of pivot, but recur for one of them according to the position of pivot.  The worst case time complexity of this method is O(n2), but it works in O(n) on average.
+
+Run on IDE
+Run on IDE
+
+There are two more solutions which are better than above discussed ones: One solution is to do randomized version of quickSelect() and other solution is worst case linear time algorithm (see the following posts).
+K’th Smallest/Largest Element in Unsorted Array | Set 2 (Expected Linear Time)
+K’th Smallest/Largest Element in Unsorted Array | Set 3 (Worst Case Linear Time)
+
+References:
+http://www.ics.uci.edu/~eppstein/161/960125.html
+http://www.cs.rit.edu/~ib/Classes/CS515_Spring12-13/Slides/022-SelectMasterThm.pdf

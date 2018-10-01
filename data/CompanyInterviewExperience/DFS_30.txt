@@ -1,0 +1,11 @@
+A tree is always a Bipartite Graph as we can always break into two disjoint sets with alternate levels. In other words we always color it with two colors such that alternate levels have same color. The task is to compute the maximum no. of edges that can be added to the tree so that it remains Bipartite Graph. 
+Examples:
+1) Do a simple DFS (or BFS) traversal of graph and color it with two colors.
+2) While coloring also keep track of counts of nodes colored with the two colors.  Let the two counts be count_color0 and count_color1.
+3) Now we know maximum edges a bipartite graph can have are count_color0 x count_color1.
+4) We also know tree with n nodes has n-1 edges.
+5) So our answer is count_color0 x count_color1 – (n-1).
+Below is the CPP implementation : 
+Run on IDE
+Output:
+Time Complexity : O(n)

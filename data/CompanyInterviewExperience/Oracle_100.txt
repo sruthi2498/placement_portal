@@ -1,0 +1,26 @@
+My on campus interview experience of Oracle Server Technology.
+Online Round:
+At first we had an online exam for shortlisting for final interview process. This round had almost everything from English to Puzzles. Basic computer engineering concepts to advanced computer engineering concepts.
+Interview Rounds:
+First Round:
+At first the interviewer asked me to rate myself in C/C++ skills out of 5. And 4.5 was my answer. As he was impressed by my answer, he asked me to write bug free codes for following problems in C
+1. Iterative post order traversal of a binary tree. (I gave him the answer with 2 stacks).
+2. You are given a Single Linked List containing integer key as data in every node and a head pointer pointing to the first node, you have to delete a node with a given key, you can’t create any new variable. (Copy data of next node to the node which contains k and delete next node).
+3. You are given an integer array of size n containing elements in the range 0 to n-1. Now count the frequency of all elements.
+Second Round:
+Interview was started with the introduction, after the introduction he gave me some tips on how to give introduction by highlighting my interests and achievements so far.
+After that we discussed my 3rd year’s project for about 10 min.
+The he said he is going to ask me just one question on some topics, If I succeed then he will move to the next topic. The question was::
+1. You are given a square matrix containing 0 or 1 in every cell. Find if all 0’s or 1’s make a perfect square. I asked for some clarification on this question, then he said listen and understand at once, then he simply repeated the question and gave me 5 min to come up with an algorithm and left the room. He came after 5 min and I gave him the DP solution for finding max size square made by both 0’s and 1’s and in 2nd run I checked if there are 0’s or 1’s which are not part of those max squares. He was satisfied but he actually wanted a recursive solution.
+2. Now the next topic was database. He gave me 2 tables and asked me to write outer join query.
+3. Now in operating systems he asked me to draw process state diagram, I made a little mistake so he asked me to draw PCB, then why we need separate queue for both burst and I/O processes and finally how process queues are managed in multi core processor.
+Third Round:
+This round was puzzle round. I was given to solve 3 puzzles one after another after I solve the previous one. Puzzles were very simple math problems like::
+1. There are 8 members in family. 10 years ago the total age of all members was ‘x’, after 3 years a member of age 60 died and a new child is born. Again after 3 year a member of age 60 died and a new child born. Find the current average of age of all members in terms of ‘x’.
+2. Three cars A, B and C move with constant speed of 40, 60 and 120 kmph respectively. B starts 2 hours after A. Now A, B and C meet each other at same time. Find how many hours later C started from A.
+3. In a exam there are 50 questions. +1 for correct, -1/3 for incorrect and -1/6 for unattempting.
+Shyam scored 32 in that exam. Find the minimum number of questions he must have done wrong.
+HR Round:
+She gone through my CV, read each and every line. Then asked me to briefly explain my projects and the work I did during my internship. Then she asked about location preference and preferred joining date. After that I asked her 2-3 questions about company.
+At the end of the slot I got the offer :). It was a great experience for me. Interviewers were very friendly except for 2nd round :P. To crack Oracle interview conceptual knowledge of various computer science subjects like OS, Networking (because of my project), Algorithms and Database is important. Thanks to geeksfogeeks for providing such a great platform to practice and learn various concepts.
+

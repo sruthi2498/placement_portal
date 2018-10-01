@@ -1,0 +1,86 @@
+Catch The Train
+You are walking down the escalator to catch a subway train. The escalator itself moves at a speed of Ve meters per minute. You can walk down the escalator at a relative speed of Vy meters per minute. The length of the escalator is L meters. Trains arrive T minutes apart. Let t be the time between your arrival to the station if you stand still on the escalator and the arrival of the last train before your arrival. Assume that t is a random variable uniformly distributed between 0 and T. Return the probability of catching an earlier train if you choose to walk down the escalator instead of standing still on it.
+Input :
+The first line of the input contains an integer Tc denoting the number of test cases.
+Each test case contains the following 4 lines
+Ve – velocity of escalator
+Vy – your relative velocity with the escalator
+L – length of escalator
+T – Time Period of Trains
+Output
+For each test case, output a single line containing the expected probability having an absolute or relative error less than 10^-6.
+Constraints
+0 <= Tc <= 5 * 10 ^ 7
+1 <= Ve <= 1000
+1 <= Vy <= 1000
+1 <= L <= 10 ^ 5
+1 <= T <= 10 ^ 6
+Example
+Input:
+2
+10
+10
+20
+2
+10
+10
+100
+4
+Output:
+0.5
+1.0
+Explanation
+Example case 1. If you stand still, it’ll take you 20/10 = 2 minutes to reach the bottom of the escalator. If you choose to walk, it’ll make you 20/(10+10) = 1 minute. In the second case you save 1 minute and in 50% of the cases it’ll allow you to catch an earlier train.
+Example Case 2. Here, if you choose to walk instead of stand still, you will save 5 minutes and you will certainly be guaranteed to catch an earlier train.
+ 
+
+Toffee Boxes
+You have N toffee packets, each containing different number of toffees. The number of toffees contained in the ith packet is denoted by ci. You need to put these toffee packets in M boxes such that each box contains at least one toffee packet, and the maximum number of toffees in a box is minimum.
+You can only choose consecutive toffee packets to put in a box.
+Input
+The first line of the input contains an integer T denoting the number of test cases.
+The first line of each test case contains two space separated integers N, M denoting the number of toffee packets and the number of boxes respectively. The second line of each test case contains N space separated integers c1, c2, …, cN where ci denotes the number of the toffees in the ith toffee packet.
+Output
+For each test case, output a single line containing the maximum number of toffees in a box. Also, output -1 if such an assignment of toffee packets to boxes is not possible.
+Constraints
+1 <= T <= 20
+1 <= N,K <= 100000
+1 <= ci <= 1000
+Example
+Input:
+1
+4 2
+10 3 5 7
+Output:
+13
+Explanation
+Below are the possible assignments of toffee packets to boxes.
+1. 10 [3 5 7]
+2. 10 3 [5 7]
+3. 10 3 5 [7]
+For minimizing the maximum number of toffees in a box, we choose the second assignment, and hence the output should be 13
+ 
+ 
+
+Guess Your Way Out
+Amr bought a new video game “Guess Your Way Out!”. The goal of the game is to find an exit from the maze that looks like a perfect binary tree of height h. The player is initially standing at the root of the tree and the exit from the tree is located at some leaf node.
+Let’s index all the leaf nodes from the left to the right from 1 to 2^h. The exit is located at some node n where 1 <= n <= 2^h, the player doesn’t know where the exit is so he has to guess his way out!
+Amr follows simple algorithm to choose the path. Let’s consider infinite command string “LRLRLRLRL…” (consisting of alternating characters ‘L’ and ‘R’). Amr sequentially executes the characters of the string using following rules:
+1. Character ‘L’ means “go to the left child of the current node”;
+2. Character ‘R’ means “go to the right child of the current node”;
+3. If the destination node is already visited, Amr skips current command, otherwise he moves to the destination node;
+4. If Amr skipped two consecutive commands, he goes back to the parent of the current node
+5. before executing next command;
+6. If he reached a leaf node that is not the exit, he returns to the parent of the current
+node;
+7. If he reaches an exit, the game is finished.
+Now Amr wonders, if he follows this algorithm, how many nodes he is going to visit before reaching the exit?
+Input
+First Line contains T the number of test cases
+The next T lines contains 2 integers h,n
+Output
+Output T lines each containing an integer representing the number of nodes (excluding the exit node) Amr is going to visit before reaching the exit by following this algorithm.
+Constraints
+1 <= T <= 10
+1 <= h <= 50
+1 <= n <= 2^h   Example Input: 1 2 2 Output: 2  Explanation Example case 1. Amr would visit first root node then root->left node and then go to the root->left->right node which is the exit. hence 2 nodes visited before reaching the exit

@@ -1,0 +1,67 @@
+I would like to contribute for GeeksForGeeks by sharing my experience of Amazon Interview process. This was for a SDE position in Hyderabad. I have almost 2 years of work experience in Samsung.
+1st Round: Written 
+Test was on Interview Street Platform.
+Qs-1) A function printMostFrequentWords, which takes in an array of strings, was given. It is required to print a list of all the letters that occurred with the highest frequency in each line of the array, followed by the frequency.
+The list of letters should be an alphabetical list of upper case letters followed by an alphabetical list of lower case letters.
+Sample Test Cases:
+Input #00:
+When riding your bicycle backwards down a one-way street, if the wheel falls of a canoe, how many ball bearings does it take to fill
+up a water buffalo?
+Hello Howard.
+Output #00:
+e 6
+al 7
+a 3
+Hlo 2
+Qs-2) https://www.geeksforgeeks.org/construct-a-special-tree-from-given-preorder-traversal/ –Variation of this one
+Qs-3) http://www.careercup.com/question?id=12998667 
+Third case was a bit tricky.
+Qs-4) Rotate an M*N matrix by 90 degrees. There was no function given in this case. Everything should be assumed by you only.
+Qs-5) Delete the Kth Node from a linked list.
+I solved 4 questions with all test cases while for another 1 only 10/15 test cases passed.
+2nd Round: Telephonic
+Qs-1) Spiral level order traversal of a tree. (Use two stacks)
+Qs-2) A person can jump 1 or 2 steps. No of ways of reaching the top of n stairs. (Try for O(1) space.)
+Qs-3) Find the longest substring in a string with exactly 2 unique characters. The substring should not contain more than two different chars.
+So, aaaaabbaaa is a valid substring
+Also, ccaccccaccaca is a valid substring.
+Need to write code for the 3rd qs.
+Expected = O(n)
+I answered all the 3 questions and was confident of receiving the call for onsite which I did.
+F2F ROUND 1:
+Qs-1) The question was to print a tree vertically. Please note it was not asked to get the sum at each vertical level. We have to print nodes at various vertical levels starting from the leftmost vertical level to the rightmost vertical level.
+I suggested array of vector then a hashing. Finally I gave a solution based on DLL.
+Code was written using DLL only.
+Qs-2 ) Only approach was asked on how will you save a binary tree in a file( Not a BST)
+There are no assumptions on Binary tree.
+This round went well for me.
+F2F ROUND 2:
+Qs-1) First I was asked to design a Data structure with O(1) insertion and O(1) search. I told about hashing. Then he told me to get a random number from the current list of numbers which have been inserted into my Ds. So I maintained an array storing pointers to the hash table.(Assume no Collision, he told so).Then he said O(1) deletion also. I was stuck on this I was not able to make both deletion and getRandom in O(1).After Some Discussion he moved on.
+Qs-2) He told there is a range, defined by a min val and a max val. In a given array I had to find all elements within the range. I told him its only possible in O(n).We have to look at each element. Then he told me to assume array as sorted. Then I used Binary search for finding indexes of ceil of min and floor of max to find the elements in the range.
+This round went ok for me.2nd question i wrote proper code with all edge cases, but in first I got stuck a bit.  
+F2F ROUND 3:
+Qs-1) In a binary tree, a complete path is defined as a path from root to a leaf. The sum of all nodes on that path is defined as the sum of that path. Given a number K, we have to remove (prune the tree) nodes from the tree which lie on a path having sum less than K.
+Note: A node can be part of multiple paths. So we have to delete it only in case when all paths from it have sum less than K. 
+I was able to solve the problem and write correct working code for this.
+(Hint : Think of a bottom up approach.)
+Note: Values in tree can be -ve also.
+Qs-2) A robot problem: No. of ways to reach from 0,0 to m,n in a m*n grid. I had to tell recursive function only. No code required.
+This round went very good for me. The first question was a bit tricky but solving it raised my confidence.
+F2F Round 4 with Hiring Manager:
+Qs-1) This was mostly a HR Based round. A lot of questions about my previous work, my initiatives, challenges I faced and many other questions.
+A simple question on matrix was also there. Fill rows and cols with ones if a 1 is present in that row or a col. Code also required.
+Question based on shipment and orders etc. Eg: What all things to take care in b/w of order placed and item shipped. What all factors and things you will consider.
+I was being interviewed for transportation team. So questions based on it.
+Overall, the round went well
+I returned to Bangalore that night.
+Few days later, I got a call from HR saying I am very close and I need to appear for another round in Bangalore office.
+F2f Round 5: 
+About half an hour Hr based discussion.
+Then two Technical questions with code:
+Qs-1)  In a binary tree, return true if all leaves are at same level and return false if all leaves are not at the same level.
+Qs-2) An array is given which is first increasing and then decreasing. Find the pivot element. Need to take care of all the edge cases.
+This round went well for me. Mostly this round was on soft skills. I did well in coding questions and wrote proper code for both.
+In the evening I got a call from HR that I was selected. 🙂
+I would like to thank GeeksForGeeks Team for being a great help for me.
+Run on IDE
+

@@ -1,0 +1,60 @@
+Company : EXL Data Analytics
+——————————————-
+profile Offered : Report Analyst (Intern ), Business Analyst (Full Time Job)
+————————————————————————————–
+SELECTION PROCESS
+——————————
+1) Shortlist from Resumes: Yes
+2) Written Test : Online Test (Conducted by third party –“CoCubes”, 40 questions, 45 Minutes)
+3) Two F2F Interview
+————————————————————————————–
+1st round : Online Test (Conducted on : CoCubes)
+Test is divided into three sections ( each section has its own cut off)
+a) English: Paragraph Formation (Re-arrangement), Idioms & Phrases, Selecting Words, Completing Statements, Comprehension(Time taking).
+b) Reasoning: Figure matrix, Pattern Completion, Sitting Arrangement, Venn diagram, Data Sufficiency.
+c) Aptitude: Time & Work, Problems on Trains, Height & Distance, Ratio Proportion, Alligation or mixture, Percentage, Logarithm, Permutation & Combination, Probability, Data Interpretation (Most Important Topic)
+{ To counter the DI problems, Read Directions carefully, Don’t get confused in ‘change in the value of variable’ and ‘percentage change in the variable’, both are different. Use approximate values during calculations.}
+Result : Selected for Interview
+————————————————————————————–
+2nd round : Technical interview
+1) Tell me something about yourself.
+2) What differences you found in Kurukshetra and Indore?
+3) He asked me about the approaches which I used to counter the DI problems.
+4) He asked me about my projects apart from the ones which I mentioned in my resume.
+5) Then he asked me to explain my project (mini project) and why I didn’t used RDBMS as Database.
+6) What is the difference between RDBMS and Graph Database?
+7) Why did you prefer this graph database (Neo4j) not any other?
+8) He again moved towards my projects and as we already had discussion about my all projects, he asked me to implement one of my project(Online Gaming) in real life, also he told me to write the steps of planning through which I can get maximum participation.
+After giving him solutions for this, he modified the situation and ask me to provide him the number of person (approximate) required to implement my planning and how much participation will I get.( he searched the web and told me the population of a city and also told me to do all calculations related to this digits.)
+He gave me 3 minutes to solve this problem. After 3 minutes he was happy with the solution provided by me.
+9) Then he asked some DBMS questions (Joins, Normalization).
+10) He asked me some SQL queries
+# find the total number of rows which have branch as ‘MCA’
+# Implement left join, right join
+# is it possible to join two tables without using where clause
+11) He asked me about pre-defined functions of sql?
+12) Difference Between aggregate functions and scalar functions
+13) Asked me to write queries which uses sql functions like UCASE, LEN, AVG, LAST
+# implement a case insensitive search
+Then he asked me 2 puzzles
+1) How will you cut an equilateral triangle into 4 equal equilateral triangles. (Easy one)
+2) How many squares are there on a chase board?
+14) Where do you see yourself after 5 years?
+15) At the last he asked me, Do you have any question? To which I replied yes, and asked few questions related to companies clients,
+That’s all about my technical interview.
+————————————————————————————–
+3rd round(final round) : HR + Technical )
+(F2F interview with the VP)
+Tell me something about yourself .
+Describe yourself in one line.
+He asked about my experience at NITKKR.
+He asked why do you want to join this company.
+Few questions based on my mini project.
+he asked about my favorite languages, I replied C & C++.
+Then he asked me to design a class which will have fields related to clients data, implement functions to read input and display formatted output (in tabular form). At the last he told me to do all these in JAVA not in C++ (which was an easy task for me to do).
+Then he asked me some questions based on java.
+Then he gave me 2 tables & asked me to apply different types of joins over them, after each correct answer he changes the condition of Queries.
+Then he asked one puzzle (easy):
+1) Given two buckets of 4 liter and 7 liter capacity respectively and you are having unlimited supply of water. Measure 5 Liter of water using these two buckets.
+The last and the obvious question from his side was – Any question you want to ask? And then I asked him some questions.
+

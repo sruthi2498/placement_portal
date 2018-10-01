@@ -1,0 +1,17 @@
+Given an array, it can be of 4 types
+(a) Ascending
+(b) Descending
+(c) Ascending Rotated
+(d) Descending Rotated
+Find out which kind of array it is and return the maximum of that array.
+Examples :
+Asked in : Amazon Interview
+
+Implementation: 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity : O(n)
+Auxiliary Space : O(1)

@@ -1,0 +1,13 @@
+If we have two iterators and we want to find the total no. of elements between the two iterators, then that is facilitated by std::distance(), defined inside the header file  .
+It has an important feature that just like we have vectors in science, which have both magnitude and direction, std::distance also has direction associated with it. This means that calculating the distance between first and last and then calculating distance between last and first will not be same, as in the second case, it will have a negative sign associated with it, since we are moving backwards.
+
+Syntax:
+Example:
+Run on IDE
+Output:
+What happens when we reverse the order while calculating distance?
+Since, it counts the no. of elements between the two input iterators, one thing to be kept in mind is that it does not count the element being pointed to by last (if any), while calculating the distance, whereas element pointed to by first is counted i,e range is  [first,last).
+Run on IDE
+Output:
+Here, total number of elements between first (pointing to 0) and last (pointing to 5) is 5, i.e., 0 1 2 3 4. So element pointed to by last has not been counted by distance(). 
+Time Complexity: Constant for random-access iterators and O(n) for all other iterators.

@@ -1,0 +1,8 @@
+C++ STL has lots of useful functions that helps us to achieve various programming tasks. One such function is “mismatch()” . This function, defined in “algorithm” header file, helps to compare 2 containers for mismatches. This function has 2 versions. Both are discussed in this article.
+
+This function returns the 1st mismatch pair pointer, first element pointing to position of  first mismatch element of 1st container, second element pointing to position of first mismatch element of 2nd container. If no mismatch is found, 1st element points to position after last element of 1st container and 2nd points to corresponding position in 2nd container.
+Run on IDE
+Output:
+Run on IDE
+Output:
+

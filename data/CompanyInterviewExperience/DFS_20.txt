@@ -1,0 +1,15 @@
+Given an array A of integers. Index i of A is said to be connected to index j if j = (i + A[i]) % n + 1 (Assume 1-based indexing). Start traversing array from index i and jump to its next connected index. If on traversing array in the described order, index i is again visited then index i is a magical index. Count the number of magical indexes in the array. Assume that array A consists of non-negative integers.
+Examples :
+Approach: The problem is of counting number of nodes in all the cycles present in the graph. Each index represents a single node of the graph. Each node has a single directed edge as described in the problem statement. This graph has a special property: On starting a traversal from any vertex, a cycle is always detected. This property will be helpful in reducing the time complexity of the solution.
+Read this post on how to detect cycle in a directed graph: Detect Cycle in directed graph
+Let the traversal begins from node i. Node i will be called parent node of this traversal and this parent node will be assigned to all the nodes visited during traversal. While traversing the graph if we discover a node that is already visited and parent node of that visited node is same as parent node of the traversal then a new cycle is detected. To count number of nodes in this cycle, start another dfs from this node until this same node is not visited again. This procedure is repeated for every node i of the graph. In worst case every node will be traversed at most 3 times. Hence solution has linear time complexity.
+The stepwise algorithm is:
+Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity:  O(n)
+Space Complexity:  O(n)

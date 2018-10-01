@@ -1,0 +1,9 @@
+Given a Binary Search Tree (BST) and a range, count number of nodes that lie in the given range.
+Examples:
+The idea is to traverse the given binary search tree starting from root.  For every node being visited, check if this node lies in range, if yes, then add 1 to result and recur for both of its children.  If current node is smaller than low value of range, then recur for right child, else recur for left child.
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+
+Time complexity of the above program is O(h + k) where h is height of BST and k is number of nodes in given range.

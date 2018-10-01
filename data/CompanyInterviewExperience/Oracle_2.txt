@@ -1,0 +1,61 @@
+There were 4 rounds for whole process
+ 
+Round 1 (Online test)(2Hour) :
+
+There were CGPA criteria 7 and above, CSE, ESE, EE branch(B.tech+M.tech) were allowed.
+The Online test was on Oracle Portal and it broadly consisted of 4 sections.
+– Coding outputs (mainly on Complexity, Stack, Queue, trees, AVL trees)
+– English (Grammar, Reading Compression)
+– Computer Science subjects (DBMS, OS, Software Engineering)
+– Aptitude
+The test lasted for 2 hours. The key here is managing time. Questions were of average level but time was not sufficient, so any how i first took a quick view on all question and manage time according to it.Each section has separate time.
+Total around 140-150 students appeared in Online round.
+Out of them 23 students were shortlisted for next round.
+I was shortlisted for 2nd round .
+Round 2(F2F)(Technical Round-1)(40-45min) :
+The interviewer was very friendly.He took my resume first and started with “Tell Me Something about yourself”. I indroduced myself formaly.
+I wrote JAVA in resume so he asked me normal question in Java. Oops Concepts and Collections.
+Then He asked about project to explain any one in detail with ER diagram.I Draw ER and explained very well.
+He Impressed.Then he move DS part and one Array question he give me.
+It was related to searching from one Array(String array) to Another array.
+Like. Array-1 have one String “xy” search it into another how much percentage it match with every string in another array write it into another array.
+i gave him.Simple solution by using four loops.he said ok, he didn’t ask me for optimal solution.
+Then he moved to SQL and asked about Left, Right, Full Outer JOIN with example.I explained well.He impressed.
+Then he said ok, I am done with you.Do you have any question for me.I asked about him and his profile and work culture in Oracle.He gave me all solutions and said thank you and nice to meet you.
+After 10-15 min i was called for 3rd round.
+Round 3 (F2F)(Technical Round-2)(30-35min):
+This round was Completely based on DBMS and Puzzles.
+he asked me for introduce first, i did well.then
+-What is differance b/w Primary Key and Unique Key.
+-What are all DDL and DML statements.
+-What is Candidate Key?how it is deffer form Super Key?
+-Then me one fork puzzle it was simple.
+-Then and one puzzle that-:there are there box one is red, one is green and one is mixture of red and green.and there labels is wrong, how you can assign to them in just one swap.
+i took time but i did finally.
+He was impressed and said i am done with you, Do you have any question for me?
+-I was asked same as previous round and said thank you.
+After 2-3min the same interviewer come and said you have One HR round please come.
+Round 4 (F2F)(HR) (30-35min):
+I entered into room and wish him.He said come and have seat please.and then
+-How are you.
+I said i fine.how are you?..He said ok.
+-How was technical round?
+i said both were well.
+-How many company you already had interviewed and till which round you went?
+i replied well.
+-what is possibility for selection and how?
+i replied well.
+-Then he said i want to give to one question if you did then you are in otherwise out…ok?
+i said i like challenges.and ok please fire your question.
+-He give me one array question have millions size number in array and tell that whether number is prime or not?
+i did  in 2-3min.
+He was satisfied and said do you have any question for me?
+i asked about training period, special requirement which they expect from freshers and he gave all solutions.i said thank you.
+He said you may leave, nice to meet you, good luck.
+After all 7students went till HR round 2from B.tech and 4from M.tech and finally in evening they announced that One is selected from B.tech and 4 from M.tech.
+I was only one from B.tech.
+I was very happy placed in such a reputed company.Oracle India it is. 🙂
+Tips:
+Prepared  well your Resume.For Oracle Please more and more focus on DBMS and JAVA.Keep Patience and be Confident and Do Hard Work.
+ALL THE BEST
+Big thanks to GEEKSFORGEEKS for helping me in entire placement preparation.

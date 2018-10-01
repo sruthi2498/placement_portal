@@ -1,0 +1,49 @@
+Amazon Off Campus Interview Experience(SDE-1, Experienced)
+Round 1:
+1) Tell me about yourself.
+2) Trapping Rain Water : Giv­en n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+https://www.geeksforgeeks.org/trapping-rain-water/
+3)  Print left view of a binary tree.
+https://www.geeksforgeeks.org/print-left-view-binary-tree/
+	Discussion : I gave two approaches one with DFS and other with level order traversal.
+He asked to compare two approaches and implement the efficient one. 	DFS is the efficient one because in level order, you need to store all the nodes at each level, some of them may not be a part of the left view of BT.
+Round 2:
+1) Tell me about yourself.
+2)  Find sum of n elements after kth smallest element in BST. Tree is very large, you are             not allowed to traverse the tree.
+	 Discussion : Since the array traversal is not allowed so we need to do some            preprocessing over the tree, something like storing sum of all its predecessor nodes.	 For finding kth smallest element, use order statistics approach:
+ https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/
+3)  Given a sorted array which has been rotated n number of times. Find the value of n.
+	 It is similar to below post where you need to find only the pivot element. If you have the  Index of pivot element, you can get the number of times the array is rotated.
+	 https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+Round 3:
+1) Count ways to reach nth stair.
+https://www.geeksforgeeks.org/count-ways-reach-nth-stair/
+	It is similar to fibonacci series. Interviewer asked various ways to implement the same –            Recursion, 1-D array, with 3 variables and complexity of each.
+2)   Design recommendation engine.
+	It’s like auto suggestion. I gave the trie approach. The interviewer seemed fine with         this approach and asked me to write full code with time and space complexities.	Implementation of Tries:
+https://www.geeksforgeeks.org/trie-insert-and-search/
+Round 4 (Managerial Round – Over video call)
+Tell me about yourself.
+Current work
+Which project you liked working the most.
+Any case where you had conflict with your manager.
+Any idea/technology suggested by you to your team which then got implemented and worked out.
+Any case when you had to work out of your comfort zone.
+The most critical feedback received from your manager/team members.
+What do you do to enhance your technical knowledge apart from your project work.
+    And many more.
+
+Round 5(Final Round – Telephonic)
+Initially I was asked questions about the work I had done, the projects I did and some managerial questions.
+Then I was given a coding problem to solve. They use Collabedit tool in phone screen interviews where the same screen is shared by both interviewer and interviewee.
+	Ques : Print all the non-repeating words out of two given sentences.
+	Eg. Statement 1:   I have a blue pen.
+	      Statement 2:   I got a red pen.
+	      Output : have blue got red
+	Discussion : I suggested the hashing approach. The interviewer asked to implement the same.
+
+Points to take care:
+You must know how to calculate time and space complexities.
+In each round they ask you about the project you recently did/ the project you liked working most/ most challenging work etc –  so you should be prepared well for at least one project with in-depth details.
+Start with the naive approach for each question asked and then proceed with solutions with better space and time complexities.
+No need to waste time reading about Operating Systems, Networking, DBMS etc. They only care about the projects you did and your coding skills whether you cover all the edge cases while writing code, know time and space complexities, have better approaches for solving same problem and so on.

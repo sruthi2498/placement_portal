@@ -1,0 +1,18 @@
+I was working as a C++ Sr. Software Developer and received interview invitation from Paytm HR.
+Round 1: 
+In all rounds interviewers were very friendly. First he asked me to introduce myself and asked if I had worked on JAVA. I simply replied with no. And then he asked me whether I be willing to change my tech from C++ to JAVA, to which I replied with yes. Then the interview begins.
+1. Which is the first header file that you include in most common C++ program? My answer was #include  but he said it is wrong. He wanted #include  which is obviously not correct (Refer), but I let it go.
+2. What is the difference between C and C++?
+3. What do you understand with Object Oriented Programming? He wants to know your understanding of OOPS not bookish definition.
+4. Basic principles of OOPs? data encapsulation, abstraction, inheritance, polymophism, blah, blah…
+5. Implement list class as defined in STL. I wrote only class declaration and he was satisfied with it.
+6. Insert an element at kth position in linked list.
+7. Find cousins of particular node in binary tree.
+8. Sort and array of 0, 1, 2.
+Round 2: 
+1. Very long discussion on my projects and why do you want to leave your current company.
+2. Given two arrays A[] and B[] where size of A[] is very large ( in million ) find all common elements among them. We discussed different approaches and hash map approach seems best.
+3. Write binary search code.
+Round 3:
+1. Very long discussion on my projects and why do you want to leave your current company.
+No HR round was conducted.

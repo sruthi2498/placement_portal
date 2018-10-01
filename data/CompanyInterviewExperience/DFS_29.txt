@@ -1,0 +1,10 @@
+Given n friends and their friendship relations, find the total number of groups that exist. And the number of ways of new groups that can be formed consisting of people from every existing group. 
+If no relation is given for any person then that person has no group and singularly forms a group. If a is a friend of b and b is a friend of c, then a b and c form a group.
+Examples:
+
+To count number of groups, we need to simply count connected components in the given undirected graph.  Counting connected components can be easily done using DFS or BFS.
+Since this is an undirected graph, the number of times a Depth First Search starts from an unvisited vertex for every friend is equal to the number of groups formed. 
+To count number of ways in which we form new groups can be done using simply formula which is (N1)*(N2)*….(Nn)  where Ni is the no of people in i-th group. 
+Run on IDE
+Output:
+Time complexity: O(N + R) where N is the the number of people and R is the number of relations.

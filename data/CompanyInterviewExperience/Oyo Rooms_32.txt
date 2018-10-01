@@ -1,0 +1,24 @@
+There were 3 rounds of interviews and cut off percentage was 70%.
+Round 1 (online on hackerearth)
+It included 20 MCQ’s and 2 coding questions. MCQ’s were mainly from C/C++, Data Structures, Algorithms, OS and Aptitude.
+There was no negative marking. The difficulty level was average. 2 coding Questions were:
+1. Given ratings of a movie in an array such that -10 <= Ratings[i] <= 10. you have to do k operations on the array.
+one operation means changing the sign of the rating. we are allowed to perform more than one operation on a single rating. we need to find maximum sum of the ratings. 
+2. Given n runners running on a circular track. each runner when cross another runner, they exchange gems. Given an array of the time taken (in minutes) by each runner to complete the circular track and an integer k. find the number of exchanges that will happen until k minutes are passed.
+35 Students out of 120 (Approx) were shortlisted after this round.
+
+Round 2 (Technical Round 1)
+The interviewer first asked me my introduction and then he asked me about my projects in details.
+then he gave me 2 coding questions.
+Q1. Find the maximum diametric sum of a binary tree.https://www.geeksforgeeks.org/find-maximum-path-sum-two-leaves-binary-tree/
+Q2. next largest palindromic number.https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/
+He then asked me my favorite subject and why it is so.
+20 students out of 35 were shortlisted.
+Round 3 (Technical Round 2)
+The interviewer asked me about my summer internship in detail and then started with coding questions.
+Q1. Given an array of n pairs of type (x,y). A pair P1 (x1,y1) will defeat a pair P2 (x2,y2) if and only if (x1>x2 && y1>y2).
+find which pairs in the array can never be defeated. He asked me to solve it in nlogn without extra space.
+Q2. Find LCA for 2 nodes in a binary tree. He asked me to write complete code including header files, main function, Tree structure and helper
+functions for constructing the tree.https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+Based on the interviewer’s feedback, some students were directly selected after this round and they took the 3rd technical round for others.
+I got selected in This round. Finally, they selected 10 students. The interviewers were polite and helpful.

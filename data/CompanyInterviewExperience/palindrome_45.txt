@@ -1,0 +1,10 @@
+Given a number which may be in octal or in decimal. If the number is not octal then convert it into octal then check if it is palindrome or not. If it is palindrome then print 1 otherwise print 0. If the number is already in octal then check if the number is palindrome or not.
+Examples :
+Octal Number : The octal numeral system, or oct for short, is the base-8 number system, and uses the digits 0 to 7.
+How to Convert Decimal Number to Octal Number :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

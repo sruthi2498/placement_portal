@@ -1,0 +1,12 @@
+Given an array, an inversion is defined as a pair a[i], a[j] such that a[i] > a[j] and i < j. We are given two numbers N and k, we need to tell how many permutation of first N number have exactly K inversion.
+Examples:
+A Naïve way to  solve this problem is noting down all permutation then checking count of inversion in them but iterating through permutation itself will take O(N!) time, which is too large.
+    We can solve this problem using dynamic programming approach. Below is recursive formula.
+How does above recursive formula work?
+If we have N number and want to have K permutation and suppose all permutation of (N – 1) number are written somewhere, the new number (Nth number and largest) need to be placed in all permutation of (N – 1) number and those whose inversion count becomes K after adding this number should be added in our answer. Now take those set of permutation of (N – 1) number which has let (K – 3) inversion, now we can place this new largest number at position 3 from last, then inversion count will be K, so count(N – 1, K – 3) should be added to our answer, same argument can be given for other inversion also and we will reach to above recursion as final answer.
+Below code is written following above recursion in memorization way.
+
+Run on IDE
+Run on IDE
+Run on IDE
+

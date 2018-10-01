@@ -1,0 +1,10 @@
+Given a integer as a input and replace all the ‘0’ with ‘5’ in the integer.
+Examples: 
+Use of array to store all digits is not allowed.
+Source: Amazon interview Experience | Set 136 (For SDE-T)
+The idea is simple, we get the last digit using mod operator ‘%’. If the digit is 0, we replace it with 5, otherwise keep it as it is.  Then we recur for remaining digits. 
+Following is C implementation of the above idea.
+Run on IDE
+Run on IDE
+Run on IDE
+

@@ -1,0 +1,20 @@
+Hi all, I recently gave an interview at microsoft for a particular team. I got this opportunity via referal.
+There were around 30 people who came for the interview process, some were experienced and some were freshers like me. As there were around 30 people, no written round or group fly was taken.
+Now coming to the interview process, I went through 4 rounds where each one was an elimination round.
+Round 1 (50 min):
+1) Find the maximum width of a binary tree.
+Suppose any node is at level k (level of the root is 0), then level of right child is k+1 and level of left child is k-1. So the maximum width is calculated as maxLevel – minLevel.
+Ex – 
+Here maxLevel is 3 (node 7) and minLevel is -2 (node 4). So maximum width is 3-(-2) = 5.
+Initially I did it using some parameters in the function call. Then the interviewer told me to do it without using any extra parameter other than root and currentLevel of the node. And I did it so. And then he told me that there is a field maxWidth in every node and for each node as a root i need to store the maximum width of the subtree in the field maxWidth.
+2) After that he gave me a code in java and asked me some questions on that code related to OOPS concepts.
+Round 2 (75 min):
+1) Find the sum of nodes occuring in the longest path in a binary tree.
+I did it using parameters to track current maximum path length found and its sum. Whenever I found a path length greater than the current maximum path length, I updated the maximum path length and sum. After this he modified the problem and told me to handle the code for multiple operations like product, XOR etc. As I was using function parameters for keeping track of sum, it would not be feasible for taking a parameter for each operation. So I created a class having fields for each operation and was using the object as a parameter.
+2) Sort the array containing 0, 1 and 2.
+Round 3 (60 min):
+1) The interviewer asked me about the things I did in college and based on that he asked me to design an online coding judge (like codechef). He asked me to implement it using classes. He asked me about how to efficiently handle the code written in different programming languages etc. A lot of discussion happened over this question.
+2) He asked me to design undo and redo functions of a text editor.
+Round 4 (50 min):
+1) Given a binary tree, check whether it is BST or not.
+2) The interviewer asked me to design a search engine. The search engine has to search for a token in a collecion of documents and should be able to find the documents in which the token is present along with the frequency of the token and the position (index) of the token in the document. He asked me to write a full working code, I did it using trie data structure.

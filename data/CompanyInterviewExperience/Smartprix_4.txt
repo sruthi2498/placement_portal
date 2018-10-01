@@ -1,0 +1,33 @@
+Smartprix visited our campus. The company gave a pre-placement talk wherein they mentioned about the job profile and what the company deals in and what their future goals are.
+It had three rounds namely
+1) The Diagrammatic Reasoning round
+2) The Coding round
+3) The Skype Interview round
+The Diagrammatic round was based on pattern matching and completion ( medium level) and image analysis. We had to solve 20 questions in 30 min.
+The technical was based on Java and C++ and had easy level questions. We had to solve 10 questions in 30 minutes.
+The next round was the coding round which consisted of repeated questions
+1st question was on String formatting having 50 marks for successful submission
+Ex-
+Input: Smartprix site india comparison best-Replacement array
+{} is {4} online {3} shopping {} in {}-positional argument array
+Output
+Smartprix is best online comparison shopping site in India
+Explanation-
+**If there is number inside curly braces,print element of replacement array at that index, if that index exists otherwise print whatever is inside curly braces(Note-there may be word inside braces as well, in that case simply print that word)
+**If there is nothing inside curly braces,number those as 0,1,2… from left to right and accordingly replace with corresponding element of replacement array
+The question was a variant of the above not exactly the same but the concept was repeated.
+
+2nd Question was on parsing given lines of code according to given custom language syntax and generate code that takes as input lines of code in that language and produces corresponding output if there is no syntax error
+5 primitive string functions were given as print, tolower, toupper, reverse, append_a that do the same as their names suggest. Syntax was given for defining user defined function that can use any of those in any order and each function is passed a string argument and returns modified string
+Ex-
+Input:
+define str
+toupper str
+append_a toupper str
+end
+print “hello”
+toupper “hello”
+append toupper hello
+Output:
+You had to print string after each line of code
+The company selected 10 students for the coding round.

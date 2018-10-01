@@ -1,0 +1,6 @@
+Modulus function is used to return the value of the modulus between its two arguments. It works same as modulus operator works.
+Member types:
+Note: We must include library ‘functional’ and ‘algorithm’ to use modulus and transform.
+Bewlo programs illustrate the working of modulus function:
+Run on IDE
+Run on IDE

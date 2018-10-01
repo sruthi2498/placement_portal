@@ -1,0 +1,70 @@
+Following is my experience. I hope it helps people out there, as I got help from other posts here before my interview.
+Duration: 4 hours
+interviewer #1: 8 am – 9 am
+Q1) tell me your interest
+-> Big Data
+Q2) what’s latest thing you follow in it
+-> Apache Spark
+Q3) What is it and explain
+-> told the standard MapRed and Hadoop vs Spark
+Q4) what more features
+-> told graph processing and MLLIB
+Q5) Actual question starts here, given the binary tree, how will you serialize and deserialize it to the file?
+->
+answer1: Serialize => do in-order traversal and pre-order traversal and write it to a file
+                     Deserialize => build the binary tree using pre-order and in-order traversal
+       he was not satisfied, gave me hint of no need to do complex in-order, pre-order thing
+answer2: BFS clicked me, told him to do BFS and write to a file level wise
+                   But he found a bug in deserialize method, I changed the serialize method for null values to speial character in file
+he was okay with it, and asked me to write a code for it
+asked the complexity
+told him, was not convinced wholly, then finally told him, was still not
+left the room with think over it 🙁
+interviewer #2: 9am – 10 am
+Q1) bang on target, given 2 timeframes, check if they overlap
+-> s1, e1, s2, e2
+     ep1 = epoch(s1),
+     ep2
+     ep3
+     ep4
+    if ep1 <= ep3 <= e2 OR ep3<= ep1 <= ep4:
+         return T
+    return F
+
+
+Q2) LCA in doubly binary tree !!!
+-> I frowned, what is doubly binary tree!!
+     it’s just every node has access to the parent
+but you need to find the LCA and you do not have access to root of tree!
+some brainstorm, and I got it
+what is time complexity:
+worst case: O(n^2) in skewed tree
+average case: was not sure, gave me hint, and I told him, was okay
+told him the 1st way, was convinced but hinted me the better way
+Got his hint, and gave the answer, was satisfied
+Q3) given 2 strings, how would you find if they are anagrams of each other
+-> solution 1: 2 hash   ( was okay but asked the better way)
+hinted me that no of characters are limited
+solution 2: told him the way of count sort, i.e. use 2 count sort arrays
+but he said no need of other array, you can do in single array
+told him the way, was satisfied
+Interviewer #3: 
+– started with his long intro
+– asked mine, and then stopped me as I was talking at length
+– asked me amour my search project
+– asked me the basic design
+– how did you deal with data when you cannot fit in memory
+– how did you do intersection of posting lists
+– what is time complexity
+then asked me to design the chase game
+stumbled like hell, i guess this is going to be my rejection factor
+Interviewer #4: (manager) behavioral round
+– gave his long intro
+– asked about myself
+– when did you feel that something could have been done in better way after delivering it in project
+– when did you perform best way, as in what did you come up with that other could not do
+– when did you go out of the way i.e. against your managers, or higher authority and deliver the best according to you
+– asked the system architecture question: design the TINYURL system in terms of server architecture i.e. HA, scalability and request processing 
+– was satisfied, and left with good note.
+
+

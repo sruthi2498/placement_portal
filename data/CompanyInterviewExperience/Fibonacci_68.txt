@@ -1,0 +1,9 @@
+We have discussed different methods to find nth Fibonacci Number.  
+Following is another mathematically correct way to find the same.
+nth Fibonacci Number :
+
+Here φ is golden ratio with value as 
+The above formula seems to be good for finding nth Fibonacci Number in O(Logn) time as integer power of a number can be calculated in O(Logn) time. But this solution doesn’t work practically because φ  is stored as a floating point number and when we calculate powers of  φ, important bits may be lost in the process and we may get incorrect answer.
+References:
+https://www.youtube.com/watch?v=-EQTVuAhSFY
+http://en.wikipedia.org/wiki/Fibonacci_number

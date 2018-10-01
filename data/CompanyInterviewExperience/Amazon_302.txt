@@ -1,0 +1,62 @@
+Recently, I got a chance to be interviewed by Amazon at Bangalore campus, through  referral.
+I had 8 months of experince in a product based company and 5 months of Internship.
+1st Round Telephonic :
+There were two guys, started with a formal introduction.
+Question 1 : Given an array and a number say “Num1”. Find two numbers  whose sum is equal to given number “Num1”.
+https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+  I told  him first Brute Force solution then he asked the time complexity which i told him O(n^2).
+  Then  he asked me to  optimize the solution and I gave a O(nlogn) solution using sorting.
+  And at last I told him O(n) solution using Hashing.
+Question 2 : Given an array of stock prices . Determine the maximum profit one can get by byuing an selling the stock(Similar to stack span problem).
+https://www.geeksforgeeks.org/the-stock-span-problem/ 
+   I told him brute force solution of O(n^2) then he asked me if you could give an optimized solution.
+   I told him O(n) solution using stack but  code got stuck on some of the test cases and he asked me to modify the code but i couldn’t as  they were running out of time.
+    They  provided me a link to Colabedit(kind of google shared document) where i had to code.Production ready code was required.
+  After 2 days I got call from Amazon saying that feedback was positive and they asked me to come  for  face to face interview at Amazon’s office.
+   F2F Round 1 :
+    Started with a brief introduction.
+	Q1 : Given a M*N  matrix . you have to start  from Index(0,0) and reach to Index(M-1,N-1) with maximum sum , given the constraint that you can only move right or down i.e if you are at index (i,j), you can only move to index(i,j+1) or to index(i+1,j)
+	 I gave recursive solution for this and there were a lot of discussion on various test cases.
+	 He asked me to optimize the code. I gave him Dynamic programming approach . He asked that have you done it before and i said no then he asked me to code it. I had no idea of the code as i haven’t done it before. i struglled to write the correct code 2-3 times and at last i wrote the correct code.
+	 Then he said to me i am done with the interview, Do you have any question for me and i asked two question.
+	 Production ready code was required.
+	 F2F Round2 :
+			 Again Started with a brief introduction and some project discussion.
+			 Q1 : A question similar to  LCA(Least Common Ancesstor) of Tree and i gave the answer immediately as i have understood the question and didn’t ask any further clarification.
+			 Q2 : Given some resources in the form of linked list you have to canceled out all the resources whose sum up to 0(Zero) and return the remaining list.
+				 I gave the solution immediately but couldn’t handle some of the corner  test cases then he asked me to modify the code accordingly.
+				 Then he asked me to write all the test cases for it and i did.
+			   For eg; given the resources like this :
+				  case 1 : 6 -6 8 4 -12 9 8 -8 It should return  9 as all others get canceled.
+						   In the above example lists which gets canceled :
+							6 -6
+							8 4 -12
+							8 -8
+							o/p : 9
+				 case 2 : 4 6 8 -9 10 -9
+				   o/p  : 4 6
+				 case 3 : 4 6 -10 8 9 10 -19 10 -18 20 25
+				    O/P : 20 25
+     F2F Round3 :
+					Started with a formal introduction and BTW he was the same  guy who took my telephonic interview.
+					Q1) He asked me subset sum problem i.e; Given an array find the maximum sum contiguous subarray.
+					   I gave O(n) solution for finding the maximum sum immediately after he asked the question as i knew the solution.
+					   Then he asked me to trace the code for some test cases and it passed.Then he asked me to find the staring and end index of the subarray and I modified the code and initially got wrong but after some modification I got the code right.
+				    Q2) Sum of numbers represented by two linked list .
+					   And i gave the answer immediately after he finished the question. But i gave the soln for adding two linked list numbers starting from beginning but he told me add the numbers as we do in normal addition.
+					   And i gave that solution to by reversing the linked list and then adding the  numbers and finally reversed the resultent list.
+					 After 2-3 days i got a call from Amazon that i have cleared the rounds and they asked me to come for Hirring Manager Round.
+					 One of the interviewer gave me feedback that he mugged  the answer as i gave the answer immediately after the interviewer asked the question as i came to know later which was major set back for me.
+					 So one of the advice would be to all of you that Eventhough you know the answer pretend that you don’t know. Ask some clearification question, As they also observe your problem solving skills with coding.
+  Hiring Manager Round F2F :
+								Started with some basic questions and then asked why do you want to leave your current comany and then he asked  code Of Fibbonacci series.
+								I explained Fibbonacci series and then he asked me to code it .
+								I wrote the code and traced on some inputs.
+								Then he had a meeting as i reached late there so he  asked me to improve the code as he said there is some bug in the  code and i did .
+								After that he asked me to write recursive code for it .
+								Then he asked the time complexity of the code and i said Exponential.
+								Then he asked me to prove it.
+								I said sir i could do it using Master Theorem or using Mathematical Induction. But right now i remember none of them .
+								Then he told me that you can do it without Master Theorem or MI . Then in my mind it striked as Recursion Tree Method but at that time  i didn’t had no idea of recursion tree methodas well. So i couldn’t tellhim.
+								My this round wasn’t positive as i knew right after my interview. i got eliminated after this round.
+

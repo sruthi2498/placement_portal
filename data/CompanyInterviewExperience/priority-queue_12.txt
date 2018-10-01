@@ -1,0 +1,25 @@
+Priority Queue is an extension of Queue having some properties as follows:
+We can design a priority queue using two approaches in the first case we can add the queue element at the end of the queue and we can remove the elements of the queue depending on the priority. In the second case we can add elements to the queue according to the priority and remove them from the front of the queeue. In this article we would use the second approach to implement a Priority Queue.
+Note: Assuming a Priority queue can grow dynamically we are not considering the overflow condition.
+Let’s see an example of a priority queue class:
+Example: 
+Run on IDE
+As you can see in the example above we have defined skeleton of PriorityQueue class. We have use an user defined class QElement having two property element and priority. We have used an array in PriorityQueue class to implement priority queue, this array is a container of QElement.
+Run on IDE
+In this method we create a qElement have property element and priority. Then we iterate over the queue to find the correct location of the qElement according to its priority and add it.
+Run on IDE
+This function removes an element from the front of a queue as the highest priority element is stored at the front of the priority queue. We have used shift method of an array to remove an element from the queue.
+Run on IDE
+This function returns the front element of the Priority queue. We simply return the 0th element of an array to get the front of a Priority queue.
+Run on IDE
+This functions return the last element of the queue or lowest priority element.
+Helper Methods:
+Let’s declare some helper method which is quite useful while working with the Priority queue queue.
+Run on IDE
+We have used the length property of an array to get the length and if its 0 then priority queue is empty.
+Run on IDE
+In this method we concatenate the element property of each priority queue item into an string.
+Note :- Here we consider ” 1 ” as the highest priority element, you can modify this as per the requirement.
+Implementation
+Now Let use this Priority Queue class and its different method described above
+Run on IDE

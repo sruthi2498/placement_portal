@@ -1,0 +1,20 @@
+Round 1 Telephonic interview :
+Database-> ACID properties
+Oops concept–>can constructors be private ?If yes, how can they be called (singleton class)
+Prepare in depth about OOP concepts.
+Algorithms->code to find whether two strings are anagram or not,
+follow up question->https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/(very important )
+Java collections->interval working of hashmap
+Also prepare follow up questions like:https://www.geeksforgeeks.org/internal-working-of-sethashset-in-java
+https://www.geeksforgeeks.org/differences-between-hashmap-and-hashtable-in-java/
+and so on…
+Round 2 Telephonic interview :
+Database-> what is indexing
+Algorithms->1.find all prime numbers till a number
+2.  Find missing and repeating numbers in a file of 1000 lines with a number between 1-1000 on every line(similar to https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)
+
+Round 3 Face to face interview :
+General puzzles: no of squares in a chessboard, total count of handshake in a room with x number of people, code to check whether a particular number is a power of 4 or not (https://www.geeksforgeeks.org/find-whether-a-given-number-is-a-power-of-4-or-not/)
+Round 4 Face to face interview :
+detailed discussion on the projects and internship mentioned in the resume
+Basically the company is looking for people who can think and try to find out optimized solutions. Interviewers keep pushing the interviewee to suggest better and optimize solution of the problem.

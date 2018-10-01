@@ -1,0 +1,17 @@
+Given a decimal number N. The task is to find 10’s complement of the number N.
+Example:
+10’s complement of a decimal number can be found by adding 1 to the 9’s complement of that decimal number. It is just like 2s compliment in binary number representation.
+Mathematically, 
+
+10’s complement = 9’s complement + 1
+
+For example, let us take a decimal number 456, 9’s complement of this number will be 999-456 which will be 543. Now 10s compliment will be 543+1=544.
+Therefore, 
+
+10’s complement = 10len – num
+Below is the program to find 10’s complement of a given number:
+
+Run on IDE
+Run on IDE
+Run on IDE
+

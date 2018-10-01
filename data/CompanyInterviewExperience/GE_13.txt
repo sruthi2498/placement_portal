@@ -1,0 +1,25 @@
+Hello friends, I am going to share my interview experience about GE(General Electric) (for computer science candidates)
+First round(written round):
+The first round was of 90 mins(no negative marking)(aptitude 60 mins+technical 30 mins) which consists of basics quantitative aptitude, LR, English and technical. Aptitude section was time taking so I suggest you don’t stick to any question and try to attempt all the questions. 
+If anyone wants to score good in technical section, revise your previous years gate exam questions, as most of the questions were from the same. There were questions from DS, Algorithms, Operating Systems, Networks, DBMS. 
+If u will focus on the above two things, you will get entry to the second round.
+Second round(interview round):
+The duration of this round was almost 1 hour and frankly speaking, interviewer was really good. He helped me for the questions where I was getting stuck.
+Firstly he asked “tell me about yourself” and area of interest. Then he asked about my internship project. Guys, if u really wants to perform brilliantly, try to relate all the questions to your strong area. Then few questions was from semaphores, threads,  deadlocks, real time application of threads. Some of the tricky questions were:
+1.How to check whether the array is sorted or not.
+2.Which data structure are used for tcp/ip.
+Friends, for the second type questions,  don’t answer any specific data structure as the it depends on the scenario and the different situations for which the questions has asked. The interviewer only wants to check your confidence on your area of interest.
+3.Which data structure is used for(undo, redo, copy, paste) commands.
+4.Write a code  to get middle node of the linked list(in the most efficient way).
+I answered the same as what you guys are thinking right now. But he said that the access time will be more for the large number of nodes. I got stuck at this place. Then he had given me hint that he didn’t ask for singly linked list. Then I got his idea for the “memory efficient XOR doubly linked list” then he got convinced.
+Now he asked me about different types of database models from DBMS and SDLC life cycle from software engineering.
+I got the same question again-“which type of SDLC model is being mostly used now a days in various companies?”. after giving this answer, I entered to the third round which was HR.
+Third Round
+HR  asked some of the general questions-
+1. What was your biggest achievement/failure.
+2. Do you have any location constraint?
+3. Any questions about GE?
+Tips:
+1. Feel free to ask questions from the interviewers.
+2. Learn basic information about the company. This shows your interest towards the company and interviewer will give you more preference as compared to other candidates.
+3. Luck matters a lot, don’t loose hope if you are not selected. Good thing is still waiting for you.”GOOD LUCK FOR YOUR FUTURE”.

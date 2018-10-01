@@ -1,0 +1,8 @@
+The priority_queue :: value_type  method is a builtin function in C++ STL which represents the type of object stored as an element in a priority_queue. It acts as a synonym for the template parameter. 
+Syntax:
+It has no parameters and no return value. 
+Below programs illustrate the above function.
+Program 1:
+Run on IDE
+Program 2:
+Run on IDE

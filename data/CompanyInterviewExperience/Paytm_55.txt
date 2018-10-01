@@ -1,0 +1,17 @@
+Given arrival and departure times of all trains that reach a railway station, find the minimum number of platforms required for the railway station so that no train waits.
+We are given two arrays which represent arrival and departure times of trains that stop
+Examples:
+We need to find the maximum number of trains that are there on the given railway station at a time. A Simple Solution is to take every interval one by one and find the number of intervals that overlap with it. Keep track of maximum number of intervals that overlap with an interval.  Finally return the maximum value.  Time Complexity of this solution is O(n2).
+We can solve the above problem in O(nLogn) time.  The idea is to consider all evens in sorted order.  Once we have all events in sorted order, we can trace the number of trains at any time keeping track of trains that have arrived, but not departed.
+For example consider the above example.
+Following is the implementation of above approach.  Note that the implementation doesn’t create a single sorted list of all events, rather it individually sorts arr[] and dep[] arrays, and then uses merge process of merge sort to process them together as a single sorted array.
+Note : This approach assumes that trains are arriving and departing on same date.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Algorithmic Paradigm: Dynamic Programming
+Time Complexity: O(nLogn), assuming that a O(nLogn) sorting algorithm for sorting arr[] and dep[].
+Minimum Number of Platforms Required for a Railway/Bus Station | Set 2 (Map based approach)

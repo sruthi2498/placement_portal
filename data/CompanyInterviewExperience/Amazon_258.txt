@@ -1,0 +1,49 @@
+Amazon came for FTE as well as internship.
+MCQ consisted of 20 questions.18 were related to mathematics and ds/algo. Everyone found ds/algo questions simple while maths questions were fro topics like pipes/cisterns, distances, log, etc were quite complicated. I managed to get about 10 + correct and both coding questions correct to crack the online round.
+The two coding questions were:
+1) Largest subarray sum (O(n^2) was even getting accepted!)
+2) Reverse individual words of sentence
+eg-
+i/p This is a game
+o/p-game a is This
+Round 1:
+First round consisted of following questions:
+1) Given an array of string and array of characters find the string with atleast one and the most occurence of all characters in array of characters.If there is tie print first occuring string.
+eg:vector<string> = {“abcda”, “aaaaaaa”, “abcc”}
+     vector<char> = {‘a’, ‘b, ‘c’};
+answer should be abcda
+2) Check wether tree is balanced or not i.e check balance factor O(n) solution was expected
+3) Given a string find longest substring with no repeating characters: O(n) solution was expected
+I solved all of the q’s in first round with best complexity and interviewer was quite impressed.
+
+Round 2:
+In round 2 following q’s were asked
+1) Given n points in 2 d space and two functions JOIN(A,B) and istransitvelyconnected(A,B).
+Join assigns A,B to same set while istransitvelyconnected(A,B) checks wether belong to same set.Solved using disjoint set using path compression
+2) Clone a doubly linked list with random pointer.
+Got confused and stuck in this question..but somehow managed to solve with O(n) space using hashing..
+Interviewer was not very impressed coz of 2nd q but still I managed to reach 3rd round.
+
+Round 3:
+Two questions were asked
+1) Find path with root to leaf sum as equal to target.
+2) Given an infinite string defined by function f(x)=x+”0″+f(complement x) find k’th bit
+Solved first one easily,got stuck in second one so solved using brute force…
+However,managed to reach 4 th round 
+Round 4:
+Interviewer was little arrogant to my surprise..he kept staring and grinning while I solved the problem..he also said since it is 12:30 I wont waste time asking to introduce you.although ALL other people had theoretical round involving OS,CN,DBMA concepts I was asked to solve coding problems again..
+I was asked my favorite Data structure..I said tree..
+1) Find shortest distance between two nodes of binary tree..after 2 mins. I said just find LCA in one traversal and then the path of the nodes in other traversal..
+soln is O(n)..he asked me to write LCA code ..i wrote in O(1) space using recursion…maybe he wanted solution in 1 traversal..although he did not tell me that..
+2) The RAM of pc is 4 gb and file is 40gb in size .File contain numbers..sort the numbers..I came up with dividing files and using heap to sort all the file..
+Asked me to writ the data structure…gave something like this..
+Got confused with complexity a bit…
+Result came out after 1 hour.. I was not selected :(..We asked about internship they told they did not come for internship although they said this during their presentation the same morning!!But can’t help..life is unfair…
+Some of the students got rejected despite having excellent coding skills and
+amazing profile at codeforces,topcoder,codechef,etc..
+Questions asked from other people:
+1. Flattening of tree
+2. Word break problem
+Thanx @geeksforgeeks!!
+
+

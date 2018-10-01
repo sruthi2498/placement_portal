@@ -1,0 +1,45 @@
+Cut off: 75%. Around 140 students were short listed.
+Round 1 (Written Test) 90 minutes
+It comprised of aptitude, operating system, complexity, hashing ,graph, and complexity related questions (20 questions).
+There were two coding questions
+1. Given a string find the first non repeating character in it
+2. Given an array of integers delete minimum number of elements such that the minimum of the arrays is at least twice of the maximum. (need to return the count).
+Round 2
+The round began with my brief introduction and then there was a question on arrays.
+I was given an array with all elements greater than or equal to zero
+I was asked to to return the maximum product of two numbers possible
+It was quite easy as we can find the maximum and the second maximum and their product will be the answer but the interviewer wants me two to reduce the number of comparisons. Initially i did it in O(n) and with 2*n comparisons
+and finally came to a solution with 3n/2 comparisons by considering the numbers in pairs. The interviewer was satisfied with my solution and i was asked to write a production level code for the same.
+example Test case
+5 9 3 7
+answer 9*7
+Now she added one more constraint to it we are not allowed to change the structure of array and we need to find the pair such that they are in increasing order
+example
+1 9 7 8
+answer 7 * 8
+Initially I did it in O(n2) ie for each element i I found the maximum to its right and then compare the maximum with the ith element then it can be the possible pair
+and can contribute to the result
+I came up with and (nlogn) solution using segment tree and sparse table
+(Range maximum query) (Interviewer was impressed).
+Finally I created a max stack from the right side and did it in O(n) with O(n) space but still she wanted me to reduce the space to O(1)
+It was already 1 hr and she gave me a hint that move from right side
+and bingo i was able to answer her in just 5 minutes.
+She was completely satisfied with my solution.
+Then there was a small discussion on my projects.
+Round 2
+The round again began with my brief introduction and then he asked me about my favorite subject.
+He asked me to explain any data structure. I explained him Tries and segment tress. I even told him about how tries can be used . I told him about auto complete features available, forward dns  and there working (He was impressed) 
+Now the he was asking questions from application point of view
+He asked me about heaps and it uses and to comment upon it
+I explained him heaps priority queues and complexity of it operations and about Fibonacci heaps.
+Application for merging k sorted arrays.
+He asked me to illustrate some application of circular linked list and double linked list.
+I told him double linked list can be used for LRU cache and using hashmap it can be done in O(1) expected complexity per operation.
+I was asked to code it.
+For circular linked list I told him that it can be used for implementing a circular queue efficiently since we need to maintain only one pointer ie. the rear for it.
+Application BFS.
+He then asked me to code and dry run a circular buffer and optimize it and compare it with standard cyclic queue.
+I used a counter variable for this purpose to use the buffer completely
+and told him that the drawbacks can be when multiple processes try to access this shared variable then there may be inconsistency hence traditional one was better.
+Then he asked for critical section,locks ,semaphore and mutex.
+

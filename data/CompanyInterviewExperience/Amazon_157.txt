@@ -1,0 +1,13 @@
+A String str is given which contains lowercase English letters and spaces. It may contain multiple spaces. Get first letter of every word and return the result as a string. The result should not contain any space.
+Examples:
+Source : https://www.geeksforgeeks.org/amazon-interview-set-8-2/
+
+The idea is to traverse each character of string str and maintain a boolean varible, which was initally set as true. Whenever we encounter space we set boolean varible as true. And if we encounter any character other than space, we will check boolean varible, if it was set as true then copy that charter to output string and set boolean varible as false. If boolean varible is set false, do nothing.
+Algorithm:
+Run on IDE
+Output:
+Another Approach 1:
+This approach uses the StringBuilder class of Java. In this approach we will first split the input string based on the spaces. The spaces in the strings can be matched using regular expression. The splitted strings are stored in an array of string. Then we can simply append the first character of each splitted string in the String Builder object.
+Run on IDE
+Output:
+Another Approach 2:Using boundary checker, refer https://www.geeksforgeeks.org/get-first-letter-word-string-using-regex-java/

@@ -1,0 +1,30 @@
+I would like to express my gratitude towards the GeeksforGeeks team, whose help saw me through to Amazon’s interview rounds and getting placed at Yahoo. 
+Number of Rounds: 1 written, 1 coding and 4 interview rounds
+Written Aptitude Round:
+30 questions were given and time was 60 minutes. The questions had varying difficulty. Subjects included Mathematical Aptitude (5-6), Graphs, OOPs, OS, DBMS, Networking and C. Strong subject knowledge was required to clear this round and it was a very tough elimination round.
+Coding Round : 2 hrs
+This was 1 of the toughest coding rounds as the only language given was C and we needed to parse a XML file of the following format:
+<ledger>
+<person>
+<name>Jai</name><location>Bangalore</location>
+</person>
+<entries>
+<entry><day>1</day><credit>50</credit><debit>40</debit></entry>
+….
+…
+multiple entries were there, and multiple people were there.
+We were required to validate the XML file.Open and Close tags matching.
+We were required to parse, maintain the max balance for each person, the longest span of days each person had the max balance, and report queries such as who had the overall max balance , his span and location. Span must contain the day numbers, not length.
+Part marks were given, at least for 1 person output was expected.
+I had implemented a Stack based incremental algorithm which checks as well as fills other data structures to answer the queries. I had modified the input a little to give it a proper structure so that i could use fscanf and sscanf pattern based input from the XML file. After the 2 hrs allocated we were told to explain our code and approach , the pros and cons of the approach, assumptions etc. My interviewer was happy with my approach.
+Interview Round 1 – 1 hour:
+Was asked several basic algorithm questions such as in-order is given, what more is needed for creating a tree, add multiple linked list represented decimal numbers etc. Then few Graphs related questions such as a hill is present, few taps are present, all connected to other taps  above/below, find which tap will be the last one to get water from a spring on the top of the mountain. At first the graph was a tree structured then he generalized it to graphs. Finally he asked me to implement an efficient Web Crawler with 100 seed URLs. Conditions were added ,define efficiency, how many threads will be needed, mutex/semaphores pros and cons, Data structure required,efficient query on them, Denial of Service avoidance etc. I had prior experience with both Web Crawling and Huge Graph Clustering techniques so was able to answer all questions asked. I would advice everyone to prepare multiple subjects thoroughly, at least OS, Networking and DBMS.
+Interview Round 2 – 30 minutes:
+It was basically a test of my OOPs knowledge, was told to approach the XML parsing in OO paradigm. Design a couple of classes, explained all the basic OO fundamentals were being followed. Interviewer continued to ask me to do better, no hints were provided, he was not completely satisfied but felt the design was sufficient. 
+HR-Semi Technical Interview Round 3 – 30 minutes:
+All round questions were asked from background to future prospects, and I had an internship in IIT KGP, so was asked about the project and how my project could contribute to the real world. Do prepare your projects specially the motivation behind it. 
+HR Interview with Manager –  30 minutes :
+Questions like how can you improve this Interview procedure, what challenges will you face when you join us, how can you make us better were asked.
+After my final round, an hour later the results were announced. I and another one of my peers got HIRED 😀 
+Run on IDE
+

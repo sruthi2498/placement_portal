@@ -1,0 +1,21 @@
+I applied off campus for Amazon Bangalore SDE-1. It started with two face to face rounds.
+Face-2-Face (Round 1) :
+https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
+Face-2-Face (Round 2):
+He started introducing himself and then asked me some behavioural questions.
+And then he asked me one dynamic programming question.
+A matrix is given and each cell has some value. You can enter from any cell of first row and make three different moves down, south-east and south-west i.e. from (i,j) to (i+1,j+1), (i+1,j-1),(i+1,j). You need to calculate maximum value when you reach last row.
+I gave recursive solution of complexity O(3^n) and then finally gave him dynamic programming solution in O(n^2). He was not done yet then he asked me to print the path as well. I did.
+Both interviews were good so I was waiting for results. After 2 days I got the call you have cleared both the rounds and they want to conduct two more rounds. Next step was two more face-2-face rounds.
+ Face-2-Face (Round 3):
+It was a bar raiser round very crucial for the whole process. Interviewer introduced himself and asked me behavioural questions like:
+I was currently working on Blockchain so he asked me about this technology cause its totally new and amazing tech so he was pretty impressed. He asked if I have any question for him. I asked several question related to his work and Amazon visions.
+
+Face-2-Face (Round 4): Hiring manager round
+This round was behavioural round and cultural fit. He asked so many questions related to projects and current work.
+Then he asked me explain current company project and project architecture, my role in team etc. Guys prepare well for behavioural questions, they look for culture fit.
+Coding question:
+Print the vertical sum of a binary tree.
+https://www.geeksforgeeks.org/vertical-sum-in-binary-tree-set-space-optimized/
+Result : I got the call after 3 days and hr said congratulations, you are placed and It was like dream came true.
+Thanks to my parents, Upendra Bhaiya and Prajakta for all the support. I want to thank geeksforgeeks team, it’s an ideal platform for preparing coding interviews.

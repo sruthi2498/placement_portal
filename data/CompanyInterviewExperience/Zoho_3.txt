@@ -1,0 +1,11 @@
+Round 1: 15 find the output coding questions and 10 aptitude. Time = 2 hours.
+Round 2:There were 5 coding questions which we need to solve in 3 hours and anyone who solves 3 questions were taken for 2nd round
+1) https://www.geeksforgeeks.org/wildcard-pattern-matching/
+2) https://www.geeksforgeeks.org/number-cells-queen-can-move-obstacles-chessborad/
+3) https://www.geeksforgeeks.org/job-sequencing-problem-set-1-greedy-algorithm/
+4) https://www.geeksforgeeks.org/word-ladder-length-of-shortest-chain-to-reach-a-target-word/
+5) There are ‘n’ ants on a ‘n+1’ length rod. The ants are numbered from 1 to n and are initially placed at positions starting from position 1 till position n. They are moving either in left direction (denoted by ‘-1’) or in the right direction (denoted by ‘1’). Whenever an ant crosses the boundary of the rod it falls off the rod. You are given the initial direction of the ants. Now, whenever two ants collide their direction switches, i.e. the ant going in left direction (‘-1) changes it’s direction towards right (‘1’) and the ant going in the right direction (‘1’) changes it’s direction towards left (‘-1’). Find last ant to fall off the rod.
+Note: In case two ants are falling simultaneously in the end print the index of the lower indexed ant.
+Round 3: we were told to develop an application on a given environment(Chess tournament). we were given 3 hours to write the code. They mainly focused on data structures used, how neatly we were writing the code and how well we are able to fix the bugs in it.
+Round 4: It was a technical interview round where I was mainly asked about the projects I had listed in my resume. After that he asked questions on database-indexing, JSON and XML parsing, Searching techniques, Page replacement algorithms and map-reduce concepts.
+Round 5: Last round was HR. I was asked basic questions like why zoho, if I wanted to do higher studies etc

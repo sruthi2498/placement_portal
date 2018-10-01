@@ -1,0 +1,16 @@
+Given x, k and m. Compute (xxxx...k)%m, x is in power k times. Given x is always prime and m is greater than x. 
+Examples:
+A naive approach is to compute the power of x k times and do modulus operation every time.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+An efficient solution is to use Euler’s Totient Function to solve this problem. Since x is a prime number and is always greater than m, that means x and m will always be co-prime. So the fact that will help here is  (a^b)%m = (a^(b % et(m)))%m, where et(m) is Euler Totient Function. Consider having a function calculate(x, k, m) that gives the value (x^x^x^x…k times)%m. (x^x^x^x…k times)%m can be written as (a^b)%m = (a^(b % et(m)))%m, where b = calculate(x, k-1, et(m)). A recursive function can be written, with the base cases when k=0 then, answer is 1, and if m=1, then answer is 0. 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Time Complexity: O(N), where N is 106 since all the Euler Totent values are pre-calculated. 

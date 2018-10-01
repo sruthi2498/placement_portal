@@ -1,0 +1,25 @@
+Round 1 (Online Round): The first round comprised of 2 coding question and 4 MCQ questions.
+Question 1 – You are given 3 array A, B, C you need to find all possible combinations such that A[i1] + B[i2] = B[i3] + C[i4].
+Question  2 – You are given with a string S. You need to find maximum length of string S after deleting some or none characters from S such that it can in form of T+T, where T is substring of S.
+For example S = abcababc, maximum length of string S will be 6 after deleting a, b from position 4, 5.
+MCQ questions were based on OS, networking, C output, Time Complexity.
+Round 2 (Skype Interview): I was asked about how i solved questions in Online Round, then some DS question
+Question 1 – Copy Linked List where each nodes contains two pointers, one points to next element in linked list and other is random pointer which can point to any random node in linked list.
+https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+Question 2- Check if Tree is BST or not when two random nodes of tree is swapped and also fix it.
+https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
+Question 3- You are given with array where each element represents price of stock, you need to maximize profit by choosing when to buy and when to sell stock, and this operation can be done atmost 1 time. I was asked to optimize the space complexity by O(1), although it was easy.
+Question 4- It was puzzle. https://www.geeksforgeeks.org/puzzle-9-find-the-fastest-3-horses/
+After that some discussion on pointers in C, multi-threading in in C, some question on locks and monitor, difference between calloc and malloc in C.
+Round 3 (Face To Face): Some general introduction and questions related to project of current company.
+Question 1 – You are given with a tree(not binary tree) you need to print all its boundary clockwise first rightmost element, then bottom most and then left most. Solution is BFS.
+Question 2 – Design a priority queue in C, i designed it using int array then she asked to modify code it elements are in pair like (3, 2), (4, 6) first priority will be given to first element, tie breaker will be second element, i simple changed int array to structure array.
+Further question was based on SQL, i was asked to write optimized SQL Query, Stored Proc.
+Round 4 (Face To Face – Senior Manager 2):Some general introduction and questions related to project of current company.
+Question 1 – Write code for Quick Sort, Questions related to time complexity and optimization, can we achieve Complexity of less than O(nlog(n))? by using N threads ?.
+Question 2- Implement polymorphism in C, I wrote code using function pointers. Read more about function pointers https://www.geeksforgeeks.org/function-pointer-in-c/
+Question 3 – Discussion on pointers, void pointers in C, implement size of without using sizeof operator in C. https://www.geeksforgeeks.org/implement-your-own-sizeof/
+Question 4 – Discussion on OS, threads, process, processor, multi-threading, context switching, CPU scheduling, locks and monitor. https://www.geeksforgeeks.org/operating-systems/#threads
+Round 5 (Face To Face – Director Engineering):Some general question related to current company, question related to one of my college projects on IoT, nothing technical was asked in this round.
+Round 6 (Face To Face – HR round):This round was based on Behavioral Skills taken by HR team.
+I was able to clear all the rounds.

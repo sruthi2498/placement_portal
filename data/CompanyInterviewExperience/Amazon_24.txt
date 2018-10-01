@@ -1,0 +1,43 @@
+I was interviewed for SDE2 role at Amazon, Bangalore. I had 3 years of experience at the time of getting interviewed.
+Round 1 : Coding Test ———————————————————————————————————–
+– Explain design patterns used so far.
+– How is code review done.
+– How is design review done.
+– Write a program to search a number in a sorted array having 1 maxima.
+– Write a program to check parenthesis are matching.
+Round 2 : Technical Round ——————————————————————————————————-
+– What type of cache do you use in your projects/SYstem.
+– Design a LRU cache having methods
+  – get(K Key)
+  – put(K key, V Value)
+  – remove(K Key)
+They wanted a Library such as Redis which takes generic input.(Using generics)
+Round 3 : Hiring Manager Round ————————————————————————————————–
+– A brief introduction
+– Almost 15 minute discussion about what App Store in Amazon does
+– Explained my project in detail.
+– A very detailed description of technical challenge faced (it includes HLD, LLD and the solution offered)
+– Design google’s Autocomplete feature.
+– Which areas of yours would you like to improve upon? (Both technical and non-technical)
+– Write a program for finding K largest elements in an array.
+Round 4 : Technical Round ——————————————————————————————————-
+– In a linked list find Kth elements from end in a single traversal.
+– Given a 2-D matrix of 0s and 1s, find the number of groups of adjacent 1s given that diagonal 1s are not included.
+  This was the famous Islands problem using connected components in Graph.
+Round 5 : Design Round ———————————————————————————————————-
+– Design BookMyShow. All the microservices which are involved their APIs and HLL design was expected.
+  How will you resolved the concurrency issue when 2 customers try to book same seat.
+Round 6 : Bar Raiser Round
+– A brief introduction
+– Complete design of my project HLD, LLD, UI, DB etc.
+– Responsibilities in the current company
+– Why do you want to change your company
+– Any task/project which was designed and implemented in less time but had a great impact on the production/Business Side.
+– Have you been appreciated for your task more than your expectations.
+– Time when you did not agree with your manager.
+– have you lead anyone ? how do you review code ?
+– how do you review design?
+– What are you weaknesses ?
+– Any project which you feel proud for?
+Overall the process was very smooth and HR was very supportive.
+After a few days I got a call saying I was selected 🙂

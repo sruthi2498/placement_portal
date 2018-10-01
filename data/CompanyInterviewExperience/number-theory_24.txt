@@ -1,0 +1,18 @@
+Given a number n, the task is to find the nth Enneadecagonal number.
+An Enneadecagonal number is a nineteen-sided polygon in mathematics. It belongs to a class of figurative number. The number contains the number of dots and the dots are arranged in a pattern or series. An Enneadecagonal number is also known as nonadecagon. The dots have common points and all other dots are arrange in the successive layer.
+Examples :
+
+Input : 4
+Output :106
+Input :10
+Output :775
+
+
+Formula to find nth Enneadecagonal number :
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Reference: https://en.wikipedia.org/wiki/Polygonal_number

@@ -1,0 +1,15 @@
+OYO visited our campus recently.
+Round 1:
+There was an online test having 20 Technical MCQs and 2 coding questions. 35 candidates were shortlisted for the interviews.
+Round 2:
+It started with the famous “Walk me through your resume”, followed by two coding questions and a minor discussion on my projects.
+Q1. Various files are given, it is also specified that this particular file would need a set of other files to compile. Find a way such that all files are compiled properly. Basically,it was a version of topological sort. I was asked to code it and dry-run properly.
+Q2. Given a linked list having two pointers in each node. The first one points to the next node of the list, however the other pointer is random and can point to any node of the list. Write a program that clones the given list. First I gave the O(n) space solution, then he asked me to reduce space. Here is the solution:  link  
+A discussion on how a converstion, comments and replies on it are implemented on Facebook. The most optimal DBMS query for retrieving the same.
+Round 3:
+Initially, I was asked to explain all my projects in detail. The Interviewer then picked one of the projects and asked further questions in depth.
+It was followed by an hour long discussion on “What happens when you write www.google.com and hit enter” in great depth. Each and every step in it was asked to explain in detail. He asked OS, DBMS, Data Structures and Computer Networks concepts involved in this process.
+Then, we had some discussion on Git and version control as I have mentioned it in CV.
+At last, he asked the famous DP problem – https://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/ , he was more interested in the approach than code, he also asked to make the recursive tree and dry-run the code.
+After this round, I was asked to wait. Later, I was informed that I was selected, but many candidates had further rounds.
+I would like to thank GeeksforGeeks for providing a great content for interview preparation.

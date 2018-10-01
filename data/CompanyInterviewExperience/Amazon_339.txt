@@ -1,0 +1,16 @@
+I got a call form amazon for the opening of SDET. It all started with telephonic interview asking brief introduction and 2 questions.
+1. rearrange a linked list in such way that all odd position nodes are together and all even positions node are together, 1->2->3->4->5->6 , convert it ot 1->3->5->2->4->6
+Face-to-Face 1st Round 
+1. Random play a song from a list of given songs in such a way that no songs is repeated until all the songs are played
+2. Distance between two nodes of a given binary tree
+Face-to-Face 2nd Round 
+1. Find out whether a tree is subtree of given tree or not
+2. For a given array find max of k sub-array, i.e if array is 1, 2, 3, 4, 5,6,7,8 ,9,10, then function should return an array of size n-k+1 with each element be the max of k elements
+output : 3 (max of 1, 2, 3), 4(max of 2,3,4), 5(max of 3, 4, 5) etc, array is not sorted 🙂
+Face-to-Face 3rd Round 
+1. Automating an api to getAllFriendListFromFacebook for a given email id.
+Face-to-Face 4th Round 1. vertical sum of a binary tree, he was looking for in place solution. just 1 traversal and without using hashmap as hashmap allocates more size than the elements to store. interviewer gave hint to use doubly linked list to store the sum.
+Face-to-Face 5th Round 
+1. Given a binary tree return a matrix where mat(i,j) is 1 when i is an ancestor of j. only one traversal required and no extra space required, idea is to populate ancestor list as we process nodes and update the matrix
+Thanks & Regards
+

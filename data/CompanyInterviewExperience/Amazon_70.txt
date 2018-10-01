@@ -1,0 +1,12 @@
+Given a linked list of 0s, 1s and 2s, sort it.
+Examples:
+We have discussed a solution in below post that works by changing data of nodes.
+Sort a linked list of 0s, 1s and 2s
+The above solution does not work when these values have associated data with them. For example, these three represent three colors and different types of objects associated with the colors and we want to sort objects (connected with a linked list) based on colors.
+In this post, a new solution is discussed that works by changing links.
+Iterate through the linked list. Maintain 3 pointers named zero, one and two to point to current ending nodes of linked lists  containing 0, 1, and 2 respectively. For every traversed node, we attach it to the end of its corresponding list. Finally we link all three lists. To avoid many null checks, we use three dummy pointers zeroD, oneD and twoD that work as dummy headers of three lists.
+Run on IDE
+Output : 
+Thanks to Musarrat_123 for suggesting above solution in a comment here.
+Time Complexity: O(n) where n is number of nodes in linked list.
+Auxiliary Space: O(1)

@@ -1,0 +1,36 @@
+Round 1 (Aptitude and Coding Round):
+The first round comprised of 60 questions and 2 coding questions(Test duration: 2hr). The 60 questions were divided in 3 sections- Aptitude, Logical Reasoning, Verbal Skills. Each section consisted of 20 questions each. Time given for the questions was 1 hr (i.e. 60 questions in 60 minutes). The test was conducted on CoCubes platform.
+The aptitude section was quite easy comprising of questions based on basic mathematical problems like probability, ratio etc. The logical reasoning section comprised of true/false, deducing of conclusions etc. The verbal skills section comprised of English paragraphs and questions were asked based on those paragraphs (basically comprehension). Overall the question level can be rated between easy-intermediate level.
+The coding section comprised of 2 coding questions. The time given was 1 hr. The questions were quite easy.
+Q1. Count the number of occurrences of the digit 3 when counting from 1 to n (n is the input number).
+Example: Input- 14
+Answer: Output- 2
+Explanation: There are only 2 occurrences of digit 3 (3 and 13).
+Q2. Find the slope of a given number.
+Example: Input- 1213321
+Answer: Output- 2
+Explanation: Let’s traverse the number from the right to left. Consider the digit ‘1’ (the digit third from left). This digit is called a minima since this digit is lesser than the digit before it and after it if we continue traversing from right to left. Similarly the digit ‘2’ (the digit second from left) is called the maxima since this digit is greater than the digit before it and after it if we continue traversing from right to left. Now we’ve got 1 maxima and 1 minima. Slope of given number is the sum of the number of maxima and minima. So the answer is 1 + 1 = 2.
+NOTE: The questions were not the same for everyone. These are the coding questions that I got.
+Sources to study from:
+GeeksforGeeks, PrepInsta, HackerEarth(Try Code Arena), Hackerrank(Try 30 Days of Code).
+Links:
+https://www.geeksforgeeks.org/quiz-corner-gq/
+http://prepinsta.com/
+https://www.hackerearth.com/codearena/
+https://www.hackerrank.com/domains/tutorials/30-days-of-code
+Round 2 (Technical Interview):
+The second round was technical round. All the questions were asked based on my resume and my projects. My resume include C, C++, Java, Python, HTML, CSS, Javascript as my language skills. Most of my projects were web based projects so the interviewer mostly asked me questions about server and client side web development. He gave me situations and asked me how I would handle those in a web applications. Towards the end he asked me how to reverse a string without using any prebuilt library or function. So I answered that and he was quite satisfied with that.
+NOTE: It is not wrong to say ‘no’ if you don’t know any particular answer or concept. However never give a partial answer or else they will keep asking you questions about that concept and won’t stop until you give a wrong answer and basically batter your confidence.
+Sources to study from:
+You should be good in what skills you mention in your resume. I had done a lot of projects in web development so I had decent knowledge about it. So work hard and gain some skills that you can mention in your resume. For language skills I suggest you see GeeksForGeeks languages section for FAQs on different programming languages.
+Links:
+https://www.geeksforgeeks.org/category/program-output/
+Round 3 (HR Interview):
+The third round was HR round. So my interview was the last interview of the day. So my interviewers were quite exhausted and tired. Keeping this in mind, I knew I had to do something different. My questions were basically based on the five values of Barclays- Respect, Integrity, Service, Excellence and Stewardship. The interviewer gave me situations and expected my answers to show any of the mention values of Barclays. So he gave me 5 situations testing the 5 qualities and I answered them accordingly. The questions were like this:
+The answers to these questions were based on my situations and resume. So I would suggest to make your own back story before you give the interview.
+Sources to study from:
+Search Barclays Interview experiences on YouTube. PlacementStrata is a channel on YouTube that you can see. Go to Barclays site and learn about the company, what it does and about its values and their meanings.
+Links:
+https://www.youtube.com/watch?v=AT8IpQkRAfE
+https://www.youtube.com/watch?v=soN_9ShIlTM
+https://www.home.barclays/

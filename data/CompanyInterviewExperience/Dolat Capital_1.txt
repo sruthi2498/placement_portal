@@ -1,0 +1,38 @@
+It was an on-campus interview. Total 140 students applied for this job and 3 students got the offer letter.
+There were 4 rounds
+Round 1: Coding
+We were given three programs to be completed in 2 hours.one program was difficult and two others were very simple.each program had different weightage
+Program 1 (highest weightage)
+                Insert  & delete a integer value in a linked list from either end.i.e insertion and deletion should be from one end only.also find the maximum value in the linked list at any point.
+all the operations on this ADT needs  to be done in constant time complexity.
+Program 2(medium weightage)
+                I dont remember the question, refer code at the end of this article.
+program 3(least weightage).
+ It was to write a code for quicksort.
+Round 2: Apitude: quants and C input output
+It was a pen and paper round.
+There were 20 C input output questions and 10 aptitude questions and there was a negative marking.
+due to negative marking,questions were tough as options were very close like,
+a) program gives warning and gives output ….
+b) compile time error
+c) runtime error
+d) executes with output …..
+Quants questions were a very easy with just some complex calculations is some cases.
+i guess total time was 40 mins for this test but it was sufficient to solve all the questions.
+After some days total 11 students were shortlisted for the interview.
+Round 3:interview
+Basic questions yet tricky on C. like static, global,extern, diff between static global and global.
+some code was given where variable was used before definition how to fix it.
+ans:use extern to declare the variable and compiler will find the definition afterwards
+A puzzle was asked ,where a silver rod of 7 units to be broken in 3 parts to pay  a employee a wage who is going to work for 7 days.
+Being a very small set of solutions i was able to do bruteforce  and some logical thinking and came up with answer quickly.
+Afterwards interviewer asked on memory leak and some complicated cases where a memory leak can happen.
+Round 4: Interview 2
+After 1st interview 5 students were shortlisted  for 2nd interview round.
+it was a very short interview of 10 mins where 2 questions were asked each given 5 minutes to solve.
+Question 1: Find the intersection point in  2 linked list.
+I was asked some question on vegetable vendor and fake note,i gave correct answer but interviewer re explained the problem but unfortunately i was not able to understand the problem 2nd time too and by that time 10 mins were over.
+and on next day i got selected and got offer letter in 3 days
+Overall a good experience hope this article will help others.
+Run on IDE
+

@@ -1,0 +1,51 @@
+Round – 1:
+The first round had 20 Aptitude MCQs (20 min) and 15 Technical MCQs (15 min) with +1 and -0.25 marking schemes. The MCQs covered topics the included – DSA, Operating Systems, C, C++, Java basics. After this, there were 2 coding questions (45 min). Minimum cut off was set for each section. One question was of the Game Theory and other was of Dynamic Programming.
+Questions in The Coding Round: –
+Q1)
+Given two players A and B and some positive numbers in an array, each player will play game by choosing a positive difference of two numbers such that the number don’t exist in the array and place that number in the array. If he is unable to find such difference then he looses. Each player will play optimally so as the other player is not able to find two numbers such that there difference doesn’t exist in the array.
+Q2)
+Given a string containing only lowercase alphabets, you have to convert it into a string such that it contains all vowels by doing minimum number of operations. In one operation, you could select a substring always starting from index 0, and move that substring up or down (any number of times). Following examples are treated as 1 operation.
+For Ex:- input-axzf
+Let index chosen be 0 to 3and move it up by 2
+Output-czbh
+For Ex:- input-axze
+Let index chosen be 0 to 2 and move it down by 2
+Output-yvxe
+12 students were selected from this round out of about 125.
+Round – 2:
+My interview lasted for about 20 minutes. I was tested on basic concepts of DSA and OS in this round. My interviewer was very good, he made me feel very comfortable before we got to the actual process of the interview. Firstly, he asked for my introduction and then asked me to write a basic C program on a given series pattern (very easy) followed by questions on Paging, Page Faults and Stacks.
+Q1)
+Write a code to print the nth element of the given series
+1 1 2 4 8 16 32
+Q2)
+What is paging? Why is it done? What are page faults? What are the techniques to resolve page faults?
+Q3)
+Implementation of stacks using arrays. 
+7 students were selected from this round out. 
+Round – 3:
+This interview lasted for about half an hour. Interviewer asked me to get comfortable. He asked me about the languages I was comfortable with and then, he asked me questions on bitwise operator and then asked some puzzles (these were really very tricky). Then he had asked me questions on linked list and asked me to make my solution more and more efficient (reducing complexity) followed by questions use of maps (STL in C++). Then he asked my how a different site gets loaded into my web browser whenever I search for any of these sites.
+Q1)
+Given a number you have to make it last 4 bits 0 in just a single line code.
+Q2)
+Given array of integers you have to find 3 no’s such that sum of two makes the other in minimum time complexity.
+Q3)
+What is the difference between JAVA and C++?
+Q4)
+What is PASS BY VALUE and PASS BY REFERENCE in JAVA and code for the same on the paper. 
+You can practice some important questions on bitwise operators on https://www.geeksforgeeks.org/bitwise-algorithms/
+Also, while preparing for interviews you must also practice some puzzles on https://www.geeksforgeeks.org/puzzles/
+3 students were selected from this round out.
+ Round – 4:
+This interview lasted for about half an hour. As I had mentioned Java in one of my strong subjects so he started form the basics of JAVA like what was the purpose and need for inventing this language. Then he asked me to write a simple program just checking my practice on implementing JAVA and some question of C too. Then he gave me some interesting puzzles like https://sbjoshi.wordpress.com/2008/06/04/puzzle-burning-ropes/ was one of them.
+Q1)
+What is the difference between malloc and calloc function in C?
+Q2)
+What are static blocks in java?
+Q3)
+Can main method be overloaded in JAVA? Why or Why Not?
+Q4)
+How Is JAVA platform independent?
+Q5)
+Is JVM platform dependent or independent? Why or Why Not?
+Only 1 student was selected from this round for internship at the Hyderabad Office.
+The interview experience was quite good and they focused on all the core computer science subjects. Geeks for geeks was a lot of help to me as it helped me in my placement preparation and provided almost all content that was necessary for placement preparation.

@@ -1,0 +1,26 @@
+Given an integer n, the task is to find whether n can be written as sum of three consecutive integer. If yes, find the three consecutive integer, else print “-1”.
+Examples:
+
+Method 1: (Brute Force):
+The idea is to run a loop from i = 0 to n – 2, check if (i + i+1 + i+2) is equal to n. Also, check if n is positive or negative and accordingly increment or decrement i by 1.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Method 2: (Efficient Approach)
+The idea is to check if n is multiple of 3 or not.
+Let n is sum of three consecutive integer of k – 1, k, k + 1. Therefore,
+k – 1 + k + k + 1 = n
+3*k = n
+The three number will be n/3 – 1, n/3, n/3 + 1.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

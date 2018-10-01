@@ -1,0 +1,32 @@
+Write a program to print first n non-square number (non perfect square) .
+Examples :
+
+A naive method is to traverse all numbers from 1 to n. For every number, check if it is perfect square or not. If not a perfect square, print it.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+We can improve the above algorithm by using below formula
+F(n) = n + floor(1/2 + sqrt(n))
+By applying this function we get nth non square number. 
+Source and proof of the formula : Quora
+Below is the implementation of above approach .
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+An alternate solution is based on the fact that number of non-squares between two squares is always an even number.
+Count of non-square numbers between two consecutive numbers k and k+1 is
+= (k+1)2 – k2 + 1
+= 2k 
+Count of non-squares between 1-4, 4-9, 9-16, … are 2, 4, 6, … respectively. Theses are even numbers. 
+Below is the implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

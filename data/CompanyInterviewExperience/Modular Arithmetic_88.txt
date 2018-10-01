@@ -1,0 +1,10 @@
+Consider below simple method to multiply two numbers.
+Run on IDE
+The above function works fine when multiplication doesn’t result in overflow.  But if input numbers are such that the result of multiplication is more than maximum limit.
+For example, the above method fails when mod = 1011,  a = 9223372036854775807 (largest long long int) and b = 9223372036854775807 (largest long long int).  Note that there can be smaller values for which it may fail.  There can be many more examples of smaller values. In fact any set of values for which multiplication can cause a value greater than maximum limit.
+How to avoid overflow?
+We can multiply recursively to overcome the difficulty of overflow. To multiply a*b, first calculate a*b/2 then add it twice. For calculating a*b/2  calculate a*b/4 and so on (similar to log n exponentiation algorithm). 
+Below is C++ implementation.  
+Run on IDE
+Output: 
+Thanks to Utkarsh Trivedi for suggesting above solution.

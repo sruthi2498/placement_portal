@@ -1,0 +1,16 @@
+Factset came to our college for full time hiring for Software Engineer post. There were 4 rounds – 1st was written (pen&paper). Emphasis was on logic rather on full working code, pseudo codes were also allowed. Questions were – 
+1. To find the mean of k consecutive numbers in an array of size n equal to m
+2. To generate all cyclic permutations (clockwose) of a string. if input is abc output should be cab,bca.
+3. To find all nodes that are bounded by boundary traversal. If input tree is 
+There were two technical PI’s then. In 1st tech pi there were two interviewers. They were pretty calm and patient.
+1. To check whether a string is palindrome or not. Discussed all methods and then asked to code for the same if the string is not in an array but in a linked list.
+2. To find the pivot element in a rotated array in  logn
+3. Discussions on hash tables. Sum of two nos equal to a given k.
+4. Next highest palindrome
+5. Next highest no using same digits
+6. Power function in logn
+2nd pi was a bit challenging
+1.Implement bidirectional hash map using other DS
+2. Activity selection problem with a lot constraints(don’t remember properly). Finally i told him apply recursion and then backtrack in case for a conflict.
+Last round was HR. In my case my HR was taken during the first round only.Finally they made an offer to 14 of us 🙂
+

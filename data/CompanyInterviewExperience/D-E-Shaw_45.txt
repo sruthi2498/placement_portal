@@ -1,0 +1,36 @@
+Round 1 : (Telephonic Interview) (45 mins)
+1. Tell me about yourself.
+2. OOPS Concepts like abstraction, encapsulation and examples for each.
+3. Polymorphism – Static and dynamic. why the name is static and dynamic.Again With Examples.
+4. What is final keyword in Java ?
+Answer: Yes, it’s a valid operation. We can do add/delete. The only constraint is that we can’t make list to point to other ArrayList objects. e.g, we can’t do list = list1.
+5. What’s a Dangling Pointer and how to correct this.
+6. How would you get total number of words in a file (In Unix).
+7.  Given two strings .. you need to tell whether they are permutation of each other. Various approaches and their complexities.
+8.  Given a string. You need to print first non-repeating char. I told him we would use count array, count[256].
+Counter question: How would you reduce space complexity. I told him we could use Hash table. In that, we would only be needing spaces equal to number of different characters.
+9.  200 storey building..One egg given (Yes, only one egg)… find from which level egg would break in number of attempts less than 200. (Still haven’t got any answer for this :D)
+10. Four numbers are given: 1 3 4 6 = 24. Use any mathematical operators. I asked him can i write this expression in C and run it from there to get required result. He said yeah you can.
+Then i took 4 integer variables(1,3,4,6) and another integer variable result. Now, 1/3 = 0 (C integer division). so simply 4*6 would give me 24. Pretty simple :D. He said it’s okay, but try with mathematical operators only. (No coding :D)
+Answer: (1^3) * (4*6) = 24
+Code: (It was to be sent through email)
+11. Write well commented code to print Matrix in Spiral Order . Also write some test cases.
+———————————————————————-
+Round 2: (In-house Interview) (45 mins) 
+——————————————————
+1. Discussions on Various basic concepts like What makes Java Platform Independent language, Why C is Platform dependent, difference between JDK, JRE and JVM, What’s a byte code (In Java) and discussion went on like this.
+2. What’s a function pointer ? Where it’s used. Write a code to implement the same.
+3. Is it possible to have try-finally block without catch block ? And several other similar discussions on Exception Handling.
+4. What’s a Process ? What are various sorts of Process Scheduling Algorithms. Design a data structure which can be efficiently used to schedule processes based on their priorities. Further they added that Priorities of some processes can change any time and we should be able to pick that process which is having maximum priority (Min Heap concept). Also there can be many processes of same priority. Some discussions on approaches.
+5. What’s difference between extends and implements ? Some discussions on Abstract class and Interface.
+6. Why Java does NOT support Multiple Inheritance ? How we solve Diamond Ring Problem in C++ (Virtual Inheritance). How to access a specific function from a class in case of multiple inheritance ? (Ans: Using scope resolution operator)
+7. What’s the difference between #define MAX 30 and const int max = 30.
+8. What is ‘register’ storage class ? If we have declared any variable register and there is no free registers available, what will happen ? Will compiler throw any sort of errors/warnings ?
+9. In C, Where can we find definition of printf(). Some discussions on header files and Process execution steps (like preprocessing, compilation, loading, linking etc).
+10. Do we have destructors in Java ? Can we explicitly destroy objects in Java ?
+11. Given a binary complete tree like:
+Convert it into level order sorted tree like:
+Code was required.
+—————————————————————————————-
+Though I did not get the offer, it was a great experience. If you want to crack DE Shaw, do have a clear concepts of whatever technology you are working on. For preparing Java/C++, refer http://javarevisited.blogspot.in/ & http://www.learncpp.com/.
+

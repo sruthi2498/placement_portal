@@ -1,0 +1,48 @@
+I have attended the interview for Software Development Engineer position and got the offer from Amazon.
+I spent a lot of time in GeeksforGeeks going through the precise and simple explanations of complex problems, which helped me to sharpen my mind. Really, its a great work by the geeks and I am happy that I am a part of it.
+The following were the questions.
+Round  1 : Write a program to solve the below problems. (Time 1.30 hrs)(Written Test)
+1.       Given a string in the form of a Linked List, check whether the string is palindrome or not. Don’t use extra memory. Give the time complexity. The node structure is
+2.       Given a Binary Search tree along with the parent pointer, find the next largest node for the given node. Give the time and space complexity. The node Structure is
+3.       Given a sorted array which is rotated n number of times. Find out how many times the array is rotated. Time complexity should be less than O(n).
+Round 2 : With Team Member
+1.       Tell me about yourself.
+2.       Explain your project.
+3.       Given a Binary tree, find the vertical sum.
+….a.       I gave a solution using hashmap. There were discussion about the problems (time and space complexity) in using hash map. Then due to its cons, he told me to use some other DS to solve the problem.
+….b.      Then I gave a solution using Array. There were discussion about how it can be used, time and space complexity and its pros and cons.
+….c.       Code using Array.
+4.       Given a matrix mxn, where all the rows were sorted, print the elements in the matrix in a sorted order.
+….a.       I gave a solution with O(mxmxn) time complexity.
+….b.      He wanted a solution in O(mnlog(m)) time complexity and gave a hint to use heap.
+….c.       Code for the same.
+Round 3: With 3rd Level Manager (culture Fit)
+1.       Tell me about yourself.
+2.       Explain Your accomplishments.
+3.       What you are proud of yourself?
+4.       How you will handle the conflict with the team member?
+5.       Lot of behavior oriented questions.
+6.       Given a String, remove the duplicates in the string.
+….a.       Lot of variations from the same problem.
+….b.      Asked for a solution in different time and space complexities and the complications involved.
+….c.       I guess the communication skill might have been tested here.
+7.       Given a floating point number, write a program to convert it into a string. The number of digits after decimal point can be more than 1000.
+Round 4 : With Manager
+1.       Can you tell me about yourself?
+2.       Explain the projects you worked on?
+3.       Given a Binary tree, connect all the leaf nodes in the form of a doubly linked list. Don’t use extra space.
+4.       A scenario was given about two robots and its functionality. Write a program which will be running in both the robots which will perform the specified functionality.
+5.       Given an integer, find the next largest integer using the same digits as in the given integer. For example, if 12345 was given, the program should return 12354.
+Round 5 :
+1.       Tell me about yourself.
+2.       Explain what you have done in your previous company.
+3.       As I have worked on a product and they told to explain the product
+4.       What are the developments you have done and what impact it will be having?
+5.       What will happen to your development, if the product Is migrated?
+6.       Questions on threading.
+7.       What is a thread safe code? Explain.
+8.       What is a process and thread? Differences?
+9.       Given a binary tree print the elements in a zig zag order.
+ Thanks a lot for Geeks team.
+Run on IDE
+

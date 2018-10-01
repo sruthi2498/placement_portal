@@ -1,0 +1,9 @@
+The classical Sieve of Eratosthenes algorithm takes O(N log (log N)) time to find all prime numbers less than N. In this article, a modified Sieve is discussed that works in O(N) time.
+Example : 
+Manipulated Sieve of Eratosthenes algorithm  works as following:
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+
+Illustration:

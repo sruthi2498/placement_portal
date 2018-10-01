@@ -1,0 +1,13 @@
+Given two numbers n and k, find an array containing values in [1, n] and requires exactly k calls of recursive merge sort function.
+Examples:
+
+If we have value of k even, then there is no solution, since the number of calls is always odd (one call in the beginning, and each call makes either 0 or 2 recursive calls).
+If k is odd, let’s try to start with a sorted permutation and try to “unsort” it. Let’s make a function unsort(l, r) that will do it. When we “unsort” a segment, we can either keep it sorted (if we already made enough calls), or make it non-sorted and then call unsort(l, mid) and unsort(mid, r), if we need more calls. When we make a segment non-sorted, it’s better to keep its both halves sorted; an easy way to handle this is to swap two middle element.
+It’s easy to see that the number of unsort calls is equal to the number of mergesort calls to sort the resulting permutation, so we can use this approach to try getting exactly k calls.
+Below is the code for the above problem.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:

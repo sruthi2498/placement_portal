@@ -1,0 +1,22 @@
+Round 1 (Coding) : It was conducted on HackerRank .
+Question – 1 : Given a tree with n nodes rooted at given root node r and having values associated with all the nodes. You have to answer two types of queries :-
+Question – 2 : Given a string (1-based indexed) having only lowercase english alphabets of length n . You are given q queries and a range [l, r] with each query . You have to print count of all the sub-strings which are ending and starting with the same character for each query.
+Example – abacc
+3 queries –
+1 2
+2 4
+1 5
+Output :-
+2
+3
+7
+Question – 3 : You are given an array a with positive integers . You have to print the size of the smallest subset such that the bitwise or of the array is maximum.
+Example : 5 1 3 4 2
+output :- 2
+Explanation :- maximum or of array is 7 . subset chosen – [2, 5] or [3, 4].
+Round – 2 :- This was an offline technical round which lasted for about half an hour . Interviewer started with my introduction like tell me about yourself and all that stuff. In that time he was going through my resume and pointed out my interests in competitive programming and started with his questions.
+Questions in Round 2 :-
+Then, Atlast he asked me if i have any questions to ask him ..
+Round 3 :- This was an HR round .. She asked me the standard questions like tell me about yourself, What do you know about our company, who are our clients, are you comfortable with the location and the stipend ..
+Some Important Tips :-
+ALL THE BEST..

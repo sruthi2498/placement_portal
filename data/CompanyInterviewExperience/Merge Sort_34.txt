@@ -1,0 +1,15 @@
+Given two linked lists sorted in increasing order. Merge them such a way that the result list is in decreasing order (reverse order).
+Examples:
+A Simple Solution is to do following.
+1) Reverse first list ‘a’.
+2) Reverse second list ‘b’.
+3) Merge two reversed lists.
+Another Simple Solution is first Merge both lists, then reverse the merged list.
+Both of the above solutions require two traversals of linked list. 
+How to solve without reverse, O(1) auxiliary space (in-place)  and only one traversal of both lists?
+The idea is to follow merge style process. Initialize result list as empty. Traverse both lists from beginning to end.  Compare current nodes of both lists and insert smaller of two at the beginning of the result list. 
+Below is the implementation of above solution.
+Run on IDE
+Run on IDE
+
+This solution traverses both lists only once, doesn’t require reverse and works in-place.

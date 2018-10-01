@@ -1,0 +1,49 @@
+There were 2 f2f Round and one Assignment and 1 more F2F Round. All rounds were Technical.
+Round 1:
+Q1. Find is there any Repeated/Duplicate Element in Array.
+Q2. Given a sorted Array A with N element possibly with Duplicates, find the first or last occurrences of an element in O(logN) Time.
+Round 2:
+Q1. Project Related Questions that I have done.
+Q2. where to put script Tag in HTML file and why ?
+https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
+Q3. What is async and defer with script tag and why we used them?
+https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
+Q4. write a Algo to print following:
++ * * or + + +
++ + * + + *
++ + + + * *
+for any given value of N.
+Q4. what is Lazy Load Imaging Technique?
+https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
+Q5. How to measure any site performance and what is FPM?
+Round 3 : Assignment
+1. Application showing list of 20 different items in a page.
+Each item contain below details
+i. Random images using https://picsum.photos
+ii. Some title and Description
+2. Use Lazy Load Images
+3. Package your App using one of opensource tool like(webPack or gulp etc)
+4. plus point in caching js/image using service worker.
+Round 4:
+Q1. Linked List program for insertion and deletion of any node.
+Q2. How to find kth smallest element in an array.
+Hint : Using Min or Max Heap
+Q3. what is proto type in javascript.
+Q5. Design Question :
+1. Given one webserver that can handle upto 6 month SQL Query Data (or else it will give memory error)
+2. Suppose we are having multiple SQL tables and that gives output something like
+{
+key : k1
+date: 31-07-2018
+Opening Balance: xxxx
+Closing Balance : xxxx
+}
+There are multiple JSON data in output by SQL Queries.
+3. Design schema of tables to handle Queries.
+4. Our Task is to find the closing and opening balance between given dates(31-03-2018 and 5-08-2018).
+Hint : 1. Each Month_year will be a separate table that stores all transaction
+2. Think of Account statement of your account and if u find statement between some dates. how it works.
+3. you have to calculate from starting date of company transaction stored
+Q5. what is Indexing in SQL and their type with their use cases.
+Q6. Puzzle Question
+Hint :  total min time is 17 min.

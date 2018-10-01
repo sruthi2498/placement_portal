@@ -1,0 +1,14 @@
+Given a number n, print all primes smaller than n.  For example, if the given number is 10, output 2, 3, 5, 7.
+A Naive approach is to run a loop from 0 to n-1 and check each number for primeness.  A Better Approach is use Simple Sieve of Eratosthenes.
+Run on IDE
+Problems with Simple Sieve:
+The Sieve of Eratosthenes looks good, but consider the situation when n is large, the Simple Sieve faces following issues.
+Segmented Sieve
+The idea of segmented sieve is to divide the range [0..n-1] in different segments and compute primes in all segments one by one.  This algorithm first uses Simple Sieve to find primes smaller than or equal to √(n). Below are steps used in Segmented Sieve.
+In Simple Sieve, we needed O(n) space which may not be feasible for large n.  Here we need O(√n) space and we process smaller ranges at a time (locality of reference)
+Below is implementation of above idea.
+
+Run on IDE
+Run on IDE
+
+Note that time complexity (or number of operations) by Segmented Sieve is same as Simple Sieve.  It has advantages for large ‘n’ as it has  better locality of reference and requires 

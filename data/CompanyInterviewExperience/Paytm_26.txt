@@ -1,0 +1,52 @@
+Hi all, below are the questions asked in paytm interview for 2yr experienced guy in java technology. I could remember these much only, although there were more questions.
+
+Round 1:
+explained previous projects.
+interfaces vs abstract class
+interface i1 : void fun()
+interface i2 : int fun()
+interface i3 : Object fun(int x)
+class implementing all these interfaces has to implement all methods or one?
+interface i1 : void fun()
+interface i2 : void fun()
+interface i3 : void fun()
+now what will be the behavior if a class implement all interfaces?
+given m*n matrix containing 0s and 1s in sorted order. count the row with maximum number of 1s.
+given a rod of length d. there is price associated with every piece of rod. the buyer wishes to buy a rod of length n where there can be any number of
+cuts in it. find the no. of cuts required to get rod of length n with minimum cost to be paid.
+Last question of the round with a choice to attempt only 1.
+given 8 balls out of which 1 is unequal. find it in minimum number of comparisons.
+or
+given some integers. there can be only 3 operations to be performed on the integers i.e., add, subtract and concat. find minimum no. of operations to get number x (100).
+
+Round 2:
+static synchronized and synchronized method, will both of them executed parallely if called by different threads at same time?
+set,hashmap implementations, linkedhashmap how it works. what is thresold value of hashmap, load factor.
+how resize happens in hashmap.
+when java structures the linked list entry buckets in hashmap to tree? what kind of tree does it maintain? avl or rbtree?
+what are the properties of the two trees?
+remote method invokation (rmi), socket?
+find nth largest from stream of integers. Hint : use paritition algo to identify nth largest, loop till pivot is not equal to n.
+C : what does printf return? what does scanf return?
+optimistic locking.
+thread pool executor. concurrent packages.
+what is hibernate? why do we use it?
+spring ioc, di.
+design patterns.
+given a 2-d plane with 3 coordinates which forms a triangle. given a point tell whether it is present inside triangle or not.
+thread states? difference between blocked and waiting state?
+java is pass by value or pass by reference?
+asked about previous projects.
+
+Round 3:
+design a car parking system. there are slots, return best slot for vehicle arrived, apis,db,classes etc. Also telling best slot should be less than o(n).
+what all interfaces are there in collections?
+there implementations?
+stack queue in what package?
+singleton class, what if two threads access singleton at same time, what if constructor made accessible by reflection?
+asked about previous projects.
+heap implementations.
+implement arraylist using a data structure.
+heapsort methods with each taking how much time?
+Didn’t got selected, attitude of the interviewers was like whatever they asked has to be answered and are god as know more than you. Although it taught a lot in the end.
+Best of luck 🙂

@@ -1,0 +1,11 @@
+Given a string of characters of length less than 10. We need to print all the alpha-numeric abbreviation of the string.
+The alpha-numeric abbreviation is in the form of characters mixed with the digits which is equal to the number of skipped characters of a selected substring. So, whenever a substring of characters is skipped, you have to replace it with the digit denoting the number of characters in the substring. There may be any number of skipped substrings of a string. No two substrings should be adjacent to each other. Hence, no two digits are adjacent in the result. For a clearer idea, see the example. 
+Examples:
+Source: Google Interview question
+
+The idea is to start with empty string. At every step, we have two choices.
+
+You can see how each character can either add up to the result as a character or as a digit. This further gives rise to 2^n abbreviations at the end where n is the length of string.
+Run on IDE
+Output:
+Source: CareerCup

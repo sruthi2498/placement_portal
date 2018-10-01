@@ -1,0 +1,23 @@
+Write a one line C function to return position of first 1 from right to left, in binary  representation of an Integer.
+
+Program:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Using ffs() function: ffs() function returns the index of first least significant set bit. The indexing starts in ffs() function from 1.
+For example:
+n = 12 = 1100
+In above example, ffs(n) returns the rightmost set bit index which is 3.
+Run on IDE
+Using XOR and & operator : 
+Initialize m as 1 as check its XOR with the bits starting from the rightmost bit. Left shift m by one till we find the first set bit, as the first set bit gives a number when we perform a & operation with m.  
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+This approach has been contributed by mubashshir ahmad

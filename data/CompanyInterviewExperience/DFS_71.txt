@@ -1,0 +1,8 @@
+Given a list of word lists  How to print all sentences possible taking one word from a list at a time via recursion? 
+Example: 
+We strongly recommend to minimize your browser and try this yourself first.
+The idea is based on simple depth first traversal.  We start from every word of first list as first word of an output sentence, then recur for the remaining lists.
+Below is C++ implementation of above idea. In the below implementation, input list of list is considered as a 2D array.  If we take a closer look, we can observe that the code is very close to DFS of graph.
+Run on IDE
+Run on IDE
+

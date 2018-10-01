@@ -1,0 +1,13 @@
+Round 1- 90-100 min
+In 2 min They told me that i was cleared for 2 round.
+Round 2
+I went for 2 round without wasting time as Spot On offers were to be given. Interviewer was slightly weired and he straight on went for the ques.
+ There is data available for different vehicles and all vehicles have n parameters which distinguish it with other vehicle so given huge data you need to separate them in different
+lists based on some parameters matching. How will you proceed->Then he said 3 parameters are there and if all 3 parameters match then they belong to same list.
+I told him lets sort the data according to first parameter then for then sort acc to 2 para and so on..(something like Radix sort).
+He told me to use Hash-Map and model the whole idea….building the structure for each vehicle and  then use key to do hash-mapping.
+I implemented it but due to too much overwriting, He was  not looking impressed but he told its correct.
+DO u have any questions.
+After this Round I was rejected.
+TIPS-
+

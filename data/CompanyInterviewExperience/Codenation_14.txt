@@ -1,0 +1,15 @@
+There were 4 rounds
+Short Story –
+First Round – Online Round (3 coding questions 90 min)
+Second Round – Skype Interivew (Data Structure and Puzzle)
+Third Round – Skype Interview (Open ended Questions)
+Fourth Round – Skype Interivew (with CEO)
+ 
+Long Story –
+The first round consisted of three algorithmic questions conducted on Hacker rank. They were tough questions. One of the questions could be solved using euler totient function. The second questions was this.  I don’t remember the third question. I was only able to solve the first question and that was enough to clear this round.
+The second round was based on data structures and puzzles, conducted on skype. He asked me to implement a stack. I implement it using a singly linked list. With the pointer pointing to the end of the linked list. I implemented push, pop operations handling overflow and underflow cases. Initially I was maintaining two pointers but he was not satisfied with it and told me to do it using only one pointer. I implement push and pop functions in O(1). I was asked 5 pirates and 100 gold coins puzzle.
+The third round was open ended questions and on Skype.
+1. You need to come up with solutions. I was asked to implement an algorithm to divide a given data into topics. For example there can be document describing banks, rivers, movies. I need to come up with an algorithm to divide the document into the topics bank, river and movie and each has its own subtopics. This was similar to my minor project. I explained my minor project to him. It is similar to “topic modelling.”
+2. Implement an algorithm to detect a face, for example when we take a photo from a phone camera, we can see a yellow border on the face. There was a lot of discussion regarding this. I told him I will be using a machine learning algorithm and the accuracy will depend on the data that will be available. For example consider a child face and adult face. He asked to implement it with out machine learning. I told him I would consider each photo as a 2D matrix and will consider similarity. I don’t remember the exact solution that I came up with. But he was satisfied with my answers.
+The fourth round was with CEO and it was on Skype. It was HR round. He asked me why do you want to join this company. What was the toughest problem you have faced. I don’t remember the remaining questions.
+ 

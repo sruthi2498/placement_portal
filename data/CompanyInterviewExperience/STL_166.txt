@@ -1,0 +1,5 @@
+The multimap::swap() is a built-in function in C++ STL which swaps two multimap container. The contents of multimap1 are in multimap2 and contents of multimap2 are in multimap1 after swap() function is called.
+Syntax:
+Parameters: This function accepts one parameter which is to be swapped with the multimap1_name, 
+Return Value: The function does not returns anything. 
+Run on IDE

@@ -1,0 +1,26 @@
+Prerequisite : Loops, If Else Statement
+1. Hollow pyramid/triangle pattern
+The pattern is similar to pyramid pattern. The only difference is, we will replace all internal ‘#’ characters by space character and we will 2*N-1 (N = number of rows in pattern) ‘#’ characters in last row.
+Examples:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+2. Hollow inverted pyramid/triangle pattern
+Examples:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+3.Hollow diamond pattern
+Examples:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

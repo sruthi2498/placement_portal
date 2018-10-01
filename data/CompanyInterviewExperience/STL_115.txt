@@ -1,0 +1,9 @@
+The multiset::count() function is a built-in function in C++ STL which searches for a specific element in the multiset container and returns the number of occurrence of that element.  
+Syntax: 
+Parameters: The function accepts a single parameter val which specifies the element to be searched in the multiset container. 
+Return Value: The function returns the count of elements which is equal to val in the multiset container. 
+Below programs illustrates the multimap::count() function: 
+Program 1: 
+Run on IDE
+Program 2: 
+Run on IDE

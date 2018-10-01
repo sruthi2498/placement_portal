@@ -1,0 +1,17 @@
+Given three positive numbers a, b and m.  Compute a/b under modulo m.  The task is basically to find a number c such that (b * c) % m = a % m.
+Examples: 
+Following articles are prerequisite for this.
+Modular multiplicative inverse
+Extended Euclidean algorithms 
+Can we always do modular division?
+The answer is “NO”.  First of all, like ordinary arithmetic, division by 0 is not defined. For example, 4/0 is not allowed.  In modular arithmetic, not only 4/0 is not allowed, but 4/12 under modulo 6 is also not allowed. The reason is, 12 is congruent to 0 when modulus is 6.
+When is modular division defined?
+Modular division is defined when modular inverse of the divisor exists.  The inverse of an integer ‘x’ is a another integer ‘y’ such that (x*y) % m = 1 where m is the modulus.
+When does inverse exist? As discussed here,  inverse a number ‘a’ exists under modulo ‘m’ if  ‘a’ and ‘m’ are co-prime, i.e., GCD of them is 1.
+How to find modular division? 
+Run on IDE
+Output: 
+Modular division is different from addition, subtraction and multiplication.
+One difference is division doesn’t always exist (as discussed above). Following is another difference.
+References:
+http://www.doc.ic.ac.uk/~mrh/330tutor/ch03.html

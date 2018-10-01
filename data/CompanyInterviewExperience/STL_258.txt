@@ -1,0 +1,6 @@
+We are given an array of elements and we have to check the whether each element is even or not.
+Examples:
+Approach: The above problem can be solved using for loop but in C++ we have all_of() algorithm which operates on whole array and save time to write code for loop and checks each element for the specified property.
+Note that all_of()  also uses loop internally, it just saves our time of writing a loop code.
+Run on IDE
+Output:

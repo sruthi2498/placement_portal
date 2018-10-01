@@ -1,0 +1,15 @@
+A Fragment is a piece of an activity which enable more modular activity design. A fragment encapsulates functionality so that it is easier to reuse within activities and layouts.
+Android devices exists in a variety of screen sizes and densities. Fragments simplify the reuse of components in different layouts and their logic. You can build single-pane layouts for handsets (phones) and multi-pane layouts for tablets. You can also use fragments also to support different layout for landscape and portrait orientation on a smartphone.
+The below image shows how two UI modules defined by fragments can be combined into one activity for a tablet design but separated for a handset design.
+
+Fragment Life Cycle
+Android fragments have their own life cycle very similar to an android activity. 
+
+Types of Fragments
+Handling the Fragment Lifecycle
+A Fragment exist in three states : 
+The effect of the activity lifecycle on the fragment lifecycle : 
+
+Defining and using fragments
+To define a new fragment we either extend the android.app.Fragment class or one of its subclasses. 
+Run on IDE

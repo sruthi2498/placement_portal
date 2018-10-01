@@ -1,0 +1,21 @@
+3 months Experience Candidate.
+1. Written test 90 mins which consisted of 2 coding questions and 18-20 MCQ from varied computer science concepts.
+2. Telephonic Round
+1. Find the number of occurrences of a number in sorted array.
+2. LCA in a Binary Tree.
+3. Clone a Tree, where each node had 3 pointers left, right and random. Random pointer points to any other node in the tree.
+Interview Experience F2F (Onsite):
+Round A with HM :
+1. Check for a complete cycle in a graph. ( A complete cycle is one that covers all nodes )
+2. Construct a tree using Preorder and Inorder Traversal.
+3. Evaluate a random function.
+Since this round was with a hiring manager he asked a few questions like why do you want to leave your organization? Why so early? Plans for further studies and basic discussion of projects.
+Round B Tech1:
+Half an hour discussion on my projects. Then a question on strings. Write a program to output the minimum size window which contains all the given characters with at-least the given frequency. This was followed by Test Case design.
+Round C Tech2 :
+1. Given a Node in a tree and a value k , print all nodes at K distances from the given node.
+2. Given a string and k, arrange the string so that all the same characters are K distance apart. If not possible print -1.
+Round D BR :
+1. Given two arrays  sort the first array in the order of numbers given in the second array. For the numbers that do not appear in the second array, sort according to face value. Discussed methods and codes. He always pushed to optimize the code.
+This was followed by discussion on sorting techniques, there comparisons. In the end he asked a few questions from OS mainly the scheduling algorithms.
+

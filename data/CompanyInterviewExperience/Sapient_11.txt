@@ -1,0 +1,52 @@
+Mode:- skype and telephonic interview
+written test by:- amcat
+1. Recruitment process
+There was a written test which had four sections. Technical, Logical Reasoning, Quantitative Aptitude, Verbal Ability.
+Shortlisted candidate went for technical interview round.
+Then further shortlisted candidate went for hr interview round
+Those who got shortlisted after the hr round got the full time offer.
+2. Questions and answers
+Written test questions
+    	technical:- questions were from C C++. Find out the error type questions and also output type
+    	quantitative apti:- I’m a bit weak at it, never practiced. So, i found them a bit tough, however they were standard
+    	verbal ability:- damn easy, work on synonyms, antonyms and some basic english grammar
+    	logical reasoning:- number series, coded words and very pretty easy thinking questions
+Technical Interview
+    	To many of my friends, it was a puzzle round and they faced only puzzles(8-9). But i got lucky, I was asked 4-5 puzzles and jumped into technical questions
+puzzles:- 
+		1. I was to imagine a situation where there’s is an empty wet, water spilled room(ceiling to floor height- 12 ft), a dead man(7 ft height) hung by a 3 ft rope. I’m asked how could the man hung himself there?
+		reply:- I said there had been a 2ft ice cube on which he might have stood and tied himself and hung, (ice cube melting away killing him)
+		2. I’m given 8 sticks to use to make two squares and four right angled triangles
+			reply:- a rhombus inside a square
+		3. I was given two non-uniform sticks which burn one hour each. I had to measure 15 minutes using them.
+			reply:- I set one stick to fire on both ends and the other stick on only end. I let the first stick burn completely which measures me 30 minutes. Then I put the other end of the burning second stick on fire and let it burn completely. Now, the second stick takes 15 minutes to burn completely
+		4. I was given 9 balls which all are identical except one which is hollow! How many trials would you take to figure out the hollow one!
+			reply:- logarithmic answer. log 9 base 3 . i Said its two trials, I don’t know if its a right answer
+		5. There are three ants on three corners of an equilateral triangle. they can move in any direction but only along the triangle edges. probability that any two ants collide each other.
+			reply:- i gave up. couldn’t find out the answer
+ tech ques:- 
+		1. Difference between C and C++
+		2. Can one edit standard libraries of C?
+		3. what is function overloading and overriding (difference between them)
+	He asked me to explain about my project which was on Service Oriented architecture for building a middleware in JADE. I explained it all to him. I wonder how much he might have understood.
+HR Interview
+	It started with him telling about himself. He told his position and his work role. I couldn’t get a single thing of what he was talking about. :p Flew over my head 😀
+	Then i started to tell about myself, strengths weakness, hobbies.
+	He asked why i like listening music a lot. I was like- I love it without any reason.
+	He asked me if i like maths. I said no! 😀 He gave me a small problem
+		How many squares are there on a chess board.
+		without further thinking, i spit out 64. He asked for my surity. Then i thought and said no(there are plenty of them inside, bigger and nested squares)
+		so, i gave up, he finally told me the answer. (sum of squares of numbers from 1 to 8)
+	He asked about software development life cycle. I gave an honest reply i forgot. Then he started scolding me saying that my pointer is 8.30 and i forgot this! He started saying to go prepared for the next interview.
+	Then he asked me what if i don’t perform well if they hired me.
+		i said- kick my ass.
+	He started giving me life lessons in hindi.
+	Then he asked me what would i want first in process of making tea. (related to software development life cycle)
+	i said- gas(fire). but he says the first step would be knowing the no. of people who will drink that and what are their requirements(same as a software needs)
+That’s it. It ended. and after news came over. I got selected :p 
+Tips:- 
+    	In tech interview, be confident about your answers, and don’t ever guess any answer. Be honest and say you don’t know if you don’t and yes if you know.
+    	In HR interview, be what you are. Reflect entirely yourself there. Don’t be moody and shy. Try to converse with him as a friend. He’s there to select you rather than to reject you. 
+All the best guys 😀 
+
+

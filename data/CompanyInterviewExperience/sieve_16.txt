@@ -1,0 +1,9 @@
+Given two integers ‘L’ and ‘R’, write a program to find the total numbers that are having prime number of set bits in their binary representation in the range [L, R].
+Examples:
+
+ Explanation:  In this program we find a total number, that’s having prime number of set bit. so we use a  CPP predefined function __builtin_popcount() these functions provide a total set bit in number. as well as be check the total bit’s is prime or not if prime we increase the counter these process repeat till given range. 
+Run on IDE
+ Time Complexity : Let’s  n = (r-l)
+ so overall time complexity is N*sqrt(N) 
+We can optimize above solution using Sieve of Eratosthenes.
+Prime Number of Set Bits in Binary Representation | Set 2

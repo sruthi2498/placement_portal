@@ -1,0 +1,16 @@
+Round 1-
+Ittiam systems conducted an online coding contest on Hackerearth. Top 30 students were called for further interviews.
+Round 2-
+This was a technical round held over Skype. They started off with some puzzles followed by some technical questions.
+Question 1 (Puzzle) –
+A and B are playing a game with a biased coin having probability of getting Heads(H) = 0.6 and that of Tail(T) = 0.4
+Both player take alternate turns to toss the coin. For a player to win, he must get a Heads(H) in his toss and his opponent must get a Tail(T) in the next turn. If A tosses first, comment on whether the game is fair for both or not.
+Question 2(Puzzle)-
+There are 10 boxes. 9 out of these contain many balls of weight 10 grams each and one of the boxes contains many balls of 9 grams each. No of balls in each box is not the same, but there are many(lets say>100) balls in each box. You have a digital weighing machine and you have to use this machine to find the box which has balls of 9 grams each. Find a way in which you have to use the weighing machine minimum number of times.
+Question 3 –
+What data structure(in python) will you use to store 10 million integers. Query operations consist of finding the number of times a number appears in the given set. Options were – Set, List, Dictionary. He also asked worst case time complexity in all the cases.
+Question 4-
+You are given a character array consisting of lower and upper case English alphabets and some special characters. Hypothetically, ASCII values of these special characters overlap with that of the English characters. Find the character that is repeated max no of times in the array.
+Question 5-
+You have a 32 bit integer a. Given two integers n and m(m>=n), you have to find an integer formed by bits of a between n and m(both inclusive).  The interviewer insisted on using bitwise functions and not to use any loops at all.
+In the end he asked whether i had any questions for him. I asked about work culture in the company, etc. The interviewer will try to confuse you. Try to be confident.

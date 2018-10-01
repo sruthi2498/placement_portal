@@ -1,0 +1,62 @@
+This post is especially for people of non-CS branches who have developed interest towards coding and would like to work in a software company. The following post is made keeping in mind the placement process for IIT’s but it may be extended to NIT’s and other colleges
+The whole placement process can be divided to three parts:
+1. Resume preparation
+2. Exam
+3. Interview.
+1. Resume Preparation
+Having a good resume always helps and some companies shortlist people based on their resumes for the qualifying exam. A good CS related project in resume will increase your chances in interviews. If you are in your 2nd or 3rd year, try to find a good project in fields like machine learning, data mining or python related projects under guidance of a good professor. If you don’t have such resources you can always google and find projects on github and gfg and try to implement them yourselves. Here are a few examples :-
+GeeksForGeeks projects
+C++ game
+By looking at your resume, the interviewer should feel that you have interest  in programming and can work on your own on a software related project.
+2. Qualifying Exam
+This is the most important part of the placement process. You should clear these exams to get shortlisted for interviews. Being from a non-CS branch opportunities will be low so you should make the most of the opportunities. Most of these exams are conducted on Hackerrank and Hackerearth. These tests consists of MCQ’s and coding questions. Before going for the test go through the latest placement experiences on GeeksforGeeks to get an idea about the pattern of the test and sometimes the questions repeat.
+MCQ’s –
+Data Structures, Algorithms, Operating systems, DBMS and aptitude. MCQ’s from a important part of part of the exam with almost equal weightage as compared to code questions.
+Operating Systems, DBMS and Practice Questions
+Coding Questions –
+Dynamic Programming
+Bit Manipulation
+Strings
+Geometric Algorithms
+Practice a lot. Try new problems.
+3. Interview
+Below are some of the important algorithms and data structures.
+Array and Matrices
+1D array
+Array Rotations
+Arrangement and rearrangement of elements of array
+Properties of matrices
+Strassen’s algorithm for matrix multiplication
+Inverting matrices
+Transpose of the matrix 
+Linked list
+Basic operations on linked list
+Circular linked list
+Doubly linked list 
+Tree
+Binary Tree
+Binary Search tree
+n-ary Tree
+Heap 
+Graph
+Basic graph concepts
+BFS
+DFS
+Undirected graph, directed graph
+Minimum Spanning tree
+Shortest path algorithm
+Topological sort
+Connectivity in the graph
+String processing and manipulation
+Basic string operations
+Pattern searching
+
+Stack/Queue
+Basic stack operations
+Basic queue operations
+Application of stack
+Application of queue
+Sorting and Searching
+linear and binary search
+Show your interest towards programming by mentioning your projects and performance in programming challenges. Keep your cool.
+Thank you. Hope this helps you.

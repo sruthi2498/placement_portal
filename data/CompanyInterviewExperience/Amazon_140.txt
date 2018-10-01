@@ -1,0 +1,22 @@
+
+Problem
+Two robots land with their parachutes on an infinite one-dimensional number line. They both release their parachutes as soon as they land and start moving. They are allowed only to make use of the following functions.
+I. moveLeft() // robot moves to left by 1 unit in 1 unit time
+II. moveRight() // robot moves to right by 1 unit in 1 unit time
+III. noOperation() // robot does not move and takes 1 unit time
+IV. onTopOfParachute() // returns true if the robot is standing on top of either of the parachute, else false
+V. didWeMeet() // returns true if the robot meets to the other robot, else false
+Write a function in order to make the robots meet each other. Robots will be executing the same copy of this function.
+Solution:
+ Approach 1:
+Move both the robots in opposite directions and at each step check whether they meet or not.
+But this won’t work. Consider robot 1 at position 0 and robot 2 at position 100. If robot 1 moves in right direction and robot 2 moves left direction, they will meet at position 50. But if robot 1 moves in left direction and robot 2 moves in right direction, they will never meet. As we don’t have any means of finding out the coordinate of the robot. This approach won’t work.
+Approach 2:
+Move both the robots in left direction. If a robot crosses a parachute. Reverse direction of second robot and continue moving first robot in same direction.
+But this won’t work. Because both robots execute a separate copy of their program. A program can only influence robot executing this program and not the other robot as it is executed by a copy of the same program separately. And its movement is governed by that program, variables assigned in one won’t work in other i.e it is not possible to change direction of other robot from program executed by this robot.
+Approach 3:
+Follow this pattern moveLeft() 1 time, moveRight() 2 times, moveLeft() 3 times and so on. In each iteration, the robot will go over it’s own parachute one time. But after certain time, one robot will go over its own parachute and also parachute of another robot. At this point, it has met with the other robot.
+Approach 4:
+Keep a flag whether the robot has reached the other’s parachute or not. If it has reached, call moveLeft() two times, otherwise call moveLeft() and noOperation(). This way one robot will double it’s speed as soon as it reaches the other’s parachute and eventually they will meet.
+Note: Don’t move a robot with twice as speed as other from landing point onwards. As we don’t have any information which robot is behind and which robot is at front. So if front robot is moved with double speed than lagging behind robot then it will never be able to catch it hence, never meet.
+Psuedo code:

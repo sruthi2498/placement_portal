@@ -1,0 +1,14 @@
+The Fibonacci sequence is defined as   =  +   where  = 1 and  = 1 are the seeds.
+For a given prime number p, consider a new sequence which is (Fibonacci sequence) mod p. For example for p = 5, the new  sequence would be  1, 1, 2, 3, 0, 3, 3, 1, 4, 0, 4, 4 …
+The minimal zero of the new sequence is defined as the first Fibonacci number that is a multiple of p or  mod p  = 0.
+Given prime no p, find the minimal zero of the sequence Fibonacci modulo p.
+Examples:
+
+A simple approach is to keep calculating Fibonacci numbers and for each of them calculate Fi mod p. However if we observe this new sequence, let  denote the  term of the sequence, then it follows :  = ( + ) mod p. i.e. the remainder  is actually the sum of remainders of previous two terms of this series. Therefore instead of generating the Fibonacci sequence and then taking modulo of each term we simply add previous two remainders and then take its modulo p.
+Below is the implementation to find the minimal 0.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

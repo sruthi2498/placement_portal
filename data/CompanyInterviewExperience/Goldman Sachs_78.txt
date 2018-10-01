@@ -1,0 +1,40 @@
+Following are the details of my interview with Goldman Sachs.
+Round 1: Written+Online coding (conducted on hackerrank)
+15 MCQs- average and high level aptitude questions (30 minutes)- 60 marks
+1 coding question (45 minutes)- Given an adjacency matrix of a directed graph, find the number of cycles in the graph.- 40 marks
+Round 2: F2F Technical
+1. Thorough discussion on projects and technologies used in implementing those.
+2. A design problem on parsing (as one of my projects involved parsing)- Given dependencies of various modules, one per line in a text file, give me an order in which the modules should execute. Design data structures and algorithm for the same. Complete code was not required.
+3. Detect and remove loop from a linked list. Gave all possible solutions. A neat and complete code was required.
+4. 2 pills puzzle.
+5. Why do you want to join Goldman Sachs?
+Round 3: F2F Technical+HR
+Started with brief introduction of each other.
+1. 8 Marbles puzzle.
+2. Gold bar puzzle.
+3. Difference between an Interface and an Abstract class in Java.
+4. Design a three elevator software keeping in mind all possibilities. What all parameters are required? What all will you include?
+5. Situational questions.
+6. Challenges faced while working in a team.
+7. Internship projects and their impact on the company.
+8. Why do you want to join Goldman Sachs?
+Round 4: Technical
+1. What is your strongest language? I said C++.
+2. How is Dynamic polymorphism implemented in C++? (Virtual classes and functions- code was asked)
+3. Difference between pointers and reference variables?
+4. Why do we need reference variables if we have pointers?
+5. What are the areas you are interested in? I said Big Data Analytics.
+6. Some follow-up questions on Big Data Analysis.
+7. Discussion on projects.
+8. Why do you want to join Goldman Sachs?
+Round 5: Technical
+1. What is multithreading? How is it implemented in Java?
+2. What is a deadlock? Draw a deadlock scenario for 2 processes holding 2 different resources.
+3. If we have a function- bool isDeadlock(Some Data Structure), what Data Structures should it receive as parameters?
+4. Given an int and a float of 32 bits each. Which one is greater?
+5. What is a future contract? A case study on the same.
+6. What is Diamond problem in C++? Explain and give solution. (Virtual base classes)
+7. Why do you want to join Goldman Sachs?
+Thank you geeksforgeeks for such an awesome practice platform.
+
+

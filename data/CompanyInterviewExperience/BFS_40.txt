@@ -1,0 +1,20 @@
+Given a binary matrix of N x M, containing at least a value 1. The task is to find the distance of nearest 1 in the matrix for each cell. The distance is calculated as |i1 – i2| + |j1 – j2|, where i1, j1 are the row number and column number of the current cell and i2, j2 are the row number and column number of the nearest cell having value 1.
+Examples:
+
+Method 1 (Brute Force):
+The idea is to traverse the matrix for each cell and find the minimum distance.
+Below is the implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time Complexity: O(N2*M2).
+ 
+Method 2 (using BFS):
+The idea is to use multisource Breadth First Search. Consider each cell as a node and each boundary between any two adjacent cells be an edge. Number each cell from 1 to N*M. Now, push all the node whose corresponding cell value is 1 in the matrix in the queue. Apply BFS using this queue to find the minimum distance of the adjacent node.
+Below is C++ implementation of this approach:
+Run on IDE
+Output : 
+Time Complexity: O(N * M).

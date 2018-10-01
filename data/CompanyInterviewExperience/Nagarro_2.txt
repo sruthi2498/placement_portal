@@ -1,0 +1,22 @@
+Alright so this article is about my Nagarro bootcamp selection rounds experience.I am in third year and today I gave the round 2.
+This year paper pattern of Nagarro totally changed and yeah, It was online.
+ROUND 1:
+It was Quant+Reasoning+C language MCQ’s.It was a total of 60 ques in 60 min.
+30 ques were Quant+Reasoning(Section 1) and 30 were C mcq questions.(Section 2).It wasn’t like we had to complete section 1 in 30 min and section 2 in the next 30 min.we can give as much time as we want to a question.
+(Most of the students wasted 40 to 45 min on section 1.So take care of it.)
+difficulty level of quant and reasoning was average.
+major topics:
+“Note that test had different sets.So above topics are not related to one particular set..!”
+C mcq questions were also of average difficulty.
+Major topics were:
+Cutoff was not revealed by the company. They just gave a list of names that are selected for round 2 and luckily my name was also on it.. 🙂
+– – – – – – – — – – – – – – — – – – – – – — – – – – – – — – – – – – – –
+ROUND 2
+In this round we were gives 3 questions that we had to solve in 75 min.It was subjective round, so we were supposed to write the code on paper.
+(Not in exact wording)
+Ques 1: You are given array in which you have predicted conversion rates for dollar to rupee conversion of a month.You are going to visit USA for a week.print the start and end date of your trip so that your trip is most profitable.Every morning you have 10, 000 rs to exchange.
+Ques 2: You are given a String array of songs of length n.You have to made n iterations over this array and play a song randomly.In these n iterations you have to  play all of the n songs. (i.e once a song is played, you can’t play it again).solve it in o(n) time complexity.
+Ques 3: You are given a xml string.You need to return boolean if it’s a valid xml string and false, if not.
+So as always questions were from arrays and strings. Prepare these two topics properly.
+for reasoning, quant and c (round 1), do questions from IndiaBix and geeksForgeeks.
+for round 2, regularly do ques from gfg.

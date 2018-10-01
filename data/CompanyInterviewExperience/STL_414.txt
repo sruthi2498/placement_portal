@@ -1,0 +1,8 @@
+Function object for performing division. Effectively calls operator / on two instances of type T.
+Syntax :
+Example :
+Run on IDE
+Output:
+Another Example :
+Run on IDE
+Output:

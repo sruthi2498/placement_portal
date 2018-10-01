@@ -1,0 +1,149 @@
+Arcesium came to COEP for Internship Interviews on 27th July 2018
+Total Online test + 5 rounds
+Online test –
+Had a total of 80 minutes and was conducted on hacker rank’s code pair platform.
+The section was divided into 3 parts,
+1 Quantitative Aptitude 15 20
+2 Technical Aptitude 15 15
+3 Programming test 1 1 15
+4 Programming test 2 1 30
+Each question had equal weightage(they told in the interview)
+There was no barrier of time in any section and you had the freedom to jump back and forth between the sections.
+*Each wrong answer in Sections 1 and 2 carried a negative marking of 25% of the marks for that question and every question has four choices with only one correct answer.
+The Quantitative had really good Questions and was tough for most for us, the technical was more about object-oriented
+Questions in Java and C++ with few questions related to basic of C, stack, Binary Search Tree.The technical was decently easy if you are good at OOP(5-6 Code Snippets were given and we had to mark the appropriate answer).
+Coming to Code section.
+1.There is a river of N unit and there are K stones across the river, each stone will be in one of the N units.Starting from 0th location your first jump will always be 1 unit (consider previous jump as L units), now your next subsequent jump can be either L + 1 or L – 1.Note few of the stoes can be missing.
+You have to output the sum of square of Jump which you’ll take from each stone.
+(The example will make it clear)
+eg.let the river be of N = 5 units and there are 4 stones placed shown in array
+[0, 1, 3, 4]
+Solution –
+1.The first jump from 0-1 is always fixed which will be 1 Unit.
+2.Now for the next jump you have 2 options L+1 = 2 or L-1 = 0, we have to move forward from each location so it is not what we want, so we’ll check if current location 1 + jump(L+1) i.e 1+2 = 3 is there in array or not, if yes we take a jump
+3.Now from 3 we have 2 options (as last jump was 2 so we can jump 2+1 or 2-1 to reach next stone)
+2-1 = 1 will make us reach to last stone 4 which we want
+Now we have to output the sum of square of Jump’s taken at each location
+0^2 + 1^2 + 2^2 + 1^2 = 6
+So if it is possible to reach the last stone output 6 else output -1
+The actual solution is using DP but I tried Greedy way(couldn’t pass all the testcases)
+It was 90% similar to this problem – http://www.dsalgo.com/2016/01/jumping-frog-problem.html
+2.You have been given a m*n chess board and there were black pawns on the board(represented by 1).You have to put your white pawn on all possible position’s where it can be and the calculate how many kills are possible from each location and sum it up.You can only move straight (x+1, y) and for a kill diagonal move (x+1, y+1) & (x+1, y-1)
+eg 3*3
+0 0 0
+0 1 0
+1 1 1
+-First row from 1st position (0, 0) => 2 kills, 2nd position (0, 1) => 0 kills, 3rd position (0, 2) => 2 kills
+-Second row, from 1st position (1, 0) => 1 kill, 2nd position (1, 1) => Not possible, 3rd position (1, 2)=> 1 kill
+-Third row not possible to place as all are 1
+At each step, you have to maximize the kills
+Output for the above question is – 6
+-I had no time to solve this, even did not read the question properly
+The link is to my friend’s code for same problem using DP – https://ide.geeksforgeeks.org/tf745kHTQI
+The results were announced and they initially took 10 but later added more 4
+So out of 160+ students, they selected 14 for next round.
+1st Round –
+This was a technical round, there were 2 different interviewers for each technical round,
+Asked me about myself, then looked at my resume and asked do you know PHP I said yes, then they asked
+What is var_dump ? I answered
+few basic questions, then they asked do you know Java(I told it’s been 2 years since I haven’t coded)
+So the cool guy was like let’s see how much have you forgot.
+-He asked what are interfaces
+-Why to use interfaces when you can do the declaration inside class itself where you have to use it(gave example but he wasn’t convinced)
+Few more question about Java and then he asked which languages you code in most, I said C, C++, Python
+Then few questions on C++
+-What is virtual memory
+-What is polymorphism
+-Why it is called runtime(told about Vptr and Vtable was satisfied)
+-How does C++/C is executed (I explained all the phases of the cycle Preprocessing/Compiling/Assembling/linking)
+-Then he asked how does the compiler know where your int xyz is stored
+-What actually happens in linking and loading(told about linking table)
+-Asked about where are the object files when you do all process (told about –save-temps)
+and few more questions none of the questions were straightforward but asked in a tricky way,
+Then they moved towards tree,
+-Do you know tree data structure – Yes, explaining the working of all traversal’s
+-What is inorder traversals write the code
+-If inorder traversal is given with another traversal can you always make BST => Yes
+-They asked me about common ancestor problem -https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
+I tried many different inefficient approaches but they always asked to try more, I tried 2-3 approach then they moved to the next questions
+few more logic building questions don’t remember all
+Then he again switched to Java
+-Do you know singleton class – No, they explained
+-How can you restrict the class to make just one object
+-I explained the concept of Unique and Shared ptr in C++ and told that we can keep a count variable
+-What is deadlock, explain deadlock
+Then they asked if I know DBMS – I said yes
+-Write a query to find the second rank holder in student database – I did using limit and offset,
+Then they asked to do it without limit and offset then I used nested queries.
+They asked which database you are familiar with – I answered Mysql & MongoDB
+They asked is limit and offset parameter there in other databases
+Then told you are done do you have some question’s for us?
+I asked 2-3 (always ask question study about the company well before you jump in for interviews)
+2nd Round –
+More kind of general round for everyone, asked 2 puzzles to everyone
+1.You have a 5 liter and a 3 liter jars. You can use any amount of water. Shouldnt use any other jars or containers. How can you get exact 4 liters of water?
+– I answered then he told do it only in 4 steps where filling and transferring water is also consider as separate steps.After a while i said it’s not possible, he told try harder it is.
+2.It was similar to this one (There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.)
+Then asked in general about how was Online test and all.
+After this round 5 were shortlisted for next round
+3rd Round –
+Technical round again, I was welcomed and made comfortable, he asked me nearly 4-5 complex code questions
+They started with, tell me about yourself.
+-Then he asked which code did you solve in Online – I answered and told after the test I was able to solve it using recursion, and wrote the code.
+-Some question I don’t remember but I solved in 3 phase brute force/Optimized it to O(n^2)/ and used hashing to make it O(n), he was happy
+-What is hashing
+-What happens if I want to store same element in hashing (he was expecting if I know about the collision and how it can be resolved)
+-Write code for chaining using a linked list
+-which one is better chaining or open network solution for solving collision
+-He asked me if we call using class methods using the same object then how can one determine(java compiler) which object is called? I didn’t get the question he explained me twice thrice, we shifted to the next question
+-You are given a number and a array you have to find K such elements from the array which adds up to given number
+eg. array [2, 3, 1, 5, 9, 7]
+k = 2 //exact elements needed
+x = 6 //final sum should add up to x
+So here the elements 1 and 5 which are total of 2 elements adds up to 6.
+I gave brute force -found all possible subset and added it and counted the number of elements – wrote sudo code
+Then I gave O(n^2) using hashing but still he wasn’t convinced
+Then I tried to use segment tree for prefix sum(but was wrong)
+-He asked me about segmented tree
+He kept me pushing to more optimized solution finally did it after few hints(Think out loud if you want to get hints, it helped me alot)
+-Was one more question I don’t remember
+The round was done I was happy as I almost gave whatever he wanted, he asked if I wanted to ask anything, I asked
+4th Round –
+It was HR round, basic HR question
+-Introduce yourself, place where you stay, family, how were all the interviews, how was my day and many more
+-asked one puzzle
+Mouse and the Poison puzzle with a twist
+there are 30 bottles of wine and 1 is poisoned, find it using minimum number of mouse, if the mouse dies in 14 hours and you have 24 hours to detect which bottle number is poisoned.
+I used binary number logic and answered 5 as 2^5 = 32, but he said it is not the minimum one,
+Scratched my brain for a while, in the end he laughed and said let me know later.
+The round was done.
+Later I googled and got the answer only 1 mouse is needed to find the bottle number.
+What you have to do is, make the mouse drink wine from each bottle after every 5 minutes, after 14hr calculate the extra time he needed to die, divide it by 5 and you’ll get the bottle number
+(We thought it was done but no wait here comes another technical round)
+After this round 3 were shortlisted
+5th Round –
+This round was most challenging one
+-You are given COEP network, you have 25 telephones and each telephone have to strictly link to other 7 telephones(applied to all) you have to find if given the telephones number N and telephone’s exact link limit, just return if network can be made(true) or not(Not)
+He gave the hint which I knew regarding degree of Graph as I stated with the graph, i explained him using the graph approach and wrote sudo code, but he said this can be done in one line using formula
+I tried to derive 4-5 formula’s each of them had some testcase failing, after trying at max, we moved to next question
+-It was a design related question (I don’t remember what it was) – but step-by-step I designed and he kept me pushing until it was the best possible and optimized solution, asked me to write the code
+-He gave a puzzle => my niece like to color circle’s
+There are n circle’s at each iteration she color’s alternate circle’s
+Find out the circle number which will be last remaining uncolored circle
+Tried 2-3 combinations and guessed it that it will be something in power of 2 nearest to the total number of circle => he told correct
+-Another design question –
+Design excel spreadsheet from scratch
+I started with my approach and was using c++ so I used unordered_map, but he said, it should be in pure C don’t use any built-in DS just use arrays and basic stuff,
+So he told implement unordered_map in c
+I did it, then we moved towards arrays and pointer, contiguous storage vs linked and many related questions came like rapid fire.
+He asked to write the code for Malloc,
+Finally, I designed it and he was pushing me to make it best, in the end he was really satisfied.
+Wrote 2-3 pages of code in this design section
+This was over half n hour
+-Asked me to write the code for permutation
+Wrote a recursive code, He asked to walk through the code and draw the recursion tree for given input.I did both.
+The round lasted nearly 1.30hrs
+Yes, all the round were done.It was hectic, we gave interview for nearly 6 hrs throughout the day
+Results came after few minutes and they gave some formal speech and announced my name and told the will take only 1, I was happy but sad too as my friend who was with me in top 3 couldn’t make it with me.
+Excited to work with the firm ahead. GFG really helped me.
+Cheers and happy coding.

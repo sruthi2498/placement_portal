@@ -1,0 +1,65 @@
+Aptitude Test(90 mins, on Hackerrank)
+7 aptitude questions based on Math and Logic<
+7 Technical Subject Questions on Data Structures, 1 from OS(Few of them that I
+remember)
+2 Coding questions
+1.String Manipulation
+Given two Strings A and B of same length. You can replace any substring of A(i,j) with
+substring of B(i,j).(Here note that substring from A and substring from B should have that same
+start index and end index).find count of unique strings can be possible.answer might be
+large.print answer%1000000007. 
+Explanation : No matter what substring you replace,only one unique string is formed 
+
+Explanation
+: 8 different strings are possible…{abc , xyz , ayz , xbc , ayc , xbz , abz ,
+xyc}
+2. Matrix Problem
+Given a square matrix A[][] of size N*N.Each element A[i][j] of matrix is red color or blue color.
+Red ->1
+Blue ->0
+You are also given a number k.Find the side of largest square submatix having atmost k
+red cells.
+Explanation : Submatrix having top left corner (1,1) and bottom right corner (2,2) is the largest square submatrix having atmost 2( i.e k) red cells.
+Onsite Interview
+Round 1(Tech) :
+1.Difference between abstract and interface?
+2.“Animal” should be abstract class or interface?
+3.Why java developers thought to introduce interface?
+4.Few deep thinking questions on same abstract vs interface topic.
+5.Polymorphic Reference in Java.
+1.Write recursive code for checking string palindrome or not.
+2.Using stack and queue together,check if string is palindrome or not.
+3.Given an array and a sum,find if there is any pair in array having sum equal to given
+sum.(I used hashmap,so few questions about hashmap complexity)
+4.Given an array and a sum,find if there is any triplet in array having sum equal to given
+sum.
+1.You want to run an animation and movie in your TV at the same time,how will you
+schedule it?(Asked about using different scheduling algos)
+2.Find tuple having third most highest salary in table.
+Round 2(Group Activity)
+10 candidates were selected from round 1,in this round we were given lego blocks.They told us
+to work in a team and using that lego blocks build something(we made a solar panel house) in
+30 mins.After that,there was a 5 min presentation about the product that we just built.We have
+to impress investors to invest in our product.
+Also write features of your product.Design Logo and name of your company.
+Round 3(Tech – System Design)
+Design a ticket booking portal for airplanes.You have apis of various airlines like JET
+Airways,Indigo to get all the plane details.A user will come to your portal to book tickets.Using
+apis,confirm availability of tickets from various airlines and book the tickets selected by users.
+Design database structure,class diagrams,flow of system.
+Round 4(HR)
+1.About internship
+2.Experience of working in groups
+3.Coding experience
+4.Who is your idol and why?
+5.Why Morgan Stanley?
+There was a re-interview of round 3
+Design UBER.(database structure,OOP Model)
+Some basics of compile time polymorphism.
+Tips to follow :
+Three years before
+Two years before
+One year before
+Few minutes before
+Think of all the days and nights that you spent preparing for this interview!
+

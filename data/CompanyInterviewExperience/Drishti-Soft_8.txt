@@ -1,0 +1,5 @@
+Given a number n, find count of all numbers from 1 to n that have 4 as a digit.
+Examples : 
+This problem is mainly a variation of previous article on Compute sum of digits in all numbers from 1 to n.
+Naive Solution:
+A naive solution is to go through every number x from 1 to n, and check if x has 4. To check if x has or not, we can traverse all digits of x. Below is the implementation of above idea :

@@ -1,0 +1,22 @@
+Round 1: written
+Apti, C, C++, OS, DS
+Round 2: coding 2 questions, 30 mins
+1. Serialize and deserialize a given n-ary tree. 
+     Ans: solved by storing preorder travesal and marker in a file.
+2. Snake and ladder problem
+     Ans: breadth first search on graph using queue.
+Round 3: Skype
+1. Resume, projects, OS, SQL, DS and OOP concepts.
+2. Asked to find fibonacci series in O(log n) method.
+     Ans: use matrix method
+3. Add two nos without + operator.
+     Ans. used half adder method
+Round 4: skype
+1. Resume, projects, OS, SQL, DS and OOP concepts.
+2. Puzzles: 2 eggs puzzle, 20 horses race puzzle(give the data-structure too).
+Round 5: Skype Rech + HR
+Gave his own coding pad
+1. Rotate array around pivot.
+2. Given a BST and a number.Find the no, in BST closest to the given no.
+Tell about urself, why MAQ, plan for higher studies etc.
+

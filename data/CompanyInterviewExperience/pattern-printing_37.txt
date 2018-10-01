@@ -1,0 +1,20 @@
+Sierpinski triangle is a fractal and attractive fixed set with the overall shape of an equilateral triangle. It subdivides recursively into smaller triangles.
+
+Examples : 
+
+Approach : 
+Sierpinski Triangle will be constructed from an equilateral triangle by repeated removal of triangular subsets.
+Steps for Construction :
+1 . Take any equilateral triangle .
+2 . Divide it into 4 smaller congruent triangle and remove the central triangle .
+3 . Repeat step 2 for each of the remaining smaller triangles forever.
+
+Below is the program to implement sierpinski triangle
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+References : Wiki

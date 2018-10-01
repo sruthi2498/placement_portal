@@ -1,0 +1,8 @@
+You are given a number n ( 3 <= n < 10^6 ) and you have to find nearest prime less than n?
+Examples:
+
+A simple solution for this problem is to iterate from n-1 to 2, and for every number, check if it is a prime. If prime, then return it and break the loop. This solution looks fine if there is only one query. But not efficient if there are multiple queries for different values of n.
+An efficient solution for this problem is to generate all primes less tha 10^6 using Sieve of Sundaram and store then in a array in increasing order. Now apply modified binary search to search nearest prime less than n. Time complexity of this solution is O(n log n + log n) = O(n log n).
+Run on IDE
+Output:
+If you have another approach to solve this problem then please share in comments.

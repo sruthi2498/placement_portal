@@ -1,0 +1,11 @@
+Given a Binary Tree (BT), convert it to a Doubly Linked List(DLL) In-Place. The left and right pointers in nodes are to be used as previous and next pointers respectively in converted DLL. The order of nodes in DLL must be same as Inorder of the given Binary Tree. The first node of Inorder traversal (left most node in BT) must be head node of the DLL.
+
+Below three different solutions have been discussed for this problem.
+Convert a given Binary Tree to Doubly Linked List | Set 1
+Convert a given Binary Tree to Doubly Linked List | Set 2
+Convert a given Binary Tree to Doubly Linked List | Set 3
+In the following implementation, we traverse the tree in inorder fashion. We add nodes at the beginning of current linked list and update head of the list using pointer to head pointer. Since we insert at the beginning, we need to process leaves in reverse order. For reverse order, we first traverse the right subtree before the left subtree. i.e. do a reverse inorder traversal.
+Run on IDE
+Run on IDE
+Output : 
+Time Complexity: O(n), as the solution does a single traversal of given Binary Tree.

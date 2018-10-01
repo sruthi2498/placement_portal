@@ -1,0 +1,36 @@
+Round 1: MCQ questions divided into 4 parts – Verbal, Aptitude, Computer Science and Aptitude, Programming Knowledge
+Computer Science and Aptitude: Questions on C, C++, dbms, OS, Software Development. The key point was managing time.
+Programming Knowledge: The following types of questions are there,
+* Given a program (BST, AVL tree, and other trees) and you need to answer questions based on these codes. (One program 3-5 question)
+* Given a Flow Chart diagram and you need to answer based on it.
+* Basic questions on time complexity, stack, queue, linked list, array.
+
+Round 2: Two programming questions were asked, (Time: 1hr)
+Question #1: Given two time (in 24 hr format), start and end. And you need to tell how many times a digit repeats if time moves from start time till end time. (for more clarity view the input test case)
+* First line contains start time and second line contains end time.
+Input:
+23 00 00
+23 00 01
+Output:
+7 1 2 2 0 0 0 0 0 0
+* The number of times 0 repeats is 7 and so on…
+Question #2: Given a directed graph, and you need to find how many cycles are there in the cycle such that their length is equal the length of the maximum length cycle in the graph.
+
+Technical Interview 1: 
+* Introduce yourself
+* He asked me to implement a calculator which operates similar to Windows/ Android calculator. (To give the complete clarity on question he showed me working of a calculator on his mobile)
+* He then asked me to write the psudo code for a problem – To find an object in the given maze. Basically, you need to tell whether the object can be found from start position or not, also optimizing your code such that path where you didn’t find the object should not be traversed again. After writing pseudo code he asked me to write the complete working code, handling the corner cases. Finally we had a discussion on, why I used vector instead of list. He was impressed with my solution and choice of data structure.
+
+Technical Interview 2:
+* Introduce yourself
+* He said “there is no JAVA in your resume, why so?” and then asked me to say points on why C is better than JAVA (I was able to tell 2 valid points).
+* What happens when a url is typed in your chrome and pressed enter. (I gave a convening answer)
+* What all problems you see while you book a tatkal ticket and how would you tackle the problem when the website becomes overloaded. (Was able to relate to basic OS concepts)
+* Given a equilateral triangle, and at each vertex of the triangle there is an ant. Ant will only move on the lines connecting vertices, also each ant will move with same speed. What’s the probability that any two ants meet. (Solved but took time)
+* Given X squares (1X1 dimension), can you place it on a plane and form a big square using them, if so, write a program which could verify on each input X. (I was able to give two approach- using inbuilt functions, and using prime factors)
+* You need to write a code which could tell the first number N, which has X factors. (I was able to tell brute force and prime factorization method – he was impressed with my second approach)
+* Given a database definition and you need to normalize it. (I haven’t done problems like this before, so was unable to solve it)
+* Define meta-log, schema
+* He finally asked the 2 egg and 100 floor question. 
+Finally, I would like to say competitive programming really helped me in cracking the interview, and would like to thank CodeChef, SPOJ, and GeeksforGeeks for it.
+

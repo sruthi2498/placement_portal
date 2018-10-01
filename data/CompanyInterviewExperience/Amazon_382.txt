@@ -1,0 +1,30 @@
+Given a singly linked list  L0 -> L1 -> … -> Ln-1 -> Ln. Rearrange the nodes in the list so that the new formed list is : L0 -> Ln -> L1 -> Ln-1 -> L2 -> Ln-2 …
+You are required to do this in-place without altering the nodes’ values.
+Exam
+ples:
+Simple Solution 
+Time complexity of the above simple solution is O(n2) where n is the number of nodes in the linked list.
+Better Solution
+1) Copy contents of given linked list to a vector.
+2) Rearrange given vector by swapping nodes from both ends.
+3) Copy the modified vector back to the linked list.
+Implementation of this approach : https://ide.geeksforgeeks.org/1eGSEy
+Thanks to Arushi Dhamija for suggesting this approach.
+Efficient Solution: 
+Time Complexity of this solution is O(n). 
+Below is the implementation of this method.
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+Thanks to Gaurav Ahirwar for suggesting the above approach.
+Another approach : 
+1. Take two pointers prev and curr, which hold the addresses of head and head-> next.
+2. Compare their data and swap.
+After that, a new linked list is formed.
+Below is the implementation : 
+Run on IDE
+Time Complexity : O(n)
+Auxiliary Space : O(1)
+Thanks to Aditya for suggesting this approach.

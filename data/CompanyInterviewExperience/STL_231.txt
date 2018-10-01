@@ -1,0 +1,6 @@
+The unordered_map::bucket() is a built-in STL function in C++ which returns the bucket number where the element with the key k is located in the map. 
+Syntax: 
+Parameter: The function accepts one mandatory parameter key which specifies the key whose bucket number is to be returned. 
+Return Value: This method returns an unsigned integral type which represents the bucket number of the key k which is passed in the parameter. 
+Below program illustrate the unordered_map::bucket() function:  
+Run on IDE

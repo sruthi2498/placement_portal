@@ -1,0 +1,4 @@
+Map in STL is used to hash key and value. We generally see map being used for standard data types. We can also use map for pairs.
+For example consider a simple problem, given a matrix and positions visited, print which positions are not visited. 
+Run on IDE
+Output:

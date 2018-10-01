@@ -1,0 +1,87 @@
+Q1. Explain JVM, JRE and JDK?
+JVM (Java Virtual Machine): JVM(Java Virtual Machine) acts as a run-time engine to run Java applications. JVM is the one that actually calls the main method present in a Java code. JVM is a part of JRE(Java Runtime Environment).
+JRE (Java Runtime Environment): JRE refers to a runtime environment in which Java bytecode can be executed. It implements the JVM (Java Virtual Machine) and provides all the class libraries and other support files that JVM uses at runtime. So JRE is a software package that contains what is required to run a Java program. Basically, it’s an implementation of the JVM which physically exists. 
+JDK(Java Development Kit): It is the tool necessary to compile, document and package Java programs. The JDK completely includes JRE which contains tools for Java programmers. The Java Development Kit is provided free of charge. Along with JRE, it includes an interpreter/loader, a compiler (javac), an archiver (jar), a documentation generator (javadoc) and other tools needed in Java development. In short, it contains JRE + development tools.
+Q2. Explain public static void main(String args[]).
+Public: Public is an access modifier. Public means that this Method will be accessible by any Class.
+static : It is a keyword in java which identifies it is class based i.e it can be accessed without creating the instance of a Class. Since we want main method to be executed without any instance also, we use static.
+Void: It is the return type of the method. Void defines the method which will not return any value.
+main: This is the first method executed by JVM. The signature of method must be same.
+Q3. Why Java is platform independent?
+Platform independent practically means “write once run anywhere”. Java is called so because of its byte codes which can run on any system irrespective of its underlying operating system.
+Q4. Why is Java not pure Object-oriented?
+Java is not considered pure Object-oriented because it supports primitive data-types such as boolean, byte, char, int, float, double, long, short.
+Q5. Define class and object. Explain them with an example using java.
+Class: A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type. In general, class declarations can include these components, in order:
+Superclass(if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+Interfaces: A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+Object: It is a basic unit of Object Oriented Programming and represents the real life entities.  A typical Java program creates many objects, which as you know, interact by invoking methods. An object consist of :
+State : It is represented by attributes of an object. It also reflect the properties of an object.
+Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+Identity : It gives a unique name to an object and enables one object to interact with other objects.
+For Example: Employee is an example of a class
+A specific employee with unique identification is an example of an object.
+An object of employee is a specific employee
+One of the objects of Employee is referred by ‘empObj’ 
+Q6.What is a method? Provide several signatures of the methods
+A Java method is a set of statements to perform a task. A method is placed in a class.
+Signatures of methods: The name of the method, return type and the number of parameters comprise the method signature.
+A method can have the following elements in it signature:
+– Access specifier – public, private, protected etc. (Not mandatory)
+– Access modifier – static, synchronized etc. (Not mandatory)
+– Return type – void, int, String etc. (Mandatory)
+– Method name – show() (Mandatory)
+– With or without parameters – (int number, String name); (parenthesis are mandatory)
+Example:
+Run on IDE
+Q7.Explain the difference between instance variable and a class variable.
+An instance variable is a variable which has one copy per object / instance. That means every object will have one copy of it.
+A class variable is a variable which has one copy per class. The class variables will not have a copy in the object.
+Example :
+Run on IDE
+An object referred by empObj1 is created by using the following:
+Employee empObj1 = new Employee();
+The objects referred by instance variables empObj1 and empObj2 have separate copies empNo, empName, department and salary. However the officePhone belongs to the class(Class Variable) and can be accessed as Employee.officePhone. 
+Q8. Which class is the superclass of all classes?
+java.lang.Object is the root class for all the java classes and we don’t need to extend it.
+Q9.What are constructors in Java?
+In Java, constructor refers to a block of code which is used to initialize an object. It must have the same name as that of the class. Also, it has no return type and it is automatically called when an object is created.
+If a class does not explicitly declare any, the Java compiler automatically provides a no-argument constructor, also called the default constructor.
+This default constructor calls the class parent’s no-argument constructor (as it contain only one statement i.e. super();), or the Object class constructor if the class has no other parent (as Object class is parent of all classes either directly or indirectly).
+There are two types of constructors:
+Q10. What are the different ways to create objects in Java?
+There are many different ways to create objects in Java. Please see 5 Different ways to create objects in Java
+Q11. What’s the purpose of Static methods and static variables?
+When there is a requirement to share a method or a variable between multiple objects of a class instead of creating separate copies for each object, we use static keyword to make a method or variable shared for all objects.
+Static variable: Static variables are also known as Class variables.
+These variables are declared similarly as instance variables, the difference is that static variables are declared using the static keyword within a class outside any method constructor or block.
+Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
+Static variables are created at start of program execution and destroyed automatically when execution ends.
+To access static variables, we need not to create any object of that class.
+Static methods: A static method can be accessed without creating the objects. Just by using the Class name the method can be accessed. Static method can only access static variables and not local or global non-static variables.
+ 
+For Example:
+Run on IDE
+Q12. Why static methods cannot access non static variables or methods?
+Ans) A static method cannot access non static variables or methods because static methods can be accessed without instantiating the class, so if the class is not instantiated the variables are not initialized and thus cannot be accessed from a static method.
+Q13.What is a static class?
+A class can be said to be static class if all the variables and methods of the class are static and the constructor is private. Making the constructor private will prevent the class to be instantiated. So the only possibility to access is using Class name only.
+Q14. How many types of Variable? Explain.
+There are three types of variables in Java:
+Local Variables: A variable defined within a block or method or constructor is called local variable.
+These variable are created when the block in entered or the function is called and destroyed after exiting from the block or when the call returns from the function.
+The scope of these variables exists only within the block in which the variable is declared. i.e. we can access these variable only within that block.
+Run on IDE
+Output:
+value of local variable is: 11
+In the above program the variable localVar is local variable to the function getLocalVarValue(). If we use the variable localVar outside getLocalVarValue() function, the compiler will produce an error as
+“Cannot find the symbol localVar”.
+Instance Variables: Instance variables are non-static variables and are declared in a class outside any method, constructor or block.
+As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier then the default access specifier will be used.
+Run on IDE
+In the above program the variables i.e. instanceVarId, instanceVarName are instance variables. In case we have multiple objects as in the above program, each object will have its own copies of instance variables. It is clear from the above output that each object will have its own copy of instance variable.
+Static variable: Static variables are also known as Class variables.
+To access static variables, we need not to create any object of that class, we can simply access the variable as:
+Run on IDE
+In the above program stVarObj1 and stVarObj2 share the same instance of static variable count hence if the value is incremented by one object, the incremented value will be reflected for stVarObj1 and stVarObj2.

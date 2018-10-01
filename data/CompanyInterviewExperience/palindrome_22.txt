@@ -1,0 +1,20 @@
+Given a number N. our task is to find the closest Palindrome number whose absolute difference with given number is minimum and absolute difference must be greater than 0.
+Examples:
+Asked In : Amazon 
+
+Simple Solution is to find the largest palindrome number which is smaller to given number and also find the first palindrome number which is greater than Given number.we can find there Palindromic numbers by simply decreasing and increasing by one in given number until we find these palindromic numbers.  
+Below is implementation of above idea :
+
+Run on IDE
+Run on IDE
+
+An efficient solution is to consider following cases. 
+Case 1: If a number contains all 9’s then we get next closest Palindrome by simply adding 2 in it. num = 999 : output : num + 2 = 1001.
+Case 2:
+Case 2 a :One possible way to getting closest palindromic by Copy first half and add mirror image at the end if it.  Left half :  For example, left side of “123 456” is “123” and left half of “12345” is “1 2”. To convert to palindrome, we can either take the mirror of its left half or take mirror of its right half. However, if we take the mirror of the right half, then the palindrome so formed is not guaranteed to be the closest palindrome. So, we must take the mirror of left side and copy it to right side. 
+case 2 b and 2c:  Two more possible ways of getting the closest palindromic number by decrementing and incrementing middle digit by one on palindrome.   
+Below is the implementation of above idea :
+
+Run on IDE
+
+Time complexity : O(d) ( d is the number of digit in given number )

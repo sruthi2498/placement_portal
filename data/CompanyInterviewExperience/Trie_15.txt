@@ -1,0 +1,27 @@
+Given an array of n numbers and a number k. You have to write a program to find the number of subarrays with xor less than k.
+Examples:
+
+Naive Approach: The naive algorithm is to simply calculate the xor value of each and every subarray and compare with the given number k to find the answer. 
+Below is implementation of this approach:
+
+Run on IDE
+Run on IDE
+
+Time Complexity: . 
+Efficient Approach: An efficient approach will be to calculate all of the prefix xor values i.e. a[1:i] for all i.
+It can be verified that the xor of a subarray a[l:r] can be written as (a[1:l-1] xor a[1:r]), where a[i, j] is the xor of all the elements with index such that, i <= index <= j.
+Explanation:
+We will store a number as binary number in trie. The left child will shows that the next bit is 0 and the right child will show the next bit is 1.
+For example, given picture below shows number 1001 and 1010 in trie.
+
+If xor[i, j] represents the xor of all elements in the subarray a[i, j], then at an index i what we have is, a trie which has xor[1:1], xor[1:2]…..xor[1:i-1] already inserted. Now we somehow count how many of these (numbers in trie) are such that its xor with xor[1:i] is smaller than k. This will cover all the subarrays ending at the index i and having xor i.e. xor[j, i] <=k;
+Now the problem remains, how to count the numbers with xor smaller than k. So, for example take the current bit of the ith index element is p, current bit of number k be q and the current node in trie be node.
+Take the case when p=1, k=1. Then if we go to the right child the current xor would be 0 (as the right child means 1 and p=1, 1(xor)1=0).As k=1, all the numbers that are to the right child of this node would give xor value smaller than k. So, we would count the numbers that are right to this node.
+If we go to the left child, the current xor would be 1 (as the left child means 0 and p=1, 0(xor)1=1). So, if we go to the left child we can still find number with xor smaller than k, therefore we move on to the left child.
+So, to count the numbers that are below a given node, we modify the trie and each node will also store the number of leafs in that subtree and this would be modified after each insertion.
+Other three cases for different values of p and k can be solved  in the same way to the count the number of numbers with xor less than k.
+Below is the C++ implementation of above idea:
+Run on IDE
+Output:
+Time complexity: O(n*log(max)), where max is the maximum element in the array.
+Related Articles:

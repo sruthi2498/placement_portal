@@ -1,0 +1,44 @@
+1.Round Quant(30), Tech(30), vrbl(15),  logical(15).2 hours
+Tech.
+Tell Me about yourself.
+Explain your internship Project.(Related Question)
+1.write a function to find nth Fibonacci number.(I used recursion)
+        -Its complexity?
+        -Optimize it(I used memoization)
+        -what’s the complexity now?
+        -what are the Drawbacks of recursion
+2.Write a Function to reverse a Linked list Using Recursion.
+3.Write a function to find and eliminate circle from linked list.(I used brute-force method). Optimize it
+4.Full Working Code for merge Sort.
+5.In stack push & pop opration take O(1) time. Write function FindMin() which finds minimum element in stack with O(1) time complexity.
+6. Then they asked me 2 puzzles from the puzzles that I have described below.
+H.R
+1. Tell me about Yourself.
+2. where do you see yourself after 5 year?
+3. Why do you want to join Sapient?
+4. what projects did you do in clg?
+5. Explain your Internship project(how you did it?,tools used? architecture etc.)
+6. What are your hobbies?
+These are the puzzles they were generally asking in the technical interview:
+1.  3 men go into a hotel. The man behind the desk says a room is $30 so each man pays $10 and goes to the room. A while later the man behind the desk realized the room was only $25 so he sent the bellboy to the 3 guys’ room with $5. On the way the bellboy couldn’t figure out how to split $5 evenly between 3 men, so he gave each man a $1 and kept the other $2 for himself. This meant that the 3 men each paid $9 for the room, which is a total of $27 add the $2 that the bellboy kept = $29.  Where is the other dollar?
+2.    If I give you 4 tablets which contain 2 for fever and 2 for cold.All 4 have same size, shape and color, No cover. You have to take 1 cold and 1 fever tablet right now. How will you choose correctly?
+3.    How do you cut a circular cake into eight equal pieces in just 3 cuts?
+4.    There are 10 black socks and 10 white socks in a drawer.
+        You have to go out wearing your shoes.
+        So how many maximum number of times you need to remove a sock from drawer so that you can go out?
+        You can remove only 1 sock at a time and you can’t go outside wearing different socks.
+5.    You have three bags and three labels. One bag has only red balls, one has only blue balls and one has both red and blue balls. Three labels are R, B and RB. R label was meant for the bag with only red balls, B label was meant for the bag with only blue balls and RB for the bag with both red and blue balls. Ram by mistake labelled the bags wrongly such that  all the labels are wrong, how many minimum number of balls he should pick and from what bags to correct the labels? It is given that each bag has unlimited number of balls to be picked.
+6.    You are given 2 eggs.You have access to a 100-storey sapient building.Eggs can be very hard or very fragile means it may break if dropped from the first floor or may not even break if dropped from 100 th floor.Both eggs are identical. You need to figure out the highest floor of a 100-storey Sapient building an egg can be dropped without breaking. Now the question is how many drops you need to make. You are allowed to break 2 eggs in the process
+7.    A frog is at the bottom of the well which is 60 meters deep. Everyday the frog jumps 3 meters upwards and fall 2 meters down. How many days it will take for the frog to reach the top?
+8.    You have two ropes/candels. Each takes exactly 60 minutes to burn. They are made of different material so even though they take the same amount of time to burn, they burn at separate rates. In addition, each rope/candles burns inconsistently. How do you measure out exactly 45 minutes?
+9.    How to make 10,000 using 8’s only.(We can use log,+,-,*,/,etc.)
+10.    You have three bags and three labels. One bag has only apples, one has only oranges and one has both apples and oranges.  Three labels are Ap,Or  and ApOr.Ap label was meant for the bag with only Apples, Or label was meant for the bag with only blue Orange and ApOr for the bag with both Apples and Oranges.By mistake labelled the bags wrongly such that all the labels are wrong, how many minimum number of fruit he should pick and from what bags to correct the labels? It is given that each bag has unlimited number of fruit to be picked.
+11.    You have 4 wine bottles, one of which is poisoned. You want to determine which bottle is poisoned by feeding the wines to the rats. How many minimum rats are necessary to find the poisoned bottle?
+12.    Rajeev is trapped at top a building 200m high. He has with him a rope 150m long. There is a hook at the top where he stands. Looking down, he notices that midway between him and the ground, at a height of 100m, there is a ledge with another hook. In his pocket lies a knife.how might he be able to come down using the rope, the two hooks and the knife?
+13. You are given a 100 integers and these integers are in the range of 1 to 100. There are no duplicates in list. One of the integers is missing.Find the missing integer. What if 2 no is missing?
+14. You are at an unmarked intersection… one way is the City of Lies and another way is the City of Truth.  Citizens of the City of Lies always lie.  Citizens of the City of Truth always tell the truth. A citizen of one of those cities (you don’t know which) is at the intersection. What question could you ask to them to find the way to the City of Truth?
+15. Three coworkers would like to know their average salary. How can they do it, without disclosing their own salaries to other two?
+16.  How many runs a single player can score in One day match (50 overs/ 300 balls)… No ‘no balls’, no wides, no extras, no  over throws.So how much runs he can score max?
+17. If all players of a cricket team were out first ball, which player would be the last person not out?
+
+

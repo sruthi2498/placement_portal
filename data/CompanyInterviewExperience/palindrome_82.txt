@@ -1,0 +1,7 @@
+Given a linked list handling string data, check to see whether data is palindrome or not?
+For example, 
+The idea is very simple. Construct a string out of given linked list and check if the constructed string is palindrome or not. 
+Run on IDE
+Run on IDE
+Run on IDE
+

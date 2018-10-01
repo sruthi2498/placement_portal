@@ -1,0 +1,23 @@
+Round 1:
+The first round was an online test. Total points in the test were 161 out of which 130(80 + 50) belonged to the 2 coding problems and rest to 20 MCQ’s. The MCQ’s mainly focused on OS, DBMS and DSA.
+Coding question 1:
+Given a source and destination in a NxN maze find the shortest path between them, some of the cells are occupied which act as a block.
+This was a simple BFS problem.
+Coding question 2:
+Given d, a, b and an array of integers. You can add/subtract a and b to d any number of times. Give the count of numbers which can be formed by applying these operations to d and are present in the given array.
+Hint – think of linear equation and Euclidean GCD.
+30 students were selected for the F2F interviews out of 150.
+Round 2(Technical F2F):
+The interview began with the usual introductions and then the interviewer proceeded with asking me some problems. The interview lasted for about 50-55 minutes.
+The first problem – https://www.geeksforgeeks.org/add-two-numbers-represented-by-linked-lists/
+I told him two approaches to solve this problem. He asked me to code both of the approaches.
+Second – https://www.geeksforgeeks.org/shortest-distance-two-cells-matrix-grid/
+I told him that this question was already asked in the coding round.
+Third – https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+My first solution was using too much space so he asked me to optimize the space complexity, I wasn’t able to arrive at a final solution but came close by using two deques to implement this. He appreciated that fact and after 5 mins I was told to come for the second round after lunch.
+Round 3(Technical F2F):
+I was immediately called for the second round after lunch. He asked me to introduce myself and then gave me a problem to solve. The problem was a simple one – https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
+I first gave him an O(n^2) solution he asked me to optimize this, then with the help of DP I was able to solve this in O(n) time as well as space complexity. Then he further asked me to optimize this solution to O(1) space. With the help of a few hints, I was finally able to arrive at the final solution.
+Then he started asking some question from my CV like why I used NoSQL for my project and then the basic difference between SQL and NoSQL. Then he asked me to write some SQL queries on a database.
+For the final question, he asked me to find a loop in an array where each element of the array points to that index and all the values given in the array are positive. I gave O(n) space solution for this but wasn’t able to optimize it to O(1) space. He ended the interview as we reached the allotted time for the interview. The interviewer was very helping throughout the interview and provided hints to guide me to the solution.
+I was asked to wait after this round, most of the other applicants had one more round of interview after this one. Finally, they selected 13 students my college and thankfully I was one of them.

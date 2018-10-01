@@ -1,0 +1,12 @@
+Given three numbers, our task is to find the largest number by which when given 3 numbers are divided leads to same remainder. It may be assumed that all given numbers are given in increasing order.
+Examples:
+
+The idea is based on the fact that if a number leaves same remainder with a, b and c, then it would divide their differences. Let us understand assuming that x is our result. Let a = x*d1 + r where r is the remainder when a is divided by x. Similarly we can write b = x*d2 + r and b = x*d3 + r. So the logic is here we first find differences of all three pairs and after that, we find greatest common divisor of differences to maximize result.
+Below is the implementation of above idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

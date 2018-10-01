@@ -1,0 +1,10 @@
+Given a positive number N, we need to reach to 1 in minimum number of steps where a step is defined as converting N to (N-1) or converting N to its one of the bigger divisor.
+	Formally, if we are at N, then in 1 step we can reach to (N – 1) or if N = u*v then we can reach to max(u, v) where u > 1 and v > 1.
+Examples:
+
+We can solve this problem using breadth first search because it works level by level so we will reach to 1 in minimum number of steps where next level for N contains (N – 1) and bigger proper factors of N.
+	Complete BFS procedure will be as follows, First we will push N with steps 0 into the data queue then at each level we will push their next level elements with 1 step more than its previous level elements. In this way when 1 will be popped out from queue, it will contain minimum number of steps with it, which will be our final result.
+	In below code a queue of a structure of ‘data’ type is used which stores value and steps from N in it, another set of integer type is used to save ourselves from pushing the same element more than once which can lead to an infinite loop. So at each step, we push the value into set after pushing that into the queue so that the value won’t be visited more than once.
+	Please see below code for better understanding,
+Run on IDE
+Output:

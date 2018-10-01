@@ -1,0 +1,62 @@
+Round 1: Online(30 mins + 30 mins+ 30 mins)
+              a. Technical Aptitude
+              b. Numerical and Reasoning Aptitude
+              c. Coding (Backtracking and String Permutation)
+Round 2: Written Test(40 mins)
+              4 questions
+              a. Number of direct and indirect reporting employees (N- Ary tree)
+              b. Database design problem( E-R Diagram)
+              c. Puzzle
+              d. Basic Probability(Ant at the corner of equilateral triangle and collision prob)
+Round 3: Group Discussion(30 mins)
+            a. Demonetization and its effect on GDP
+            b. There is no right way to do a right thing
+            ( you can interrupt other speaker to make your point . Tip: speak relevant)
+Round 4: Technical Interview 1(40 minutes)
+            a. Concepts of OOPs
+            b. Indepth discussion of Hackathon (Technology used, Scenario, Analytics)
+            c. Project Discussion ( Machine Learning and Cloud Tecnology)
+                        -> Classifier and clustering difference
+                                    -> SVM classifier indepth Discussion
+                                    -> In Depth Discussion of J2EE Framework,MVC Architecture,Use Case
+                                    -> Natural Language Processing,relevance and Project related details
+          d. Abstraction ( Difference between Abstract and Interface)
+          e. Polymorphism (Both static and Runtime) – output of the code
+          f. Coupling and the issues
+          g. RMI and Serialisation of the object
+          h. EJB, Servlets and JSP ( Session management, Connectivity and Control)
+          i. Multi threading( coding)
+Round 5: Technical Interview 2(2 hours)
+           a. Coding in Java ( N-Ary Tree) and creating functions for the modified
+               queries.
+           b. Static- Discussion
+           c. N- Ary Data Structure and traversals, possibility of inorder traversal id data
+               in subsequent levels are not sorted.
+           d. Data Structures – Binary Trees and Binary Search Trees( In Depth Dis.)
+           e. Spiral Level Order Traversal( Iterative and Recursive)
+           f. Function calling and Stacks(Discussion)
+           g. Database redesign based on the Query modification of the written test
+           h. Joins and Nested Queries comparison
+           i. Data structures use in various cases of the Database Management
+           j. Some Networking Questions ( OSI Layers, Data Transfer Mechanism
+              detailed, Masking, Subnetting, supernetting, Aloha, slotted Aloha)
+          h. Java related output questions ( Polymorphism, Main method overloading)
+          i. Java Pass by Value or Pass by reference?Justify
+             ( Swap method -String, Array, User defined Objects, Primitive types values
+                transfer) in depth discussion
+          j. Wrapper classes
+          k. operating system interaction with java code
+          l. Platform dependence of Java and c++
+          m. sizeOf function use
+          n. C++ rapid fire
+          o. Pointers in c++
+          p. Association, Aggregation and composition their difference with Inheritance
+         r. Inheritance in java and c++ difference ( cause and effect)
+         s. Final, Finally, Finalize
+         t. JRE,JVM, JDK
+Round 6:  HR(10 mins)
+         a. tell me abt yourself
+         b . Strength weakness
+         c. Leadership and asoociations
+         d. Business perspective of a case
+         e. Non technical subjects and basic question(CRM and Economics)

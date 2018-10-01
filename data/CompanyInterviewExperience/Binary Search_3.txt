@@ -1,0 +1,10 @@
+Given a list of n-1 integers and these integers are in the range of 1 to n. There are no duplicates in list. One of the integers is missing in the list. Write an efficient code to find the missing integer. 
+Examples:
+One Simple solution is to apply methods discussed for finding the missing element in an unsorted array.  Time complexity of this solution is O(n).
+An efficient solution is based on the divide and conquer algorithm that we have seen in binary search, the concept behind this solution is that the elements appearing before the missing element will have ar[i] – i = 1 and those appearing after the missing element will have ar[i] – i = 2.
+This solution has a time complexity of O(log n)
+
+Run on IDE
+Run on IDE
+Run on IDE
+

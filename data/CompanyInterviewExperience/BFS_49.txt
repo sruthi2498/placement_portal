@@ -1,0 +1,41 @@
+Direct I came for Full Time recruitment for Applications Engineer, Operations Engineer and Platform Engineer in our campus.
+
+Round 1
+Online test on Codechef contains 3 Coding Questions
+1. Find the maximum sum of path between any two leaf nodes in a binary tree represented as an array.
+Example:
+Given Tree – {1,2,3,4,5,6,7}
+Answer: (5+2+1+3+7) = 18
+2. Find the given words in a grid. Return true if present else return false.
+Example:
+grid = {{a,b,c},{d,e,f},{g,h,i}};
+words to find = {“abc”,”abeih”,”efg”}
+Answer : true, true, false
+Similar Question – https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
+3. Some tree Related Question (Tough One)
+Those who solved 1 coding question complete are selected for next round.
+
+Round 2
+Data Structure Design Round (36 minutes) [Skype Interview]
+The interview contains one data structure question i.e.
+Design a data structure which will find minimum gap in O(1).
+Insert(x) – O(logn)
+Delete(x) – O(logn)
+Search(x) – O(logn)
+mingap() – O(1)
+Note – mingap is the minimum absolute difference between two elements present in the structre.
+Example: {4, 7, 9, 1, 5, 12, 18}
+mingap is 1 (5-4)
+Note – Same question for all at same time
+
+Round 3
+Algorithm Design Round (50 minutes) [Skype Interview]
+The interview contains 1 Algorithm design question
+Given n boxes of different weights and m machines of different weight carrying capacity. Find the minimum time required to move all boxes. Each machine take 1 minute to carry one time.
+Since the connection got lost, she called me again after some time and changed the question.
+You are playing on a ladder with some moves and with some constraints over you. You are given a int [] changeLevels, the ith element of which is the number of levels you will change with respect to your current position that is you can move changeLevels[i] steps UP or changeLevels[i] steps DOWN any of the one. You are also given the beginLevel which is your
+initial position on ladder and maxLevel which is the highest level of ladder. In any case while executing You can’t go beyond the maxLevel or below level 0(Zero). Return the maximum Level you can attain after executing all the changeLevels i.e. final level. If there is no way to go through the list without exceeding maxLevel or going below 0, return 1.
+Note – Optimized Algorithm is required, not simple recursion solution.
+No one got selected for Operations Engineer, however some are selected for interview for Applications Engineer. i.e. Again all rounds except coding round.
+
+

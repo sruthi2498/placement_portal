@@ -1,0 +1,55 @@
+Hello friends, recently amazon visited our campus selecting 2 FTE and 7 interns for different roles.
+I would like to say about rejections. I’ve got rejected in many companies (even in Amazon) but finally got placed in a good company. So be strong, there is always a door opened for us.
+Here I share my experience with amazon.
+Round 1:
+Around 500 people attended this round. As usual 20 MCQ and 2 programming questions.
+We need to do at least one programming question to get through this round.
+MCQ’s include various topics like OOPS, OS, CN, DBMS etc.
+Two coding questions were:
+1. Merge two linked lists of different size such that nodes from each list are arranged alternatively.
+2. Finding the minimum difference (I forgot the actual question).
+59 people got shortlisted in this round.
+Round 2:
+It’s a group fly round and people are divided into groups and asked to sit in different class rooms.
+We were given a question in a paper. Here everyone got a standard question. The question which I got was “Finding the largest contiguous sub array, start and end indexes must be printed with sum “ (kadene’salgo).
+My friends got questions like “Boundary traversal” etc.
+So, This round is very simple and if you are strong in standard problems, you can clear it with ease.
+29 got shortlisted to next round.
+Round 3:
+It was very simple for me because we were running out of time. Only one question was asked.
+“Find the kth element from the end in a SLL “
+Different approaches were discussed and he asked me to code for the best one.
+19 got shortlisted to next round.
+Round 4:
+It was one of toughest round for me. I was very much interested in SDE role but I was interviewed for SE/QAE role. I dint dare to ask the interviewer about the role. We are not said before the interview that they are going to interview for that roles. I mean it is in their hands to decide the role that matches your skills.
+Questions were a bit tough for me in this round because am not much good in troubleshooting and testing. And this round went almost for 1 hr 30 mins.
+Questions:
+1. Given start and finish times of a youtube video and how do you confirm that the video is completely watched by the user or not? I gave a solution, we can set flags when the user watches a particular unit of video. He asked me how discrete? I said it may be in terms of seconds. He then asked me, If a user is just watching in terms of microseconds?  I was not able to give the right answer. He was not satisfied with my solution. 🙁
+2. A web application is running. We have only a text box. If we enter a name in the text box, we get the details of the person whose name is entered. Now the question is to troubleshoot the application when it stopped displaying the results after entering a name( whose details are present in the data base).
+I answered many points here, like server is disconnected and there may be locks on the details such that only one user can access the data at a time. And many other, but he was not much satisfied. 
+3. Give the test cases for the Gmail login page. At first I got tensed on hearing this question but I answered well. I almost gave 10 test cases quickly but, the interviewer want to extract as many he can. So he started noting down all the points which I said and kept asking me further points. Finally 25 – 30 test cases were covered.
+4. Given a video whose audio is not playing in a video player. Troubleshoot.
+I gave many answers here. Like, there may be two major possibilities here. 1. The video may have some problem 2. The video player software may have some problem. Then I gave many points in each category. Like OS dependent etc. He was satisfied with my answers.
+5. And 2 more questions were asked (I forgot ) They were from testing and troubleshooting.
+14 got shortlisted to next round.
+Round 5: (Hr + Tech )
+This was the round which I dint get through. 🙁
+First, Tell me about yourself. I request everyone to be well prepared for this question in any interview. It looks so simple, but its very difficult to impress the interviewer with your answer here.
+Next was a question from trees. Find the vertical sum in Binary tree. I said I’ve done it before and I know the solution. He asked me to go ahead. Then I answered the same thing which was given in GFG. He then asked me to do it in a single traversal. I gave another solution but it also took 2 traversals. He scolded me that it is also taking 2 traversals. I was not able to think anymore after this. But it was very simple one. ?
+Next he asked me to find the duplicate chars in a infinite length stream of chars. I gave a hashmap solution and he asked me about hashmaps. He then extended the question that we have Integers also. Even then I said hashmap solution suits. He asked me about collisions here. He asked me how much size of hashmap you need?. And also about the range of elements that can be mapped? I answered well all these questions because I’ve read a lot about hashmaps.
+Next he asked me a troubleshooting question. I answered this like the one which I faced in the previous round.
+Next he asked me “what happens during withdrawal of cash from ATM “? (only during withdrawal ?)
+I was not able to convince him with my answers. He was expecting a lot in terms of internal clocks and stuff in ATM.
+Next He asked me “what happens when you enter an URL in a web Browser “?
+I read this question in many interview experiences, so I answered it well But, He asked few questions in between. Like what is HTTPS? What does ‘S’ stands for in ‘HTTPS’?
+And finally I was in a trap by this final question. What is a Web server? I really don’t know. But I dared to answer, But to my bad luck I answered DNS server instead of Web server. He was very much angry with my answer and asked am bluffing? GONE 🙁
+All the impression was gone by just one simple mistake of mine and I dint get through.
+Finally 9 people got offers out of 14.
+2 were FTE and 7 were given INTERN. 
+TIPS:
+If you are aiming for AMAZON then just try to solve as many questions as possible in GFG.
+Try to be frank in the interview. If you don’t know the answer, Just accept that you don’t know.
+Finally be Strong. Rejections are inevitable unless you are very cautious.
+I hope this will help others. 
+ALL THE BEST. 
+

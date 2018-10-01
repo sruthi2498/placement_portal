@@ -1,0 +1,40 @@
+Flipkart recently visited my college for recruiting SDE-1. Here I am sharing my interview experience. 
+First Round: 2 coding questions on HackerRank (90 minutes).
+1. Given some data about computer systems (like RAM, ROM, processor speed, battery, etc). You need to print the top-k computers based on (i) RAM (ii) If RAM is same then ROM (iii) If ROM is same then processor speed, etc.
+Constraints: k <= 100
+(No. of computer systems) n <= 1000000
+Solution: Any O(nlogn) sorting would work. But what I did was implement Bubble Sort and ran k-passes of it. Then printed the last k-elements of the array. It took O(nk) time which was okay since k <= 100.
+2. There is a maze of size n*n. Tom is sitting at (0,0). Jerry is sitting in another cell (the position of Jerry is input). Then there are k pieces of cheese placed in k different cells (k <= 10). Some cells are blocked while some are not. Tom can move to 4 cells at any point of time (left, right, up, down one position). Tom has to collect all the pieces of cheese and then reach to Jerry’s cell. You need to print the minimum no. of steps required to do so.
+Solution: Dynamic Programming.
+Second Round: Around 1 hour (Face-to-Face)
+1. Given a variation of singly linked list, where every node can have 2 pointers: next and down. You need to flatten the list into a singly linked list in which every node has only a next pointer. This needs to be done in-place, so the down pointer of every node should be set to null.
+Example:
+Solution: I first told him to do it iteratively using stack. He said that its too complex. I then told him to use recursion, which was about 2 lines of code. He asked me to code it and was completely satisfied. Remember to cover all the base cases and the corner cases.
+2.1. You are given a string. Print the first non-repeating character.
+Solution: I asked him the character encoding. He said ASCII. I told him to take an integer array “count” of size 128 with every element set to 0. Scan the string and for every character ‘c’, do count[(int)c]++. Then scan the string again and when you find the first character for which count[(int)c] == 1, print it and break out. If no such character found whose count[(int)c] == 1, that means no answer (no non-repeating character in the string).
+2.2. What if the string is very long. Doing two passes is expensive.
+Solution: I would use an array of structure with two elements count and index. When we do count[(int)c]++, we will also set index[(int)c] = index of c in the string. Now instead of scanning the string second time, scan the structure array (for i = 0 to 127) and keep a temporary variable, tempIndex = MAX_INTEGER. When you find count[i] == 1, check if index[i] < tempIndex. If true, update tempIndex to index[i]. In the end print the character in the string at index = tempIndex. If tempIndex == MAX_INTEGER, that means no answer (no non-repeating character in the string).
+2.3. You are not given a string. You are given some queries of Type 1 and Type 2.
+Type 1: Append character (given as input) to the end of the string. The string is initially empty.
+Type 2: Print the first non-repeating character in the string that is formed so far.
+Solution: Keep on constructing the string for every Type 1 query. That would take O(n) time for every Type 1 query on a non-mutable string. If we use a mutable data type, like StringBuilder in case of Java, it would take O(1) time for every Type 1 query.
+For Type 2 query, run the algorithm of 2.2 (above). That would take O(n) time for every Type 2 query. If there are q Type 2 queries, it will take O(nq) time.
+2.4. Solve 2.3 (above) in constant time, i.e. for every query (of Type 1 or Type 2) take constant time. So overall complexity should be O(q) where q = no. of Type 1 queries + no. of Type 2 queries.
+Solution: Took a lot of time (around 20 minutes), and tried a lot of stuff before arriving at the below solution.
+Every query (of both Type 1 and Type 2) is taking constant time. So, overall complexity is O(q) or O(no. of queries).
+3. Explain external merge sorting. And try to optimize it if possible.
+Solution: I said I don’t know what external merge sorting is. But I know what merge sorting is, and I know that external sorting is basically sorting some data that is present in the secondary memory (because it is too big and can not be brought entirely into the main memory). So, he said now combine the two. I gave a couple of algorithms, the first one was a naive approach in which I would divide the entire data into k pieces, bring each piece into memory, sort it, push back to secondary memory and so on. Then I told something similar to Tournament Trees.
+4. Explain the best, average and worst case complexities of all the sorting algorithms that I know. In which scenarios do they work the best.
+Solution: I told him about 8 algorithms, their best, average and worst case complexities, and the scenarios in which they are useful (for all of them). Believe me, every one of them is useful in some case or the other. For example, bubble sort is one of the best algorithm to solve the coding question asked in the first round.
+5. Questions about my projects.
+6. Questions about an event (algorithmic coding contest) that I organized in my college’s tech-fest.
+Third Round: By a senior hiring manager (through Skype). Around 1 hour.
+1. Questions about my projects.
+2. Questions about an event (algorithmic coding contest) that I organized in my college’s tech-fest.
+3.  My favorite website. I told quora. He asked me how does quora deliver the information so quickly. I told him I don’t know exactly what they do. But can tell what I would do if I need to deliver the information so quickly. I then gave a very abstract idea in which I made use of distributed systems, caching (based on particular users and their interests), etc.
+4. Some more discussion about general (but technical) topics. He told me about his work and team. Asked about my interests and aspirations.
+5. Puzzle: You are blindfolded (you can’t see). There are 100 coins lying on a table. 80 are tails-up and 20 are heads-up. You need to divide them into two groups of x and y each (x+y = 100). You can pick any coin and flip it (if its tails, it will become head and if its head, it will become tail), but you can’t see so you don’t know which coin you are flipping. In the end, the two groups should contain equal number of heads.
+Solution: It took almost 15-20 minutes for me to figure it out. Divide into group 1: 20 and group 2: 80. Flip all the 20 coins of group 1.
+Thanks a lot to GeeksForGeeks.
+General Advice:
+

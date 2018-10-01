@@ -1,0 +1,56 @@
+I applied in D E Shaw through their online job portal. My profile got selected after 1-2 months. The HR called me and told that they want to have a telephonic round which was scheduled after 4 days.
+Telephonic Round: (1 Hour)
+1.	Tell me something about yourself and Introduction.
+2.	He asked about the coding language I use and asked questions on OOPs concepts like Abstraction, Inheritance, and Polymorphism.
+3.	As I told I code in C++ he asked me about Virtual function, what the problem with multiple inheritance is and how C++ resolve that. Some questions on STL and design of the Templates.
+4.	I told him to ask question from DS and Algorithms as that was the part in which I was prepared.
+There is a class of N students and you have to find the top K marks scorers.
+(This questions was slight different from the common top K element question ,for example we  have to find the top 3 marks scorers as that can be entire class if they all get same top 3 marks, after some discussions I answered the question.)
+5.	He then asked questions on Indexing in databases. (That day only I read it :P)
+6.	Again a DS question he told me what data structure you will use to design a google search, having the key words from the respective sites. (I suggested tries with Link Lists, He was happy)
+This round went quite well, I knew that they will call me for the In House Interviews. So I started preparing for it. After few days I got a call for the interviews at Hyd.
+D E Shaw has awesome office, we were waiting in the room where HR came and guided to the Interview rooms. (All rounds were 2 Interviewers)
+Interview Round 1: (1:30 hours)
+1.	Brief Introduction.
+2.	They ask some questions from the language you use for coding (They were expecting Java). In C++ they asked from virtual functions, STL, copy constructors etc. (After this,he knew that I know my language well.)
+3.	I told them to ask me from DS and Algorithms.
+They asked the question like you have timing of arrival and departures of the trains you have to find the minimum l number of platforms required to accommodate them.
+(I told them I know the answer, after this they didn’t even asked me single DS questions (I got screwed)???)
+4.	He asked me to design a database which could handle the quick changes in the shares which happen in the market.(I didn’t knew how to use indexes and other stuffs)
+5.	He told me how would you buy the shares of the companies if you know the future for some period of time.( I gave a layman solution)
+6.	He then started to ask queries, Indexing, Normalization in databases in deep.
+(Find the 2nd maximum number in a table)(I used top command after that he told me the case in which it will not work, and then I corrected accordingly)
+7.	After that came a designing question.
+Design a class which has director, HOD, Professor and students. They all are reporting to their respective heads. I have to display the hierarchy structure of the information in a Site.
+He also told me that if a new designation comes or new employee comes then your class should handle those cases without any change. (With help I designed a tree, but he was expecting something else.)  After that he told me to design a database for it which I did and he was happy with the solution.
+After this round I thought that they would send me home, there was a mixed feeling. But I was waiting for them for a round of DS and Algorithms: P.
+
+Interview Round 2: (1:10 hours)
+1.	Tell me a brief about yourself.
+2.	Questions on your language C++( Basics)
+3.	Various sections of memory stack, heap, data. Explain them using a code.( Answered perfectly)
+4.	Find the endianess of a machine using a function ( I knew the answer).
+5.	Median of two sorted arrays (I told I know the answer).
+6.	About semaphores and monitors.
+7.	Producer consumer problem, reader’s writer’s problem with proper code using the semaphores.
+I wrote the complete Galvin code and explained in detail.
+8.	Thrashing and why it occurs.(Explained in detail)
+9.	He was really impressed till then as I answered all questions perfectly, he then asked some real time examples about polymorphisms, inheritance)
+10.	He then asked about Normalization in databases and by luck I remembered the Normal forms and answered.
+11.	He then asked me to explain the steps when we enter a URL into a browser.
+(I told I know the solution, then he told me answer whether I knew it or I was just saying in every question I know, I explained the answer to them after that both of them became really impressed)
+12.	Some questions on protocols and layers of OSI model.(Answered)
+I answered every question in this round (Gangnam Style).
+HR round: (20 minutes)
+Some general questions.
+Interests, weakness, strength, Package of the current company.
+Only 4-6 students of 20-25 had their HR rounds that day, so I thought I may have a chance but I still had very bad 1st round in my mind.
+On the next day I got a call for some details of my present company, after that few days later I got a call of the offer from them with a good package.
+Some tips:
+1.	For D E Shaw you need to be good in all the subjects.
+2.	Be truthful in the interview if you know the answer tell them, they may like your honesty (Depends on individuals).
+3.	Most of them lack in databases, so come prepared with it thoroughly.
+4.	Best of luck.
+Geeks for Geeks helped me lot in my preparations.  I followed GFG thoroughly during my preparations, hope that my experience would help you in your interviews.
+
+

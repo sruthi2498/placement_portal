@@ -1,0 +1,36 @@
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+Mainly the following three basic operations are performed in the stack:
+
+How to understand a stack practically?
+There are many real life examples of stack. Consider the simple example of plates stacked over one another in canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO/FILO order.
+Time Complexities of operations on stack:
+push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations.
+Applications of stack:
+Implementation:
+There are two ways to implement a stack:
+Implementing Stack using Arrays
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Pros: Easy to implement. Memory is saved as pointers are not involved.
+Cons: It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.
+Output :
+
+
+ Implementing Stack using Linked List 
+Run on IDE
+Run on IDE
+
+Output:
+Pros: The linked list implementation of stack can grow and shrink according to the needs at runtime.
+Cons: Requires extra memory due to involvement of pointers.
+
+ 
+We will cover the implementation of applications of stack in separate posts.
+Stack Set -2 (Infix to Postfix)
+Quiz: Stack Questions
+References:
+http://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29#Problem_Description

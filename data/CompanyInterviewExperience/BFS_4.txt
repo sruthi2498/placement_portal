@@ -1,0 +1,15 @@
+Given start, end and an array of N numbers. At each step, start is multiplied with any number in the array and then mod operation with 100000 is done to get the new start. The task is to find the minimum steps in which end can be achieved starting from start. 
+Examples:
+Input: start = 3 end = 30 a[] = {2, 5, 7}
+Output: 2
+Step 1: 3*2 = 6 % 100000 = 6
+Step 2: 6*5 = 30 % 100000 = 30 
+Input: start = 7 end = 66175 a[] = {3, 4, 65}
+Output: 4
+Step 1: 7*3 = 21 % 100000 = 21
+Step 2: 21*3 = 6 % 100000 = 63
+Step 3: 63*65 = 4095 % 100000 = 4095
+Step 4: 4095*65 = 266175 % 100000 = 66175 
+Approach: Since in the above problem the modulus given is 100000, therefore the maximum number of states will be 105. All the states can be checked using simple BFS. Initialize an ans[] array with -1 which marks that the state has not been visited. ans[i] stores the number of steps taken to reach i from start. Initially push the start to the queue, then apply BFS. Pop the top element and check if it is equal to the end, if it is then print the ans[end]. If the element is not equal to the topmost element, then multiply top element with every element in the array and perform a mod operation. If the multiplied element state has not been visited previously, then push it into the queue. Initialize ans[pushed_element] by ans[top_element] + 1. Once all the states are visited, and the state cannot be reached by performing every possible multiplication, then print -1. 
+Below is the implementation of the above approach: 
+Run on IDE

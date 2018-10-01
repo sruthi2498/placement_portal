@@ -1,0 +1,40 @@
+Round 1: On Screen Test 
+Part 1(90 questions and 75 mins)
+There were three sections in part 1
+First and second sections were very easy while the technical section is time consuming. Distribute time accordingly. I managed to finish the first two sections in 30 mins. Each section has individual cut off. You can’t just score good in the first two sections and manage to get away with the third section without reaching the cut off.
+Part 2(2 questions and 30 mins)
+One section of coding in part 2
+Coding was allowed in C++, Java8, Perl and Python.
+Given a matrix of dimension m*n where each cell in the matrix can have values 0, 1 or 2 which has the following meaning:
+So we have to determine what is the minimum time required so that all the oranges become rotten. A rotten orange at index [i, j] can rot other fresh orange at indexes [i-1, j], [i+1, j], [i, j-1], [i, j+1] (up, down, left and right). If it is impossible to rot every orange then simply return -1.
+If you manage to do any question, I suppose you will get through with the cut off.
+Among from over 160 students, 42 qualified for the technical interview round.
+Round 2: Technical Interview
+Being an Electronics student I didn’t have much of the CS profile resume. Was nervous since I was interviewed by the toughest interviewer among three of ’em. Firstly I was asked to tell about myself(He listened to everything very carefully). Then I was asked to tell about my strengths to which I responded Java. I was asked four questions. Level of questions increased as I started answering them.
+Class A {some code;}
+Class B extends A{
+B a = new A();
+}
+Wrote this on a paper and showed it to me. Didn’t ask anything. I answered myself that this was wrong since B is an instance of A but not vice versa. He asked me to write down the correct statement.
+Answer : B a = new B();  OR  A a = new B();
+Class A extends B, C{}
+Class A implements b, c{}
+Again showed it to me.
+Answer: First statement was wrong since java does not support multiple inheritance however second statement was right as it supports multiple interfacing. Then asked me a bit about interfaces in Java.
+Run on IDE
+Answer: I am not sure, although I answered that it prints everything (“summer”, “spring”, “autumn”, “winters”) since P is only referred to null however l is printed.
+Run on IDE
+Question: Are these statements correct?
+Answer: Yes, it depicts overloading in java.
+Question: What are the rules for overloading?
+Answer: The method name should be the same while the number of parameters should be different or if count of parameters is also the same, data type should be different.
+Question(Main): Which of the method would be executed?
+Answer: The one containing parameter ( int i ) since the system priority of int (in Java) is greater than that of short. And of short is greater than that of byte.
+ 
+He was quite impressed and passed me for the HR round.
+17 students were shortlisted.
+Round 3: HR Round
+Basic questions.
+The HR will basically see how confident and well spoken you are.
+11 of us were offered the role of Strikers. :’)
+ 

@@ -1,0 +1,8 @@
+Given n distinct digits (from 0 to 9), find sum of all n digit numbers that can be formed using these digits. It is assumed that numbers formed with leading 0 are allowed.
+Example:
+Total numbers that can be formed using n digits is total number of permutations of n  digits, i.e factorial(n). Now, since the number formed is a n-digit number, each digit will appear factorial(n)/n times at each position from least significant digit to most significant digit. Therefore, sum of digits at a position = (sum of all the digits) * (factorial(n)/n).
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

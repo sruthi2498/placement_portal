@@ -1,0 +1,10 @@
+Given a tree in form of adjacency list we have to calculate the number of nodes in the subtree of each node, while calculating the number of nodes in the subtree of a particular node that node will also be added as a node in subtree hence number of nodes in subtree of leaves is 1. 
+Examples:
+Expalnation: First we should calculate value count[s] : the number of nodes in subtree of node s. Where subtree contains the node itself and all the nodes in the subtree of its children. Thus, we can calculate the number of nodes recursively using concept of DFS and DP, where we should process each edge only once and count[] value of a children used in calculating count[] of its parent expressing the concept of DP(Dynamic programming).
+ Time Complexity : O(n) [in processing of all (n-1) edges].
+
+Run on IDE
+Run on IDE
+
+Input and Output illustration:
+

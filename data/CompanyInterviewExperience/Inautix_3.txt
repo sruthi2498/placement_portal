@@ -1,0 +1,31 @@
+Factorial of a non-negative integer, is multiplication of all integers smaller than or equal to n. For example factorial of 6 is 6*5*4*3*2*1 which is 720.
+
+Recursive Solution:
+Factorial can be calculated using following recursive formula.
+Following is implementation of factorial.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+Iterative Solution:
+Factorial can also be calculated iteratively as recursion can be costly for large numbers.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time complexity of the above solutions is O(n).
+One line Solution (Using Ternary operator): 
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output: 
+The above solutions cause overflow for small numbers.  Please refer factorial of large number for a solution that works for large numbers.
+Please write comments if you find any bug in above code/algorithm, or find other ways to solve the same problem.

@@ -1,0 +1,24 @@
+There was 1 online coding round, followed by interviews.  Online coding round was on Codechef.
+Online round:
+There were 2 questions.
+Question 1: A string can contain only a, b or c. There cannot be 2 consecutive same character. First and last character cannot be same. Now given a string with ‘a’, ‘b’, ‘c’ or ‘?’. We need to find the string replacing ‘?’ that satisfy the above conditions. For multiple answer display lexicographically smallest string. For no answer possible display “Not Possible”.
+Round 2 (Telephonic):
+Question 1.  We need to make a string of size n. Each character of the string is either ‘R’, ‘B’ or ‘G’. In the final string there needs to be at least r number of ‘R’, at least b number of ‘B’ and at least g number of ‘G’ (such that r + g + b <= n). We need to find number of such strings possible.
+For example,
+n = 4, r = 1, b = 1, g = 1.
+Output:
+36
+
+Reason:
+Since No. of 'R' >= 1, No. of ‘G’ >= 1, No. of ‘B’ >= 1 and (No. of ‘R’) + (No. of ‘B’) + (No. of ‘G’) = n
+then following cases are possible:
+1. RBGR and its 12 permutation
+2. RBGB and its 12 permutation
+3. RBGG and its 12 permutation
+hence answer is 36.
+Question 2. There is a rectangle with left bottom as (0, 0) and right up as (x, y). There are n circles such that their centers are inside the rectangle. Radius of each circle is r. Now we need to find out if it is possible that we can move from (0, 0) to (x, y) without touching the circle. We can move freely anywhere.
+Round 3(Face to Face):
+Question 1. There is a binary tree. We are given 3 nodes a, b and c. We need to find a node in the tree such that we remove all edge from that node we get a, b and c in three different trees.
+Question 2. Given an array and an integer T. We need to find a subarray from i, i + 1, i + 2……..j such that ||a[i] + a[i + 1] + ……. a[j]| – T| is minimum.
+I was rejected in this round. But latter got placed in flipkart.
+

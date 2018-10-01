@@ -1,0 +1,118 @@
+Round one:
+Note: They have two patterns, for me they asked programming pattern, which is really tough. 
+Time: 2.15 hrs
+40 Questions full of programming, first 10 questions have half mark, next 30 Questions have 1 mark, no Compilation Errors.
+1) First 10 questions is to find the output of program which contains full of loops, loops inside loops.
+2) Next 30 Questions has five parts
+….a) To find the input of the program, output will be given.
+….b) To find the error in logic and correct it, to provide the expected output.
+….c) To find which two program gives the same result among given four programs.
+….d) To find the loop condition for the desired output.
+….e) To find the order of function in execution..
+Round two:
+ Level One:
+1) To find the odd numbers in between the range.
+Input:
+2
+15
+Output:
+3,5,7,9,11,13
+2) To find the factors of the numbers given in an array and to sort the numbers in descending order according to the factors present in it.
+Input:
+Given array : 8, 2, 3, 12, 16
+Output:
+12, 16, 8, 2, 3
+3) To output the number in words (0-999)
+Input: 234
+Output: Two hundred and Thirty Four
+4) To find the print the pattern:
+Ip: n=5
+Op:
+1
+1 1
+2 1
+1 2 1 1
+1 1 1 2 2 1
+5) A man his driving car from home to office with X petrol. There are N number of petrol bunks in the city with only few capacities and each petrol is located in different places For one km one liter will consume. So he fill up petrol in his petrol tank in each petrol bunks. Output the remaining petrol if he has or tell him that he cannot travel if he is out of petrol.
+Input:
+Petrol in car: 2 Liters
+Petrol bunks: A B C
+Distance from petrol each petrol bunks:  1, 5, 3
+Capacities of each petrol bunk: 6, 4, 2
+Output:
+Remaining petrol in car is 5 liters
+Level two:
+1) Print the given pattern:
+Input:
+N= 3, M=3
+Output:
+X X X
+X 0 X
+X X X
+Input:
+N=4 M=5
+Output:
+X X X X
+X 0 0 X
+X 0 0 X
+X 0 0 X
+X X X X
+Input:
+N=6 M=7
+X X X X X X
+X 0 0 0 0 X
+X 0 X X 0 X
+X 0 X X 0 X
+X 0 X X 0 X
+X 0 0 0 0 X
+X X X X X X
+2) To find the number of groups and output the groups:
+Explanation:  To find the sum of the elements in the groups and that sum should be divisible by input X and the groups should be limited to range with X numbers.
+If X is 3, then the group should have only 2 elements and 3 elements from the array whose sum is divisible by 3.
+Input:
+Array: 3, 9, 7, 4, 6, 8
+X: 3
+Output:
+3, 9
+3, 6
+9, 6
+3, 9, 6
+No of groups: 4
+Level three:
+1) To output the given string for the given input which is an integer.
+Input: 1
+Output: A
+Input: 26
+Output: Z
+Input : 27
+Output: AA
+Input: 28:
+Output: AB
+Input: 1000
+Output: ALL
+2) Input:
+Number of elements in set1: 4
+Elements are: 9, 9, 9, 9
+Number of elements in set 2: 3
+Elements are: 1,1,1
+Output:
+1, 0, 1, 1, 0
+Input:
+Number of elements in set1: 11
+Elements are: 7,2,3,4,5,3,1,2,7,2,8
+Number of elements in set 2: 3
+Elements are: 1,2,3
+Output: 7,2,3,4,5,3,1,2,8,5,1
+Round three:
+Real time programming and analysis:
+Note: Showing output does matter need to show the output as soon as possible. And also need to solve the constraints very fast, since you know what you have done in your program. After finishing the program always explain the logic behind it and the constraints about the processing and how you solved those constraints to the technical people.
+1) To form a structure which has few elements: 
+Get the product name, price and id and display the product name and price in descending of the price.
+2)  For the same above structure, now add another structure which is the category. That category will have products in it. 
+According the category get the product name, product price and id, then display all the products category wise in descending order.
+3) For the same structure which as category and product, get the category id from the user in the product structure and save to the category list. Then display them all in category wise.
+4)  A sheet full of data will be given with inventory stock list, which as different categories and different products as input with category capacity and product availability in the structure. Now we need to add a new category or new product with capacity and availability. Need to check whether the product availability is exceeding the category capacity, if yes the output rack is full or else tell how much free space is available and add the product to list.
+5) Constraints in the above in question will be given, need to solve all the constraints, so that the Technical HR gets satisfied.
+After these rounds, if they get satisfied, they will call you for Technical HR, followed by General HR. If you solved every single question and you were really fast in problem solving, then HR interview will be easy. Or else HR interview will be very tough especially the Technical HR (The Technical HR round as lots of logical questions) 
+
+

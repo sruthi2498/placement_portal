@@ -1,0 +1,8 @@
+std::search is defined in the header file <algorithm> and used to find out the presence of a subsequence satisfying a condition (equality if no such predicate is defined) with respect to another sequence. 
+It can be used in either of the two versions, as depicted below :
+Run on IDE
+Output:
+Syntax:
+Run on IDE
+Output:
+Related Articles: 

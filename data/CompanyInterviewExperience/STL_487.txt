@@ -1,0 +1,10 @@
+The C++ function is defined in <algorithm> library in STL.  This function operates on whole range of array elements and can save time to run a loop to check each elements one by one. It checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
+Syntax: 
+Exception : Throws exception if either predicate or an operation on an iterator throws exception.
+Examples:
+Run on IDE
+Output:
+Run on IDE
+Output:
+In the above code, -6 being a negative element negates the condition and returns false.
+Useful array algorithms STL functions

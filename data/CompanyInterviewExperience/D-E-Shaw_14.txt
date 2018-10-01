@@ -1,0 +1,101 @@
+All the answers discussed here are just the ones which i have given in the interview
+(Don’t judge its correctness, these are just to tell you the type of questions which are asked in the interview).
+Do try to solve these questions before directly going to the answers.
+
+Technical Test-
+1. Find lowest area pattern which can be repeated to form full rectangle (l, r less than or equal 100)
+2. Find the Longest Continous block after flipping k-bits in a binary string
+I used brute force in both the questions(first complete, second partial).
+I will suggest you to directly go for brute force, if you dont know the optimized solution(for hard problems). do not waste much time in building up the optimized one.
+
+Technical Interview 1-
+1. Types of request in Networking.(if you have written web development in your resume)
+    ans: GET and POST, they asked other methods too.
+2. Difference b/w GET and POST request.
+    ans: query string in url in GET method. but they asked more differences that i didn’t know.
+3. Maximum number of characters in a URL
+    ans: 256 (be careful, they will suggest you by asking some questions and you have to catch those suggestions)
+    i got that hint from this question and instantly replied that number of characters in url(GET method) can be 256 but in post no of characters in query string are unlimited.
+4. Find Standard Deviation of a large array by dividing the array into multiple subarrays.
+    ans: firstly i discussed standard deviation formula, then about the actual meaning of standard deviation(variation from mean).
+    (i suggested some approach, but that was not correct.)
+    Again they asked to do the same for finding mean.
+    i did that and explained them, this was again a hint for previous question.
+        (i got that and gave an approach, they feel satisfied.)
+    Solving general mathematical formula using above method.
+    ans: i said that for any mathematical formula, you have to convert it into some property
+        which is additive in nature(by doing some operations), get that value for the full array
+        and after that again convert it to the desired one.
+5. Circle puzzle
+    ans: https://www.geeksforgeeks.org/puzzle-round-table-coin-game/
+6. Write heapify algorithm
+7. Problems in the given recursive program and optimizing the code (recursive)
+    ans:
+    if x <= 0 then this may go into infinite loop
+    if x is very big then this function will use a lot of space in system stacks
+    i suggested to directly use formula (x * (x + 1)) / 2, but they asked for optimized recursive solution
+    then i suggested 
+8. Remove Loops in a Linked List
+    ans: I asked whether the linked list is single or has multiple pointers.
+    they said single
+    i asked about no of loops, they said multiple loops.
+    i replied multiple loops in a singly linked list not possible.
+9. Set in c++(if c++ mentioned in the resume)
+    ans: All the elements are unique and in a sorted order.
+10. Implement Set c++ and optimize the operations (INSERT, DELETE, UNION, INTERSECTION)
+    ans: took some time and then suggested BST, because all the elements are already in sorted order
+        (inorder traversal) in BST and insert, delete operation in log n time.
+    they asked time complexity for union and intersection,
+        i said n log n (which is not correct), later i corrected myself and replied O(n).
+    then they asked what if tree is skewed, then i changed data structure and suggested some new approaches, they were not satisfied then i said self-balancing trees(that was what they want).
+11. What is AVL TREE (How it is Balanaced)
+    ans: discussed its properties and (L-R, R-L shifts)
+12. How data is stroed in DATABASE(if dbms is mentioned)
+    ans: B+ tree
+    then discussion on B+ tree, its properties and its uses.
+
+Technical Interview 2-
+1. Discussion on my projects.
+2. JAVA (Where it is used)(if java is mentioned)
+3. OOPS Concept (Polymorphism, inheritence, Interface, Implements)
+4. Puzzle: Given an array of times(integer). Transfer that array to another side of the river in minimum time.(given that atmost two elements can travel on the boat at one time).
+    ans: take an array [1, 2, 4, 7]. notice that if {1, 2} are travelling in the boat then they will require only 2(max(1,2)) units of time(not 1+2).
+    then i suggested that firstly {1, 2} will be sent to other size and 1 will return back(time taken 2(going) + 1(coming)).
+    then send {4, 7} and 2 will return back(time taken 7(going) + 2(coming)).
+    then again send {1, 2}(time taken 2(going)).
+    total time- 2+1+7+2+2 = 14 units.
+    generally, firstly send smallest two then take smallest(on right side) back. In next go, send largest two and take smallest element(on right side) back. repeat this until full array is transferred.
+5. Threads (Write a Program which show creation of threads)(if you don't know much about threading, you can skip it).
+6. Find Problems in #DEFINE SQUARE(x) x * x
+    ans: lets assume that there is a function(fun()) which returns integer value. then SQUARE(fun()) will be expanded to fun() * fun().
+    it has 2 major problems
+    * one is it increases time complexity.
+    * it can change some pointer, global data(basically shared memory).
+    another problem is in SQUARE(i++), it will be expanded to i++*i++ which is also problematic.
+    another is SQUARE(3+2), expand to 3+2*3+2 which results in 11(which is wrong).
+    the solution to above problem is Change definition to
+    #define SQUARE(x) (x) * (x)
+7. Explain DFS in tree and graph.(explain it and also give examples).
+8. Find Cycle in a Graph and also discuss back edges.
+9. What are static, global, auto and extern variables and functions and where they are used?
+10. Explain whole C compilation process
+(do study these basic topics.)
+11. SQL (Find Second Minimum of all the data in Marks Column, Which student has the lowest total, find total marks of a student with its id)
+12. What are Indexes in database, explain all? How they are stored and why?(only if SQL is mentioned in resume).
+13. Do all the above things in python (used dict).
+14. yield and generators in python.
+
+HR Interview-
+1. How was your interview?
+2. Is this your first experience? How was it?
+3. Tell me about yourself.
+4. Why DE Shaw?(try to convince that you are very much interested in their company).
+5. Tell me your strengths and weakness.
+6. Have you already prepared for these questions?
+7. When have you found your weakness?
+8. Have you prepared weakness only for interview purpose?
+If you want then after each round you may ask some questions to the interviewee.
+eg. you can ask about technologies, languages used in their company or about the environment.
+Best of Luck for your Interviews.
+
+

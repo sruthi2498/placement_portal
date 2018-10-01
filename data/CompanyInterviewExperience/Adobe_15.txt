@@ -1,0 +1,19 @@
+Given, an array of size n. Find an element which divides the array in two sub-arrays with equal sum.
+Examples:
+Method 1 (Simple)
+Consider every element starting from second element. Compute sum of elements on its left and sum of elements on its right. If these two sums are same, return the element.
+Method 2 (Using Prefix and Suffx Arrays :
+Implementation :
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 3 (Space efficient)
+We calculate the sum of the whole array except the first element in right_sum, considering it to be the partitioning element. Now, we traverse the array from left to right, subtracting an element from right_sum and adding an element to left_sum. The point where right_sum equals left_sum, we get the partition.
+Below is the implementation :
+
+Run on IDE
+Run on IDE
+Run on IDE
+

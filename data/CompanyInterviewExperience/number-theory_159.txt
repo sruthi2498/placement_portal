@@ -1,0 +1,12 @@
+Given two integer numbers, the task is to find count of all common divisors of given numbers?
+Examples :
+It is recommended to refer all divisors of a given number as a prerequisite of this article. 
+A simple solution is to first find all divisors of first number and store them in an array or hash. Then find common divisors of second number and store them. Finally print common elements of two stored arrays or hash.
+A better solution is to calculate the greatest common divisor (gcd) of given two numbers, and then count divisors of that gcd.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity : O(?n)

@@ -1,0 +1,25 @@
+Given an array of integers. We are required to write a program to print the number of factors of every element of the given array.
+Examples:
+
+Simple Approach: A simple approach will be to run two nested loops. One for traversing the array and other for calculating all factors of elements of array.
+Time Complexity: O( n * n)
+Auxiliary Space: O( 1 )
+Efficient Approach: We can optimize the above approach by optimizing the number of operations required to calculate the factors of a number. We can calculate the factors of a number n in sqrt(n) operations using this approach.
+Time Complexity: O( n * sqrt(n))
+Auxiliary Space: O( 1 )
+Best Approach: If you go through number theory, you will find an efficient way to find the number of factors. If we take a number, say in this case 30, then the prime factors of 30 will be 2, 3, 5 with count of each of these being 1 time, so total number of factors of 30 will be (1+1)*(1+1)*(1+1) = 8.
+Therefore, the general formula of total number of factors of a given number will be:
+where a1, a2, a3 …. an are count of distinct prime factors of n.
+Let’s take another example to make things more clear. Let the number be 100 this time,
+So 100 will have 2, 2, 5, 5.  So the count of distinct prime factors of 100 are 2, 2. Hence number of factors will be (2+1)*(2+1) = 9.
+Now, the best way to find the prime factorization will be to store the sieve of prime factors initially. Create the sieve in a way that it stores the smallest primes factor that divides itself. We can modify the Sieve of Eratostheneses to do this. Then simply for every number find the count of prime factors and multiply it to find the number of total factors .
+Below is the implementation of above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity: O(n * log(max(number))), where n is total number of elements in the array and max(number) represents the maximum number in the array.
+Auxiliary Space: O(n) for calculating the sieve.

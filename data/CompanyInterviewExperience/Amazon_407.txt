@@ -1,0 +1,17 @@
+Amazon came to out campus a week back and this was the procedure followed.
+Round 1 : On line coding (1 hr 30 min)
+This round has 20 aptitude+coding +OS mcq questions
+2 coding questions
+1-Given a linked list retain the first i elements and delete the next j elements.
+2-Given an array of number give a permutation of array which when converted to a number is the greatest. eg Input-{2,985,9,3} output {9,985,3,2} as 998523 is the greatest number that can be made.
+12 students were selected for the next round.
+Round 2 (Face to Face) (1 hour)
+Introduce about yourself, asked my interests and then jumped to questions
+First asked me dbms questions . ACID properties, transactions.
+Then OOP questions , to explain the concepts of OOP.
+Technical question-
+Given an array which has id of songs write a song shuffle song. I first gave an hash table approach he asked me to optimize it which i reached eventually.
+Given a binary tree , connect all the nodes at the same level with a next pointer.
+Given a sorted,pivoted array search for an element
+At the end 4 students were selected.
+All thanks to geeksforgeeks for helping me with my preparation.

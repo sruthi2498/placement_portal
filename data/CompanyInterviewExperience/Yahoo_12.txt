@@ -1,0 +1,35 @@
+Round-1:
+Pen and paper test was conducted.There were about 30 MCQ’s. 4 aptitude and 26 technical questions.Technical questions consisted of,Computer Networks, DBMS,Unix,Data-Structures,Algorithms and c/c++ output questions.
+Round-2:
+Coding round: (120 mins)
+(1)print all amicable pairs within a given range.
+(2)Related to Shell Scripting and parallel processing of programs.Monitor the memory and CPU usage. If it exceeds 80% warn the user and kill some background processes to stabilize the system.
+(3)print the top 5 OS used , top 5 browsers used .
+In this round they look at the approach more than the output and effeciency of your code.
+Round-3
+Technical Interview -1 (30 mins)
+Shell scripting and unix based questions.
+Explain the boot procedure.
+what happens when you login to linux (how password is validated?).
+where are the passwords is stored ?
+what is /temp , /var , /proc ?
+Few Networking questions were asked:
+what happens when i type yahoo.com in the browser
+what is 3 way handshake and how its done ?
+Difference between TCP UDP
+What is SNMP ?
+Round-4
+Technical Interview -2 (30 mins)
+The interviewer asked me to choose any two projects where i learnt the most and asked me to explain about it.
+OOPS Concepts.
+How multiple inheritance is achieved in java ?
+write down few unix commands
+difference between hub,switch,router
+What are integrity constrainsts in DBMS ? explain
+Few Informal questions such as
+Why do you want to work at yahoo ?
+If i had any offers already ?
+Round-5
+Technical Interview-3 (20 mins)
+
+

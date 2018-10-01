@@ -1,0 +1,14 @@
+Given an array of positive and negative numbers, find if there is a subarray (of size at-least one) with 0 sum.
+Examples :
+A simple solution is to consider all subarrays one by one and check the sum of every subarray. We can run two loops: the outer loop picks a starting point i and the inner loop tries all subarrays starting from i (See this for implementation). Time complexity of this method is O(n2).
+We can also use hashing.  The idea is to iterate through the array and for every element arr[i], calculate sum of elements form 0 to i (this can simply be done as sum += arr[i]).  If the current sum has been seen before, then there is a zero sum array.   Hashing is used to store the sum values, so that we can quickly store sum and find out whether the current sum is seen before or not.
+Example :
+Following is implementation of the above approach.
+
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity of this solution can be considered as O(n) under the assumption that we have good hashing function that allows insertion and retrieval operations in O(1) time.
+Exercise:
+Extend the above program to print starting and ending indexes of all subarrays with 0 sum.

@@ -1,0 +1,11 @@
+replace_copy
+replace_copy() is a combination of copy() and replace(). 
+Run on IDE
+Output:
+replace_copy_if
+replace_copy_if() is a combination of copy() and replace_if().
+Run on IDE
+Output:
+NOTE: Both algorithms i.e. replace_copy and replace_copy_if, returns the position after the last copied element in the destination range (the first element that is not overwritten).
+Related Article : std::string::replace, std::string::replace_if
+This article is contributed by Sakshi Tiwari. If you like GeeksforGeeks(We know you do!) and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.

@@ -1,0 +1,8 @@
+I recently got an offer from CouponDunia, here is my interview experience: 
+There were four rounds.
+Round 1: Coding Test on HackerRank.
+Three question in 90 minutes.
+Round 2: Telephonic Interview 
+Round 3: Assignment(Java project)
+Imagine we have an Email Queue table in our database with each row representing an email that needs sending. Table Name: EmailQueue Columns: id, from_email_address, to_email_address, subject, body (you can also add columns as you wish, but at minimum it should have these columns). Write a java program that will read from this table and send the emails over an SMTP server (not local unix mail). For the SMTP sending you can use a pre-existing library of your choice, if you wish. Please take into consideration the following: 
+Round 4: Skype Interview 

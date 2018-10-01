@@ -1,0 +1,22 @@
+Given a string, find the first non-repeating character in it.  For example, if the input string is “GeeksforGeeks”, then output should be ‘f’ and if input string is “GeeksQuiz”, then output should be ‘G’.
+
+We can use string characters as index and build a count array.  Following is the algorithm.
+
+Example:
+Implementation:
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Can we do it by traversing the string only once?
+The above approach takes O(n) time, but in practice it can be improved. The first part of the algorithm runs through the string to construct the count array (in O(n) time). This is reasonable. But the second part about running through the string again just to find the first non-repeater is not good in practice. In real situations, your string is expected to be much larger than your alphabet. Take DNA sequences for example: they could be millions of letters long with an alphabet of just 4 letters. What happens if the non-repeater is at the end of the string? Then we would have to scan for a long time (again).
+We can augment the count array by storing not just counts but also the index of the first time you encountered the character e.g. (3, 26) for ‘a’ meaning that ‘a’ got counted 3 times and the first time it was seen is at position 26. So when it comes to finding the first non-repeater, we just have to scan the count array, instead of the string.  Thanks to Ben for suggesting this approach.
+Following is  implementation of the extended approach that traverses the input string only once. 
+Run on IDE
+Run on IDE
+Run on IDE
+
+Related Problem : K’th Non-repeating Character

@@ -1,0 +1,12 @@
+Given a string, a character, and a count, the task is to print the string after the specified character has occurred count number of times.Print “Empty string” in case of any unsatisfying conditions.(Given character is not present, or present but less than given count, or given count completes on last index). If given count is 0, then given character doesn’t matter, just print the whole string.
+Examples:
+Asked in: Oracle
+
+Implementation:
+1- Start traversing the string. 
+2- Print the string after the index till the string gets traversed in the loop.
+3- If index has reached to the last, then print “Empty string”.
+Run on IDE
+Run on IDE
+Run on IDE
+

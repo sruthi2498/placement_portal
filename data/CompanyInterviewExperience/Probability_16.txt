@@ -1,0 +1,32 @@
+Prosecutor’s fallacy is a very famous but neglected application of Baye’s rule.
+Prosecutor’s fallacy is a fallacy in statistical reasoning. This very famous problem uncovers a loop hole in our logical way of thinking. It is confusion between conditional probabilities – probability of A given B and the probability of B given A.
+So let’s start and understand what this Prosecutor’s fallacy is all about!
+A person commits a crime in a city with a population of say 500000.DNA information is discovered at the crime scene. This information leads to say 10 suspects and one of them is brought to trial. So now we have a defendant in court! Is He/She innocent?
+To solve this case, we need the following events:
+1.    I : The event that the defendant is innocent.
+2.    Ic : The event that the defendant is guilty.
+3.    Ev : The event that the defendant matches the information collected at the crime scene – Evidence.
+The conditional probabilities that corresponds to these events are as follows:
+1.    P(Ev|I) : probability that an innocent person matches the evidence.
+2.    P(I|Ev): probability that a person who matches the description is innocent.
+The prosecutor makes the following argument :
+A random person has a 1 in 100000 chance of matching the damning evidence. Therefore, if a person has the damning evidence then the person must be guilty.
+In other words:
+An innocent person has a 1 in 100000 chance of matching the damning evidence Ev. Therefore, if the defendant has the damning evidence, there is a 1 in 100000 chance that the defendant is innocent. Which means that the defendant must be guilty.
+By making this argument he has committed Prosecutor’s fallacy.
+Mathematically,
+P(Ev|I) : 1/100000
+P(I|Ev) = P(Ev|I) = 1/100000. 
+With this probability anyone can state that the person is guilty and must be punished. But WAIT! This probability is not correct. The prosecutor has changed what is uncertain and the condition around. These two probabilities are usually different.
+So what do we do now! How to calculate the correct value of P(I|Ev)?
+The solution is to use Baye’s rule to calculate the actual value of P(I|Ev).
+P(I|Ev) = P(Ev|I) * P(I)/P(Ev)
+
+
+
+
+
+
+
+
+Source: An Intuitive Introduction to Probability

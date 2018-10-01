@@ -1,0 +1,7 @@
+In C++, we can quickly find array sum using accumulate() 
+Run on IDE
+Output:
+Sum of vector
+Run on IDE
+Output:
+We can also use a custom function in accumulate.  Refer numeric header in C++ STL | Set 1 (accumulate() and partial_sum()) for details.

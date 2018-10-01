@@ -1,0 +1,37 @@
+1st round– written test 30 objective questions along with 3 coding questions. 
+Time allotted 90 Min. It consists of 3 sections:
+1.First section had logical and mathematical aptitude questions. A total of 10 questions.
+2.This was language dependent section. You were allowed to choose any of C/C++/JAVA language and there were 30 questions in this section. The level of difficulty was moderate.
+3.Third section consist of 3 coding questions which were as follows:
+Q-1 Check whether the given strings are anagram of each other. Space has to be neglected.
+Q-2 Three vertices of a triangle were given along with one more point.We have to check whether a given point lies inside a triangle or not.
+Q-3 Given three strings A, B and C. Write a function that checks whether C is an interleaving of A and B. C is said to be interleaving of A and B, if it contains all characters of A and B and order of all characters in individual strings is preserved.
+Questions were not so difficult but have to be attempted in 90 minutes.
+Shortlisted 8/61 students for second round.
+2nd round – Technical questions, Coding questions and HR round all together
+Introduce yourself.
+Share some nice experiences in college.
+Technical Questions
+1. Given an array with base address 4000 and the size of array is arr[20][20]. Determine the address of index arr[3][4].
+2. Function prototype of printf.
+3. How malloc is used and where it is use. Also tell the return type of malloc and why you need to type cast the return type of malloc.Explain it with an example?
+4. If we will take a void*p and int*q and we write q=p. Then what will be the output in C and C++.
+5. In which conditions your copy constructor is called. Mention all the possible condition.
+6. What is the difference between early binding and late binding.
+7. Asked a question on the concept of object slicing.
+8. Asked a question on the concept of late binding.
+9. What is VPTR and V-Table. Where V-Table is actually present and whether it is different for each class or shared among all the classes. And where the VPTR resides ?
+10.The size of class will increase on using a virtual pointer. If yes, explain the reason behind it.
+11. Pure virtual function and its implementation with the help of example.
+Now switched to some Coding Questions
+Q-1 You have a linked list having data, next pointer and random pointer.The data may contain the repeating values. Now to store the whole information in any new data structure except linked list and return that structure so that the other user can make the same linked list with the help of data in new data structure used.
+let suppose the linked list is
+2 –> 3 –> -3 –> 4 –> 5 –> -3
+Now random pointer of 2 is pointing to first -3 and random pointer of 3 is pointing to second -3 and so on…
+Q-2 Segregate R,G,B flag in O(n) and using one variable.
+For eg:- R R G B R R B G G R
+Output should be: R R R R R G G G B B
+Q-3 With the help of which data structure you can implement a parking system for different category of wheeler(2 wheeler , 4 wheeler, 6 wheeler).
+At last
+Why you want to join Morgan Stanley ?
+Total duration of the interview round was about 1 and a half hour..

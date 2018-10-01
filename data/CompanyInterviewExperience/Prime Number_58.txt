@@ -1,0 +1,15 @@
+We need to split a number n such that sum of maximum divisors of all the parts is minimum.  
+Examples :
+
+We need to minimize maximum divisors. It is obvious that if N is prime, maximum divisor = 1. If the number is not a prime, then the number should be atleast 2.
+According to Goldbach’s Conjecture, every even integer can be expressed as sum of two prime numbers. For our problem there will be two cases:
+1) When the number is even, it can be expressed as the sum of two prime numbers and our answer will be 2 because maximum divisor of a prime number is 1.
+2) When the number is odd, it can also be written as sum of prime numbers, n = 2 + (n-2); if (n-2) is a prime number(answer = 2), otherwise. Refer odd number as sum of primes for details.
+n = 3 + (n-3); (n-3) is an even number and it is sum of two primes(answer = 3).
+Below is the implementation of this approach. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

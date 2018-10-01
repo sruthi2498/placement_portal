@@ -1,0 +1,26 @@
+Consider an array of distinct numbers sorted in increasing order. The array has been rotated (clockwise) k number of times. Given such an array, find the value of k.
+Examples:
+
+Method 1 (Using linear search)
+If we take closer look at examples, we can notice that the number of rotations is equal to index of minimum element. A simple linear solution is to find minimum element and returns its index. Below is C++ implementation of the idea.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity : O(n)
+Auxiliary Space : O(1) 
+Method 2 (Efficient Using Binary Search)
+Here are also we find index of minimum element, but using Binary Search. The idea is based on below facts : 
+Below is the implementation taken from here.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity :  O(Log n)
+Auxiliary Space :  O(1) if we use iterative Binary Search is used (Readers can refer Binary Search article for iterative Binary Search)

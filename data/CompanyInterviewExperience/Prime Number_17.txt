@@ -1,0 +1,7 @@
+Vantieghems Theorem is a necessary and sufficient condition for a number to be prime. It states that for a natural number n to be prime, the product of  where , is congruent to . 
+In other words, a number n is prime if and only if.
+
+Examples:  
+Another way to state above theorem is, if  divides , then n is prime.
+Run on IDE
+The above code does not work for values of n higher than 11. It causes overflow in prod evaluation.

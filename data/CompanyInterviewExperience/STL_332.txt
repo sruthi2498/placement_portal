@@ -1,0 +1,14 @@
+Given a multimap and a key of the multimap, our task is to simply display the (key – value) pairs of the given key. In multimap we can have multiple (key – value) pair for the same key. Suppose our multimap contains
+Like in unordered_map in C++ STL we cant fetch values like
+Output : 
+Because the above method will only return the first occurrence of the key present, This method fails if there are multiple (key – value) pairs for the same key.
+There are two ways by which we can achieve the expected results :
+Method 1 (Simple Traversal) Traverse through whole map and whenever the key is equal to given key we display the key-value pair.
+Run on IDE
+Output:
+Method 2(Using Binary Search)Find the lower_bound and upper_bound for the given key and traverse between them.
+lower_bound(key) : returns the iterator pointing to the first element which is greater than or
+equal to key.
+upper_bound(key) : returns the iterator pointing to the first element which is greater than key.
+Run on IDE
+Output:

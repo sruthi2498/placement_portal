@@ -1,0 +1,6 @@
+You are given Q queries. Each query contains an integer k and a person’s information i.e, first name, last name, age. For each query, we need to output Kth person among them if all person information are arrange in ascending order.
+Note: Person A comes before person B if first name of A is lexicographic smaller than that of B. But if first name is same then we compare last name and also if last name also same then we have to compare their ages.
+Given: K will always less than or equal to number of person present.
+Examples:
+Approach: The below algorithm is followed to solve the above problem.
+Run on IDE

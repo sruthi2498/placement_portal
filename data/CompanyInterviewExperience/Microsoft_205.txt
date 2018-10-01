@@ -1,0 +1,28 @@
+Recently Microsoft visited our campus for IDC internship program and following is my interview experience.
+Online MCQ Round: It consist of 15 MCQ Questions on Cocubes.com.This was an easy round and consists of mainly output questions of c++/Java .
+Apart from this some questions on OOPs and Operating Systems.
+
+Online Coding Round:
+Two coding problems in one hour,again on Cocobues.com
+1. Given two arrays of numbers. The numbers are from 0-9 you have two maximize the first array by using the elements from the second array.
+2.Given a matrix of characters and a word.
+you have to count the number of occurrences of that word in that matrix. you can move to any of the eight valid directions from current position.
+I was lucky enough to get selected.
+All other rounds were taken at Microsoft IDC hydrabad centre.
+Elimination Round:
+One Coding question was given to all the students ,You have to code and explain it.
+You are given an string as input which represents a path. You have to normalize that path inplace(NO EXTRA SPACE).
+Hint: Double dot(..) means you have to skip the previous parent.
+Interview Round I:
+Firstly,Tell me about yourself and some discussion on projects and what i have learnt till now.
+Coding Question on pen & Paper: You have a Binary tree having numbers>=0 and a numeber N.
+Print all downwards paths from any node having the sum of elements equal to N.
+I gave a simple recursive algorithm then he ask me to optimize, then after around 10 min i gave him another solution a little bit optimized. He again ask me to optimize more. I tried but can’t do more optimisation ,So he ask me write code and said the main purpose of the interview is to write the correct code.
+Interview Round II:
+The interviewer asked me what i have done in technical till now, and saw my resume for a while, then gave me a question which i have to code and explain.
+You have a cuboid (m*n*p) each block of the cuboid is having a metallic ball.
+Now we are passing X-ray from front face and getting a bool matrix1 of m*p the elements are set if there is a black spot.(as we are passing X-ray) and another matrix2 of n*p by passing X-ray from right face.
+Now you have to print the co-ordinate (i,j,k) where mettallic balls are present.
+Is it possible to get the accurate result from given data or you need more data. If you need more data then what data you need ?
+I explained my approach to him , made a code and asked him to provide me more data ( The m*n matrix ) to get the more accurate result.
+A Big Thanks to GeeksForGeeks.

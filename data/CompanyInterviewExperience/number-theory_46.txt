@@ -1,0 +1,7 @@
+According to Euclid Euler Theorem, a perfect number which is even, can be represented in the form  where n is a prime number and  is a Mersenne prime number. It is a product of a power of 2 with a Mersenne prime number. This theorem establishes a connection between a Mersenne prime and an even perfect number.
+Approach(Brute Force):
+Take each prime number and form a Mersenne prime with it. Mersenne prime =  where n is prime. Now form the number (2^n – 1)*(2^(n – 1)) and check if it is even and perfect. If the condtion satisfies then it follows Euclid Euler Theorem. 
+
+Run on IDE
+Run on IDE
+Explanation of the outputs are provided in the the explanations to the examples above.

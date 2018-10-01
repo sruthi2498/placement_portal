@@ -1,0 +1,7 @@
+Given two numbers n and k, find whether there exist at least k Special prime numbers or not from 2 to n inclusively.
+A prime number is said to be Special prime number if it can be expressed as the sum of three integer numbers: two neighboring prime numbers and 1. For example, 19 = 7 + 11 + 1, or 13 = 5 + 7 + 1.
+ Note:- Two prime numbers are called neighboring if there are no other prime numbers between them.
+
+To solve this problem we need to find prime numbers in range [2..n]. So we us Sieve of Eratosthenes to generate all the prime numbers from 2 to n. Then, Take every pair of neighboring prime numbers and check if their sum increased by 1 is a prime number too. Count the number of these pairs, compare it to K and output the result.
+Below is the CPP implementation of the above approach:-
+Run on IDE

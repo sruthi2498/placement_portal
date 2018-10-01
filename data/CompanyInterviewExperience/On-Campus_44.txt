@@ -1,0 +1,30 @@
+Round 1:
+The first round was an online coding round which consisted of 3 coding questions to be attempted in 90 minutes.
+Question 1 :-
+There is a meeting scheduled in an office that lasts for time t and starts at time 0. In between the meeting there are n presentations whose start and end times are given i.e. the ith presentation starts at s[i] and ends at e[i]-1. The presentations do not overlap with each other. You are given k, the maximum number of presentations that you can reschedule keeping the original order intact. Note that the duration of the presentation can’t be changed. You can only change the start and end time. Your task is to maximize the longest time period in which there is no presentation scheduled during the meeting.
+Constraints :-
+1<=t<=1, 000, 000, 000
+0<=k<=n
+1<=n<=100, 000
+e[i]<=s[i+1],   0<=i <n-1
+s[i] < e[i] for 0<=i<=n-1
+ 
+Question 2 :-
+You are given a n x  m grid consisting of values 0 and 1. A value of 1 means that you can enter that cell and 0 implies that entry to that cell is not allowed. You start at the upper-left corner of the grid (1, 1) and you have to reach the bottom-right corner (n, m) such that you can only move in the right or down direction from every cell. Your task is to calculate the total number of ways of reaching the target.
+Constraints :-
+1<=n, m<=10, 000
+ 
+Question 3 :-
+You are given a list of edges in a graph and for each pair of vertices that are connected by an edge, there are two edges between them, one curved edge and one straight edge i.e. the tuple (x, y, w1, w2) means that between vertices x and y, there is a straight edge with weight w1 and a curved edge with weight w2. You are given two vertices a and b and you have to go from a to b through a series of edges such that in the entire path you can use at most 1 curved edge. Your task is to find the shortest path from a to b satisfying the above condition.
+ 
+Round 2:
+This was a technical round and lasted for about an hour. I was asked to design a Snakes And Ladder game and code the same in the language of my choice. I used random numbers to design the board and following which I was asked to play the game between two players and I coded the same. He introduced a trick to the question and asked me to rate the difficulty of the board. I thought in terms of the shortest path(Breadth First Search) from start to the end but he said that a better approach would be to calculate the probability of reaching a particular number from the start. So I used Dynamic Programming to calculate the probability of reaching a particular number in x number of moves where 1<=x<=maximum cap on the number of moves following which a tie would be declared. He then asked me that he didn’t want a game that would finish in just 15 moves as that would make the game boring. So I was told to  calculate the probability that the game finishes in 15 to  100 moves. Finally he asked me to tell just by looking at the position of the players that who was in the winning position at that moment. He was satisfied by my responses.
+Round 3:
+This was a problem solving round and lasted for 75 minutes. He gave me a very complicated question. Here it goes…
+There are 3 integers a, b, w.
+There  are 2 equations –
+I was given the value of w and he asked me to calculate the number of pairs (a, b) satisfying the two equations. Assume  that there are no overflows. I used Recursion + Bitmasking to solve this and he seemed satisfied with my approach though I required some of his help as well.
+ 
+P.S.  :- I got a call for an offer 3 hours later.
+ 
+ 

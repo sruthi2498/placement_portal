@@ -1,0 +1,10 @@
+Prerequisite: std::search
+std::search_n is an STL algorithm defined inside the header file , which is used to search whether a given element satisfies a predicate (equality if no such predicate is defined ) a given no. of times consecutively with the container elements.
+It searches the range [first, last) for a sequence of count elements, each comparing equal to a given value (version 1) or satisfying a predicate (version 2).
+The function returns an iterator to the first of such elements, or an iterator to the last element of the container, if no such sequence is found.
+The two versions of std::search_n are defined as below –
+Syntax:
+Run on IDE
+Output:
+Run on IDE
+Output:

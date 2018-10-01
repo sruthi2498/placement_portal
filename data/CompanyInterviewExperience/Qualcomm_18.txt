@@ -1,0 +1,55 @@
+It was really good experience at Qualcomm. I was interviewed for Associate Software Engineer and have an experience of an year, first by telephonic round and then F2F interview.
+Round-1 Telephonic around: 70 minutes (Taken by 2 persons)
+1. All they asked at first was about Projects done in my company and at college level.
+2. Then main thing they ask was OS and its concepts:
+         a. Memory management.
+         b. CPU scheduling.
+         c. Deadlock and its real time examples.
+         d. Questions on how two processes can communicate in OS, give different ways.
+3. Coding questions:
+         a. Reverse a linked list. (https://www.geeksforgeeks.org/write-a-recursive-function-to-print-reverse-of-a-linked-list/)
+         b. Print left view of a binary tree.(https://www.geeksforgeeks.org/print-left-view-binary-tree/)
+         c. Implement your own memcpy.
+After completion of this round they asked me if I can travel to Hyderabad for further rounds.At 7th January 2017 I gave F2F interview.
+Round-2 F2F:120 minutes
+He started with simple intro then explained me the position for which interview was going on.
+1. Then after he asked me about all of the projects on which I have worked till this time.
+He also asked different situations like how you use to fix the issues of memory overflow, crashes in your current company.
+2. Questions on big and little endian:
+           a. Their notation and what are the different OS which one is big endian and which one is little endian.
+            b. You have one code now this code must work on both little and big endian in same way how will you do that: I gave solution of having different macros for different OS like for linux, windows it will work as little endian and another macro for SUN and motorola OS it will work as big endian.
+           c. Some more explanations on  this topic only.
+3. Find the word in given para :
+           This is my island of love and it is meant for kids of 10 years.
+     Now you have to find word ‘is’ in this given para(word can come in other word) whose count is 4. Then implement the same logic, if you have to find ‘is’ if it separate word.
+They asked me the different solutions for this question using “strcmp” and your own logic.
+I gave solutions via hashMap and normal word searching and strcmp.
+4. He gave me 10 output questions based on pointers.
+5. Again he asked me some basic questions on programming like one x.h file is included in another y.cpp file and x.h file is included in z.h file and z.h is included in a.cpp now asked me several questions like which file have which variable accessed and what is the order of print statements and etc questions.
+
+Round-3 F2F: 80 minutes
+In this round he asked me about questions asked in previous round.
+1. Then he started with questions on OS
+         a. Process and thread difference.
+         b. How will you handle 2 thread working on same MAP.Then asked several questions on mutex and different types of locking systems.
+         c. Questions on Storage classes in C.
+2. Reverse the bits of a number.(https://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
+3. https://www.geeksforgeeks.org/find-distance-two-given-nodes/
+    In the above question he asked me about call stack of the program.
+4. Use of stack and queue DS.
+5. Difference between stack and heap memory. Asked me to explain by writing a simple program.
+6. Questions on Function pointers and usage.
+Round-4 F2F: 80 minutes
+This round was more logical and was tough because in this round I was asked basic questions on pointers and how memory is accessed by different functions.
+1. He asked me to explain Inline function.Then asked me which are the cases where inline would not work.He asked me internals of inline how it works and why this function works more faster then any other normal function.He asked me is there is any common thing between function pointer and inline function.
+Afterwards he also explained some points in this topic to me.
+2. He told me to write my own sizeof operator (https://www.geeksforgeeks.org/implement-your-own-sizeof/)
+3. Program to Detect loop in a circular linked list.
+4. He also asked the question : Reverse the bits of a number and count the number of set bits in the given number.
+5. Many questions on static variable and static function.
+Round-5 F2F: 20-30 minutes [Manager round, HR round]
+1. He asked me about my previous company and projects done there.
+2. Then explained about the position.
+3. He asked me about my joining and all and all basic questions is work interesting or not.
+4. Why Qualcomm? Relocation? salary expectation?
+NOTE: One must be clear with pointers and memory management and DS questions. Basics of C is they ask a lot.

@@ -1,0 +1,28 @@
+The Fibonacci numbers are the numbers in the following integer sequence 0, 1, 1, 2, 3, 5, 8, 13…
+Mathematically Fibonacci numbers can be written by the following recursive formula.
+Before proceeding with this article make sure you are familiar with the recursive approach discussed in Program for Fibonacci numbers
+Analysis of the recursive Fibonacci program:
+We know that the recursive equation for Fibonacci is =++.
+What this means is, the time taken to calculate fib(n) is equal to the sum of time taken to calculate fib(n-1) and fib(n-2). This also includes the constant time to perform the previous addition.  
+On solving the above recursive equation we get the upper bound of Fibonacci as  but this is not the tight upper bound. The fact that Fibonacci can be mathematically represented as a linear recursive function can be used to find the tight upper bound.
+Now Fibonacci is defined as  
+ = +
+The characteristic equation for this function will be
+ = +
+ – – = 
+Solving this by quadratic formula we can get the roots as
+ = (+)/ and =( – )/
+Now we know that solution of a linear recursive function is given as
+ =  + 
+where  and  are the roots of the characteristic equation.
+So for our Fibonacci function  = + the solution will be 
+ = +
+Clearly  and  are asymptotically the same as both functions are representing the same thing.
+Hence it can be said that
+ = 
+or we can write below (using the property of Big O notation that we can drop lower order terms)
+ = 
+ = 
+This is the tight upper bound of fibonacci.\
+Fun Fact:
+1.6180 is also called the golden ratio. You can read more about golden ratio here: Golden Ratio in Maths

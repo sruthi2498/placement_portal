@@ -1,0 +1,12 @@
+Sequence Containers:
+In standard template library they refer to the group of container class template, we use to them store data. One common property as the name suggests is that elements can be accessed sequentially.
+Each of the following containers use different algorithm for data storage thus for different operations they have different speed. And all the elements in the containers should be of same type.
+Associative containers:
+In standard template libraries they refer to the group of class templates used to implement associative arrays. They  are used to store elements but have some constraints placed  on their elements.
+And two important characteristics of these containers are 
+These are the  following which comes under associative containers
+Sequence vs associative (complexity wise)
+In sequence containers
+In associative containers, mos complexities are in logarithmic terms    
+Unordered Associative Container
+Note that every associative container has unordered associative container which contains elements without any specific order. Examples of unordered associative containers are unordered_set, unordered_map, unordered_multimap, unordered_multiset.

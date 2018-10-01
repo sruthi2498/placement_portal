@@ -1,0 +1,6 @@
+You are given a string s(only lowercase alphabets) with length n. Print the position of every character of the String it must acquire so that it will form a palindromic string.
+Examples :
+
+The idea is to create an array of vectors (or dynamic size array) which stores all positions of every character. After storing positions, we check if count of odd characters is more than one. If yes, we return “Not Possible”.  Otherwise, we first print first half positions from the array, then one position of odd character (if it is present) and finally second half positions.
+Run on IDE
+Time Complexity : O ( n )

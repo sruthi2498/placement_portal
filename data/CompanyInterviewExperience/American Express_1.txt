@@ -1,0 +1,32 @@
+American Express visited our campus with 6+ CGPA criteria for two profiles: Analyst(6-month internship), Tech(6-month internship) & Tech(FTE). For different branches like CSE, ECE. For CTC 9.83 LPA. But from experience CTCs are dependent upon colleges for freshers 😉
+Unlike other interview experiences for amex in gfg, in our college the interview procedure was good & very well structured indeed. Ranking basis were a cumulative of coding questions solved + correct aptitude questions for both the profiles. No gender biases like other experiences mentioned in gfg for amex ;).
+I applied for analyst profile as job description( on careers at Amex ) looked interesting as compared to technical profile and I was also eligible for this profile only 😉
+Shortlisting Round(Analytics): Online Test. 50 MCQs including Java, C, C++, SQL, Aptitude, Logic Based, Verbal. 2 coding questions were also there. Multiple Sets. Approx. 30 were shorlisted.
+
+Two Problems for me were implementation based Arrays, String coding questions. One easy, One medium with 30 mins in hand.
+For others DP questions as medium one were there.
+Shortlisting Round(Technical): Online Test. 50 MCQs including Java, JS, C, C++, SQL, Aptitude. Complete technical spectrum questions were asked from topics like HTML/CSS, JS, XML, OS etc. 2 coding questions were also there. Multiple Sets. Above account is from discussion with other students from technical profile. Approx. 25 were shorlisted.
+
+Shortlisting/Merit List was based on cumulative score coding questions and correct MCQs attempted. After this three rounds were there for both the profiles.
+Round 1(10:00 am): This round started with general introduction, my resume was reviewed. Questions from resume were asked, Internship experience, Why Amex? Why analyst profile when you have such a technical profile ? Strongest Language and How would you rate yourself(Java, 9.5 ;))? After this, SQL queries based on GROUP BY clause and HAVING keyword were asked.
+To others puzzle problems(like defective ball detection, 3-bulb & 3-switch), some Java programming questions. Why such bad coding score ? were asked to those who didn’t solved any question.
+Immediately after, I was called for round 2.
+Round 2(10:30 am): In this round again similar questions like, Why analyst profile when you have such a technical profile ? Have you given technical profile test ? Any Previous PPOs ? Any data science related experience etc. ? Previous projects were asked in data science. Then a case-study was asked, in which I barely survived.
+Case-Study: In your city there are two yearly fest: Rock-Fest, Lit-Fest. Provide analytics on Why Hotels in your city should connect with Amex. Provided you are given transaction informations, Demographics information is with you.
+I finally reached to an acceptable solution xD It was quite clear that it might be last round. After this round even an extra list of around 10 student approx. was also announced for technical profile. But still some hope after 2 hrs, called for final interview.
+Round 3(12:30 pm): This was the final with two directors from Amex. It was the most technical round ever as compared to previous ones. Questions asked in this round were almost all the domains of CSE also as per resume. Here, is the list of questions tech, non-tech etc.
+1. Why Amex, when already have a PPO ? How much technically strong are you (Very much 😉 ) ?
+Then technical round started.
+2. Define “High Availability”. I replied in cloud context. Then some cloud computing questions, very basic. Enterprise application design question, very basic( Based on resume ).
+3. Recursively delete files from directory? After asking me do you use linux( Everyday 😉 ) ? I only knew about ‘-r’ keyword from shell scripting for recursive scripting and ‘rm’ command. Combined them for answer.
+4. Any new courses? Deep Learning & BlockChain( I replied) What is Blockchain & some industry example of it ? Why deep learning and how are you learning it, advantages, use-cases ?
+5. Define a secure protocol for communication which is fast and easy to use ? Two factor authentication ?
+6. What is encryption? Explain public key-private key mechanism? Describe an encryption algorithm? (Instead of usual SHA-256, I explained RSA).
+7. What are CI softwares? What are the advantage of this? Jenkins, how does it work, advantages?
+8. Do you use github( almost daily 😉 ) ? Two new files added by you local machine, how to commit, All exact commands & ideal work-flow for commit process ?
+9. Some questions about core courses. Some data-structure basic questions.
+Mostly my interview was from extra practical topics and knowledge instead of book/syllabus oriented interview.
+After that Internships were offered in analytics profile( result declared earlier  ), which I didn’t got selected into and went hostel to sleep 😉 But, around 5/6 were selected for internship.
+AND
+Before the 3rd technical interview they shifted me to technical profile, being aware of my PPO. But, didn’t mentioned to anyone. When the result of technical round was announced, I received my FTE  offer from Amex. Also, only one FTE offer was made with 5/6 internship offers in technical profile.
+Thanks!!

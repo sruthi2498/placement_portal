@@ -1,0 +1,16 @@
+Suppose there are n towns connected by m bidirectional roads. There are s towns among them with a police station. We want to find out the distance of each town from the nearest police station. If the town itself has one the distance is 0.
+Example:
+Naive Approach: We can loop through the vertices and from each vertex run a BFS to find the closest town with police station from that vertex. This will take O(V.E).
+Naive approach implementation using BFS from each vertex:
+Run on IDE
+Output:
+Time Complexity: O(V.E)
+Efficient Method A better method is to use the Djikstra’s algorithm in a modified way. Let’s consider one of the sources as the original source and the other sources to be vertices with 0 cost paths from the original source. Thus we push all the sources into the Djikstra Queue with distance = 0, and the rest of the vertices with distance = infinity. The minimum distance of each vertex from the original source now calculated using the Dijkstra’s Algorithm are now essentially the distances from the nearest source.
+Explanation: The C++ implementation uses a set of pairs (distance from the source, vertex) sorted according to the distance from the source. Initially, the set contains the sources with distance = 0 and all the other vertices with distance  = infinity.
+ On each step, we will go to the vertex with minimum distance(d) from source, i.e, the first element of the set (the source itself in the first step with distance = 0). We go through all it’s adjacent vertices and if the distance of any vertex is > d + 1 we replace its entry in the set with the new distance. Then we remove the current vertex from the set. We continue this until the set is empty.
+  The idea is there cannot be a shorter path to the vertex at the front of the set than the current one since any other path will be a sum of a longer path (>= it’s length) and a non-negative path length (unless we are considering negative edges).
+ Since all the sources have a distance = 0, in the beginning, the adjacent non-source vertices will get a distance = 1. All vertices will get distance = distance from their nearest source.
+Implementation of Efficient Approach:
+Run on IDE
+Output:
+Time Complexity: O(E.logV)

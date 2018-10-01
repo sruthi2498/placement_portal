@@ -1,0 +1,17 @@
+Given a matrix with 0 and 1’s, find the largest rectangle of all 1’s in the matrix.  The rectangle can be formed by swapping any pair of columns of given matrix.
+Example:
+The idea is to use an auxiliary matrix to store count of consecutive 1’s in every column.  Once we have these counts, we sort all rows of auxiliary matrix in non-increasing order of counts.  Finally traverse the sorted rows to find the maximum area.
+Note : After forming the auxiliary matrix each row becomes independent, hence we can swap or sort each row independently.It is because we can only swap columns, so we have made each row independent and find the max area of rectangle possible with row and column.
+Below are detailed steps for first example mentioned above.
+Step 1: First of all, calculate no. of consecutive 1’s in every column. An auxiliary array hist[][] is used to store the counts of consecutive 1’s. So for the above first example, contents of hist[R][C] would be 
+Time complexity of this step is O(R*C) 
+Step 2:  Sort the rows in non-increasing fashion. After sorting step the matrix hist[][] would be 
+This step can be done in O(R * (R + C)).  Since we know that the values are in range from 0 to R, we can use counting sort for every row.
+The sorting is actually the swapping of columns. If we look at the 3rd row under step 2:
+3 3 1 0 0
+The sorted row corresponds to swapping the columns so that the column with the highest possible rectangle is placed first, after that comes the column that allows the second highest rectangle and so on. So, in the example there are 2 columns that can form a rectangle of height 3. That makes an area of 3*2=6. If we try to make the rectangle wider the height drops to 1, because there are no columns left that allow a higher rectangle on the 3rd row.
+Step 3: Traverse each row of hist[][] and check for the max area.  Since every row is sorted by count of 1’s, current area can be calculated by multiplying column number with value in hist[i][j].  This step also takes O(R * C) time.
+Below is C++ implementation based of above idea.
+Run on IDE
+Output: 
+Time complexity of above solution is O(R * (R + C)) where R is number of rows and C is number of columns in input matrix. Extra space:  O(R * C)

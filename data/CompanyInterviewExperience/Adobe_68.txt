@@ -1,0 +1,28 @@
+Adobe came for recruitment in my college. Here is my experience-
+First round was an online round-
+There were some aptitude questions and 3 coding questions.
+I remember only 1 ques out of the three.
+You are given the height of n towers and value k. You have to either increase or decrease the height of every tower by k. You need to minimize the difference between the height of the longest and the shortest tower and output this difference. I solved this in O(n2)
+First interview:
+1.       You are given an array of characters which is basically a sentence. However there is no space between different words and the first letter of every word is in uppercase. You need to put a single space between these words and convert the uppercase letters to lowercase. There are some extra spaces available in the array at the end.
+Eg. “MyNameIsRam     ” , you need to convert this to “my name is ram”
+I first told him an O(n2) approach but the interviewer asked me to optimise so I came up with an O(n) time and O(1) space algo.
+2.       Find the intersection point of two linked lists. This is given on gfg.
+3.       Then he asked me some question on dynamic memory allocation which I don’t exactly remember. Also asked about new, delete, malloc, free.
+
+Second interview:
+The interviewer asked me to introduce myself. After this there was long discussion on my internships and the projects I had done. I had done a project on machine learning so a long discussion went in this. Then some questions related to my CV. In the end he asked me a few questions on dynamic memory allocation and pointers.
+
+Third Interview:
+This was a very long interview.
+1.       He asked me to implement a spell checker- first check if it is the correct word and then check words which are similar to the given word. Eg how google shows in Did you mean!
+2.       What happens when you type a url in the browser? After this question there was a long discussion on how a browser displays a web page(HTML, CSS etc).
+3.       Convert an array to balanced binary search tree
+4.       Find duplicates in a string
+5.       Implement quick sort
+6.       Also some questions on different sections of memory of a computer(heap,stack,data etc)
+Fourth interview- HR
+
+There were some general HR questions like Why adobe, where do I see myself after x years, how was the entire recruitment process, my strengths and resume related questions.
+Thanks geeksforgeeks! J
+

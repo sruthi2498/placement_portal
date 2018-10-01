@@ -1,0 +1,54 @@
+1st round (machine coding)
+You are given a catalog of books, which have following attributes.
+                Name
+                Author
+                Publisher
+                Publish year
+                Category
+                Price
+                Count (sold)
+Implement following APIs on top of this catalog
+                addBookToCatalog(Book)
+                searchBook(by partial book name/author)
+                getMostSoldBooks(by author name/category, limit)
+Expectations:
+         Maintain DB on memory
+         Code should be readable. Design, handle naming convention,handle exceptions & should be running 
+2nd round (code evaluation & discussion)
+1) Discussion on design (interfaces & extension)
+2) Discussion on data structures (trie)
+3) Discussion on sorting
+3rd round (problem solving)
+1) Head -> a -> b .. ->Tail
+                Every node has a random pointer, pouting to a random node or null.
+        You are given a dice (completely biased – you decide which one you want)
+What is the minimum number of dice tosses required to reach Tail from Head?
+Hint: Problem can be boiled down to snake&ladder problem, where forward pointer is a ladder & backward pointer is a snake.
+2) N people are there.
+                knows(A,B) return true if A knows B, else false.
+                Celebrity: A is called a celebrity
+                            If A knows none
+                            Everyone knows A
+Get celebrity, with less number of knows() method usage.
+3) Dictionary of words is given
+         i.e. [“cat”, “dog”, “rat”, “catratdog”, “catter”]
+         Compound word: A word, which can be split into more than 1 valid words
+get compound word, with longest string length.
+4th round (Design)
+Design notification system (notify the customer with a message)
+                Client (delivery boy, company updates etc)
+                Services (Email, SMS, Watsapp)
+                Scaling up, fault tolerance & failure management
+                Flexible modifiability of clients & services
+5th round(Senior Manager)
+1) His info & organization profile
+2) My intro
+3) Exciting tasks that did at job? – Discussion technically
+4) Strengths & weaknesses
+5) Feedback to the manager, how an ideal manager should be?
+6) Why flipkart?
+6th round (HR – casual)
+1) How is the day, how are the interviews?
+2) Any offers?
+3) Compensation expected?
+

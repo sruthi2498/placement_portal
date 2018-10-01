@@ -1,0 +1,43 @@
+I applied through employee referral for the post of Android App developer Intern
+They gave us one week task to build a simple android app to list all the apps installed on user smart phone in recycler view and delete the user selected apps in one go using Accessibility service (Only Bonus Task in Assignment). This task to be done from Home
+They gave us one week time and called for an FTF Interview at Times Internet, Noida Film City Office
+Round1 (1.5 hour): I was introduced to 1-2 year experienced Android Developer
+He asked about my project in well detail. Why I did this project? He even tested all my previous app from Play Store and asked questions for the same.
+He asked me to explain the most challenging project in Android.
+He asked assume a situation when you want to display least used app of user smart phone then how will you implement it?
+I told him that we can make a service which will run in background and make a count of all the application launched by the user. The one with Zero count in let say 10 days is least recently used app.
+He said with your approach it will take minimum 10 day, what if I want this information at 0th Day just when app is installed?
+After 5 min I gave him two approaches as follows
+– In our servers we can list some most common un-used app based on Analytics.
+– We can calculate User Data of the app and sort the apps based on that
+He said do you know about this no *#*#4636#*#*
+I quickly told him yes that I read this on Quora other day
+I told him the approach we can apply using above number to calculate the recently used apps using accessibility service but I told him that it won’t be perfect solution.
+He was satisfied  
+He asked me what you know about Rooting? What happen when we root a smart-phone? Have you rooted your smart-phone?
+After that he said OK you will be next interviewed by 4-5 year experienced developer of Ganna.com
+–Round 2 (1 hour)-
+After 5 min 3 people came in they introduced themselves and asked my favorite language.
+I said for programming C, C++ and for development Java (Android)
+Q1. One of them asked to implement Hash map using Set in Java.
+I told him that I am not that good in Hash map in Java but I told him that I know unordered map and unordered set in C++. He said Ok go on explain it.
+Q2. After that another guy asked me to write code to find mirror of the binary tree on paper.
+Told him the approach He was satisfied.
+Q3.  Print the following pattern
+-Explained
+Q4. They asked me given an array print the element with second last occurrence frequency
+     ex. 4 3 6 3 1 5 6 3 8 8 8 8
+Output: 3
+I told him n^2 approach. He asked me to reduce the complexity till O (NlogN)
+After 5 min I gave him an approach by sorting all the elements in O (NlogN) and then traversing the array by maintaining 4 variables (Max count and Second Max Count and 2 characters)
+Final solution with O (NlogN) + O(N)
+He seems satisfied
+Round 3 (1 hour):
+The same guy from Round 1 came and told me that I did well in previous round. Cheers!
+After that there was a rapid fire round and questions were like
+What is ADB, Fragments Life cycle, Activity Life Cycle, 9 patch image, Receivers in Android, How to share the values  from one intent to other , what’s the difference between Recycler View and List view? Why Recycler is fast? Retrofit, Volley, AsyncTask (I mentioned them in my resume) and lot more questions
+I was not able to answer all of them and straight away told them I don’t know and I am making a guess.
+He said don’t worry Cool
+He told me about the project they are working on in well detail and asked general question like What’s your future plans, Rate yourself on scale of 10.
+Big thanks to GeeksforGeeks for helping me with Data Structure and Algorithms. You guys are doing great.
+

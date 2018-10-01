@@ -1,0 +1,33 @@
+Recently, ThoughtWorks visited our campus for the recruitment process.
+Some must-read articles about ThoughtWorks
+Round 1: 
+Short Coding: The 5 coding questions were given to us, the duration was of 40 mins. The questions were easy. I completed all 5 questions within 20 min as I practiced many questions on Geeksforgeeks.
+Suggestions: Solve questions on 1. https://practice.geeksforgeeks.org/Easy/0/0/ 2.CodeFights
+Round 2:
+It was ThoughtWorks OOP round. We were provided with the question, “Electricity Billing System for home“. The corresponding power usage of home appliances(Fan, AC, Fridge, Light) was given to us. We had given time span of 45 min. to model this question. I used “Factory Design Pattern” to model this problem. Later on for next 45 mins. one ThoughtWorker joined me to improve my solution strategy. Due to the use of “Factory Design Pattern”, he was impressed by me :). He suggested me some improvements and I worked on them, and got selected for the next round.
+Suggestion:
+To clear this round I practiced many problems based on design patterns. I was good in 5-6 design patterns, so I used to model every question using only those 5-6 patterns. 5-6 Design patterns are more than enough.
+Solve standard problems like MarsRover, Snake & Ladder & you will find many more on the Internet.
+Series on Medium Blog: https://medium.com/search?q=Object-Oriented%20Analysis%20And%20Design%E2%80%8A
+http://www.java67.com/2016/07/top-5-object-oriented-design-interview-questions.html
+Search on the Internet, you will find many such oop problems.
+Round 3:
+Tech1: There were 2 ThoughtWorkers to interview me. The round started with the “Design Traffic System“. We had a great discussion on it. I started with the class diagram on the glass board, then I expressed my views about the design, during this, they helped me to improve my design & object orientation. The most important part here is to express your views, share what you are thinking continuously with them.
+Then suddenly he asked me to solve Sudoku (9 *9) grid puzzled. I took 2-3 minuted to think upon it, I gave them Backtracking solution similar to famous 8 Queen Problem.
+Find all permutation of String without Library, while I was giving them backtracking solution he asked me to draw an intermediate recursive tree state, I managed to draw recursion tree 🙂
+Remove loop in the linked list using 2 pointers. I  took a few minutes to provide the solution.
+Internal working of Java garbage collector, I told them about working of the”Mark and sweep” algorithm, its need, and wrote some code.
+Next subject was Networking, the questions were 1.Longest Prefix Match 2.HTTP vs HTTPS 3. Gateway 4. What happens when we type google.com (as expected 🙂 ) 5.Circuit switch
+The discussion then moved towards “Paging in OS“, I started explaining the concept from very basic with each and every minute detail.
+Finally, long Tech1 was finished. I managed to give the answer to almost every question.
+Later on, HR gave feedback that, the interviewing panel was happy with my performance 🙂
+Suggestion:
+Geeksforgeeks is sufficient enough to clear this round.
+Round 4:
+Due to my good performance in Tech round, they directly pushed me to next round. But some of my friends had their HR round on Skype.
+Round 5:
+Here also, they combined their 2 rounds (Leadership & Social Justice) which were based on their 3rd pillar i.e. Economical and Social Justice. I was already prepared for this round. Here, I expressed my views while discussing on topics like Reservation in India, Women Empowerment, Transgender Issues, Cast Discrimination etc with them.
+Suggestion: Be Original that’s enough to clear this round.
+Finally, at the end of the day, they announced the result. I got the offer from them :):).
+Tips:
+If you have less than 2 months in your hands, then don’t go for books, famous Java video series, etc. Geeksforgeeks is really more than enough to crack your campus interview.  Happy Learning :).

@@ -1,0 +1,14 @@
+Given an array of integers you have to find three numbers such that sum of two elements equals the third element.
+Examples:
+Question source : Arcesium Interview Experience | Set 7 (On campus for Internship)
+
+Simple approach: Run three loops and check if there exists a triplet such that sum of two elements equals the third element.
+Time complexity : O(n^3)
+Efficient approach : The idea is similar to Find a triplet that sum to a given value.
+Time complexity : O(n^2)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

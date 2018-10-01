@@ -1,0 +1,28 @@
+I would like to start off by thanking the entire community of GeeksforGeeks for helping me out. 
+Attempt 1
+Round1:
+1. Given a number N, find the number of correct combination of parentheses possible.
+2. Print all root to leaf paths using iterative algorithm in linear time.
+Round 2:
+1. Given ‘m’ and ‘n’ (m < n), print all nodes between levels ‘m’ and ‘n’ in level order.
+2. Print a matrix in spiral order.
+Round 3:
+1. Check if two trees are mirror images of each other.
+2. Given inorder and preorder traversals, build a binary search tree.
+3. Print all the boundary nodes of a given binary tree.
+I was rejected after this round. I applied again after few months.
+Attempt 2
+Written Round(on HackerRank):  It contained 3 simple questions on data structures. Duration 60 mins.
+F2F – Round 1:
+1. Given a singly linked list and a value ‘k’ such that kF2F – Round 2:
+1. Given a BST and given that 2 nodes are swapped in the tree. Identify the 2 swapped nodes.
+2. Given a BST and 2 nodes. Identify the length between the two nodes of the tree.
+F2F – Round 3:
+1. Detailed discussion of current projects.
+2. How would you design the meeting invite feature of Microsoft Outlook? Considering each meeting invite as an object and that Web server is the storage space for the invites, design a data structure to receive and send invites to user in an efficient manner. The message objects must be received in a sorted manner based on the time of meeting. I gave an O(NlogN) solution and he was pretty impressed. I was then asked to code it.
+3. An array is given whose every ith index is the child node of a[i] as shown in the example below. The root node is represented by -1. Find the height of the tree.I did it in linear time.
+F2F – Round 4:
+1. Cultural info and projects discussion. What errors have you performed in your career path? What are the major challenges that you faced?…and other such questions.
+2. Design a parking lot system. She was very much concerned with all the edge cases.
+3. How would detect whether a singly linked list is a palindrome or not?I gave a solution with O(n) time and space complexity. But she asked to optimize it further with O(1) space complexity.
+

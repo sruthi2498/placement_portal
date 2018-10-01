@@ -1,0 +1,23 @@
+Round 1 – Telephonic
+1. Find element in an array which have elements in first increasing and then decreasing order. (code)
+2. Find if two nodes in a tree are cousins or not. (code)
+Round 2
+1. Find sum of all numbers that are formed from root to leaf path (code) expected time complexity O(n)
+2. Zig-Zag level order traversal.
+3. Preorder traversal without using recursion.
+Other questions related to my work in my current company
+Round 3
+1. Grilled me about my current company and current work.
+2. Print top view of a binary tree (code)
+3. Why amazon?
+Round 4
+1. Find median of an unsorted array. (code)
+2. General discussion on heaps
+3. A stream of characters is coming, at any moment you have to tell ‘k’ elements closest to a given number (code)
+Round 5 (Bar raiser)
+1. Design a system which would make a schedule for a user to complete a book in given number of days. A pre condition is that the schedule for every day should end at the end of some chapter.
+Ex – 3 chapter with 10 pages each and user has to complete this book in 2 days, then the schedule should be either be 2 chapters on first day and 1 chapter on second or 1 chapter on first day and 2 chapters on second. (code)
+2. Tell me about a time when you couldn’t implement the best solution because of a close deadline.
+3. What did you do about it afterwards.
+4. General design pattern related questions like what if we use singleton design pattern for question 1
+

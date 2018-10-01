@@ -1,0 +1,55 @@
+D.E Shaw & Arcesium (A spin-off from D.E Shaw which happened very recently)  came to our college for recruitment.
+So here is my experience .
+Written Round :
+20 Maths aptitude ( Hard ones )
+20 Programming aptitude ( C , C++ , Java )-Many (OS , Networks, DBMS)-Few
+One Coding Question .
+The results were announced and 15 people were shortlisted.
+Round 1 : ( HR )
+They saw my photography blog, and asked me a few questions regarding it first.
+1. What qualities in you made you a photographer ?
+2. What challenges do you think Arcesium would face ?
+3. Tell me about one thing you would like to change about your life.
+4. What would you do if u do all the work and someone else gets the appreciation in your team?
+5. Why do u want to be a part of our company?
+6. What do u know about Arceisum ?
+7. What is your greatest achievement ?
+8. How did u perform your Written Round ?
+ Round 2: ( Technical – I )
+This was very interesting as i was the last person to attend and it was already 10:30pm 😀
+The interviewer was so kind to come out and apologize for the delay . I told him that it was a pleasure waiting for this opportunity and he took me in.
+There were two people conducting the rounds in D.E.Shaw.
+1. He asked me regarding my project on Hadoop.
+2. What happens if a NameNode sends a heartbeat once in ten minutes?
+3. Describe HDFS.
+4. Describe Replication in Hadoop.
+( Guys these questions were asked only because i did a project on hadoop )
+5. You are given a table of 99 rows and 1 column, containing numbers from 1-100 where one number is missing. Find the missing number using an SQL Query. ( NOT PL/SQL )
+6. Write a query to find the distinct elements from a Table.
+7. There is table where only one row is fully repeated. Write a Query to find the Repeated row.
+8. What is Two – Phase Commit protocol ?
+9. Explain about Super block and Boot Block in UNIX.
+10. If u r given a chance to modify something in UNIX, which one would u choose.
+11. What does an Inode Contain?
+12. You are given an array for size N. With all numbers of values less than N. Find the Duplicate elements.
+13. You are given an Integer where only one Bit is set, Identify that Bit in O(1).
+14. You are given two binary trees, check if they both are Mirrors of each other.
+15. Find the Height of a given binary tree.
+16. Scheduling in UNIX
+17. What would happen if there is an infinite loop running that creates and deletes files in UNIX? ( I was thinking for few seconds , when he smiled and said, sounds Interesting right ! Don’t forget to give it a try ! I said “Sure 😉 ” )
+18. Cursors in DBMS.
+19. B tree, B+ Trees.
+20. OOPS Concepts ( Inheritance, Abstract Classes, Diamond Problem etc. )
+This interview was so much fun as the panel members were so friendly !
+Next day, final Round.
+Round 3: ( Technical II )
+1. Questions about prev Rounds.
+2. Find the Largest Contiguous Sum in An Array of both negative and positive Integers. He needed a O(n) Solution only.
+3. Questions about RB-Trees, AVL Trees.
+4. U have to list Recently Five viewed Photos from your Blog . Which Data structure would u use ?
+Guys – the Above question went on for half hour !
+I had to Provide all different data structures and he insisted on improving it further.
+Finally he was convinced with a Unbounded buffer having a sliding window of size 5 along with a Max Heap. He also wanted to view Pictures based on their Unique ID and their Time-stamp Values .
+Finally, Two people were Selected and I was Wait-listed ( Meaning, they would call me in future if they have requirements as they wanted to hire only two now)
+I Thank GeeksForGeeks and everyone who has posted wonderful Articles that helped me learn a lot. I Got placed in PayPal the next day ! This was a wonderful interview experience for me as it was both fun and challenging !
+

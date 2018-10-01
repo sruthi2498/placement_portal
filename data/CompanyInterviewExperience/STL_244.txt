@@ -1,0 +1,11 @@
+Prerequisite : Unordered maps in STL
+Unordered_map : unordered_map is an associated container that stores elements formed by the combination of key value and a mapped value. The key value is used to uniquely identify the element and mapped value is the content associated with the key. Both key and value can be of any type predefined or user-defined.
+unordered_map :: at(): This function in C++ unordered_map returns the reference to the value with the element as key k.
+Syntax:
+Note : The method gives run-time error if key is not present.
+Run on IDE
+Output:
+Practical Application : std :: unordered_map :: at() function can be used to access the mapped value and thus can edit, update etc.
+Run on IDE
+Output:
+How unordered_map at() is different from unordered_map operator()

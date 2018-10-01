@@ -1,0 +1,20 @@
+Given a singly linked list containing n nodes. Modify the value of first half nodes such that 1st node’s new value is equal to the last node’s value minus first node’s current value, 2nd node’s new value is equal to the second last node’s value minus 2nd node’s current value, likewise for first half nodes. If n is odd then the value of the middle node remains unchanged.
+(No extra memory to be used).
+Examples:
+Asked in Amazon Interview
+Approach : The following steps are:
+Run on IDE
+Output:
+Time Complexity: O(n), where n in the number of nodes.
+Another approach (Using Stack) :
+1. Find the starting point of second half Linked List.
+2. Push all elements of second half list into stack s.
+3. Traverse list starting from head using temp until stack is not empty
+and do Modify temp->data by subtracting the top element of stack for every node.
+Below is the implementation using stack.
+
+Run on IDE
+
+Time Complexity : O(n)
+Space Complexity : O(n/2)
+References: https://www.careercup.com/question?id=5657550909341696

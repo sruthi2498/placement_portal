@@ -1,0 +1,13 @@
+Given two integers N and D, Find a set of N integers such that difference between their product and sum is equal to D.
+Examples :
+
+A tricky solution is to keep the difference D to choose N numbers as N-2 ‘1’s, one ‘2’ and one remaining number as ‘N+D’.
+   Sum = (N-2)*(1) + 2 + (N+D) = 2*N + D.
+   Product = 1*2*(N+D) = 2*N+2*D
+   Difference = (2*N+2*D) – (2*N+D) = D.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

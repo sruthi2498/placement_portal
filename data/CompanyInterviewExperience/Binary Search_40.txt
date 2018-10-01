@@ -1,0 +1,16 @@
+Given an array of n integers sorted in ascending order, write a function that returns a Fixed Point in the array, if there is any Fixed Point present in array, else returns -1. Fixed Point in an array is an index i such that arr[i] is equal to i. Note that integers in array can be negative. 
+Examples:
+
+We have a solution to find fixed point in an array of distinct elements. In this post, solution for array with duplicate values is discussed.
+Consider the arr[] = {-10, -5, 2, 2, 2, 3, 4, 7, 9, 12, 13}, arr[mid] = 3
+If elements are not distinct, then we see arr[mid] < mid, we cannot conclude which side the fixed is on. It could be on left side or on the right side.
+We know for sure that since arr[5] = 3, arr[4] couldn't be magic index because arr[4] must be less than or equal to arr[5] (the array is Sorted).
+So, the general pattern of our search would be:
+Below is the code for above Algorithm.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

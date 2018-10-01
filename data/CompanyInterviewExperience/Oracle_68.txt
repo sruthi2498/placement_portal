@@ -1,0 +1,20 @@
+Cutoff  : 7 CPI
+Oracle came here with two profiles, Applications Development and Server Technologies. The written test was common for both the profiles.
+Written Test (Initial Screening Round):
+The written test consisted of 4 parts .Each part had a few more sub-parts which are to be answered in 120 mins.
+The shortlisted candidates were called for the interviews.
+ Interview:  Round-1(Technical)
+The interviewer first took a copy of my resume and interviewed me a bit on my programming language. And then I was given a few problems for which I’ve to write the code.
+Round-2(Technical):
+The Interviewer welcomed me into his cabin with a warm handshake and after exchanging pleasantries he asked me if I was familiar with strings apart from trees and linked lists which he came to know from my first round.
+Problem Statement: Given a string, print all the strings that can be formed from using 2 or more letters of the given string which are valid dictionary words. The function Boolean isValid(string) is already provided that checks if a string a vald dictionary word.
+Solution: I tried to generate all the possible sub sequences and then find all the possible permutations of each sub sequence. The complexity of my approach was very high O(n^n) and he asked me if there can be any approach. Moreover, he asked me to solve it using linked lists for which I said I can’t.
+After that, he asked me a few puzzles and then told me to wait for my next round.
+Round-3(Partly tech and partly HR):
+The interviewer thoroughly examined my resume and pointed out my academically poor performance for which I told that I wasn’t good at getting things by heart. And then I pointed out that I had done a poor job in my first year and that I’d been constantly improving. He found that a bit satisfactory but despite me being the first guy to reach till HR round he wasn’t willing to give me a chance.
+And then he asked me that why should they even give me a chance. For which I replied that I’d been improving myself and that he could ask me anything from my resume and that I’d answer. He’s smiled a little and asked me about my projects which were on DBMS. I told him that I’ve done the back-end processing entirely by myself.
+So he asked me if I knew how a shopping site like Flipkart or Amazon works. (I was supposed to know according to my projects).I said yes and so he asked me to design a site that would log a user in, lets him search for and order those products. I was supposed to roughly sketch the web pages and as well as explain the underlying query processing and database management. I’d done that in like 35 mins and he asked me if the tables in the database were normalized. (ofc I normalized them beforehand :P). And he was kind of impressed and asked me a few more questions on normalization etc (The DBMS part).After a few more minutes he told me that I could have my final round after the lunch break.
+Round-3(The Final Round aka HR):
+I was asked of my previous interview experiences and of any other companies I’d applied prior to going there. I told that I’d been to Amazon (which I shouldn’t have said). And so the ma’am asked me if Amazon was my dream company.(I said nope, o fcourse everyone would :P). And then a few general questions like why Oracle? Is the package satisfactory? Etc. Finally, she asked my job location preference and I was told to wait for the E-mail.
+Few things I feel worthy to share:-
+

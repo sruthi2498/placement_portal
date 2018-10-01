@@ -1,0 +1,12 @@
+Given a number n, the task is to find nth Centered heptagonal number. 
+Centered heptagonal number is centered figure number that represents a heptagon with dot in center and all other dot surrounding in heptagonal form. Nth centered heptagonal number can be calculated by using formula (7n2 – 7n + 2) / 2.
+Examples :
+Please refer this diagram for pictorial representation.
+Below is the implementation :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

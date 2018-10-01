@@ -1,0 +1,23 @@
+Given a positive integer n. Find the value of  where function F(i) for number i be defined as sum of all divisors of ‘i‘.
+Examples : 
+Naive approach is to traverse for every number(1 to n), find all divisors and keep updating the sum with that divisor. See this to understand more.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O()
+Auxiliary space: O(1)
+Efficient approach is to observe the function and co-relate the pattern. For a given number n, every number from 1 to n contribute it’s presence up to the highest multiple less than n. For instance,
+From above observation, it can easily be observed that number i is occurring only in there multiples less than or equal to n. Thus, we just need to find the count of multiples and then multiply it with i for full contribution in the final sum. It can easily be done in O(1) time by taking floor of (n / i) and then multiply it with i for the sum.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time complexity: O(n)
+Auxiliary space: O(1)

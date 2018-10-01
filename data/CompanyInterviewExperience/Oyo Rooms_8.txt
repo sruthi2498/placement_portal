@@ -1,0 +1,22 @@
+Online Round :  Oyo Coding visited our campus in the last week  of August.
+Round 1 was held on Hackerearth which comprised of around 25 MCQs and 2 coding questions. MCQs were from topics like Data Structures(mostly), Aptitude, Operating systems and DBMS.
+The coding questions were
+Here is the link: https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/
+2. Given a triangle ABC and number of steps k, return the number of ways that we can arrive back at source point in k steps (1 step = traversing from one vertex to other vertex).
+Example – for 2 steps, 2 possible ways (A-B-A and A-C-A).
+Similarly,   for 3 steps, 2 possible ways(A-B-C-A and A-C-B-A).
+After this 44 students were shortlisted for the PIs.
+Round 2 :  The interviewer was very friendly and patient, he primarily focused on Data Structures. He asked me three coding questions.
+Here is the link: https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+3. The third question was to print the all the nodes at kth depth in a generic tree, given the root of a generic tree.
+I solved it using recursion (using depth as a variable), other method to solve is level order traversal.
+Around 30 people were shortlisted for the third round.
+Round 3 :   Third round was based on Operating Systems and little of coding. The following questions were asked :
+1. What are scheduling algorithms and why are they used?
+2. What is virtual memory?
+3. Name and explain all the scheduling algorithms?
+4. What is context switch?
+5. Construct a binary search tree given its preorder and inorder traversal arrays. (Had to write the complete code)
+6. Given a source and destination in a 2D matrix, count all possible ways to reach destination from source.
+Allowed steps are (x, y+1) and (x+1, y). (Complete code again)
+After this round 19 people were selected. I was one of them 🙂

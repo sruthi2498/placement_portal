@@ -1,0 +1,13 @@
+Given a string, find the longest substring which is palindrome. For example, if the given string is “forgeeksskeegfor”, the output should be “geeksskeeg”.
+We have discussed dynamic programming solution in the previous post. The time complexity of the Dynamic Programming based solution is O(n^2) and it requires O(n^2) extra space. We can find the longest palindrome substring in (n^2) time with O(1) extra space. The idea is to generate all even length and odd length palindromes and keep track of the longest palindrome seen so far.
+Step to generate odd length palindrome:
+Fix a centre and expand in both directions for longer palindromes.
+Step to generate even length palindrome
+Fix two centre ( low and high ) and expand in both directions for longer palindromes.
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+Time complexity: O ( n^2 ) where n is the length of input string.
+Auxiliary Space: O ( 1 )
+We will soon be adding more optimized method as separate post.

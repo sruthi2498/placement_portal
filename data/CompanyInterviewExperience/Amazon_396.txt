@@ -1,0 +1,29 @@
+Here’s my interview experience:
+Round 1: Technical
+1) A bot has to go from point A to point B. Every time the bot moves, it can take either 1 or 2 or 3 steps. Find the total number of ways in which this can be done.
+Input parameters – distance between A and B
+Required output – number of ways
+Had to write error free code with all edge cases covered. First gave a recursive solution and finally came up with a dynamic programming solution
+2) Implement least recently used cache. This question is there in geeks for geeks. Again had to write error free code.
+3) don’t remember the question. But I just had to come up with an algorithm. Code was not required.
+Round 2: Hiring Manager
+1) An array contains ones and zeros. Come up with an algorithm such that all ones come on the right side and all zeros on left side. You can go through the array only once – no code required.
+2) Code for Singleton design pattern
+3) Many behavioral questions like why amazon, why are you leaving your current company, a situation where you had to go against your manager etc.
+
+Round 3: Technical round
+1) Given a list of words, come up with an algorithm such that all anagrams are separated and placed in there respective buckets. So basically if 2 strings are anagrams of each other, then both should come in the same bucket.
+I used sorting and hashing to solve this problem. Code was not required.
+2) Given a string of binary digits (for example 010111101000), partition the string in such a way that each segment is a power of 5. If it is possible to partition the string such that at the end there are no digits remaining then return the total number of segments, -1 otherwise. Need to start with 5^1 and go up to the max power of 5 that is less than the string.
+Had to write proper code for this problem covering all edge cases.
+3) Given n people and n+1 parking slots. Each person has a car and a parking slot allocated. One night they all go to a party and get drunk. They end up parking their cars randomly. What’s the best way to go back to the initial configuration (one where every car is in the right allocated slot). (N+1)th  parking slot can be used to swap the cars.
+Only algorithm was needed for this problem.
+Come up with a sorting algorithm with nlog(n) complexity.
+Hint: Use Java’s comparator class to solve the problem.
+
+Round 4: Bar raiser
+General behavioral questions like what have u contributed to your current project, one thing that you don’t like about your project or would like to change etc.
+Difference between queues and stacks?
+Implement a queue using array such there is no waste of space even after a few enqueue and dequeue operations.
+Hint: Think of circular array.
+

@@ -1,0 +1,15 @@
+Given a sorted array of n elements containing elements in range from 1 to n-1 i.e. one element occurs twice, the task is to find the repeating element in an array.
+Examples :
+
+A naive approach is to scan the whole array and check if an element occurs twice, then return. This approach takes O(n) time.
+An efficient  method is to use Binary Search .
+1- Check if the middle element is the repeating one.
+2- If not then check if the middle element is at proper position if yes then start searching repeating element in right.
+3- Otherwise the repeating one will be in left.
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :
+Time Complexity : O(log n)

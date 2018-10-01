@@ -1,0 +1,16 @@
+Given a value n, find the n’th even Fibonacci Number.
+Examples :
+The Fibonacci numbers are the numbers in the following integer sequence.
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ….
+where any number in sequence is given by:
+The even number Fibonacci sequence is, 0, 2, 8, 34, 144, 610, 2584….  We need to find n’th number in this sequence.
+If we take a closer look at Fibonacci sequence, we can notice that every third number in sequence is even and the sequence of even numbers follow following recursive formula.
+How does above formula work?
+Let us take a look original Fibonacci Formula and write it in the form of Fn-3 and Fn-6 because of the fact that every third Fibinacci number is even. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output : 
+Time complexity of above implementation is exponential.  We can do it in linear time using Dynamic Programming.  We can also do it in O(Log n) time using the fact EFn = F3n.  Note that we can find n’th Fibonacci number in O(Log n) time (Please see Methods 5 and 6 here).  

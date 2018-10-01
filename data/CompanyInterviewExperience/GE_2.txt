@@ -1,0 +1,29 @@
+First Round 
+The first round was a on-line test on AMCAT platform. It was an online test having 5 sections. The sections included quant, logical reasoning, verbal reasoning, technical aptitude and Automata ( 2 coding questions in 45 minutes). Technical aptitude had mcq’s on DS, algos, output, dbms and os.
+The two questions in automata asked were :
+1) Given an integer S and integers M, N find the value of ((S^M)%10)^N)%1000000007. The question is a modified form of this question.
+Modular Exponentiation
+2) Given a string remove all vowels in a string and return the string.
+Other questions which were asked to others were:
+a)Print all primes in [2,N]
+b)Smallest Permutation of a given number considering negative and positive numbers.
+c)Next Permutation of a given number.
+
+Second Round
+Second round was a Group Discussion Round. Students were divided into groups of 12 and topic was “Digital India: Boon or Bane”. We were given 20 mins to talk on this topic. Speak confidently and coherently. Add to what others are saying or contradict them politely. Let others speak too.
+Third Round
+Third Round was a technical interview. It started with the the interviewer going through my resume and asking me details about the projects and course work I had done.
+Next he switched to differences between java/c++ and c/c++.From there on he asked in details about oop features in java and c++.He asked about inheritance,polymorphism,data abstraction and data encapsulation.He asked about how was static and runtime polymorphism implemented ?
+Asked about Template Class in C++ and example of how was template class implemented.
+In Java he asked me about how Java Threads were implemented and the need for Thread class or Runnable Interface.
+Now he switched to data structures and algorithms. Asked me about inorder, preorder, postorder and level order traversal of binary tree.Find all the nodes at max depth where all the nodes are present in the given depth.Reverse all words in a string.Reverse words in a given string
+How is string class implemented in C++ and differences between char* in C and string class in C++?
+How will you know the length of an integer array if only the integer pointer to the head of the array was given ? How is it determined incase of strings ? stackoverflow link
+How is free implemented as only pointer to memory location is passed and not the length of the memory allocated to the array?
+Then,He asked questions from Database Management Systems.what are the ACID properties and explain why are they required? He gave a design question on customer, products and orders system. Told me to define Tables and how should they be related to one another.Told me to draw the ER diagram for those tables.What is Normalisation and why is it required in Database Management Systems? What is First Normal Form, Second Normal Form,Third Normal Form ?
+He seemed he was under pressure to complete the interview,so he asked if I had any questions and after I had asked him about my queries he concluded the interview.The technical interview went on for quite a while.It is important to make it clear what did the interviewer had actually asked. If one has any tingling doubts about the question, one should make it clear.
+Fourth Round:
+Fourth Round was a HR interview along-with the Hiring Manager. However this differed from person to person as they were under a time crunch.
+I was mainly asked about details of my projects I had done and what were the challenges did I face in my summer internship and how did I overcome them.
+There were also some generic HR questions.
+There were 11 students who had cleared all the rounds and 4 students were selected finally.

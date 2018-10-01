@@ -1,0 +1,52 @@
+Goldman Sachs visited our campus recently for internship.
+First Round was an online round hosted on HackerRank.
+It comprised of 2 coding questions and 10 MCQ’s which had negative marking
+The MCQ’s were related to C++, Algorithms and General Data Structures.
+The coding questions were good.
+1st was:
+You are given a list of names.
+Each name has two parts , first name and last name ( all small letters)
+the order in which the names were given had to be noticed.
+Next you are given a permutation of the indices of the names.
+You have to tell , whether it’s possible to sort the names , by choosing either the first name or the last name,for each name in the given permuatation.
+For eg:-
+aman bitcoin -1
+cat dining -2
+electric fork -3
+1 2 3
+It’s clear if I select aman, cat, fork: it’s sorted according to the permutation.
+2nd  I dont remmember, but it was easy.
+A total 21 students were selected from around 190 students.
+
+2nd round was technical cum HR face to face round.
+The interviewer asked me:-
+Tell me about yourself and your interests.
+Next he asked me no. of total diagonals in a regular n – gon.
+I gave the answer as I remembered it. So he asked, did you already know it, I replied, yes.
+Next he asked total no. of intersections of diagonals in a regular n-gon.
+I tried to solve it but wasn’t able to completely.
+He asked about merge sort and why it is not preferred over quick sort .
+He gave a puzzle.
+You are given the arrival times of n buses and their halting times on a station.
+You have to tell the minimum stations required such that no bus has to wait for another bus. ( relate it to OS )
+
+3rd round was again technical cum HR round (F2F)
+He asked me given an array, find whether there exists 3 elements-a,b,c in it such that a+b=c.
+Then he asked me to optimise the algorithm.
+Next asked me given an array of numbers, make the largest number possible by concatenating them.
+E.G if the array is:
+[1 , 100, 2]
+then the largest number is :21100
+Then asked me about my projects ( on Pygame and OpenCV )
+Finally he asked about any questions for him.
+
+4th and final round was purely technical and puzzle related (F2F)
+He gave me a puzzle.
+There are 100 lockers and 100 students.
+The coach whistles 100 times and on every whistle , the number of whistle (1-100), and its multiples numbered lockers are toggled.
+Finally I had to tell no. of open lockers.
+It was a simple problem , but I gave the wrong answer ( that too confidently :P)
+Next he asked why are potholes round and why are pizza boxes square in shape?
+Next puzzle was, given 128 wrestlers, find the number of knockout matches required to determine the winner.
+I solved it using a detailed approach, but he later told me a one liner logical solution!
+Finally he asked about Dijkstra’s Algorithm and we were done.

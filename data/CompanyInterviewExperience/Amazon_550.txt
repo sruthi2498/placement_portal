@@ -1,0 +1,17 @@
+Amazon visited our campus and was hired as intern. These are the questions that I faced.
+Online Round (90 minutes)
+20 Basic MCQs (Data structure, C, C++, OS, Aptitude, Networks).
+2 programs :
+1. Given a text txt[0..n-1] and a pattern pat[0..m-1], write a function search(char pat[], char txt[]) that prints all occurrences of pat[] and its permutations (or anagrams) in txt[] 
+2. There is a matrix mat[m][n] with entries as 0 or 1 When you are at 1 you can move in all the eight directions and when at 0, you have to return back. Find the number of cluster of 1’s
+Round 1:
+1) Introduce yourself.
+2) Any moment when you worked really really hard to solve a problem.
+3) Find the best fit for a packet to be fitted in a rack   rack sizes are given in increasing order    in other words find the ceil value of a key in sorted array.
+4) Check given binary tree is BST or not
+5) Find the lowest common ancestor in binary tree
+6) If I have any question to ask him 
+Round 2:
+1) Find largest sum contiguous subarray in goven array
+2) If I had any question to ask him
+

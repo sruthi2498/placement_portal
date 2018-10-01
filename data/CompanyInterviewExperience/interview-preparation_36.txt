@@ -1,0 +1,58 @@
+This is a TCS model placement paper for aptitude preparation. This placement paper will cover aptitude questions that are asked in TCS recruitment drives and also strictly follows the pattern of questions asked in TCS interviews. It is recommended to solve each one of the following questions to increase your chances of clearing the TCS interview.
+Solution:
+2 * 2 + 1 = 5
+5 * 2 – 1 = 9
+9 * 2 + 1 = 19
+19 * 2 – 1 = 37 and so on
+Solution:
+Since the areas of the rectangles are in proportion we can say,
+=> 70/x = 36/20
+=> x = 350/9
+Solution:
+It is a question of coding-decoding where,
+V is written as S (V – 3 = S)
+X is written as U (X – 3 = U)
+and so on.
+Similarly, SHDVD will be written as PEASA
+Solution:
+Aman can pay Bipul in all 10 rupees note in 5 days = 5 * 10 = 50 rupees = 1 way
+Aman can pay Bipul in 3 ten rupee note and 1 twenty rupee note = 4!/(3! * 1!) = 4 ways
+Aman can pay Bipul in 1 ten rupee note and 2 twenty rupee note = 3!/(1! * 2!) = 3 ways
+So in all Aman can pay Bipul in 8 ways.
+Solution:
+Let Salim buy 2x number of oranges.
+So he buys 27 oranges at a price of 2M.
+He buys 1 orange at a price of 2M/27
+or, x oranges cost him Rs. 2Mx/27
+Now he sells x oranges at the rate of 13 oranges for Rs. M
+So he sells 1 orange at Rs. M/13
+and x oranges at Rs Mx/13
+Same goes for 14 oranges which are Mx/14,
+According to the question, 2Mx/27, Mx/13, Mx/14 are integers
+So, x oranges must be divisible by 27, 13 and 14
+The lcm of 27, 13 and 14 = 4914 or 2x = 9828
+Solution:
+Total matches to be played = 4C2 = 6 matches.
+So total number of matches played in the first round = 6 * 4 = 24 matches
+Now top two teams from each group progress to the next round. These 8 teams are to be divided into 2 groups.
+Total matches played in the second round = 6 × 2 = 12 matches
+Now 4 teams progress to the next round. Total matches played in the third round = 6 * 1 = 6matches
+From this round, 2 teams progress to the next round. And final will be played between them.
+Total matches = 24 + 12 + 6 + 1 = 43
+Solution:
+This is a question of very common sense in which,
+12 letters are to be inserted in 12 envelopes, 1 in each, so if one letter is inserted into a wrong envelope there has to be another letter which is to be inserted into another wrong envelope. So the probability of this is 0.
+Solution:
+The total cost of filling = 20, 000
+Cost of filling 1 cubic meter = Rs. 225
+So cubic meters to be filled = 20, 000/225 = 88.89 meter-cube
+Now we need to find the three times of 88.89 to be filled = 88.89/3 = 29.63
+So the closest match is 29.62
+Solution:
+If the digits at extreme left and right are fixed as 5 and 6, then the number of digits left = 8
+So the in-between 5 places can be filled in 8 * 7 * 6 * 5 * 4 ways
+= 6720 ways
+Solution:
+The total km travelled by the sedan = 40, 000 km
+Since every tire capacity’s = 40, 000/5 = 8000 km each
+So total distance covered by each tire = 8000*4 = 32000 km each will be travelled by each tire after being worn out after every 8000 km.

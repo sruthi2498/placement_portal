@@ -1,0 +1,39 @@
+Given a dice with m-faces. The first face of the dice contains a dot, the second one contains two dots, and so on, the m-th face contains m dots. Each face appears with probability . Our task is to calculate the expected maximum number of dots after tossing the dice  times.
+Examples:
+
+Input: 2 2
+Output: 1.750000000000
+Here the dice contains {1, 2}.
+So, the sample space of throwing the dice two times = 
+{(1, 2), (1, 1), (2, 1), (2, 2)}
+For (1, 2)–> maximum=2
+For (1, 1)–> maximum=1
+For (2, 2)–> maximum=2
+For (2, 1)–> maximum=2
+The probability of each outcome is 0.25
+that is expectation equals to
+(2+1+2+2)*(0.25) = 7/4 = 1.750000000000
+Input: 6 3
+Output: 4.958333333333
+
+Approach:
+The key observation in this problem is that no. of times a number can occur maximum depends upon its previous number.
+For i-th number,it will be .
+Take m = 6, n = 2 as an instance.
+Total numbers with maximum=6 are equal to .
+Total numbers with maximum=5 are equal to .
+Similarly, we can find out for 4,3,2 and 1.
+6 6 6 6 6 6
+5 5 5 5 5 6
+4 4 4 4 5 6
+3 3 3 4 5 6
+2 2 3 4 5 6
+1 2 3 4 5 6
+Enumerate the maximum number, the distribution will be an n-dimensional super-cube with m-length-side. Each layer will be a large cube minus a smaller cube.
+So,our answer will be sum of all i-th element from 1 to m given by:
+Calculating may cause overflow,so we could move the divisor into the sum and calculate  instead.
+
+Run on IDE
+Run on IDE
+
+Time Complexity:  O(m)

@@ -1,0 +1,13 @@
+Give Height and Width of a Wave to print the Sine wave pattern 
+Examples:
+
+Approach:
+First, check the row and column where the elements are needed to be printed. Then, use nested for loops to print the elements in the corresponding order. Seperate loops are kept to keep track of the wave_height and wave_length.
+
+Run on IDE
+Run on IDE
+Run on IDE
+How to print sin wave of letters?
+
+Approach is same as above, now instead of using a single element we use all of the 26 english alphabets in Upper_Case.
+Run on IDE

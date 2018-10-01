@@ -1,0 +1,29 @@
+Given two numbers x and y, find unit digit of xy.
+Examples :
+
+Method 1 (Simple)  Compute value of xy and find its last digit. This method causes overflow for slightly larger values of x and y.
+Method 2 (Efficient) 
+1) Find last digit of x.
+2) Compute x^y under modulo 10 and return its value.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Further Optimizations:  We can compute modular power in Log y.
+Method 3 (Direct based on cyclic nature of last digit)
+This method depends on the cyclicity with the last digit of x that is
+So here we directly mod the power y with 4 because this is the last power after this all number’s repetition  start
+after this we simply power with number x last digit then we get the unit digit of produced number. 
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Thanks to  DevanshuAgarwal for suggesting above solution.
+
+How to handle large numbers?
+Efficient method for Last Digit Of a^b for Large Numbers

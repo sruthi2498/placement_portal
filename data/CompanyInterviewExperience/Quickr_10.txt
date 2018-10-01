@@ -1,0 +1,19 @@
+Round1:-
+1. Find the first non repetitive character in a string
+2. If there is a website run by 2 servers. These 2 servers balances the load using Load Balancer. So, if 1 session is created on 1 server and say load is shift to another server immediately, then how session is maintained?
+3. Discuss about Design Patterns. Asked to implement some basic Design Patterns like Singleton, etc.
+Round 2:-
+1. Find missing element in an array of elements from 0 to n-1. Different approaches asked(about 3 to 4 approaches)?
+2. What is connection pooling.
+3. Asked some questions on multithreading in Java.
+4. How to implement Critical section in Java and on which variable?
+5. Some Questions on Java, Database, Hibernate in general
+6. Stock Buy Sell to Maximize Profit
+https://www.geeksforgeeks.org/stock-buy-sell/
+problem was modification of above problem. I dont remember the actual problem exactly.
+Round 3:-
+1. Given a wood of some size. It burns from 1 end to another and takes 30 min. How to burn the same wood in 15 min.? (Answer :- Burn the same wood from both end at same time.)
+2. Asked many questions about work in current workplace. 
+Round 4:-
+1. How my current job work can be used in Quickr?
+2. Some more questions asked related to work done in current job and how can it be useful in Quikr?

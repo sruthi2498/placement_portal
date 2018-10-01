@@ -1,0 +1,30 @@
+Round 1:
+Q-1 Given an array os 0s and 1s, and another input m, I was supposed to tell the longest continuous streak of 1s after flipping m 0s to 1s. E.g., Array is {1,1,0,0,1,1,1,0,1,1} m = 1 (which means I can flip ‘m’ one 0 to 1)
+Answer: 6 (if we flip 0 at index 7, we get the longest continuous streak of 1s having length 6)
+Q-2 Given N ropes of lengths L1, L2, L3, L4, …, LN. I had to join every rope to get a final rope of length L1 + L2 + … + LN.
+However, I can join only two ropes at a time and the cost of joining the two ropes is L1 + L2. I was supposed to join ropes in such a way that the cost is minimum.
+Round 2:
+Q-3 Given a BST, I needed to serialize it and deserialize it. This essentially boiled down to generating the “traversal” string and getting the BST back from the traversal.
+Q-4 There are two linked lists. Both linked lists have a single-digit number in their nodes. I needed to
+treat this linked lists as a numbers and add them up and store the digits in a new linked list.
+E.g., head -> 5 -> 6 -> 7-> 9
+head -> 2-> 1 -> 1
+Resultant linked list: head-> 5 -> 8-> 9-> 0 (5679 + 211 = 5890)
+Round 3: Hiring Manager round
+Q-5 Project discussion in detail. Most challenging problem, how did you solve it, had any disagreement with manager, how did you fix it etc.
+Q-6 Given an array {2, 4, 6, 0, 1, 8, 1}, where each element represents the height of tower located at its index. I was supposed to tell how much maximum water can accumulate in this “valley” once it rains.
+Round 4:
+Q-7 Given the encoding rule:
+A -> 0
+B -> 1
+C -> 2
+…
+K -> 10
+…
+Z -> 25
+I was supposed to get the number of original strings possible given an encoded input.
+E.g., Given input 10, two possible original strings are possible BA and K, the answer is 2.
+Q-8 Given two trees, find out if the second tree is a “subtree” of the first one.
+Answer: No (Tree 2 is not a subtree of Tree A)
+Round 5: Engineering manager round
+Q-8 Engineering Manager round, all behavioral, why do you want to leave the company, one challenging problem, how did you overcome it, your biggest failure etc. etc.

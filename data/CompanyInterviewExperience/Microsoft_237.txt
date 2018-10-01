@@ -1,0 +1,48 @@
+Microsoft came to our campus. Branches eligible was CS and IT. There were a total of 5 rounds (and 1 additional group fly round).
+Round 1: MCQ round 
+	In this round there were a total of 15 MCQ’s and the time alloted was 30 mins.The questions were mainly from C++/Java output finding, pointers and references and basic puzzles.
+I was able to solve 8-9 mcq’s. Luckily I managed to qualify this round 🙂 .
+Round 2: ONLINE CODING ROUND
+	In this round 2 coding questions were given to us which need to be solved in 1hr time.
+1st question:
+You are given a matrix of dimensions m*n where each cell in the matrix can have values 0,1 or 2 which has the following meaning :
+0:empty cell
+1:cells have fresh oranges
+2:cells have rotten oranges
+so we have to determine what is the minimum time required so that all the oranges will be rotten.A rotten orange at index [i,j] can rot other fresh orange at indexes [i+1,j] ,[i,j+1] ,[i-1,j] ,[i,j-1] .If it is impossible to rot every orange then simply return -1;
+2nd question:
+You are provided with a binary tree and given two integers n and k.You have to determine sum of data of all the nodes which are at a distance of k from the node which has data n.
+I managed to solve question no. 2 completely and in question no. 1 segmentation fault came.
+
+GROUP FLY ROUND(ADDITIONAL) :
+The question given to each and every candidate was to design the user interface of Indian Railways website .
+Round 3: Technical round
+1. A brief discussion on my project.
+2. How will you test a parachute ?
+3. Real life situation -suppose you have developed a software and you have delievered it to some of your client .If your client is facing some problem with the software then how will you solve the issue.Discussion on it.
+4. Given 1 billion numbers.Find the median of these numbers -i gave min & max heap soln ,O(n) median finding algorithm soln. Then he asked me to explain the median finding algo to a layman .I gave sorting soln.
+5. One simple SQL query- given a table containing employee id,manager id,city and employee name.The manager himself is an employee who has an entry in the table. You have to print the details of the employee whose managers city is same as his city .
+6. Questions related to DBMS-Normalisation,Denormalisation,Indexing structures etc.
+7. Difference between object based and object oriented programming language.
+8. Some other problems which i dont remember.
+Round 4: Technical Round
+1. Explain polymorphism to a layman-I explained with example of the word-bat
+2. Under what circumstances we go for array and when we go for linked list.
+3. Practical use of stack data structure.
+4. Implement Push and pop functions in stack using linked list.
+5. Given a number n you have to print all squares of number from 1 to n.
+Ex-say n=5
+output: 1 4 9 16 25
+first I gave o(N^2) soln then He asked me to give O(n) soln-I did it .
+6. Given a string .Find the maximum palindrome substring in the given string. I told him I have 3 solns for it -dp soln,find longest palindrome at every index soln,using suffix tree.He asked me to explain dp soln and to tell him best and worst case for it ?
+7. Questions on why I used free() to free a memory allocated via malloc- questions related to garbage collection, single and double pointer,pointer as reference and pointer by value etc.
+8. Then he asked a riddle-given three opaque containers and you have 3 labels on them.1 has label “mangoes” 2nd has label “Apple” and 3rd has label “Mango+Apple”. You are told that every label is wrong. You can open any container from top and can see content inside it by not every item-means if you open container having apple+mango in actual you may see only apple or mango or both.So which box you will open to correct all the labels.You can open only 1 container from the top and see its content.
+9.Discussion related to my project-I have made a rail reservation system using HTML+php+CSS .So he asked what is in your project so that visitors will visit your site instead of Indian Railways site.Discussion related to it.
+-I gave all the answers in this round :).
+Round 5: Technical Round
+1. Detailed discussion on my project.
+2. Suppose you receive 1 million reservation requests at the same time and you have only 50 seats remaining to be allotted .how will you handle such situation. Long discussion on it. I gave him lots of solutions for it but he discarded all of them as there was some faults in every soln of mine. Finally I gave a soln using shared variable which stores no of seats available and the server spawns separate threads for separate requests. Then using a semaphore variable so that only 1 thread can access the shared variable at a time.He was convinced with the solution.
+3. Given a number as input .Write a function which prints the number in string format .Ex-1234 will be written as “one thousand two hundred thirty four”. I gave a hardcoded solution. He asked me if I can reduce the program length to 1/3rd. I told him that I can use a function to reduce the solution length. He didn’t try to find bug in my solution. So he was ok with the solution of mine.
+4. A lot more questions which i don’t remember.
+
+

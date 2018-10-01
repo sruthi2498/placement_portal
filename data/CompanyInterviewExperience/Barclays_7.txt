@@ -1,0 +1,53 @@
+
+Location: Pune (Kharadi or Hinjewadi)
+Post: Barclays Analyst (BA3 level)
+Branches Eligible: CS & IT
+Number of people Selected: 11 from IT
+Round 1: Online Test (90 minutes)
+Test was taken on cocubes.com 
+96 people appeared for the online round. The test was quiet easy, it had 2 sections:
+Aptitude Test(60 questions – 60 minutes)
+It had aptitude questions ranging from permutation combinations, time distance, similar image identification, syllogism and very easy verbal questions.
+Tip: 
+Solve quants first as it needs a little more time as compared to verbal and logical.
+Try to solve everything as there is no negative marking.
+Resources: indiabix.com (last moment revision) and RS Agarwal book is enough.
+Coding Test(2 questions – 30 minutes)
+Both the questions were functional problems, so we just had to return the modified output. 
+I don’t remember Question 1 correctly although it was memory based basically a memory location in form of array is given we had to just perform 1 or 2 if else checks and the problem was done.
+Question 2 was to sort a 2-d array.
+The edge cases were weak and neither did they expect an optimised approach. Simple brute-force approach did solve both the problems easily.
+Tip: Don’t focus for optimizations in the code, whatever approach comes first in mind apply it and solve it, try to solve both the questions, although some people who solved one were also shortlisted for the next round.
+Resources: According to me, geeksforgeeks.org only is enough not just for Barclays but for any company that visits your campus. (Don’t go to any other website if your placements are 1 or 2 months away, stick to geeksforgeeks)
+
+
+Round 2: Technical + HR Interview (45-60 minutes)
+After round 1, exactly 38 students were shortlisted for the interview process. There was a pre-placement talk conducted before the interviews to inform us about what the company does and all such stuffs. Each person had to give his technical interview separately in different interview rooms.
+My experience: 
+I greeted the interviewer and handed my resume to him. He asked me to tell me about myself, where I live and all such basic questions.
+He was quiet impressed by the fact that I had done my Diploma and got into VJTI. So we had a discussion over it for around 5-10 minutes (why diploma and why not degree all such stuffs)
+ Next, he started asking me questions about how much do you know SQL, Java. He grilled me thoroughly over normalization, concurrency and SQL Join queries from DBMS (tables were given, had to be normalised). Apart from that he asked from the basics of Java like OOPS concepts, collections framework (arraylist vs linkedlist, hashset vs treeset), what is garbage collector why java needs it, multi-threading in java (what is thread pool why is it needed, shutdown hook in java). Then he jumped over to situational based question which was like:
+I am a Barclays employee and I have been given a task on Monday whose deadline is on Friday. Now if you have completed your coding upto Friday although you couldn’t complete testing part, so how would you act in this situation. (Will you deploy the code which isn’t tested without informing the lead or what other appropriate action will you take)
+ Next he jumped back into technical again and asked me why set is preferred over array and vice-a-versa, explain a real life scenario where-in you will use array over set and set over array. Then he asked why mongodb is used, any idea about PHP frameworks.
+I constantly had related my ecommerce website project in different questions, so he asked me how you will scale your ecommerce website for large users, what techniques you will use. (Luckily I had studied a bit about system design previous day told him the approach, he looked satisfied)
+Lastly he asked me why Barclays and I was relieved finally the interview is coming to end!
+After that he asked do you have any question for me!!(Always be ready with minimum 2 questions for the interviewer. Also remember not to ask the similar question asked by other candidates, try to ask something different) I had skimmed their website very well, written what I felt inquisitive, questioning about Barclays products like Barclaycard and their services like Contactless-cones, pingit etc. He seemed very impressed from my questions and told me good you have done your homework very well!
+Tip & Resources: 
+Once you enter interview room, don’t forget to close the door and ask interviewer may I have a seat. Greet him with a handshake and wish him a good morning as well.
+Always before leaving the interview room ask the interviewer how did you fare in the interview and ask him about the areas of improvement, this leaves a good impression on interviewer and it makes him think that we are definitely interested in improving ourselves.
+For Barclays skim their website completely, literally jot down few points from their history, their products, latest services etc.
+The most important tip for Barclays is their Values RISES. Memorise them, understand their meaning and try to relate it with some situation in your life.
+For technical preparation I would say:
+DBMS: Sanchit Jain youtube channel.
+SQL: practice nested queries and joins.
+Java: geeksforgeeks.org, benchresources.net, oracle official docs.
+System Design: gainlo blog, hiredintech.com, highscalability.com blogs.
+Learn to Say NO to interviewer, if you don’t know answer to any question.
+
+Round 3: HR Interview (20-30 minutes)
+For final round we had around 20 students, here it was moreover an informal discussion about ourselves and our willingness to join Barclays. I was again asked a few questions on my resume, extracurricular activities and my hobbies. It lasted for less time and he had again asked me few behavioural questions. I answered them keeping in mind Barclays values. At last around 7pm results were announced and I was happy to be one to be selected 
+Note: Interviewers are smart and highly experienced, they easily catch you if you say anything lame. Keep resume very simple and single paged resume is the best, nobody cares about resume until you can speak and express your thoughts properly. Don’t go for fancy resumes! Very important, don’t ever screw up and say you want to go for higher studies or do an MBA , the moment you say this you are out!
+Lastly I want to add that just be yourself, keep smiling, have a good posture while sitting, communicate well and hope for the best! Interview people are normal humans, don’t be scared as they too one day were in same situation as you are today. Be confident and don’t loose hope.
+All the best everyone 🙂
+A special thanks to geeksforgeeks.org for providing me with great resources. 
+Geeksforgeeks handle: maniAC 

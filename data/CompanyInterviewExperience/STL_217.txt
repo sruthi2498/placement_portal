@@ -1,0 +1,9 @@
+The list::assign() is a built-in function in C++ STL which is used to assign values to a list. It can also be used to copy elements from one list to another.
+Parameters: This function accepts two mandatory parameters as shown in the above syntax and described below:
+Return Value: This function assigns the element specified in the value parameter count number of times starting from the first element in the list list_name. The return type of this function is void and it does not returns any value.
+Below program illustrates the list::assign() function. 
+Run on IDE
+Parameters: This function accepts two parameter as shown in the above syntax. The first parameter is the beginning iterator of the second list and second parameter is the ending iterator of the second list.
+Return Value: This function copies the second_list to first_list. This function does not returns any value.
+Below program illustrate the list::assign() function:
+Run on IDE

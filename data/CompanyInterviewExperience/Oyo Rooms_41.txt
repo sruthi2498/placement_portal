@@ -1,0 +1,15 @@
+Wriiten Test
+One coding question of form minimum cost to travel from 0,0 to N-1,M-1, remaining MCQ for time complexity of running code,other technical questions
+How is Indexing helpful ?
+Can Get works in place for PUT/POST http ?
+Interview Round 1 
+Asked the projects worked in previous office
+Algo qstn : Give n courses from 1 to N ,find the no of semesters to complete the courses .under condition there are dependencies for Courses such as you need to complete i course before taking j course , the courses with No dependency will take 1 semester ,and any number of courses can be taken in 1 semester . Find minimum no of semester to complete course . Also check condition for if their is loop . Topological sort
+Interview Round 2
+given and array,a[i] parent of i ,construct a n-arr tree 
+find k length subarray with maximum sum in arr[] 
+Dp problem ,to find the no of way u can have breakfast in n days ,given Bread butter can be eaten every day, Omelette you cannot have on consecutive days .
+Design a Database 
+other Question on inner join, outer join 
+Interview Round 3
+Discussion on projects 

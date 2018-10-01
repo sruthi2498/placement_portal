@@ -1,0 +1,22 @@
+You are given a list of n-1 integers and these integers are in the range of  1 to n. There are no duplicates in list.  One of the integers is missing in the list. Write an efficient code to find the missing integer.
+
+
+METHOD 1(Use sum formula)
+Algorithm:
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity :  O(n)
+There can be overflow if n is large. In order to avoid Integer Overflow, we can pick one number from known numbers and subtract one number from given numbers. This way we wont have Integer Overflow ever. Thanks to Sahil Rally for suggesting this improvement.
+
+METHOD 2(Use XOR)
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Time Complexity :  O(n)
+

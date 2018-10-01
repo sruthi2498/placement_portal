@@ -1,0 +1,6 @@
+Given an array of strings, print them in alphabetical (dictionary) order.  If there are duplicates in input array, we need to print them only once.
+Examples:
+
+Trie is an efficient data structure used for storing data like strings. To print the string in alphabetical order we have to first insert in the trie and then perform preorder traversal to print in alphabetical order.
+Run on IDE
+Output:

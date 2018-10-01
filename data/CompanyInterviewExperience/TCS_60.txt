@@ -1,0 +1,37 @@
+TCS changed its campus recuritment process recently.
+Round 1:
+Nearly 1200 students attended first round.
+It consists of 4 sections. Each Section has time limits. Once we complete the section before time limit exceeds, We can go to next section.
+1) Email Writing- 1 Question 10 minutes
+In this section you have to write an email for the given scenario in 10 minutes. For example, they might ask you to write a proposal e-mail to the company’s clients to try their new products.
+2) Quantitative Aptitudes– 20 questions 40 minutes
+Negative Marking: 0.33 for each negative answer
+Questions asked from these topics:
+3) Technical Aptitudes- 10 Questions 20 minutes
+It consists of simple c fundamentals , output questions.
+Negative Marking: 0.33 for each negative answer
+4) Coding Section-1 Question  20 minutes
+We dont use scanf, gets etc to get inputs. We have to use command line arguments to get Inputs. 4 test cases are given. Clearing this coding section is more important.
+Rules for Coding Section:
+There is only one question for 20 minutes.
+• It has 10 attempts(We can compile only 10 times).
+• We must start our code from the scratch.
+• The coding platform is divided into two, one for writing the code and other for output. We should write the whole
+program.
+• We can’t use any input functions like scanf(), getch(), getchar().
+• The input to be provided should be read as command line arguments.
+We must only print exact output.
+• Output must not be re-framed by extra words.
+• If there is any error, the error will be shown in the output dialog box.
+• The errors are clearly mentioned.
+• If there are no errors, a message like “compiled successfully” will be printed.
+• Along with that they will mention four test cases are ‘passed’ or ‘failed’. They are indicated like private and public test cases. They have not mentioned what is the test case, which is difficult to understand.
+Sample Programs:
+240 students shortlisted from this round.
+Round 2:
+It is a Technical Round. They are checking our knowledge in core subjects.
+They asked
+Round 3:
+It is a HR Round. They asked sample questions and they checked our confidence level.
+They asked
+After 1 week they announced the results. They selected 100 people. I was among one of them. All the Best! Hope this experience will be very useful!

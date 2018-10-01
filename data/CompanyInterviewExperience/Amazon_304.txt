@@ -1,0 +1,33 @@
+Amazon recently visited our campus for hiring interns for 6 month internship.
+Round 1: Online Test
+The round-1 was an online test of 90 minutes. It was hosted on HackerRank platform. There were 20 MCQ questions and 2 coding questions. MCQ questions were of 1 mark each. There was a negative marking of 0.25 for each wrong MCQ answer. The MCQ questions were from data structures, DBMS, aptitude, etc.
+The coding questions were:
+Q1. https://www.geeksforgeeks.org/reverse-words-in-a-given-string/
+Q2. https://www.geeksforgeeks.org/find-possible-words-phone-digits/
+Note: It is very important to do atleast one coding question to clear this round. Even if you get all your 20 MCQs correct but you don’t do any coding question then your chances of getting selected are very low. I suggest everyone to do all the MCQs they can in initial 30 minutes and then devote last 60 minutes for coding questions. 
+I did 15 MCQs and 2 coding questions. I got selected for next round. Overall, 19 students got selected for next round.
+Round 2: Interview 
+The interviewer first asked me about one of my project that i mentioned in my CV. Then he asked me two questions.
+Q1. We are given a mapping: A is mapped to 1, B is mapped to 2, C is mapped to 3 … Z is mapped to 26. We are given a number n, we have to tell how many distinct strings can be formed from this number n using the given mapping. For example,
+Input: 121
+Output: 3
+Explanation: We can read the number n as 1, 2, and 1. The string formed will be ABA (1=A, 2=B). We can also read the number n as 12 and 1. The string formed will be LA (12=L, 1=A). We can also read the number n as 1 and 21. The string formed will be AU (1=A, 21=U). So we can form  maximum 3 distinct strings out of number 121 using the given mapping.
+I gave a recursive solution and the interviewer was satisfied with my solution. So he asked me to code my solution on a paper. I coded the solution and then he checked my code. Once he was satisfied, we moved on to the next problem.
+Q2. https://www.geeksforgeeks.org/remove-bst-keys-outside-the-given-range/
+After a while the shortlist was announced. 10 students got shortlisted for the next round. I too got shortlisted for the next round.
+Round 3: Final Interview
+This was the final interview of the process. The inteviewer first asked me to introduce myself and then he asked me about one of my project. He then asked me several questions, which are as follows:
+Q1. What is a binary tree? What are different types of traversals in a BT? What is the difference between these traversals? Which of the traversal is based on BFS and which is based on DFS?
+I answered the questions appropriately. He was satisfied with my answers.
+Q2. https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+Once i gave him the solution, he asked me to code it on a paper. He checked my solution manually with some test cases. Once he was satisfied, we moved on to the next question.
+Q3. What is a max heap? What is a min heap? What are some real life applications of heaps?
+Q4. How to insert in a heap? What is the time complexity?
+Q5. How to delete a min element from a min heap? What is the time complexity?
+Q6. Given an array of n numbers, how can i build a min heap from the array. What is the time complexity?
+I answered him appropriately. I told him that we can solve the above problem in O(n) time complexity. He then asked me to prove that the complexity is O(n). I proved it with an example array. He was satisfied with my answer.
+Q7. There is a constant flow of numbers coming in from some infinite list of numbers out of which you need to maintain a data structure as to return the top 100 numbers at any given point of time. Assume all the numbers are integer numbers only.
+Sol: I gave him a solution using min-heap. We can create a min heap of 100 elements. The first 100 elements is easy to handle. Let say we get the 101th element in the list. If this number is less than the root of the binary heap then we need not do anything. If this number is greater then the root of the binary heap then we need to replace the root element with this element and call percolate-down procedure on the root of the binary heap.
+My interviewer concluded my interview with this question. 
+I suggest everyone to go through Amazon interview experiences of atleast 5 people from geeksforgeeks.com before their Amazon selection process. Finally, i would say focus on data structures, OS, DBMS and networks. In data structures, focus mainly on binary trees, binary heaps and linked lists.
+

@@ -1,0 +1,13 @@
+Suppose there are two friends and now they want to test their friendship that how much compatible they are. Given the numbers n numbered from 1 …n and they are asked to rank the numbers. The task is find the compatibility difference between them. Compatibility difference is the number of mis-matches in the relative ranking of the same movie given by them.
+Examples :
+Asked in Walmart Labs 
+The idea is traverse both arrays.
+1) If current elements are same, do nothing.
+2) Find next position of a1[i] in a2[]. Let this position be j. One by one move a2[j] to a2[i] (Similar to bubble step of bubble sort)
+Below is the implementation of above steps.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+

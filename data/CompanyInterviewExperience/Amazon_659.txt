@@ -1,0 +1,90 @@
+1) (Telephonic round 1)
+a. Print a matrix in spiral order (Code)
+Soln: Solved it using recursion. Each recursive call was suppose to print boundary elements. On every recursive call, shifted the origin point and passed new size of matrix.
+b. Given a pair of brace {}. Validate it. (Code)
+Soln: using two variables (i.e open_count and close_count) and proceed further.
+c. What if we have multiple types of braces? (Approach)
+Soln: Using stack.
+2) (Telephonic round 2)
+a. Given list of songs. How would you shuffle it? (Code)
+Soln: Gave various approaches from naive to optimal. The optimal one was similar to shuffling of array of ints.
+b. Give list of words. Print all anagrams together. (Code)
+Soln: Used Hashmap with key as “sort(str[i])” and value as List which is anagrams.
+3) 3: In-house 1
+There are various varieties of clothes (say shirt). Varieties are based on parameters like pattern, size, colour, etc.
+a. What will be your input format so that it can store all values of all parameters?
+List<List<String>>. Each List<String> denotes values for a particular parameter
+b. Design a class for a shirt for the same requirement.
+c. You have to return all different types of shirts that can be formed based on various combinations of input parameters. (Code)
+d. Assuming you have all types of shirts available. Now there are various queries like:
+i. Show all types of shirt having colour “red”,
+ii. Show all types of shirt having size “small” and pattern “check” etc. etc.
+So how will you store I/P so that this requirement can be fulfilled efficiently?
+4) In-house 2
+a. Given a Binary Tree. Assuming each node denotes some x,y coordinate. root node denotes (0,0). Write a code to display coordinate of all nodes.
+case (i): Tree is complete and no node’s x-coordinate is overlapping. (i.e all nodes will expand along x-axis so that no node overlaps). (Code)
+Here we can see that many nodes are overlapping over x-cordinate.
+case (ii): Tree is incomplete and no node’s x-coordinate is overlapping. (Approach)
+case (iii): Tree is incomplete and node’s x-coordinate can overlap. (Approach)
+b. Design a DS to perform
+Insert
+Search
+Delete
+get Random
+All in O(1).
+Soln: Focus on Delete and get_Random. On further analysis, only get_Random was required to me modified. Only a bit of tweak will serve the purpose.
+5) In-house 3
+a. Given array of ints. Assuming total no. of elements is even. Need to tell whether this array can be grouped in sets of pairs such that sum of each pair is divisible by K.
+eg: 0,2,4,8,12,20,18,4 and k=4
+so (0,8), (2,18), (4,20), (4,12) is one such set in which sum of each pair is divisible by k. (Code)
+b. There is a vertical rod. Discs of various radiuses are inserted in it. When we will try to take out any disc then 1st all the discs above it has to be taken out. Taking out a disc and putting it back is counted as one step.
+Considering this, what will be the minimum no of steps in which these discs of various radius can be stored in sorted order in the rod.
+Only minimum no of steps was required. “How to sort” was not required. (Approach)
+c. Given array of ints. find ar[i],ar[j] such that j>i and ar[j]-ar[i] is maximum. Famous problem. (Code)
+6) (Semi Technical- Hiring Manager)
+a. Normal HR questions. Why Amazon over your previous company, some areas where you want to improve, define dream job and similar other questions as per the discussions.
+As per feedback: my answer for “Why Amazon over prev company” was not clear here.
+b. Given two arrays of ints of size m and m+n in sorted order. merge it inplace. Famous problem. (Code)
+c. Given string.
+Qusn: Find the char occuring max no of times.
+Soln: Simple one. Take auxillary array of size 256 and maintain frequency of each char. Scan auxillary array and get the required char. O(k+n) where k=256 here.
+Counter Qusn: Why O(k+n)? Why can’t it be O(n) only?
+Soln: At the time of maintaining freq of each, compare to get max freq char also. No need to travel aux array again. O(n)
+Counter Qusn: What if memory size is only 100 bytes?
+Soln: Detailed one.
+Counter Qusn: Assuming updating freq of each char takes 1sec, so it will take N secs roughly. How can we improve it?
+Soln: Use multi threading for parallel programming.
+Counter qusn: Will there be any issue?
+Soln: In case one aquires lock, other one that needs lock will go in waiting. This adds extra time and so can take more than N secs.
+Counter Qusn: How to improve this?
+Soln: Detailed one.
+And many more such counter questions.
+7) (Amazon Seattle. Semi HR. Analysis of thought process- BAR RAISER)
+a. Again same question. Why Amazon over previous company?
+This time I was prepared 🙂
+b. One +ve point and one -ve point from amazon india site.
+c. Was prepared for this and already did some pre analysis on the site.
+Many more such HR questions.
+d. Analysis of thought process:
+Assuming a new building is going to be constructed for IT official purpose. 75 floors. You are builder. This building will be on lease for diff companies.
+i. How many lifts you will add in that building?
+ii. At which floor each lift will stop?
+Note: At each step, I had to identify the required data after analysis and then only data for the same was provided.
+Soln (i): (As it is totally based on thought process, so counter question from your side is good point)
+1. No of Lifts are determined by many factors. Major factors are height of lift and no of persons working in that building.
+2. I was knowing height of building. To calculate no of persons, I asked size of each floor. It was 100 sq m each floor.
+3. Each floor will have cubicles and other rooms and passages. Assuming 70% of total area is used by cubicles.
+4. Each cubicle will have 4 persons. After calculation it came to be 40 employees per floor. So 3000 employee in whole building.
+5. Next analysis was: In most of the IT company, the in/out timing is flexible. Generally in time is b/w 9:00-11:00 and out is b/w 5:00-7:00.
+6. We have 2hrs of window in which all employee will use the lift. So no of lifts will depend on this factor also.
+7. After calculation, it came out to be approx 9 lifts (which was a good no according to him).
+Soln (ii): Now the qusn is at which floor each lift will stop.
+8. AS we don’t know how many companies will be there in this building at any time, so it is advisable to provide equal chance for employees on the basis of floor no. rather than on the basis of company.
+9. Best way would be to minimise the no. of stops of each lift.
+10. This can be done by giving each lift equal no of floors on which it will stop.
+11. It can simply be calculated as 75/9= 9 (round off).
+12. So 1st lift will have floor buttons b/w 1-9, 2nd will have b/w 10-18 and so on.
+13. This approach was best (according to him) for current scenario.
+14. Remember that each floor should get equal chance and we don’t know how many companies will be there.
+Tips: Geeksforgeeks, Careercup, Cracking the code Interview (Book) +++++.
+Finally got offer in few days. 🙂 Very satisfied.

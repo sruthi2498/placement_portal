@@ -1,0 +1,6 @@
+The list::max_size() is a built-in function in C++ STL which returns the maximum number of elements a list container can hold.
+Syntax:
+Parameters: This function does not accept any parameters.
+Return Value: This function returns the maximum number of elements a list container can hold.
+Below program illustrate the list::max_size() function in C++ STL:
+Run on IDE

@@ -1,0 +1,35 @@
+I applied for the position of Software Engineer at Microsoft IDC, Hyderabad, given 1.5 years of my experience. My rounds were of intermediate level I guess.
+Round 1: Hackerrank test
+There were 1 questions in this round.
+1.) First question was based on strings. Given a string of characters, there will be a roll function given to you. The roll function will specify the subarray [s, e] in the string and this subarray shall be rolled how many times. Example: if s =”abcd” and roll() specifies that subarray [0, 2] be rolled by 2 (roll 0th position 2 times), it’ll increment 0th position by 2, thus s[0] = c. Roll function can be called as many times, then there will be some queries to output the character at any particular position.
+Solution: I did this by keeping the count of the number of times any character is rolled. For maintaining count, I used the cumulative frequency type of method in which we increment the count at position ‘s’ by n, then we decrement count at position ‘e+1’ by n. This passed all the test cases.
+2.) https://www.geeksforgeeks.org/count-ways-express-number-sum-consecutive-numbers/
+After this written round, I was called for onsite interviews.
+ Round 1:
+This round was based on data structures. I was asked two questions in this round. With two technical questions, I was asked about 2 projects of my resume.
+1.) First question was reversing a linked list n groups of k.
+2.) Second one was the zig-zag traversal of binary tree in a bottom up manner. Ex: if level order traversal of tree is [1], [2, 3], [4, 5, 8], [6, 8, 9, 7]
+then required output was: [7, 9, 8, 6], [4, 5, 8], [3, 2], [1].
+She wanted me to optimize as much as I can. I firstly talked about the brute force approach, using recursion, then I told her about the 2 stacks approach. She wanted me to use only stack and do that. Also, being an experienced person, they expect you to write a very neat code with proper test case coverage. They may not see at that moment, but they do look at it after the interview.
+After every interview, I was being given feedback.
+Round 2:
+This round was focused towards DP.
+1.) First question in this round was Weighted Job Scheduling. I told him the DP approach, then he went on to how you found the states of DP. How do you generally approach the DP problem. I told about optimal substructure and overlapping. Then he asked me to write the recursive code for the given question. We then had a lot of discussion on its complexity.
+2.) Second was LIS.
+Overall this round was easy. He then moved on to some design problems and general concepts of OS and Networking. He asked me to design cache, taking care of scalability and reliability. I talked about how distributed systems can be helpful, horizontal and vertical splitting, sharding concepts, replicas etc.
+3.) This question was what happens when you type a url in the web browser. He went on to various routing policies like weighted routing etc.
+I had AWS CSA in my resume, so he went on to concepts like CDN and cloudfront distributions.
+I had blogs on which I contribute, the interviewer asked me to open any of them. I recently started blogging on cloud computing and opened that. He asked some 2-3 questions about that.
+This round was the longest, of around 1.5 hour or so. Very interactive I felt. Enjoyed the most in this round.
+Round 3:
+This round was majorly for the discussion of design problem.
+1.) The first question we discussed about how to design the malloc() API. How memory allocation is done. If you are given a big array of free bytes, and requests keep coming for some size, how will you allocate that. After allocation, how will you deallocate. Note that we de-llocate using free which takes only the pointer to delete the memory it is pointing to. We don’t give the size here, so, we need to maintain the size for each allocation request in our implementation.
+2.) The second question was designing strtok(). Then he asked me to check if there was anything wrong with strtok() library function. I couldn’t guess it. He then gave me a hint to think about multiple requests coming at same time. Basically, the API is not thread safe. I was in my code creating a vector for its implementation. Then, problem reduced to writing a code that will ensure only one vector gets created even when multiple processes try to call the function at the same time. I told him how we can do that using singleton design pattern. I then wrote its code and we discussed about lazy and early instantiation in that.
+Round 4:
+This was the last round with the Azure’s head and some behavioural questions were asked.
+Majorly in this my resume projects were discussed.
+The design problem we discussed was designing autocomplete API of the search engine, I gave the trie solution as per the data and scenario he gave me. I was asked to write its full working code. Then he came on to concepts and things to be taken care of while designing the search engine.
+Also, I was majorly asked the question, that why I am looking for a change.
+After some 10-15 minutes, I was informed that my interviews went well and I’ll be extended the offer. Today I have it 🙂
+My advice: When we are appearing for interviews having some experience, companies expect us to write full working code covering all test cases. There should difference in the way we, being experienced write the code and a fresher writing the same piece. Also, having knowledge of design problems is a must. They test us on scalability, fault tolerance, reliability, user experience, load handling etc. Keep an open mind and try to think in all prospects when a design question is asked.
+I’d like to thanks GeeksforGeeks for their incredible website, contributing on and learning from which has provided me immense knowledge and confidence.

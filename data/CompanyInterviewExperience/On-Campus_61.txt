@@ -1,0 +1,55 @@
+Round 1: Online screening test (time: 1.30 hrs) CGPA cutoff : 7.0
+It Consists of 5 MCQs. All the 5 questions were asked on OOPS. (C++/JAVA)
+There were two Coding questions :
+https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
+We should make zig zag moves, from (x, y) -> (x, y+h), (x, y+h) -> (x+d, y),
+(x+d, y) -> (x+d, y+h)..etc. We need to find the maximum points. Sorry this problem
+needs visualization in xy plane. (could’nt make it clear)
+Around 100 people attended the test and 26 were able to clear the first round. Those who’ve
+done one coding question completely (or) partially with MCQs could make out to further process.
+Round 2: Technical
+The interviewer asked me to briefly explain about the projects mentioned in resume.
+Then he asked me three coding questions :
+o/p:   M  n  i   S
+y   a   s  h
+m     a
+e      d
+y
+Use 2-d array and insert the characters into the array and print them.
+Use window size of four. I’ve done it in O(n).
+Eg:  i/p: {3, 5, 6, 2, 9, 4, 7} o/p: {2, 9, 4, 7}
+to find the missing character.
+Eg:  Given linked list:  a->b->d->e->f->g      o/p: c
+1->2->3->5->6->7->8      o/p: 4
+Overall the interview was cool and the interviewer was too cooperative.
+After first round 16 people could make into the 2nd round.
+Round 3:  Group activity
+Total 16 students were divided into two groups. Each group were given some set of legos
+and we need to construct a bridge using those legos. The interviewers will observe us.
+This was not an elimination round. They wants to test our leadership skills and thinking
+skills.
+Round 4: Technical 
+The questions were totally asked on object oriented programming. Data abstraction,
+Encapsulation etc. He asked me to write a code for a customer to get the details of his
+account like name, account balance using classes and the data must be accessed only
+by the customer. And then he asked me to write a code for the deletion of an element from
+an array ( in-place deletion rather than printing the required elements and do not use extra
+memory ).
+The interviewer had brought some set of MCQs and he asked me to choose the correct
+options for those questions. The questions were on polymorphism in C++/JAVA.
+Total 11 students could make into the final round.
+Round 5: Technical + HR
+The interview has a panel of two people. They asked me to introduce and tell something
+about me. Then one of them asked me to explain the projects that I’ve done. Then the other
+person asked the differences between C and C++. And asked me to write a code on how
+overloading and overriding works in C++. Then they gave another question:
+Write a code to get the number of notes from an ATM machine such that only 500
+rupee notes are to be processed and five 100 rupee rupee notes are to be processed.
+Then they asked me to differentiate between different sorting algorithms. ( The question
+was like, if you had bubble sort algo  then what is the need of merge and quick sort )
+They asked me whether I had any questions for them. I asked them a question.
+Finally they recruited 8 students.
+TIPS:
+Make clear understanding of the Object Oriented concepts. Refer GeeksForGeeks for C++ and Data Structures.
+Be confident and answer the questions confidently.
+GOOD LUCK!

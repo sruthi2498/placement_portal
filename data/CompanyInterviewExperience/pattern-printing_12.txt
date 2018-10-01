@@ -1,0 +1,18 @@
+Given a positive integer n, print the matrix filled with rectangle pattern as shown below:
+a a a a a
+a b b b a
+a b c b a
+a b b b a
+a a a a a
+
+where a = n, b = n – 1,c = n – 2 and so on.
+Examples:
+For the given n, the number of rows or columns to be printed will be 2*n – 1. We will print the matrix in two parts. We will first print upper half from rows from 0 to floor((2*n – 1)/2) and then second half from floor((2*n – 1)/2) + 1 to 2*n – 2.
+Now for each row, we will print it in three parts. First part is decreasing sequence which will start from n and decrease by 1 in each iteration. The number of iteration will be equal to row number, the second part is a constant sequence where constant is n – i and it will be print 2*n – 1 – 2 * row number, and the third part is increasing sequence which is nothing but opposite of the first sequence.
+For lower half, observe, it is a mirror image of upper half (excluding middle row). So, simply run a loop of the upper half from (2*n – 1)/2 to 0.
+Below is the basic implementation of this approach:
+
+Run on IDE
+Run on IDE
+Run on IDE
+

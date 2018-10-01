@@ -1,0 +1,26 @@
+Round 1 (45 Mins)
+Brief description of the current project: Architecture, Technologies, Workflow etc.
+A 2D array problem(cant remember exactly) but I have to sum up the values on given constraints: He asked to start with basic approach so I gave O(n^4) time complexity  solution then he asked for improvisation, after some workout I came up O(n^2) time and O(n^2) space complexity solution. He asked for more optimisation (avoid extra space) but in given time I could not find solution without extra space.
+Find the difference between sum of values in odd level and sum of values in even level in given binary tree: I explained the approach then he asked me to write code with both recursive and non-recursive approach.
+Round 2 (50 Mins)
+Tapping Rain Water problem: I didnt know the classic solution but I came up with my own approach which worked fine. You can find problem here
+A 2d array with all 1s and 0s where 1s are land and 0s are water, Matrix itself is surrounded with water i.e 0. I gave him O(n^2) time and O(n^2) space complexity solution and he accepted.
+He asked questions like most challenging task you did in your past experience, I explained him about middlewares I implemented earlier for tracking the exceptions in code.
+
+Round 3 (written)
+	I was called in Amazon office after few days (very nice office)
+Tree traversal with several ways.
+Few linear array problem
+I believe this round was just for warmup.
+Round 4 (45 Mins)
+Brief description of current project: this time he was more focused on technologies and tools. He asked every technology I mentioned in deep.
+ Top view of given binary tree: you can find the problem here
+An html format string was given where I have to find output of given queries.
+Ex. 
+Queries would be like: GET name, so output would be Pratik. (something like that)
+
+Round 5 (Manager)
+After some formal discussion he came up with his question “Design pattern for chess game” for which I wrote few classes and explained approaches for the game like peer to peer and client-server but he was not satisfied. This round didn’t go well.
+I could not make it but it was very good experience, All interviewers were so friendly and helpful.
+
+

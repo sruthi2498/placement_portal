@@ -1,0 +1,53 @@
+Nagarro come to my campus for written test. Interview process conduct in Gurgaon office.
+Round 1:
+3 written test in college campus.
+a.) Aptitude Round (R.S. Agrawal) (30 question, 40 minute).
+b.) Technical Aptitude (Most from the C language Easy question) (20 question, 20 minute).
+c.) 3 coding question written on paper. (In 75 Minute)
+1.) string panagram or not. (means all alphabat are present or not in the string)
+2.) Find sqare sub matrix of size N from the given sqare matrix of size M whose sum of
+element is maximum.
+3.) sort the array element based on Dictionary.
+Input :- 10,20,30,100,200,300.
+output :- 10,100,20,200,30,300.
+Round 2:
+coding written round in Nagarro Gurgaon office.
+There are 3 coding question written on paper in 75 minute.
+1.) A matrix is given, Rotate a sub matrix at 90 degree of given size.
+2.) A string is given(paragraph type), count the frequency of each word in string and print it.
+3.) Given 2 sorted array and a number N, find 2 numbers whose sum is closet to given number N.
+Round 3: Technical Interview
+Explain your written code of previous round. If any error,find it,correct it. If your code is not
+optimize and not space efficient then Give optimize & efficient solution of your written code.
+Interviewer is very friendly, he only check your explanation process or optimization techniques.
+After the written code explanation, he ask 2 coding question:-
+1.) Merge an array of size n into another array of size m+n
+2.) Given a text string and a sample string. Find if the characters of the sample string is in the same
+order in the text string.
+Eg:-
+TextString: abcnjhgahgjhfhaljhrkhgrbhjbevfho
+Sample string: nagarro
+Round 4: HR Interview
+1.) Tell me about yourself.
+2.) your NIMCET rank.
+3.) Do you know any senior or any person, which are currently working in Nagarro.4.) Strength & Weakness.
+5.) About current rejection and why?
+6.) your favourite language. (prefer in coding)
+7.) Which type of coding plateform you prefer?
+8.) what are your rank in codechef, hackerrank and geeksforgeeks. Which platform you prefer for
+coding and why ?
+9.) Right now, are you working with which technology ?
+(Technologies that you have worked on)
+10.) Tell me about your project. Which tecnology are used in your project?
+(My project related to android application, so some basic question also ask from android & java).
+11.) Tell me something about Nagarro.
+12.) why do you want to join this company?
+13.)where do I rank myself in programming among my batch mates and where do I rank myself in
+academics among my batch mates?
+14.) Are you Extrovert or Introvert ?
+Suggestion:-
+1.) Attempt all the coding question in written round. If you don’t know efficient solution try brute
+force apporch.(if you don’t attempt anyone, may be you will reject so try to attempt all the
+question.)
+2.) Be confident every time during interview.
+

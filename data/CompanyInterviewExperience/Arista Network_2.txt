@@ -1,0 +1,25 @@
+Arista Networks visited our campus to offer internships.
+Online Coding Round 1 : 
+The test was on Hackerrank and we were given 3 coding problems.
+1. Insert a given key (a string) into a trie. (easy if you know about tries)
+2. Remove duplicate elements from a circular linked list and the duplicates occur consecutively in the list. It was tricky because of the edge case that the last element could be equal to the first element and since linked list is circular.
+3. Find the maximum sum from root to a leaf node of a given n-ary tree( a tree with any number of children).
+The first and second questions were allowed to be coded in C, C++ but only 1 language was allowed to solve second problem – C.
+Tip for Java users : Learn to code in C, C++ because Arista often allows only these two in coding rounds.
+Around 13 people were shortlisted from coding rounds. The coding questions were easy so only those who solved all the 3 were shortlisted.
+Round 2 (Telephonic, Face to face) : 
+Out of 13 students, 6 were sent for FTF interviews and for the rest of them, they took telephonic interview. I gave telephonic interview as well.
+I received the call from Banglore center of Arista and he started with his introduction and then asked me to introduce myself. Then he gave me the web link of codeshare.io which is a platform where multiple people can write code at the same time and changes would appear on all the people’s editor who are connected to it.
+Firstly, he asked some questions regarding my code of problem 3 of coding round. He pointed out some test cases for which the code wouldn’t give correct answer (though they were not included in system test cases of the problem) and asked me to make required changes.Then he asked me to use iterative method to solve the same problem instead of recursive. I wrote the code for it.
+Next, he asked some questions on tries.
+How would you optimize the space complexity in trie ?
+How can we check whether a given key is present in the trie without going upto the depth of the trie i.e. in less number of iterations ?
+He was expecting a linked list to be maintained at each node sort of solution. I answered it using a compressed trie which is generally used in suffix tries (though he wasn’t expecting that much).
+Basically the question was if we are given a large IP address how can we perform operation on a trie with less number of computations. I told him that instead of modifying the trie we could even modify the address by converting into a different base probably a larger base – means a shorted equivalent address.
+Then he asked me the phonebook problem. How do we implement the system in our phones that maintain the contact list i.e. phone numbers and names of people?
+ The problem’s solution is to use a trie so that for each prefix of the string we could easily find the names and numbers associated with it.
+How do we implement the frequently called list that maintains the list of people whom we contact frequently ?
+Solution is to use a heap and pop out the most frequently used k contacts whenever required. Heap because updation and insertion operations are fast.
+Then there was some discussion on my academic project. I made the project on Cloud computing which gave me some edge in the interview as Arista is a networking company.
+Finally he asked me to submit my grade sheets of past semesters and the interview was over.
+6 people were selected from our college for 2 months summer intern and I was one of them 🙂

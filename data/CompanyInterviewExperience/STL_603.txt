@@ -1,0 +1,17 @@
+unordered_set is implemented using hash table where keys are hashed into indices of this hash table so it is not possible to maintain an order. All operation on unordered_set takes constant time O(1) on an average which can go up to linear time in worst case which depends on the internally used hash function but practically they perform very well and generally provide constant time lookup operation.
+    The unordered-set can contain key of any type – predefined or user-defined data structure but when we define key of type user define type, we need to specify our comparison function according to which keys will be compared. 
+set vs unordered_set
+Set set is an ordered sequence of unique keys whereas unordered_set is a set in which key can be stored in any order, so unordered.
+    Set is implemented as balanced tree structure that is why it is possible to maintain an order between the elements (by specific tree traversal).  Time complexity of set operations is O(Log n) while for unordered_set, it is O(1).  
+Methods on unordered_set
+For unordered_set many function are defined among which most useful are size and empty for capacity, find for searching a key,  insert and erase for modification.
+The Unordered_set allows only unique keys, for duplicate keys unordered_multiset should be used. 
+Example of declaration, find, insert and iteration in unordered_set is given below :
+Run on IDE
+Output : 
+Find, insert and erase take constant amount of time on average. The find() function returns an iterator to end() if key is not there in set otherwise iterator to key position is returned. The iterator works as pointer to key values so we can get key by dereferencing them by *.  
+A practical problem based on unordered_set – given a set of integer number, find duplicate among them.
+Below is C++ solution using unordered_set.
+Run on IDE
+Output : 
+Recent articles on unordered_set

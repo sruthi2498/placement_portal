@@ -1,0 +1,26 @@
+Mobius Function  is a multiplicative function  which is used in combinatorics. It has one of three possible values -1, 0 and 1.
+
+Examples:
+
+Method 1 (Simple)
+We iterate through all numbers i smaller than or equal to N. For every number we check if it divides N. If yes, we check if it’s also prime. If both conditions are satisfied, we check if its square also divides N. If yes, we return 0. If square doesn’t divide, we increment count of prime factors. Finally we return 1 if there are even number of prime factors and return -1 if there are odd number of prime factors.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Method 2 (Efficient)
+The idea is based on efficient program to print all prime factors of a given number. The interesting thing is, we do not need inner while loop here because if a number divides more than once, we can immediately return 0.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output:
+References
+1) http://mathworld.wolfram.com/MoebiusFunction.html
+2) https://en.wikipedia.org/wiki/M%C3%B6bius_function
+3) https://en.wikipedia.org/wiki/Completely_multiplicative_function

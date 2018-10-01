@@ -1,0 +1,26 @@
+Intuit had come on campus last week for SDE-1 and Quality Engineer profiles. These were the questions asked:
+Round One (Written round, 60 minutes):
+1. Given an unsorted linked list, remove all duplicates without using temporary buffers.
+2. A number starting from 1 can be got by either multiplying 3 or adding 5 to it. Given a number, find the sequence of operations to get it or say it’s not possible.
+    e.g: 13 is 1 * 3 + 5 + 5 but 15 you cannot get.
+3. Given a tree, get the path from root to leaf such that the sum of nodes in the path is maximum.
+4. There are 50 people in a bank. Each person is either an employee or a customer. Each person knows what everyone else is. The police can ask person i what person j is. Customers will always tell the truth. Employees are evil geniuses who may not tell the truth. The police have to find at least one customer asking a maximum of 49 questions. More than half the people are customers.  
+Round Two (Group activity, 60 minutes):
+The selected students were divided into groups of 5 to 6 and were asked to design a system to
+“How does a student achieve academic excellence”
+All ideas were jotted into a chart and we were asked to present it after 45 minutes of brainstorming. 
+No elimination in this round.
+Round Three (Technical interview, 45 minutes):
+1. What’s the angle between the hours’ hand and the minutes’ hand when the time is 3.15
+2. How many times does the minutes’ hand cross the hours’ hand during one day?
+3. Given an array which can contain either 0s or 1s, write an algorithm to find the length of the longest subarray of all 1s and all 0s.
+Round Four (Technical interview, 60 minutes):
+1. Design an e-commerce system for me using block diagrams and architecture diagrams. What components will you use and why? What does each component do?
+2. Write an algorithm to delete an element from a circularly linked list. Optimize it. Implement it in Java.
+3. Give me an example of a machine learning algorithm which you will use for giving suggestions on a e-commerce website.
+Round Five (Technical / HR, 60 minutes):
+1. Why do you want to join Intuit?
+2. What will you do if a conflict arises in your team?
+3. What were the major challenges you faced before?
+4. Design a database schema for an Android app which calculates your GPA and stores it in a SQL database.
+

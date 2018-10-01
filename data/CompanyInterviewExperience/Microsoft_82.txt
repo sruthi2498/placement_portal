@@ -1,0 +1,15 @@
+The online test was conducted on CoCubes on 2017, 5th November. The test was webcam enabled to avoid any kind of cheating. You cannot open any other tab or minimize the window. It consisted of 3 coding questions.
+TIME LIMIT: 75 minutes
+(*) Marks(Qn-1) = 2
+(*) Marks(Qn-2) = 3
+(*) Marks(Qn-3) = 5
+Question 1: Write a function which accepts an integer array and its size and modifies the array in the following manner:
+Question 2: Write a function which accepts an integer array and its size and returns the maximum index difference i.e. (i-j) such that array[i] < array[j] and i < j.
+If there is no such case, return -1 .
+
+
+
+
+Question 3: Write a function which accepts the root of a tree, and returns a Linked List which contains the leaf nodes of the tree from left to right order.
+Assumptions:
+Keep practicing questions from GeeksForGeeks.

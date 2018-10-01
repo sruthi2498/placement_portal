@@ -1,0 +1,12 @@
+Write a program that receives a number as input and prints it in the following format as shown below.
+Examples :
+Asked in CGI coding round
+Approach: The approach is to see the problem not as a single task but three tasks which on combining completes the main task. The three tasks are printing left-half of pattern, printing dashes(-) and printing right-half of pattern. Combining all three tasks we would be able to print the pattern.
+Below is the implementation.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Output :

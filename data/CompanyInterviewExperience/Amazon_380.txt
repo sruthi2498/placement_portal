@@ -1,0 +1,33 @@
+Given a stack, sort it using recursion. Use of any loop constructs like while, for..etc is not allowed. We can only use the following ADT functions on Stack S: 
+Example: 
+This problem is mainly a variant of Reverse stack using recursion.
+The idea of the solution is to hold all values in Function Call Stack until the stack becomes empty. When the stack becomes empty, insert all held items one by one in sorted order. Here sorted order is important.
+
+Algorithm
+We can use below algorithm to sort stack elements:
+Below algorithm is to insert element is sorted order:
+
+Illustration:
+Let us illustrate sorting of stack using above example:
+First pop all the elements from the stack and store poped element in variable 'temp'.  After poping all the elements function's stack frame will look like:
+Now stack is empty and  'insert_in_sorted_order()' function is called and it inserts 30 (from stack frame #5) at the bottom of the stack. Now stack looks like below:
+Now next element i.e. -5 (from stack frame #4) is picked. Since -5 < 30,  -5 is inserted at the bottom of stack. Now stack becomes: 
+
+
+Next 18 (from stack frame #3) is picked. Since 18 < 30, 18 is inserted below 30. Now stack becomes:
+
+
+Next 14 (from stack frame #2) is picked. Since 14 < 30 and 14 < 18, it is inserted below 18. Now stack becomes: 
+
+
+Now -3 (from stack frame #1) is picked, as -3 < 30 and -3 < 18 and -3 < 14, it is inserted below 14. Now stack becomes:
+
+
+
+Implementation: 
+Below is C and Java implementation of above algorithm.
+
+Run on IDE
+Run on IDE
+
+Exercise:  Modify above code to reverse stack in descending order.

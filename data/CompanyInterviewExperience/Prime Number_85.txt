@@ -1,0 +1,29 @@
+If you participate in the competitive programming, you might be familiar with the fact that questions related to Prime numbers are one of the choices of the problem setter. Here, we will discuss how to optimize your function which checks for the Prime number in the given set of range and will also calculate the timings to execute them.
+Going by definition, a Prime number is a positive integer which is divisible only by itself and 1. For example: 2,3,5,7. But if a number is can be factored into smaller numbers, it is called Composite number. For example: 4=2*2, 6=2*3
+And the integer 1 is neither a prime number nor a composite number. Checking that a number is prime is easy but efficiently checking needs some effort.
+
+Method 1
+Let us now go with the very first function to check whether a number, say n, is prime or not. In this method, we will test all divisors from 2 to n-1. We will skip 1 and n. If n is divisible by any of the divisor, the function will return False, else True.
+Following are the steps used in this method:
+Run on IDE
+Output:
+In the above code, we check all the numbers from 1 to 100000 whether those numbers are prime or not. It has a huge runtime as shown. It takes around 1 minute to run. This is a simple approach but takes a lot of time to run. So, it is not preferred in competitive programming.
+Method 2
+In this method, we use a simple trick by reducing the number of divisors we check for. We have found that there is a fine line which acts as the mirror as shows the factorization below the line and factorization above the line just in reverse order. The line which divided the factors into two halves is the line of the square root of the number. If the number is a perfect square, we can shift the line by 1 and if we can get the integer value of the line which divides. 
+In this function, we calculate an integer, say max_div, which is the square root of the number and get its floor value using the math library of Python. In the last example, we iterate from 2 to n-1. But in this, we reduce the divisors by half as shown. You need to import the math module to get the floor and sqrt function.
+Following are the steps used in this method:
+Run on IDE
+Output:
+In the above code, we check all the numbers from 1 to 100000 whether those numbers are prime or not. It takes comparatively lesser time than the previous method. This is a bit tricky approach but makes a huge difference in the runtime of the code. So, it is more preferred in competitive programming. 
+Method 3
+Now, we will optimize our code to next level which takes lesser time than the previous method. You might have noticed that in the last example, we iterated through every even number up to the limit which was a waste. The thing to notice is that all the even numbers except two can not be prime number. In this method, we kick out all the even numbers to optimize our code and will check only the odd divisors.
+Following are the steps used in this method:
+Run on IDE
+Output:
+In the above code, we check all the numbers from 1 to 100000 whether those numbers are prime or not. It takes comparatively lesser time than all the previous methods for running the program. It is most efficient and quickest way to check for the prime number. Therefore, it is most preferred in competitive programming. Next time while attempting any question in competitive programming, use this method for best results.
+Sieve Method
+This method prints all the primes smaller than or equal to a given number, n. For example, if n is 10, the output should be “2, 3, 5, 7”. If n is 20, the output should be “2, 3, 5, 7, 11, 13, 17, 19”.
+This method is considered to be the most efficient method to generate all the primes smaller than the given number, n. It is considered as the fastest method of all to generate a list of prime numbers. This method is not suited to check for a particular number. This method is preferred for generating the list of all the prime numbers.
+Run on IDE
+Output:
+Note : Time required for all the procedures may vary depending on the compiler but the order of time required by the different methods will remain same.

@@ -1,0 +1,41 @@
+Recently I got interviewed at Amazon on campus. The process was :
+Online Round :
+———————-
+A hackkerank contest with 22 questions inclusive of 2 coding problems and 20 MCQ’s on OS,Aptitude,DBMS .
+Coding Questions :
+1. Given a 2d array with only elements ‘#’ & ‘.’  . ‘#’ represents cherry and ‘.’ represents nothing . Can you divide the array into 2 halves with equal cherries . You could only make a single cut either horizontal or vertical  .
+2. Sliding Window of size k . Find max of each window. 
+Round 1 :
+——————
+Problem 1: Search in rotated and sorted array .
+Interviewer wants all corner cases covered code .And also Max optimized time complexity .
+I gave a O(2*logn) solution he got satisfied .
+Problem 2: Given a number k , Find no. of ways to make this number using sum of numbers from 1 to k-1 . Also You cannot take same number more than once in a combination and also all permutations of a combination count as one way .
+For eg: if k= 6, Then all permuations of (1,2,3) count as one way only.
+I got shortlisted after this round .
+Round 2
+————-
+It consists of a single problem only but a detailed discussion on that .
+Problem : Range Minimum Query .i.e Given an array and a range query (xi,yi) find min element in the range (xi,yi) . These queries can be very large .
+First i gave bruteforce approach and after that I gave a segment Tree solution to that with time and space complexity .
+He then asked what if we have to update an element and then followed by updating a range .
+After that he asked what if we delete an element . How do you modify your solution to cope-up with that .
+I suggested him to update the element with INT_MAX and maintain a mapping array .
+After that he asked what if we add an element in the array ? .
+I suggested him to reconstruct segment tree based on that . He suggested to construct it like a binary root instead of array representation and store the range . There can be some re-usable subtrees . How can i found those subtrees and how to use them and what will be the time complexities. 
+Lastly i was told to code range minmium query with node having following properties (min,start,end,node* left,node* end ) ;
+He got impressed .:)
+Round 3
+————–
+It also consist of only a single problem .
+Problem : Given set of coordinates find top k elements whose distance from origin in maximum .
+I gave naive approaches and heap approach . Later he asked me to think more then i come up with Quick-Sort Partition function approach .
+He asked me to code it .
+Round 4
+—————
+It was easiest of all so far .
+It consist of problem : Given 2 linked list subtract them and store the result in bigger one and return that .
+Basically he wants us to cover all corner cases for this . 
+After that a discussion on projects took place. 
+Thanks Geeks For geeks for huge programming problems database . Doing a great Job 🙂 .
+

@@ -1,0 +1,43 @@
+MakeMyTrip recently visited our campus to hire full time employees. Here’s my interview experience:
+Round 1: (Online MCQs)
+Questions on aptitude, English, logical reasoning, C/C++ and 5 coding ques. (only pseudo code).
+Round 2: (Online Coding Round)
+1.	A prisoner broke out from jail. In order to escape, he will have to jump n no. of walls and length of each wall is given. Maximum height to which prisoner can jump is given. Now since it was a rainy day all the walls are wet and when prisoner makes a jump he slips down l units. Calculate total no. of jumps he will have to make in order to escape. (Simple logical question)
+2.	Find smallest substring which contains all characters from a given string?
+Input string1: “This is a test string”
+Input string2: “tist”
+Output: “t stri”
+3.	Given a maze. Drop a mouse in the maze randomly, and place a piece of cheese in any cell. The mouse can move 4 directions 
+up down left right
+There are some walls on the way to block certain directions for certain position. 
+Design an algorithm for the mouse to find the cheese. 
+Note: the mouse does not know where he is, and where the cheese is. He cannot find x,y for the position he is right now. 
+for instance
+X X B
+D X D
+A X X
+D is the block with walls on 4 sides.
+If the mouse reaches the end of row or column, it gets the dead end. 
+Mouse is A, cheese is B. Return true if mouse can reach the cheese else return false.
+Note: if your code doesn’t compile, they will not accept it even if your logic is correct. 
+
+Round 3: (Technical Interview)
+•	A brief intro of yourself and discussion on my projects.
+•	Then he asked me about my fav. subject and language (DS and C++).
+•	Questions on OOPS (almost all the concepts were covered like polymorphism, overriding, overloading, inheritance, concept of virtual fxns etc.)
+•	He wrote a C++ code and asked me to write the output.
+•	Some questions on DS and then he asked me to write algo for reversing a linked list.
+•	Then he asked me to explain one of the questions that I had attempted in the coding round. (They just want to make sure that you know the logic).
+Round 4: (Technical Interview)
+•	Topics in DS that I am comfortable with and the ones with which I am not.
+•	Unfortunately this time he asked me questions from the later. They don’t want a correct answer but just want to see how you approach in such questions.
+•	Questions from bit-wise operators
+•	Then he asked me to explain other one of the two questions I had attempted in coding round. 
+Round 5: (HR Interview)
+A quick intro
+Discussion on my projects
+What you know about their company apart from ppt. Make sure you study their website inside-out before you go for interviews, this shows your passion to work for their company.
+Questions on strengths, weakness and hobbies. Be yourself.
+geeksforgeeks.org was of great help throughout my placement process. 
+
+

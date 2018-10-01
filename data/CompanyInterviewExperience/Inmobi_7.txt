@@ -1,0 +1,45 @@
+InMobi visited our campus twice, once for the written round, then for the personal interviews of the shortlisted candidates. 
+So here is the written + PI experience of mine for InMobi.
+————————————————————-
+Written Round :
+Time : 1:30 hours.
+25 MCQ’s,  coding questions.
+MCQ’s were easy, coding questions – 
+1) Kth Optimal path in a matrix.
+
+http://programmers.stackexchange.com/questions/260972/kth-optimal-path-in-a-matrix
+2) Given a string, evaluate it and return the integer answer.
+Eg. Input : “1+2+3*(4+5)*9+4-5*2”
+        Output : 240
+————————————————————–
+Oncampus-
+First round of Personal Interview
+* Tell me about yourself
+* Tell about the projects done
+* Find the first repeating element in an array of integers.
+* Discussion on 8-Queen’s problem
+* Find if there is a triplet in a Balanced BST that adds to zero.
+————————————————————–
+Second Round of Personal Interview
+* General discussion on BigData, as I have worked on Hadoop.
+* Add 3 linked lists.
+* Serialize and Deserialize a Binary Tree
+—————————————————————
+
+Third Round of Personal Interview
+* Wildcard Matching
+     https://oj.leetcode.com/problems/wildcard-matching/
+* Some bhaukaal question on graph.
+* Discussion about Trie data structure, T9 dictionary.
+—————————————————————
+Finally HR Round
+General HR questions like-
+* Tell me about yourself
+* What you learned during your summer internship
+* 3 strengths and 3 weakness ( Very tricky Question )
+* What do you know about InMobi
+* Why InMobi
+* Plan for further studies
+Then the HR started telling me about the company, it’s policies, etc.
+—————————————————————
+I follow GeeksforGeeks religiously and it helped me a lot! Hope this experience helps you too 🙂

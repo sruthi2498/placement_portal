@@ -1,0 +1,74 @@
+I have recently attended an interview with Amazon Hyderabad, for SDE-I position. All 4 rounds are conducted by different people from different teams. 
+There are 4 rounds in total.
+1st and 2nd are on DS, Algos, PS
+3rd is partially coding and partially design round
+4th is managerial round.
+Here are the questions that are asked in each interview:
+1st Round:
+1. What are the traversals required to serialize and deserialize a binary tree?
+And what about for BST?
+Given InOrder and Post Order of a binary tree, construct the original tree back. Write the code.
+2. From a large stream of integers coming continuously, Find the k smallest elements always at any particular time?
+3. There is a Binary Tree.
+Now you have to replace each node’s data with the sum of its left and right child’s data.
+But the condition is that:
+     	You should replace the node’s data with sum, only if the sum > data
+     	If the sum < data, then keep some value on the node and adjust its left and right child's accordingly.
+For eg: node=20, left=4, right = 6. Now sum = 10. Since 20 > 10, you should not replace.
+Instead keep the node’s data as it is and replace left data as (20-6)=14.
+Now root=20, left = 14, right=6. Now check the condition again from left, till you reach leaf nodes.
+2nd Round:
+1. Given a set of strings. We are required to merge all these strings into a single string.
+You are given with a merge(str1, str2) function, whose cost is sum of lengths of the strings passed.
+How can you merge the strings, by making the cost as low as possible?
+Write code of deleteMin, insert, percolateDown operations in Heap.
+Solution:
+Initially sort the strings in ascending order wrt their lengths. Now take out the first two strings and concatenate them.
+Keep the resultant string in the sorted strings, wrt its length.
+Priority Queue will be used to achieve the desired solution here.
+2. Given a matrix of size m x n. Here m and n are very large, assume like 1 lakh.
+You are given a series of submatrix inside this matrix. Find the sum of all elements inside each submatrix.
+Submatrix positions are given interms of its: top_left_cell and bottom_right_cell.
+For eg:
+input array: 5 x 6
+1,  2,  3,  4,  5,  6
+7,  8,  9,  10, 11, 12
+13, 14, 15, 16, 17, 18
+19, 20, 21, 22, 23, 24
+25, 26, 27, 28, 29, 30
+submatrix positions:
+(3, 4), (4, 5)
+which is
+16, 17
+22, 23
+o/p is: 78
+Solution: Since there will be multiple submatrix will be given for your, its not optimum to go element by element for each submatrix. Do some pre-processing, like build another matrix same size as input matrix, which will contain sum of its sub matrix. This way we can calculate the sum in O(1) time.
+For the above example, the sum matrix is:
+1×1 1×2 1×3 1×4 1×5 1×6
+2×1 2×2 2×3 2×4 2×5 2×6
+3×1 3×2 3×3 3×4 3×5 3×6
+4×1 4×2 4×3 4×4 4×5 4×6
+5×1 5×2 5×3 5×4 5×5 5×6
+Now to find the sum of submatrix: (3, 4) and (4, 5)
+sum = sum[maxRow, maxCol) – sum(minRow-1, maxCol) – sum(maxRow, minCol-1) + sum(minRow-1, minCol-1)
+3rd Round:
+1. Design a newspaper subscribing system for a user.
+What are all the systems to be considered as part of this design?
+2. There is a stream of integers coming. At any particular point of time, you are required to give the first non-repeated element from it.
+For eg: 2, 3, 1, 2, 1, 3, 5
+o/p: If I ask you at 2nd position(after 3), the answer is: 2
+If I ask you at 5th position(after 1), the answer is: 3
+If I ask you at 6th position(after 3), the answer is: “No such element”
+If I ask you at 7th position(after 5), the answer is: 5
+Solution:
+Manager Round:
+1. Google crawler question.
+Given a set of N documents.
+Given k strings: {str_1, str_2, …, str_k)
+Now return the document numbers, which contains all the k strings.
+2. Given an N-ary tree. Mirror the tree.
+Give a suitable tree Node structure for this and write code for the same to mirror it.
+eg: 
+I haven’t done well in last two rounds. So I got rejected. But it was a nice experience altogether.
+Thanks to geeksforgeeks for hell lot of questions. It takes at least a life time to prepare all the questions present in geeks for geeks, if we go by one question per day. Thanks.
+

@@ -1,0 +1,24 @@
+Given a number n, we need to find the sum of its digits such that:
+Examples :
+A brute force approach is to sum all the digits until sum < 10.
+Flowchart:
+
+Below is the brute force program to find the sum.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+There exists a simple and elegant O(1) solution for this too. The ans is given by simply :-
+Below is the implementation of the above idea :
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+
+Related Post : 
+https://www.geeksforgeeks.org/digital-rootrepeated-digital-sum-given-integer/

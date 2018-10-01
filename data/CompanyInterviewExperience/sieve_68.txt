@@ -1,0 +1,19 @@
+Given a number n, count total perfect divisors of n. Perfect divisors are those divisors which are square of some integer. For example a perfect divisor of 8 is 4.
+Examples:
+Naive approach
+A brute force is find all the divisors of a number. Count all divisors that are perfect squares.
+
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Run on IDE
+Time complexity: O(sqrt(n))
+Auxiliary space: O(1)
+Efficient approach (For large number of queries)
+The idea is based on Sieve of Eratosthenes. This approach is beneficial if there are large number of queries. Following is the algorithm to find all perfect divisors up to n numbers.
+Below is implementation of above steps.
+
+Run on IDE
+Time complexity: O(MAX * log(log (MAX)))
+Auxiliary space: O(MAX)

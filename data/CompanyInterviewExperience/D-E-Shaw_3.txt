@@ -1,0 +1,19 @@
+ 
+Online [Coding] Round:
+The test had three sections – Coding, Technical and Aptitude. It was hosted on HackerRank.
+Coding round had 2 questions – Time limit was 50 minutes. The first question was on Binary Tree Traversal (where the tree is stored in the form of an array) and second was based on Dynamic Programming (a variation of Knapsack problem).
+Technical round had 10 questions – Time limit was 20 minutes. It was based on data structures, operating systems, database systems, object oriented programming and computer networks.
+Aptitude round had 10 questions – Time limit was 20 minutes. These were basic mathematics questions and some information based puzzles.
+Around 15-17 students were shortlisted after this round.
+Technical Round – 1:
+After having a look at my resume, the interviewer asked me to explain the project I did during my internship. After that, I was asked to explain everything about my Compiler Project (including the stages of development of a compiler and all the data structures used).
+This was followed by a Design question – How would you implement the “History” feature in Google Chrome? I was expected to come up with the possible use cases, efficient data structures to implement the functionalities (like a linked list based queue for storing urls, a trie for implementing search from history etc) and then merge them into a single application. The interviewer gave hints whenever I got stuck.
+After this, he asked me certain questions about OS, mainly revolving around Semaphores and Dining Philosophers Problem. I wasn’t asked to code anything throughout the round.
+Technical Round – 2:
+The round started with a detailed discussion about my Parallel Computing project – “Parallel Inverted Index”. Then the interviewer asked me about my strongest programming language (which is Java in my case) and asked a lot of questions about the internal implementations of the language including whether it’s compiled or interpreted, JVM byte code interpreter,   static functions, scopes, packages, inheritance, interfaces, abstract classes etc. It is strongly advised to know atleast one language thoroughly (preferably C++ or Java). Studying about “Principles Of Programming Languages” may also help.
+This was followed by a string of questions from Database Systems including primary key, candidate keys, super keys, 1NF, 2NF, 3NF, Multi-valued Dependencies, as well as indexing techniques including Hashing and B-Trees. Always prepare Database Systems thoroughly for DE Shaw interview, since they ask a lot of questions from this subject for almost every candidate. (Don’t remember SQL, just have an idea of what all type of queries are there). Preparing Design Patterns from OOP is also recommended.
+HR Round:
+He asked me to give a detailed description about myself. This went for about 15 minutes. Then he asked me how was my experience with Liv.AI (where I did my summer internship). Then he asked me to tell him about the the project I found most interesting during my college life and what were the challenges I faced while working on it, but explain it in common man’s language (without going into it’s technicalities). Then, he asked me why would I want to join DE Shaw (or any other job for that matter) and not go for higher education. After all this, he explained me about the work culture at DE Shaw and what would be expected from me as a software developer if they hire me.
+The interview process went for about 3 hours and 2 students were finally selected.
+Important Courses:
+These courses are must to know for DE Shaw interview:
