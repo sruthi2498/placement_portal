@@ -1,0 +1,11 @@
+{
+        "Company": [{"type":"Text"}],
+        "Address": [{"type":"Text"}],
+        "Branch": [{"type":"Radio"},{"values":["CSE","ISE"]}],
+        "Date": [{"type":"Text"}],
+        "CTC": [{"type":"Text"}],
+        "Job Description": [{"type":"Text"}],
+        "Eligibilty": [{"type":"Text"}],
+        "Online Test Platform": [{"type":"Text"}],
+        "Number of Rounds": [{"type":"Text"}]
+}

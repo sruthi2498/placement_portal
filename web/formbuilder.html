@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="js/angular.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/formbuilder.js"></script>
+
+<link rel="stylesheet" href="css/formbuilder.css">
+
+<body>
+        <div ng-app="myApp" ng-controller="myCtrl">
+                <form id="preview" style="float: left; width: 50%" action="company.php" method="GET" ng-init="load()">
+                        <input type = submit />
+                </form>
+
+                <div id="create">
+                        <button class="open-button" onclick="openSelector()">Add New</button>
+
+                        <div class="form-popup" id="myForm">
+                                <form class="form-container" ng-submit="newElement()">
+                                        <h1>New Form Element</h1>
+
+                                        <label for="Question"><b>What would you like to ask?</b></label>
+                                        <input type="text" placeholder="Enter Field" name="que" ng-model="elem.que" required>
+
+                                        <b>Response Type</b>
+                                        <br /><br />
+                                        <div class="styled-select slate semi-square">
+                                          <select ng-init="elem.res=Text" ng-model="elem.res">
+                                            <option selected>Text</option>
+                                            <option >Radio</option>
+                                            <option>Checkbox</option>
+                                            <option>Date</option>
+                                          </select>
+                                        </div>
+                                        <input type="number" min="1" value=1 ng-show="checkMultiple()">
+                                        <br />
+                                        <br />
+
+                                        <button type="submit" class="btn">Add to Form</button>
+                                        <button type="button" class="btn cancel" onclick="closeSelector()">Close</button>
+                                </form>
+                        </div>
+
+                </div>
+        </div>
+
+
+</body>
+
+
+
+</html>
